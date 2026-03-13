@@ -46,6 +46,11 @@ node scripts/fetch-tecdoc.js
 <script src="https://autonahariya-a11y.github.io/tecdoc-data/widget.js"></script>
 ```
 
+### 5. הגדר Secret ל-GitHub Actions
+לך ל-Settings → Secrets and variables → Actions → New repository secret
+Name: `APIFY_TOKEN`
+Value: הטוקן שלך מ-Apify
+
 ## עדכון אוטומטי
 GitHub Actions מריץ את הסקריפט אוטומטית כל שבוע (יום ראשון).
 אפשר גם להריץ ידנית: Actions → Update TecDoc Data → Run workflow.
