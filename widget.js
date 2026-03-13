@@ -179,9 +179,9 @@
     var html = '';
 
     html += '<div class="tw-tabs">';
-    html += '<button class="tw-tab active" data-tab="specs">\u05DE\u05E4\u05E8\u05D8 \u05D8\u05DB\u05E0\u05D9</button>';
-    html += '<button class="tw-tab" data-tab="vehicles">\u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD</button>';
-    html += '<button class="tw-tab" data-tab="oe">\u05DE\u05E1\u05E4\u05E8\u05D9 OE</button>';
+    html += '<button type="button" class="tw-tab active" data-tab="specs">\u05DE\u05E4\u05E8\u05D8 \u05D8\u05DB\u05E0\u05D9</button>';
+    html += '<button type="button" class="tw-tab" data-tab="vehicles">\u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD</button>';
+    html += '<button type="button" class="tw-tab" data-tab="oe">\u05DE\u05E1\u05E4\u05E8\u05D9 OE</button>';
     html += '</div>';
 
     /* TAB 1: Specs */
@@ -286,7 +286,7 @@
 
   function bindTabs(w) {
     var tabs=w.querySelectorAll('.tw-tab');
-    for (var i=0;i<tabs.length;i++) tabs[i].addEventListener('click',function(){
+    for (var i=0;i<tabs.length;i++) tabs[i].addEventListener('click',function(e){e.preventDefault();e.stopPropagation();
       for (var j=0;j<tabs.length;j++) tabs[j].classList.remove('active');
       this.classList.add('active');
       var t=this.getAttribute('data-tab'), cs=w.querySelectorAll('.tw-content');
