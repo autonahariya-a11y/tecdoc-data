@@ -1,8 +1,7 @@
-/* TecDoc Widget v6 — Cached Mode (Instant Load)
-   Loads pre-fetched TecDoc data from a JSON file on GitHub Pages.
+/* TecDoc Widget v7 — Autodoc-Exact Layout
+   Vertical sections (no tabs): Description → Vehicle Compatibility → OE Numbers
+   Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API if article not found in cache.
-   
-   Configuration: set TECDOC_BASE_URL to your GitHub Pages URL.
 */
 (function () {
   'use strict';
@@ -12,6 +11,9 @@
   var CACHE_URL = BASE_URL + '/data/';
   var APIFY_TOKEN = window.TECDOC_APIFY_TOKEN || '';
   var API_URL = APIFY_TOKEN ? 'https://api.apify.com/v2/acts/making-data-meaningful~tecdoc/run-sync-get-dataset-items?token=' + APIFY_TOKEN + '&timeout=120' : '';
+
+  /* How many spec rows to show before "More ▼" */
+  var SPECS_VISIBLE = 6;
 
   /* ── Hebrew translations ── */
   var SPEC_TR = {
@@ -44,7 +46,22 @@
     'for PR number': '\u05DC\u05DE\u05E1\u05E4\u05E8 PR',
     'Manufacturer': '\u05D9\u05E6\u05E8\u05DF', 'EAN number': '\u05DE\u05E1\u05E4\u05E8 EAN',
     'Item number': '\u05DE\u05E7"\u05D8', 'directional': '\u05DB\u05D9\u05D5\u05D5\u05E0\u05D9',
-    'Paired product': '\u05DE\u05D5\u05E6\u05E8 \u05DE\u05EA\u05D0\u05D9\u05DD'
+    'Paired product': '\u05DE\u05D5\u05E6\u05E8 \u05DE\u05EA\u05D0\u05D9\u05DD',
+    'Number of wear indicators [per axle]': '\u05DE\u05E1\u05E4\u05E8 \u05D7\u05D9\u05D9\u05E9\u05E0\u05D9 \u05D1\u05DC\u05D0\u05D9 \u05DC\u05E1\u05E8\u05DF',
+    'Warning Contact Length [mm]': '\u05D0\u05D5\u05E8\u05DA \u05D7\u05D9\u05D9\u05E9\u05DF [\u05DE"\u05DE]',
+    'Supplementary Article/Info 2': '\u05DE\u05D9\u05D3\u05E2 \u05DE\u05E9\u05DC\u05D9\u05DD 2',
+    'Supplementary Article/Info': '\u05DE\u05D9\u05D3\u05E2 \u05DE\u05E9\u05DC\u05D9\u05DD',
+    'Axle version': '\u05D2\u05E8\u05E1\u05EA \u05E1\u05E8\u05DF',
+    'Pad Thickness [mm]': '\u05E2\u05D5\u05D1\u05D9 \u05E8\u05E4\u05D9\u05D3\u05D4 [\u05DE"\u05DE]',
+    'Pad Thickness 1 [mm]': '\u05E2\u05D5\u05D1\u05D9 \u05E8\u05E4\u05D9\u05D3\u05D4 1 [\u05DE"\u05DE]',
+    'with accessories': '\u05E2\u05DD \u05D0\u05D1\u05D9\u05D6\u05E8\u05D9\u05DD',
+    'Number per Axle': '\u05DB\u05DE\u05D5\u05EA \u05DC\u05E1\u05E8\u05DF',
+    'Packing Type': '\u05E1\u05D5\u05D2 \u05D0\u05E8\u05D9\u05D6\u05D4',
+    'Vehicle Equipment': '\u05E6\u05D9\u05D5\u05D3 \u05E8\u05DB\u05D1',
+    'Check Character': '\u05EA\u05D5 \u05D1\u05D3\u05D9\u05E7\u05D4',
+    'MAPP': 'MAPP',
+    'Spring/Clamp': '\u05E7\u05E4\u05D9\u05E5/\u05DE\u05D4\u05D3\u05E7',
+    'Coating': '\u05E6\u05D9\u05E4\u05D5\u05D9'
   };
 
   var VAL_TR = {
@@ -131,7 +148,6 @@
       itemSpecs.parentNode.insertBefore(widget2, itemSpecs.nextSibling);
       return widget2;
     }
-    /* Fallback: create a new section if #item_specifications doesn't exist */
     var anchors = [
       document.getElementById('item_content'),
       document.getElementById('item_also_buy'),
@@ -173,55 +189,66 @@
     w.innerHTML = '<div class="tw-error"><div class="tw-error-icon">\u26A0</div><div>'+esc(msg)+'</div></div>';
   }
 
-  /* ═══ RENDER ═══ */
+  /* ═══ RENDER — Autodoc Vertical Sections ═══ */
   function render() {
     var w = getWidget(); if (!w) return;
     var html = '';
 
-    html += '<div class="tw-tabs">';
-    html += '<button type="button" class="tw-tab active" data-tab="specs">\u05DE\u05E4\u05E8\u05D8 \u05D8\u05DB\u05E0\u05D9</button>';
-    html += '<button type="button" class="tw-tab" data-tab="vehicles">\u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD</button>';
-    html += '<button type="button" class="tw-tab" data-tab="oe">\u05DE\u05E1\u05E4\u05E8\u05D9 OE</button>';
-    html += '</div>';
-
-    /* TAB 1: Specs */
-    html += '<div class="tw-content active" id="tw-tab-specs">';
-    if (!D.specs.length) {
+    /* ── SECTION 1: Description / Specs ── */
+    html += '<div class="tw-section tw-desc-section">';
+    html += '<div class="tw-section-title">\u05EA\u05D9\u05D0\u05D5\u05E8</div>';
+    if (!D.specs.length && !D.articleNo && !D.supplier && !D.ean) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
     } else {
-      html += '<table class="tw-specs-table">';
+      /* Build spec rows: TecDoc specs + article/supplier/EAN */
+      var allSpecs = [];
       for (var i = 0; i < D.specs.length; i++) {
-        var s = D.specs[i];
-        html += '<tr><td>'+esc(trSpec(s.criteriaName))+'</td><td>'+esc(trVal(s.criteriaName,s.criteriaValue))+'</td></tr>';
+        allSpecs.push({ name: trSpec(D.specs[i].criteriaName), value: trVal(D.specs[i].criteriaName, D.specs[i].criteriaValue) });
       }
-      if (D.articleNo) html += '<tr><td>\u05DE\u05E7"\u05D8</td><td>'+esc(D.articleNo)+'</td></tr>';
-      if (D.supplier) html += '<tr><td>\u05D9\u05E6\u05E8\u05DF</td><td>'+esc(D.supplier)+'</td></tr>';
-      if (D.ean) html += '<tr><td>\u05DE\u05E1\u05E4\u05E8 EAN</td><td>'+esc(D.ean)+'</td></tr>';
+      if (D.articleNo) allSpecs.push({ name: '\u05DE\u05E7"\u05D8', value: D.articleNo });
+      if (D.supplier) allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF', value: D.supplier });
+      if (D.ean) allSpecs.push({ name: '\u05DE\u05E1\u05E4\u05E8 EAN', value: D.ean });
+
+      var hasHidden = allSpecs.length > SPECS_VISIBLE;
+      html += '<table class="tw-specs-table" id="tw-specs-tbl">';
+      for (var si = 0; si < allSpecs.length; si++) {
+        var cls = si >= SPECS_VISIBLE ? ' class="tw-spec-hidden"' : '';
+        html += '<tr'+cls+'><td>'+esc(allSpecs[si].name)+':</td><td>'+esc(allSpecs[si].value)+'</td></tr>';
+      }
       html += '</table>';
+
+      if (hasHidden) {
+        html += '<div class="tw-more-wrap"><button type="button" class="tw-more-btn" id="tw-more-toggle">\u05E2\u05D5\u05D3 <span class="tw-arrow">\u25BC</span></button></div>';
+      }
     }
     html += '</div>';
 
-    /* TAB 2: Vehicles */
-    html += '<div class="tw-content" id="tw-tab-vehicles"><div class="tw-compat-section">';
+    /* ── SECTION 2: Vehicle Compatibility ── */
+    html += '<div class="tw-section tw-compat-section">';
+    html += '<div class="tw-compat-header">';
+    html += '<span class="tw-compat-icon">\uD83D\uDE97</span>';
+    html += '<span class="tw-compat-title">\u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD</span>';
+    html += '</div>';
+
     if (!D.vehicles.length) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05E8\u05DB\u05D1\u05D9\u05DD \u05EA\u05D5\u05D0\u05DE\u05D9\u05DD</div>';
     } else {
       var tree = buildTree(D.vehicles);
       html += '<div class="tw-accordion">';
       var mKeys = Object.keys(tree).sort();
-      for (var mk=0; mk<mKeys.length; mk++) {
-        var mfr=mKeys[mk], models=tree[mfr];
-        html += '<div class="tw-acc-l1"><div class="tw-acc-l1-header" data-level="1"><span class="tw-acc-icon">+</span><span class="tw-acc-l1-name">'+esc(mfr)+'</span></div><div class="tw-acc-l1-body">';
+      for (var mk = 0; mk < mKeys.length; mk++) {
+        var mfr = mKeys[mk], models = tree[mfr];
+        html += '<div class="tw-acc-l1"><div class="tw-acc-l1-header" data-level="1"><span class="tw-acc-icon">+</span><span class="tw-acc-l1-name">' + esc(mfr) + '</span></div><div class="tw-acc-l1-body">';
         var mdKeys = Object.keys(models).sort();
-        for (var mi=0; mi<mdKeys.length; mi++) {
-          var mn=mdKeys[mi], md=models[mn];
-          html += '<div class="tw-acc-l2"><div class="tw-acc-l2-header" data-level="2"><span class="tw-acc-icon">+</span><span class="tw-acc-l2-name">'+esc(mn)+'</span>';
-          if (md.years) html += '<span class="tw-acc-l2-years">('+esc(md.years)+')</span>';
+        for (var mi = 0; mi < mdKeys.length; mi++) {
+          var mn = mdKeys[mi], md = models[mn];
+          html += '<div class="tw-acc-l2"><div class="tw-acc-l2-header" data-level="2"><span class="tw-acc-icon">+</span><span class="tw-acc-l2-name">' + esc(mn) + '</span>';
+          if (md.years) html += '<span class="tw-acc-l2-years">(' + esc(md.years) + ')</span>';
           html += '</div><div class="tw-acc-l2-body">';
-          for (var ei=0; ei<md.engines.length; ei++) {
-            var e=md.engines[ei];
-            html += '<div class="tw-acc-l3"><span class="tw-acc-l3-engine">'+esc(e.name)+'</span>';
-            if (e.years) html += '<span class="tw-acc-l3-separator">,</span> <span class="tw-acc-l3-years">'+esc(e.years)+'</span>';
+          for (var ei = 0; ei < md.engines.length; ei++) {
+            var e = md.engines[ei];
+            html += '<div class="tw-acc-l3"><span class="tw-acc-l3-engine">' + esc(e.name) + '</span>';
+            if (e.years) html += '<span class="tw-acc-l3-separator">,</span> <span class="tw-acc-l3-years">' + esc(e.years) + '</span>';
             html += '</div>';
           }
           html += '</div></div>';
@@ -230,78 +257,89 @@
       }
       html += '</div>';
     }
-    html += '</div></div>';
+    html += '</div>';
 
-    /* TAB 3: OE Numbers */
-    html += '<div class="tw-content" id="tw-tab-oe"><div class="tw-oe-section">';
+    /* ── SECTION 3: OE Numbers (accordion with +/- per brand) ── */
+    html += '<div class="tw-section tw-oe-section">';
+    html += '<div class="tw-oe-header">';
+    html += '<div class="tw-oe-title">\u05DE\u05E1\u05E4\u05E8\u05D9 OE</div>';
+    html += '<div class="tw-oe-subtitle">\u05DE\u05E1\u05E4\u05E8\u05D9 OE \u05DE\u05E7\u05D1\u05D9\u05DC\u05D9\u05DD \u05DC\u05DE\u05E1\u05E4\u05E8 \u05D7\u05DC\u05E7 \u05D4\u05D7\u05D9\u05DC\u05D5\u05E3 \u05D4\u05DE\u05E7\u05D5\u05E8\u05D9:</div>';
+    html += '</div>';
+
     if (!D.oe.length) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E1\u05E4\u05E8\u05D9 OE</div>';
     } else {
+      /* Group OE by brand for accordion display */
       var byBrand = {};
-      for (var oi=0; oi<D.oe.length; oi++) {
-        var o=D.oe[oi], brand=o.oemBrand||'Other';
-        if (!byBrand[brand]) byBrand[brand]=[];
-        if (byBrand[brand].indexOf(o.oemDisplayNo)===-1) byBrand[brand].push(o.oemDisplayNo);
+      for (var oi = 0; oi < D.oe.length; oi++) {
+        var o = D.oe[oi], brand = o.oemBrand || 'Other';
+        if (!byBrand[brand]) byBrand[brand] = [];
+        if (byBrand[brand].indexOf(o.oemDisplayNo) === -1) byBrand[brand].push(o.oemDisplayNo);
       }
-      html += '<div class="tw-accordion">';
+      html += '<div class="tw-accordion" style="margin-top:14px">';
       var bKeys = Object.keys(byBrand).sort();
-      for (var bi=0; bi<bKeys.length; bi++) {
-        var bn=bKeys[bi], nums=byBrand[bn];
-        html += '<div class="tw-acc-l1"><div class="tw-acc-l1-header" data-level="1"><span class="tw-acc-icon">+</span><span class="tw-acc-l1-name">'+esc(bn)+'</span><span class="tw-acc-l2-years">('+nums.length+')</span></div><div class="tw-acc-l1-body">';
-        for (var ni=0; ni<nums.length; ni++) {
-          html += '<div class="tw-oe-acc-item"><span class="tw-oe-acc-num">'+esc(nums[ni])+'</span></div>';
+      for (var bi = 0; bi < bKeys.length; bi++) {
+        var bn = bKeys[bi], nums = byBrand[bn];
+        html += '<div class="tw-acc-l1"><div class="tw-acc-l1-header" data-level="1"><span class="tw-acc-icon">+</span><span class="tw-acc-l1-name">' + esc(bn) + '</span><span class="tw-acc-l2-years">(' + nums.length + ')</span></div><div class="tw-acc-l1-body">';
+        for (var ni = 0; ni < nums.length; ni++) {
+          html += '<div class="tw-oe-acc-item"><span class="tw-oe-acc-num">' + esc(nums[ni]) + '</span></div>';
         }
         html += '</div></div>';
       }
       html += '</div>';
       html += '<div class="tw-oe-info">\u05DE\u05E1\u05E4\u05E8\u05D9 \u05D4-OE \u05DE\u05E9\u05DE\u05E9\u05D9\u05DD \u05DC\u05D4\u05E9\u05D5\u05D5\u05D0\u05D4 \u05D1\u05DC\u05D1\u05D3. \u05D9\u05E9 \u05DC\u05D5\u05D5\u05D3\u05D0 \u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1 \u05D4\u05E1\u05E4\u05E6\u05D9\u05E4\u05D9 \u05DC\u05E4\u05E0\u05D9 \u05E8\u05DB\u05D9\u05E9\u05D4.</div>';
     }
-    html += '</div></div>';
+    html += '</div>';
 
     html += '<div class="tw-footer"><span>\u05E0\u05EA\u05D5\u05E0\u05D9\u05DD \u05DE-TecDoc\u00AE Catalogue</span></div>';
 
     w.innerHTML = html;
-    bindTabs(w);
     bindAccordions(w);
+    bindMoreToggle(w);
   }
 
   function buildTree(vehicles) {
     var tree = {};
-    for (var i=0; i<vehicles.length; i++) {
-      var v=vehicles[i], mfr=v.manufacturerName||'Other', model=v.modelName||'Unknown';
-      var sd=fmtDate(v.constructionIntervalStart), ed=fmtDate(v.constructionIntervalEnd);
-      var yr = (sd||ed) ? (sd||'?')+' - '+(ed||'?') : '';
-      if (!tree[mfr]) tree[mfr]={};
-      if (!tree[mfr][model]) tree[mfr][model]={years:yr, ys:v.constructionIntervalStart||'', ye:v.constructionIntervalEnd||'', engines:[]};
-      if (v.constructionIntervalStart && (!tree[mfr][model].ys || v.constructionIntervalStart<tree[mfr][model].ys)) tree[mfr][model].ys=v.constructionIntervalStart;
-      if (v.constructionIntervalEnd && (!tree[mfr][model].ye || v.constructionIntervalEnd>tree[mfr][model].ye)) tree[mfr][model].ye=v.constructionIntervalEnd;
-      tree[mfr][model].engines.push({name:v.typeEngineName||'', years:yr});
+    for (var i = 0; i < vehicles.length; i++) {
+      var v = vehicles[i], mfr = v.manufacturerName || 'Other', model = v.modelName || 'Unknown';
+      var sd = fmtDate(v.constructionIntervalStart), ed = fmtDate(v.constructionIntervalEnd);
+      var yr = (sd || ed) ? (sd || '?') + ' - ' + (ed || '?') : '';
+      if (!tree[mfr]) tree[mfr] = {};
+      if (!tree[mfr][model]) tree[mfr][model] = { years: yr, ys: v.constructionIntervalStart || '', ye: v.constructionIntervalEnd || '', engines: [] };
+      if (v.constructionIntervalStart && (!tree[mfr][model].ys || v.constructionIntervalStart < tree[mfr][model].ys)) tree[mfr][model].ys = v.constructionIntervalStart;
+      if (v.constructionIntervalEnd && (!tree[mfr][model].ye || v.constructionIntervalEnd > tree[mfr][model].ye)) tree[mfr][model].ye = v.constructionIntervalEnd;
+      tree[mfr][model].engines.push({ name: v.typeEngineName || '', years: yr });
     }
-    Object.keys(tree).forEach(function(m){ Object.keys(tree[m]).forEach(function(md){
-      var d=tree[m][md], s=fmtDate(d.ys), e=fmtDate(d.ye);
-      if (s||e) d.years=(s||'?')+' - '+(e||'?');
-    });});
+    Object.keys(tree).forEach(function(m) {
+      Object.keys(tree[m]).forEach(function(md) {
+        var d = tree[m][md], s = fmtDate(d.ys), e = fmtDate(d.ye);
+        if (s || e) d.years = (s || '?') + ' - ' + (e || '?');
+      });
+    });
     return tree;
   }
 
-  function bindTabs(w) {
-    var tabs=w.querySelectorAll('.tw-tab');
-    for (var i=0;i<tabs.length;i++) tabs[i].addEventListener('click',function(e){e.preventDefault();e.stopPropagation();
-      for (var j=0;j<tabs.length;j++) tabs[j].classList.remove('active');
-      this.classList.add('active');
-      var t=this.getAttribute('data-tab'), cs=w.querySelectorAll('.tw-content');
-      for (var c=0;c<cs.length;c++) cs[c].classList.remove('active');
-      var el=document.getElementById('tw-tab-'+t);
-      if (el) el.classList.add('active');
-    });
+  function bindAccordions(w) {
+    var hs = w.querySelectorAll('.tw-acc-l1-header,.tw-acc-l2-header');
+    for (var i = 0; i < hs.length; i++) {
+      hs[i].addEventListener('click', function() {
+        var p = this.parentElement, ic = this.querySelector('.tw-acc-icon'), open = p.classList.contains('tw-open');
+        p.classList.toggle('tw-open');
+        if (ic) ic.textContent = open ? '+' : '\u2212';
+      });
+    }
   }
 
-  function bindAccordions(w) {
-    var hs=w.querySelectorAll('.tw-acc-l1-header,.tw-acc-l2-header');
-    for (var i=0;i<hs.length;i++) hs[i].addEventListener('click',function(){
-      var p=this.parentElement, ic=this.querySelector('.tw-acc-icon'), open=p.classList.contains('tw-open');
-      p.classList.toggle('tw-open');
-      if (ic) ic.textContent=open?'+':'-';
+  function bindMoreToggle(w) {
+    var btn = w.querySelector('#tw-more-toggle');
+    if (!btn) return;
+    var tbl = w.querySelector('#tw-specs-tbl');
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var expanded = tbl.classList.toggle('tw-expanded');
+      btn.classList.toggle('tw-expanded', expanded);
+      btn.innerHTML = expanded ? '\u05E4\u05D7\u05D5\u05EA <span class="tw-arrow">\u25B2</span>' : '\u05E2\u05D5\u05D3 <span class="tw-arrow">\u25BC</span>';
     });
   }
 
@@ -320,12 +358,9 @@
     return tryCache(0);
   }
 
-  /* ── Generate article number variations for TecDoc lookup ── */
   function articleVariations(artNo) {
     var variations = [artNo];
-    /* Try adding spaces: P85126 → P 85 126, AB12345 → AB 12345 */
     var spaced = artNo.replace(/([A-Za-z]+)(\d+)/g, function(m, letters, digits) {
-      /* Split digits into groups: 85126 → 85 126 (2+3), 12345 → 12345 */
       var d = digits;
       if (d.length === 5) d = d.slice(0,2) + ' ' + d.slice(2);
       else if (d.length === 6) d = d.slice(0,2) + ' ' + d.slice(2,4) + ' ' + d.slice(4);
@@ -333,9 +368,7 @@
       return letters + ' ' + d;
     });
     if (spaced !== artNo) variations.push(spaced);
-    /* Try with dots instead of spaces */
     if (artNo.indexOf('.') > -1) variations.push(artNo.replace(/\./g, ' '));
-    /* Try without any separators */
     var nospace = artNo.replace(/[\s.-]/g, '');
     if (nospace !== artNo) variations.push(nospace);
     return variations;
@@ -345,7 +378,7 @@
   function loadFromAPI(articleNo) {
     if (!API_URL) return Promise.reject('no_token');
     var variations = articleVariations(articleNo);
-    
+
     function tryVariation(idx) {
       if (idx >= variations.length) return Promise.reject('no_results');
       return api({
@@ -359,7 +392,7 @@
         return data;
       });
     }
-    
+
     return tryVariation(0).then(function(data) {
       if (!data || !data.length || !data[0].articles || !data[0].articles.length) {
         return Promise.reject('no_results');
@@ -415,13 +448,11 @@
 
     showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
 
-    /* Try cache first (instant), fall back to live API */
     loadFromCache(articleNo)
       .then(function(data) {
         applyData(data);
       })
       .catch(function() {
-        /* Not in cache — try live API */
         showLoading('\u05E9\u05DC\u05D1 1 \u05DE\u05EA\u05D5\u05DA 2 \u2014 \u05DE\u05D7\u05E4\u05E9 \u05E8\u05DB\u05D1\u05D9\u05DD \u05EA\u05D5\u05D0\u05DE\u05D9\u05DD...', 20);
         return loadFromAPI(articleNo)
           .then(function(data) {
