@@ -1,0 +1,604 @@
+{
+  "articleNo": "P 56 106",
+  "articleId": 8360302,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 24379,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 D",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26815,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid AWD",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26859,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105688,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108724,
+      "modelId": 13347,
+      "manufacturerName": "INFINITI (DFAC)",
+      "modelName": "Q50L (V37Z)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112185,
+      "modelId": 13958,
+      "manufacturerName": "INFINITI (DFAC)",
+      "modelName": "QX50 (J50Z)",
+      "typeEngineName": "2.5 All-wheel Drive",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122514,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124290,
+      "modelId": 37356,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (_V37)",
+      "typeEngineName": "200GT (YV37, ZV37)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124291,
+      "modelId": 37356,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (_V37)",
+      "typeEngineName": "350GT Hybrid (HV37)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124292,
+      "modelId": 37356,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (_V37)",
+      "typeEngineName": "350GT FOUR Hybrid All-wheel Drive (HNV37)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125349,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 dCi (T32)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125350,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 dCi ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126029,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126717,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127085,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 dCi 175 4WD",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127965,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 dCi 175 (HCAK)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131648,
+      "modelId": 38769,
+      "manufacturerName": "INFINITI (DFAC)",
+      "modelName": "QX50 (J55Z)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131649,
+      "modelId": 38769,
+      "manufacturerName": "INFINITI (DFAC)",
+      "modelName": "QX50 (J55Z)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134027,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid AWD",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134028,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136072,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136073,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi ALL MODE 4x4-i",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136650,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136651,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi ALL MODE 4x4-i",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136652,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136653,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi ALL MODE 4x4-i",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137194,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "1.7 BLUE dCi 150 (HCA7)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137723,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 BLUE dCi 190 4WD (HCAN)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138663,
+      "modelId": 40176,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 II",
+      "typeEngineName": "2.0 (J55)",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138664,
+      "modelId": 40176,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 II",
+      "typeEngineName": "2.0 AWD (J55)",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144374,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 BLUE DCI 185 (HCAN)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144375,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 BLUE DCI 185 4WD (HCAN)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144435,
+      "modelId": 41990,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX55 (J55)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145365,
+      "modelId": 38769,
+      "manufacturerName": "INFINITI (DFAC)",
+      "modelName": "QX50 (J55Z)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 149037,
+      "modelId": 41990,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX55 (J55)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2022-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105675,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "3.7 V6 VVEL",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106464,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 dCi (T32)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106465,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 dCi ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107383,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 (T32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107384,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109636,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 (T32)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116533,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 DIG-T (T32)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121370,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 121518,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122612,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.5 All-wheel Drive",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 123498,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 (T32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124049,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134058,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136074,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.3 DIG-T",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141601,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.0 2WD",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141602,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.5 4WD",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145046,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.3 DIG-T",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121986,
+      "modelId": 36966,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Coupe",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "152"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "62"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Akebono"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "22117"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "22118"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "22119"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "410607185R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "410608710R"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS170"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS185"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS943"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10603WU0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10604CC0A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10604GA0A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10604GA0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10604GA0J"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10604GA5A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10604GS1B"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10605NA0A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10605NA0B"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10605VG0B"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10606HH0C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10607DA0A"
+    }
+  ],
+  "ean": "8020584084014",
+  "originalSKU": "P56106",
+  "fetchedAt": "2026-03-13T22:23:37.949Z"
+}

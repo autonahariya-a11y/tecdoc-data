@@ -1,0 +1,694 @@
+{
+  "articleNo": "P 56 070",
+  "articleId": 8360275,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 3486,
+      "modelId": 10657,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "MARCH (K13)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7043,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-09-01"
+    },
+    {
+      "vehicleId": 7050,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2 DIG-S",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 7805,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-09-01"
+    },
+    {
+      "vehicleId": 12504,
+      "modelId": 9839,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "SUNNY (N17)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12558,
+      "modelId": 10077,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LIVINA MPV (L10_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 12564,
+      "modelId": 9849,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LIVINA C-GEAR (NL10Z)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 23468,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.8 (JC11)",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23994,
+      "modelId": 8089,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY CLASSIC (G11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 23995,
+      "modelId": 8089,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY CLASSIC (G11)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 23996,
+      "modelId": 8091,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "GENISS / LIVINA GENISS MPV (L10_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 25263,
+      "modelId": 6921,
+      "manufacturerName": "NISSAN",
+      "modelName": "LATIO Saloon (N17)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29842,
+      "modelId": 38740,
+      "manufacturerName": "DONGFENG (DFAC)",
+      "modelName": "YUMSUN",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31481,
+      "modelId": 6920,
+      "manufacturerName": "NISSAN",
+      "modelName": "LATIO Saloon (C11)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31639,
+      "modelId": 7842,
+      "manufacturerName": "NISSAN (ZHENGZHOU)",
+      "modelName": "YUXUAN MPV",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 51951,
+      "modelId": 11266,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALMERA (N17)",
+      "typeEngineName": "1.6 Flex",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 52105,
+      "modelId": 9623,
+      "manufacturerName": "NISSAN",
+      "modelName": "LIVINA / GRAND LIVINA (L10, L11)",
+      "typeEngineName": "1.6 (L10L, NTL10L)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 54743,
+      "modelId": 11577,
+      "manufacturerName": "NISSAN",
+      "modelName": "VERSA II (N17_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55272,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56927,
+      "modelId": 10783,
+      "manufacturerName": "VENUCIA",
+      "modelName": "D50",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56928,
+      "modelId": 10782,
+      "manufacturerName": "VENUCIA",
+      "modelName": "R50",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57280,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-09-01"
+    },
+    {
+      "vehicleId": 59390,
+      "modelId": 11266,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALMERA (N17)",
+      "typeEngineName": "1.5 i",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100994,
+      "modelId": 11934,
+      "manufacturerName": "VENUCIA",
+      "modelName": "R50X",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107386,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 107632,
+      "modelId": 11577,
+      "manufacturerName": "NISSAN",
+      "modelName": "VERSA II (N17_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109216,
+      "modelId": 10077,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LIVINA MPV (L10_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 109654,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2015-09-01"
+    },
+    {
+      "vehicleId": 111453,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2 Active",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111905,
+      "modelId": 11266,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALMERA (N17)",
+      "typeEngineName": "1.2 i",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114676,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2 4WD",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114678,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.5 NISMO S",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114681,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.5 16V",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 115172,
+      "modelId": 11266,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALMERA (N17)",
+      "typeEngineName": "1.0 Flex",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 115407,
+      "modelId": 14452,
+      "manufacturerName": "NISSAN",
+      "modelName": "SUNNY",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119157,
+      "modelId": 10657,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "MARCH (K13)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121165,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 122417,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123569,
+      "modelId": 11266,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALMERA (N17)",
+      "typeEngineName": "1.5 i",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123654,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.5 16V 4WD",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 123655,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.5 16V",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 123656,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.5 16V",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123944,
+      "modelId": 11226,
+      "manufacturerName": "NISSAN",
+      "modelName": "NOTE (E12)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123961,
+      "modelId": 11266,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALMERA (N17)",
+      "typeEngineName": "1.5 i",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124391,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.5 16V 4WD",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130348,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132654,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-09-01"
+    },
+    {
+      "vehicleId": 134931,
+      "modelId": 9849,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LIVINA C-GEAR (NL10Z)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138383,
+      "modelId": 11266,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALMERA (N17)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139981,
+      "modelId": 11266,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALMERA (N17)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7777,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 23488,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.6 (C11L)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23489,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 55842,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 24001,
+      "modelId": 8268,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24002,
+      "modelId": 8269,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TIIDA Saloon (C11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100122,
+      "modelId": 9848,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LIVINA MPV (L11Z)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57232,
+      "modelId": 9623,
+      "manufacturerName": "NISSAN",
+      "modelName": "LIVINA / GRAND LIVINA (L10, L11)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109633,
+      "modelId": 9623,
+      "manufacturerName": "NISSAN",
+      "modelName": "LIVINA / GRAND LIVINA (L10, L11)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "14"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "139"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "48"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Akebono"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24724"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24725"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24726"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "410600T386"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "41060ED525"
+    },
+    {
+      "oemBrand": "NISSAN (DFAC)",
+      "oemDisplayNo": "41060ED525"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS140"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS149"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS157"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS161"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS167"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS168"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS182"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10601HJ0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10601HL0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10601HL0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10601HM0A"
+    },
+    {
+      "oemBrand": "NISSAN (DFAC)",
+      "oemDisplayNo": "D10601HM0A"
+    },
+    {
+      "oemBrand": "VENUCIA",
+      "oemDisplayNo": "D10601HM0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10603VA9B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10605WK0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060ED500"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060ED51A"
+    },
+    {
+      "oemBrand": "NISSAN (DFAC)",
+      "oemDisplayNo": "D1060ED51A"
+    },
+    {
+      "oemBrand": "VENUCIA",
+      "oemDisplayNo": "D1060ED51A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060EE51A"
+    },
+    {
+      "oemBrand": "NISSAN (DFAC)",
+      "oemDisplayNo": "D1M6M1FA0A"
+    },
+    {
+      "oemBrand": "VENUCIA",
+      "oemDisplayNo": "D1M6M1FA0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1M6M1HJ0A"
+    }
+  ],
+  "ean": "8020584091074",
+  "originalSKU": "P56070",
+  "fetchedAt": "2026-03-13T22:19:18.331Z"
+}
