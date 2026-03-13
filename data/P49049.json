@@ -1,0 +1,103 @@
+{
+  "articleNo": "P49049",
+  "articleId": 8402671,
+  "supplier": "FENNO",
+  "product": "Rear Muffler",
+  "vehicles": [
+    {
+      "vehicleId": 58898,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.2 TCe 120 (BHM0)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 58899,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "1.2 TCe 120 (KHM0)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 59002,
+      "modelId": 11232,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR I (J5_, H5_)",
+      "typeEngineName": "1.2 TCe 120",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113740,
+      "modelId": 11232,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR I (J5_, H5_)",
+      "typeEngineName": "1.2 T",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119493,
+      "modelId": 11232,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR I (J5_, H5_)",
+      "typeEngineName": "1.2 TCe 120",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119495,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.2 TCe 120 (BHAU)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 119497,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "1.2 TCe 120 (KHAU)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 124235,
+      "modelId": 11232,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR I (J5_, H5_)",
+      "typeEngineName": "1.2 T",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "H"
+    },
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "1240"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "4,9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "200105466R"
+    }
+  ],
+  "ean": "6438013490497",
+  "originalSKU": "P49049",
+  "fetchedAt": "2026-03-13T22:21:53.914Z"
+}

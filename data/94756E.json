@@ -1,0 +1,40 @@
+{
+  "articleNo": "94756",
+  "articleId": 5314675,
+  "supplier": "Metalcaucho",
+  "product": "Radiator Hose",
+  "vehicles": [
+    {
+      "vehicleId": 19727,
+      "modelId": 5598,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA D (S07)",
+      "typeEngineName": "1.7 CDTI (L08, L68)",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 33722,
+      "modelId": 5598,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA D (S07)",
+      "typeEngineName": "1.7 CDTI (L08, L68)",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2014-08-01"
+    }
+  ],
+  "specs": [],
+  "oe": [
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "13271847"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "1337654"
+    }
+  ],
+  "ean": "8435108103568",
+  "originalSKU": "94756E",
+  "fetchedAt": "2026-03-13T22:31:16.612Z"
+}

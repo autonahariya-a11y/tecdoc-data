@@ -1,0 +1,49 @@
+{
+  "articleNo": "P34007",
+  "articleId": 8395389,
+  "supplier": "FENNO",
+  "product": "Exhaust Pipe",
+  "vehicles": [
+    {
+      "vehicleId": 14493,
+      "modelId": 4233,
+      "manufacturerName": "MAZDA",
+      "modelName": "PREMACY (CP)",
+      "typeEngineName": "2.0 TD",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2000-07-01"
+    },
+    {
+      "vehicleId": 15800,
+      "modelId": 4233,
+      "manufacturerName": "MAZDA",
+      "modelName": "PREMACY (CP)",
+      "typeEngineName": "2.0 TD",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2005-03-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "V"
+    },
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "500"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "1,8"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "RFC1-40-500B"
+    }
+  ],
+  "ean": "6438013340075",
+  "originalSKU": "P34007",
+  "fetchedAt": "2026-03-13T22:27:45.063Z"
+}
