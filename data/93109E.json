@@ -1,0 +1,69 @@
+{
+  "articleNo": "93109",
+  "articleId": 5275975,
+  "supplier": "WALKER",
+  "product": "Soot/Particulate Filter, exhaust system",
+  "vehicles": [
+    {
+      "vehicleId": 19393,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.9 DDiS All-wheel Drive (JT419, TD44, JB419WD, JB419XD,...",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 122714,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.9 DDiS (JB419WD, JB419XD)",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2008-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Quality",
+      "criteriaValue": "SiC"
+    },
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "700"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "6,2"
+    },
+    {
+      "criteriaName": "Code Letter",
+      "criteriaValue": "92"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "515"
+    },
+    {
+      "criteriaName": "Guarantee",
+      "criteriaValue": "3"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1419067J20H02"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1419067J21H02"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1419067J30H02"
+    }
+  ],
+  "ean": "3277490931092",
+  "originalSKU": "93109E",
+  "fetchedAt": "2026-03-13T22:26:47.999Z"
+}

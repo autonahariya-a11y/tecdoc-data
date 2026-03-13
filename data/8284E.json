@@ -1,0 +1,154 @@
+{
+  "articleNo": "8284",
+  "articleId": 4801430,
+  "supplier": "NGK",
+  "product": "Ignition Cable Kit",
+  "vehicles": [
+    {
+      "vehicleId": 4531,
+      "modelId": 4240,
+      "manufacturerName": "JEEP",
+      "modelName": "WRANGLER I (YJ, SJ_)",
+      "typeEngineName": "4.0",
+      "constructionIntervalStart": "1991-12-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 4600,
+      "modelId": 4243,
+      "manufacturerName": "JEEP",
+      "modelName": "GRAND CHEROKEE I (ZJ, ZG)",
+      "typeEngineName": "4.0 i 4x4 (ZJ)",
+      "constructionIntervalStart": "1992-06-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 5138,
+      "modelId": 4242,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (XJ)",
+      "typeEngineName": "4.0 i 4x4",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 14432,
+      "modelId": 4242,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (XJ)",
+      "typeEngineName": "4.0 i",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 15426,
+      "modelId": 4242,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (XJ)",
+      "typeEngineName": "4.0 i",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 4596,
+      "modelId": 4242,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (XJ)",
+      "typeEngineName": "4.0 i",
+      "constructionIntervalStart": "1991-12-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 4601,
+      "modelId": 4243,
+      "manufacturerName": "JEEP",
+      "modelName": "GRAND CHEROKEE I (ZJ, ZG)",
+      "typeEngineName": "4.0 i 4x4 (ZJ)",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 4597,
+      "modelId": 4242,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (XJ)",
+      "typeEngineName": "4.0 i",
+      "constructionIntervalStart": "1988-01-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 20719,
+      "modelId": 4243,
+      "manufacturerName": "JEEP",
+      "modelName": "GRAND CHEROKEE I (ZJ, ZG)",
+      "typeEngineName": "4.0 Laredo",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 5360,
+      "modelId": 4243,
+      "manufacturerName": "JEEP",
+      "modelName": "GRAND CHEROKEE I (ZJ, ZG)",
+      "typeEngineName": "4.0 i 4x4 (Z)",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 5613,
+      "modelId": 4241,
+      "manufacturerName": "JEEP",
+      "modelName": "WRANGLER II (TJ)",
+      "typeEngineName": "4.0",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2007-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Colour",
+      "criteriaValue": "7"
+    },
+    {
+      "criteriaName": "Vehicle Equipment",
+      "criteriaValue": "183"
+    },
+    {
+      "criteriaName": "Ignition Cable",
+      "criteriaValue": "58"
+    },
+    {
+      "criteriaName": "Number of circuits",
+      "criteriaValue": "7"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "05017059AA"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "83300 156"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "83300 156"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "83505 178"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "83505 178"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "83507178"
+    }
+  ],
+  "ean": "087295082843",
+  "originalSKU": "8284E",
+  "fetchedAt": "2026-03-13T22:30:49.359Z"
+}

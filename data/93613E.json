@@ -1,0 +1,48 @@
+{
+  "articleNo": "93613",
+  "articleId": 5287828,
+  "supplier": "NISSENS",
+  "product": "Charger, charging (supercharged/turbocharged)",
+  "vehicles": [
+    {
+      "vehicleId": 9560,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.2 TD (HDJ100_, HDJ100)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Operating Mode",
+      "criteriaValue": "PN"
+    },
+    {
+      "criteriaName": "Charge Type",
+      "criteriaValue": "5"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "98"
+    },
+    {
+      "criteriaName": "Cooling Type",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Cooling Type",
+      "criteriaValue": "3"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1720117040"
+    }
+  ],
+  "ean": "5707286506862",
+  "originalSKU": "93613E",
+  "fetchedAt": "2026-03-13T22:19:34.921Z"
+}

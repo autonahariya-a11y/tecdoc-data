@@ -1,0 +1,67 @@
+{
+  "articleNo": "8205",
+  "articleId": 4773400,
+  "supplier": "NGK",
+  "product": "Ignition Cable Kit",
+  "vehicles": [
+    {
+      "vehicleId": 2694,
+      "modelId": 15,
+      "manufacturerName": "FIAT",
+      "modelName": "CINQUECENTO (170_)",
+      "typeEngineName": "0.9 i.e. S (170AF, 170CF)",
+      "constructionIntervalStart": "1991-07-01",
+      "constructionIntervalEnd": "1999-07-01"
+    },
+    {
+      "vehicleId": 8969,
+      "modelId": 3399,
+      "manufacturerName": "FIAT",
+      "modelName": "SEICENTO / 600 (187_)",
+      "typeEngineName": "0.9 (187AXA, 187AXA1A)",
+      "constructionIntervalStart": "1997-11-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 14479,
+      "modelId": 15,
+      "manufacturerName": "FIAT",
+      "modelName": "CINQUECENTO (170_)",
+      "typeEngineName": "0.9 (170AB)",
+      "constructionIntervalStart": "1991-07-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 15823,
+      "modelId": 15,
+      "manufacturerName": "FIAT",
+      "modelName": "CINQUECENTO (170_)",
+      "typeEngineName": "0.9 i.e. (170AC)",
+      "constructionIntervalStart": "1991-07-01",
+      "constructionIntervalEnd": "1994-09-01"
+    },
+    {
+      "vehicleId": 16735,
+      "modelId": 4905,
+      "manufacturerName": "FIAT",
+      "modelName": "SEICENTO / 600 Hatchback Van (287_)",
+      "typeEngineName": "0.9 (187AXA)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2010-01-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Colour",
+      "criteriaValue": "7"
+    },
+    {
+      "criteriaName": "Number of circuits",
+      "criteriaValue": "4"
+    }
+  ],
+  "oe": [],
+  "ean": "087295082058",
+  "originalSKU": "8205E",
+  "fetchedAt": "2026-03-13T22:24:12.007Z"
+}

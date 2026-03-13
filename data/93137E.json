@@ -1,0 +1,142 @@
+{
+  "articleNo": "93137",
+  "articleId": 5277566,
+  "supplier": "SIDEM",
+  "product": "Tie Rod End",
+  "vehicles": [
+    {
+      "vehicleId": 16223,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 16224,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "3.7 4x4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 16225,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "2.5 CRD 4x4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 17258,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "2.8 CRD 4x4",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 17737,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "3.7 4x4",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 18793,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "2.8 CRD 4x4",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 45000,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 45002,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "2.8 CRD",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 55917,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "3.7 4x4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 20717,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "2.4 Laredo",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 20718,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "3.7 Laredo",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VR"
+    },
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "125"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "FM16X1,5R"
+    },
+    {
+      "criteriaName": "Cone Size [mm]",
+      "criteriaValue": "14,9"
+    },
+    {
+      "criteriaName": "Thread Size 1",
+      "criteriaValue": "MM14X1,5R"
+    },
+    {
+      "criteriaName": "paired article number",
+      "criteriaValue": "93136"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "5072 444AA"
+    }
+  ],
+  "ean": "5413978255702",
+  "originalSKU": "93137E",
+  "fetchedAt": "2026-03-13T22:29:49.083Z"
+}

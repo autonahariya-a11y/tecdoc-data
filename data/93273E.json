@@ -1,0 +1,165 @@
+{
+  "articleNo": "93273",
+  "articleId": 5282711,
+  "supplier": "NISSENS",
+  "product": "Charger, charging (supercharged/turbocharged)",
+  "vehicles": [
+    {
+      "vehicleId": 14828,
+      "modelId": 2041,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Bus (B903)",
+      "typeEngineName": "316 CDI (903.671, 903.672, 903.673)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 14840,
+      "modelId": 3906,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Van (B903)",
+      "typeEngineName": "316 CDI (903.661, 903.662, 903.663)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 14844,
+      "modelId": 3505,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Platform/Chassis (B903)",
+      "typeEngineName": "316 CDI (903.611, 903.612, 903.613, 903.621, 903.622,...",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 14985,
+      "modelId": 4664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B904)",
+      "typeEngineName": "416 CDI",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 14986,
+      "modelId": 4664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B904)",
+      "typeEngineName": "416 CDI 4x4",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 15000,
+      "modelId": 4663,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B904)",
+      "typeEngineName": "416 CDI",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 15003,
+      "modelId": 4663,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B904)",
+      "typeEngineName": "416 CDI 4x4",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17051,
+      "modelId": 2041,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Bus (B903)",
+      "typeEngineName": "316 CDI 4x4 (903.672, 903.673)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17055,
+      "modelId": 3906,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Van (B903)",
+      "typeEngineName": "316 CDI 4x4 (903.662, 903.663)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17062,
+      "modelId": 3505,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Platform/Chassis (B903)",
+      "typeEngineName": "316 CDI 4x4 (903.612, 903.613, 903.622, 903.623)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2006-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Operating Mode",
+      "criteriaValue": "EL"
+    },
+    {
+      "criteriaName": "Charge Type",
+      "criteriaValue": "5"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "98"
+    },
+    {
+      "criteriaName": "Cooling Type",
+      "criteriaValue": "3"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "5117505AA"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "5142494AA"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "6470900280"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "6470960199"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A6470900280"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A6470960199"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "K05117505AA"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "K05142494AA"
+    },
+    {
+      "oemBrand": "FREIGHTLINER",
+      "oemDisplayNo": "KRL142494AA"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "RL142494AA"
+    },
+    {
+      "oemBrand": "FREIGHTLINER",
+      "oemDisplayNo": "RL142494AA"
+    }
+  ],
+  "ean": "5707286463813",
+  "originalSKU": "93273E",
+  "fetchedAt": "2026-03-13T22:29:25.339Z"
+}

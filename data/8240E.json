@@ -1,0 +1,62 @@
+{
+  "articleNo": "8240",
+  "articleId": 4789114,
+  "supplier": "NGK",
+  "product": "Ignition Cable Kit",
+  "vehicles": [
+    {
+      "vehicleId": 4236,
+      "modelId": 1261,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE III (BA)",
+      "typeEngineName": "2.0 i EX 16V (BA2)",
+      "constructionIntervalStart": "1986-04-01",
+      "constructionIntervalEnd": "1987-12-01"
+    },
+    {
+      "vehicleId": 4242,
+      "modelId": 1277,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE IV (BB_)",
+      "typeEngineName": "2.3 i 16V (BB2)",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 4283,
+      "modelId": 1263,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CC, CD)",
+      "typeEngineName": "2.3 i SR (CD6)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1996-01-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Colour",
+      "criteriaValue": "5"
+    },
+    {
+      "criteriaName": "Vehicle Equipment",
+      "criteriaValue": "183"
+    },
+    {
+      "criteriaName": "Number of circuits",
+      "criteriaValue": "5"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "32700-P14-A00"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "32700-PTO-000"
+    }
+  ],
+  "ean": "087295082409",
+  "originalSKU": "8240E",
+  "fetchedAt": "2026-03-13T22:19:51.068Z"
+}
