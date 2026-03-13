@@ -22,6 +22,8 @@ jobs:
           node-version: '20'
 
       - name: Fetch TecDoc data
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: node scripts/fetch-tecdoc.js
 
       - name: Commit and push updated data
