@@ -1,0 +1,2091 @@
+{
+  "articleNo": "P 83 051",
+  "articleId": 8360835,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 8457,
+      "modelId": 9165,
+      "manufacturerName": "BYD",
+      "modelName": "L3",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 10657,
+      "modelId": 9165,
+      "manufacturerName": "BYD",
+      "modelName": "L3",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12237,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.6 VVTi (ZZE141_)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 12276,
+      "modelId": 9788,
+      "manufacturerName": "BYD",
+      "modelName": "S6",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12277,
+      "modelId": 9788,
+      "manufacturerName": "BYD",
+      "modelName": "S6",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 12278,
+      "modelId": 9789,
+      "manufacturerName": "BYD",
+      "modelName": "G3R Hatchback",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12279,
+      "modelId": 9789,
+      "manufacturerName": "BYD",
+      "modelName": "G3R Hatchback",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12283,
+      "modelId": 8678,
+      "manufacturerName": "BYD",
+      "modelName": "G3 Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 12285,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 12637,
+      "modelId": 8065,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "FLORID",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 12638,
+      "modelId": 9862,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "FLORID CROSS",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12657,
+      "modelId": 9862,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "FLORID CROSS",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12658,
+      "modelId": 9863,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "PERI",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 12728,
+      "modelId": 9866,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "HOVER M1",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 12729,
+      "modelId": 9866,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "HOVER M1",
+      "typeEngineName": "1.3 All-wheel Drive",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 12733,
+      "modelId": 9867,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "HOVER M2",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12734,
+      "modelId": 9867,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "HOVER M2",
+      "typeEngineName": "1.5 All-wheel Drive",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 13663,
+      "modelId": 4419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO (_P2_)",
+      "typeEngineName": "1.3 (NCP20_, NCP22_, NCP20R, NCP22R)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 14535,
+      "modelId": 4590,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MR2 III (ZZW3_)",
+      "typeEngineName": "1.8 16V VT-i (ZZW30)",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 15633,
+      "modelId": 4419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO (_P2_)",
+      "typeEngineName": "1.5 (NCP21_)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 15900,
+      "modelId": 7020,
+      "manufacturerName": "GEELY",
+      "modelName": "VISION Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16365,
+      "modelId": 4419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO (_P2_)",
+      "typeEngineName": "1.4 D-4D (NLP20_, NLP22_)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16382,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.6 VVT-i (ZZE121_, ZZE121R)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 16384,
+      "modelId": 4854,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Verso (_E12_)",
+      "typeEngineName": "1.6 VVT-i (ZZE121_, ZZE121R)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 17705,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.5 (NCP13_, NCP13R)",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 17706,
+      "modelId": 4419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO (_P2_)",
+      "typeEngineName": "1.3 (NCP20_, NCP22_, NCP20R, NCP22R)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17707,
+      "modelId": 4419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO (_P2_)",
+      "typeEngineName": "1.5 (NCP21_)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 19612,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.5 (NCP13_, NCP13R)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 20176,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.8 (ZZE122)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 20179,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "1.8 (ZZE122)",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 20532,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.5 (NZE121)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 20534,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.8 (ZZE122)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 20842,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 VVTi (ZZE122_, ZZE122R)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 21547,
+      "modelId": 11457,
+      "manufacturerName": "ENGLON",
+      "modelName": "SC7",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 22734,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.3 (NZE120_)",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 22780,
+      "modelId": 6252,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALLION I (_T24_)",
+      "typeEngineName": "1.5 (NZT240)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 22802,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.5 G 4WD (ZZE128)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 22864,
+      "modelId": 6252,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALLION I (_T24_)",
+      "typeEngineName": "1.8 (ZZT240)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 22910,
+      "modelId": 6350,
+      "manufacturerName": "FAW (TIANJIN)",
+      "modelName": "VELA",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 22911,
+      "modelId": 6351,
+      "manufacturerName": "FAW (TIANJIN)",
+      "modelName": "VIZI",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 23534,
+      "modelId": 10190,
+      "manufacturerName": "GLEAGLE",
+      "modelName": "GC7",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23558,
+      "modelId": 10190,
+      "manufacturerName": "GLEAGLE",
+      "modelName": "GC7",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 23672,
+      "modelId": 11456,
+      "manufacturerName": "ENGLON",
+      "modelName": "SC6",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 23837,
+      "modelId": 11457,
+      "manufacturerName": "ENGLON",
+      "modelName": "SC7",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 23838,
+      "modelId": 11457,
+      "manufacturerName": "ENGLON",
+      "modelName": "SC7",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23931,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 23932,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 23990,
+      "modelId": 11457,
+      "manufacturerName": "ENGLON",
+      "modelName": "SC7",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24052,
+      "modelId": 6532,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "PRIUS (_W2_)",
+      "typeEngineName": "1.5 Hybrid (NHW20)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 24055,
+      "modelId": 6534,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "VIOS (_P4_)",
+      "typeEngineName": "1.3 (SCP41)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 24057,
+      "modelId": 6534,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "VIOS (_P4_)",
+      "typeEngineName": "1.5 (SCP42)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 24058,
+      "modelId": 6534,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "VIOS (_P4_)",
+      "typeEngineName": "1.5 (AXP42)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 24381,
+      "modelId": 6686,
+      "manufacturerName": "TOYOTA",
+      "modelName": "WILL CYPHA I (NCP7_)",
+      "typeEngineName": "1.3 VVTi (NCP70)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 24382,
+      "modelId": 6686,
+      "manufacturerName": "TOYOTA",
+      "modelName": "WILL CYPHA I (NCP7_)",
+      "typeEngineName": "1.5 VVTi 4WD (NCP75)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 24383,
+      "modelId": 6687,
+      "manufacturerName": "TOYOTA",
+      "modelName": "WILL VS I (_E12_)",
+      "typeEngineName": "1.5 VVTi (NZE127)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2004-04-01"
+    },
+    {
+      "vehicleId": 24631,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.8 (ZZE122)",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 24632,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.5 (NZE141)",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 24948,
+      "modelId": 11448,
+      "manufacturerName": "GLEAGLE",
+      "modelName": "VISION",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 25007,
+      "modelId": 11448,
+      "manufacturerName": "GLEAGLE",
+      "modelName": "VISION",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2011-10-01"
+    },
+    {
+      "vehicleId": 25008,
+      "modelId": 11448,
+      "manufacturerName": "GLEAGLE",
+      "modelName": "VISION",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 25315,
+      "modelId": 6946,
+      "manufacturerName": "TOYOTA",
+      "modelName": "IST (NCP6_)",
+      "typeEngineName": "1.5 VVTi (NCP61_, NCP61)",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 25323,
+      "modelId": 6951,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VIOS / SOLUNA VIOS (_P4_)",
+      "typeEngineName": "1.5 (AXP42_, NCP42_)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 25324,
+      "modelId": 6951,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VIOS / SOLUNA VIOS (_P4_)",
+      "typeEngineName": "1.3 VVTi (AXP41_)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 25325,
+      "modelId": 6951,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VIOS / SOLUNA VIOS (_P4_)",
+      "typeEngineName": "1.5 VVTi (NCP42_)",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 25367,
+      "modelId": 6956,
+      "manufacturerName": "GEELY",
+      "modelName": "KINGKONG",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 25368,
+      "modelId": 6956,
+      "manufacturerName": "GEELY",
+      "modelName": "KINGKONG",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 25369,
+      "modelId": 6956,
+      "manufacturerName": "GEELY",
+      "modelName": "KINGKONG",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 25370,
+      "modelId": 6956,
+      "manufacturerName": "GEELY",
+      "modelName": "KINGKONG",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 25419,
+      "modelId": 6971,
+      "manufacturerName": "FAW (TIANJIN)",
+      "modelName": "WEIZHI Hatchback",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 25679,
+      "modelId": 6946,
+      "manufacturerName": "TOYOTA",
+      "modelName": "IST (NCP6_)",
+      "typeEngineName": "1.3 VVTi (NCP60)",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 25689,
+      "modelId": 6956,
+      "manufacturerName": "GEELY",
+      "modelName": "KINGKONG",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 25742,
+      "modelId": 7020,
+      "manufacturerName": "GEELY",
+      "modelName": "VISION Saloon",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-12-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 26205,
+      "modelId": 7240,
+      "manufacturerName": "TOYOTA",
+      "modelName": "OPA (ZCT1_, ACT1_)",
+      "typeEngineName": "1.8 4WD (ZTC15)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 26206,
+      "modelId": 7240,
+      "manufacturerName": "TOYOTA",
+      "modelName": "OPA (ZCT1_, ACT1_)",
+      "typeEngineName": "1.8 (ZTC10)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 26207,
+      "modelId": 7240,
+      "manufacturerName": "TOYOTA",
+      "modelName": "OPA (ZCT1_, ACT1_)",
+      "typeEngineName": "2.0 (ACT10)",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 26887,
+      "modelId": 11451,
+      "manufacturerName": "ENGLON",
+      "modelName": "KINGKONG",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 26976,
+      "modelId": 11450,
+      "manufacturerName": "ENGLON",
+      "modelName": "JINYING",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 27025,
+      "modelId": 7020,
+      "manufacturerName": "GEELY",
+      "modelName": "VISION Saloon",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27035,
+      "modelId": 6350,
+      "manufacturerName": "FAW (TIANJIN)",
+      "modelName": "VELA",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 27037,
+      "modelId": 6351,
+      "manufacturerName": "FAW (TIANJIN)",
+      "modelName": "VIZI",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 27046,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27047,
+      "modelId": 11451,
+      "manufacturerName": "ENGLON",
+      "modelName": "KINGKONG",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 27480,
+      "modelId": 10767,
+      "manufacturerName": "BYD",
+      "modelName": "G6",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28048,
+      "modelId": 6252,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALLION I (_T24_)",
+      "typeEngineName": "1.8 4WD (ZZT245)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 29587,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 4WD (ZZE124)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 29588,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "1.8 4WD (ZZE121)",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 29843,
+      "modelId": 7843,
+      "manufacturerName": "BYD",
+      "modelName": "F3R Hatchback",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 30273,
+      "modelId": 9788,
+      "manufacturerName": "BYD",
+      "modelName": "S6",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 30310,
+      "modelId": 11450,
+      "manufacturerName": "ENGLON",
+      "modelName": "JINYING",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30312,
+      "modelId": 7880,
+      "manufacturerName": "LIFAN",
+      "modelName": "620",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 31238,
+      "modelId": 8065,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "FLORID",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 31239,
+      "modelId": 8065,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "FLORID",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 31266,
+      "modelId": 7843,
+      "manufacturerName": "BYD",
+      "modelName": "F3R Hatchback",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31345,
+      "modelId": 9867,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "HOVER M2",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31618,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "DM Hybrid 1.0",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32572,
+      "modelId": 7020,
+      "manufacturerName": "GEELY",
+      "modelName": "VISION Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 32600,
+      "modelId": 8449,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "COOLBEAR",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 33605,
+      "modelId": 8678,
+      "manufacturerName": "BYD",
+      "modelName": "G3 Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 33622,
+      "modelId": 8678,
+      "manufacturerName": "BYD",
+      "modelName": "G3 Saloon",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 39980,
+      "modelId": 11516,
+      "manufacturerName": "TOYOTA",
+      "modelName": "WiLL Vi I (NCP19_)",
+      "typeEngineName": "1.3 (NCP19)",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 49415,
+      "modelId": 4748,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS Saloon (_W1_)",
+      "typeEngineName": "1.5 Hybrid (NHW11)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 52161,
+      "modelId": 11533,
+      "manufacturerName": "BYD",
+      "modelName": "SIRUI",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56060,
+      "modelId": 10569,
+      "manufacturerName": "GEELY",
+      "modelName": "MK Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56063,
+      "modelId": 10570,
+      "manufacturerName": "GEELY",
+      "modelName": "MK Hatchback",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57223,
+      "modelId": 10834,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "HOVER M4",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58037,
+      "modelId": 7880,
+      "manufacturerName": "LIFAN",
+      "modelName": "620",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 58628,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58629,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "1.5 TI",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59895,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.6 VVTi (ZZE141)",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 100600,
+      "modelId": 11781,
+      "manufacturerName": "FENGXING",
+      "modelName": "JOYEAR MPV",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 105732,
+      "modelId": 12768,
+      "manufacturerName": "FENGXING",
+      "modelName": "JOYEAR X3",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105855,
+      "modelId": 12785,
+      "manufacturerName": "ENGLON",
+      "modelName": "KINGKONG Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105857,
+      "modelId": 12786,
+      "manufacturerName": "ENGLON",
+      "modelName": "KINGKONG Hatchback",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 105858,
+      "modelId": 12787,
+      "manufacturerName": "ENGLON",
+      "modelName": "KINGKONG CROSS",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 107658,
+      "modelId": 4419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO (_P2_)",
+      "typeEngineName": "1.5 4WD (NCP25)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 107931,
+      "modelId": 6971,
+      "manufacturerName": "FAW (TIANJIN)",
+      "modelName": "WEIZHI Hatchback",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 107935,
+      "modelId": 13168,
+      "manufacturerName": "FAW (TIANJIN)",
+      "modelName": "WEIZHI V5",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 108893,
+      "modelId": 13374,
+      "manufacturerName": "GEELY",
+      "modelName": "VISION Saloon",
+      "typeEngineName": "1.3 T",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 108895,
+      "modelId": 13374,
+      "manufacturerName": "GEELY",
+      "modelName": "VISION Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109951,
+      "modelId": 13621,
+      "manufacturerName": "GEELY",
+      "modelName": "KINGKONG CAIFU",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111169,
+      "modelId": 9165,
+      "manufacturerName": "BYD",
+      "modelName": "L3",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 113186,
+      "modelId": 14166,
+      "manufacturerName": "FENGXING",
+      "modelName": "JOYEAR XV",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113689,
+      "modelId": 14231,
+      "manufacturerName": "BYD",
+      "modelName": "S7",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 113690,
+      "modelId": 14231,
+      "manufacturerName": "BYD",
+      "modelName": "S7",
+      "typeEngineName": "1.5 T",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 114799,
+      "modelId": 9788,
+      "manufacturerName": "BYD",
+      "modelName": "S6",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 117733,
+      "modelId": 7257,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREMIO (_T24_)",
+      "typeEngineName": "1.5 (NZT240_, NZT240)",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 119125,
+      "modelId": 8678,
+      "manufacturerName": "BYD",
+      "modelName": "G3 Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 119192,
+      "modelId": 9053,
+      "manufacturerName": "BYD",
+      "modelName": "M6",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 120546,
+      "modelId": 36723,
+      "manufacturerName": "BYD",
+      "modelName": "YUAN",
+      "typeEngineName": "1.5 TI",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 120547,
+      "modelId": 36723,
+      "manufacturerName": "BYD",
+      "modelName": "YUAN",
+      "typeEngineName": "DM Hybrid All-wheel Drive",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 120548,
+      "modelId": 36723,
+      "manufacturerName": "BYD",
+      "modelName": "YUAN",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 120835,
+      "modelId": 10190,
+      "manufacturerName": "GLEAGLE",
+      "modelName": "GC7",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121308,
+      "modelId": 10190,
+      "manufacturerName": "GLEAGLE",
+      "modelName": "GC7",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 122267,
+      "modelId": 6951,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VIOS / SOLUNA VIOS (_P4_)",
+      "typeEngineName": "1.5 VVTi (NCP42_, NCP42R)",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 122278,
+      "modelId": 6951,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VIOS / SOLUNA VIOS (_P4_)",
+      "typeEngineName": "1.5 (NCP42_)",
+      "constructionIntervalStart": "2002-12-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 122328,
+      "modelId": 7261,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ECHO Saloon (_P1_)",
+      "typeEngineName": "1.5 (NCP12_)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 122395,
+      "modelId": 7257,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREMIO (_T24_)",
+      "typeEngineName": "2.0 (AZT240_, AZT240)",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 122420,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.5 (NZE121, NZE120, ZZE123, ZZA120)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 122630,
+      "modelId": 10190,
+      "manufacturerName": "GLEAGLE",
+      "modelName": "GC7",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123203,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "1.6 CNG",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 123204,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "1.5 CNG",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 123205,
+      "modelId": 7856,
+      "manufacturerName": "BYD",
+      "modelName": "F6",
+      "typeEngineName": "2.0 CNG",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 123222,
+      "modelId": 11451,
+      "manufacturerName": "ENGLON",
+      "modelName": "KINGKONG",
+      "typeEngineName": "1.5 CNG",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 123226,
+      "modelId": 37130,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS Saloon (_W1_)",
+      "typeEngineName": "1.5 Hybrid (NHW10)",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 123479,
+      "modelId": 11448,
+      "manufacturerName": "GLEAGLE",
+      "modelName": "VISION",
+      "typeEngineName": "1.8 CNG",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123693,
+      "modelId": 11781,
+      "manufacturerName": "FENGXING",
+      "modelName": "JOYEAR MPV",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124313,
+      "modelId": 4419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO (_P2_)",
+      "typeEngineName": "1.5 (NCP21)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 124315,
+      "modelId": 4419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO (_P2_)",
+      "typeEngineName": "1.5 (NCP21)",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 124355,
+      "modelId": 7843,
+      "manufacturerName": "BYD",
+      "modelName": "F3R Hatchback",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124717,
+      "modelId": 4854,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Verso (_E12_)",
+      "typeEngineName": "1.5 (NZE120_, NZE120R)",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2004-02-01"
+    },
+    {
+      "vehicleId": 124718,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "1.5 (NZE121_, NZE121R)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 126732,
+      "modelId": 6476,
+      "manufacturerName": "BYD",
+      "modelName": "F3 Saloon",
+      "typeEngineName": "1.5 CNG",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 127885,
+      "modelId": 7257,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREMIO (_T24_)",
+      "typeEngineName": "1.8 (ZZT240)",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 128243,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 (ZZE122_, ZZE122R)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 128246,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "1.8 (ZZE122_, ZZE122R)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 131120,
+      "modelId": 11534,
+      "manufacturerName": "BYD",
+      "modelName": "e6",
+      "typeEngineName": "EV",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 132138,
+      "modelId": 36723,
+      "manufacturerName": "BYD",
+      "modelName": "YUAN",
+      "typeEngineName": "EV",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 132273,
+      "modelId": 6971,
+      "manufacturerName": "FAW (TIANJIN)",
+      "modelName": "WEIZHI Hatchback",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 132386,
+      "modelId": 38861,
+      "manufacturerName": "FENGXING",
+      "modelName": "JOYEAR SUV",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 132784,
+      "modelId": 38922,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO VAN (_P2_)",
+      "typeEngineName": "1.3 VVTi (NCP22_)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 132785,
+      "modelId": 38922,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO VAN (_P2_)",
+      "typeEngineName": "1.5 VVTi (NCP21_)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2003-03-01"
+    },
+    {
+      "vehicleId": 132786,
+      "modelId": 38922,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO VAN (_P2_)",
+      "typeEngineName": "1.4 D4d (NLP22_)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 132788,
+      "modelId": 38922,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO VAN (_P2_)",
+      "typeEngineName": "1.3 VVTi (NCP22_)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 133317,
+      "modelId": 7240,
+      "manufacturerName": "TOYOTA",
+      "modelName": "OPA (ZCT1_, ACT1_)",
+      "typeEngineName": "1.8 (ZCT10)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 133331,
+      "modelId": 6259,
+      "manufacturerName": "TOYOTA",
+      "modelName": "bB I (NCP3_)",
+      "typeEngineName": "1.5 4WD (NCP35)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 133349,
+      "modelId": 6252,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALLION I (_T24_)",
+      "typeEngineName": "1.8 (ZZT240)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 133581,
+      "modelId": 36723,
+      "manufacturerName": "BYD",
+      "modelName": "YUAN",
+      "typeEngineName": "EV360",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135782,
+      "modelId": 36723,
+      "manufacturerName": "BYD",
+      "modelName": "YUAN",
+      "typeEngineName": "EV535",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137679,
+      "modelId": 39877,
+      "manufacturerName": "GEELY",
+      "modelName": "KINGKONG",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141053,
+      "modelId": 40952,
+      "manufacturerName": "GEELY",
+      "modelName": "KINGKONG CROSS",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150972,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.8 VVTi",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 9732,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 VVTL-i TS (ZZE123_, ZZE123R)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 16373,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.4 VVT-i (ZZE120_, ZZE120R)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 16374,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.6 VVT-i (ZZE121_, ZZE121R)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 16375,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 VVTL-i TS (ZZE123)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 16378,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "1.4 VVT-i (ZZE120_, ZZE120R)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 16379,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "1.6 VVT-i (ZZE121_, ZZE121R)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 18733,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "1.4 D4-D (NDE120_, NDE120R)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 19252,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 VVTL-i TS (ZZE123_, ZZE123R)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 10466,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.0 (SCP10_, SCP10R)",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 14287,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.3 (NCP10, SCP12_)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 15984,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.5 (NCP13_, NCP13R)",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16364,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.4 D-4D (NLP10_, NLP10R)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17319,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.3 (SCP12_, SCP13_, SCP12R, SCP13R)",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17569,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.0 (SCP10_, SCP10R)",
+      "constructionIntervalStart": "2003-03-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 10522,
+      "modelId": 7325,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SIENTA (_P8_)",
+      "typeEngineName": "1.5 4WD (NCP85)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 26424,
+      "modelId": 7325,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SIENTA (_P8_)",
+      "typeEngineName": "1.5 (NCP81)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 26425,
+      "modelId": 7325,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SIENTA (_P8_)",
+      "typeEngineName": "1.5 4WD (NCP85)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 123911,
+      "modelId": 7325,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SIENTA (_P8_)",
+      "typeEngineName": "1.5 (NCP81)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 10567,
+      "modelId": 7256,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PROBOX / SUCCEED (_P5_)",
+      "typeEngineName": "1.5 VVTi 4WD (NCP59G)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 26248,
+      "modelId": 7256,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PROBOX / SUCCEED (_P5_)",
+      "typeEngineName": "1.5 VVTi (NCP58G)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 14169,
+      "modelId": 4518,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Coupe (_T23_)",
+      "typeEngineName": "1.8 16V VT-i (ZZT230_, ZZT230)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 14534,
+      "modelId": 4518,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Coupe (_T23_)",
+      "typeEngineName": "1.8 16V TS (ZZT231_, ZZT231R)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17711,
+      "modelId": 5066,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS Liftback (_W2_)",
+      "typeEngineName": "1.5 Hybrid (NHW20_, NHW20R)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 24045,
+      "modelId": 6528,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 (ZZE122)",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2007-01-01"
+    },
+    {
+      "vehicleId": 24046,
+      "modelId": 6528,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 (ZZE122)",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2007-01-01"
+    },
+    {
+      "vehicleId": 24056,
+      "modelId": 6534,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "VIOS (_P4_)",
+      "typeEngineName": "1.3 (AXP41)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 55554,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.8 (ZZE130)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 125490,
+      "modelId": 6259,
+      "manufacturerName": "TOYOTA",
+      "modelName": "bB I (NCP3_)",
+      "typeEngineName": "1.3 (NCP30_, NCP30)",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 125491,
+      "modelId": 6259,
+      "manufacturerName": "TOYOTA",
+      "modelName": "bB I (NCP3_)",
+      "typeEngineName": "1.3 (NCP30_, NCP30)",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2005-11-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "116"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "51"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Akebono"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23510"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23511"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23512"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650D020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650D030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650W050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650W080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446512580"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446512581"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446512590"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446512591"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446512592"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446513020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446513040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446513041"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446513050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446517100"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446517101"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446517102"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446517140"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446520480"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446520520"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446520521"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044652220"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446532210"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446532230"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446547030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446547050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552011"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552021"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552022"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552060"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552100"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552110"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552120"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552150"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552250"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446552290"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZCK"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZDA"
+    },
+    {
+      "oemBrand": "GEELY",
+      "oemDisplayNo": "1014003350"
+    },
+    {
+      "oemBrand": "ENGLON",
+      "oemDisplayNo": "1014003350"
+    },
+    {
+      "oemBrand": "BYD",
+      "oemDisplayNo": "1031255900"
+    },
+    {
+      "oemBrand": "BYD",
+      "oemDisplayNo": "1037509300"
+    },
+    {
+      "oemBrand": "GEELY",
+      "oemDisplayNo": "1061001401"
+    },
+    {
+      "oemBrand": "ENGLON",
+      "oemDisplayNo": "1061001401"
+    },
+    {
+      "oemBrand": "BYD",
+      "oemDisplayNo": "1080347600"
+    },
+    {
+      "oemBrand": "GEELY",
+      "oemDisplayNo": "4048009600"
+    },
+    {
+      "oemBrand": "GLEAGLE",
+      "oemDisplayNo": "4048009600"
+    },
+    {
+      "oemBrand": "ENGLON",
+      "oemDisplayNo": "4048009600"
+    },
+    {
+      "oemBrand": "GEELY",
+      "oemDisplayNo": "4048015500"
+    },
+    {
+      "oemBrand": "ENGLON",
+      "oemDisplayNo": "4048015500"
+    },
+    {
+      "oemBrand": "DONGFENG",
+      "oemDisplayNo": "69Q12411"
+    },
+    {
+      "oemBrand": "DONGFENG",
+      "oemDisplayNo": "69Q12412"
+    },
+    {
+      "oemBrand": "GREAT WALL",
+      "oemDisplayNo": "9100705"
+    },
+    {
+      "oemBrand": "BYD",
+      "oemDisplayNo": "E63501500"
+    },
+    {
+      "oemBrand": "BYD",
+      "oemDisplayNo": "F33501001C2"
+    },
+    {
+      "oemBrand": "FENGXING",
+      "oemDisplayNo": "MR71803501160"
+    },
+    {
+      "oemBrand": "FENGXING",
+      "oemDisplayNo": "MR71803501180"
+    },
+    {
+      "oemBrand": "FENGXING",
+      "oemDisplayNo": "MR71803501260"
+    }
+  ],
+  "ean": "8020584057865",
+  "originalSKU": "P83051",
+  "fetchedAt": "2026-03-13T22:22:55.009Z"
+}

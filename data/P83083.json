@@ -1,0 +1,116 @@
+{
+  "articleNo": "P 83 083",
+  "articleId": 8360869,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 123938,
+      "modelId": 37282,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO 3x",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132211,
+      "modelId": 37962,
+      "manufacturerName": "JAC",
+      "modelName": "iEV6E",
+      "typeEngineName": "EV",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139011,
+      "modelId": 37282,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO 3x",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2019-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141784,
+      "modelId": 41077,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO 3x PLUS",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144780,
+      "modelId": 42113,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO 3x",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "14"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "99"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "43"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Akebono"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24610"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24611"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24612"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "PONTIAC",
+      "oemDisplayNo": "19205632"
+    },
+    {
+      "oemBrand": "JAC",
+      "oemDisplayNo": "3500700X4320F011"
+    },
+    {
+      "oemBrand": "CHERY",
+      "oemDisplayNo": "J696GN3502080"
+    }
+  ],
+  "ean": "8020584062210",
+  "originalSKU": "P83083",
+  "fetchedAt": "2026-03-13T22:21:48.359Z"
+}

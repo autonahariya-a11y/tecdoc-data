@@ -1,0 +1,374 @@
+{
+  "articleNo": "P 83 106",
+  "articleId": 8360894,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 3392,
+      "modelId": 9055,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "TENGYI C30",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 12737,
+      "modelId": 9869,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "TENGYI C20R",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23548,
+      "modelId": 10189,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Hybrid (ZVW30)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 53026,
+      "modelId": 9014,
+      "manufacturerName": "LEXUS",
+      "modelName": "CT (ZWA10_)",
+      "typeEngineName": "200h (ZWA10_, ZWA10R)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55492,
+      "modelId": 10396,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E16_)",
+      "typeEngineName": "1.3 (NRE160)",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56240,
+      "modelId": 10193,
+      "manufacturerName": "ZHONGHUA (BRILLIANCE)",
+      "modelName": "V5",
+      "typeEngineName": "1.5 T",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56241,
+      "modelId": 10193,
+      "manufacturerName": "ZHONGHUA (BRILLIANCE)",
+      "modelName": "V5",
+      "typeEngineName": "1.5 T All-wheel Drive",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56570,
+      "modelId": 10686,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PORTE II (_P14_)",
+      "typeEngineName": "1.5 (NCP141)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 56576,
+      "modelId": 10687,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SPADE (_P14_)",
+      "typeEngineName": "1.5 (NCP141, NSP141)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 101003,
+      "modelId": 11938,
+      "manufacturerName": "LIFAN",
+      "modelName": "530",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107861,
+      "modelId": 10193,
+      "manufacturerName": "ZHONGHUA (BRILLIANCE)",
+      "modelName": "V5",
+      "typeEngineName": "1.5 T",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107862,
+      "modelId": 10193,
+      "manufacturerName": "ZHONGHUA (BRILLIANCE)",
+      "modelName": "V5",
+      "typeEngineName": "1.5 T All-wheel Drive",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108539,
+      "modelId": 13320,
+      "manufacturerName": "LIFAN",
+      "modelName": "X50",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108700,
+      "modelId": 13337,
+      "manufacturerName": "HAVAL",
+      "modelName": "H1",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113661,
+      "modelId": 14224,
+      "manufacturerName": "ZHONGHUA (BRILLIANCE)",
+      "modelName": "V3",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113662,
+      "modelId": 14224,
+      "manufacturerName": "ZHONGHUA (BRILLIANCE)",
+      "modelName": "V3",
+      "typeEngineName": "1.5 T",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115456,
+      "modelId": 8044,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Hybrid (ZVW3_)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 117232,
+      "modelId": 14765,
+      "manufacturerName": "DAIHATSU",
+      "modelName": "MEBIUS MPV",
+      "typeEngineName": "1.8 Hybrid",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118976,
+      "modelId": 14940,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W5_)",
+      "typeEngineName": "1.8 Hybrid (ZVW50, ZVW50_, ZVW51_, ZVW50R, ZVW51)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 123496,
+      "modelId": 10687,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SPADE (_P14_)",
+      "typeEngineName": "1.3 (NSP140)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 123533,
+      "modelId": 10686,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PORTE II (_P14_)",
+      "typeEngineName": "1.3 (NSP140)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 124704,
+      "modelId": 10396,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E16_)",
+      "typeEngineName": "1.5 Hybrid (NKE165)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129038,
+      "modelId": 8044,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Plug-in Hybrid (ZVW30, ZVW35)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 135271,
+      "modelId": 38104,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS PHV (_W52_)",
+      "typeEngineName": "1.8 Plug-in Hybrid (ZVW52)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 136959,
+      "modelId": 39436,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E21_)",
+      "typeEngineName": "1.8 VVTi (ZRE212, ZRE211)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141266,
+      "modelId": 14940,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W5_)",
+      "typeEngineName": "Hybrid (ZVW55_)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 148036,
+      "modelId": 14940,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W5_)",
+      "typeEngineName": "1.8 Hybrid (ZVW50, ZVW51)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 5915,
+      "modelId": 9116,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREMIO (_T26_)",
+      "typeEngineName": "1.5 (NZT260)",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 127888,
+      "modelId": 9116,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREMIO (_T26_)",
+      "typeEngineName": "1.5 (NZT260)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 54210,
+      "modelId": 8044,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Hybrid (ZVW30)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 128130,
+      "modelId": 38104,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS PHV (_W52_)",
+      "typeEngineName": "1.8 Plug-in Hybrid (ZVW52)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2022-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "123"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Akebono"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24451"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650W140"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650W141"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650W14100"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446512660"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446547060"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446547070"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446547080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446547090"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446547100"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465B1351"
+    },
+    {
+      "oemBrand": "HAVAL",
+      "oemDisplayNo": "3501140XG83XA"
+    },
+    {
+      "oemBrand": "ZHONGHUA (BRILLIANCE)",
+      "oemDisplayNo": "SHZ3501100"
+    }
+  ],
+  "ean": "8020584090923",
+  "originalSKU": "P83106",
+  "fetchedAt": "2026-03-13T22:21:18.823Z"
+}
