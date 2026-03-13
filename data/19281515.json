@@ -1,1 +1,27 @@
-placeholder_2
+{
+  "articleNo": "19281515",
+  "articleId": 1732771,
+  "supplier": "ACDelco",
+  "product": "Fuel Filter",
+  "vehicles": [
+    {
+      "vehicleId": 126599,
+      "modelId": 37800,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Grand Sport (Z18)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [],
+  "oe": [
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "84186990"
+    }
+  ],
+  "ean": "",
+  "originalSKU": "19281515",
+  "fetchedAt": "2026-03-13T22:18:49.122Z"
+}
