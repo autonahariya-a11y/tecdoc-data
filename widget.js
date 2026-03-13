@@ -131,6 +131,30 @@
       itemSpecs.parentNode.insertBefore(widget2, itemSpecs.nextSibling);
       return widget2;
     }
+    /* Fallback: create a new section if #item_specifications doesn't exist */
+    var anchors = [
+      document.getElementById('item_content'),
+      document.getElementById('item_also_buy'),
+      document.getElementById('item_info')
+    ];
+    for (var i = 0; i < anchors.length; i++) {
+      if (anchors[i]) {
+        var wrapper = document.createElement('div');
+        wrapper.id = 'item_specifications';
+        wrapper.className = 'item_attributes';
+        var h3 = document.createElement('h3');
+        h3.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
+        wrapper.appendChild(h3);
+        var specDiv = document.createElement('div');
+        specDiv.className = 'specifications';
+        wrapper.appendChild(specDiv);
+        var widget3 = document.createElement('div');
+        widget3.id = 'tecdoc-widget';
+        specDiv.appendChild(widget3);
+        anchors[i].parentNode.insertBefore(wrapper, anchors[i]);
+        return widget3;
+      }
+    }
     return null;
   }
 
@@ -283,23 +307,60 @@
 
   /* ── Load from cached JSON ── */
   function loadFromCache(articleNo) {
-    /* File name: article number with dots/slashes replaced, e.g. 09.A427.11 → 09_A427_11.json */
-    var filename = articleNo.replace(/[^a-zA-Z0-9]/g, '_') + '.json';
-    return fetch(CACHE_URL + filename)
-      .then(function(r) {
-        if (!r.ok) return Promise.reject('not_cached');
-        return r.json();
-      });
+    var variations = articleVariations(articleNo);
+    function tryCache(idx) {
+      if (idx >= variations.length) return Promise.reject('not_cached');
+      var filename = variations[idx].replace(/[^a-zA-Z0-9]/g, '_') + '.json';
+      return fetch(CACHE_URL + filename)
+        .then(function(r) {
+          if (!r.ok) return tryCache(idx + 1);
+          return r.json();
+        });
+    }
+    return tryCache(0);
+  }
+
+  /* ── Generate article number variations for TecDoc lookup ── */
+  function articleVariations(artNo) {
+    var variations = [artNo];
+    /* Try adding spaces: P85126 → P 85 126, AB12345 → AB 12345 */
+    var spaced = artNo.replace(/([A-Za-z]+)(\d+)/g, function(m, letters, digits) {
+      /* Split digits into groups: 85126 → 85 126 (2+3), 12345 → 12345 */
+      var d = digits;
+      if (d.length === 5) d = d.slice(0,2) + ' ' + d.slice(2);
+      else if (d.length === 6) d = d.slice(0,2) + ' ' + d.slice(2,4) + ' ' + d.slice(4);
+      else if (d.length === 4) d = d.slice(0,2) + ' ' + d.slice(2);
+      return letters + ' ' + d;
+    });
+    if (spaced !== artNo) variations.push(spaced);
+    /* Try with dots instead of spaces */
+    if (artNo.indexOf('.') > -1) variations.push(artNo.replace(/\./g, ' '));
+    /* Try without any separators */
+    var nospace = artNo.replace(/[\s.-]/g, '');
+    if (nospace !== artNo) variations.push(nospace);
+    return variations;
   }
 
   /* ── Load from live API (fallback) ── */
   function loadFromAPI(articleNo) {
     if (!API_URL) return Promise.reject('no_token');
-    return api({
-      endpoint_partsCompatibleVehiclesByArticleNo: true,
-      parts_articleNo_20: articleNo,
-      parts_langId_20: 4, parts_countryFilterId_20: 81, parts_typeId_20: 1
-    }).then(function(data) {
+    var variations = articleVariations(articleNo);
+    
+    function tryVariation(idx) {
+      if (idx >= variations.length) return Promise.reject('no_results');
+      return api({
+        endpoint_partsCompatibleVehiclesByArticleNo: true,
+        parts_articleNo_20: variations[idx],
+        parts_langId_20: 4, parts_countryFilterId_20: 81, parts_typeId_20: 1
+      }).then(function(data) {
+        if (!data || !data.length || !data[0].articles || !data[0].articles.length) {
+          return tryVariation(idx + 1);
+        }
+        return data;
+      });
+    }
+    
+    return tryVariation(0).then(function(data) {
       if (!data || !data.length || !data[0].articles || !data[0].articles.length) {
         return Promise.reject('no_results');
       }

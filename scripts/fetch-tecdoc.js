@@ -41,19 +41,46 @@ function toFilename(articleNo) {
   return articleNo.replace(/[^a-zA-Z0-9]/g, '_') + '.json';
 }
 
+function articleVariations(artNo) {
+  const variations = [artNo];
+  const spaced = artNo.replace(/([A-Za-z]+)(\d+)/g, (m, letters, digits) => {
+    let d = digits;
+    if (d.length === 5) d = d.slice(0,2) + ' ' + d.slice(2);
+    else if (d.length === 6) d = d.slice(0,2) + ' ' + d.slice(2,4) + ' ' + d.slice(4);
+    else if (d.length === 4) d = d.slice(0,2) + ' ' + d.slice(2);
+    return letters + ' ' + d;
+  });
+  if (spaced !== artNo) variations.push(spaced);
+  if (artNo.includes('.')) variations.push(artNo.replace(/\./g, ' '));
+  const nospace = artNo.replace(/[\s.-]/g, '');
+  if (nospace !== artNo) variations.push(nospace);
+  return [...new Set(variations)];
+}
+
 async function fetchArticle(articleNo) {
   console.log(`  [1/2] Fetching vehicles for ${articleNo}...`);
   
-  const vehicleData = await apiCall({
-    endpoint_partsCompatibleVehiclesByArticleNo: true,
-    parts_articleNo_20: articleNo,
-    parts_langId_20: 4,
-    parts_countryFilterId_20: 81,
-    parts_typeId_20: 1
-  });
+  const variations = articleVariations(articleNo);
+  let vehicleData = null;
+  
+  for (const variant of variations) {
+    const data = await apiCall({
+      endpoint_partsCompatibleVehiclesByArticleNo: true,
+      parts_articleNo_20: variant,
+      parts_langId_20: 4,
+      parts_countryFilterId_20: 81,
+      parts_typeId_20: 1
+    });
+    if (data && data.length && data[0].articles && data[0].articles.length) {
+      vehicleData = data;
+      if (variant !== articleNo) console.log(`    Found with variation: ${variant}`);
+      break;
+    }
+    if (variations.length > 1) await sleep(DELAY_MS);
+  }
 
   if (!vehicleData || !vehicleData.length || !vehicleData[0].articles || !vehicleData[0].articles.length) {
-    console.log(`  ⚠ No results found for ${articleNo}`);
+    console.log(`  ⚠ No results found for ${articleNo} (tried ${variations.length} variations)`);
     return null;
   }
 
