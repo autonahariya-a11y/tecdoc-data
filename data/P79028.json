@@ -1,0 +1,986 @@
+{
+  "articleNo": "P 79 028",
+  "articleId": 8360769,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 4471,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 11136,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11137,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11138,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 19883,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 19887,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 23196,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 dCi 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 23197,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 23198,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 dCi 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 23199,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 25648,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 FWD",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 29490,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 FWD",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 29491,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 30319,
+      "modelId": 8270,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 30320,
+      "modelId": 8270,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T31)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 30321,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 31058,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 33834,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 34731,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 34970,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 (A6B424)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34971,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 4x4 (A6B424)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 51957,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 55276,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 55277,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 56445,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 57486,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 (A6B424)",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57487,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 4WD (A6B424, RF91S)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57658,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 dCi 4x4",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 58114,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 (A6B 424)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59991,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 105709,
+      "modelId": 12765,
+      "manufacturerName": "HAIMA (FAW)",
+      "modelName": "S5",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107628,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 DIG-T NISMO RS",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 108507,
+      "modelId": 12765,
+      "manufacturerName": "HAIMA (FAW)",
+      "modelName": "S5",
+      "typeEngineName": "1.5 T",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108986,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 DIG-T NISMO RS 4x4",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 109940,
+      "modelId": 13619,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T70",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109941,
+      "modelId": 13619,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T70",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122448,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 122461,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 123021,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 (A6B 424)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124040,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 124043,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 125664,
+      "modelId": 37587,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T90",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128097,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 128163,
+      "modelId": 40927,
+      "manufacturerName": "GAC NE",
+      "modelName": "TRUMPCHI GE3",
+      "typeEngineName": "EV",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128852,
+      "modelId": 14108,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VIII (A36)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129328,
+      "modelId": 14108,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VIII (A36)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129615,
+      "modelId": 13619,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T70",
+      "typeEngineName": "1.4 TURBO",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132040,
+      "modelId": 10091,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VII (A35)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132749,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 133425,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 133462,
+      "modelId": 39626,
+      "manufacturerName": "MITSUBISHI (GAC)",
+      "modelName": "QIZHI",
+      "typeEngineName": "EV50 (GMC7000)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133833,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 133834,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 133836,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 133873,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 LPG 4x4 (A6B42)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 134082,
+      "modelId": 37587,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T90",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137153,
+      "modelId": 13619,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T70",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138415,
+      "modelId": 38294,
+      "manufacturerName": "VENUCIA",
+      "modelName": "D60",
+      "typeEngineName": "EV",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138912,
+      "modelId": 39170,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T60",
+      "typeEngineName": "EV",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142201,
+      "modelId": 37587,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T90",
+      "typeEngineName": "260T Mild Hybrid",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142203,
+      "modelId": 37587,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T90",
+      "typeEngineName": "260T",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142932,
+      "modelId": 41658,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T31)",
+      "typeEngineName": "dCi",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 142933,
+      "modelId": 41658,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T31)",
+      "typeEngineName": "dCi 4x4",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 142934,
+      "modelId": 41658,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T31)",
+      "typeEngineName": "dCi 4x4",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 142935,
+      "modelId": 41659,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T32)",
+      "typeEngineName": "dCi",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142936,
+      "modelId": 41659,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T32)",
+      "typeEngineName": "dCi 4x4",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143135,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "1.6 CVTC",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143136,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143138,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143139,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "1.6 dCi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143140,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "1.6 dCi All-wheel Drive",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 11140,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11757,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6 dCi All-wheel Drive",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11758,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6 dCi",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 12507,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12508,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 121367,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 15312,
+      "modelId": 10091,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VII (A35)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19888,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 22942,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 dCi All-wheel Drive",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 56230,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 133831,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 133832,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 107550,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 107551,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 143137,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143141,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "2.0 dCi All-wheel Drive",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "142"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "59"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Akebono"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "314"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25202"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "41060JD00A"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L00000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L01"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L01000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L02"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L02000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L03"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L50"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L50000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L51"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581057L51000"
+    },
+    {
+      "oemBrand": "GAC",
+      "oemDisplayNo": "8835004ADU0000"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS132"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS152"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY040NS173"
+    },
+    {
+      "oemBrand": "VENUCIA",
+      "oemDisplayNo": "D10602FL0A"
+    },
+    {
+      "oemBrand": "VENUCIA",
+      "oemDisplayNo": "D10602GD0A"
+    },
+    {
+      "oemBrand": "VENUCIA",
+      "oemDisplayNo": "D10602GD0B"
+    },
+    {
+      "oemBrand": "VENUCIA",
+      "oemDisplayNo": "D10602GD0C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10603UB0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10609DF0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10609DJ0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10609N00A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10609N50A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060ET01A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060JD00A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060JD00J"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060JE00A"
+    },
+    {
+      "oemBrand": "NISSAN (DFAC)",
+      "oemDisplayNo": "D1060JE21A"
+    },
+    {
+      "oemBrand": "NISSAN (DFAC)",
+      "oemDisplayNo": "D1060JE22A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1080JE00A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1083JE00A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D108MJE00J"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1M609N00A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1M60JE00A"
+    },
+    {
+      "oemBrand": "HAIMA (FAW)",
+      "oemDisplayNo": "SA1233615"
+    }
+  ],
+  "ean": "8020584104910",
+  "originalSKU": "P79028",
+  "fetchedAt": "2026-03-13T22:20:40.310Z"
+}

@@ -1,0 +1,786 @@
+{
+  "articleNo": "P 59 092",
+  "articleId": 8360401,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 115669,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.4 (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115671,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.4 Turbo (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115672,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.4 Turbo (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115673,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.0 Turbo (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115675,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115676,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115686,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115851,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115852,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115853,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115854,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115855,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117565,
+      "modelId": 14827,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CRUZE Saloon (J400)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117717,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 Turbo (68)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117718,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.4 (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117719,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.0 Turbo (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117720,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.4 Turbo (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117721,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.4 Turbo (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117722,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117723,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117724,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 Turbo (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117725,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117726,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117727,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117734,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117735,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117736,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117737,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117738,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117739,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 Turbo",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117740,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 Turbo",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117741,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117742,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117743,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117744,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119064,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119065,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126328,
+      "modelId": 14827,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CRUZE Saloon (J400)",
+      "typeEngineName": "1.4 Flex",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127163,
+      "modelId": 38379,
+      "manufacturerName": "HOLDEN",
+      "modelName": "ASTRA Hatchback (BK)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 128709,
+      "modelId": 38229,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CRUZE Hatchback (J405)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128802,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.4 CNG (68)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 128814,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.4 CNG (35)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 129345,
+      "modelId": 14827,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CRUZE Saloon (J400)",
+      "typeEngineName": "CDTi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129688,
+      "modelId": 38379,
+      "manufacturerName": "HOLDEN",
+      "modelName": "ASTRA Hatchback (BK)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 129689,
+      "modelId": 38380,
+      "manufacturerName": "HOLDEN",
+      "modelName": "ASTRA Estate (BK)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 132193,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.0 Turbo (68)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 132194,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.0 Turbo (35)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 133203,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 BiTurbo",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 133204,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 BiTurbo",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137729,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.2 Turbo (68)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137730,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.2 Turbo (68)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137731,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.2 Turbo (68)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137733,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.5 CRDI (68)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137734,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.5 CRDI (68)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137735,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.4 Turbo (68)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137736,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.2 Turbo (35)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137737,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.2 Turbo (35)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137738,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.2 Turbo (35)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137739,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.4 Turbo (35)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137740,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.5 CRDI (35)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 137741,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.5 CRDI (35)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 138490,
+      "modelId": 40158,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Hatchback Van",
+      "typeEngineName": "1.6 CDTI",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141772,
+      "modelId": 41091,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Estate Van",
+      "typeEngineName": "1.5 CRDI (35)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141773,
+      "modelId": 41091,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Estate Van",
+      "typeEngineName": "1.0 (35)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141774,
+      "modelId": 41091,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Estate Van",
+      "typeEngineName": "1.4 (35)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134616,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 BiTurbo",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134617,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 BiTurbo",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138729,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.2 Turbo",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138730,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.2 Turbo",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138731,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.2 Turbo",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138732,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138733,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.5 CRDI",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138734,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.5 CRDI",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141678,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.2 Turbo",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141679,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.2 Turbo",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141680,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.2 Turbo",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141681,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141682,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.5 CRDI",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141683,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.5 CRDI",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "20"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "155"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "59"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Teves"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "314"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "22342"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "22343"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "13478300"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "39103797"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "39103797"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "95526566"
+    }
+  ],
+  "ean": "8020584084519",
+  "originalSKU": "P59092",
+  "fetchedAt": "2026-03-13T22:25:23.447Z"
+}
