@@ -1,0 +1,2042 @@
+{
+  "articleNo": "P 85 098",
+  "articleId": 8361045,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 10416,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108591,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 11986,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 11991,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 11992,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 11996,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 22547,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 22766,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 22769,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 22826,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 29973,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30979,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31569,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 156605,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 45 TFSI",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 156606,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 45 TFSI quattro",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 156607,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "45 TFSI",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 156608,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 156609,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "45 TFSI",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 156610,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 11987,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 11988,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 11990,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 22548,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 22550,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 22551,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 22836,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 25510,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 26644,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 29974,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 29975,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 29976,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 29977,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 30004,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30007,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30691,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30987,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30988,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "S5 quattro",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 31328,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 31570,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 31571,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31573,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31574,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 33410,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 33416,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 106462,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 11993,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 11994,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 22808,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 30980,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 30981,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 30982,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30983,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30984,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30985,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 59248,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59249,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59250,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59251,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59560,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59561,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59562,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59563,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59564,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59565,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59566,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59567,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59568,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59569,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59633,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 59634,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 59635,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 59637,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 59638,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 59642,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 59645,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 59646,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 100036,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 100037,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 100054,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 100055,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 100056,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 100057,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 106460,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 106461,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 106481,
+      "modelId": 8135,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A4L B8 (828)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 107507,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 115106,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 115108,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 115109,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 115111,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 115112,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 115113,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 116042,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 116043,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 116046,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 116048,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 116051,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 116052,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 11997,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "S5 quattro",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 30001,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "S4 quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30005,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "S4 quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 15677,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 15998,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 16077,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 19124,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 20116,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 20119,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 22732,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23299,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 23300,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 23301,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23302,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 25454,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 25456,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 25506,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 25507,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 25508,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 25509,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 26836,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 26847,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 26848,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 26852,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 26913,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 26914,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 26916,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 28276,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 28277,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30000,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30002,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30006,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30008,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30390,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30990,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 30991,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 30992,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 30993,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30994,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30995,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30996,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31585,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 33367,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI flexible fuel",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33368,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI flexible fuel quattro",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33418,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 33419,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 59570,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 59571,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 59572,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 100052,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 16042,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23303,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 25455,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 26912,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 30003,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 33365,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI flexible fuel",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33366,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI flexible fuel quattro",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33417,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 57214,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 58637,
+      "modelId": 8135,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A4L B8 (828)",
+      "typeEngineName": "3.0 50 TFSI quattro",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 22549,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "S5 quattro",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 22928,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 33411,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "S5 quattro",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 100066,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "SQ5 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 25690,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 25709,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 26911,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30411,
+      "modelId": 8135,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A4L B8 (828)",
+      "typeEngineName": "2.0 35 TFSI",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 31633,
+      "modelId": 8135,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A4L B8 (828)",
+      "typeEngineName": "1.8 30 TFSI",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 33224,
+      "modelId": 8135,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A4L B8 (828)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 58633,
+      "modelId": 8135,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A4L B8 (828)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 30986,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30989,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31321,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 31334,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31572,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31959,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 31962,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 33407,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 33408,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 33409,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 33412,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 33413,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 33414,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 33415,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 107347,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107348,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107350,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 33630,
+      "modelId": 8689,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q5 B8 (83B)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 53090,
+      "modelId": 8689,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q5 B8 (83B)",
+      "typeEngineName": "35 TSFI quattro",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 109548,
+      "modelId": 8689,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q5 B8 (83B)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 123371,
+      "modelId": 8689,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q5 B8 (83B)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 156541,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "1.8 35 TFSI",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 156542,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "1.8 35 TFSI",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 156561,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 45 TFSI",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 156562,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 45 TFSI quattro",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 156563,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 156564,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "45 TFSI",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 156565,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "45 TFSI",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 156566,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 124808,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "19"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "188"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "73"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "74"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Lucas"
+    },
+    {
+      "criteriaName": "Warning Contact Length [mm]",
+      "criteriaValue": "300"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "7"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24408"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24409"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24743"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "4GD698151"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0098301G"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0098301H"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8K0698151"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8K0698151"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8K0698151"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0698151"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8K0698151B"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8K0698151B"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8K0698151B"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0698151B"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8K0698151D"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8K0698151D"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8K0698151D"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0698151D"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8K0698151E"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8K0698151E"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8K0698151E"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0698151E"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8K0698151G"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8K0698151G"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8K0698151G"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0698151G"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8K0698151H"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8K0698151H"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8K0698151H"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0698151H"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8K0698151J"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8K0698151J"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8K0698151J"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0698151J"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8K0698151K"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8K0698151K"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8K0698151K"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0698151K"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8K0698151R"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8K0698151T"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8R0698151"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8R0698151"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8R0698151"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8R0698151"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8R0698151AG"
+    },
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "L4GD698151"
+    },
+    {
+      "oemBrand": "VW (SVW)",
+      "oemDisplayNo": "L4GD698151"
+    },
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "L4GD698151A"
+    }
+  ],
+  "ean": "8020584062470",
+  "originalSKU": "P85098",
+  "fetchedAt": "2026-03-13T22:19:27.256Z"
+}
