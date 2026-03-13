@@ -1,0 +1,4630 @@
+{
+  "articleNo": "P 56 046",
+  "articleId": 8360250,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 650,
+      "modelId": 9010,
+      "manufacturerName": "NISSAN",
+      "modelName": "LEAF (ZE0)",
+      "typeEngineName": "Electric",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 4471,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 5840,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 8445,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "35h",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11136,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11137,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11138,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11140,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11757,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6 dCi All-wheel Drive",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11758,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6 dCi",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11915,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "25",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12358,
+      "modelId": 9808,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (J32Z)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 12362,
+      "modelId": 9808,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (J32Z)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 12504,
+      "modelId": 9839,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "SUNNY (N17)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12505,
+      "modelId": 9840,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TIIDA Hatchback (C12)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12507,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12508,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12509,
+      "modelId": 8089,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY CLASSIC (G11)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 12510,
+      "modelId": 8089,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY CLASSIC (G11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 14439,
+      "modelId": 10017,
+      "manufacturerName": "NISSAN",
+      "modelName": "SERENA (C26)",
+      "typeEngineName": "2.0 (C26, FC26)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 14467,
+      "modelId": 10017,
+      "manufacturerName": "NISSAN",
+      "modelName": "SERENA (C26)",
+      "typeEngineName": "2.0 4x4 (FNC26)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 14468,
+      "modelId": 10016,
+      "manufacturerName": "NISSAN",
+      "modelName": "SERENA (C25)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 14474,
+      "modelId": 10016,
+      "manufacturerName": "NISSAN",
+      "modelName": "SERENA (C25)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 14668,
+      "modelId": 10020,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LANDY (SC26)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14678,
+      "modelId": 10020,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LANDY (SC26)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14883,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "35",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14885,
+      "modelId": 7598,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "35",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15312,
+      "modelId": 10091,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VII (A35)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15571,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.5 FWD",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15969,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 15970,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 Di 4x4",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 17194,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 17887,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 dCi 4x4",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 18430,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 18811,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35 All-wheel Drive",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 18812,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "45 All-wheel Drive",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 19069,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 19070,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 dCi",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 19883,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 19887,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 19888,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 20823,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 20824,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 21555,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 21556,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 21557,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 DCi",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 21587,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 21588,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "45",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 22153,
+      "modelId": 6086,
+      "manufacturerName": "INFINITI",
+      "modelName": "M35",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22155,
+      "modelId": 6087,
+      "manufacturerName": "INFINITI",
+      "modelName": "M45",
+      "typeEngineName": "4.5",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22327,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 (JB420)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 22942,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 dCi All-wheel Drive",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 23055,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35 AWD",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 23196,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 dCi 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 23197,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 23198,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 dCi 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 23199,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 23467,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23468,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.8 (JC11)",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23469,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23490,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23994,
+      "modelId": 8089,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY CLASSIC (G11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 23995,
+      "modelId": 8089,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY CLASSIC (G11)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 23998,
+      "modelId": 7976,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (J31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 23999,
+      "modelId": 7976,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (J31)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 24000,
+      "modelId": 7976,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (J31)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 24001,
+      "modelId": 8268,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24002,
+      "modelId": 8269,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TIIDA Saloon (C11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24379,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 D",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24628,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 DCi FWD",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 24920,
+      "modelId": 6874,
+      "manufacturerName": "NISSAN",
+      "modelName": "QUEST (V42)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 25142,
+      "modelId": 13517,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C12)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 25648,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 FWD",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 25784,
+      "modelId": 7039,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA Coupe (CL32)",
+      "typeEngineName": "2.5 Hybrid (CL32HV)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 25786,
+      "modelId": 7040,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L32)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 25787,
+      "modelId": 7040,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L32)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 26333,
+      "modelId": 7292,
+      "manufacturerName": "NISSAN",
+      "modelName": "ELGRAND (E51)",
+      "typeEngineName": "3.5 (E51)",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 26334,
+      "modelId": 7292,
+      "manufacturerName": "NISSAN",
+      "modelName": "ELGRAND (E51)",
+      "typeEngineName": "3.0 D (_E5_)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 26370,
+      "modelId": 7304,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z11)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 26653,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi (HY0K)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26654,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi 4x4 (HY0K)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26655,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi 4x4 (HY0B)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26815,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid AWD",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26859,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27548,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.5 (HY0C, HY0N)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27549,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.5 4x4 (HY0C, HY0N)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27665,
+      "modelId": 13517,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C12)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28606,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28608,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28904,
+      "modelId": 7610,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L31)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 28905,
+      "modelId": 7610,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L31)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 29490,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 FWD",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 29491,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 30319,
+      "modelId": 8270,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 30320,
+      "modelId": 8270,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T31)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 30321,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 31058,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 31173,
+      "modelId": 9808,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (J32Z)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 32803,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32804,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33024,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "2.5 (M35)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 33025,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "2.5 AWD (NM35)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2003-06-01"
+    },
+    {
+      "vehicleId": 33027,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "2.5 Turbo AWD (NM35)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2003-06-01"
+    },
+    {
+      "vehicleId": 33028,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "3.0 (HM35)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2003-06-01"
+    },
+    {
+      "vehicleId": 33029,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "3.5 (PM35)",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 33032,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "3.5 AWD (PNM35)",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 33420,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 33421,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 33422,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "3.5 (PJ31)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 33577,
+      "modelId": 13648,
+      "manufacturerName": "SAMSUNG",
+      "modelName": "QM5",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33578,
+      "modelId": 13648,
+      "manufacturerName": "SAMSUNG",
+      "modelName": "QM5",
+      "typeEngineName": "2.5 4WD",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33579,
+      "modelId": 13648,
+      "manufacturerName": "SAMSUNG",
+      "modelName": "QM5",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33580,
+      "modelId": 13648,
+      "manufacturerName": "SAMSUNG",
+      "modelName": "QM5",
+      "typeEngineName": "2.0 dCi 4WD",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33583,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "30d",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33670,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "37 X",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33671,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33834,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 34624,
+      "modelId": 8898,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (V35)",
+      "typeEngineName": "3.5 (PV35)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 34638,
+      "modelId": 7292,
+      "manufacturerName": "NISSAN",
+      "modelName": "ELGRAND (E51)",
+      "typeEngineName": "3.5 AWD (NE51)",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 34721,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 34723,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 DIG-T 4x4",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 34724,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 DIG-T",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 34725,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 34728,
+      "modelId": 7292,
+      "manufacturerName": "NISSAN",
+      "modelName": "ELGRAND (E51)",
+      "typeEngineName": "2.5 (ME51)",
+      "constructionIntervalStart": "2004-12-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 34729,
+      "modelId": 7292,
+      "manufacturerName": "NISSAN",
+      "modelName": "ELGRAND (E51)",
+      "typeEngineName": "2.5 AWD (MNE51)",
+      "constructionIntervalStart": "2004-12-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 34731,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 34787,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34803,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34804,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "30d",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 35461,
+      "modelId": 11513,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA VII (B17)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 44574,
+      "modelId": 7598,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 44575,
+      "modelId": 7598,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "3.5 X",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 50371,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "37 X",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 50372,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 50373,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "37 X",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 51054,
+      "modelId": 6086,
+      "manufacturerName": "INFINITI",
+      "modelName": "M35",
+      "typeEngineName": "3.5 X",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 51055,
+      "modelId": 6086,
+      "manufacturerName": "INFINITI",
+      "modelName": "M35",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 51583,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 51585,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "25 X",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 51586,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "35",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 51587,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "35 X",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 51787,
+      "modelId": 7040,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L32)",
+      "typeEngineName": "2.5 Hybrid (L32HV)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 51957,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 53454,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 DIG-T NISMO 4x4",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 54701,
+      "modelId": 7039,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA Coupe (CL32)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 54744,
+      "modelId": 11576,
+      "manufacturerName": "NISSAN",
+      "modelName": "VERSA I",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 54794,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 (JB424)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55276,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 55277,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 55289,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55291,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "56",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55292,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35 AWD",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 55567,
+      "modelId": 10444,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PROUDIA/DIGNITY (BHGY5_, BY_5)",
+      "typeEngineName": "2.5 (BY51)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55568,
+      "modelId": 10444,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PROUDIA/DIGNITY (BHGY5_, BY_5)",
+      "typeEngineName": "3.7 (BKY51)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55569,
+      "modelId": 10444,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PROUDIA/DIGNITY (BHGY5_, BY_5)",
+      "typeEngineName": "3.7 4WD (BKNY51)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55570,
+      "modelId": 10444,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PROUDIA/DIGNITY (BHGY5_, BY_5)",
+      "typeEngineName": "3.5 (BHGY51)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55840,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 55842,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 56230,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 56445,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 56851,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "25",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 56891,
+      "modelId": 9840,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TIIDA Hatchback (C12)",
+      "typeEngineName": "1.6 GTS",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 56918,
+      "modelId": 10778,
+      "manufacturerName": "FENGSHEN",
+      "modelName": "A60",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56919,
+      "modelId": 10778,
+      "manufacturerName": "FENGSHEN",
+      "modelName": "A60",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 57656,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 57658,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0 dCi 4x4",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 57707,
+      "modelId": 7039,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA Coupe (CL32)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 57875,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 57876,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 57877,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 58334,
+      "modelId": 11002,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER IV (R52)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58335,
+      "modelId": 11002,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER IV (R52)",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58599,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 DIG-T NISMO",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 58634,
+      "modelId": 11147,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "SYLPHY (B17)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58635,
+      "modelId": 11147,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "SYLPHY (B17)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59574,
+      "modelId": 8624,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA II (J32)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 59575,
+      "modelId": 11273,
+      "manufacturerName": "NISSAN",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY III (B17)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59576,
+      "modelId": 11273,
+      "manufacturerName": "NISSAN",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY III (B17)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59989,
+      "modelId": 11322,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VI (A34)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 59990,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 59991,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 100122,
+      "modelId": 9848,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LIVINA MPV (L11Z)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100192,
+      "modelId": 11681,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Convertible",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100318,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100319,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100355,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100723,
+      "modelId": 11859,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 I",
+      "typeEngineName": "30d AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100724,
+      "modelId": 11859,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 I",
+      "typeEngineName": "37 AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100857,
+      "modelId": 13517,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C12)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100858,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100860,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100915,
+      "modelId": 11859,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 I",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100916,
+      "modelId": 11859,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 I",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100923,
+      "modelId": 11858,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX70",
+      "typeEngineName": "37 AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100925,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100926,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105688,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105709,
+      "modelId": 12765,
+      "manufacturerName": "HAIMA (FAW)",
+      "modelName": "S5",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107282,
+      "modelId": 11859,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 I",
+      "typeEngineName": "37 AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107289,
+      "modelId": 11858,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX70",
+      "typeEngineName": "37 AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107301,
+      "modelId": 11680,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Coupe",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107309,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.5 Hybrid",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107378,
+      "modelId": 11002,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER IV (R52)",
+      "typeEngineName": "2.5 Hybrid 4WD",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107402,
+      "modelId": 13057,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA III (J33, L33)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107403,
+      "modelId": 13057,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA III (J33, L33)",
+      "typeEngineName": "2.5 (L33L, L33R, L33T)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107484,
+      "modelId": 11365,
+      "manufacturerName": "NISSAN",
+      "modelName": "PULSAR Hatchback (C13)",
+      "typeEngineName": "1.2 DIG-T",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107485,
+      "modelId": 11365,
+      "manufacturerName": "NISSAN",
+      "modelName": "PULSAR Hatchback (C13)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107550,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 107551,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 107609,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 (JB424)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107631,
+      "modelId": 11514,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC12)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 108041,
+      "modelId": 13191,
+      "manufacturerName": "INFINITI",
+      "modelName": "ESQ (JF15)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108393,
+      "modelId": 13273,
+      "manufacturerName": "NISSAN",
+      "modelName": "FUGA II (_Y51)",
+      "typeEngineName": "250 GT (Y51)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108395,
+      "modelId": 13273,
+      "manufacturerName": "NISSAN",
+      "modelName": "FUGA II (_Y51)",
+      "typeEngineName": "Hybrid 3.5 (HY51)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108507,
+      "modelId": 12765,
+      "manufacturerName": "HAIMA (FAW)",
+      "modelName": "S5",
+      "typeEngineName": "1.5 T",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108646,
+      "modelId": 8659,
+      "manufacturerName": "NISSAN",
+      "modelName": "NV200 Van",
+      "typeEngineName": "e-NV (ME0N)",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108678,
+      "modelId": 7279,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE Coupe (V35)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 108724,
+      "modelId": 13347,
+      "manufacturerName": "INFINITI (DFAC)",
+      "modelName": "Q50L (V37Z)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108836,
+      "modelId": 7937,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA VI (B16)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 108894,
+      "modelId": 8660,
+      "manufacturerName": "NISSAN",
+      "modelName": "NV200 / EVALIA Bus",
+      "typeEngineName": "e-NV (ME0M)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109638,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 109940,
+      "modelId": 13619,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T70",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109941,
+      "modelId": 13619,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T70",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109967,
+      "modelId": 11365,
+      "manufacturerName": "NISSAN",
+      "modelName": "PULSAR Hatchback (C13)",
+      "typeEngineName": "1.6 DIG-T",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110111,
+      "modelId": 13648,
+      "manufacturerName": "SAMSUNG",
+      "modelName": "QM5",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111505,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "25",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 111506,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "25 AWD",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 111507,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "35 AWD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 111510,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "25",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 111516,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "25",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 111524,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 111530,
+      "modelId": 11859,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 I",
+      "typeEngineName": "3.7 V6 VVEL AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111532,
+      "modelId": 11858,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX70",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111879,
+      "modelId": 10017,
+      "manufacturerName": "NISSAN",
+      "modelName": "SERENA (C26)",
+      "typeEngineName": "2.0 S-Hybrid (HC26)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 112185,
+      "modelId": 13958,
+      "manufacturerName": "INFINITI (DFAC)",
+      "modelName": "QX50 (J50Z)",
+      "typeEngineName": "2.5 All-wheel Drive",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112435,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113425,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "37 AWD",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113694,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113695,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.5 Hybrid",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114374,
+      "modelId": 11513,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA VII (B17)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115407,
+      "modelId": 14452,
+      "manufacturerName": "NISSAN",
+      "modelName": "SUNNY",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116533,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 DIG-T (T32)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116611,
+      "modelId": 14614,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "MURANO III (Z52)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116613,
+      "modelId": 14614,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "MURANO III (Z52)",
+      "typeEngineName": "2.5 HEV 4x4",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116870,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 117265,
+      "modelId": 13057,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA III (J33, L33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117427,
+      "modelId": 38288,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J11)",
+      "typeEngineName": "1.2 T",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117430,
+      "modelId": 38288,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J11)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117491,
+      "modelId": 10778,
+      "manufacturerName": "FENGSHEN",
+      "modelName": "A60",
+      "typeEngineName": "1.4 T",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117493,
+      "modelId": 10778,
+      "manufacturerName": "FENGSHEN",
+      "modelName": "A60",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117499,
+      "modelId": 14814,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LANNIA Saloon (U15)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117592,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "25 AWD",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117594,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "45 AWD",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117597,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "25",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117599,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "56",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117604,
+      "modelId": 11859,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 I",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117606,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 DIG-T NISMO RS",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 117697,
+      "modelId": 10778,
+      "manufacturerName": "FENGSHEN",
+      "modelName": "A60",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118572,
+      "modelId": 36230,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE CROSSOVER (_J50)",
+      "typeEngineName": "370GT (J50)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118714,
+      "modelId": 36230,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE CROSSOVER (_J50)",
+      "typeEngineName": "370GT FOUR (NJ50)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120571,
+      "modelId": 36736,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "MAXIMA (A36)",
+      "typeEngineName": "2.5 XE",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120714,
+      "modelId": 11513,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA VII (B17)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120754,
+      "modelId": 36768,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TIIDA Hatchback (C13Z)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121366,
+      "modelId": 9847,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "3.5 All-wheel Drive",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 121367,
+      "modelId": 8267,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 121370,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 121405,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 121485,
+      "modelId": 38163,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (L33Z)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122418,
+      "modelId": 11322,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VI (A34)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 122448,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 122461,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 122495,
+      "modelId": 35773,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 122514,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122549,
+      "modelId": 11513,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA VII (B17)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123069,
+      "modelId": 11322,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VI (A34)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 123589,
+      "modelId": 10017,
+      "manufacturerName": "NISSAN",
+      "modelName": "SERENA (C26)",
+      "typeEngineName": "2.0 4x4 (NC26)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 123962,
+      "modelId": 37229,
+      "manufacturerName": "NISSAN",
+      "modelName": "FUGA I (_Y50)",
+      "typeEngineName": "450GT (GY50)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 123964,
+      "modelId": 7040,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L32)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 124039,
+      "modelId": 37229,
+      "manufacturerName": "NISSAN",
+      "modelName": "FUGA I (_Y50)",
+      "typeEngineName": "350GT FOUR All-wheel Drive (PNY50)",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 124040,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 124041,
+      "modelId": 37229,
+      "manufacturerName": "NISSAN",
+      "modelName": "FUGA I (_Y50)",
+      "typeEngineName": "350 (PY50)",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2007-11-01"
+    },
+    {
+      "vehicleId": 124043,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 124101,
+      "modelId": 14614,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "MURANO III (Z52)",
+      "typeEngineName": "2.5 HEV",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124117,
+      "modelId": 37332,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KOLEOS",
+      "typeEngineName": "2.5 SCe230",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124140,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "2.5 (TZ51)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 124141,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "2.5 4x4 (TNZ51)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 124166,
+      "modelId": 35773,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 124176,
+      "modelId": 13273,
+      "manufacturerName": "NISSAN",
+      "modelName": "FUGA II (_Y51)",
+      "typeEngineName": "370 GT 4WD (KNY51)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124290,
+      "modelId": 37356,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (_V37)",
+      "typeEngineName": "200GT (YV37, ZV37)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124291,
+      "modelId": 37356,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (_V37)",
+      "typeEngineName": "350GT Hybrid (HV37)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124292,
+      "modelId": 37356,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (_V37)",
+      "typeEngineName": "350GT FOUR Hybrid All-wheel Drive (HNV37)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124382,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "2.5 FOUR All-wheel Drive (TNJ31)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 124585,
+      "modelId": 37118,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRESAGE (U31)",
+      "typeEngineName": "2.5 4WD (TNU31)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 124592,
+      "modelId": 37118,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRESAGE (U31)",
+      "typeEngineName": "2.5 (TU31)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 125664,
+      "modelId": 37587,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T90",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125816,
+      "modelId": 13517,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C12)",
+      "typeEngineName": "1.6 Flexfuel",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125846,
+      "modelId": 11273,
+      "manufacturerName": "NISSAN",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY III (B17)",
+      "typeEngineName": "1.6 CNG",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125847,
+      "modelId": 11273,
+      "manufacturerName": "NISSAN",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY III (B17)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125848,
+      "modelId": 11273,
+      "manufacturerName": "NISSAN",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY III (B17)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125856,
+      "modelId": 13057,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA III (J33, L33)",
+      "typeEngineName": "2.0 Flexfuel (L33T)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125857,
+      "modelId": 13057,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA III (J33, L33)",
+      "typeEngineName": "2.5 Flexfuel (L33T)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126028,
+      "modelId": 11859,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX50 I",
+      "typeEngineName": "37 AWD",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126029,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126030,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126031,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "5.6",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126032,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126717,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126905,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126911,
+      "modelId": 11513,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA VII (B17)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126913,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 128097,
+      "modelId": 6399,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL II (T31)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 128333,
+      "modelId": 38163,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (L33Z)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 128580,
+      "modelId": 38202,
+      "manufacturerName": "NISSAN",
+      "modelName": "LEAF (ZE1)",
+      "typeEngineName": "Electric",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128852,
+      "modelId": 14108,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VIII (A36)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129150,
+      "modelId": 38163,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (L33Z)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129328,
+      "modelId": 14108,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VIII (A36)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129435,
+      "modelId": 38328,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE Coupe (V36)",
+      "typeEngineName": "370GT (CKV36)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 129456,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35 AWD",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 129481,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 129615,
+      "modelId": 13619,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T70",
+      "typeEngineName": "1.4 TURBO",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130341,
+      "modelId": 8089,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "BLUEBIRD SYLPHY / SYLPHY CLASSIC (G11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131348,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi 4x4",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 131864,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131944,
+      "modelId": 8898,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (V35)",
+      "typeEngineName": "2.5 (V35)",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 132005,
+      "modelId": 9737,
+      "manufacturerName": "INFINITI",
+      "modelName": "M37",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132040,
+      "modelId": 10091,
+      "manufacturerName": "NISSAN",
+      "modelName": "MAXIMA VII (A35)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132087,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132749,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 133352,
+      "modelId": 11147,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "SYLPHY (B17)",
+      "typeEngineName": "Zero Emission",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133425,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 133635,
+      "modelId": 13057,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA III (J33, L33)",
+      "typeEngineName": "3.5 CVTC",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133827,
+      "modelId": 7610,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L31)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 133829,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 133831,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 133832,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 133833,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 133834,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 133836,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 133838,
+      "modelId": 7040,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L32)",
+      "typeEngineName": "3.5 CVTC",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 133839,
+      "modelId": 7039,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA Coupe (CL32)",
+      "typeEngineName": "3.5 CVTC",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 133843,
+      "modelId": 13517,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C12)",
+      "typeEngineName": "1.6 CVTC",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133844,
+      "modelId": 11365,
+      "manufacturerName": "NISSAN",
+      "modelName": "PULSAR Hatchback (C13)",
+      "typeEngineName": "1.6 CVTC",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133845,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 CVTC",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 134015,
+      "modelId": 7598,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "35 X",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 134023,
+      "modelId": 35773,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 134024,
+      "modelId": 35773,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "3.5 X",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 134027,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid AWD",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134028,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134082,
+      "modelId": 37587,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T90",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134332,
+      "modelId": 8624,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA II (J32)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 134333,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 134910,
+      "modelId": 6874,
+      "manufacturerName": "NISSAN",
+      "modelName": "QUEST (V42)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 135927,
+      "modelId": 39489,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L34)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135928,
+      "modelId": 39489,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L34)",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136217,
+      "modelId": 13191,
+      "manufacturerName": "INFINITI",
+      "modelName": "ESQ (JF15)",
+      "typeEngineName": "1.6 AWD",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137153,
+      "modelId": 13619,
+      "manufacturerName": "VENUCIA",
+      "modelName": "T70",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138546,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "25",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138907,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "25L",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 139970,
+      "modelId": 39489,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L34)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140417,
+      "modelId": 37219,
+      "manufacturerName": "NISSAN",
+      "modelName": "SERENA (C27)",
+      "typeEngineName": "1.2 e-Power (HFC27)",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141082,
+      "modelId": 36768,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TIIDA Hatchback (C13Z)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141223,
+      "modelId": 11147,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "SYLPHY (B17)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142147,
+      "modelId": 14814,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LANNIA Saloon (U15)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142860,
+      "modelId": 41645,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE Van (F15)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 142932,
+      "modelId": 41658,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T31)",
+      "typeEngineName": "dCi",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 142933,
+      "modelId": 41658,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T31)",
+      "typeEngineName": "dCi 4x4",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 142934,
+      "modelId": 41658,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T31)",
+      "typeEngineName": "dCi 4x4",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 142935,
+      "modelId": 41659,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T32)",
+      "typeEngineName": "dCi",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142936,
+      "modelId": 41659,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL VAN (T32)",
+      "typeEngineName": "dCi 4x4",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143135,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "1.6 CVTC",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143136,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143137,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143138,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143139,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "1.6 dCi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143140,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "1.6 dCi All-wheel Drive",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 143141,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "2.0 dCi All-wheel Drive",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 146223,
+      "modelId": 42594,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL HONOR (T32)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2021-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150852,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 150853,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 11918,
+      "modelId": 9737,
+      "manufacturerName": "INFINITI",
+      "modelName": "M37",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11921,
+      "modelId": 9737,
+      "manufacturerName": "INFINITI",
+      "modelName": "M37",
+      "typeEngineName": "3.7 Allrad",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12558,
+      "modelId": 10077,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LIVINA MPV (L10_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 12564,
+      "modelId": 9849,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "LIVINA C-GEAR (NL10Z)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 19194,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 All-wheel Drive (TD54, JB420)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 23488,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.6 (C11L)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23489,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23996,
+      "modelId": 8091,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "GENISS / LIVINA GENISS MPV (L10_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 57874,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 59302,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 106276,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.2 DIG-T",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 125865,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 133043,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 136138,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 142859,
+      "modelId": 41645,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE Van (F15)",
+      "typeEngineName": "CVTC",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 142928,
+      "modelId": 41645,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE Van (F15)",
+      "typeEngineName": "dCi",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 14647,
+      "modelId": 10019,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LANDY (SC25)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 14656,
+      "modelId": 10019,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LANDY (SC25)",
+      "typeEngineName": "2.0 4WD",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 17435,
+      "modelId": 5018,
+      "manufacturerName": "NISSAN",
+      "modelName": "350Z Coupe (Z33)",
+      "typeEngineName": "3.5 (AAZ33)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 18277,
+      "modelId": 5203,
+      "manufacturerName": "NISSAN",
+      "modelName": "350Z Roadster (Z33)",
+      "typeEngineName": "3.5 (AAZ33)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 24262,
+      "modelId": 5018,
+      "manufacturerName": "NISSAN",
+      "modelName": "350Z Coupe (Z33)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2007-01-01"
+    },
+    {
+      "vehicleId": 22154,
+      "modelId": 6086,
+      "manufacturerName": "INFINITI",
+      "modelName": "M35",
+      "typeEngineName": "3.5 X",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26299,
+      "modelId": 7279,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE Coupe (V35)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 33423,
+      "modelId": 8624,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA II (J32)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 33424,
+      "modelId": 8624,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA II (J32)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 121900,
+      "modelId": 8624,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA II (J32)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 124551,
+      "modelId": 8624,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA II (J32)",
+      "typeEngineName": "2.5 FOUR All-wheel Drive",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 124553,
+      "modelId": 8624,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA II (J32)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 133636,
+      "modelId": 8624,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA II (J32)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 34794,
+      "modelId": 7597,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34797,
+      "modelId": 8940,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Convertible",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117595,
+      "modelId": 8940,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Convertible",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128263,
+      "modelId": 8940,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Convertible",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55684,
+      "modelId": 10489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "TWIN",
+      "typeEngineName": "0.7",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 55685,
+      "modelId": 10489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "TWIN",
+      "typeEngineName": "0.7 Hybrid",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 100191,
+      "modelId": 11680,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Coupe",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107298,
+      "modelId": 11680,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Coupe",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107303,
+      "modelId": 11681,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Convertible",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113422,
+      "modelId": 7597,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 117603,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "5.6 AWD",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121986,
+      "modelId": 36966,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Coupe",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134029,
+      "modelId": 11681,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Convertible",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134030,
+      "modelId": 11680,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Coupe",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105675,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "3.7 V6 VVEL",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106464,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 dCi (T32)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106465,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 dCi ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109636,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 (T32)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121518,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125349,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 dCi (T32)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125880,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 Flexfuel ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136650,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107383,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 (T32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107384,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107628,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 DIG-T NISMO RS",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 108986,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.6 DIG-T NISMO RS 4x4",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 110819,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126714,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.7 AWD",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122612,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.5 All-wheel Drive",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 127084,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "1.6 dCi 130",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127085,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 dCi 175 4WD",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127086,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.5 Sce",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127087,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.5 Sce 4WD",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127965,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 dCi 175 (HCAK)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134599,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137194,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "1.7 BLUE dCi 150 (HCA7)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137723,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 BLUE dCi 190 4WD (HCAN)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141588,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "1.3 TCe 160 (HCN2)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123956,
+      "modelId": 37285,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (V36)",
+      "typeEngineName": "350GT (PV36)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 124283,
+      "modelId": 37285,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (V36)",
+      "typeEngineName": "250GT (V36)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2014-02-01"
+    },
+    {
+      "vehicleId": 124286,
+      "modelId": 37285,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (V36)",
+      "typeEngineName": "370GT (KV36)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 124111,
+      "modelId": 37332,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KOLEOS",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136171,
+      "modelId": 37332,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KOLEOS",
+      "typeEngineName": "SCe200",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125958,
+      "modelId": 11513,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA VII (B17)",
+      "typeEngineName": "1.6 DIG-T",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127744,
+      "modelId": 13632,
+      "manufacturerName": "SAMSUNG",
+      "modelName": "SM5 (A34R)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 129537,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "37 AWD",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 135024,
+      "modelId": 38202,
+      "manufacturerName": "NISSAN",
+      "modelName": "LEAF (ZE1)",
+      "typeEngineName": "Electric",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141601,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.0 2WD",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55290,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 138545,
+      "modelId": 7597,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 107381,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "14"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "105"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "37"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Akebono"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23871"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23872"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24088"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "040604BA0B"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "410601408R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "440000027R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "440605435R"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "440608H385"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060AL585"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060AL586"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060AL587"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060AL588"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "44060AM485"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060CB10J"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "44060EG00J"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060EG00K"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "44060EG085"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060NS026"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060RN14D"
+    },
+    {
+      "oemBrand": "FENGSHEN",
+      "oemDisplayNo": "4586001"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "4831152001K1"
+    },
+    {
+      "oemBrand": "SAMSUNG",
+      "oemDisplayNo": "4831152200K0"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5518050Z10"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5518050Z10000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5580077K02"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5580077K02000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5580077K03"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5580077K03000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5580077K04"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5580077K04000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z01"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z01000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z02"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z02000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z03"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z10"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z10000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z20"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z20000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z30"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581050Z30000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581051Z10"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581051Z10000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581051Z30"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581051Z30000"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "8660005142"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS026"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS030"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS038"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS039"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS040"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS041"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS043"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS045"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS047"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS048"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS050"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS051"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS052"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS053"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS055"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS057"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS059"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS060"
+    },
+    {
+      "oemBrand": "NISSAN (DFAC)",
+      "oemDisplayNo": "AY060NS061"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS53"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS906"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS907"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY060NS913"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4060045VA"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D40601BN0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40601GZ0C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40601JZ0A"
+    },
+    {
+      "oemBrand": "NISSAN (DFAC)",
+      "oemDisplayNo": "D40601JZ1A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D40601MB0A"
+    },
+    {
+      "oemBrand": "VENUCIA",
+      "oemDisplayNo": "D40602FL0A"
+    },
+    {
+      "oemBrand": "NISSAN (DFAC)",
+      "oemDisplayNo": "D40603AW0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40603DN1A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40603JY0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40603JY0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40603NF0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40603NK0A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D40603WU0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604BA0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604BA0C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604CU2A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604ND0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40606HH0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40608H385"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40608H38EVA"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40609DL0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40609HE0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40609HM0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40609HM0C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40609HU0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40609HU0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4060CB10J"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4060CY025"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D4060EG50C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4060EM11A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4060JA00A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4060JA00J"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "D4060JA00JR"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4060JA00JRV"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D4080EG50C"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D4M601BN0A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D4M601BNOA"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4M604ND0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4M609N00A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4M609N00B"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D4M60EG50C"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MQ706234"
+    },
+    {
+      "oemBrand": "HAIMA (FAW)",
+      "oemDisplayNo": "SA1226483"
+    }
+  ],
+  "ean": "8020584055267",
+  "originalSKU": "P56046",
+  "fetchedAt": "2026-03-13T22:21:02.655Z"
+}
