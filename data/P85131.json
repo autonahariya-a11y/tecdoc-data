@@ -1,0 +1,1679 @@
+{
+  "articleNo": "P 85 131",
+  "articleId": 8361095,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 346,
+      "modelId": 9004,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 Variant (365)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 7027,
+      "modelId": 9003,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 (362)",
+      "typeEngineName": "3.6 FSI 4motion",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 7033,
+      "modelId": 9004,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 Variant (365)",
+      "typeEngineName": "3.6 FSI 4motion",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 11255,
+      "modelId": 7375,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT CC B6 (357)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 11259,
+      "modelId": 7375,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT CC B6 (357)",
+      "typeEngineName": "3.6 FSI 4motion",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 20876,
+      "modelId": 11165,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 (A32, A33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 26607,
+      "modelId": 7375,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT CC B6 (357)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 26608,
+      "modelId": 7375,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT CC B6 (357)",
+      "typeEngineName": "3.6 FSI 4motion",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 26732,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 26739,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "3.6 FSI 4motion",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 26752,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 27347,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 28284,
+      "modelId": 7375,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT CC B6 (357)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 55315,
+      "modelId": 11165,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 (A32, A33)",
+      "typeEngineName": "3.6 FSI",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2019-01-01"
+    },
+    {
+      "vehicleId": 56898,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56899,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56900,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56901,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56902,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56903,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56904,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 58062,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "3.6 FSI 4motion",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 59367,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 59910,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "3.6 FSI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 108119,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "1.4 TSI MultiFuel",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 115197,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 115198,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 115199,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 133558,
+      "modelId": 39030,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 Estate Van (365)",
+      "typeEngineName": "3.6 FSi 4motion",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 519,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 520,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 521,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2013-02-01"
+    },
+    {
+      "vehicleId": 6029,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 10615,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 10621,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 10625,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 58359,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 59056,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 115487,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115490,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115493,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 115495,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117453,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 120179,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 134276,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TDi 4Drive",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 142937,
+      "modelId": 41660,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA VAN (711)",
+      "typeEngineName": "TSi",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 142938,
+      "modelId": 41660,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA VAN (711)",
+      "typeEngineName": "TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 142942,
+      "modelId": 41660,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA VAN (711)",
+      "typeEngineName": "TDI 4Drive",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 142943,
+      "modelId": 41660,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA VAN (711)",
+      "typeEngineName": "TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 154622,
+      "modelId": 41660,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA VAN (711)",
+      "typeEngineName": "TDI",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 6021,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 10876,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 12089,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 33434,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 33435,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 33675,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 34975,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 57120,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 59444,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 115204,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2022-11-01"
+    },
+    {
+      "vehicleId": 115205,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 115206,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 115207,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 115208,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 120178,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 143004,
+      "modelId": 41676,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7N1, 7N2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 143005,
+      "modelId": 41676,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 143006,
+      "modelId": 41676,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 143007,
+      "modelId": 41676,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 143008,
+      "modelId": 41676,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 143009,
+      "modelId": 41676,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 105912,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2021-03-01"
+    },
+    {
+      "vehicleId": 106227,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 GTE Hybrid",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 106611,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 106613,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 106635,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 106644,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 106654,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 106657,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 108612,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 108613,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 108615,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 108616,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 108628,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 108629,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 108630,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 108631,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 112379,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "1.4 TSI 4motion",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 112382,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "1.4 TSI 4motion",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 112383,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 112385,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 112386,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 112387,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 115193,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 124242,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 124243,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 125671,
+      "modelId": 37588,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN L (0T1, 0T3)",
+      "typeEngineName": "380 TSI 4motion",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125672,
+      "modelId": 37588,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN L (0T1, 0T3)",
+      "typeEngineName": "330 TSI",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128334,
+      "modelId": 38164,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ (0Z7)",
+      "typeEngineName": "TSI 330",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128335,
+      "modelId": 38164,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ (0Z7)",
+      "typeEngineName": "TSI 380 4x4",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130362,
+      "modelId": 37588,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN L (0T1, 0T3)",
+      "typeEngineName": "330 TSI",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130441,
+      "modelId": 38164,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ (0Z7)",
+      "typeEngineName": "TSI 330",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132132,
+      "modelId": 37588,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN L (0T1, 0T3)",
+      "typeEngineName": "280 TSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133641,
+      "modelId": 39081,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON (0D1, 0D3)",
+      "typeEngineName": "330 TSI",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133642,
+      "modelId": 39081,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON (0D1, 0D3)",
+      "typeEngineName": "330 TSI All-wheel Drive",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133643,
+      "modelId": 39081,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON (0D1, 0D3)",
+      "typeEngineName": "380 TSI All-wheel Drive",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134299,
+      "modelId": 39197,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ GT (0Z8)",
+      "typeEngineName": "1.4 TSI 280",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134300,
+      "modelId": 39197,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ GT (0Z8)",
+      "typeEngineName": "2.0 TSI 330",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134301,
+      "modelId": 39197,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ GT (0Z8)",
+      "typeEngineName": "2.0 TSI 380 All-wheel Drive",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134676,
+      "modelId": 39081,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON (0D1, 0D3)",
+      "typeEngineName": "280 TSI",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135146,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136221,
+      "modelId": 39513,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q3 (G2B, G2G)",
+      "typeEngineName": "35 TFSI",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136222,
+      "modelId": 39513,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q3 (G2B, G2G)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136223,
+      "modelId": 39513,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q3 (G2B, G2G)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 136224,
+      "modelId": 39513,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q3 (G2B, G2G)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138547,
+      "modelId": 39197,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ GT (0Z8)",
+      "typeEngineName": "2.0 TSI 380 All-wheel Drive",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138867,
+      "modelId": 37588,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN L (0T1, 0T3)",
+      "typeEngineName": "380 TSI 4motion",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138874,
+      "modelId": 39081,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON (0D1, 0D3)",
+      "typeEngineName": "380 TSI All-wheel Drive",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138875,
+      "modelId": 38164,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ (0Z7)",
+      "typeEngineName": "TSI 380 4x4",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140371,
+      "modelId": 39081,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON (0D1, 0D3)",
+      "typeEngineName": "GTE PHEV",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140623,
+      "modelId": 37588,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN L (0T1, 0T3)",
+      "typeEngineName": "430 PHEV",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140683,
+      "modelId": 40849,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q3 Sportback (G2N, G2T)",
+      "typeEngineName": "35 TFSI",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140684,
+      "modelId": 40849,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q3 Sportback (G2N, G2T)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140685,
+      "modelId": 40849,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q3 Sportback (G2N, G2T)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141250,
+      "modelId": 40966,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON X (0D2, 0D4)",
+      "typeEngineName": "330 TSI",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141251,
+      "modelId": 40966,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON X (0D2, 0D4)",
+      "typeEngineName": "380 TSI 4motion",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142408,
+      "modelId": 41487,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN X Coupe (0T2, 0T4)",
+      "typeEngineName": "330TSI",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142409,
+      "modelId": 41487,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN X Coupe (0T2, 0T4)",
+      "typeEngineName": "380TSI 4motion",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125995,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 125996,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 128340,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.5 TSI",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 128344,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.5 TSI",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 135365,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.5 TGI",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 135622,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI TCR",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 128493,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128495,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128651,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128940,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "1.5 TSI",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130824,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130825,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 135725,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "1.5 TSI 4motion",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2019-11-01"
+    },
+    {
+      "vehicleId": 137767,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 137768,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142617,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142912,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143481,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI SCR",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156910,
+      "modelId": 38164,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ (0Z7)",
+      "typeEngineName": "TSI 330",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156911,
+      "modelId": 39197,
+      "manufacturerName": "SKODA (SVW)",
+      "modelName": "KODIAQ GT (0Z8)",
+      "typeEngineName": "TSI 330",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156913,
+      "modelId": 40849,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q3 Sportback (G2N, G2T)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2023-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156914,
+      "modelId": 39081,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON (0D1, 0D3)",
+      "typeEngineName": "330 TSI",
+      "constructionIntervalStart": "2022-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156915,
+      "modelId": 40966,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "TAYRON X (0D2, 0D4)",
+      "typeEngineName": "330 TSI",
+      "constructionIntervalStart": "2022-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156957,
+      "modelId": 39513,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "Q3 (G2B, G2G)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2023-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156960,
+      "modelId": 37588,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN L (0T1, 0T3)",
+      "typeEngineName": "330 TSI",
+      "constructionIntervalStart": "2023-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156961,
+      "modelId": 41487,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN X Coupe (0T2, 0T4)",
+      "typeEngineName": "330 TSI",
+      "constructionIntervalStart": "2022-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28258,
+      "modelId": 7588,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II (3T4)",
+      "typeEngineName": "3.6 FSI 4x4",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 32786,
+      "modelId": 8495,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II Estate (3T5)",
+      "typeEngineName": "3.6 V6 4x4",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "20"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "175"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "70"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "TRW"
+    },
+    {
+      "criteriaName": "Warning Contact Length [mm]",
+      "criteriaValue": "200"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "7"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24738"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25217"
+    },
+    {
+      "criteriaName": "directional",
+      "criteriaValue": ""
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "3C0698151E"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "3C0698151E"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "3C0698151E"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "3C0698151E"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "3C0698151F"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "3C0698151F"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "3C0698151F"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "3C0698151F"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "3C0698151G"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "3C0698151G"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "3C0698151G"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "3C0698151G"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "3C0698151H"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "3C0698151H"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "3C0698151H"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "3C0698151H"
+    },
+    {
+      "oemBrand": "SKODA (SVW)",
+      "oemDisplayNo": "3C0698151L"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "3C0698151N"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "5Q0698151G"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "5Q0698151G"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "5Q0698151G"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "5Q0698151G"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "5Q0698151L"
+    },
+    {
+      "oemBrand": "VW (FAW)",
+      "oemDisplayNo": "5QJ698151"
+    },
+    {
+      "oemBrand": "VW (SVW)",
+      "oemDisplayNo": "5QJ698151"
+    },
+    {
+      "oemBrand": "SKODA (SVW)",
+      "oemDisplayNo": "5QJ698151"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "7N0698151A"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "7N0698151A"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "7N0698151A"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "7N0698151A"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "7N0698151B"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "7N0698151B"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "7N0698151B"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "7N0698151B"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "7N0698151C"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "7N0698151C"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "7N0698151C"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "7N0698151C"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "7N0698151D"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "7N0698151D"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "7N0698151D"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "7N0698151D"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "7N0698151E"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "7N0698151E"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "7N0698151E"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "7N0698151E"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "7N0698151F"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "7N0698151F"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "7N0698151F"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "7N0698151F"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "7N0698151J"
+    },
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "L5QJ698151"
+    }
+  ],
+  "ean": "8020584109625",
+  "originalSKU": "P85131",
+  "fetchedAt": "2026-03-13T22:23:46.481Z"
+}
