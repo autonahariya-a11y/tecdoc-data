@@ -1,0 +1,33 @@
+name: Update TecDoc Data
+
+on:
+  # Run weekly on Sunday at 3:00 AM Israel time (00:00 UTC)
+  schedule:
+    - cron: '0 0 * * 0'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # 6 hours max for large catalogs
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch TecDoc data
+        run: node scripts/fetch-tecdoc.js
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "TecDoc Bot"
+          git config user.email "bot@autonahariya.co.il"
+          git add data/*.json
+          git diff --staged --quiet || git commit -m "Update TecDoc data — $(date +'%Y-%m-%d')"
+          git push
