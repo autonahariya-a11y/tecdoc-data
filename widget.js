@@ -415,6 +415,9 @@
     if (/^\d{5}[A-Z]/.test(artNo)) {
       variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
     }
+    /* Strip brand prefixes: FEB170297 -> 170297 (Febi Bilstein) */
+    var pfxMatch = artNo.match(/^(FEB|MAN|NGK|BOS|VAL|LUK|SKF|INA|FAG|SNR)(\d{4,})$/i);
+    if (pfxMatch) variations.push(pfxMatch[2]);
     var nospace = artNo.replace(/[\s.-]/g, '');
     if (nospace !== artNo) variations.push(nospace);
     return variations;
