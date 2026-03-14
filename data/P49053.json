@@ -1,7 +1,7 @@
 {
-  "articleNo": "P49053",
-  "articleId": 8402682,
-  "supplier": "FENNO",
+  "articleNo": "200-143",
+  "articleId": 1815950,
+  "supplier": "BOSAL",
   "product": "Rear Muffler",
   "vehicles": [
     {
@@ -23,6 +23,15 @@
       "constructionIntervalEnd": null
     },
     {
+      "vehicleId": 107960,
+      "modelId": 13049,
+      "manufacturerName": "SMART",
+      "modelName": "FORTWO Coupe (453)",
+      "typeEngineName": "0.9 (453.344, 453.353)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
       "vehicleId": 108062,
       "modelId": 13195,
       "manufacturerName": "RENAULT",
@@ -37,6 +46,15 @@
       "manufacturerName": "SMART",
       "modelName": "FORFOUR Hatchback (453)",
       "typeEngineName": "1.0 (453.041)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108764,
+      "modelId": 13050,
+      "manufacturerName": "SMART",
+      "modelName": "FORFOUR Hatchback (453)",
+      "typeEngineName": "0.9 (453.044, 453.053)",
       "constructionIntervalStart": "2014-11-01",
       "constructionIntervalEnd": null
     },
@@ -56,6 +74,42 @@
       "modelName": "FORTWO Convertible (453)",
       "typeEngineName": "1.0 (453.442, 453.443)",
       "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116794,
+      "modelId": 14632,
+      "manufacturerName": "SMART",
+      "modelName": "FORTWO Convertible (453)",
+      "typeEngineName": "0.9 (453.444, 453.453)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119981,
+      "modelId": 13049,
+      "manufacturerName": "SMART",
+      "modelName": "FORTWO Coupe (453)",
+      "typeEngineName": "0.9 Brabus (453.362)",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119983,
+      "modelId": 13050,
+      "manufacturerName": "SMART",
+      "modelName": "FORFOUR Hatchback (453)",
+      "typeEngineName": "0.9 Brabus (453.062)",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119985,
+      "modelId": 14632,
+      "manufacturerName": "SMART",
+      "modelName": "FORTWO Convertible (453)",
+      "typeEngineName": "0.9 Brabus (453.462)",
+      "constructionIntervalStart": "2016-07-01",
       "constructionIntervalEnd": null
     },
     {
@@ -130,9 +184,16 @@
     {
       "oemBrand": "SMART",
       "oemDisplayNo": "4534903500"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "200205174R"
     }
   ],
   "ean": "6438495006155",
   "originalSKU": "P49053",
-  "fetchedAt": "2026-03-13T22:24:57.484Z"
+  "fetchedAt": "2026-03-14T12:12:56Z",
+  "enrichedVia": "OEM fallback (200-143)",
+  "previousSupplier": "FENNO",
+  "previousVehicleCount": 7
 }
