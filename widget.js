@@ -17,72 +17,72 @@
 
   /* ── Hebrew translations ── */
   var SPEC_TR = {
-    'Fitting Position': 'מיקום התקנה',
-    'Height [mm]': 'גובה [מ"מ]',
-    'Bore Diameter [mm]': 'קוטר נקב [מ"מ]',
-    'Brake Disc Type': 'סוג דיסק בלם',
-    'Brake Disc Thickness [mm]': 'עובי דיסק [מ"מ]',
-    'Minimum thickness [mm]': 'עובי מינימלי [מ"מ]',
-    'Hole Arrangement/Number': 'סידור/מספר חורים',
-    'Inner Diameter [mm]': 'קוטר פנימי [מ"מ]',
-    'Outer Diameter [mm]': 'קוטר חיצוני [מ"מ]',
-    'Centering Diameter [mm]': 'קוטר מרכוז [מ"מ]',
-    'Bolt Hole Circle Ø [mm]': 'מעגל ברגים Ø [מ"מ]',
-    'Diameter [mm]': 'קוטר [מ"מ]',
-    'Surface': 'משטח', 'Drilled': 'מקודח',
-    'Material': 'חומר', 'Weight [kg]': 'משקל [ק"ג]',
-    'Length [mm]': 'אורך [מ"מ]', 'Width [mm]': 'רוחב [מ"מ]',
-    'Thickness [mm]': 'עובי [מ"מ]',
-    'WVA Number': 'מספר WVA',
-    'Brake System': 'מערכת בלימה',
-    'Number per Axle': 'כמות לסרן',
-    'Wear Warning Contact': 'חיישן בלאי',
-    'Machining': 'עיבוד', 'Product line': 'קו מוצר',
-    'Test Mark': 'תו תקן', 'Condition': 'מצב',
-    'Tightening Torque [Nm]': 'מומנט הידוק [Nm]',
-    'Number of Holes': 'מספר חורים',
-    'Rim Hole Number': 'מספר חורי חישוק',
-    'Supplementary Article/Supplementary Info': 'מידע משלים',
-    'for PR number': 'למספר PR',
-    'Manufacturer': 'יצרן', 'EAN number': 'מספר EAN',
-    'Item number': 'מק"ט', 'directional': 'כיווני',
-    'Paired product': 'מוצר מתאים',
-    'Number of wear indicators [per axle]': 'מספר חיישני בלאי לסרן',
-    'Warning Contact Length [mm]': 'אורך חיישן [מ"מ]',
-    'Supplementary Article/Info 2': 'מידע משלים 2',
-    'Supplementary Article/Info': 'מידע משלים',
-    'Axle version': 'גרסת סרן',
-    'Pad Thickness [mm]': 'עובי רפידה [מ"מ]',
-    'Pad Thickness 1 [mm]': 'עובי רפידה 1 [מ"מ]',
-    'with accessories': 'עם אביזרים',
-    'Number per Axle': 'כמות לסרן',
-    'Packing Type': 'סוג אריזה',
-    'Vehicle Equipment': 'ציוד רכב',
-    'Check Character': 'תו בדיקה',
+    'Fitting Position': '\u05DE\u05D9\u05E7\u05D5\u05DD \u05D4\u05EA\u05E7\u05E0\u05D4',
+    'Height [mm]': '\u05D2\u05D5\u05D1\u05D4 [\u05DE"\u05DE]',
+    'Bore Diameter [mm]': '\u05E7\u05D5\u05D8\u05E8 \u05E0\u05E7\u05D1 [\u05DE"\u05DE]',
+    'Brake Disc Type': '\u05E1\u05D5\u05D2 \u05D3\u05D9\u05E1\u05E7 \u05D1\u05DC\u05DD',
+    'Brake Disc Thickness [mm]': '\u05E2\u05D5\u05D1\u05D9 \u05D3\u05D9\u05E1\u05E7 [\u05DE"\u05DE]',
+    'Minimum thickness [mm]': '\u05E2\u05D5\u05D1\u05D9 \u05DE\u05D9\u05E0\u05D9\u05DE\u05DC\u05D9 [\u05DE"\u05DE]',
+    'Hole Arrangement/Number': '\u05E1\u05D9\u05D3\u05D5\u05E8/\u05DE\u05E1\u05E4\u05E8 \u05D7\u05D5\u05E8\u05D9\u05DD',
+    'Inner Diameter [mm]': '\u05E7\u05D5\u05D8\u05E8 \u05E4\u05E0\u05D9\u05DE\u05D9 [\u05DE"\u05DE]',
+    'Outer Diameter [mm]': '\u05E7\u05D5\u05D8\u05E8 \u05D7\u05D9\u05E6\u05D5\u05E0\u05D9 [\u05DE"\u05DE]',
+    'Centering Diameter [mm]': '\u05E7\u05D5\u05D8\u05E8 \u05DE\u05E8\u05DB\u05D5\u05D6 [\u05DE"\u05DE]',
+    'Bolt Hole Circle \u00D8 [mm]': '\u05DE\u05E2\u05D2\u05DC \u05D1\u05E8\u05D2\u05D9\u05DD \u00D8 [\u05DE"\u05DE]',
+    'Diameter [mm]': '\u05E7\u05D5\u05D8\u05E8 [\u05DE"\u05DE]',
+    'Surface': '\u05DE\u05E9\u05D8\u05D7', 'Drilled': '\u05DE\u05E7\u05D5\u05D3\u05D7',
+    'Material': '\u05D7\u05D5\u05DE\u05E8', 'Weight [kg]': '\u05DE\u05E9\u05E7\u05DC [\u05E7"\u05D2]',
+    'Length [mm]': '\u05D0\u05D5\u05E8\u05DA [\u05DE"\u05DE]', 'Width [mm]': '\u05E8\u05D5\u05D7\u05D1 [\u05DE"\u05DE]',
+    'Thickness [mm]': '\u05E2\u05D5\u05D1\u05D9 [\u05DE"\u05DE]',
+    'WVA Number': '\u05DE\u05E1\u05E4\u05E8 WVA',
+    'Brake System': '\u05DE\u05E2\u05E8\u05DB\u05EA \u05D1\u05DC\u05D9\u05DE\u05D4',
+    'Number per Axle': '\u05DB\u05DE\u05D5\u05EA \u05DC\u05E1\u05E8\u05DF',
+    'Wear Warning Contact': '\u05D7\u05D9\u05D9\u05E9\u05DF \u05D1\u05DC\u05D0\u05D9',
+    'Machining': '\u05E2\u05D9\u05D1\u05D5\u05D3', 'Product line': '\u05E7\u05D5 \u05DE\u05D5\u05E6\u05E8',
+    'Test Mark': '\u05EA\u05D5 \u05EA\u05E7\u05DF', 'Condition': '\u05DE\u05E6\u05D1',
+    'Tightening Torque [Nm]': '\u05DE\u05D5\u05DE\u05E0\u05D8 \u05D4\u05D9\u05D3\u05D5\u05E7 [Nm]',
+    'Number of Holes': '\u05DE\u05E1\u05E4\u05E8 \u05D7\u05D5\u05E8\u05D9\u05DD',
+    'Rim Hole Number': '\u05DE\u05E1\u05E4\u05E8 \u05D7\u05D5\u05E8\u05D9 \u05D7\u05D9\u05E9\u05D5\u05E7',
+    'Supplementary Article/Supplementary Info': '\u05DE\u05D9\u05D3\u05E2 \u05DE\u05E9\u05DC\u05D9\u05DD',
+    'for PR number': '\u05DC\u05DE\u05E1\u05E4\u05E8 PR',
+    'Manufacturer': '\u05D9\u05E6\u05E8\u05DF', 'EAN number': '\u05DE\u05E1\u05E4\u05E8 EAN',
+    'Item number': '\u05DE\u05E7"\u05D8', 'directional': '\u05DB\u05D9\u05D5\u05D5\u05E0\u05D9',
+    'Paired product': '\u05DE\u05D5\u05E6\u05E8 \u05DE\u05EA\u05D0\u05D9\u05DD',
+    'Number of wear indicators [per axle]': '\u05DE\u05E1\u05E4\u05E8 \u05D7\u05D9\u05D9\u05E9\u05E0\u05D9 \u05D1\u05DC\u05D0\u05D9 \u05DC\u05E1\u05E8\u05DF',
+    'Warning Contact Length [mm]': '\u05D0\u05D5\u05E8\u05DA \u05D7\u05D9\u05D9\u05E9\u05DF [\u05DE"\u05DE]',
+    'Supplementary Article/Info 2': '\u05DE\u05D9\u05D3\u05E2 \u05DE\u05E9\u05DC\u05D9\u05DD 2',
+    'Supplementary Article/Info': '\u05DE\u05D9\u05D3\u05E2 \u05DE\u05E9\u05DC\u05D9\u05DD',
+    'Axle version': '\u05D2\u05E8\u05E1\u05EA \u05E1\u05E8\u05DF',
+    'Pad Thickness [mm]': '\u05E2\u05D5\u05D1\u05D9 \u05E8\u05E4\u05D9\u05D3\u05D4 [\u05DE"\u05DE]',
+    'Pad Thickness 1 [mm]': '\u05E2\u05D5\u05D1\u05D9 \u05E8\u05E4\u05D9\u05D3\u05D4 1 [\u05DE"\u05DE]',
+    'with accessories': '\u05E2\u05DD \u05D0\u05D1\u05D9\u05D6\u05E8\u05D9\u05DD',
+    'Number per Axle': '\u05DB\u05DE\u05D5\u05EA \u05DC\u05E1\u05E8\u05DF',
+    'Packing Type': '\u05E1\u05D5\u05D2 \u05D0\u05E8\u05D9\u05D6\u05D4',
+    'Vehicle Equipment': '\u05E6\u05D9\u05D5\u05D3 \u05E8\u05DB\u05D1',
+    'Check Character': '\u05EA\u05D5 \u05D1\u05D3\u05D9\u05E7\u05D4',
     'MAPP': 'MAPP',
-    'Spring/Clamp': 'קפיץ/מהדק',
-    'Coating': 'ציפוי'
+    'Spring/Clamp': '\u05E7\u05E4\u05D9\u05E5/\u05DE\u05D4\u05D3\u05E7',
+    'Coating': '\u05E6\u05D9\u05E4\u05D5\u05D9'
   };
 
   var VAL_TR = {
-    'HA': 'סרן אחורי', 'VA': 'סרן קדמי',
-    'Front Axle': 'סרן קדמי', 'Rear Axle': 'סרן אחורי',
-    'Front Axle Left': 'סרן קדמי שמאל',
-    'Front Axle Right': 'סרן קדמי ימין',
-    'Rear Axle Left': 'סרן אחורי שמאל',
-    'Rear Axle Right': 'סרן אחורי ימין',
-    'not prepared': 'לא מוכן', 'prepared': 'מוכן',
-    'with integrated wear warning contact': 'עם חיישן בלאי משולב',
-    'without wear warning contact': 'ללא חיישן בלאי',
-    'Externally Vented': 'מאוורר חיצונית',
-    'Internally Vented': 'מאוורר פנימית',
-    'Full': 'מלא', 'Solid': 'מלא',
-    'Perforated': 'מנוקב', 'Coated': 'מצופה',
-    'High-carbon': 'פחמן גבוה',
-    'yes': 'כן', 'no': 'לא', 'New': 'חדש',
-    '37': 'מצופה'
+    'HA': '\u05E1\u05E8\u05DF \u05D0\u05D7\u05D5\u05E8\u05D9', 'VA': '\u05E1\u05E8\u05DF \u05E7\u05D3\u05DE\u05D9',
+    'Front Axle': '\u05E1\u05E8\u05DF \u05E7\u05D3\u05DE\u05D9', 'Rear Axle': '\u05E1\u05E8\u05DF \u05D0\u05D7\u05D5\u05E8\u05D9',
+    'Front Axle Left': '\u05E1\u05E8\u05DF \u05E7\u05D3\u05DE\u05D9 \u05E9\u05DE\u05D0\u05DC',
+    'Front Axle Right': '\u05E1\u05E8\u05DF \u05E7\u05D3\u05DE\u05D9 \u05D9\u05DE\u05D9\u05DF',
+    'Rear Axle Left': '\u05E1\u05E8\u05DF \u05D0\u05D7\u05D5\u05E8\u05D9 \u05E9\u05DE\u05D0\u05DC',
+    'Rear Axle Right': '\u05E1\u05E8\u05DF \u05D0\u05D7\u05D5\u05E8\u05D9 \u05D9\u05DE\u05D9\u05DF',
+    'not prepared': '\u05DC\u05D0 \u05DE\u05D5\u05DB\u05DF', 'prepared': '\u05DE\u05D5\u05DB\u05DF',
+    'with integrated wear warning contact': '\u05E2\u05DD \u05D7\u05D9\u05D9\u05E9\u05DF \u05D1\u05DC\u05D0\u05D9 \u05DE\u05E9\u05D5\u05DC\u05D1',
+    'without wear warning contact': '\u05DC\u05DC\u05D0 \u05D7\u05D9\u05D9\u05E9\u05DF \u05D1\u05DC\u05D0\u05D9',
+    'Externally Vented': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8 \u05D7\u05D9\u05E6\u05D5\u05E0\u05D9\u05EA',
+    'Internally Vented': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8 \u05E4\u05E0\u05D9\u05DE\u05D9\u05EA',
+    'Full': '\u05DE\u05DC\u05D0', 'Solid': '\u05DE\u05DC\u05D0',
+    'Perforated': '\u05DE\u05E0\u05D5\u05E7\u05D1', 'Coated': '\u05DE\u05E6\u05D5\u05E4\u05D4',
+    'High-carbon': '\u05E4\u05D7\u05DE\u05DF \u05D2\u05D1\u05D5\u05D4',
+    'yes': '\u05DB\u05DF', 'no': '\u05DC\u05D0', 'New': '\u05D7\u05D3\u05E9',
+    '37': '\u05DE\u05E6\u05D5\u05E4\u05D4'
   };
-  var DISC_MAP = { '1': 'מלא', '2': 'מאוורר', '3': 'מאוורר פנימי' };
+  var DISC_MAP = { '1': '\u05DE\u05DC\u05D0', '2': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8', '3': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8 \u05E4\u05E0\u05D9\u05DE\u05D9' };
 
   function trSpec(n) { return SPEC_TR[n] || n; }
   function trVal(n, v) {
@@ -121,7 +121,7 @@
     var codeEl = document.querySelector('.code_item');
     if (codeEl) {
       var text = codeEl.textContent.trim();
-      text = text.replace(/^[מק"ט:.\s]+/g, '').trim();
+      text = text.replace(/^[\u05DE\u05E7"\u05D8:.\s]+/g, '').trim();
       if (text) return text;
     }
     return null;
@@ -134,7 +134,7 @@
     if (bcLink) return true;
     /* Fallback: check breadcrumb text */
     var bc = document.getElementById('bread_crumbs');
-    if (bc && bc.textContent.indexOf('חלקי חילוף לרכב') !== -1) return true;
+    if (bc && bc.textContent.indexOf('\u05D7\u05DC\u05E7\u05D9 \u05D7\u05D9\u05DC\u05D5\u05E3 \u05DC\u05E8\u05DB\u05D1') !== -1) return true;
     return false;
   }
 
@@ -147,7 +147,7 @@
     var itemContent = document.getElementById('item_content');
     if (itemContent) {
       var h3 = itemContent.querySelector('h3, #item_content_title');
-      if (h3) h3.textContent = 'פרטים טכניים';
+      if (h3) h3.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
       var specContainer = itemContent.querySelector('.specifications');
       if (specContainer) { specContainer.innerHTML = ''; }
       var widget = document.createElement('div');
@@ -165,7 +165,7 @@
       widget2.id = 'tecdoc-widget';
       specsDiv.appendChild(widget2);
       var header = document.querySelector('#item_specifications h3');
-      if (header) header.textContent = 'פרטים טכניים';
+      if (header) header.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
       return widget2;
     }
 
@@ -180,7 +180,7 @@
         wrapper.id = 'item_content';
         wrapper.className = 'item_attributes';
         var wh3 = document.createElement('h3');
-        wh3.textContent = 'פרטים טכניים';
+        wh3.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
         wrapper.appendChild(wh3);
         var specDiv = document.createElement('div');
         specDiv.className = 'specifications full_width';
@@ -202,7 +202,7 @@
     w.innerHTML = '<div class="tw-loading"><div class="tw-spinner"></div>' +
       '<div class="tw-loading-text">' + esc(step) + '</div>' +
       '<div class="tw-progress"><div class="tw-progress-bar" style="width:'+pct+'%"></div></div>' +
-      '<div class="tw-loading-step">הנתונים נטענים מ-TecDoc — אנא המתינו</div></div>';
+      '<div class="tw-loading-step">\u05D4\u05E0\u05EA\u05D5\u05E0\u05D9\u05DD \u05E0\u05D8\u05E2\u05E0\u05D9\u05DD \u05DE-TecDoc \u2014 \u05D0\u05E0\u05D0 \u05D4\u05DE\u05EA\u05D9\u05E0\u05D5</div></div>';
   }
 
   function showError(msg) {
@@ -220,18 +220,18 @@
 
     /* ── SECTION 1: Description / Specs ── */
     html += '<div class="tw-section tw-desc-section">';
-    html += '<div class="tw-section-title">תיאור</div>';
+    html += '<div class="tw-section-title">\u05EA\u05D9\u05D0\u05D5\u05E8</div>';
     if (!D.specs.length && !D.articleNo && !D.supplier && !D.ean) {
-      html += '<div class="tw-empty">לא נמצאו מפרטים טכניים</div>';
+      html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
     } else {
       /* Build spec rows: TecDoc specs + article/supplier/EAN */
       var allSpecs = [];
       for (var i = 0; i < D.specs.length; i++) {
         allSpecs.push({ name: trSpec(D.specs[i].criteriaName), value: trVal(D.specs[i].criteriaName, D.specs[i].criteriaValue) });
       }
-      if (D.articleNo) allSpecs.push({ name: 'מק"ט', value: D.articleNo });
-      if (D.supplier) allSpecs.push({ name: 'יצרן', value: D.supplier });
-      if (D.ean) allSpecs.push({ name: 'מספר EAN', value: D.ean });
+      if (D.articleNo) allSpecs.push({ name: '\u05DE\u05E7"\u05D8', value: D.articleNo });
+      if (D.supplier) allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF', value: D.supplier });
+      if (D.ean) allSpecs.push({ name: '\u05DE\u05E1\u05E4\u05E8 EAN', value: D.ean });
 
       var hasHidden = allSpecs.length > SPECS_VISIBLE;
       html += '<table class="tw-specs-table" id="tw-specs-tbl">';
@@ -242,7 +242,7 @@
       html += '</table>';
 
       if (hasHidden) {
-        html += '<div class="tw-more-wrap"><button type="button" class="tw-more-btn" id="tw-more-toggle">עוד <span class="tw-arrow">▼</span></button></div>';
+        html += '<div class="tw-more-wrap"><button type="button" class="tw-more-btn" id="tw-more-toggle">\u05E2\u05D5\u05D3 <span class="tw-arrow">\u25BC</span></button></div>';
       }
     }
     html += '</div>';
@@ -250,12 +250,12 @@
     /* ── SECTION 2: Vehicle Compatibility ── */
     html += '<div class="tw-section tw-compat-section">';
     html += '<div class="tw-compat-header">';
-    html += '<span class="tw-compat-icon">🚗</span>';
-    html += '<span class="tw-compat-title">התאמה לרכבים</span>';
+    html += '<span class="tw-compat-icon">\uD83D\uDE97</span>';
+    html += '<span class="tw-compat-title">\u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD</span>';
     html += '</div>';
 
     if (!D.vehicles.length) {
-      html += '<div class="tw-empty">לא נמצאו רכבים תואמים</div>';
+      html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05E8\u05DB\u05D1\u05D9\u05DD \u05EA\u05D5\u05D0\u05DE\u05D9\u05DD</div>';
     } else {
       var tree = buildTree(D.vehicles);
       html += '<div class="tw-accordion">';
@@ -286,12 +286,12 @@
     /* ── SECTION 3: OE Numbers (accordion with +/- per brand) ── */
     html += '<div class="tw-section tw-oe-section">';
     html += '<div class="tw-oe-header">';
-    html += '<div class="tw-oe-title">מספרי OE</div>';
-    html += '<div class="tw-oe-subtitle">מספרי OE מקבלים למספר חלק החילוף המקורי:</div>';
+    html += '<div class="tw-oe-title">\u05DE\u05E1\u05E4\u05E8\u05D9 OE</div>';
+    html += '<div class="tw-oe-subtitle">\u05DE\u05E1\u05E4\u05E8\u05D9 OE \u05DE\u05E7\u05D1\u05D9\u05DC\u05D9\u05DD \u05DC\u05DE\u05E1\u05E4\u05E8 \u05D7\u05DC\u05E7 \u05D4\u05D7\u05D9\u05DC\u05D5\u05E3 \u05D4\u05DE\u05E7\u05D5\u05E8\u05D9:</div>';
     html += '</div>';
 
     if (!D.oe.length) {
-      html += '<div class="tw-empty">לא נמצאו מספרי OE</div>';
+      html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E1\u05E4\u05E8\u05D9 OE</div>';
     } else {
       /* Group OE by brand for accordion display */
       var byBrand = {};
@@ -311,11 +311,11 @@
         html += '</div></div>';
       }
       html += '</div>';
-      html += '<div class="tw-oe-info">מספרי ה-OE משמשים להשוואה בלבד. יש לוודא התאמה לרכב הספציפי לפני רכישה.</div>';
+      html += '<div class="tw-oe-info">\u05DE\u05E1\u05E4\u05E8\u05D9 \u05D4-OE \u05DE\u05E9\u05DE\u05E9\u05D9\u05DD \u05DC\u05D4\u05E9\u05D5\u05D5\u05D0\u05D4 \u05D1\u05DC\u05D1\u05D3. \u05D9\u05E9 \u05DC\u05D5\u05D5\u05D3\u05D0 \u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1 \u05D4\u05E1\u05E4\u05E6\u05D9\u05E4\u05D9 \u05DC\u05E4\u05E0\u05D9 \u05E8\u05DB\u05D9\u05E9\u05D4.</div>';
     }
     html += '</div>';
 
-    html += '<div class="tw-footer"><span>נתונים מ-TecDoc® Catalogue</span></div>';
+    html += '<div class="tw-footer"><span>\u05E0\u05EA\u05D5\u05E0\u05D9\u05DD \u05DE-TecDoc\u00AE Catalogue</span></div>';
 
     w.innerHTML = html;
     bindAccordions(w);
@@ -349,7 +349,7 @@
       hs[i].addEventListener('click', function() {
         var p = this.parentElement, ic = this.querySelector('.tw-acc-icon'), open = p.classList.contains('tw-open');
         p.classList.toggle('tw-open');
-        if (ic) ic.textContent = open ? '+' : '−';
+        if (ic) ic.textContent = open ? '+' : '\u2212';
       });
     }
   }
@@ -363,7 +363,7 @@
       e.stopPropagation();
       var expanded = tbl.classList.toggle('tw-expanded');
       btn.classList.toggle('tw-expanded', expanded);
-      btn.innerHTML = expanded ? 'פחות <span class="tw-arrow">▲</span>' : 'עוד <span class="tw-arrow">▼</span>';
+      btn.innerHTML = expanded ? '\u05E4\u05D7\u05D5\u05EA <span class="tw-arrow">\u25B2</span>' : '\u05E2\u05D5\u05D3 <span class="tw-arrow">\u25BC</span>';
     });
   }
 
@@ -408,6 +408,13 @@
       if (spacedNoTrail !== noTrail) variations.push(spacedNoTrail);
     }
     if (artNo.indexOf('.') > -1) variations.push(artNo.replace(/\./g, ' '));
+    /* OEM-style long numbers: try with hyphen (26300-35505 style) */
+    if (/^\d{10,}$/.test(artNo)) {
+      variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
+    }
+    if (/^\d{5}[A-Z]/.test(artNo)) {
+      variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
+    }
     var nospace = artNo.replace(/[\s.-]/g, '');
     if (nospace !== artNo) variations.push(nospace);
     return variations;
@@ -488,23 +495,23 @@
     var w = getOrCreateWidget();
     if (!w) return;
 
-    showLoading('טוען נתונים...', 30);
+    showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
 
     loadFromCache(articleNo)
       .then(function(data) {
         applyData(data);
       })
       .catch(function() {
-        showLoading('שלב 1 מתוך 2 — מחפש רכבים תואמים...', 20);
+        showLoading('\u05E9\u05DC\u05D1 1 \u05DE\u05EA\u05D5\u05DA 2 \u2014 \u05DE\u05D7\u05E4\u05E9 \u05E8\u05DB\u05D1\u05D9\u05DD \u05EA\u05D5\u05D0\u05DE\u05D9\u05DD...', 20);
         return loadFromAPI(articleNo)
           .then(function(data) {
             applyData(data);
           })
           .catch(function(err) {
             if (err === 'no_results') {
-              showError('לא נמצאו תוצאות עבור מספר קטלוגי: ' + articleNo);
+              showError('\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05EA\u05D5\u05E6\u05D0\u05D5\u05EA \u05E2\u05D1\u05D5\u05E8 \u05DE\u05E1\u05E4\u05E8 \u05E7\u05D8\u05DC\u05D5\u05D2\u05D9: ' + articleNo);
             } else {
-              showError('שגיאה בטעינת הנתונים.');
+              showError('\u05E9\u05D2\u05D9\u05D0\u05D4 \u05D1\u05D8\u05E2\u05D9\u05E0\u05EA \u05D4\u05E0\u05EA\u05D5\u05E0\u05D9\u05DD.');
             }
           });
       });
@@ -516,16 +523,16 @@
     var w = getOrCreateWidget();
     if (!w) return;
     D = { articleNo:'', articleId:null, supplier:'', product:'', ean:'', specs:[], vehicles:[], oe:[] };
-    showLoading('טוען נתונים...', 30);
+    showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
     loadFromCache(articleNo.trim())
       .then(function(data) { applyData(data); })
       .catch(function() {
-        showLoading('שלב 1 מתוך 2 — מחפש רכבים תואמים...', 20);
+        showLoading('\u05E9\u05DC\u05D1 1 \u05DE\u05EA\u05D5\u05DA 2 \u2014 \u05DE\u05D7\u05E4\u05E9 \u05E8\u05DB\u05D1\u05D9\u05DD \u05EA\u05D5\u05D0\u05DE\u05D9\u05DD...', 20);
         return loadFromAPI(articleNo.trim())
           .then(function(data) { applyData(data); })
           .catch(function(err) {
-            if (err === 'no_results') showError('לא נמצאו תוצאות עבור מספר קטלוגי: ' + articleNo);
-            else showError('שגיאה בטעינת הנתונים.');
+            if (err === 'no_results') showError('\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05EA\u05D5\u05E6\u05D0\u05D5\u05EA \u05E2\u05D1\u05D5\u05E8 \u05DE\u05E1\u05E4\u05E8 \u05E7\u05D8\u05DC\u05D5\u05D2\u05D9: ' + articleNo);
+            else showError('\u05E9\u05D2\u05D9\u05D0\u05D4 \u05D1\u05D8\u05E2\u05D9\u05E0\u05EA \u05D4\u05E0\u05EA\u05D5\u05E0\u05D9\u05DD.');
           });
       });
   };
