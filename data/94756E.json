@@ -1,29 +1,546 @@
 {
-  "articleNo": "94756",
-  "articleId": 5314675,
-  "supplier": "Metalcaucho",
-  "product": "Radiator Hose",
+  "articleNo": "32411",
+  "articleId": 2741625,
+  "supplier": "FEBI BILSTEIN",
+  "product": "Rail, oil pump drive chain",
   "vehicles": [
     {
-      "vehicleId": 19727,
-      "modelId": 5598,
-      "manufacturerName": "OPEL",
-      "modelName": "CORSA D (S07)",
-      "typeEngineName": "1.7 CDTI (L08, L68)",
-      "constructionIntervalStart": "2006-08-01",
+      "vehicleId": 10968,
+      "modelId": 7858,
+      "manufacturerName": "BMW (BRILLIANCE)",
+      "modelName": "3 SERIES (E90)",
+      "typeEngineName": "320 i",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 12475,
+      "modelId": 5569,
+      "manufacturerName": "BMW",
+      "modelName": "3 Coupe (E92)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 12476,
+      "modelId": 6241,
+      "manufacturerName": "BMW",
+      "modelName": "3 Convertible (E93)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 15924,
+      "modelId": 4751,
+      "manufacturerName": "BMW",
+      "modelName": "3 Compact (E46)",
+      "typeEngineName": "316 ti",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 16189,
+      "modelId": 4751,
+      "manufacturerName": "BMW",
+      "modelName": "3 Compact (E46)",
+      "typeEngineName": "318 ti",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16198,
+      "modelId": 3397,
+      "manufacturerName": "BMW",
+      "modelName": "3 (E46)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 16199,
+      "modelId": 3999,
+      "manufacturerName": "BMW",
+      "modelName": "3 Coupe (E46)",
+      "typeEngineName": "318 Ci",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-02-01"
+    },
+    {
+      "vehicleId": 16325,
+      "modelId": 3397,
+      "manufacturerName": "BMW",
+      "modelName": "3 (E46)",
+      "typeEngineName": "316 i",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 16326,
+      "modelId": 4088,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (E46)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 16741,
+      "modelId": 4088,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (E46)",
+      "typeEngineName": "316 i",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 18561,
+      "modelId": 4924,
+      "manufacturerName": "BMW",
+      "modelName": "Z4 Roadster (E85)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-02-01"
+    },
+    {
+      "vehicleId": 18758,
+      "modelId": 5430,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (E91)",
+      "typeEngineName": "320 i",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 18823,
+      "modelId": 3999,
+      "manufacturerName": "BMW",
+      "modelName": "3 Coupe (E46)",
+      "typeEngineName": "316 Ci",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 18966,
+      "modelId": 5389,
+      "manufacturerName": "BMW",
+      "modelName": "3 (E90)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 19033,
+      "modelId": 5085,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (E83)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 19299,
+      "modelId": 5430,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (E91)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 19334,
+      "modelId": 4571,
+      "manufacturerName": "BMW",
+      "modelName": "3 Convertible (E46)",
+      "typeEngineName": "318 Ci",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 19951,
+      "modelId": 3999,
+      "manufacturerName": "BMW",
+      "modelName": "3 Coupe (E46)",
+      "typeEngineName": "318 Ci",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 22533,
+      "modelId": 5569,
+      "manufacturerName": "BMW",
+      "modelName": "3 Coupe (E92)",
+      "typeEngineName": "320 i",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 22535,
+      "modelId": 6241,
+      "manufacturerName": "BMW",
+      "modelName": "3 Convertible (E93)",
+      "typeEngineName": "320 i",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 22953,
+      "modelId": 5114,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E81)",
+      "typeEngineName": "118 i",
+      "constructionIntervalStart": "2006-09-01",
       "constructionIntervalEnd": "2011-12-01"
     },
     {
-      "vehicleId": 33722,
-      "modelId": 5598,
-      "manufacturerName": "OPEL",
-      "modelName": "CORSA D (S07)",
-      "typeEngineName": "1.7 CDTI (L08, L68)",
-      "constructionIntervalStart": "2009-12-01",
-      "constructionIntervalEnd": "2014-08-01"
+      "vehicleId": 22954,
+      "modelId": 5114,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E81)",
+      "typeEngineName": "120 i",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 24440,
+      "modelId": 6713,
+      "manufacturerName": "BMW",
+      "modelName": "1 Convertible (E88)",
+      "typeEngineName": "120 i",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 25443,
+      "modelId": 6713,
+      "manufacturerName": "BMW",
+      "modelName": "1 Convertible (E88)",
+      "typeEngineName": "118 i",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 25465,
+      "modelId": 5389,
+      "manufacturerName": "BMW",
+      "modelName": "3 (E90)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-10-01"
+    },
+    {
+      "vehicleId": 25470,
+      "modelId": 5389,
+      "manufacturerName": "BMW",
+      "modelName": "3 (E90)",
+      "typeEngineName": "320 i",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-10-01"
+    },
+    {
+      "vehicleId": 25474,
+      "modelId": 5430,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (E91)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 25476,
+      "modelId": 5430,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (E91)",
+      "typeEngineName": "320 i",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 25491,
+      "modelId": 4993,
+      "manufacturerName": "BMW",
+      "modelName": "5 (E60)",
+      "typeEngineName": "520 i",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 25492,
+      "modelId": 5079,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (E61)",
+      "typeEngineName": "520 i",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 27309,
+      "modelId": 4751,
+      "manufacturerName": "BMW",
+      "modelName": "3 Compact (E46)",
+      "typeEngineName": "316 ti",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 29867,
+      "modelId": 7858,
+      "manufacturerName": "BMW (BRILLIANCE)",
+      "modelName": "3 SERIES (E90)",
+      "typeEngineName": "320 i",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 30506,
+      "modelId": 5114,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E81)",
+      "typeEngineName": "120 i",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 30771,
+      "modelId": 7858,
+      "manufacturerName": "BMW (BRILLIANCE)",
+      "modelName": "3 SERIES (E90)",
+      "typeEngineName": "320 i",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 31008,
+      "modelId": 5085,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (E83)",
+      "typeEngineName": "xDrive 20 i",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 31279,
+      "modelId": 7858,
+      "manufacturerName": "BMW (BRILLIANCE)",
+      "modelName": "3 SERIES (E90)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 31504,
+      "modelId": 6981,
+      "manufacturerName": "BMW (BRILLIANCE)",
+      "modelName": "5 SERIES (E60)",
+      "typeEngineName": "520 Li",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 31671,
+      "modelId": 5114,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E81)",
+      "typeEngineName": "116 i",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 32675,
+      "modelId": 6441,
+      "manufacturerName": "BMW",
+      "modelName": "1 Coupe (E82)",
+      "typeEngineName": "120 i",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 34992,
+      "modelId": 8277,
+      "manufacturerName": "BMW",
+      "modelName": "X1 (E84)",
+      "typeEngineName": "sDrive 18 i",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 55639,
+      "modelId": 6713,
+      "manufacturerName": "BMW",
+      "modelName": "1 Convertible (E88)",
+      "typeEngineName": "120 i",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 58169,
+      "modelId": 10974,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E87)",
+      "typeEngineName": "116 i",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 58184,
+      "modelId": 10974,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E87)",
+      "typeEngineName": "116 i",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 58185,
+      "modelId": 10974,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E87)",
+      "typeEngineName": "118 i",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 58186,
+      "modelId": 10974,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E87)",
+      "typeEngineName": "118 i",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 58187,
+      "modelId": 10974,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E87)",
+      "typeEngineName": "118 i",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 58188,
+      "modelId": 10974,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E87)",
+      "typeEngineName": "120 i",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 58218,
+      "modelId": 10974,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E87)",
+      "typeEngineName": "120 i",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 58224,
+      "modelId": 10974,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E87)",
+      "typeEngineName": "120 i",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 59410,
+      "modelId": 4993,
+      "manufacturerName": "BMW",
+      "modelName": "5 (E60)",
+      "typeEngineName": "520 i",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2010-02-01"
+    },
+    {
+      "vehicleId": 121015,
+      "modelId": 10174,
+      "manufacturerName": "BMW (BRILLIANCE)",
+      "modelName": "X1 (E84)",
+      "typeEngineName": "sDrive18 i",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 126495,
+      "modelId": 5114,
+      "manufacturerName": "BMW",
+      "modelName": "1 (E81)",
+      "typeEngineName": "118 i",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 16327,
+      "modelId": 4571,
+      "manufacturerName": "BMW",
+      "modelName": "3 Convertible (E46)",
+      "typeEngineName": "318 Ci",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 18822,
+      "modelId": 3397,
+      "manufacturerName": "BMW",
+      "modelName": "3 (E46)",
+      "typeEngineName": "316 i",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 30911,
+      "modelId": 4751,
+      "manufacturerName": "BMW",
+      "modelName": "3 Compact (E46)",
+      "typeEngineName": "316 ti",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 25413,
+      "modelId": 6980,
+      "manufacturerName": "BMW (BRILLIANCE)",
+      "modelName": "3 SERIES (E46)",
+      "typeEngineName": "318 i",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 30905,
+      "modelId": 5389,
+      "manufacturerName": "BMW",
+      "modelName": "3 (E90)",
+      "typeEngineName": "316 i",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-10-01"
+    },
+    {
+      "vehicleId": 59307,
+      "modelId": 6441,
+      "manufacturerName": "BMW",
+      "modelName": "1 Coupe (E82)",
+      "typeEngineName": "120 i",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-10-01"
     }
   ],
-  "specs": [],
+  "specs": [
+    {
+      "criteriaName": "for OE number",
+      "criteriaValue": "11 41 7 548 800"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "0,067"
+    },
+    {
+      "criteriaName": "Material",
+      "criteriaValue": "6"
+    }
+  ],
   "oe": [
     {
       "oemBrand": "OPEL",
@@ -32,9 +549,20 @@
     {
       "oemBrand": "OPEL",
       "oemDisplayNo": "1337654"
+    },
+    {
+      "oemBrand": "BMW",
+      "oemDisplayNo": "11 41 7 505 843"
+    },
+    {
+      "oemBrand": "BMW",
+      "oemDisplayNo": "11 41 7 548 800"
     }
   ],
   "ean": "8435108103568",
   "originalSKU": "94756E",
-  "fetchedAt": "2026-03-13T22:31:16.612Z"
+  "fetchedAt": "2026-03-14T12:08:08Z",
+  "enrichedVia": "OEM fallback (32411)",
+  "previousSupplier": "Metalcaucho",
+  "previousVehicleCount": 2
 }

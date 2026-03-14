@@ -1,17 +1,162 @@
 {
-  "articleNo": "95108E",
-  "articleId": 5323780,
-  "supplier": "WIX FILTERS",
+  "articleNo": "F 026 402 166",
+  "articleId": 29585622,
+  "supplier": "BOSCH",
   "product": "Fuel Filter",
-  "vehicles": [],
-  "specs": [
+  "vehicles": [
     {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "136"
+      "vehicleId": 17887,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 dCi 4x4",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2008-12-01"
     },
     {
-      "criteriaName": "Outer Diameter [mm]",
-      "criteriaValue": "98"
+      "vehicleId": 19070,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 dCi",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 21557,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 DCi",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 33946,
+      "modelId": 8812,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATROL GR V Platform/Chassis (Y61)",
+      "typeEngineName": "3.0 D 4x4 (TY61)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 50635,
+      "modelId": 34634,
+      "manufacturerName": "NISSAN",
+      "modelName": "CABSTAR (F24M, F24W)",
+      "typeEngineName": "28.11 DCI, 32.11 DCI, 35.11 DCI 2.5 (F24M)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 119607,
+      "modelId": 34634,
+      "manufacturerName": "NISSAN",
+      "modelName": "CABSTAR (F24M, F24W)",
+      "typeEngineName": "35.13 DCI, 45.13 DCI 2.5 (F24M)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 119609,
+      "modelId": 34634,
+      "manufacturerName": "NISSAN",
+      "modelName": "CABSTAR (F24M, F24W)",
+      "typeEngineName": "35.14 DCI 3.0 (F24M)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 129157,
+      "modelId": 34634,
+      "manufacturerName": "NISSAN",
+      "modelName": "CABSTAR (F24M, F24W)",
+      "typeEngineName": "34.110 DCI 2.5 (F24M)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 119611,
+      "modelId": 34634,
+      "manufacturerName": "NISSAN",
+      "modelName": "CABSTAR (F24M, F24W)",
+      "typeEngineName": "28.12 DCI, 32.12 DCI, 34.12 DCI, 35.12 DCI 2.5 (F24M)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 119612,
+      "modelId": 34634,
+      "manufacturerName": "NISSAN",
+      "modelName": "CABSTAR (F24M, F24W)",
+      "typeEngineName": "35.14 DCI, 45.14 DCI 2.5 (F24M)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 123145,
+      "modelId": 36484,
+      "manufacturerName": "NISSAN",
+      "modelName": "NT400 CABSTAR (F24M)",
+      "typeEngineName": "35.13",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123146,
+      "modelId": 36484,
+      "manufacturerName": "NISSAN",
+      "modelName": "NT400 CABSTAR (F24M)",
+      "typeEngineName": "35.15, 45.15",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119699,
+      "modelId": 36484,
+      "manufacturerName": "NISSAN",
+      "modelName": "NT400 CABSTAR (F24M)",
+      "typeEngineName": "28.12, 32.12, 35.12 (F91AN, F24M)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14902,
+      "modelId": 3880,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATROL GR V Wagon (Y61)",
+      "typeEngineName": "3.0 DTi",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19683,
+      "modelId": 3880,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATROL GR V Wagon (Y61)",
+      "typeEngineName": "3.0 DTi",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119703,
+      "modelId": 36484,
+      "manufacturerName": "NISSAN",
+      "modelName": "NT400 CABSTAR (F24M)",
+      "typeEngineName": "35.14, 45.14",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "94"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "138"
     },
     {
       "criteriaName": "Filter type",
@@ -62,9 +207,48 @@
     {
       "oemBrand": "RENAULT",
       "oemDisplayNo": "74 85 151 822"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "164003XN1A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "164003XN1B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16400ES60A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16400ES60D"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16400LC30A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16400LC30B"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "74 85 115 761"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "74 85 149 788"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "A6400ES60AVA"
     }
   ],
   "ean": "5904608951083",
   "originalSKU": "95108E",
-  "fetchedAt": "2026-03-13T22:21:32.277Z"
+  "fetchedAt": "2026-03-14T12:08:51Z",
+  "enrichedVia": "OEM fallback (F 026 402 166)",
+  "previousSupplier": "WIX FILTERS",
+  "previousVehicleCount": 0
 }
