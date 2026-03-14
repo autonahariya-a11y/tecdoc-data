@@ -1,9 +1,45 @@
 {
-  "articleNo": "93627",
-  "articleId": 21459239,
-  "supplier": "NISSENS",
+  "articleNo": "003-001-003617R",
+  "articleId": 147326,
+  "supplier": "REMANTE",
   "product": "Charger, charging (supercharged/turbocharged)",
   "vehicles": [
+    {
+      "vehicleId": 7116,
+      "modelId": 8925,
+      "manufacturerName": "RENAULT",
+      "modelName": "LATITUDE (L70_)",
+      "typeEngineName": "2.0 dCi 150 (L70H)",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19358,
+      "modelId": 4932,
+      "manufacturerName": "RENAULT",
+      "modelName": "ESPACE IV (JK0/1_)",
+      "typeEngineName": "2.0 dCi (JK01, JK02, JK1J, JK1K, JK1H)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19359,
+      "modelId": 4932,
+      "manufacturerName": "RENAULT",
+      "modelName": "ESPACE IV (JK0/1_)",
+      "typeEngineName": "2.0 dCi (JK03, JK04, JK1C, JK1G, JK1J, JK1K)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22488,
+      "modelId": 4932,
+      "manufacturerName": "RENAULT",
+      "modelName": "ESPACE IV (JK0/1_)",
+      "typeEngineName": "2.0 dCi (JK02, JK03)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": null
+    },
     {
       "vehicleId": 23066,
       "modelId": 4940,
@@ -14,29 +50,20 @@
       "constructionIntervalEnd": "2008-02-01"
     },
     {
-      "vehicleId": 27531,
-      "modelId": 6430,
-      "manufacturerName": "RENAULT",
-      "modelName": "LAGUNA III (BT0/1)",
-      "typeEngineName": "2.0 dCi (BT0M, BT0N, BT0S, BT19, BT1F)",
-      "constructionIntervalStart": "2008-01-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
-      "vehicleId": 29966,
-      "modelId": 7528,
-      "manufacturerName": "RENAULT",
-      "modelName": "LAGUNA Coupe (DT0/1)",
-      "typeEngineName": "2.0 dCi GT (DT11, DT1E, DT1N)",
-      "constructionIntervalStart": "2008-09-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
       "vehicleId": 23372,
       "modelId": 6430,
       "manufacturerName": "RENAULT",
       "modelName": "LAGUNA III (BT0/1)",
       "typeEngineName": "2.0 dCi (BT07, BT0J, BT14, BT1A, BT1S)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23373,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 dCi (BT01, BT08, BT09, BT0E, BT0K, BT12, BT1C, BT1D,...",
       "constructionIntervalStart": "2007-10-01",
       "constructionIntervalEnd": "2015-12-01"
     },
@@ -50,30 +77,12 @@
       "constructionIntervalEnd": "2015-12-01"
     },
     {
-      "vehicleId": 19359,
-      "modelId": 4932,
-      "manufacturerName": "RENAULT",
-      "modelName": "ESPACE IV (JK0/1_)",
-      "typeEngineName": "2.0 dCi (JK03, JK04, JK1C, JK1G, JK1J, JK1K)",
-      "constructionIntervalStart": "2006-01-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 27535,
-      "modelId": 7528,
-      "manufacturerName": "RENAULT",
-      "modelName": "LAGUNA Coupe (DT0/1)",
-      "typeEngineName": "2.0 dCi (DT0M, DT0N, DT0S, DT19, DT1F)",
-      "constructionIntervalStart": "2008-09-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
-      "vehicleId": 27532,
+      "vehicleId": 23378,
       "modelId": 6431,
       "manufacturerName": "RENAULT",
       "modelName": "LAGUNA III Grandtour (KT0/1)",
-      "typeEngineName": "2.0 dCi (KT0M, KT0N, KT0S, KT19, KT1F)",
-      "constructionIntervalStart": "2008-01-01",
+      "typeEngineName": "2.0 dCi (KT01, KT08, KT09, KT0K, KT12, KT1D, KT1W)",
+      "constructionIntervalStart": "2007-10-01",
       "constructionIntervalEnd": "2015-12-01"
     },
     {
@@ -86,30 +95,66 @@
       "constructionIntervalEnd": "2015-12-01"
     },
     {
-      "vehicleId": 22488,
-      "modelId": 4932,
-      "manufacturerName": "RENAULT",
-      "modelName": "ESPACE IV (JK0/1_)",
-      "typeEngineName": "2.0 dCi (JK02, JK03)",
-      "constructionIntervalStart": "2006-01-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 23373,
-      "modelId": 6430,
-      "manufacturerName": "RENAULT",
-      "modelName": "LAGUNA III (BT0/1)",
-      "typeEngineName": "2.0 dCi (BT01, BT08, BT09, BT0E, BT0K, BT12, BT1C, BT1D,...",
-      "constructionIntervalStart": "2007-10-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
-      "vehicleId": 23378,
+      "vehicleId": 26651,
       "modelId": 6431,
       "manufacturerName": "RENAULT",
       "modelName": "LAGUNA III Grandtour (KT0/1)",
-      "typeEngineName": "2.0 dCi (KT01, KT08, KT09, KT0K, KT12, KT1D, KT1W)",
-      "constructionIntervalStart": "2007-10-01",
+      "typeEngineName": "2.0 dCi GT (KT11, KT1E, KT1N)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 26653,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi (HY0K)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26654,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi 4x4 (HY0K)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26655,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi 4x4 (HY0B)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27531,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 dCi (BT0M, BT0N, BT0S, BT19, BT1F)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 27532,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "2.0 dCi (KT0M, KT0N, KT0S, KT19, KT1F)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 27535,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "2.0 dCi (DT0M, DT0N, DT0S, DT19, DT1F)",
+      "constructionIntervalStart": "2008-09-01",
       "constructionIntervalEnd": "2015-12-01"
     },
     {
@@ -122,35 +167,52 @@
       "constructionIntervalEnd": "2015-12-01"
     },
     {
-      "vehicleId": 26651,
-      "modelId": 6431,
+      "vehicleId": 29966,
+      "modelId": 7528,
       "manufacturerName": "RENAULT",
-      "modelName": "LAGUNA III Grandtour (KT0/1)",
-      "typeEngineName": "2.0 dCi GT (KT11, KT1E, KT1N)",
-      "constructionIntervalStart": "2008-03-01",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "2.0 dCi GT (DT11, DT1E, DT1N)",
+      "constructionIntervalStart": "2008-09-01",
       "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 34740,
+      "modelId": 8925,
+      "manufacturerName": "RENAULT",
+      "modelName": "LATITUDE (L70_)",
+      "typeEngineName": "2.0 dCi 175 (L70Y, L734)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
     }
   ],
   "specs": [
     {
-      "criteriaName": "Operating Mode",
-      "criteriaValue": "PN"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "6,10"
     },
     {
       "criteriaName": "Charge Type",
       "criteriaValue": "5"
     },
     {
-      "criteriaName": "Supplementary Article/Supplementary Info",
-      "criteriaValue": "98"
+      "criteriaName": "Exchange Part",
+      "criteriaValue": ""
     },
     {
-      "criteriaName": "Cooling Type",
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "321"
+    },
+    {
+      "criteriaName": "Guarantee",
       "criteriaValue": "2"
     },
     {
-      "criteriaName": "Cooling Type",
-      "criteriaValue": "3"
+      "criteriaName": "Specification",
+      "criteriaValue": "VNT / VTG"
+    },
+    {
+      "criteriaName": "Generally overhauled",
+      "criteriaValue": ""
     }
   ],
   "oe": [
@@ -161,9 +223,16 @@
     {
       "oemBrand": "RENAULT",
       "oemDisplayNo": "7711497063"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "8200646108"
     }
   ],
   "ean": "5707286507005",
   "originalSKU": "93627E",
-  "fetchedAt": "2026-03-13T22:24:20.231Z"
+  "fetchedAt": "2026-03-14T12:07:18Z",
+  "enrichedVia": "OEM fallback (003-001-003617R)",
+  "previousSupplier": "NISSENS",
+  "previousVehicleCount": 14
 }

@@ -1,7 +1,7 @@
 {
-  "articleNo": "92568",
-  "articleId": 5260527,
-  "supplier": "JAPKO",
+  "articleNo": "832579",
+  "articleId": 4833499,
+  "supplier": "VALEO",
   "product": "Clutch Kit",
   "vehicles": [
     {
@@ -14,6 +14,15 @@
       "constructionIntervalEnd": "2015-12-01"
     },
     {
+      "vehicleId": 12183,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D (KH4W)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
       "vehicleId": 33129,
       "modelId": 5524,
       "manufacturerName": "MITSUBISHI",
@@ -21,6 +30,105 @@
       "typeEngineName": "2.5 DI-D (KA4T)",
       "constructionIntervalStart": "2010-04-01",
       "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33130,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33177,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.5 4WD (KB9T)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 33508,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D 4WD (KH4W)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56029,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.5 (KA9T)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 56030,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 57471,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 109677,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D 4WD (KG4W)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109679,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117261,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D 4WD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126661,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "3.5 i 4WD (KB9T)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 126662,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "3.5 (KA9T)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2009-11-01"
     },
     {
       "vehicleId": 19365,
@@ -41,35 +149,45 @@
       "constructionIntervalEnd": "2015-12-01"
     },
     {
-      "vehicleId": 33130,
+      "vehicleId": 28517,
       "modelId": 5524,
       "manufacturerName": "MITSUBISHI",
       "modelName": "L200 / TRITON (KA_T, KB_T)",
-      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
-      "constructionIntervalStart": "2010-04-01",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 116196,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 16V 4WD",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 125748,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2010-01-01",
       "constructionIntervalEnd": "2015-12-01"
     }
   ],
   "specs": [
     {
-      "criteriaName": "Number of Teeth",
-      "criteriaValue": "23"
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "523"
     },
     {
-      "criteriaName": "Diameter [mm]",
+      "criteriaName": "New Part",
+      "criteriaValue": ""
+    },
+    {
+      "criteriaName": "Clutch Pressure Plate Outer Diameter [mm]",
       "criteriaValue": "250"
-    },
-    {
-      "criteriaName": "Inner Diameter [mm]",
-      "criteriaValue": "160"
-    },
-    {
-      "criteriaName": "Centering Diameter [mm]",
-      "criteriaValue": "26"
-    },
-    {
-      "criteriaName": "Fitted Diameter [mm]",
-      "criteriaValue": "299"
     }
   ],
   "oe": [
@@ -116,5 +234,8 @@
   ],
   "ean": "8033001649895",
   "originalSKU": "92568E",
-  "fetchedAt": "2026-03-13T22:20:09.413Z"
+  "fetchedAt": "2026-03-14T11:58:51Z",
+  "enrichedVia": "OEM fallback (832579)",
+  "previousSupplier": "JAPKO",
+  "previousVehicleCount": 5
 }

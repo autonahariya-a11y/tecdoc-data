@@ -1,7 +1,7 @@
 {
-  "articleNo": "93137",
-  "articleId": 5277566,
-  "supplier": "SIDEM",
+  "articleNo": "41084",
+  "articleId": 3204483,
+  "supplier": "FEBI BILSTEIN",
   "product": "Tie Rod End",
   "vehicles": [
     {
@@ -32,6 +32,24 @@
       "constructionIntervalEnd": "2008-01-01"
     },
     {
+      "vehicleId": 20717,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "2.4 Laredo",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 20718,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "3.7 Laredo",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
       "vehicleId": 17258,
       "modelId": 4823,
       "manufacturerName": "JEEP",
@@ -59,6 +77,24 @@
       "constructionIntervalEnd": "2008-01-01"
     },
     {
+      "vehicleId": 44998,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 44999,
+      "modelId": 4823,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KJ)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
       "vehicleId": 45000,
       "modelId": 4823,
       "manufacturerName": "JEEP",
@@ -68,15 +104,6 @@
       "constructionIntervalEnd": "2008-01-01"
     },
     {
-      "vehicleId": 45002,
-      "modelId": 4823,
-      "manufacturerName": "JEEP",
-      "modelName": "CHEROKEE (KJ)",
-      "typeEngineName": "2.8 CRD",
-      "constructionIntervalStart": "2004-09-01",
-      "constructionIntervalEnd": "2006-12-01"
-    },
-    {
       "vehicleId": 55917,
       "modelId": 4823,
       "manufacturerName": "JEEP",
@@ -84,24 +111,6 @@
       "typeEngineName": "3.7 4x4",
       "constructionIntervalStart": "2001-09-01",
       "constructionIntervalEnd": "2007-10-01"
-    },
-    {
-      "vehicleId": 20717,
-      "modelId": 4823,
-      "manufacturerName": "JEEP",
-      "modelName": "CHEROKEE (KJ)",
-      "typeEngineName": "2.4 Laredo",
-      "constructionIntervalStart": "2001-10-01",
-      "constructionIntervalEnd": "2004-09-01"
-    },
-    {
-      "vehicleId": 20718,
-      "modelId": 4823,
-      "manufacturerName": "JEEP",
-      "modelName": "CHEROKEE (KJ)",
-      "typeEngineName": "3.7 Laredo",
-      "constructionIntervalStart": "2001-10-01",
-      "constructionIntervalEnd": "2004-09-01"
     }
   ],
   "specs": [
@@ -110,33 +119,60 @@
       "criteriaValue": "VR"
     },
     {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "111"
+    },
+    {
       "criteriaName": "Length [mm]",
-      "criteriaValue": "125"
+      "criteriaValue": "151"
     },
     {
-      "criteriaName": "Thread Size",
-      "criteriaValue": "FM16X1,5R"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "0,87"
     },
     {
-      "criteriaName": "Cone Size [mm]",
-      "criteriaValue": "14,9"
+      "criteriaName": "Spanner Size",
+      "criteriaValue": "22"
     },
     {
-      "criteriaName": "Thread Size 1",
-      "criteriaValue": "MM14X1,5R"
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "619"
+    },
+    {
+      "criteriaName": "Observe service information",
+      "criteriaValue": ""
     },
     {
       "criteriaName": "paired article number",
-      "criteriaValue": "93136"
+      "criteriaValue": "41083"
+    },
+    {
+      "criteriaName": "Internal Thread Size",
+      "criteriaValue": "M16 x 1,5"
+    },
+    {
+      "criteriaName": "External Thread Size",
+      "criteriaValue": "M14 x 1,5"
     }
   ],
   "oe": [
     {
       "oemBrand": "JEEP",
       "oemDisplayNo": "5072 444AA"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "05072444AA"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "5072444AA"
     }
   ],
   "ean": "5413978255702",
   "originalSKU": "93137E",
-  "fetchedAt": "2026-03-13T22:29:49.083Z"
+  "fetchedAt": "2026-03-14T11:59:52Z",
+  "enrichedVia": "OEM fallback (41084)",
+  "previousSupplier": "SIDEM",
+  "previousVehicleCount": 11
 }

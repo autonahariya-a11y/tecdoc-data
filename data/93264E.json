@@ -1,7 +1,7 @@
 {
-  "articleNo": "93264",
-  "articleId": 5282571,
-  "supplier": "SIDEM",
+  "articleNo": "G7-2046",
+  "articleId": 7201695,
+  "supplier": "OPTIMAL",
   "product": "Link/Coupling Rod, stabiliser bar",
   "vehicles": [
     {
@@ -32,6 +32,15 @@
       "constructionIntervalEnd": "2018-08-01"
     },
     {
+      "vehicleId": 105892,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "2.0 CRD",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
       "vehicleId": 105894,
       "modelId": 11738,
       "manufacturerName": "JEEP",
@@ -39,6 +48,42 @@
       "typeEngineName": "2.0 CRD 4x4",
       "constructionIntervalStart": "2014-04-01",
       "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 106102,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107322,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "3.2 V6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107323,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107324,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
     },
     {
       "vehicleId": 116214,
@@ -59,6 +104,15 @@
       "constructionIntervalEnd": "2018-08-01"
     },
     {
+      "vehicleId": 126993,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
       "vehicleId": 126994,
       "modelId": 11738,
       "manufacturerName": "JEEP",
@@ -77,6 +131,42 @@
       "constructionIntervalEnd": null
     },
     {
+      "vehicleId": 128303,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "3.2 4x4",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133316,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "2.2 CRD 4x4",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133321,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "2.2 CRD",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133714,
+      "modelId": 11738,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (KL)",
+      "typeEngineName": "2.2 CRD",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
       "vehicleId": 135666,
       "modelId": 11738,
       "manufacturerName": "JEEP",
@@ -86,58 +176,56 @@
       "constructionIntervalEnd": null
     },
     {
-      "vehicleId": 140299,
+      "vehicleId": 139071,
       "modelId": 11738,
       "manufacturerName": "JEEP",
       "modelName": "CHEROKEE (KL)",
-      "typeEngineName": "2.4 4x4",
-      "constructionIntervalStart": "2018-09-01",
+      "typeEngineName": "2.0 T-GDi",
+      "constructionIntervalStart": "2019-01-01",
       "constructionIntervalEnd": null
     },
     {
-      "vehicleId": 143099,
+      "vehicleId": 143100,
       "modelId": 41690,
       "manufacturerName": "JEEP",
       "modelName": "CHEROKEE VAN (KL)",
-      "typeEngineName": "3.2 4x4",
-      "constructionIntervalStart": "2015-08-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 143101,
-      "modelId": 41690,
-      "manufacturerName": "JEEP",
-      "modelName": "CHEROKEE VAN (KL)",
-      "typeEngineName": "2.2 CRD",
-      "constructionIntervalStart": "2015-08-01",
-      "constructionIntervalEnd": "2018-08-01"
-    },
-    {
-      "vehicleId": 143102,
-      "modelId": 41690,
-      "manufacturerName": "JEEP",
-      "modelName": "CHEROKEE VAN (KL)",
-      "typeEngineName": "2.2 CRD",
-      "constructionIntervalStart": "2015-08-01",
+      "typeEngineName": "2.0 CRD",
+      "constructionIntervalStart": "2014-04-01",
       "constructionIntervalEnd": "2018-08-01"
     }
   ],
   "specs": [
     {
       "criteriaName": "Fitting Position",
-      "criteriaValue": "VA"
+      "criteriaValue": "VL"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VR"
     },
     {
       "criteriaName": "Length [mm]",
-      "criteriaValue": "258"
+      "criteriaValue": "259"
+    },
+    {
+      "criteriaName": "Required quantity",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Material",
+      "criteriaValue": "10"
     },
     {
       "criteriaName": "Rod/Strut",
       "criteriaValue": "5"
     },
     {
-      "criteriaName": "Thread Size 1",
-      "criteriaValue": "MM10X1,25R"
+      "criteriaName": "External Thread 1 [mm]",
+      "criteriaValue": "M10 x 1,25 RHT M"
+    },
+    {
+      "criteriaName": "External Thread 2 [mm]",
+      "criteriaValue": "M10 x 1,25 RHT M"
     }
   ],
   "oe": [
@@ -156,9 +244,28 @@
     {
       "oemBrand": "JEEP",
       "oemDisplayNo": "K68224 732AC"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "68224732AA"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "68224732AB"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "68224732AC"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "68224732AD"
     }
   ],
   "ean": "5413978269181",
   "originalSKU": "93264E",
-  "fetchedAt": "2026-03-13T22:24:46.690Z"
+  "fetchedAt": "2026-03-14T12:01:09Z",
+  "enrichedVia": "OEM fallback (G7-2046)",
+  "previousSupplier": "SIDEM",
+  "previousVehicleCount": 13
 }

@@ -1,9 +1,63 @@
 {
-  "articleNo": "93364E",
-  "articleId": 5284234,
-  "supplier": "WIX FILTERS",
+  "articleNo": "LX 1886",
+  "articleId": 7963819,
+  "supplier": "KNECHT",
   "product": "Air Filter",
   "vehicles": [
+    {
+      "vehicleId": 10101,
+      "modelId": 3903,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Van (X70)",
+      "typeEngineName": "2.8 DTI (FD)",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 10102,
+      "modelId": 3904,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Platform/Chassis (X70)",
+      "typeEngineName": "2.8 DTI (ED, HD, UD0, UD4)",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 10460,
+      "modelId": 3995,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Bus (X70)",
+      "typeEngineName": "2.8 DTI (JD)",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 13692,
+      "modelId": 4442,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOVANO Mk I (A) Van (X70)",
+      "typeEngineName": "2.8 TDI (FD)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 14552,
+      "modelId": 4592,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOVANO Mk I (A) Combi (X70)",
+      "typeEngineName": "2.8 DTI (JD)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 14554,
+      "modelId": 4593,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOVANO Mk I (A) Chassis/Cab (X70)",
+      "typeEngineName": "2.8 DTI (UD0, ED, HD)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
     {
       "vehicleId": 34140,
       "modelId": 9530,
@@ -192,24 +246,98 @@
       "typeEngineName": "150",
       "constructionIntervalStart": "2002-08-01",
       "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 138640,
+      "modelId": 40172,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Van (FH__)",
+      "typeEngineName": "dCi 110 (FH0E, FH5E)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138642,
+      "modelId": 40172,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Van (FH__)",
+      "typeEngineName": "dCi 125 (FH0F)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138643,
+      "modelId": 40172,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Van (FH__)",
+      "typeEngineName": "dCi 140 (FH0G, FH5G)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138650,
+      "modelId": 40173,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Platform/Chassis (HH__, UH__)",
+      "typeEngineName": "dCi 110 (HH0E, HH1E, HH6E, HH7E, UH0E, UH1E, UH4E, UH6E,...",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138651,
+      "modelId": 40173,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Platform/Chassis (HH__, UH__)",
+      "typeEngineName": "dCi 125 (HH0F, HH1F, HH6F, HH7F, UH0F, UH1F, UH4F, UH6F,...",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138652,
+      "modelId": 40173,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Platform/Chassis (HH__, UH__)",
+      "typeEngineName": "dCi 140 (HH0G, HH6G, UH0G, UH4G, UH5G, UH6G)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
     }
   ],
   "specs": [
     {
       "criteriaName": "Length [mm]",
-      "criteriaValue": "317"
+      "criteriaValue": "318,0"
     },
     {
       "criteriaName": "Width [mm]",
-      "criteriaValue": "261"
+      "criteriaValue": "262"
     },
     {
       "criteriaName": "Height [mm]",
-      "criteriaValue": "64"
+      "criteriaValue": "65,0"
     },
     {
       "criteriaName": "Filter type",
       "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "27,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "7,50"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "34,00"
+    },
+    {
+      "criteriaName": "Seal Material",
+      "criteriaValue": "234"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "388"
     }
   ],
   "oe": [
@@ -224,9 +352,32 @@
     {
       "oemBrand": "RENAULT",
       "oemDisplayNo": "77 02 295 409"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "4415764"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "5001847123"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "5010317300"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "7702295409"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "93182799"
     }
   ],
   "ean": "5904608933645",
   "originalSKU": "93364E",
-  "fetchedAt": "2026-03-13T22:26:39.942Z"
+  "fetchedAt": "2026-03-14T12:02:34Z",
+  "enrichedVia": "OEM fallback (LX 1886)",
+  "previousSupplier": "WIX FILTERS",
+  "previousVehicleCount": 21
 }

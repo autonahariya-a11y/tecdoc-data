@@ -1,9 +1,18 @@
 {
-  "articleNo": "93613",
-  "articleId": 5287828,
-  "supplier": "NISSENS",
+  "articleNo": "003-001-001348R",
+  "articleId": 143872,
+  "supplier": "REMANTE",
   "product": "Charger, charging (supercharged/turbocharged)",
   "vehicles": [
+    {
+      "vehicleId": 3849,
+      "modelId": 545,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Coupe (_T20_)",
+      "typeEngineName": "2.0 i Turbo 4WD (ST205)",
+      "constructionIntervalStart": "1994-02-01",
+      "constructionIntervalEnd": "1999-11-01"
+    },
     {
       "vehicleId": 9560,
       "modelId": 3566,
@@ -16,33 +25,40 @@
   ],
   "specs": [
     {
-      "criteriaName": "Operating Mode",
-      "criteriaValue": "PN"
-    },
-    {
       "criteriaName": "Charge Type",
       "criteriaValue": "5"
     },
     {
-      "criteriaName": "Supplementary Article/Supplementary Info",
-      "criteriaValue": "98"
+      "criteriaName": "Exchange Part",
+      "criteriaValue": ""
     },
     {
-      "criteriaName": "Cooling Type",
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "321"
+    },
+    {
+      "criteriaName": "Guarantee",
       "criteriaValue": "2"
     },
     {
-      "criteriaName": "Cooling Type",
-      "criteriaValue": "3"
+      "criteriaName": "Generally overhauled",
+      "criteriaValue": ""
     }
   ],
   "oe": [
     {
       "oemBrand": "TOYOTA",
       "oemDisplayNo": "1720117040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17201-17040"
     }
   ],
   "ean": "5707286506862",
   "originalSKU": "93613E",
-  "fetchedAt": "2026-03-13T22:19:34.921Z"
+  "fetchedAt": "2026-03-14T12:03:43Z",
+  "enrichedVia": "OEM fallback (003-001-001348R)",
+  "previousSupplier": "NISSENS",
+  "previousVehicleCount": 1
 }

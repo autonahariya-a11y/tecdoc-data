@@ -1,6 +1,6 @@
 {
-  "articleNo": "8561",
-  "articleId": 4939243,
+  "articleNo": "8527",
+  "articleId": 4919861,
   "supplier": "MAPCO",
   "product": "Brake Shoe Set",
   "vehicles": [
@@ -30,6 +30,96 @@
       "typeEngineName": "1.8 D (C14V)",
       "constructionIntervalStart": "1985-09-01",
       "constructionIntervalEnd": "1986-09-01"
+    },
+    {
+      "vehicleId": 3298,
+      "modelId": 3456,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER III Station Wagon (C1_V, C3_V)",
+      "typeEngineName": "1.5 (C12V)",
+      "constructionIntervalStart": "1988-09-01",
+      "constructionIntervalEnd": "1990-12-01"
+    },
+    {
+      "vehicleId": 3299,
+      "modelId": 3456,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER III Station Wagon (C1_V, C3_V)",
+      "typeEngineName": "1.5 12V (C12V)",
+      "constructionIntervalStart": "1990-09-01",
+      "constructionIntervalEnd": "1991-12-01"
+    },
+    {
+      "vehicleId": 3321,
+      "modelId": 467,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "TREDIA (A21_)",
+      "typeEngineName": "1.8 GLS (A215)",
+      "constructionIntervalStart": "1984-08-01",
+      "constructionIntervalEnd": "1986-07-01"
+    },
+    {
+      "vehicleId": 3329,
+      "modelId": 454,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT IV (A16_)",
+      "typeEngineName": "1.6 GLX (A161A)",
+      "constructionIntervalStart": "1980-09-01",
+      "constructionIntervalEnd": "1984-05-01"
+    },
+    {
+      "vehicleId": 3338,
+      "modelId": 461,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT V (E1_A)",
+      "typeEngineName": "1.6 GLX (E11A)",
+      "constructionIntervalStart": "1984-06-01",
+      "constructionIntervalEnd": "1990-04-01"
+    },
+    {
+      "vehicleId": 3343,
+      "modelId": 461,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT V (E1_A)",
+      "typeEngineName": "1.8 Turbo-D (E14A)",
+      "constructionIntervalStart": "1984-06-01",
+      "constructionIntervalEnd": "1990-04-01"
+    },
+    {
+      "vehicleId": 3347,
+      "modelId": 470,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VI Saloon (E3_A)",
+      "typeEngineName": "1.8 Turbo-D (E34A)",
+      "constructionIntervalStart": "1987-12-01",
+      "constructionIntervalEnd": "1992-10-01"
+    },
+    {
+      "vehicleId": 3348,
+      "modelId": 3459,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VI (E3_A)",
+      "typeEngineName": "1.8 Turbo-D (E34A)",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "1992-10-01"
+    },
+    {
+      "vehicleId": 3370,
+      "modelId": 89,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CORDIA (A21_A, AB, AC)",
+      "typeEngineName": "1.8 GSL (A215A)",
+      "constructionIntervalStart": "1986-10-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 3371,
+      "modelId": 89,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CORDIA (A21_A, AB, AC)",
+      "typeEngineName": "1.8 Turbo ECi (A213A)",
+      "constructionIntervalStart": "1984-10-01",
+      "constructionIntervalEnd": "1989-07-01"
     },
     {
       "vehicleId": 3375,
@@ -68,6 +158,213 @@
       "constructionIntervalEnd": "1991-04-01"
     },
     {
+      "vehicleId": 3420,
+      "modelId": 40,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT IV (CA_A)",
+      "typeEngineName": "1.6 GLXi 16V (CA4A)",
+      "constructionIntervalStart": "1992-04-01",
+      "constructionIntervalEnd": "1996-04-01"
+    },
+    {
+      "vehicleId": 3430,
+      "modelId": 478,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VII Saloon (E5_A, E7_A, E8_A)",
+      "typeEngineName": "2.0 GLSTD (E57A)",
+      "constructionIntervalStart": "1992-11-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3431,
+      "modelId": 478,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VII Saloon (E5_A, E7_A, E8_A)",
+      "typeEngineName": "1.8 GLSI (E52A)",
+      "constructionIntervalStart": "1992-11-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3436,
+      "modelId": 475,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VII (E5_A, E7_A, E8_A)",
+      "typeEngineName": "2.0 GLSTD (E57A)",
+      "constructionIntervalStart": "1992-11-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3437,
+      "modelId": 475,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VII (E5_A, E7_A, E8_A)",
+      "typeEngineName": "1.8 GLSI (E52A)",
+      "constructionIntervalStart": "1992-11-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 4023,
+      "modelId": 478,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VII Saloon (E5_A, E7_A, E8_A)",
+      "typeEngineName": "1.8 (E52A)",
+      "constructionIntervalStart": "1994-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 4024,
+      "modelId": 475,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VII (E5_A, E7_A, E8_A)",
+      "typeEngineName": "1.8 (E52A)",
+      "constructionIntervalStart": "1994-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 5092,
+      "modelId": 1328,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER V Station Wagon (CB_W, CD_W)",
+      "typeEngineName": "1.6 16V 4WD (CD4W)",
+      "constructionIntervalStart": "1992-12-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 5216,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.8 MSX - 16V (DA2A)",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 5987,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.8 (DA2A)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 7298,
+      "modelId": 3971,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE RUNNER MPV (N1_W, N2_W)",
+      "typeEngineName": "2.0 TD (N18W)",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 7418,
+      "modelId": 279,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE WAGON (D0_V/W)",
+      "typeEngineName": "1.8 4WD (D05V, D05W)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1988-08-01"
+    },
+    {
+      "vehicleId": 10925,
+      "modelId": 3971,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE RUNNER MPV (N1_W, N2_W)",
+      "typeEngineName": "1.8 4WD (N21W)",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 14892,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "1.6 16V (CK4A)",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 15365,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.9 DI-D (DA5A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15366,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.9 DI-D (DA5A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15367,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.9 DI-D (DA5A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15368,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.9 DI-D (DA5A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15499,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.8 GDI (DA2A)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15500,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.8 GDI (DA2A)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 17349,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.6 (DA1A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 20334,
+      "modelId": 5822,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT IX Saloon (DJ_, ED_, EF_)",
+      "typeEngineName": "2.0 GDi G",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24572,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "1.5 16V (CK2A)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
       "vehicleId": 3297,
       "modelId": 3456,
       "manufacturerName": "MITSUBISHI",
@@ -77,67 +374,166 @@
       "constructionIntervalEnd": "1992-06-01"
     },
     {
-      "vehicleId": 3298,
+      "vehicleId": 3300,
       "modelId": 3456,
       "manufacturerName": "MITSUBISHI",
       "modelName": "LANCER III Station Wagon (C1_V, C3_V)",
-      "typeEngineName": "1.5 (C12V)",
-      "constructionIntervalStart": "1988-09-01",
+      "typeEngineName": "1.8 4WD (C37V)",
+      "constructionIntervalStart": "1989-03-01",
       "constructionIntervalEnd": "1990-12-01"
     },
     {
-      "vehicleId": 3318,
-      "modelId": 467,
+      "vehicleId": 3301,
+      "modelId": 3456,
       "manufacturerName": "MITSUBISHI",
-      "modelName": "TREDIA (A21_)",
-      "typeEngineName": "1.6 GLS (A212)",
-      "constructionIntervalStart": "1982-09-01",
-      "constructionIntervalEnd": "1987-10-01"
+      "modelName": "LANCER III Station Wagon (C1_V, C3_V)",
+      "typeEngineName": "1.8 4WD (C37V)",
+      "constructionIntervalStart": "1990-08-01",
+      "constructionIntervalEnd": "1992-06-01"
     },
     {
-      "vehicleId": 3367,
-      "modelId": 89,
+      "vehicleId": 3313,
+      "modelId": 3457,
       "manufacturerName": "MITSUBISHI",
-      "modelName": "CORDIA (A21_A, AB, AC)",
-      "typeEngineName": "1.6 GSL (A212A)",
-      "constructionIntervalStart": "1982-10-01",
-      "constructionIntervalEnd": "1986-12-01"
+      "modelName": "LANCER IV Hatchback (C6_A, C7_A)",
+      "typeEngineName": "1.8 4WD (C77A)",
+      "constructionIntervalStart": "1989-09-01",
+      "constructionIntervalEnd": "1992-06-01"
     },
     {
-      "vehicleId": 3321,
-      "modelId": 467,
+      "vehicleId": 3312,
+      "modelId": 3457,
       "manufacturerName": "MITSUBISHI",
-      "modelName": "TREDIA (A21_)",
-      "typeEngineName": "1.8 GLS (A215)",
-      "constructionIntervalStart": "1984-08-01",
-      "constructionIntervalEnd": "1986-07-01"
+      "modelName": "LANCER IV Hatchback (C6_A, C7_A)",
+      "typeEngineName": "1.6 16V (C76A, C66A)",
+      "constructionIntervalStart": "1992-06-01",
+      "constructionIntervalEnd": "1994-05-01"
     },
     {
-      "vehicleId": 14068,
-      "modelId": 467,
+      "vehicleId": 3425,
+      "modelId": 3971,
       "manufacturerName": "MITSUBISHI",
-      "modelName": "TREDIA (A21_)",
-      "typeEngineName": "1.8 Turbo (A215A)",
-      "constructionIntervalStart": "1984-08-01",
-      "constructionIntervalEnd": "1986-07-01"
+      "modelName": "SPACE RUNNER MPV (N1_W, N2_W)",
+      "typeEngineName": "1.8 (N11W)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1999-08-01"
     },
     {
-      "vehicleId": 3338,
-      "modelId": 461,
+      "vehicleId": 3426,
+      "modelId": 3971,
       "manufacturerName": "MITSUBISHI",
-      "modelName": "GALANT V (E1_A)",
-      "typeEngineName": "1.6 GLX (E11A)",
-      "constructionIntervalStart": "1984-06-01",
-      "constructionIntervalEnd": "1990-04-01"
+      "modelName": "SPACE RUNNER MPV (N1_W, N2_W)",
+      "typeEngineName": "1.8 4WD (N21W)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1999-08-01"
     },
     {
-      "vehicleId": 3343,
-      "modelId": 461,
+      "vehicleId": 3444,
+      "modelId": 185,
       "manufacturerName": "MITSUBISHI",
-      "modelName": "GALANT V (E1_A)",
-      "typeEngineName": "1.8 Turbo-D (E14A)",
-      "constructionIntervalStart": "1984-06-01",
-      "constructionIntervalEnd": "1990-04-01"
+      "modelName": "LANCER V (CB_A, CD_A, CE_A)",
+      "typeEngineName": "1.6 16V (CB4A)",
+      "constructionIntervalStart": "1992-06-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 4814,
+      "modelId": 1328,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER V Station Wagon (CB_W, CD_W)",
+      "typeEngineName": "1.6 16V (CB4W)",
+      "constructionIntervalStart": "1992-12-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 5217,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.6 (DA1A)",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 5218,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.8 (DA2A)",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 8709,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.6 (DA1A)",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 8710,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.6 (DA1A)",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 10924,
+      "modelId": 3971,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE RUNNER MPV (N1_W, N2_W)",
+      "typeEngineName": "1.8 (N11W)",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 11861,
+      "modelId": 3971,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE RUNNER MPV (N1_W, N2_W)",
+      "typeEngineName": "2.0 16V (N13W)",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 20133,
+      "modelId": 40,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT IV (CA_A)",
+      "typeEngineName": "1.6 4WD (CC4A)",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 20603,
+      "modelId": 3457,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER IV Hatchback (C6_A, C7_A)",
+      "typeEngineName": "1.6 4WD (C76A, C66A)",
+      "constructionIntervalStart": "1992-06-01",
+      "constructionIntervalEnd": "1993-11-01"
+    },
+    {
+      "vehicleId": 21399,
+      "modelId": 1328,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER V Station Wagon (CB_W, CD_W)",
+      "typeEngineName": "2.0 D (CB8W)",
+      "constructionIntervalStart": "1995-03-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 28850,
+      "modelId": 6332,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "MIRAGE IV Hatchback (CJ_A, CL_A, CA_A, CC_A)",
+      "typeEngineName": "1.6 (CJ4A)",
+      "constructionIntervalStart": "1991-12-01",
+      "constructionIntervalEnd": "1995-08-01"
     },
     {
       "vehicleId": 3344,
@@ -158,24 +554,6 @@
       "constructionIntervalEnd": "1992-10-01"
     },
     {
-      "vehicleId": 3347,
-      "modelId": 470,
-      "manufacturerName": "MITSUBISHI",
-      "modelName": "GALANT VI Saloon (E3_A)",
-      "typeEngineName": "1.8 Turbo-D (E34A)",
-      "constructionIntervalStart": "1987-12-01",
-      "constructionIntervalEnd": "1992-10-01"
-    },
-    {
-      "vehicleId": 3348,
-      "modelId": 3459,
-      "manufacturerName": "MITSUBISHI",
-      "modelName": "GALANT VI (E3_A)",
-      "typeEngineName": "1.8 Turbo-D (E34A)",
-      "constructionIntervalStart": "1988-11-01",
-      "constructionIntervalEnd": "1992-10-01"
-    },
-    {
       "vehicleId": 3350,
       "modelId": 3459,
       "manufacturerName": "MITSUBISHI",
@@ -185,13 +563,202 @@
       "constructionIntervalEnd": "1992-10-01"
     },
     {
-      "vehicleId": 3371,
-      "modelId": 89,
+      "vehicleId": 3442,
+      "modelId": 185,
       "manufacturerName": "MITSUBISHI",
-      "modelName": "CORDIA (A21_A, AB, AC)",
-      "typeEngineName": "1.8 Turbo ECi (A213A)",
-      "constructionIntervalStart": "1984-10-01",
-      "constructionIntervalEnd": "1989-07-01"
+      "modelName": "LANCER V (CB_A, CD_A, CE_A)",
+      "typeEngineName": "2.0 Diesel (CB8A)",
+      "constructionIntervalStart": "1992-06-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 4025,
+      "modelId": 40,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT IV (CA_A)",
+      "typeEngineName": "1.6 (CA4A)",
+      "constructionIntervalStart": "1994-02-01",
+      "constructionIntervalEnd": "1996-04-01"
+    },
+    {
+      "vehicleId": 4026,
+      "modelId": 185,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER V (CB_A, CD_A, CE_A)",
+      "typeEngineName": "1.6 (CB4A)",
+      "constructionIntervalStart": "1994-02-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 4815,
+      "modelId": 1328,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER V Station Wagon (CB_W, CD_W)",
+      "typeEngineName": "2.0 D (CB8W)",
+      "constructionIntervalStart": "1992-12-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 5577,
+      "modelId": 1548,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT V (CJ_, CP_)",
+      "typeEngineName": "1300 GL,GLX (CJ1A)",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "2000-06-01"
+    },
+    {
+      "vehicleId": 5578,
+      "modelId": 1548,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT V (CJ_, CP_)",
+      "typeEngineName": "1600 GLX (CJ4A)",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5579,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "1.3 12V (CK1A)",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 22938,
+      "modelId": 6334,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "MIRAGE V Coupe (CJ - CM)",
+      "typeEngineName": "1.6 ZR (CJ4A)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 28881,
+      "modelId": 7604,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "MIRAGE V Hatchback (CJ_A)",
+      "typeEngineName": "1.6 (CJ4A)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 5984,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.9 TD (DA4A)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5985,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.9 TD (DA4A)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5986,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.6 (DA1A)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 9540,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.8 16V GDI (DA2A)",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 9541,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.8 16V GDI (DA2A)",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15593,
+      "modelId": 1474,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA (DA_)",
+      "typeEngineName": "1.6 (DA1A)",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15594,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "1.6 (DA1A)",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 7847,
+      "modelId": 1897,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII (EA_)",
+      "typeEngineName": "2.0 TDI (EA6A)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 7850,
+      "modelId": 1898,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII Estate (EA_, EC_)",
+      "typeEngineName": "2.0 TDI (EA6W)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 9219,
+      "modelId": 185,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER V (CB_A, CD_A, CE_A)",
+      "typeEngineName": "1.6 16V 4WD (CD4A)",
+      "constructionIntervalStart": "1992-06-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 10939,
+      "modelId": 4045,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE STAR MPV (DG_A)",
+      "typeEngineName": "1.3 16V (DG1A)",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15568,
+      "modelId": 1548,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT V (CJ_, CP_)",
+      "typeEngineName": "1300 (CJ1A)",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2003-09-01"
+    },
+    {
+      "vehicleId": 15569,
+      "modelId": 1548,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT V (CJ_, CP_)",
+      "typeEngineName": "1600 (CJ4A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-09-01"
     }
   ],
   "specs": [
@@ -201,11 +768,7 @@
     },
     {
       "criteriaName": "Width [mm]",
-      "criteriaValue": "37"
-    },
-    {
-      "criteriaName": "Brake Lining",
-      "criteriaValue": "0"
+      "criteriaValue": "35"
     },
     {
       "criteriaName": "Inner brake drum diameter [mm]",
@@ -224,9 +787,40 @@
     {
       "oemBrand": "MITSUBISHI",
       "oemDisplayNo": "MR981238"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MB618192"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MB618193"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MB618194"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MB699334"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MB699335"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MB950064"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MN102633"
     }
   ],
   "ean": "4043605090133",
   "originalSKU": "8561E",
-  "fetchedAt": "2026-03-13T22:26:15.949Z"
+  "fetchedAt": "2026-03-14T11:57:47Z",
+  "enrichedVia": "OEM fallback (8527)",
+  "previousSupplier": "MAPCO",
+  "previousVehicleCount": 21
 }

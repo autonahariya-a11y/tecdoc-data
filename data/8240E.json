@@ -1,9 +1,45 @@
 {
-  "articleNo": "8240",
-  "articleId": 4789114,
-  "supplier": "NGK",
+  "articleNo": "IC-401",
+  "articleId": 7517003,
+  "supplier": "JAPANPARTS",
   "product": "Ignition Cable Kit",
   "vehicles": [
+    {
+      "vehicleId": 4010,
+      "modelId": 3930,
+      "manufacturerName": "ROVER",
+      "modelName": "600 I (RH)",
+      "typeEngineName": "620 i",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1996-06-01"
+    },
+    {
+      "vehicleId": 4011,
+      "modelId": 3930,
+      "manufacturerName": "ROVER",
+      "modelName": "600 I (RH)",
+      "typeEngineName": "620 Si",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1999-02-01"
+    },
+    {
+      "vehicleId": 4169,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 i 16V (CA5)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4170,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 i 16V (CA5)",
+      "constructionIntervalStart": "1987-01-01",
+      "constructionIntervalEnd": "1987-12-01"
+    },
     {
       "vehicleId": 4236,
       "modelId": 1261,
@@ -12,6 +48,15 @@
       "typeEngineName": "2.0 i EX 16V (BA2)",
       "constructionIntervalStart": "1986-04-01",
       "constructionIntervalEnd": "1987-12-01"
+    },
+    {
+      "vehicleId": 4241,
+      "modelId": 1277,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE IV (BB_)",
+      "typeEngineName": "2.0 i 16V (BB3)",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1996-09-01"
     },
     {
       "vehicleId": 4242,
@@ -23,6 +68,87 @@
       "constructionIntervalEnd": "1996-09-01"
     },
     {
+      "vehicleId": 4252,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.0 16V (CB3)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
+    },
+    {
+      "vehicleId": 4254,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.0 16V (CB3)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
+    },
+    {
+      "vehicleId": 4257,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.2 i 16V Automatik (CB7)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
+    },
+    {
+      "vehicleId": 4258,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.2 i 16V (CB7)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
+    },
+    {
+      "vehicleId": 4259,
+      "modelId": 1248,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV Coupe (CB, CC)",
+      "typeEngineName": "2.0 i 16V (CC1)",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1993-09-01"
+    },
+    {
+      "vehicleId": 4260,
+      "modelId": 1276,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV Aerodeck (CB)",
+      "typeEngineName": "2.2 i 16V (CB8)",
+      "constructionIntervalStart": "1991-01-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 4261,
+      "modelId": 1276,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV Aerodeck (CB)",
+      "typeEngineName": "2.2 i 16V (CB8)",
+      "constructionIntervalStart": "1991-01-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 4281,
+      "modelId": 1263,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CC, CD)",
+      "typeEngineName": "2.0 i (CD4)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 4282,
+      "modelId": 1263,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CC, CD)",
+      "typeEngineName": "2.0 i S (CD4)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
       "vehicleId": 4283,
       "modelId": 1263,
       "manufacturerName": "HONDA",
@@ -30,6 +156,150 @@
       "typeEngineName": "2.3 i SR (CD6)",
       "constructionIntervalStart": "1993-03-01",
       "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 4284,
+      "modelId": 1276,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV Aerodeck (CB)",
+      "typeEngineName": "2.0 i 16V (CC9)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 4295,
+      "modelId": 1273,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V Coupe (CD)",
+      "typeEngineName": "2.2 i ES (CD7)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 4296,
+      "modelId": 1272,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V Aerodeck (CE)",
+      "typeEngineName": "2.0 i LS 16V (CE2)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 4297,
+      "modelId": 1272,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V Aerodeck (CE)",
+      "typeEngineName": "2.2 i ES (CE1)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 4766,
+      "modelId": 1323,
+      "manufacturerName": "HONDA",
+      "modelName": "SHUTTLE (RA)",
+      "typeEngineName": "2.2 16V (RA1)",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 5355,
+      "modelId": 1490,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CE, CF_, CD)",
+      "typeEngineName": "1.8 i (CE7)",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 5356,
+      "modelId": 1490,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CE, CF_, CD)",
+      "typeEngineName": "2.0 i LS (CE8)",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 5588,
+      "modelId": 3930,
+      "manufacturerName": "ROVER",
+      "modelName": "600 I (RH)",
+      "typeEngineName": "618 i/Si",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "1999-02-01"
+    },
+    {
+      "vehicleId": 10026,
+      "modelId": 3896,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI (CK, CG, CH, CF, CL)",
+      "typeEngineName": "1.8 i (CG8)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 10581,
+      "modelId": 1261,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE III (BA)",
+      "typeEngineName": "2.0 i EX 16V (BA5)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1990-12-01"
+    },
+    {
+      "vehicleId": 14411,
+      "modelId": 4576,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI Hatchback (CH, CL)",
+      "typeEngineName": "1.8 i (CH6)",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 17641,
+      "modelId": 1273,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V Coupe (CD)",
+      "typeEngineName": "2.0 (CD9)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 18018,
+      "modelId": 1256,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Hatchback (EC, ED, EE, EF)",
+      "typeEngineName": "1.5 i 16V (ED6)",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 27752,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1991-12-01"
+    },
+    {
+      "vehicleId": 29533,
+      "modelId": 1276,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV Aerodeck (CB)",
+      "typeEngineName": "2.2 (CB8, CB9)",
+      "constructionIntervalStart": "1992-05-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 4256,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.0 i 16V (CB3)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
     }
   ],
   "specs": [
@@ -54,9 +324,24 @@
     {
       "oemBrand": "HONDA",
       "oemDisplayNo": "32700-PTO-000"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "32700-TPO-000"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "32700P0D000"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "32700P5NG01"
     }
   ],
   "ean": "087295082409",
   "originalSKU": "8240E",
-  "fetchedAt": "2026-03-13T22:19:51.068Z"
+  "fetchedAt": "2026-03-14T11:56:28Z",
+  "enrichedVia": "OEM fallback (IC-401)",
+  "previousSupplier": "NGK",
+  "previousVehicleCount": 3
 }
