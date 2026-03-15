@@ -1,0 +1,610 @@
+/* TecDoc Widget v9.1 — AUTODOC-style Product Page + Vertical Sections
+   RTL Hebrew, Heebo font — Professional design with improved spacing */
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
+
+/* ══════════════════════════════════════
+   PART A — TECDOC SPEC WIDGET (#tecdoc-widget)
+   Original vertical sections for description / vehicles / OE
+   ══════════════════════════════════════ */
+
+/* ── Reset ── */
+#tecdoc-widget *,
+#tecdoc-widget *::before,
+#tecdoc-widget *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#tecdoc-widget {
+  font-family: 'Heebo', Arial, Helvetica, sans-serif;
+  direction: rtl;
+  text-align: right;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #222;
+  background: #fff;
+  max-width: 100%;
+}
+
+/* ── Section structure ── */
+#tecdoc-widget .tw-section {
+  padding: 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+#tecdoc-widget .tw-section:last-child { border-bottom: none; }
+
+/* SECTION 1 — DESCRIPTION / SPECS */
+#tecdoc-widget .tw-desc-section { padding: 0 0 4px; }
+
+#tecdoc-widget .tw-section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a2332;
+  padding: 14px 0 10px;
+  border-bottom: 1px solid #E8E8E8;
+  margin: 0;
+}
+
+/* Specs table */
+#tecdoc-widget .tw-specs-table { width: 100%; border-collapse: collapse; }
+#tecdoc-widget .tw-specs-table tr { border: none; }
+#tecdoc-widget .tw-specs-table td {
+  padding: 8px 0; font-size: 13px; border: none;
+  vertical-align: top; line-height: 1.5;
+}
+#tecdoc-widget .tw-specs-table td:first-child {
+  color: #6b7280; font-weight: 500; width: 40%; padding-left: 8px;
+}
+#tecdoc-widget .tw-specs-table td:last-child { color: #1a2332; font-weight: 400; }
+#tecdoc-widget .tw-specs-table tr + tr td { border-top: 1px solid #F2F2F2; }
+#tecdoc-widget .tw-specs-table tr.tw-spec-hidden { display: none; }
+#tecdoc-widget .tw-specs-table.tw-expanded tr.tw-spec-hidden { display: table-row; }
+
+/* More/Less button */
+#tecdoc-widget .tw-more-wrap { text-align: center; padding: 4px 0 6px; }
+#tecdoc-widget .tw-more-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 8px 18px; font-size: 12px; font-weight: 500;
+  color: #329FDA; cursor: pointer; background: none; border: none;
+  font-family: inherit; transition: color 0.2s;
+}
+#tecdoc-widget .tw-more-btn:hover { color: #1B4E91; }
+#tecdoc-widget .tw-more-btn .tw-arrow { font-size: 9px; transition: transform 0.25s; }
+#tecdoc-widget .tw-more-btn.tw-expanded .tw-arrow { transform: rotate(180deg); }
+
+/* SECTION 2 — VEHICLE COMPATIBILITY */
+#tecdoc-widget .tw-compat-section { padding: 0; }
+#tecdoc-widget .tw-compat-header {
+  display: flex; align-items: center; gap: 8px;
+  padding: 14px 0 10px; border-bottom: 1px solid #E8E8E8;
+}
+#tecdoc-widget .tw-compat-icon { font-size: 17px; color: #333; line-height: 1; }
+#tecdoc-widget .tw-compat-title { font-size: 16px; font-weight: 600; color: #1a2332; }
+
+/* Vehicle match indicator */
+#tecdoc-widget .tw-compat-match {
+  display: flex; align-items: center; gap: 6px;
+  padding: 10px 0; font-size: 12px; color: #2ECC71;
+  font-weight: 400; border-bottom: 1px solid #E8E8E8;
+}
+#tecdoc-widget .tw-compat-match-icon {
+  width: 18px; height: 18px; background: #2ECC71; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+#tecdoc-widget .tw-compat-match-icon svg {
+  width: 10px; height: 10px; fill: none; stroke: #fff;
+  stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round;
+}
+
+/* Accordion */
+#tecdoc-widget .tw-accordion {
+  border: 1px solid #E0E0E0; border-radius: 4px; overflow: hidden;
+  margin-top: 10px; max-height: 420px; overflow-y: auto;
+}
+#tecdoc-widget .tw-accordion::-webkit-scrollbar { width: 4px; }
+#tecdoc-widget .tw-accordion::-webkit-scrollbar-track { background: #f5f5f5; }
+#tecdoc-widget .tw-accordion::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+
+/* Level 1: Manufacturer */
+#tecdoc-widget .tw-acc-l1 { border-bottom: 1px solid #E8E8E8; }
+#tecdoc-widget .tw-acc-l1:last-child { border-bottom: none; }
+#tecdoc-widget .tw-acc-l1-header {
+  display: flex; align-items: center; padding: 10px 14px;
+  cursor: pointer; background: #fff; transition: background 0.15s;
+  gap: 10px; user-select: none;
+}
+#tecdoc-widget .tw-acc-l1-header:hover { background: #F8F8F8; }
+#tecdoc-widget .tw-acc-icon {
+  font-size: 15px; font-weight: 300; color: #329FDA;
+  width: 15px; min-width: 15px; text-align: center;
+  flex-shrink: 0; line-height: 1; font-family: Arial, Helvetica, sans-serif;
+}
+#tecdoc-widget .tw-acc-l1-name { font-size: 13px; font-weight: 600; color: #1a2332; }
+#tecdoc-widget .tw-acc-l1-body { display: none; }
+#tecdoc-widget .tw-acc-l1.tw-open > .tw-acc-l1-body { display: block; }
+
+/* Level 2: Model */
+#tecdoc-widget .tw-acc-l2 { border-top: 1px solid #F0F0F0; }
+#tecdoc-widget .tw-acc-l2-header {
+  display: flex; align-items: center; padding: 8px 14px 8px 14px;
+  padding-right: 36px; cursor: pointer; background: #fff;
+  transition: background 0.15s; gap: 10px; user-select: none;
+}
+#tecdoc-widget .tw-acc-l2-header:hover { background: #FAFAFA; }
+#tecdoc-widget .tw-acc-l2-name { font-size: 12.5px; font-weight: 400; color: #333; flex: 1; }
+#tecdoc-widget .tw-acc-l2-years { font-size: 11px; color: #888; white-space: nowrap; direction: ltr; }
+#tecdoc-widget .tw-acc-l2-body { display: none; }
+#tecdoc-widget .tw-acc-l2.tw-open > .tw-acc-l2-body { display: block; }
+
+/* Level 3: Engine */
+#tecdoc-widget .tw-acc-l3 {
+  padding: 6px 14px; padding-right: 58px;
+  font-size: 11.5px; color: #555; border-top: 1px solid #F5F5F5; line-height: 1.5;
+}
+#tecdoc-widget .tw-acc-l3-engine { font-weight: 500; color: #333; }
+#tecdoc-widget .tw-acc-l3-years { color: #888; direction: ltr; unicode-bidi: plaintext; }
+#tecdoc-widget .tw-acc-l3-separator { color: #BDBDBD; margin: 0 3px; }
+
+/* SECTION 3 — OE NUMBERS */
+#tecdoc-widget .tw-oe-section { padding: 0; }
+#tecdoc-widget .tw-oe-header { padding: 14px 0 10px; border-bottom: 1px solid #E8E8E8; }
+#tecdoc-widget .tw-oe-title { font-size: 16px; font-weight: 600; color: #1a2332; margin-bottom: 2px; }
+#tecdoc-widget .tw-oe-subtitle { font-size: 11px; color: #888; line-height: 1.4; }
+#tecdoc-widget .tw-oe-list { padding: 10px 0; }
+#tecdoc-widget .tw-oe-item {
+  display: flex; align-items: baseline; padding: 6px 0;
+  font-size: 12px; line-height: 1.4; border-bottom: 1px solid #F5F5F5;
+}
+#tecdoc-widget .tw-oe-item:last-child { border-bottom: none; }
+#tecdoc-widget .tw-oe-num { color: #329FDA; direction: ltr; unicode-bidi: plaintext; display: inline; font-weight: 400; }
+#tecdoc-widget .tw-oe-dash { color: #999; margin: 0 6px; flex-shrink: 0; }
+#tecdoc-widget .tw-oe-brands { color: #329FDA; font-weight: 400; }
+#tecdoc-widget .tw-oe-acc-item {
+  padding: 6px 0; padding-right: 36px;
+  border-top: 1px solid #F5F5F5; font-size: 12px; line-height: 1.4;
+}
+#tecdoc-widget .tw-oe-acc-num { color: #329FDA; direction: ltr; unicode-bidi: plaintext; display: inline-block; }
+#tecdoc-widget .tw-oe-info {
+  background: #f0f7ff; border: 1px solid #d4e6f7;
+  padding: 12px 16px; border-radius: 8px;
+  font-size: 12px; color: #4a6785; line-height: 1.6; margin-top: 12px;
+}
+
+/* Loading & Error */
+#tecdoc-widget .tw-loading {
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: center; padding: 36px 16px; gap: 12px;
+}
+#tecdoc-widget .tw-spinner {
+  width: 30px; height: 30px; border: 3px solid #E0E0E0;
+  border-top-color: #329FDA; border-radius: 50%;
+  animation: tw-spin 0.8s linear infinite;
+}
+@keyframes tw-spin { to { transform: rotate(360deg); } }
+#tecdoc-widget .tw-loading-text { font-size: 13px; color: #888; }
+#tecdoc-widget .tw-loading-step { font-size: 11px; color: #aaa; }
+#tecdoc-widget .tw-progress { width: 150px; height: 3px; background: #E0E0E0; border-radius: 2px; overflow: hidden; }
+#tecdoc-widget .tw-progress-bar { height: 100%; background: #329FDA; border-radius: 2px; transition: width 0.4s ease; }
+#tecdoc-widget .tw-error { padding: 24px 16px; text-align: center; color: #D32F2F; font-size: 13px; }
+#tecdoc-widget .tw-error-icon { font-size: 22px; margin-bottom: 6px; }
+#tecdoc-widget .tw-empty { padding: 28px 16px; text-align: center; color: #aaa; font-size: 13px; }
+
+/* Footer */
+#tecdoc-widget .tw-footer {
+  background: #FAFAFA; border-top: 1px solid #F0F0F0;
+  padding: 6px 0; display: flex; justify-content: space-between;
+  align-items: center; font-size: 10px; color: #bbb;
+}
+#tecdoc-widget .tw-footer a { color: #bbb; text-decoration: none; }
+#tecdoc-widget .tw-footer a:hover { color: #329FDA; }
+
+/* Responsive — Tablet */
+@media (max-width: 768px) {
+  #tecdoc-widget .tw-specs-table td { padding: 6px 0; font-size: 12px; }
+  #tecdoc-widget .tw-specs-table td:first-child { padding-left: 6px; }
+  #tecdoc-widget .tw-acc-l1-header { padding: 8px 12px; }
+  #tecdoc-widget .tw-acc-l2-header { padding-right: 30px; padding-left: 12px; }
+  #tecdoc-widget .tw-acc-l3 { padding-right: 46px; padding-left: 12px; }
+  #tecdoc-widget .tw-oe-acc-item { padding-right: 30px; }
+}
+@media (max-width: 480px) {
+  #tecdoc-widget { font-size: 12px; }
+  #tecdoc-widget .tw-section-title,
+  #tecdoc-widget .tw-compat-title,
+  #tecdoc-widget .tw-oe-title { font-size: 15px; }
+  #tecdoc-widget .tw-specs-table td { padding: 6px 0; font-size: 12px; }
+  #tecdoc-widget .tw-specs-table td:first-child { width: 44%; padding-left: 2px; }
+  #tecdoc-widget .tw-acc-l1-header { padding: 8px 10px; }
+  #tecdoc-widget .tw-acc-l1-name { font-size: 12px; }
+  #tecdoc-widget .tw-acc-l2-header { padding-right: 26px; padding-left: 10px; }
+  #tecdoc-widget .tw-acc-l2-name { font-size: 11px; }
+  #tecdoc-widget .tw-acc-l3 { padding-right: 40px; padding-left: 10px; font-size: 11px; }
+  #tecdoc-widget .tw-oe-acc-item { padding-right: 26px; font-size: 11px; }
+  #tecdoc-widget .tw-oe-item { font-size: 11px; flex-wrap: wrap; }
+  #tecdoc-widget .tw-oe-info { font-size: 10px; padding: 10px 12px; }
+  #tecdoc-widget .tw-compat-header { gap: 6px; }
+  #tecdoc-widget .tw-compat-icon { font-size: 15px; }
+}
+
+
+/* ══════════════════════════════════════
+   PART B — AUTODOC-STYLE PRODUCT PAGE (.an-product)
+   Full product page layout with tabs
+   ══════════════════════════════════════ */
+
+.an-product *, .an-product *::before, .an-product *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+.an-product {
+  font-family: 'Heebo', sans-serif;
+  direction: rtl;
+  line-height: 1.6;
+  color: #1a2332;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Breadcrumb */
+.an-product__breadcrumb { font-size: 12px; color: #6b7280; margin-bottom: 20px; }
+.an-product__breadcrumb a { color: #329FDA; text-decoration: none; }
+.an-product__breadcrumb a:hover { text-decoration: underline; }
+.an-product__breadcrumb span { margin: 0 4px; }
+
+/* ── Main 3-column layout ── */
+.an-product__main {
+  display: grid;
+  grid-template-columns: 400px 1fr 320px;
+  gap: 28px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07), 0 2px 12px rgba(0,0,0,0.03);
+  margin-bottom: 20px;
+}
+@media (max-width: 1024px) {
+  .an-product__main { grid-template-columns: 1fr; gap: 16px; padding: 16px; }
+  .an-product__image { order: 1; min-height: 0 !important; max-height: 180px; }
+  .an-product__image img { max-height: 160px; }
+  .an-product__info { order: 2; padding: 0; }
+  .an-product__purchase { order: 3; }
+}
+
+/* Image column */
+.an-product__image {
+  display: flex; align-items: center; justify-content: center;
+  background: #fff; border-radius: 10px; overflow: hidden;
+  min-height: 300px; border: 1px solid #f0f0f0;
+}
+.an-product__image img {
+  max-width: 100%; max-height: 360px; object-fit: contain;
+  padding: 8px; cursor: zoom-in;
+}
+
+/* Info column */
+.an-product__info { padding: 0 20px; }
+.an-product__title { font-size: 22px; font-weight: 700; color: #1a2332; margin-bottom: 6px; line-height: 1.4; }
+.an-product__subtitle { font-size: 13px; color: #6b7280; margin-bottom: 14px; }
+.an-product__meta {
+  display: flex; gap: 20px; font-size: 12.5px; color: #6b7280;
+  margin-bottom: 18px; flex-wrap: wrap;
+  padding-bottom: 14px; border-bottom: 1px solid #f0f0f0;
+}
+.an-product__meta span { white-space: nowrap; }
+.an-product__meta strong { color: #1a2332; }
+
+/* Quick specs table */
+.an-product__quick-specs {
+  width: 100%; border-collapse: collapse;
+  font-size: 13px; margin-bottom: 0;
+}
+.an-product__quick-specs td {
+  padding: 8px 10px; border: 1px solid #e5e7eb;
+}
+.an-product__quick-specs td:first-child {
+  color: #6b7280; font-weight: 400; width: 35%;
+  background: #fafbfc;
+}
+.an-product__quick-specs td:last-child { font-weight: 500; }
+
+/* Purchase column */
+.an-product__purchase {
+  background: #f9fafb; border-radius: 12px;
+  padding: 22px; display: flex; flex-direction: column; gap: 14px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Stock */
+.an-product__stock { display: flex; align-items: center; gap: 8px; font-size: 13.5px; font-weight: 600; }
+.an-product__stock--in { color: #16a34a; }
+.an-product__stock--out { color: #dc2626; }
+.an-product__stock-dot {
+  width: 9px; height: 9px; border-radius: 50%; display: inline-block;
+}
+.an-product__stock--in .an-product__stock-dot { background: #16a34a; }
+.an-product__stock--out .an-product__stock-dot { background: #dc2626; }
+
+/* Price */
+.an-product__price { font-size: 34px; font-weight: 700; color: #1a2332; }
+.an-product__price-vat { font-size: 12px; color: #6b7280; font-weight: 400; }
+
+/* Cart row */
+.an-product__cart-row {
+  display: flex; gap: 10px; align-items: center;
+  flex-direction: row-reverse;
+}
+
+/* Quantity selector */
+.an-product__qty {
+  display: flex; align-items: center; border: 1px solid #d1d5db;
+  border-radius: 10px; overflow: hidden; background: #fff;
+}
+.an-product__qty button {
+  width: 38px; height: 42px; border: none; background: #fff;
+  cursor: pointer; font-size: 18px; color: #374151;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.15s;
+}
+.an-product__qty button:hover { background: #f3f4f6; }
+.an-product__qty input {
+  width: 42px; height: 42px; border: none;
+  border-right: 1px solid #d1d5db; border-left: 1px solid #d1d5db;
+  text-align: center; font-size: 15px; font-weight: 600;
+  font-family: 'Heebo', sans-serif; color: #1a2332;
+  -moz-appearance: textfield;
+}
+.an-product__qty input::-webkit-outer-spin-button,
+.an-product__qty input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+/* Add to cart button */
+.an-product__add-btn {
+  flex: 1; padding: 11px 22px; background: #329FDA;
+  color: #fff; border: none; border-radius: 10px;
+  font-size: 15px; font-weight: 600; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  font-family: 'Heebo', sans-serif; transition: all 0.2s;
+  box-shadow: 0 2px 6px rgba(50,159,218,0.3);
+}
+.an-product__add-btn:hover { background: #1B4E91; box-shadow: 0 2px 8px rgba(27,78,145,0.35); }
+.an-product__add-btn svg { width: 18px; height: 18px; }
+
+/* Shipping row */
+.an-product__shipping {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12.5px; color: #6b7280;
+  padding-top: 8px;
+  border-top: 1px solid #e5e7eb;
+}
+.an-product__shipping svg { width: 16px; height: 16px; flex-shrink: 0; color: #329FDA; }
+
+/* Benefit badges */
+.an-product__benefits { display: flex; flex-direction: column; gap: 10px; padding-top: 8px; }
+.an-product__benefit {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 12.5px; color: #374151;
+}
+.an-product__benefit svg { width: 18px; height: 18px; flex-shrink: 0; }
+.an-product__benefit--warranty { color: #329FDA; }
+.an-product__benefit--original svg { color: #329FDA; }
+.an-product__benefit--secure svg { color: #329FDA; }
+.an-product__benefit--installments svg { color: #329FDA; }
+.an-product__benefit small { font-size: 10.5px; color: #9ca3af; display: block; margin-top: 1px; }
+
+/* WhatsApp notify button (out of stock) */
+.an-product__notify-btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 11px 22px; background: #25D366; color: #fff;
+  border: none; border-radius: 10px; font-size: 14px; font-weight: 600;
+  cursor: pointer; text-decoration: none;
+  font-family: 'Heebo', sans-serif; transition: background 0.2s;
+  box-shadow: 0 2px 6px rgba(37,211,102,0.3);
+}
+.an-product__notify-btn:hover { background: #1da851; }
+.an-product__notify-btn svg { width: 16px; height: 16px; }
+
+/* ── TABS SECTION ── */
+.an-product__tabs-section {
+  background: #fff; border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07), 0 2px 12px rgba(0,0,0,0.03);
+  overflow: hidden;
+}
+
+.an-product__tabs-nav {
+  display: flex; border-bottom: 2px solid #e5e7eb;
+  background: #fafbfc;
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
+
+.an-product__tab-btn {
+  flex: 1; padding: 16px 18px; background: none; border: none;
+  border-bottom: 3px solid transparent; margin-bottom: -2px;
+  font-size: 15px; font-weight: 500; color: #6b7280;
+  cursor: pointer; white-space: nowrap;
+  font-family: 'Heebo', sans-serif; transition: all 0.2s;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+}
+.an-product__tab-btn:hover { color: #1a2332; background: #f3f4f6; }
+.an-product__tab-btn--active {
+  color: #329FDA; border-bottom-color: #329FDA; background: #fff;
+  font-weight: 600;
+}
+.an-product__tab-btn svg { width: 18px; height: 18px; }
+
+.an-product__tab-badge {
+  background: #329FDA; color: #fff; font-size: 11px;
+  padding: 3px 8px; border-radius: 10px; font-weight: 600;
+}
+
+.an-product__tab-panel { display: none; padding: 24px 28px; }
+.an-product__tab-panel--active { display: block; }
+
+/* Tab content — specs */
+.an-product__spec-header {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 16px; font-weight: 600; color: #1a2332;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.an-product__spec-header svg { width: 20px; height: 20px; color: #329FDA; }
+
+.an-product__spec-table { width: 100%; border-collapse: collapse; }
+.an-product__spec-table tr:nth-child(even) { background: #f9fafb; }
+.an-product__spec-table td {
+  padding: 12px 14px; font-size: 13px; border-bottom: 1px solid #f0f0f0;
+}
+.an-product__spec-table td:first-child { color: #6b7280; font-weight: 400; width: 40%; }
+.an-product__spec-table td:last-child { font-weight: 500; color: #1a2332; }
+
+/* Tab content — vehicles */
+.an-product__vehicles-list { }
+
+/* Tab content — OE */
+.an-product__oe-header {
+  font-size: 13px; color: #6b7280; margin-bottom: 14px;
+}
+
+/* Responsive — Mobile tabs */
+@media (max-width: 640px) {
+  .an-product__tabs-nav { overflow-x: auto; }
+  .an-product__tab-btn { font-size: 14px; padding: 14px 14px; min-width: 0; flex: 0 0 auto; font-weight: 600; }
+  .an-product__tab-btn svg { width: 18px; height: 18px; }
+  .an-product__tab-badge { font-size: 11px; padding: 3px 8px; }
+  .an-product__tab-panel { padding: 18px; }
+  .an-product__title { font-size: 18px; }
+  .an-product__price { font-size: 28px; }
+  .an-product__cart-row { flex-direction: row-reverse; }
+  .an-product__purchase { padding: 18px; }
+  .an-product__quick-specs td { padding: 6px 8px; font-size: 12px; }
+  .an-product__image { max-height: 150px; }
+  .an-product__image img { max-height: 130px; }
+
+  /* Accordion: more touch-friendly spacing on mobile */
+  .an-product .tw-acc-l1-header { padding: 16px 16px; gap: 10px; min-height: 52px; }
+  .an-product .tw-acc-l1-name { font-size: 14px; }
+  .an-product .tw-acc-l2-header { padding: 14px 16px; padding-right: 40px; min-height: 48px; gap: 10px; }
+  .an-product .tw-acc-l2-name { font-size: 13.5px; }
+  .an-product .tw-acc-l3 { padding: 12px 16px; padding-right: 56px; font-size: 12.5px; line-height: 1.8; }
+  .an-product .tw-oe-acc-item { padding: 12px 16px; padding-right: 40px; font-size: 13.5px; line-height: 1.7; }
+
+  /* Benefits & shipping: larger, more readable on mobile */
+  .an-product__benefit { font-size: 13.5px; gap: 12px; padding: 4px 0; }
+  .an-product__benefit svg { width: 20px; height: 20px; }
+  .an-product__benefit small { font-size: 11px; }
+  .an-product__benefits { gap: 12px; }
+  .an-product__shipping { font-size: 13px; gap: 10px; padding-top: 10px; }
+  .an-product__shipping svg { width: 18px; height: 18px; }
+
+  /* Spec table: larger for mobile readability */
+  .an-product__spec-table td { padding: 12px 14px; font-size: 13.5px; }
+  .an-product__spec-table td:first-child { font-size: 13px; }
+
+  /* OE header: larger on mobile */
+  .an-product__oe-header { font-size: 13.5px; padding: 14px 16px; }
+}
+
+/* ── Accordion inside product page tabs ── */
+.an-product .tw-accordion {
+  border: 1px solid #e5e7eb; border-radius: 10px; overflow: hidden;
+  max-height: 550px; overflow-y: auto;
+}
+.an-product .tw-accordion::-webkit-scrollbar { width: 5px; }
+.an-product .tw-accordion::-webkit-scrollbar-track { background: #f9fafb; }
+.an-product .tw-accordion::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+.an-product .tw-accordion::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+
+.an-product .tw-acc-l1 { border-bottom: 1px solid #e5e7eb; }
+.an-product .tw-acc-l1:last-child { border-bottom: none; }
+.an-product .tw-acc-l1-header {
+  display: flex; align-items: center; padding: 14px 20px;
+  cursor: pointer; background: #fff; transition: background 0.15s;
+  gap: 12px; user-select: none;
+}
+.an-product .tw-acc-l1-header:hover { background: #f9fafb; }
+.an-product .tw-acc-icon {
+  font-size: 14px; font-weight: 600; color: #329FDA;
+  width: 22px; min-width: 22px; height: 22px;
+  text-align: center; line-height: 22px;
+  flex-shrink: 0; font-family: Arial, Helvetica, sans-serif;
+  background: #f0f7ff; border-radius: 5px;
+}
+.an-product .tw-acc-l1-name { font-size: 15px; font-weight: 600; color: #1a2332; }
+.an-product .tw-acc-l1-count {
+  font-size: 12px; color: #9ca3af; margin-right: auto;
+  font-weight: 400;
+}
+.an-product .tw-acc-l1-body { display: none; }
+.an-product .tw-acc-l1.tw-open > .tw-acc-l1-body { display: block; }
+.an-product .tw-acc-l1.tw-open > .tw-acc-l1-header { background: #f9fafb; }
+.an-product .tw-acc-l1.tw-open > .tw-acc-l1-header .tw-acc-icon { background: #329FDA; color: #fff; }
+
+.an-product .tw-acc-l2 { border-top: 1px solid #f0f0f0; }
+.an-product .tw-acc-l2-header {
+  display: flex; align-items: center; padding: 12px 20px 12px 20px;
+  padding-right: 46px; cursor: pointer; background: #fff;
+  transition: background 0.15s; gap: 12px; user-select: none;
+}
+.an-product .tw-acc-l2-header:hover { background: #fafbfc; }
+.an-product .tw-acc-l2-name { font-size: 14px; font-weight: 500; color: #374151; flex: 1; }
+.an-product .tw-acc-l2-years {
+  font-size: 12px; color: #9ca3af; white-space: nowrap; direction: ltr;
+  background: #f3f4f6; padding: 3px 10px; border-radius: 4px;
+}
+.an-product .tw-acc-l2-body { display: none; }
+.an-product .tw-acc-l2.tw-open > .tw-acc-l2-body { display: block; }
+.an-product .tw-acc-l2.tw-open > .tw-acc-l2-header { background: #fafbfc; }
+
+.an-product .tw-acc-l3 {
+  padding: 10px 20px; padding-right: 68px;
+  font-size: 13px; color: #555; border-top: 1px solid #f5f5f5; line-height: 1.8;
+}
+.an-product .tw-acc-l3-engine { font-weight: 500; color: #374151; }
+.an-product .tw-acc-l3-years { color: #9ca3af; direction: ltr; unicode-bidi: plaintext; }
+.an-product .tw-acc-l3-separator { color: #d1d5db; margin: 0 5px; }
+.an-product .tw-acc-l3-model-code {
+  font-size: 11px; color: #9ca3af; font-weight: 400; margin-right: 3px;
+}
+
+.an-product .tw-oe-acc-item {
+  padding: 10px 20px; padding-right: 46px;
+  border-top: 1px solid #F5F5F5; font-size: 14px; line-height: 1.7;
+}
+.an-product .tw-oe-acc-num { color: #329FDA; direction: ltr; unicode-bidi: plaintext; display: inline-block; font-weight: 600; font-size: 14px; }
+.an-product .tw-oe-info {
+  background: #f0f7ff; border: 1px solid #d4e6f7;
+  padding: 16px 20px; border-radius: 8px;
+  font-size: 13px; color: #4a6785; line-height: 1.7; margin-top: 16px;
+}
+
+/* Vehicle count badge in header */
+.an-product .tw-vehicle-count-header {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 14px; color: #6b7280; margin-bottom: 16px;
+  padding-bottom: 14px; border-bottom: 1px solid #f0f0f0;
+}
+.an-product .tw-vehicle-count-header svg { width: 20px; height: 20px; color: #329FDA; }
+.an-product .tw-vehicle-count-header strong { color: #1a2332; font-weight: 600; }
+
+/* ── Lightbox overlay ── */
+.an-product__lightbox {
+  position: fixed; inset: 0; z-index: 99999;
+  background: rgba(0,0,0,0.85); display: flex;
+  align-items: center; justify-content: center;
+  cursor: zoom-out; opacity: 0; transition: opacity 0.25s;
+}
+.an-product__lightbox.an-lb-visible { opacity: 1; }
+.an-product__lightbox img {
+  max-width: 92vw; max-height: 90vh; object-fit: contain;
+  border-radius: 8px; box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+  transform: scale(0.92); transition: transform 0.3s ease;
+}
+.an-product__lightbox.an-lb-visible img { transform: scale(1); }
+.an-product__lightbox-close {
+  position: absolute; top: 16px; left: 16px;
+  width: 40px; height: 40px; border-radius: 50%;
+  background: rgba(255,255,255,0.15); border: none;
+  color: #fff; font-size: 24px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.2s;
+}
+.an-product__lightbox-close:hover { background: rgba(255,255,255,0.3); }
