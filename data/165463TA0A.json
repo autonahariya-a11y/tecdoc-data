@@ -1,0 +1,83 @@
+{
+  "articleNo": "A-61490",
+  "articleId": 5424066,
+  "supplier": "SAKURA Automotive",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 100319,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107403,
+      "modelId": 13057,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA III (J33, L33)",
+      "typeEngineName": "2.5 (L33L, L33R, L33T)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117265,
+      "modelId": 13057,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA III (J33, L33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "28"
+    },
+    {
+      "criteriaName": "Length 1 [mm]",
+      "criteriaValue": "295"
+    },
+    {
+      "criteriaName": "Width 1 [mm]",
+      "criteriaValue": "289"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "165463TA0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "165463TA0J"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "165463TA1B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "165463TA1BC139"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "165463TA2A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AF54M3TA0JNW"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "165463TA0A",
+  "fetchedAt": "2026-03-17T15:43:55Z",
+  "enrichedVia": "OEM (165463TA0A)"
+}

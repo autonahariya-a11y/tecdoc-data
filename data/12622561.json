@@ -1,0 +1,2984 @@
+{
+  "articleNo": "0 242 236 663",
+  "articleId": 18106,
+  "supplier": "BOSCH",
+  "product": "Spark Plug",
+  "vehicles": [
+    {
+      "vehicleId": 1083,
+      "modelId": 411,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA III (GFJ)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 1084,
+      "modelId": 411,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA III (GFJ)",
+      "typeEngineName": "1.8 XR2i 16V",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 1100,
+      "modelId": 378,
+      "manufacturerName": "FORD",
+      "modelName": "ORION III (GAL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 1102,
+      "modelId": 378,
+      "manufacturerName": "FORD",
+      "modelName": "ORION III (GAL)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 3926,
+      "modelId": 6986,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GH)",
+      "typeEngineName": "2.0 MZR (GHEFS)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 4713,
+      "modelId": 1463,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI (GAL, AAL, ABL)",
+      "typeEngineName": "1.6 16V 4x4",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 5172,
+      "modelId": 1463,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI (GAL, AAL, ABL)",
+      "typeEngineName": "1.8 16V (EDA, EHC)",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 5174,
+      "modelId": 1464,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Saloon (GAL, AFL)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1999-02-01"
+    },
+    {
+      "vehicleId": 5176,
+      "modelId": 1465,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Turnier (GAL, ANL)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1999-02-01"
+    },
+    {
+      "vehicleId": 5181,
+      "modelId": 1463,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI (GAL, AAL, ABL)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 5186,
+      "modelId": 1465,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Turnier (GAL, ANL)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1999-02-01"
+    },
+    {
+      "vehicleId": 5190,
+      "modelId": 1466,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Convertible (ALL)",
+      "typeEngineName": "1.6 16V XR3i",
+      "constructionIntervalStart": "1995-02-01",
+      "constructionIntervalEnd": "1999-09-01"
+    },
+    {
+      "vehicleId": 5193,
+      "modelId": 1467,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA IV (JA_, JB_)",
+      "typeEngineName": "1.25 i 16V",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2002-01-01"
+    },
+    {
+      "vehicleId": 5342,
+      "modelId": 1466,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Convertible (ALL)",
+      "typeEngineName": "1.8 16V XR3i",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "1998-08-01"
+    },
+    {
+      "vehicleId": 5742,
+      "modelId": 1517,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA Box Body/MPV (J5_, J3_)",
+      "typeEngineName": "1.4 i",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "1999-10-01"
+    },
+    {
+      "vehicleId": 5817,
+      "modelId": 1573,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II (BAP)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5818,
+      "modelId": 1573,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II (BAP)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5822,
+      "modelId": 3487,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II Saloon (BFP)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5823,
+      "modelId": 3487,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II Saloon (BFP)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5828,
+      "modelId": 1574,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II Turnier (BNP)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 6656,
+      "modelId": 378,
+      "manufacturerName": "FORD",
+      "modelName": "ORION III (GAL)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 7238,
+      "modelId": 5548,
+      "manufacturerName": "OPEL",
+      "modelName": "ANTARA A (L07)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 7239,
+      "modelId": 5548,
+      "manufacturerName": "OPEL",
+      "modelName": "ANTARA A (L07)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 8860,
+      "modelId": 411,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA III (GFJ)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 9641,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9647,
+      "modelId": 3589,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Turnier (DNW)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 10042,
+      "modelId": 3589,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Turnier (DNW)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 10237,
+      "modelId": 3487,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II Saloon (BFP)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 10427,
+      "modelId": 1464,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Saloon (GAL, AFL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1999-02-01"
+    },
+    {
+      "vehicleId": 12382,
+      "modelId": 1463,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI (GAL, AAL, ABL)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 12383,
+      "modelId": 1465,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Turnier (GAL, ANL)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 12384,
+      "modelId": 1464,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Saloon (GAL, AFL)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 12441,
+      "modelId": 1463,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI (GAL, AAL, ABL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 12445,
+      "modelId": 1464,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Saloon (GAL, AFL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 12446,
+      "modelId": 1465,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Turnier (GAL, ANL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 13540,
+      "modelId": 4204,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk IV (G) Coupe (T98)",
+      "typeEngineName": "2.2 16V",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 13657,
+      "modelId": 1467,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA IV (JA_, JB_)",
+      "typeEngineName": "1.6 16V Sport",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2002-01-01"
+    },
+    {
+      "vehicleId": 13684,
+      "modelId": 9928,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA Saloon",
+      "typeEngineName": "1.6 Street",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 14404,
+      "modelId": 4573,
+      "manufacturerName": "OPEL",
+      "modelName": "SPEEDSTER (E01)",
+      "typeEngineName": "2.2 (R97)",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 15066,
+      "modelId": 4679,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "VX220 Convertible (E01)",
+      "typeEngineName": "2.2 i",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 15259,
+      "modelId": 1466,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Convertible (ALL)",
+      "typeEngineName": "1.8 16V XR3i",
+      "constructionIntervalStart": "1995-02-01",
+      "constructionIntervalEnd": "1998-08-01"
+    },
+    {
+      "vehicleId": 15306,
+      "modelId": 1453,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA B Hatchback (J96)",
+      "typeEngineName": "2.2 i 16V (F68)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 15310,
+      "modelId": 1454,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA B (J96)",
+      "typeEngineName": "2.2 i 16V (F19)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 15311,
+      "modelId": 1578,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA B Estate (J96)",
+      "typeEngineName": "2.2 i 16V (F35)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 15332,
+      "modelId": 4044,
+      "manufacturerName": "OPEL",
+      "modelName": "ZAFIRA A MPV (T98)",
+      "typeEngineName": "2.2 16V (F75)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15335,
+      "modelId": 4192,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ZAFIRA A (T98)",
+      "typeEngineName": "2.2 16V",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 15373,
+      "modelId": 4710,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT CLASSIC (AAL, ABL)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2000-07-01"
+    },
+    {
+      "vehicleId": 15837,
+      "modelId": 3976,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk IV (G) Hatchback (T98)",
+      "typeEngineName": "2.2 16V (F08, F48)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15839,
+      "modelId": 3978,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk IV (G) Estate (T98)",
+      "typeEngineName": "2.2 16V",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17012,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "RS",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 17104,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 17105,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 17317,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.2 (DY3W)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 18603,
+      "modelId": 5090,
+      "manufacturerName": "VOLVO",
+      "modelName": "V50 (545)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 21509,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 21705,
+      "modelId": 5881,
+      "manufacturerName": "HOLDEN",
+      "modelName": "ASTRA Hatchback (TS)",
+      "typeEngineName": "2.2 i",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 27247,
+      "modelId": 3589,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Turnier (DNW)",
+      "typeEngineName": "1.8 BiFuel",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 31772,
+      "modelId": 8202,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Saloon (LR)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 31773,
+      "modelId": 8201,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Hatchback (LR)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 31774,
+      "modelId": 8202,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Saloon (LR)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 34860,
+      "modelId": 6987,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GH)",
+      "typeEngineName": "2.0 MZR (GHEFP)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 58780,
+      "modelId": 11202,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-09-01"
+    },
+    {
+      "vehicleId": 109586,
+      "modelId": 13572,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "ESCORT",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126648,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "1999-09-01"
+    },
+    {
+      "vehicleId": 130779,
+      "modelId": 6220,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "ZAFIRA (F75)",
+      "typeEngineName": "2.2",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 132339,
+      "modelId": 38849,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Estate Van (DNW)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 133206,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.8 16V BiFuel",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 1091,
+      "modelId": 349,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V (AAL, ABL)",
+      "typeEngineName": "1.8 16V XR3i",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 1092,
+      "modelId": 349,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V (AAL, ABL)",
+      "typeEngineName": "1.8 16V XR3i",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 1322,
+      "modelId": 349,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V (AAL, ABL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1992-09-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 1583,
+      "modelId": 358,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Turnier (ANL)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 1586,
+      "modelId": 3960,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Convertible (ALL)",
+      "typeEngineName": "1.8 16V XR3i",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 1587,
+      "modelId": 3960,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Convertible (ALL)",
+      "typeEngineName": "1.8 16V XR3i",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 1616,
+      "modelId": 3960,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Convertible (ALL)",
+      "typeEngineName": "1.6 16V XR3i",
+      "constructionIntervalStart": "1992-12-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 1963,
+      "modelId": 358,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Turnier (ANL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1992-09-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 1964,
+      "modelId": 358,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Turnier (ANL)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 3884,
+      "modelId": 349,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V (AAL, ABL)",
+      "typeEngineName": "1.8 XR3i 16V 4x4",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 3887,
+      "modelId": 349,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V (AAL, ABL)",
+      "typeEngineName": "1.8 XR3i 16V 4x4",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 3897,
+      "modelId": 349,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V (AAL, ABL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 3898,
+      "modelId": 372,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Saloon (AFL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 3899,
+      "modelId": 358,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Turnier (ANL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 3903,
+      "modelId": 3960,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Convertible (ALL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1994-02-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 12381,
+      "modelId": 372,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Saloon (AFL)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 1302,
+      "modelId": 284,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I (GBP)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1303,
+      "modelId": 3447,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Saloon (GBP)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1304,
+      "modelId": 284,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I (GBP)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1305,
+      "modelId": 3447,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Saloon (GBP)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1306,
+      "modelId": 284,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I (GBP)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1589,
+      "modelId": 292,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Turnier (BNP)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1993-04-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1590,
+      "modelId": 292,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Turnier (BNP)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1993-04-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1591,
+      "modelId": 292,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Turnier (BNP)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1993-04-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3911,
+      "modelId": 292,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Turnier (BNP)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3912,
+      "modelId": 284,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I (GBP)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3913,
+      "modelId": 3447,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Saloon (GBP)",
+      "typeEngineName": "1.8 i 16V",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3916,
+      "modelId": 284,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I (GBP)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3917,
+      "modelId": 3447,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Saloon (GBP)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3919,
+      "modelId": 292,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Turnier (BNP)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 4711,
+      "modelId": 3447,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Saloon (GBP)",
+      "typeEngineName": "2.0 i 16V 4x4",
+      "constructionIntervalStart": "1994-12-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 4712,
+      "modelId": 292,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Turnier (BNP)",
+      "typeEngineName": "2.0 i 16V 4x4",
+      "constructionIntervalStart": "1994-12-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 4827,
+      "modelId": 284,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I (GBP)",
+      "typeEngineName": "2.0 i 16V 4x4",
+      "constructionIntervalStart": "1994-12-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 8308,
+      "modelId": 284,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I (GBP)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1994-12-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 15280,
+      "modelId": 284,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I (GBP)",
+      "typeEngineName": "1.8 i 16V 4x4",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 15281,
+      "modelId": 292,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Turnier (BNP)",
+      "typeEngineName": "1.8 i 16V 4x4",
+      "constructionIntervalStart": "1993-04-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 23665,
+      "modelId": 3447,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Saloon (GBP)",
+      "typeEngineName": "1.8 4x4",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1307,
+      "modelId": 3447,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Saloon (GBP)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 15282,
+      "modelId": 292,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Turnier (BNP)",
+      "typeEngineName": "2.0 i 16V 4x4",
+      "constructionIntervalStart": "1993-04-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 21709,
+      "modelId": 3447,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Saloon (GBP)",
+      "typeEngineName": "2.0 i 16V 4x4",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 106758,
+      "modelId": 284,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I (GBP)",
+      "typeEngineName": "2.0 i 16V 4x4",
+      "constructionIntervalStart": "1993-04-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3930,
+      "modelId": 7571,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GH)",
+      "typeEngineName": "2.0 MZR (GHEFW)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 25459,
+      "modelId": 6987,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GH)",
+      "typeEngineName": "2.5 MZR (GH5FS, GH5FP)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 25463,
+      "modelId": 6986,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GH)",
+      "typeEngineName": "2.5 MZR (GH5FS)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 28153,
+      "modelId": 7571,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GH)",
+      "typeEngineName": "2.5 MZR (GH5FW)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 5189,
+      "modelId": 1466,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Convertible (ALL)",
+      "typeEngineName": "1.6 16V XR3i",
+      "constructionIntervalStart": "1995-02-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 5369,
+      "modelId": 1510,
+      "manufacturerName": "MAZDA",
+      "modelName": "121 III (JASM, JBSM)",
+      "typeEngineName": "1.25",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2003-04-01"
+    },
+    {
+      "vehicleId": 5736,
+      "modelId": 1467,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA IV (JA_, JB_)",
+      "typeEngineName": "1.4 i 16V",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2002-01-01"
+    },
+    {
+      "vehicleId": 5802,
+      "modelId": 1572,
+      "manufacturerName": "FORD",
+      "modelName": "KA (RB_)",
+      "typeEngineName": "1.3 i",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 5816,
+      "modelId": 1573,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II (BAP)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5821,
+      "modelId": 3487,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II Saloon (BFP)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5826,
+      "modelId": 1574,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II Turnier (BNP)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5827,
+      "modelId": 1574,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II Turnier (BNP)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 6047,
+      "modelId": 9124,
+      "manufacturerName": "VOLVO",
+      "modelName": "V60 I (155)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 6151,
+      "modelId": 9124,
+      "manufacturerName": "VOLVO",
+      "modelName": "V60 I (155)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 9733,
+      "modelId": 6390,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 III (135)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33377,
+      "modelId": 8616,
+      "manufacturerName": "VOLVO",
+      "modelName": "S60 II (134)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 6921,
+      "modelId": 5542,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 7019,
+      "modelId": 6239,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Turnier (BA7)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 131623,
+      "modelId": 6237,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Saloon (BA7)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 134503,
+      "modelId": 39189,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Van",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 143088,
+      "modelId": 41688,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX VAN (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 6951,
+      "modelId": 6238,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV (BA7)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 33348,
+      "modelId": 5542,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33349,
+      "modelId": 5541,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY II (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 33351,
+      "modelId": 6238,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV (BA7)",
+      "typeEngineName": "2.0 SCTi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 33355,
+      "modelId": 6239,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Turnier (BA7)",
+      "typeEngineName": "2.0 SCTi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 59494,
+      "modelId": 5541,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY II (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 59495,
+      "modelId": 5542,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 128494,
+      "modelId": 6237,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Saloon (BA7)",
+      "typeEngineName": "2.0 SCTI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 134504,
+      "modelId": 39189,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Van",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 142739,
+      "modelId": 41613,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY MK II VAN (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 143087,
+      "modelId": 41688,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX VAN (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 7214,
+      "modelId": 5624,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ANTARA A (L07)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 12366,
+      "modelId": 9810,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 30773,
+      "modelId": 6176,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 109664,
+      "modelId": 6176,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 122827,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7813,
+      "modelId": 3961,
+      "manufacturerName": "FORD",
+      "modelName": "PUMA (EC_)",
+      "typeEngineName": "1.7 16V",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2002-06-01"
+    },
+    {
+      "vehicleId": 8307,
+      "modelId": 292,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO I Turnier (BNP)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 8981,
+      "modelId": 3961,
+      "manufacturerName": "FORD",
+      "modelName": "PUMA (EC_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1997-11-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 9469,
+      "modelId": 3556,
+      "manufacturerName": "FORD",
+      "modelName": "COUGAR (EC_)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 131347,
+      "modelId": 4051,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA Hatchback Van (JV_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 9538,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9585,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 52387,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121394,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125507,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9639,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9642,
+      "modelId": 3590,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Saloon (DFW)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9645,
+      "modelId": 3589,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Turnier (DNW)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 111336,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 132337,
+      "modelId": 38849,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Estate Van (DNW)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 9640,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9646,
+      "modelId": 3589,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Turnier (DNW)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9643,
+      "modelId": 3590,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Saloon (DFW)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9644,
+      "modelId": 3590,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Saloon (DFW)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9899,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 10040,
+      "modelId": 3590,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Saloon (DFW)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 10236,
+      "modelId": 1573,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II (BAP)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 10238,
+      "modelId": 1574,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO II Turnier (BNP)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 10426,
+      "modelId": 372,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT V Saloon (AFL)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 12111,
+      "modelId": 9754,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Hatchback (LW)",
+      "typeEngineName": "2.0 GDI",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 12115,
+      "modelId": 9755,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Saloon (LW)",
+      "typeEngineName": "2.0 GDI",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 57327,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 100102,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0 Direct Flex",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 100103,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 129336,
+      "modelId": 38322,
+      "manufacturerName": "FORD ASIA & OCEANIA",
+      "modelName": "FOCUS III Saloon (DYM)",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130413,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0 Flex 4x4",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": "2021-01-01"
+    },
+    {
+      "vehicleId": 132487,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0 Ti-VCT",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132488,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0 Ti-VCT 4x4",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135500,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0 Ti-VCT",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138544,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 12376,
+      "modelId": 9814,
+      "manufacturerName": "CHERY",
+      "modelName": "COWIN 3",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12469,
+      "modelId": 9830,
+      "manufacturerName": "FORD",
+      "modelName": "KA Van (RB)",
+      "typeEngineName": "1.3 i",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 12563,
+      "modelId": 4948,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT CONNECT (P65_, P70_, P80_)",
+      "typeEngineName": "1.8 16V LPG",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 13346,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 13348,
+      "modelId": 9928,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA Saloon",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 13644,
+      "modelId": 4414,
+      "manufacturerName": "MORGAN",
+      "modelName": "FOUR FOUR",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 13978,
+      "modelId": 10003,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "MALIBU (V300)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14685,
+      "modelId": 4203,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA G Coupe (T98)",
+      "typeEngineName": "2.2 16V (F07)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 14782,
+      "modelId": 4615,
+      "manufacturerName": "MAZDA",
+      "modelName": "TRIBUTE (EP)",
+      "typeEngineName": "2.0 4WD (EPEW)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 14852,
+      "modelId": 4641,
+      "manufacturerName": "FORD",
+      "modelName": "MAVERICK",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16508,
+      "modelId": 4615,
+      "manufacturerName": "MAZDA",
+      "modelName": "TRIBUTE (EP)",
+      "typeEngineName": "2.0 (EPEW)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 125811,
+      "modelId": 4641,
+      "manufacturerName": "FORD",
+      "modelName": "MAVERICK",
+      "typeEngineName": "2.0 16V FWD",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15258,
+      "modelId": 1466,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI Convertible (ALL)",
+      "typeEngineName": "1.8 16V XR3i",
+      "constructionIntervalStart": "1995-02-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 15313,
+      "modelId": 3382,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "VECTRA (B) Hatchback (J96)",
+      "typeEngineName": "2.2 i 16V (F68)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 15315,
+      "modelId": 3383,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "VECTRA (B) Estate (J96)",
+      "typeEngineName": "2.2 i 16V (F35)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 15314,
+      "modelId": 3381,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "VECTRA (B) Saloon (J96)",
+      "typeEngineName": "2.2 i 16V (F19)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 15374,
+      "modelId": 4711,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT CLASSIC Turnier (ANL)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2000-07-01"
+    },
+    {
+      "vehicleId": 15758,
+      "modelId": 4760,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA G Convertible (T98)",
+      "typeEngineName": "2.2 16V (F67)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 16052,
+      "modelId": 4798,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk IV (G) Convertible (T98)",
+      "typeEngineName": "2.2 16V",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 26690,
+      "modelId": 7406,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "VECTRA",
+      "typeEngineName": "2.2",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 31755,
+      "modelId": 5884,
+      "manufacturerName": "HOLDEN",
+      "modelName": "ASTRA Convertible (TS)",
+      "typeEngineName": "2.2 i",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 15776,
+      "modelId": 3405,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA G Hatchback (T98)",
+      "typeEngineName": "2.2 16V (F08, F48)",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15777,
+      "modelId": 3878,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA G Saloon (T98)",
+      "typeEngineName": "2.2 16V (F69)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15778,
+      "modelId": 3406,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA G Estate (T98)",
+      "typeEngineName": "2.2 16V (F35)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 16032,
+      "modelId": 3961,
+      "manufacturerName": "FORD",
+      "modelName": "PUMA (EC_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2002-06-01"
+    },
+    {
+      "vehicleId": 16450,
+      "modelId": 4865,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA C (Z02)",
+      "typeEngineName": "2.2 16V (F69)",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 16532,
+      "modelId": 4872,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "VECTRA Mk II (C) (Z02)",
+      "typeEngineName": "2.2 16V",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 16744,
+      "modelId": 4871,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA C GTS (Z02)",
+      "typeEngineName": "2.2 16V (F68)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 16874,
+      "modelId": 4873,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "VECTRA Mk II (C) GTS (Z02)",
+      "typeEngineName": "2.2 16V",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 16941,
+      "modelId": 4933,
+      "manufacturerName": "FORD",
+      "modelName": "TOURNEO CONNECT",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 16965,
+      "modelId": 4948,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT CONNECT (P65_, P70_, P80_)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 17114,
+      "modelId": 4934,
+      "manufacturerName": "FORD",
+      "modelName": "STREET KA (RL2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 17177,
+      "modelId": 1572,
+      "manufacturerName": "FORD",
+      "modelName": "KA (RB_)",
+      "typeEngineName": "1.3 i ROCAM",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17305,
+      "modelId": 1572,
+      "manufacturerName": "FORD",
+      "modelName": "KA (RB_)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17745,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18302,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18514,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 18953,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18303,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18515,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18954,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18305,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18513,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18952,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18600,
+      "modelId": 5089,
+      "manufacturerName": "VOLVO",
+      "modelName": "S40 II (544)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 19702,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "3.2 4WD",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19808,
+      "modelId": 5610,
+      "manufacturerName": "VOLVO",
+      "modelName": "C30 (533)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 20889,
+      "modelId": 5062,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BK)",
+      "typeEngineName": "2.3 DiSi Turbo MPS (BK3P)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 21636,
+      "modelId": 8321,
+      "manufacturerName": "HOLDEN",
+      "modelName": "ADVENTRA Estate (VZ)",
+      "typeEngineName": "3.6 i V6 AWD",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 22383,
+      "modelId": 8320,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Pickup (VZ)",
+      "typeEngineName": "3.6 i V6 All-wheel Drive",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 26877,
+      "modelId": 8303,
+      "manufacturerName": "HOLDEN",
+      "modelName": "STATESMAN Saloon (WL)",
+      "typeEngineName": "3.6 VVT",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 26889,
+      "modelId": 8330,
+      "manufacturerName": "HOLDEN",
+      "modelName": "CAPRICE Saloon (WL)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 33914,
+      "modelId": 8321,
+      "manufacturerName": "HOLDEN",
+      "modelName": "ADVENTRA Estate (VZ)",
+      "typeEngineName": "3.6 i V6 AWD",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 23264,
+      "modelId": 5062,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BK)",
+      "typeEngineName": "2.3 MPS Turbo (BK14)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 23483,
+      "modelId": 6451,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "HHR",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 24309,
+      "modelId": 6661,
+      "manufacturerName": "HOLDEN",
+      "modelName": "CAPTIVA 5 Gen. I (CG)",
+      "typeEngineName": "3.2 i AWD",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 25098,
+      "modelId": 5877,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "ASTRA Hatchback",
+      "typeEngineName": "2.2",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 25458,
+      "modelId": 6987,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GH)",
+      "typeEngineName": "2.0 MZR (GHEFP, GH10F)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 25462,
+      "modelId": 6986,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GH)",
+      "typeEngineName": "2.0 MZR (GHEFS)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 26678,
+      "modelId": 6195,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "VECTRA",
+      "typeEngineName": "2.2",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2004-04-01"
+    },
+    {
+      "vehicleId": 26982,
+      "modelId": 7463,
+      "manufacturerName": "HOLDEN",
+      "modelName": "STATESMAN Saloon (WM)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 26991,
+      "modelId": 7462,
+      "manufacturerName": "HOLDEN",
+      "modelName": "CAPRICE Saloon (WM)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 32319,
+      "modelId": 8250,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Pickup (VE)",
+      "typeEngineName": "3.6 i V6 SV6",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 29656,
+      "modelId": 5959,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Saloon (VZ)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 29663,
+      "modelId": 8315,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Estate (VZ)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 30528,
+      "modelId": 8315,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Estate (VZ)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 31374,
+      "modelId": 8320,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Pickup (VZ)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 29657,
+      "modelId": 5959,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Saloon (VZ)",
+      "typeEngineName": "3.6 i V6 SV6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 31749,
+      "modelId": 8180,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Estate (VE)",
+      "typeEngineName": "3.6 i V6 SV6",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 127537,
+      "modelId": 13002,
+      "manufacturerName": "HOLDEN",
+      "modelName": "CALAIS Saloon (VE)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 30302,
+      "modelId": 7007,
+      "manufacturerName": "FORD USA",
+      "modelName": "F-150",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 51463,
+      "modelId": 11975,
+      "manufacturerName": "FORD USA",
+      "modelName": "F-150 Crew Cab Pickup",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 54833,
+      "modelId": 10400,
+      "manufacturerName": "FORD USA",
+      "modelName": "F-150 Extended Cab Pickup",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30861,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "3.2 All-wheel Drive (TDB4, JT632, JB632)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 31426,
+      "modelId": 8097,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Saloon (VE)",
+      "typeEngineName": "3.6 i V6 SV6",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31652,
+      "modelId": 8097,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Saloon (VE)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31747,
+      "modelId": 8180,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Estate (VE)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31748,
+      "modelId": 8180,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Estate (VE)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31771,
+      "modelId": 8201,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Hatchback (LR)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 31792,
+      "modelId": 8209,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Hatchback (HE)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 31939,
+      "modelId": 8189,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Hatchback (HA, HB, HC, HD)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "2000-02-01"
+    },
+    {
+      "vehicleId": 31940,
+      "modelId": 8199,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Saloon (HA, HB, HC, HD)",
+      "typeEngineName": "2.0 (HA, HB, HC)",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "2000-02-01"
+    },
+    {
+      "vehicleId": 32288,
+      "modelId": 6127,
+      "manufacturerName": "HOLDEN",
+      "modelName": "RODEO Pickup (RA)",
+      "typeEngineName": "3.6 i (TFR27)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 32289,
+      "modelId": 6127,
+      "manufacturerName": "HOLDEN",
+      "modelName": "RODEO Pickup (RA)",
+      "typeEngineName": "3.6 i 4x4 (TFS27)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 32967,
+      "modelId": 8526,
+      "manufacturerName": "HOLDEN",
+      "modelName": "RODEO Platform/Chassis (RA)",
+      "typeEngineName": "3.6 i (TFR27)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 32968,
+      "modelId": 8526,
+      "manufacturerName": "HOLDEN",
+      "modelName": "RODEO Platform/Chassis (RA)",
+      "typeEngineName": "3.6 i 4x4 (TFS27)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 32316,
+      "modelId": 8250,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Pickup (VE)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 33376,
+      "modelId": 8616,
+      "manufacturerName": "VOLVO",
+      "modelName": "S60 II (134)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 33382,
+      "modelId": 7583,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC60 I SUV (156)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33816,
+      "modelId": 6390,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 III (135)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 33801,
+      "modelId": 5520,
+      "manufacturerName": "VOLVO",
+      "modelName": "S80 II (124)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 33913,
+      "modelId": 8321,
+      "manufacturerName": "HOLDEN",
+      "modelName": "ADVENTRA Estate (VZ)",
+      "typeEngineName": "3.6 i V6 AWD",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 33916,
+      "modelId": 39219,
+      "manufacturerName": "HOLDEN",
+      "modelName": "CAPTIVA 7 Gen. I (CG)",
+      "typeEngineName": "3.2 i AWD",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 33919,
+      "modelId": 8322,
+      "manufacturerName": "HOLDEN",
+      "modelName": "CREWMAN Pickup (VZ)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 50313,
+      "modelId": 34481,
+      "manufacturerName": "FORD USA",
+      "modelName": "FLEX",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55016,
+      "modelId": 34481,
+      "manufacturerName": "FORD USA",
+      "modelName": "FLEX",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106162,
+      "modelId": 12795,
+      "manufacturerName": "FORD USA",
+      "modelName": "TAURUS",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108101,
+      "modelId": 13208,
+      "manufacturerName": "FORD USA",
+      "modelName": "F-150 Standard Cab Pickup",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108102,
+      "modelId": 13209,
+      "manufacturerName": "FORD USA",
+      "modelName": "F-150 Crew Cab Pickup",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108103,
+      "modelId": 13209,
+      "manufacturerName": "FORD USA",
+      "modelName": "F-150 Crew Cab Pickup",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108104,
+      "modelId": 13211,
+      "manufacturerName": "FORD USA",
+      "modelName": "F-150 Extended Cab Pickup",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108105,
+      "modelId": 13211,
+      "manufacturerName": "FORD USA",
+      "modelName": "F-150 Extended Cab Pickup",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 50438,
+      "modelId": 34545,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKT",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 55322,
+      "modelId": 10336,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKS",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 52378,
+      "modelId": 6822,
+      "manufacturerName": "FORD USA",
+      "modelName": "ESCORT Estate",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 56178,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "3.2 All-wheel Drive (JB632, TDB4)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 57006,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 58096,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 57061,
+      "modelId": 10809,
+      "manufacturerName": "FORD USA",
+      "modelName": "F-150 Standard Cab Pickup",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57326,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 Ti-GDi",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 57517,
+      "modelId": 10003,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "MALIBU (V300)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59371,
+      "modelId": 8250,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COMMODORE Pickup (VE)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 100104,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 Direct Flex",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 106504,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 106505,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 106506,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 106517,
+      "modelId": 12872,
+      "manufacturerName": "VOLVO ASIA",
+      "modelName": "S60L",
+      "typeEngineName": "2.0 T5",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 106927,
+      "modelId": 10290,
+      "manufacturerName": "GMC",
+      "modelName": "ACADIA (T_14)",
+      "typeEngineName": "3.6 DI AWD (TV14)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 107012,
+      "modelId": 13012,
+      "manufacturerName": "HOLDEN",
+      "modelName": "CALAIS Saloon (VZ)",
+      "typeEngineName": "3.6 i V6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 107211,
+      "modelId": 11335,
+      "manufacturerName": "FORD USA",
+      "modelName": "EXPEDITION",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117269,
+      "modelId": 13370,
+      "manufacturerName": "FORD USA",
+      "modelName": "MUSTANG Coupe",
+      "typeEngineName": "5.2 Shelby GT350",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119355,
+      "modelId": 1463,
+      "manufacturerName": "FORD",
+      "modelName": "ESCORT VI (GAL, AAL, ABL)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 122826,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122829,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123128,
+      "modelId": 11335,
+      "manufacturerName": "FORD USA",
+      "modelName": "EXPEDITION",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123129,
+      "modelId": 11335,
+      "manufacturerName": "FORD USA",
+      "modelName": "EXPEDITION",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129004,
+      "modelId": 9830,
+      "manufacturerName": "FORD",
+      "modelName": "KA Van (RB)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-03-01"
+    },
+    {
+      "vehicleId": 132338,
+      "modelId": 38849,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Estate Van (DNW)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 132637,
+      "modelId": 1578,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA B Estate (J96)",
+      "typeEngineName": "2.2 i 16V (F35)",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 134486,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134488,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 137374,
+      "modelId": 8201,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Hatchback (LR)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 143147,
+      "modelId": 3590,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Saloon (DFW)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 143148,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 106926,
+      "modelId": 10290,
+      "manufacturerName": "GMC",
+      "modelName": "ACADIA (T_14)",
+      "typeEngineName": "3.6 DI (TR14)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 31791,
+      "modelId": 8208,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Saloon (HE)",
+      "typeEngineName": "2.0 (HE)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 32637,
+      "modelId": 8461,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Estate (HB, HC, HA)",
+      "typeEngineName": "2.0 i (HA, HB)",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 130847,
+      "modelId": 5597,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CAPTIVA (C100, C140)",
+      "typeEngineName": "2.4 Flexfuel",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 6278,
+      "modelId": 5520,
+      "manufacturerName": "VOLVO",
+      "modelName": "S80 II (124)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 6168,
+      "modelId": 7583,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC60 I SUV (156)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2017-02-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Electrode Gap [mm]",
+      "criteriaValue": "0,9"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "M 14 x 1,25"
+    },
+    {
+      "criteriaName": "Spanner Size",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Tightening Torque [Nm]",
+      "criteriaValue": "15"
+    },
+    {
+      "criteriaName": "Number of pins",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Thread Length [mm]",
+      "criteriaValue": "25"
+    },
+    {
+      "criteriaName": "Spark Position [mm]",
+      "criteriaValue": "4"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "12622561"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1686133"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "30758130"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "32017034"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "32017034"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "32017040"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "4X 30758131"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "AG9G 12405 BC"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "CYFS12Y1"
+    },
+    {
+      "oemBrand": "LINCOLN",
+      "oemDisplayNo": "CYFS12Y1"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "CYFS12Y3"
+    },
+    {
+      "oemBrand": "LINCOLN",
+      "oemDisplayNo": "CYFS12Y3"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "CYFS12YP"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "CYFS12YT3"
+    },
+    {
+      "oemBrand": "LINCOLN",
+      "oemDisplayNo": "CYFS12YT3"
+    }
+  ],
+  "ean": "4047025647588",
+  "originalSKU": "12622561",
+  "fetchedAt": "2026-03-17T15:20:02Z",
+  "enrichedVia": "OEM (12622561)"
+}

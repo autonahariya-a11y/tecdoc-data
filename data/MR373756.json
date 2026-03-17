@@ -1,0 +1,685 @@
+{
+  "articleNo": "LX 1076",
+  "articleId": 7963222,
+  "supplier": "KNECHT",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 4132,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.5 i 16V (ED3, SH4)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 5577,
+      "modelId": 1548,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT V (CJ_, CP_)",
+      "typeEngineName": "1300 GL,GLX (CJ1A)",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "2000-06-01"
+    },
+    {
+      "vehicleId": 5578,
+      "modelId": 1548,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT V (CJ_, CP_)",
+      "typeEngineName": "1600 GLX (CJ4A)",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 5579,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "1.3 12V (CK1A)",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 7847,
+      "modelId": 1897,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII (EA_)",
+      "typeEngineName": "2.0 TDI (EA6A)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 7850,
+      "modelId": 1898,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII Estate (EA_, EC_)",
+      "typeEngineName": "2.0 TDI (EA6W)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 11238,
+      "modelId": 1548,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT V (CJ_, CP_)",
+      "typeEngineName": "1.5 12V (CJ2A)",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 11307,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "1.5 12V (CK2A)",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 14892,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "1.6 16V (CK4A)",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 14893,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "EVO V (CP9A)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 14918,
+      "modelId": 1584,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "CARISMA Saloon (DA_)",
+      "typeEngineName": "2.0 16V GT EVO VI/VII",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14999,
+      "modelId": 5218,
+      "manufacturerName": "PROTON",
+      "modelName": "WIRA",
+      "typeEngineName": "2.0 D",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15020,
+      "modelId": 5219,
+      "manufacturerName": "PROTON",
+      "modelName": "WIRA Hatchback (C9_L)",
+      "typeEngineName": "2.0 D",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 15568,
+      "modelId": 1548,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT V (CJ_, CP_)",
+      "typeEngineName": "1300 (CJ1A)",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2003-09-01"
+    },
+    {
+      "vehicleId": 15569,
+      "modelId": 1548,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "COLT V (CJ_, CP_)",
+      "typeEngineName": "1600 (CJ4A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-09-01"
+    },
+    {
+      "vehicleId": 17284,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.0 4WD (CU2W)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 17400,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.4 4WD (CU5W)",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 17750,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 17751,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "1.6 (CS3A)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 17752,
+      "modelId": 5077,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII Estate (CS_W, CT_W)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 17753,
+      "modelId": 5077,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII Estate (CS_W, CT_W)",
+      "typeEngineName": "2.0 (CS9W)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17904,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VIII - 260 (CT9A)",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 18212,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "2.0 (CS9A)",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 18617,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.0 Turbo 4WD (CU2W)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 18664,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 18736,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.0 Turbo-R 4WD (CU2W)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 18738,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.4 4WD (CU4W)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 18739,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.4 4WD (CU5W)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 18983,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.0 (CU2W)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 19366,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO IX (CT9A)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 20172,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "2.0 GDi (CS6A)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 21396,
+      "modelId": 1328,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER V Station Wagon (CB_W, CD_W)",
+      "typeEngineName": "1.8 i (CB5W)",
+      "constructionIntervalStart": "1995-03-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 21408,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO IX (CT9A)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 21580,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.4 HDD Mivec (CU5W)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 22421,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "1.6 (CS3A)",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 24572,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "1.5 16V (CK2A)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 27492,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "EVO VI (CP9A)",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 28880,
+      "modelId": 7604,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "MIRAGE V Hatchback (CJ_A)",
+      "typeEngineName": "1.5 (CJ2A)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 28882,
+      "modelId": 7604,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "MIRAGE V Hatchback (CJ_A)",
+      "typeEngineName": "1.3 (CJ1A)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 28896,
+      "modelId": 7607,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "MIRAGE V Saloon (CK_A)",
+      "typeEngineName": "1.5 (CK2A)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 29595,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "2.0 (CS6A)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 30404,
+      "modelId": 185,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER V (CB_A, CD_A, CE_A)",
+      "typeEngineName": "EVO III (CE9A)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1996-07-01"
+    },
+    {
+      "vehicleId": 33212,
+      "modelId": 4453,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO PININ I (H6_W, H7_W)",
+      "typeEngineName": "1.6 4WD (H65W)",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 33288,
+      "modelId": 7811,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI Coupe (CJ_A, CE)",
+      "typeEngineName": "1.8 i (CJ5)",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 33629,
+      "modelId": 185,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER V (CB_A, CD_A, CE_A)",
+      "typeEngineName": "EVO II (CE9A)",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1995-07-01"
+    },
+    {
+      "vehicleId": 56826,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 116931,
+      "modelId": 7607,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "MIRAGE V Saloon (CK_A)",
+      "typeEngineName": "1.5 (CK2A)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 123553,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 125464,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "1.6 16V (CK4A)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 125528,
+      "modelId": 178,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER IV (C6_A, C7_A)",
+      "typeEngineName": "EVO IV (CN9A)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 125584,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VII (CT9A)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2003-01-01"
+    },
+    {
+      "vehicleId": 125592,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VIII (CT9A)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 125593,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VIII - FQ-300 (CT9A)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2004-04-01"
+    },
+    {
+      "vehicleId": 125594,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VIII - FQ-300 (CT9A)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2004-04-01"
+    },
+    {
+      "vehicleId": 125595,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VIII - FQ-320 (CT9A)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 125596,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VIII - FQ-330 (CT9A)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 125600,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VIII - FQ-340 (CT9A)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 125602,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VIII - FQ-400 (CT9A)",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 125604,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO IX - FQ-300 (CT9A)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 125606,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO IX - FQ-340 (CT9A)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 125608,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO IX - FQ-360 (CT9A)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 128173,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.4 i MIVEC 4WD (CU5W)",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 132975,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO IX",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 133179,
+      "modelId": 39020,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER CARGO Estate Van (CS_W)",
+      "typeEngineName": "1.6 (CS3W)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 133180,
+      "modelId": 39020,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER CARGO Estate Van (CS_W)",
+      "typeEngineName": "2.0 (CS9W)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-06-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "204,0"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "212"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "50,5"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "49"
+    },
+    {
+      "criteriaName": "Length 1 [mm]",
+      "criteriaValue": "204,0"
+    },
+    {
+      "criteriaName": "Width 1 [mm]",
+      "criteriaValue": "212,0"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "21,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "5,20"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "22,00"
+    },
+    {
+      "criteriaName": "Seal Material",
+      "criteriaValue": "6"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "343"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR188657"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR258421"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR373756"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR481794"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR481795"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR552951"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MZ690193"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "XR188657"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "XR552951"
+    }
+  ],
+  "ean": "4009026301777",
+  "originalSKU": "MR373756",
+  "fetchedAt": "2026-03-17T17:30:34Z",
+  "enrichedVia": "OEM (MR373756)"
+}

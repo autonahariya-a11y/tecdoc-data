@@ -1,0 +1,834 @@
+{
+  "articleNo": "214 610 0035",
+  "articleId": 1971948,
+  "supplier": "MEYLE",
+  "product": "Mounting, control/trailing arm",
+  "vehicles": [
+    {
+      "vehicleId": 779,
+      "modelId": 8005,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 Saloon (GY, RW)",
+      "typeEngineName": "1.6 (RW416)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 816,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.5 VVT (RW415, YA11S)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 835,
+      "modelId": 7527,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SPLASH (EX)",
+      "typeEngineName": "1.2 VVT (A5B412)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1756,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 1790,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.6 16V 4x4",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 1799,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 1800,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "2.0 D Multijet 4x4",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 8471,
+      "modelId": 6440,
+      "manufacturerName": "OPEL",
+      "modelName": "AGILA B (H08)",
+      "typeEngineName": "1.2 (F68)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 9086,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT 4x4 (RW416)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9139,
+      "modelId": 6440,
+      "manufacturerName": "OPEL",
+      "modelName": "AGILA B (H08)",
+      "typeEngineName": "1.0 LPG (F68)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 9140,
+      "modelId": 6440,
+      "manufacturerName": "OPEL",
+      "modelName": "AGILA B (H08)",
+      "typeEngineName": "1.2 LPG (F68)",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 12055,
+      "modelId": 7527,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SPLASH (EX)",
+      "typeEngineName": "1.0 (A5B310)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12061,
+      "modelId": 7527,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SPLASH (EX)",
+      "typeEngineName": "1.2 VVT (A5B412)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12485,
+      "modelId": 6440,
+      "manufacturerName": "OPEL",
+      "modelName": "AGILA B (H08)",
+      "typeEngineName": "1.0 (F68)",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 12928,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 AllGrip (AKK 416)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 19516,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.9 D Multijet 4x4",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2011-10-01"
+    },
+    {
+      "vehicleId": 19517,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.6 16V 4x4",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 19547,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT 4x4 (RW416)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19548,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.9 DDiS 4x4 (RW419D)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19549,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.5 (RW 415)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 19550,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT (RW416, YA21S)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19551,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.9 DDiS (RW419D)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20735,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 DDiS (AKK 416D)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 22740,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.9 D Multijet",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2011-10-01"
+    },
+    {
+      "vehicleId": 23425,
+      "modelId": 6440,
+      "manufacturerName": "OPEL",
+      "modelName": "AGILA B (H08)",
+      "typeEngineName": "1.0 (F68)",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 23426,
+      "modelId": 6440,
+      "manufacturerName": "OPEL",
+      "modelName": "AGILA B (H08)",
+      "typeEngineName": "1.2 (F68)",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2012-10-01"
+    },
+    {
+      "vehicleId": 23443,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.6 (RS416, RR 416, ZC31S)",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27333,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.5 4x4 (RS 415, ZD21S)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27528,
+      "modelId": 7527,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SPLASH (EX)",
+      "typeEngineName": "1.0 (A5B310)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27529,
+      "modelId": 7527,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SPLASH (EX)",
+      "typeEngineName": "1.2 (A5B412)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27595,
+      "modelId": 7542,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "AGILA Mk II (B) (H08)",
+      "typeEngineName": "1.0 12V",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 30338,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 30408,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 DDIS (RW416D)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30795,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 DDiS AllGrip (AKK 416D)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 30854,
+      "modelId": 8005,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 Saloon (GY, RW)",
+      "typeEngineName": "1.6 (RW416)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30857,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "2.0 4x4 (RW415, RW416, RW420, YB41S)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32072,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT (RW416, YA21S)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32073,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT 4x4 (RW416)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32074,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "2.0 DDiS (RW420D)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32076,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "2.0 DDiS 4x4 (RW420D)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33192,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 (AKK 416)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 55294,
+      "modelId": 7542,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "AGILA Mk II (B) (H08)",
+      "typeEngineName": "1.0 i",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 57502,
+      "modelId": 7527,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SPLASH (EX)",
+      "typeEngineName": "1.2 VVT (A5B412)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100878,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 (AKK416, YA22S)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 100880,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 AllGrip (AKK416, YB22S)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 110038,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 (APK 416)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110039,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 AllGrip (APK 416)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110040,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 DDiS (APK 416D)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110041,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 DDiS AllGrip (APK416D)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116537,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.4 T (APK414)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116538,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.4 T AllGrip (APK414)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121229,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 (APK416, YD21S)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121230,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 AllGrip (APK416, YE21S)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121586,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.4 T (AKK414)",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 121587,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.4 T AllGrip (AKK414)",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 121781,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.0 (AKK 310)",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 121970,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.0 AllGrip (AKK 310)",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 124116,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 (RS413, ZC11S)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 125730,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 (AKK416)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 125731,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 AllGrip (AKK416)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 129790,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 VVT AllGrip",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133719,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.0 (APK 310)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133720,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.0 AllGrip (APK 310)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19093,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.5 (RS415, ZC21S)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19094,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 (RS413, ZC11S)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19205,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 4x4 (RS413, ZD11S)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19203,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 DDiS (RS413D)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23427,
+      "modelId": 6440,
+      "manufacturerName": "OPEL",
+      "modelName": "AGILA B (H08)",
+      "typeEngineName": "1.3 CDTI (F68)",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 27596,
+      "modelId": 7542,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "AGILA Mk II (B) (H08)",
+      "typeEngineName": "1.2 i 16V",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 27597,
+      "modelId": 7542,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "AGILA Mk II (B) (H08)",
+      "typeEngineName": "1.3 CDTI",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 27332,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 4x4 (RS 413, ZD11S)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27530,
+      "modelId": 7527,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SPLASH (EX)",
+      "typeEngineName": "1.3 CDTI (A5B413D)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28149,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 DDiS (RS413D)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 34878,
+      "modelId": 7542,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "AGILA Mk II (B) (H08)",
+      "typeEngineName": "1.2 i 16V",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2014-11-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "H"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "U"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VL"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VR"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "51"
+    },
+    {
+      "criteriaName": "Required quantity",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "14"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "60"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "70"
+    },
+    {
+      "criteriaName": "replacement in pairs recommended",
+      "criteriaValue": ""
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45201-54L00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45201-54L20"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45201-61M00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45201-62J00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45201-62J00-000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45201-72K00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45201-79J00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45201-79J00-000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45202-54L00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45202-54L20"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45202-61M00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45202-62J00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45202-62J00-000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45202-72K00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45202-79J00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "45202-79J00-000"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "47 08 299"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "47 08 299"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "47 08 300"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "47 08 300"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71742731"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71742732"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71750149"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71750211"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71768151"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71768163"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "93193130"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "93193131"
+    }
+  ],
+  "ean": "4040074125052",
+  "originalSKU": "4520261M00",
+  "fetchedAt": "2026-03-17T16:19:28Z",
+  "enrichedVia": "OEM (4520261M00)"
+}

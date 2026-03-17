@@ -1,0 +1,139 @@
+{
+  "articleNo": "C 24 567",
+  "articleId": 6159848,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 30861,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "3.2 All-wheel Drive (TDB4, JT632, JB632)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 30862,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 All-wheel Drive (JB424)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31383,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 All-wheel Drive (JT424, JB424, TDA4)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 54794,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 (JB424)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107608,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 All-wheel Drive (JB424)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107609,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 (JB424)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108556,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "3.2 (JB632)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 123028,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 (JB424)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123029,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 All-wheel Drive (JB424)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19393,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.9 DDiS All-wheel Drive (JT419, TD44, JB419WD, JB419XD,...",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 122714,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.9 DDiS (JB419WD, JB419XD)",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2008-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "242"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "217"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "54"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780-78K00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780-78K00-000"
+    }
+  ],
+  "ean": "4011558055240",
+  "originalSKU": "1378078K00",
+  "fetchedAt": "2026-03-17T15:33:52Z",
+  "enrichedVia": "OEM (1378078K00)"
+}

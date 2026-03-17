@@ -1,0 +1,77 @@
+{
+  "articleNo": "12191738",
+  "articleId": 1167878,
+  "supplier": "MTR",
+  "product": "Expansion Tank, coolant",
+  "vehicles": [
+    {
+      "vehicleId": 1623,
+      "modelId": 7372,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO / KALOS Hatchback (T250, T255)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26604,
+      "modelId": 7372,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO / KALOS Hatchback (T250, T255)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26605,
+      "modelId": 7372,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO / KALOS Hatchback (T250, T255)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34802,
+      "modelId": 7372,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO / KALOS Hatchback (T250, T255)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 55609,
+      "modelId": 7372,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO / KALOS Hatchback (T250, T255)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "288"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "96442441"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "96815542"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "96930818"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "96930818",
+  "fetchedAt": "2026-03-17T17:12:34Z",
+  "enrichedVia": "OEM (96930818)"
+}

@@ -1,0 +1,49 @@
+{
+  "articleNo": "73500049",
+  "articleId": 4488768,
+  "supplier": "ALLMAKES",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 107046,
+      "modelId": 13019,
+      "manufacturerName": "JEEP",
+      "modelName": "RENEGADE SUV (BU, B1, BV)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 107049,
+      "modelId": 13019,
+      "manufacturerName": "JEEP",
+      "modelName": "RENEGADE SUV (BU, B1, BV)",
+      "typeEngineName": "1.4 4x4",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "73500049"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "73500049"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "73500049"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "73500049",
+  "fetchedAt": "2026-03-17T16:55:45Z"
+}

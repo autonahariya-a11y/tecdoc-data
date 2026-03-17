@@ -1,0 +1,769 @@
+{
+  "articleNo": "P 49 050",
+  "articleId": 8359945,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 9587,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 138321,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0 Flexfuel",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 138322,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0 Flexfuel",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 21137,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21146,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21148,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21150,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21156,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21157,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108289,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108445,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 118542,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5 D (BMLFS, BM4, BN4)",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 118543,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5 D (BMLFP, BMLFS)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 100861,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.5 (BM543, BN543)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 100862,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0 (BMEFS, BM547, BN547)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 100863,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0 (BMEFP, BM527, BN527)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 100864,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.5 (BM523, BN523)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 106359,
+      "modelId": 12836,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "3 AXELA Saloon (BM)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106360,
+      "modelId": 12836,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "3 AXELA Saloon (BM)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106361,
+      "modelId": 12837,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "3 AXELA Hatchback (BM)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106362,
+      "modelId": 12837,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "3 AXELA Hatchback (BM)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108283,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5 (BM5FS)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108284,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5 4WD (BM5AS)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108285,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.2 D (BM2FS, BM542)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 108286,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5 (BM5FP, BM5FS)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108287,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5 4WD (BM5AP, BM5AS)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108288,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.2 D (BM2FP)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 109084,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0 Hybrid (BYEFP)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111845,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "1.5 SKYACTIV-D (DK2WS, DK5FW)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 111846,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "1.5 SKYACTIV-D AWD (DK4WS, DK5AW)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 111906,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.6 (BM6FJ)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111907,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111909,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 111911,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.6 (BM4, BN4)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111913,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111915,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 113728,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "2.0 SKYACTIV-G (DK5W, DK6W)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113730,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "2.0 SKYACTIV-G AWD (DK4W7, DKEAW)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114908,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "2.0 SKYACTIV-G (DK2W7, DKEFW)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114909,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "2.0 SKYACTIV-G AWD (DK4W7, DKEAW)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118345,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "2.0 SKYACTIV-G",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124193,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 125904,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "2.0 SKYACTIV-G Flex",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128885,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.2 D (BM2FS)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 128886,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.2 D 4WD (BM2AS)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 131788,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "1.8 SKYACTIV-D AWD (DK2WS)",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131789,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "1.8 SKYACTIV-D (DK4WS)",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131940,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "2.0 SKYACTIV-G",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133058,
+      "modelId": 39001,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Hatchback Van (BM)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 133060,
+      "modelId": 39001,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Hatchback Van (BM)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 133061,
+      "modelId": 39001,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Hatchback Van (BM)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 133062,
+      "modelId": 39001,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Hatchback Van (BM)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 135052,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "2.0 SKYACTIV-G (DK2W7, DKEFW)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137046,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "SKYACTIV-G M Hybrid",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137047,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "SKYACTIV-G M Hybrid AWD",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137048,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "SKYACTIV-X M Hybrid (DMFP)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137049,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "SKYACTIV-X M Hybrid AWD (DM4W7, DMFP)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137050,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "1.8 SKYACTIV-D",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137051,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "1.8 SKYACTIV-D AWD",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138336,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "2.0 SKYACTIV-G Flex AWD",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138617,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "2.0 SKYACTIV-G (DM2W7)",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138619,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "2.5 SKYACTIV-G AWD (DM4WL)",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138673,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "2.0 SKYACTIV-G AWD",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138818,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "2.0 SKYACTIV-G AWD (DM4W7)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138827,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "2.0 SKYACTIV-G",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139259,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "SKYACTIV-G M Hybrid (DM5W, DM6W)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139260,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "SKYACTIV-G M Hybrid AWD (DMEW, DMFW)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140687,
+      "modelId": 40850,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "CX-30",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141928,
+      "modelId": 40850,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "CX-30",
+      "typeEngineName": "MHEV",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143989,
+      "modelId": 13892,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-3 (DK)",
+      "typeEngineName": "1.5 SKYACTIV-G (DK2W)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145068,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "e-SKYACTIV-X M Hybrid AWD",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145069,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "e-SKYACTIV-X M Hybrid",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800055,
+      "modelId": 39795,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-30 (DM)",
+      "typeEngineName": "2.5 e-SKYACTIV-G (DM5W)",
+      "constructionIntervalStart": "2024-06-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "142"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "56"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Akebono"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25875"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25876"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25877"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B4Y03328ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B4Y03328ZB"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B6YS3328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B6YS3328ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B6YS3328ZB"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "BHY13328ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "BHY13328ZA9C"
+    },
+    {
+      "oemBrand": "MAZDA (CHANGAN)",
+      "oemDisplayNo": "D4YS3328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "D4YS3328ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "D5YG3328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "DFY53328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "DFY53328Z9A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "DGY93328Z"
+    }
+  ],
+  "ean": "8020584080061",
+  "originalSKU": "B4Y03328ZA",
+  "fetchedAt": "2026-03-17T17:18:02Z",
+  "enrichedVia": "OEM (B4Y03328ZA)"
+}

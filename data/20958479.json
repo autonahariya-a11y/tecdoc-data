@@ -1,0 +1,66 @@
+{
+  "articleNo": "62450",
+  "articleId": 4139398,
+  "supplier": "JAPKO",
+  "product": "Joint Kit, drive shaft",
+  "vehicles": [
+    {
+      "vehicleId": 3231,
+      "modelId": 137,
+      "manufacturerName": "ROVER",
+      "modelName": "400 II (XW)",
+      "typeEngineName": "414 GSI/SI",
+      "constructionIntervalStart": "1990-04-01",
+      "constructionIntervalEnd": "1995-04-01"
+    },
+    {
+      "vehicleId": 3233,
+      "modelId": 137,
+      "manufacturerName": "ROVER",
+      "modelName": "400 II (XW)",
+      "typeEngineName": "414 GSI/SI Cat",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1995-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "External Toothing wheel side",
+      "criteriaValue": "26"
+    },
+    {
+      "criteriaName": "Internal Toothing wheel side",
+      "criteriaValue": "22"
+    },
+    {
+      "criteriaName": "Sealing Ring Diameter [mm]",
+      "criteriaValue": "49"
+    },
+    {
+      "criteriaName": "Overall Length [mm]",
+      "criteriaValue": "133,8"
+    },
+    {
+      "criteriaName": "External Thread [mm]",
+      "criteriaValue": "22X1,5"
+    },
+    {
+      "criteriaName": "Length 1 [mm]",
+      "criteriaValue": "78,8"
+    },
+    {
+      "criteriaName": "Specification",
+      "criteriaValue": "Groove type: INNER"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "GVC1053"
+    }
+  ],
+  "ean": "8033001588743",
+  "originalSKU": "20958479",
+  "fetchedAt": "2026-03-17T15:58:07Z",
+  "enrichedVia": "OEM (20958479)"
+}

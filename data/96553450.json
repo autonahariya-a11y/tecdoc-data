@@ -1,0 +1,480 @@
+{
+  "articleNo": "C 3028",
+  "articleId": 6160621,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 7273,
+      "modelId": 11436,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Estate (J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 8350,
+      "modelId": 9161,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NEXIA Saloon",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 8514,
+      "modelId": 11436,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Estate (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 9364,
+      "modelId": 5404,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Saloon",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 10667,
+      "modelId": 6107,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "OPTRA Saloon (1J_, J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 17237,
+      "modelId": 4979,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17238,
+      "modelId": 4979,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17580,
+      "modelId": 5046,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LACETTI Hatchback (KLAN)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17962,
+      "modelId": 5046,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LACETTI Hatchback (KLAN)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17963,
+      "modelId": 5046,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LACETTI Hatchback (KLAN)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18536,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18537,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18538,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18539,
+      "modelId": 5404,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Saloon",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 18540,
+      "modelId": 5404,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Saloon",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 18542,
+      "modelId": 5405,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Estate",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 18544,
+      "modelId": 5405,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Estate",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 19769,
+      "modelId": 5405,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Estate",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 19770,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 19800,
+      "modelId": 5607,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Wagon (J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19801,
+      "modelId": 5607,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Wagon (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22186,
+      "modelId": 6107,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "OPTRA Saloon (1J_, J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 22187,
+      "modelId": 6107,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "OPTRA Saloon (1J_, J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 22411,
+      "modelId": 6208,
+      "manufacturerName": "HOLDEN",
+      "modelName": "VIVA Hatchback (JF)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 22412,
+      "modelId": 6209,
+      "manufacturerName": "HOLDEN",
+      "modelName": "VIVA Saloon (JF)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 22413,
+      "modelId": 6210,
+      "manufacturerName": "HOLDEN",
+      "modelName": "VIVA Estate (JF)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30648,
+      "modelId": 6107,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "OPTRA Saloon (1J_, J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 32691,
+      "modelId": 5404,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Saloon",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 34897,
+      "modelId": 8975,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "OPTRA Hatchback",
+      "typeEngineName": "1.6 SRV",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55610,
+      "modelId": 8975,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "OPTRA Hatchback",
+      "typeEngineName": "1.8 SRV",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 106525,
+      "modelId": 12879,
+      "manufacturerName": "DAEWOO",
+      "modelName": "GENTRA Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106531,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 113241,
+      "modelId": 11436,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Estate (J200)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 113243,
+      "modelId": 14179,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Saloon (J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 113244,
+      "modelId": 14179,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Saloon (J200)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 117892,
+      "modelId": 11436,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Estate (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121391,
+      "modelId": 14179,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Saloon (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 122175,
+      "modelId": 5046,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LACETTI Hatchback (KLAN)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 126349,
+      "modelId": 37731,
+      "manufacturerName": "RAVON",
+      "modelName": "GENTRA",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128841,
+      "modelId": 38240,
+      "manufacturerName": "UZ-DAEWOO",
+      "modelName": "GENTRA Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129231,
+      "modelId": 5405,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Estate",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 131209,
+      "modelId": 14179,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Saloon (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 142842,
+      "modelId": 14179,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Saloon (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 142843,
+      "modelId": 11436,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Estate (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 14053,
+      "modelId": 6107,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "OPTRA Saloon (1J_, J200)",
+      "typeEngineName": "2.0 MAGNUM TDCi",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23778,
+      "modelId": 6107,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "OPTRA Saloon (1J_, J200)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 24468,
+      "modelId": 5405,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Estate",
+      "typeEngineName": "2.0 D",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 33666,
+      "modelId": 5404,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Saloon",
+      "typeEngineName": "2.0 D",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "302"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "222"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "37"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "42 390 442"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "6553450"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "96 553 450"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "96553450"
+    }
+  ],
+  "ean": "4011558356101",
+  "originalSKU": "96553450",
+  "fetchedAt": "2026-03-17T17:11:31Z",
+  "enrichedVia": "OEM (96553450)"
+}

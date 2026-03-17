@@ -1,0 +1,354 @@
+{
+  "articleNo": "C 2841",
+  "articleId": 6160378,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 12477,
+      "modelId": 9571,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CW)",
+      "typeEngineName": "2.0 (CWEFW)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17670,
+      "modelId": 5062,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BK)",
+      "typeEngineName": "2.0 (BKEP)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 17672,
+      "modelId": 5063,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BK)",
+      "typeEngineName": "2.0 (BKEP)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 18541,
+      "modelId": 5410,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CR)",
+      "typeEngineName": "1.8 (CR19)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 18543,
+      "modelId": 5410,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CR)",
+      "typeEngineName": "2.0 (CREW, CR19)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 18545,
+      "modelId": 5410,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CR)",
+      "typeEngineName": "2.0 CD (CR19)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 18830,
+      "modelId": 5410,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CR)",
+      "typeEngineName": "2.0 CD (CR19)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 20889,
+      "modelId": 5062,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BK)",
+      "typeEngineName": "2.3 DiSi Turbo MPS (BK3P)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 23264,
+      "modelId": 5062,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BK)",
+      "typeEngineName": "2.3 MPS Turbo (BK14)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 26586,
+      "modelId": 5062,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BK)",
+      "typeEngineName": "2.0 MZR-CD (BK14)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 26587,
+      "modelId": 5063,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BK)",
+      "typeEngineName": "2.0 MZR-CD (BK12)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 30134,
+      "modelId": 5410,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CR)",
+      "typeEngineName": "2.3 (CR3W)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 31075,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.0 MZR DISI (BLEFW)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31076,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.0 MZR (BLEFW)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 31078,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.2 MZR CD (BL10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 31079,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.2 MZR CD (BL10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31081,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.0 MZR (BL12, BLEFP)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 31082,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.0 MZR DISI (BL12)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 33439,
+      "modelId": 5062,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BK)",
+      "typeEngineName": "2.0 (BK10F, BKEP)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 33440,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.3 MPS Turbo (BL14)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 33441,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.5 (BL10)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 33442,
+      "modelId": 5063,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BK)",
+      "typeEngineName": "2.0 (BK10F, BKEP)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 33443,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.2 MZR CD (BL10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 33444,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.2 MZR CD (BL10)",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 33445,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.5 (BL10)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 57675,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.0 MZR (BLEFW, BL10F)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 57679,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.0 MZR (BLEFP, BL10F)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 58902,
+      "modelId": 9571,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CW)",
+      "typeEngineName": "1.8 MZR",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111903,
+      "modelId": 9571,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CW)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119146,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.0 (BLFFP)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 123673,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.0 DISI (BLEFW)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 123675,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.3 MPS Turbo (BL3FW, BL1031)",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 138295,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 138297,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2013-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "276"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "187"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "53"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LF50 13Z40-9A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LF50 13Z40-A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LF50-13-Z40"
+    },
+    {
+      "oemBrand": "FORD (CHANGAN)",
+      "oemDisplayNo": "LFN7-13-Z40"
+    }
+  ],
+  "ean": "4011558380106",
+  "originalSKU": "LF5013Z40",
+  "fetchedAt": "2026-03-17T17:28:45Z",
+  "enrichedVia": "OEM (LF5013Z40)"
+}

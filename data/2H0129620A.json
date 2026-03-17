@@ -1,0 +1,113 @@
+{
+  "articleNo": "2H0129620A",
+  "articleId": 10923863,
+  "supplier": "ZPY",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 12071,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 33470,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "2.0 BiTDI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 33472,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "2.0 BiTDI 4motion",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 34979,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 34980,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 56028,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "2.0 BiTDI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56896,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56897,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2022-05-01"
+    },
+    {
+      "vehicleId": 120195,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "3.0 TDI 4motion",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2022-05-01"
+    },
+    {
+      "vehicleId": 122843,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "3.0 TDI 4motion",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2020-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "1"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "2H0129620A"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "2H0129620A",
+  "fetchedAt": "2026-03-17T16:10:09Z"
+}

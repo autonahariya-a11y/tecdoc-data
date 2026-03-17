@@ -1,0 +1,106 @@
+{
+  "articleNo": "00-36373-SX",
+  "articleId": 102013,
+  "supplier": "STELLOX",
+  "product": "Hydraulic Pump, steering",
+  "vehicles": [
+    {
+      "vehicleId": 9420,
+      "modelId": 3682,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA IV (EF)",
+      "typeEngineName": "2.5 V6 24V",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 16368,
+      "modelId": 3682,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA IV (EF)",
+      "typeEngineName": "2.7 V6",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 16370,
+      "modelId": 4849,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE II (GK)",
+      "typeEngineName": "2.7 V6",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 18209,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.7 All-wheel Drive",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 18504,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.7 V6 4WD",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 32001,
+      "modelId": 4849,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE II (GK)",
+      "typeEngineName": "2.7 V6",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2009-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Operating Mode",
+      "criteriaValue": "HY"
+    },
+    {
+      "criteriaName": "Number of ribs",
+      "criteriaValue": "6"
+    },
+    {
+      "criteriaName": "Belt Pulley \u00d8 [mm]",
+      "criteriaValue": "140"
+    },
+    {
+      "criteriaName": "Pulleys",
+      "criteriaValue": "2"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "57100-2E100"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "57100-2E100"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "571002E100"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "57110-2C200"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "571102C200"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "571002E100",
+  "fetchedAt": "2026-03-17T16:50:10Z",
+  "enrichedVia": "OEM (571002E100)"
+}

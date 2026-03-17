@@ -1,0 +1,746 @@
+{
+  "articleNo": "71-01252-SX",
+  "articleId": 4379851,
+  "supplier": "STELLOX",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 3595,
+      "modelId": 222,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Van (_M2_)",
+      "typeEngineName": "1.3 (KM20)",
+      "constructionIntervalStart": "1979-10-01",
+      "constructionIntervalEnd": "1986-10-01"
+    },
+    {
+      "vehicleId": 3597,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 TD (HDJ80, HDJ81)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 3604,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.0 TD (KZJ70_, KZJ73_, KZJ77_, KZJ78, KZJ71)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "1996-05-01"
+    },
+    {
+      "vehicleId": 3605,
+      "modelId": 3582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Hardtop (_J7_)",
+      "typeEngineName": "3.0 TD (KZJ70_, KZJ70R)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "1996-05-01"
+    },
+    {
+      "vehicleId": 3606,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 Diesel (HJ60)",
+      "constructionIntervalStart": "1982-01-01",
+      "constructionIntervalEnd": "1985-12-01"
+    },
+    {
+      "vehicleId": 3607,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 Diesel (HJ60)",
+      "constructionIntervalStart": "1982-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 3608,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 Turbo-D (HJ61_V, HJ61)",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4777,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 TD 24V (HDJ80_, HDJ80, HDJ81V)",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4778,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.5 24V (FZJ80_)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4812,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 TD (HDJ80)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 5697,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.0 TD (KZJ90_, KZJ95_, KZJ90R, KZJ95R, KZJ90W, KZJ95W)",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 6766,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 D (HJ60_)",
+      "constructionIntervalStart": "1981-10-01",
+      "constructionIntervalEnd": "1988-01-01"
+    },
+    {
+      "vehicleId": 6767,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.4 D (BJ70, BJ73, BJ75)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 9281,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 (FJ62_G, FJ62RG)",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 9282,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.0 (FJ80_, FJ80R, FJ80G)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1992-10-01"
+    },
+    {
+      "vehicleId": 9560,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.2 TD (HDJ100_, HDJ100)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 10664,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY221, KDY231, KDY251, KDY261)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 13887,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY221, KDY231)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15738,
+      "modelId": 37988,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Softtop (_J4_)",
+      "typeEngineName": "3.9 (FJ45_P, FJ45)",
+      "constructionIntervalStart": "1969-03-01",
+      "constructionIntervalEnd": "1975-01-01"
+    },
+    {
+      "vehicleId": 15739,
+      "modelId": 4756,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pickup (_J4_)",
+      "typeEngineName": "4.2 (FJ45_P)",
+      "constructionIntervalStart": "1975-01-01",
+      "constructionIntervalEnd": "1986-04-01"
+    },
+    {
+      "vehicleId": 15740,
+      "modelId": 4756,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pickup (_J4_)",
+      "typeEngineName": "3.6 D (HJ45_P)",
+      "constructionIntervalStart": "1975-01-01",
+      "constructionIntervalEnd": "1980-07-01"
+    },
+    {
+      "vehicleId": 15741,
+      "modelId": 4756,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pickup (_J4_)",
+      "typeEngineName": "4.0 D (HJ47_P, HJ47RP)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15742,
+      "modelId": 4756,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pickup (_J4_)",
+      "typeEngineName": "3.4 D (BJ45_P, BJ45RP)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15743,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "3.9 (FJ40_, FJ43_, FJ45_, FJ55_V)",
+      "constructionIntervalStart": "1969-03-01",
+      "constructionIntervalEnd": "1975-01-01"
+    },
+    {
+      "vehicleId": 15744,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "4.2 (FJ40, FJ43, FJ45, FJ55)",
+      "constructionIntervalStart": "1975-01-01",
+      "constructionIntervalEnd": "1986-04-01"
+    },
+    {
+      "vehicleId": 15745,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "3.6 D (HJ45_V)",
+      "constructionIntervalStart": "1979-04-01",
+      "constructionIntervalEnd": "1980-07-01"
+    },
+    {
+      "vehicleId": 15746,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "4.0 D (HJ47_V)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15747,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "3.0 D 4WD (BJ42, BJ40RV)",
+      "constructionIntervalStart": "1969-03-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15748,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "3.4 D (BJ42_V, BJ45_V, BJ46_, BJ42RV, BJ45RV)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15749,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "3.4 Diesel (BJ60, BJ61)",
+      "constructionIntervalStart": "1981-10-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 15750,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 (FJ62_V)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 15751,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.4 TD (BJ71_V, BJ74)",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 15752,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D (HZJ76, HZJ78, HZJ70, HZJ73, HZJ75, HZJ79, HZJ77,...",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15753,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 D (HZJ80, HZJ81)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 17257,
+      "modelId": 4981,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER III (_N18_)",
+      "typeEngineName": "3.0 TD (KZN185)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2002-11-01"
+    },
+    {
+      "vehicleId": 18327,
+      "modelId": 3387,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Wagon (YM2_, CM2_, KM2_)",
+      "typeEngineName": "1.3 (KM20_, KM20R)",
+      "constructionIntervalStart": "1979-10-01",
+      "constructionIntervalEnd": "1985-09-01"
+    },
+    {
+      "vehicleId": 18853,
+      "modelId": 5444,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (_U_, _Y_)",
+      "typeEngineName": "3.4 D (BU85, BU82, BU62_)",
+      "constructionIntervalStart": "1984-09-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 18855,
+      "modelId": 5445,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Bus (_U3_, _U2_)",
+      "typeEngineName": "3.4 D (BU82_, BU82R)",
+      "constructionIntervalStart": "1977-08-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 20203,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.5 D 4x4 (PZJ75, PZJ70)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 20920,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "2.5 D4d (KDY230, KDY250, KDY220)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28514,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY261_, KDY251_, KDY231_, KDY221_, KDY221R,...",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34682,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.2 D (HZJ105)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 55974,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D 4x4 (HZJ74, HZJ78, HZJ75)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 121458,
+      "modelId": 6303,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 150 Platform/Chassis (_Y_)",
+      "typeEngineName": "3.0 D (BU62)",
+      "constructionIntervalStart": "1985-08-01",
+      "constructionIntervalEnd": "1988-08-01"
+    },
+    {
+      "vehicleId": 143328,
+      "modelId": 37988,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Softtop (_J4_)",
+      "typeEngineName": "3.4 4WD (BJ42, BJ45, BJ46)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1983-10-01"
+    },
+    {
+      "vehicleId": 143331,
+      "modelId": 37988,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Softtop (_J4_)",
+      "typeEngineName": "4.2 4WD (FJ40, FJ45, BS46)",
+      "constructionIntervalStart": "1972-11-01",
+      "constructionIntervalEnd": "1983-10-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "147"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "110"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "220"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "METACO",
+      "oemDisplayNo": "1000-288"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16546-66200"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17700-67140"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "17801-13050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-17080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-30030"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "17801-48010"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "17801-48011"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-48011-000"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-48012"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-60020"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "17801-60040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-60040"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "17801-60040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-60050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-61010"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "17801-61010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-61020"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "17801-61020"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "17801-61030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-61030"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "17801-61030"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "17801-66010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-66010"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "17801-66020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-66020"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "17801-66030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-66030"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "17801-66040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-66040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-67010"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "17801-67010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-67030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-67030-83"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "17801-67030-83"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-67030-8T"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "17801-67060"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-67060"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-67080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-68020"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "17801-68030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-68030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-78010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801-78011"
+    },
+    {
+      "oemBrand": "HINO",
+      "oemDisplayNo": "178011131"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "1780121020"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "1780130030"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "1780160050"
+    },
+    {
+      "oemBrand": "HINO",
+      "oemDisplayNo": "1780161030"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "1780166010"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "1780166020"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "1780166030"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "1780166040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17801670308"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "1780168020"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "1780168030"
+    },
+    {
+      "oemBrand": "HINO",
+      "oemDisplayNo": "1780178010"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "1780D-48011"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "23300-69025"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "2330079146"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "23304-78010"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "23304-78020"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "23304-89101"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "415240040"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "415240040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "45267-53100"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "90915-30002"
+    },
+    {
+      "oemBrand": "AC",
+      "oemDisplayNo": "A825C"
+    },
+    {
+      "oemBrand": "AC",
+      "oemDisplayNo": "ADT32211"
+    },
+    {
+      "oemBrand": "AC",
+      "oemDisplayNo": "ADT32213"
+    },
+    {
+      "oemBrand": "AC",
+      "oemDisplayNo": "ADT32251"
+    },
+    {
+      "oemBrand": "AC",
+      "oemDisplayNo": "PC1052"
+    },
+    {
+      "oemBrand": "INTERNATIONAL",
+      "oemDisplayNo": "QP121-17020"
+    },
+    {
+      "oemBrand": "INTERNATIONAL",
+      "oemDisplayNo": "QP121-17051"
+    },
+    {
+      "oemBrand": "INTERNATIONAL",
+      "oemDisplayNo": "QP121-17052"
+    }
+  ],
+  "ean": "4057276523913",
+  "originalSKU": "1780121020",
+  "fetchedAt": "2026-03-17T15:51:43Z",
+  "enrichedVia": "OEM (1780121020)"
+}

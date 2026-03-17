@@ -1,0 +1,955 @@
+{
+  "articleNo": "P 54 059",
+  "articleId": 8360208,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 2403,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.5 MZR (ER10L)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 2404,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.2 MZR-CD AWD",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 9389,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.2 MZR-CD AWD (ER10A)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 16858,
+      "modelId": 10184,
+      "manufacturerName": "MAZDA (FAW)",
+      "modelName": "8 MPV",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23395,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3 MZR DISI Turbo AWD (ER3P)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 29610,
+      "modelId": 10337,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKX",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31654,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3 DISi",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 32110,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3 MZR DISI Turbo AWD (ER3P)",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 32111,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.2 MZR-CD AWD (ER10A)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 33084,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 33085,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.7 AWD (TB10A)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33086,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33087,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33482,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3 MZR DISI Turbo AWD (ER103, ER3P)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 45532,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 45533,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3 AWD",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 50303,
+      "modelId": 10912,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE (U387)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 50304,
+      "modelId": 10912,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE (U387)",
+      "typeEngineName": "3.7 AWD",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 50441,
+      "modelId": 10337,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKX",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 54158,
+      "modelId": 10912,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE (U387)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 54159,
+      "modelId": 10912,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE (U387)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55116,
+      "modelId": 10263,
+      "manufacturerName": "MAZDA",
+      "modelName": "MPV III (LY)",
+      "typeEngineName": "2.3 (LY3P)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55117,
+      "modelId": 10263,
+      "manufacturerName": "MAZDA",
+      "modelName": "MPV III (LY)",
+      "typeEngineName": "2.3 4WD (LY3P)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55323,
+      "modelId": 10337,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKX",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55324,
+      "modelId": 10337,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKX",
+      "typeEngineName": "3.7 AWD",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56828,
+      "modelId": 10263,
+      "manufacturerName": "MAZDA",
+      "modelName": "MPV III (LY)",
+      "typeEngineName": "2.3 4WD (LY3P)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57683,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3 MZR DISI Turbo AWD",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 57803,
+      "modelId": 10912,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE (U387)",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57804,
+      "modelId": 10912,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE (U387)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 57805,
+      "modelId": 10912,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE (U387)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57806,
+      "modelId": 10912,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE (U387)",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58649,
+      "modelId": 10184,
+      "manufacturerName": "MAZDA (FAW)",
+      "modelName": "8 MPV",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 59886,
+      "modelId": 10263,
+      "manufacturerName": "MAZDA",
+      "modelName": "MPV III (LY)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107494,
+      "modelId": 13073,
+      "manufacturerName": "MAZDA (FAW)",
+      "modelName": "CX-7",
+      "typeEngineName": "2.3 T AWD",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 107495,
+      "modelId": 13073,
+      "manufacturerName": "MAZDA (FAW)",
+      "modelName": "CX-7",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108307,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3 MZR DISI Turbo (ER3P)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 111469,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.7 AWD",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116338,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "2.4 DI-D",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116340,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "2.4 DI-D 4x4 (KS1W)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118725,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "2.5 DI-D 4x4",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118726,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "2.5 DI-D",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122037,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "3.0 V6 4WD (KS5W)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126730,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.7 AWD",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126731,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127128,
+      "modelId": 36349,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TC)",
+      "typeEngineName": "2.5 T (TC2W)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127129,
+      "modelId": 36349,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TC)",
+      "typeEngineName": "2.5 T AWD (TC4W)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130160,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "3.0 Mivec",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130161,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "3.0 Mivec 4x4",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132035,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "3.0 V6",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132149,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 D AWD",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132312,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "3.0 Mivec 4x4",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134423,
+      "modelId": 39218,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "CX-8",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134424,
+      "modelId": 39218,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "CX-8",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134460,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "3.0 Mivec",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135139,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5 AWD (KF5P, KF4WL)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138199,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.2 DI-D",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127062,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 D AWD (KF4W2)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2018-02-01"
+    },
+    {
+      "vehicleId": 135396,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136698,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.2 DI-D 4WD",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127057,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127058,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127059,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127060,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2018-02-01"
+    },
+    {
+      "vehicleId": 127061,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 D AWD",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2018-02-01"
+    },
+    {
+      "vehicleId": 127103,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0 (KF2W7, KFEP)",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127105,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5 AWD (KF5P)",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127107,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 D AWD (KF2P)",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130117,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5 (KF5P)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130119,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131479,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 Skyativ-D AWD (KF4W2)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131522,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5 AWD (KF5P)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131711,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5 AWD (KF4WL)",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132096,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132098,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 D AWD",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132152,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134042,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134043,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134114,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2022-11-01"
+    },
+    {
+      "vehicleId": 134229,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0 SKYACTIV-G",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134230,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0 SKYACTIV-G AWD",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135054,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5 AWD (KF5P)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135056,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 D AWD (KF2P)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145235,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 SKYACTIV-D",
+      "constructionIntervalStart": "2021-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152010,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0 e-SKYACTIV G 165",
+      "constructionIntervalStart": "2023-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152011,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.0 e-SKYACTIV G 165 AWD",
+      "constructionIntervalStart": "2023-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152012,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5 e-SKYACTIV G 194",
+      "constructionIntervalStart": "2023-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152013,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.5 e-SKYACTIV G 194 AWD",
+      "constructionIntervalStart": "2023-02-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "139"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "60"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Advics"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23515"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "4605B541"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "4605C248"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "7T432001AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "7T4Z2001A"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "7T4Z2V001AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "7U2J2C452AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "8T432200BA"
+    },
+    {
+      "oemBrand": "LINCOLN",
+      "oemDisplayNo": "BR1258B"
+    },
+    {
+      "oemBrand": "LINCOLN",
+      "oemDisplayNo": "BRF901"
+    },
+    {
+      "oemBrand": "FORD USA",
+      "oemDisplayNo": "BT432001AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "BT432001AB"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "BT4Z2001A"
+    },
+    {
+      "oemBrand": "FORD USA",
+      "oemDisplayNo": "BT4Z2001A"
+    },
+    {
+      "oemBrand": "LINCOLN",
+      "oemDisplayNo": "BT4Z2001A"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "BT4Z2001B"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "EHY23328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "EHY43328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "EHY53328ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "EHY53328ZB"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "KCYR3328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "L26Y3328ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "L2Y63323Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "L2Y63328Z"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "L2Y63328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "L2Y63328ZA"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "L2Y63328ZB"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "L2Y63329Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "TAY03328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "TKY83328Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "TKY83328ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "TKY83328ZB"
+    }
+  ],
+  "ean": "8020584087534",
+  "originalSKU": "7T432001AA",
+  "fetchedAt": "2026-03-17T16:58:06Z",
+  "enrichedVia": "OEM (7T432001AA)"
+}

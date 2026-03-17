@@ -1,0 +1,1797 @@
+{
+  "articleNo": "173900",
+  "articleId": 1593725,
+  "supplier": "FEBI BILSTEIN",
+  "product": "Mounting, control/trailing arm",
+  "vehicles": [
+    {
+      "vehicleId": 5797,
+      "modelId": 9102,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SAI (AZK1_)",
+      "typeEngineName": "2.4 Hybrid (AZK10)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5798,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.8 (ZRE152_, ZRE152)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 5799,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.8 4WD (ZRE154_, ZRE154N)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 5800,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.5 (NZE151_, NZE151N)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 5803,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.5 4WD (NZE154_, NZE154R)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 5806,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.4 4WD (ACA31, ACA33)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 5874,
+      "modelId": 9108,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA RUMION (_E15_)",
+      "typeEngineName": "1.8 (ZRE152)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5875,
+      "modelId": 9108,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA RUMION (_E15_)",
+      "typeEngineName": "1.5 (NZE151)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5876,
+      "modelId": 9108,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA RUMION (_E15_)",
+      "typeEngineName": "1.8 4WD (ZRE154)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5897,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "3.5 4WD (GSA33W)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 5905,
+      "modelId": 9115,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK X ZIO I (_A1_)",
+      "typeEngineName": "3.5 (GGA10)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5906,
+      "modelId": 9115,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK X ZIO I (_A1_)",
+      "typeEngineName": "2.4 (ANA10)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5907,
+      "modelId": 9115,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK X ZIO I (_A1_)",
+      "typeEngineName": "2.4 4WD (ANA15)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7725,
+      "modelId": 9108,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA RUMION (_E15_)",
+      "typeEngineName": "2.4 (AZE151)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 10538,
+      "modelId": 9640,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS PLUS (_W4_)",
+      "typeEngineName": "1.8 Hybrid (ZVW40W, ZVW41W)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12155,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.4 VVT-i (ZZE150_)",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 12158,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "2.0 VVTi (ZRE153)",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 13886,
+      "modelId": 9998,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ZELAS Coupe (AGT20_)",
+      "typeEngineName": "2.5 VVT-i (AGT20_)",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 14017,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "2.0 D-4D (ADT270_, ADT270R)",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 14018,
+      "modelId": 8008,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T27_)",
+      "typeEngineName": "2.0 D-4D (ADT270_, ADT270R)",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 19295,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 4WD (ACA30_, ACA30R)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 19296,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D 4WD (ALA30_, ALA30R)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 19297,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D 4WD (ALA30_, ALA30R)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 20645,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.4 (ACA36, ACA38)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 20783,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "3.5 4WD (GSA33)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 22466,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "2.0 D-4D (ADE150_, ADE150R)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 22467,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.4 D-4D (NDE150_, NDE150R)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 22469,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.6 (ZRE151_, ZRE151R)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 22470,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.4 (ZZE150_, ZZE150R)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 23548,
+      "modelId": 10189,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Hybrid (ZVW30)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 24667,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.8 (ZRE152)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 30715,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "2.0 D-4D (ADE150)",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 30716,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.6 Dual VVTi (ZRE141, ZRE151)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 30874,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "1.6 VVT-i (ZRT270_, ZRT270R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30875,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "1.8 VVT-i (ZRT271_, ZRT271R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30876,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "2.0 VVT-i (ZRT272_, ZRT272R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30877,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "2.0 D-4D (ADT270_, ADT270R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30878,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "2.2 D-4D (ADT271_, ADT271R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30879,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "2.2 D-4D (ADT271_, ADT271R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30880,
+      "modelId": 8008,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T27_)",
+      "typeEngineName": "1.6 VVT-i (ZRT270_, ZRT270R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30881,
+      "modelId": 8008,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T27_)",
+      "typeEngineName": "1.8 VVT-i (ZRT271_, ZRT271R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30882,
+      "modelId": 8008,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T27_)",
+      "typeEngineName": "2.0 VVT-i (ZRT272_, ZRT272R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30883,
+      "modelId": 8008,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T27_)",
+      "typeEngineName": "2.0 D-4D (ADT270_, ADT270R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30884,
+      "modelId": 8008,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T27_)",
+      "typeEngineName": "2.2 D-4D (ADT271_, ADT271R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 30885,
+      "modelId": 8008,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T27_)",
+      "typeEngineName": "2.2 D-4D (ADT271_, ADT271R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 31115,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.33 Dual-VVTi (NRE150_, NRE150R)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 31116,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.6 (ZRE151_, ZRE151R)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 31135,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 (ZSA35_, ZSA35R)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 31136,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 4WD (ZSA30_, ZSA30R)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 31139,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D 4WD (ALA30_, ALA30R)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 31147,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.8 (ZRE152_, ZRE152)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 31148,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.3 (NRE150)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 31149,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.6 (ZRE151)",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 31150,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.4 D-4D (NDE150)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 31564,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "1.6 (ZGR20_, ZGR20R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 31565,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "1.8 (ZGR21_, ZGR21R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 31566,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "2.0 D-4D (AUR20_, AUR20R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 31567,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "2.2 D-4D (AUR21_, AUR21R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 31568,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "2.2 D-CAT (AUR21_, AUR21R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 34643,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.8 (ZRE142, ZRE152)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 34783,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.8 Hybrid (ZWE150_, ZWE150R)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 34938,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D (ALA35_)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 34982,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.33 Dual-VVTi (NRE150_, NRE150R)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 42472,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 4WD (ZSA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2019-09-01"
+    },
+    {
+      "vehicleId": 50427,
+      "modelId": 9050,
+      "manufacturerName": "LEXUS",
+      "modelName": "HS (ANF10)",
+      "typeEngineName": "250h (ANF10)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 50843,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 (ZSA35)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 50844,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 4WD (ZSA30)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 51848,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "3.5 (GSA38)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 52438,
+      "modelId": 11560,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E18_, ZRE1_)",
+      "typeEngineName": "1.3 Dual-VVTi (NRE180_)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 52440,
+      "modelId": 11560,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E18_, ZRE1_)",
+      "typeEngineName": "1.6 (ZRE181_)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 52456,
+      "modelId": 11560,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E18_, ZRE1_)",
+      "typeEngineName": "1.8 VVTi (ZRE172, ZRE182)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2019-08-01"
+    },
+    {
+      "vehicleId": 54210,
+      "modelId": 8044,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Hybrid (ZVW30)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 55602,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.8 (ZRE186_, ZRE186R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 55603,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.5 4WD (NZE184_, NZE184R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 56850,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.6 VVTi (ZRE141_, ZRE151_)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 57455,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.4 D-4D (NDE180_, NDE180R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 57457,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.6 (ZRE181_, ZRE185_, ZRE185R, ZRE181R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 57458,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "2.0 D-4D (ADE186_, ADE186R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 57481,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.3 Dual-VVTi (NRE180_, NRE180R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 57499,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.8 Hybrid (ZWE186_, ZWE186R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 57626,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.5 (NZE181_, NZE181R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 57665,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.5 4WD (ASA33)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 57667,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.5 (ASA38)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 57668,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "3.5 4WD (GSA33)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 58363,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.8 (ZRE182_, ZRE182R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 58616,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 D (ALA40_, ALA40R)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 58618,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 4WD (ZSA44_, ZSA44R)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 58623,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.2 D 4WD (ALA49)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2019-09-01"
+    },
+    {
+      "vehicleId": 58715,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "2.0 D-4D (AUR20_, AUR20R)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 58746,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 (ZSA42)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2019-09-01"
+    },
+    {
+      "vehicleId": 59595,
+      "modelId": 11278,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS VAN Hatchback Van (_E18_)",
+      "typeEngineName": "1.4 D-4D (NDE180_)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 59600,
+      "modelId": 11280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Estate (_E18_)",
+      "typeEngineName": "1.3 Dual-VVTi (NRE180_)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 59602,
+      "modelId": 11280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Estate (_E18_)",
+      "typeEngineName": "1.6 (ZRE185_)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 59604,
+      "modelId": 11280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Estate (_E18_)",
+      "typeEngineName": "1.4 D-4D (NDE180_)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 59607,
+      "modelId": 11280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Estate (_E18_)",
+      "typeEngineName": "2.0 D-4D (ADE186_)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 59608,
+      "modelId": 11280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Estate (_E18_)",
+      "typeEngineName": "1.8 Hybrid (ZWE186_, ZWE186R, ZWE186H)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 100490,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 D 4WD (ALA41_)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 100766,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "1.6 D4-D (WAR20_)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 100951,
+      "modelId": 11924,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U6_)",
+      "typeEngineName": "2.0 (ZSU60W)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100954,
+      "modelId": 11924,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U6_)",
+      "typeEngineName": "2.0 4WD (ZSU65W)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106908,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "200t (AGZ10_, AGZ10R)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106910,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "200t AWD (AGZ15_, AGZ15R)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108550,
+      "modelId": 13323,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MIRAI (JPD1_)",
+      "typeEngineName": "FCV (JPD10_)",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2020-05-01"
+    },
+    {
+      "vehicleId": 108707,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "200 (ZGZ10_, AYZ10_, AGZ10)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108739,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "200 AWD (ZGZ15_, AYZ15_, AGZ15_)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111429,
+      "modelId": 9998,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ZELAS Coupe (AGT20_)",
+      "typeEngineName": "2.5 VVT-i (AGT20_)",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 113171,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 4WD (ZSA44_)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 114559,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.2 (NRE185_, NRE185R)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 114560,
+      "modelId": 11280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Estate (_E18_)",
+      "typeEngineName": "1.2 (NRE185_, NRE185R, NRE185H)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 114567,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.6 D4-D (WWE185_)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 114568,
+      "modelId": 11280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Estate (_E18_)",
+      "typeEngineName": "1.6 D4-D (WWE185_)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 115456,
+      "modelId": 8044,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Hybrid (ZVW3_)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 116331,
+      "modelId": 14577,
+      "manufacturerName": "SCION",
+      "modelName": "iM Hatchback",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117582,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 Hybrid 4WD (AVA44, AVA44_)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 117809,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 D (WWA42_)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 120670,
+      "modelId": 11560,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E18_, ZRE1_)",
+      "typeEngineName": "1.6 (ZRE171, ZRE181)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 121185,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.8 (ZRE186_)",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 123110,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "2.0 VVT-i (AZT270_, AZT270R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2011-04-01"
+    },
+    {
+      "vehicleId": 123630,
+      "modelId": 11924,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U6_)",
+      "typeEngineName": "2.5 Hybrid E-Four (AVU65W)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124333,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "3.5 4WD (GRE156H)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 124557,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.8 4WD (ZRE152)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 124720,
+      "modelId": 9108,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA RUMION (_E15_)",
+      "typeEngineName": "1.8 (ZRE152)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124790,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "300h AWD (AYZ15_, AYZ15R)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124795,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "300h (AYZ10_, AYZ10R)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129038,
+      "modelId": 8044,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Plug-in Hybrid (ZVW30, ZVW35)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 129833,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 Hybrid (AVA42_)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 130174,
+      "modelId": 11924,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U6_)",
+      "typeEngineName": "2.0 (ASU60_, ASU60R)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130238,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "300 AWD (AGZ15_, AGZ15R)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130239,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "300 (AGZ10_, AGZ10R)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130777,
+      "modelId": 11924,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U6_)",
+      "typeEngineName": "2.0 4WD (ASU65_, ASU65R)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132269,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "200t AWD (AGZ15_)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-09-01"
+    },
+    {
+      "vehicleId": 132973,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 (ZSA42)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2019-09-01"
+    },
+    {
+      "vehicleId": 133428,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D 4WD (ALA30)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 133444,
+      "modelId": 39051,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Hatchback Van (_E15_)",
+      "typeEngineName": "1.4 D-4D (NDE150)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 133445,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.6 VVTi (ZRE151)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 133449,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "1.6 (ZGR20)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 133451,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "2.2 D-4D (AUR21)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 133468,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "300h AWD (AYZ15, AYZ15_, AYZ15R)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134335,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "2.0 (ZRT272)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 134368,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.5 (ASA38)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 134558,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "300h AWD (AYZ15)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134613,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 4WD (ZSA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142231,
+      "modelId": 12998,
+      "manufacturerName": "LEXUS",
+      "modelName": "NX (_Z1_)",
+      "typeEngineName": "300h (AYZ10_, AYZ10R)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142972,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.0 VVTi 4WD (ZSA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142973,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.0 VVTi 4WD (ZSA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142974,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.0 D4d (ALA40)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142975,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "D4d 4WD (ALA41)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142976,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.0 D4d (WWA42)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142977,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.2 D4d 4WD (ALA49)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142989,
+      "modelId": 41674,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO VAN (_R2_)",
+      "typeEngineName": "VVTi (ZGR20)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 142990,
+      "modelId": 41674,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO VAN (_R2_)",
+      "typeEngineName": "VVTi (ZGR21)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 142993,
+      "modelId": 41674,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO VAN (_R2_)",
+      "typeEngineName": "D4d (WAR20)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 142994,
+      "modelId": 41674,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO VAN (_R2_)",
+      "typeEngineName": "D4d (AUR20)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 142995,
+      "modelId": 41674,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO VAN (_R2_)",
+      "typeEngineName": "D4d (AUR21)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 143177,
+      "modelId": 41721,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS PLUS VAN (_W4_)",
+      "typeEngineName": "1.8 Hybrid (ZVW40)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145657,
+      "modelId": 42488,
+      "manufacturerName": "TOYOTA",
+      "modelName": "BLADE (_E15_)",
+      "typeEngineName": "2.4 VVTi (AZE156H)",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 145658,
+      "modelId": 42488,
+      "manufacturerName": "TOYOTA",
+      "modelName": "BLADE (_E15_)",
+      "typeEngineName": "2.4 VVTi 4WD (AZE154H)",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 145659,
+      "modelId": 42488,
+      "manufacturerName": "TOYOTA",
+      "modelName": "BLADE (_E15_)",
+      "typeEngineName": "3.5 VVTi (GRE156H)",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 155851,
+      "modelId": 44702,
+      "manufacturerName": "TOYOTA",
+      "modelName": "C-HR (_X2_, _H2_)",
+      "typeEngineName": "Hybrid (MAXH20)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155853,
+      "modelId": 44702,
+      "manufacturerName": "TOYOTA",
+      "modelName": "C-HR (_X2_, _H2_)",
+      "typeEngineName": "Hybrid AWD (MAXH25)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155854,
+      "modelId": 44702,
+      "manufacturerName": "TOYOTA",
+      "modelName": "C-HR (_X2_, _H2_)",
+      "typeEngineName": "Hybrid (ZYX20)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155855,
+      "modelId": 44702,
+      "manufacturerName": "TOYOTA",
+      "modelName": "C-HR (_X2_, _H2_)",
+      "typeEngineName": "PHEV (MAXH21)",
+      "constructionIntervalStart": "2024-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 53026,
+      "modelId": 9014,
+      "manufacturerName": "LEXUS",
+      "modelName": "CT (ZWA10_)",
+      "typeEngineName": "200h (ZWA10_, ZWA10R)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58747,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 4WD (ASA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 105958,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 (ASA42)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 105959,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 4WD (ASA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 126652,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 (ASA42)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 52439,
+      "modelId": 11560,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E18_, ZRE1_)",
+      "typeEngineName": "1.4 D-4D (NDE180_, NDE170_)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 131621,
+      "modelId": 11560,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E18_, ZRE1_)",
+      "typeEngineName": "1.4 D-4D (NDE180)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2018-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "U"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "V"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VL"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VR"
+    },
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "66"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "0,228"
+    },
+    {
+      "criteriaName": "Material",
+      "criteriaValue": "43"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "16,3"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "41,2"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-02130"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-02130 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-05080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-05080 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-0F030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-0F030 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-12300"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-12300 SK1"
+    },
+    {
+      "oemBrand": "SCION",
+      "oemDisplayNo": "48068-12300 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-42050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-42050 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-42051"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-42051 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-42060"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48068-42060"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-42060 SK1"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48068-42060 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-47050"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48068-47050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-47050 SK1"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48068-47050 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA (FAW)",
+      "oemDisplayNo": "48068-47050 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-F4010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48068-F4010 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-02130"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-02130 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-05080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-05080 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-0F030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-0F030 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-12300"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-12300 SK1"
+    },
+    {
+      "oemBrand": "SCION",
+      "oemDisplayNo": "48069-12300 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-42050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-42050 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-42051"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-42051 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-42060"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48069-42060"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-42060 SK1"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48069-42060 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-47050"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48069-47050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-47050 SK1"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48069-47050 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA (FAW)",
+      "oemDisplayNo": "48069-47050 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-F4010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-F4010 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48654-02040"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48654-02040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48654-02040 SK1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48654-05060"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48654-42030"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48654-42030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48654-42040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48654-47030"
+    }
+  ],
+  "ean": "4054224739006",
+  "originalSKU": "4806902130",
+  "fetchedAt": "2026-03-17T16:27:54Z",
+  "enrichedVia": "OEM (4806902130)"
+}

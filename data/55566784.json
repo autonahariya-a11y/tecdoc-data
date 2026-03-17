@@ -1,0 +1,648 @@
+{
+  "articleNo": "CLC 363 000S",
+  "articleId": 40952110,
+  "supplier": "MAHLE",
+  "product": "Oil Cooler, engine oil",
+  "vehicles": [
+    {
+      "vehicleId": 884,
+      "modelId": 9017,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Sports Tourer (P10)",
+      "typeEngineName": "1.4 Turbo (35)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 908,
+      "modelId": 9017,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Sports Tourer (P10)",
+      "typeEngineName": "1.4 Turbo (35)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 2376,
+      "modelId": 9036,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) Estate (P10)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 9160,
+      "modelId": 8261,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J (P10)",
+      "typeEngineName": "1.4 Turbo (68)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 10448,
+      "modelId": 8549,
+      "manufacturerName": "OPEL",
+      "modelName": "MERIVA B MPV (S10)",
+      "typeEngineName": "1.4 LPG (75)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 10450,
+      "modelId": 7581,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A (G09)",
+      "typeEngineName": "1.4 (68)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 10451,
+      "modelId": 7582,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Saloon (G09)",
+      "typeEngineName": "1.4 (69)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 10458,
+      "modelId": 9628,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J GTC",
+      "typeEngineName": "1.4 (08)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 10542,
+      "modelId": 8301,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) (P10)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 11272,
+      "modelId": 9709,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) GTC (P10)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 11276,
+      "modelId": 9709,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) GTC (P10)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 11324,
+      "modelId": 9717,
+      "manufacturerName": "OPEL",
+      "modelName": "ZAFIRA TOURER C (P12)",
+      "typeEngineName": "1.4 (75)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11325,
+      "modelId": 9717,
+      "manufacturerName": "OPEL",
+      "modelName": "ZAFIRA TOURER C (P12)",
+      "typeEngineName": "1.4 (75)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11929,
+      "modelId": 9738,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ZAFIRA Mk III (P12)",
+      "typeEngineName": "1.4 (75)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 11930,
+      "modelId": 9738,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ZAFIRA Mk III (P12)",
+      "typeEngineName": "1.4 (75)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 11941,
+      "modelId": 7862,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Hatchback (G09)",
+      "typeEngineName": "1.4 (68)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 11942,
+      "modelId": 7599,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Saloon (G09)",
+      "typeEngineName": "1.4 (69)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 11943,
+      "modelId": 7863,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Sports Tourer (G09)",
+      "typeEngineName": "1.4 (35)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 12038,
+      "modelId": 7861,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Sports Tourer (G09)",
+      "typeEngineName": "1.4 (35)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 13949,
+      "modelId": 9017,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Sports Tourer (P10)",
+      "typeEngineName": "1.4 LPG (35)",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 13950,
+      "modelId": 8261,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J (P10)",
+      "typeEngineName": "1.4 LPG (68)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 13951,
+      "modelId": 9628,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J GTC",
+      "typeEngineName": "1.4 Turbo (08)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 20740,
+      "modelId": 10264,
+      "manufacturerName": "OPEL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.4 (_76)",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 32088,
+      "modelId": 8261,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J (P10)",
+      "typeEngineName": "1.4 Turbo (68)",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 32149,
+      "modelId": 8301,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) (P10)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 33060,
+      "modelId": 8549,
+      "manufacturerName": "OPEL",
+      "modelName": "MERIVA B MPV (S10)",
+      "typeEngineName": "1.4 (75)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 33061,
+      "modelId": 8549,
+      "manufacturerName": "OPEL",
+      "modelName": "MERIVA B MPV (S10)",
+      "typeEngineName": "1.4 (75)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 33732,
+      "modelId": 8754,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MERIVA Mk II (B) (S10)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 33735,
+      "modelId": 8754,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MERIVA Mk II (B) (S10)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 50857,
+      "modelId": 8754,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MERIVA Mk II (B) (S10)",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 55118,
+      "modelId": 10264,
+      "manufacturerName": "OPEL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.4 4x4 (_76)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 55295,
+      "modelId": 10325,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.4 4x4",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 55382,
+      "modelId": 10351,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Saloon",
+      "typeEngineName": "1.4 Turbo (69)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55443,
+      "modelId": 9717,
+      "manufacturerName": "OPEL",
+      "modelName": "ZAFIRA TOURER C (P12)",
+      "typeEngineName": "1.4 LPG (75)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56428,
+      "modelId": 7863,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Sports Tourer (G09)",
+      "typeEngineName": "1.4 LPG (35)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 56429,
+      "modelId": 7599,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Saloon (G09)",
+      "typeEngineName": "1.4 LPG (69)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 56430,
+      "modelId": 7862,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Hatchback (G09)",
+      "typeEngineName": "1.4 LPG (68)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 56774,
+      "modelId": 10351,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Saloon",
+      "typeEngineName": "1.4 Turbo (69)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 56786,
+      "modelId": 7861,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Sports Tourer (G09)",
+      "typeEngineName": "1.4 LPG (35)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 56787,
+      "modelId": 7581,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A (G09)",
+      "typeEngineName": "1.4 LPG (68)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 56788,
+      "modelId": 7582,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Saloon (G09)",
+      "typeEngineName": "1.4 LPG (69)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 56789,
+      "modelId": 5598,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA D (S07)",
+      "typeEngineName": "1.4 (L08, L68)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 56861,
+      "modelId": 6413,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CORSA Mk III (D) (S07)",
+      "typeEngineName": "1.4 (L08)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 58154,
+      "modelId": 10971,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CASCADA Convertible (W13)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58707,
+      "modelId": 11177,
+      "manufacturerName": "OPEL",
+      "modelName": "CASCADA (W13)",
+      "typeEngineName": "1.4 (67)",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 58708,
+      "modelId": 11177,
+      "manufacturerName": "OPEL",
+      "modelName": "CASCADA (W13)",
+      "typeEngineName": "1.4 Turbo (67)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 100739,
+      "modelId": 10264,
+      "manufacturerName": "OPEL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.4 LPG (_76)",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 105763,
+      "modelId": 10325,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 107481,
+      "modelId": 10351,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Saloon",
+      "typeEngineName": "1.4 LPG (69)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107553,
+      "modelId": 13083,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CORSA Mk IV (E) (X15)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107797,
+      "modelId": 13137,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA E (X15)",
+      "typeEngineName": "1.4 Turbo (08, 68)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 109279,
+      "modelId": 10731,
+      "manufacturerName": "OPEL",
+      "modelName": "ADAM (M13)",
+      "typeEngineName": "1.4 S",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-01-01"
+    },
+    {
+      "vehicleId": 109361,
+      "modelId": 10640,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ADAM (M13)",
+      "typeEngineName": "1.4 S",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-01-01"
+    },
+    {
+      "vehicleId": 112130,
+      "modelId": 13137,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA E (X15)",
+      "typeEngineName": "1.4 Turbo (08, 68)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117747,
+      "modelId": 13083,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CORSA Mk IV (E) (X15)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132799,
+      "modelId": 9180,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA D Hatchback Van (S07)",
+      "typeEngineName": "1.4 (L08)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 27004,
+      "modelId": 9591,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO Hatchback (T300)",
+      "typeEngineName": "1.4 Turbo",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 51391,
+      "modelId": 8127,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CRUZE (J300)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55798,
+      "modelId": 10516,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CRUZE Station Wagon (J308)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56753,
+      "modelId": 9625,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CRUZE Hatchback (J305)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56755,
+      "modelId": 9083,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "ORLANDO (J309)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59073,
+      "modelId": 10819,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "TRAX",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100745,
+      "modelId": 10819,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "TRAX",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57117,
+      "modelId": 10819,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "TRAX",
+      "typeEngineName": "1.4 AWD",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "326"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "98"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "14,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "11,50"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "9,00"
+    },
+    {
+      "criteriaName": "Radiator type",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Core Length [mm]",
+      "criteriaValue": "75"
+    },
+    {
+      "criteriaName": "Core Width [mm]",
+      "criteriaValue": "51"
+    },
+    {
+      "criteriaName": "Core Depth [mm]",
+      "criteriaValue": "63"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "269"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "55566784"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "55566784"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "55566784"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "650039"
+    }
+  ],
+  "ean": "4057635229715",
+  "originalSKU": "55566784",
+  "fetchedAt": "2026-03-17T16:48:43Z",
+  "enrichedVia": "OEM (55566784)"
+}

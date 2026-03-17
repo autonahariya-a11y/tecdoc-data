@@ -1,0 +1,170 @@
+{
+  "articleNo": "C 17 023",
+  "articleId": 6159209,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 9330,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 10441,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 11148,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 12027,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "4.0 TFSI quattro",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12029,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 12156,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "2.0 TFSI hybrid",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 33429,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 33431,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 53317,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 59053,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 59075,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "2.5 TFSI",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 115132,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 33432,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "4.2 TDI quattro",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 53315,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "4.2 TDI quattro",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2018-01-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "194"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "104"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "153"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "4H0 129 620 D"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "4H0 129 620 L"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "4H0 129 620DF"
+    }
+  ],
+  "ean": "4011558089900",
+  "originalSKU": "4H0129620D",
+  "fetchedAt": "2026-03-17T16:33:19Z",
+  "enrichedVia": "OEM (4H0129620D)"
+}

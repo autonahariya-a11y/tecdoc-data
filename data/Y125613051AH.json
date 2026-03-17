@@ -1,0 +1,108 @@
+{
+  "articleNo": "1509246",
+  "articleId": 1411425,
+  "supplier": "FORMPART",
+  "product": "Control/Trailing Arm, wheel suspension",
+  "vehicles": [
+    {
+      "vehicleId": 5416,
+      "modelId": 1517,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA Box Body/MPV (J5_, J3_)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 16361,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 17703,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.25 16V",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18329,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18499,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "ST150",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 26669,
+      "modelId": 7384,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V Van",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 26670,
+      "modelId": 7384,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V Van",
+      "typeEngineName": "1.4 TDCi",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 134480,
+      "modelId": 7384,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V Van",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2005-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VL"
+    },
+    {
+      "criteriaName": "Control/Trailing Arm Type",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "paired article number",
+      "criteriaValue": "1509245"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "M2S653051DG"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "Y125613051AH"
+    }
+  ],
+  "ean": "8680871202295",
+  "originalSKU": "Y125613051AH",
+  "fetchedAt": "2026-03-17T17:33:41Z",
+  "enrichedVia": "OEM (Y125613051AH)"
+}

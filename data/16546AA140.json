@@ -1,0 +1,85 @@
+{
+  "articleNo": "A146902",
+  "articleId": 5484556,
+  "supplier": "DENCKERMANN",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 33896,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "2.0 16V 4x4 (RW415, RW416, RW420)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131840,
+      "modelId": 38808,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SK_)",
+      "typeEngineName": "2.0 e-Boxer Hybrid AWD (SKE)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134484,
+      "modelId": 38808,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SK_)",
+      "typeEngineName": "2.0 e-Boxer Hybrid AWD (SKE)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138918,
+      "modelId": 38165,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (GT)",
+      "typeEngineName": "2.0 i e-BOXER AWD (GTE)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147445,
+      "modelId": 37372,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GT_)",
+      "typeEngineName": "2.0 e-BOXER Hybrid (GTE)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "296"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "148"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "43"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "13"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780-54L00"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "16546-AA140"
+    }
+  ],
+  "ean": "5902841607408",
+  "originalSKU": "16546AA140",
+  "fetchedAt": "2026-03-17T15:45:41Z",
+  "enrichedVia": "OEM (16546AA140)"
+}

@@ -1,0 +1,5322 @@
+{
+  "articleNo": "CRB 102 000S",
+  "articleId": 6393452,
+  "supplier": "MAHLE",
+  "product": "Cap, coolant tank",
+  "vehicles": [
+    {
+      "vehicleId": 504,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.2 (169AXF2A, 169AXF1A)",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 1046,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.6 D Multijet (263WXD1B, 263WXR1B, 263WXX1B, 263ZXD1B,...",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1051,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.6 D Multijet (263AXH1A, 263AXL11, 263AXH1B)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 1052,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXF11, 312.AXF1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1053,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXT1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1054,
+      "modelId": 14670,
+      "manufacturerName": "ABARTH",
+      "modelName": "500C / 595C / 695C",
+      "typeEngineName": "1.4 (312.AXF1A, 312.AXF11, 312.AXD1A)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1060,
+      "modelId": 14673,
+      "manufacturerName": "ABARTH",
+      "modelName": "PUNTO",
+      "typeEngineName": "1.4 (199.AXX1B)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1491,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.4 Natural Power (169AXHIA)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 1498,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.3 JTD Multijet 4x4 (169AXG1A, 169AXG2A)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 1500,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "0.9 (312AG1A)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1553,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.2 4x4 (169AXF2A, 169AXF1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 1630,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.4 16V (198AXS1B)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 1634,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.4 Natural Power (263AXG1B)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 1856,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.4 Natural Power",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 1865,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 1878,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 1940,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 2142,
+      "modelId": 7383,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO Box Body/MPV (225_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 2150,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "140 Natural Power",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 2159,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "2.0 JTDM (940.FXL1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 2169,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.2 (843.AXL1A)",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 2723,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "0.9 (312AXG1A, 312.AXG11)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 2747,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.4 Natural Power",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 3114,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.6 D Multijet (198AXM1B)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 3247,
+      "modelId": 7805,
+      "manufacturerName": "FIAT",
+      "modelName": "QUBO (225_)",
+      "typeEngineName": "1.3 D Multijet (225AXE1A, 225CXE1A, 225AXH1A, 225AXL1A,...",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3252,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.6 D Multijet (350.AXL1A, 350.AXH1A)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 3317,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 MultiAir (955AXL1B)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 4853,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.4 Natural Power",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5838,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 Turbo MultiAir (955AXS1B, 955AXS11)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 5925,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.9 D Multijet (198AXD1A)",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 5928,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.4 (199AXH1A)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 5931,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5938,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.4 (199AXB1A)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 5940,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 7199,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "2.0 JTDM (940FXH1A, 940FXH11, 940FXZ11, 940FXZ1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 7205,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.4 TB (940FXF1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 7206,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.4 TB (940FXG1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 7213,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 7864,
+      "modelId": 9153,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO Hatchback Van (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 8781,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2004-02-01"
+    },
+    {
+      "vehicleId": 8782,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 16V (178DXD1A)",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 9126,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "150 Multijet 3,0 D",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 9129,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "150 Multijet 3,0 D",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 9130,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "150 Multijet 3,0 D",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 9158,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9159,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.2 LPG (169CXF1A)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 9256,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.2 LPG (312AXA1A)",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9258,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.4 LPG (843.AXG1A)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 9260,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.4 LPG (350.AXF1A)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 9262,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.4 LPG (198AXA1B)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 9263,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9274,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.4 Natural Power",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9298,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 9300,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.6 D Multijet (263YXD1B, 263XYR1B, 263YXX1B, 263HXD1B,...",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 9301,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 9302,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 9303,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.3 MultiJet (955AXT1A)",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 9313,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9315,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.9 D Multijet",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 9316,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 9317,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 9331,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9365,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "1.6 D Multijet (844.AXF11, 844.AXF1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 9366,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.4 (350.AXE1A)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 9597,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.8 Flex",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 9598,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9604,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.4 T-Jet",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 9605,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.9 16V",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9616,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.4 Flex",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 9618,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 9619,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 9662,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.0 Flex",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 9663,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.3 Flex",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 9664,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.8 Bipower",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 9665,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9670,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.4 Flex",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 9716,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "1.6 D Multijet (844.AXP1A)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 9744,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.8 Flex (17241C1, 17241Z2)",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 9747,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.4 Flex (17140A1)",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 9771,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.4 Flex (17301M2, 17307M2, 17350M2, 3731211)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9783,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.8 Flex",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 9795,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6 Flex",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 9796,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.8 8V",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 9800,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "2.4 20V",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 9801,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "2.4 20V (19245ZO)",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 9802,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.8 (192BX)",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 9803,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 9804,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.8 Flex",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 10201,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "115 Multijet 2,0 D",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10203,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "115 Multijet 2,0 D",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10204,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "115 Multijet 2,0 D",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10205,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "130 Multijet 2,3 D",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10206,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "150 Multijet 2,3 D",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10207,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "150 Multijet 2,3 D",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10208,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "150 Multijet 2,3 D",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10209,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "180 Multijet 3,0 D",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10210,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "180 Multijet 3,0 D",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10211,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "180 Multijet 3,0 D",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10212,
+      "modelId": 9612,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (312_)",
+      "typeEngineName": "0.9 TwinAir (312.PXG11, 312.PXG1A, 312.YXG11, 312.YXG1A)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 10255,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.2 (178BXZ1A)",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 10256,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.3 Flex (173_)",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 10258,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10271,
+      "modelId": 9612,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (312_)",
+      "typeEngineName": "1.3 D Multijet (312.YXE1A, 312.YXU1A)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 10276,
+      "modelId": 9612,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (312_)",
+      "typeEngineName": "1.2 (312.PXA1A, 312.YXA1A)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 10283,
+      "modelId": 9612,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (312_)",
+      "typeEngineName": "1.2 Bi-fuel (312.YXA1A)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10355,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.8 Bipower",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 10356,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.5 Bipower",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 10543,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.6 D Multijet (263HXE1B, 263HXS1B, 263HXY1B, 263YXE1B,...",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 10552,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.4 T-Jet",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 10658,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.4 T-Jet (198257)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 10663,
+      "modelId": 4728,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO MPV (119_, 223_)",
+      "typeEngineName": "1.8 MPI Flex (1196091, 1192091, 1194051, 1194091,...",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 10665,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10669,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10672,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10709,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.7 D",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 10715,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.7 D (178CXT1AAI)",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 10719,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.7 D",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 10745,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6 16V (178CXD1AAT)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 10769,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 10804,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10807,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 10972,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 (955AXV1A)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 10985,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "2.0 D Multijet (844.AXG1A, 844.AXN1A)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 11001,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "2.0 JTDM (940FXM1A, 940FXS1A, 940FYD1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 11008,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "2.0 D Multijet (198AXPIB)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 11477,
+      "modelId": 7383,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO Box Body/MPV (225_)",
+      "typeEngineName": "1.3 Flex",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 12017,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.4 TB (940FXN1A, 940FXU1A)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 12026,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "120 Multijet 2,3 D 4x4",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12028,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "120 Multijet 2,3 D 4x4",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12192,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12193,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.2 4x4",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12194,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.3 D Multijet 4x4",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12195,
+      "modelId": 9153,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO Hatchback Van (199_)",
+      "typeEngineName": "1.4 (199BXB1A, 199AXL1A, 199AXB1A)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12196,
+      "modelId": 9153,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO Hatchback Van (199_)",
+      "typeEngineName": "1.4 Natural Power (199AXB1A, 199AXL1A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12197,
+      "modelId": 9153,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO Hatchback Van (199_)",
+      "typeEngineName": "1.4 LPG (199AXB1A, 199BXB1A, 199AXL1A)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12203,
+      "modelId": 9153,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO Hatchback Van (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12204,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12206,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 12208,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 13151,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.2 (178CYE1AAT)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 13175,
+      "modelId": 4728,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO MPV (119_, 223_)",
+      "typeEngineName": "1.4 Flex (1191071, 1193071, 1197071, 11970U1)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 13178,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.5 RST \u00c1lcool",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2004-02-01"
+    },
+    {
+      "vehicleId": 13217,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2004-02-01"
+    },
+    {
+      "vehicleId": 13239,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 13258,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.8 (17145C1)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 13264,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.8 Flex",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 13956,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "0.9 TwinAir (955.AXW1B)",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 13957,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 Bifuel (955AXG1A)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 13958,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "1.4 Bifuel (844.AXA1A)",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 13959,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "0.9 Bifuel",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 13980,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.6 (323.AXF1A)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14002,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "1.2 (312PXA1A)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14008,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "1.3 D Multijet (312PXL1A)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14015,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 (312PXG1A)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14527,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.3 (178CXG1AAM, 178CXG1AAP, 178CXG1AAT)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 14528,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 15957,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "110 Multijet 2,3 D",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 15958,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "110 Multijet 2,3 D",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 15959,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "110 Multijet 2,3 D",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 16053,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.2 16V (192_XA1B)",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 16054,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.6 16V (192_XB1A)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 16055,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.8 16V (192AXC1A, 192BXC1A)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-04-01"
+    },
+    {
+      "vehicleId": 16056,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.9 JTD (192_XF1A)",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 16057,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.9 JTD (192_XE1A)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 16092,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.2 (178DYA1A, 178DXS1A)",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 16093,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 16144,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 16145,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.4 Cat",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 16210,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "2.4 20V (192_XD1A, 192AXD12)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-04-01"
+    },
+    {
+      "vehicleId": 16505,
+      "modelId": 4788,
+      "manufacturerName": "LANCIA",
+      "modelName": "THESIS (841_)",
+      "typeEngineName": "3.0 V6 (841AXC1101)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 16527,
+      "modelId": 4788,
+      "manufacturerName": "LANCIA",
+      "modelName": "THESIS (841_)",
+      "typeEngineName": "2.0 Turbo (841AXA1B03)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 16528,
+      "modelId": 4788,
+      "manufacturerName": "LANCIA",
+      "modelName": "THESIS (841_)",
+      "typeEngineName": "2.4 (841AXB1B00)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 16529,
+      "modelId": 4788,
+      "manufacturerName": "LANCIA",
+      "modelName": "THESIS (841_)",
+      "typeEngineName": "2.4 JTD (841AXD1B02)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 17134,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 17135,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 17136,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.9 JTD",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 17137,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.9 JTD",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 17449,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.2 (843.AXA1A)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 17450,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.2 (843.AXB1A)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 17451,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.4 16V (843.AXC11, 843.AXC1B, 843.AXC1A)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 17452,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.3 JTD (843.AXD11, 843.AXD1A)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 17609,
+      "modelId": 4788,
+      "manufacturerName": "LANCIA",
+      "modelName": "THESIS (841_)",
+      "typeEngineName": "2.4 JTD (841.AXE1B0, 841.AXH110)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 17610,
+      "modelId": 4788,
+      "manufacturerName": "LANCIA",
+      "modelName": "THESIS (841_)",
+      "typeEngineName": "3.2 V6 (841.AXF110)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 17627,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.1 (169.AXA1A)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17628,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.2 (169.AXB11, 169.AXB1A)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17640,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.3 D Multijet (169.AXC1A)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17839,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.2 16V",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17840,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17907,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.4 16V (192AXH1B, 192BXH1B)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 17908,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.9 JTD",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 17909,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.9 JTD",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 17910,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 18092,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.3 D Multijet 4x4 (169.AXC2A)",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18093,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.2 4x4 (169.AXB2A)",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18250,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.9 D Multijet (350.AXC1A)",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18251,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.3 D Multijet (350.AXB11, 350.AXB1A)",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18326,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.4 (350.AXA11, 350.AXA1A)",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18897,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18898,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.4 (199AXB11, 199AXB1A, 199BXB1A, 199AXL1A)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 18899,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 18900,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet (199.AXD11, 199.AXD1A, 199.AXD1B,...",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18901,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.9 D Multijet",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18902,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.9 D Multijet",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18906,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 18907,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.9 D Multijet",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 18908,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.9 D Multijet",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 18909,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.9 D Multijet",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 18910,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 18911,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.9 D Multijet",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 18912,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.9 D Multijet (192DXT1B)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 18913,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.9 D Multijet",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 18980,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.4 (350.AXF1A)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 19288,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.4 BiFuel (940FXA1A, 940FXT1A)",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 19367,
+      "modelId": 4788,
+      "manufacturerName": "LANCIA",
+      "modelName": "THESIS (841_)",
+      "typeEngineName": "2.4 D Multijet (841.AXN111, 841.AXH110)",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 19480,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.9 JTD",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 19481,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.9 JTD",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 19482,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.9 JTD",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 19483,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.9 JTD",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 19817,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.4 16V (199BXG1B, 199AXG1B)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 19974,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "100 Multijet 2,2 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 19975,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "120 Multijet 2,3 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 19976,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "160 Multijet 3,0 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 19977,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "100 Multijet 2,2 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 19978,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "120 Multijet 2,3 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19979,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "160 Multijet 3,0 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 19980,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "100 Multijet 2,2 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 19981,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "120 Multijet 2,3 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19982,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "160 Multijet 3,0 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 19985,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.9 JTD (192AXS1B, 192BXS1B)",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 20032,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.4 (843.AXG1A)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 20033,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.3 D Multijet (843.AXF11, 843.AXF1A, 843.AXM11,...",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 20034,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.3 D Multijet (843.AXE11, 843.AXE1A)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 20088,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20475,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 (312PXH1A)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20576,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.3 (178DYE1A, 178DYE1AAP, 178DYE1AAT)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 20577,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 20579,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 20580,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20763,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.3 (178CXS1AAI, 178BYA1AAT, 178CYA1AAT)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 20764,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 20765,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6 (178CYC1AAT)",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 20766,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.7 TD",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 20872,
+      "modelId": 14670,
+      "manufacturerName": "ABARTH",
+      "modelName": "500C / 595C / 695C",
+      "typeEngineName": "1.4 (312.AXF1A, 312.AXD1A)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22540,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.4 (169AXE1B)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22544,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.9 D Multijet (198AXB1A)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 22545,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.9 D Multijet (198AXC1B)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 22546,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.4 (198AXA1B)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23175,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.2 (312AXA1A)",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23176,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.4 (312AXC1B, 312CXC1B)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23177,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.3 D Multijet (312AXB1A)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23194,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.4 T-Jet (199AXM1A, 199BXM1A, 199BXN1A)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23225,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.4 T-Jet (198AXG1B)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23226,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.4 T-Jet (198AXF1B)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23227,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.3 D Multijet (323AXB11, 323AXB1A)",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23228,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23229,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.4 T-Jet (323AXC1A)",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23357,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.3 D Multijet (350.AXG11, 350.AXG1A)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 23484,
+      "modelId": 14671,
+      "manufacturerName": "ABARTH",
+      "modelName": "GRANDE PUNTO",
+      "typeEngineName": "1.4 (199.AXN1B)",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 23608,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.9 Flex",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 23647,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 23703,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.4 (263AXG1B, 263AXG1A)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 24271,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.3 D Multijet (323AXB1A)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24597,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "2.0 JTDM (940FXQ1A, 940FYC1A)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 25762,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.4 Multi Air",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 25909,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.4 (199AXB1A, 199BXB1A, 199BXB11, 199AXB11)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26003,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.2 (199AXZ1A, 199BXZ1A)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26004,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.4 (199AXH1A, 199BXH1A)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26235,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.8 TBi (940FXR11)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 26311,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.0 RST Fire",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 26324,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "0.9 Twinair Turbo",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26491,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26492,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26495,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.4 Turbo Multi Air",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26496,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26602,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.6 D Multijet (198AXH1B)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 26603,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.6 D Multijet (198AXL1B)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 26621,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.2 Natural Power (169.AXB1A)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 26638,
+      "modelId": 5022,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (843_)",
+      "typeEngineName": "1.3 D Multijet (843.AXH1A, 843.AXE1A)",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 26659,
+      "modelId": 7383,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO Box Body/MPV (225_)",
+      "typeEngineName": "1.4 (225BXA1A, 225BXF1A)",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26660,
+      "modelId": 7383,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO Box Body/MPV (225_)",
+      "typeEngineName": "1.3 D Multijet (225BXD1A, 225BXB1A, 225BXB11)",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27156,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2003-02-01"
+    },
+    {
+      "vehicleId": 27308,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.4 Natural Power",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27949,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.2 4x4",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27950,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27951,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27952,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28134,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "1.4 (844.AXA1A)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 28135,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "1.4 (844.AXB1A)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 28136,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "1.6 D Multijet (844.AXC11, 844.AXC1A)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 28137,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "1.9 D Multijet (844.AXE1A)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 28138,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "2.0 D Multijet (844.AXD1A, 844.AXM1A)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 28139,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "1.8 (844.AXH12)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 28248,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 (955AXB1B, 955.AXF1B)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 28249,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 TJet (955AXA1B)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 28250,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.6 JTDM (955AXC1B)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 28251,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXD1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28364,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 28599,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.6 D Multijet (350.AXH1A)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 28811,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 28830,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 29486,
+      "modelId": 7805,
+      "manufacturerName": "FIAT",
+      "modelName": "QUBO (225_)",
+      "typeEngineName": "1.4 (225AXA1A)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29487,
+      "modelId": 7805,
+      "manufacturerName": "FIAT",
+      "modelName": "QUBO (225_)",
+      "typeEngineName": "1.3 D Multijet (225CXB1A, 225AXB1A, 225CXB11, 225AXB11,...",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29986,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 (955AXB1B)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 30129,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30326,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "130 Multijet 2,3 D",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30327,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "1.9 D Multijet (198AXE1A)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 30471,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30473,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "130 Multijet 2,3 D",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30755,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.3 D Multijet (169AXG1A, 169AXD1A)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 30950,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 31091,
+      "modelId": 6242,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO II (198_)",
+      "typeEngineName": "2.0 D Multijet (198AXN1B)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 31092,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31608,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "140 Natural Power",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31645,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 TJet (955AXG1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 31646,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.3 MultiJet (955AXH1B, 955AXT1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 32247,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 32248,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.4 (199AXB1A)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 32249,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 32250,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.4 16V (199AXW1A)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 32251,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.3 D Multijet (199AXC1A, 199BXC1A, 199AXT1A, 199BXT1A)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 32252,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 32253,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 32396,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.6 JTDM (955AXE1B)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 32398,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 TJet (955AXD1B)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 32741,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 Turbo MultiAir (955AXM1A, 955AXR11)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32742,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 MultiAir (955AXN1B)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 32743,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.3 MultiJet (955AXP1A, 955AYC1A)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 32824,
+      "modelId": 8358,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO (199_)",
+      "typeEngineName": "1.3 D Multijet (199AXD1B, 199AXD1A, 199BXD1B, 199BXD1A,...",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 32825,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "1.2 (312CXA1A, 312AXA1A)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32826,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "1.3 D Multijet (312CXB1A)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32827,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "1.4 (312CXC1B, 312AXC1B)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32828,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "1.3 D Multijet (312CXE1A, 312AXE1A)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33070,
+      "modelId": 5055,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (169_)",
+      "typeEngineName": "1.2 LPG (169.AXB1A)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33071,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.3 JTD",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 33298,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.4 TB (940FXA1A, 940FXT1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 33299,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.4 TB (940FXB1A, 940FXB11)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 33300,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.8 TBi (940FXC1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 33301,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "2.0 JTDM (940FXE1A, 940FXG11)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 33302,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.6 JTDM (940FXD1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 33353,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.3 D Multijet (312AXE1A)",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33372,
+      "modelId": 7805,
+      "manufacturerName": "FIAT",
+      "modelName": "QUBO (225_)",
+      "typeEngineName": "1.4 Natural Power (225AXC1A)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33397,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.3 D Multijet (263AXC1A)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 33398,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.4 (263AXA1A)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 33399,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.6 D Multijet (263AXD1B, 263AXX1B)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 33400,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "2.0 D Multijet (263AXF1B)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 33401,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 33402,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 33403,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.6 D Multijet (263ZXE1B, 263ZXS1B, 263ZXY1B, 263WXE1B,...",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 33404,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 33405,
+      "modelId": 7383,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO Box Body/MPV (225_)",
+      "typeEngineName": "1.4 Natural Power (225BXC1A, 225AXC1A)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33592,
+      "modelId": 5163,
+      "manufacturerName": "LANCIA",
+      "modelName": "MUSA (350_)",
+      "typeEngineName": "1.3 D Multijet (350.AXM11, 350.AXM1A, 350.AXI1A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 33667,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXF11, 312.AXF1A, 312.AXD1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33668,
+      "modelId": 14671,
+      "manufacturerName": "ABARTH",
+      "modelName": "GRANDE PUNTO",
+      "typeEngineName": "1.4 ESSEESSE / SUPERSPORT (199.AXX1B)",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 33796,
+      "modelId": 7568,
+      "manufacturerName": "LANCIA",
+      "modelName": "DELTA III (844_)",
+      "typeEngineName": "1.4 16V (844.AXL1A)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 33857,
+      "modelId": 4787,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO (192_)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 35927,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 50239,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 (955.AXB1B, 955.AXU1A)",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 50282,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.4 (301J410)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 52145,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.8 Flex",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 52464,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.6 D Multijet (199LYE1B)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 52465,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "0.9",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 52810,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.8 Flex",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 54902,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 (312PXN1A, 312PXN11)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55308,
+      "modelId": 9153,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO Hatchback Van (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55441,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.4 Bifuel",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55634,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.4 (199LYB1B)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55635,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "0.9 (199LYC1B)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55636,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.3 D Multijet (199LXY1A, 199LXY11)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56287,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.2 LPG (199BXA1A, 199AXA1A)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 56602,
+      "modelId": 11524,
+      "manufacturerName": "FIAT",
+      "modelName": "GRAND SIENA (372_, 197)",
+      "typeEngineName": "1.0 Flex",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 56739,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 Natural Power (312PXG1A, 312PYC1A)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56740,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "1.3 D Multijet 4x4 (312PXL1A)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56744,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "0.9 (312AXH1A)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56745,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "0.9 (312AXH1A)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56748,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 4x4 (312PXG1A)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56749,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "1.2 LPG (312PXA1A)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56931,
+      "modelId": 14673,
+      "manufacturerName": "ABARTH",
+      "modelName": "PUNTO",
+      "typeEngineName": "1.4 SUPERSPORT (199.AXX1B)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57446,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "160 Multijet 3,0 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 57448,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "160 Multijet 3,0 D",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 57662,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 57682,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "140 Natural Power",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57773,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.6 Flex",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 58528,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.6 D Multijet (199LYD1B)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 58713,
+      "modelId": 4788,
+      "manufacturerName": "LANCIA",
+      "modelName": "THESIS (841_)",
+      "typeEngineName": "2.4 JTD (841.AXE1B0, 841.AXH110)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 58730,
+      "modelId": 38299,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO Hatchback Van (199_)",
+      "typeEngineName": "1.3 D Multijet (199CXD1B, 199CXD1A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 58731,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXF1A, 312.AXD1A)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58792,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "0.9 Natural Power (199LYC1B)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58986,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "0.9 TwinAir (955AXY1B)",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 59048,
+      "modelId": 11241,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "4C (960_)",
+      "typeEngineName": "1.8 (960.CXB1A)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 59224,
+      "modelId": 14670,
+      "manufacturerName": "ABARTH",
+      "modelName": "500C / 595C / 695C",
+      "typeEngineName": "1.4 (312.AXF11, 312.AXF1A)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59259,
+      "modelId": 4951,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO Multi Wagon (192_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 59291,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.1 (169CXA1A)",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59317,
+      "modelId": 9612,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (312_)",
+      "typeEngineName": "0.9 CNG (312.YXG1A)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59698,
+      "modelId": 14670,
+      "manufacturerName": "ABARTH",
+      "modelName": "500C / 595C / 695C",
+      "typeEngineName": "1.4 (312.AXD1A)",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59881,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.4 Flex",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 59928,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "160 Multijet 3,0 D",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 59969,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.4 Flex (3019530)",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 100053,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-02-01"
+    },
+    {
+      "vehicleId": 100068,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.0 16V",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2003-02-01"
+    },
+    {
+      "vehicleId": 100339,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "0.9 (312AXM1B)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100340,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.4 (199LYF1B)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100440,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 (1788381, 1730980, 1788581, 1788681, 1730780)",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2003-02-01"
+    },
+    {
+      "vehicleId": 100446,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.3 EX (1730130)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-02-01"
+    },
+    {
+      "vehicleId": 100460,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 Flex (17350E2, 3731541)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 100578,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.0 RST Fire Flex",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 100579,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.0 Flex",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 100700,
+      "modelId": 9153,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO Hatchback Van (199_)",
+      "typeEngineName": "0.9 Twinair Turbo",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100763,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "2.0 JTDM (940FXV11)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 100764,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 TB (955.AYB11, 955.AXB1B)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 100767,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 100768,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 100769,
+      "modelId": 9612,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (312_)",
+      "typeEngineName": "0.9 TwinAir (312.YXN11, 312.YXN1A)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 100770,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "0.9",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100778,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 (312PXP1A)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100779,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 (312PXN1A, 312PXN11)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100780,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100781,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "0.9 (312AXP1A)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100782,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "0.9 (312AXN1A)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100783,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.3 MultiJet (955AXT1A, 955AYA1A)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 100784,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "0.9 TwinAir (955AXY1B, 955AXZ1B)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 100810,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "0.9 (312AXM1B)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100859,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.4 LPG (199LYF1B)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100883,
+      "modelId": 10199,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO (199_)",
+      "typeEngineName": "1.2 (199AYL1A, 199BYL1A)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105584,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.4 Flex (3019530)",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 105783,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.4 ELX Flex (17301A1)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 105784,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6 SPI",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 105785,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6 ELX 8V",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2000-03-01"
+    },
+    {
+      "vehicleId": 105957,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "Electric (EV)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107119,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107522,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.3 D Multijet (199.LYM11, 199.LYM1A)",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107964,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.4 ELX Tetrafuel",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 108019,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 4x4 (312PXR2B)",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108020,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "1.3 D Multijet 4x4 (312PXS2A)",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108260,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "1.4 (301J410)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108275,
+      "modelId": 13239,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "4C SPIDER (960_)",
+      "typeEngineName": "1.8 (960.DXB1A, 960CXB1A)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 108276,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.4 TB (940.FYA1A)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 109262,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312AXD1A)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 109999,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.2 Natural Power",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 110001,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110002,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.3 D Multijet 4x4",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 110004,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.8 TBi (940FXC1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 111089,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 Natural Power (312PXN1A)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111247,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 111386,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2000-03-01"
+    },
+    {
+      "vehicleId": 111896,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "0.9 (312CXH1A, 312DXH1A)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111897,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "0.9 (312DXG1A)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111898,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "0.9 4x4 (312CXG2B)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111899,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "1.2 (312CXA1A, 312DXA1A)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111900,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "1.2 LPG (312CXA1A)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111901,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "1.3 D Multijet (312CXL1A, 312DXL1A)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111902,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "1.3 D Multijet 4x4 (312CXL2A)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112138,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.6 JTDM (940FYB11, 940FYB1A, 940FYF11, 940FYF1A)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 113175,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.6 D Multijet (263AXP1B, 263AXW1B)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 113191,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.6 D Multijet (263AXN1B, 263AXV1B)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 114582,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "1.3 D Multijet (312PXU1A, 312PXW1A)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114583,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "1.3 D Multijet 4x4 (312PXU1A)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114584,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "0.9 (312AXN1A, 312AXN11)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114586,
+      "modelId": 9612,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (312_)",
+      "typeEngineName": "1.2 Bi-fuel (312.YXA1A)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115153,
+      "modelId": 7383,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO Box Body/MPV (225_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115155,
+      "modelId": 7805,
+      "manufacturerName": "FIAT",
+      "modelName": "QUBO (225_)",
+      "typeEngineName": "1.3 D Multijet (225AXG1A, 225CXG1A, 225AXG11, 225CXG11)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115440,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 115776,
+      "modelId": 7805,
+      "manufacturerName": "FIAT",
+      "modelName": "QUBO (225_)",
+      "typeEngineName": "1.4 (225AXA1A, 225CXA1A)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115777,
+      "modelId": 7383,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO Box Body/MPV (225_)",
+      "typeEngineName": "1.4 (225AXA1A, 225BXA1A)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116551,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "150 Multijet 2,3 D",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117422,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.6 JTDM (940FYE11, 940FYE1A)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 118547,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "0.9 Natural Power (312CXG1A)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118549,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "0.9 (312.PXN1A)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118550,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "0.9 Natural Power (312DXG1A)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118551,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "1.3 D Multijet (312PXS2A)",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118552,
+      "modelId": 13905,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA VAN (312_, 519_)",
+      "typeEngineName": "1.3 D Multijet 4x4 (312PXS2A)",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119118,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 (1788351, 1788441, 1788851)",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 119388,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 119389,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119392,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 119515,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "150 Multijet 2,3 D",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119519,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "150 Multijet 2,3 D",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119521,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "180 Multijet 2,3 D",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119523,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "180 Multijet 2,3 D",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119850,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.6 D Multijet (263WXN1B, 263ZXN1B, 263ZXV1B, 263WXV1B,...",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 119851,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.6 D Multijet (263HXN1B, 263YXN1B, 263HXV1B, 263YXV1B)",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 119852,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.3 D Multijet (263WXU1A, 263ZXU1A, 263WYB1A, 263ZYB1A)",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 119853,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.3 D Multijet (263AXU1A, 263AYB1A)",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 119854,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.3 D Multijet (263ZXT1A, 263WXT1A, 263ZYA1A, 263WYA1A)",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 119855,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.3 D Multijet (263HXU1A, 263YXU1A, 263HYB1A, 263YYB1A)",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 119856,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.3 D Multijet (263HXT1A, 263YXT1A, 263YYA1A, 263HYA1A)",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 119865,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.6 D Multijet (263AXE1B, 263AXY1B)",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 119884,
+      "modelId": 8617,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Bus (263_)",
+      "typeEngineName": "1.8 Flex (119205)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 120080,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXY11, 312.AXY1A)",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120081,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXZ11)",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120228,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 Bifuel (955.AXG1A)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 120297,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 120298,
+      "modelId": 9205,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Platform/Chassis (263_)",
+      "typeEngineName": "1.4 Natural Power",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 121235,
+      "modelId": 14670,
+      "manufacturerName": "ABARTH",
+      "modelName": "500C / 595C / 695C",
+      "typeEngineName": "1.4 (312.AXZ1A)",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121445,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.3 D Multijet (312AYA1A)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121446,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AYB11, 312.AYB1A)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121783,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6 GNC",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 121784,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.8 (17241C1)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 121785,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2011-02-01"
+    },
+    {
+      "vehicleId": 121793,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.4 (312AXC1B)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122082,
+      "modelId": 14670,
+      "manufacturerName": "ABARTH",
+      "modelName": "500C / 595C / 695C",
+      "typeEngineName": "1.4 (312.AXY1A, 312.AXY11)",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122636,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122643,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 Spi (178BX)",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 122645,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 16V (178DXD1A)",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 122687,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.4 (301J410)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122689,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 16V (178DYC2)",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122690,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.4 8V",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 122691,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 122692,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.4 8V (17201A1, 17245A1)",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 123276,
+      "modelId": 36400,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO FIRE (171_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123775,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 123813,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 123814,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125291,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "0.9 (312AXP1A)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126487,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 126704,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127121,
+      "modelId": 5097,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA (350_)",
+      "typeEngineName": "1.4 Flex",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127123,
+      "modelId": 36400,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO FIRE (171_)",
+      "typeEngineName": "1.4 (17140M2)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2016-04-01"
+    },
+    {
+      "vehicleId": 127510,
+      "modelId": 10453,
+      "manufacturerName": "FIAT",
+      "modelName": "500L (351_, 352_)",
+      "typeEngineName": "0.9 Natural Power (199LYC1B)",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128951,
+      "modelId": 7383,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO Box Body/MPV (225_)",
+      "typeEngineName": "1.4 Natural Power (225AXC1A, 225BXC1A)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128963,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "130 Multijet 2,3 D 4x4",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128964,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "150 Multijet 2,3 D 4x4",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128965,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "160 Multijet 3,0 D 4x4",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 128966,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "130 Multijet 2,3 D 4x4",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128967,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "150 Multijet 2,3 D 4x4",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128968,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "160 Multijet 3,0 D 4x4",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 129035,
+      "modelId": 38275,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO Van (199_)",
+      "typeEngineName": "1.3 JTD Multijet (199CXC1A)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 129101,
+      "modelId": 38287,
+      "manufacturerName": "ABARTH",
+      "modelName": "PUNTO EVO",
+      "typeEngineName": "1.4 (199.AXX1B)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 129200,
+      "modelId": 38299,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO Hatchback Van (199_)",
+      "typeEngineName": "1.3 D Multijet (199.AXU1A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 129202,
+      "modelId": 38299,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO Hatchback Van (199_)",
+      "typeEngineName": "1.4 (199.AXB1A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 129203,
+      "modelId": 38299,
+      "manufacturerName": "FIAT",
+      "modelName": "PUNTO EVO Hatchback Van (199_)",
+      "typeEngineName": "1.3 D Multijet (199.AXT1A, 199.AXC1A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 129239,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "110 Multijet 2,3 D",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129240,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "110 Multijet 2,3 D",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129241,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "110 Multijet 2,3 D",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129634,
+      "modelId": 9612,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (312_)",
+      "typeEngineName": "0.9 CNG (312.YXN1A)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130295,
+      "modelId": 5450,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO (199_)",
+      "typeEngineName": "1.3 D Multijet",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 130296,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.4 T-Jet (110612)",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 132020,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.4 (301J410)",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132074,
+      "modelId": 2047,
+      "manufacturerName": "FIAT",
+      "modelName": "PALIO Weekend (178_, 173_, 373_, 374_, 171_)",
+      "typeEngineName": "1.6 16V (178DYC2)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133069,
+      "modelId": 39004,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA Hatchback Van (940_)",
+      "typeEngineName": "1.4 (940FXA1A)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 133077,
+      "modelId": 39004,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA Hatchback Van (940_)",
+      "typeEngineName": "1.6 JTDM (940FXD1A)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 133079,
+      "modelId": 39004,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA Hatchback Van (940_)",
+      "typeEngineName": "1.8 (940FXC1A)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 133081,
+      "modelId": 39004,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA Hatchback Van (940_)",
+      "typeEngineName": "2.0 JTDM (940FXE1A)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 133085,
+      "modelId": 39004,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA Hatchback Van (940_)",
+      "typeEngineName": "1.4 (940FXB1A)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 133089,
+      "modelId": 39004,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA Hatchback Van (940_)",
+      "typeEngineName": "2.0 JTDM (940FXQ1A)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 133091,
+      "modelId": 39004,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA Hatchback Van (940_)",
+      "typeEngineName": "2.0 JTDM (940FXL1A)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 133092,
+      "modelId": 39004,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA Hatchback Van (940_)",
+      "typeEngineName": "2.0 JTDM (940FXV11)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 133098,
+      "modelId": 8618,
+      "manufacturerName": "FIAT",
+      "modelName": "DOBLO Cargo (263_)",
+      "typeEngineName": "1.6 D Multijet (263ZXR1B)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 133160,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.9 JTD (192DXE1A)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 133161,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.9 JTD (192DXF1A)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 133168,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.9 JTD (192DXG1B)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 133171,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.9 JTD (192DXG1B)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 133173,
+      "modelId": 7868,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA Hatchback Van (169_)",
+      "typeEngineName": "1.2 Bipower (169CXB1A)",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 133183,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.4 (192DXH1B)",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 133184,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.9 JTD (192DXG1B)",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 133234,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.6 (192DXB1A)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 133237,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.9 JTD (192DXS1A)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 133239,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.6 (192DXR1A)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 133241,
+      "modelId": 39018,
+      "manufacturerName": "FIAT",
+      "modelName": "STILO VAN (192_)",
+      "typeEngineName": "1.9 JTD (192DXT1B)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 133244,
+      "modelId": 38275,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO Van (199_)",
+      "typeEngineName": "1.3 JTD Multijet (199CXD1B)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 133246,
+      "modelId": 38275,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO Van (199_)",
+      "typeEngineName": "1.4 (199CXB1A, 199DXB1A)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 133262,
+      "modelId": 39029,
+      "manufacturerName": "FIAT",
+      "modelName": "BRAVO Van (198_)",
+      "typeEngineName": "1.6 JTD Multijet (198AXH1B)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 133263,
+      "modelId": 38275,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO Van (199_)",
+      "typeEngineName": "1.4 LPG (199CXB1A, 199DXB1A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 133265,
+      "modelId": 38275,
+      "manufacturerName": "FIAT",
+      "modelName": "GRANDE PUNTO Van (199_)",
+      "typeEngineName": "1.4 Natural Power (199BXB1A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 133268,
+      "modelId": 7383,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO Box Body/MPV (225_)",
+      "typeEngineName": "Ecargo (EV)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 133270,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "Electric (EV)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133594,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.3 JTD Multijet (323AXB1A)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135429,
+      "modelId": 4589,
+      "manufacturerName": "FIAT",
+      "modelName": "SIENA (178_, 172_, 372_)",
+      "typeEngineName": "1.4 8V (17140A1)",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 136160,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "0.9 Natural Power (312PXN1A)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138535,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "140 Multijet 2,3 D",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138536,
+      "modelId": 5632,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Platform/Chassis (250_)",
+      "typeEngineName": "160 Multijet 2,3 D",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138537,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "160 Multijet 2,3 D",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138538,
+      "modelId": 5631,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Van (250_)",
+      "typeEngineName": "140 Multijet 2,3 D",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138539,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "140 Multijet 2,3 D",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138540,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "160 Multijet 2,3 D",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138541,
+      "modelId": 5630,
+      "manufacturerName": "FIAT",
+      "modelName": "DUCATO Bus (250_)",
+      "typeEngineName": "180 Multijet 2,3 D",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139160,
+      "modelId": 6396,
+      "manufacturerName": "FIAT",
+      "modelName": "500 (312_)",
+      "typeEngineName": "1.0 Mild Hybrid (312.AYD1B)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139163,
+      "modelId": 10004,
+      "manufacturerName": "FIAT",
+      "modelName": "PANDA (312_, 319_)",
+      "typeEngineName": "1.0 Mild Hybrid (312.PYD1B)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139507,
+      "modelId": 8500,
+      "manufacturerName": "FIAT",
+      "modelName": "500 C (312_)",
+      "typeEngineName": "1.0 Mild Hybrid (312.AYD1B)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139657,
+      "modelId": 9612,
+      "manufacturerName": "LANCIA",
+      "modelName": "YPSILON (312_)",
+      "typeEngineName": "1.0 Mild Hybrid (312)",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142884,
+      "modelId": 41653,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO MPV (225_)",
+      "typeEngineName": "1.3 JTD Multijet (225BXB1A, 225BXB11)",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142885,
+      "modelId": 41653,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO MPV (225_)",
+      "typeEngineName": "1.4 (225AXA1A)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142886,
+      "modelId": 41653,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO MPV (225_)",
+      "typeEngineName": "1.4 CNG (225AXC1A)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142887,
+      "modelId": 41653,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO MPV (225_)",
+      "typeEngineName": "1.4 CNG (225AXC1A, 225BXC1A)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142888,
+      "modelId": 41653,
+      "manufacturerName": "FIAT",
+      "modelName": "FIORINO MPV (225_)",
+      "typeEngineName": "1.3 JTD Multijet",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142890,
+      "modelId": 41654,
+      "manufacturerName": "FIAT",
+      "modelName": "IDEA Van (350_)",
+      "typeEngineName": "1.4 (350BXA1A)",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 146810,
+      "modelId": 6409,
+      "manufacturerName": "FIAT",
+      "modelName": "LINEA (323_, 110_)",
+      "typeEngineName": "1.3 JTD Multijet (323AXB1A)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "6,7"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "6,70"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "6,70"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "43"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "ALFA ROMEO",
+      "oemDisplayNo": "46799364"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "46799364"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "46799364"
+    },
+    {
+      "oemBrand": "ABARTH",
+      "oemDisplayNo": "46799364"
+    }
+  ],
+  "ean": "4057635105262",
+  "originalSKU": "46799364",
+  "fetchedAt": "2026-03-17T16:23:14Z",
+  "enrichedVia": "OEM (46799364)"
+}

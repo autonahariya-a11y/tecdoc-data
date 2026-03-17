@@ -1,0 +1,81 @@
+{
+  "articleNo": "F 026 400 669",
+  "articleId": 6926481,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 129028,
+      "modelId": 38273,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "ECLIPSE CROSS (GK_, GL_)",
+      "typeEngineName": "1.5 T-Mivec 4WD",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129029,
+      "modelId": 38273,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "ECLIPSE CROSS (GK_, GL_)",
+      "typeEngineName": "1.5 T-Mivec",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130926,
+      "modelId": 38273,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "ECLIPSE CROSS (GK_, GL_)",
+      "typeEngineName": "1.5 (GK1W)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138080,
+      "modelId": 38273,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "ECLIPSE CROSS (GK_, GL_)",
+      "typeEngineName": "1.5 T-Mivec (GK1W)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138084,
+      "modelId": 38273,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "ECLIPSE CROSS (GK_, GL_)",
+      "typeEngineName": "1.5 T-Mivec 4WD",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "219"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "187"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "57"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "1500A672"
+    }
+  ],
+  "ean": "4047026532944",
+  "originalSKU": "1500A672",
+  "fetchedAt": "2026-03-17T15:38:50Z",
+  "enrichedVia": "OEM (1500A672)"
+}

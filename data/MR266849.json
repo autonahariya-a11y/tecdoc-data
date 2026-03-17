@@ -1,0 +1,596 @@
+{
+  "articleNo": "C 25 128",
+  "articleId": 6159965,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 7844,
+      "modelId": 1897,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII (EA_)",
+      "typeEngineName": "2.0 (EA2A)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 7846,
+      "modelId": 1897,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII (EA_)",
+      "typeEngineName": "2.5 V6 24V (EA5A)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 7848,
+      "modelId": 1898,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII Estate (EA_, EC_)",
+      "typeEngineName": "2.0 (EA2W)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 7849,
+      "modelId": 1898,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII Estate (EA_, EC_)",
+      "typeEngineName": "2.5 V6 24V (EA5W)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 10103,
+      "modelId": 3975,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE WAGON (N9_W, N8_W)",
+      "typeEngineName": "2.4 GDI (N84W)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 10359,
+      "modelId": 3975,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE WAGON (N9_W, N8_W)",
+      "typeEngineName": "2.4 GDI 4WD (N94W)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 12079,
+      "modelId": 1897,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII (EA_)",
+      "typeEngineName": "2.4 GDI (EA3A)",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 12080,
+      "modelId": 1898,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII Estate (EA_, EC_)",
+      "typeEngineName": "2.4 GDI (EA3W)",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 12244,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D 4WD",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 13494,
+      "modelId": 9960,
+      "manufacturerName": "MITSUBISHI (SOUEAST)",
+      "modelName": "GALANT",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 13880,
+      "modelId": 4462,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE RUNNER (N6_W, N7_W)",
+      "typeEngineName": "2.4 GDI (N64W)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2003-01-01"
+    },
+    {
+      "vehicleId": 13881,
+      "modelId": 4462,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE RUNNER (N6_W, N7_W)",
+      "typeEngineName": "2.0 (N63W)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 13897,
+      "modelId": 1897,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII (EA_)",
+      "typeEngineName": "2.5 V6 24V (EC5A)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 13898,
+      "modelId": 1898,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII Estate (EA_, EC_)",
+      "typeEngineName": "2.5 V6 24V (EC5W)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 14163,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14164,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 D",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 14567,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.2 8V 4WD",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 14569,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 14601,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 D 4x4",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 16166,
+      "modelId": 3975,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE WAGON (N9_W, N8_W)",
+      "typeEngineName": "2.4 GDI (N84W)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16167,
+      "modelId": 3975,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE WAGON (N9_W, N8_W)",
+      "typeEngineName": "2.4 GDI 4WD (N94W)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16444,
+      "modelId": 1897,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII (EA_)",
+      "typeEngineName": "2.0 (EA2A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 16445,
+      "modelId": 1897,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII (EA_)",
+      "typeEngineName": "2.4 GDI (EA3A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 16446,
+      "modelId": 1897,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII (EA_)",
+      "typeEngineName": "2.5 V6 24V (EA5A)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 16447,
+      "modelId": 1898,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII Estate (EA_, EC_)",
+      "typeEngineName": "2.0 (EA2W)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 16448,
+      "modelId": 1898,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII Estate (EA_, EC_)",
+      "typeEngineName": "2.4 GDI (EA3W)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 16449,
+      "modelId": 1898,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VIII Estate (EA_, EC_)",
+      "typeEngineName": "2.5 V6 24V (EA5W)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-10-01"
+    },
+    {
+      "vehicleId": 16779,
+      "modelId": 3975,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE WAGON (N9_W, N8_W)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16791,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.2 4WD",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 16871,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16872,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 17561,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D",
+      "constructionIntervalStart": "2002-12-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 17562,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D 4WD",
+      "constructionIntervalStart": "2002-12-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 20752,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 TDdi",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 20753,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 TDdi 4x4",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 23519,
+      "modelId": 9960,
+      "manufacturerName": "MITSUBISHI (SOUEAST)",
+      "modelName": "GALANT",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 26435,
+      "modelId": 40247,
+      "manufacturerName": "MITSUBISHI (SOUEAST)",
+      "modelName": "SOVERAN",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 29750,
+      "modelId": 3975,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE WAGON (N9_W, N8_W)",
+      "typeEngineName": "2.4 (N84W)",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2004-04-01"
+    },
+    {
+      "vehicleId": 54971,
+      "modelId": 4462,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE RUNNER (N6_W, N7_W)",
+      "typeEngineName": "2.0 (N63W)",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 54972,
+      "modelId": 4462,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "SPACE RUNNER (N6_W, N7_W)",
+      "typeEngineName": "2.4 GDI (N64W)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 55854,
+      "modelId": 4581,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UF)",
+      "typeEngineName": "2.5 D",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "1999-01-01"
+    },
+    {
+      "vehicleId": 56159,
+      "modelId": 9028,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ET)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 56160,
+      "modelId": 9028,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ET)",
+      "typeEngineName": "2.5 TDi 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 123768,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.9 D",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 154985,
+      "modelId": 44449,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER I (2A, 2E, 2F)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 32317,
+      "modelId": 8359,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PH)",
+      "typeEngineName": "2.5 TD All-wheel Drive",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 32318,
+      "modelId": 8359,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PH)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 32327,
+      "modelId": 8361,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PG)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 32331,
+      "modelId": 8362,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PE)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2002-11-01"
+    },
+    {
+      "vehicleId": 32332,
+      "modelId": 8362,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PE)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2002-11-01"
+    },
+    {
+      "vehicleId": 32418,
+      "modelId": 8361,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PG)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 32454,
+      "modelId": 8395,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Platform/Chassis (PE)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2002-11-01"
+    },
+    {
+      "vehicleId": 32458,
+      "modelId": 8396,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Platform/Chassis (PG)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 32459,
+      "modelId": 8396,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Platform/Chassis (PG)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 32466,
+      "modelId": 8398,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Platform/Chassis (PH)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 32467,
+      "modelId": 8398,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Platform/Chassis (PH)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "248"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "198"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "53"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1213 440"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "3600 772"
+    },
+    {
+      "oemBrand": "DONGNAN (SOUEAST)",
+      "oemDisplayNo": "CW7599358"
+    },
+    {
+      "oemBrand": "MITSUBISHI (BBDC)",
+      "oemDisplayNo": "MR 266148"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR 266849"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR 323075"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR 529773"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR266850"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "W L81-13-Z40 TT"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "W L81-13-Z40T"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "W L81-13Z40"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "XM34 9601 AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "XM3J 9601 AA"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "XR 266849"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "XR 529773"
+    }
+  ],
+  "ean": "4011558218003",
+  "originalSKU": "MR266849",
+  "fetchedAt": "2026-03-17T17:30:12Z",
+  "enrichedVia": "OEM (MR266849)"
+}

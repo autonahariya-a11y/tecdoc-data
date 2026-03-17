@@ -1,0 +1,122 @@
+{
+  "articleNo": "062086022OEM",
+  "articleId": 539986,
+  "supplier": "LGK",
+  "product": "Clock Spring, airbag",
+  "vehicles": [
+    {
+      "vehicleId": 4962,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CRDi 115",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 5008,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 9446,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 9930,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 9931,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33135,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CRDi 4WD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 50411,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 100807,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 122255,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 125220,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 4WD",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2015-06-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Voltage [V]",
+      "criteriaValue": "12"
+    },
+    {
+      "criteriaName": "Left-/right-hand drive vehicles",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "237"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "934902M000"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "93490-2M000",
+  "fetchedAt": "2026-03-17T17:07:58Z",
+  "enrichedVia": "OEM (93490-2M000)"
+}

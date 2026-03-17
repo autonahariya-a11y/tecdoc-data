@@ -1,0 +1,80 @@
+{
+  "articleNo": "VKDS 821025 B",
+  "articleId": 9608929,
+  "supplier": "SKF",
+  "product": "Control/Trailing Arm, wheel suspension",
+  "vehicles": [
+    {
+      "vehicleId": 53026,
+      "modelId": 9014,
+      "manufacturerName": "LEXUS",
+      "modelName": "CT (ZWA10_)",
+      "typeEngineName": "200h (ZWA10_, ZWA10R)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 54210,
+      "modelId": 8044,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Hybrid (ZVW30)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 115456,
+      "modelId": 8044,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Hybrid (ZVW3_)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 129038,
+      "modelId": 8044,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS (_W3_)",
+      "typeEngineName": "1.8 Plug-in Hybrid (ZVW30, ZVW35)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Control/Trailing Arm Type",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "462"
+    },
+    {
+      "criteriaName": "paired article number",
+      "criteriaValue": "VKDS 821026 B"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "43330-49185"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "43330-49185"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "48069-47050"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "48069-47050"
+    }
+  ],
+  "ean": "7316579809078",
+  "originalSKU": "4806947050",
+  "fetchedAt": "2026-03-17T16:30:40Z",
+  "enrichedVia": "OEM (4806947050)"
+}

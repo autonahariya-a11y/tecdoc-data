@@ -1,0 +1,683 @@
+{
+  "articleNo": "P 83 072",
+  "articleId": 8360857,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 3110,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "350 (GRS191_, GRS191R)",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 3111,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "350 AWD (GRS196_, GRS196R)",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 5784,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "350 (GRS191_, GRS191R)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 5785,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "350 AWD (GRS196_, GRS196R)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 5899,
+      "modelId": 9114,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK X II (GRX13_)",
+      "typeEngineName": "3.5 (GRX133_, GRX133)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5901,
+      "modelId": 9114,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK X II (GRX13_)",
+      "typeEngineName": "2.5 (GRX130)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9825,
+      "modelId": 8175,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS C (GSE2_)",
+      "typeEngineName": "350 (GSE21)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 9826,
+      "modelId": 8175,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS C (GSE2_)",
+      "typeEngineName": "300 (GSE22)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 10148,
+      "modelId": 9606,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S20_)",
+      "typeEngineName": "3.5 V6 (GRS204)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 10151,
+      "modelId": 9606,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S20_)",
+      "typeEngineName": "3.5 Hybrid (GWS204)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 10152,
+      "modelId": 9606,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S20_)",
+      "typeEngineName": "4.6 (URS206)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 11998,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "450h (GRS191_, GWS191_, GRS191R, GWS191R)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 18773,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "300 (GRS190_, GRS190R)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 18774,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "430 (UZS190_, UZS190R)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 20917,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "300 (GRS190_)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 20918,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "4.3 VVTi (UZS190_)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 27554,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "460 (URS190_, URS190R)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 33631,
+      "modelId": 9966,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "CROWN ROYAL (_S20_)",
+      "typeEngineName": "4.3 (UZS200)",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 58127,
+      "modelId": 8175,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS C (GSE2_)",
+      "typeEngineName": "350 (GSE21_, GSE21R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58170,
+      "modelId": 10972,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S21_)",
+      "typeEngineName": "3.5 V6 (GRS214)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 101173,
+      "modelId": 11956,
+      "manufacturerName": "LEXUS",
+      "modelName": "RC (_C1_)",
+      "typeEngineName": "350 (GSC10)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2017-11-01"
+    },
+    {
+      "vehicleId": 108442,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "350 (GSE31_, GSE31R)",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116548,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "200t (ASE30)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117730,
+      "modelId": 11956,
+      "manufacturerName": "LEXUS",
+      "modelName": "RC (_C1_)",
+      "typeEngineName": "200t (ASC10)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124327,
+      "modelId": 10972,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S21_)",
+      "typeEngineName": "3.5 Hybrid (GWS214)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124543,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "350 (GSE31_, GSE31R)",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124826,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "200t (ARL10_)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2017-09-01"
+    },
+    {
+      "vehicleId": 126019,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "460 (URS190_)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 129045,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "200t (ASE30_)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129523,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "350 (GRL10_)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129825,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "350 (GSE31_)",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130203,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "300 (ARL10_)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130800,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "300 (ASE30_, ASE30R)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131478,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "300 (ASE30_)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133030,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "350 (GRS196)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 133045,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "350 AWD (GRL15)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135064,
+      "modelId": 11956,
+      "manufacturerName": "LEXUS",
+      "modelName": "RC (_C1_)",
+      "typeEngineName": "350 (GSC10)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135140,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "350 (GSE31)",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15960,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "250 (GRL11_, GRL11R)",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 15961,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "350 (GRL10_, GWL10_, GRL10R, GRL12)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15962,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "350 AWD (GRL15_, GRL16_, GRL15R)",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15963,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "450h (GWL10_, GWL10R)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 21990,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "250 (GRL11_, GRL11R)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 54982,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "350 (GRL10_)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56458,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "450h (GWL10_, GWL10, GWL10R)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 56459,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "450h AWD (GRL15_)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100021,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "300h (AWL10_, AWL10R)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108271,
+      "modelId": 11956,
+      "manufacturerName": "LEXUS",
+      "modelName": "RC (_C1_)",
+      "typeEngineName": "350 (GSC10_)",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118130,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118131,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "350 AWD (GRL15_)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118135,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "200t (ARL10_, ARL10R)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130204,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "300 (ARL10_, ARL10R)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130802,
+      "modelId": 11956,
+      "manufacturerName": "LEXUS",
+      "modelName": "RC (_C1_)",
+      "typeEngineName": "300 (ASC10_, ASC10R)",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134557,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "450h (GWL10)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134569,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "350 (GRL10)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138310,
+      "modelId": 10095,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_L1_)",
+      "typeEngineName": "2.5 VVTi Hybrid (AWL10_, AWL10R)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 101174,
+      "modelId": 11956,
+      "manufacturerName": "LEXUS",
+      "modelName": "RC (_C1_)",
+      "typeEngineName": "300h (AVC10_, AVC10R)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135949,
+      "modelId": 11956,
+      "manufacturerName": "LEXUS",
+      "modelName": "RC (_C1_)",
+      "typeEngineName": "2.5 300h (AVC10)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138340,
+      "modelId": 11956,
+      "manufacturerName": "LEXUS",
+      "modelName": "RC (_C1_)",
+      "typeEngineName": "350 (GSC10_)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "18"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "119"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "78"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Advics"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "20325"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24396"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446503410"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446522340"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446522370"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446524050"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446524060"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446530400"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044653040079"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446530410"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044653041079"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446530430"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446530440"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446530450"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446530460"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044653046079"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446530470"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044653047079"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446530490"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044653049079"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044653049179"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446530500"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "044653050079"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446530510"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446530510"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465WY030"
+    }
+  ],
+  "ean": "8020584062104",
+  "originalSKU": "0446522340",
+  "fetchedAt": "2026-03-17T15:11:04Z",
+  "enrichedVia": "OEM (0446522340)"
+}

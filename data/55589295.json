@@ -1,0 +1,154 @@
+{
+  "articleNo": "F 026 407 324",
+  "articleId": 6927081,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 10019,
+      "modelId": 9591,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO Hatchback (T300)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10444,
+      "modelId": 9592,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO Saloon (T300)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107554,
+      "modelId": 13083,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CORSA Mk IV (E) (X15)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112128,
+      "modelId": 13137,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA E (X15)",
+      "typeEngineName": "1.4 LPG (08, 68)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120359,
+      "modelId": 13137,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA E (X15)",
+      "typeEngineName": "1.4 LPG (08, 68)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107796,
+      "modelId": 13137,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA E (X15)",
+      "typeEngineName": "1.4 (08, 68)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108277,
+      "modelId": 13137,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA E (X15)",
+      "typeEngineName": "1.4 (08, 68)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110031,
+      "modelId": 13635,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA E Hatchback Van (X15)",
+      "typeEngineName": "1.4 (08)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110033,
+      "modelId": 13635,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA E Hatchback Van (X15)",
+      "typeEngineName": "1.4 (08)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118824,
+      "modelId": 13083,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CORSA Mk IV (E) (X15)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "132"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "44"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "35"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Outer Diameter 2 [mm]",
+      "criteriaValue": "21"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "23"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "55570263"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "55589295"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "55589295"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "55589295"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "6 50 246"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "650246"
+    }
+  ],
+  "ean": "4047023090096",
+  "originalSKU": "55589295",
+  "fetchedAt": "2026-03-17T16:49:17Z",
+  "enrichedVia": "OEM (55589295)"
+}

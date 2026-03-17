@@ -1,0 +1,663 @@
+{
+  "articleNo": "C 24 011",
+  "articleId": 6159762,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 8740,
+      "modelId": 1555,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 (K7_T, K6_T, K5_T)",
+      "typeEngineName": "2.5 TD 4WD (K74T)",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 10190,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.5 4WD (KB9T)",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 10191,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.2 DI-D 4WD (KB8T)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 10981,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 11927,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "3.2 DI-D 4WD",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12188,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12189,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.4 (KA5T)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12190,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12191,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.4 CNG (KA5T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 19365,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 20689,
+      "modelId": 4015,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT I (K7_, K9_)",
+      "typeEngineName": "3.2 TDi (K90W)",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22235,
+      "modelId": 6127,
+      "manufacturerName": "HOLDEN",
+      "modelName": "RODEO Pickup (RA)",
+      "typeEngineName": "3.5 i 4x4 (TFS26)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 24544,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 28517,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 29676,
+      "modelId": 6127,
+      "manufacturerName": "HOLDEN",
+      "modelName": "RODEO Pickup (RA)",
+      "typeEngineName": "3.5 i (TFR26)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 30536,
+      "modelId": 6127,
+      "manufacturerName": "HOLDEN",
+      "modelName": "RODEO Pickup (RA)",
+      "typeEngineName": "2.4 i (TFR32)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 32018,
+      "modelId": 8251,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COLORADO Pickup (RC)",
+      "typeEngineName": "3.6 i V6 (TFR27)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 32021,
+      "modelId": 8252,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COLORADO Platform/Chassis (RC)",
+      "typeEngineName": "3.6 i V6 (TFR27)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 32288,
+      "modelId": 6127,
+      "manufacturerName": "HOLDEN",
+      "modelName": "RODEO Pickup (RA)",
+      "typeEngineName": "3.6 i (TFR27)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 32289,
+      "modelId": 6127,
+      "manufacturerName": "HOLDEN",
+      "modelName": "RODEO Pickup (RA)",
+      "typeEngineName": "3.6 i 4x4 (TFS27)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 32930,
+      "modelId": 8251,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COLORADO Pickup (RC)",
+      "typeEngineName": "3.6 i V6 4x4 (TFS27)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 33129,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33130,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33173,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.4 (KA5T)",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33175,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.2 DI-D 4WD (KB8T)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 33177,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.5 4WD (KB9T)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 33917,
+      "modelId": 8252,
+      "manufacturerName": "HOLDEN",
+      "modelName": "COLORADO Platform/Chassis (RC)",
+      "typeEngineName": "2.4 i (TFR32)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 48669,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.5 Flexfuel 4WD (KB9T)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 56029,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.5 (KA9T)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 56668,
+      "modelId": 4015,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT I (K7_, K9_)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57471,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 57473,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "2.4 LPG (KA5T)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59042,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "3.0 4WD",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59043,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "3.5 V6 24V",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100296,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.2 DI-D 4WD (KB8T)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 100299,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.4 Flex (KA5T)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 105779,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "3.2 DI-D 4WD (KB8T)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 109680,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111092,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 (KK4T)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111094,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D (KJ3T)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116196,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 16V 4WD",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 117260,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117261,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D 4WD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119325,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "3.2 DI-D 4WD",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119333,
+      "modelId": 1555,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 (K7_T, K6_T, K5_T)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2001-01-01"
+    },
+    {
+      "vehicleId": 119401,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119937,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D 4WD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122035,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 (KK4T)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126038,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126659,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 126660,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "3.2 DI-D 4WD (KB8T)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 126661,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "3.5 i 4WD (KB9T)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 126662,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "3.5 (KA9T)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 126678,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 127364,
+      "modelId": 6762,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "COLORADO",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127536,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 129036,
+      "modelId": 6762,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "COLORADO",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129224,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D (KK3T)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131560,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132260,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "3.0 Mivec (KG6W)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 132312,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "3.0 Mivec 4x4",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134469,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 135905,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12183,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D (KH4W)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33508,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D 4WD (KH4W)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109677,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D 4WD (KG4W)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109679,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "239"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "241"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "67"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "1500A098"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "1500A358"
+    },
+    {
+      "oemBrand": "MITSUBISHI (BBDC)",
+      "oemDisplayNo": "1500A551"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-97251-944-0"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-972519444-0"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8973692930"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "X1500A098"
+    }
+  ],
+  "ean": "4011558018566",
+  "originalSKU": "1500A098",
+  "fetchedAt": "2026-03-17T15:37:46Z",
+  "enrichedVia": "OEM (1500A098)"
+}

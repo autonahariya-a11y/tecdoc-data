@@ -1,0 +1,797 @@
+{
+  "articleNo": "10FR1708",
+  "articleId": 970252,
+  "supplier": "ASMETAL",
+  "product": "Ball Joint",
+  "vehicles": [
+    {
+      "vehicleId": 60,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 66,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 68,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 69,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 70,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 71,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 72,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 73,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 74,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 75,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 76,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 77,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 2494,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 6804,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 6837,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 6839,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 6850,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 6886,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 7965,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 7966,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 7967,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 7969,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 7970,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 7991,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 7993,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 7997,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8011,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8013,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8014,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8015,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 8017,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8019,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8022,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8027,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 8039,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 8041,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8058,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8077,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8096,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8111,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8150,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8151,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8165,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8170,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8175,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8204,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8205,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 8206,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 10196,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 10247,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 11892,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 11922,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 14793,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 14799,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 29566,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 29567,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 29716,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 30437,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 30438,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 30439,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 30487,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 30637,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 31093,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 31094,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 31095,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 31181,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 39963,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 39979,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 51968,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0 Ti-GDi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 52071,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 55485,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0 ST",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 55511,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 TDCi ECOnetic",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 55512,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 55514,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 TDCi ECOnetic",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 55540,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 ST",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 56757,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 56758,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 56760,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 56761,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 57326,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 Ti-GDi",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 100022,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "Electric",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VL"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "0,74"
+    },
+    {
+      "criteriaName": "Cone Size [mm]",
+      "criteriaValue": "21"
+    },
+    {
+      "criteriaName": "paired article number",
+      "criteriaValue": "10FR1707"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 702 983"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 709 466"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 742 266"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 749 992"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 893 095"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 933 035"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "AV61-3A424-LB"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "BV613-A424A-AB"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "BV613-A424B-AB"
+    }
+  ],
+  "ean": "8680617017343",
+  "originalSKU": "1893095",
+  "fetchedAt": "2026-03-17T15:53:48Z",
+  "enrichedVia": "OEM (1893095)"
+}

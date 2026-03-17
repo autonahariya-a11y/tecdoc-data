@@ -1,0 +1,552 @@
+{
+  "articleNo": "71-01752-SX",
+  "articleId": 4380021,
+  "supplier": "STELLOX",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 3282,
+      "modelId": 3970,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER F (A15_)",
+      "typeEngineName": "1.4 Turbo (A156)",
+      "constructionIntervalStart": "1983-03-01",
+      "constructionIntervalEnd": "1984-01-01"
+    },
+    {
+      "vehicleId": 5922,
+      "modelId": 1579,
+      "manufacturerName": "OPEL",
+      "modelName": "SINTRA (APV)",
+      "typeEngineName": "2.2 i 16V (OUN16, Y94)",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 5924,
+      "modelId": 1579,
+      "manufacturerName": "OPEL",
+      "modelName": "SINTRA (APV)",
+      "typeEngineName": "3.0 i 24V (OUN16, Y94)",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 7992,
+      "modelId": 1914,
+      "manufacturerName": "PONTIAC",
+      "modelName": "TRANS SPORT",
+      "typeEngineName": "3.4",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 7995,
+      "modelId": 1915,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "TRANS SPORT",
+      "typeEngineName": "3.4",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 7996,
+      "modelId": 1975,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LUMINA APV MPV",
+      "typeEngineName": "3.1",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1996-07-01"
+    },
+    {
+      "vehicleId": 8895,
+      "modelId": 1579,
+      "manufacturerName": "OPEL",
+      "modelName": "SINTRA (APV)",
+      "typeEngineName": "2.2 DTI",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 11608,
+      "modelId": 1914,
+      "manufacturerName": "PONTIAC",
+      "modelName": "TRANS SPORT",
+      "typeEngineName": "3.4",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 14478,
+      "modelId": 4585,
+      "manufacturerName": "CADILLAC",
+      "modelName": "SEVILLE",
+      "typeEngineName": "4.6 SLS V8",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 14480,
+      "modelId": 4585,
+      "manufacturerName": "CADILLAC",
+      "modelName": "SEVILLE",
+      "typeEngineName": "4.6 STS V8",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 16154,
+      "modelId": 1915,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "TRANS SPORT",
+      "typeEngineName": "3.4 V6",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16329,
+      "modelId": 1915,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "TRANS SPORT",
+      "typeEngineName": "3.4 V6 AWD",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17835,
+      "modelId": 5096,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "CORVETTE (C6)",
+      "typeEngineName": "6.0",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 17981,
+      "modelId": 5121,
+      "manufacturerName": "CADILLAC",
+      "modelName": "XLR",
+      "typeEngineName": "4.6",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2009-09-01"
+    },
+    {
+      "vehicleId": 20761,
+      "modelId": 4585,
+      "manufacturerName": "CADILLAC",
+      "modelName": "SEVILLE",
+      "typeEngineName": "4.6",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 22146,
+      "modelId": 6082,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LUMINA Coupe",
+      "typeEngineName": "3.1",
+      "constructionIntervalStart": "1989-10-01",
+      "constructionIntervalEnd": "1994-09-01"
+    },
+    {
+      "vehicleId": 22147,
+      "modelId": 6083,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LUMINA Saloon",
+      "typeEngineName": "3.1",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 22148,
+      "modelId": 6083,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LUMINA Saloon",
+      "typeEngineName": "3.1 LS",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 22222,
+      "modelId": 6121,
+      "manufacturerName": "BUICK",
+      "modelName": "REGAL",
+      "typeEngineName": "3.1",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 23763,
+      "modelId": 5938,
+      "manufacturerName": "BUICK",
+      "modelName": "CENTURY Saloon",
+      "typeEngineName": "3.1",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 24929,
+      "modelId": 6880,
+      "manufacturerName": "PONTIAC",
+      "modelName": "GRAND PRIX VI Coupe",
+      "typeEngineName": "3.8 GT Power",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 24932,
+      "modelId": 6881,
+      "manufacturerName": "PONTIAC",
+      "modelName": "GRAND PRIX VI Saloon",
+      "typeEngineName": "3.8 GT Power",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 28038,
+      "modelId": 6082,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LUMINA Coupe",
+      "typeEngineName": "3.4",
+      "constructionIntervalStart": "1991-01-01",
+      "constructionIntervalEnd": "1994-09-01"
+    },
+    {
+      "vehicleId": 28477,
+      "modelId": 6881,
+      "manufacturerName": "PONTIAC",
+      "modelName": "GRAND PRIX VI Saloon",
+      "typeEngineName": "3.1",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "1999-07-01"
+    },
+    {
+      "vehicleId": 46833,
+      "modelId": 33075,
+      "manufacturerName": "OLDSMOBILE",
+      "modelName": "INTRIGUE Saloon",
+      "typeEngineName": "3.8",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 48023,
+      "modelId": 9716,
+      "manufacturerName": "PONTIAC",
+      "modelName": "GRAND PRIX V Saloon",
+      "typeEngineName": "3.4",
+      "constructionIntervalStart": "1990-09-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 142525,
+      "modelId": 41516,
+      "manufacturerName": "PONTIAC",
+      "modelName": "TRANS SPORT Box Body/MPV",
+      "typeEngineName": "3.4",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "1998-08-01"
+    },
+    {
+      "vehicleId": 22144,
+      "modelId": 6081,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LUMINA Saloon",
+      "typeEngineName": "3.1",
+      "constructionIntervalStart": "1989-10-01",
+      "constructionIntervalEnd": "1994-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "238"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "181"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "41"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "0624344"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "0624348"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "0624364"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "0835619"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "0835621"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "0835621"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "10318557"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "10318557"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "10354942"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "10354942"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "10366781"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "10421389"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "10421389"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "10421389"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "12482805"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "12482805"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "12565752"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "12565752"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "15222510"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "15948272"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "15948272"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "19166106"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "19166106"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "19166106"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "25099149"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "25099149"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "25099149"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "25099149"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "25099149"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "25099149"
+    },
+    {
+      "oemBrand": "BUICK",
+      "oemDisplayNo": "25099149"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "25165627"
+    },
+    {
+      "oemBrand": "BUICK",
+      "oemDisplayNo": "25170511"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "25808178"
+    },
+    {
+      "oemBrand": "CADILLAC",
+      "oemDisplayNo": "25808178"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "5834036"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "5834036"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "5834036"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "624344"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "624344"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "624344"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "624348"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "624348"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "624348"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "624364"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "624364"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "624364"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "729924"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "835619"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "835619"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "835621"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "835621"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "835621"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "835621"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "835621"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "8950860"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "8950860"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "8950860"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "93183040"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "93183040"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "93183040"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "93183040"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "93183040"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "93183040"
+    },
+    {
+      "oemBrand": "AC",
+      "oemDisplayNo": "A1208C"
+    },
+    {
+      "oemBrand": "INTERNATIONAL",
+      "oemDisplayNo": "FA7597"
+    },
+    {
+      "oemBrand": "AC",
+      "oemDisplayNo": "PC894"
+    }
+  ],
+  "ean": "4057276509122",
+  "originalSKU": "15948272",
+  "fetchedAt": "2026-03-17T15:40:38Z",
+  "enrichedVia": "OEM (15948272)"
+}

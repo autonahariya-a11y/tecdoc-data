@@ -1,0 +1,4042 @@
+{
+  "articleNo": "W 7015",
+  "articleId": 9674306,
+  "supplier": "MANN-FILTER",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 2403,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.5 MZR (ER10L)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 5086,
+      "modelId": 6239,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Turnier (BA7)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 5136,
+      "modelId": 6238,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV (BA7)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 5152,
+      "modelId": 6237,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Saloon (BA7)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 6047,
+      "modelId": 9124,
+      "manufacturerName": "VOLVO",
+      "modelName": "V60 I (155)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 6151,
+      "modelId": 9124,
+      "manufacturerName": "VOLVO",
+      "modelName": "V60 I (155)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 6168,
+      "modelId": 7583,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC60 I SUV (156)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 6278,
+      "modelId": 5520,
+      "manufacturerName": "VOLVO",
+      "modelName": "S80 II (124)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 6921,
+      "modelId": 5542,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 6951,
+      "modelId": 6238,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV (BA7)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 7019,
+      "modelId": 6239,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Turnier (BA7)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 8458,
+      "modelId": 8732,
+      "manufacturerName": "VOLVO (CHANGAN)",
+      "modelName": "S80L",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 9733,
+      "modelId": 6390,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 III (135)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 9824,
+      "modelId": 9576,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "RANGE ROVER EVOQUE (L538)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 10058,
+      "modelId": 5089,
+      "manufacturerName": "VOLVO",
+      "modelName": "S40 II (544)",
+      "typeEngineName": "2.0 F",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 10288,
+      "modelId": 6240,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX (DM2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 10556,
+      "modelId": 8944,
+      "manufacturerName": "FORD ASIA & OCEANIA",
+      "modelName": "FIESTA Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12130,
+      "modelId": 9756,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "RANGER Pickup (PX)",
+      "typeEngineName": "2.5 i (PX)",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 12132,
+      "modelId": 9757,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "RANGER Platform/Chassis (PX)",
+      "typeEngineName": "2.5 i (PX)",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 12251,
+      "modelId": 7806,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 200 (_J2_)",
+      "typeEngineName": "4.0 (GRJ200_, GRJ200R)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15945,
+      "modelId": 5603,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "FREELANDER 2 (L359)",
+      "typeEngineName": "2.0 Si4 4x4",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 17612,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "1.8 SCi",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17613,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "1.8 SCi",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17614,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "1.8 SCi",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17630,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17959,
+      "modelId": 4641,
+      "manufacturerName": "FORD",
+      "modelName": "MAVERICK",
+      "typeEngineName": "2.3 16V",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18095,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18096,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18111,
+      "modelId": 5089,
+      "manufacturerName": "VOLVO",
+      "modelName": "S40 II (544)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18113,
+      "modelId": 5090,
+      "manufacturerName": "VOLVO",
+      "modelName": "V50 (545)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18304,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18499,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "ST150",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18516,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18955,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 19262,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 19264,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 19265,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 19437,
+      "modelId": 5541,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY II (WA6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 19441,
+      "modelId": 5542,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (WA6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 19520,
+      "modelId": 5561,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Convertible",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 19589,
+      "modelId": 5572,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT Van (FA_ _)",
+      "typeEngineName": "2.3 16V RWD",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 19596,
+      "modelId": 5573,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT Platform/Chassis (FM_ _, FN_ _, FF_ _)",
+      "typeEngineName": "2.3 16V RWD",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 19786,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 19809,
+      "modelId": 5610,
+      "manufacturerName": "VOLVO",
+      "modelName": "C30 (533)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 19810,
+      "modelId": 5610,
+      "manufacturerName": "VOLVO",
+      "modelName": "C30 (533)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 20090,
+      "modelId": 5089,
+      "manufacturerName": "VOLVO",
+      "modelName": "S40 II (544)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 20092,
+      "modelId": 5090,
+      "manufacturerName": "VOLVO",
+      "modelName": "V50 (545)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 20903,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2005-12-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 20914,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2005-12-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 20923,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2005-12-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 22508,
+      "modelId": 6238,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV (BA7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 22515,
+      "modelId": 6239,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Turnier (BA7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 22520,
+      "modelId": 6237,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Saloon (BA7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 22525,
+      "modelId": 6240,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX (DM2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 22526,
+      "modelId": 6240,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX (DM2)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 22527,
+      "modelId": 6240,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX (DM2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 23944,
+      "modelId": 6482,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "FOCUS Hatchback (CD5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23946,
+      "modelId": 6483,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "FOCUS Saloon (CD4)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 24305,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24436,
+      "modelId": 6390,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 III (135)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 24450,
+      "modelId": 6238,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV (BA7)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 24455,
+      "modelId": 6237,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Saloon (BA7)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 24456,
+      "modelId": 6239,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Turnier (BA7)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 24462,
+      "modelId": 5541,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY II (WA6)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 27618,
+      "modelId": 5610,
+      "manufacturerName": "VOLVO",
+      "modelName": "C30 (533)",
+      "typeEngineName": "1.8 FlexFuel",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27619,
+      "modelId": 5089,
+      "manufacturerName": "VOLVO",
+      "modelName": "S40 II (544)",
+      "typeEngineName": "1.8 FlexFuel",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 27622,
+      "modelId": 5520,
+      "manufacturerName": "VOLVO",
+      "modelName": "S80 II (124)",
+      "typeEngineName": "2.0 FlexFuel",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 27624,
+      "modelId": 5090,
+      "manufacturerName": "VOLVO",
+      "modelName": "V50 (545)",
+      "typeEngineName": "1.8 FlexFuel",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 27626,
+      "modelId": 6390,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 III (135)",
+      "typeEngineName": "2.0 FlexiFuel",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 29566,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 29567,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 29807,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBoost 4x4",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30329,
+      "modelId": 5542,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (WA6)",
+      "typeEngineName": "2.0 Flexifuel",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 30330,
+      "modelId": 6239,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Turnier (BA7)",
+      "typeEngineName": "2.0 Flexifuel",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 30331,
+      "modelId": 6238,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV (BA7)",
+      "typeEngineName": "2.0 Flexifuel",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 30438,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 30487,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 30834,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 30835,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 30836,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 31094,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 31095,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 31206,
+      "modelId": 8731,
+      "manufacturerName": "VOLVO (CHANGAN)",
+      "modelName": "S40",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 31807,
+      "modelId": 8212,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Hatchback (LT)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 31808,
+      "modelId": 8213,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Saloon (LS, LT)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 32132,
+      "modelId": 8282,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Saloon (MA, MB)",
+      "typeEngineName": "2.3 i 16 V",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 32134,
+      "modelId": 8283,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Hatchback (MA, MB, MC)",
+      "typeEngineName": "2.3 i 16V",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 32137,
+      "modelId": 8284,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Estate (MB, MC)",
+      "typeEngineName": "2.3 i 16 V",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 32573,
+      "modelId": 8210,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FIESTA Hatchback (WP, WQ)",
+      "typeEngineName": "2.0 i XR4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 32685,
+      "modelId": 6237,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Saloon (BA7)",
+      "typeEngineName": "2.0 Flexifuel",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 32693,
+      "modelId": 5541,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY II (WA6)",
+      "typeEngineName": "2.0 Flexifuel",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 32790,
+      "modelId": 8496,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Convertible (LT)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 33158,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0 Flex",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 33162,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 33331,
+      "modelId": 6240,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX (DM2)",
+      "typeEngineName": "2.0 CNG",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 33332,
+      "modelId": 6240,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX (DM2)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 33342,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0 CNG",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 33343,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 33344,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 33348,
+      "modelId": 5542,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33349,
+      "modelId": 5541,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY II (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 33351,
+      "modelId": 6238,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV (BA7)",
+      "typeEngineName": "2.0 SCTi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 33355,
+      "modelId": 6239,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Turnier (BA7)",
+      "typeEngineName": "2.0 SCTi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 33376,
+      "modelId": 8616,
+      "manufacturerName": "VOLVO",
+      "modelName": "S60 II (134)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 33377,
+      "modelId": 8616,
+      "manufacturerName": "VOLVO",
+      "modelName": "S60 II (134)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33382,
+      "modelId": 7583,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC60 I SUV (156)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33801,
+      "modelId": 5520,
+      "manufacturerName": "VOLVO",
+      "modelName": "S80 II (124)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 33802,
+      "modelId": 5520,
+      "manufacturerName": "VOLVO",
+      "modelName": "S80 II (124)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 33816,
+      "modelId": 6390,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 III (135)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 33818,
+      "modelId": 5610,
+      "manufacturerName": "VOLVO",
+      "modelName": "C30 (533)",
+      "typeEngineName": "2.0 FlexFuel",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33822,
+      "modelId": 5090,
+      "manufacturerName": "VOLVO",
+      "modelName": "V50 (545)",
+      "typeEngineName": "2.0 FlexFuel",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 34845,
+      "modelId": 8953,
+      "manufacturerName": "MORGAN",
+      "modelName": "ROADSTER Convertible",
+      "typeEngineName": "2.0 Plus4",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 38703,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 51968,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0 Ti-GDi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 53336,
+      "modelId": 11574,
+      "manufacturerName": "FORD",
+      "modelName": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V408 MPV",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 54158,
+      "modelId": 10912,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE (U387)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55059,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 55060,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 55105,
+      "modelId": 10257,
+      "manufacturerName": "FORD",
+      "modelName": "B-MAX (JK)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55106,
+      "modelId": 10257,
+      "manufacturerName": "FORD",
+      "modelName": "B-MAX (JK)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55460,
+      "modelId": 9853,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (TKE)",
+      "typeEngineName": "2.5 i 4x4",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55485,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0 ST",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 55540,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 ST",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 56752,
+      "modelId": 8797,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XJ (X351)",
+      "typeEngineName": "2.0 Ti4",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 56754,
+      "modelId": 6720,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF I (X250)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 57006,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 57012,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57200,
+      "modelId": 10828,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "FOCUS Hatchback",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 57202,
+      "modelId": 10829,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "FOCUS Saloon",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 57326,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 Ti-GDi",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 57327,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 58096,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 58566,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 58778,
+      "modelId": 11201,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "KUGA",
+      "typeEngineName": "2.0 GTDi AWD",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 58779,
+      "modelId": 11202,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58966,
+      "modelId": 7585,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI (CB1, CCN)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 58967,
+      "modelId": 7585,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI (CB1, CCN)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 58968,
+      "modelId": 7585,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI (CB1, CCN)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 58970,
+      "modelId": 7585,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI (CB1, CCN)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 59492,
+      "modelId": 10257,
+      "manufacturerName": "FORD",
+      "modelName": "B-MAX (JK)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59494,
+      "modelId": 5541,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY II (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 59495,
+      "modelId": 5542,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 100102,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0 Direct Flex",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 100104,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0 Direct Flex",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 100626,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0 Flex",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2017-07-01"
+    },
+    {
+      "vehicleId": 100882,
+      "modelId": 11894,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "ECOSPORT (BK, BL)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 100976,
+      "modelId": 9576,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "RANGE ROVER EVOQUE (L538)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 100977,
+      "modelId": 9853,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (TKE)",
+      "typeEngineName": "2.5 Flex",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 101039,
+      "modelId": 38427,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "FIESTA Hatchback",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 101057,
+      "modelId": 11947,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT COURIER B460 MPV",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 101058,
+      "modelId": 11946,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT COURIER B460 Box Body/MPV",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 101091,
+      "modelId": 11948,
+      "manufacturerName": "FORD",
+      "modelName": "TOURNEO COURIER B460 MPV",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 105580,
+      "modelId": 9124,
+      "manufacturerName": "VOLVO",
+      "modelName": "V60 I (155)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 105590,
+      "modelId": 7585,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI (CB1, CCN)",
+      "typeEngineName": "1.5 Flex",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 105593,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.5 Flex",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 105603,
+      "modelId": 5603,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "FREELANDER 2 (L359)",
+      "typeEngineName": "2.0 Si4 4x4",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 106349,
+      "modelId": 7585,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI (CB1, CCN)",
+      "typeEngineName": "1.0 Sport",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 106504,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 106505,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 106506,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 106515,
+      "modelId": 8265,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FALCON Saloon (FG)",
+      "typeEngineName": "2.0 EcoBoost XT",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 107246,
+      "modelId": 9929,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA Saloon",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 107247,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107618,
+      "modelId": 9853,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (TKE)",
+      "typeEngineName": "2.5 i",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107619,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107643,
+      "modelId": 13104,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "DISCOVERY SPORT (L550)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107748,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 Hybrid",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107750,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107751,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107756,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107758,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107845,
+      "modelId": 10547,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF SPORTBRAKE (X250)",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 108024,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "1.6 Ti-VCT",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108029,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108090,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108242,
+      "modelId": 13234,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FIESTA Hatchback (WZ)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108245,
+      "modelId": 13234,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FIESTA Hatchback (WZ)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108273,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.0 4x4 (GRJ79, GRJ76, GRJ71)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108476,
+      "modelId": 11000,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKZ",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108477,
+      "modelId": 11000,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKZ",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108480,
+      "modelId": 13051,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKC",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108481,
+      "modelId": 13051,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKC",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108483,
+      "modelId": 13051,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKC",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108597,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 Hybrid",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108797,
+      "modelId": 13361,
+      "manufacturerName": "FORD",
+      "modelName": "B-MAX Van (JK)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108800,
+      "modelId": 13361,
+      "manufacturerName": "FORD",
+      "modelName": "B-MAX Van (JK)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108808,
+      "modelId": 8611,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 108811,
+      "modelId": 8611,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 108812,
+      "modelId": 8611,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI Van",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 108813,
+      "modelId": 8611,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 108873,
+      "modelId": 13370,
+      "manufacturerName": "FORD USA",
+      "modelName": "MUSTANG Coupe",
+      "typeEngineName": "2.3 EcoBoost",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 108876,
+      "modelId": 13371,
+      "manufacturerName": "FORD USA",
+      "modelName": "MUSTANG Convertible",
+      "typeEngineName": "2.3 EcoBoost",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 108879,
+      "modelId": 13373,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MUSTANG Coupe (FM, FN)",
+      "typeEngineName": "2.3 EcoBoost",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 109195,
+      "modelId": 11783,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109692,
+      "modelId": 13596,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110544,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110970,
+      "modelId": 13801,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Hatchback (MD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 110971,
+      "modelId": 13801,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Hatchback (MD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 110972,
+      "modelId": 13802,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Estate (MD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 110973,
+      "modelId": 13802,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Estate (MD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110985,
+      "modelId": 13807,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "KUGA (TF)",
+      "typeEngineName": "2.0 EcoBoost AWD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 111063,
+      "modelId": 5573,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT Platform/Chassis (FM_ _, FN_ _, FF_ _)",
+      "typeEngineName": "2.3 16V LPG RWD",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 111064,
+      "modelId": 5572,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT Van (FA_ _)",
+      "typeEngineName": "2.3 16V LPG RWD",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 111065,
+      "modelId": 5573,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT Platform/Chassis (FM_ _, FN_ _, FF_ _)",
+      "typeEngineName": "2.3 16V CNG RWD",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 111066,
+      "modelId": 5572,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT Van (FA_ _)",
+      "typeEngineName": "2.3 16V CNG RWD",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 111088,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111103,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111242,
+      "modelId": 13842,
+      "manufacturerName": "LAND ROVER (CHERY)",
+      "modelName": "RANGE ROVER EVOQUE (L538)",
+      "typeEngineName": "2.0 T 4x4",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2017-07-01"
+    },
+    {
+      "vehicleId": 111791,
+      "modelId": 13884,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (CJ, WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112239,
+      "modelId": 13969,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY III (CK)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113157,
+      "modelId": 14161,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "EDGE",
+      "typeEngineName": "2.0 GTDi",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 113158,
+      "modelId": 14161,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "EDGE",
+      "typeEngineName": "2.0 GTDi 4WD",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 113328,
+      "modelId": 36894,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Estate Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 113330,
+      "modelId": 36894,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Estate Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 113852,
+      "modelId": 14259,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO / ZHISHENG",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 113856,
+      "modelId": 14259,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO / ZHISHENG",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 113859,
+      "modelId": 14259,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO / ZHISHENG",
+      "typeEngineName": "2.0 GTDi200",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113861,
+      "modelId": 14259,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO / ZHISHENG",
+      "typeEngineName": "2.0 GTDi240",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 114340,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114355,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115023,
+      "modelId": 9576,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "RANGE ROVER EVOQUE (L538)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 115865,
+      "modelId": 13370,
+      "manufacturerName": "FORD USA",
+      "modelName": "MUSTANG Coupe",
+      "typeEngineName": "2.3 EcoBoost",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116223,
+      "modelId": 8611,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VI Van",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2017-04-01"
+    },
+    {
+      "vehicleId": 116599,
+      "modelId": 13371,
+      "manufacturerName": "FORD USA",
+      "modelName": "MUSTANG Convertible",
+      "typeEngineName": "2.3 EcoBoost",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 117481,
+      "modelId": 14774,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKX",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 117483,
+      "modelId": 14774,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKX",
+      "typeEngineName": "2.0 T AWD",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 117484,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 117485,
+      "modelId": 10234,
+      "manufacturerName": "FORD USA",
+      "modelName": "EXPLORER (U5_)",
+      "typeEngineName": "2.3 T 4WD",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117506,
+      "modelId": 14817,
+      "manufacturerName": "FORD (JMC)",
+      "modelName": "EVEREST",
+      "typeEngineName": "2.0 GTDi",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117507,
+      "modelId": 14817,
+      "manufacturerName": "FORD (JMC)",
+      "modelName": "EVEREST",
+      "typeEngineName": "2.0 GTDi 4x4",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117555,
+      "modelId": 14820,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "RANGE ROVER EVOQUE Convertible (L538)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 117657,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "4.0 V6 VVTi 4WD (GGN125, GGN135)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117685,
+      "modelId": 14850,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "TAURUS",
+      "typeEngineName": "2.0 GTDi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117983,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "2.3 RS AWD",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-02-01"
+    },
+    {
+      "vehicleId": 118618,
+      "modelId": 10257,
+      "manufacturerName": "FORD",
+      "modelName": "B-MAX (JK)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118620,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118794,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "2.0 Energi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 119061,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 Hybrid",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119147,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0 Flex 4x4",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2017-07-01"
+    },
+    {
+      "vehicleId": 120282,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120749,
+      "modelId": 36767,
+      "manufacturerName": "FORD (JMC)",
+      "modelName": "TOURNEO",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121236,
+      "modelId": 36895,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Hatchback Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 121237,
+      "modelId": 36895,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Hatchback Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 121398,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 121399,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBoost 4x4",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 123458,
+      "modelId": 11201,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "KUGA",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123528,
+      "modelId": 37198,
+      "manufacturerName": "JAGUAR (CHERY)",
+      "modelName": "XFL",
+      "typeEngineName": "20t",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2017-09-01"
+    },
+    {
+      "vehicleId": 123529,
+      "modelId": 37198,
+      "manufacturerName": "JAGUAR (CHERY)",
+      "modelName": "XFL",
+      "typeEngineName": "25t",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2017-09-01"
+    },
+    {
+      "vehicleId": 123676,
+      "modelId": 37233,
+      "manufacturerName": "LAND ROVER (CHERY)",
+      "modelName": "DISCOVERY SPORT (L550)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2017-07-01"
+    },
+    {
+      "vehicleId": 124773,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124894,
+      "modelId": 37271,
+      "manufacturerName": "LINCOLN",
+      "modelName": "CONTINENTAL",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125823,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125850,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126516,
+      "modelId": 14840,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Hatchback (LZ)",
+      "typeEngineName": "2.3 RS AWD",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 126554,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126555,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126566,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.1 Ti-VCT",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126567,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.1 Ti-VCT",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126619,
+      "modelId": 13051,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKC",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126811,
+      "modelId": 11783,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO",
+      "typeEngineName": "2.0 HEV",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127518,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128063,
+      "modelId": 11000,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKZ",
+      "typeEngineName": "2.0 Hybrid",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128221,
+      "modelId": 9576,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "RANGE ROVER EVOQUE (L538)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 128231,
+      "modelId": 14820,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "RANGE ROVER EVOQUE Convertible (L538)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 128484,
+      "modelId": 11783,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO",
+      "typeEngineName": "2.0 S",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128494,
+      "modelId": 6237,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Saloon (BA7)",
+      "typeEngineName": "2.0 SCTI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 129015,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 EcoBoost 4x4",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 129170,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 129171,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 129172,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 129358,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0 Ti-VCT 4x4",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129437,
+      "modelId": 11000,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKZ",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129521,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129660,
+      "modelId": 11229,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "RANGE ROVER SPORT II (L494)",
+      "typeEngineName": "2.0 Si4 4x4",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2022-03-01"
+    },
+    {
+      "vehicleId": 130484,
+      "modelId": 13370,
+      "manufacturerName": "FORD USA",
+      "modelName": "MUSTANG Coupe",
+      "typeEngineName": "2.3 EcoBoost",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 130488,
+      "modelId": 13371,
+      "manufacturerName": "FORD USA",
+      "modelName": "MUSTANG Convertible",
+      "typeEngineName": "2.3 EcoBoost",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 131623,
+      "modelId": 6237,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Saloon (BA7)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 131656,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131678,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131692,
+      "modelId": 13370,
+      "manufacturerName": "FORD USA",
+      "modelName": "MUSTANG Coupe",
+      "typeEngineName": "2.3 EcoBoost",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 131693,
+      "modelId": 13371,
+      "manufacturerName": "FORD USA",
+      "modelName": "MUSTANG Convertible",
+      "typeEngineName": "2.3 EcoBoost",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 131963,
+      "modelId": 38818,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132470,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133311,
+      "modelId": 5090,
+      "manufacturerName": "VOLVO",
+      "modelName": "V50 (545)",
+      "typeEngineName": "1.8 BiFuel",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 133364,
+      "modelId": 8616,
+      "manufacturerName": "VOLVO",
+      "modelName": "S60 II (134)",
+      "typeEngineName": "T5 DRIVe",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 134044,
+      "modelId": 11783,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO",
+      "typeEngineName": "T",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134490,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134502,
+      "modelId": 39189,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Van",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 134503,
+      "modelId": 39189,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Van",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 134504,
+      "modelId": 39189,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO IV Van",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 135573,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 Hybrid",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136143,
+      "modelId": 38818,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII Van",
+      "typeEngineName": "1.1 Ti-VCT",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136164,
+      "modelId": 38611,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS IV (HN)",
+      "typeEngineName": "2.3 ST EcoBoost",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136165,
+      "modelId": 38774,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS IV Turnier (HP)",
+      "typeEngineName": "2.3 ST EcoBoost",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136166,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 EcoBoost 4x4",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 136167,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 Hybrid iVCT",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136545,
+      "modelId": 38818,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII Van",
+      "typeEngineName": "1.1 Ti-VCT",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136546,
+      "modelId": 38818,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136547,
+      "modelId": 38818,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137709,
+      "modelId": 11095,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT CUSTOM V362 Van (FY, FZ)",
+      "typeEngineName": "1.0 EcoBoost PHEV",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 137927,
+      "modelId": 39977,
+      "manufacturerName": "LINCOLN",
+      "modelName": "NAUTILUS",
+      "typeEngineName": "T AWD",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137928,
+      "modelId": 39977,
+      "manufacturerName": "LINCOLN",
+      "modelName": "NAUTILUS",
+      "typeEngineName": "T",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137930,
+      "modelId": 39977,
+      "manufacturerName": "LINCOLN",
+      "modelName": "NAUTILUS",
+      "typeEngineName": "T",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137931,
+      "modelId": 39977,
+      "manufacturerName": "LINCOLN",
+      "modelName": "NAUTILUS",
+      "typeEngineName": "T AWD",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138171,
+      "modelId": 9853,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (TKE)",
+      "typeEngineName": "2.5 i CNG",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138522,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138544,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 139029,
+      "modelId": 40263,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "ESCAPE",
+      "typeEngineName": "EcoBoost 245 All-wheel Drive",
+      "constructionIntervalStart": "2019-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139117,
+      "modelId": 40306,
+      "manufacturerName": "LINCOLN (CHANGAN)",
+      "modelName": "CORSAIR",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2020-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139118,
+      "modelId": 40306,
+      "manufacturerName": "LINCOLN (CHANGAN)",
+      "modelName": "CORSAIR",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2020-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139153,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.1 Ti-VCT",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139781,
+      "modelId": 40303,
+      "manufacturerName": "BESTUNE",
+      "modelName": "T77",
+      "typeEngineName": "PRO 280 TID",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139933,
+      "modelId": 39383,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "FOCUS Hatchback (SA)",
+      "typeEngineName": "2.3 ST",
+      "constructionIntervalStart": "2019-12-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 140236,
+      "modelId": 11000,
+      "manufacturerName": "LINCOLN",
+      "modelName": "MKZ",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140523,
+      "modelId": 38818,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII Van",
+      "typeEngineName": "1.1 Ti-VCT",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140532,
+      "modelId": 11479,
+      "manufacturerName": "FORD",
+      "modelName": "ECOSPORT",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140888,
+      "modelId": 40915,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "EXPLORER",
+      "typeEngineName": "EcoBoost 285 All-wheel Drive",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141359,
+      "modelId": 11094,
+      "manufacturerName": "FORD",
+      "modelName": "TOURNEO CUSTOM V362 Bus (F3)",
+      "typeEngineName": "1.0 EcoBoost PHEV",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 141360,
+      "modelId": 11096,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT CUSTOM V362 Bus (F3)",
+      "typeEngineName": "1.0 EcoBoost PHEV",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": "2023-12-01"
+    },
+    {
+      "vehicleId": 142243,
+      "modelId": 40263,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "ESCAPE",
+      "typeEngineName": "EcoBoost 245",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142726,
+      "modelId": 41610,
+      "manufacturerName": "BESTUNE",
+      "modelName": "B70",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142732,
+      "modelId": 13361,
+      "manufacturerName": "FORD",
+      "modelName": "B-MAX Van (JK)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142738,
+      "modelId": 41613,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY MK II VAN (WA6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 142739,
+      "modelId": 41613,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY MK II VAN (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 142896,
+      "modelId": 41655,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "DISCOVERY SPORT VAN (L550)",
+      "typeEngineName": "Si4 4x4",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142897,
+      "modelId": 41655,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "DISCOVERY SPORT VAN (L550)",
+      "typeEngineName": "Si4 4x4",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142898,
+      "modelId": 41655,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "DISCOVERY SPORT VAN (L550)",
+      "typeEngineName": "Si4 4x4",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142922,
+      "modelId": 41657,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "RANGE ROVER EVOQUE VAN (L538)",
+      "typeEngineName": "Si4 4x4",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 143086,
+      "modelId": 41688,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX VAN (WA6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 143087,
+      "modelId": 41688,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX VAN (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 143088,
+      "modelId": 41688,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX VAN (WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 143195,
+      "modelId": 41732,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "EDGE PLUS",
+      "typeEngineName": "EcoBoost 245",
+      "constructionIntervalStart": "2020-12-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 143196,
+      "modelId": 41732,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "EDGE PLUS",
+      "typeEngineName": "EcoBoost 245 4WD",
+      "constructionIntervalStart": "2020-12-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 145723,
+      "modelId": 41877,
+      "manufacturerName": "FORD USA",
+      "modelName": "BRONCO SPORT Closed Off-Road Vehicle",
+      "typeEngineName": "2.0 EcoBoost 4WD (R9D)",
+      "constructionIntervalStart": "2021-05-01",
+      "constructionIntervalEnd": "2022-05-01"
+    },
+    {
+      "vehicleId": 145758,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.0 EcoBoost Active",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145759,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.0 EcoBoost Active",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145760,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.0 EcoBoost Active",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145869,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146328,
+      "modelId": 42619,
+      "manufacturerName": "FORD USA",
+      "modelName": "MAVERICK Crew Cab Pickup (W8_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146329,
+      "modelId": 42619,
+      "manufacturerName": "FORD USA",
+      "modelName": "MAVERICK Crew Cab Pickup (W8_)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147455,
+      "modelId": 37787,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA VII (HJ, HF)",
+      "typeEngineName": "1.1 Ti-VCT LPG",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150609,
+      "modelId": 13104,
+      "manufacturerName": "LAND ROVER",
+      "modelName": "DISCOVERY SPORT (L550)",
+      "typeEngineName": "2.0 Si4 4x4",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151511,
+      "modelId": 41877,
+      "manufacturerName": "FORD USA",
+      "modelName": "BRONCO SPORT Closed Off-Road Vehicle",
+      "typeEngineName": "1.5 EcoBoost AWD",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152862,
+      "modelId": 44048,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (T1A, T1B)",
+      "typeEngineName": "2.3 TSI 4motion",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158380,
+      "modelId": 45032,
+      "manufacturerName": "BESTUNE",
+      "modelName": "B70",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2024-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123713,
+      "modelId": 14864,
+      "manufacturerName": "JAGUAR",
+      "modelName": "F-PACE (X761)",
+      "typeEngineName": "2.0 Ti4",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7965,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8014,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8096,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 108185,
+      "modelId": 13223,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XE (X760)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108186,
+      "modelId": 13223,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XE (X760)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127991,
+      "modelId": 13223,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XE (X760)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128638,
+      "modelId": 13223,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XE (X760)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132905,
+      "modelId": 13223,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XE (X760)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7966,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8015,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 8111,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 14799,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 30437,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 31093,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2011-08-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 7967,
+      "modelId": 9156,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Saloon",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8017,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 8150,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Flexifuel",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 29716,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 30439,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 106487,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 106488,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 109854,
+      "modelId": 9155,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 109855,
+      "modelId": 9157,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS III Turnier",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2020-02-01"
+    },
+    {
+      "vehicleId": 53399,
+      "modelId": 11573,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT CONNECT V408 Box Body/MPV",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15442,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15443,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15482,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15483,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15484,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15485,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 132308,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.0 DI",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 126746,
+      "modelId": 13223,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XE (X760)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126747,
+      "modelId": 13223,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XE (X760)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150075,
+      "modelId": 13223,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XE (X760)",
+      "typeEngineName": "P250",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115131,
+      "modelId": 14381,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF II (X260)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126751,
+      "modelId": 14381,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF II (X260)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126752,
+      "modelId": 14381,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF II (X260)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126753,
+      "modelId": 14381,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF II (X260)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127534,
+      "modelId": 37987,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF SPORTBRAKE (X260)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127993,
+      "modelId": 14381,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF II (X260)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128315,
+      "modelId": 14381,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF II (X260)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128637,
+      "modelId": 37987,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF SPORTBRAKE (X260)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132593,
+      "modelId": 37987,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF SPORTBRAKE (X260)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145592,
+      "modelId": 37987,
+      "manufacturerName": "JAGUAR",
+      "modelName": "XF SPORTBRAKE (X260)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18603,
+      "modelId": 5090,
+      "manufacturerName": "VOLVO",
+      "modelName": "V50 (545)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 15444,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15486,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15487,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 50327,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 46995,
+      "modelId": 6836,
+      "manufacturerName": "FORD USA",
+      "modelName": "FUSION",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 56757,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 56758,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 56760,
+      "modelId": 8995,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 56761,
+      "modelId": 8996,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX (DXA/CB7, DXA/CEU)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 108777,
+      "modelId": 13359,
+      "manufacturerName": "FORD",
+      "modelName": "GRAND C-MAX Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 108790,
+      "modelId": 13360,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 108791,
+      "modelId": 13360,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX II Van",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 126022,
+      "modelId": 14864,
+      "manufacturerName": "JAGUAR",
+      "modelName": "F-PACE (X761)",
+      "typeEngineName": "2.0 Ti4 AWD",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127990,
+      "modelId": 14864,
+      "manufacturerName": "JAGUAR",
+      "modelName": "F-PACE (X761)",
+      "typeEngineName": "2.0 Ti4 AWD",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128768,
+      "modelId": 14864,
+      "manufacturerName": "JAGUAR",
+      "modelName": "F-PACE (X761)",
+      "typeEngineName": "2.0 Ti4",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "75"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "3/4-16 UNF-2B"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "76"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "420"
+    },
+    {
+      "criteriaName": "Bypass Valve Opening Pressure [bar]",
+      "criteriaValue": "1,4"
+    },
+    {
+      "criteriaName": "Article number of the recommended special tool",
+      "criteriaValue": "LS 7"
+    },
+    {
+      "criteriaName": "Gasket inside diameter [mm]",
+      "criteriaValue": "61"
+    },
+    {
+      "criteriaName": "Gasket outside diameter [mm]",
+      "criteriaValue": "70"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "ONAN",
+      "oemDisplayNo": "0122-0645"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152-03002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152-64010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "08922-02011"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "0XW 115 351 B"
+    },
+    {
+      "oemBrand": "WEIDEMANN",
+      "oemDisplayNo": "100 023 1366"
+    },
+    {
+      "oemBrand": "CHANGAN",
+      "oemDisplayNo": "1012010-A01"
+    },
+    {
+      "oemBrand": "MINI",
+      "oemDisplayNo": "11 42 0 306 483"
+    },
+    {
+      "oemBrand": "BMW",
+      "oemDisplayNo": "11 42 7 791 059"
+    },
+    {
+      "oemBrand": "MINI",
+      "oemDisplayNo": "11 42 7 791 059"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1218 846"
+    },
+    {
+      "oemBrand": "ONAN",
+      "oemDisplayNo": "122-0645"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1250 507"
+    },
+    {
+      "oemBrand": "PERKINS",
+      "oemDisplayNo": "140 517 050"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "15600-25010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15600-25010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15600-25010-83"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "15600-87104"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "15600-87307"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601-25010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601-76009"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601-76009-71"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601-78001"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601-78001-71"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "15601-87307"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "15601-87705"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601-96006"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1595 247"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1751 529"
+    },
+    {
+      "oemBrand": "FORD (CHANGAN)",
+      "oemDisplayNo": "1S7E 6714 CA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1S7G-6714-CA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1S7G-6714-DA"
+    },
+    {
+      "oemBrand": "CATERPILLAR",
+      "oemDisplayNo": "220-1523"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "2468342"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "30711781"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "30731880"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "31330049"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "31330050"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "40111-834"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "40150-30370-71"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "5015 485"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "5097 737"
+    },
+    {
+      "oemBrand": "WEIDEMANN",
+      "oemDisplayNo": "574 751 7050"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "59030255"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "74434793"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "74434794"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "74446335"
+    },
+    {
+      "oemBrand": "CATERPILLAR",
+      "oemDisplayNo": "817003"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-03002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-03005"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-20001"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-20002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-20003"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-20004"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-33021"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-40001"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-TB001"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-TB001-00"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-YZZD2"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-YZZG1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-YZZJ3"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-YZZJ4"
+    },
+    {
+      "oemBrand": "JINBEI",
+      "oemDisplayNo": "90915YZZB2"
+    },
+    {
+      "oemBrand": "FORD (CHANGAN)",
+      "oemDisplayNo": "9W7E 6714 AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "9W7E-6714-AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "9W7Z/6731/A/"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "AA6E-6714-AB"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "AA6E6714AA"
+    },
+    {
+      "oemBrand": "JOHN DEERE",
+      "oemDisplayNo": "AM101207"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "BE8Z/6731/AB/"
+    },
+    {
+      "oemBrand": "JAGUAR",
+      "oemDisplayNo": "C2Z 21964"
+    },
+    {
+      "oemBrand": "JAGUAR",
+      "oemDisplayNo": "C2Z 32125"
+    },
+    {
+      "oemBrand": "JAGUAR (CHERY)",
+      "oemDisplayNo": "C2Z21964"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "J90 915 200 01"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "J90 915 200 03"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LF05-14-302A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LF10-14-302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LF10-14-302A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LF10-14302 9B"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LF10-143029A"
+    },
+    {
+      "oemBrand": "FORD (CHANGAN)",
+      "oemDisplayNo": "LF8L 14302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LFY1-14302"
+    },
+    {
+      "oemBrand": "LAND ROVER",
+      "oemDisplayNo": "LR 025306"
+    },
+    {
+      "oemBrand": "LAND ROVER",
+      "oemDisplayNo": "LR 096524"
+    }
+  ],
+  "ean": "4011558044220",
+  "originalSKU": "30731880",
+  "fetchedAt": "2026-03-17T16:11:02Z",
+  "enrichedVia": "OEM (30731880)"
+}

@@ -1,0 +1,118 @@
+{
+  "articleNo": "LX 5364",
+  "articleId": 7966324,
+  "supplier": "KNECHT",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 137594,
+      "modelId": 38087,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (OS, OSE, OSI)",
+      "typeEngineName": "1.6 GDi Hybrid",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 139095,
+      "modelId": 38897,
+      "manufacturerName": "KIA",
+      "modelName": "CEED Sportswagon (CD)",
+      "typeEngineName": "1.6 GDI Hybrid",
+      "constructionIntervalStart": "2019-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139293,
+      "modelId": 39864,
+      "manufacturerName": "KIA",
+      "modelName": "XCEED (CD)",
+      "typeEngineName": "1.6 GDI Hybrid",
+      "constructionIntervalStart": "2019-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141383,
+      "modelId": 39659,
+      "manufacturerName": "KIA",
+      "modelName": "CEED Combi Van (CD)",
+      "typeEngineName": "GDI Hybrid",
+      "constructionIntervalStart": "2019-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141400,
+      "modelId": 40995,
+      "manufacturerName": "KIA",
+      "modelName": "XCEED Van (CD)",
+      "typeEngineName": "1.6 GDI Hybrid",
+      "constructionIntervalStart": "2019-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141514,
+      "modelId": 41036,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA SUV Van (OS, OSE, OSI)",
+      "typeEngineName": "1.6 GDi Hybrid",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "247"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "342"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "66,5"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "25,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "5,00"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "35,00"
+    },
+    {
+      "criteriaName": "Seal Material",
+      "criteriaValue": "6"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "293"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113CM100"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "28113CM100"
+    },
+    {
+      "oemBrand": "AMC",
+      "oemDisplayNo": "HA664"
+    }
+  ],
+  "ean": "4057635216944",
+  "originalSKU": "28113CM100",
+  "fetchedAt": "2026-03-17T16:09:17Z",
+  "enrichedVia": "OEM (28113CM100)"
+}

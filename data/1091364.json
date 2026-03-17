@@ -1,0 +1,121 @@
+{
+  "articleNo": "170310",
+  "articleId": 1568439,
+  "supplier": "FEBI BILSTEIN",
+  "product": "Expansion Tank, coolant",
+  "vehicles": [
+    {
+      "vehicleId": 9639,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9640,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9642,
+      "modelId": 3590,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Saloon (DFW)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9643,
+      "modelId": 3590,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Saloon (DFW)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9645,
+      "modelId": 3589,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Turnier (DNW)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 9646,
+      "modelId": 3589,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Turnier (DNW)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 111336,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 132337,
+      "modelId": 38849,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Estate Van (DNW)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 132338,
+      "modelId": 38849,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Estate Van (DNW)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-03-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "0,438"
+    },
+    {
+      "criteriaName": "Material",
+      "criteriaValue": "24"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "288"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 068 068"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 091 364"
+    },
+    {
+      "oemBrand": "FORD USA",
+      "oemDisplayNo": "98AB-8K218-BH"
+    }
+  ],
+  "ean": "4054224703106",
+  "originalSKU": "1091364",
+  "fetchedAt": "2026-03-17T15:18:18Z",
+  "enrichedVia": "OEM (1091364)"
+}

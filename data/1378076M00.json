@@ -1,0 +1,111 @@
+{
+  "articleNo": "LX 3154",
+  "articleId": 7964714,
+  "supplier": "KNECHT",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 9368,
+      "modelId": 8769,
+      "manufacturerName": "MARUTI SUZUKI",
+      "modelName": "ALTO",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2012-10-01"
+    },
+    {
+      "vehicleId": 111361,
+      "modelId": 10492,
+      "manufacturerName": "MARUTI SUZUKI",
+      "modelName": "ZEN ESTILO",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 107857,
+      "modelId": 13151,
+      "manufacturerName": "SUZUKI",
+      "modelName": "CELERIO (LF)",
+      "typeEngineName": "1.0 (AVK310)",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "261,9"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "95"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "62,1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "10,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "7,00"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "27,10"
+    },
+    {
+      "criteriaName": "Seal Material",
+      "criteriaValue": "6"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "224"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1378065L00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1378076M00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1378076M00000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780B76M00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780B76M00000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780B76M00N"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780B76M00N000"
+    },
+    {
+      "oemBrand": "MARUTI SUZUKI",
+      "oemDisplayNo": "13780M65L00"
+    }
+  ],
+  "ean": "4009026964224",
+  "originalSKU": "1378076M00",
+  "fetchedAt": "2026-03-17T15:33:38Z",
+  "enrichedVia": "OEM (1378076M00)"
+}

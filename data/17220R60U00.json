@@ -1,0 +1,76 @@
+{
+  "articleNo": "F 026 400 328",
+  "articleId": 6926169,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 29480,
+      "modelId": 7803,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII (CU)",
+      "typeEngineName": "2.0 i (CU1)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 29483,
+      "modelId": 7804,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII Estate (CW)",
+      "typeEngineName": "2.0 i (CW1)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 108589,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "2.0 (CR1)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122279,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "2.0 E85 (CR1)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "229"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "210"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "51,5"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "17220-R60-U00"
+    },
+    {
+      "oemBrand": "IVECO",
+      "oemDisplayNo": "J1324062"
+    }
+  ],
+  "ean": "4047026319583",
+  "originalSKU": "17220R60U00",
+  "fetchedAt": "2026-03-17T15:48:49Z",
+  "enrichedVia": "OEM (17220R60U00)"
+}

@@ -1,0 +1,898 @@
+{
+  "articleNo": "F 026 400 228",
+  "articleId": 6926077,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 8452,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 122231,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 127008,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT AWD",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 8454,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 10618,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 33131,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 33713,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33714,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT AWD",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33715,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33716,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CRDi AWD",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 53314,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 55572,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 56654,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 58619,
+      "modelId": 11139,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV",
+      "typeEngineName": "1.6 GDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 58620,
+      "modelId": 11139,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58621,
+      "modelId": 11139,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 58622,
+      "modelId": 11139,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 58894,
+      "modelId": 11139,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 59771,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 59772,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CRDi AWD",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 100410,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT AWD",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 101088,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 GDI",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 101089,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 GDI AWD",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 114089,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 120696,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT AWD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 122257,
+      "modelId": 11139,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV",
+      "typeEngineName": "2.0 MPI",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 125220,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 4WD",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 125643,
+      "modelId": 11139,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132427,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 133960,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT AWD",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 133966,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT AWD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 133969,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 134380,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 134579,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CRDi 4WD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 134825,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 134826,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 134827,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 138440,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 138442,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 138461,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.4 CVVT 4WD",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 142826,
+      "modelId": 41628,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV Van (A4)",
+      "typeEngineName": "CRDi",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 142827,
+      "modelId": 41628,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV Van (A4)",
+      "typeEngineName": "CRDi",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 151411,
+      "modelId": 11139,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 9930,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 9931,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33133,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33134,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CRDi 4WD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33135,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CRDi 4WD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 56225,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 56226,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CRDi 4WD",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 100805,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 GDi 4WD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 119295,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 119296,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 120682,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 138460,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 4WD",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 142769,
+      "modelId": 41617,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 Van",
+      "typeEngineName": "GDi",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 142773,
+      "modelId": 41617,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 Van",
+      "typeEngineName": "CRDi",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 10620,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "2.0 GDI",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 10622,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 10623,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 55573,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "2.0 GDI",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 55574,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 55575,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 113136,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 115229,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "1.7 CRDI",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 117569,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 117570,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 127925,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "1.7 CRDI",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 127926,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "1.7 CRDI",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 129307,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "2.0 GDI",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 131796,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 138457,
+      "modelId": 40157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I Kombi Van (VF)",
+      "typeEngineName": "1.7 CRDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 11312,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CRDi AWD",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 11313,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31486,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CVVT 4WD",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33132,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 4WD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33147,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 57290,
+      "modelId": 8751,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE III (SL)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 109366,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 109367,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111080,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 115231,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 127713,
+      "modelId": 10446,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I (VF)",
+      "typeEngineName": "2.0 GDI",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 110519,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.4 DCVVT-I 4WD",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 118700,
+      "modelId": 11139,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS IV",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 128236,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CVVT 4WD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 128256,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 132021,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 134583,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 139167,
+      "modelId": 9650,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i40 I CW (VF)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 9446,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 142776,
+      "modelId": 41617,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 Van",
+      "typeEngineName": "CRDi",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 143063,
+      "modelId": 41617,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 Van",
+      "typeEngineName": "CRDi 4WD",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 100807,
+      "modelId": 8260,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix35 (LM, EL, ELH)",
+      "typeEngineName": "2.0 GDi",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "258"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "163"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "53"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113 2S000"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "28113 2S000"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "28113 3Z100"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113-3Z100"
+    }
+  ],
+  "ean": "4047024902589",
+  "originalSKU": "281132S000",
+  "fetchedAt": "2026-03-17T16:08:22Z",
+  "enrichedVia": "OEM (281132S000)"
+}

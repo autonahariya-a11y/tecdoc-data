@@ -1,0 +1,2893 @@
+{
+  "articleNo": "0 451 103 276",
+  "articleId": 50116,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 779,
+      "modelId": 8005,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 Saloon (GY, RW)",
+      "typeEngineName": "1.6 (RW416)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19094,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 (RS413, ZC11S)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19205,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 4x4 (RS413, ZD11S)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23443,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.6 (RS416, RR 416, ZC31S)",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27332,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 4x4 (RS 413, ZD11S)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34970,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 (A6B424)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34971,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 4x4 (A6B424)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123021,
+      "modelId": 8992,
+      "manufacturerName": "SUZUKI",
+      "modelName": "KIZASHI (FR)",
+      "typeEngineName": "2.4 (A6B 424)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123025,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (JB416)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124116,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 (RS413, ZC11S)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 816,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.5 VVT (RW415, YA11S)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1756,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 1790,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.6 16V 4x4",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 3579,
+      "modelId": 535,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Hatchback (_T16_)",
+      "typeEngineName": "1.6 GT (AT160_, AT160R)",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 4478,
+      "modelId": 3574,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SJ410",
+      "typeEngineName": "1.0 (SJ410)",
+      "constructionIntervalStart": "1981-09-01",
+      "constructionIntervalEnd": "1988-12-01"
+    },
+    {
+      "vehicleId": 4482,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 All-wheel Drive (SJ413)",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 4483,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 All-wheel Drive (SJ413)",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 4485,
+      "modelId": 1242,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SJ413 (OS)",
+      "typeEngineName": "1.3 (SJ413)",
+      "constructionIntervalStart": "1986-08-01",
+      "constructionIntervalEnd": "1990-08-01"
+    },
+    {
+      "vehicleId": 4493,
+      "modelId": 1880,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA Cabrio (ET, TA)",
+      "typeEngineName": "1.6 (TA01, SE416)",
+      "constructionIntervalStart": "1988-07-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 4506,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "1.6 i 16V All-wheel Drive (ET, TA02, SE416)",
+      "constructionIntervalStart": "1990-07-01",
+      "constructionIntervalEnd": "1998-03-01"
+    },
+    {
+      "vehicleId": 4510,
+      "modelId": 1880,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA Cabrio (ET, TA)",
+      "typeEngineName": "1.6 i 16V (TA02, SE416)",
+      "constructionIntervalStart": "1990-07-01",
+      "constructionIntervalEnd": "1999-03-01"
+    },
+    {
+      "vehicleId": 4768,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "2.0 V6 24V All-wheel Drive (SV620)",
+      "constructionIntervalStart": "1994-12-01",
+      "constructionIntervalEnd": "1998-03-01"
+    },
+    {
+      "vehicleId": 5261,
+      "modelId": 1481,
+      "manufacturerName": "SUZUKI",
+      "modelName": "X-90 (EL)",
+      "typeEngineName": "1.6 i 16V 4x4 (SZ416)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 5681,
+      "modelId": 1481,
+      "manufacturerName": "SUZUKI",
+      "modelName": "X-90 (EL)",
+      "typeEngineName": "1.6 i 16V (SZ416)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 7692,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "2.0 16V All-wheel Drive (SV420)",
+      "constructionIntervalStart": "1996-12-01",
+      "constructionIntervalEnd": "1998-03-01"
+    },
+    {
+      "vehicleId": 7697,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "2.5 V6 24V All-wheel Drive (FT)",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "1998-03-01"
+    },
+    {
+      "vehicleId": 9732,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 VVTL-i TS (ZZE123_, ZZE123R)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 10184,
+      "modelId": 7218,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U3_)",
+      "typeEngineName": "2.4 4WD (ACU35_, ACU35W)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 11102,
+      "modelId": 4976,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T25_)",
+      "typeEngineName": "2.0 VVT-i (AZT250_, AZT250R)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 11239,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.5 V6 24V 4x4 (TD62, SQ625)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 11516,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "1.6 4x4 (SQ416)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 11517,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.0 4x4 (TA52, TL52, SQ420)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 11746,
+      "modelId": 8994,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT IV (FZ, NZ)",
+      "typeEngineName": "1.6 (AZG416, AZH416, RS416, ZC32S, ZA32S)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14907,
+      "modelId": 4649,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 II (_A2_)",
+      "typeEngineName": "2.0 4WD (ACA21, ACA20)",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 15523,
+      "modelId": 4732,
+      "manufacturerName": "SUZUKI",
+      "modelName": "IGNIS I (FH)",
+      "typeEngineName": "1.3 (HV51, HX51, RG413)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-09-01"
+    },
+    {
+      "vehicleId": 15524,
+      "modelId": 4732,
+      "manufacturerName": "SUZUKI",
+      "modelName": "IGNIS I (FH)",
+      "typeEngineName": "1.3 4WD (RG413)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-09-01"
+    },
+    {
+      "vehicleId": 15863,
+      "modelId": 4766,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Bus (_R2_)",
+      "typeEngineName": "2.2 (YR22LG)",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1995-01-01"
+    },
+    {
+      "vehicleId": 16026,
+      "modelId": 4791,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS VERSO (_M2_)",
+      "typeEngineName": "2.0 VVT-i (ACM20_, ACM20R)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 16075,
+      "modelId": 37901,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA Hatchback",
+      "typeEngineName": "1.6 (RH416)",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16076,
+      "modelId": 37901,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA Hatchback",
+      "typeEngineName": "1.6 4WD",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16095,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 16V 4WD (SN413, JB43)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16375,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 VVTL-i TS (ZZE123)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 17217,
+      "modelId": 4975,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T25_)",
+      "typeEngineName": "2.0 VVT-i (AZT250_, AZT250R)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17220,
+      "modelId": 4976,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T25_)",
+      "typeEngineName": "2.0 VVT-i (AZT250_, AZT250R)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17222,
+      "modelId": 4975,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T25_)",
+      "typeEngineName": "2.4 VVT-i (AZT251_, AZT251R)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17223,
+      "modelId": 4976,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T25_)",
+      "typeEngineName": "2.4 VVT-i (AZT251_, AZT251R)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17303,
+      "modelId": 37901,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA Hatchback",
+      "typeEngineName": "1.6 i (RH416)",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17304,
+      "modelId": 37901,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA Hatchback",
+      "typeEngineName": "1.6 4WD",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17345,
+      "modelId": 5002,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS (_T25_)",
+      "typeEngineName": "2.0 VVT-i (AZT250_, AZT250R)",
+      "constructionIntervalStart": "2003-03-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17346,
+      "modelId": 5002,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS (_T25_)",
+      "typeEngineName": "2.4 VVT-i (AZT251_, AZT251R)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17708,
+      "modelId": 4975,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T25_)",
+      "typeEngineName": "2.4 VVT-i (AZT251_, AZT251R)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 17709,
+      "modelId": 5002,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS (_T25_)",
+      "typeEngineName": "2.4 VVT-i (AZT251_, AZT251R)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 17710,
+      "modelId": 4976,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T25_)",
+      "typeEngineName": "2.4 VVT-i (AZT251_, AZT251R)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 17763,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.7 4x4 (TX92, JA627)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 17870,
+      "modelId": 4732,
+      "manufacturerName": "SUZUKI",
+      "modelName": "IGNIS I (FH)",
+      "typeEngineName": "1.5 Sport (RG415)",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 18287,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.5 V6 24V 4x4 (SQ625)",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 19252,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 VVTL-i TS (ZZE123_, ZZE123R)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 19991,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 16V 4x4 (SN413, JB43)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20150,
+      "modelId": 114,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E9_)",
+      "typeEngineName": "1.6 XL (AE92_, AE92R)",
+      "constructionIntervalStart": "1989-09-01",
+      "constructionIntervalEnd": "1992-04-01"
+    },
+    {
+      "vehicleId": 20782,
+      "modelId": 4649,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 II (_A2_)",
+      "typeEngineName": "2.4 4WD (ACA23, ACA22)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 20828,
+      "modelId": 37901,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA Hatchback",
+      "typeEngineName": "1.8 i (RH418, RD51S, RC51S)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 22453,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "1.6 4x4 (SQ416)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 22930,
+      "modelId": 6252,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALLION I (_T24_)",
+      "typeEngineName": "2.0 (AZT240)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 22986,
+      "modelId": 6253,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALPHARD I (_H1_)",
+      "typeEngineName": "2.4 Hybrid 4WD (ATH10W)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-04-01"
+    },
+    {
+      "vehicleId": 23277,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 All-wheel Drive (SJ413)",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 24371,
+      "modelId": 6683,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VISTA Saloon (_V5_)",
+      "typeEngineName": "2.0 (AZV50)",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 24399,
+      "modelId": 6692,
+      "manufacturerName": "TOYOTA",
+      "modelName": "WISH MPV (_E1_)",
+      "typeEngineName": "2.0 VVTi (ANE10G, ANE11W)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 25354,
+      "modelId": 4791,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS VERSO (_M2_)",
+      "typeEngineName": "2.4 VVT-i 4WD (ACM26_, ACM26W)",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 25589,
+      "modelId": 6253,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALPHARD I (_H1_)",
+      "typeEngineName": "2.4 (ANH10W)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-04-01"
+    },
+    {
+      "vehicleId": 25590,
+      "modelId": 6253,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALPHARD I (_H1_)",
+      "typeEngineName": "2.4 4WD (ANH15W)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-04-01"
+    },
+    {
+      "vehicleId": 25633,
+      "modelId": 6325,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MASTER ACE SURF Bus (_R2_)",
+      "typeEngineName": "2.0 (YR21)",
+      "constructionIntervalStart": "1985-02-01",
+      "constructionIntervalEnd": "1990-08-01"
+    },
+    {
+      "vehicleId": 26098,
+      "modelId": 7200,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CALDINA Estate (_T21_)",
+      "typeEngineName": "2.0 4WD (ST215W_, ST215W)",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 26099,
+      "modelId": 7200,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CALDINA Estate (_T21_)",
+      "typeEngineName": "2.0 4WD (ST215W_, ST215W)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 26100,
+      "modelId": 7201,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CALDINA Estate (_T24_)",
+      "typeEngineName": "2.0 (AZT241W_, AZT241W)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 26134,
+      "modelId": 7217,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U1_)",
+      "typeEngineName": "2.4 (ACU10)",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2003-01-01"
+    },
+    {
+      "vehicleId": 26135,
+      "modelId": 7217,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U1_)",
+      "typeEngineName": "2.4 4WD (ACU15)",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2003-01-01"
+    },
+    {
+      "vehicleId": 26146,
+      "modelId": 7221,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ISIS (_M1_)",
+      "typeEngineName": "2.0 VVTi (ANM10G)",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 26169,
+      "modelId": 7228,
+      "manufacturerName": "TOYOTA",
+      "modelName": "NOAH/VOXY (_R6_)",
+      "typeEngineName": "2.0 (AZR60G)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 26170,
+      "modelId": 7228,
+      "manufacturerName": "TOYOTA",
+      "modelName": "NOAH/VOXY (_R6_)",
+      "typeEngineName": "2.0 4WD (AZR65)",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 26171,
+      "modelId": 7229,
+      "manufacturerName": "TOYOTA",
+      "modelName": "GAIA (_M1_)",
+      "typeEngineName": "2.0 VVTi (ACM10)",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 26172,
+      "modelId": 7229,
+      "manufacturerName": "TOYOTA",
+      "modelName": "GAIA (_M1_)",
+      "typeEngineName": "2.0 VVTi 4WD (ACM15)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 27130,
+      "modelId": 1232,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT II Hatchback (EA, MA)",
+      "typeEngineName": "1.3 (SF413)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 27133,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 (SJ 413)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1992-07-01"
+    },
+    {
+      "vehicleId": 27318,
+      "modelId": 4975,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T25_)",
+      "typeEngineName": "2.0 VVTi (AZT250_)",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 27321,
+      "modelId": 5002,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS (_T25_)",
+      "typeEngineName": "2.0 VVTi (AZT250_)",
+      "constructionIntervalStart": "2003-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 29751,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "1.6 4x4 (SQ416)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2002-09-01"
+    },
+    {
+      "vehicleId": 30101,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.7 (JA 627)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 30333,
+      "modelId": 4890,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA (ER, RH_)",
+      "typeEngineName": "1.6 4WD (RH416)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 30334,
+      "modelId": 37901,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA Hatchback",
+      "typeEngineName": "1.6 4WD",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 30335,
+      "modelId": 37901,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA Hatchback",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 30684,
+      "modelId": 7950,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURION (_V4_)",
+      "typeEngineName": "2.4 (ACV40)",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 30862,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 All-wheel Drive (JB424)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31383,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 All-wheel Drive (JT424, JB424, TDA4)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32440,
+      "modelId": 8391,
+      "manufacturerName": "HOLDEN",
+      "modelName": "DROVER Pickup (QB)",
+      "typeEngineName": "1.3 4x4",
+      "constructionIntervalStart": "1985-03-01",
+      "constructionIntervalEnd": "1987-12-01"
+    },
+    {
+      "vehicleId": 33549,
+      "modelId": 3955,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MR2 II (SW2_)",
+      "typeEngineName": "2.0 Turbo (SW20_, SW20R)",
+      "constructionIntervalStart": "1989-12-01",
+      "constructionIntervalEnd": "1999-07-01"
+    },
+    {
+      "vehicleId": 33552,
+      "modelId": 4649,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 II (_A2_)",
+      "typeEngineName": "2.4 4WD (ACA23, ACA22)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 34837,
+      "modelId": 5813,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V4_)",
+      "typeEngineName": "2.4 (ACV40_, ACV40R)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 34944,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.7 4x4 (JA627)",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 49100,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 4WD (SJ 413)",
+      "constructionIntervalStart": "1989-09-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 49105,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "1.6 (SE 416)",
+      "constructionIntervalStart": "1989-09-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 56179,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.0 4x4 (SQ 420)",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 57752,
+      "modelId": 5813,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V4_)",
+      "typeEngineName": "2.4 (ACV40_)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 59033,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "2.4 4WD (ACU25_)",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2003-09-01"
+    },
+    {
+      "vehicleId": 100878,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 (AKK416, YA22S)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 100880,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 AllGrip (AKK416, YB22S)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 101074,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "1.6 (SE 416)",
+      "constructionIntervalStart": "1991-02-01",
+      "constructionIntervalEnd": "1998-03-01"
+    },
+    {
+      "vehicleId": 101086,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 (SJ 413)",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "1992-07-01"
+    },
+    {
+      "vehicleId": 106326,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 4WD (SN413)",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107001,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.0 4x4 (SQ 420)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 107609,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 (JB424)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107659,
+      "modelId": 3955,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MR2 II (SW2_)",
+      "typeEngineName": "2.0 Turbo (SW20_, SW20R)",
+      "constructionIntervalStart": "1989-12-01",
+      "constructionIntervalEnd": "1999-07-01"
+    },
+    {
+      "vehicleId": 109650,
+      "modelId": 13581,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Coupe (_E9_)",
+      "typeEngineName": "1.6 (AE92_)",
+      "constructionIntervalStart": "1987-05-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 110038,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 (APK 416)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110039,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 AllGrip (APK 416)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115782,
+      "modelId": 14518,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I Open Off-Road Vehicle (GT)",
+      "typeEngineName": "1.6 4x4 (SQ416)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 115783,
+      "modelId": 14518,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I Open Off-Road Vehicle (GT)",
+      "typeEngineName": "2.0 4x4 (SQ420)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 117863,
+      "modelId": 1880,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA Cabrio (ET, TA)",
+      "typeEngineName": "1.6 (SE416)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 119160,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (SE 416)",
+      "constructionIntervalStart": "1991-02-01",
+      "constructionIntervalEnd": "1998-03-01"
+    },
+    {
+      "vehicleId": 119259,
+      "modelId": 10892,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "GRAND VITARA",
+      "typeEngineName": "2.0 4WD",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 119280,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 All-wheel Drive (JB420)",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2010-02-01"
+    },
+    {
+      "vehicleId": 121229,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 (APK416, YD21S)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121230,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 AllGrip (APK416, YE21S)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122716,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 (JB420)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123029,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 All-wheel Drive (JB424)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123110,
+      "modelId": 8007,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T27_)",
+      "typeEngineName": "2.0 VVT-i (AZT270_, AZT270R)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2011-04-01"
+    },
+    {
+      "vehicleId": 124170,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "2.4 (ACV30)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 124171,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "2.4 4WD (ACV35)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 124575,
+      "modelId": 7201,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CALDINA Estate (_T24_)",
+      "typeEngineName": "2.0 4WD (ST246W)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 124578,
+      "modelId": 3955,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MR2 II (SW2_)",
+      "typeEngineName": "2.0 (SW20)",
+      "constructionIntervalStart": "1989-12-01",
+      "constructionIntervalEnd": "1999-07-01"
+    },
+    {
+      "vehicleId": 124713,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "1.8 (ZZE123_, ZZE123R)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 125730,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 (AKK416)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 125731,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 AllGrip (AKK416)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 126837,
+      "modelId": 37841,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA LEVIN Coupe (E9_)",
+      "typeEngineName": "1.6 (AE92)",
+      "constructionIntervalStart": "1989-05-01",
+      "constructionIntervalEnd": "1991-05-01"
+    },
+    {
+      "vehicleId": 126949,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 (AKK 416)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 127379,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT 4x4",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 127383,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 127439,
+      "modelId": 4646,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA II (_R3_)",
+      "typeEngineName": "2.4 (ACR30W)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 127459,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.8 VVTL-i TS (ZZE123)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 128042,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 128523,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128526,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 AllGrip",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128527,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129100,
+      "modelId": 38283,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Open Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 All-wheel Drive (SJ413)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1992-07-01"
+    },
+    {
+      "vehicleId": 129108,
+      "modelId": 38290,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Open Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 4WD (SN413)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129638,
+      "modelId": 38365,
+      "manufacturerName": "LEXUS",
+      "modelName": "LS (_F5_)",
+      "typeEngineName": "500 (VXFA50_, VXFA50R)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129782,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 16V 4WD",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129789,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 VVT",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129790,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 VVT AllGrip",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129813,
+      "modelId": 38531,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SJ413 Open Off-Road Vehicle (OS)",
+      "typeEngineName": "1.3 (SJ413)",
+      "constructionIntervalStart": "1985-01-01",
+      "constructionIntervalEnd": "1985-12-01"
+    },
+    {
+      "vehicleId": 133329,
+      "modelId": 4646,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA II (_R3_)",
+      "typeEngineName": "2.4 4WD (ACR30)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 133410,
+      "modelId": 7228,
+      "manufacturerName": "TOYOTA",
+      "modelName": "NOAH/VOXY (_R6_)",
+      "typeEngineName": "2.0 (AZR60G)",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 133412,
+      "modelId": 7228,
+      "manufacturerName": "TOYOTA",
+      "modelName": "NOAH/VOXY (_R6_)",
+      "typeEngineName": "2.0 4WD (AZR65G)",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 133866,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.3 LPG (RS 413)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 136501,
+      "modelId": 4666,
+      "manufacturerName": "SUZUKI",
+      "modelName": "WAGON R+ (MA)",
+      "typeEngineName": "1.0 (RB310)",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 139114,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "2.4 (ACV30)",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2006-02-01"
+    },
+    {
+      "vehicleId": 146344,
+      "modelId": 42623,
+      "manufacturerName": "LEXUS",
+      "modelName": "LX (_J3_)",
+      "typeEngineName": "600 AWD (VJA310)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147759,
+      "modelId": 42439,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 300 (_J3_)",
+      "typeEngineName": "3.4 (VJA300)",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152652,
+      "modelId": 42623,
+      "manufacturerName": "LEXUS",
+      "modelName": "LX (_J3_)",
+      "typeEngineName": "500d AWD (FJA310)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 2882,
+      "modelId": 4732,
+      "manufacturerName": "SUZUKI",
+      "modelName": "IGNIS I (FH)",
+      "typeEngineName": "1.5 (HV81, RG415)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 3488,
+      "modelId": 114,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E9_)",
+      "typeEngineName": "1.6 (AE92)",
+      "constructionIntervalStart": "1987-05-01",
+      "constructionIntervalEnd": "1992-11-01"
+    },
+    {
+      "vehicleId": 3490,
+      "modelId": 125,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Compact (_E9_)",
+      "typeEngineName": "1.6 GTi (AE92, AE93)",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1994-10-01"
+    },
+    {
+      "vehicleId": 6745,
+      "modelId": 151,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Liftback (_E9_)",
+      "typeEngineName": "1.6 GTI (AE92_, AE92R)",
+      "constructionIntervalStart": "1987-07-01",
+      "constructionIntervalEnd": "1993-06-01"
+    },
+    {
+      "vehicleId": 121307,
+      "modelId": 114,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E9_)",
+      "typeEngineName": "1.6 (AE92)",
+      "constructionIntervalStart": "1987-05-01",
+      "constructionIntervalEnd": "1993-07-01"
+    },
+    {
+      "vehicleId": 3577,
+      "modelId": 535,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Hatchback (_T16_)",
+      "typeEngineName": "1.6 GT 16V (AT160_, AT160R)",
+      "constructionIntervalStart": "1985-09-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 3588,
+      "modelId": 318,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MR2 I (AW1_)",
+      "typeEngineName": "1.6 16V (AW11)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1990-06-01"
+    },
+    {
+      "vehicleId": 3589,
+      "modelId": 318,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MR2 I (AW1_)",
+      "typeEngineName": "1.6 16V (AW11)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1990-06-01"
+    },
+    {
+      "vehicleId": 3618,
+      "modelId": 540,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Coupe (_T18_)",
+      "typeEngineName": "2.0 4WD (ST185)",
+      "constructionIntervalStart": "1989-10-01",
+      "constructionIntervalEnd": "1993-11-01"
+    },
+    {
+      "vehicleId": 3619,
+      "modelId": 540,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Coupe (_T18_)",
+      "typeEngineName": "2.0 4WD (ST185)",
+      "constructionIntervalStart": "1989-10-01",
+      "constructionIntervalEnd": "1994-01-01"
+    },
+    {
+      "vehicleId": 4451,
+      "modelId": 1232,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT II Hatchback (EA, MA)",
+      "typeEngineName": "1.0 i (SF310, AA44)",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 4477,
+      "modelId": 1238,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SJ410 Cabrio (OS)",
+      "typeEngineName": "1.0 (SJ410)",
+      "constructionIntervalStart": "1981-09-01",
+      "constructionIntervalEnd": "1991-07-01"
+    },
+    {
+      "vehicleId": 4486,
+      "modelId": 1242,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SJ413 (OS)",
+      "typeEngineName": "1.3 (SJ413)",
+      "constructionIntervalStart": "1984-09-01",
+      "constructionIntervalEnd": "1990-08-01"
+    },
+    {
+      "vehicleId": 4496,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (TA, TA01, SE416)",
+      "constructionIntervalStart": "1988-07-01",
+      "constructionIntervalEnd": "1998-03-01"
+    },
+    {
+      "vehicleId": 5384,
+      "modelId": 1324,
+      "manufacturerName": "SUZUKI",
+      "modelName": "BALENO Hatchback (EG)",
+      "typeEngineName": "1.8 GTX (SY418)",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2002-05-01"
+    },
+    {
+      "vehicleId": 5385,
+      "modelId": 1325,
+      "manufacturerName": "SUZUKI",
+      "modelName": "BALENO (EG)",
+      "typeEngineName": "1.8 GTX (SY418)",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2002-05-01"
+    },
+    {
+      "vehicleId": 5684,
+      "modelId": 1565,
+      "manufacturerName": "SUZUKI",
+      "modelName": "BALENO Estate (EG)",
+      "typeEngineName": "1.8 i 16V (SY418)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2002-05-01"
+    },
+    {
+      "vehicleId": 5695,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.4 i 24V (VZJ90_, VZJ95_, VZJ90R, VZJ95R, VZJ90W,...",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 25534,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "2.7 (RZJ95, RZJ90)",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 5806,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.4 4WD (ACA31, ACA33)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 19295,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 4WD (ACA30_, ACA30R)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 20645,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.4 (ACA36, ACA38)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 7691,
+      "modelId": 1880,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA Cabrio (ET, TA)",
+      "typeEngineName": "2.0 16V (TA51, SV420)",
+      "constructionIntervalStart": "1996-12-01",
+      "constructionIntervalEnd": "1999-03-01"
+    },
+    {
+      "vehicleId": 109831,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (SE416, TA01)",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 8823,
+      "modelId": 563,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Coupe (_T16_)",
+      "typeEngineName": "1.6 GT 16V (AT160_, AT160R)",
+      "constructionIntervalStart": "1986-04-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 9086,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT 4x4 (RW416)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19550,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT (RW416, YA21S)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10319,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 16V (SN413, JB33)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10321,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 16V 4WD (SN413, JB33)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129105,
+      "modelId": 38290,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Open Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 16V 4WD (SN413, JB33)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10455,
+      "modelId": 5813,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V4_)",
+      "typeEngineName": "2.0 (ACV41_)",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 12928,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 AllGrip (AKK 416)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 33192,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 (AKK 416)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 14791,
+      "modelId": 4666,
+      "manufacturerName": "SUZUKI",
+      "modelName": "WAGON R+ (MA)",
+      "typeEngineName": "1.3 (RB413)",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16358,
+      "modelId": 4666,
+      "manufacturerName": "SUZUKI",
+      "modelName": "WAGON R+ (MA)",
+      "typeEngineName": "1.3 4WD (RB413)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15519,
+      "modelId": 3510,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Liftback (_T22_)",
+      "typeEngineName": "2.0 VVT-i (AZT220_, AZT220R)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-02-01"
+    },
+    {
+      "vehicleId": 15520,
+      "modelId": 3393,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS (_T22_)",
+      "typeEngineName": "2.0 VVT-i (AZT220_, AZT220R)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-02-01"
+    },
+    {
+      "vehicleId": 15521,
+      "modelId": 3394,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T22_)",
+      "typeEngineName": "2.0 VVT-i (AZT220_, AZT220R)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-02-01"
+    },
+    {
+      "vehicleId": 16074,
+      "modelId": 37901,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA Hatchback",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16635,
+      "modelId": 4890,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA (ER, RH_)",
+      "typeEngineName": "1.3 (RH 413)",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16094,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 16V (SN413)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24313,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 (SN413)",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129107,
+      "modelId": 38290,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Open Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 (SN413)",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16362,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "2.4 (ACV30, ACV36)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 16646,
+      "modelId": 4890,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA (ER, RH_)",
+      "typeEngineName": "1.6 (RH416)",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17301,
+      "modelId": 4890,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA (ER, RH_)",
+      "typeEngineName": "1.6 i (RH416)",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17302,
+      "modelId": 4890,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA (ER, RH_)",
+      "typeEngineName": "1.6 4WD (RH416)",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17698,
+      "modelId": 5064,
+      "manufacturerName": "SUZUKI",
+      "modelName": "IGNIS II (MH)",
+      "typeEngineName": "1.3 (RM413)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17699,
+      "modelId": 5064,
+      "manufacturerName": "SUZUKI",
+      "modelName": "IGNIS II (MH)",
+      "typeEngineName": "1.5 (RM415)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17700,
+      "modelId": 5064,
+      "manufacturerName": "SUZUKI",
+      "modelName": "IGNIS II (MH)",
+      "typeEngineName": "1.5 4x4 (RM415)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24635,
+      "modelId": 4890,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA (ER, RH_)",
+      "typeEngineName": "1.8 i (RH418)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26661,
+      "modelId": 5064,
+      "manufacturerName": "SUZUKI",
+      "modelName": "IGNIS II (MH)",
+      "typeEngineName": "1.3 4x4 (RM413)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30332,
+      "modelId": 4890,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA (ER, RH_)",
+      "typeEngineName": "1.6 (RH416)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16647,
+      "modelId": 4890,
+      "manufacturerName": "SUZUKI",
+      "modelName": "LIANA (ER, RH_)",
+      "typeEngineName": "1.6 4WD (RH416)",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17656,
+      "modelId": 5058,
+      "manufacturerName": "SUBARU",
+      "modelName": "JUSTY III (G3X)",
+      "typeEngineName": "1.3 AWD (G3X413)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17657,
+      "modelId": 5058,
+      "manufacturerName": "SUBARU",
+      "modelName": "JUSTY III (G3X)",
+      "typeEngineName": "1.5 AWD (G3X413)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17764,
+      "modelId": 4666,
+      "manufacturerName": "SUZUKI",
+      "modelName": "WAGON R+ (MA)",
+      "typeEngineName": "1.3 (RB413)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 19994,
+      "modelId": 4666,
+      "manufacturerName": "SUZUKI",
+      "modelName": "WAGON R+ (MA)",
+      "typeEngineName": "1.3 4WD (RB413)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131391,
+      "modelId": 7512,
+      "manufacturerName": "SUZUKI",
+      "modelName": "WAGON R (MH21, MH22)",
+      "typeEngineName": "1.3 (RB413)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 19193,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (JB416)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 29602,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (TA74, JB416)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 19517,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.6 16V 4x4",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 19547,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT 4x4 (RW416)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30338,
+      "modelId": 5560,
+      "manufacturerName": "FIAT",
+      "modelName": "SEDICI (189_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 19549,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.5 (RW 415)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 20332,
+      "modelId": 5813,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V4_)",
+      "typeEngineName": "2.4 (ACV40)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 20677,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.3 4x4 (SN413)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 22759,
+      "modelId": 6325,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MASTER ACE SURF Bus (_R2_)",
+      "typeEngineName": "2.0 (YG30_, YR30G)",
+      "constructionIntervalStart": "1990-09-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 22760,
+      "modelId": 6325,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MASTER ACE SURF Bus (_R2_)",
+      "typeEngineName": "2.0 4WD (YG36_, YR36G)",
+      "constructionIntervalStart": "1990-09-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 111873,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "2.4 (ACV30_, ACV30R)",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 25746,
+      "modelId": 7023,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TOWN ACE Bus (_R4_, _R5_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1995-05-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 25833,
+      "modelId": 7064,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TOWN ACE Van",
+      "typeEngineName": "2.0 (YR39)",
+      "constructionIntervalStart": "1992-04-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 26147,
+      "modelId": 7221,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ISIS (_M1_)",
+      "typeEngineName": "2.0 VVTi 4WD (ANM15G)",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 26207,
+      "modelId": 7240,
+      "manufacturerName": "TOYOTA",
+      "modelName": "OPA (ZCT1_, ACT1_)",
+      "typeEngineName": "2.0 (ACT10)",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 27485,
+      "modelId": 7512,
+      "manufacturerName": "SUZUKI",
+      "modelName": "WAGON R (MH21, MH22)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 30854,
+      "modelId": 8005,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 Saloon (GY, RW)",
+      "typeEngineName": "1.6 (RW416)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30855,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 (RW416, YA21S)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30858,
+      "modelId": 8005,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 Saloon (GY, RW)",
+      "typeEngineName": "1.6 (RW416)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32072,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT (RW416, YA21S)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32073,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.6 VVT 4x4 (RW416)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33893,
+      "modelId": 1880,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA Cabrio (ET, TA)",
+      "typeEngineName": "1.6 16V (TA03, SE416)",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 33907,
+      "modelId": 8800,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SIERRA Open Off-Road Vehicle (SJ)",
+      "typeEngineName": "1.3 (SJ413, SF413, SJ70, SJ80)",
+      "constructionIntervalStart": "1989-01-01",
+      "constructionIntervalEnd": "1999-07-01"
+    },
+    {
+      "vehicleId": 49332,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "2.4 (ACU20_)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 59032,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "2.4 (ACU20_)",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 54220,
+      "modelId": 4649,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 II (_A2_)",
+      "typeEngineName": "2.0 (ACA26)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 56085,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 (SJ 413)",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "1998-03-01"
+    },
+    {
+      "vehicleId": 129097,
+      "modelId": 38283,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Open Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 (SJ413)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1998-08-01"
+    },
+    {
+      "vehicleId": 57579,
+      "modelId": 9739,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V5_)",
+      "typeEngineName": "2.0 (ACV51_, ACV51)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 59282,
+      "modelId": 11258,
+      "manufacturerName": "BRILLIANCE",
+      "modelName": "BS4",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108446,
+      "modelId": 318,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MR2 I (AW1_)",
+      "typeEngineName": "1.6 16V (AW11)",
+      "constructionIntervalStart": "1984-06-01",
+      "constructionIntervalEnd": "1989-11-01"
+    },
+    {
+      "vehicleId": 110597,
+      "modelId": 535,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Hatchback (_T16_)",
+      "typeEngineName": "1.6 GTI 16V (AT160_, AT160R)",
+      "constructionIntervalStart": "1988-01-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 122280,
+      "modelId": 7218,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U3_)",
+      "typeEngineName": "2.4 (ACU30_, ACU30W)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 123758,
+      "modelId": 1239,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT II Saloon (AH, AJ)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 124432,
+      "modelId": 5566,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 (EY, GY)",
+      "typeEngineName": "1.5 VVTi (YA11S)",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 124816,
+      "modelId": 4791,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS VERSO (_M2_)",
+      "typeEngineName": "2.4 VVT-i (ACM21_, ACM21R)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 132794,
+      "modelId": 4791,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS VERSO (_M2_)",
+      "typeEngineName": "2.4 VVT-i 4WD (ACM26_, ACM26W)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 125212,
+      "modelId": 13581,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Coupe (_E9_)",
+      "typeEngineName": "1.6 (AE92_, AE92R)",
+      "constructionIntervalStart": "1987-05-01",
+      "constructionIntervalEnd": "1992-04-01"
+    },
+    {
+      "vehicleId": 127886,
+      "modelId": 7257,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREMIO (_T24_)",
+      "typeEngineName": "2.0 (AZT240)",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 129094,
+      "modelId": 38283,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Open Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 All-wheel Drive (SJ413)",
+      "constructionIntervalStart": "1988-04-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 129099,
+      "modelId": 38283,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Open Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 (SJ413)",
+      "constructionIntervalStart": "1988-04-01",
+      "constructionIntervalEnd": "1992-07-01"
+    },
+    {
+      "vehicleId": 129715,
+      "modelId": 7025,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TOWN ACE Bus (_R2_, _R3_)",
+      "typeEngineName": "2.0 (YR21_, YR21RG)",
+      "constructionIntervalStart": "1985-08-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 133186,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 All-wheel Drive",
+      "constructionIntervalStart": "1984-09-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 140879,
+      "modelId": 6268,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SOLARA Convertible (_V2_)",
+      "typeEngineName": "2.4 (ACV20)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2003-09-01"
+    },
+    {
+      "vehicleId": 147762,
+      "modelId": 42439,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 300 (_J3_)",
+      "typeEngineName": "3.3 (FJA300)",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148702,
+      "modelId": 42439,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 300 (_J3_)",
+      "typeEngineName": "3.3 Twin Turbo 4WD (FJA300)",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30102,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.7 (JA 627)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 4505,
+      "modelId": 1237,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (ET, TA, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (SE416, TA01)",
+      "constructionIntervalStart": "1988-07-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 20826,
+      "modelId": 4791,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS VERSO (_M2_)",
+      "typeEngineName": "2.4 VVT-i (ACM21)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 25973,
+      "modelId": 7134,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA III (_R2_, _R5_)",
+      "typeEngineName": "2.4 (ACR50_, ACR50R)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19093,
+      "modelId": 5474,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SWIFT III (MZ, EZ)",
+      "typeEngineName": "1.5 (RS415, ZC21S)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23011,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "2.0 (ACV31_, ACV31)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 14534,
+      "modelId": 4518,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Coupe (_T23_)",
+      "typeEngineName": "1.8 16V TS (ZZT231_, ZZT231R)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 22327,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 (JB420)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 21097,
+      "modelId": 114,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E9_)",
+      "typeEngineName": "1.6 (AE92)",
+      "constructionIntervalStart": "1987-05-01",
+      "constructionIntervalEnd": "1994-04-01"
+    },
+    {
+      "vehicleId": 4480,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 All-wheel Drive (SJ413, SJ70, SJ80)",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 27491,
+      "modelId": 11344,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SJ, JA, JB)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "1998-03-01"
+    },
+    {
+      "vehicleId": 56086,
+      "modelId": 1241,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SAMURAI Closed Off-Road Vehicle (SJ_)",
+      "typeEngineName": "1.3 (SJ 413)",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 123705,
+      "modelId": 4646,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA II (_R3_)",
+      "typeEngineName": "2.4 4WD (ACR40W)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 19194,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 All-wheel Drive (TD54, JB420)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "87"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "3/4\"\" 16 UNF-2B"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "65"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "420"
+    },
+    {
+      "criteriaName": "Bypass Valve Opening Pressure [bar]",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Gasket inside diameter [mm]",
+      "criteriaValue": "52"
+    },
+    {
+      "criteriaName": "Gasket outside diameter [mm]",
+      "criteriaValue": "62"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "00120 00010"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "04105 409AB"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "04105 409AB"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "04105 409AC"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "04105 409AC"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "04105 409AC"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "11501 00530"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "11501 00700"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "11501 01100"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "11501 01220"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "11501 01250"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "11501 01270"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "11501 01390"
+    },
+    {
+      "oemBrand": "PERKINS",
+      "oemDisplayNo": "140 516 190"
+    },
+    {
+      "oemBrand": "PERKINS",
+      "oemDisplayNo": "140 516 250"
+    },
+    {
+      "oemBrand": "PERKINS",
+      "oemDisplayNo": "140 516 990"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "1520853J01"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "1520871C00"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601 01010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601 76008"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "15601 87110 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "15601-76008"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "15601-76008-71"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "15601-87705"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1560187202"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 60B10 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 60M11 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 61A00 000"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "16510 61A01"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 61A01 000"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "16510 61A02"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 61A02 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 61A20 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 61A20 MHL"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 61A21 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 61A30 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 83000 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 83001 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 83012 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 85C00 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-60B10"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-60M11"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-61A01"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-61A02"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-61A20"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-61A30"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-61A31"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-82001"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-83000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-83001"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-83012"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-85C00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-85FA0"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-85FA0-000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1651061A00"
+    },
+    {
+      "oemBrand": "HOLDEN",
+      "oemDisplayNo": "1651061A01"
+    },
+    {
+      "oemBrand": "HOLDEN",
+      "oemDisplayNo": "1651061A20"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1651061A21"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "1651085FA0"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "25014441"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "31725 L1000"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "4105 409AB"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "4105 409AB"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "4105 409AC"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "4105 409AC"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "4105 409AC"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71742115"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71746761"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71747593"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71768154"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-94463-715-0"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-94463-715-1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90080 91220"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 03004"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "90915 10002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 10002"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "90915 10004"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 10004"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 10010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 YZZJ2"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-YZZE2"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "9091510010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915TA002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZC4"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "AY100NS005"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "J90 915 100 02"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MD308302"
+    }
+  ],
+  "ean": "3165141088939",
+  "originalSKU": "1651061A31",
+  "fetchedAt": "2026-03-17T15:42:45Z",
+  "enrichedVia": "OEM (1651061A31)"
+}

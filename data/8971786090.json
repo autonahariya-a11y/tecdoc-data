@@ -1,0 +1,180 @@
+{
+  "articleNo": "585725",
+  "articleId": 3935054,
+  "supplier": "VALEO",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 19199,
+      "modelId": 5490,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX I (TFR, TFS)",
+      "typeEngineName": "3.0 DiTD 4x4 (TFS77H)",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 22089,
+      "modelId": 6052,
+      "manufacturerName": "HOLDEN",
+      "modelName": "JACKAROO / MONTEREY (UBS)",
+      "typeEngineName": "3.0 TD 4x4 (UBS73)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 128421,
+      "modelId": 5490,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX I (TFR, TFS)",
+      "typeEngineName": "3.0 DiTD 4x4",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 130628,
+      "modelId": 5490,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX I (TFR, TFS)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 14859,
+      "modelId": 4643,
+      "manufacturerName": "ISUZU",
+      "modelName": "TROOPER III",
+      "typeEngineName": "3.0 DTI",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 17455,
+      "modelId": 5023,
+      "manufacturerName": "ISUZU",
+      "modelName": "TROOPER III Open Off-Road Vehicle",
+      "typeEngineName": "3.0 DTI",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 18862,
+      "modelId": 1524,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "BRAVA Pickup (TF0, TF1)",
+      "typeEngineName": "2.5 DTI 4x4",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 18863,
+      "modelId": 1524,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "BRAVA Pickup (TF0, TF1)",
+      "typeEngineName": "2.5 DTI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 19198,
+      "modelId": 5490,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX I (TFR, TFS)",
+      "typeEngineName": "2.5 DiTD 4x4 (TFS54)",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 23083,
+      "modelId": 5490,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX I (TFR, TFS)",
+      "typeEngineName": "2.5 DiTD (TFR86_, TFR54_)",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 9822,
+      "modelId": 3683,
+      "manufacturerName": "OPEL",
+      "modelName": "MONTEREY B (M98)",
+      "typeEngineName": "3.0 DTI (UBS73D, UBS73G)",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 10231,
+      "modelId": 3948,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MONTEREY Mk II (M98)",
+      "typeEngineName": "3.0 DTI",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "1999-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "147"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "0,49"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "80"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "168"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "80"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "80"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "834261"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8971786090"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8971786091"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8971786092"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8971786100"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "97178609"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "97178609"
+    }
+  ],
+  "ean": "3276425857254",
+  "originalSKU": "8971786090",
+  "fetchedAt": "2026-03-17T17:02:51Z",
+  "enrichedVia": "OEM (8971786090)"
+}

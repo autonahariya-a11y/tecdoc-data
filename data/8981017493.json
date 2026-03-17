@@ -1,0 +1,988 @@
+{
+  "articleNo": "KX 268D",
+  "articleId": 7834287,
+  "supplier": "KNECHT",
+  "product": "Fuel Filter",
+  "vehicles": [
+    {
+      "vehicleId": 2894,
+      "modelId": 5465,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS II (_E2_)",
+      "typeEngineName": "200d (ALE20_, ALE20R)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 10453,
+      "modelId": 8700,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE / COMMUTER V Bus (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "3.0 D (KDH223)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10454,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "3.0 D (KDH221, KDH201)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10981,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 11805,
+      "modelId": 8700,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE / COMMUTER V Bus (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D (KDH202)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11806,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D (KDH20_, KDH21_, KDH22_, KDH200, KDH220)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12163,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "3.0 D (KDH201, KDH203, KDH221)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12214,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN50)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 12217,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.5 D-4D 4WD (RZN215, KUN50)",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19067,
+      "modelId": 5465,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS II (_E2_)",
+      "typeEngineName": "220d (ALE20)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 19365,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 20709,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15, KUN35)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 24544,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 25198,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D 4WD (KUN25)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25451,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25_, KUN25R)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25452,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15_, KUN15R)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25453,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D 4WD (KUN26)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2015-09-01"
+    },
+    {
+      "vehicleId": 27277,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28517,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33129,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33130,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33692,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D 4WD (KUN51_)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34581,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D 4WD (KUN26)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34585,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D (KUN16)",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34586,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D (KUN16_, KUN36, KUN16)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34701,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "3.0 D (KDH201, KDH221)",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34708,
+      "modelId": 8700,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE / COMMUTER V Bus (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "3.0 D (KDH203_, KDH221, KDH223, KDH203R)",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34943,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25)",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 55091,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi 4x4 (TFS86J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 55099,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi (TFR86J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 55943,
+      "modelId": 8700,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE / COMMUTER V Bus (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "3.0 D (LH202_, LH212_, LH222_, LH202R, LH212R, LH222R)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56011,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D (KUN61)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 56030,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 57471,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 58461,
+      "modelId": 11048,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Platform/Chassis (_N1_, _N2_)",
+      "typeEngineName": "3.0 D-4D (KUN16R)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58462,
+      "modelId": 11048,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Platform/Chassis (_N1_, _N2_)",
+      "typeEngineName": "3.0 D 4WD (KUN26)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58698,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "3.0 CRDi 4x4 (TFS85J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58699,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "3.0 CRDi (TFR85J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100884,
+      "modelId": 11895,
+      "manufacturerName": "ISUZU",
+      "modelName": "MU-X SUV (UCS/UCR)",
+      "typeEngineName": "3.0 CRDi 4x4",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108299,
+      "modelId": 11895,
+      "manufacturerName": "ISUZU",
+      "modelName": "MU-X SUV (UCS/UCR)",
+      "typeEngineName": "3.0 CRDi",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110594,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25_)",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 111094,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D (KJ3T)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111095,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D 4WD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111099,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 DI-D 4WD (KL1T)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111847,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi (TFR86J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111848,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi 4x4 (TFS86J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111849,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi (TFR86J, TFR54J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111874,
+      "modelId": 11895,
+      "manufacturerName": "ISUZU",
+      "modelName": "MU-X SUV (UCS/UCR)",
+      "typeEngineName": "2.5 CRDi",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113463,
+      "modelId": 11172,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II Platform/Chassis (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113464,
+      "modelId": 11172,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II Platform/Chassis (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi 4WD",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113479,
+      "modelId": 11172,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II Platform/Chassis (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114371,
+      "modelId": 11895,
+      "manufacturerName": "ISUZU",
+      "modelName": "MU-X SUV (UCS/UCR)",
+      "typeEngineName": "2.5 CRDi 4x4",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114587,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi 4x4 (TFS86J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116074,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 DI-D (KK1T)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116161,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 DI-D 4WD (KJ0T)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116338,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "2.4 DI-D",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116996,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D 4WD (KUN26)",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 117260,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117261,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D 4WD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118973,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 D (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118974,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 D 4x4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118975,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 D 4x4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119113,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 DI-D (KJ0T)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119401,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119973,
+      "modelId": 36544,
+      "manufacturerName": "TOYOTA",
+      "modelName": "INNOVA II (_N14_)",
+      "typeEngineName": "2.4 (GUN142)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120498,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D (KUN61_)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 122070,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.5 D (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122072,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.5 D 4x4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122081,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.5 D 4x4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122436,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 122566,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 D 4x4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125783,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "1.9 Ddi (TFR87J)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126051,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "1.9 Ddi (TFR87J)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 126055,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "1.9 Ddi 4x4 (TFS87J)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 129224,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.5 DI-D (KK3T)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129396,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.5 D-4D (KUN60, RZN205)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 129732,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.5 D 4WD (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132293,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.5 D-4D (KUN60)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 132422,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D 4WD (KUN51)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 136698,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.2 DI-D 4WD",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138199,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.2 DI-D",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141767,
+      "modelId": 40683,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX III (TFR, TFS)",
+      "typeEngineName": "1.9 DDI (TFR87J, TFR87)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146714,
+      "modelId": 40683,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX III (TFR, TFS)",
+      "typeEngineName": "1.9 DDI (TFR87)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146715,
+      "modelId": 40683,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX III (TFR, TFS)",
+      "typeEngineName": "1.9 DDI 4x4 (TFS87)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148170,
+      "modelId": 43069,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Bus",
+      "typeEngineName": "2.5 D-4D (KDH200)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11798,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D 4WD (KUN51)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 28515,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15, KUN10)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 55728,
+      "modelId": 10503,
+      "manufacturerName": "ISUZU",
+      "modelName": "KB",
+      "typeEngineName": "2.5 KB250 D-TEQ",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2013-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "82,0"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "77,2"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "39"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "8,6"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "8,60"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "8,10"
+    },
+    {
+      "criteriaName": "Inner Diameter 3 [mm]",
+      "criteriaValue": "83,7"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "95"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "1770A233"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "1770A321"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1860400021"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "23300-0L020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233000L010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233000L011"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233000L030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233000L031"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233000L032"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "2330030204"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "2330087317"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233900L010"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "233900L010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233900L020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233900L030"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "233900L030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233900L040"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "233900L040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "233900L041"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "233900L041"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "233900L041"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "2339030200"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "2339030200"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "23390YZZA1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "23390YZZA2"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "23390YZZA2"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "6000605426"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "6000605431"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8981017493"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8981596930"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8981824450"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8981941190"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "98101749"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "98159693"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "98182455"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "98194119"
+    }
+  ],
+  "ean": "4009026726280",
+  "originalSKU": "8981017493",
+  "fetchedAt": "2026-03-17T17:04:13Z",
+  "enrichedVia": "OEM (8981017493)"
+}

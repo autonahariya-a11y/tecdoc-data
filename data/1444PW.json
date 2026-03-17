@@ -1,0 +1,358 @@
+{
+  "articleNo": "LX 1001",
+  "articleId": 7963111,
+  "supplier": "KNECHT",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 2895,
+      "modelId": 9047,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS / VIOS Saloon (_P9_)",
+      "typeEngineName": "1.5 (NCP93)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 5884,
+      "modelId": 5499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P9_)",
+      "typeEngineName": "1.3 4WD (NCP95)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 5887,
+      "modelId": 9111,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P13_)",
+      "typeEngineName": "1.0 (KSP130_, KSP130)",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 10466,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.0 (SCP10_, SCP10R)",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17319,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.3 (SCP12_, SCP13_, SCP12R, SCP13R)",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17569,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.0 (SCP10_, SCP10R)",
+      "constructionIntervalStart": "2003-03-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 18482,
+      "modelId": 5392,
+      "manufacturerName": "DAIHATSU",
+      "modelName": "SIRION (M3_)",
+      "typeEngineName": "1.0 (M300)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 18584,
+      "modelId": 5413,
+      "manufacturerName": "CITRO\u00cbN",
+      "modelName": "C1 (PM_, PN_)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 18586,
+      "modelId": 5414,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "107 (PM_, PN_)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 18813,
+      "modelId": 5442,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AYGO (_B1_)",
+      "typeEngineName": "1.0 (KGB10_, KGB10R)",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 19254,
+      "modelId": 5499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P9_)",
+      "typeEngineName": "1.0 VVT-i (KSP90_, KSP90R)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 19256,
+      "modelId": 5499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P9_)",
+      "typeEngineName": "1.3 VVT-i (SCP90_, SCP90R)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 22609,
+      "modelId": 5392,
+      "manufacturerName": "DAIHATSU",
+      "modelName": "SIRION (M3_)",
+      "typeEngineName": "1.0 DVVT 4WD",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22991,
+      "modelId": 9047,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS / VIOS Saloon (_P9_)",
+      "typeEngineName": "1.0 (KSP92_, KSP92R)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 22992,
+      "modelId": 9047,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS / VIOS Saloon (_P9_)",
+      "typeEngineName": "1.3 (NCP92_, SCP92_, NCP92R)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 25319,
+      "modelId": 6949,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PLATZ (NCP1_, SCP1_)",
+      "typeEngineName": "1.0 (SCP11_, SCP11)",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 30436,
+      "modelId": 7906,
+      "manufacturerName": "SUBARU",
+      "modelName": "JUSTY IV",
+      "typeEngineName": "1.0 (M300)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34978,
+      "modelId": 5442,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AYGO (_B1_)",
+      "typeEngineName": "1.0 GPL (KGB10_)",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 34983,
+      "modelId": 5499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P9_)",
+      "typeEngineName": "1.0 GPL (KSP90_)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 55519,
+      "modelId": 7187,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RACTIS (_P10_)",
+      "typeEngineName": "1.3 (SCP100_, SCP100)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 58985,
+      "modelId": 11228,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS / VIOS III Saloon (_P15_)",
+      "typeEngineName": "1.5 (NCP150_)",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 59388,
+      "modelId": 7509,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 100 Platform/Chassis (YH_)",
+      "typeEngineName": "1.8 (YH81_, YH81R)",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1995-04-01"
+    },
+    {
+      "vehicleId": 124634,
+      "modelId": 5499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P9_)",
+      "typeEngineName": "1.0 VVT-i (KSP90)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 133111,
+      "modelId": 5392,
+      "manufacturerName": "DAIHATSU",
+      "modelName": "SIRION (M3_)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 133419,
+      "modelId": 39048,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AYGO Hatchback Van (_B1_)",
+      "typeEngineName": "1.0 VVTi (KGB10)",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 134077,
+      "modelId": 7906,
+      "manufacturerName": "SUBARU",
+      "modelName": "JUSTY IV",
+      "typeEngineName": "1.0 BiFuel",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "260,0"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "114"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "44,0"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "11,8"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "5,00"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "26,30"
+    },
+    {
+      "criteriaName": "Seal Material",
+      "criteriaValue": "6"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "96"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CITRO\u00cbN",
+      "oemDisplayNo": "1444PV"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1444PV"
+    },
+    {
+      "oemBrand": "CITRO\u00cbN",
+      "oemDisplayNo": "1444PW"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1444PW"
+    },
+    {
+      "oemBrand": "CITRO\u00cbN",
+      "oemDisplayNo": "1444RG"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1444RG"
+    },
+    {
+      "oemBrand": "CITRO\u00cbN",
+      "oemDisplayNo": "1444RH"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1444RH"
+    },
+    {
+      "oemBrand": "CITRO\u00cbN",
+      "oemDisplayNo": "1444XA"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1444XA"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1770023080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "178010J020"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "1780123030"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "1780123030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780123030"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "1780123030000"
+    },
+    {
+      "oemBrand": "CITRO\u00cbN",
+      "oemDisplayNo": "E147182"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "E147182"
+    }
+  ],
+  "ean": "4009026206706",
+  "originalSKU": "1444PW",
+  "fetchedAt": "2026-03-17T15:35:01Z",
+  "enrichedVia": "OEM (1444PW)"
+}

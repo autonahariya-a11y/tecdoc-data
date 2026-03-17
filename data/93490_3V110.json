@@ -1,0 +1,130 @@
+{
+  "articleNo": "231763",
+  "articleId": 2156776,
+  "supplier": "MEAT & DORIA",
+  "product": "Clock Spring, airbag",
+  "vehicles": [
+    {
+      "vehicleId": 9815,
+      "modelId": 9575,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "VELOSTER (FS)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 11033,
+      "modelId": 9697,
+      "manufacturerName": "KIA",
+      "modelName": "RIO III (UB)",
+      "typeEngineName": "1.4 CVVT",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 11034,
+      "modelId": 9697,
+      "manufacturerName": "KIA",
+      "modelName": "RIO III (UB)",
+      "typeEngineName": "1.1 CRDi",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 11036,
+      "modelId": 9697,
+      "manufacturerName": "KIA",
+      "modelName": "RIO III (UB)",
+      "typeEngineName": "1.4 CRDi",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 53386,
+      "modelId": 9697,
+      "manufacturerName": "KIA",
+      "modelName": "RIO III (UB)",
+      "typeEngineName": "1.25 LPG",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 56736,
+      "modelId": 9575,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "VELOSTER (FS)",
+      "typeEngineName": "1.6 T-GDI",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 59296,
+      "modelId": 10575,
+      "manufacturerName": "KIA",
+      "modelName": "RIO III Saloon (UB)",
+      "typeEngineName": "1.25 CVVT",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 59297,
+      "modelId": 10575,
+      "manufacturerName": "KIA",
+      "modelName": "RIO III Saloon (UB)",
+      "typeEngineName": "1.4 CVVT",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 109975,
+      "modelId": 9575,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "VELOSTER (FS)",
+      "typeEngineName": "1.6 MPI",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 111914,
+      "modelId": 10575,
+      "manufacturerName": "KIA",
+      "modelName": "RIO III Saloon (UB)",
+      "typeEngineName": "1.2 CVVT",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "for OE number",
+      "criteriaValue": "934901W110"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "237"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "93490-1W110"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "93490-1W110"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "93490-3V110"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "93490-3V110"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "93490-3V110",
+  "fetchedAt": "2026-03-17T17:09:16Z",
+  "enrichedVia": "OEM (93490-3V110)"
+}

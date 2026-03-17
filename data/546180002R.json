@@ -1,0 +1,998 @@
+{
+  "articleNo": "JTS144",
+  "articleId": 7703764,
+  "supplier": "TRW",
+  "product": "Link/Coupling Rod, stabiliser bar",
+  "vehicles": [
+    {
+      "vehicleId": 3,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 TCe (DZ1N)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 370,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi (KZ1M, KZ1W, KZ0R)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 371,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 1495,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 5288,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 dCi (BZ0Y)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 5289,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 dCi (KZ0Y)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 15146,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.6 dCi (BZ00, BZ12, BZ13)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 15189,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.6 dCi (DZ00, DZ12, DZ2A, DZ13)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 15283,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.6 dCi (KZ00, KZ12, KZ13)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 15530,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.2 TCe (DZ2B, DZ11)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 16124,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 16211,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.2 TCe (KZ2B, KZ11)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 16982,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.2 TCe (BZ2B, BZ11)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29950,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.6 16V (BZ0H)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29951,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 TCe (BZ0K)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29952,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 CVT (BZ0G, BZ1P)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29953,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.4 TCe (BZ0F, BZ1V)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29954,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi (BZ0C)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29956,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi (BZ09, BZ0D, BZ1W, BZ29, BZ14)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 29957,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 dCi (BZ0L)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29958,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.4 TCe (DZ0F, DZ1V)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29959,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.6 16V (DZ0H)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29960,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 TCe (DZ0K)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29961,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi (DZ0C, DZ1A)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29962,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi (DZ09, DZ0D, DZ1F, DZ1G, DZ14, DZ29)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29963,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 dCi (DZ0L)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31162,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.6 16V (BZ1B, BZ1H)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 31163,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.9 dCi (BZ0N, BZ0J)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 31164,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.9 dCi (DZ0N, DZ0J, DZ1J, DZ1K)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31165,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.6 16V (DZ0U, DZ1B, DZ1H)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31531,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.6 16V (KZ0H)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31532,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.6 16V (KZ0U, KZ1B, KZ1U)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31533,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 CVT (KZ0G, KZ1P)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31534,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.4 TCe (KZ0F, KZ1V)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31535,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi (KZ0C, KZ1A)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31536,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi (KZ09, KZ0D, KZ1G, KZ29, KZ14, KZ1W, KZ10, KZ1F,...",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31537,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.9 dCi (KZ0J, KZ0N, KZ1S)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31538,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 CVT (DZ0G, DZ1E)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31541,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 dCi (KZ0L)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31542,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 TCe (KZ0K, KZ1T)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31692,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.6 16V Bifuel (DZ03, DZ1Y)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31693,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.6 16V Hi-Flex (BZ03)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31695,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.6 BiFuel (KZ03)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31717,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 dCi (DZ0Y)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 34764,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi (DZ0A)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 34765,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi (DZ0B)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 54521,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 56793,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 56794,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 56795,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 57297,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 R.S.",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 57686,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 59339,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.2 TCe (DZ16, DZ28)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 59340,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.2 TCe (KZ16, KZ28)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 59341,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.2 TCe (BZ16, BZ28)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 59343,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 59344,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 59346,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 59349,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 100411,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 TCe 220",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 100412,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 TCe 220",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 100413,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi (BZ1G, BZ1W, BZ0R)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 100414,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi (KZ1G, KZ1W, KZ0R)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 108031,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 R.S.",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 113303,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 121722,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 132431,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.6 16V (BZ0H, BZ1R)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 138767,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.6 16V BiFuel (BZ1U, BZ0U)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 141495,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.6 (B332)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 5290,
+      "modelId": 8578,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE CC (EZ0/1_)",
+      "typeEngineName": "2.0 TCe (EZ1T)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 33128,
+      "modelId": 8578,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE CC (EZ0/1_)",
+      "typeEngineName": "2.0 dCi (EZ0L)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 5853,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 5855,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ09, JZ0D, JZ10, JZ14, JZ1G, JZ29, JZ2C)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 5856,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ0A)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 5858,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 5859,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ02, JZ0R)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 5861,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ02, JZ0R)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 6014,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 E85 (JZ03, JZ1Y)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 10527,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 dCi (JZ00, JZ12)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 10528,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 dCi (JZ00, JZ12)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 12150,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 16V Bifuel (JZ1Y)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31543,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 16V (JZ0U, JZ1B)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31544,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.4 16V (JZ0F, JZ1V)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31545,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "2.0 16V (JZ0G, JZ0P, JZ1E, JZ1P)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31546,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31547,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "2.0 dCi (JZ0Y, JZ26)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31548,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.9 dCi (JZ0J, JZ1J, JZ1K, JZ1S)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31549,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "2.0 dCi (JZ0L)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31550,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.4 16V (JZ0F)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31551,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 16V (JZ0U)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31552,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "2.0 16V (JZ0G)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31553,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ0B, JZ07)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31554,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.9 dCi (JZ0J, JZ0N, JZ1K, JZ1S)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31555,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "2.0 dCi (JZ0Y, JZ26)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31556,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "2.0 dCi (JZ0L)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 57393,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.2 TCe",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 57394,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.2 TCe (JZ11, JZ28)",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 59335,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.2 TCe (JZ16)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 59342,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.2 TCe (JZ16)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 122937,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 E85 (JZ03, JZ1Y)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 122938,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 16V Bifuel",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 122943,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 16V Bifuel",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 122944,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.6 16V Bifuel (JZ1Y)",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 133852,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.2 TCe (JZ28)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 133854,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "1.2 TCe",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 133879,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SC\u00c9NIC III (JZ0/1_)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2016-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VL"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VR"
+    },
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "274"
+    },
+    {
+      "criteriaName": "Pipe Diameter [mm]",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "M10x1.5"
+    },
+    {
+      "criteriaName": "Rod/Strut",
+      "criteriaValue": "5"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "54 61 800 02R"
+    }
+  ],
+  "ean": "3322938266332",
+  "originalSKU": "546180002R",
+  "fetchedAt": "2026-03-17T16:47:06Z",
+  "enrichedVia": "OEM (546180002R)"
+}

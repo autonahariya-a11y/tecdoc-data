@@ -1,0 +1,165 @@
+{
+  "articleNo": "C 36 013",
+  "articleId": 6161110,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 9757,
+      "modelId": 9568,
+      "manufacturerName": "HOLDEN",
+      "modelName": "BARINA SPARK (MJ)",
+      "typeEngineName": "1.2 i Manual",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33016,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33017,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55079,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55440,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55442,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55611,
+      "modelId": 6155,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK",
+      "typeEngineName": "1.0 SX",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59377,
+      "modelId": 9568,
+      "manufacturerName": "HOLDEN",
+      "modelName": "BARINA SPARK (MJ)",
+      "typeEngineName": "1.2 i Auto",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 108085,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125525,
+      "modelId": 14828,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M400)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130651,
+      "modelId": 38548,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK Hatchback Van (M300)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135926,
+      "modelId": 14828,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M400)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138710,
+      "modelId": 40184,
+      "manufacturerName": "RAVON",
+      "modelName": "R2",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "359"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "156"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "33"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "42 390 126"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "42390126"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "96827723"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "96827723"
+    }
+  ],
+  "ean": "4011558031930",
+  "originalSKU": "96827723",
+  "fetchedAt": "2026-03-17T17:11:56Z",
+  "enrichedVia": "OEM (96827723)"
+}

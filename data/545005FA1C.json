@@ -1,0 +1,140 @@
+{
+  "articleNo": "180938",
+  "articleId": 1638787,
+  "supplier": "FEBI BILSTEIN",
+  "product": "Control/Trailing Arm, wheel suspension",
+  "vehicles": [
+    {
+      "vehicleId": 123826,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "0.9 IG-T",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123835,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123836,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "1.5 DCI",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126960,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134538,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "1.0 IG-T 100",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135619,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "1.0 DIG-T 117",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136140,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "0.9 LPG",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144220,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "1.0 IG-T",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "U"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VR"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "3,97"
+    },
+    {
+      "criteriaName": "Material",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Control/Trailing Arm Type",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "615"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Observe service information",
+      "criteriaValue": ""
+    },
+    {
+      "criteriaName": "paired article number",
+      "criteriaValue": "180986"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "54500-5FA1C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "54500-5RB0C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "54500-5RL1A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "54500-5RL1B"
+    }
+  ],
+  "ean": "4054224809389",
+  "originalSKU": "545005FA1C",
+  "fetchedAt": "2026-03-17T16:37:40Z",
+  "enrichedVia": "OEM (545005FA1C)"
+}

@@ -1,0 +1,89 @@
+{
+  "articleNo": "1656292480",
+  "articleId": 1531144,
+  "supplier": "EUROREPAR",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 57400,
+      "modelId": 9561,
+      "manufacturerName": "CADILLAC",
+      "modelName": "SRX",
+      "typeEngineName": "3.6 AWD",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2016-04-01"
+    },
+    {
+      "vehicleId": 132140,
+      "modelId": 9561,
+      "manufacturerName": "CADILLAC",
+      "modelName": "SRX",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2016-04-01"
+    },
+    {
+      "vehicleId": 9537,
+      "modelId": 9561,
+      "manufacturerName": "CADILLAC",
+      "modelName": "SRX",
+      "typeEngineName": "3.0 AWD",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 9536,
+      "modelId": 9561,
+      "manufacturerName": "CADILLAC",
+      "modelName": "SRX",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 12025,
+      "modelId": 9561,
+      "manufacturerName": "CADILLAC",
+      "modelName": "SRX",
+      "typeEngineName": "3.0 AWD",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "264"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "264"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "32,5"
+    },
+    {
+      "criteriaName": "Shape",
+      "criteriaValue": "44"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "20897358"
+    },
+    {
+      "oemBrand": "CADILLAC",
+      "oemDisplayNo": "20897358"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "20897358",
+  "fetchedAt": "2026-03-17T15:57:46Z",
+  "enrichedVia": "OEM (20897358)"
+}

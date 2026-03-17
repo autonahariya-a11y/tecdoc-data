@@ -1,0 +1,142 @@
+{
+  "articleNo": "P 83 053",
+  "articleId": 8360837,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 10466,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.0 (SCP10_, SCP10R)",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 14287,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.3 (NCP10, SCP12_)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 15984,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.5 (NCP13_, NCP13R)",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16364,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.4 D-4D (NLP10_, NLP10R)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17319,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.3 (SCP12_, SCP13_, SCP12R, SCP13R)",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17569,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.0 (SCP10_, SCP10R)",
+      "constructionIntervalStart": "2003-03-01",
+      "constructionIntervalEnd": "2005-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "131"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "45"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "51"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Bosch"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "7"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23340"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23341"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23342"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650D010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650D040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZCR"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZCRA"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZEM"
+    }
+  ],
+  "ean": "8020584057889",
+  "originalSKU": "044650D010",
+  "fetchedAt": "2026-03-17T15:09:02Z",
+  "enrichedVia": "OEM (044650D010)"
+}

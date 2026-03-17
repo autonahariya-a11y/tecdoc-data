@@ -1,0 +1,63 @@
+{
+  "articleNo": "F 026 400 439",
+  "articleId": 6926277,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 56243,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "2.0 iVtec (RE5, RM1)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56765,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "2.0 AWD (RE5, RM2)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132391,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "2.0 i-VTEC (RW3)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "239,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "157,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "47"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "17220-R6A-J00"
+    }
+  ],
+  "ean": "4047025389730",
+  "originalSKU": "17220R6AJ00",
+  "fetchedAt": "2026-03-17T15:49:10Z",
+  "enrichedVia": "OEM (17220R6AJ00)"
+}

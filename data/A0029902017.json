@@ -1,0 +1,5426 @@
+{
+  "articleNo": "310 12 847 02 22",
+  "articleId": 18218820,
+  "supplier": "OE-FIT Sch\u00e4ferbartho",
+  "product": "Screw Plug, oil sump",
+  "vehicles": [
+    {
+      "vehicleId": 11105,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 63 AMG (222.077, 222.177)",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 11106,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 63 AMG 4-matic (222.178)",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 12310,
+      "modelId": 9800,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "M-CLASS (W166)",
+      "typeEngineName": "ML 350 BlueTEC 4-matic (166.024, 166.023)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 27400,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 4-matic (222.085, 222.185)",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 59008,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 350 BlueTEC / d (222.132, 222.032, 222.123)",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 59009,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 400 Hybrid / h (222.057, 222.157)",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 59010,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 (222.082, 222.182)",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 100330,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 (222.082, 222.182)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 100560,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 220 BlueTEC / d (205.002, 205.004)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 100751,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 220 BlueTEC / d (205.003)",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 100753,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 300 BlueTEC Hybrid / h (222.104, 222.004)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 100754,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 350 BlueTEC / d 4-matic (222.033, 222.133)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 100762,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 350 BlueTEC 4-matic (222.133)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 100845,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 250 BlueTEC / d (205.008, 205.006)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 101052,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 500 4-matic (217.385)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 101059,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 63 AMG 4-matic (217.378)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 106291,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 250 BlueTEC / d 4-matic (205.009)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 106292,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 300 BlueTEC Hybrid / h (205.012)",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 106363,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 320 (222.162)",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 106451,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 220 BlueTEC / d (205.204)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 106452,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 250 BlueTEC / d (205.208)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107475,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 Hybrid / e (222.163)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 107500,
+      "modelId": 8524,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A207)",
+      "typeEngineName": "E 400 (207.461)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 107536,
+      "modelId": 8160,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S212)",
+      "typeEngineName": "E 400 (212.261)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 107537,
+      "modelId": 8160,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S212)",
+      "typeEngineName": "E 400 4-matic (212.299)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 107539,
+      "modelId": 8035,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C207)",
+      "typeEngineName": "E 400 (207.361)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 107546,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 (222.182)",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 107572,
+      "modelId": 13085,
+      "manufacturerName": "BRABUS",
+      "modelName": "40S (W221)",
+      "typeEngineName": "3.5 Hybrid (222.057)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107644,
+      "modelId": 9052,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C218)",
+      "typeEngineName": "CLS 400 (218.361)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 107650,
+      "modelId": 9052,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C218)",
+      "typeEngineName": "CLS 400 4-matic (218.368)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 107651,
+      "modelId": 10848,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS Shooting Brake (X218)",
+      "typeEngineName": "CLS 400 (218.961)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 107653,
+      "modelId": 10848,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS Shooting Brake (X218)",
+      "typeEngineName": "CLS 400 4-matic (218.968)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 107877,
+      "modelId": 8034,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W212)",
+      "typeEngineName": "E 400 (212.061)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 107878,
+      "modelId": 8034,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W212)",
+      "typeEngineName": "E 400 4-matic (212.099)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 108006,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 250 BlueTEC / d 4-matic (205.209)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 108007,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 300 BlueTEC Hybrid / h (205.212)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 108610,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 220 BlueTEC / d (205.204)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 108757,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 500 4-matic (217.384)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 108759,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 400 4-matic (222.067, 222.167)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 108762,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 500 (217.382)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 109486,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 Maybach (222.982)",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 109972,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 400 Maybach 4-matic (222.967)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 112348,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 220 d 4-matic (205.005)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 112365,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 220 d 4-matic (205.205)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 114486,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "220 d 4-matic (253.905, 253.903)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 114488,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "250 d 4-matic (253.909)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 115808,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 Maybach 4-matic (222.985)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 116218,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 400 (222.165)",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 116821,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 Maybach 4-matic (222.984)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 116936,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 220 d (205.304)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 116937,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 250 d (205.308)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 116948,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 200 d (205.007)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 116949,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 200 d (205.207)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 116951,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 400 4-matic (217.364)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 116959,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "220 d 4-matic (253.905, 253.903)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 117885,
+      "modelId": 14923,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Convertible (A217)",
+      "typeEngineName": "S 500 (217.482)",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 117886,
+      "modelId": 14923,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Convertible (A217)",
+      "typeEngineName": "AMG S 63 4-matic (217.478)",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 118515,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 220 d (213.004)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 118516,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 350 d (213.033)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 118792,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 220 d (205.304)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 118793,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 220 d (213.004)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 119602,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 220 d 4-matic (205.305)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 119603,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 250 d 4-matic (205.309)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 119796,
+      "modelId": 14923,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Convertible (A217)",
+      "typeEngineName": "AMG S 63 (217.477)",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 120130,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "C 220 d (205.404)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 120131,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "C 220 d 4-matic (205.405)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 120132,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "C 250 d (205.408)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 120285,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "220 d 4-matic (253.303, 253.305)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 120286,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "250 d 4-matic (253.309)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 120725,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 220 d (213.204)",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 120740,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 400 4-matic (213.071)",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 120746,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 200 d (213.013)",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 121773,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 220 d (213.204)",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 122801,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 220 d 4-matic (213.005)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 122807,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 400 4-matic (213.271)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 122809,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 200 d (213.213)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 122810,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 350 d (213.233)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 122813,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "350 d 4-matic (253.925)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 122822,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "350 d 4-matic (253.325)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 122836,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "220 d 4-matic (253.303, 253.305)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 124381,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "C 220 d (205.404)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 124818,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 220 d (238.314)",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125164,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 220 d 4-matic (213.205)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 125165,
+      "modelId": 37491,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S213)",
+      "typeEngineName": "E 220 d 4-matic (213.217)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 125770,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 4-matic (222.184)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 126008,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 220 d 4-matic (213.005)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 126508,
+      "modelId": 13085,
+      "manufacturerName": "BRABUS",
+      "modelName": "40S (W221)",
+      "typeEngineName": "3.0 (222.165)",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126757,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 220 d 4-matic (238.315)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127328,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 350 d 4-matic (222.021, 222.121)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 127329,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 400 d 4-matic (222.035, 222.135)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 127331,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "AMG S 63 4-matic+ (222.188)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 127356,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 220 d (238.314)",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127634,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 220 d (238.414)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127675,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 220 d (238.414)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127681,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 350 d 4-matic (213.234)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 127682,
+      "modelId": 37491,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S213)",
+      "typeEngineName": "E 350 d 4-matic (213.237)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 127736,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 450 4-matic (222.064, 222.164, 222.964)",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 127739,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 450 (222.066, 222.166)",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128016,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 400 d (222.034, 222.134)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128017,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 350 d (222.020, 222.120)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128024,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 350 d 4-matic (213.034)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 128437,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 350 d 4-matic (238.434)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128462,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 450 EQ Boost (222.158, 222.058)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128463,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 450 EQ Boost 4-matic (222.059, 222.159)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128464,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 EQ Boost (222.060, 222.160)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128649,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 350 d 4-matic (238.334)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129007,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 63 AMG 4-matic+ (217.388)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129009,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 450 4-matic (217.364)",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129379,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 220 d 4-matic (238.415)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129627,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 450 EQ Boost 4-matic (257.359)",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129628,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 350 d 4-matic (257.321)",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129629,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 400 d 4-matic (257.323)",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129640,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 350 (222.155)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129707,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 450 Maybach 4-matic (222.964)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 130207,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "AMG S 63 (222.187)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 130268,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 300 d (213.008)",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 130281,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 300 d (213.208)",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 130335,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 350 d 4-matic (257.321)",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130338,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 Maybach (222.982)",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 130797,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 300 d (257.318)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130969,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 220 d (205.014)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 130970,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 220 d (205.214)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 130971,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 220 d (205.314)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 130972,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "C 220 d (205.414)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 130974,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 400 d 4-matic (213.023)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 130975,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 400 d 4-matic (213.223)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 130976,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "AMG E 53 EQ Boost 4-matic+ (213.061)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 130977,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "AMG E 53 EQ Boost 4-matic+ (213.261)",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 131294,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 220 d 4-matic (205.015)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 131297,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 220 d 4-matic (205.215)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 131314,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 200 d (205.011)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 131315,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 200 d (205.211)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 131368,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 200 d (205.001)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 131369,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 200 d (205.201)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 131372,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 180 d (205.000)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 131373,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 180 d (205.200)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 131617,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "AMG CLS 53 EQ Boost 4-matic+ (257.361)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131635,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 300 d (238.418)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131636,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 300 d (238.318)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131639,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "AMG E 53 EQ Boost 4-matic+ (238.361)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131843,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 300 d (205.018)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 131844,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 300 d 4-matic (205.019)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 131857,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 300 d (205.218)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 131858,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 300 d 4-matic (205.219)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 131979,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 220 d 4-matic (205.315)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 131980,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "C 220 d 4-matic (205.415)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 131985,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 200 d (205.301)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2019-11-01"
+    },
+    {
+      "vehicleId": 131986,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "C 200 d (205.401)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2019-11-01"
+    },
+    {
+      "vehicleId": 131992,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 300 d (205.318)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 131993,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "C 300 d 4-matic (205.319)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 131994,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "C 300 d (205.418)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 132083,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "AMG E53 EQ Boost 4-matic+ (238.461)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132276,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 350 d (257.320)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132313,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 350 d (213.022)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 132322,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 350 d (213.222)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 132325,
+      "modelId": 37491,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S213)",
+      "typeEngineName": "E 400 d 4-matic (213.227)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 132374,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 400 d 4-matic (238.323)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132376,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 400 d 4-matic (238.423)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132844,
+      "modelId": 38838,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "AMG GT (X290)",
+      "typeEngineName": "53 EQ Boost 4-matic+ (290.661)",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132845,
+      "modelId": 38838,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "AMG GT (X290)",
+      "typeEngineName": "43 EQ Boost 4-matic+ (290.659)",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132849,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 220 d (257.314)",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133568,
+      "modelId": 38838,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "AMG GT (X290)",
+      "typeEngineName": "43 EQ Boost (290.658)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133880,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 350 d (238.320)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133881,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 350 d (238.420)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133935,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 450 EQ Boost 4-matic (167.159)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133936,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 300 d 4-matic (167.119)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 134048,
+      "modelId": 38539,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS (W177)",
+      "typeEngineName": "A 200 d (177.012)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134049,
+      "modelId": 38539,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS (W177)",
+      "typeEngineName": "A 220 d (177.014)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134186,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 63 AMG (222.077)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 134237,
+      "modelId": 39199,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "B-CLASS Sports Tourer (W247)",
+      "typeEngineName": "B 200 d (247.012)",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134238,
+      "modelId": 39199,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "B-CLASS Sports Tourer (W247)",
+      "typeEngineName": "B 220 d (247.014)",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134245,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 63 AMG (217.387)",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 134260,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 200 d (213.012)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2023-08-01"
+    },
+    {
+      "vehicleId": 134261,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 200 d (213.212)",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2023-08-01"
+    },
+    {
+      "vehicleId": 134263,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 400 d (213.020)",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 134279,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 350 d 4-matic (222.121)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 134500,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 350 d 4-matic (167.121)",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 134501,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 400 d 4-matic (167.123)",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 135197,
+      "modelId": 38417,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS (W463)",
+      "typeEngineName": "G 350 d 4-matic (463.349)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": "2022-11-01"
+    },
+    {
+      "vehicleId": 135626,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 400 d (213.220)",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 135943,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "AMG GLE 53 EQ Boost 4-matic+ (167.161)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136004,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "114 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136005,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "114 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136006,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "116 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136007,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "116 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136008,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "119 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136009,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "119 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136010,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "114 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136011,
+      "modelId": 13076,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Van (W447)",
+      "typeEngineName": "114 CDI 4x4 (447.601, 447.603, 447.605)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136012,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "116 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136013,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "116 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136014,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "119 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136015,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "119 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136026,
+      "modelId": 11889,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS (W447)",
+      "typeEngineName": "V 220 CDI / d (447.811, 447.813, 447.815)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136027,
+      "modelId": 11889,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS (W447)",
+      "typeEngineName": "V 220 CDI / d 4-matic (447.811, 447.813)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136028,
+      "modelId": 11889,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS (W447)",
+      "typeEngineName": "V 250 CDI / d (447.811, 447.813, 447.815)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136029,
+      "modelId": 11889,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS (W447)",
+      "typeEngineName": "V 250 CDI / d 4-matic (447.811, 447.813)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136030,
+      "modelId": 11889,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS (W447)",
+      "typeEngineName": "V 300 CDI / d (447.811, 447.813, 447.815)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 136031,
+      "modelId": 11889,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS (W447)",
+      "typeEngineName": "V 300 CDI / d 4-matic (447.811, 447.813)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 136066,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "350 d 4-matic (167.921)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136067,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "400 d 4-matic (167.923)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136071,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 450 EQ Boost (257.358)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136124,
+      "modelId": 39446,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA (C118)",
+      "typeEngineName": "CLA 200 d (118.312)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136125,
+      "modelId": 39446,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA (C118)",
+      "typeEngineName": "CLA 220 d (118.314)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136127,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "200 d (253.913)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 136128,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "200 d 4-matic (253.916)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 136129,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "220 d (253.914)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 136130,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "220 d 4-matic (253.915)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 136131,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "200 d (253.313)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 136132,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "200 d 4-matic (253.316)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 136133,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "220 d 4-matic (253.315)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 136181,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "300 d 4-matic (253.319)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 136184,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "300 d 4-matic (253.919)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 136268,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "200 CDI (447.703, 447.813)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136269,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "200 CDI 4-matic (447.703, 447.813)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136270,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "220 CDI (447.703, 447.813)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136271,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "220 CDI 4-matic (447.703, 447.813)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136272,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "250 CDI (447.703, 447.813)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136273,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "250 CDI 4-matic (447.703, 447.813)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136377,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 4-matic (222.185)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 136522,
+      "modelId": 39629,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Shooting Brake (X118)",
+      "typeEngineName": "CLA 200 d (118.612)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136523,
+      "modelId": 39629,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Shooting Brake (X118)",
+      "typeEngineName": "CLA 220 d (118.614)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136790,
+      "modelId": 38417,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS (W463)",
+      "typeEngineName": "G 400 d 4-matic (463.350)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136842,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 4-matic (222.169)",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": "2020-04-01"
+    },
+    {
+      "vehicleId": 137165,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "400 d 4-matic (253.323)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 137167,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "400 d 4-matic (253.923)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 137527,
+      "modelId": 38880,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS Saloon (V177)",
+      "typeEngineName": "A 200 d (177.112)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137528,
+      "modelId": 38880,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS Saloon (V177)",
+      "typeEngineName": "A 220 d (177.114)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137599,
+      "modelId": 39859,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLB (X247)",
+      "typeEngineName": "GLB 180 d (247.610)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137600,
+      "modelId": 39859,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLB (X247)",
+      "typeEngineName": "GLB 200 d (247.612)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137601,
+      "modelId": 39859,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLB (X247)",
+      "typeEngineName": "GLB 200 d 4-matic (247.613)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137602,
+      "modelId": 39859,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLB (X247)",
+      "typeEngineName": "GLB 220 d 4-matic (247.615)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137876,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "450 EQ Boost 4-matic (167.959)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138068,
+      "modelId": 39199,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "B-CLASS Sports Tourer (W247)",
+      "typeEngineName": "B 200 d 4-matic (247.013)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": "2021-09-01"
+    },
+    {
+      "vehicleId": 138071,
+      "modelId": 39199,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "B-CLASS Sports Tourer (W247)",
+      "typeEngineName": "B 220 d 4-matic (247.015)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138072,
+      "modelId": 38539,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS (W177)",
+      "typeEngineName": "A 200 d 4-matic (177.013)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138073,
+      "modelId": 38539,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS (W177)",
+      "typeEngineName": "A 220 d 4-matic (177.015)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138082,
+      "modelId": 38880,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS Saloon (V177)",
+      "typeEngineName": "A 200 d 4-matic (177.113)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138083,
+      "modelId": 38880,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS Saloon (V177)",
+      "typeEngineName": "A 220 d 4-matic (177.115)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138109,
+      "modelId": 39629,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Shooting Brake (X118)",
+      "typeEngineName": "CLA 200 d 4-matic (118.613)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138110,
+      "modelId": 39629,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Shooting Brake (X118)",
+      "typeEngineName": "CLA 220 d 4-matic (118.615)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138508,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 350 d 4-matic (167.321)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 138509,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 400 d 4-matic (167.323)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 138510,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "AMG GLE 53 EQ Boost 4-matic+ (167.361)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138761,
+      "modelId": 39859,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLB (X247)",
+      "typeEngineName": "GLB 220 d (247.614)",
+      "constructionIntervalStart": "2019-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138980,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "300 CDI (447.813, 447.703)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 138981,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "300 CDI 4-matic (447.813, 447.703)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 139281,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "C 300 de (205.013)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 139284,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 300 de (213.016)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 139287,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 560 e (222.173)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 139655,
+      "modelId": 40514,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLA (H247)",
+      "typeEngineName": "GLA 200 d (247.712)",
+      "constructionIntervalStart": "2020-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139656,
+      "modelId": 40514,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLA (H247)",
+      "typeEngineName": "GLA 200 d 4-matic (247.713)",
+      "constructionIntervalStart": "2020-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139658,
+      "modelId": 40514,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLA (H247)",
+      "typeEngineName": "GLA 220 d 4-matic (247.715)",
+      "constructionIntervalStart": "2020-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139659,
+      "modelId": 40514,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLA (H247)",
+      "typeEngineName": "GLA 220 d (247.714)",
+      "constructionIntervalStart": "2020-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139987,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 450 Maybach EQ Boost 4-matic (222.959)",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 140406,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "124 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 140408,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "124 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140412,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "124 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 140413,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "124 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 140436,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 350 de 4-matic (167.117)",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 140437,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 300 de (213.216)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 140439,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "C 300 de (205.213)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 140459,
+      "modelId": 13076,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Van (W447)",
+      "typeEngineName": "114 CDI (447.601, 447.603, 447.605)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140460,
+      "modelId": 13076,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Van (W447)",
+      "typeEngineName": "116 CDI (447.601, 447.603, 447.605)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140461,
+      "modelId": 13076,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Van (W447)",
+      "typeEngineName": "116 CDI 4x4 (447.601, 447.603, 447.605)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140462,
+      "modelId": 13076,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Van (W447)",
+      "typeEngineName": "119 CDI (447.601, 447.603, 447.605)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140463,
+      "modelId": 13076,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Van (W447)",
+      "typeEngineName": "119 CDI 4x4 (447.601, 447.603, 447.605)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140473,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 500 EQ Boost 4-matic (222.169)",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": "2020-04-01"
+    },
+    {
+      "vehicleId": 140553,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 320 EQ Boost (222.156)",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 140670,
+      "modelId": 40514,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLA (H247)",
+      "typeEngineName": "GLA 180 d (247.710)",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140691,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "300 de 4-matic (253.911)",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 140694,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "300 de 4-matic (253.311)",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 140709,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 350 de 4-matic (167.117)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 140712,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 350 de 4-matic (167.317)",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 140789,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 300 de 4-matic (213.011)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": "2023-08-01"
+    },
+    {
+      "vehicleId": 141097,
+      "modelId": 39446,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA (C118)",
+      "typeEngineName": "CLA 200 d 4-matic (118.313)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141102,
+      "modelId": 39446,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA (C118)",
+      "typeEngineName": "CLA 220 d 4-matic (118.315)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141254,
+      "modelId": 38706,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Van (B907, B910)",
+      "typeEngineName": "311 CDI RWD (907.631, 907.633, 907.635, 907.637)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141259,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "311 CDI RWD (907.131, 907.133, 907.135, 907.231, 907.233...",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141261,
+      "modelId": 38711,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Platform/Chassis (B910, B907)",
+      "typeEngineName": "211 CDI RWD (907.221, 907.223, 907.123)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141267,
+      "modelId": 38706,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Van (B907, B910)",
+      "typeEngineName": "315 CDI RWD (907.631, 907.633, 907.635, 907.637)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141268,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "315 CDI RWD (907.131, 907.133, 907.135, 907.231, 907.233...",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141269,
+      "modelId": 38711,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Platform/Chassis (B910, B907)",
+      "typeEngineName": "215 CDI RWD (907.221, 907.223)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141271,
+      "modelId": 38706,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Van (B907, B910)",
+      "typeEngineName": "317 CDI RWD (907.631, 907.633, 907.635, 907.637)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141272,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "317 CDI RWD (907.131, 907.133, 907.135, 907.231, 907.233...",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141273,
+      "modelId": 38711,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Platform/Chassis (B910, B907)",
+      "typeEngineName": "217 CDI RWD (907.221, 907.223)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141274,
+      "modelId": 38707,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B907, B910)",
+      "typeEngineName": "417 CDI RWD (907.641, 907.643, 907.645, 907.647)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141298,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "114 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141374,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 400 d 4-matic (213.023)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 141391,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 400 d 4-matic (257.323)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141392,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 400 d 4-matic (238.323)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141393,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 400 d 4-matic (238.423)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141396,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 450 EQ Boost 4-matic (238.359)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141399,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 450 EQ Boost 4-matic (238.459)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141548,
+      "modelId": 37491,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S213)",
+      "typeEngineName": "E 450 EQ Boost (213.260)",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": "2023-08-01"
+    },
+    {
+      "vehicleId": 141568,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 400 d 4-matic (213.223)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 141574,
+      "modelId": 37491,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S213)",
+      "typeEngineName": "E 400 d 4-matic (213.227)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 141719,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 450 EQ Boost 4-matic (167.359)",
+      "constructionIntervalStart": "2020-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141776,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 450 EQ Boost 4-matic (223.061)",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141777,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 500 EQ Boost 4-matic (223.063)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141778,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 350 d (223.030)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 141779,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 350 d 4-matic (223.031)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 141780,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 400 d 4-matic (223.033)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141836,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 450 EQ Boost (213.259)",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": "2023-08-01"
+    },
+    {
+      "vehicleId": 141846,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 300 de 4-matic (213.211)",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": "2023-08-01"
+    },
+    {
+      "vehicleId": 141882,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 450 EQ Boost 4-matic (213.059)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 142180,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 450 EQ Boost 4-matic (167.357)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142476,
+      "modelId": 38539,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS (W177)",
+      "typeEngineName": "A 180 d (177.010)",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142487,
+      "modelId": 38880,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS Saloon (V177)",
+      "typeEngineName": "A 180 d (177.110)",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142492,
+      "modelId": 39199,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "B-CLASS Sports Tourer (W247)",
+      "typeEngineName": "B 180 d (247.010)",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142494,
+      "modelId": 39629,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Shooting Brake (X118)",
+      "typeEngineName": "CLA 180 d (118.610)",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142495,
+      "modelId": 39446,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA (C118)",
+      "typeEngineName": "CLA 180 d (118.310)",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142736,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "Maybach 480 EQ Boost 4-matic (167.967)",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142798,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "400 EQ Boost 4-matic (167.956)",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143274,
+      "modelId": 11889,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS (W447)",
+      "typeEngineName": "V 300 CDI / d (447.811, 447.813, 447.815)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143279,
+      "modelId": 11889,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS (W447)",
+      "typeEngineName": "V 300 CDI / d 4-matic (447.811, 447.813)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143280,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "300 CDI (447.813, 447.703)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143281,
+      "modelId": 40214,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "MARCO POLO Camper (W447)",
+      "typeEngineName": "300 CDI 4-matic (447.813, 447.703)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143282,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "124 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143283,
+      "modelId": 13078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Tourer (W447)",
+      "typeEngineName": "124 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143284,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "124 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143285,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "124 CDI 4-matic (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143384,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 500 EQ Boost 4-matic (223.163)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143385,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 450 EQ Boost 4-matic (223.161)",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143387,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 350 d (223.130)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143388,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 350 d 4-matic (223.131)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143389,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 400 d 4-matic (223.133)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143491,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 300 d 4-matic (213.219)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 143498,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 300 d 4-matic (213.019)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 143576,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 180 (206.041)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143578,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 200 (206.042)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143579,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 200 4-matic (206.043)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143580,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 220 d (206.016, 206.004)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143581,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 300 d (206.006)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143630,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 300 4-matic (206.047)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143631,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 300 (206.046)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143633,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 200 (206.242)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143634,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 300 d (206.206)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143635,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 220 d (206.204, 206.216)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143725,
+      "modelId": 38362,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLS (C257)",
+      "typeEngineName": "CLS 300 d 4-matic (257.319)",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143728,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 300 d 4-matic (238.419)",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143729,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 300 d 4-matic (238.319)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143798,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 450 EQ Boost (223.160)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143800,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 400 EQ Boost (223.159)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144322,
+      "modelId": 41934,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (Z223)",
+      "typeEngineName": "S 480 Maybach EQ Boost 4-matic (223.961)",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144630,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 300 d EQ Boost 4-matic (167.119, 167.109)",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 144631,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 300 d EQ Boost 4-matic (167.309)",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 144824,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 580 e (223.068)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144826,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 580 e (223.168)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145132,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 200 d (206.003)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145133,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 220 d 4-matic (206.005)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145134,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 300 d 4-matic (206.007)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145149,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 220 d 4-matic (206.205)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145150,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 200 d (206.203)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145151,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 180 (206.241)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145181,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 450 EQ Boost (223.060)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145295,
+      "modelId": 42377,
+      "manufacturerName": "MERCEDES-BENZ (BBDC)",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 200 L EQ Boost (206.141)",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145296,
+      "modelId": 42377,
+      "manufacturerName": "MERCEDES-BENZ (BBDC)",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 260 L EQ Boost (206.142)",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145298,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 400 EQ Boost (223.157)",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145299,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 450 EQ Boost (223.155)",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145300,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 450 EQ Boost 4-matic (223.156)",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145389,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "450 EQ Boost 4-matic (167.957)",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145390,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 450 EQ Boost 4-matic (167.157)",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145527,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 300 (206.246)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145528,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 300 4-matic (206.247)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145529,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 200 4-matic (206.243)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145552,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "315 CDI (910.030)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145553,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "317 CDI (910.030)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145554,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "417 CDI (910.040)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145555,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "415 CDI (910.040)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145732,
+      "modelId": 13076,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Van (W447)",
+      "typeEngineName": "110 CDI (447.601, 447.603, 447.605)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145733,
+      "modelId": 13077,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "VITO Mixto (Double Cabin) (W447)",
+      "typeEngineName": "110 CDI (447.701, 447.703, 447.705)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145738,
+      "modelId": 38706,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Van (B907, B910)",
+      "typeEngineName": "311 CDI (910.631, 910.633)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145740,
+      "modelId": 38705,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Van (B910)",
+      "typeEngineName": "211 CDI (910.621, 910.623)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145741,
+      "modelId": 38707,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B907, B910)",
+      "typeEngineName": "411 CDI RWD (907.641, 907.643, 907.645, 907.647)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145747,
+      "modelId": 38711,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Platform/Chassis (B910, B907)",
+      "typeEngineName": "211 CDI (910.121, 910.123)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145748,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "411 CDI RWD (907.141, 907.143, 907.145, 907.241, 907.243...",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145749,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "311 CDI (910.131, 910.133)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145863,
+      "modelId": 42377,
+      "manufacturerName": "MERCEDES-BENZ (BBDC)",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 260 L EQ Boost 4-matic (206.143)",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145903,
+      "modelId": 38705,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Van (B910)",
+      "typeEngineName": "215 CDI (910.621, 910.623)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145904,
+      "modelId": 38706,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Van (B907, B910)",
+      "typeEngineName": "315 CDI (910.631, 910.633)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145931,
+      "modelId": 38707,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B907, B910)",
+      "typeEngineName": "415 CDI RWD (907.641, 907.643, 907.645, 907.647)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145932,
+      "modelId": 38708,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Van (B907)",
+      "typeEngineName": "515 CDI (907.653, 907.655, 907.657)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145935,
+      "modelId": 38711,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Platform/Chassis (B910, B907)",
+      "typeEngineName": "215 CDI (910.121, 910.123)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145936,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "315 CDI (910.131, 910.133)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145937,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "415 CDI RWD (907.141, 907.143, 907.145, 907.241, 907.243...",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145938,
+      "modelId": 38714,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Platform/Chassis (B907)",
+      "typeEngineName": "515 CDI RWD (907.153, 907.155, 907.253, 907.255)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145939,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "417 CDI RWD (907.141, 907.143, 907.145, 907.241, 907.243...",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145940,
+      "modelId": 38708,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Van (B907)",
+      "typeEngineName": "517 CDI (907.653, 907.655, 907.657)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145996,
+      "modelId": 38706,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Van (B907, B910)",
+      "typeEngineName": "319 CDI RWD (907.633, 907.635, 907.637)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146011,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "319 CDI RWD (907.133, 907.135, 907.233, 907.235)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146012,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "319 CDI All-wheel Drive (907.133, 907.135, 907.233)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146017,
+      "modelId": 38707,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B907, B910)",
+      "typeEngineName": "419 CDI RWD (907.643, 907.645, 907.647)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146019,
+      "modelId": 38708,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Van (B907)",
+      "typeEngineName": "519 CDI (907.653, 907.655, 907.657)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146020,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "419 CDI RWD (907.143, 907.145, 907.243, 907.245)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146021,
+      "modelId": 38714,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Platform/Chassis (B907)",
+      "typeEngineName": "519 CDI RWD (907.153, 907.155, 907.253, 907.255)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146051,
+      "modelId": 38707,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B907, B910)",
+      "typeEngineName": "419 CDI All-wheel Drive (907.643, 907.645, 907.647)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146052,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "419 CDI All-wheel Drive (907.143, 907.145, 907.243,...",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146053,
+      "modelId": 38714,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Platform/Chassis (B907)",
+      "typeEngineName": "519 CDI All-wheel Drive (907.153, 907.155, 907.253,...",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146071,
+      "modelId": 38707,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B907, B910)",
+      "typeEngineName": "415 CDI (910.641, 910.643)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146076,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "415 CDI (910.141, 910.143)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146079,
+      "modelId": 38706,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Van (B907, B910)",
+      "typeEngineName": "319 CDI All-wheel Drive (907.633, 907.635, 907.637)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146080,
+      "modelId": 38708,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Van (B907)",
+      "typeEngineName": "519 CDI All-wheel Drive (907.653, 907.655, 907.657)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146107,
+      "modelId": 38709,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Tourer Bus (B907)",
+      "typeEngineName": "211 CDI (907.721, 907.723)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146108,
+      "modelId": 38710,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Tourer Bus (B907)",
+      "typeEngineName": "311 CDI (907.731, 907.733, 907.735)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146109,
+      "modelId": 38709,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Tourer Bus (B907)",
+      "typeEngineName": "215 CDI (907.721, 907.723)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146110,
+      "modelId": 38710,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Tourer Bus (B907)",
+      "typeEngineName": "315 CDI (907.731, 907.733, 907.735)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146111,
+      "modelId": 38709,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3-t Tourer Bus (B907)",
+      "typeEngineName": "217 CDI (907.721, 907.723)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146112,
+      "modelId": 38710,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Tourer Bus (B907)",
+      "typeEngineName": "317 CDI (907.731, 907.733, 907.735)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146122,
+      "modelId": 38710,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Tourer Bus (B907)",
+      "typeEngineName": "319 CDI (907.733, 907.735)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146123,
+      "modelId": 38710,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Tourer Bus (B907)",
+      "typeEngineName": "319 CDI All-wheel Drive (907.733)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146439,
+      "modelId": 38417,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS (W463)",
+      "typeEngineName": "G 350 d 4-matic (463.349)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": "2022-02-01"
+    },
+    {
+      "vehicleId": 146502,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 350 d 4-matic",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146614,
+      "modelId": 42667,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS All-Terrain (S206)",
+      "typeEngineName": "C 200 4-matic (206.245)",
+      "constructionIntervalStart": "2021-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146615,
+      "modelId": 42667,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS All-Terrain (S206)",
+      "typeEngineName": "C 220 d 4-matic (206.214)",
+      "constructionIntervalStart": "2021-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146620,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 300 e (206.254)",
+      "constructionIntervalStart": "2021-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146621,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 300 e (206.054)",
+      "constructionIntervalStart": "2021-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146698,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 220 d (213.204)",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 146699,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "E 220 d 4-matic (213.205)",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 146925,
+      "modelId": 37424,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Coupe (C238)",
+      "typeEngineName": "E 450 EQ Boost (238.358)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147212,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 220 d (213.004)",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 147213,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "E 220 d 4-matic (213.005)",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 147214,
+      "modelId": 37491,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S213)",
+      "typeEngineName": "E 220 d 4-matic (213.205)",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 147325,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 580 e 4-matic (223.069)",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147379,
+      "modelId": 38714,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Platform/Chassis (B907)",
+      "typeEngineName": "517 CDI RWD (907.153, 907.155, 907.253, 907.255)",
+      "constructionIntervalStart": "2022-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147380,
+      "modelId": 40226,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Tourer Bus (B907)",
+      "typeEngineName": "415 CDI (907.643)",
+      "constructionIntervalStart": "2022-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147381,
+      "modelId": 40226,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Tourer Bus (B907)",
+      "typeEngineName": "417 CDI (907.743, 907.745, 907.843, 907.741)",
+      "constructionIntervalStart": "2022-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147678,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 300 e 4-matic (206.056)",
+      "constructionIntervalStart": "2022-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147716,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 450 e (223.066)",
+      "constructionIntervalStart": "2022-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147717,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 450 e (223.166)",
+      "constructionIntervalStart": "2022-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147719,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 400 e 4-matic (206.055)",
+      "constructionIntervalStart": "2022-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148043,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 580 e 4-matic (223.169)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148142,
+      "modelId": 38706,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Van (B907, B910)",
+      "typeEngineName": "317 CDI (910.633)",
+      "constructionIntervalStart": "2022-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148212,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "200 4-matic (254.651)",
+      "constructionIntervalStart": "2022-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148213,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "300 4-matic (254.647)",
+      "constructionIntervalStart": "2022-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148214,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "220d 4-matic (254.605)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148378,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 200 4-matic (206.051)",
+      "constructionIntervalStart": "2022-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148953,
+      "modelId": 42377,
+      "manufacturerName": "MERCEDES-BENZ (BBDC)",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 350 e L (206.154)",
+      "constructionIntervalStart": "2022-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150600,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "300d 4-matic (254.607)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150606,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "300e 4-matic (254.656)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150607,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "400e 4-matic (254.655)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150608,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "300de 4-matic (254.609)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150766,
+      "modelId": 38417,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS (W463)",
+      "typeEngineName": "AMG G 63 4x4\u00b2 (463.280)",
+      "constructionIntervalStart": "2022-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151475,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 450 EQ Boost 4-matic (223.061)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151476,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 500 EQ Boost 4-matic (223.063)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151477,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 450 EQ Boost 4-matic (223.161)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151479,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 500 EQ Boost 4-matic (223.163)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152827,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 300 de (206.208)",
+      "constructionIntervalStart": "2022-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152828,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 300 de 4-matic (206.209)",
+      "constructionIntervalStart": "2022-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152830,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 300 de (206.008)",
+      "constructionIntervalStart": "2022-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152831,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 300 de 4-matic (206.009)",
+      "constructionIntervalStart": "2022-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152931,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 350 de 4-matic (167.106)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152935,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 300 d 4-matic (167.109)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152936,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 450 d 4-matic (167.133)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152942,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 400 e 4-matic (167.146)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152944,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 450 4-matic (167.159)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152951,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 300 d 4-matic (167.309)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152961,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 450 d 4-matic (167.333)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152962,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 350 de 4-matic (167.306)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152965,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "GLE 400 e 4-matic (167.346)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 153771,
+      "modelId": 41934,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (Z223)",
+      "typeEngineName": "S 580 e Maybach 4-matic (223.969)",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 153772,
+      "modelId": 44266,
+      "manufacturerName": "MERCEDES-BENZ (BBDC)",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "260 L EQ Boost 4-matic (254.151)",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 153773,
+      "modelId": 44266,
+      "manufacturerName": "MERCEDES-BENZ (BBDC)",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "300 L EQ Boost 4-matic (254.147)",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154489,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "350 d Mild Hybrid 4-matic (167.931)",
+      "constructionIntervalStart": "2023-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154533,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "450 d Mild-Hybrid 4-matic (167.933)",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154534,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "450 Mild Hybrid 4-matic (167.959)",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154545,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 350 d Mild Hybrid (223.020)",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154546,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 350 d Mild Hybrid (223.120)",
+      "constructionIntervalStart": "2023-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154548,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 350 d Mild Hybrid 4-matic (223.021)",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154549,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 350 d Mild Hybrid 4-matic (223.121)",
+      "constructionIntervalStart": "2023-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154552,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 450 d Mild Hybrid 4-matic (223.023)",
+      "constructionIntervalStart": "2023-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154553,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 450 d Mild Hybrid 4-matic (223.123)",
+      "constructionIntervalStart": "2023-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154589,
+      "modelId": 40226,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Tourer Bus (B907)",
+      "typeEngineName": "2500 (907.743, 907.745)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154590,
+      "modelId": 40226,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Tourer Bus (B907)",
+      "typeEngineName": "2500 4-matic (907.743)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154591,
+      "modelId": 38707,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B907, B910)",
+      "typeEngineName": "2500 RWD (907.643, 907.645, 907.647)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154592,
+      "modelId": 38707,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B907, B910)",
+      "typeEngineName": "2500 All-wheel Drive (907.643, 907.645, 907.647)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154595,
+      "modelId": 38708,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Van (B907)",
+      "typeEngineName": "3500 (907.653, 907.655, 907.657)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154596,
+      "modelId": 38708,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Van (B907)",
+      "typeEngineName": "3500XD (907.653, 907.655, 907.657)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154597,
+      "modelId": 38708,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Van (B907)",
+      "typeEngineName": "3500XD All-wheel Drive (907.653, 907.655, 907.657)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154598,
+      "modelId": 38714,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Platform/Chassis (B907)",
+      "typeEngineName": "3500XD RWD (907.153, 907.155)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154599,
+      "modelId": 38714,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Platform/Chassis (B907)",
+      "typeEngineName": "3500XD All-wheel Drive (907.153, 907.155)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154600,
+      "modelId": 38714,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Platform/Chassis (B907)",
+      "typeEngineName": "4500 RWD (907.153, 907.155)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154602,
+      "modelId": 38708,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Van (B907)",
+      "typeEngineName": "4500 (907.653, 907.655, 907.657)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154756,
+      "modelId": 40227,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 5-t Tourer Bus (B907)",
+      "typeEngineName": "517 CDI (907.855, 907.857)",
+      "constructionIntervalStart": "2023-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155222,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 220 d (206.004)",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155223,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 220 d 4-matic (206.005)",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155225,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 220 d (206.204)",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155226,
+      "modelId": 41835,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-MODEL (S206)",
+      "typeEngineName": "C 220 d 4-matic (206.205)",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155231,
+      "modelId": 42667,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS All-Terrain (S206)",
+      "typeEngineName": "C 220 d 4-matic (206.214)",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155235,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "200 4-matic (254.351)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155236,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "220d 4-matic (254.305)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155237,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "300 4-matic (254.347)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155238,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "300d 4-matic (254.307)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155239,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "300e 4-matic (254.356)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155240,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "300de 4-matic (254.309)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155241,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "400e 4-matic (254.355)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155288,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 200 (214.050)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155289,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 220 d (214.004)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155290,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 220 d 4-matic (214.005)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155291,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 300 e (214.054)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155292,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 300 e 4-matic (214.056)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155293,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 400 e 4-matic (214.055)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155345,
+      "modelId": 44565,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS Closed Off-Road Vehicle (W464)",
+      "typeEngineName": "G 350 d 4-matic (464.300)",
+      "constructionIntervalStart": "2022-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155346,
+      "modelId": 44566,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS Platform/Chassis (W464)",
+      "typeEngineName": "G 350 D 4-matic (464.320)",
+      "constructionIntervalStart": "2022-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155545,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 350 EQ Boost 4-matic (167.145)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155913,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 580 4-matic (167.185)",
+      "constructionIntervalStart": "2023-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156002,
+      "modelId": 44739,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S214)",
+      "typeEngineName": "E 200 (214.250)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156005,
+      "modelId": 44739,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S214)",
+      "typeEngineName": "E 220 d (214.204)",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156034,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "580 4-matic (167.985)",
+      "constructionIntervalStart": "2023-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156036,
+      "modelId": 44739,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S214)",
+      "typeEngineName": "E 300 e (214.254)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156038,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 180 (214.041)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156125,
+      "modelId": 44789,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE (C236)",
+      "typeEngineName": "CLE 220 d (236.304)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156126,
+      "modelId": 44789,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE (C236)",
+      "typeEngineName": "CLE 200 (236.350)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156127,
+      "modelId": 44789,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE (C236)",
+      "typeEngineName": "CLE 300 4-matic (236.347)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156323,
+      "modelId": 44789,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE (C236)",
+      "typeEngineName": "CLE 200 4-matic (236.351)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156324,
+      "modelId": 44789,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE (C236)",
+      "typeEngineName": "CLE 450 4-matic (236.361)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156355,
+      "modelId": 44739,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S214)",
+      "typeEngineName": "E 300 de (214.208)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156356,
+      "modelId": 44739,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S214)",
+      "typeEngineName": "E 300 de 4-matic (214.209)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156357,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 300 de 4-matic (214.009)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156358,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 300 de (214.008)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156359,
+      "modelId": 44853,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S214)",
+      "typeEngineName": "E 300 de 4-matic (214.219)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156360,
+      "modelId": 44853,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S214)",
+      "typeEngineName": "E 450 4-matic (214.265)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156364,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 450 4-matic (214.061)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156365,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 200 4-matic (214.051)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156366,
+      "modelId": 44552,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 450 d 4-matic (214.023)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156367,
+      "modelId": 44739,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S214)",
+      "typeEngineName": "E 450 4-matic (214.261)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156368,
+      "modelId": 44739,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S214)",
+      "typeEngineName": "E 220 d 4-matic (214.205)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156369,
+      "modelId": 44853,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S214)",
+      "typeEngineName": "E 220 d 4-matic (214.214)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156400,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "450d 4-matic (254.623)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156401,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "450d 4-matic (254.323)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156670,
+      "modelId": 38022,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS Convertible (A238)",
+      "typeEngineName": "E 450 EQ Boost (238.458)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156983,
+      "modelId": 45035,
+      "manufacturerName": "MERCEDES-BENZ (BBDC)",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 260 L EQ Boost (214.150)",
+      "constructionIntervalStart": "2023-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156984,
+      "modelId": 45035,
+      "manufacturerName": "MERCEDES-BENZ (BBDC)",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 300 L EQ Boost (214.146)",
+      "constructionIntervalStart": "2023-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157059,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 450 d 4-matic (167.133)",
+      "constructionIntervalStart": "2023-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157080,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "AMG GLE 53 Hybrid 4-matic+ (167.164)",
+      "constructionIntervalStart": "2023-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157081,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "AMG GLE 53 Plug-in Hybrid 4-matic+ (167.364)",
+      "constructionIntervalStart": "2023-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157480,
+      "modelId": 44739,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S214)",
+      "typeEngineName": "E 450 d 4-matic (214.223)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157481,
+      "modelId": 44853,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS All-Terrain (S214)",
+      "typeEngineName": "E 450 d 4-matic (214.233)",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157584,
+      "modelId": 44739,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S214)",
+      "typeEngineName": "E 200 4-matic (214.251)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157585,
+      "modelId": 44789,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE (C236)",
+      "typeEngineName": "CLE 53 AMG 4-matic+ (236.362)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157627,
+      "modelId": 45179,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE Convertible (A236)",
+      "typeEngineName": "CLE 200 (236.450)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157628,
+      "modelId": 45179,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE Convertible (A236)",
+      "typeEngineName": "CLE 200 4-matic (236.451)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157633,
+      "modelId": 45179,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE Convertible (A236)",
+      "typeEngineName": "CLE 300 4-matic (236.447)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157634,
+      "modelId": 45179,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE Convertible (A236)",
+      "typeEngineName": "CLE 450 4-matic (236.461)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157640,
+      "modelId": 45179,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLE Convertible (A236)",
+      "typeEngineName": "CLE 220 d (236.404)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157681,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "317 CDI (910.133)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157686,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "417 CDI (910.143)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157787,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "180 (254.341)",
+      "constructionIntervalStart": "2022-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157788,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "180 (254.641)",
+      "constructionIntervalStart": "2022-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157820,
+      "modelId": 42974,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X254)",
+      "typeEngineName": "300 (254.646)",
+      "constructionIntervalStart": "2024-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157821,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "Maybach 480 EQ Boost 4-matic (167.967)",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157823,
+      "modelId": 38706,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Van (B907, B910)",
+      "typeEngineName": "314 CDI RWD (907.631, 907.633, 907.635, 907.637)",
+      "constructionIntervalStart": "2023-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157826,
+      "modelId": 38707,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Van (B907, B910)",
+      "typeEngineName": "414 CDI RWD (907.643, 907.645, 907.647)",
+      "constructionIntervalStart": "2023-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157827,
+      "modelId": 40226,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Tourer Bus (B907)",
+      "typeEngineName": "414 CDI (907.741, 907.743, 907.745)",
+      "constructionIntervalStart": "2023-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157833,
+      "modelId": 38712,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 3,5-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "314 CDI RWD (907.131, 907.133, 907.135)",
+      "constructionIntervalStart": "2023-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157834,
+      "modelId": 38713,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "SPRINTER 4-t Platform/Chassis (B907, B910)",
+      "typeEngineName": "414 CDI RWD (907.141, 907.143, 907.145)",
+      "constructionIntervalStart": "2023-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157925,
+      "modelId": 45035,
+      "manufacturerName": "MERCEDES-BENZ (BBDC)",
+      "modelName": "E-CLASS (W214)",
+      "typeEngineName": "E 260 L EQ Boost 4-matic (214.151)",
+      "constructionIntervalStart": "2024-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157926,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "260 4-matic (254.351)",
+      "constructionIntervalStart": "2024-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157927,
+      "modelId": 44535,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C254)",
+      "typeEngineName": "300 4-matic (254.347)",
+      "constructionIntervalStart": "2024-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157986,
+      "modelId": 41824,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W206)",
+      "typeEngineName": "C 350 e",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158157,
+      "modelId": 41934,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (Z223)",
+      "typeEngineName": "S 480 Maybach EQ Boost 4-matic (223.961)",
+      "constructionIntervalStart": "2024-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107476,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 63 AMG (217.377)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 108004,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "AMG C 63 (205.086)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 108005,
+      "modelId": 11851,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS (W205)",
+      "typeEngineName": "AMG C 63 S (205.087)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 108009,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "AMG C 63 (205.286)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 108010,
+      "modelId": 12855,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS T-Model (S205)",
+      "typeEngineName": "AMG C 63 S (205.287)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 116942,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "AMG C 63 (205.386)",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 116943,
+      "modelId": 14664,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Coupe (C205)",
+      "typeEngineName": "AMG C 63 S (205.387)",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 120128,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "AMG C 63 (205.486)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 120129,
+      "modelId": 36610,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "C-CLASS Convertible (A205)",
+      "typeEngineName": "AMG C 63 S (205.487)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 127330,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 560 4-matic (222.086, 222.186)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 127332,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 560 Maybach 4-matic (222.986)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128015,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 560 Maybach (222.983)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128089,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 560 (222.083, 222.183)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129010,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 560 4-matic (217.386)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129011,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 560 (217.383)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129012,
+      "modelId": 14923,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Convertible (A217)",
+      "typeEngineName": "S 560 (217.483)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 114588,
+      "modelId": 65,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS (W463)",
+      "typeEngineName": "G 500 (463.234, 463.239)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 129868,
+      "modelId": 38417,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS (W463)",
+      "typeEngineName": "G 500 (463.260, 463.261)",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125169,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "AMG E 63 4-matic+ (213.088)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2021-11-01"
+    },
+    {
+      "vehicleId": 125170,
+      "modelId": 36202,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS (W213)",
+      "typeEngineName": "AMG E 63 S 4-matic+ (213.089)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 127339,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "AMG E 63 4-matic+ (213.288)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 127340,
+      "modelId": 36766,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "E-CLASS T-Model (S213)",
+      "typeEngineName": "AMG E 63 S 4-matic+ (213.289)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2023-10-01"
+    },
+    {
+      "vehicleId": 127683,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "AMG 63 4-matic+ (253.988)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 127685,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "AMG 63 4-matic+ (253.388)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 127686,
+      "modelId": 14305,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC (X253)",
+      "typeEngineName": "AMG 63 S 4-matic+ (253.989)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 127687,
+      "modelId": 36676,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLC Coupe (C253)",
+      "typeEngineName": "AMG 63 S 4-matic+ (253.389)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 129005,
+      "modelId": 14923,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Convertible (A217)",
+      "typeEngineName": "AMG S 63 4-matic+ (217.488)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 130978,
+      "modelId": 38417,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS (W463)",
+      "typeEngineName": "AMG G 63 (463.276, 463.277)",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132178,
+      "modelId": 38838,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "AMG GT (X290)",
+      "typeEngineName": "63 4-matic+ (290.688)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132180,
+      "modelId": 38838,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "AMG GT (X290)",
+      "typeEngineName": "63 S 4-matic+ (290.689)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 134247,
+      "modelId": 14923,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Convertible (A217)",
+      "typeEngineName": "AMG S 63 (217.487)",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 138594,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "AMG 63 4Matic+ EQ Boost 4-matic+ (167.989)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138595,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "Maybach 600 EQ Boost 4-matic (167.987)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138596,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "AMG GLE 63 EQ Boost 4-matic+ (167.188)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 138597,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "AMG GLE 63 S EQ Boost 4-matic+ (167.189)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140713,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "AMG GLE 63 EQ Boost 4-matic+ (167.388)",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 140714,
+      "modelId": 40161,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE Coupe (C167)",
+      "typeEngineName": "AMG GLE 63 EQ Boost 4-matic+ (167.389)",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "38"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "18,1"
+    },
+    {
+      "criteriaName": "Quantity Unit",
+      "criteriaValue": "ST"
+    },
+    {
+      "criteriaName": "Thread Length [mm]",
+      "criteriaValue": "21"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "396"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "002 990 20 17"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A002 990 20 17"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "A0029902017",
+  "fetchedAt": "2026-03-17T17:15:17Z",
+  "enrichedVia": "OEM (A0029902017)"
+}

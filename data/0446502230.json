@@ -1,0 +1,713 @@
+{
+  "articleNo": "P 83 071",
+  "articleId": 8360855,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 5806,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.4 4WD (ACA31, ACA33)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 5905,
+      "modelId": 9115,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK X ZIO I (_A1_)",
+      "typeEngineName": "3.5 (GGA10)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5906,
+      "modelId": 9115,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK X ZIO I (_A1_)",
+      "typeEngineName": "2.4 (ANA10)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5907,
+      "modelId": 9115,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK X ZIO I (_A1_)",
+      "typeEngineName": "2.4 4WD (ANA15)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10538,
+      "modelId": 9640,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS PLUS (_W4_)",
+      "typeEngineName": "1.8 Hybrid (ZVW40W, ZVW41W)",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12768,
+      "modelId": 9870,
+      "manufacturerName": "TOYOTA (GAC)",
+      "modelName": "VERSO (ZGR2_)",
+      "typeEngineName": "1.6 (ZGR20)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 12770,
+      "modelId": 9870,
+      "manufacturerName": "TOYOTA (GAC)",
+      "modelName": "VERSO (ZGR2_)",
+      "typeEngineName": "1.8 (ZGR21)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 12771,
+      "modelId": 9870,
+      "manufacturerName": "TOYOTA (GAC)",
+      "modelName": "VERSO (ZGR2_)",
+      "typeEngineName": "2.0 (ZGR22)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 13521,
+      "modelId": 8073,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "RAV4 (_A3_)",
+      "typeEngineName": "2.0 (ACA37)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 13886,
+      "modelId": 9998,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ZELAS Coupe (AGT20_)",
+      "typeEngineName": "2.5 VVT-i (AGT20_)",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 21226,
+      "modelId": 11530,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "RAV4 (_A4_)",
+      "typeEngineName": "2.5 4x4 (ASA44)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 31269,
+      "modelId": 8073,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "RAV4 (_A3_)",
+      "typeEngineName": "2.0 4x4 (ACA32)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 31270,
+      "modelId": 8073,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "RAV4 (_A3_)",
+      "typeEngineName": "2.4 4x4 (ACA33)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 34783,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.8 Hybrid (ZWE150_, ZWE150R)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 50843,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 (ZSA35)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 50844,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 4WD (ZSA30)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 51848,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "3.5 (GSA38)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 56282,
+      "modelId": 10413,
+      "manufacturerName": "SCION",
+      "modelName": "tC Coupe",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57665,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.5 4WD (ASA33)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 58352,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "Electric (QEA38)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 58616,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 D (ALA40_, ALA40R)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 58746,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 (ZSA42)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2019-09-01"
+    },
+    {
+      "vehicleId": 100951,
+      "modelId": 11924,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U6_)",
+      "typeEngineName": "2.0 (ZSU60W)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100954,
+      "modelId": 11924,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U6_)",
+      "typeEngineName": "2.0 4WD (ZSU65W)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105958,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 (ASA42)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 105959,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 4WD (ASA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 108550,
+      "modelId": 13323,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MIRAI (JPD1_)",
+      "typeEngineName": "FCV (JPD10_)",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2020-05-01"
+    },
+    {
+      "vehicleId": 109057,
+      "modelId": 11530,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "RAV4 (_A4_)",
+      "typeEngineName": "2.0 (ZSA42)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 109059,
+      "modelId": 11530,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "RAV4 (_A4_)",
+      "typeEngineName": "2.0 4x4 (ZSA44)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 111429,
+      "modelId": 9998,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ZELAS Coupe (AGT20_)",
+      "typeEngineName": "2.5 VVT-i (AGT20_)",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 117582,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 Hybrid 4WD (AVA44, AVA44_)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 120586,
+      "modelId": 14107,
+      "manufacturerName": "JMC",
+      "modelName": "YUHU",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120587,
+      "modelId": 14107,
+      "manufacturerName": "JMC",
+      "modelName": "YUHU",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121474,
+      "modelId": 11530,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "RAV4 (_A4_)",
+      "typeEngineName": "2.0 4x4 (ZSA44)",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 121475,
+      "modelId": 11530,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "RAV4 (_A4_)",
+      "typeEngineName": "2.0 (ZSA42)",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 123630,
+      "modelId": 11924,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U6_)",
+      "typeEngineName": "2.5 Hybrid E-Four (AVU65W)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124333,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "3.5 4WD (GRE156H)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 126652,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 (ASA42)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 133428,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D 4WD (ALA30)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 133447,
+      "modelId": 10926,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MATRIX (_E14_)",
+      "typeEngineName": "2.4 4WD (AZE144)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 134178,
+      "modelId": 14107,
+      "manufacturerName": "JMC",
+      "modelName": "YUHU",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142974,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.0 D4d (ALA40)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 143177,
+      "modelId": 41721,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS PLUS VAN (_W4_)",
+      "typeEngineName": "1.8 Hybrid (ZVW40)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19295,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 4WD (ACA30_, ACA30R)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 19296,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D 4WD (ALA30_, ALA30R)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 19297,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D 4WD (ALA30_, ALA30R)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 20645,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.4 (ACA36, ACA38)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 31135,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 (ZSA35_, ZSA35R)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 31136,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.0 4WD (ZSA30_, ZSA30R)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 31139,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D 4WD (ALA30_, ALA30R)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 34938,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.2 D (ALA35_)",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 20783,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "3.5 4WD (GSA33)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 42472,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 4WD (ZSA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2019-09-01"
+    },
+    {
+      "vehicleId": 57667,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.5 (ASA38)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 58618,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 4WD (ZSA44_, ZSA44R)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 58623,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.2 D 4WD (ALA49)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2019-09-01"
+    },
+    {
+      "vehicleId": 100490,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 D 4WD (ALA41_)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 113171,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 4WD (ZSA44_)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 117809,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 D (WWA42_)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 132973,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.0 (ZSA42)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2019-09-01"
+    },
+    {
+      "vehicleId": 134368,
+      "modelId": 5508,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 III (_A3_)",
+      "typeEngineName": "2.5 (ASA38)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 142972,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.0 VVTi 4WD (ZSA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142973,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.0 VVTi 4WD (ZSA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142975,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "D4d 4WD (ALA41)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142976,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.0 D4d (WWA42)",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 142977,
+      "modelId": 41669,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV VAN (_A4_)",
+      "typeEngineName": "2.2 D4d 4WD (ALA49)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 57499,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.8 Hybrid (ZWE186_, ZWE186R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 59608,
+      "modelId": 11280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Estate (_E18_)",
+      "typeEngineName": "1.8 Hybrid (ZWE186_, ZWE186R, ZWE186H)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 58747,
+      "modelId": 10996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 IV (_A4_)",
+      "typeEngineName": "2.5 4WD (ASA44)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2018-10-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "18"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "147"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "57"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Advics"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "24337"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446502230"
+    },
+    {
+      "oemBrand": "TOYOTA (GAC)",
+      "oemDisplayNo": "044650R020"
+    },
+    {
+      "oemBrand": "TOYOTA (FAW)",
+      "oemDisplayNo": "044650R020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650R031"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542140"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542150"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542170"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542180"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542190"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZDY"
+    },
+    {
+      "oemBrand": "PONTIAC",
+      "oemDisplayNo": "19184911"
+    }
+  ],
+  "ean": "8020584059715",
+  "originalSKU": "0446502230",
+  "fetchedAt": "2026-03-17T15:08:44Z",
+  "enrichedVia": "OEM (0446502230)"
+}

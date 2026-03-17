@@ -1,0 +1,922 @@
+{
+  "articleNo": "HU 7029 z",
+  "articleId": 7499543,
+  "supplier": "MANN-FILTER",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 7923,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 7928,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 7930,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 8349,
+      "modelId": 8607,
+      "manufacturerName": "VW",
+      "modelName": "TOUAREG (7P5, 7P6)",
+      "typeEngineName": "3.0 V6 TSI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2018-03-01"
+    },
+    {
+      "vehicleId": 9333,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 9335,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 10396,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 10399,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 10410,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 11813,
+      "modelId": 8741,
+      "manufacturerName": "PORSCHE",
+      "modelName": "CAYENNE (92A)",
+      "typeEngineName": "3.0 S",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 12075,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 12076,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 12086,
+      "modelId": 5461,
+      "manufacturerName": "AUDI",
+      "modelName": "Q7 (4LB)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 12238,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 12241,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 12250,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 17893,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 17894,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 17895,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18373,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18374,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18409,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18410,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18417,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18421,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18422,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18424,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18425,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18672,
+      "modelId": 4935,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D3 (4E2, 4E8)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 18673,
+      "modelId": 4935,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D3 (4E2, 4E8)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 19169,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19170,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19472,
+      "modelId": 5546,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C6 (4FH)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 20109,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 20110,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 21323,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 22548,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 23187,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 23188,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 23189,
+      "modelId": 4935,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D3 (4E2, 4E8)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 23300,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 25507,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 26644,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 29290,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 30364,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30365,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30366,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30367,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30370,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30376,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30377,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30378,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30379,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30381,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30384,
+      "modelId": 5546,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C6 (4FH)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30740,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30982,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30983,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30993,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30995,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31571,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 33309,
+      "modelId": 8607,
+      "manufacturerName": "VW",
+      "modelName": "TOUAREG (7P5, 7P6)",
+      "typeEngineName": "3.0 V6 TSI Hybrid",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2018-03-01"
+    },
+    {
+      "vehicleId": 33664,
+      "modelId": 8741,
+      "manufacturerName": "PORSCHE",
+      "modelName": "CAYENNE (92A)",
+      "typeEngineName": "3.0 S E-Hybrid",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 34939,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 34940,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 34965,
+      "modelId": 5461,
+      "manufacturerName": "AUDI",
+      "modelName": "Q7 (4LB)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 34966,
+      "modelId": 5461,
+      "manufacturerName": "AUDI",
+      "modelName": "Q7 (4LB)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 56113,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 59075,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "2.5 TFSI",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 59585,
+      "modelId": 8263,
+      "manufacturerName": "PORSCHE",
+      "modelName": "PANAMERA (970)",
+      "typeEngineName": "3.0 S E-Hybrid",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 59587,
+      "modelId": 8263,
+      "manufacturerName": "PORSCHE",
+      "modelName": "PANAMERA (970)",
+      "typeEngineName": "3.0 S E-Hybrid",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 100066,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "SQ5 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 101036,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "2.5 FSI",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 118387,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 118396,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 119831,
+      "modelId": 8607,
+      "manufacturerName": "VW",
+      "modelName": "TOUAREG (7P5, 7P6)",
+      "typeEngineName": "3.0 V6 TSI",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-03-01"
+    },
+    {
+      "vehicleId": 123720,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 V6",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 124808,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 127155,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 142548,
+      "modelId": 41507,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 Van (8RB)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 142574,
+      "modelId": 41521,
+      "manufacturerName": "AUDI",
+      "modelName": "Q7 Van (4LB)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 15677,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 16042,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 20116,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 22808,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 22836,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 30001,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "S4 quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30005,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "S4 quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 11997,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "S5 quattro",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 30988,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "S5 quattro",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 33411,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "S5 quattro",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 12029,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 9330,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 33429,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "155"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "31"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "64"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "35"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "31"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "06E 115 466"
+    },
+    {
+      "oemBrand": "VW (FAW)",
+      "oemDisplayNo": "06E 115 466"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "06E 115 562"
+    },
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "06E 115 562"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "06E 115 562 A"
+    },
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "06E 115 562 A"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "06E 115 562 C"
+    },
+    {
+      "oemBrand": "PORSCHE",
+      "oemDisplayNo": "958.107.222.00"
+    },
+    {
+      "oemBrand": "PORSCHE",
+      "oemDisplayNo": "958.107.222.01"
+    }
+  ],
+  "ean": "4011558061319",
+  "originalSKU": "06E115562C",
+  "fetchedAt": "2026-03-17T15:17:10Z",
+  "enrichedVia": "OEM (06E115562C)"
+}

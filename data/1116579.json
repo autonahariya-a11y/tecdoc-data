@@ -1,0 +1,695 @@
+{
+  "articleNo": "JTC966",
+  "articleId": 7700539,
+  "supplier": "TRW",
+  "product": "Control/Trailing Arm, wheel suspension",
+  "vehicles": [
+    {
+      "vehicleId": 10338,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "2.2 TDCi",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 10969,
+      "modelId": 4741,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I (X400)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 10970,
+      "modelId": 5107,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I Estate (X400)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 15442,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15443,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15444,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15445,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.5 V6 24V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15446,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.0 16V DI / TDDi / TDCi",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15447,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.0 16V TDDi / TDCi",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15482,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15483,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15484,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15485,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15486,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15487,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15488,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.5 V6 24V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15489,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "2.5 V6 24V",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15490,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.0 16V DI / TDDi / TDCi",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15491,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "2.0 16V DI / TDDi / TDCi",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15492,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.0 16V TDDi / TDCi",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15493,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "2.0 16V TDDi / TDCi",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 15607,
+      "modelId": 4741,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I (X400)",
+      "typeEngineName": "2.5 V6 All-wheel Drive",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 15608,
+      "modelId": 4741,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I (X400)",
+      "typeEngineName": "3.0 V6 All-wheel Drive",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 16452,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 16453,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 16454,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 16576,
+      "modelId": 4741,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I (X400)",
+      "typeEngineName": "2.1 V6",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 16632,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "ST220",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 16633,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "ST220",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 16634,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "ST220",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17547,
+      "modelId": 4741,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I (X400)",
+      "typeEngineName": "2.0 D",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 17612,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "1.8 SCi",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17613,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "1.8 SCi",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17614,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "1.8 SCi",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17879,
+      "modelId": 5107,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I Estate (X400)",
+      "typeEngineName": "2.0 D",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 17880,
+      "modelId": 5107,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I Estate (X400)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 17881,
+      "modelId": 5107,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I Estate (X400)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 18269,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.2 TDCi",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18270,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.2 TDCi",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18271,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "2.2 TDCi",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18272,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "3.0 V6 24V",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18273,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "3.0 V6 24V",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18274,
+      "modelId": 4726,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Turnier (BWY)",
+      "typeEngineName": "3.0 V6 24V",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18915,
+      "modelId": 5107,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I Estate (X400)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 18916,
+      "modelId": 4741,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I (X400)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 19764,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.2 TDCi",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 19773,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.2 TDCi",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 20812,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.0 DI",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 23428,
+      "modelId": 5107,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I Estate (X400)",
+      "typeEngineName": "2.1 V6",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 23949,
+      "modelId": 6485,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 23950,
+      "modelId": 6485,
+      "manufacturerName": "FORD (CHANGAN)",
+      "modelName": "MONDEO",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 31068,
+      "modelId": 4741,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I (X400)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 31069,
+      "modelId": 5107,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I Estate (X400)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 32132,
+      "modelId": 8282,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Saloon (MA, MB)",
+      "typeEngineName": "2.3 i 16 V",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 32133,
+      "modelId": 8282,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Saloon (MA, MB)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 32134,
+      "modelId": 8283,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Hatchback (MA, MB, MC)",
+      "typeEngineName": "2.3 i 16V",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 32135,
+      "modelId": 8283,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Hatchback (MA, MB, MC)",
+      "typeEngineName": "XR5 Turbo",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 32136,
+      "modelId": 8283,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Hatchback (MA, MB, MC)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-01-01"
+    },
+    {
+      "vehicleId": 32137,
+      "modelId": 8284,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "MONDEO Estate (MB, MC)",
+      "typeEngineName": "2.3 i 16 V",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 39219,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.5 V6",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 50327,
+      "modelId": 4721,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III Saloon (B4Y)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 105803,
+      "modelId": 4741,
+      "manufacturerName": "JAGUAR",
+      "modelName": "X-TYPE I (X400)",
+      "typeEngineName": "2.5 All-wheel Drive",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 132308,
+      "modelId": 4725,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO III (B5Y)",
+      "typeEngineName": "2.0 DI",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Control/Trailing Arm Type",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "paired article number",
+      "criteriaValue": "JTC967"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1116579"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1139928"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1149803"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1203924"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1213836"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1301088"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1311417"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1384311"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1426495"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1522132"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1S71-3051-AE"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1S71-3051-AK"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1S71-3051-AL"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1S71-3051-AM"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1S71-3051-AN"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "4S71-3051-AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "4S71-3051-AB"
+    },
+    {
+      "oemBrand": "FORD ASIA & OCEANIA",
+      "oemDisplayNo": "4S71-3051-AB"
+    },
+    {
+      "oemBrand": "JAGUAR",
+      "oemDisplayNo": "C2S19368"
+    },
+    {
+      "oemBrand": "JAGUAR",
+      "oemDisplayNo": "C2S20964"
+    },
+    {
+      "oemBrand": "JAGUAR",
+      "oemDisplayNo": "C2S39662"
+    },
+    {
+      "oemBrand": "JAGUAR",
+      "oemDisplayNo": "C2S46338"
+    },
+    {
+      "oemBrand": "JAGUAR",
+      "oemDisplayNo": "C2S46699"
+    },
+    {
+      "oemBrand": "JAGUAR",
+      "oemDisplayNo": "C2S8390"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "LE1S71-3051-BA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "LE1S71-3051-BB"
+    }
+  ],
+  "ean": "3322937337941",
+  "originalSKU": "1116579",
+  "fetchedAt": "2026-03-17T15:18:58Z",
+  "enrichedVia": "OEM (1116579)"
+}

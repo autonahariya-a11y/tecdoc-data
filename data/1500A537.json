@@ -1,0 +1,94 @@
+{
+  "articleNo": "C 31 038",
+  "articleId": 6160697,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 111463,
+      "modelId": 10624,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III (GG_W, GF_W, ZJ, ZL, ZK)",
+      "typeEngineName": "2.0 Hybrid 4WD (GG2W)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 133172,
+      "modelId": 10624,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III (GG_W, GF_W, ZJ, ZL, ZK)",
+      "typeEngineName": "2.4 Hybrid 4WD (GG3W)",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 142855,
+      "modelId": 41643,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III Van (GF_W, GG_W)",
+      "typeEngineName": "Hybrid 4WD (GG3W)",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143259,
+      "modelId": 38273,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "ECLIPSE CROSS (GK_, GL_)",
+      "typeEngineName": "Plug-in Hybrid 4WD (GL3W)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146352,
+      "modelId": 10624,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III (GG_W, GF_W, ZJ, ZL, ZK)",
+      "typeEngineName": "Plug-in Hybrid (GG2W)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 153413,
+      "modelId": 10624,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III (GG_W, GF_W, ZJ, ZL, ZK)",
+      "typeEngineName": "2.4 Hybrid 4WD",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": "2022-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "207"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "307"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "42"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "1500A537"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "16546W010P"
+    }
+  ],
+  "ean": "4011558829971",
+  "originalSKU": "1500A537",
+  "fetchedAt": "2026-03-17T15:38:04Z",
+  "enrichedVia": "OEM (1500A537)"
+}

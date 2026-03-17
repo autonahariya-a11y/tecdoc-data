@@ -1,0 +1,81 @@
+{
+  "articleNo": "C 23 021",
+  "articleId": 6159660,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 51951,
+      "modelId": 11266,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALMERA (N17)",
+      "typeEngineName": "1.6 Flex",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 54744,
+      "modelId": 11576,
+      "manufacturerName": "NISSAN",
+      "modelName": "VERSA I",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 55272,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 57864,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.6 Flex",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 121165,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2023-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "232"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "116"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "35"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16546-3AW0A"
+    }
+  ],
+  "ean": "4011558045395",
+  "originalSKU": "165463AW0A",
+  "fetchedAt": "2026-03-17T15:43:38Z",
+  "enrichedVia": "OEM (165463AW0A)"
+}

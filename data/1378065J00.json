@@ -1,0 +1,143 @@
+{
+  "articleNo": "F 026 400 125",
+  "articleId": 6925980,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 19193,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (JB416)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 29602,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (TA74, JB416)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 19393,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.9 DDiS All-wheel Drive (JT419, TD44, JB419WD, JB419XD,...",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 119280,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 All-wheel Drive (JB420)",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2010-02-01"
+    },
+    {
+      "vehicleId": 122716,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 (JB420)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122717,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 (JB420)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30102,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.7 (JA 627)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 122714,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.9 DDiS (JB419WD, JB419XD)",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 123025,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (JB416)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22327,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 (JB420)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 19194,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 All-wheel Drive (TD54, JB420)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "228"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "178"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "53"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780 65J00 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780-65J00"
+    }
+  ],
+  "ean": "4047024713161",
+  "originalSKU": "1378065J00",
+  "fetchedAt": "2026-03-17T15:32:50Z",
+  "enrichedVia": "OEM (1378065J00)"
+}

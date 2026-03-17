@@ -1,0 +1,2397 @@
+{
+  "articleNo": "192732",
+  "articleId": 18937935,
+  "supplier": "FEBI BILSTEIN",
+  "product": "Expansion Tank, coolant",
+  "vehicles": [
+    {
+      "vehicleId": 5377,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi (HSAJ)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 5378,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi 4x4",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 5389,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi 4x4 (HSMC, HSMD)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 11135,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.6 16V LPG",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 29717,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29803,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33039,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 33040,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.6 16V 4x4",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 33041,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 33042,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi (HSMC)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 53300,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 57282,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.5 dCi 75",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 57284,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.2 16V",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 57401,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "0.9 TCe 90 (BHNF, BHMA, BHMH, BHJK, BHJR)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 57440,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.2 TCe (JSAY, JSM0)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57441,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 dCi (JSMC, JSAF)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57443,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.6 16V Hi-Flex",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 57450,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "0.9 TCe 90",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 57451,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "1.2 16V",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 57453,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "1.5 dCi 75",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 57454,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "1.5 dCi 90 (KHN3, KHN4)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 58678,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.6 RS (BHJ4, BHJ6, BHMM)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 58898,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.2 TCe 120 (BHM0)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 58899,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "1.2 TCe 120 (KHM0)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 59639,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 59640,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100001,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.2 TCe 125",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 100409,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100515,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi 4x4",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 112058,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.6 RS Trophy (BHJ4, BHJ6)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 113702,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "2.0 Flex (PSA4, PSJJ)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-04-01"
+    },
+    {
+      "vehicleId": 113703,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "2.0 Flex 4x4",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115404,
+      "modelId": 14451,
+      "manufacturerName": "RENAULT",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 115497,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.6 SCe 115",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 115498,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.6 SCe 115 4x4",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 115499,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.6 SCe 115 LPG",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 117017,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.6 LPG (JSAV)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117241,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "1.6 Flex (PSMF)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2017-09-01"
+    },
+    {
+      "vehicleId": 117834,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.6 SCe 100 (JSAV)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117835,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117993,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.6 16V Hi-Flex",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117994,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.6 16V 4x4",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117996,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.5 dCi 4x4",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117997,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117999,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.5 dCi 4x4",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119489,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.2 TCe 125 4x4 (HSAU)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119490,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.6 SCe 115",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119491,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.6 SCe 115 4x4",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 119495,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.2 TCe 120 (BHAU)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 119497,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "1.2 TCe 120 (KHAU)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 121628,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi 4x4 (HSMC)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121645,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "1.5 dCi 110",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 122130,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.5 dCi 110",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 122487,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124725,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124871,
+      "modelId": 37429,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Hatchback Van (BH_)",
+      "typeEngineName": "0.9 TCe 90",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 124874,
+      "modelId": 37429,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Hatchback Van (BH_)",
+      "typeEngineName": "1.5 dCi 75",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 124875,
+      "modelId": 37429,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Hatchback Van (BH_)",
+      "typeEngineName": "1.5 dCi 90 (BHAJ)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 126186,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "0.9 TCe 90 LPG",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 126312,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "1.6 Hi-Flex",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126382,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi 4x4 (HSMD)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 126404,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.2 16V (BHA1, BHAK, BHMG, BHMK)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 126627,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi (HSMD, HSM3)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 126928,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127029,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 dCi (JSMW)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129506,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131436,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.6 16V 4x4 (HSA5, HSA9, HSMR, HSA8)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 132806,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.6 LPG (JSNB)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132938,
+      "modelId": 10870,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Grandtour (KH_)",
+      "typeEngineName": "0.9 TCe 75 (KHNP)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 133440,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.2 LPG (BHMG)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 133455,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "0.9 TCe 75 (BHNP)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 133957,
+      "modelId": 37429,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Hatchback Van (BH_)",
+      "typeEngineName": "0.9 TCe 90 LPG (BHM1)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 134706,
+      "modelId": 37429,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Hatchback Van (BH_)",
+      "typeEngineName": "1.2 16V (BHMK)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 134708,
+      "modelId": 37429,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Hatchback Van (BH_)",
+      "typeEngineName": "1.2 16V LPG (BHMG)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 134709,
+      "modelId": 14451,
+      "manufacturerName": "RENAULT",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135282,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 Blue dCi 115 (JSJT)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135283,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 Blue dCi 95 (JSJL, JSN7)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135334,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.5 dCi (BHMW)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 135335,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.5 dCi (BHM6)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 136202,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.3 TCe 130 (JSNE)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137411,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138119,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.3 TCe 100 (JSNU)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138520,
+      "modelId": 14451,
+      "manufacturerName": "RENAULT",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138521,
+      "modelId": 14451,
+      "manufacturerName": "RENAULT",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142141,
+      "modelId": 41293,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Estate Van (KH_)",
+      "typeEngineName": "1.5 dCi 75",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 142142,
+      "modelId": 41293,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Estate Van (KH_)",
+      "typeEngineName": "0.9 TCe 90",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 142143,
+      "modelId": 41293,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Estate Van (KH_)",
+      "typeEngineName": "1.5 dCi 90",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 145220,
+      "modelId": 42367,
+      "manufacturerName": "RENAULT",
+      "modelName": "EXPRESS Box Body/MPV",
+      "typeEngineName": "1.3 TCe 100 (F6MA)",
+      "constructionIntervalStart": "2021-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145222,
+      "modelId": 42367,
+      "manufacturerName": "RENAULT",
+      "modelName": "EXPRESS Box Body/MPV",
+      "typeEngineName": "1.5 Blue dCi 95 (F6AB)",
+      "constructionIntervalStart": "2021-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146321,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "2.0 (PSAA)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154574,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.6 SCe 115 LPG",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 154694,
+      "modelId": 37429,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV Hatchback Van (BH_)",
+      "typeEngineName": "0.9 TCe 75",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 155030,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": "2022-08-01"
+    },
+    {
+      "vehicleId": 59719,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137714,
+      "modelId": 39884,
+      "manufacturerName": "RENAULT",
+      "modelName": "ARKANA I (LCM_, LDN_)",
+      "typeEngineName": "1.6 (LCM1)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137715,
+      "modelId": 39884,
+      "manufacturerName": "RENAULT",
+      "modelName": "ARKANA I (LCM_, LDN_)",
+      "typeEngineName": "1.6 4x4 (LCM1)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137716,
+      "modelId": 39884,
+      "manufacturerName": "RENAULT",
+      "modelName": "ARKANA I (LCM_, LDN_)",
+      "typeEngineName": "1.3 TCe 150 (LCM3)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137717,
+      "modelId": 39884,
+      "manufacturerName": "RENAULT",
+      "modelName": "ARKANA I (LCM_, LDN_)",
+      "typeEngineName": "1.3 TCe 150 4x4 (LCM3)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144894,
+      "modelId": 39884,
+      "manufacturerName": "RENAULT",
+      "modelName": "ARKANA I (LCM_, LDN_)",
+      "typeEngineName": "1.3 TCe 140 (LDN0)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144895,
+      "modelId": 39884,
+      "manufacturerName": "RENAULT",
+      "modelName": "ARKANA I (LCM_, LDN_)",
+      "typeEngineName": "1.3 TCe 160 (LDN1)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144896,
+      "modelId": 39884,
+      "manufacturerName": "RENAULT",
+      "modelName": "ARKANA I (LCM_, LDN_)",
+      "typeEngineName": "1.6 E-TECH 145 (LDMU)",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57168,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57170,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58134,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58142,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58144,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58612,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "TCe 90 (L8MA, L8M1, L8AC)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58614,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58615,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.5 dCi / Blue dCi 75",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58617,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59714,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59720,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107937,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110732,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6 (L8A9, L8J0)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110733,
+      "modelId": 13776,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN II Estate (K8_)",
+      "typeEngineName": "1.2 16V",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110734,
+      "modelId": 13776,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN II Estate (K8_)",
+      "typeEngineName": "1.2 16V LPG",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110735,
+      "modelId": 13776,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN II Estate (K8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110736,
+      "modelId": 13776,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN II Estate (K8_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110737,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.2 16V LPG",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110738,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.2 16V",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110739,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110740,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110761,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110762,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110763,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114211,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114212,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114214,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117245,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "2.0 RS Flex (B8A4)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-05-01"
+    },
+    {
+      "vehicleId": 117354,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118124,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "TCe 90 (B8MA, B8M1, B8JR)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118703,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "TCe 90 LPG",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118704,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "TCe 90 LPG (B8M1)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119501,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119508,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121501,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121662,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121739,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124735,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124887,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124888,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.2 16V LPG",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124889,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124890,
+      "modelId": 13776,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN II Estate (K8_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124913,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124914,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "TCe 90 LPG",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126925,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126930,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126931,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128262,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132103,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "2.0 RS",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133851,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.2 16V",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133885,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133887,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138524,
+      "modelId": 13776,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN II Estate (K8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145633,
+      "modelId": 13776,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN II Estate (K8_)",
+      "typeEngineName": "1.6 (K8A9)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135291,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.3 TCe 130 (HMMF)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135292,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.3 TCe 150 (HMM3)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137589,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.3 TCe 130 4x4 (HMMF)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137590,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.3 TCe 150 4x4 (HMM3)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137591,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.0 TCe 100 (HMMT)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140388,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.0 LPG (HMMT)",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145234,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.0 TCe 90",
+      "constructionIntervalStart": "2021-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146551,
+      "modelId": 38734,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.3 TCe 150 4x4 (HMM3, HMMC)",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147153,
+      "modelId": 38734,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.3 TCe Flex",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147266,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.0 TCe LPG",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150200,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "1.3 TCe Flex (PSAZ)",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 153054,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "1.3 TCe Front-Wheel Drive",
+      "constructionIntervalStart": "2022-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 153055,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "1.3 TCe",
+      "constructionIntervalStart": "2022-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126314,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6 Hi-Flex (B8JH)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2024-07-01"
+    },
+    {
+      "vehicleId": 58143,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "TCe 90 (B8M1, B8MA, B8AC)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130099,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.5 dCi 90 (HMAA)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130100,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.5 dCi 110 (HMAB)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130102,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.5 dCi 110 4x4 (HMAB)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130104,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.2 TCe 125 (HMMA)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130105,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.2 TCe 125 4x4 (HMMA)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130624,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.6 SCe 115 (HMM1)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130626,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.6 SCe 115 LPG (HMM1)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132854,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.5 dCi 95 (HMAF)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138125,
+      "modelId": 38734,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.5 dCi 110 4x4 (HMAB)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138126,
+      "modelId": 38734,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.5 dCi 110 (HMAB)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143093,
+      "modelId": 38734,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.6 SCe 115 (HMM1)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143094,
+      "modelId": 38734,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.5 dCi 90 (HMAA)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146511,
+      "modelId": 38734,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "2.0 4x4 (HMMS)",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146547,
+      "modelId": 38734,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.6 SCe 115 4x4 (HMM1)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147154,
+      "modelId": 38734,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.6 SCe Flexfuel",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151680,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "1.6 SCe",
+      "constructionIntervalStart": "2022-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 153053,
+      "modelId": 14234,
+      "manufacturerName": "RENAULT",
+      "modelName": "OROCH",
+      "typeEngineName": "1.6 SCe",
+      "constructionIntervalStart": "2022-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139208,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "TCe 100 (HFMT)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139209,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "TCe 130 (HFMF)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139210,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "TCe 155 (HFMN)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139211,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "Blue dCi 95 (HFAF)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139212,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "Blue dCi 115 (HFAD)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140405,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "LPG (HFMT)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141969,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "TCe 90 (HFM6)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142008,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "TCe 140 (HFN0)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145556,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "1.0 TCe LPG (HFM6)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145711,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "TCe 160 (HFN1)",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146558,
+      "modelId": 38347,
+      "manufacturerName": "RENAULT",
+      "modelName": "KAPTUR (H5_)",
+      "typeEngineName": "1.3 TCe 150 (H5M3)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146559,
+      "modelId": 38347,
+      "manufacturerName": "RENAULT",
+      "modelName": "KAPTUR (H5_)",
+      "typeEngineName": "1.3 TCe 150 4x4 (H5M3)",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147398,
+      "modelId": 40399,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR II (HF_)",
+      "typeEngineName": "E-TECH 145 (HFMU)",
+      "constructionIntervalStart": "2022-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128867,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128868,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110731,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134710,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126926,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126315,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.0 Flex (B8J8, B8A5)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 35269,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.5 dCi 75 / Blue dCi 75 (B8JW, B8M4, B8AH, B8M7, B8M6)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126214,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.0 SCe 75 (B8JC, B8JD)",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126215,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.0 SCe 75",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126313,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6 Hi-Flex (L8JH)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 127127,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.0 SCe 75",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128869,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128883,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128884,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6 (B8JA)",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131218,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.0 Flex (L8J8)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133169,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.5 Blue dCi 95 (B8JL)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135289,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.5 Blue dCi 95 (K8JL)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135643,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.5 Blue dCi 95 (L8JL)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147005,
+      "modelId": 13776,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN II Estate (K8_)",
+      "typeEngineName": "TCe 90 (K8M1)",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 147012,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.5 dCi (B8AL)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128880,
+      "modelId": 38347,
+      "manufacturerName": "RENAULT",
+      "modelName": "KAPTUR (H5_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128881,
+      "modelId": 38347,
+      "manufacturerName": "RENAULT",
+      "modelName": "KAPTUR (H5_)",
+      "typeEngineName": "2.0 4WD",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57396,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.5 dCi / Blue dCi 75 (KEAJ, KEAH, KEJW)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 57397,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.5 dCi (KEAJ, KEAH)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 57398,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.2 TCe (KEM0, KEAY)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 57399,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 58607,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 58608,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.5 dCi 75 / Blue dCi 75 (FEJW, FEAH)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 58609,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.5 dCi (FEAJ)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 59313,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.2 TCe 115 (FEM0)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 100408,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 100514,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 115489,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 115491,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 117015,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 117016,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 117986,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.2 TCe 115 (FEAY)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 124236,
+      "modelId": 37349,
+      "manufacturerName": "RENAULT",
+      "modelName": "DOKKER",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 124738,
+      "modelId": 37349,
+      "manufacturerName": "RENAULT",
+      "modelName": "DOKKER",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126932,
+      "modelId": 37349,
+      "manufacturerName": "RENAULT",
+      "modelName": "DOKKER",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127027,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.5 dCi (FEMW)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 127028,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.5 dCi (KEMW)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 131339,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 134099,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 135290,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.5 Blue dCi 95 (KEJL)",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 135957,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.3 TCe 130 (KENE)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 138778,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.5 Blue dCi 95 (FEJL)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 139171,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.3 TCe 100 (FENU)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 139172,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.3 TCe 130 (FENE)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 139173,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.3 TCe 100 (KENU)",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 141848,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.6 LPG (FENB)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 59716,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "TCe 90 (K8M1, K8MA, K8AC)",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126381,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi (HSAE, HSAD, HSAF, HSJ7, HSMC, HSMD)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 134758,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 100332,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.6 Flex (L8A6)",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 100334,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.0 Hi-Flex (L8A0)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 106496,
+      "modelId": 7893,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY I (BS_)",
+      "typeEngineName": "1.0 Authentique Hi-Flex",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 110741,
+      "modelId": 13777,
+      "manufacturerName": "RENAULT",
+      "modelName": "SANDERO/STEPWAY II (B8_)",
+      "typeEngineName": "1.6 Flex (B8A6)",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 113597,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110764,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57281,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.5 dCi 90",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "for OE number",
+      "criteriaValue": "21 71 043 54R SK"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "0,180"
+    },
+    {
+      "criteriaName": "Material",
+      "criteriaValue": "6"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "288"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "21 71 043 54R"
+    },
+    {
+      "oemBrand": "DACIA",
+      "oemDisplayNo": "21 71 043 54R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "21 71 043 54R SK"
+    },
+    {
+      "oemBrand": "DACIA",
+      "oemDisplayNo": "21 71 043 54R SK"
+    }
+  ],
+  "ean": "4054224927328",
+  "originalSKU": "217104354R",
+  "fetchedAt": "2026-03-17T15:59:02Z",
+  "enrichedVia": "OEM (217104354R)"
+}

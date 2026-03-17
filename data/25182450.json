@@ -1,0 +1,67 @@
+{
+  "articleNo": "25182450",
+  "articleId": 2274290,
+  "supplier": "BR\u00dcCK GERMANY",
+  "product": "Sensor, crankshaft pulse",
+  "vehicles": [
+    {
+      "vehicleId": 55311,
+      "modelId": 5556,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO / KALOS Saloon (T250, T255)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57822,
+      "modelId": 10920,
+      "manufacturerName": "PONTIAC",
+      "modelName": "G3",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 57901,
+      "modelId": 10938,
+      "manufacturerName": "PONTIAC",
+      "modelName": "G3 Hatchback",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 57902,
+      "modelId": 10920,
+      "manufacturerName": "PONTIAC",
+      "modelName": "G3",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 122359,
+      "modelId": 37015,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SAIL Saloon",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": null,
+  "oe": [
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "25182450"
+    },
+    {
+      "oemBrand": "PONTIAC",
+      "oemDisplayNo": "25182450"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "25182450",
+  "fetchedAt": "2026-03-17T16:03:00Z"
+}

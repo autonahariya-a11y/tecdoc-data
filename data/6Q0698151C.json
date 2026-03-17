@@ -1,0 +1,983 @@
+{
+  "articleNo": "0 986 494 105",
+  "articleId": 70756,
+  "supplier": "BOSCH",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 5950,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 9958,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 9961,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.2 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 10996,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 10998,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 17739,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 19273,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2007-01-01"
+    },
+    {
+      "vehicleId": 19274,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19275,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19276,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 19277,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 19278,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 22950,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23170,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23240,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 23243,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 23245,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23247,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23292,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33247,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33313,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33320,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33321,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 133133,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 133245,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 13362,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 14278,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 15107,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 15586,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 17519,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 19225,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 19226,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 13363,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 13364,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 14277,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 15106,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 15503,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15585,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15937,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15938,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16058,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16060,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16290,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16526,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 16944,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-04-01"
+    },
+    {
+      "vehicleId": 17397,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17742,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 17836,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.8 T FR",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 18150,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 19227,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19228,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19229,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19230,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19231,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19698,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 19901,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19905,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 132416,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 133129,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 134447,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.9 TDI Joya Racer",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 15504,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15584,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15582,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15583,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17321,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2003-03-01"
+    },
+    {
+      "vehicleId": 16059,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 19335,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 16525,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 17298,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.8 T Cupra R",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 17393,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 17394,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17395,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17396,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17517,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17518,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17738,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 17740,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 24254,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.9 TDi",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17741,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 18149,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 18243,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.9 TDI Cupra R",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 19253,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.8 GTI",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 19270,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19271,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 21207,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.6 Flex",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 57855,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "2.0 Flex",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 24252,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 24253,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29981,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.6 Total Flex",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 31043,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 31052,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 100417,
+      "modelId": 1482,
+      "manufacturerName": "VW",
+      "modelName": "POLO III CLASSIC (6V2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 119879,
+      "modelId": 11307,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9N2, 9N4)",
+      "typeEngineName": "1.6 Classic",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 125292,
+      "modelId": 11307,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9N2, 9N4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 133125,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 133375,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2003-03-01"
+    },
+    {
+      "vehicleId": 20846,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 125296,
+      "modelId": 11307,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9N2, 9N4)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 21198,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.6 Flex",
+      "constructionIntervalStart": "2004-12-01",
+      "constructionIntervalEnd": "2014-10-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "18,9"
+    },
+    {
+      "criteriaName": "Test Mark",
+      "criteriaValue": "ECE-R90"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "131,7"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "62,4"
+    },
+    {
+      "criteriaName": "Material",
+      "criteriaValue": "93"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "274"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "23581"
+    },
+    {
+      "criteriaName": "Number of bolts/screws",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Article number of recommended accessories",
+      "criteriaValue": "1987474137"
+    },
+    {
+      "criteriaName": "Article number of recommended accessories",
+      "criteriaValue": "1987474315"
+    },
+    {
+      "criteriaName": "Article number of recommended accessories",
+      "criteriaValue": "1987474432"
+    },
+    {
+      "criteriaName": "Product must be determined on the vehicle or the motor",
+      "criteriaValue": ""
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "6Q0 698 151 C"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "6Q0 698 151 C"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "6Q0 698 151 C"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "6Q0 698 151 C"
+    }
+  ],
+  "ean": "4047024130159",
+  "originalSKU": "6Q0698151C",
+  "fetchedAt": "2026-03-17T16:53:55Z",
+  "enrichedVia": "OEM (6Q0698151C)"
+}

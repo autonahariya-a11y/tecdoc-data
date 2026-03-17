@@ -1,0 +1,824 @@
+{
+  "articleNo": "173698",
+  "articleId": 1592865,
+  "supplier": "FEBI BILSTEIN",
+  "product": "Hydraulic Pump, steering",
+  "vehicles": [
+    {
+      "vehicleId": 10304,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 10322,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 10323,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 10324,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 10476,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 11893,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17630,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17631,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17632,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 17745,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18095,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18096,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18275,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18302,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18303,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18305,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18378,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18379,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18500,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18501,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18513,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18514,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 18515,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18517,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18518,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18519,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18600,
+      "modelId": 5089,
+      "manufacturerName": "VOLVO",
+      "modelName": "S40 II (544)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 18603,
+      "modelId": 5090,
+      "manufacturerName": "VOLVO",
+      "modelName": "V50 (545)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 18934,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18935,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.8 TDCi",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18936,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.8 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18937,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.8 TDCi",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 18952,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18953,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18954,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.6 Ti",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18956,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18957,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18958,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.8 TDCi",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18959,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 19167,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.5 ST",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 19262,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 19264,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 19265,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 19519,
+      "modelId": 5561,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Convertible",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 19520,
+      "modelId": 5561,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Convertible",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 19522,
+      "modelId": 5561,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Convertible",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 19786,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 19808,
+      "modelId": 5610,
+      "manufacturerName": "VOLVO",
+      "modelName": "C30 (533)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 20903,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2005-12-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 20914,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2005-12-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 20923,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2005-12-01",
+      "constructionIntervalEnd": "2008-01-01"
+    },
+    {
+      "vehicleId": 22524,
+      "modelId": 6240,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX (DM2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 30405,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 30406,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 30407,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 30834,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 30835,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 30836,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 30837,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.5 RS",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 33162,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 33346,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 33494,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.5 RS 500",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 57583,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 58566,
+      "modelId": 5056,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS C-MAX (DM2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 113250,
+      "modelId": 6240,
+      "manufacturerName": "FORD",
+      "modelName": "C-MAX (DM2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 134481,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134482,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134483,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134485,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.6 Ti-VCT",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134486,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134487,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134488,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134489,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 134490,
+      "modelId": 39233,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Estate Van",
+      "typeEngineName": "1.8 Flexifuel",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 137570,
+      "modelId": 3590,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Saloon (DFW)",
+      "typeEngineName": "1.6 8V",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 143147,
+      "modelId": 3590,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I Saloon (DFW)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 143148,
+      "modelId": 3588,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS I (DAW, DBW)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 18304,
+      "modelId": 5210,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II (DA_, HCP, DP)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18516,
+      "modelId": 5397,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Turnier (DA_, FFS, DS)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 18955,
+      "modelId": 5454,
+      "manufacturerName": "FORD",
+      "modelName": "FOCUS II Saloon (DB_, FCH, DH)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2011-07-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "125"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "128"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "95"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "2,246"
+    },
+    {
+      "criteriaName": "Pulleys",
+      "criteriaValue": "0"
+    },
+    {
+      "criteriaName": "Internal Thread Size",
+      "criteriaValue": "M16 x 1,5"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 329 297"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 329 297 S1"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 362 652"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 362 652 S1"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 470 514"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 470 514 S1"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1 484 948"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "30676658"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "36000759"
+    },
+    {
+      "oemBrand": "FORD MOTOR COMPANY",
+      "oemDisplayNo": "4M51-3A696-AC"
+    },
+    {
+      "oemBrand": "FORD MOTOR COMPANY",
+      "oemDisplayNo": "4M51-3A696-AD"
+    },
+    {
+      "oemBrand": "FORD MOTOR COMPANY",
+      "oemDisplayNo": "4M51-3A696-AE"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "8603275"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "8603321"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "8603593"
+    },
+    {
+      "oemBrand": "FORD MOTOR COMPANY",
+      "oemDisplayNo": "R4M51J-3A696-AE"
+    }
+  ],
+  "ean": "4054224736982",
+  "originalSKU": "1329297",
+  "fetchedAt": "2026-03-17T15:30:28Z",
+  "enrichedVia": "OEM (1329297)"
+}

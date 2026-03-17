@@ -1,0 +1,107 @@
+{
+  "articleNo": "832119",
+  "articleId": 4832205,
+  "supplier": "VALEO",
+  "product": "Clutch Kit",
+  "vehicles": [
+    {
+      "vehicleId": 19241,
+      "modelId": 5498,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Hatchback (FN, FK)",
+      "typeEngineName": "1.8 (FN1, FK2)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 20348,
+      "modelId": 5517,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Saloon (FD, FA)",
+      "typeEngineName": "1.8 (FD1, FD7, FA1)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 57475,
+      "modelId": 10873,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX Saloon (FB)",
+      "typeEngineName": "1.8 (FB2)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 34836,
+      "modelId": 5517,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Saloon (FD, FA)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 13926,
+      "modelId": 9999,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX (FK)",
+      "typeEngineName": "1.8 i-VTEC (FK2)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 100489,
+      "modelId": 11755,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX Tourer (FK)",
+      "typeEngineName": "1.8 i-VTEC (FK2)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56250,
+      "modelId": 5517,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Saloon (FD, FA)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "5,66"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "523"
+    },
+    {
+      "criteriaName": "New Part",
+      "criteriaValue": ""
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "22125RSAL04"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "22200RNA003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "22300RNA003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "22810RPF003"
+    }
+  ],
+  "ean": "3276428321196",
+  "originalSKU": "22125RSAL04",
+  "fetchedAt": "2026-03-17T16:00:25Z",
+  "enrichedVia": "OEM (22125RSAL04)"
+}

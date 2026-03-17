@@ -1,0 +1,732 @@
+{
+  "articleNo": "LX 2010",
+  "articleId": 7963928,
+  "supplier": "KNECHT",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 6799,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 10254,
+      "modelId": 8025,
+      "manufacturerName": "VW",
+      "modelName": "POLO V (6R1, 6C1)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 10637,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 10643,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 11897,
+      "modelId": 8025,
+      "manufacturerName": "VW",
+      "modelName": "POLO V (6R1, 6C1)",
+      "typeEngineName": "1.4 BiFuel",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2011-01-01"
+    },
+    {
+      "vehicleId": 12092,
+      "modelId": 9746,
+      "manufacturerName": "VW",
+      "modelName": "POLO V Saloon (602, 604, 612, 614)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 12093,
+      "modelId": 9746,
+      "manufacturerName": "VW",
+      "modelName": "POLO V Saloon (602, 604, 612, 614)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2022-05-01"
+    },
+    {
+      "vehicleId": 14022,
+      "modelId": 10006,
+      "manufacturerName": "SKODA",
+      "modelName": "RAPID (NA2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17924,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 17972,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 19274,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19275,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19465,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 19468,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 19693,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 19694,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 19697,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 19698,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 19820,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 19901,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19905,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 20055,
+      "modelId": 4961,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6L2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 20056,
+      "modelId": 4961,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6L2)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 20057,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 20846,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 22946,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 22947,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23128,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 23166,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23167,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23243,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 23263,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 23290,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 25855,
+      "modelId": 11409,
+      "manufacturerName": "VW",
+      "modelName": "POLO VIVO Hatchback (6S1, 6S3)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 25866,
+      "modelId": 11409,
+      "manufacturerName": "VW",
+      "modelName": "POLO VIVO Hatchback (6S1, 6S3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 25867,
+      "modelId": 11410,
+      "manufacturerName": "VW",
+      "modelName": "POLO VIVO Saloon (6S2, 6S4)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 25868,
+      "modelId": 11410,
+      "manufacturerName": "VW",
+      "modelName": "POLO VIVO Saloon (6S2, 6S4)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 26551,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 26552,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27585,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 28045,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 28131,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 29990,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 30974,
+      "modelId": 8025,
+      "manufacturerName": "VW",
+      "modelName": "POLO V (6R1, 6C1)",
+      "typeEngineName": "1.4 (6R1)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 31112,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31113,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 32589,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 33328,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 56019,
+      "modelId": 8025,
+      "manufacturerName": "VW",
+      "modelName": "POLO V (6R1, 6C1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2022-05-01"
+    },
+    {
+      "vehicleId": 56024,
+      "modelId": 9746,
+      "manufacturerName": "VW",
+      "modelName": "POLO V Saloon (602, 604, 612, 614)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2022-05-01"
+    },
+    {
+      "vehicleId": 56228,
+      "modelId": 11409,
+      "manufacturerName": "VW",
+      "modelName": "POLO VIVO Hatchback (6S1, 6S3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 56229,
+      "modelId": 11410,
+      "manufacturerName": "VW",
+      "modelName": "POLO VIVO Saloon (6S2, 6S4)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 57357,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 59063,
+      "modelId": 10880,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO IV (KG3)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 59064,
+      "modelId": 10587,
+      "manufacturerName": "SKODA",
+      "modelName": "RAPID (NH3, NK3, NK6)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 59836,
+      "modelId": 11307,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9N2, 9N4)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 100020,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 105755,
+      "modelId": 11519,
+      "manufacturerName": "SKODA",
+      "modelName": "RAPID Spaceback (NH1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 106707,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 119216,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 133075,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 133076,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 133130,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 133133,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 133148,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 133165,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.4 LPG",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 133411,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 BiFuel",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 133519,
+      "modelId": 36882,
+      "manufacturerName": "VW",
+      "modelName": "POLO Van V (6R1, 6C1)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2014-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "372,0"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "190"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "42,3"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "42"
+    },
+    {
+      "criteriaName": "Length 1 [mm]",
+      "criteriaValue": "372,0"
+    },
+    {
+      "criteriaName": "Width 1 [mm]",
+      "criteriaValue": "190,0"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "20,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "5,00"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "37,50"
+    },
+    {
+      "criteriaName": "Seal Material",
+      "criteriaValue": "234"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "248"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "036129620H"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "036129620H"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "036129620H"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "036129620H"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "036129620H"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "036129620J"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "036129620J"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "036129620J"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "036129620J"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "036129620J"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "36129620H"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "36129620H"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "36129620H"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "36129620H"
+    }
+  ],
+  "ean": "4009026608210",
+  "originalSKU": "036129620H",
+  "fetchedAt": "2026-03-17T15:04:36Z",
+  "enrichedVia": "OEM (036129620H)"
+}

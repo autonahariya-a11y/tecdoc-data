@@ -1,0 +1,927 @@
+{
+  "articleNo": "C 22 035",
+  "articleId": 6159569,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 109340,
+      "modelId": 8025,
+      "manufacturerName": "VW",
+      "modelName": "POLO V (6R1, 6C1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 109492,
+      "modelId": 8025,
+      "manufacturerName": "VW",
+      "modelName": "POLO V (6R1, 6C1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 112018,
+      "modelId": 8604,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 (8X1, 8XK)",
+      "typeEngineName": "1.0 TFSI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 112021,
+      "modelId": 9730,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 Sportback (8XA, 8XF)",
+      "typeEngineName": "1.0 TFSI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 115140,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 115142,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 115143,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 115501,
+      "modelId": 11878,
+      "manufacturerName": "VW",
+      "modelName": "GOLF SPORTSVAN VII (AM1, AN1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 115566,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 115568,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 117952,
+      "modelId": 14302,
+      "manufacturerName": "VW",
+      "modelName": "CADDY IV MPV (SAB, SAJ)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 117959,
+      "modelId": 14303,
+      "manufacturerName": "VW",
+      "modelName": "CADDY IV Box Body/MPV (SAA, SAH)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 118024,
+      "modelId": 8604,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 (8X1, 8XK)",
+      "typeEngineName": "1.0 TFSI",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 118026,
+      "modelId": 9730,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 Sportback (8XA, 8XF)",
+      "typeEngineName": "1.0 TFSI",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 118481,
+      "modelId": 36197,
+      "manufacturerName": "VW",
+      "modelName": "CADDY ALLTRACK IV MPV (SAB)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 118490,
+      "modelId": 36198,
+      "manufacturerName": "VW",
+      "modelName": "CADDY ALLTRACK IV Box Body/MPV (SAA)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 118769,
+      "modelId": 9734,
+      "manufacturerName": "VW",
+      "modelName": "UP! (121, 122, BL1, BL2, BL3, 123)",
+      "typeEngineName": "1.0 TSI Flex",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2021-03-01"
+    },
+    {
+      "vehicleId": 119695,
+      "modelId": 36512,
+      "manufacturerName": "SEAT",
+      "modelName": "ATECA (KH7, KHP)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119962,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "1.0 TFSI",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120206,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120207,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120604,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "1.0 TFSI",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 120605,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "1.0 TFSI",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120606,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "1.0 TFSI",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120717,
+      "modelId": 9734,
+      "manufacturerName": "VW",
+      "modelName": "UP! (121, 122, BL1, BL2, BL3, 123)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2019-08-01"
+    },
+    {
+      "vehicleId": 121180,
+      "modelId": 36882,
+      "manufacturerName": "VW",
+      "modelName": "POLO Van V (6R1, 6C1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 124239,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 124242,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 125964,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.0 TSI Flexfuel",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 125997,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 125998,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 127209,
+      "modelId": 37916,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA V (KJ1, KJG)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127210,
+      "modelId": 37916,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA V (KJ1, KJG)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127941,
+      "modelId": 13331,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA III (NJ3)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 127942,
+      "modelId": 13332,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA III Estate (NJ5)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 128141,
+      "modelId": 13331,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA III (NJ3)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 128142,
+      "modelId": 13332,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA III Estate (NJ5)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 128156,
+      "modelId": 10880,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO IV (KG3)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 128157,
+      "modelId": 10880,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO IV (KG3)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2019-04-01"
+    },
+    {
+      "vehicleId": 128277,
+      "modelId": 38144,
+      "manufacturerName": "SEAT",
+      "modelName": "ARONA (KJ7, KJP)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128286,
+      "modelId": 38149,
+      "manufacturerName": "SKODA",
+      "modelName": "KAROQ (NU7, ND7)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128298,
+      "modelId": 11878,
+      "manufacturerName": "VW",
+      "modelName": "GOLF SPORTSVAN VII (AM1, AN1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 128299,
+      "modelId": 11878,
+      "manufacturerName": "VW",
+      "modelName": "GOLF SPORTSVAN VII (AM1, AN1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 128465,
+      "modelId": 10587,
+      "manufacturerName": "SKODA",
+      "modelName": "RAPID (NH3, NK3, NK6)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 128467,
+      "modelId": 10587,
+      "manufacturerName": "SKODA",
+      "modelName": "RAPID (NH3, NK3, NK6)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 128469,
+      "modelId": 11519,
+      "manufacturerName": "SKODA",
+      "modelName": "RAPID Spaceback (NH1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 128470,
+      "modelId": 11519,
+      "manufacturerName": "SKODA",
+      "modelName": "RAPID Spaceback (NH1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 128495,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128598,
+      "modelId": 38138,
+      "manufacturerName": "VW",
+      "modelName": "POLO VI (AW1, BZ1, AE1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128599,
+      "modelId": 38138,
+      "manufacturerName": "VW",
+      "modelName": "POLO VI (AW1, BZ1, AE1)",
+      "typeEngineName": "1.0 TGI",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129093,
+      "modelId": 37916,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA V (KJ1, KJG)",
+      "typeEngineName": "1.0 TGI",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129787,
+      "modelId": 9734,
+      "manufacturerName": "VW",
+      "modelName": "UP! (121, 122, BL1, BL2, BL3, 123)",
+      "typeEngineName": "1.0 GTI",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": "2023-11-01"
+    },
+    {
+      "vehicleId": 130036,
+      "modelId": 38449,
+      "manufacturerName": "VW",
+      "modelName": "VIRTUS Saloon (BZ2)",
+      "typeEngineName": "200 TSI Flex",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130557,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 130572,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 132104,
+      "modelId": 9734,
+      "manufacturerName": "VW",
+      "modelName": "UP! (121, 122, BL1, BL2, BL3, 123)",
+      "typeEngineName": "1.0 TSi",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132856,
+      "modelId": 38933,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 Sportback (GBA)",
+      "typeEngineName": "30 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132930,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "30 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 132934,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "30 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 133679,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "30 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133718,
+      "modelId": 36247,
+      "manufacturerName": "VW",
+      "modelName": "LOAD UP! (121, 122, BL1, BL2)",
+      "typeEngineName": "1.0 TSi BlueMotion",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 134265,
+      "modelId": 38144,
+      "manufacturerName": "SEAT",
+      "modelName": "ARONA (KJ7, KJP)",
+      "typeEngineName": "1.0 TGi",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134294,
+      "modelId": 39209,
+      "manufacturerName": "VW",
+      "modelName": "T-CROSS (C11, D31)",
+      "typeEngineName": "1.0 TSi",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134295,
+      "modelId": 39209,
+      "manufacturerName": "VW",
+      "modelName": "T-CROSS (C11, D31)",
+      "typeEngineName": "1.0 TSi",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134370,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "1.0 TSi",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 134395,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.0 TSi",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 134745,
+      "modelId": 36197,
+      "manufacturerName": "VW",
+      "modelName": "CADDY ALLTRACK IV MPV (SAB)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 135023,
+      "modelId": 14302,
+      "manufacturerName": "VW",
+      "modelName": "CADDY IV MPV (SAB, SAJ)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 135341,
+      "modelId": 39378,
+      "manufacturerName": "SKODA",
+      "modelName": "SCALA (NW1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135359,
+      "modelId": 14158,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (5T1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136254,
+      "modelId": 39209,
+      "manufacturerName": "VW",
+      "modelName": "T-CROSS (C11, D31)",
+      "typeEngineName": "1.0 TSi Flexfuel",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137056,
+      "modelId": 39796,
+      "manufacturerName": "SKODA",
+      "modelName": "KAMIQ (NW4)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137058,
+      "modelId": 39796,
+      "manufacturerName": "SKODA",
+      "modelName": "KAMIQ (NW4)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138406,
+      "modelId": 40147,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 City Carver (GBH)",
+      "typeEngineName": "30 TFSI",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 138897,
+      "modelId": 40210,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC Convertible (AC7, AC8)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2019-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139309,
+      "modelId": 39796,
+      "manufacturerName": "SKODA",
+      "modelName": "KAMIQ (NW4)",
+      "typeEngineName": "1.0 TGI CNG",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139310,
+      "modelId": 39378,
+      "manufacturerName": "SKODA",
+      "modelName": "SCALA (NW1)",
+      "typeEngineName": "1.0 TGI CNG",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141377,
+      "modelId": 40993,
+      "manufacturerName": "VW",
+      "modelName": "NIVUS (CH1)",
+      "typeEngineName": "1.0 TSi Flexfuel",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145048,
+      "modelId": 42141,
+      "manufacturerName": "VW",
+      "modelName": "TAIGO (CS1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2021-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145049,
+      "modelId": 42141,
+      "manufacturerName": "VW",
+      "modelName": "TAIGO (CS1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2021-09-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 147332,
+      "modelId": 36882,
+      "manufacturerName": "VW",
+      "modelName": "POLO Van V (6R1, 6C1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-10-01"
+    },
+    {
+      "vehicleId": 147370,
+      "modelId": 40993,
+      "manufacturerName": "VW",
+      "modelName": "NIVUS (CH1)",
+      "typeEngineName": "1.0 TSi",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148089,
+      "modelId": 40993,
+      "manufacturerName": "VW",
+      "modelName": "NIVUS (CH1)",
+      "typeEngineName": "1.0 TSi",
+      "constructionIntervalStart": "2022-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151388,
+      "modelId": 38138,
+      "manufacturerName": "VW",
+      "modelName": "POLO VI (AW1, BZ1, AE1)",
+      "typeEngineName": "1.0 TSi Flex",
+      "constructionIntervalStart": "2022-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58757,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 58762,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 129176,
+      "modelId": 38138,
+      "manufacturerName": "VW",
+      "modelName": "POLO VI (AW1, BZ1, AE1)",
+      "typeEngineName": "1.0 TSI Flex",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 128275,
+      "modelId": 38144,
+      "manufacturerName": "SEAT",
+      "modelName": "ARONA (KJ7, KJP)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113867,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-06-01"
+    },
+    {
+      "vehicleId": 113894,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 113902,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 113866,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-06-01"
+    },
+    {
+      "vehicleId": 113895,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 113903,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 136159,
+      "modelId": 39378,
+      "manufacturerName": "SKODA",
+      "modelName": "SCALA (NW1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128214,
+      "modelId": 38138,
+      "manufacturerName": "VW",
+      "modelName": "POLO VI (AW1, BZ1, AE1)",
+      "typeEngineName": "1.0 TSI",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135143,
+      "modelId": 38933,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 Sportback (GBA)",
+      "typeEngineName": "25 TFSI",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138405,
+      "modelId": 40147,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 City Carver (GBH)",
+      "typeEngineName": "25 TFSI",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 148069,
+      "modelId": 43038,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 Allstreet (GBH)",
+      "typeEngineName": "25 TFSI",
+      "constructionIntervalStart": "2022-07-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "270"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "220"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "28"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "04C 129 620 A"
+    }
+  ],
+  "ean": "4011558073350",
+  "originalSKU": "04C129620A",
+  "fetchedAt": "2026-03-17T15:16:33Z",
+  "enrichedVia": "OEM (04C129620A)"
+}

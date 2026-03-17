@@ -1,0 +1,866 @@
+{
+  "articleNo": "89988AL",
+  "articleId": 31258801,
+  "supplier": "ALTE AUTOMOTIVE",
+  "product": "Mounting, control/trailing arm",
+  "vehicles": [
+    {
+      "vehicleId": 5710,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "2.0 D AWD",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 5996,
+      "modelId": 9122,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GE, GV)",
+      "typeEngineName": "1.5 (GE2)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5997,
+      "modelId": 9122,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GE, GV)",
+      "typeEngineName": "1.5 AWD (GE3)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9777,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.0 AWD (SHJ)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9778,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.5 AWD (SH9)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 15977,
+      "modelId": 10112,
+      "manufacturerName": "TOYOTA",
+      "modelName": "GT 86 Coupe (ZN6_)",
+      "typeEngineName": "2.0 (ZN6AC_, ZN6BC_, ZN6K)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17660,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.0 AWD (BL5)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 17661,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.0 AWD (BP5)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 17662,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.5 AWD (BP9)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 17663,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.5 AWD (BL9)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 17664,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "3.0 R AWD (BLE, B13)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 17665,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "3.0 R AWD (BPE)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 20884,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.0 AWD (BP5)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 26156,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.0 D AWD",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 28121,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "1.6 i AWD (GP3, G33GP)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 28125,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "2.0 i AWD (GP7, G33GP)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 28273,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "1.5 F (GH2)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 28382,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.0 AWD (BL5)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 29286,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "2.0 D AWD (GPD)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 29730,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.0 R AWD (GH7)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 29731,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.5 AWD (GHE)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 29732,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.5 WRX STi AWD (GRF)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 30355,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "1.5 AWD (GH3)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30432,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.5 i AWD (BP9)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30435,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.0 D AWD (BPD)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30814,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.0 AWD (SH5)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 30815,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.0 D AWD (SHH, SHD, SHN)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 30816,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.5 AWD (SH9)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 30817,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.0 R AWD (BP5)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30818,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.0 R AWD (BL5)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30819,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.0 D AWD (BLD)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30820,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.5 i AWD (BL9)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30897,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.0 D AWD",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31647,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "1.5 AWD",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 31653,
+      "modelId": 9122,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GE, GV)",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34850,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.5 STI CS400 AWD (GRF)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 48567,
+      "modelId": 10312,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GJ_)",
+      "typeEngineName": "2.0 AWD (GJ7)",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55122,
+      "modelId": 10265,
+      "manufacturerName": "SUBARU",
+      "modelName": "BRZ (ZC6)",
+      "typeEngineName": "2.0 (ZC6)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55259,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.5 WRX SE AWD (GRE)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 55260,
+      "modelId": 9122,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GE, GV)",
+      "typeEngineName": "2.5 WRX SE AWD (GVE, GEE)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 55262,
+      "modelId": 9122,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GE, GV)",
+      "typeEngineName": "2.0 i AWD (GE7)",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55264,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.5 WRX STI AWD",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 56207,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.5 Turbo AWD (SH9)",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 56222,
+      "modelId": 9122,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GE, GV)",
+      "typeEngineName": "2.5 WRX STi AWD (GVF)",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58700,
+      "modelId": 11171,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SJ_)",
+      "typeEngineName": "2.0 i AWD (SJ5)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58701,
+      "modelId": 11171,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SJ_)",
+      "typeEngineName": "2.0 D AWD (SJD)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58702,
+      "modelId": 11171,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SJ_)",
+      "typeEngineName": "2.0 XT AWD (SJG)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59424,
+      "modelId": 11267,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GP_)",
+      "typeEngineName": "1.6 i (GP2)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 59425,
+      "modelId": 11267,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GP_)",
+      "typeEngineName": "1.6 i AWD",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59877,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.5 AWD (SHM)",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 100922,
+      "modelId": 14653,
+      "manufacturerName": "SUBARU",
+      "modelName": "WRX Saloon (GJ)",
+      "typeEngineName": "STi 2.5 AWD",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105610,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 105612,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 105613,
+      "modelId": 9122,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GE, GV)",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105614,
+      "modelId": 9122,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GE, GV)",
+      "typeEngineName": "2.5 AWD (GVB)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 108855,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.5 WRX STI 330S AWD",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 108866,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.5 WRX S AWD",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 112814,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "2.0 Hybrid AWD (GPE)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 112816,
+      "modelId": 11267,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GP_)",
+      "typeEngineName": "2.0 AWD (GP7)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112818,
+      "modelId": 10312,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GJ_)",
+      "typeEngineName": "1.6 AWD (GJ3)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119817,
+      "modelId": 11267,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GP_)",
+      "typeEngineName": "2.0 Hybrid AWD (GPE)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 120784,
+      "modelId": 11171,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SJ_)",
+      "typeEngineName": "2.5 AWD (SJ9)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121931,
+      "modelId": 9122,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GE, GV)",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 124369,
+      "modelId": 11267,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GP_)",
+      "typeEngineName": "1.6 i AWD (GP3)",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 124466,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.0 AWD (GH7)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 126650,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.0 2WD",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 128023,
+      "modelId": 38165,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (GT)",
+      "typeEngineName": "2.0 i AWD (GT7)",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129890,
+      "modelId": 38165,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (GT)",
+      "typeEngineName": "1.6 i AWD (GT3)",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133816,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "1.6 BiFuel AWD (G33GP, GP3)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 133817,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "2.0 BiFuel AWD (G33GP, GP7)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 133818,
+      "modelId": 11171,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SJ_)",
+      "typeEngineName": "2.0 BiFuel AWD (S13, SJ5)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134072,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.0 BiFuel AWD",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 137843,
+      "modelId": 38165,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (GT)",
+      "typeEngineName": "2.0 i AWD (GT7)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138918,
+      "modelId": 38165,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (GT)",
+      "typeEngineName": "2.0 i e-BOXER AWD (GTE)",
+      "constructionIntervalStart": "2019-10-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "H"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "U"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VG"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "57"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "19"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "60"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG001"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG011"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG02B"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG02D"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG03C"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG03D"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG080"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG081"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG090"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG131"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG161"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG180"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG181"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG182"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG190"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG191"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG192"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG193"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG194"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG200"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202AG210"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202FJ000"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202FJ010"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SC000"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SC001"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SC002"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SC010"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SC011"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SC012"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SC013"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SC014"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SG000"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SG001"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SG010"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20202SG011"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20204AG010"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20204AG011"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20204AG01B"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "20204CA010"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "SU00300357"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "20202AG161",
+  "fetchedAt": "2026-03-17T15:56:57Z",
+  "enrichedVia": "OEM (20202AG161)"
+}

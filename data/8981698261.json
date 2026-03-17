@@ -1,0 +1,62 @@
+{
+  "articleNo": "201-09025",
+  "articleId": 1833771,
+  "supplier": "IAP QUALITY PARTS",
+  "product": "Clutch Kit",
+  "vehicles": [
+    {
+      "vehicleId": 55091,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi 4x4 (TFS86J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 55099,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi (TFR86J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Number of Teeth",
+      "criteriaValue": "24"
+    },
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "275"
+    },
+    {
+      "criteriaName": "Centering Diameter [mm]",
+      "criteriaValue": "25"
+    },
+    {
+      "criteriaName": "Number of Parts [parts]",
+      "criteriaValue": "3"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8979465862"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8981698261"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8982120690"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "8981698261",
+  "fetchedAt": "2026-03-17T17:05:15Z",
+  "enrichedVia": "OEM (8981698261)"
+}

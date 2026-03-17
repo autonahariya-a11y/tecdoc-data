@@ -1,0 +1,129 @@
+{
+  "articleNo": "LX 5824",
+  "articleId": 14432725,
+  "supplier": "KNECHT",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 120519,
+      "modelId": 36715,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "IONIQ (AE)",
+      "typeEngineName": "1.6 GDI Hybrid",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2022-07-01"
+    },
+    {
+      "vehicleId": 120843,
+      "modelId": 36798,
+      "manufacturerName": "KIA",
+      "modelName": "NIRO I (DE)",
+      "typeEngineName": "1.6 GDI Plug-in Hybrid",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2022-08-01"
+    },
+    {
+      "vehicleId": 136708,
+      "modelId": 39660,
+      "manufacturerName": "KIA",
+      "modelName": "NIRO VAN (DE)",
+      "typeEngineName": "GDI Hybrid",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145292,
+      "modelId": 36715,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "IONIQ (AE)",
+      "typeEngineName": "1.6 GDI Plug-in Hybrid",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2022-07-01"
+    },
+    {
+      "vehicleId": 150526,
+      "modelId": 36798,
+      "manufacturerName": "KIA",
+      "modelName": "NIRO I (DE)",
+      "typeEngineName": "1.6 GDI Hybrid",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2022-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "256"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "342"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "63,5"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "26,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "35,00"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "6,80"
+    },
+    {
+      "criteriaName": "Seal Material",
+      "criteriaValue": "6"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "294"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113G2100"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "28113G2100"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113G2100AS"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "28113G2100AS"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113G2700"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "28113G2700"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113G2700AS"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "28113G2700AS"
+    }
+  ],
+  "ean": "4057635222105",
+  "originalSKU": "28113G2100",
+  "fetchedAt": "2026-03-17T16:09:43Z",
+  "enrichedVia": "OEM (28113G2100)"
+}

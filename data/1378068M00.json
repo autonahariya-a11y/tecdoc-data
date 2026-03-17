@@ -1,0 +1,94 @@
+{
+  "articleNo": "F 026 400 710",
+  "articleId": 6926509,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 116537,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.4 T (APK414)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116538,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.4 T AllGrip (APK414)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121586,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.4 T (AKK414)",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 121587,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.4 T AllGrip (AKK414)",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 126290,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.4 4Sport Turbo",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126291,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.4 4Sport Turbo / 4 Style AllGrip",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "273,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "306,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "23"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780 68M00 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780-68M00"
+    }
+  ],
+  "ean": "4047026571790",
+  "originalSKU": "1378068M00",
+  "fetchedAt": "2026-03-17T15:33:06Z",
+  "enrichedVia": "OEM (1378068M00)"
+}

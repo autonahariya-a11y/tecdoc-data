@@ -1,0 +1,180 @@
+{
+  "articleNo": "F 026 400 413",
+  "articleId": 6926251,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 11437,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11466,
+      "modelId": 6740,
+      "manufacturerName": "JEEP",
+      "modelName": "PATRIOT (MK74)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 19762,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19945,
+      "modelId": 5628,
+      "manufacturerName": "DODGE",
+      "modelName": "CALIBER",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19946,
+      "modelId": 5628,
+      "manufacturerName": "DODGE",
+      "modelName": "CALIBER",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 21591,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24539,
+      "modelId": 6740,
+      "manufacturerName": "JEEP",
+      "modelName": "PATRIOT (MK74)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 30389,
+      "modelId": 6740,
+      "manufacturerName": "JEEP",
+      "modelName": "PATRIOT (MK74)",
+      "typeEngineName": "2.4 Eco + 4x4",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 45006,
+      "modelId": 6740,
+      "manufacturerName": "JEEP",
+      "modelName": "PATRIOT (MK74)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 56234,
+      "modelId": 6740,
+      "manufacturerName": "JEEP",
+      "modelName": "PATRIOT (MK74)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 44906,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 53465,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "136"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "176"
+    },
+    {
+      "criteriaName": "Diameter 1 [mm]",
+      "criteriaValue": "81"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "136"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "04593 914AB"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "04593 914AB"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "04593 914AB"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "4593 914AB"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "4593 914AB"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "4593 914AB"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "53178 546"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "53178546"
+    }
+  ],
+  "ean": "4047025389556",
+  "originalSKU": "04593914AB",
+  "fetchedAt": "2026-03-17T15:16:14Z",
+  "enrichedVia": "OEM (04593914AB)"
+}

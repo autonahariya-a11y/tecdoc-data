@@ -1,0 +1,772 @@
+{
+  "articleNo": "C 16 005",
+  "articleId": 6159125,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 2538,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 7923,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 7928,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 7930,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 7943,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 7944,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 7960,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 9332,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 9333,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 9335,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 10396,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 10399,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 10410,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 10416,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 10418,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 10429,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 11715,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 11716,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 11717,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "S6 quattro",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 11718,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "S6 quattro",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 11789,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "S7 quattro",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 11790,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 12075,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 12076,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 25711,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 29290,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 29292,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 29298,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 29300,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 34939,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 34940,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 34941,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 56213,
+      "modelId": 10594,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A6L C7 (4X8, 4XL)",
+      "typeEngineName": "30 FSI",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56214,
+      "modelId": 10594,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A6L C7 (4X8, 4XL)",
+      "typeEngineName": "35 FSI",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 56215,
+      "modelId": 10594,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A6L C7 (4X8, 4XL)",
+      "typeEngineName": "35 FSI quattro",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 58357,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-06-01"
+    },
+    {
+      "vehicleId": 100804,
+      "modelId": 10594,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A6L C7 (4X8, 4XL)",
+      "typeEngineName": "50 TFSI quattro",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 107347,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107348,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107349,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107350,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107351,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107352,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "S7 quattro",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107509,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 107859,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 108433,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108434,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108435,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108436,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108439,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108440,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108441,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108443,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108559,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "S6 quattro",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108585,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108588,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108590,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108591,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108592,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108593,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108594,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108595,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "S6 quattro",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108599,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108601,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108602,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108604,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108605,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108606,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 117764,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 117765,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 117766,
+      "modelId": 10161,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C7 (4GH, 4GJ)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 117950,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TDI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 118387,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 118396,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 118828,
+      "modelId": 10594,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A6L C7 (4X8, 4XL)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118829,
+      "modelId": 10594,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A6L C7 (4X8, 4XL)",
+      "typeEngineName": "50 TFSI quattro",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118832,
+      "modelId": 10594,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A6L C7 (4X8, 4XL)",
+      "typeEngineName": "30 FSI",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 124808,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 143953,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 TFSI QUATTRO",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 156535,
+      "modelId": 8986,
+      "manufacturerName": "AUDI",
+      "modelName": "A7 Sportback (4GA, 4GF)",
+      "typeEngineName": "3.0 50 TFSI quattro",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "188"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "30"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "154"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "90"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "4G0 133 843"
+    },
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "4G0 133 843"
+    },
+    {
+      "oemBrand": "VW (SVW)",
+      "oemDisplayNo": "4GD 133 843"
+    },
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "L4GD 133 843"
+    }
+  ],
+  "ean": "4011558020330",
+  "originalSKU": "4G0133843",
+  "fetchedAt": "2026-03-17T16:32:59Z",
+  "enrichedVia": "OEM (4G0133843)"
+}

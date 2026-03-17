@@ -1,0 +1,903 @@
+{
+  "articleNo": "P 56 098",
+  "articleId": 8360294,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 100506,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.2 DIG-T",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100507,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100508,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.6 dCi",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100509,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.6 dCi ALL MODE 4x4-i",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106464,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 dCi (T32)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106465,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 dCi ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108311,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "2.0 (J11E)",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108463,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.6 DIG-T",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109636,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 (T32)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111757,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.5 dCi 110 (HLA3)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111758,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.6 dCi 130 (HLA4)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111759,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.6 dCi 130 4x4 (HLA4)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111760,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.2 TCe 130 (HLMR)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116533,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 DIG-T (T32)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119632,
+      "modelId": 36490,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KADJAR",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119634,
+      "modelId": 36490,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KADJAR",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120309,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "2.0 ALL MODE 4x4-i (J11R)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121518,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123498,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 (T32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124049,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124054,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 Hybrid (HT32)",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124055,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 Hybrid ALL MODE 4x4-i (HNT32)",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124115,
+      "modelId": 37332,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KOLEOS",
+      "typeEngineName": "2.5 SCe230 AWD",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125349,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 dCi (T32)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125350,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 dCi ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125872,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 (T32)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125873,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 (T32)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125874,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125876,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 Flexfuel (T32)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125879,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 Flexfuel ALL MODE 4x4-i",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125992,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.6 TCe 165 (HLMH)",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126707,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126709,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 Hybrid",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126710,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.0 Hybrid ALL MODE 4x4-i",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127465,
+      "modelId": 36490,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KADJAR",
+      "typeEngineName": "1.2 T",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127818,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127819,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "2.0 ALL MODE 4x4-i",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127997,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 ALL MODE 4x4-i",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132088,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "2.0 ALL MODE 4x4-i",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132161,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.3 TCe 140 (HLNB, HLN1)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132162,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.5 BLUE dCi 115 (HLA6)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132945,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.3 TCe 160 (HLNC)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133682,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.3 DIG-T",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133683,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.3 DIG-T",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133684,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134058,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134313,
+      "modelId": 36490,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KADJAR",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135617,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.7 dCi",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135620,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.7 dCi ALL MODE 4x4-i",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135953,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.7 Blue dCi 150 4WD (HLA7)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136022,
+      "modelId": 38288,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J11)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136072,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136073,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi ALL MODE 4x4-i",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136074,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.3 DIG-T",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136651,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi ALL MODE 4x4-i",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136652,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136653,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi ALL MODE 4x4-i",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136766,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.7 Blue dCi 150 (HLA7)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141602,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.5 4WD",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141670,
+      "modelId": 38288,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "QASHQAI (J11)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143002,
+      "modelId": 11757,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II (J11, J11_)",
+      "typeEngineName": "1.3 DIG-T",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143145,
+      "modelId": 41702,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II VAN (J11_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143146,
+      "modelId": 41702,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI II VAN (J11_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2018-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144374,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 BLUE DCI 185 (HCAN)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144375,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 BLUE DCI 185 4WD (HCAN)",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145046,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.3 DIG-T",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145212,
+      "modelId": 13881,
+      "manufacturerName": "RENAULT",
+      "modelName": "KADJAR (HA_, HL_)",
+      "typeEngineName": "1.3 TCe 160 (HLN2)",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146223,
+      "modelId": 42594,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL HONOR (T32)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2021-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107383,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 (T32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107384,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125880,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 Flexfuel ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136650,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.7 dCi",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122612,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.5 All-wheel Drive",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 127084,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "1.6 dCi 130",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127085,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 dCi 175 4WD",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127086,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.5 Sce",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127087,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.5 Sce 4WD",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127965,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 dCi 175 (HCAK)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134599,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137194,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "1.7 BLUE dCi 150 (HCA7)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137723,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "2.0 BLUE dCi 190 4WD (HCAN)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141588,
+      "modelId": 37895,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS II (HC_)",
+      "typeEngineName": "1.3 TCe 160 (HCN2)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124111,
+      "modelId": 37332,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KOLEOS",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136171,
+      "modelId": 37332,
+      "manufacturerName": "RENAULT (DFAC)",
+      "modelName": "KOLEOS",
+      "typeEngineName": "SCe200",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128580,
+      "modelId": 38202,
+      "manufacturerName": "NISSAN",
+      "modelName": "LEAF (ZE1)",
+      "typeEngineName": "Electric",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135024,
+      "modelId": 38202,
+      "manufacturerName": "NISSAN",
+      "modelName": "LEAF (ZE1)",
+      "typeEngineName": "Electric",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141601,
+      "modelId": 36910,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "X-TRAIL (T32)",
+      "typeEngineName": "2.0 2WD",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "104"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "45"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "47"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "TRW"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25965"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25966"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25967"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT (DFAC)",
+      "oemDisplayNo": "440600963RC299D"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "440603981R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "440605889R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "440606446R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "440606633R"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604CA0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604CA0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604CA0C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604CA0CRV"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604EA0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604EA0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40604EA0BVA"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D40605SA0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4M605SA0A"
+    }
+  ],
+  "ean": "8020584112656",
+  "originalSKU": "440603981R",
+  "fetchedAt": "2026-03-17T16:16:02Z",
+  "enrichedVia": "OEM (440603981R)"
+}

@@ -1,0 +1,161 @@
+{
+  "articleNo": "09-0531",
+  "articleId": 652428,
+  "supplier": "GATES",
+  "product": "Charge Air Hose",
+  "vehicles": [
+    {
+      "vehicleId": 8842,
+      "modelId": 7865,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO BE BOP (KW0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11070,
+      "modelId": 7865,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO BE BOP (KW0/1_)",
+      "typeEngineName": "1.5 dCi 75",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11069,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 110 (FW0C, FW0H)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15573,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi 110 (KW0C, KW0H)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23466,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi 105 (KW0F)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23495,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 105 (FW0F)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29949,
+      "modelId": 7865,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO BE BOP (KW0/1_)",
+      "typeEngineName": "1.5 dCi (KW0F)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 58574,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi (KW0C, KW2C, KW4C)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 801347,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi (FW0C, FW1C)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23464,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi 70 (KW0V, KW0A)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23465,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi 85 (KW0K, KW0L, KW0B)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23493,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 70 (FW0A, KW0V)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23494,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 85 (FW0K, FW0L, FW0B)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Colour",
+      "criteriaValue": "7"
+    },
+    {
+      "criteriaName": "Material",
+      "criteriaValue": "6"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "36"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "36"
+    },
+    {
+      "criteriaName": "Hose Length [mm]",
+      "criteriaValue": "1010"
+    },
+    {
+      "criteriaName": "Observe broschure",
+      "criteriaValue": ""
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "82 00 874 705"
+    }
+  ],
+  "ean": "5400608331813",
+  "originalSKU": "8200874705",
+  "fetchedAt": "2026-03-17T17:00:33Z",
+  "enrichedVia": "OEM (8200874705)"
+}

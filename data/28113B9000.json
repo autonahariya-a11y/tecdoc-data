@@ -1,0 +1,135 @@
+{
+  "articleNo": "C 36 020",
+  "articleId": 6161113,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 100584,
+      "modelId": 11774,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II (BA, IA)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 100792,
+      "modelId": 11774,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II (BA, IA)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 111434,
+      "modelId": 10007,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "EON",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2019-01-01"
+    },
+    {
+      "vehicleId": 115521,
+      "modelId": 14488,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II Saloon",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120752,
+      "modelId": 11774,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II (BA, IA)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 129636,
+      "modelId": 11774,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II (BA, IA)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 131447,
+      "modelId": 11774,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II (BA, IA)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 131799,
+      "modelId": 7368,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 I (PA)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 138004,
+      "modelId": 40003,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II Cargo (BA, IA)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100581,
+      "modelId": 11774,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II (BA, IA)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 138003,
+      "modelId": 40003,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II Cargo (BA, IA)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "356"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "109"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "36"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113-B9000"
+    }
+  ],
+  "ean": "4011558047245",
+  "originalSKU": "28113B9000",
+  "fetchedAt": "2026-03-17T16:08:57Z",
+  "enrichedVia": "OEM (28113B9000)"
+}

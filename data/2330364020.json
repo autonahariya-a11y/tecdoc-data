@@ -1,0 +1,3304 @@
+{
+  "articleNo": "0 986 450 513",
+  "articleId": 63974,
+  "supplier": "BOSCH",
+  "product": "Fuel Filter",
+  "vehicles": [
+    {
+      "vehicleId": 843,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "3.0 D-4D (KDJ155_, KDJ150_, KDJ150R, KDJ155R)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55972,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "3.0 TDi (KDJ150_)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132409,
+      "modelId": 38869,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER VAN (_J15_)",
+      "typeEngineName": "3.0 D4d 4WD (KDJ155, KDJ150)",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3470,
+      "modelId": 140,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Liftback (_E8_)",
+      "typeEngineName": "1.8 D (CE80)",
+      "constructionIntervalStart": "1983-06-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 5016,
+      "modelId": 1446,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA FX Compact (E8B)",
+      "typeEngineName": "1.8 D (CE80_, CE80)",
+      "constructionIntervalStart": "1985-08-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 6738,
+      "modelId": 108,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E8_)",
+      "typeEngineName": "1.8 D (CE80_, CE80R)",
+      "constructionIntervalStart": "1983-06-01",
+      "constructionIntervalEnd": "1989-06-01"
+    },
+    {
+      "vehicleId": 3545,
+      "modelId": 453,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "2.0 Turbo-D (CV20_, CV20)",
+      "constructionIntervalStart": "1986-11-01",
+      "constructionIntervalEnd": "1991-05-01"
+    },
+    {
+      "vehicleId": 3546,
+      "modelId": 453,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "2.0 Turbo-D (CV20_, CV20)",
+      "constructionIntervalStart": "1986-10-01",
+      "constructionIntervalEnd": "1991-05-01"
+    },
+    {
+      "vehicleId": 3551,
+      "modelId": 465,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Estate (_V2_)",
+      "typeEngineName": "2.0 Turbo-D (CV20_, CV20)",
+      "constructionIntervalStart": "1986-11-01",
+      "constructionIntervalEnd": "1991-05-01"
+    },
+    {
+      "vehicleId": 3552,
+      "modelId": 465,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Estate (_V2_)",
+      "typeEngineName": "2.0 Turbo-D (CV20_, CV20)",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "1991-05-01"
+    },
+    {
+      "vehicleId": 3600,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "2.4 D (LJ70_, LJ70R)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1985-10-01"
+    },
+    {
+      "vehicleId": 3601,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "2.4 TD (LJ70_, LJ73_, LJ70RV)",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1990-05-01"
+    },
+    {
+      "vehicleId": 3602,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "2.4 TD (LJ70)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-05-01"
+    },
+    {
+      "vehicleId": 3612,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 D (LN85, LN90)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 3621,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.4 D (LH102)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 4605,
+      "modelId": 8507,
+      "manufacturerName": "MAZDA",
+      "modelName": "E Platform/Chassis (SD1)",
+      "typeEngineName": "E2200 D",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "1999-07-01"
+    },
+    {
+      "vehicleId": 4612,
+      "modelId": 8511,
+      "manufacturerName": "MAZDA",
+      "modelName": "E Platform/Chassis (SD1, SL)",
+      "typeEngineName": "E2200 D",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 4777,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 TD 24V (HDJ80_, HDJ80, HDJ81V)",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4809,
+      "modelId": 98,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Compact (_E10_)",
+      "typeEngineName": "2.0 D (CE100_, CE100R)",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1997-04-01"
+    },
+    {
+      "vehicleId": 4811,
+      "modelId": 170,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E10_)",
+      "typeEngineName": "2.0 D (CE100_, CE100R)",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1997-04-01"
+    },
+    {
+      "vehicleId": 5271,
+      "modelId": 3463,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E10_)",
+      "typeEngineName": "2.0 D (CE100_, CE100R)",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1997-04-01"
+    },
+    {
+      "vehicleId": 5659,
+      "modelId": 513,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CARINA V Estate (_T17_)",
+      "typeEngineName": "2.0 D (CT170_, CT170)",
+      "constructionIntervalStart": "1987-12-01",
+      "constructionIntervalEnd": "1992-01-01"
+    },
+    {
+      "vehicleId": 5686,
+      "modelId": 492,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CARINA E VI Saloon (_T19_)",
+      "typeEngineName": "2.0 D (CT190)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 5689,
+      "modelId": 496,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CARINA E VI (_T19_)",
+      "typeEngineName": "2.0 D (CT190)",
+      "constructionIntervalStart": "1992-04-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 6756,
+      "modelId": 3983,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Bus (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.4 D 4WD (LH56, LH66)",
+      "constructionIntervalStart": "1987-01-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 6760,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.4 D (LH112)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 8714,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 D 4WD (LN110_, LN110R)",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 9389,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.2 MZR-CD AWD (ER10A)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 9560,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.2 TD (HDJ100_, HDJ100)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 10012,
+      "modelId": 4244,
+      "manufacturerName": "JEEP",
+      "modelName": "GRAND CHEROKEE II (WJ, WG)",
+      "typeEngineName": "3.1 TD 4x4",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 10759,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 D (LN85_, LN110, LN90)",
+      "constructionIntervalStart": "1988-09-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 10760,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 D 4WD (LN105, LN110)",
+      "constructionIntervalStart": "1988-09-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 12166,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.4 D (LH102, LH112, LH114, LXH12, LXH22)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 13731,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "3.7 D 4WD",
+      "constructionIntervalStart": "1994-04-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 14163,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14164,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 D",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 14601,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 D 4x4",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 15587,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.0 D-4D 4WD (KDJ90_, KDJ95_, KDJ90W, KDJ95W)",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 15647,
+      "modelId": 2072,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Bus (_M3_, _M4_)",
+      "typeEngineName": "2.0 D (CM30LG)",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1992-01-01"
+    },
+    {
+      "vehicleId": 15648,
+      "modelId": 227,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Van (_M3_, _M4_)",
+      "typeEngineName": "1.8 D (CM35_V, CM35RV)",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1988-08-01"
+    },
+    {
+      "vehicleId": 15649,
+      "modelId": 227,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Van (_M3_, _M4_)",
+      "typeEngineName": "2.0 D (CM36)",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1992-01-01"
+    },
+    {
+      "vehicleId": 15753,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 D (HZJ80, HZJ81)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 16548,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.5 D-4D (KDN145, KDN150)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 16549,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.5 D-4D 4WD (KDN165, KDN170, KDN190)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 16871,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16872,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 18827,
+      "modelId": 4887,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GG)",
+      "typeEngineName": "2.0 DI (GG14)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 18828,
+      "modelId": 4886,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GG)",
+      "typeEngineName": "2.0 DI (GG14)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 18829,
+      "modelId": 4888,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Station Wagon (GY)",
+      "typeEngineName": "2.0 DI (GY19)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 18830,
+      "modelId": 5410,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CR)",
+      "typeEngineName": "2.0 CD (CR19)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 19625,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH18, KLH28)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 20194,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "3.5 D",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 20324,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 D (LN147, LN152)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 20722,
+      "modelId": 4243,
+      "manufacturerName": "JEEP",
+      "modelName": "GRAND CHEROKEE I (ZJ, ZG)",
+      "typeEngineName": "2.5 TD Laredo",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 23651,
+      "modelId": 2071,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Van (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.4 D 4WD (LH56, LH66)",
+      "constructionIntervalStart": "1984-04-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 23859,
+      "modelId": 4242,
+      "manufacturerName": "JEEP",
+      "modelName": "CHEROKEE (XJ)",
+      "typeEngineName": "2.5 Tdi 4x4",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 25464,
+      "modelId": 6986,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GH)",
+      "typeEngineName": "2.0 MZR-CD (GH14)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 25621,
+      "modelId": 6305,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 300 Platform/Chassis",
+      "typeEngineName": "3.4 D (BU30_, BU30R)",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "1999-05-01"
+    },
+    {
+      "vehicleId": 25748,
+      "modelId": 7024,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TOWN ACE Bus",
+      "typeEngineName": "2.0 D (CR27)",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1995-04-01"
+    },
+    {
+      "vehicleId": 25835,
+      "modelId": 7065,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TOWN ACE Van",
+      "typeEngineName": "2.0 D (CR27)",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1995-04-01"
+    },
+    {
+      "vehicleId": 26049,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.4 D 4WD (LH100, LH102, LH110, LH140)",
+      "constructionIntervalStart": "1989-09-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 26236,
+      "modelId": 7253,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 200 Platform/Chassis",
+      "typeEngineName": "3.7 D (BU66, BU87, BU88, BU91, BU67)",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1995-05-01"
+    },
+    {
+      "vehicleId": 26243,
+      "modelId": 7255,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 250 Van",
+      "typeEngineName": "4.1 D (BU212, BU222)",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "1999-06-01"
+    },
+    {
+      "vehicleId": 26490,
+      "modelId": 6304,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 200 Platform/Chassis",
+      "typeEngineName": "3.4 D (BU100, BU110, BU140)",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "1999-05-01"
+    },
+    {
+      "vehicleId": 27216,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.4 D (LH102, LH104, LH112)",
+      "constructionIntervalStart": "1989-09-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 27217,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.4 D 4WD",
+      "constructionIntervalStart": "1989-09-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 27275,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.4 D (LXH12, LXH22)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 27276,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH18, KLH28)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 27277,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27383,
+      "modelId": 227,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Van (_M3_, _M4_)",
+      "typeEngineName": "1.8 D (CM20)",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1988-07-01"
+    },
+    {
+      "vehicleId": 27385,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.8 D (LH105, LH125)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 27460,
+      "modelId": 7499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 150 Platform/Chassis (LY_)",
+      "typeEngineName": "2.8 D (LY211)",
+      "constructionIntervalStart": "1995-05-01",
+      "constructionIntervalEnd": "1998-08-01"
+    },
+    {
+      "vehicleId": 27461,
+      "modelId": 7499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 150 Platform/Chassis (LY_)",
+      "typeEngineName": "3.0 D (LY102, LY112, LY122)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 28514,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY261_, KDY251_, KDY231_, KDY221_, KDY221R,...",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29517,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.8 D 4WD (LN107, LN111, LN166, LN106)",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 29518,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.8 D (LN86)",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 29522,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 TD 4WD (KZN165)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 31078,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.2 MZR CD (BL10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 31079,
+      "modelId": 8036,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BL)",
+      "typeEngineName": "2.2 MZR CD (BL10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31648,
+      "modelId": 7266,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 150 Platform/Chassis (LY_)",
+      "typeEngineName": "2.8 D (LY61_)",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1995-05-01"
+    },
+    {
+      "vehicleId": 32111,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.2 MZR-CD AWD (ER10A)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 34648,
+      "modelId": 383,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER II (_N13_)",
+      "typeEngineName": "2.8 D (LN130)",
+      "constructionIntervalStart": "1989-10-01",
+      "constructionIntervalEnd": "1996-03-01"
+    },
+    {
+      "vehicleId": 34673,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.5 D 4x4 (PZJ70, PZJ73, PZJ70RV)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1991-08-01"
+    },
+    {
+      "vehicleId": 34682,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.2 D (HZJ105)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 34704,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D (KDH200, KDH220)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 50757,
+      "modelId": 10207,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KE, GH)",
+      "typeEngineName": "2.2 D (KE2FW)",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 50841,
+      "modelId": 10207,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KE, GH)",
+      "typeEngineName": "2.2 D AWD (KE2AW)",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 50842,
+      "modelId": 10207,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KE, GH)",
+      "typeEngineName": "2.2 D AWD (KE102)",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 55973,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.0 D-4D (KDJ90, KDJ95, KZJ9_, LJ9_, RZJ9_, VZJ9_)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 55975,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.2 TDi 4x4 (HDJ78)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 56160,
+      "modelId": 9028,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ET)",
+      "typeEngineName": "2.5 TDi 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-07-01"
+    },
+    {
+      "vehicleId": 57633,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D (KZJ120_, KZJ120R)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 58312,
+      "modelId": 10997,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Bus (XZU3_, XZU4_, WU4_, WU3_, LY2_, KDY2_)",
+      "typeEngineName": "3.0 D4d (KDY241)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58471,
+      "modelId": 90088,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Platform/Chassis (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.8 D 4WD (LN106, LN111)",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 58509,
+      "modelId": 10884,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GJ, GL)",
+      "typeEngineName": "2.2 D (GJ2FP)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 59004,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "3.7 D",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59373,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH18)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 59412,
+      "modelId": 10888,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GJ, GL)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 59672,
+      "modelId": 7266,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 150 Platform/Chassis (LY_)",
+      "typeEngineName": "2.4 D (LY60)",
+      "constructionIntervalStart": "1988-09-01",
+      "constructionIntervalEnd": "1995-04-01"
+    },
+    {
+      "vehicleId": 100047,
+      "modelId": 4756,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pickup (_J4_)",
+      "typeEngineName": "3.7 D 4WD",
+      "constructionIntervalStart": "1994-04-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 105861,
+      "modelId": 7025,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TOWN ACE Bus (_R2_, _R3_)",
+      "typeEngineName": "2.0 TD (CR21, CR28)",
+      "constructionIntervalStart": "1985-04-01",
+      "constructionIntervalEnd": "1991-12-01"
+    },
+    {
+      "vehicleId": 118542,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5 D (BMLFS, BM4, BN4)",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 119311,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "3.0 TD",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "1999-06-01"
+    },
+    {
+      "vehicleId": 119315,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 D 4WD",
+      "constructionIntervalStart": "1992-04-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 120668,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 TD",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 121636,
+      "modelId": 36923,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 100 Platform/Chassis (LY1_, YY1_)",
+      "typeEngineName": "2.4 D (LY100_, LY100R)",
+      "constructionIntervalStart": "1995-05-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 123308,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D-4D (KDJ120_)",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 123611,
+      "modelId": 37223,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TOYOACE Platform/Chassis (_Y2_, _U_)",
+      "typeEngineName": "3.0 DiD (KDY221, KDY231, KDY241)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124386,
+      "modelId": 37373,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ESTIMA EMINA / LUCIDA (_R1_, _R2_)",
+      "typeEngineName": "2.2 TD 4x4 (CXR20G, CXR21G)",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 124597,
+      "modelId": 6287,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CORONA Saloon (_T19_)",
+      "typeEngineName": "2.0 D (CT190)",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 124610,
+      "modelId": 6682,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VISTA / CAMRY Saloon (_V3_, _V4_)",
+      "typeEngineName": "2.2 TD (CV40_, CV40)",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1998-06-01"
+    },
+    {
+      "vehicleId": 125328,
+      "modelId": 10462,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (LH8_)",
+      "typeEngineName": "2.4 D (LH80_, LH80R)",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1995-04-01"
+    },
+    {
+      "vehicleId": 125488,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 D 4WD (LN105_, LN108_, LN110_)",
+      "constructionIntervalStart": "1994-09-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 125922,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.5 D-4D (KDN150, KDN155, KDN190)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 126860,
+      "modelId": 37373,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ESTIMA EMINA / LUCIDA (_R1_, _R2_)",
+      "typeEngineName": "2.2 TD (CXR10, CXR11)",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 127062,
+      "modelId": 37884,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KF)",
+      "typeEngineName": "2.2 D AWD (KF4W2)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2018-02-01"
+    },
+    {
+      "vehicleId": 128051,
+      "modelId": 7219,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX II SUV (_N13_)",
+      "typeEngineName": "3.0 TDi (KZN130_, KZN130G, KZN130W)",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 128586,
+      "modelId": 38207,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-8 (KG)",
+      "typeEngineName": "2.2 D (KG2W, KG4W, KG2P)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129758,
+      "modelId": 36923,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 100 Platform/Chassis (LY1_, YY1_)",
+      "typeEngineName": "2.4 D (LY100_)",
+      "constructionIntervalStart": "1995-05-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 131823,
+      "modelId": 3582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Hardtop (_J7_)",
+      "typeEngineName": "3.5 D 4x4 (PZJ75_)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 136822,
+      "modelId": 6944,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX III SUV (_N1_, _N2_)",
+      "typeEngineName": "3.0 TDi 4WD (KZN185)",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2000-06-01"
+    },
+    {
+      "vehicleId": 136823,
+      "modelId": 6944,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX III SUV (_N1_, _N2_)",
+      "typeEngineName": "3.0 TDi 4WD (KZN185)",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "1998-07-01"
+    },
+    {
+      "vehicleId": 141247,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.9 D 4x4",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 144633,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.8 (LN86)",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 147852,
+      "modelId": 5444,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (_U_, _Y_)",
+      "typeEngineName": "4-093 (LY212)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 3594,
+      "modelId": 3983,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Bus (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.4 D (LH51, LH61, LH66)",
+      "constructionIntervalStart": "1984-04-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 3597,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 TD (HDJ80, HDJ81)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 3603,
+      "modelId": 3582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Hardtop (_J7_)",
+      "typeEngineName": "2.4 TD (LJ70_, LJ70R)",
+      "constructionIntervalStart": "1990-07-01",
+      "constructionIntervalEnd": "1996-05-01"
+    },
+    {
+      "vehicleId": 4812,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 TD (HDJ80)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 3604,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.0 TD (KZJ70_, KZJ73_, KZJ77_, KZJ78, KZJ71)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "1996-05-01"
+    },
+    {
+      "vehicleId": 3605,
+      "modelId": 3582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Hardtop (_J7_)",
+      "typeEngineName": "3.0 TD (KZJ70_, KZJ70R)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "1996-05-01"
+    },
+    {
+      "vehicleId": 3853,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.4 D (LH100, LH110, LH104, LH114)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 27463,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "4.1 TD (BB50)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123742,
+      "modelId": 37243,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TOYOACE Platform/Chassis (_Y1_, _Y2_)",
+      "typeEngineName": "3.0 D (LY235_, LY235)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 3909,
+      "modelId": 6986,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 22698,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 22699,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27278,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30889,
+      "modelId": 6987,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30892,
+      "modelId": 6986,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33640,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 3910,
+      "modelId": 6986,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GH)",
+      "typeEngineName": "2.2 D (GH10)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 34861,
+      "modelId": 6987,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GH)",
+      "typeEngineName": "2.2 D (GH10)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 3940,
+      "modelId": 7571,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GH)",
+      "typeEngineName": "2.2 D (GH10)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 5530,
+      "modelId": 7571,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 30895,
+      "modelId": 7571,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 34862,
+      "modelId": 6987,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GH)",
+      "typeEngineName": "2.2 D (GH10)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 4810,
+      "modelId": 146,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Liftback (_E10_)",
+      "typeEngineName": "2.0 D (CE100_, CE100R)",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1997-04-01"
+    },
+    {
+      "vehicleId": 5362,
+      "modelId": 4243,
+      "manufacturerName": "JEEP",
+      "modelName": "GRAND CHEROKEE I (ZJ, ZG)",
+      "typeEngineName": "2.5 TD 4x4 (Z)",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 5386,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.4 D (LXH12, LXH22)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 5387,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.4 TD (LXH12, LXH22)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 10768,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.4 D (LXH12, LXH22)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 10779,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.4 TD (LXH12, LXH22)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 12167,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.4 D (LXH12, LXH22)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 14436,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.4 D (LXH12)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 5692,
+      "modelId": 499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CARINA E VI Sportswagon (_T19_)",
+      "typeEngineName": "2.0 D (CT190_, CT190R)",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 14315,
+      "modelId": 310,
+      "manufacturerName": "TOYOTA",
+      "modelName": "STARLET (_P8_)",
+      "typeEngineName": "1.5 D (NP80_, NP80)",
+      "constructionIntervalStart": "1989-12-01",
+      "constructionIntervalEnd": "1996-03-01"
+    },
+    {
+      "vehicleId": 26288,
+      "modelId": 7274,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CALDINA Estate (_T19_)",
+      "typeEngineName": "2.0 TD (CT190)",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 123781,
+      "modelId": 7274,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CALDINA Estate (_T19_)",
+      "typeEngineName": "2.0 TD (CT190G)",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 5697,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.0 TD (KZJ90_, KZJ95_, KZJ90R, KZJ95R, KZJ90W, KZJ95W)",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 5710,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "2.0 D AWD",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 29286,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "2.0 D AWD (GPD)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 6079,
+      "modelId": 9703,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "VOYAGER II (ES)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1995-09-01"
+    },
+    {
+      "vehicleId": 6704,
+      "modelId": 504,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CARINA V Saloon (_T17_)",
+      "typeEngineName": "2.0 D (CT170_, CT170)",
+      "constructionIntervalStart": "1988-03-01",
+      "constructionIntervalEnd": "1992-06-01"
+    },
+    {
+      "vehicleId": 6705,
+      "modelId": 509,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CARINA V (_T17_)",
+      "typeEngineName": "2.0 D (CT170_)",
+      "constructionIntervalStart": "1988-03-01",
+      "constructionIntervalEnd": "1992-06-01"
+    },
+    {
+      "vehicleId": 22881,
+      "modelId": 6325,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MASTER ACE SURF Bus (_R2_)",
+      "typeEngineName": "2.0 TD (CR21, CR28)",
+      "constructionIntervalStart": "1985-02-01",
+      "constructionIntervalEnd": "1993-10-01"
+    },
+    {
+      "vehicleId": 105859,
+      "modelId": 6325,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MASTER ACE SURF Bus (_R2_)",
+      "typeEngineName": "2.0 TD 4WD (CR30, CR37)",
+      "constructionIntervalStart": "1985-02-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 6734,
+      "modelId": 166,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E7_)",
+      "typeEngineName": "1.8 D (CE70)",
+      "constructionIntervalStart": "1983-01-01",
+      "constructionIntervalEnd": "1983-09-01"
+    },
+    {
+      "vehicleId": 6737,
+      "modelId": 108,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E8_)",
+      "typeEngineName": "1.8 D (CE80_, CE80R)",
+      "constructionIntervalStart": "1983-06-01",
+      "constructionIntervalEnd": "1988-05-01"
+    },
+    {
+      "vehicleId": 6740,
+      "modelId": 140,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Liftback (_E8_)",
+      "typeEngineName": "1.8 D (CE80_, CE80R)",
+      "constructionIntervalStart": "1983-06-01",
+      "constructionIntervalEnd": "1988-05-01"
+    },
+    {
+      "vehicleId": 6742,
+      "modelId": 1446,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA FX Compact (E8B)",
+      "typeEngineName": "1.8 D (CE80_, CE80)",
+      "constructionIntervalStart": "1985-01-01",
+      "constructionIntervalEnd": "1988-05-01"
+    },
+    {
+      "vehicleId": 6744,
+      "modelId": 114,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E9_)",
+      "typeEngineName": "1.8 D (CE90_, CE90R)",
+      "constructionIntervalStart": "1987-07-01",
+      "constructionIntervalEnd": "1993-06-01"
+    },
+    {
+      "vehicleId": 6754,
+      "modelId": 3983,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Bus (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.2 D (LH50, LH60)",
+      "constructionIntervalStart": "1982-12-01",
+      "constructionIntervalEnd": "1989-11-01"
+    },
+    {
+      "vehicleId": 6758,
+      "modelId": 2071,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Van (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.2 D (LH50, LH60)",
+      "constructionIntervalStart": "1982-12-01",
+      "constructionIntervalEnd": "1989-11-01"
+    },
+    {
+      "vehicleId": 6759,
+      "modelId": 2071,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Van (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.4 D (LH61, LH51)",
+      "constructionIntervalStart": "1982-12-01",
+      "constructionIntervalEnd": "1989-11-01"
+    },
+    {
+      "vehicleId": 18553,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.4 D 4WD (LH51_, LH61_, LH66_, LH71_, LH51R, LH61R,...",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 6767,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.4 D (BJ70, BJ73, BJ75)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 8329,
+      "modelId": 1972,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E11_)",
+      "typeEngineName": "2.0 D (CE110_, CE110R)",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2000-02-01"
+    },
+    {
+      "vehicleId": 8333,
+      "modelId": 1974,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Compact (_E11_)",
+      "typeEngineName": "2.0 D (CE110_, CE110R)",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2000-02-01"
+    },
+    {
+      "vehicleId": 8337,
+      "modelId": 1973,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Liftback (_E11_)",
+      "typeEngineName": "2.0 D (CE110)",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2000-02-01"
+    },
+    {
+      "vehicleId": 9487,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D (LJ120, LJ125)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2010-02-01"
+    },
+    {
+      "vehicleId": 10479,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 D (LN90_, LN90R)",
+      "constructionIntervalStart": "1995-03-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 10491,
+      "modelId": 6248,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV (V8_W, V9_W)",
+      "typeEngineName": "3.2 DI-D 4WD (V98W, V88W)",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118544,
+      "modelId": 9834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV Van (V9_, V8_, V8_V)",
+      "typeEngineName": "3.2 DI-D 4WD (V88W, V98W)",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10664,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY221, KDY231, KDY251, KDY261)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10675,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d 4WD (KDY271)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10921,
+      "modelId": 2058,
+      "manufacturerName": "MAZDA",
+      "modelName": "E Van (SR2)",
+      "typeEngineName": "E2200 D 4WD",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 10922,
+      "modelId": 2058,
+      "manufacturerName": "MAZDA",
+      "modelName": "E Van (SR2)",
+      "typeEngineName": "E2200 D",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 10981,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 11806,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D (KDH20_, KDH21_, KDH22_, KDH200, KDH220)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30469,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D (KZJ120)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 57661,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D (KDJ120, KZJ120)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 11927,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "3.2 DI-D 4WD",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58255,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "3.2 DI-D 4WD",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12188,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12190,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 24544,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 12244,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D 4WD",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 14569,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 17561,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D",
+      "constructionIntervalStart": "2002-12-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 17562,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D 4WD",
+      "constructionIntervalStart": "2002-12-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 12480,
+      "modelId": 9834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV Van (V9_, V8_, V8_V)",
+      "typeEngineName": "3.2 DI-D",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12484,
+      "modelId": 9834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV Van (V9_, V8_, V8_V)",
+      "typeEngineName": "3.2 TD 4WD (V88V, V98V)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22653,
+      "modelId": 6248,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV (V8_W, V9_W)",
+      "typeEngineName": "3.2 DI-D (V88W, V98W)",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22654,
+      "modelId": 6248,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV (V8_W, V9_W)",
+      "typeEngineName": "3.2 DI-D (V88W, V98W)",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55670,
+      "modelId": 6248,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV (V8_W, V9_W)",
+      "typeEngineName": "3.2 DI-D 4WD",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55671,
+      "modelId": 6248,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV (V8_W, V9_W)",
+      "typeEngineName": "3.2 DI-D 4WD (V98W)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115376,
+      "modelId": 6248,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV (V8_W, V9_W)",
+      "typeEngineName": "3.2 DI-D",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 13170,
+      "modelId": 161,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E7_)",
+      "typeEngineName": "1.8 D (TE72LG_, CE70RG)",
+      "constructionIntervalStart": "1983-05-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 59458,
+      "modelId": 6303,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 150 Platform/Chassis (_Y_)",
+      "typeEngineName": "2.4 D (LY60_)",
+      "constructionIntervalStart": "1985-08-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 14328,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.4 TD 4WD (LXH18, LXH28)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 14329,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.4 TD 4WD (LXH18, LXH28)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 14473,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.4 D (LN150, LN145)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 15752,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D (HZJ76, HZJ78, HZJ70, HZJ73, HZJ75, HZJ79, HZJ77,...",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124036,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.4 D (LN145, LN150)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 16377,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "2.0 D-4D (CDE120R, CDE120L_)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 17439,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "2.0 D-4D (CDE120R, CDE120L_)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 17856,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "2.0 D-4D (CDE120_, CDE120R)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 18220,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "2.0 D-4D (CDE120_, CDE120R)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 16385,
+      "modelId": 4854,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Verso (_E12_)",
+      "typeEngineName": "2.0 D-4D (CDE120_, CDE120R)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 16546,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 16547,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 16557,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 16558,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 16683,
+      "modelId": 4887,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GG)",
+      "typeEngineName": "2.0 DI (GG14)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 16687,
+      "modelId": 4886,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GG)",
+      "typeEngineName": "2.0 DI (GG14)",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 16844,
+      "modelId": 4887,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GG)",
+      "typeEngineName": "2.0 DI (GG14)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 16864,
+      "modelId": 4888,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Station Wagon (GY)",
+      "typeEngineName": "2.0 DI (GY19)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 16865,
+      "modelId": 4886,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GG)",
+      "typeEngineName": "2.0 DI (GG14)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 17218,
+      "modelId": 4975,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Saloon (_T25_)",
+      "typeEngineName": "2.0 D-4D (CDT250_, CDT250R)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17221,
+      "modelId": 4976,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS Estate (_T25_)",
+      "typeEngineName": "2.0 D-4D (CDT250_, CDT250R)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17347,
+      "modelId": 5002,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVENSIS (_T25_)",
+      "typeEngineName": "2.0 D-4D (CDT250_, CDT250R)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17230,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D-4D (KDJ120, KDJ125)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 17257,
+      "modelId": 4981,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER III (_N18_)",
+      "typeEngineName": "3.0 TD (KZN185)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2002-11-01"
+    },
+    {
+      "vehicleId": 18041,
+      "modelId": 5127,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Verso (ZER_, ZZE12_, R1_)",
+      "typeEngineName": "2.0 D-4D (CUR10_, CUR10R)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 18328,
+      "modelId": 3387,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Wagon (YM2_, CM2_, KM2_)",
+      "typeEngineName": "1.8 D (CM20_, CM20R)",
+      "constructionIntervalStart": "1982-10-01",
+      "constructionIntervalEnd": "1985-09-01"
+    },
+    {
+      "vehicleId": 23536,
+      "modelId": 222,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Van (_M2_)",
+      "typeEngineName": "1.8 D (CM20_, CM20V)",
+      "constructionIntervalStart": "1982-10-01",
+      "constructionIntervalEnd": "1985-09-01"
+    },
+    {
+      "vehicleId": 18545,
+      "modelId": 5410,
+      "manufacturerName": "MAZDA",
+      "modelName": "5 (CR)",
+      "typeEngineName": "2.0 CD (CR19)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 18554,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.4 D 4WD (LH108, LH118)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1999-07-01"
+    },
+    {
+      "vehicleId": 18685,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D-4D (KDJ120, KDJ125)",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 128209,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.2 TDi (HDJ101_, HDJ101K)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 19365,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 20203,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.5 D 4x4 (PZJ75, PZJ70)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 20458,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "3.0 D (LH174)",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 20690,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "3.0 D (LH162, LH172, LH182)",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 26046,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "4.2 D (HZB50, HZB56V, HZB46V)",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 27497,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.8 D (LH105, LH103, LH113)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 20843,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "2.0 D-4D (CDE120_, CDE120R)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 20919,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "2.5 D4d (KDY220_, KDY230_)",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20920,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "2.5 D4d (KDY230, KDY250, KDY220)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20921,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (LY220, LY230)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150713,
+      "modelId": 11304,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 150 Platform/Chassis (_U3_, _U4_)",
+      "typeEngineName": "4-093",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20922,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "4.6 D4d (XZU307, XZU312, XZU322, XZU337, XZU342, XZU347,...",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 21148,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21157,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 22559,
+      "modelId": 6246,
+      "manufacturerName": "MAZDA",
+      "modelName": "BT-50 Pickup (CD, UN)",
+      "typeEngineName": "2.5 MRZ-CD 4x4 (UNY0W3)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 122397,
+      "modelId": 6246,
+      "manufacturerName": "MAZDA",
+      "modelName": "BT-50 Pickup (CD, UN)",
+      "typeEngineName": "2.5 MRZ-CD (UNY0W3)",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 22697,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D-4D (KDJ120, KDJ125, KDJ121)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 23008,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.0 TD (KZJ90, KZJ95)",
+      "constructionIntervalStart": "1995-04-01",
+      "constructionIntervalEnd": "2000-07-01"
+    },
+    {
+      "vehicleId": 23567,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.8 D 4WD (LN107)",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 26881,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.8 D 4WD (LN166)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 23691,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 23692,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D 4WD",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 24306,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.8 D (LN81)",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1998-08-01"
+    },
+    {
+      "vehicleId": 25460,
+      "modelId": 6987,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GH)",
+      "typeEngineName": "2.0 MZR-CD (GH14)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 26045,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "3.7 D (BB42)",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 26057,
+      "modelId": 7182,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CORSA Hatchback (_L5_)",
+      "typeEngineName": "1.5 D (NL50)",
+      "constructionIntervalStart": "1994-11-01",
+      "constructionIntervalEnd": "1999-09-01"
+    },
+    {
+      "vehicleId": 26139,
+      "modelId": 7219,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX II SUV (_N13_)",
+      "typeEngineName": "2.4 TD 4WD (LN130)",
+      "constructionIntervalStart": "1989-04-01",
+      "constructionIntervalEnd": "1998-11-01"
+    },
+    {
+      "vehicleId": 26141,
+      "modelId": 7219,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX II SUV (_N13_)",
+      "typeEngineName": "3.0 TDiC 4WD (KZN130G, KZN130W)",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 26200,
+      "modelId": 7238,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II Estate (_X1_, _V2_)",
+      "typeEngineName": "2.4 TD (LX76)",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 26208,
+      "modelId": 7241,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 250 Platform/Chassis",
+      "typeEngineName": "3.7 D (BU211, BU221)",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 26494,
+      "modelId": 6304,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 200 Platform/Chassis",
+      "typeEngineName": "3.7 D (BU101, BU141, BU211, BU221)",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 26239,
+      "modelId": 7254,
+      "manufacturerName": "TOYOTA",
+      "modelName": "GRANVIA (_H2_, _H1_)",
+      "typeEngineName": "3.0 TDi (KCH10)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 26586,
+      "modelId": 5062,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BK)",
+      "typeEngineName": "2.0 MZR-CD (BK14)",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 26587,
+      "modelId": 5063,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BK)",
+      "typeEngineName": "2.0 MZR-CD (BK12)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 27094,
+      "modelId": 383,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER II (_N13_)",
+      "typeEngineName": "2.8 D 4WD (KDN170)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 119304,
+      "modelId": 383,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER II (_N13_)",
+      "typeEngineName": "2.8 D (LN130)",
+      "constructionIntervalStart": "1989-07-01",
+      "constructionIntervalEnd": "1996-03-01"
+    },
+    {
+      "vehicleId": 27279,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH28, KLH18)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33641,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH18)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27415,
+      "modelId": 7253,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 200 Platform/Chassis",
+      "typeEngineName": "3.0 D (BU6_, BU76, BU84)",
+      "constructionIntervalStart": "1985-01-01",
+      "constructionIntervalEnd": "1995-05-01"
+    },
+    {
+      "vehicleId": 28152,
+      "modelId": 7571,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GH)",
+      "typeEngineName": "2.0 MZR-CD (GH14)",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 29521,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 D 4WD (LN167, LN172)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 58474,
+      "modelId": 90089,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Platform/Chassis (_N1_)",
+      "typeEngineName": "3.0 D 4WD (LN167, LN172)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 29569,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 D 4WD",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 30322,
+      "modelId": 6246,
+      "manufacturerName": "MAZDA",
+      "modelName": "BT-50 Pickup (CD, UN)",
+      "typeEngineName": "3.0 CDVi (UNY0E3)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33468,
+      "modelId": 8639,
+      "manufacturerName": "MAZDA",
+      "modelName": "BT-50 Platform/Chassis (CD, UN)",
+      "typeEngineName": "3.0 CDVi (UNY0E3)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30323,
+      "modelId": 6246,
+      "manufacturerName": "MAZDA",
+      "modelName": "BT-50 Pickup (CD, UN)",
+      "typeEngineName": "3.0 CDVi 4x4 (UNY0E3)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 30435,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.0 D AWD (BPD)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30719,
+      "modelId": 5059,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BL, BP)",
+      "typeEngineName": "2.0 D AWD (BPD)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2009-09-01"
+    },
+    {
+      "vehicleId": 30819,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.0 D AWD (BLD)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30815,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.0 D AWD (SHH, SHD, SHN)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 30888,
+      "modelId": 6987,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30893,
+      "modelId": 6986,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30894,
+      "modelId": 7571,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 30890,
+      "modelId": 6987,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30891,
+      "modelId": 6986,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Hatchback (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30896,
+      "modelId": 7571,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GH)",
+      "typeEngineName": "2.2 MZR-CD (GH10)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 30897,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.0 D AWD",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 32121,
+      "modelId": 8278,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BR)",
+      "typeEngineName": "2.0 D AWD (BRD)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32126,
+      "modelId": 8279,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V (BM)",
+      "typeEngineName": "2.0 D AWD (BMD)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32127,
+      "modelId": 8280,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V Estate (BR)",
+      "typeEngineName": "2.0 D AWD (BRD)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32317,
+      "modelId": 8359,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PH)",
+      "typeEngineName": "2.5 TD All-wheel Drive",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 32467,
+      "modelId": 8398,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Platform/Chassis (PH)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 32318,
+      "modelId": 8359,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PH)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 32466,
+      "modelId": 8398,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Platform/Chassis (PH)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 32327,
+      "modelId": 8361,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PG)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 32331,
+      "modelId": 8362,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Pickup (PE)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2002-11-01"
+    },
+    {
+      "vehicleId": 32455,
+      "modelId": 8395,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "COURIER Platform/Chassis (PE)",
+      "typeEngineName": "2.5 TD 4x4",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2002-11-01"
+    },
+    {
+      "vehicleId": 33130,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33209,
+      "modelId": 6248,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO IV (V8_W, V9_W)",
+      "typeEngineName": "3.2 DI-D 4WD (V98W, V88W)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33443,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.2 MZR CD (BL10)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 33444,
+      "modelId": 8037,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BL)",
+      "typeEngineName": "2.2 MZR CD (BL10)",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 33467,
+      "modelId": 8639,
+      "manufacturerName": "MAZDA",
+      "modelName": "BT-50 Platform/Chassis (CD, UN)",
+      "typeEngineName": "2.5 CDVi (UNY0W3)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33574,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "3.0 D-4D (KDJ150_, KDJ150, KDJ155)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34677,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.2 TD 24V 4x4 (HDJ78, HDJ78R)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 34678,
+      "modelId": 8912,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pick-up (_J7_, _JL7_)",
+      "typeEngineName": "4.2 TD 24V 4x4 (HDJ79R)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2007-01-01"
+    },
+    {
+      "vehicleId": 34680,
+      "modelId": 8912,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pick-up (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D 4x4 (HZJ7__V, HZJ75RP, HZJ79R)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 34690,
+      "modelId": 8914,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER I (_N5_, _N6_, _N7_)",
+      "typeEngineName": "2.8 D (LN61)",
+      "constructionIntervalStart": "1988-05-01",
+      "constructionIntervalEnd": "1989-10-01"
+    },
+    {
+      "vehicleId": 34710,
+      "modelId": 8700,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE / COMMUTER V Bus (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D (KDH222, KDH202, KDH212)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 55605,
+      "modelId": 10462,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (LH8_)",
+      "typeEngineName": "2.4 D (LH80_, LY50_, LY60_)",
+      "constructionIntervalStart": "1985-08-01",
+      "constructionIntervalEnd": "1995-05-01"
+    },
+    {
+      "vehicleId": 55852,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "3.0 TD 4WD (KZN130_, KZN130G, KZN130W)",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 55974,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D 4x4 (HZJ74, HZJ78, HZJ75)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 56159,
+      "modelId": 9028,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ET)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 57150,
+      "modelId": 7219,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX II SUV (_N13_)",
+      "typeEngineName": "2.4 TD 4WD (LN130_)",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 58472,
+      "modelId": 6943,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX Platform/Chassis (LN_, _N1_)",
+      "typeEngineName": "3.0 D 4WD (KZN165R)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 59005,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "4.2 D",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59447,
+      "modelId": 6290,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CRESSIDA Saloon (_X7_)",
+      "typeEngineName": "2.4 TD (LX71)",
+      "constructionIntervalStart": "1985-01-01",
+      "constructionIntervalEnd": "1988-10-01"
+    },
+    {
+      "vehicleId": 100234,
+      "modelId": 3437,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA I (_R1_, _R2_)",
+      "typeEngineName": "2.2 TD (CXR10, CXR11)",
+      "constructionIntervalStart": "1990-05-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 109677,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D 4WD (KG4W)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111890,
+      "modelId": 10888,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GJ, GL)",
+      "typeEngineName": "2.2 D AWD",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 111904,
+      "modelId": 10207,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-5 (KE, GH)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 116196,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 16V 4WD",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 119316,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 D 4WD",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 119319,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 TD 4WD",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 121938,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "4.2 D (HZB50_, HZB50)",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124087,
+      "modelId": 6682,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VISTA / CAMRY Saloon (_V3_, _V4_)",
+      "typeEngineName": "2.0 TD (CV30_, CV30)",
+      "constructionIntervalStart": "1990-07-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 124873,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "3.0 D (LJ150_)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126659,
+      "modelId": 10558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON Platform/Chassis (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D (KA4T)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 126678,
+      "modelId": 5524,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KA_T, KB_T)",
+      "typeEngineName": "2.5 DI-D 4WD (KB4T)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 127891,
+      "modelId": 37286,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX IV Pickup (_N5_, _N6_)",
+      "typeEngineName": "2.4 D (LN51, LN56)",
+      "constructionIntervalStart": "1984-09-01",
+      "constructionIntervalEnd": "1988-07-01"
+    },
+    {
+      "vehicleId": 128635,
+      "modelId": 37286,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX IV Pickup (_N5_, _N6_)",
+      "typeEngineName": "2.4 D (LN51_, LN60, LN56)",
+      "constructionIntervalStart": "1984-01-01",
+      "constructionIntervalEnd": "1988-07-01"
+    },
+    {
+      "vehicleId": 128248,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "3.0 TD 4WD (KZH106, KZH116, KZH126)",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 128250,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "3.0 TD (KZH100, KZH110, KZH120, KCH40G)",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 133984,
+      "modelId": 10884,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GJ, GL)",
+      "typeEngineName": "2.2 D (GJ2FP, GL1022)",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136821,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.0 TD (KZJ95)",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2003-02-01"
+    },
+    {
+      "vehicleId": 144634,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.8 4x4 (LN107)",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 145519,
+      "modelId": 8912,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pick-up (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D MINE SPEC 4x4 (HZJ79L-TJM)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155928,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "3.2 DI-D 4WD (KH8W)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27441,
+      "modelId": 7491,
+      "manufacturerName": "DAIHATSU",
+      "modelName": "DELTA WIDE Platform/Chassis (YB_, V5_, V7_, V9_, V11_)",
+      "typeEngineName": "2.2 TD (CB22)",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1999-09-01"
+    },
+    {
+      "vehicleId": 26882,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 D 4WD",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 12245,
+      "modelId": 4200,
+      "manufacturerName": "MAZDA",
+      "modelName": "B-SERIE (UN)",
+      "typeEngineName": "2.5 TD 4WD",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 111366,
+      "modelId": 10888,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Estate (GJ, GL)",
+      "typeEngineName": "2.2 D AWD",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29520,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 D (LN147, LN152)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 57598,
+      "modelId": 10884,
+      "manufacturerName": "MAZDA",
+      "modelName": "6 Saloon (GJ, GL)",
+      "typeEngineName": "2.2 D (GJ2FP, GJ1021, GJ1022, GL1021)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125916,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 D 4WD",
+      "constructionIntervalStart": "1997-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 34566,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 D (LN147, LN192, LN152)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 26989,
+      "modelId": 4509,
+      "manufacturerName": "FORD",
+      "modelName": "RANGER (ER, EQ, R_)",
+      "typeEngineName": "2.9 D",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 33508,
+      "modelId": 8648,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT II (KH_, KG_)",
+      "typeEngineName": "2.5 DI-D 4WD (KH4W)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118543,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5 D (BMLFP, BMLFS)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 16380,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "2.0 D-4D (CDE120_, CDE120R)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2007-02-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "86,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "137"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Outer Diameter 1 [mm]",
+      "criteriaValue": "93"
+    },
+    {
+      "criteriaName": "Outer Diameter 2 [mm]",
+      "criteriaValue": "51"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "62,5"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "56"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "23303 56040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "23303 64010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "23303 64020"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "23303-64010-000"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "23390 30180"
+    }
+  ],
+  "ean": "4047024196223\n4047025604215",
+  "originalSKU": "2330364020",
+  "fetchedAt": "2026-03-17T16:02:28Z",
+  "enrichedVia": "OEM (2330364020)"
+}

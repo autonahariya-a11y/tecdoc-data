@@ -1,0 +1,58 @@
+{
+  "articleNo": "F 026 400 723",
+  "articleId": 6926514,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 133475,
+      "modelId": 39057,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (A6G)",
+      "typeEngineName": "1.5 AllGrip (JB74W, JB74V, A6G415)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157534,
+      "modelId": 39057,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (A6G)",
+      "typeEngineName": "1.5 XL AllGrip (JC74W)",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "249"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "30,5"
+    },
+    {
+      "criteriaName": "Length 1 [mm]",
+      "criteriaValue": "214"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780 78R00 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "13780-78R00"
+    }
+  ],
+  "ean": "4047026612608",
+  "originalSKU": "1378078R00",
+  "fetchedAt": "2026-03-17T15:34:07Z",
+  "enrichedVia": "OEM (1378078R00)"
+}

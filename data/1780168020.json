@@ -1,0 +1,730 @@
+{
+  "articleNo": "LX 1140",
+  "articleId": 7963269,
+  "supplier": "KNECHT",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 837,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "4.0 V6 VVT-i (GRJ150_, GRJ125_, GRJ150)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3595,
+      "modelId": 222,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Van (_M2_)",
+      "typeEngineName": "1.3 (KM20)",
+      "constructionIntervalStart": "1979-10-01",
+      "constructionIntervalEnd": "1986-10-01"
+    },
+    {
+      "vehicleId": 3597,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 TD (HDJ80, HDJ81)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 3604,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.0 TD (KZJ70_, KZJ73_, KZJ77_, KZJ78, KZJ71)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "1996-05-01"
+    },
+    {
+      "vehicleId": 3605,
+      "modelId": 3582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Hardtop (_J7_)",
+      "typeEngineName": "3.0 TD (KZJ70_, KZJ70R)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "1996-05-01"
+    },
+    {
+      "vehicleId": 3606,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 Diesel (HJ60)",
+      "constructionIntervalStart": "1982-01-01",
+      "constructionIntervalEnd": "1985-12-01"
+    },
+    {
+      "vehicleId": 3607,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 Diesel (HJ60)",
+      "constructionIntervalStart": "1982-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 3608,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 Turbo-D (HJ61_V, HJ61)",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4777,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 TD 24V (HDJ80_, HDJ80, HDJ81V)",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4778,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.5 24V (FZJ80_)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4812,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 TD (HDJ80)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 5697,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.0 TD (KZJ90_, KZJ95_, KZJ90R, KZJ95R, KZJ90W, KZJ95W)",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 6765,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.2 (FJ60_V, FJ55_)",
+      "constructionIntervalStart": "1981-10-01",
+      "constructionIntervalEnd": "1988-01-01"
+    },
+    {
+      "vehicleId": 6766,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 D (HJ60_)",
+      "constructionIntervalStart": "1981-10-01",
+      "constructionIntervalEnd": "1988-01-01"
+    },
+    {
+      "vehicleId": 6767,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.4 D (BJ70, BJ73, BJ75)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 9281,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 (FJ62_G, FJ62RG)",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 9282,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.0 (FJ80_, FJ80R, FJ80G)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1992-10-01"
+    },
+    {
+      "vehicleId": 9560,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.2 TD (HDJ100_, HDJ100)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 10664,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY221, KDY231, KDY251, KDY261)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12254,
+      "modelId": 8912,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pick-up (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D 4x4",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 13887,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY221, KDY231)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15738,
+      "modelId": 37988,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Softtop (_J4_)",
+      "typeEngineName": "3.9 (FJ45_P, FJ45)",
+      "constructionIntervalStart": "1969-03-01",
+      "constructionIntervalEnd": "1975-01-01"
+    },
+    {
+      "vehicleId": 15740,
+      "modelId": 4756,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pickup (_J4_)",
+      "typeEngineName": "3.6 D (HJ45_P)",
+      "constructionIntervalStart": "1975-01-01",
+      "constructionIntervalEnd": "1980-07-01"
+    },
+    {
+      "vehicleId": 15741,
+      "modelId": 4756,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pickup (_J4_)",
+      "typeEngineName": "4.0 D (HJ47_P, HJ47RP)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15742,
+      "modelId": 4756,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pickup (_J4_)",
+      "typeEngineName": "3.4 D (BJ45_P, BJ45RP)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15743,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "3.9 (FJ40_, FJ43_, FJ45_, FJ55_V)",
+      "constructionIntervalStart": "1969-03-01",
+      "constructionIntervalEnd": "1975-01-01"
+    },
+    {
+      "vehicleId": 15745,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "3.6 D (HJ45_V)",
+      "constructionIntervalStart": "1979-04-01",
+      "constructionIntervalEnd": "1980-07-01"
+    },
+    {
+      "vehicleId": 15746,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "4.0 D (HJ47_V)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15747,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "3.0 D 4WD (BJ42, BJ40RV)",
+      "constructionIntervalStart": "1969-03-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15748,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "3.4 D (BJ42_V, BJ45_V, BJ46_, BJ42RV, BJ45RV)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1984-10-01"
+    },
+    {
+      "vehicleId": 15749,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "3.4 Diesel (BJ60, BJ61)",
+      "constructionIntervalStart": "1981-10-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 15750,
+      "modelId": 3985,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J6_)",
+      "typeEngineName": "4.0 (FJ62_V)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 15751,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.4 TD (BJ71_V, BJ74)",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 15752,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D (HZJ76, HZJ78, HZJ70, HZJ73, HZJ75, HZJ79, HZJ77,...",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15753,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.2 D (HZJ80, HZJ81)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 18327,
+      "modelId": 3387,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LITEACE Wagon (YM2_, CM2_, KM2_)",
+      "typeEngineName": "1.3 (KM20_, KM20R)",
+      "constructionIntervalStart": "1979-10-01",
+      "constructionIntervalEnd": "1985-09-01"
+    },
+    {
+      "vehicleId": 18853,
+      "modelId": 5444,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (_U_, _Y_)",
+      "typeEngineName": "3.4 D (BU85, BU82, BU62_)",
+      "constructionIntervalStart": "1984-09-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 18855,
+      "modelId": 5445,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Bus (_U3_, _U2_)",
+      "typeEngineName": "3.4 D (BU82_, BU82R)",
+      "constructionIntervalStart": "1977-08-01",
+      "constructionIntervalEnd": "1987-08-01"
+    },
+    {
+      "vehicleId": 20194,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "3.5 D",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 20203,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "3.5 D 4x4 (PZJ75, PZJ70)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 20323,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.7 EFI (RZN154, RZN149)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 20477,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "4.2 D",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 20919,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "2.5 D4d (KDY220_, KDY230_)",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20920,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "2.5 D4d (KDY230, KDY250, KDY220)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23008,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.0 TD (KZJ90, KZJ95)",
+      "constructionIntervalStart": "1995-04-01",
+      "constructionIntervalEnd": "2000-07-01"
+    },
+    {
+      "vehicleId": 26042,
+      "modelId": 7174,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B2_, _B3_)",
+      "typeEngineName": "4.2 D (HZB30, HZB31, HZB36)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1993-01-01"
+    },
+    {
+      "vehicleId": 26043,
+      "modelId": 7174,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B2_, _B3_)",
+      "typeEngineName": "4.2 D (HZB30_, HZB36_, HZB31_, HZB30R, HZB31R, HZB36R)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1993-01-01"
+    },
+    {
+      "vehicleId": 26046,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "4.2 D (HZB50, HZB56V, HZB46V)",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 27381,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.0 D 4x4 (HJ75RV)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1990-01-01"
+    },
+    {
+      "vehicleId": 28514,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY261_, KDY251_, KDY231_, KDY221_, KDY221R,...",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28776,
+      "modelId": 3582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Hardtop (_J7_)",
+      "typeEngineName": "4.2 D (HZJ70, HZJ73)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 29515,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.7 EFI 4WD (RZN174, RZN169)",
+      "constructionIntervalStart": "1997-11-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 29522,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 TD 4WD (KZN165)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 34680,
+      "modelId": 8912,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pick-up (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D 4x4 (HZJ7__V, HZJ75RP, HZJ79R)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 34682,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.2 D (HZJ105)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 34687,
+      "modelId": 8912,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pick-up (_J7_, _JL7_)",
+      "typeEngineName": "4.5 MPFi 4x4 (FZJ79, FZJ79R)",
+      "constructionIntervalStart": "1990-11-01",
+      "constructionIntervalEnd": "2007-11-01"
+    },
+    {
+      "vehicleId": 34688,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.5 4x4 (FZJ75, FZJ75RV)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1999-11-01"
+    },
+    {
+      "vehicleId": 34689,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.5 MPFi 4x4 (FZJ78, FZJ70, FZJ78R, FZJ79)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 55847,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.5 i (FZJ105_)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 55960,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.5 (FZJ100, FZJ105)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 55973,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.0 D-4D (KDJ90, KDJ95, KZJ9_, LJ9_, RZJ9_, VZJ9_)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 55974,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.2 D 4x4 (HZJ74, HZJ78, HZJ75)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 59005,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "4.2 D",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121938,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "4.2 D (HZB50_, HZB50)",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131823,
+      "modelId": 3582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Hardtop (_J7_)",
+      "typeEngineName": "3.5 D 4x4 (PZJ75_)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 131900,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "4.2 (FJ40, FJ45, FJ55, FJ40V, FJ45V, FJ55V)",
+      "constructionIntervalStart": "1975-01-01",
+      "constructionIntervalEnd": "1982-11-01"
+    },
+    {
+      "vehicleId": 143328,
+      "modelId": 37988,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Softtop (_J4_)",
+      "typeEngineName": "3.4 4WD (BJ42, BJ45, BJ46)",
+      "constructionIntervalStart": "1980-08-01",
+      "constructionIntervalEnd": "1983-10-01"
+    },
+    {
+      "vehicleId": 143331,
+      "modelId": 37988,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Softtop (_J4_)",
+      "typeEngineName": "4.2 4WD (FJ40, FJ45, BS46)",
+      "constructionIntervalStart": "1972-11-01",
+      "constructionIntervalEnd": "1983-10-01"
+    },
+    {
+      "vehicleId": 15739,
+      "modelId": 4756,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pickup (_J4_)",
+      "typeEngineName": "4.2 (FJ45_P)",
+      "constructionIntervalStart": "1975-01-01",
+      "constructionIntervalEnd": "1986-04-01"
+    },
+    {
+      "vehicleId": 15744,
+      "modelId": 4755,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J4_, _J5_)",
+      "typeEngineName": "4.2 (FJ40, FJ43, FJ45, FJ55)",
+      "constructionIntervalStart": "1975-01-01",
+      "constructionIntervalEnd": "1986-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "145,0"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "220,0"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "109"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "22,5"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "22,50"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "15,00"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "655"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1770067140"
+    },
+    {
+      "oemBrand": "HINO",
+      "oemDisplayNo": "178011131"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780160040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780160050"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780161020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780161030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780166010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780166020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780166030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780166040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780167070"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780168020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1780168030"
+    }
+  ],
+  "ean": "4009026304570",
+  "originalSKU": "1780168020",
+  "fetchedAt": "2026-03-17T15:52:21Z",
+  "enrichedVia": "OEM (1780168020)"
+}

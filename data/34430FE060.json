@@ -1,0 +1,98 @@
+{
+  "articleNo": "52665",
+  "articleId": 3707947,
+  "supplier": "SPIDAN",
+  "product": "Hydraulic Pump, steering",
+  "vehicles": [
+    {
+      "vehicleId": 15432,
+      "modelId": 4719,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GD)",
+      "typeEngineName": "1.6 AWD (GD5)",
+      "constructionIntervalStart": "2000-12-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 15433,
+      "modelId": 4720,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Estate (GG)",
+      "typeEngineName": "1.6 AWD",
+      "constructionIntervalStart": "2000-12-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 19880,
+      "modelId": 4719,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GD)",
+      "typeEngineName": "1.5 AWD (GD3)",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 19882,
+      "modelId": 4720,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Estate (GG)",
+      "typeEngineName": "1.5 AWD (GG3)",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 24619,
+      "modelId": 4719,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GD)",
+      "typeEngineName": "1.5 (GDC)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 24620,
+      "modelId": 4719,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GD)",
+      "typeEngineName": "1.5 AWD (GDD)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-03-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Operating Mode",
+      "criteriaValue": "HY"
+    },
+    {
+      "criteriaName": "Number of ribs",
+      "criteriaValue": "5"
+    },
+    {
+      "criteriaName": "Belt Pulley \u00d8 [mm]",
+      "criteriaValue": "107"
+    },
+    {
+      "criteriaName": "Exchange Part",
+      "criteriaValue": ""
+    },
+    {
+      "criteriaName": "Observe service information",
+      "criteriaValue": ""
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "34430-FE060"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "34430FE0619L"
+    }
+  ],
+  "ean": "4019064096610",
+  "originalSKU": "34430FE060",
+  "fetchedAt": "2026-03-17T16:11:38Z",
+  "enrichedVia": "OEM (34430FE060)"
+}

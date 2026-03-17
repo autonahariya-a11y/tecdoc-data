@@ -1,0 +1,342 @@
+{
+  "articleNo": "JTS550",
+  "articleId": 7704217,
+  "supplier": "TRW",
+  "product": "Link/Coupling Rod, stabiliser bar",
+  "vehicles": [
+    {
+      "vehicleId": 8477,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "3.5 V6 (BT0C, BT0P)",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 8478,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "3.5 V6 (KT0C, KT0P)",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 16123,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "3.0 dCi",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23369,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 16V (BT05, BT0F, BT0W)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23370,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 16V Turbo",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23371,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "1.5 dCi (BT00, BT0A, BT0T, BT1J)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23372,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 dCi (BT07, BT0J, BT14, BT1A, BT1S)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23373,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 dCi (BT01, BT08, BT09, BT0E, BT0K, BT12, BT1C, BT1D,...",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23374,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "2.0 16V (KT0F, KT0W)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23375,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "2.0 16V Turbo",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23376,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "1.5 dCi (KT0A, KT0R, KT02)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23377,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "2.0 dCi (KT07, KT0J, KT14, KT1A, KT1S)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23378,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "2.0 dCi (KT01, KT08, KT09, KT0K, KT12, KT1D, KT1W)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 26648,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 GT",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 26649,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 dCi GT (BT11, BT1E, BT1N)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 26650,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "2.0 GT",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 26651,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "2.0 dCi GT (KT11, KT1E, KT1N)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 27531,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 dCi (BT0M, BT0N, BT0S, BT19, BT1F)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 27532,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "2.0 dCi (KT0M, KT0N, KT0S, KT19, KT1F)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 27533,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "3.0 dCi (DT03)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 27534,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "2.0 16V Turbo",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 27535,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "2.0 dCi (DT0M, DT0N, DT0S, DT19, DT1F)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 27550,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "3.5 V6 (DT0P)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 29964,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "2.0 GT",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 29965,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "2.0 dCi (DT01, DT08, DT09, DT0K, DT12, DT1C, DT1D, DT1M,...",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 29966,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "2.0 dCi GT (DT11, DT1E, DT1N)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31198,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "1.6 16V (BT04, BT0D, BT0U)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31528,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "3.0 dCi (BT03, BT13)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31529,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "1.6 16V (KT0D)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31530,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "3.0 dCi (KT03, KT13)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 34750,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "2.0 16V Hi-Flex (KT1H, KT1G, KT1K)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 34751,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "2.0 16V Hi-Flex (BT1H, BT1G, BT1K)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59353,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 126407,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "3.5 V6 (DT0P, DT0C)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VL"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "VR"
+    },
+    {
+      "criteriaName": "Rod/Strut",
+      "criteriaValue": "5"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "0"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "54 61 800 01R"
+    }
+  ],
+  "ean": "3322937884650",
+  "originalSKU": "546180001R",
+  "fetchedAt": "2026-03-17T16:46:45Z",
+  "enrichedVia": "OEM (546180001R)"
+}

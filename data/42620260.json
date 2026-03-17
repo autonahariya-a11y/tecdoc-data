@@ -1,0 +1,85 @@
+{
+  "articleNo": "2140350",
+  "articleId": 1973664,
+  "supplier": "METZGER AUTOTEILE",
+  "product": "Expansion Tank, coolant",
+  "vehicles": [
+    {
+      "vehicleId": 33016,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33017,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55440,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55442,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108085,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "896"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "288"
+    },
+    {
+      "criteriaName": "Outlet \u00d8 [mm]",
+      "criteriaValue": "14"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "42620260"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "42657459"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "95352004"
+    }
+  ],
+  "ean": "4062101116154",
+  "originalSKU": "42620260",
+  "fetchedAt": "2026-03-17T16:14:57Z",
+  "enrichedVia": "OEM (42620260)"
+}

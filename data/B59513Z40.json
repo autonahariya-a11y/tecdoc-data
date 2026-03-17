@@ -1,0 +1,385 @@
+{
+  "articleNo": "C 2564",
+  "articleId": 6160031,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 4059,
+      "modelId": 365,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S V (BA)",
+      "typeEngineName": "1.3 16V",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 4060,
+      "modelId": 311,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 C V (BA)",
+      "typeEngineName": "1.3 16V",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 4061,
+      "modelId": 365,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S V (BA)",
+      "typeEngineName": "1.5 16V (BA11)",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 4062,
+      "modelId": 311,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 C V (BA)",
+      "typeEngineName": "1.5 16V (BA11)",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 4064,
+      "modelId": 315,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 F V (BA)",
+      "typeEngineName": "1.5 16V (BA11)",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 4067,
+      "modelId": 365,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S V (BA)",
+      "typeEngineName": "1.8 16V (BA11)",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 4068,
+      "modelId": 311,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 C V (BA)",
+      "typeEngineName": "1.8 16V (BA8P)",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 4069,
+      "modelId": 315,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 F V (BA)",
+      "typeEngineName": "1.8 16V (BA8P)",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 8035,
+      "modelId": 3855,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 P V (BA)",
+      "typeEngineName": "1.3 16V",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 8036,
+      "modelId": 3855,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 P V (BA)",
+      "typeEngineName": "1.5 16V",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 9906,
+      "modelId": 3852,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S VI Saloon (BJ)",
+      "typeEngineName": "1.5 16V (BJ5P)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2001-01-01"
+    },
+    {
+      "vehicleId": 9908,
+      "modelId": 3853,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 F VI Hatchback (BJ)",
+      "typeEngineName": "1.5 16V (BJ5W)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2001-01-01"
+    },
+    {
+      "vehicleId": 9909,
+      "modelId": 3853,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 F VI Hatchback (BJ)",
+      "typeEngineName": "1.9 16V (BJ14)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2001-01-01"
+    },
+    {
+      "vehicleId": 10162,
+      "modelId": 3852,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S VI Saloon (BJ)",
+      "typeEngineName": "1.9 16V (BJ10M)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 12643,
+      "modelId": 4233,
+      "manufacturerName": "MAZDA",
+      "modelName": "PREMACY (CP)",
+      "typeEngineName": "1.9 (CP8W)",
+      "constructionIntervalStart": "1999-07-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 12644,
+      "modelId": 4233,
+      "manufacturerName": "MAZDA",
+      "modelName": "PREMACY (CP)",
+      "typeEngineName": "1.9 (CP10P)",
+      "constructionIntervalStart": "1999-07-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 15790,
+      "modelId": 3853,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 F VI Hatchback (BJ)",
+      "typeEngineName": "1.6 (BJ10M)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 15791,
+      "modelId": 3853,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 F VI Hatchback (BJ)",
+      "typeEngineName": "1.6 (BJ10M)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 15792,
+      "modelId": 3853,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 F VI Hatchback (BJ)",
+      "typeEngineName": "2.0 (BJFW)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 15795,
+      "modelId": 3852,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S VI Saloon (BJ)",
+      "typeEngineName": "1.6 (BJ12)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 15796,
+      "modelId": 3852,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S VI Saloon (BJ)",
+      "typeEngineName": "1.6 (BJ10M)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 16507,
+      "modelId": 4233,
+      "manufacturerName": "MAZDA",
+      "modelName": "PREMACY (CP)",
+      "typeEngineName": "2.0 (CP10S)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 18723,
+      "modelId": 3852,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S VI Saloon (BJ)",
+      "typeEngineName": "2.0 (BJFP)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 21503,
+      "modelId": 3852,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S VI Saloon (BJ)",
+      "typeEngineName": "1.5 (BJ5P)",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 29499,
+      "modelId": 365,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S V (BA)",
+      "typeEngineName": "1.6 (BA11)",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 29554,
+      "modelId": 3852,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S VI Saloon (BJ)",
+      "typeEngineName": "1.6 (BJ10M)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 32594,
+      "modelId": 8446,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "LASER Hatchback (KJ, KL)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1999-03-01"
+    },
+    {
+      "vehicleId": 32597,
+      "modelId": 8447,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "LASER Saloon (KJ, KL)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1999-03-01"
+    },
+    {
+      "vehicleId": 32599,
+      "modelId": 8448,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "LASER Hatchback (KN)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 32602,
+      "modelId": 8448,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "LASER Hatchback (KN)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 32608,
+      "modelId": 8451,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "LASER Hatchback (KQ, KN III)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 32614,
+      "modelId": 8452,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "LASER Saloon (KQ)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 34550,
+      "modelId": 315,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 F V (BA)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 122396,
+      "modelId": 365,
+      "manufacturerName": "MAZDA",
+      "modelName": "323 S V (BA)",
+      "typeEngineName": "1.5 16V",
+      "constructionIntervalStart": "1994-05-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 128237,
+      "modelId": 8448,
+      "manufacturerName": "FORD AUSTRALIA",
+      "modelName": "LASER Hatchback (KN)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 142702,
+      "modelId": 41608,
+      "manufacturerName": "MAZDA",
+      "modelName": "PREMACY Van (CP_)",
+      "typeEngineName": "1.8 (CP19)",
+      "constructionIntervalStart": "1999-07-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 142706,
+      "modelId": 41608,
+      "manufacturerName": "MAZDA",
+      "modelName": "PREMACY Van (CP_)",
+      "typeEngineName": "2.0 (CP19)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "245"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "158"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "40"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 595-13Z40"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 595-13Z40-9A"
+    },
+    {
+      "oemBrand": "HAIMA (ZHENGZHOU)",
+      "oemDisplayNo": "FPV4 13 Z40A"
+    },
+    {
+      "oemBrand": "HAIMA (ZHENGZHOU)",
+      "oemDisplayNo": "FPV4-13-Z40AL1"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "Z L01-13320-B"
+    }
+  ],
+  "ean": "4011558162009",
+  "originalSKU": "B59513Z40",
+  "fetchedAt": "2026-03-17T17:18:18Z",
+  "enrichedVia": "OEM (B59513Z40)"
+}

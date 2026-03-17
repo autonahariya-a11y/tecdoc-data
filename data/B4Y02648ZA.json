@@ -1,0 +1,441 @@
+{
+  "articleNo": "P 49 049",
+  "articleId": 8359944,
+  "supplier": "BREMBO",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 9587,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21156,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 106359,
+      "modelId": 12836,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "3 AXELA Saloon (BM)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106360,
+      "modelId": 12836,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "3 AXELA Saloon (BM)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106361,
+      "modelId": 12837,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "3 AXELA Hatchback (BM)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106362,
+      "modelId": 12837,
+      "manufacturerName": "MAZDA (CHANGAN)",
+      "modelName": "3 AXELA Hatchback (BM)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138321,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0 Flexfuel",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 138322,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0 Flexfuel",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 21137,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21146,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21148,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21150,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 21157,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 100861,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.5 (BM543, BN543)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 100862,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0 (BMEFS, BM547, BN547)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 100863,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0 (BMEFP, BM527, BN527)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 100864,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.5 (BM523, BN523)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108283,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5 (BM5FS)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108284,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5 4WD (BM5AS)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108285,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.2 D (BM2FS, BM542)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 108286,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5 (BM5FP, BM5FS)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108287,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5 4WD (BM5AP, BM5AS)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108288,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.2 D (BM2FP)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108289,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 108445,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 109084,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0 Hybrid (BYEFP)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111906,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.6 (BM6FJ)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111907,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111909,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 111911,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.6 (BM4, BN4)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111913,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 111915,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 118542,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "1.5 D (BMLFS, BM4, BN4)",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 118543,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "1.5 D (BMLFP, BMLFS)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 124193,
+      "modelId": 11527,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Saloon (BM_, BN_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 128885,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.2 D (BM2FS)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 128886,
+      "modelId": 11526,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 (BM, BN)",
+      "typeEngineName": "2.2 D 4WD (BM2AS)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 133058,
+      "modelId": 39001,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Hatchback Van (BM)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 133060,
+      "modelId": 39001,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Hatchback Van (BM)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 133061,
+      "modelId": 39001,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Hatchback Van (BM)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 133062,
+      "modelId": 39001,
+      "manufacturerName": "MAZDA",
+      "modelName": "3 Hatchback Van (BM)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "14"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "101"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "45"
+    },
+    {
+      "criteriaName": "Number of wear indicators [per axle]",
+      "criteriaValue": "2"
+    },
+    {
+      "criteriaName": "Wear Warning Contact",
+      "criteriaValue": "4"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "Akebono"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "450"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25878"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25879"
+    },
+    {
+      "criteriaName": "WVA Number",
+      "criteriaValue": "25880"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B4Y02648ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B4Y02648ZB"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B4Y02648ZC"
+    }
+  ],
+  "ean": "8020584112625",
+  "originalSKU": "B4Y02648ZA",
+  "fetchedAt": "2026-03-17T17:17:43Z",
+  "enrichedVia": "OEM (B4Y02648ZA)"
+}

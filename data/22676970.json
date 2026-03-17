@@ -1,0 +1,62 @@
+{
+  "articleNo": "A-4913",
+  "articleId": 5422896,
+  "supplier": "SAKURA Automotive",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 48726,
+      "modelId": 33798,
+      "manufacturerName": "SATURN",
+      "modelName": "VUE SUV",
+      "typeEngineName": "3.0 AWD",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 48728,
+      "modelId": 33798,
+      "manufacturerName": "SATURN",
+      "modelName": "VUE SUV",
+      "typeEngineName": "2.2 AWD",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2003-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "39"
+    },
+    {
+      "criteriaName": "Length 1 [mm]",
+      "criteriaValue": "280"
+    },
+    {
+      "criteriaName": "Width 1 [mm]",
+      "criteriaValue": "239"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1378078J00"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "19160306"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "22676970"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "22676970",
+  "fetchedAt": "2026-03-17T16:01:59Z",
+  "enrichedVia": "OEM (22676970)"
+}

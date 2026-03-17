@@ -1,0 +1,842 @@
+{
+  "articleNo": "CU 22 003",
+  "articleId": 6450354,
+  "supplier": "MANN-FILTER",
+  "product": "Filter, cabin air",
+  "vehicles": [
+    {
+      "vehicleId": 14885,
+      "modelId": 7598,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "35",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16998,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.0 AWD (SG5)",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16999,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.0 S Turbo AWD (SG5)",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 18429,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.5 AWD (SG9)",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 18430,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 19156,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.0 X AWD (SG5)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 19157,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.5 AWD (SG9, S11SG, S12SH)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 20863,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.5 RX Nato AWD (SG9)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 23998,
+      "modelId": 7976,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (J31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 23999,
+      "modelId": 7976,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (J31)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 24000,
+      "modelId": 7976,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "TEANA (J31)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 24311,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 25250,
+      "modelId": 6915,
+      "manufacturerName": "NISSAN",
+      "modelName": "BLUEBIRD SYLPHY I (G10, N16)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 26299,
+      "modelId": 7279,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE Coupe (V35)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 29590,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.5 AWD (SG9)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 30206,
+      "modelId": 6875,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA V (B15)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 30782,
+      "modelId": 7978,
+      "manufacturerName": "NISSAN (DFAC)",
+      "modelName": "SUNNY (N16)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 33024,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "2.5 (M35)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 33025,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "2.5 AWD (NM35)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2003-06-01"
+    },
+    {
+      "vehicleId": 33029,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "3.5 (PM35)",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 33032,
+      "modelId": 8545,
+      "manufacturerName": "NISSAN",
+      "modelName": "STAGEA (M35)",
+      "typeEngineName": "3.5 AWD (PNM35)",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 33422,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "3.5 (PJ31)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 34624,
+      "modelId": 8898,
+      "manufacturerName": "NISSAN",
+      "modelName": "SKYLINE (V35)",
+      "typeEngineName": "3.5 (PV35)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 44574,
+      "modelId": 7598,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 44575,
+      "modelId": 7598,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "3.5 X",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 47362,
+      "modelId": 6875,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA V (B15)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 51587,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "35 X",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 57190,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.5 AWD (SG9)",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 57875,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 108836,
+      "modelId": 7937,
+      "manufacturerName": "NISSAN",
+      "modelName": "SENTRA VI (B16)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 109832,
+      "modelId": 4953,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SG_)",
+      "typeEngineName": "2.5 Prodrive Performance Pack AWD",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 116870,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 122495,
+      "modelId": 35773,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 124166,
+      "modelId": 35773,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 125833,
+      "modelId": 6915,
+      "manufacturerName": "NISSAN",
+      "modelName": "BLUEBIRD SYLPHY I (G10, N16)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 134015,
+      "modelId": 7598,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "35 X",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 134024,
+      "modelId": 35773,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "3.5 X",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 138284,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 30282,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 121225,
+      "modelId": 36382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO III (Z52_)",
+      "typeEngineName": "3.5 V6",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121227,
+      "modelId": 36382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO III (Z52_)",
+      "typeEngineName": "3.5 V6 ALL MODE 4x4-i",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10309,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "2.5 dCi 4x4",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 57876,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 57877,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 122040,
+      "modelId": 36382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO III (Z52_)",
+      "typeEngineName": "3.5 V6 ALL MODE 4x4-i (Z52R)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122042,
+      "modelId": 36382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO III (Z52_)",
+      "typeEngineName": "3.5 V6",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122047,
+      "modelId": 36382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO III (Z52_)",
+      "typeEngineName": "2.5 HEV ALL MODE 4x4-i",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143184,
+      "modelId": 41725,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II VAN (Z51)",
+      "typeEngineName": "2.5 dCi 4x4",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 30281,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 59990,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 124140,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "2.5 (TZ51)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 124592,
+      "modelId": 37118,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRESAGE (U31)",
+      "typeEngineName": "2.5 (TU31)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 129481,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 33420,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 33421,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 125796,
+      "modelId": 6917,
+      "manufacturerName": "NISSAN",
+      "modelName": "CEFIRO I Saloon (A31)",
+      "typeEngineName": "2.0 (LA31, LCA31)",
+      "constructionIntervalStart": "1988-06-01",
+      "constructionIntervalEnd": "1994-09-01"
+    },
+    {
+      "vehicleId": 29985,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 55275,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 109569,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 143183,
+      "modelId": 41725,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II VAN (Z51)",
+      "typeEngineName": "3.5 CVTC 4x4",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 143185,
+      "modelId": 41726,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO III VAN (Z52_)",
+      "typeEngineName": "3.5 CVTC",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15969,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 15970,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 Di 4x4",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 17194,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 17887,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 dCi 4x4",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 19069,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 19070,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 dCi",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 21555,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 21556,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 21557,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 DCi",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 24628,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.2 DCi FWD",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 18811,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35 All-wheel Drive",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 18812,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "45 All-wheel Drive",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 21587,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 21588,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "45",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 129537,
+      "modelId": 10322,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "37 AWD",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 15571,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.5 FWD",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 20823,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 20824,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 54747,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 57656,
+      "modelId": 4784,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL I (T30)",
+      "typeEngineName": "2.5 4x4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 124382,
+      "modelId": 8623,
+      "manufacturerName": "NISSAN",
+      "modelName": "TEANA I (J31)",
+      "typeEngineName": "2.5 FOUR All-wheel Drive (TNJ31)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "425"
+    },
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "200"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "216"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "30"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "21"
+    },
+    {
+      "criteriaName": "Fitting time [min.]",
+      "criteriaValue": "20"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "27277-4M400"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "27277-4M400"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "27277-4M425"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "27277-5KS0A-S828"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "27277-9W125"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "27277-PA20A"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "272775KS0A"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "27277PA20A-A084"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "2K003-30361"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "72880-SA000"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "72880-SA0009P"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "999M1-VP001"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "999M1-VP051"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "B7200-5M000"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "B727A-79925"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "G3010-SA100"
+    }
+  ],
+  "ean": "4011558023300",
+  "originalSKU": "72880SA000",
+  "fetchedAt": "2026-03-17T16:55:39Z",
+  "enrichedVia": "OEM (72880SA000)"
+}

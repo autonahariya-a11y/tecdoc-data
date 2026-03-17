@@ -1,0 +1,5634 @@
+{
+  "articleNo": "C 30 005",
+  "articleId": 6160500,
+  "supplier": "MANN-FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 21804,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 21805,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 21897,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 23695,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 26743,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 26760,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 26762,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 26860,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 26977,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 31372,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 31377,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 31476,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 50895,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 53263,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 53312,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "1.2 TFSI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 53313,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 53360,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 53772,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 54775,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 55093,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 55094,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 55095,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 55481,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 55590,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 55591,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 55592,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 55593,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 55594,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 55597,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 55598,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 55599,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 55600,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 56145,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 56147,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 56777,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 56778,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 57430,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 57437,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 57438,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 57460,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 57461,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 57592,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 57594,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 57597,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 58759,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 58760,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 58761,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 58765,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 58766,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 58767,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 58945,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 58946,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 58948,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 59057,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59060,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59061,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59067,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 59068,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 59070,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59071,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59077,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 59078,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 59079,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 59080,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 59116,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59120,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTD",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59244,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 59246,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 59289,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 59488,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.6 TDI 4x4",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 59489,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 59490,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 59601,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 59603,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 59605,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 59606,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2016-11-01"
+    },
+    {
+      "vehicleId": 59609,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 59610,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 59611,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 59617,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 59618,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 59619,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 59621,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 59624,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 59629,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 59630,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 59631,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 59676,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TDI RS",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 59677,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TSI RS",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 59679,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TDI RS",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 59680,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TSI RS",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 100039,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 100040,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 100043,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 100044,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 100046,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 100074,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 100075,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 100629,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 100630,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 100774,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 100775,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 100776,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 100787,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 100788,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 100790,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2016-11-01"
+    },
+    {
+      "vehicleId": 100791,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2016-11-01"
+    },
+    {
+      "vehicleId": 100793,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 100798,
+      "modelId": 11878,
+      "manufacturerName": "VW",
+      "modelName": "GOLF SPORTSVAN VII (AM1, AN1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2016-11-01"
+    },
+    {
+      "vehicleId": 100799,
+      "modelId": 11878,
+      "manufacturerName": "VW",
+      "modelName": "GOLF SPORTSVAN VII (AM1, AN1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 100931,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 101002,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.6 TDI 4Drive",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 101038,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 105627,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 105628,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 105739,
+      "modelId": 11878,
+      "manufacturerName": "VW",
+      "modelName": "GOLF SPORTSVAN VII (AM1, AN1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 105740,
+      "modelId": 11878,
+      "manufacturerName": "VW",
+      "modelName": "GOLF SPORTSVAN VII (AM1, AN1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2017-11-01"
+    },
+    {
+      "vehicleId": 106221,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 106222,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 106223,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 106226,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 106229,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2017-07-01"
+    },
+    {
+      "vehicleId": 106371,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 106375,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 106376,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 106381,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 106382,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 106383,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 106416,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 106596,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106597,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106601,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106635,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 106644,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 108128,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 108249,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 108396,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108397,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108398,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108402,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "2.0 TTS quattro",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108403,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "2.0 TTS TFSI quattro",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108613,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 108615,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 108616,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 108629,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 108630,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 108631,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 108633,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.6 TDI 4Drive",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 108634,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 108635,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.8 TSI 4Drive",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 108636,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 108637,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 108643,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.6 TDI 4x4",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 108644,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 108645,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 108648,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TDI / TDI RS 4x4",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 108649,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TDI / TDI RS 4x4",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 109838,
+      "modelId": 13608,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 109839,
+      "modelId": 13608,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 109842,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 GTD",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 109843,
+      "modelId": 13608,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 110096,
+      "modelId": 13183,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A3 Limousine (85S, 85M)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 110097,
+      "modelId": 13643,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A3 Sportback (85A, 85F)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 112296,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 112297,
+      "modelId": 13608,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VII Variant (BA5, BV5)",
+      "typeEngineName": "1.8 TSI 4motion",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 112383,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 112384,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 112385,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 112386,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 112387,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 112388,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 112394,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 112397,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 112399,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 113150,
+      "modelId": 14158,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (5T1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 113151,
+      "modelId": 14158,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (5T1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113308,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 113310,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 113313,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 113320,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 115102,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 115103,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 115104,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "1.6 TDI quattro",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 115105,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "1.6 TDI quattro",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 115134,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "2.0 TTS TFSI quattro",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115137,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "2.0 TTS TFSI quattro",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115138,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "2.0 TTS TFSI quattro",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115160,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TSI RS",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 115161,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TSI RS",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 115165,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 115166,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 115167,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 115168,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 115169,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 115193,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 115194,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 115209,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.6 TDI 4x4",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 115210,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.6 TDI 4x4",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-02-01"
+    },
+    {
+      "vehicleId": 115235,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 115236,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 115237,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 115238,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 115239,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 116310,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 116701,
+      "modelId": 14622,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 116702,
+      "modelId": 14622,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-11-01"
+    },
+    {
+      "vehicleId": 116703,
+      "modelId": 14622,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 117575,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 117671,
+      "modelId": 11744,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "GOLF VII (BN1, BN2, C91)",
+      "typeEngineName": "GTI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117811,
+      "modelId": 14158,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (5T1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 117812,
+      "modelId": 14158,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (5T1)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117884,
+      "modelId": 14158,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (5T1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118000,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 118001,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2016-11-01"
+    },
+    {
+      "vehicleId": 118002,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 118087,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118088,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118645,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI Clubsport",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 118646,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2024-04-01"
+    },
+    {
+      "vehicleId": 118647,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2024-04-01"
+    },
+    {
+      "vehicleId": 118648,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2024-04-01"
+    },
+    {
+      "vehicleId": 118767,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 118892,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 118893,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 118894,
+      "modelId": 14622,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 119690,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 119698,
+      "modelId": 36512,
+      "manufacturerName": "SEAT",
+      "modelName": "ATECA (KH7, KHP)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119700,
+      "modelId": 36512,
+      "manufacturerName": "SEAT",
+      "modelName": "ATECA (KH7, KHP)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119701,
+      "modelId": 36512,
+      "manufacturerName": "SEAT",
+      "modelName": "ATECA (KH7, KHP)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119702,
+      "modelId": 36512,
+      "manufacturerName": "SEAT",
+      "modelName": "ATECA (KH7, KHP)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119964,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 119965,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119966,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119967,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 120193,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI Clubsport S",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 120208,
+      "modelId": 14158,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (5T1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120210,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 120607,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 120608,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120609,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120613,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120616,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 120617,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120618,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120620,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120627,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 120629,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120632,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 120633,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 121468,
+      "modelId": 36925,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "MAGOTAN (B8L, 0B2, 0B3)",
+      "typeEngineName": "330 TSI",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121601,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 121603,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 121604,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 121605,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 121841,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2024-04-01"
+    },
+    {
+      "vehicleId": 122007,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-05-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 122079,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 R 360S 4motion",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 122080,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 R 360S 4motion",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 122616,
+      "modelId": 36925,
+      "manufacturerName": "VW (FAW)",
+      "modelName": "MAGOTAN (B8L, 0B2, 0B3)",
+      "typeEngineName": "380 TSI",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123425,
+      "modelId": 37164,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123426,
+      "modelId": 37164,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123427,
+      "modelId": 37164,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123934,
+      "modelId": 37164,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124050,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 124051,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 124068,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 124069,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 124077,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 124178,
+      "modelId": 36512,
+      "manufacturerName": "SEAT",
+      "modelName": "ATECA (KH7, KHP)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124179,
+      "modelId": 36512,
+      "manufacturerName": "SEAT",
+      "modelName": "ATECA (KH7, KHP)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124225,
+      "modelId": 11878,
+      "manufacturerName": "VW",
+      "modelName": "GOLF SPORTSVAN VII (AM1, AN1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 124240,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 124243,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 124860,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 125351,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125352,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125703,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 125718,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 125719,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 125720,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 Cupra 4Drive",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 125943,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 125944,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 125995,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 125996,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 126000,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 126001,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 126002,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TSI RS",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 126003,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TSI RS",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 126007,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 126079,
+      "modelId": 10253,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8V1, 8VK)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 126081,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 126082,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 126829,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126845,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 127056,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127905,
+      "modelId": 36512,
+      "manufacturerName": "SEAT",
+      "modelName": "ATECA (KH7, KHP)",
+      "typeEngineName": "2.0 TSI 4Drive",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128179,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128180,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128181,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128189,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128190,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128191,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128192,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2021-07-01"
+    },
+    {
+      "vehicleId": 128266,
+      "modelId": 13643,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A3 Sportback (85A, 85F)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 128267,
+      "modelId": 13183,
+      "manufacturerName": "AUDI (FAW)",
+      "modelName": "A3 Limousine (85S, 85M)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 128280,
+      "modelId": 38144,
+      "manufacturerName": "SEAT",
+      "modelName": "ARONA (KJ7, KJP)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128288,
+      "modelId": 38149,
+      "manufacturerName": "SKODA",
+      "modelName": "KAROQ (NU7, ND7)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128289,
+      "modelId": 38149,
+      "manufacturerName": "SKODA",
+      "modelName": "KAROQ (NU7, ND7)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128471,
+      "modelId": 38149,
+      "manufacturerName": "SKODA",
+      "modelName": "KAROQ (NU7, ND7)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128493,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128651,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128698,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128706,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128708,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128786,
+      "modelId": 37916,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA V (KJ1, KJG)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128969,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 128973,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 128974,
+      "modelId": 38144,
+      "manufacturerName": "SEAT",
+      "modelName": "ARONA (KJ7, KJP)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129081,
+      "modelId": 38138,
+      "manufacturerName": "VW",
+      "modelName": "POLO VI (AW1, BZ1, AE1)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129082,
+      "modelId": 37916,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA V (KJ1, KJG)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129205,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 Cupra R",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 129555,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129740,
+      "modelId": 37916,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA V (KJ1, KJG)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129754,
+      "modelId": 38138,
+      "manufacturerName": "VW",
+      "modelName": "POLO VI (AW1, BZ1, AE1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 129755,
+      "modelId": 38138,
+      "manufacturerName": "VW",
+      "modelName": "POLO VI (AW1, BZ1, AE1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": "2021-02-01"
+    },
+    {
+      "vehicleId": 130118,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 130561,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130562,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 130563,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130564,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 130566,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 130568,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 130569,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 130570,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130571,
+      "modelId": 38537,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Hatchback Van (5F1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130576,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130577,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 130578,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "2.0 Cupra",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130579,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "2.0 Cupra 4Drive",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130580,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 130581,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 130582,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130583,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130584,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130585,
+      "modelId": 38536,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST Estate Van (5F8)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 130824,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130825,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 132922,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 132923,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 132932,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "30 TDI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 132942,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "30 TDI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 133038,
+      "modelId": 38997,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (F3B)",
+      "typeEngineName": "35 TDI",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133039,
+      "modelId": 38997,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (F3B)",
+      "typeEngineName": "35 TDI quattro",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133041,
+      "modelId": 38997,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (F3B)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133042,
+      "modelId": 38997,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (F3B)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133290,
+      "modelId": 39032,
+      "manufacturerName": "CUPRA",
+      "modelName": "ATECA (KH7, KHP, KBP)",
+      "typeEngineName": "2.0 TSI 4Drive",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133293,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 133302,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "1.6 TDI 4x4",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 133304,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "1.6 TDI 4x4",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 133306,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 133586,
+      "modelId": 39077,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Van (5G1)",
+      "typeEngineName": "2.0 TDi BlueMotion 4motion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 133588,
+      "modelId": 39077,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Van (5G1)",
+      "typeEngineName": "2.0 GTD",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133590,
+      "modelId": 39077,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Van (5G1)",
+      "typeEngineName": "2.0 GTi",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133593,
+      "modelId": 39077,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Van (5G1)",
+      "typeEngineName": "1.6 TDi BlueMotion",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133596,
+      "modelId": 39077,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Van (5G1)",
+      "typeEngineName": "1.6 TDi BlueMotion",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133597,
+      "modelId": 39077,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Van (5G1)",
+      "typeEngineName": "1.6 TDi BlueMotion",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133599,
+      "modelId": 39077,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Van (5G1)",
+      "typeEngineName": "2.0 TDi BlueMotion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 133603,
+      "modelId": 39079,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN VII Variant (BA5)",
+      "typeEngineName": "2.0 TDi BlueMotion 4motion",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133605,
+      "modelId": 39079,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN VII Variant (BA5)",
+      "typeEngineName": "1.6 TDi BlueMotion 4motion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133606,
+      "modelId": 39079,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN VII Variant (BA5)",
+      "typeEngineName": "2.0 TDi BlueMotion",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133609,
+      "modelId": 39079,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN VII Variant (BA5)",
+      "typeEngineName": "1.6 TDi BlueMotion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133612,
+      "modelId": 39079,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN VII Variant (BA5)",
+      "typeEngineName": "1.6 TDi BlueMotion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133613,
+      "modelId": 39079,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN VII Variant (BA5)",
+      "typeEngineName": "1.6 TDi BlueMotion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 133637,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "30 TDI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 133859,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 133863,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 134219,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2022-02-01"
+    },
+    {
+      "vehicleId": 134251,
+      "modelId": 14622,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 134284,
+      "modelId": 38997,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (F3B)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 134289,
+      "modelId": 39208,
+      "manufacturerName": "SEAT",
+      "modelName": "TARRACO (KN2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2024-05-01"
+    },
+    {
+      "vehicleId": 134290,
+      "modelId": 39208,
+      "manufacturerName": "SEAT",
+      "modelName": "TARRACO (KN2)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2024-05-01"
+    },
+    {
+      "vehicleId": 134291,
+      "modelId": 39208,
+      "manufacturerName": "SEAT",
+      "modelName": "TARRACO (KN2)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2024-05-01"
+    },
+    {
+      "vehicleId": 134292,
+      "modelId": 39208,
+      "manufacturerName": "SEAT",
+      "modelName": "TARRACO (KN2)",
+      "typeEngineName": "2.0 TSI 4Drive",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2024-05-01"
+    },
+    {
+      "vehicleId": 134306,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 134309,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 134844,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134873,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134878,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "45 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134886,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134888,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "2.0 TTS TSI quattro",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134890,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134891,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "45 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134892,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134893,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "2.0 TTS TFSI quattro",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134981,
+      "modelId": 38149,
+      "manufacturerName": "SKODA",
+      "modelName": "KAROQ (NU7, ND7)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134983,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 135145,
+      "modelId": 38933,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 Sportback (GBA)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135157,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 135168,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "SQ2 TFSI quattro",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135315,
+      "modelId": 38149,
+      "manufacturerName": "SKODA",
+      "modelName": "KAROQ (NU7, ND7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135316,
+      "modelId": 37164,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135317,
+      "modelId": 11195,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III (5E3, NL3, NR3)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 135318,
+      "modelId": 11196,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 135343,
+      "modelId": 39378,
+      "manufacturerName": "SKODA",
+      "modelName": "SCALA (NW1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135357,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2024-04-01"
+    },
+    {
+      "vehicleId": 135605,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "2.0 TSI 4Drive",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 135622,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI TCR",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 135729,
+      "modelId": 11484,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON ST (5F8)",
+      "typeEngineName": "1.6 TDI 4Drive",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 135944,
+      "modelId": 39209,
+      "manufacturerName": "VW",
+      "modelName": "T-CROSS (C11, D31)",
+      "typeEngineName": "1.6 TDi",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136076,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136077,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "35 TDI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136078,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "35 TDI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136079,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136080,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136082,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "35 TDI quattro",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136134,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136137,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "35 TDI",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136264,
+      "modelId": 38149,
+      "manufacturerName": "SKODA",
+      "modelName": "KAROQ (NU7, ND7)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136375,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 136376,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 136459,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136460,
+      "modelId": 10459,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8VA, 8VF)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136461,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 136462,
+      "modelId": 11282,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8VS, 8VM)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136463,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 137059,
+      "modelId": 39796,
+      "manufacturerName": "SKODA",
+      "modelName": "KAMIQ (NW4)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137129,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 137131,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 137642,
+      "modelId": 13608,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VII Variant (BA5, BV5)",
+      "typeEngineName": "TSI",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 137668,
+      "modelId": 14158,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (5T1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2019-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137767,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 137768,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138225,
+      "modelId": 11279,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON SC (5F5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 138447,
+      "modelId": 40155,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 Sportback (F3N)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138449,
+      "modelId": 40155,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 Sportback (F3N)",
+      "typeEngineName": "35 TDI",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138450,
+      "modelId": 40155,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 Sportback (F3N)",
+      "typeEngineName": "35 TDI quattro",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138451,
+      "modelId": 40155,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 Sportback (F3N)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138701,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138702,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138741,
+      "modelId": 14622,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 139249,
+      "modelId": 40412,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV Combi (NX5, PV5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139250,
+      "modelId": 40412,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV Combi (NX5, PV5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139270,
+      "modelId": 40155,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 Sportback (F3N)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 139715,
+      "modelId": 40531,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8YA, 8YF)",
+      "typeEngineName": "30 TDI",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139716,
+      "modelId": 40531,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8YA, 8YF)",
+      "typeEngineName": "35 TDI",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139737,
+      "modelId": 40534,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (KL1, KLG)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139738,
+      "modelId": 40534,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (KL1, KLG)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139765,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139766,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140122,
+      "modelId": 40535,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Sportstourer (KL8, KLD)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140504,
+      "modelId": 40796,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8YS, 8YM)",
+      "typeEngineName": "30 TDI",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140506,
+      "modelId": 40796,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8YS, 8YM)",
+      "typeEngineName": "35 TDI",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141422,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141423,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141424,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141428,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TSi 4motion",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141710,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141769,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141826,
+      "modelId": 37164,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141829,
+      "modelId": 40412,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV Combi (NX5, PV5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141830,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141833,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141859,
+      "modelId": 41185,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII Variant (CG5, DB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141860,
+      "modelId": 41185,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII Variant (CG5, DB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141863,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2024-04-01"
+    },
+    {
+      "vehicleId": 141876,
+      "modelId": 40155,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 Sportback (F3N)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142122,
+      "modelId": 37164,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142124,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 142233,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 TSI RS",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142238,
+      "modelId": 40412,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV Combi (NX5, PV5)",
+      "typeEngineName": "2.0 TSI RS",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142250,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 142270,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2024-04-01"
+    },
+    {
+      "vehicleId": 142277,
+      "modelId": 41283,
+      "manufacturerName": "CUPRA",
+      "modelName": "FORMENTOR (KM7, KMP)",
+      "typeEngineName": "2.0 TSI 4Drive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142300,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 GTI Clubsport",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142397,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 142398,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 142408,
+      "modelId": 41487,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN X Coupe (0T2, 0T4)",
+      "typeEngineName": "330TSI",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142409,
+      "modelId": 41487,
+      "manufacturerName": "VW (SVW)",
+      "modelName": "TIGUAN X Coupe (0T2, 0T4)",
+      "typeEngineName": "380TSI 4motion",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142424,
+      "modelId": 40796,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8YS, 8YM)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142425,
+      "modelId": 40531,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8YA, 8YF)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142442,
+      "modelId": 41499,
+      "manufacturerName": "VW",
+      "modelName": "CADDY V MPV (SBB, SBJ)",
+      "typeEngineName": "2.0 TDi BMT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142443,
+      "modelId": 41499,
+      "manufacturerName": "VW",
+      "modelName": "CADDY V MPV (SBB, SBJ)",
+      "typeEngineName": "2.0 TDi BMT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142444,
+      "modelId": 41500,
+      "manufacturerName": "VW",
+      "modelName": "CADDY V Box Body/MPV (SBA, SBH)",
+      "typeEngineName": "2.0 TDi BMT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142445,
+      "modelId": 41500,
+      "manufacturerName": "VW",
+      "modelName": "CADDY V Box Body/MPV (SBA, SBH)",
+      "typeEngineName": "2.0 TDi BMT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142446,
+      "modelId": 41500,
+      "manufacturerName": "VW",
+      "modelName": "CADDY V Box Body/MPV (SBA, SBH)",
+      "typeEngineName": "2.0 TDi BMT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142456,
+      "modelId": 39208,
+      "manufacturerName": "SEAT",
+      "modelName": "TARRACO (KN2)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2024-05-01"
+    },
+    {
+      "vehicleId": 142460,
+      "modelId": 40412,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV Combi (NX5, PV5)",
+      "typeEngineName": "2.0 TDI RS 4x4",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142462,
+      "modelId": 40412,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV Combi (NX5, PV5)",
+      "typeEngineName": "2.0 TDI RS",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142463,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 TDI RS 4x4",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142464,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 TDI RS",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142472,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 142473,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 142474,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 142475,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 142540,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TSI R 4motion",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": "2024-04-01"
+    },
+    {
+      "vehicleId": 142541,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 TSI R 4motion",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142870,
+      "modelId": 14018,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III (3V3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 142871,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 142905,
+      "modelId": 41499,
+      "manufacturerName": "VW",
+      "modelName": "CADDY V MPV (SBB, SBJ)",
+      "typeEngineName": "2.0 TDi BMT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142913,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142914,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142920,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142921,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142930,
+      "modelId": 12917,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 (3G2, CB2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 142931,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 143253,
+      "modelId": 36223,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (AD1, AX1)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": "2024-04-01"
+    },
+    {
+      "vehicleId": 143265,
+      "modelId": 40796,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8YS, 8YM)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2020-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143266,
+      "modelId": 40531,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8YA, 8YF)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2020-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143294,
+      "modelId": 41767,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VIII (CG5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143481,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI SCR",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143490,
+      "modelId": 13274,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (FV9, FVR)",
+      "typeEngineName": "TTS TFSI quattro",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143499,
+      "modelId": 38997,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (F3B)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143500,
+      "modelId": 40155,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 Sportback (F3N)",
+      "typeEngineName": "45 TFSI quattro",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143516,
+      "modelId": 41816,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN SUV Van (AD1)",
+      "typeEngineName": "TDI BlueMotion 4motion",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 143518,
+      "modelId": 40412,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV Combi (NX5, PV5)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143519,
+      "modelId": 40412,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV Combi (NX5, PV5)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143527,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 TDI GTD",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143531,
+      "modelId": 36512,
+      "manufacturerName": "SEAT",
+      "modelName": "ATECA (KH7, KHP)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143537,
+      "modelId": 41283,
+      "manufacturerName": "CUPRA",
+      "modelName": "FORMENTOR (KM7, KMP)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143539,
+      "modelId": 41283,
+      "manufacturerName": "CUPRA",
+      "modelName": "FORMENTOR (KM7, KMP)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143542,
+      "modelId": 41283,
+      "manufacturerName": "CUPRA",
+      "modelName": "FORMENTOR (KM7, KMP)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143544,
+      "modelId": 41283,
+      "manufacturerName": "CUPRA",
+      "modelName": "FORMENTOR (KM7, KMP)",
+      "typeEngineName": "2.0 TSI 4Drive",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143551,
+      "modelId": 39208,
+      "manufacturerName": "SEAT",
+      "modelName": "TARRACO (KN2)",
+      "typeEngineName": "2.0 TFSI 4Drive",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": "2024-05-01"
+    },
+    {
+      "vehicleId": 143678,
+      "modelId": 40534,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (KL1, KLG)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143681,
+      "modelId": 40535,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Sportstourer (KL8, KLD)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143775,
+      "modelId": 41499,
+      "manufacturerName": "VW",
+      "modelName": "CADDY V MPV (SBB, SBJ)",
+      "typeEngineName": "2.0 TDI BMT 4motion",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143809,
+      "modelId": 41500,
+      "manufacturerName": "VW",
+      "modelName": "CADDY V Box Body/MPV (SBA, SBH)",
+      "typeEngineName": "2.0 TDI BMT 4motion",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143831,
+      "modelId": 38933,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 Sportback (GBA)",
+      "typeEngineName": "40 TFSI",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143836,
+      "modelId": 37842,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON (3H7, 3H8)",
+      "typeEngineName": "2.0 TSI R 4motion",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143837,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TSI R",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143880,
+      "modelId": 38138,
+      "manufacturerName": "VW",
+      "modelName": "POLO VI (AW1, BZ1, AE1)",
+      "typeEngineName": "GTI",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144116,
+      "modelId": 39378,
+      "manufacturerName": "SKODA",
+      "modelName": "SCALA (NW1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144128,
+      "modelId": 14382,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB III Estate (3V5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2024-06-01"
+    },
+    {
+      "vehicleId": 144132,
+      "modelId": 12912,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (FV3, FVP)",
+      "typeEngineName": "TTS TFSI quattro",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144218,
+      "modelId": 40535,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Sportstourer (KL8, KLD)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144219,
+      "modelId": 40535,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON Sportstourer (KL8, KLD)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144266,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "30 TDI",
+      "constructionIntervalStart": "2021-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144747,
+      "modelId": 38149,
+      "manufacturerName": "SKODA",
+      "modelName": "KAROQ (NU7, ND7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144761,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144801,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TSi",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144806,
+      "modelId": 38132,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144807,
+      "modelId": 14622,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": "2024-03-01"
+    },
+    {
+      "vehicleId": 144928,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145008,
+      "modelId": 41359,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON (KL1, KU1, KUG)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145009,
+      "modelId": 41359,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON (KL1, KU1, KUG)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145010,
+      "modelId": 41360,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON Sportstourer (KL8, KU8, KUD)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145011,
+      "modelId": 41360,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON Sportstourer (KL8, KU8, KUD)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145012,
+      "modelId": 41360,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON Sportstourer (KL8, KU8, KUD)",
+      "typeEngineName": "2.0 TSI 4Drive",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145013,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 TSI 4x4",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145016,
+      "modelId": 37164,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 RS 4x4",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145034,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145035,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145036,
+      "modelId": 41185,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII Variant (CG5, DB5)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": "2024-11-01"
+    },
+    {
+      "vehicleId": 145038,
+      "modelId": 41185,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII Variant (CG5, DB5)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": "2024-11-01"
+    },
+    {
+      "vehicleId": 145283,
+      "modelId": 14158,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (5T1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145284,
+      "modelId": 42376,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN VAN (5T1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145285,
+      "modelId": 42376,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN VAN (5T1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145489,
+      "modelId": 38997,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (F3B)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145753,
+      "modelId": 42517,
+      "manufacturerName": "VW",
+      "modelName": "MULTIVAN T7 (STM, STN)",
+      "typeEngineName": "2.0 TSi",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146104,
+      "modelId": 41185,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII Variant (CG5, DB5)",
+      "typeEngineName": "2.0 TSI R 4motion",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146243,
+      "modelId": 41185,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII Variant (CG5, DB5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146244,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146317,
+      "modelId": 41283,
+      "manufacturerName": "CUPRA",
+      "modelName": "FORMENTOR (KM7, KMP)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146729,
+      "modelId": 39796,
+      "manufacturerName": "SKODA",
+      "modelName": "KAMIQ (NW4)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146780,
+      "modelId": 42705,
+      "manufacturerName": "VW",
+      "modelName": "CADDY CALIFORNIA V Camper (SBB, SBJ)",
+      "typeEngineName": "2.0 TDi BMT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146781,
+      "modelId": 42705,
+      "manufacturerName": "VW",
+      "modelName": "CADDY CALIFORNIA V Camper (SBB, SBJ)",
+      "typeEngineName": "2.0 TDi BMT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146782,
+      "modelId": 42705,
+      "manufacturerName": "VW",
+      "modelName": "CADDY CALIFORNIA V Camper (SBB, SBJ)",
+      "typeEngineName": "2.0 TDi BMT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146783,
+      "modelId": 42705,
+      "manufacturerName": "VW",
+      "modelName": "CADDY CALIFORNIA V Camper (SBB, SBJ)",
+      "typeEngineName": "2.0 TDI BMT 4motion",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146894,
+      "modelId": 42737,
+      "manufacturerName": "FORD",
+      "modelName": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
+      "typeEngineName": "2.0 EcoBlue",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146895,
+      "modelId": 42737,
+      "manufacturerName": "FORD",
+      "modelName": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
+      "typeEngineName": "2.0 EcoBlue",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146896,
+      "modelId": 42737,
+      "manufacturerName": "FORD",
+      "modelName": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
+      "typeEngineName": "2.0 EcoBlue",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146897,
+      "modelId": 42737,
+      "manufacturerName": "FORD",
+      "modelName": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
+      "typeEngineName": "2.0 EcoBlue 4WD",
+      "constructionIntervalStart": "2022-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147324,
+      "modelId": 12918,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B8 Variant (3G5, CB5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 147369,
+      "modelId": 42517,
+      "manufacturerName": "VW",
+      "modelName": "MULTIVAN T7 (STM, STN)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2022-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148082,
+      "modelId": 40179,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VIII (CD1, DA1)",
+      "typeEngineName": "2.0 TSI R 4motion",
+      "constructionIntervalStart": "2022-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150587,
+      "modelId": 41360,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON Sportstourer (KL8, KU8, KUD)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150590,
+      "modelId": 41359,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON (KL1, KU1, KUG)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151572,
+      "modelId": 43881,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
+      "typeEngineName": "EcoBlue",
+      "constructionIntervalStart": "2024-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151589,
+      "modelId": 43881,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
+      "typeEngineName": "EcoBlue",
+      "constructionIntervalStart": "2024-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151625,
+      "modelId": 43881,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
+      "typeEngineName": "EcoBlue",
+      "constructionIntervalStart": "2024-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151626,
+      "modelId": 43881,
+      "manufacturerName": "FORD",
+      "modelName": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
+      "typeEngineName": "EcoBlue 4WD",
+      "constructionIntervalStart": "2024-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152943,
+      "modelId": 41359,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON (KL1, KU1, KUG)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2022-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152945,
+      "modelId": 41360,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON Sportstourer (KL8, KU8, KUD)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2022-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152948,
+      "modelId": 41360,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON Sportstourer (KL8, KU8, KUD)",
+      "typeEngineName": "2.0 TDI 4Drive",
+      "constructionIntervalStart": "2022-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154239,
+      "modelId": 41767,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VIII (CG5)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": "2024-11-01"
+    },
+    {
+      "vehicleId": 154693,
+      "modelId": 37164,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154767,
+      "modelId": 39032,
+      "manufacturerName": "CUPRA",
+      "modelName": "ATECA (KH7, KHP, KBP)",
+      "typeEngineName": "2.0 TSI 4Drive",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156534,
+      "modelId": 11611,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8V7, 8VE)",
+      "typeEngineName": "1.8 40 TFSI",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 156864,
+      "modelId": 45010,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB IV Estate (NZ5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2023-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156887,
+      "modelId": 45017,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B9 Variant (CJ5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2024-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157056,
+      "modelId": 45054,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (CT1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2023-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157069,
+      "modelId": 40534,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (KL1, KLG)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157100,
+      "modelId": 45054,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (CT1)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2023-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157362,
+      "modelId": 45125,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ II (PS7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2024-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157363,
+      "modelId": 45125,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ II (PS7)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2024-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157414,
+      "modelId": 45132,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB IV (NZ3)",
+      "typeEngineName": "2.0 TDi",
+      "constructionIntervalStart": "2023-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157842,
+      "modelId": 45017,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B9 Variant (CJ5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2023-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 157935,
+      "modelId": 41006,
+      "manufacturerName": "VW",
+      "modelName": "ARTEON SHOOTING BRAKE (3H9)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158105,
+      "modelId": 45132,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB IV (NZ3)",
+      "typeEngineName": "2.0 TDi 4x4",
+      "constructionIntervalStart": "2024-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158106,
+      "modelId": 45010,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB IV Estate (NZ5)",
+      "typeEngineName": "2.0 TDi 4x4",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158158,
+      "modelId": 40155,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 Sportback (F3N)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2024-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158159,
+      "modelId": 38997,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (F3B)",
+      "typeEngineName": "40 TDI quattro",
+      "constructionIntervalStart": "2024-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158250,
+      "modelId": 45351,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Allstreet (8YJ)",
+      "typeEngineName": "35 TDi",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158414,
+      "modelId": 40531,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8YA, 8YF)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158416,
+      "modelId": 40796,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Limousine (8YS, 8YM)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 159106,
+      "modelId": 41283,
+      "manufacturerName": "CUPRA",
+      "modelName": "FORMENTOR (KM7, KMP)",
+      "typeEngineName": "2.0 VZ 4Drive",
+      "constructionIntervalStart": "2024-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800299,
+      "modelId": 41360,
+      "manufacturerName": "CUPRA",
+      "modelName": "LEON Sportstourer (KL8, KU8, KUD)",
+      "typeEngineName": "2.0 VZ 4Drive",
+      "constructionIntervalStart": "2024-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800480,
+      "modelId": 40412,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV Combi (NX5, PV5)",
+      "typeEngineName": "2.0 RS",
+      "constructionIntervalStart": "2024-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800493,
+      "modelId": 40538,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA IV (NX3, NN3, PV3)",
+      "typeEngineName": "2.0 RS",
+      "constructionIntervalStart": "2024-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800549,
+      "modelId": 90066,
+      "manufacturerName": "CUPRA",
+      "modelName": "TERRAMAR (KP1)",
+      "typeEngineName": "2.0 TSI VZ 4Drive",
+      "constructionIntervalStart": "2024-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800688,
+      "modelId": 90085,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TSi 4x4",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800689,
+      "modelId": 90085,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDi",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800690,
+      "modelId": 90085,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDi 4x4",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800691,
+      "modelId": 90085,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDi 4x4",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 800692,
+      "modelId": 90085,
+      "manufacturerName": "SKODA",
+      "modelName": "KODIAQ I (NS6, NS7, NV7)",
+      "typeEngineName": "2.0 TDi 4x4",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28480,
+      "modelId": 9158,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Convertible (517)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 59115,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 133589,
+      "modelId": 39077,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Van (5G1)",
+      "typeEngineName": "2.0 GTi",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "292"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "177"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "70"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "2555 162"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "5Q0 129 620 B"
+    },
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "5Q0 129 620 B"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "5Q0 129 620 D"
+    },
+    {
+      "oemBrand": "VW (SVW)",
+      "oemDisplayNo": "5QD 129 620 A"
+    },
+    {
+      "oemBrand": "AUDI (FAW)",
+      "oemDisplayNo": "5QD129620B"
+    },
+    {
+      "oemBrand": "VW (FAW)",
+      "oemDisplayNo": "5QD129620B"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "5QM 129 620"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "L 5QD 129 620"
+    },
+    {
+      "oemBrand": "VW (FAW)",
+      "oemDisplayNo": "L 5QD 129 620 B"
+    }
+  ],
+  "ean": "4011558028725",
+  "originalSKU": "5Q0129620B",
+  "fetchedAt": "2026-03-17T16:50:36Z",
+  "enrichedVia": "OEM (5Q0129620B)"
+}

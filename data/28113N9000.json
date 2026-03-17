@@ -1,0 +1,511 @@
+{
+  "articleNo": "E2276L",
+  "articleId": 67774675,
+  "supplier": "HENGST FILTER",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 131897,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 131898,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi AWD",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 139786,
+      "modelId": 40546,
+      "manufacturerName": "KIA",
+      "modelName": "SORENTO IV (MQ4, MQ4A)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139787,
+      "modelId": 40546,
+      "manufacturerName": "KIA",
+      "modelName": "SORENTO IV (MQ4, MQ4A)",
+      "typeEngineName": "2.2 CRDi 4WD",
+      "constructionIntervalStart": "2020-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141519,
+      "modelId": 41039,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV SUV Van (TM)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 141520,
+      "modelId": 41039,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV SUV Van (TM)",
+      "typeEngineName": "2.2 CRDi AWD",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 142670,
+      "modelId": 41599,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL IV (KA4)",
+      "typeEngineName": "2.2 CRDi VGT",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142828,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 T-GDi Hybrid 48V",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142829,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 CRDi Hybrid 48V",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142830,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 CRDi Hybrid 48V HTRAC",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142991,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi HTRAC",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142992,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143732,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.5 MPI",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144122,
+      "modelId": 40546,
+      "manufacturerName": "KIA",
+      "modelName": "SORENTO IV (MQ4, MQ4A)",
+      "typeEngineName": "2.5 MPI",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144125,
+      "modelId": 40546,
+      "manufacturerName": "KIA",
+      "modelName": "SORENTO IV (MQ4, MQ4A)",
+      "typeEngineName": "2.5 MPI AWD",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144326,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 T-GDI HTRAC",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144888,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 T-GDi",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145185,
+      "modelId": 42228,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "STARIA Van (US4)",
+      "typeEngineName": "2.2 CRDi (US4V)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145223,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 T-GDi",
+      "constructionIntervalStart": "2021-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145316,
+      "modelId": 41997,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "STARIA Bus (US4)",
+      "typeEngineName": "2.2 CRDi AWD (US4W)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145322,
+      "modelId": 41997,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "STARIA Bus (US4)",
+      "typeEngineName": "2.2 CRDi (US4W)",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145625,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 T-GDi Hybrid 48V HTRAC",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145700,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145950,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "2.0 MPI",
+      "constructionIntervalStart": "2021-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145951,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 T-GDI AWD",
+      "constructionIntervalStart": "2021-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146101,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 T-GDi Hybrid 48V",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146380,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146381,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 T-GDI",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146402,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 T-GDI MHEV",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146403,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 T-GDI MHEV AWD",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146404,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 T-GDI MHEV",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146405,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 T-GDI MHEV AWD",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146406,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 CRDi MHEV",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146407,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 CRDi MHEV AWD",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146665,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 T-GDi HTRAC",
+      "constructionIntervalStart": "2022-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146965,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.5 MPI AWD",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146974,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 T-GDI",
+      "constructionIntervalStart": "2021-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147246,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2022-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147249,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi HTRAC",
+      "constructionIntervalStart": "2022-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147621,
+      "modelId": 41599,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL IV (KA4)",
+      "typeEngineName": "3.5 MPI",
+      "constructionIntervalStart": "2021-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148033,
+      "modelId": 40546,
+      "manufacturerName": "KIA",
+      "modelName": "SORENTO IV (MQ4, MQ4A)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2022-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148034,
+      "modelId": 40546,
+      "manufacturerName": "KIA",
+      "modelName": "SORENTO IV (MQ4, MQ4A)",
+      "typeEngineName": "2.2 CRDi AWD",
+      "constructionIntervalStart": "2022-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151426,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "2.0 MPI 4WD",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152049,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2023-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152607,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "2.0 MPI",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152608,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "2.0 MPI HTRAC",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152609,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "2.5 GDi HTRAC",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154613,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154614,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 CRDi HTRAC",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 158998,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "1.6 T-GDI",
+      "constructionIntervalStart": "2024-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 159194,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "1.6 T-GDi",
+      "constructionIntervalStart": "2024-05-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "270"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "160,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "43,5"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113-L1000"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "28113-L1000"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113-L1100"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "28113-N9000"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "28113-N9000"
+    }
+  ],
+  "ean": "4030776090475",
+  "originalSKU": "28113N9000",
+  "fetchedAt": "2026-03-17T16:10:02Z",
+  "enrichedVia": "OEM (28113N9000)"
+}
