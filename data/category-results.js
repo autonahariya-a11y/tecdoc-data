@@ -682,24 +682,29 @@ window.__anFetchProductImages = function (catName, callback) {
   function activatePage() {
     document.body.classList.add('an-results-active');
 
-    /* Only hide page-specific content inside #bg_middle,
-       keep site header (#bg_header) and footer (#bg_footer) visible
-       so results feel integrated into the site. */
     var middle = $('bg_middle');
+    var rp = $('anResultsPage');
+    if (!rp) return;
+
+    /* Move results section INTO #bg_middle so it appears
+       in the main content area, between header and footer. */
+    if (middle && rp.parentNode !== middle) {
+      middle.appendChild(rp);
+    }
+
+    /* Hide page-specific content inside #bg_middle,
+       keep site header (#bg_header) and footer (#bg_footer) visible. */
     if (middle) {
       var kids = middle.children;
       for (var i = 0; i < kids.length; i++) {
         var el = kids[i];
         if (el.tagName === 'SCRIPT' || el.tagName === 'STYLE' || el.tagName === 'LINK') continue;
-        if (el.id === 'anResultsPage' || (el.querySelector && el.querySelector('#anResultsPage'))) continue;
-        /* Keep .an-parts-finder (the widget itself) visible */
-        if (el.classList && el.classList.contains('an-parts-finder')) continue;
+        if (el === rp) continue;
         el.style.display = 'none';
       }
     }
 
-    var rp = $('anResultsPage');
-    if (rp) rp.style.display = 'block';
+    rp.style.display = 'block';
   }
 
 
