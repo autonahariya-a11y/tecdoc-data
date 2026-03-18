@@ -1427,7 +1427,45 @@
      CACHE + API LOADING (unchanged)
      ══════════════════════════════════════ */
 
+  /* Check window.TECDOC_PRELOAD for inline data (zero network delay) */
+  function getPreloadedData(articleNo) {
+    if (!window.TECDOC_PRELOAD) return null;
+    /* Try exact match first */
+    if (window.TECDOC_PRELOAD[articleNo]) return window.TECDOC_PRELOAD[articleNo];
+    /* Try all filename variations (same logic as cache lookup) */
+    var variations = articleVariations(articleNo);
+    for (var i = 0; i < variations.length; i++) {
+      var key = variations[i].replace(/[^a-zA-Z0-9]/g, '_');
+      if (window.TECDOC_PRELOAD[key]) return window.TECDOC_PRELOAD[key];
+      if (window.TECDOC_PRELOAD[variations[i]]) return window.TECDOC_PRELOAD[variations[i]];
+    }
+    return null;
+  }
+
   function loadFromCache(articleNo) {
+    /* Check preloaded data first (instant, no network) */
+    var preloaded = getPreloadedData(articleNo);
+    if (preloaded) {
+      console.log('[TecDoc] Using preloaded data for', articleNo);
+      return Promise.resolve(preloaded);
+    }
+    /* Check async preload promise (from preloader-async.js) */
+    if (window.TECDOC_PRELOAD_PROMISE) {
+      return window.TECDOC_PRELOAD_PROMISE.then(function(data) {
+        if (data) {
+          console.log('[TecDoc] Using async preloaded data for', articleNo);
+          return data;
+        }
+        /* Async preload didn't find it — fall through to normal cache */
+        return fetchFromCacheNetwork(articleNo);
+      }).catch(function() {
+        return fetchFromCacheNetwork(articleNo);
+      });
+    }
+    return fetchFromCacheNetwork(articleNo);
+  }
+
+  function fetchFromCacheNetwork(articleNo) {
     var variations = articleVariations(articleNo);
     function tryCache(idx) {
       if (idx >= variations.length) return Promise.reject('not_cached');
@@ -1675,15 +1713,19 @@
     var isProductPage = !!pageData;
     console.log('[TecDoc] isProductPage:', isProductPage, pageData ? 'title=' + pageData.title : '');
 
+    /* Check for preloaded data — if available, skip loading state entirely */
+    var preloaded = getPreloadedData(articleNo);
+
     if (!isProductPage) {
       /* Category/results page — use original widget */
       var w = getOrCreateWidget();
       if (!w) return;
-      showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
+      if (!preloaded) showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
     } else {
-      /* Product page — immediately hide original and show loading skeleton */
+      /* Product page — immediately hide original */
       hideOriginalProductPage();
-      showProductSkeleton(pageData);
+      /* Only show skeleton if no preloaded data (avoids flash of loading state) */
+      if (!preloaded) showProductSkeleton(pageData);
     }
 
     loadFromCache(articleNo)
