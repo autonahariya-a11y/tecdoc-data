@@ -817,7 +817,7 @@
     {
       "vehicleId": 55133,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.6",
       "constructionIntervalStart": "2012-04-01",
@@ -826,7 +826,7 @@
     {
       "vehicleId": 55136,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.8 HDi 150",
       "constructionIntervalStart": "2012-04-01",
@@ -835,7 +835,7 @@
     {
       "vehicleId": 55137,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.8 HDi 150 AWC",
       "constructionIntervalStart": "2012-04-01",
@@ -844,7 +844,7 @@
     {
       "vehicleId": 55134,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.6 HDi 115",
       "constructionIntervalStart": "2012-04-01",
@@ -853,7 +853,7 @@
     {
       "vehicleId": 55135,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.6 HDi 115 AWC",
       "constructionIntervalStart": "2012-05-01",
@@ -862,7 +862,7 @@
     {
       "vehicleId": 56050,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "2.0",
       "constructionIntervalStart": "2012-04-01",
@@ -871,7 +871,7 @@
     {
       "vehicleId": 56051,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "2.0 AWC",
       "constructionIntervalStart": "2012-04-01",
@@ -1121,6 +1121,10 @@
     {
       "criteriaName": "Product must be determined on the vehicle or the motor",
       "criteriaValue": ""
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
     }
   ],
   "oe": [
@@ -1141,7 +1145,7 @@
       "oemDisplayNo": "05191 229AA"
     },
     {
-      "oemBrand": "CITRO\u00cbN",
+      "oemBrand": "CITROËN",
       "oemDisplayNo": "16 076 903 80"
     },
     {
@@ -1149,7 +1153,7 @@
       "oemDisplayNo": "16 076 903 80"
     },
     {
-      "oemBrand": "CITRO\u00cbN",
+      "oemBrand": "CITROËN",
       "oemDisplayNo": "16 076 904 80"
     },
     {

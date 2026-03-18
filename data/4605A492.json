@@ -295,7 +295,7 @@
     {
       "vehicleId": 11207,
       "modelId": 8612,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER ENTERPRISE (VU_, VV_)",
       "typeEngineName": "2.4 16V",
       "constructionIntervalStart": "2009-01-01",
@@ -304,7 +304,7 @@
     {
       "vehicleId": 11550,
       "modelId": 6230,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER (VU_, VV_)",
       "typeEngineName": "2.0",
       "constructionIntervalStart": "2010-11-01",
@@ -313,7 +313,7 @@
     {
       "vehicleId": 11552,
       "modelId": 6230,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER (VU_, VV_)",
       "typeEngineName": "2.0 All-wheel Drive",
       "constructionIntervalStart": "2010-11-01",
@@ -1168,7 +1168,7 @@
     {
       "vehicleId": 33341,
       "modelId": 8612,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER ENTERPRISE (VU_, VV_)",
       "typeEngineName": "2.2 HDi",
       "constructionIntervalStart": "2009-01-01",
@@ -1894,6 +1894,10 @@
     {
       "criteriaName": "WVA Number",
       "criteriaValue": "21769"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
     }
   ],
   "oe": [

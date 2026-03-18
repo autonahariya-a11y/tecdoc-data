@@ -142,7 +142,7 @@
     {
       "vehicleId": 11550,
       "modelId": 6230,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER (VU_, VV_)",
       "typeEngineName": "2.0",
       "constructionIntervalStart": "2010-11-01",
@@ -151,7 +151,7 @@
     {
       "vehicleId": 11552,
       "modelId": 6230,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER (VU_, VV_)",
       "typeEngineName": "2.0 All-wheel Drive",
       "constructionIntervalStart": "2010-11-01",
@@ -214,7 +214,7 @@
     {
       "vehicleId": 31175,
       "modelId": 6230,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER (VU_, VV_)",
       "typeEngineName": "2.4 16V",
       "constructionIntervalStart": "2008-08-01",
@@ -322,7 +322,7 @@
     {
       "vehicleId": 11207,
       "modelId": 8612,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER ENTERPRISE (VU_, VV_)",
       "typeEngineName": "2.4 16V",
       "constructionIntervalStart": "2009-01-01",
@@ -592,7 +592,7 @@
     {
       "vehicleId": 22480,
       "modelId": 6230,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER (VU_, VV_)",
       "typeEngineName": "2.2 HDi",
       "constructionIntervalStart": "2007-02-01",
@@ -619,7 +619,7 @@
     {
       "vehicleId": 142692,
       "modelId": 41605,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER Van (VU_)",
       "typeEngineName": "2.2 HDi (VU4HNH)",
       "constructionIntervalStart": "2007-06-01",
@@ -700,7 +700,7 @@
     {
       "vehicleId": 33341,
       "modelId": 8612,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C-CROSSER ENTERPRISE (VU_, VV_)",
       "typeEngineName": "2.2 HDi",
       "constructionIntervalStart": "2009-01-01",
@@ -826,7 +826,7 @@
     {
       "vehicleId": 55133,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.6",
       "constructionIntervalStart": "2012-04-01",
@@ -835,7 +835,7 @@
     {
       "vehicleId": 55134,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.6 HDi 115",
       "constructionIntervalStart": "2012-04-01",
@@ -844,7 +844,7 @@
     {
       "vehicleId": 55135,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.6 HDi 115 AWC",
       "constructionIntervalStart": "2012-05-01",
@@ -853,7 +853,7 @@
     {
       "vehicleId": 55136,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.8 HDi 150",
       "constructionIntervalStart": "2012-04-01",
@@ -862,7 +862,7 @@
     {
       "vehicleId": 55137,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "1.8 HDi 150 AWC",
       "constructionIntervalStart": "2012-04-01",
@@ -871,7 +871,7 @@
     {
       "vehicleId": 56050,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "2.0",
       "constructionIntervalStart": "2012-04-01",
@@ -880,7 +880,7 @@
     {
       "vehicleId": 56051,
       "modelId": 9900,
-      "manufacturerName": "CITRO\u00cbN",
+      "manufacturerName": "CITROËN",
       "modelName": "C4 AIRCROSS",
       "typeEngineName": "2.0 AWC",
       "constructionIntervalStart": "2012-04-01",
@@ -1073,11 +1073,15 @@
     {
       "criteriaName": "Product must be determined on the vehicle or the motor",
       "criteriaValue": ""
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
     }
   ],
   "oe": [
     {
-      "oemBrand": "CITRO\u00cbN",
+      "oemBrand": "CITROËN",
       "oemDisplayNo": "4253 90"
     },
     {
@@ -1085,7 +1089,7 @@
       "oemDisplayNo": "4253 90"
     },
     {
-      "oemBrand": "CITRO\u00cbN",
+      "oemBrand": "CITROËN",
       "oemDisplayNo": "4253 91"
     },
     {
@@ -1093,7 +1097,7 @@
       "oemDisplayNo": "4253 91"
     },
     {
-      "oemBrand": "CITRO\u00cbN",
+      "oemBrand": "CITROËN",
       "oemDisplayNo": "4254 48"
     },
     {

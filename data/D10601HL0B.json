@@ -113,7 +113,12 @@
       "constructionIntervalEnd": "2012-12-01"
     }
   ],
-  "specs": null,
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
   "oe": [
     {
       "oemBrand": "NISSAN",

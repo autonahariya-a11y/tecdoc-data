@@ -4,7 +4,12 @@
   "supplier": "ZPY",
   "product": "High Performance Brake Pad Set",
   "vehicles": [],
-  "specs": null,
+  "specs": [
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
   "oe": [
     {
       "oemBrand": "AUDI",
