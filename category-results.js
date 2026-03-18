@@ -554,28 +554,73 @@ window.__anFetchProductImages = function (catName, callback) {
    * ---------------------------------------------------------- */
 
   /**
-   * Check if a text field contains BOTH a brand alias AND a model alias.
-   * Works on comma-separated multi-value fields.
+   * All known vehicle brand names (Hebrew) for brand-carry-forward logic.
+   * When scanning comma-separated vehicle lists like
+   * "טויוטה קורולה, אבנסיס, ראב4" the brand טויוטה carries forward
+   * to entries that don't introduce a new brand.
+   */
+  var ALL_BRANDS_HE = [
+    '\u05d8\u05d5\u05d9\u05d5\u05d8\u05d4','\u05d4\u05d5\u05e0\u05d3\u05d4','\u05de\u05d6\u05d3\u05d4',
+    '\u05e0\u05d9\u05e1\u05df','\u05de\u05d9\u05e6\u05d5\u05d1\u05d9\u05e9\u05d9','\u05e1\u05d5\u05d1\u05d0\u05e8\u05d5',
+    '\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9','\u05e7\u05d9\u05d4','\u05e4\u05d5\u05dc\u05e7\u05e1\u05d5\u05d5\u05d2\u05df',
+    '\u05d0\u05d0\u05d5\u05d3\u05d9','\u05e1\u05e7\u05d5\u05d3\u05d4','\u05e1\u05d9\u05d0\u05d8',
+    '\u05e4\u05d9\u05d0\u05d8','\u05d0\u05dc\u05e4\u05d0 \u05e8\u05d5\u05de\u05d0\u05d5',
+    "\u05e4\u05d2\u05f3\u05d5",'\u05e1\u05d9\u05d8\u05e8\u05d5\u05d0\u05df','\u05e8\u05e0\u05d5',
+    '\u05d0\u05d5\u05e4\u05dc','\u05e9\u05d1\u05e8\u05d5\u05dc\u05d4','\u05e4\u05d5\u05e8\u05d3',
+    '\u05d1.\u05de.\u05d5\u05d5','\u05de\u05e8\u05e6\u05d3\u05e1','\u05d5\u05d5\u05dc\u05d5\u05d5',
+    '\u05e1\u05d5\u05d6\u05d5\u05e7\u05d9','\u05d3\u05d9\u05d9\u05d4\u05d8\u05e1\u05d5',
+    '\u05d0\u05d9\u05e1\u05d5\u05d6\u05d5',"\u05d2\u05f3\u05d9\u05e4",'\u05dc\u05e0\u05d3 \u05e8\u05d5\u05d1\u05e8',
+    "\u05d2\u05f3\u05d0\u05d2\u05d5\u05d0\u05e8",'\u05de\u05d9\u05e0\u05d9',"\u05d3\u05d0\u05e6\u05f3\u05d9\u05d4",
+    '\u05de\u05d9\u05e0\u05d9\u05e7\u05d5\u05e4\u05e8','\u05e1\u05e1\u05d0\u05e0\u05d2 \u05d9\u05d5\u05e0\u05d2'
+  ];
+  var ALL_BRANDS_NORM = [];
+  for (var _bi = 0; _bi < ALL_BRANDS_HE.length; _bi++) ALL_BRANDS_NORM.push(norm(ALL_BRANDS_HE[_bi]));
+
+  /**
+   * Check if a comma-separated vehicle field matches brand+model,
+   * using brand-carry-forward logic.
+   * e.g. "טויוטה קורולה, אבנסיס, ראב4" – brand טויוטה carries forward.
+   * Searching brand=טויוטה model=אבנסיס matches because אבנסיס
+   * inherits the טויוטה brand from the first entry.
+   * But "טויוטה היילקס, סקודה אוקטביה" searching for טויוטה אוקטביה
+   * does NOT match because אוקטביה is under סקודה brand.
    */
   function fieldMatches(field, brandAliases, modelAliases) {
     if (!field) return false;
     var parts = field.split(',');
-    var hasBrand = false, hasModel = false;
+    var currentBrand = '';
     for (var p = 0; p < parts.length; p++) {
       var n = norm(parts[p]);
-      if (!hasBrand) {
-        for (var b = 0; b < brandAliases.length; b++) {
-          if (n.indexOf(brandAliases[b]) !== -1) { hasBrand = true; break; }
+      /* Detect if this entry introduces a new brand (any known brand) */
+      var entryBrand = '';
+      for (var ab = 0; ab < ALL_BRANDS_NORM.length; ab++) {
+        if (n.indexOf(ALL_BRANDS_NORM[ab]) !== -1) {
+          entryBrand = ALL_BRANDS_NORM[ab];
+          break;
         }
       }
-      if (!hasModel) {
-        for (var m = 0; m < modelAliases.length; m++) {
-          if (n.indexOf(modelAliases[m]) !== -1) { hasModel = true; break; }
+      if (entryBrand) currentBrand = entryBrand;
+      /* Check if current entry (under currentBrand) matches search */
+      var matchesBrand = false;
+      for (var b = 0; b < brandAliases.length; b++) {
+        if (currentBrand && currentBrand.indexOf(brandAliases[b]) !== -1) {
+          matchesBrand = true; break;
+        }
+        /* Also check entry text directly for brand */
+        if (n.indexOf(brandAliases[b]) !== -1) {
+          matchesBrand = true; break;
         }
       }
-      if (hasBrand && hasModel) return true;
+      if (!matchesBrand) continue;
+      var matchesModel = false;
+      for (var m = 0; m < modelAliases.length; m++) {
+        if (n.indexOf(modelAliases[m]) !== -1) {
+          matchesModel = true; break;
+        }
+      }
+      if (matchesBrand && matchesModel) return true;
     }
-    return hasBrand && hasModel;
+    return false;
   }
 
   /**
@@ -637,27 +682,20 @@ window.__anFetchProductImages = function (catName, callback) {
   function activatePage() {
     document.body.classList.add('an-results-active');
 
-    /* Hide non-script children of #bg_middle or #wrapper */
-    var wrapper = $('bg_middle') || $('wrapper');
-    if (wrapper) {
-      var kids = wrapper.children;
+    /* Only hide page-specific content inside #bg_middle,
+       keep site header (#bg_header) and footer (#bg_footer) visible
+       so results feel integrated into the site. */
+    var middle = $('bg_middle');
+    if (middle) {
+      var kids = middle.children;
       for (var i = 0; i < kids.length; i++) {
         var el = kids[i];
-        if (el.id !== 'anResultsPage' && !el.querySelector('#anResultsPage')) {
-          el.style.display = 'none';
-        }
+        if (el.tagName === 'SCRIPT' || el.tagName === 'STYLE' || el.tagName === 'LINK') continue;
+        if (el.id === 'anResultsPage' || (el.querySelector && el.querySelector('#anResultsPage'))) continue;
+        /* Keep .an-parts-finder (the widget itself) visible */
+        if (el.classList && el.classList.contains('an-parts-finder')) continue;
+        el.style.display = 'none';
       }
-    }
-
-    /* Hide direct body children that aren't the wrapper */
-    var bodyKids = document.body.children;
-    for (var j = 0; j < bodyKids.length; j++) {
-      var bk = bodyKids[j];
-      if (bk.tagName === 'SCRIPT' || bk.tagName === 'STYLE' || bk.tagName === 'LINK') continue;
-      if (bk.id === 'anResultsPage') continue;
-      if (bk === wrapper) continue;
-      if (bk.querySelector && bk.querySelector('#anResultsPage')) continue;
-      bk.style.display = 'none';
     }
 
     var rp = $('anResultsPage');
