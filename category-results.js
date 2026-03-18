@@ -624,10 +624,38 @@ window.__anFetchProductImages = function (catName, callback) {
   }
 
   /**
+   * Check if a selected year falls within a product's year range.
+   * Formats: "1982-2006", "2010-2020", "2015+", "2005"
+   * Returns true if year is in range OR if no year data is available.
+   */
+  function yearInRange(yearsStr, selectedYear) {
+    if (!selectedYear) return true;   /* no year filter */
+    if (!yearsStr) return true;       /* no year data on product — include it */
+    var y = parseInt(selectedYear, 10);
+    if (isNaN(y)) return true;
+    var clean = yearsStr.replace(/"/g, '').trim();
+    /* Try range: "YYYY-YYYY" */
+    var m = clean.match(/(\d{4})\s*[-–]\s*(\d{4})/);
+    if (m) {
+      var lo = parseInt(m[1], 10);
+      var hi = parseInt(m[2], 10);
+      return y >= lo && y <= hi;
+    }
+    /* Try open-ended: "YYYY+" or "מYYYY" */
+    m = clean.match(/(\d{4})\s*[+]/);
+    if (m) return y >= parseInt(m[1], 10);
+    /* Single year */
+    m = clean.match(/(\d{4})/);
+    if (m) return y === parseInt(m[1], 10);
+    return true; /* unrecognized format — include */
+  }
+
+  /**
    * Match products from CSV rows against selected vehicle.
+   * selectedYear: the year chosen in the finder (string, e.g. "2017")
    * Returns object keyed by category name, each value is array of product objects.
    */
-  function matchProducts(rows, brandAliases, modelAliases) {
+  function matchProducts(rows, brandAliases, modelAliases, selectedYear) {
     var results = {};
     for (var i = 0; i < rows.length; i++) {
       var r = rows[i];
@@ -643,6 +671,9 @@ window.__anFetchProductImages = function (catName, callback) {
       var link     = r[9] || '';
 
       if (!category || !id) continue;
+
+      /* ---- Year filter: if product has year data, selected year must be in range ---- */
+      if (!yearInRange(years, selectedYear)) continue;
 
       /* Priority 1: column 7 – vehicles from title */
       var matched = fieldMatches(vehicles, brandAliases, modelAliases);
@@ -1071,7 +1102,7 @@ window.__anFetchProductImages = function (catName, callback) {
         return;
       }
 
-      var matched = matchProducts(rows, brandAliases, modelAliases);
+      var matched = matchProducts(rows, brandAliases, modelAliases, year);
       renderCategories(matched, brandHe, modelHe || modelEn);
     });
   }
