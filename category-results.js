@@ -115,45 +115,73 @@ window.__anFetchProductImages = function (catName, callback) {
    * ---------------------------------------------------------- */
   (function injectCSS() {
     var css =
-      /* Enhanced Product Grid */
-      '.an-parts-finder .an-products-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding:16px 0}' +
-      '.an-parts-finder .an-product-card{background:#fff;border:1px solid #e8eaed;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s ease,transform .15s ease;cursor:pointer;position:relative}' +
-      '.an-parts-finder .an-product-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.1);transform:translateY(-2px)}' +
-      '.an-parts-finder .an-product-img-wrap{position:relative;padding:16px;display:flex;align-items:center;justify-content:center;min-height:180px;background:#fafbfc}' +
-      '.an-parts-finder .an-product-img{max-width:100%;max-height:160px;object-fit:contain;transition:transform .3s ease}' +
-      '.an-parts-finder .an-product-card:hover .an-product-img{transform:scale(1.05)}' +
-      '.an-parts-finder .an-product-info{padding:0 16px 12px;flex:1;display:flex;flex-direction:column;gap:6px}' +
-      '.an-parts-finder .an-product-name{font-size:15px;font-weight:600;color:#1a1a2e;line-height:1.4;font-family:\'Heebo\',sans-serif;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}' +
-      '.an-parts-finder .an-product-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}' +
-      '.an-parts-finder .an-product-code{font-size:12px;color:#329FDA;background:rgba(50,159,218,.08);padding:3px 8px;border-radius:6px;font-weight:500;display:inline-block}' +
-      '.an-parts-finder .an-product-cat-badge{font-size:11px;color:#666;background:#f0f0f0;padding:2px 8px;border-radius:6px;display:inline-block}' +
-      '.an-parts-finder .an-product-years{font-size:12px;color:#888}' +
-      '.an-parts-finder .an-product-brand-logo{position:absolute;top:10px;left:10px;max-height:28px;max-width:60px;object-fit:contain;opacity:.85}' +
-      '.an-parts-finder .an-product-actions{padding:12px 16px;border-top:1px solid #f0f0f0;display:flex;gap:8px;direction:rtl}' +
-      '.an-parts-finder .an-btn{border:none;border-radius:8px;padding:10px 16px;font-size:13px;font-weight:600;font-family:\'Heebo\',sans-serif;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;transition:all .15s ease;text-decoration:none;flex:1;text-align:center}' +
+      /* === AUTODOC-style Product List (horizontal cards) === */
+      '.an-parts-finder .an-products-grid{display:flex;flex-direction:column;gap:12px;padding:12px 0}' +
+      '.an-parts-finder .an-product-card{background:#fff;border:1px solid #e8eaed;border-radius:10px;overflow:hidden;display:flex;flex-direction:row;transition:box-shadow .2s ease;position:relative;min-height:160px}' +
+      '.an-parts-finder .an-product-card:hover{box-shadow:0 2px 12px rgba(0,0,0,.08);border-color:#329FDA}' +
+      /* Image column */
+      '.an-parts-finder .an-product-img-col{position:relative;flex:0 0 180px;display:flex;align-items:center;justify-content:center;padding:16px;background:#fafbfc;border-left:1px solid #f0f0f0}' +
+      '.an-parts-finder .an-product-img{max-width:100%;max-height:140px;object-fit:contain}' +
+      '.an-parts-finder .an-product-brand-logo{position:absolute;top:8px;left:8px;max-height:28px;max-width:80px;object-fit:contain}' +
+      /* Info column */
+      '.an-parts-finder .an-product-info-col{flex:1;padding:14px 18px;display:flex;flex-direction:column;gap:6px;direction:rtl;min-width:0}' +
+      '.an-parts-finder .an-product-name{font-size:15px;font-weight:700;color:#1a1a2e;line-height:1.4;font-family:"Heebo",sans-serif;margin:0}' +
+      '.an-parts-finder .an-product-meta-row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:2px}' +
+      '.an-parts-finder .an-product-code{font-size:12px;color:#329FDA;background:rgba(50,159,218,.1);padding:3px 10px;border-radius:5px;font-weight:600;display:inline-flex;align-items:center;gap:4px;font-family:monospace,sans-serif}' +
+      '.an-parts-finder .an-product-cat-badge{font-size:11px;color:#666;background:#f0f0f0;padding:3px 8px;border-radius:5px;display:inline-block}' +
+      '.an-parts-finder .an-product-years{font-size:12px;color:#888;display:inline-flex;align-items:center;gap:4px}' +
+      '.an-parts-finder .an-product-years svg{flex-shrink:0}' +
+      /* Specs mini-table */
+      '.an-parts-finder .an-product-specs{display:flex;flex-wrap:wrap;gap:4px 16px;margin-top:4px;font-size:12px;color:#555}' +
+      '.an-parts-finder .an-product-spec{display:flex;gap:4px}' +
+      '.an-parts-finder .an-product-spec-label{color:#999;font-weight:400}' +
+      '.an-parts-finder .an-product-spec-val{font-weight:500;color:#333}' +
+      /* Action column */
+      '.an-parts-finder .an-product-action-col{flex:0 0 auto;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;border-right:1px solid #f0f0f0;min-width:140px}' +
+      '.an-parts-finder .an-product-stock{font-size:11px;color:#27ae60;display:flex;align-items:center;gap:4px;font-weight:500}' +
+      '.an-parts-finder .an-product-stock::before{content:"";width:7px;height:7px;border-radius:50%;background:#27ae60;display:inline-block}' +
+      '.an-parts-finder .an-btn{border:none;border-radius:8px;padding:10px 20px;font-size:13px;font-weight:600;font-family:"Heebo",sans-serif;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;transition:all .15s ease;text-decoration:none;text-align:center;width:100%}' +
       '.an-parts-finder .an-btn-cart{background:#329FDA;color:#fff}' +
       '.an-parts-finder .an-btn-cart:hover{background:#1B4E91}' +
       '.an-parts-finder .an-btn-cart.an-adding{opacity:.7}' +
       '.an-parts-finder .an-btn-cart.an-added{background:#27ae60;color:#fff}' +
-      '.an-parts-finder .an-btn-view{background:transparent;color:#329FDA;border:1.5px solid #329FDA}' +
-      '.an-parts-finder .an-btn-view:hover{background:rgba(50,159,218,.08)}' +
+      '.an-parts-finder .an-btn-view{background:transparent;color:#555;border:1.5px solid #ddd;font-size:12px;padding:7px 14px}' +
+      '.an-parts-finder .an-btn-view:hover{border-color:#329FDA;color:#329FDA}' +
       /* Products topbar */
-      '.an-parts-finder .an-products-topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 0;margin-bottom:8px;border-bottom:2px solid #329FDA;flex-wrap:wrap;gap:8px}' +
-      '.an-parts-finder .an-products-back-btn{background:none;border:1.5px solid #ddd;border-radius:8px;padding:8px 16px;font-size:14px;font-family:\'Heebo\',sans-serif;cursor:pointer;display:flex;align-items:center;gap:6px;color:#333;transition:all .15s ease}' +
+      '.an-parts-finder .an-products-topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 0;margin-bottom:4px;border-bottom:2px solid #329FDA;flex-wrap:wrap;gap:8px}' +
+      '.an-parts-finder .an-products-back-btn{background:none;border:1.5px solid #ddd;border-radius:8px;padding:8px 16px;font-size:14px;font-family:"Heebo",sans-serif;cursor:pointer;display:flex;align-items:center;gap:6px;color:#333;transition:all .15s ease}' +
       '.an-parts-finder .an-products-back-btn:hover{border-color:#329FDA;color:#329FDA}' +
-      '.an-parts-finder .an-products-cat-title{font-size:20px;font-weight:700;color:#1a1a2e;font-family:\'Heebo\',sans-serif}' +
-      '.an-parts-finder .an-products-count{font-size:14px;color:#888;font-family:\'Heebo\',sans-serif}' +
+      '.an-parts-finder .an-products-cat-title{font-size:20px;font-weight:700;color:#1a1a2e;font-family:"Heebo",sans-serif}' +
+      '.an-parts-finder .an-products-count{font-size:14px;color:#888;font-family:"Heebo",sans-serif}' +
       /* Enhanced Category Cards */
       '.an-parts-finder .an-cat-tile{background:#fff;border-radius:12px;padding:20px;text-align:center;cursor:pointer;transition:all .2s ease;border:1px solid #e8eaed;position:relative;overflow:hidden}' +
       '.an-parts-finder .an-cat-tile:hover{box-shadow:0 6px 24px rgba(50,159,218,.15);transform:translateY(-3px);border-color:#329FDA}' +
-      '.an-parts-finder .an-cat-tile:hover::after{content:\'\';position:absolute;bottom:0;left:0;right:0;height:3px;background:#329FDA}' +
+      '.an-parts-finder .an-cat-tile:hover::after{content:"";position:absolute;bottom:0;left:0;right:0;height:3px;background:#329FDA}' +
       '.an-parts-finder .an-cat-tile .an-cat-img{max-height:100px;max-width:100%;object-fit:contain;margin:0 auto 12px;display:block;transition:transform .3s ease}' +
       '.an-parts-finder .an-cat-tile:hover .an-cat-img{transform:scale(1.08)}' +
-      '.an-parts-finder .an-cat-name{font-size:15px;font-weight:600;color:#1a1a2e;font-family:\'Heebo\',sans-serif}' +
+      '.an-parts-finder .an-cat-name{font-size:15px;font-weight:600;color:#1a1a2e;font-family:"Heebo",sans-serif}' +
       '.an-parts-finder .an-cat-count{font-size:12px;color:#888;margin-top:4px}' +
-      /* Responsive */
-      '@media(max-width:900px){.an-parts-finder .an-products-grid{grid-template-columns:repeat(2,1fr);gap:12px}}' +
-      '@media(max-width:550px){.an-parts-finder .an-products-grid{grid-template-columns:1fr;gap:10px}.an-parts-finder .an-product-img-wrap{min-height:140px}}';
+      /* Brand filter bar */
+      '.an-parts-finder .an-brand-filter-bar{display:flex;gap:8px;overflow-x:auto;padding:8px 0 12px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}' +
+      '.an-parts-finder .an-brand-filter-bar::-webkit-scrollbar{height:4px}' +
+      '.an-parts-finder .an-brand-filter-bar::-webkit-scrollbar-thumb{background:#ccc;border-radius:2px}' +
+      '.an-parts-finder .an-brand-chip{display:flex;align-items:center;gap:6px;padding:6px 14px;border:1.5px solid #e0e0e0;border-radius:20px;font-size:12px;font-weight:600;font-family:"Heebo",sans-serif;cursor:pointer;white-space:nowrap;background:#fff;transition:all .15s ease;color:#444;flex-shrink:0}' +
+      '.an-parts-finder .an-brand-chip:hover,.an-parts-finder .an-brand-chip.active{border-color:#329FDA;background:rgba(50,159,218,.06);color:#1B4E91}' +
+      '.an-parts-finder .an-brand-chip img{height:18px;object-fit:contain}' +
+      '.an-parts-finder .an-brand-chip-all{background:#329FDA;color:#fff;border-color:#329FDA}' +
+      '.an-parts-finder .an-brand-chip-all:hover,.an-parts-finder .an-brand-chip-all.active{background:#1B4E91;border-color:#1B4E91}' +
+      /* Responsive: mobile */
+      '@media(max-width:768px){' +
+        '.an-parts-finder .an-product-card{flex-direction:column}' +
+        '.an-parts-finder .an-product-img-col{flex:none;min-height:120px;border-left:none;border-bottom:1px solid #f0f0f0}' +
+        '.an-parts-finder .an-product-action-col{flex-direction:row;border-right:none;border-top:1px solid #f0f0f0;min-width:auto;padding:10px 14px}' +
+        '.an-parts-finder .an-btn{flex:1}' +
+      '}' +
+      '@media(max-width:550px){' +
+        '.an-parts-finder .an-product-img-col{min-height:100px;padding:12px}' +
+        '.an-parts-finder .an-product-info-col{padding:10px 14px}' +
+        '.an-parts-finder .an-product-name{font-size:14px}' +
+      '}';
     var style = document.createElement('style');
     style.setAttribute('data-an-enhanced', '1');
     style.textContent = css;
@@ -764,18 +792,70 @@ window.__anFetchProductImages = function (catName, callback) {
     if (catTitle) catTitle.textContent = catName;
     if (countEl) countEl.textContent = products.length + ' \u05DE\u05D5\u05E6\u05E8\u05D9\u05DD';
 
-    /* Render enhanced product cards */
+    /* Detect unique parts brands for filter bar */
+    var brandSet = {};
+    for (var bi = 0; bi < products.length; bi++) {
+      var pName = products[bi].name.toUpperCase();
+      for (var bk = 0; bk < KNOWN_PART_BRANDS.length; bk++) {
+        if (pName.indexOf(KNOWN_PART_BRANDS[bk]) !== -1) {
+          brandSet[KNOWN_PART_BRANDS[bk]] = true;
+          break;
+        }
+      }
+    }
+
+    /* Insert brand filter bar before grid */
+    var existingBar = prodView.querySelector('.an-brand-filter-bar');
+    if (existingBar) existingBar.remove();
+    var brandKeys = Object.keys(brandSet).sort();
+    if (brandKeys.length > 1) {
+      var bar = document.createElement('div');
+      bar.className = 'an-brand-filter-bar';
+      bar.innerHTML = '<span class="an-brand-chip an-brand-chip-all active" data-brand="all">\u05D4\u05DB\u05DC (' + products.length + ')</span>';
+      for (var bci = 0; bci < brandKeys.length; bci++) {
+        var bSlug = brandKeys[bci].toLowerCase().replace(/[^a-z0-9]/g, '-');
+        var bLogo = LOGOS_BASE + bSlug + '.svg';
+        bar.innerHTML += '<span class="an-brand-chip" data-brand="' + esc(brandKeys[bci]) + '">' +
+          '<img src="' + bLogo + '" onerror="this.style.display=\'none\'" alt="">' +
+          esc(brandKeys[bci]) + '</span>';
+      }
+      var topbar = $('anProductsTopbar') || prodGrid.parentNode;
+      if (topbar && topbar.parentNode) {
+        topbar.parentNode.insertBefore(bar, prodGrid);
+      }
+      /* Filter logic */
+      bar.addEventListener('click', function(e) {
+        var chip = e.target.closest('.an-brand-chip');
+        if (!chip) return;
+        var chips = bar.querySelectorAll('.an-brand-chip');
+        for (var cc = 0; cc < chips.length; cc++) chips[cc].classList.remove('active');
+        chip.classList.add('active');
+        var filter = chip.getAttribute('data-brand');
+        var cards = prodGrid.querySelectorAll('.an-product-card');
+        for (var ci = 0; ci < cards.length; ci++) {
+          if (filter === 'all') { cards[ci].style.display = ''; }
+          else { cards[ci].style.display = (cards[ci].getAttribute('data-brand') === filter) ? '' : 'none'; }
+        }
+        /* Update count */
+        var visible = prodGrid.querySelectorAll('.an-product-card:not([style*="display: none"])').length;
+        if (countEl) countEl.textContent = visible + ' \u05DE\u05D5\u05E6\u05E8\u05D9\u05DD';
+      });
+    }
+
+    /* Render AUTODOC-style horizontal product cards */
     prodGrid.innerHTML = '';
     for (var i = 0; i < products.length; i++) {
       var p = products[i];
 
-      /* Try to detect parts brand for logo */
+      /* Detect parts brand for logo */
       var brandLogoUrl = '';
+      var detectedBrand = '';
       var nameUpper = p.name.toUpperCase();
       for (var b = 0; b < KNOWN_PART_BRANDS.length; b++) {
         if (nameUpper.indexOf(KNOWN_PART_BRANDS[b]) !== -1) {
+          detectedBrand = KNOWN_PART_BRANDS[b];
           var bSlug = KNOWN_PART_BRANDS[b].toLowerCase().replace(/[^a-z0-9]/g, '-');
-          brandLogoUrl = LOGOS_BASE + bSlug + '.png';
+          brandLogoUrl = LOGOS_BASE + bSlug + '.svg';
           break;
         }
       }
@@ -783,27 +863,38 @@ window.__anFetchProductImages = function (catName, callback) {
       var card = document.createElement('div');
       card.className = 'an-product-card';
       card.setAttribute('data-pid', p.id);
+      card.setAttribute('data-brand', detectedBrand);
 
       var brandLogoHtml = brandLogoUrl
-        ? '<img class="an-product-brand-logo" src="' + brandLogoUrl + '" onerror="this.style.display=\'none\'" alt="" loading="lazy">'
+        ? '<img class="an-product-brand-logo" src="' + brandLogoUrl + '" onerror="this.style.display=\'none\'" alt="' + esc(detectedBrand) + '" loading="lazy">'
         : '';
 
+      /* Year icon SVG */
+      var yearIcon = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>';
+
+      /* Part code icon SVG */
+      var codeIcon = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> ';
+
       card.innerHTML =
-        '<div class="an-product-img-wrap">' +
+        /* Image column */
+        '<div class="an-product-img-col">' +
           brandLogoHtml +
           '<img class="an-product-img" data-pid="' + esc(p.id) + '" ' +
-          'src="data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'150\' height=\'150\'%3E%3Crect fill=\'%23f5f5f5\' width=\'150\' height=\'150\' rx=\'8\'/%3E%3C/svg%3E" ' +
+          'src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27150%27 height=%27150%27%3E%3Crect fill=%27%23f5f5f5%27 width=%27150%27 height=%27150%27 rx=%278%27/%3E%3C/svg%3E" ' +
           'alt="' + esc(p.name) + '" loading="lazy">' +
         '</div>' +
-        '<div class="an-product-info">' +
+        /* Info column */
+        '<div class="an-product-info-col">' +
           '<div class="an-product-name">' + esc(p.name) + '</div>' +
-          '<div class="an-product-meta">' +
-            (p.partCode ? '<span class="an-product-code">' + esc(p.partCode) + '</span>' : '') +
+          '<div class="an-product-meta-row">' +
+            (p.partCode ? '<span class="an-product-code">' + codeIcon + esc(p.partCode) + '</span>' : '') +
             '<span class="an-product-cat-badge">' + esc(catName) + '</span>' +
+            (p.years ? '<span class="an-product-years">' + yearIcon + ' ' + esc(p.years) + '</span>' : '') +
           '</div>' +
-          (p.years ? '<div class="an-product-years">\u05E9\u05E0\u05D9\u05DD: ' + esc(p.years) + '</div>' : '') +
         '</div>' +
-        '<div class="an-product-actions">' +
+        /* Action column */
+        '<div class="an-product-action-col">' +
+          '<div class="an-product-stock">\u05D1\u05DE\u05DC\u05D0\u05D9</div>' +
           '<button class="an-btn an-btn-cart" ' +
             'data-iid="' + esc(p.id) + '" data-name="' + esc(p.name) + '" data-url="' + esc(p.link || '') + '" ' +
             'onclick="window.__anAddCart(this)">' +
@@ -832,6 +923,9 @@ window.__anFetchProductImages = function (catName, callback) {
       backBtn.onclick = function () {
         prodView.style.display = 'none';
         if (catView) catView.style.display = '';
+        /* Remove brand filter bar */
+        var filterBar = document.querySelector('.an-brand-filter-bar');
+        if (filterBar) filterBar.remove();
         window.scrollTo(0, 0);
       };
     }
