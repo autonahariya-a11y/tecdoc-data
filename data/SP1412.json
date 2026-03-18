@@ -1,0 +1,78 @@
+{
+  "articleNo": "SP1412",
+  "articleId": 9157249,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 16548,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.5 D-4D (KDN145, KDN150)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 25451,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25_, KUN25R)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25452,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15_, KUN15R)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "146,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "53,2"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-01,1034/3078"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650K120"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650K130"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650K310"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZDU"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1412",
+  "fetchedAt": "2026-03-18T13:04:20Z"
+}

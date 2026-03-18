@@ -1,0 +1,145 @@
+{
+  "articleNo": "SP2078",
+  "articleId": 9161372,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 9556,
+      "modelId": 3563,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER II (R50)",
+      "typeEngineName": "3.2 TD 4WD",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 10013,
+      "modelId": 3892,
+      "manufacturerName": "NISSAN",
+      "modelName": "PICK UP (D22)",
+      "typeEngineName": "2.4 i 4WD",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 10014,
+      "modelId": 3892,
+      "manufacturerName": "NISSAN",
+      "modelName": "PICK UP (D22)",
+      "typeEngineName": "2.5 D",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 10015,
+      "modelId": 3892,
+      "manufacturerName": "NISSAN",
+      "modelName": "PICK UP (D22)",
+      "typeEngineName": "2.5 TD 4WD",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 10016,
+      "modelId": 3892,
+      "manufacturerName": "NISSAN",
+      "modelName": "PICK UP (D22)",
+      "typeEngineName": "2.4 i",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 10017,
+      "modelId": 3892,
+      "manufacturerName": "NISSAN",
+      "modelName": "PICK UP (D22)",
+      "typeEngineName": "2.5 D 4WD",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 16775,
+      "modelId": 3892,
+      "manufacturerName": "NISSAN",
+      "modelName": "PICK UP (D22)",
+      "typeEngineName": "2.4 i 4WD",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 16837,
+      "modelId": 3892,
+      "manufacturerName": "NISSAN",
+      "modelName": "PICK UP (D22)",
+      "typeEngineName": "3.2 D 4WD",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 17717,
+      "modelId": 3892,
+      "manufacturerName": "NISSAN",
+      "modelName": "PICK UP (D22)",
+      "typeEngineName": "2.5 Di",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 57648,
+      "modelId": 7813,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA (D22)",
+      "typeEngineName": "2.5 D 4x4",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "164"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "56,5"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/1227"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "4106072025"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "410607Z026"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "41060VK190"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060VK100"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060VK190"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP2078",
+  "fetchedAt": "2026-03-18T13:11:49Z"
+}

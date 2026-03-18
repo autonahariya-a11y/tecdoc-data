@@ -1,0 +1,66 @@
+{
+  "articleNo": "SP4242",
+  "articleId": 9165912,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 124833,
+      "modelId": 37426,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (PDE, PD, PDEN)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124836,
+      "modelId": 37426,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (PDE, PD, PDEN)",
+      "typeEngineName": "1.4 T-GDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 133105,
+      "modelId": 38363,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 FASTBACK (PDE, PDEN)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": "2022-01-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "19"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "148,8"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "59,4"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/4999"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101G4A10"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP4242",
+  "fetchedAt": "2026-03-18T13:14:09Z"
+}

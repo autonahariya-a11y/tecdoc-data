@@ -1,0 +1,737 @@
+{
+  "articleNo": "SP2111",
+  "articleId": 9161487,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 3393,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "1.6 MIVEC",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3394,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "1.8 (CY3A, CY6A)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3484,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "1.8 DI-D",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3520,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "1.6 MIVEC",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3541,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "1.8 MIVEC (CX3A, CX6A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3560,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "1.8 DI-D",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 4963,
+      "modelId": 6410,
+      "manufacturerName": "DODGE",
+      "modelName": "AVENGER",
+      "typeEngineName": "2.7",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 9595,
+      "modelId": 7091,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "SEBRING (JS)",
+      "typeEngineName": "2.4 VVT",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 9596,
+      "modelId": 7090,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "SEBRING Convertible (JS)",
+      "typeEngineName": "2.4 VVT",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 9867,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.2 CRD 4x4",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10156,
+      "modelId": 6740,
+      "manufacturerName": "JEEP",
+      "modelName": "PATRIOT (MK74)",
+      "typeEngineName": "2.2 CRD 4x4",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 10449,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "1.8 Flex (CX3A, CX6A)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11437,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11453,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.2 CRD",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12179,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14893,
+      "modelId": 1549,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VI (CJ_, CP_)",
+      "typeEngineName": "EVO V (CP9A)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 17284,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.0 4WD (CU2W)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 17400,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.4 4WD (CU5W)",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 17750,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 17751,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "1.6 (CS3A)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 17752,
+      "modelId": 5077,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII Estate (CS_W, CT_W)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 17753,
+      "modelId": 5077,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII Estate (CS_W, CT_W)",
+      "typeEngineName": "2.0 (CS9W)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17904,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO VIII - 260 (CT9A)",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 18212,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "2.0 (CS9A)",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 18617,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.0 Turbo 4WD (CU2W)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 18736,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.0 Turbo-R 4WD (CU2W)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 18738,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.4 4WD (CU4W)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 18739,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.4 4WD (CU5W)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 18983,
+      "modelId": 4992,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER I (CU_W)",
+      "typeEngineName": "2.0 (CU2W)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 19366,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "EVO IX (CT9A)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 19762,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19763,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.0 CRD 4x4",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19944,
+      "modelId": 5628,
+      "manufacturerName": "DODGE",
+      "modelName": "CALIBER",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 19945,
+      "modelId": 5628,
+      "manufacturerName": "DODGE",
+      "modelName": "CALIBER",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19946,
+      "modelId": 5628,
+      "manufacturerName": "DODGE",
+      "modelName": "CALIBER",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19947,
+      "modelId": 5628,
+      "manufacturerName": "DODGE",
+      "modelName": "CALIBER",
+      "typeEngineName": "2.0 CRD",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 21591,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 21592,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.0 CRD",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23234,
+      "modelId": 6410,
+      "manufacturerName": "DODGE",
+      "modelName": "AVENGER",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23235,
+      "modelId": 6410,
+      "manufacturerName": "DODGE",
+      "modelName": "AVENGER",
+      "typeEngineName": "2.0 CRD",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 24539,
+      "modelId": 6740,
+      "manufacturerName": "JEEP",
+      "modelName": "PATRIOT (MK74)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 24540,
+      "modelId": 6740,
+      "manufacturerName": "JEEP",
+      "modelName": "PATRIOT (MK74)",
+      "typeEngineName": "2.0 CRD 4x4",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 24542,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "1.8 (CY3A, CY6A)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24543,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "2.0 DI-D (CY8A)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26645,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "1.8 (CX3A)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26646,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "2.0 DI-D (CX8A)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26647,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27568,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27580,
+      "modelId": 6410,
+      "manufacturerName": "DODGE",
+      "modelName": "AVENGER",
+      "typeEngineName": "2.7 Flex-Fuel",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30389,
+      "modelId": 6740,
+      "manufacturerName": "JEEP",
+      "modelName": "PATRIOT (MK74)",
+      "typeEngineName": "2.4 Eco + 4x4",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 30688,
+      "modelId": 7091,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "SEBRING (JS)",
+      "typeEngineName": "2.0 VVT",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 30851,
+      "modelId": 5628,
+      "manufacturerName": "DODGE",
+      "modelName": "CALIBER",
+      "typeEngineName": "2.4 Turbo",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30930,
+      "modelId": 7091,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "SEBRING (JS)",
+      "typeEngineName": "2.0 CRD",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 30931,
+      "modelId": 7090,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "SEBRING Convertible (JS)",
+      "typeEngineName": "2.0 CRD",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 30932,
+      "modelId": 7090,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "SEBRING Convertible (JS)",
+      "typeEngineName": "2.7",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 32140,
+      "modelId": 6410,
+      "manufacturerName": "DODGE",
+      "modelName": "AVENGER",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33495,
+      "modelId": 5076,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VII (CS_A, CT_A)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 33678,
+      "modelId": 5628,
+      "manufacturerName": "DODGE",
+      "modelName": "CALIBER",
+      "typeEngineName": "2.2 CRD",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 34937,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "2.0 Ralliart 4WD (CX4A)",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34984,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "1.8 DI-D (CX9A)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34985,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "1.8 DI-D (CY9A)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55453,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "1.8 Bifuel (CY3A, CY6A)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55454,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "1.8 Bifuel (CX3A, CX6A)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55455,
+      "modelId": 7379,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII Sportback (CX_A)",
+      "typeEngineName": "1.5 Bifuel",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55456,
+      "modelId": 6741,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "LANCER VIII (CY_A, CZ_A)",
+      "typeEngineName": "1.5 Bifuel",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56336,
+      "modelId": 10624,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III (GG_W, GF_W, ZJ, ZL, ZK)",
+      "typeEngineName": "2.0 (GF7W)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 56337,
+      "modelId": 10624,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III (GG_W, GF_W, ZJ, ZL, ZK)",
+      "typeEngineName": "2.0 4WD (GF7W)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 56338,
+      "modelId": 10624,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III (GG_W, GF_W, ZJ, ZL, ZK)",
+      "typeEngineName": "2.2 DI-D (GF6W)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 56339,
+      "modelId": 10624,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III (GG_W, GF_W, ZJ, ZL, ZK)",
+      "typeEngineName": "2.2 DI-D 4WD (GF6W)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 108013,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.2 CRD 4x4",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15,3"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "35,7"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "40"
+    },
+    {
+      "criteriaName": "Width 1 [mm]",
+      "criteriaValue": "105,9"
+    },
+    {
+      "criteriaName": "Width 2 [mm]",
+      "criteriaValue": "85,5"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E11 90R02A0786/17383"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "05191271AA"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "05191271AB"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "05191271AC"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "4605A336"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "4605A337"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "4605A479"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "4605A493"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "4605A558"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "5191217AC"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "5191271AA"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "5191271AB"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "5191271AC"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MN116929"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR955068"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MZ690187"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MZ690350"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP2111",
+  "fetchedAt": "2026-03-18T13:12:49Z"
+}

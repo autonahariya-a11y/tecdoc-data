@@ -1,0 +1,149 @@
+{
+  "articleNo": "SP4212",
+  "articleId": 9165830,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 12928,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 AllGrip (AKK 416)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 20735,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 DDiS (AKK 416D)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 30795,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 DDiS AllGrip (AKK 416D)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 33192,
+      "modelId": 11477,
+      "manufacturerName": "SUZUKI",
+      "modelName": "SX4 S-CROSS (JY)",
+      "typeEngineName": "1.6 (AKK 416)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 110038,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 (APK 416)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110039,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 AllGrip (APK 416)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110040,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 DDiS (APK 416D)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110041,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.6 DDiS AllGrip (APK416D)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116537,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.4 T (APK414)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116538,
+      "modelId": 13638,
+      "manufacturerName": "SUZUKI",
+      "modelName": "VITARA (LY)",
+      "typeEngineName": "1.4 T AllGrip (APK414)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "141,4"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "54,8"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/3977"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "4605B949"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581061M00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581061M01"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581061M01000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581061M50"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5581061M50000"
+    }
+  ],
+  "ean": "0880953579651",
+  "originalSKU": "SP4212",
+  "fetchedAt": "2026-03-18T13:14:00Z"
+}

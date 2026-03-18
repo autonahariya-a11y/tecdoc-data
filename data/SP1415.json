@@ -1,0 +1,601 @@
+{
+  "articleNo": "SP1415",
+  "articleId": 9157254,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 1849,
+      "modelId": 5648,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Van (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 1978,
+      "modelId": 5647,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Bus (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 5983,
+      "modelId": 5642,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT TEPEE (VF3X_)",
+      "typeEngineName": "2.0 HDi 120 4x4",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 10864,
+      "modelId": 5647,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Bus (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 11125,
+      "modelId": 5642,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT TEPEE (VF3X_)",
+      "typeEngineName": "2.0 HDi 100",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 11126,
+      "modelId": 5642,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT TEPEE (VF3X_)",
+      "typeEngineName": "2.0 HDi 130",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11128,
+      "modelId": 5643,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (VF3A_, VF3U_, VF3X_)",
+      "typeEngineName": "2.0 HDi 100",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11130,
+      "modelId": 5643,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (VF3A_, VF3U_, VF3X_)",
+      "typeEngineName": "2.0 HDi 130",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12049,
+      "modelId": 5640,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II (VF7)",
+      "typeEngineName": "2.0 HDi 95",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 12051,
+      "modelId": 5641,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II Van",
+      "typeEngineName": "2.0 HDi 95",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 12053,
+      "modelId": 5640,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II (VF7)",
+      "typeEngineName": "2.0 HDi 125",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 12054,
+      "modelId": 5641,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II Van",
+      "typeEngineName": "2.0 HDi 125",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 13960,
+      "modelId": 5648,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Van (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20035,
+      "modelId": 5640,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II (VF7)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20036,
+      "modelId": 5640,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II (VF7)",
+      "typeEngineName": "1.6 HDi 90 16V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20037,
+      "modelId": 5640,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II (VF7)",
+      "typeEngineName": "2.0 HDi 120",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20038,
+      "modelId": 5640,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II (VF7)",
+      "typeEngineName": "2.0 HDi 140",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20039,
+      "modelId": 5641,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II Van",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20040,
+      "modelId": 5641,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II Van",
+      "typeEngineName": "1.6 HDi 90 16V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20041,
+      "modelId": 5641,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II Van",
+      "typeEngineName": "2.0 HDi 120",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20042,
+      "modelId": 5641,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II Van",
+      "typeEngineName": "2.0 HDi 140",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20050,
+      "modelId": 5642,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT TEPEE (VF3X_)",
+      "typeEngineName": "1.6 HDi 90 16V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20051,
+      "modelId": 5642,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT TEPEE (VF3X_)",
+      "typeEngineName": "2.0 HDi 120",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20052,
+      "modelId": 5642,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT TEPEE (VF3X_)",
+      "typeEngineName": "2.0 HDi 140",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20058,
+      "modelId": 5643,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (VF3A_, VF3U_, VF3X_)",
+      "typeEngineName": "1.6 HDi 90 16V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20059,
+      "modelId": 5643,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (VF3A_, VF3U_, VF3X_)",
+      "typeEngineName": "2.0 HDi 120",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20060,
+      "modelId": 5643,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (VF3A_, VF3U_, VF3X_)",
+      "typeEngineName": "2.0 HDi 140",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20061,
+      "modelId": 5644,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Platform/Chassis",
+      "typeEngineName": "1.6 HDi 90 16V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20062,
+      "modelId": 5644,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Platform/Chassis",
+      "typeEngineName": "2.0 HDi 120",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20063,
+      "modelId": 5644,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Platform/Chassis",
+      "typeEngineName": "2.0 HDi 140",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20076,
+      "modelId": 5647,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Bus (270_, 272_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20077,
+      "modelId": 5647,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Bus (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20079,
+      "modelId": 5647,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Bus (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20081,
+      "modelId": 5648,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Van (270_, 272_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20083,
+      "modelId": 5648,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Van (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20084,
+      "modelId": 5648,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Van (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20085,
+      "modelId": 5649,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Platform/Chassis (270_, 272_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20086,
+      "modelId": 5649,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Platform/Chassis (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 20087,
+      "modelId": 5649,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Platform/Chassis (270_, 272_)",
+      "typeEngineName": "2.0 D Multijet",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 22692,
+      "modelId": 5642,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT TEPEE (VF3X_)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 22693,
+      "modelId": 5643,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (VF3A_, VF3U_, VF3X_)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33620,
+      "modelId": 5642,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT TEPEE (VF3X_)",
+      "typeEngineName": "2.0 HDi 165",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33621,
+      "modelId": 5643,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (VF3A_, VF3U_, VF3X_)",
+      "typeEngineName": "2.0 HDi 165",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33791,
+      "modelId": 5640,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II (VF7)",
+      "typeEngineName": "2.0 HDi 165",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 33792,
+      "modelId": 5641,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II Van",
+      "typeEngineName": "2.0 HDi 165",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 107956,
+      "modelId": 5640,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II (VF7)",
+      "typeEngineName": "1.6 HDi 90 8V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 107957,
+      "modelId": 5642,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT TEPEE (VF3X_)",
+      "typeEngineName": "1.6 HDi 90 8V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 107958,
+      "modelId": 5643,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (VF3A_, VF3U_, VF3X_)",
+      "typeEngineName": "1.6 HDi 90 8V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107959,
+      "modelId": 5641,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY II Van",
+      "typeEngineName": "1.6 HDi 90 8V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 117954,
+      "modelId": 5647,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Bus (270_, 272_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 117955,
+      "modelId": 5648,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Van (270_, 272_)",
+      "typeEngineName": "1.6 D Multijet",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 119825,
+      "modelId": 5644,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Platform/Chassis",
+      "typeEngineName": "1.6 HDi 90 8V",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119826,
+      "modelId": 5644,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Platform/Chassis",
+      "typeEngineName": "2.0 HDi 130",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119828,
+      "modelId": 5644,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Platform/Chassis",
+      "typeEngineName": "2.0 HDi 165",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "161,8"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "67,3"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/2199"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "0009467548988"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425363"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425363"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425364"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "425364"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425364"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425365"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425365"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425366"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425366"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "4254A1"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "4254A1"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "4254A2"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "4254A2"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "77364511"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "77364512"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "9467548887"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "9467548888"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "9467548987"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "9467548988"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1415",
+  "fetchedAt": "2026-03-18T13:04:31Z"
+}

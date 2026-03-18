@@ -1,0 +1,100 @@
+{
+  "articleNo": "SP1405",
+  "articleId": 9157228,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 7067,
+      "modelId": 9134,
+      "manufacturerName": "KIA",
+      "modelName": "PICANTO II (TA)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 7068,
+      "modelId": 9134,
+      "manufacturerName": "KIA",
+      "modelName": "PICANTO II (TA)",
+      "typeEngineName": "1.0 Bi-Fuel",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 7072,
+      "modelId": 9134,
+      "manufacturerName": "KIA",
+      "modelName": "PICANTO II (TA)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 53302,
+      "modelId": 9134,
+      "manufacturerName": "KIA",
+      "modelName": "PICANTO II (TA)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 114210,
+      "modelId": 9134,
+      "manufacturerName": "KIA",
+      "modelName": "PICANTO II (TA)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "110"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "47,5"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-01,945/3164"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "581011YA00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581011YA10"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581011YA20"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "581011YA30"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101A3A00"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1405",
+  "fetchedAt": "2026-03-18T13:04:15Z"
+}

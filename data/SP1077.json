@@ -1,0 +1,569 @@
+{
+  "articleNo": "SP1077",
+  "articleId": 9156475,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 8845,
+      "modelId": 5404,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Saloon",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 9024,
+      "modelId": 3411,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA (J100)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9025,
+      "modelId": 3513,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J100)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9026,
+      "modelId": 3513,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J100)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "1999-05-01"
+    },
+    {
+      "vehicleId": 9027,
+      "modelId": 3412,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Wagon (J100)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "1999-05-01"
+    },
+    {
+      "vehicleId": 9028,
+      "modelId": 3412,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Wagon (J100)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9034,
+      "modelId": 3512,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LANOS (KLAT)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10781,
+      "modelId": 3411,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA (J100)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "1999-05-01"
+    },
+    {
+      "vehicleId": 14138,
+      "modelId": 3410,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LANOS Saloon (KLAT)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14857,
+      "modelId": 4642,
+      "manufacturerName": "DAEWOO",
+      "modelName": "REZZO (U100)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14858,
+      "modelId": 4642,
+      "manufacturerName": "DAEWOO",
+      "modelName": "REZZO (U100)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16515,
+      "modelId": 4642,
+      "manufacturerName": "DAEWOO",
+      "modelName": "REZZO (U100)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16518,
+      "modelId": 4642,
+      "manufacturerName": "DAEWOO",
+      "modelName": "REZZO (U100)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 17237,
+      "modelId": 4979,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17238,
+      "modelId": 4979,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17580,
+      "modelId": 5046,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LACETTI Hatchback (KLAN)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17962,
+      "modelId": 5046,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LACETTI Hatchback (KLAN)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17963,
+      "modelId": 5046,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LACETTI Hatchback (KLAN)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18536,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18537,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18538,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18539,
+      "modelId": 5404,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Saloon",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 18540,
+      "modelId": 5404,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Saloon",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 18542,
+      "modelId": 5405,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Estate",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 18544,
+      "modelId": 5405,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Estate",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 18547,
+      "modelId": 5406,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "REZZO MPV (U100)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18548,
+      "modelId": 5406,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "REZZO MPV (U100)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19430,
+      "modelId": 3513,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J100)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2000-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19431,
+      "modelId": 3412,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Wagon (J100)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2000-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19432,
+      "modelId": 3412,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Wagon (J100)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19433,
+      "modelId": 3513,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J100)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19434,
+      "modelId": 3412,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Wagon (J100)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19435,
+      "modelId": 4642,
+      "manufacturerName": "DAEWOO",
+      "modelName": "REZZO (U100)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19501,
+      "modelId": 5556,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO / KALOS Saloon (T250, T255)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 19767,
+      "modelId": 5406,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "REZZO MPV (U100)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19768,
+      "modelId": 5406,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "REZZO MPV (U100)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2009-09-01"
+    },
+    {
+      "vehicleId": 19769,
+      "modelId": 5405,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Estate",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 19770,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 19800,
+      "modelId": 5607,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Wagon (J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19801,
+      "modelId": 5607,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Wagon (J200)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20626,
+      "modelId": 3513,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J100)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 22110,
+      "modelId": 6065,
+      "manufacturerName": "DAEWOO",
+      "modelName": "LACETTI Saloon",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 24468,
+      "modelId": 5405,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Estate",
+      "typeEngineName": "2.0 D",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 24469,
+      "modelId": 5403,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI (J200)",
+      "typeEngineName": "2.0 D",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33016,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33017,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33666,
+      "modelId": 5404,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "NUBIRA Saloon",
+      "typeEngineName": "2.0 D",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 55079,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55440,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55442,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108085,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113243,
+      "modelId": 14179,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "LACETTI Saloon (J200)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 128998,
+      "modelId": 38270,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Estate (J150)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 129352,
+      "modelId": 3513,
+      "manufacturerName": "DAEWOO",
+      "modelName": "NUBIRA Saloon (J100)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "1999-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "143"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "51,3"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "AKEBONO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A1314/0743"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "96281937"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "96281937"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "96405129"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "96495227"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "PS4510005"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "PS4510009"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "S4510001"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "S4510005"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "S4510009"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "S4510011"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "S4511004"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "S4511006"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1077",
+  "fetchedAt": "2026-03-18T12:59:02Z"
+}

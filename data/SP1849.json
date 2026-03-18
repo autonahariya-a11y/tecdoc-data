@@ -1,0 +1,537 @@
+{
+  "articleNo": "SP1849",
+  "articleId": 9158077,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 55074,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 56855,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 106070,
+      "modelId": 12796,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL II (PS)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 106071,
+      "modelId": 12796,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL II (PS)",
+      "typeEngineName": "1.6 CRDi 128",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 108081,
+      "modelId": 12796,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL II (PS)",
+      "typeEngineName": "EV Electric",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 109528,
+      "modelId": 14965,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA VII (LF)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 113293,
+      "modelId": 12796,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL II (PS)",
+      "typeEngineName": "1.6 CRDi 136",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 114608,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "2.0 CRDi All-wheel Drive",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 114609,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "1.6 T-GDi All-wheel Drive",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 115212,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "1.6 T-GDi",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2023-05-01"
+    },
+    {
+      "vehicleId": 115216,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "1.6 GDi",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 115218,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 115220,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "2.0 CRDi All-wheel Drive",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 115221,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 117220,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 118592,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "1.6 T-GDI AWD",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 118593,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "1.6 T-GDI",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 118594,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 118595,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "2.0 CRDi AWD",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 118596,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "2.0 CRDi AWD",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 118597,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 118701,
+      "modelId": 14969,
+      "manufacturerName": "KIA",
+      "modelName": "OPTIMA (JF)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 118978,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 118979,
+      "modelId": 14969,
+      "manufacturerName": "KIA",
+      "modelName": "OPTIMA (JF)",
+      "typeEngineName": "2.0 CVVL",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 119016,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 119122,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2020-09-01"
+    },
+    {
+      "vehicleId": 120778,
+      "modelId": 12796,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL II (PS)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 121827,
+      "modelId": 12796,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL II (PS)",
+      "typeEngineName": "EV Electric",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-11-01"
+    },
+    {
+      "vehicleId": 122003,
+      "modelId": 36968,
+      "manufacturerName": "KIA",
+      "modelName": "OPTIMA Sportswagon (JF)",
+      "typeEngineName": "2.0 CVVL",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 122006,
+      "modelId": 36968,
+      "manufacturerName": "KIA",
+      "modelName": "OPTIMA Sportswagon (JF)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 122198,
+      "modelId": 14969,
+      "manufacturerName": "KIA",
+      "modelName": "OPTIMA (JF)",
+      "typeEngineName": "2.0 CVVL",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 122966,
+      "modelId": 14969,
+      "manufacturerName": "KIA",
+      "modelName": "OPTIMA (JF)",
+      "typeEngineName": "2.0 GDI Hybrid",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 123827,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "1.7 CRDi",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 123828,
+      "modelId": 12796,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL II (PS)",
+      "typeEngineName": "1.6 TGDI",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 125591,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2015-12-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 127771,
+      "modelId": 14965,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA VII (LF)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 127776,
+      "modelId": 14965,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA VII (LF)",
+      "typeEngineName": "2.4 GDI",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 127781,
+      "modelId": 14965,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA VII (LF)",
+      "typeEngineName": "1.7 CRDI",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 127922,
+      "modelId": 14965,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA VII (LF)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 128030,
+      "modelId": 38087,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (OS, OSE, OSI)",
+      "typeEngineName": "1.6 T-GDi",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 128292,
+      "modelId": 38087,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (OS, OSE, OSI)",
+      "typeEngineName": "1.6 T-GDi 4WD",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 129050,
+      "modelId": 14965,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA VII (LF)",
+      "typeEngineName": "2.0 MPI",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 131061,
+      "modelId": 38087,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (OS, OSE, OSI)",
+      "typeEngineName": "EV",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 132534,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 132537,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "1.6 CRDi AWD",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 132630,
+      "modelId": 38087,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (OS, OSE, OSI)",
+      "typeEngineName": "1.6 CRDi e-VGT",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 133107,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 133108,
+      "modelId": 14316,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (TL, TLE)",
+      "typeEngineName": "1.6 CRDi All-wheel Drive",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 133722,
+      "modelId": 36798,
+      "manufacturerName": "KIA",
+      "modelName": "NIRO I (DE)",
+      "typeEngineName": "E-NIRO",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2022-08-01"
+    },
+    {
+      "vehicleId": 133723,
+      "modelId": 36798,
+      "manufacturerName": "KIA",
+      "modelName": "NIRO I (DE)",
+      "typeEngineName": "E-NIRO",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2022-08-01"
+    },
+    {
+      "vehicleId": 133975,
+      "modelId": 36216,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE IV (QL, QLE)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2022-09-01"
+    },
+    {
+      "vehicleId": 134379,
+      "modelId": 14965,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA VII (LF)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 136149,
+      "modelId": 38087,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (OS, OSE, OSI)",
+      "typeEngineName": "EV",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2023-04-01"
+    },
+    {
+      "vehicleId": 137594,
+      "modelId": 38087,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (OS, OSE, OSI)",
+      "typeEngineName": "1.6 GDi Hybrid",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": "2023-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "138"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "61"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E11 90R02A0787/31192"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101D4A00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101D4A20"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101D7A50"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "58101J9A10"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1849",
+  "fetchedAt": "2026-03-18T13:09:28Z"
+}

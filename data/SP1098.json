@@ -1,0 +1,128 @@
+{
+  "articleNo": "SP1098",
+  "articleId": 9156534,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 16284,
+      "modelId": 4836,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TERRACAN (HP)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 17356,
+      "modelId": 4836,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TERRACAN (HP)",
+      "typeEngineName": "3.5 i V6 4WD",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 17424,
+      "modelId": 4836,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TERRACAN (HP)",
+      "typeEngineName": "2.9 CRDi 4WD",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 18031,
+      "modelId": 4836,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TERRACAN (HP)",
+      "typeEngineName": "2.9 CRDi 4WD",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 18825,
+      "modelId": 4836,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TERRACAN (HP)",
+      "typeEngineName": "3.5 i V6 4WD",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 27982,
+      "modelId": 4836,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TERRACAN (HP)",
+      "typeEngineName": "2.9 CRDi",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 141653,
+      "modelId": 41052,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TERRACAN (HP)",
+      "typeEngineName": "2.5 TD 4WD",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 141655,
+      "modelId": 41052,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TERRACAN (HP)",
+      "typeEngineName": "2.9 CRDi 4WD",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 141657,
+      "modelId": 41052,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TERRACAN (HP)",
+      "typeEngineName": "2.9 CRDi 4WD",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2006-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "110,6"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "46,5"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "MANDO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-01,818/606"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58302H1A00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58302H1A10"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1098",
+  "fetchedAt": "2026-03-18T12:59:07Z"
+}

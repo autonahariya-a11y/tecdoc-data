@@ -1,0 +1,75 @@
+{
+  "articleNo": "SP1765",
+  "articleId": 9157865,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 650,
+      "modelId": 9010,
+      "manufacturerName": "NISSAN",
+      "modelName": "LEAF (ZE0)",
+      "typeEngineName": "Electric",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 100318,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100319,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112435,
+      "modelId": 11717,
+      "manufacturerName": "NISSAN",
+      "modelName": "ALTIMA (L33)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "141,7"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "56,3"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/4841"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10603TA0A"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1765",
+  "fetchedAt": "2026-03-18T13:08:11Z"
+}

@@ -1,0 +1,57 @@
+{
+  "articleNo": "SP4221",
+  "articleId": 9165858,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 111683,
+      "modelId": 13301,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BS)",
+      "typeEngineName": "2.5 AWD (BS9)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111688,
+      "modelId": 13301,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BS)",
+      "typeEngineName": "2.0 D AWD (BSD)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "145,3"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "58,4"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/4932"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "26296FL030"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP4221",
+  "fetchedAt": "2026-03-18T13:14:04Z"
+}

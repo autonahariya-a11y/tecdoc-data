@@ -1,0 +1,471 @@
+{
+  "articleNo": "SP1121",
+  "articleId": 9156606,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 1858,
+      "modelId": 337,
+      "manufacturerName": "VW",
+      "modelName": "TARO",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1989-04-01",
+      "constructionIntervalEnd": "1994-09-01"
+    },
+    {
+      "vehicleId": 1859,
+      "modelId": 337,
+      "manufacturerName": "VW",
+      "modelName": "TARO",
+      "typeEngineName": "2.4 D",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 3593,
+      "modelId": 3983,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Bus (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.0 (YH51, YH61)",
+      "constructionIntervalStart": "1985-01-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 3594,
+      "modelId": 3983,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Bus (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.4 D (LH51, LH61, LH66)",
+      "constructionIntervalStart": "1984-04-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 5964,
+      "modelId": 337,
+      "manufacturerName": "VW",
+      "modelName": "TARO",
+      "typeEngineName": "2.2",
+      "constructionIntervalStart": "1989-06-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 6754,
+      "modelId": 3983,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Bus (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.2 D (LH50, LH60)",
+      "constructionIntervalStart": "1982-12-01",
+      "constructionIntervalEnd": "1989-11-01"
+    },
+    {
+      "vehicleId": 6755,
+      "modelId": 3983,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Bus (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "1.8 (YH50, YH60)",
+      "constructionIntervalStart": "1983-03-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 6757,
+      "modelId": 2071,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Van (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "1.8 (YH50, YH60)",
+      "constructionIntervalStart": "1982-12-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 6758,
+      "modelId": 2071,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Van (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.2 D (LH50, LH60)",
+      "constructionIntervalStart": "1982-12-01",
+      "constructionIntervalEnd": "1989-11-01"
+    },
+    {
+      "vehicleId": 6759,
+      "modelId": 2071,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Van (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.4 D (LH61, LH51)",
+      "constructionIntervalStart": "1982-12-01",
+      "constructionIntervalEnd": "1989-11-01"
+    },
+    {
+      "vehicleId": 8715,
+      "modelId": 37286,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX IV Pickup (_N5_, _N6_)",
+      "typeEngineName": "2.0 (YN57, YN60)",
+      "constructionIntervalStart": "1983-08-01",
+      "constructionIntervalEnd": "1988-07-01"
+    },
+    {
+      "vehicleId": 10473,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "1.8 (YN85, YN90)",
+      "constructionIntervalStart": "1988-09-01",
+      "constructionIntervalEnd": "1998-06-01"
+    },
+    {
+      "vehicleId": 10479,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 D (LN90_, LN90R)",
+      "constructionIntervalStart": "1995-03-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 10480,
+      "modelId": 337,
+      "manufacturerName": "VW",
+      "modelName": "TARO",
+      "typeEngineName": "2.4 D",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1997-03-01"
+    },
+    {
+      "vehicleId": 10481,
+      "modelId": 337,
+      "manufacturerName": "VW",
+      "modelName": "TARO",
+      "typeEngineName": "2.4 D",
+      "constructionIntervalStart": "1989-06-01",
+      "constructionIntervalEnd": "1997-03-01"
+    },
+    {
+      "vehicleId": 10759,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 D (LN85_, LN110, LN90)",
+      "constructionIntervalStart": "1988-09-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 10765,
+      "modelId": 2071,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE III Van (_H5_, _H6_, _H7_, _H8_, _H9_)",
+      "typeEngineName": "2.0 (YH51, YH61)",
+      "constructionIntervalStart": "1982-12-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 18624,
+      "modelId": 337,
+      "manufacturerName": "VW",
+      "modelName": "TARO",
+      "typeEngineName": "2.4 D 4x4",
+      "constructionIntervalStart": "1989-04-01",
+      "constructionIntervalEnd": "1997-03-01"
+    },
+    {
+      "vehicleId": 20093,
+      "modelId": 37286,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX IV Pickup (_N5_, _N6_)",
+      "typeEngineName": "2.4 D 4WD (LN65)",
+      "constructionIntervalStart": "1983-08-01",
+      "constructionIntervalEnd": "1988-07-01"
+    },
+    {
+      "vehicleId": 59388,
+      "modelId": 7509,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA 100 Platform/Chassis (YH_)",
+      "typeEngineName": "1.8 (YH81_, YH81R)",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1995-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "140"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "55,5"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/0107"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526060"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526100"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526210"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526230"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526280"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526330"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446535010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446535020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446535320"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449120581"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449126040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449126041"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449126070"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449126071"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449126072"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449126150"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449126151"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449126152"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449126191"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449135061"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449135063"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0449135200"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526060"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526100"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526210"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526230"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526280"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526330"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446535010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446535020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446535320"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449126040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449126041"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449126070"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449126071"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449126072"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449126150"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449126151"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449126152"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449126191"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449132341"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449135061"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449135063"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "449135200"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "J0446535020"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "J0446535020"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "J0446535020"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "J0446535020"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "J0446535320"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "J0446535320"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "J0446535320"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "J0446535320"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "J0449135130"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "J0449135130"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "J0449135130"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "J0449135130"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "J0449135200"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "J0449135200"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "J0449135200"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "J0449135200"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1121",
+  "fetchedAt": "2026-03-18T13:00:11Z"
+}

@@ -1,0 +1,198 @@
+{
+  "articleNo": "SP1750",
+  "articleId": 9157841,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 18584,
+      "modelId": 5413,
+      "manufacturerName": "CITROËN",
+      "modelName": "C1 (PM_, PN_)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 18585,
+      "modelId": 5413,
+      "manufacturerName": "CITROËN",
+      "modelName": "C1 (PM_, PN_)",
+      "typeEngineName": "1.4 HDi",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 18586,
+      "modelId": 5414,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "107 (PM_, PN_)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 18587,
+      "modelId": 5414,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "107 (PM_, PN_)",
+      "typeEngineName": "1.4 HDi",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 18813,
+      "modelId": 5442,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AYGO (_B1_)",
+      "typeEngineName": "1.0 (KGB10_, KGB10R)",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 19243,
+      "modelId": 5442,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AYGO (_B1_)",
+      "typeEngineName": "1.4 D-4D (WNB10_, WNB10R)",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 105577,
+      "modelId": 12744,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AYGO (_B4_)",
+      "typeEngineName": "1.0 (KGB40)",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105909,
+      "modelId": 12793,
+      "manufacturerName": "CITROËN",
+      "modelName": "C1 II (PA_, PS_)",
+      "typeEngineName": "1.0 VTi 68",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 105910,
+      "modelId": 12793,
+      "manufacturerName": "CITROËN",
+      "modelName": "C1 II (PA_, PS_)",
+      "typeEngineName": "1.2 VTi 82",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 106338,
+      "modelId": 12825,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "108",
+      "typeEngineName": "1.0 VTi",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106339,
+      "modelId": 12825,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "108",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16,8"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "122,8"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "46,8"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/1363"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650H020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650H030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZDT"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1611456980"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1611456980"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1613819980"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425327"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425327"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425328"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425328"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425474"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425474"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "435326"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "435326"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "E172283"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "E172283"
+    }
+  ],
+  "ean": "0880940903964",
+  "originalSKU": "SP1750",
+  "fetchedAt": "2026-03-18T13:08:07Z"
+}

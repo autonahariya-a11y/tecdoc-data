@@ -1,0 +1,146 @@
+{
+  "articleNo": "SP2084",
+  "articleId": 9161398,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 7043,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-09-01"
+    },
+    {
+      "vehicleId": 7050,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.2 DIG-S",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 23467,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23468,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.8 (JC11)",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23469,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23488,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.6 (C11L)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23489,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23490,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 35456,
+      "modelId": 11226,
+      "manufacturerName": "NISSAN",
+      "modelName": "NOTE (E12)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 58980,
+      "modelId": 11226,
+      "manufacturerName": "NISSAN",
+      "modelName": "NOTE (E12)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 58981,
+      "modelId": 11226,
+      "manufacturerName": "NISSAN",
+      "modelName": "NOTE (E12)",
+      "typeEngineName": "1.2 DIG-S",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "14"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "138,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "48,5"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/3103"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "410600T386"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10601HL0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060ED500"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP2084",
+  "fetchedAt": "2026-03-18T13:12:05Z"
+}

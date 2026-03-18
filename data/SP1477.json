@@ -1,0 +1,109 @@
+{
+  "articleNo": "SP1477",
+  "articleId": 9157370,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 18506,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 19182,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "4.0 4WD",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23053,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34757,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34758,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "3.0 dCi",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 53614,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15,8"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "110,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "40,7"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "TOKICO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E11 90R02A0786/17373"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060EA090"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060EA091"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "44060EB325"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D4060EB300"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1477",
+  "fetchedAt": "2026-03-18T13:05:05Z"
+}

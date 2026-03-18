@@ -1,0 +1,145 @@
+{
+  "articleNo": "SP1197",
+  "articleId": 9156792,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 8451,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 8469,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "1.6 CRDi 128",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 8470,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 CRDi 115",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 19751,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 19752,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 CRDi 140",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 33606,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 33607,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 CRDi 135",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 59293,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "1.6 CRDi 110",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 122207,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 LPI",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 122208,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 LPI",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "100,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "44"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "MANDO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E11 90R-02786/8973"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "583021DA00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "583021DA01"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "583021DE00"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "583021DE01"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1197",
+  "fetchedAt": "2026-03-18T13:01:57Z"
+}

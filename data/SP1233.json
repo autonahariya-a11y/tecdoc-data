@@ -1,0 +1,114 @@
+{
+  "articleNo": "SP1233",
+  "articleId": 9156861,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 14906,
+      "modelId": 4649,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 II (_A2_)",
+      "typeEngineName": "1.8 (ZCA25_, ZCA26_, ZCA25W, ZCA26W)",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 14907,
+      "modelId": 4649,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 II (_A2_)",
+      "typeEngineName": "2.0 4WD (ACA21, ACA20)",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 16252,
+      "modelId": 4649,
+      "manufacturerName": "TOYOTA",
+      "modelName": "RAV 4 II (_A2_)",
+      "typeEngineName": "2.0 D 4WD (CLA20_, CLA21_, CLA20R, CLA21R)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2005-11-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "123"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "60,5"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "AKEBONO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/0278"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542070"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542071"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542110"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446542130"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446544110"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZCN"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZCS"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446542070"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446542071"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446542080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446542130"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1233",
+  "fetchedAt": "2026-03-18T13:02:07Z"
+}

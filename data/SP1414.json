@@ -1,0 +1,809 @@
+{
+  "articleNo": "SP1414",
+  "articleId": 9157252,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 5072,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 9254,
+      "modelId": 8577,
+      "manufacturerName": "RENAULT",
+      "modelName": "WIND (E4M_)",
+      "typeEngineName": "1.2 TCe 100 (E4MF)",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16916,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.4 16V (BM0B, CM0B)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 16917,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.6 16V (BM0C, CM0C)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 16918,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "2.0 16V (BM0U, CM0U)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 16919,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.5 dCi (BM0F, BM0T, BM2B, CM0F, CM0T)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 16920,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi (BM0G, CM0G)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 17443,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi (JM0F)",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17444,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.6 (JM0C, JM0J, JM1B)",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 17445,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.4 (JM0B, JM0H, JM1A)",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17718,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.5 dCi (BM02, BM13, BM2A, CM02, CM13)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 17719,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 17721,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 17722,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 17723,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 17724,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17725,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17726,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17727,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17728,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.5 dCi (LM0F, LM0T, LM2B)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 17729,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi (LM0G, LM1G, LM2C)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17730,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 17731,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 17732,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 17733,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.5 dCi (KM0F, KM0T, KM2B)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17734,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi (KMRG, KM1G, KM0G, KM2C)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 18003,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi (JM02, JM13)",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 18215,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 18216,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18217,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 18218,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.5 dCi (KM02, KM13)",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2006-03-01"
+    },
+    {
+      "vehicleId": 18219,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.5 dCi (LM02, LM13, LM2A)",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18437,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "2.0 16V Turbo",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 18438,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "2.0 16V Turbo",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 18779,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi (JM1F)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18780,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi (JM1E, JM16)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18783,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 18784,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.5 dCi (LM1F)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18785,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.5 dCi (LM1E)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18786,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18787,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 18788,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.5 dCi (KM16, KM1E)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18789,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.5 dCi (KM1F)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 18790,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.5 dCi (BM1F, CM1F)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 18791,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.5 dCi (BM1E, CM1E)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18792,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 19040,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 19041,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi (LM14, LM1D)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19042,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 19397,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19398,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "2.0 dCi (BM1K, CM1K)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 19399,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 19400,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19678,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.5 dCi (EM1E)",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2009-01-01"
+    },
+    {
+      "vehicleId": 22674,
+      "modelId": 5462,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III (BR0/1, CR0/1)",
+      "typeEngineName": "2.0 16V (BR0C, BR0K, CR0C, CR0K)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23060,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 23061,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.5 dCi (KM16)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 23062,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.6 16V (LM1R, LM0C)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23063,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.5 dCi (LM16)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 23064,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.5 dCi (BM16, CM16)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 23065,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 23066,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 23069,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 23070,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.5 dCi (EM16)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 23071,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi (JM16)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 23072,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.6 16V (JM1R)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 23371,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "1.5 dCi (BT00, BT0A, BT0T, BT1J)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23376,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "1.5 dCi (KT0A, KT0R, KT02)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 25108,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 26652,
+      "modelId": 5611,
+      "manufacturerName": "RENAULT",
+      "modelName": "TWINGO II (CN0_)",
+      "typeEngineName": "1.6 RS (CN0N, CN0R, CN0S)",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 27598,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.6 16V Hi-Flex",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 27599,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.6 Flex-Fuel",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 31196,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 31197,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 31198,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "1.6 16V (BT04, BT0D, BT0U)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31527,
+      "modelId": 5462,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III (BR0/1, CR0/1)",
+      "typeEngineName": "2.0 16V Sport",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 31529,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "1.6 16V (KT0D)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 32686,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 32687,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 33123,
+      "modelId": 8577,
+      "manufacturerName": "RENAULT",
+      "modelName": "WIND (E4M_)",
+      "typeEngineName": "1.2 (E4MF)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33124,
+      "modelId": 8577,
+      "manufacturerName": "RENAULT",
+      "modelName": "WIND (E4M_)",
+      "typeEngineName": "1.6 (E4MB, E4MC)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59353,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17,3"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "68,9"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "66,6"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "ATE"
+    },
+    {
+      "criteriaName": "Width 1 [mm]",
+      "criteriaValue": "155,2"
+    },
+    {
+      "criteriaName": "Width 2 [mm]",
+      "criteriaValue": "156,4"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/1676"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "410600012R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "410601237R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "7701209100"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "7701209670"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "7701210127"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "7711130086"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1414",
+  "fetchedAt": "2026-03-18T13:04:25Z"
+}

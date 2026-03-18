@@ -1,0 +1,192 @@
+{
+  "articleNo": "SP2037",
+  "articleId": 9161262,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 12236,
+      "modelId": 5813,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V4_)",
+      "typeEngineName": "2.5 (ASV40_)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 16362,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "2.4 (ACV30, ACV36)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 16363,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "3.0 (MCV30_, MCV30R)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 18773,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "300 (GRS190_, GRS190R)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 20837,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "3.3 (MCV31_, MCV31)",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2006-02-01"
+    },
+    {
+      "vehicleId": 26145,
+      "modelId": 7221,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ISIS (_M1_)",
+      "typeEngineName": "1.8 VVTi (ZNM10W)",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2014-08-01"
+    },
+    {
+      "vehicleId": 34837,
+      "modelId": 5813,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V4_)",
+      "typeEngineName": "2.4 (ACV40_, ACV40R)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 58982,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "250 (GSE30_, GSE30R)",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 58983,
+      "modelId": 11227,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS III (_E3_)",
+      "typeEngineName": "300h (AVE30_, AVE30R)",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17,3"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "131,4"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "58,4"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/0701"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446506030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446530340"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446533240"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446533246"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446533250"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446533260"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446533320"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446533340"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446544140"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZDZ"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446506030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446530340"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446533240"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446533246"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446533250"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446533260"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446533320"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446533340"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446544140"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP2037",
+  "fetchedAt": "2026-03-18T13:11:24Z"
+}

@@ -1,0 +1,119 @@
+{
+  "articleNo": "SP1606",
+  "articleId": 9157600,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 29480,
+      "modelId": 7803,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII (CU)",
+      "typeEngineName": "2.0 i (CU1)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 29481,
+      "modelId": 7803,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII (CU)",
+      "typeEngineName": "2.4 i (CU2)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 29482,
+      "modelId": 7803,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII (CU)",
+      "typeEngineName": "2.2 i-DTEC (CU3)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 29483,
+      "modelId": 7804,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII Estate (CW)",
+      "typeEngineName": "2.0 i (CW1)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 29484,
+      "modelId": 7804,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII Estate (CW)",
+      "typeEngineName": "2.4 i (CW2)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29485,
+      "modelId": 7804,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII Estate (CW)",
+      "typeEngineName": "2.2 i-DTEC (CW3)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 34928,
+      "modelId": 7803,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII (CU)",
+      "typeEngineName": "2.2 i-DTEC (CU3)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 34929,
+      "modelId": 7804,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII Estate (CW)",
+      "typeEngineName": "2.2 i-DTEC (CW3)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16,8"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "151,6"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "65,3"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "AKEBONO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/2540"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "45022TL0G50"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "45022TL0G51"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1606",
+  "fetchedAt": "2026-03-18T13:06:33Z"
+}

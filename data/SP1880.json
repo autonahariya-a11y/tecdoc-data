@@ -1,0 +1,850 @@
+{
+  "articleNo": "SP1880",
+  "articleId": 9158139,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 7244,
+      "modelId": 7578,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 PICASSO (SH_)",
+      "typeEngineName": "1.6 HDi 110",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-02-01"
+    },
+    {
+      "vehicleId": 12291,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.4 HDi 70 (SA8HP4)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 28199,
+      "modelId": 7578,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 PICASSO (SH_)",
+      "typeEngineName": "1.6 VTi 120",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 28200,
+      "modelId": 7578,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 PICASSO (SH_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 32027,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.1 i",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-01-01"
+    },
+    {
+      "vehicleId": 32028,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 32030,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.6 VTi 120",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 32031,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 32032,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.6 HDi 110",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 32033,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.4 VTi 95",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 32034,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.6 VTi 120",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 32035,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.6 THP 155",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 32036,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.6 HDi 90",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 32037,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.6 HDi 110",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 33395,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.4 HDi 70 (SC8HZC, SC8HR0, SC8HP4)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 33783,
+      "modelId": 7578,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 PICASSO (SH_)",
+      "typeEngineName": "1.6 HDI 90",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 58570,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.4 VTi 98",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58578,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.2 VTi 82",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 58579,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.4 VTi 95 LPG",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58582,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.6 HDi 115",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58583,
+      "modelId": 11128,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 Convertible",
+      "typeEngineName": "1.2 VTi 82",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58584,
+      "modelId": 11128,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 Convertible",
+      "typeEngineName": "1.6 VTi 120",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58585,
+      "modelId": 11128,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 Convertible",
+      "typeEngineName": "1.6 THP 155",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58586,
+      "modelId": 11128,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 Convertible",
+      "typeEngineName": "1.6 HDi 90",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58588,
+      "modelId": 7578,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 PICASSO (SH_)",
+      "typeEngineName": "1.6 HDi 115",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 58663,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.0 VTi 68",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 58664,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.2 VTi 82",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 58666,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.6 HDi 115",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 58874,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.2 VTi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 58875,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.6 VTi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58876,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58877,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59305,
+      "modelId": 11128,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 Convertible",
+      "typeEngineName": "1.6 THP 150",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 59316,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.4 HDi",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100642,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.6 HDi 115",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 100643,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 105914,
+      "modelId": 12794,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 CACTUS",
+      "typeEngineName": "1.2 VTi 82",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 105916,
+      "modelId": 12794,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 CACTUS",
+      "typeEngineName": "1.6 HDi 90",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107569,
+      "modelId": 11128,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 Convertible",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 108026,
+      "modelId": 12794,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 CACTUS",
+      "typeEngineName": "1.2 VTi 75 / PureTech 75",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108027,
+      "modelId": 12794,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 CACTUS",
+      "typeEngineName": "1.2 THP 110",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108028,
+      "modelId": 12794,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 CACTUS",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 108159,
+      "modelId": 11128,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 Convertible",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 108598,
+      "modelId": 11128,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 Convertible",
+      "typeEngineName": "1.2 THP 110",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 108600,
+      "modelId": 8255,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 (SA_)",
+      "typeEngineName": "1.2 THP 110",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 109321,
+      "modelId": 11128,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS3 Convertible",
+      "typeEngineName": "1.6 THP 165",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 109326,
+      "modelId": 8254,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 II (SC_)",
+      "typeEngineName": "1.2 THP 110",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 109331,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 111916,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.2 THP 110 / PureTech 110",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111917,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.2 THP 130 / PureTech 130",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-11-01"
+    },
+    {
+      "vehicleId": 111920,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-11-01"
+    },
+    {
+      "vehicleId": 112336,
+      "modelId": 7578,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 PICASSO (SH_)",
+      "typeEngineName": "1.2 THP 110 (SHHNZ6)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 112338,
+      "modelId": 7578,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 PICASSO (SH_)",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2017-08-01"
+    },
+    {
+      "vehicleId": 113672,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.6 BlueHDi 75",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-11-01"
+    },
+    {
+      "vehicleId": 117333,
+      "modelId": 11219,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 I (CU_)",
+      "typeEngineName": "1.6 BlueHDi",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118003,
+      "modelId": 14956,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 (SA_)",
+      "typeEngineName": "1.2 VTi 82 (SAHMZ6)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118004,
+      "modelId": 14956,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 (SA_)",
+      "typeEngineName": "1.2 THP 110 / PureTech 110 (SAHNPS, SAHNZ6, SAHNZT)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118005,
+      "modelId": 14956,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 (SA_)",
+      "typeEngineName": "1.6 THP 165 (SA5GZM)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118006,
+      "modelId": 14956,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 (SA_)",
+      "typeEngineName": "1.6 BlueHDi 100 (SABHY0, SABHYT)",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118007,
+      "modelId": 14956,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 (SA_)",
+      "typeEngineName": "1.6 BlueHDi 120 (SABHZM)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118008,
+      "modelId": 14957,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 Convertible (SB_)",
+      "typeEngineName": "1.2 THP 110",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118009,
+      "modelId": 14957,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 Convertible (SB_)",
+      "typeEngineName": "1.6 THP 165",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118010,
+      "modelId": 14957,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 Convertible (SB_)",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118011,
+      "modelId": 14957,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 Convertible (SB_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118598,
+      "modelId": 14956,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 (SA_)",
+      "typeEngineName": "1.2 THP 130 (SAHNYM)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118599,
+      "modelId": 14957,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 Convertible (SB_)",
+      "typeEngineName": "1.2 THP 130",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118601,
+      "modelId": 14957,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 Convertible (SB_)",
+      "typeEngineName": "1.2 VTi 82",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118602,
+      "modelId": 14956,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 (SA_)",
+      "typeEngineName": "1.6 BlueHDi 75 (SABHW6)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118603,
+      "modelId": 14956,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 (SA_)",
+      "typeEngineName": "1.6 THP 208 (SA5GRM)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118604,
+      "modelId": 14957,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 Convertible (SB_)",
+      "typeEngineName": "1.6 THP 208",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 121982,
+      "modelId": 37098,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 III (SX)",
+      "typeEngineName": "1.2 VTi 68",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122715,
+      "modelId": 7578,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 PICASSO (SH_)",
+      "typeEngineName": "1.6 VTi 115 (SH5FP0, SH5FP8)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 122967,
+      "modelId": 37098,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 III (SX)",
+      "typeEngineName": "1.2 VTi 82",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122968,
+      "modelId": 37098,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 III (SX)",
+      "typeEngineName": "1.2 THP 110 (SXHNPS, SXHNZT, SXHNZ6)",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122970,
+      "modelId": 37098,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 III (SX)",
+      "typeEngineName": "1.6 BlueHDi 75",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 122973,
+      "modelId": 37098,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 III (SX)",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 126414,
+      "modelId": 37757,
+      "manufacturerName": "OPEL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17, P2QO)",
+      "typeEngineName": "1.2 (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126415,
+      "modelId": 37757,
+      "manufacturerName": "OPEL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17, P2QO)",
+      "typeEngineName": "1.2 (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126416,
+      "modelId": 37757,
+      "manufacturerName": "OPEL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17, P2QO)",
+      "typeEngineName": "1.2 (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126417,
+      "modelId": 37757,
+      "manufacturerName": "OPEL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17, P2QO)",
+      "typeEngineName": "1.6 Turbo D (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 126418,
+      "modelId": 37757,
+      "manufacturerName": "OPEL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17, P2QO)",
+      "typeEngineName": "1.6 Turbo D (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 132902,
+      "modelId": 38129,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 AIRCROSS II (2R_, 2C_)",
+      "typeEngineName": "1.5 BlueHDi 120 (2CYHXX)",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133295,
+      "modelId": 12794,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 CACTUS",
+      "typeEngineName": "1.5 BlueHDi 120",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133982,
+      "modelId": 39130,
+      "manufacturerName": "DS",
+      "modelName": "DS 3 / DS 3 CROSSBACK (UR_, UC_, UJ_)",
+      "typeEngineName": "1.5 BlueHDi 130 (UCYHZR)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136625,
+      "modelId": 39648,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 AIRCROSS II Van (2C_, 2R_)",
+      "typeEngineName": "1.5 BlueHDI 120",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137585,
+      "modelId": 39858,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 II (UD_, US_, UY_, UJ_, UR_, UC_)",
+      "typeEngineName": "1.5 BlueHDI 130",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137586,
+      "modelId": 39858,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "2008 II (UD_, US_, UY_, UJ_, UR_, UC_)",
+      "typeEngineName": "1.5 BlueHDI 100",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "18"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "136,8"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "59,2"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "BOSCH"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/2663"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1607083180"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1607083180"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1611140580"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1611837880"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1613192580"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1613192580"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425431"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1880",
+  "fetchedAt": "2026-03-18T13:09:42Z"
+}

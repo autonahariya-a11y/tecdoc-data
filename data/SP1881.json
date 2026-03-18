@@ -1,0 +1,1037 @@
+{
+  "articleNo": "SP1881",
+  "articleId": 9158140,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 434,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 VTi 120 (NC5FS0, NC5FS9)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 463,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.4 VTi 95 (NC8FP0)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 467,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 THP 155",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 470,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 HDi 90",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 472,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 HDi 110",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 475,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "2.0 HDi / BlueHDi 150",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 697,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "1.6 VTi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 704,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "1.6 VTi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 711,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 712,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 713,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 714,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 717,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 730,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 731,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 732,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 733,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "2.2 HDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 754,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "2.2 HDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 5291,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 6348,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.6 VTi 120",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 6349,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.6 THP 155",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 6360,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.6 THP 200",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 6371,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.6 HDi 110",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 6377,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "2.0 HDi 165",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 6664,
+      "modelId": 7579,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 CC (4B_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 10877,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "1.6 THP 155",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 10878,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "1.6 THP 200",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 10885,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "1.6 HDi 110",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 10886,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "2.0 HDi 165",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 12018,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 VTi 120 LPG (NC5FS0)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12960,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 12961,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 19322,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "2.0 HDi 136 / BlueHDi 136",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 30821,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.6 VTi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 30822,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 30823,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 30824,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "2.0 HDi 150 / BlueHDi 150",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 31524,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 31733,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 31734,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 31737,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 31739,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "2.0 HDi 150 / BlueHDi 150",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 31740,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 32038,
+      "modelId": 8256,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "RCZ",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 32039,
+      "modelId": 8256,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "RCZ",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 32040,
+      "modelId": 8256,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "RCZ",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33266,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 33864,
+      "modelId": 6432,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 I (4A_, 4C_)",
+      "typeEngineName": "1.6 GTi",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 33866,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 50144,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "2.0 BlueHDi 180",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 52427,
+      "modelId": 8256,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "RCZ",
+      "typeEngineName": "1.6 THP 270",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 53215,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "2.0 HDi Hybrid4 (0URHCA)",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 55402,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.6 THP 160",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58646,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "2.0 HDi Hybrid4 AWC",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 58667,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 HDi 115",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58671,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.6 HDi 115",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58878,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 58880,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 59306,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "1.6 HDi 115",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 59308,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "2.0 HDi 135",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 59310,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "2.0 HDi / BlueHDi 135",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 59311,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.6 HDi 90",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 59322,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 100512,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 105884,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "2.0 BlueHDi 150",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 105885,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "2.0 BlueHDi 150",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 105886,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "2.0 BlueHDi 180",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 105887,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "2.0 BlueHDi 180",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 106512,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "2.0 HDi RXH Hybrid4",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 107941,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 108053,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "1.6 THP 165 Hybrid",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 108055,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.6 THP 150",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 108056,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.6 THP 163",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 108149,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 108163,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.2 THP 130 (NCHNYM, NCHNYT)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 108175,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 108563,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "2.0 HDi 180 RXH",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 108854,
+      "modelId": 9685,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS5",
+      "typeEngineName": "2.0 BlueHDi 150",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 108856,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 109323,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "2.0 BlueHDi 180",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 109324,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "2.0 BlueHDi 150",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 109325,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.2 THP 130",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 109335,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 111986,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 111987,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 112027,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 113664,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 113670,
+      "modelId": 9012,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 I (8D_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 113671,
+      "modelId": 9013,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "508 SW I (8E_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 115056,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.2 THP 110 (NCHNZ6, NCHNV6)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 117927,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 BlueHDi 115",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 117933,
+      "modelId": 8182,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "5008 (0U_, 0E_)",
+      "typeEngineName": "1.6 THP 165",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 118012,
+      "modelId": 14958,
+      "manufacturerName": "DS",
+      "modelName": "DS 4 / DS 4 CROSSBACK (NX_)",
+      "typeEngineName": "1.2 THP 130 (NXHNYM)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118013,
+      "modelId": 14958,
+      "manufacturerName": "DS",
+      "modelName": "DS 4 / DS 4 CROSSBACK (NX_)",
+      "typeEngineName": "1.6 THP 165",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118014,
+      "modelId": 14958,
+      "manufacturerName": "DS",
+      "modelName": "DS 4 / DS 4 CROSSBACK (NX_)",
+      "typeEngineName": "1.6 THP 210",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118015,
+      "modelId": 14958,
+      "manufacturerName": "DS",
+      "modelName": "DS 4 / DS 4 CROSSBACK (NX_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118016,
+      "modelId": 14958,
+      "manufacturerName": "DS",
+      "modelName": "DS 4 / DS 4 CROSSBACK (NX_)",
+      "typeEngineName": "2.0 BlueHDi 150",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118017,
+      "modelId": 14958,
+      "manufacturerName": "DS",
+      "modelName": "DS 4 / DS 4 CROSSBACK (NX_)",
+      "typeEngineName": "2.0 BlueHDi 180",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118018,
+      "modelId": 14959,
+      "manufacturerName": "DS",
+      "modelName": "DS 5 (KF_)",
+      "typeEngineName": "1.6 THP 210",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118019,
+      "modelId": 14959,
+      "manufacturerName": "DS",
+      "modelName": "DS 5 (KF_)",
+      "typeEngineName": "2.0 BlueHDi 150",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118020,
+      "modelId": 14959,
+      "manufacturerName": "DS",
+      "modelName": "DS 5 (KF_)",
+      "typeEngineName": "2.0 BlueHDi 180",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118606,
+      "modelId": 14959,
+      "manufacturerName": "DS",
+      "modelName": "DS 5 (KF_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118607,
+      "modelId": 14959,
+      "manufacturerName": "DS",
+      "modelName": "DS 5 (KF_)",
+      "typeEngineName": "1.6 THP 165 (KF5GZT)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 119832,
+      "modelId": 14958,
+      "manufacturerName": "DS",
+      "modelName": "DS 4 / DS 4 CROSSBACK (NX_)",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 129226,
+      "modelId": 14959,
+      "manufacturerName": "DS",
+      "modelName": "DS 5 (KF_)",
+      "typeEngineName": "1.6 BlueHDi 115",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 136142,
+      "modelId": 14959,
+      "manufacturerName": "DS",
+      "modelName": "DS 5 (KF_)",
+      "typeEngineName": "Hybrid4",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17,3"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "103,8"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "55,9"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "ATE"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0818/2734"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1608520680"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1608520680"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1608681680"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1611838080"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1617272680"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425435"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425435"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425444"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425444"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425446"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425446"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1881",
+  "fetchedAt": "2026-03-18T13:09:47Z"
+}

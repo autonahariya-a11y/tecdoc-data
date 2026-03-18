@@ -1,0 +1,6096 @@
+{
+  "articleNo": "SP2025",
+  "articleId": 9161217,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 523,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 648,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.2 TDI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 756,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 762,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 4001,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 4502,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 4535,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 4536,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 4819,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2013-02-01"
+    },
+    {
+      "vehicleId": 5013,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6 TDI 4x4",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-02-01"
+    },
+    {
+      "vehicleId": 5017,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 5020,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 5420,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 5600,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 5601,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 5602,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1996-12-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 5603,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 5941,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 5943,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 5946,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 5950,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 6345,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 6799,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 6800,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-02-01"
+    },
+    {
+      "vehicleId": 7378,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 7904,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 7907,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 7909,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 8009,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 8456,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 8460,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 8461,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 8704,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 8798,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 8799,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 8979,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 8980,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 9063,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 9511,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 9515,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 9517,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 9518,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 9519,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 9602,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.8 4motion",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 9621,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 9623,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 9629,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 9630,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 9749,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 9752,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 9753,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 9958,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 9961,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.2 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 10000,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 10001,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 10003,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 10004,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 10046,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 10047,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.8 20V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 10049,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 10050,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 10174,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 10175,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 10176,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 10431,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 GTi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 10524,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 GTi",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 10637,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 10643,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 10751,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 10752,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 10996,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 10998,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 11052,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "1.4 TFSI",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 11155,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 11156,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 11158,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "2.0 TDI 16V 4motion",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 11160,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 TDI 16V 4motion",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 11208,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 11293,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 11340,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 11599,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 11603,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 11604,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 11605,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 11606,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 11607,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 11629,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 11760,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 11762,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 11763,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 11779,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 11829,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 12046,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 12103,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 12104,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 12243,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI 4x4",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-02-01"
+    },
+    {
+      "vehicleId": 13085,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 13086,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 13100,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 13101,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.8 4motion",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 13103,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 13104,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2002-01-01"
+    },
+    {
+      "vehicleId": 13106,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 13107,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 13159,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 13160,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.8 20V",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 13161,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 13162,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 13359,
+      "modelId": 4382,
+      "manufacturerName": "AUDI",
+      "modelName": "A2 (8Z0)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 13360,
+      "modelId": 4382,
+      "manufacturerName": "AUDI",
+      "modelName": "A2 (8Z0)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 13362,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 13363,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 13364,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 14238,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 14268,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14278,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 14414,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14559,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 14560,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 14561,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.8 4motion",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 14565,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.8 4motion",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14571,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2002-05-01"
+    },
+    {
+      "vehicleId": 14590,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 14591,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14676,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 14677,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 14725,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 14748,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2001-03-01"
+    },
+    {
+      "vehicleId": 14903,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 15011,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15012,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15106,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 15107,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 15112,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 15135,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 15143,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 15235,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 15284,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 15292,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 15294,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI 4x4",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 15458,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15459,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15462,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15463,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15464,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15465,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15468,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15469,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15503,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15504,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15539,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15542,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15544,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15545,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15582,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15583,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15584,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15631,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15632,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15640,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.6 16 V",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15666,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15667,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15759,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15760,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15802,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 15898,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15899,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15910,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 15916,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 15917,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 15918,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 15937,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15938,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16058,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16059,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 16060,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16068,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16088,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 16105,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 16279,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 16300,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 16332,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.2 12V",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 16333,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 16340,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 16348,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "2.0 Bi-Fuel",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16509,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 16510,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16511,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16512,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16521,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 16552,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 16679,
+      "modelId": 4382,
+      "manufacturerName": "AUDI",
+      "modelName": "A2 (8Z0)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 16732,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 FSI",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 16944,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-04-01"
+    },
+    {
+      "vehicleId": 17009,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 17073,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 17074,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 17122,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 17132,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 17172,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 17173,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 17278,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17280,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17281,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17321,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2003-03-01"
+    },
+    {
+      "vehicleId": 17393,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 17394,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17395,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17396,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17397,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17398,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 17458,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 17475,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 17476,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 17484,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17514,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17518,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 17577,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "3.2 V6 quattro",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 17578,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 17626,
+      "modelId": 4382,
+      "manufacturerName": "AUDI",
+      "modelName": "A2 (8Z0)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 17645,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 17738,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2012-04-01"
+    },
+    {
+      "vehicleId": 17739,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 17743,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 FSI",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 17803,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17804,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17805,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 17806,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 17807,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "2.0 SDI",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 17808,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 SDI",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 17809,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 17810,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 17871,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 SDI",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17872,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17900,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 17901,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 17902,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 17903,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 17921,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17970,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 17972,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17973,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 17974,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18011,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 18066,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18067,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 18068,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 18069,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18070,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "3.2 V6 quattro",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 18071,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18082,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18083,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18114,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18149,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 18150,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 18246,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 18247,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18248,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18356,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18358,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 18359,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 18360,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TDI 16V quattro",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 18380,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 18381,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 18382,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 18383,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 18384,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18385,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 TDI 16V 4motion",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18386,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 FSI 4motion",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18387,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-02-01"
+    },
+    {
+      "vehicleId": 18388,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 18391,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2004-12-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 18392,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2009-01-01"
+    },
+    {
+      "vehicleId": 18393,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 18481,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.9 TDI 4x4",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18599,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 18605,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 18665,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 18666,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 18667,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 18668,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 18669,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 18710,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TDI 16V quattro",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18765,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 18766,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 18767,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 18769,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18770,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 18919,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18920,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18921,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "3.2 R32 4motion",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18922,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18923,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 18924,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 19179,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 19224,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 19225,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 19226,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 19227,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19228,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19229,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19230,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19231,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19236,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 19237,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 19238,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 19270,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19271,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19273,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2007-01-01"
+    },
+    {
+      "vehicleId": 19274,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19275,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19276,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 19277,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 19278,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 19333,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 19335,
+      "modelId": 5009,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Praktik (6Y5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 19465,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 19466,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19467,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19468,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 19469,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 19557,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 19558,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 19614,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 19615,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 19617,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 19666,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "2.0 EcoFuel",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19692,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 EcoFuel",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19693,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 19694,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 19697,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 19698,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 19705,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 19706,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 19707,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 19791,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 19820,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 19901,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19905,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 19914,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 19961,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-12-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 19962,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 19963,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-12-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 19965,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 19966,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19967,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19968,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19969,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19972,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 20031,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 20064,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 20864,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 20898,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 20912,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 22500,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 22501,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 22502,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 22503,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 22504,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 22505,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 22553,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 22554,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 22555,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 22556,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 22557,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 FSI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 22694,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 22695,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 22940,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 22944,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 22945,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 22946,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 22947,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 22948,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 22949,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 22950,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23162,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 23163,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 23164,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 23165,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23166,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23167,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23168,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23169,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23170,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23195,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 23205,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 23207,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.2 12V",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 23232,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 23233,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 23240,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 23243,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 23245,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23247,
+      "modelId": 6412,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER Praktik (5J)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23263,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 23268,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 23290,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 23291,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 23292,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 23295,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 23795,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 23865,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 23866,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 24176,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 24177,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 24179,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 24240,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 24241,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 24242,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 TFSI 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 24243,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 24465,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 24466,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 24467,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 24492,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 24493,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 24494,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 24495,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 24496,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 26551,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 26552,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 26557,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 26558,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 26559,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 26561,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 26581,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.4 TFSI",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 26582,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.4 TFSI",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 26743,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 26753,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 26760,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 26762,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 26860,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 26977,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 27009,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.4 TGI CNG",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 27537,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 27539,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 27562,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 27584,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 27585,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 27586,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 27587,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 28045,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 28130,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 28131,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 28132,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.4 TDI",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 28133,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 28146,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 28167,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 28169,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 28171,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 28173,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 28174,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 28175,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2014-11-01"
+    },
+    {
+      "vehicleId": 28232,
+      "modelId": 7584,
+      "manufacturerName": "VW",
+      "modelName": "SCIROCCO III (137, 138)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2017-11-01"
+    },
+    {
+      "vehicleId": 28233,
+      "modelId": 7584,
+      "manufacturerName": "VW",
+      "modelName": "SCIROCCO III (137, 138)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2017-11-01"
+    },
+    {
+      "vehicleId": 28261,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 28602,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 28603,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 29319,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 29990,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 29991,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 29992,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 29993,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 29994,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 29995,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 30352,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 30401,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 30441,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 30442,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 30738,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 30739,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 30969,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 30970,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 30971,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 GTi",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 31070,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 31073,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 31114,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 31316,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 31317,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 31318,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 31319,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 31320,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31338,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 31340,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 31341,
+      "modelId": 7584,
+      "manufacturerName": "VW",
+      "modelName": "SCIROCCO III (137, 138)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2017-11-01"
+    },
+    {
+      "vehicleId": 31590,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 31591,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 31592,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 31593,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 31600,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 31601,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 31604,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 31605,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 31708,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 31992,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 32063,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 32585,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 32586,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 32589,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 32601,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 32606,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 32609,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 32612,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 32621,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 32625,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 32626,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 32629,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 32630,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 32688,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 32689,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 32744,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 32745,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 32746,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 32748,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 32750,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 32752,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 32753,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 33030,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 33031,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 33243,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33244,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33245,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 33246,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 33247,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33248,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 33249,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 33250,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33251,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 33252,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 33311,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33312,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33313,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33314,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33315,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33316,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33317,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33320,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33321,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33324,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.2 TDI",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33325,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33326,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33327,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33328,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33329,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33330,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33363,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "1.2 TFSI",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 33406,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 33676,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 33677,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 33679,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33680,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33681,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.4 TSI RS",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33682,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.4 TSI RS",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 33683,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33689,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 33690,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33875,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.2 TDI",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34793,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 34842,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 34858,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 TFSI 4x4",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 34859,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 34879,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2011-01-01"
+    },
+    {
+      "vehicleId": 34947,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34948,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34949,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34950,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34951,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34952,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34953,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34954,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34955,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34956,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34957,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34958,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 45814,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 TGI CNG",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 53583,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "Blue E-Motion",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 55069,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 56142,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 56144,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2017-07-01"
+    },
+    {
+      "vehicleId": 56145,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 56147,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 56259,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.4 TSI Hybrid",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 56783,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 56784,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 56785,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 56790,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 56791,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 57357,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 57456,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 57459,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 57460,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 57461,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 57462,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 TSI MultiFuel",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 57480,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 58101,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 58415,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 TDI 16V 4x4",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58748,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 58749,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 58809,
+      "modelId": 7584,
+      "manufacturerName": "VW",
+      "modelName": "SCIROCCO III (137, 138)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-11-01"
+    },
+    {
+      "vehicleId": 58926,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 58943,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 58944,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 58945,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 58946,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59067,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 59068,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 59070,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59071,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59115,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59116,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59120,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTD",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 59145,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 59289,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 59345,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 100020,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 100072,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.4 TSI MultiFuel",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 100074,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 100075,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 R 4motion",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 105901,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 105911,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 105912,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2021-03-01"
+    },
+    {
+      "vehicleId": 105917,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 105919,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 106227,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 GTE Hybrid",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 106229,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2017-07-01"
+    },
+    {
+      "vehicleId": 106231,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2021-03-01"
+    },
+    {
+      "vehicleId": 106414,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.4 TSI MultiFuel",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 106415,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.4 TSI MultiFuel",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 106416,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 107942,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 107945,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2017-07-01"
+    },
+    {
+      "vehicleId": 107946,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2014-05-01",
+      "constructionIntervalEnd": "2017-07-01"
+    },
+    {
+      "vehicleId": 108131,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 108132,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 108147,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-08-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 108514,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108515,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 109431,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 109439,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 109457,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 109462,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 109467,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 109838,
+      "modelId": 13608,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VII Variant (BA5, BV5)",
+      "typeEngineName": "1.6 TDI 4motion",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 109839,
+      "modelId": 13608,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 109842,
+      "modelId": 11221,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 GTD",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 109843,
+      "modelId": 13608,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VII Variant (BA5, BV5)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 112297,
+      "modelId": 13608,
+      "manufacturerName": "VW",
+      "modelName": "GOLF ALLTRACK VII Variant (BA5, BV5)",
+      "typeEngineName": "1.8 TSI 4motion",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 112353,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 115188,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "1.2 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 115189,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 115190,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "1.4 TSI 4x4",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 115191,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 115192,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "2.0 TDI 4x4",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 116818,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 117064,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "1.2 TSI 16V",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 117066,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "1.2 TSI 16V",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 118645,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI Clubsport",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 120193,
+      "modelId": 10585,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VII (5G1, BQ1, BE1, BE2)",
+      "typeEngineName": "2.0 GTI Clubsport S",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 122653,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2009-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "18,7"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "146"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "54,6"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "ATE"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E11 90R02A0788/17392"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "1J0698151D"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "1J0698151D"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "1J0698151D"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1J0698151D"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "1J0698151E"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "1J0698151E"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "1J0698151E"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1J0698151E"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "1J0698151F"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "1J0698151F"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "1J0698151F"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1J0698151F"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "1J0698151G"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "1J0698151G"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "1J0698151G"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1J0698151G"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "1K0698151A"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "1K0698151A"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "1K0698151A"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1K0698151A"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "1K0698151D"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "1K0698151D"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "1K0698151D"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1K0698151D"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "1K0698151F"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "1K0698151F"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "1K0698151F"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1K0698151F"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "1K0698151G"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "1K0698151G"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "1K0698151G"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1K0698151G"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "JZW698151"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "JZW698151"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "JZW698151"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "JZW698151"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP2025",
+  "fetchedAt": "2026-03-18T13:11:10Z"
+}

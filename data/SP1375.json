@@ -1,0 +1,87 @@
+{
+  "articleNo": "SP1375",
+  "articleId": 9157163,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 16549,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.5 D-4D 4WD (KDN165, KDN170, KDN190)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 25451,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25_, KUN25R)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25452,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15_, KUN15R)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34943,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25)",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2015-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "119"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "68,5"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "SUMITOMO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/0152"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650K020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044650K140"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04465YZZDV"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1375",
+  "fetchedAt": "2026-03-18T13:03:19Z"
+}

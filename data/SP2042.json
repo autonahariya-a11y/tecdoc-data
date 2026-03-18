@@ -1,0 +1,101 @@
+{
+  "articleNo": "SP2042",
+  "articleId": 9161274,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 7917,
+      "modelId": 3419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "3.0 24V (MCV20_, MCV20, MCV10)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 16163,
+      "modelId": 3419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "2.2 (SXV20)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2002-09-01"
+    },
+    {
+      "vehicleId": 16164,
+      "modelId": 3419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "3.0 V6 (MCV20_, MCV20R)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 17711,
+      "modelId": 5066,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PRIUS Liftback (_W2_)",
+      "typeEngineName": "1.5 Hybrid (NHW20_, NHW20R)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 20725,
+      "modelId": 5812,
+      "manufacturerName": "LEXUS",
+      "modelName": "ES (MCV_, VZV_)",
+      "typeEngineName": "3.0 (MCV30_, MCV20_, MCV20R)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 24393,
+      "modelId": 6690,
+      "manufacturerName": "TOYOTA",
+      "modelName": "WINDOM (_V2_)",
+      "typeEngineName": "3.0 (MCV20)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-07-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "82,6"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "38,6"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0818/0264"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446632030"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446632040"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446647010"
+    }
+  ],
+  "ean": "0880940903605",
+  "originalSKU": "SP2042",
+  "fetchedAt": "2026-03-18T13:11:34Z"
+}

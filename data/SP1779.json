@@ -1,0 +1,96 @@
+{
+  "articleNo": "SP1779",
+  "articleId": 9157888,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 58317,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58318,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107636,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116067,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.6 i-DTEC (RU8)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116068,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.5 (RU1)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "148,6"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "60,8"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "AKEBONO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/3779"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "45022T2GA00"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "45022T2GA01"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "45022T8MG00"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1779",
+  "fetchedAt": "2026-03-18T13:08:21Z"
+}

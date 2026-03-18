@@ -1,0 +1,92 @@
+{
+  "articleNo": "SP1829",
+  "articleId": 9158044,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 463,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.4 VTi 95 (NC8FP0)",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 470,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 HDi 90",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59311,
+      "modelId": 9130,
+      "manufacturerName": "CITROËN",
+      "modelName": "DS4 (NX_)",
+      "typeEngineName": "1.6 HDi 90",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 113664,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 115056,
+      "modelId": 9006,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 II (NC_)",
+      "typeEngineName": "1.2 THP 110 (NCHNZ6, NCHNV6)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": "2017-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "128,8"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "60,9"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "52,9"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "TRW"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/3107"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "4254A9"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1829",
+  "fetchedAt": "2026-03-18T13:08:57Z"
+}

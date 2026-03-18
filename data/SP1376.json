@@ -1,0 +1,114 @@
+{
+  "articleNo": "SP1376",
+  "articleId": 9157165,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 22698,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 22699,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27278,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27279,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH28, KLH18)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33640,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33641,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH18)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 34943,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25)",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2015-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "145,4"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "55,5"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A1034/2203"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526420"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446526421"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526420"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446526421"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1376",
+  "fetchedAt": "2026-03-18T13:03:24Z"
+}

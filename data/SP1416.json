@@ -1,0 +1,152 @@
+{
+  "articleNo": "SP1416",
+  "articleId": 9157256,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 16550,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.7 4x4 (JA627, SQ627W2)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 17763,
+      "modelId": 4097,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I (FT, HT)",
+      "typeEngineName": "2.7 4x4 (TX92, JA627)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 19193,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.6 All-wheel Drive (JB416)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 19194,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.0 All-wheel Drive (TD54, JB420)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 19393,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.9 DDiS All-wheel Drive (JT419, TD44, JB419WD, JB419XD,...",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 30861,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "3.2 All-wheel Drive (TDB4, JT632, JB632)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 30862,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 All-wheel Drive (JB424)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31383,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "2.4 All-wheel Drive (JT424, JB424, TDA4)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115783,
+      "modelId": 14518,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA I Open Off-Road Vehicle (GT)",
+      "typeEngineName": "2.0 4x4 (SQ420)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2003-07-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "138"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "54,5"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "TOKICO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/1435"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5520065J00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5520065J10"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5520065J11"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5520065J11L00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5520065J23"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5520065J23000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5520065J24"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5520067D11"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1416",
+  "fetchedAt": "2026-03-18T13:04:36Z"
+}

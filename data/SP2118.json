@@ -1,0 +1,477 @@
+{
+  "articleNo": "SP2118",
+  "articleId": 9161505,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 9777,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.0 AWD (SHJ)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9778,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.5 AWD (SH9)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 15977,
+      "modelId": 10112,
+      "manufacturerName": "TOYOTA",
+      "modelName": "GT 86 Coupe (ZN6_)",
+      "typeEngineName": "2.0 (ZN6AC_, ZN6BC_, ZN6K)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17658,
+      "modelId": 5059,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BL, BP)",
+      "typeEngineName": "2.5 AWD (BP9)",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2009-09-01"
+    },
+    {
+      "vehicleId": 17659,
+      "modelId": 5059,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BL, BP)",
+      "typeEngineName": "3.0 AWD (BPE)",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2009-09-01"
+    },
+    {
+      "vehicleId": 17660,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.0 AWD (BL5)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 17661,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.0 AWD (BP5)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 17662,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.5 AWD (BP9)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 17663,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.5 AWD (BL9)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 17664,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "3.0 R AWD (BLE, B13)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 17665,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "3.0 R AWD (BPE)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 28121,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "1.6 i AWD (GP3, G33GP)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 28125,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "2.0 i AWD (GP7, G33GP)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 28273,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "1.5 F (GH2)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 29286,
+      "modelId": 10158,
+      "manufacturerName": "SUBARU",
+      "modelName": "XV (_GP_)",
+      "typeEngineName": "2.0 D AWD (GPD)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 29730,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.0 R AWD (GH7)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30355,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "1.5 AWD (GH3)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30432,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.5 i AWD (BP9)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30435,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.0 D AWD (BPD)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30719,
+      "modelId": 5059,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BL, BP)",
+      "typeEngineName": "2.0 D AWD (BPD)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2009-09-01"
+    },
+    {
+      "vehicleId": 30720,
+      "modelId": 5059,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BL, BP)",
+      "typeEngineName": "2.5 AWD (BP9)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2009-09-01"
+    },
+    {
+      "vehicleId": 30814,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.0 AWD (SH5)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 30815,
+      "modelId": 7995,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SH_)",
+      "typeEngineName": "2.0 D AWD (SHH, SHD, SHN)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 30817,
+      "modelId": 5061,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV Estate (BP)",
+      "typeEngineName": "2.0 R AWD (BP5)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30818,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.0 R AWD (BL5)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30819,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.0 D AWD (BLD)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30820,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.5 i AWD (BL9)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30897,
+      "modelId": 7592,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GR, GH, G3)",
+      "typeEngineName": "2.0 D AWD",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 32121,
+      "modelId": 8278,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BR)",
+      "typeEngineName": "2.0 D AWD (BRD)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32122,
+      "modelId": 8278,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BR)",
+      "typeEngineName": "2.5 i AWD (BR9)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32123,
+      "modelId": 8278,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BR)",
+      "typeEngineName": "3.6 R AWD (BRF)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32124,
+      "modelId": 8279,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V (BM)",
+      "typeEngineName": "2.0 i AWD (BM5)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32125,
+      "modelId": 8279,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V (BM)",
+      "typeEngineName": "2.5 i AWD (BM9)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32126,
+      "modelId": 8279,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V (BM)",
+      "typeEngineName": "2.0 D AWD (BMD)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32127,
+      "modelId": 8280,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V Estate (BR)",
+      "typeEngineName": "2.0 D AWD (BRD)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32128,
+      "modelId": 8280,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V Estate (BR)",
+      "typeEngineName": "2.0 i AWD",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32129,
+      "modelId": 8280,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V Estate (BR)",
+      "typeEngineName": "2.5 i AWD (BR9)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 55122,
+      "modelId": 10265,
+      "manufacturerName": "SUBARU",
+      "modelName": "BRZ (ZC6)",
+      "typeEngineName": "2.0 (ZC6)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58700,
+      "modelId": 11171,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SJ_)",
+      "typeEngineName": "2.0 i AWD (SJ5)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58701,
+      "modelId": 11171,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SJ_)",
+      "typeEngineName": "2.0 D AWD (SJD)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58702,
+      "modelId": 11171,
+      "manufacturerName": "SUBARU",
+      "modelName": "FORESTER (SJ_)",
+      "typeEngineName": "2.0 XT AWD (SJG)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59424,
+      "modelId": 11267,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GP_)",
+      "typeEngineName": "1.6 i (GP2)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 59425,
+      "modelId": 11267,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Hatchback (GP_)",
+      "typeEngineName": "1.6 i AWD",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59427,
+      "modelId": 8280,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V Estate (BR)",
+      "typeEngineName": "2.5 i AWD (BRM)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 59431,
+      "modelId": 8278,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BR)",
+      "typeEngineName": "2.5 i AWD (BRM)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120299,
+      "modelId": 8280,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V Estate (BR)",
+      "typeEngineName": "2.0 i AWD",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "14"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "110"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "37"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "AKEBONO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0818/1221"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "26696AG010"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "26696AG030"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "26696AG031"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "26696AG050"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "26696FJ000"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "SU00304097"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP2118",
+  "fetchedAt": "2026-03-18T13:12:59Z"
+}

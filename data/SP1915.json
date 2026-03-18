@@ -1,0 +1,115 @@
+{
+  "articleNo": "SP1915",
+  "articleId": 9158192,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 130766,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 130767,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.0 CRDi AWD",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 130768,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.0 T-GDI",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130769,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130770,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130771,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi AWD",
+      "constructionIntervalStart": "2018-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131897,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-11-01"
+    },
+    {
+      "vehicleId": 131898,
+      "modelId": 38591,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SANTA FE IV (TM, TMA)",
+      "typeEngineName": "2.2 CRDi AWD",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-11-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "110,9"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "47"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0818/5243"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58302S1A30"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58302S1A50"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1915",
+  "fetchedAt": "2026-03-18T13:10:17Z"
+}

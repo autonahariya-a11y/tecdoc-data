@@ -1,0 +1,104 @@
+{
+  "articleNo": "SP1611",
+  "articleId": 9157609,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 17325,
+      "modelId": 4996,
+      "manufacturerName": "DAIHATSU",
+      "modelName": "CUORE VI (L251, L250_, L260_)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 22471,
+      "modelId": 6229,
+      "manufacturerName": "DAIHATSU",
+      "modelName": "TREVIS",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23496,
+      "modelId": 6454,
+      "manufacturerName": "DAIHATSU",
+      "modelName": "CUORE VII (L275_, L285_, L276_)",
+      "typeEngineName": "1.0 (L276)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56018,
+      "modelId": 13588,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "MIRAGE / SPACE STAR VI Hatchback (A0_A)",
+      "typeEngineName": "1.0 (A05A)",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57508,
+      "modelId": 13588,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "MIRAGE / SPACE STAR VI Hatchback (A0_A)",
+      "typeEngineName": "1.2 (A03A)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15,3"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "44,3"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "AKEBONO"
+    },
+    {
+      "criteriaName": "Width 1 [mm]",
+      "criteriaValue": "122,1"
+    },
+    {
+      "criteriaName": "Width 2 [mm]",
+      "criteriaValue": "92"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E1190R02A01185/24668"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "0449197214"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "0449197214000"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "449197214"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "449197214000"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1611",
+  "fetchedAt": "2026-03-18T13:06:38Z"
+}

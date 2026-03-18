@@ -1,0 +1,147 @@
+{
+  "articleNo": "SP1456",
+  "articleId": 9157339,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 17342,
+      "modelId": 5001,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (_U3_)",
+      "typeEngineName": "300 (MCU35_, MCU35R)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 19339,
+      "modelId": 5001,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (_U3_)",
+      "typeEngineName": "350 AWD (GSU35_, GSU35R)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 26138,
+      "modelId": 7218,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U3_)",
+      "typeEngineName": "3.5 4WD (GSU35_, GSU36_, GSU35W, GSU36W)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 30505,
+      "modelId": 5001,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (_U3_)",
+      "typeEngineName": "330 (MCU38_, MCU38R)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 57212,
+      "modelId": 5001,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (_U3_)",
+      "typeEngineName": "350 (GSU30_)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 59034,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "3.3 Hybrid (MHU23_, MHU23R)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 124340,
+      "modelId": 7218,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U3_)",
+      "typeEngineName": "3.0 (MCU30)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 124341,
+      "modelId": 7218,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U3_)",
+      "typeEngineName": "3.0 4WD (MCU36W, MCU35)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2006-01-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "141"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "59,5"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "SUMITOMO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/1126"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "044650W070"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446548080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "0446548100"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "0446548110"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "446548080"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "446548100"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "446548110"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "477460W05000"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "477460W07000"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1456",
+  "fetchedAt": "2026-03-18T13:04:46Z"
+}

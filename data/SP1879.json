@@ -1,0 +1,97 @@
+{
+  "articleNo": "SP1879",
+  "articleId": 9158137,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 32125,
+      "modelId": 8279,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V (BM)",
+      "typeEngineName": "2.5 i AWD (BM9)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32129,
+      "modelId": 8280,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V Estate (BR)",
+      "typeEngineName": "2.5 i AWD (BR9)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 59427,
+      "modelId": 8280,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY V Estate (BR)",
+      "typeEngineName": "2.5 i AWD (BRM)",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 111683,
+      "modelId": 13301,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BS)",
+      "typeEngineName": "2.5 AWD (BS9)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111688,
+      "modelId": 13301,
+      "manufacturerName": "SUBARU",
+      "modelName": "OUTBACK (BS)",
+      "typeEngineName": "2.0 D AWD (BSD)",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112810,
+      "modelId": 14083,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEVORG",
+      "typeEngineName": "1.6 AWD (VM4)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "13,8"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "123,2"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "52,7"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "47,7"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0818/4368"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "26696AL000"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1879",
+  "fetchedAt": "2026-03-18T13:09:37Z"
+}

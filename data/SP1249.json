@@ -1,0 +1,682 @@
+{
+  "articleNo": "SP1249",
+  "articleId": 9156899,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 803,
+      "modelId": 9016,
+      "manufacturerName": "NISSAN",
+      "modelName": "NP300 PICKUP (D22)",
+      "typeEngineName": "2.5 dCi 4x4",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1611,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi 4WD (D40TT, D40T, D40M, D40BB)",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1620,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "3.0 dCi 4WD",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5839,
+      "modelId": 8862,
+      "manufacturerName": "NISSAN",
+      "modelName": "370Z Roadster (Z34)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5841,
+      "modelId": 8653,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 Platform/Chassis (D40)",
+      "typeEngineName": "2.5 dCi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5842,
+      "modelId": 8653,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 Platform/Chassis (D40)",
+      "typeEngineName": "3.0 dCi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 8445,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "35h",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10309,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "2.5 dCi 4x4",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 11140,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11757,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6 dCi All-wheel Drive",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11758,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.6 dCi",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 11915,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "25",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11918,
+      "modelId": 9737,
+      "manufacturerName": "INFINITI",
+      "modelName": "M37",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11921,
+      "modelId": 9737,
+      "manufacturerName": "INFINITI",
+      "modelName": "M37",
+      "typeEngineName": "3.7 Allrad",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14062,
+      "modelId": 4483,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q45 I",
+      "typeEngineName": "4.1",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 18430,
+      "modelId": 5382,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO I (Z50)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 18506,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 18794,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18795,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18811,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "35 All-wheel Drive",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 18812,
+      "modelId": 5441,
+      "manufacturerName": "INFINITI",
+      "modelName": "FX",
+      "typeEngineName": "45 All-wheel Drive",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 19182,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "4.0 4WD",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19559,
+      "modelId": 5018,
+      "manufacturerName": "NISSAN",
+      "modelName": "350Z Coupe (Z33)",
+      "typeEngineName": "3.5 (AAZ33)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 19606,
+      "modelId": 5203,
+      "manufacturerName": "NISSAN",
+      "modelName": "350Z Roadster (Z33)",
+      "typeEngineName": "3.5 (AAZ33)",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2007-01-01"
+    },
+    {
+      "vehicleId": 19888,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 dCi",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 22942,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "2.0 dCi All-wheel Drive",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 23053,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23054,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 25093,
+      "modelId": 5018,
+      "manufacturerName": "NISSAN",
+      "modelName": "350Z Coupe (Z33)",
+      "typeEngineName": "3.5 (BAZ33)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 26653,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi (HY0K)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26654,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi 4x4 (HY0K)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26655,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.0 dCi 4x4 (HY0B)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27548,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.5 (HY0C, HY0N)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27549,
+      "modelId": 6735,
+      "manufacturerName": "RENAULT",
+      "modelName": "KOLEOS I (HY_)",
+      "typeEngineName": "2.5 4x4 (HY0C, HY0N)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28606,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28607,
+      "modelId": 7597,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29985,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 31210,
+      "modelId": 8052,
+      "manufacturerName": "NISSAN",
+      "modelName": "370Z Coupe (Z34)",
+      "typeEngineName": "3.7 V6 VVEL",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31387,
+      "modelId": 8052,
+      "manufacturerName": "NISSAN",
+      "modelName": "370Z Coupe (Z34)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33583,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "30d",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33670,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "37 X",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33671,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34552,
+      "modelId": 8862,
+      "manufacturerName": "NISSAN",
+      "modelName": "370Z Roadster (Z34)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34757,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34758,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "3.0 dCi",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34787,
+      "modelId": 7596,
+      "manufacturerName": "INFINITI",
+      "modelName": "EX",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34794,
+      "modelId": 7597,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Coupe",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34803,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "37",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34804,
+      "modelId": 8941,
+      "manufacturerName": "INFINITI",
+      "modelName": "M (Y51)",
+      "typeEngineName": "30d",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 51055,
+      "modelId": 6086,
+      "manufacturerName": "INFINITI",
+      "modelName": "M35",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 51587,
+      "modelId": 10321,
+      "manufacturerName": "INFINITI",
+      "modelName": "G Saloon",
+      "typeEngineName": "35 X",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 53614,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55275,
+      "modelId": 7870,
+      "manufacturerName": "NISSAN",
+      "modelName": "MURANO II (Z51)",
+      "typeEngineName": "3.5 4x4",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 58978,
+      "modelId": 8052,
+      "manufacturerName": "NISSAN",
+      "modelName": "370Z Coupe (Z34)",
+      "typeEngineName": "NISMO 3.7",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59303,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100191,
+      "modelId": 11680,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Coupe",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100192,
+      "modelId": 11681,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Convertible",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100721,
+      "modelId": 11858,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX70",
+      "typeEngineName": "30d AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100722,
+      "modelId": 11858,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX70",
+      "typeEngineName": "50 AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100925,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100926,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106194,
+      "modelId": 8052,
+      "manufacturerName": "NISSAN",
+      "modelName": "370Z Coupe (Z34)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110819,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "2.2 D",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112948,
+      "modelId": 11858,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX70",
+      "typeEngineName": "3.7 AWD",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117608,
+      "modelId": 11858,
+      "manufacturerName": "INFINITI",
+      "modelName": "QX70",
+      "typeEngineName": "37 AWD",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126714,
+      "modelId": 11905,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q70 (Y51)",
+      "typeEngineName": "3.7 AWD",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132005,
+      "modelId": 9737,
+      "manufacturerName": "INFINITI",
+      "modelName": "M37",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "157"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "58,5"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "SUMITOMO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/2470"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "410600023R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "410603072R"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "41060CC090"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "41060EB325"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10601MF0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10605X00A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D1060EG51A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D1060EJ20A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D1060EJ2CA"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "DA060EB325"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1249",
+  "fetchedAt": "2026-03-18T13:02:42Z"
+}

@@ -1,0 +1,57 @@
+{
+  "articleNo": "SP1719",
+  "articleId": 9157776,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 100581,
+      "modelId": 11774,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II (BA, IA)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 100584,
+      "modelId": 11774,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 II (BA, IA)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2019-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "132,8"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "50,7"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/4473"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101B4A00"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1719",
+  "fetchedAt": "2026-03-18T13:07:43Z"
+}

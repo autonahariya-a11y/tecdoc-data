@@ -1,0 +1,149 @@
+{
+  "articleNo": "SP1116",
+  "articleId": 9156590,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 11863,
+      "modelId": 4144,
+      "manufacturerName": "KIA",
+      "modelName": "PREGIO Van (TB)",
+      "typeEngineName": "2.7 D",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 13140,
+      "modelId": 4349,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL I (UP)",
+      "typeEngineName": "2.5 V6",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 13141,
+      "modelId": 4349,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL I (UP)",
+      "typeEngineName": "2.9 TDi",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 16356,
+      "modelId": 4844,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL II (GQ)",
+      "typeEngineName": "2.5 V6",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16357,
+      "modelId": 4844,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL II (GQ)",
+      "typeEngineName": "2.9 CRDi",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16821,
+      "modelId": 4844,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL II (GQ)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2006-04-01"
+    },
+    {
+      "vehicleId": 17309,
+      "modelId": 4144,
+      "manufacturerName": "KIA",
+      "modelName": "PREGIO Van (TB)",
+      "typeEngineName": "2.5 TCi D",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19797,
+      "modelId": 4844,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL II (GQ)",
+      "typeEngineName": "2.9 TDi",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 49891,
+      "modelId": 6670,
+      "manufacturerName": "KIA",
+      "modelName": "BONGO Platform/Chassis (PU)",
+      "typeEngineName": "2.5 CRDi",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110766,
+      "modelId": 5129,
+      "manufacturerName": "KIA",
+      "modelName": "K2500 Platform/Chassis (SD)",
+      "typeEngineName": "2.5 CRDi",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "154,4"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "56,2"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "SUMITOMO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-01,259/1157"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "0K56B3323ZA"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "0K58A3323Z"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "0K72G3328Z"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "0K75A3328Z"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "0K75B3328Z"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1116",
+  "fetchedAt": "2026-03-18T12:59:55Z"
+}

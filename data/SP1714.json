@@ -1,0 +1,141 @@
+{
+  "articleNo": "SP1714",
+  "articleId": 9157766,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 24379,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 D",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26859,
+      "modelId": 11419,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q50",
+      "typeEngineName": "50 Hybrid",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55276,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 59991,
+      "modelId": 10315,
+      "manufacturerName": "NISSAN",
+      "modelName": "ROGUE",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 106464,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 dCi (T32)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106465,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 dCi ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107383,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 (T32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107384,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "2.5 ALL MODE 4x4-i (NT32)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116533,
+      "modelId": 12857,
+      "manufacturerName": "NISSAN",
+      "modelName": "X-TRAIL III (T32_, T32R, T32RR)",
+      "typeEngineName": "1.6 DIG-T (T32)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121986,
+      "modelId": 36966,
+      "manufacturerName": "INFINITI",
+      "modelName": "Q60 Coupe",
+      "typeEngineName": "2.0 T",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "151,9"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "61,6"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/4409"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "410607185R"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "D10604CC0A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10604GA0A"
+    },
+    {
+      "oemBrand": "INFINITI",
+      "oemDisplayNo": "D10604GA5A"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1714",
+  "fetchedAt": "2026-03-18T13:07:38Z"
+}

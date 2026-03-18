@@ -1,0 +1,137 @@
+{
+  "articleNo": "SP1172",
+  "articleId": 9156736,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 9892,
+      "modelId": 7368,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 I (PA)",
+      "typeEngineName": "1.1",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 9893,
+      "modelId": 7368,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 I (PA)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 18042,
+      "modelId": 5128,
+      "manufacturerName": "KIA",
+      "modelName": "PICANTO I (SA)",
+      "typeEngineName": "1.1",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 19195,
+      "modelId": 5128,
+      "manufacturerName": "KIA",
+      "modelName": "PICANTO I (SA)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2011-04-01"
+    },
+    {
+      "vehicleId": 19214,
+      "modelId": 5128,
+      "manufacturerName": "KIA",
+      "modelName": "PICANTO I (SA)",
+      "typeEngineName": "1.1 CRDi",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2011-04-01"
+    },
+    {
+      "vehicleId": 26584,
+      "modelId": 7368,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 I (PA)",
+      "typeEngineName": "1.1",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 26585,
+      "modelId": 7368,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 I (PA)",
+      "typeEngineName": "1.1 CRDi",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 30842,
+      "modelId": 7368,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 I (PA)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 34737,
+      "modelId": 5128,
+      "manufacturerName": "KIA",
+      "modelName": "PICANTO I (SA)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-04-01"
+    },
+    {
+      "vehicleId": 59401,
+      "modelId": 7368,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i10 I (PA)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16,7"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "116,1"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "47,5"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-01,261/1144"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "5810107A00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581010XA00"
+    },
+    {
+      "oemBrand": "HUMMER",
+      "oemDisplayNo": "581010XA10"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1172",
+  "fetchedAt": "2026-03-18T13:00:28Z"
+}

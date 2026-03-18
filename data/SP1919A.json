@@ -1,0 +1,662 @@
+{
+  "articleNo": "SP1919A",
+  "articleId": 9158200,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 24305,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24892,
+      "modelId": 6856,
+      "manufacturerName": "LINCOLN",
+      "modelName": "CONTINENTAL",
+      "typeEngineName": "4.6",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 58546,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "1.6 EcoBoost",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 58547,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "1.6 EcoBoost 4x4",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 58548,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 58549,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 58550,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 106502,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 106503,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 107748,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 Hybrid",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107749,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "1.5 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107750,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107751,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107752,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107753,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107754,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107755,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "1.5 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107756,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107758,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107760,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "1.6 TDCi",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107761,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107762,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107967,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "1.5 EcoBoost",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 107968,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "1.5 EcoBoost 4x4",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 107969,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 107970,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 107971,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 107972,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 108597,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 Hybrid",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110544,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110549,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111088,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111093,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "1.5 TDCi",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111096,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "2.0 TDCi Bi-Turbo",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111097,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111098,
+      "modelId": 13128,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Hatchback (CE)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111103,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "1.0 EcoBoost",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111105,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "1.5 TDCi",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111107,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 TDCi Bi-Turbo",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111110,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111111,
+      "modelId": 13127,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Turnier (CF)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111790,
+      "modelId": 13884,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (CJ, WA6)",
+      "typeEngineName": "1.5 EcoBoost",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 111791,
+      "modelId": 13884,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (CJ, WA6)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111792,
+      "modelId": 13884,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (CJ, WA6)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 111794,
+      "modelId": 13884,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (CJ, WA6)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 111795,
+      "modelId": 13884,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (CJ, WA6)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 111796,
+      "modelId": 13884,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (CJ, WA6)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 111797,
+      "modelId": 13884,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (CJ, WA6)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 111798,
+      "modelId": 13884,
+      "manufacturerName": "FORD",
+      "modelName": "S-MAX (CJ, WA6)",
+      "typeEngineName": "2.0 TDCi BI-Turbo",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 112237,
+      "modelId": 13969,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY III (CK)",
+      "typeEngineName": "1.5 EcoBoost",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 112239,
+      "modelId": 13969,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY III (CK)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112242,
+      "modelId": 13969,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY III (CK)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 112243,
+      "modelId": 13969,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY III (CK)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 112245,
+      "modelId": 13969,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY III (CK)",
+      "typeEngineName": "2.0 TDCi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 112247,
+      "modelId": 13969,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY III (CK)",
+      "typeEngineName": "2.0 TDCi Bi-Turbo",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 115100,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115101,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 TDCi Bi-Turbo",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115107,
+      "modelId": 13969,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY III (CK)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 115110,
+      "modelId": 13969,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY III (CK)",
+      "typeEngineName": "2.0 TDCi 4x4",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2018-06-01"
+    },
+    {
+      "vehicleId": 117197,
+      "modelId": 13596,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE",
+      "typeEngineName": "2.0 TDCi AWD",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 117198,
+      "modelId": 13596,
+      "manufacturerName": "FORD USA",
+      "modelName": "EDGE",
+      "typeEngineName": "2.0 TDCi Bi-Turbo AWD",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 118023,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "1.5 EcoBoost",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 121398,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBoost",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 121427,
+      "modelId": 10889,
+      "manufacturerName": "FORD USA",
+      "modelName": "ESCAPE",
+      "typeEngineName": "2.5 4WD",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 122732,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "1.5 TDCi",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 130910,
+      "modelId": 11097,
+      "manufacturerName": "FORD",
+      "modelName": "KUGA II (DM2)",
+      "typeEngineName": "1.6 EcoBoost 4x4",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 137134,
+      "modelId": 13129,
+      "manufacturerName": "FORD",
+      "modelName": "MONDEO V Saloon (CD)",
+      "typeEngineName": "2.0 EcoBlue",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "123,1"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "53,4"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "48,5"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0818/4812"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "5333787"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "5341209"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "DG9C2M007BB"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "DG9C2M007JA"
+    },
+    {
+      "oemBrand": "LINCOLN",
+      "oemDisplayNo": "DG9Z2200L"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1919A",
+  "fetchedAt": "2026-03-18T13:10:22Z"
+}

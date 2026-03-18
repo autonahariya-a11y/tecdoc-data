@@ -1,0 +1,56 @@
+{
+  "articleNo": "SP4127",
+  "articleId": 9165552,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 127817,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "2.0 Type-R (FK8)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "14,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "122,4"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "53,5"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "48,4"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "ATE"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0818/5030"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "43022TBAA02"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP4127",
+  "fetchedAt": "2026-03-18T13:13:44Z"
+}

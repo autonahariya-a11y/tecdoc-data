@@ -1,0 +1,615 @@
+{
+  "articleNo": "SP2098A",
+  "articleId": 9161448,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 8683,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 8684,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.4 HDi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 8685,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 8686,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 17403,
+      "modelId": 5011,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 CC (3B)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 17843,
+      "modelId": 4771,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 (3A/C)",
+      "typeEngineName": "2.0 HDi 135",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-11-01"
+    },
+    {
+      "vehicleId": 17994,
+      "modelId": 5113,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 Break (3E)",
+      "typeEngineName": "2.0 HDi 135",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2008-04-01"
+    },
+    {
+      "vehicleId": 17995,
+      "modelId": 4882,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 SW (3H)",
+      "typeEngineName": "2.0 HDi 135",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2008-04-01"
+    },
+    {
+      "vehicleId": 18335,
+      "modelId": 5221,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 I (LC_)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 18338,
+      "modelId": 5221,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 I (LC_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 18342,
+      "modelId": 5220,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 Coupe (LA_)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18345,
+      "modelId": 5220,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 Coupe (LA_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18776,
+      "modelId": 4771,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 (3A/C)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2007-11-01"
+    },
+    {
+      "vehicleId": 18777,
+      "modelId": 5011,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 CC (3B)",
+      "typeEngineName": "2.0 HDi 135",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 19855,
+      "modelId": 5221,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 I (LC_)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 22685,
+      "modelId": 5522,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "207 (WA_, WC_)",
+      "typeEngineName": "1.6 16V RC",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23381,
+      "modelId": 6432,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 I (4A_, 4C_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 23384,
+      "modelId": 6432,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 I (4A_, 4C_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 26606,
+      "modelId": 6432,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 I (4A_, 4C_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 26612,
+      "modelId": 7376,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW I (4E_, 4H_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 26613,
+      "modelId": 7376,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW I (4E_, 4H_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 26616,
+      "modelId": 7376,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW I (4E_, 4H_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 28201,
+      "modelId": 7579,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 CC (4B_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 28202,
+      "modelId": 7579,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 CC (4B_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30385,
+      "modelId": 5221,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 I (LC_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 30386,
+      "modelId": 5220,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 Coupe (LA_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 30822,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 30824,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "2.0 HDi 150 / BlueHDi 150",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 31166,
+      "modelId": 7376,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW I (4E_, 4H_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 31167,
+      "modelId": 6433,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "207 SW (WK_)",
+      "typeEngineName": "1.6 16V RC",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 31521,
+      "modelId": 7376,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW I (4E_, 4H_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 31524,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 32038,
+      "modelId": 8256,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "RCZ",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 32040,
+      "modelId": 8256,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "RCZ",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 32806,
+      "modelId": 7579,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 CC (4B_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32807,
+      "modelId": 7579,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 CC (4B_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32808,
+      "modelId": 7579,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 CC (4B_)",
+      "typeEngineName": "2.0 HDi (4BRHRH, 4BRHRJ)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32809,
+      "modelId": 7579,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 CC (4B_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 32818,
+      "modelId": 7376,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW I (4E_, 4H_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 33266,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 33269,
+      "modelId": 6432,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 I (4A_, 4C_)",
+      "typeEngineName": "1.6 THP 16V",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 33272,
+      "modelId": 7376,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW I (4E_, 4H_)",
+      "typeEngineName": "1.6 THP 16V",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 33804,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.0 VTi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 33807,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.2 VTI 82",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 33823,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.4 VTi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 33929,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.6 VTi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 56738,
+      "modelId": 7376,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW I (4E_, 4H_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 58133,
+      "modelId": 6432,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 I (4A_, 4C_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2012-04-01",
+      "constructionIntervalEnd": "2014-10-01"
+    },
+    {
+      "vehicleId": 59322,
+      "modelId": 7997,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "3008 I MPV (0U_)",
+      "typeEngineName": "2.0 HDi",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2016-08-01"
+    },
+    {
+      "vehicleId": 107418,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.2 THP 110",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 107419,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.6 HDi / BlueHDi 75",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 109333,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 111924,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.6 BlueHDi 100",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 112328,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.6 THP 165",
+      "constructionIntervalStart": "2015-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 117336,
+      "modelId": 10164,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "208 I (CA_, CC_)",
+      "typeEngineName": "1.6 HDi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 118677,
+      "modelId": 7579,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 CC (4B_)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2014-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "19,3"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "66"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "71,4"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "ATE"
+    },
+    {
+      "criteriaName": "Width 1 [mm]",
+      "criteriaValue": "155,2"
+    },
+    {
+      "criteriaName": "Width 2 [mm]",
+      "criteriaValue": "156,4"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/0751"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1609987980"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1609987980"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1611457880"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1611457880"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425260"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425260"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425323"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425323"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425343"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425343"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425344"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425344"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "425488"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "425488"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "E172359"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "E172359"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP2098A",
+  "fetchedAt": "2026-03-18T13:12:20Z"
+}

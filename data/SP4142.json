@@ -1,0 +1,110 @@
+{
+  "articleNo": "SP4142",
+  "articleId": 9165605,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 31564,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "1.6 (ZGR20_, ZGR20R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 31565,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "1.8 (ZGR21_, ZGR21R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 31566,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "2.0 D-4D (AUR20_, AUR20R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 31567,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "2.2 D-4D (AUR21_, AUR21R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 31568,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "2.2 D-CAT (AUR21_, AUR21R)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 58715,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "2.0 D-4D (AUR20_, AUR20R)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 100766,
+      "modelId": 8158,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO (_R2_)",
+      "typeEngineName": "1.6 D4-D (WAR20_)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2018-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "101,8"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "48,8"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "BOSCH"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0818/2694"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Rear Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "044660F010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04466YZZE7"
+    }
+  ],
+  "ean": "0880953579224",
+  "originalSKU": "SP4142",
+  "fetchedAt": "2026-03-18T13:13:51Z"
+}

@@ -1,0 +1,3830 @@
+{
+  "articleNo": "SP2001A",
+  "articleId": 9161138,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 3882,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "1996-03-01"
+    },
+    {
+      "vehicleId": 3891,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "1996-03-01"
+    },
+    {
+      "vehicleId": 3892,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "4.2 quattro",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "1996-07-01"
+    },
+    {
+      "vehicleId": 4615,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 4616,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 4617,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 4620,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 4621,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 4622,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 5125,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5128,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 5129,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "3.7 quattro",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "1998-11-01"
+    },
+    {
+      "vehicleId": 5306,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5307,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5308,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5311,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5314,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1996-01-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5315,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1996-01-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5322,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 5323,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 5411,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5412,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5413,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 5414,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5605,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2000-01-01"
+    },
+    {
+      "vehicleId": 5606,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5724,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5725,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5726,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5727,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.3 VR5",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5728,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.8 V6 Syncro/4motion",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5729,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5730,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7741,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 7742,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2000-04-01"
+    },
+    {
+      "vehicleId": 7932,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7933,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7934,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7935,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.3 VR5",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7936,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.8 V6",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7937,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7939,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7941,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.8 V6",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8315,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8316,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8317,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8318,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 8319,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8320,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8351,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8352,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8353,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8354,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 8355,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 8439,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.8 V6 Syncro/4motion",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8440,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.8 Syncro/4motion",
+      "constructionIntervalStart": "1996-12-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 8442,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.8 Syncro/4motion",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8443,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.9 TDI Syncro/4motion",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 8444,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.9 TDI Syncro/4motion",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 8801,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 8817,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.5 TDI quattro",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8818,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8828,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "2.5 TDI quattro",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2000-04-01"
+    },
+    {
+      "vehicleId": 8886,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8887,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.5 TDI quattro",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8893,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 8894,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.5 TDI quattro",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 8939,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 8940,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8941,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8942,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8943,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8944,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8945,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8946,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8947,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8948,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.5 TDI quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 9035,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.3 VR5 Syncro/4motion",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 9036,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.3 VR5 Syncro/4motion",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 10055,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 10056,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 10178,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 10179,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 10224,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 10728,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 10729,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 10944,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "2.8 VR6 4motion",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 11300,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 11301,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 11347,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 11348,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 11349,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 11350,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 11351,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 11352,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 11353,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 11363,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 11542,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.5 TDI Syncro/4motion",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 11543,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.5 TDI Syncro/4motion",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 12238,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 12241,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 13019,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 14566,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "2.8 V6 4motion",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14585,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 14586,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.5 TDI quattro",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 14587,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 14588,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.5 TDI quattro",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15119,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 15120,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 15414,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15415,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15416,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15417,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15418,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15419,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.3 V5",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15420,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15421,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15422,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15423,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.3 VR5",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15460,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15461,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15506,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 15507,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15508,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 15509,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15510,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15511,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15512,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "2.5 TDI quattro",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15531,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15532,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.8 T 20V",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15533,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.8 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15534,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.8 T 20V",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15535,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.8 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15536,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15540,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "2.3 V5",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15541,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "2.3 V5 4motion",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15609,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15610,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15661,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-05-01"
+    },
+    {
+      "vehicleId": 15662,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1999-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15664,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2000-05-01"
+    },
+    {
+      "vehicleId": 15665,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1999-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15754,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15781,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.5 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15782,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15783,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15784,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.3 V5 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15785,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.5 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15786,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15787,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15788,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.3 VR5 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15883,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15888,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16003,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16006,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16007,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16008,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16010,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16011,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16012,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16013,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16014,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16018,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 16035,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "4.0 W8 4motion",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 16036,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "4.0 W8 4motion",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 16043,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16044,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16046,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 16047,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16049,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16063,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 16064,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 16065,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16066,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16184,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16253,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.8 T GTI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 16261,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16291,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 16292,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 16293,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "2.8 V6",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 16294,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 16295,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 16296,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16297,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16298,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16299,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16301,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16302,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16318,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16319,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16322,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "2.5 TDI quattro",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16323,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 16324,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 16339,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 16346,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16347,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16464,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 16465,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16509,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 16510,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16596,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16601,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16602,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16603,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16705,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16706,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16707,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 16708,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 16709,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16710,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16711,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16712,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16861,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16880,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16881,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16882,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16883,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16884,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16885,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16931,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 16983,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 16984,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16985,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 17008,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 17142,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 17145,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "S4 quattro",
+      "constructionIntervalStart": "2003-03-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 17146,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 17147,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 17148,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 17149,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 17156,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "S4 quattro",
+      "constructionIntervalStart": "2003-03-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 17214,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.5 TDI 4motion",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17215,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.5 TDI 4motion",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17231,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 17232,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 17285,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 17323,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 17324,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 17406,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17407,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17478,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "2.3 V5",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 17479,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "2.3 V5 4motion",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 17691,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "1999-07-01"
+    },
+    {
+      "vehicleId": 17692,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 17873,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17874,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17893,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 17894,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 17895,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 17896,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 17897,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "4.2 quattro",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17898,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 18005,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 18025,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 18225,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18226,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18362,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18363,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18365,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18366,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18368,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18369,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18371,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18372,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18373,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18374,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18375,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18376,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18377,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18396,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18397,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18398,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18399,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18400,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18402,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 18403,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18404,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18405,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18406,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18407,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18408,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18409,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18410,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18411,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18412,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TDI 16V",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18413,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 18414,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18415,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18416,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 18417,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18418,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18419,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 18420,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 18421,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18422,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18423,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "4.2 quattro",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 18424,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18425,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.4 quattro",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18426,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 18675,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18676,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.7 TDI quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18677,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.7 TDI quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18678,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 18938,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18939,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18940,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 18941,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 19169,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "3.2 FSI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19170,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "3.2 FSI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19171,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19172,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19232,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 19233,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 19234,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.7 TDI quattro",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 19235,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.7 TDI quattro",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 19476,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "4.2 FSI quattro",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 19477,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 19478,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "4.2 FSI quattro",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 19479,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 19487,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "2.0 TFSI 16V",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19488,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19745,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 19798,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19799,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19825,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19826,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19842,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19843,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19844,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19845,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19846,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19847,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19848,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19849,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19850,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19970,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19971,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 20003,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 20109,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 20110,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 20910,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 20911,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 21318,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 21319,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 21322,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 22638,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 23187,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 23188,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 23293,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 23294,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 23735,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 23736,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 25095,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 26550,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 27315,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 27326,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 28017,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.7 TDi",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 28165,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 28568,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 28743,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "3.0 quattro",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 29978,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 30361,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30362,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30363,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.7 TDI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30364,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30365,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30366,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30367,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30369,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30370,
+      "modelId": 5110,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 (4F2)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-03-01"
+    },
+    {
+      "vehicleId": 30373,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30374,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.7 TDI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30375,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.7 TDI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30376,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30377,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30378,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30379,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "2.8 FSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30380,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30381,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30382,
+      "modelId": 5546,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C6 (4FH)",
+      "typeEngineName": "2.7 TDI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30383,
+      "modelId": 5546,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C6 (4FH)",
+      "typeEngineName": "3.0 TDI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30384,
+      "modelId": 5546,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C6 (4FH)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30997,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 30998,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 30999,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31000,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31001,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31347,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 31348,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 31349,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31350,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31351,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31352,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 31514,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 31588,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2008-12-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34806,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34809,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34810,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34811,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34814,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34818,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 57213,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 129490,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.8 4motion",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "19,3"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "156,3"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "74,2"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "ATE"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/4506"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "2723435"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "4B0698151AB"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "4B0698151AB"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "4B0698151AB"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "4B0698151AB"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "4B0698151E"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "4B0698151E"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "4B0698151E"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "4B0698151E"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "4B0698151J"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "4B0698151J"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "4B0698151J"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "4B0698151J"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "4B0698151M"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "4B0698151M"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "4B0698151M"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "4B0698151M"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "4B0698151N"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "4B0698151N"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "4B0698151N"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "4B0698151N"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8D0615116B"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8D0615116B"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8D0615116B"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8D0615116B"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8E0698151F"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8E0698151F"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8E0698151F"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8E0698151F"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8E0698151J"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8E0698151J"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8E0698151J"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8E0698151J"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "8E0698151K"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "8E0698151K"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "8E0698151K"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "8E0698151K"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "JZW698151N"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "JZW698151N"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "JZW698151N"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "JZW698151N"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP2001A",
+  "fetchedAt": "2026-03-18T13:10:59Z"
+}

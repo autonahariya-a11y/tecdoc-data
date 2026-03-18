@@ -1,0 +1,93 @@
+{
+  "articleNo": "SP1905",
+  "articleId": 9158177,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 120519,
+      "modelId": 36715,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "IONIQ (AE)",
+      "typeEngineName": "1.6 GDI Hybrid",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2022-07-01"
+    },
+    {
+      "vehicleId": 120520,
+      "modelId": 36715,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "IONIQ (AE)",
+      "typeEngineName": "Electric",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2019-08-01"
+    },
+    {
+      "vehicleId": 120843,
+      "modelId": 36798,
+      "manufacturerName": "KIA",
+      "modelName": "NIRO I (DE)",
+      "typeEngineName": "1.6 GDI Plug-in Hybrid",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2022-08-01"
+    },
+    {
+      "vehicleId": 133722,
+      "modelId": 36798,
+      "manufacturerName": "KIA",
+      "modelName": "NIRO I (DE)",
+      "typeEngineName": "E-NIRO",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2022-08-01"
+    },
+    {
+      "vehicleId": 133723,
+      "modelId": 36798,
+      "manufacturerName": "KIA",
+      "modelName": "NIRO I (DE)",
+      "typeEngineName": "E-NIRO",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2022-08-01"
+    },
+    {
+      "vehicleId": 139239,
+      "modelId": 36715,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "IONIQ (AE)",
+      "typeEngineName": "Electric",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2022-07-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "132,6"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "59,9"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-01,945/3155"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101F2A00"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1905",
+  "fetchedAt": "2026-03-18T13:10:06Z"
+}

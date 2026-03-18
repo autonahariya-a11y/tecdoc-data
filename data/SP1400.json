@@ -1,0 +1,721 @@
+{
+  "articleNo": "SP1400",
+  "articleId": 9157215,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 3784,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 4144,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.4 CRDi",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 4962,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CRDi 115",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 5008,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 9441,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 9815,
+      "modelId": 9575,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "VELOSTER (FS)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 16283,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 18556,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23662,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.4 CVVT",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 25918,
+      "modelId": 10165,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ELANTRA V Saloon (MD, UD)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31015,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 31017,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CRDi 128",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 54904,
+      "modelId": 9144,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "EQUUS / CENTENNIAL (VI)",
+      "typeEngineName": "3.8",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 54905,
+      "modelId": 9144,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "EQUUS / CENTENNIAL (VI)",
+      "typeEngineName": "4.6 V8",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 54907,
+      "modelId": 9144,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "EQUUS / CENTENNIAL (VI)",
+      "typeEngineName": "3.8 GDi",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 55073,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.4 CVVT",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 55074,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 55076,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.4 CRDi 90",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 55077,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.6 CRDi 128",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 55571,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 55786,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 56736,
+      "modelId": 9575,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "VELOSTER (FS)",
+      "typeEngineName": "1.6 T-GDI",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 56798,
+      "modelId": 10736,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Estate (GD)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 56799,
+      "modelId": 10736,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Estate (GD)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56800,
+      "modelId": 10736,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Estate (GD)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56801,
+      "modelId": 10736,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Estate (GD)",
+      "typeEngineName": "1.4 CRDi",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 56802,
+      "modelId": 10736,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Estate (GD)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 56803,
+      "modelId": 10736,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Estate (GD)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56804,
+      "modelId": 10736,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Estate (GD)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 56806,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 56854,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.4 CVVT",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 56855,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 56856,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.4 CRDi 90",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 56858,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.6 CRDi 128",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 56859,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.4 CVVT",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 56860,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 56862,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.4 CRDi 90",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 56863,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.6 CRDi 128",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 58679,
+      "modelId": 10165,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ELANTRA V Saloon (MD, UD)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59292,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.6 CRDi 110",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 59295,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.6 CRDi 110",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 59318,
+      "modelId": 11261,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Coupe",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 59319,
+      "modelId": 11261,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Coupe",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59320,
+      "modelId": 11261,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Coupe",
+      "typeEngineName": "1.4 CRDi",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 59321,
+      "modelId": 11261,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Coupe",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59722,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.6 GT",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 109975,
+      "modelId": 9575,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "VELOSTER (FS)",
+      "typeEngineName": "1.6 MPI",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 109978,
+      "modelId": 10736,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Estate (GD)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 109979,
+      "modelId": 10736,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Estate (GD)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109980,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.6 T-GDI",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111071,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 111078,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 111156,
+      "modelId": 11261,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Coupe",
+      "typeEngineName": "1.6 T-GDI",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116489,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.0 T-GDI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 116490,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.0 T-GDI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 116491,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.6 CRDi 136",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 116492,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.0 T-GDI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 116493,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.0 T-GDI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 116503,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.6 CRDi 136",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 116504,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.0 T-GDI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 116506,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.0 T-GDI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 116507,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.6 CRDi 136",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 117347,
+      "modelId": 10192,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D (JD)",
+      "typeEngineName": "1.4 MPI",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 117348,
+      "modelId": 10750,
+      "manufacturerName": "KIA",
+      "modelName": "CEE'D Sportswagon (JD)",
+      "typeEngineName": "1.4 MPI",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 117350,
+      "modelId": 10751,
+      "manufacturerName": "KIA",
+      "modelName": "PRO CEE'D (JD)",
+      "typeEngineName": "1.4 MPI",
+      "constructionIntervalStart": "2015-04-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 117964,
+      "modelId": 11261,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Coupe",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117967,
+      "modelId": 11261,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Coupe",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117970,
+      "modelId": 11261,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Coupe",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2014-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124009,
+      "modelId": 11261,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 Coupe",
+      "typeEngineName": "1.6 MPI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127761,
+      "modelId": 10445,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "i30 (GD)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "132,8"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "59,9"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-01,945/3155"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581012QA00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581012VA00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581012VA10"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581012VA50"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581012VA60"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581013NA50"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581013VA10"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581013XA00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581013XA10"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581013XA20"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101A5A00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101A6A02"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101A7A00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "58101A7A01"
+    }
+  ],
+  "ean": "0880940903315",
+  "originalSKU": "SP1400",
+  "fetchedAt": "2026-03-18T13:03:59Z"
+}

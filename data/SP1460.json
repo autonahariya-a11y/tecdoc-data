@@ -1,0 +1,198 @@
+{
+  "articleNo": "SP1460",
+  "articleId": 9157344,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 803,
+      "modelId": 9016,
+      "manufacturerName": "NISSAN",
+      "modelName": "NP300 PICKUP (D22)",
+      "typeEngineName": "2.5 dCi 4x4",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1611,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi 4WD (D40TT, D40T, D40M, D40BB)",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1620,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "3.0 dCi 4WD",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5841,
+      "modelId": 8653,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 Platform/Chassis (D40)",
+      "typeEngineName": "2.5 dCi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5842,
+      "modelId": 8653,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 Platform/Chassis (D40)",
+      "typeEngineName": "3.0 dCi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18506,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 18794,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18795,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19182,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "4.0 4WD",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23053,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23054,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34757,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34758,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "3.0 dCi",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 53614,
+      "modelId": 5395,
+      "manufacturerName": "NISSAN",
+      "modelName": "PATHFINDER III (R51)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59303,
+      "modelId": 5434,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA NP300 (D40)",
+      "typeEngineName": "2.5 dCi 4WD",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "15,8"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "163,4"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "54"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "TOKICO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/1300"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "41060EA025"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "41060EB326"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "41060ZP025"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5521082Z00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "5521082Z20"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "DA060EB326"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1460",
+  "fetchedAt": "2026-03-18T13:04:55Z"
+}

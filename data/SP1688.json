@@ -1,0 +1,57 @@
+{
+  "articleNo": "SP1688",
+  "articleId": 9157721,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 5963,
+      "modelId": 5604,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL / GRAND CARNIVAL III (VQ)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 5970,
+      "modelId": 5604,
+      "manufacturerName": "KIA",
+      "modelName": "CARNIVAL / GRAND CARNIVAL III (VQ)",
+      "typeEngineName": "2.2 CRDi",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-06-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "16,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "161"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "60,5"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A1308/4680"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "58101A9A00"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1688",
+  "fetchedAt": "2026-03-18T13:07:18Z"
+}

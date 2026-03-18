@@ -1,0 +1,171 @@
+{
+  "articleNo": "SP1813",
+  "articleId": 9158014,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 1052,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXF11, 312.AXF1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 1053,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXT1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5838,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 Turbo MultiAir (955AXS1B, 955AXS11)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 28249,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 TJet (955AXA1B)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 32742,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 MultiAir (955AXN1B)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 33667,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXF11, 312.AXF1A, 312.AXD1A)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56931,
+      "modelId": 14673,
+      "manufacturerName": "ABARTH",
+      "modelName": "PUNTO",
+      "typeEngineName": "1.4 SUPERSPORT (199.AXX1B)",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58731,
+      "modelId": 14669,
+      "manufacturerName": "ABARTH",
+      "modelName": "500 / 595 / 695",
+      "typeEngineName": "1.4 (312.AXF1A, 312.AXD1A)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59048,
+      "modelId": 11241,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "4C (960_)",
+      "typeEngineName": "1.8 (960.CXB1A)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 59224,
+      "modelId": 14670,
+      "manufacturerName": "ABARTH",
+      "modelName": "500C / 595C / 695C",
+      "typeEngineName": "1.4 (312.AXF11, 312.AXF1A)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100764,
+      "modelId": 7587,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "MITO (955_)",
+      "typeEngineName": "1.4 TB (955.AYB11, 955.AXB1B)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 108275,
+      "modelId": 13239,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "4C SPIDER (960_)",
+      "typeEngineName": "1.8 (960.DXB1A, 960CXB1A)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2020-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "14,5"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "124,8"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "70,8"
+    },
+    {
+      "criteriaName": "Brake System",
+      "criteriaValue": "BREMBO"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-02A0289/2211"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "51934099"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71765466"
+    },
+    {
+      "oemBrand": "ALFA ROMEO",
+      "oemDisplayNo": "77365672"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "77365672"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "77365830"
+    },
+    {
+      "oemBrand": "ALFA ROMEO",
+      "oemDisplayNo": "77366718"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1813",
+  "fetchedAt": "2026-03-18T13:08:36Z"
+}

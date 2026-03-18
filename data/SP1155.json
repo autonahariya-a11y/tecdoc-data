@@ -1,0 +1,878 @@
+{
+  "articleNo": "SP1155",
+  "articleId": 9156698,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 2557,
+      "modelId": 9045,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix20 (JC)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 2621,
+      "modelId": 9045,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix20 (JC)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 2698,
+      "modelId": 9045,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix20 (JC)",
+      "typeEngineName": "1.4 CRDi",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 4959,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 CRDi 4WD",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 4960,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 4962,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CRDi 115",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 5008,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 5854,
+      "modelId": 1575,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE I (RD)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 7305,
+      "modelId": 7471,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ELANTRA IV Saloon (HD)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2011-06-01"
+    },
+    {
+      "vehicleId": 9814,
+      "modelId": 8257,
+      "manufacturerName": "KIA",
+      "modelName": "VENGA (YN)",
+      "typeEngineName": "1.4 CRDi 75",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 10602,
+      "modelId": 9045,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix20 (JC)",
+      "typeEngineName": "1.6 CRDI",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 10604,
+      "modelId": 9045,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ix20 (JC)",
+      "typeEngineName": "1.4 CRDi",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2019-07-01"
+    },
+    {
+      "vehicleId": 10871,
+      "modelId": 5494,
+      "manufacturerName": "KIA",
+      "modelName": "MAGENTIS II (MG)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 15144,
+      "modelId": 4694,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "GALLOPER II (JK-01)",
+      "typeEngineName": "3.0 V6",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 15145,
+      "modelId": 4694,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "GALLOPER II (JK-01)",
+      "typeEngineName": "2.5 TD intercooler",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 15971,
+      "modelId": 4688,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ELANTRA III (XD)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 16028,
+      "modelId": 4792,
+      "manufacturerName": "KIA",
+      "modelName": "MAGENTIS I (GD, MS)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16168,
+      "modelId": 1575,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE I (RD)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 16367,
+      "modelId": 3682,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA IV (EF)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 16368,
+      "modelId": 3682,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA IV (EF)",
+      "typeEngineName": "2.7 V6",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 16369,
+      "modelId": 4849,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE II (GK)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 16370,
+      "modelId": 4849,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE II (GK)",
+      "typeEngineName": "2.7 V6",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 16932,
+      "modelId": 4694,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "GALLOPER II (JK-01)",
+      "typeEngineName": "2.5 TCi D",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 16943,
+      "modelId": 4694,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "GALLOPER II (JK-01)",
+      "typeEngineName": "2.5 TD",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 17266,
+      "modelId": 4849,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE II (GK)",
+      "typeEngineName": "2.0 GLS",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 18207,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18208,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 18209,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.7 All-wheel Drive",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 18210,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 18211,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 CRDi All-wheel Drive",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 18502,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 18503,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 16V 4WD",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 18504,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.7 V6 4WD",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 18505,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 CRDi 4WD",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 18556,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 GDI",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 18696,
+      "modelId": 5426,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA V (NF)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18843,
+      "modelId": 4849,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE II (GK)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 18844,
+      "modelId": 4849,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE II (GK)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 18892,
+      "modelId": 7471,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ELANTRA IV Saloon (HD)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 19211,
+      "modelId": 5494,
+      "manufacturerName": "KIA",
+      "modelName": "MAGENTIS II (MG)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 19212,
+      "modelId": 5494,
+      "manufacturerName": "KIA",
+      "modelName": "MAGENTIS II (MG)",
+      "typeEngineName": "2.7",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 19213,
+      "modelId": 5494,
+      "manufacturerName": "KIA",
+      "modelName": "MAGENTIS II (MG)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 19215,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 CRDi 4WD",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 19620,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 19623,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 19624,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 CRDi All-wheel Drive",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 19741,
+      "modelId": 3682,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA IV (EF)",
+      "typeEngineName": "2.7 V6",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 19751,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 19752,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 CRDi 140",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 19935,
+      "modelId": 5426,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA V (NF)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 20433,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 20839,
+      "modelId": 3682,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA IV (EF)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 20915,
+      "modelId": 5426,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA V (NF)",
+      "typeEngineName": "2.0 VVTi GLS",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 23308,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23309,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 CRDi All-wheel Drive",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 23314,
+      "modelId": 5426,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA V (NF)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 28550,
+      "modelId": 4694,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "GALLOPER II (JK-01)",
+      "typeEngineName": "2.6 TD All-wheel Drive",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2003-06-01"
+    },
+    {
+      "vehicleId": 28578,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 CRDi All-wheel Drive",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 28620,
+      "modelId": 4849,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE II (GK)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 28737,
+      "modelId": 1575,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE I (RD)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2002-01-01"
+    },
+    {
+      "vehicleId": 29980,
+      "modelId": 5426,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA V (NF)",
+      "typeEngineName": "2.0 VVTi GLS",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 30235,
+      "modelId": 7479,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TIBURON Coupe",
+      "typeEngineName": "2.0 CVVT",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 30356,
+      "modelId": 5426,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA V (NF)",
+      "typeEngineName": "3.3",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 31015,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 31017,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6 CRDi 128",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 31189,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 31191,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 CRDi 4WD",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 31217,
+      "modelId": 5426,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA V (NF)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 31271,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 31272,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 CRDi All-wheel Drive",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 32001,
+      "modelId": 4849,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "COUPE II (GK)",
+      "typeEngineName": "2.7 V6",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 32041,
+      "modelId": 8257,
+      "manufacturerName": "KIA",
+      "modelName": "VENGA (YN)",
+      "typeEngineName": "1.4 CVVT",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 32042,
+      "modelId": 8257,
+      "manufacturerName": "KIA",
+      "modelName": "VENGA (YN)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 32043,
+      "modelId": 8257,
+      "manufacturerName": "KIA",
+      "modelName": "VENGA (YN)",
+      "typeEngineName": "1.4 CRDi 90",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 32044,
+      "modelId": 8257,
+      "manufacturerName": "KIA",
+      "modelName": "VENGA (YN)",
+      "typeEngineName": "1.6 CRDi 128",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 33364,
+      "modelId": 5494,
+      "manufacturerName": "KIA",
+      "modelName": "MAGENTIS II (MG)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 33369,
+      "modelId": 5494,
+      "manufacturerName": "KIA",
+      "modelName": "MAGENTIS II (MG)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 33370,
+      "modelId": 5494,
+      "manufacturerName": "KIA",
+      "modelName": "MAGENTIS II (MG)",
+      "typeEngineName": "2.7 V6",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 33371,
+      "modelId": 5494,
+      "manufacturerName": "KIA",
+      "modelName": "MAGENTIS II (MG)",
+      "typeEngineName": "2.0 CRDi",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 33606,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "1.6 CVVT",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 33607,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 CRDi 135",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 33794,
+      "modelId": 8257,
+      "manufacturerName": "KIA",
+      "modelName": "VENGA (YN)",
+      "typeEngineName": "1.4 CRDi 75",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 33795,
+      "modelId": 8257,
+      "manufacturerName": "KIA",
+      "modelName": "VENGA (YN)",
+      "typeEngineName": "1.6 CRDi 115",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 50411,
+      "modelId": 7593,
+      "manufacturerName": "KIA",
+      "modelName": "SOUL I (AM)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 110520,
+      "modelId": 7471,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ELANTRA IV Saloon (HD)",
+      "typeEngineName": "1.6 CRDi",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 120636,
+      "modelId": 4694,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "GALLOPER II (JK-01)",
+      "typeEngineName": "3.0 AWD",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 122207,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 LPI",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 122208,
+      "modelId": 5602,
+      "manufacturerName": "KIA",
+      "modelName": "CARENS III MPV (UN)",
+      "typeEngineName": "2.0 LPI",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 129319,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 133954,
+      "modelId": 5394,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE II (JE_, KM_)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 138725,
+      "modelId": 5157,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (JM)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2010-03-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "131,4"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "60"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E9-90R-01,261/1088"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581012EA01"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581012GA15"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581012KA00"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581012KA51"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581013CA90"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "581013KA61"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1155",
+  "fetchedAt": "2026-03-18T13:00:23Z"
+}

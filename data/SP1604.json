@@ -1,0 +1,167 @@
+{
+  "articleNo": "SP1604",
+  "articleId": 9157596,
+  "supplier": "Hi-Q",
+  "product": "Brake Pad Set, disc brake",
+  "vehicles": [
+    {
+      "vehicleId": 9389,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.2 MZR-CD AWD (ER10A)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 23395,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3 MZR DISI Turbo AWD (ER3P)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 32110,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.3 MZR DISI Turbo AWD (ER3P)",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 32111,
+      "modelId": 6435,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-7 (ER)",
+      "typeEngineName": "2.2 MZR-CD AWD (ER10A)",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 33084,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 33085,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.7 AWD (TB10A)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33086,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33087,
+      "modelId": 8556,
+      "manufacturerName": "MAZDA",
+      "modelName": "CX-9 (TB)",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "17"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "110,6"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "44,8"
+    },
+    {
+      "criteriaName": "fulfils ECE norm",
+      "criteriaValue": "E11 90R02A0786/24051"
+    },
+    {
+      "criteriaName": "Fitting Position",
+      "criteriaValue": "Front Axle"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "7T412200AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "7T4Z2200A"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "7T4Z2V200AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "7U2J2C453AA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "8T432200BA"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "8T4Z2200A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "EHY42643Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "EHY42648Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "EHY52643ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "L2Y62643Z"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "L2Y62649Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "L2Y72643Z"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "L2Y72648Z"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "L2Y82643ZA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "L2Y82643ZB"
+    }
+  ],
+  "ean": null,
+  "originalSKU": "SP1604",
+  "fetchedAt": "2026-03-18T13:06:24Z"
+}
