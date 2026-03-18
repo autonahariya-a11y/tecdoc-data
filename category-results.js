@@ -111,6 +111,57 @@ window.__anFetchProductImages = function (catName, callback) {
   'use strict';
 
   /* ----------------------------------------------------------
+   *  CSS INJECTION – Enhanced product cards & category tiles
+   * ---------------------------------------------------------- */
+  (function injectCSS() {
+    var css =
+      /* Enhanced Product Grid */
+      '.an-parts-finder .an-products-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding:16px 0}' +
+      '.an-parts-finder .an-product-card{background:#fff;border:1px solid #e8eaed;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s ease,transform .15s ease;cursor:pointer;position:relative}' +
+      '.an-parts-finder .an-product-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.1);transform:translateY(-2px)}' +
+      '.an-parts-finder .an-product-img-wrap{position:relative;padding:16px;display:flex;align-items:center;justify-content:center;min-height:180px;background:#fafbfc}' +
+      '.an-parts-finder .an-product-img{max-width:100%;max-height:160px;object-fit:contain;transition:transform .3s ease}' +
+      '.an-parts-finder .an-product-card:hover .an-product-img{transform:scale(1.05)}' +
+      '.an-parts-finder .an-product-info{padding:0 16px 12px;flex:1;display:flex;flex-direction:column;gap:6px}' +
+      '.an-parts-finder .an-product-name{font-size:15px;font-weight:600;color:#1a1a2e;line-height:1.4;font-family:\'Heebo\',sans-serif;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}' +
+      '.an-parts-finder .an-product-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}' +
+      '.an-parts-finder .an-product-code{font-size:12px;color:#329FDA;background:rgba(50,159,218,.08);padding:3px 8px;border-radius:6px;font-weight:500;display:inline-block}' +
+      '.an-parts-finder .an-product-cat-badge{font-size:11px;color:#666;background:#f0f0f0;padding:2px 8px;border-radius:6px;display:inline-block}' +
+      '.an-parts-finder .an-product-years{font-size:12px;color:#888}' +
+      '.an-parts-finder .an-product-brand-logo{position:absolute;top:10px;left:10px;max-height:28px;max-width:60px;object-fit:contain;opacity:.85}' +
+      '.an-parts-finder .an-product-actions{padding:12px 16px;border-top:1px solid #f0f0f0;display:flex;gap:8px;direction:rtl}' +
+      '.an-parts-finder .an-btn{border:none;border-radius:8px;padding:10px 16px;font-size:13px;font-weight:600;font-family:\'Heebo\',sans-serif;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;transition:all .15s ease;text-decoration:none;flex:1;text-align:center}' +
+      '.an-parts-finder .an-btn-cart{background:#329FDA;color:#fff}' +
+      '.an-parts-finder .an-btn-cart:hover{background:#1B4E91}' +
+      '.an-parts-finder .an-btn-cart.an-adding{opacity:.7}' +
+      '.an-parts-finder .an-btn-cart.an-added{background:#27ae60;color:#fff}' +
+      '.an-parts-finder .an-btn-view{background:transparent;color:#329FDA;border:1.5px solid #329FDA}' +
+      '.an-parts-finder .an-btn-view:hover{background:rgba(50,159,218,.08)}' +
+      /* Products topbar */
+      '.an-parts-finder .an-products-topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 0;margin-bottom:8px;border-bottom:2px solid #329FDA;flex-wrap:wrap;gap:8px}' +
+      '.an-parts-finder .an-products-back-btn{background:none;border:1.5px solid #ddd;border-radius:8px;padding:8px 16px;font-size:14px;font-family:\'Heebo\',sans-serif;cursor:pointer;display:flex;align-items:center;gap:6px;color:#333;transition:all .15s ease}' +
+      '.an-parts-finder .an-products-back-btn:hover{border-color:#329FDA;color:#329FDA}' +
+      '.an-parts-finder .an-products-cat-title{font-size:20px;font-weight:700;color:#1a1a2e;font-family:\'Heebo\',sans-serif}' +
+      '.an-parts-finder .an-products-count{font-size:14px;color:#888;font-family:\'Heebo\',sans-serif}' +
+      /* Enhanced Category Cards */
+      '.an-parts-finder .an-cat-tile{background:#fff;border-radius:12px;padding:20px;text-align:center;cursor:pointer;transition:all .2s ease;border:1px solid #e8eaed;position:relative;overflow:hidden}' +
+      '.an-parts-finder .an-cat-tile:hover{box-shadow:0 6px 24px rgba(50,159,218,.15);transform:translateY(-3px);border-color:#329FDA}' +
+      '.an-parts-finder .an-cat-tile:hover::after{content:\'\';position:absolute;bottom:0;left:0;right:0;height:3px;background:#329FDA}' +
+      '.an-parts-finder .an-cat-tile .an-cat-img{max-height:100px;max-width:100%;object-fit:contain;margin:0 auto 12px;display:block;transition:transform .3s ease}' +
+      '.an-parts-finder .an-cat-tile:hover .an-cat-img{transform:scale(1.08)}' +
+      '.an-parts-finder .an-cat-name{font-size:15px;font-weight:600;color:#1a1a2e;font-family:\'Heebo\',sans-serif}' +
+      '.an-parts-finder .an-cat-count{font-size:12px;color:#888;margin-top:4px}' +
+      /* Responsive */
+      '@media(max-width:900px){.an-parts-finder .an-products-grid{grid-template-columns:repeat(2,1fr);gap:12px}}' +
+      '@media(max-width:550px){.an-parts-finder .an-products-grid{grid-template-columns:1fr;gap:10px}.an-parts-finder .an-product-img-wrap{min-height:140px}}';
+    var style = document.createElement('style');
+    style.setAttribute('data-an-enhanced', '1');
+    style.textContent = css;
+    (document.head || document.documentElement).appendChild(style);
+  })();
+
+
+  /* ----------------------------------------------------------
    *  CONSTANTS & CONFIGURATION
    * ---------------------------------------------------------- */
 
@@ -132,7 +183,7 @@ window.__anFetchProductImages = function (catName, callback) {
     "\u05DC\u05E0\u05D3 \u05E8\u05D5\u05D1\u05E8": ["\u05DC\u05E0\u05D3 \u05E8\u05D5\u05D1\u05E8", "\u05DC\u05E0\u05D3\u05E8\u05D5\u05D1\u05E8", "land rover"],
     "\u05DC\u05E7\u05E1\u05D5\u05E1":       ["\u05DC\u05E7\u05E1\u05D5\u05E1", "lexus"],
     "\u05DE\u05D0\u05D6\u05D3\u05D4":       ["\u05DE\u05D0\u05D6\u05D3\u05D4", "\u05DE\u05D6\u05D3\u05D4", "mazda"],
-    "\u05DE\u05E8\u05E6\u05D3\u05E1":       ["\u05DE\u05E8\u05E6\u05D3\u05E1", "mercedes", "\u05DE\u05E8\u05E6\u05D3\u05E1 \u05D1\u05E0\u05E5"],
+    "\u05DE\u05E8\u05E6\u05D3\u05E1":       ["\u05DE\u05E8\u05E6\u05D3\u05E1", "\u05DE\u05E8\u05E6\u05D3\u05E1-\u05D1\u05E0\u05E5", "mercedes", "mercedes-benz", "\u05DE\u05E8\u05E6\u05D3\u05E1 \u05D1\u05E0\u05E5"],
     "\u05DE\u05D9\u05E0\u05D9":             ["\u05DE\u05D9\u05E0\u05D9", "mini"],
     "\u05DE\u05D9\u05E6\u05D5\u05D1\u05D9\u05E9\u05D9": ["\u05DE\u05D9\u05E6\u05D5\u05D1\u05D9\u05E9\u05D9", "mitsubishi"],
     "\u05E0\u05D9\u05E1\u05DF":             ["\u05E0\u05D9\u05E1\u05DF", "nissan"],
@@ -154,7 +205,13 @@ window.__anFetchProductImages = function (catName, callback) {
     "DS": ["DS", "\u05D3\u05D9.\u05D0\u05E1"],
     "MG": ["MG", "\u05D0\u05DE.\u05D2'\u05D9"],
     "\u05E4\u05D5\u05E8\u05E9\u05D4":       ["\u05E4\u05D5\u05E8\u05E9\u05D4", "porsche"],
-    "\u05D5\u05D5\u05DC\u05D5\u05D5":       ["\u05D5\u05D5\u05DC\u05D5\u05D5", "volvo"]
+    "\u05D5\u05D5\u05DC\u05D5\u05D5":       ["\u05D5\u05D5\u05DC\u05D5\u05D5", "volvo"],
+    "\u05E7\u05E8\u05D9\u05D9\u05D6\u05DC\u05E8": ["\u05E7\u05E8\u05D9\u05D9\u05D6\u05DC\u05E8", "chrysler"],
+    "\u05D3\u05D9\u05D9\u05D4\u05D5": ["\u05D3\u05D9\u05D9\u05D4\u05D5", "daewoo"],
+    "\u05D3\u05D9\u05D9\u05D4\u05D8\u05E1\u05D5": ["\u05D3\u05D9\u05D9\u05D4\u05D8\u05E1\u05D5", "daihatsu"],
+    "\u05D2\u05E8\u05D9\u05D9\u05D8 \u05D5\u05D5\u05DC": ["\u05D2\u05E8\u05D9\u05D9\u05D8 \u05D5\u05D5\u05DC", "great wall", "gwm", "haval"],
+    "\u05E1\u05DE\u05D0\u05E8\u05D8": ["\u05E1\u05DE\u05D0\u05E8\u05D8", "smart"],
+    "\u05E1\u05D0\u05E0\u05D2\u05D9\u05D5\u05E0\u05D2": ["\u05E1\u05D0\u05E0\u05D2\u05D9\u05D5\u05E0\u05D2", "ssangyong", "kgm"]
   };
 
   /* --- Merged Model Aliases (original + hotfix Audi A1-A8, Q2-Q8) --- */
@@ -216,7 +273,7 @@ window.__anFetchProductImages = function (catName, callback) {
     "500":        ["500"],
     "\u05D3\u05D9\u05DE\u05E7\u05E1": ["\u05D3\u05D9\u05DE\u05E7\u05E1", "D-MAX", "DMAX"],
     "\u05E1\u05D5\u05D9\u05E4\u05D8": ["\u05E1\u05D5\u05D9\u05E4\u05D8", "SWIFT"],
-    "\u05D2\u05D9\u05DE\u05D9\u05E0\u05D9": ["\u05D2\u05D9\u05DE\u05D9\u05E0\u05D9", "JIMNY"],
+    "\u05D2'\u05D9\u05DE\u05E0\u05D9": ["\u05D2'\u05D9\u05DE\u05E0\u05D9", "\u05D2\u05D9\u05DE\u05D9\u05E0\u05D9", "JIMNY"],
     "\u05D5\u05D9\u05D8\u05E8\u05D4": ["\u05D5\u05D9\u05D8\u05E8\u05D4", "VITARA"],
     "\u05E1\u05DC\u05E8\u05D9\u05D5": ["\u05E1\u05DC\u05E8\u05D9\u05D5", "CELERIO"],
     "\u05D0\u05D9\u05DE\u05E4\u05E8\u05D6\u05D4": ["\u05D0\u05D9\u05DE\u05E4\u05E8\u05D6\u05D4", "IMPREZA"],
@@ -227,6 +284,8 @@ window.__anFetchProductImages = function (catName, callback) {
     "\u05D0\u05D5\u05D8\u05DC\u05E0\u05D3\u05E8": ["\u05D0\u05D5\u05D8\u05DC\u05E0\u05D3\u05E8", "OUTLANDER"],
     "\u05E1\u05E4\u05D9\u05D9\u05E1 \u05E1\u05D8\u05D0\u05E8": ["\u05E1\u05E4\u05D9\u05D9\u05E1 \u05E1\u05D8\u05D0\u05E8", "SPACE STAR", "\u05DE\u05D9\u05E8\u05D0\u05D6'"],
     "\u05D0\u05D8\u05E8\u05D0\u05D6'": ["\u05D0\u05D8\u05E8\u05D0\u05D6'", "ATTRAGE"],
+    "\u05E4\u05D0\u05D2'\u05E8\u05D5": ["\u05E4\u05D0\u05D2'\u05E8\u05D5", "PAJERO"],
+    "\u05E8\u05D9\u05D9\u05E0\u05D2'\u05E8": ["\u05E8\u05D9\u05D9\u05E0\u05D2'\u05E8", "RANGER"],
     "\u05E7\u05DC\u05D9\u05D0\u05D5": ["\u05E7\u05DC\u05D9\u05D0\u05D5", "CLIO"],
     "\u05DE\u05D2\u05D0\u05DF": ["\u05DE\u05D2\u05D0\u05DF", "MEGANE"],
     "\u05E7\u05E4\u05D8\u05D5\u05E8": ["\u05E7\u05E4\u05D8\u05D5\u05E8", "CAPTUR"],
@@ -683,6 +742,10 @@ window.__anFetchProductImages = function (catName, callback) {
    *  RENDER: Products list for a category
    * ---------------------------------------------------------- */
 
+  /* Known aftermarket parts brands for logo detection */
+  var KNOWN_PART_BRANDS = ['MANN','BOSCH','MAHLE','HENGST','DENSO','NGK','VALEO','SACHS','LUK','TRW','BREMBO','DAYCO','GATES','CONTINENTAL','SKF','INA','FAG','FEBI','MEYLE','LEMFORDER','BLUE PRINT','PURFLUX','FILTRON','KNECHT','CHAMPION','DELPHI','NTK','Hi-Q','CTR','555','GMB','AISIN','KOYO','NTN','SNR'];
+  var LOGOS_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/data/logos/';
+
   function showProducts(catName, matched) {
     var products = matched[catName] || [];
     var prodGrid = $('anProductsGrid');
@@ -701,43 +764,54 @@ window.__anFetchProductImages = function (catName, callback) {
     if (catTitle) catTitle.textContent = catName;
     if (countEl) countEl.textContent = products.length + ' \u05DE\u05D5\u05E6\u05E8\u05D9\u05DD';
 
-    /* Render product cards (initially with placeholder images) */
+    /* Render enhanced product cards */
     prodGrid.innerHTML = '';
     for (var i = 0; i < products.length; i++) {
       var p = products[i];
+
+      /* Try to detect parts brand for logo */
+      var brandLogoUrl = '';
+      var nameUpper = p.name.toUpperCase();
+      for (var b = 0; b < KNOWN_PART_BRANDS.length; b++) {
+        if (nameUpper.indexOf(KNOWN_PART_BRANDS[b]) !== -1) {
+          var bSlug = KNOWN_PART_BRANDS[b].toLowerCase().replace(/[^a-z0-9]/g, '-');
+          brandLogoUrl = LOGOS_BASE + bSlug + '.png';
+          break;
+        }
+      }
+
       var card = document.createElement('div');
       card.className = 'an-product-card';
       card.setAttribute('data-pid', p.id);
 
-      var imgPlaceholder = '<div class="an-product-img-wrap">' +
-        '<img class="an-product-img" data-pid="' + esc(p.id) + '" ' +
-        'src="data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'150\' height=\'150\'%3E%3Crect fill=\'%23f0f0f0\' width=\'150\' height=\'150\'/%3E%3C/svg%3E" ' +
-        'alt="' + esc(p.name) + '" loading="lazy">' +
+      var brandLogoHtml = brandLogoUrl
+        ? '<img class="an-product-brand-logo" src="' + brandLogoUrl + '" onerror="this.style.display=\'none\'" alt="" loading="lazy">'
+        : '';
+
+      card.innerHTML =
+        '<div class="an-product-img-wrap">' +
+          brandLogoHtml +
+          '<img class="an-product-img" data-pid="' + esc(p.id) + '" ' +
+          'src="data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'150\' height=\'150\'%3E%3Crect fill=\'%23f5f5f5\' width=\'150\' height=\'150\' rx=\'8\'/%3E%3C/svg%3E" ' +
+          'alt="' + esc(p.name) + '" loading="lazy">' +
+        '</div>' +
+        '<div class="an-product-info">' +
+          '<div class="an-product-name">' + esc(p.name) + '</div>' +
+          '<div class="an-product-meta">' +
+            (p.partCode ? '<span class="an-product-code">' + esc(p.partCode) + '</span>' : '') +
+            '<span class="an-product-cat-badge">' + esc(catName) + '</span>' +
+          '</div>' +
+          (p.years ? '<div class="an-product-years">\u05E9\u05E0\u05D9\u05DD: ' + esc(p.years) + '</div>' : '') +
+        '</div>' +
+        '<div class="an-product-actions">' +
+          '<button class="an-btn an-btn-cart" ' +
+            'data-iid="' + esc(p.id) + '" data-name="' + esc(p.name) + '" data-url="' + esc(p.link || '') + '" ' +
+            'onclick="window.__anAddCart(this)">' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4' +
+          '</button>' +
+          (p.link ? '<a href="' + esc(p.link) + '" class="an-btn an-btn-view" target="_blank">\u05E6\u05E4\u05D4 \u05D1\u05DE\u05D5\u05E6\u05E8</a>' : '') +
         '</div>';
 
-      var info = '<div class="an-product-info">' +
-        '<div class="an-product-name">' + esc(p.name) + '</div>' +
-        (p.partCode ? '<div class="an-product-code">\u05DE\u05E7\u05D8: ' + esc(p.partCode) + '</div>' : '') +
-        (p.years ? '<div class="an-product-years">\u05E9\u05E0\u05D9\u05DD: ' + esc(p.years) + '</div>' : '') +
-        '</div>';
-
-      var actions = '<div class="an-product-actions">';
-      if (p.link) {
-        actions += '<a href="' + esc(p.link) + '" class="an-btn an-btn-view" target="_blank">\u05E6\u05E4\u05D4 \u05D1\u05DE\u05D5\u05E6\u05E8</a>';
-      }
-      actions += '<button class="an-btn an-btn-cart" ' +
-        'data-iid="' + esc(p.id) + '" ' +
-        'data-name="' + esc(p.name) + '" ' +
-        'data-url="' + esc(p.link || '') + '" ' +
-        'onclick="window.__anAddCart(this)">' +
-        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
-        'stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-        '<circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>' +
-        '<path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/>' +
-        '</svg>\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4</button>';
-      actions += '</div>';
-
-      card.innerHTML = imgPlaceholder + info + actions;
       prodGrid.appendChild(card);
     }
 
