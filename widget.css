@@ -1,6 +1,6 @@
-/* TecDoc Widget v7.1 — Compact Autodoc Design
-   Vertical sections: Description → Vehicle Compatibility → OE Numbers
-   RTL Hebrew, Heebo font — Tighter spacing for less scroll */
+/* TecDoc Widget v9.0 — Tab Layout
+   Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
+   RTL Hebrew, Heebo font — Compact design */
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
 
@@ -24,14 +24,13 @@
   box-shadow: none !important;
 }
 
-/* Override Konimbo parent container styles that add empty space */
+/* Override Konimbo parent container styles */
 .specifications #tecdoc-widget,
 #item_content #tecdoc-widget {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* Fix Konimbo #item_content spacing */
 #item_content.item_attributes {
   padding: 0 !important;
 }
@@ -43,15 +42,10 @@
 
 #item_content #item_content_title,
 #item_content > h3 {
-  margin: 0 !important;
-  padding: 12px 0 0 !important;
-  border: none !important;
-  font-size: 18px !important;
-  font-weight: 600 !important;
-  color: #000 !important;
+  display: none !important;
 }
 
-/* Hide any Konimbo-generated empty tables/divs in specifications */
+/* Hide Konimbo empty tables/divs */
 .specifications > table:not(#tecdoc-widget *),
 .specifications > div:empty:not(#tecdoc-widget) {
   display: none !important;
@@ -69,34 +63,65 @@
 }
 
 /* ═══════════════════════════════════
-   SECTION STRUCTURE — Vertical flow
+   TABS — Navigation bar
    ═══════════════════════════════════ */
-#tecdoc-widget .tw-section {
+#tecdoc-widget .tw-tabs {
+  display: flex;
+  border-bottom: 2px solid #E8E8E8;
+  gap: 0;
+  margin: 0;
   padding: 0;
-  border-bottom: 1px solid #E8E8E8;
 }
 
-#tecdoc-widget .tw-section:last-child {
-  border-bottom: none;
+#tecdoc-widget .tw-tab {
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  position: relative;
+  white-space: nowrap;
+  transition: color 0.2s;
+  user-select: none;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+#tecdoc-widget .tw-tab:hover {
+  color: #329FDA;
+}
+
+#tecdoc-widget .tw-tab-active {
+  color: #329FDA;
+  font-weight: 600;
+}
+
+#tecdoc-widget .tw-tab-active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: #329FDA;
+  border-radius: 2px 2px 0 0;
 }
 
 /* ═══════════════════════════════════
-   SECTION 1 — DESCRIPTION / SPECS
+   PANELS — Tab content
    ═══════════════════════════════════ */
-#tecdoc-widget .tw-desc-section {
-  padding: 0 0 2px;
+#tecdoc-widget .tw-panel {
+  display: none;
+  padding: 0;
 }
 
-#tecdoc-widget .tw-section-title {
-  font-size: 16px;
-  font-weight: 500;
-  color: #000;
-  padding: 12px 0 8px;
-  border-bottom: 1px solid #E8E8E8;
-  margin: 0;
+#tecdoc-widget .tw-panel-active {
+  display: block;
 }
 
-/* Specs table — compact */
+/* ═══════════════════════════════════
+   SPECS TABLE — Technical Details
+   ═══════════════════════════════════ */
 #tecdoc-widget .tw-specs-table {
   width: 100% !important;
   border-collapse: collapse !important;
@@ -109,7 +134,7 @@
 }
 
 #tecdoc-widget .tw-specs-table td {
-  padding: 6px 0 !important;
+  padding: 8px 0 !important;
   font-size: 13px !important;
   border: none !important;
   vertical-align: top !important;
@@ -118,16 +143,16 @@
 }
 
 #tecdoc-widget .tw-specs-table td:first-child {
-  color: #333 !important;
-  font-weight: 500 !important;
-  width: 40% !important;
+  color: #666 !important;
+  font-weight: 400 !important;
+  width: 38% !important;
   padding-left: 8px !important;
 }
 
 #tecdoc-widget .tw-specs-table td:last-child {
   color: #222 !important;
-  font-weight: 400 !important;
-  width: 60% !important;
+  font-weight: 500 !important;
+  width: 62% !important;
 }
 
 /* Row separators */
@@ -144,10 +169,10 @@
   display: table-row;
 }
 
-/* More ▼ / Less ▲ button */
+/* More / Less button */
 #tecdoc-widget .tw-more-wrap {
   text-align: center;
-  padding: 2px 0 4px;
+  padding: 4px 0 8px;
 }
 
 #tecdoc-widget .tw-more-btn {
@@ -157,7 +182,7 @@
   padding: 6px 16px;
   font-size: 12px;
   font-weight: 400;
-  color: #555;
+  color: #329FDA;
   cursor: pointer;
   background: none;
   border: none;
@@ -166,7 +191,7 @@
 }
 
 #tecdoc-widget .tw-more-btn:hover {
-  color: #E86826;
+  color: #1B7FC0;
 }
 
 #tecdoc-widget .tw-more-btn .tw-arrow {
@@ -179,66 +204,8 @@
 }
 
 /* ═══════════════════════════════════
-   SECTION 2 — VEHICLE COMPATIBILITY
+   VEHICLE COMPATIBILITY — Accordion
    ═══════════════════════════════════ */
-#tecdoc-widget .tw-compat-section {
-  padding: 0;
-}
-
-#tecdoc-widget .tw-compat-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 0 8px;
-  border-bottom: 1px solid #E8E8E8;
-}
-
-#tecdoc-widget .tw-compat-icon {
-  font-size: 17px;
-  color: #333;
-  line-height: 1;
-}
-
-#tecdoc-widget .tw-compat-title {
-  font-size: 16px;
-  font-weight: 500;
-  color: #000;
-}
-
-/* Vehicle match indicator */
-#tecdoc-widget .tw-compat-match {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 0;
-  font-size: 12px;
-  color: #2ECC71;
-  font-weight: 400;
-  border-bottom: 1px solid #E8E8E8;
-}
-
-#tecdoc-widget .tw-compat-match-icon {
-  width: 18px;
-  height: 18px;
-  background: #2ECC71;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-#tecdoc-widget .tw-compat-match-icon svg {
-  width: 10px;
-  height: 10px;
-  fill: none;
-  stroke: #fff;
-  stroke-width: 2.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-/* Accordion container */
 #tecdoc-widget .tw-accordion {
   border: 1px solid #E0E0E0;
   border-radius: 4px;
@@ -285,11 +252,10 @@
   background: #F8F8F8;
 }
 
-/* Blue +/− icon */
 #tecdoc-widget .tw-acc-icon {
   font-size: 15px;
   font-weight: 300;
-  color: #0066FF;
+  color: #329FDA;
   width: 15px;
   min-width: 15px;
   text-align: center;
@@ -382,68 +348,15 @@
 }
 
 /* ═══════════════════════════════════
-   SECTION 3 — OE NUMBERS
+   OE NUMBERS
    ═══════════════════════════════════ */
-#tecdoc-widget .tw-oe-section {
-  padding: 0;
-}
-
-#tecdoc-widget .tw-oe-header {
-  padding: 12px 0 8px;
-  border-bottom: 1px solid #E8E8E8;
-}
-
-#tecdoc-widget .tw-oe-title {
-  font-size: 16px;
-  font-weight: 500;
-  color: #000;
-  margin-bottom: 2px;
-}
-
 #tecdoc-widget .tw-oe-subtitle {
   font-size: 11px;
   color: #888;
   line-height: 1.4;
+  padding: 10px 0 4px;
 }
 
-/* OE number items */
-#tecdoc-widget .tw-oe-list {
-  padding: 8px 0;
-}
-
-#tecdoc-widget .tw-oe-item {
-  display: flex;
-  align-items: baseline;
-  padding: 5px 0;
-  font-size: 12px;
-  line-height: 1.4;
-  border-bottom: 1px solid #F5F5F5;
-}
-
-#tecdoc-widget .tw-oe-item:last-child {
-  border-bottom: none;
-}
-
-#tecdoc-widget .tw-oe-num {
-  color: #008B9C;
-  direction: ltr;
-  unicode-bidi: plaintext;
-  display: inline;
-  font-weight: 400;
-}
-
-#tecdoc-widget .tw-oe-dash {
-  color: #999;
-  margin: 0 6px;
-  flex-shrink: 0;
-}
-
-#tecdoc-widget .tw-oe-brands {
-  color: #008B9C;
-  font-weight: 400;
-}
-
-/* OE accordion style */
 #tecdoc-widget .tw-oe-acc-item {
   padding: 5px 0;
   padding-right: 36px;
@@ -487,7 +400,7 @@
   width: 30px;
   height: 30px;
   border: 3px solid #E0E0E0;
-  border-top-color: #E86826;
+  border-top-color: #329FDA;
   border-radius: 50%;
   animation: tw-spin 0.8s linear infinite;
 }
@@ -516,7 +429,7 @@
 
 #tecdoc-widget .tw-progress-bar {
   height: 100%;
-  background: #E86826;
+  background: #329FDA;
   border-radius: 2px;
   transition: width 0.4s ease;
 }
@@ -526,11 +439,6 @@
   text-align: center;
   color: #D32F2F;
   font-size: 13px;
-}
-
-#tecdoc-widget .tw-error-icon {
-  font-size: 22px;
-  margin-bottom: 6px;
 }
 
 #tecdoc-widget .tw-empty {
@@ -554,26 +462,22 @@
   color: #bbb;
 }
 
-#tecdoc-widget .tw-footer a {
-  color: #bbb;
-  text-decoration: none;
-}
-
-#tecdoc-widget .tw-footer a:hover {
-  color: #E86826;
-}
-
 /* ═══════════════════════════════════
    RESPONSIVE — Tablet
    ═══════════════════════════════════ */
 @media (max-width: 768px) {
+  #tecdoc-widget .tw-tab {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+
   #tecdoc-widget .tw-specs-table td {
-    padding: 5px 0;
-    font-size: 12px;
+    padding: 6px 0 !important;
+    font-size: 12px !important;
   }
 
   #tecdoc-widget .tw-specs-table td:first-child {
-    padding-left: 6px;
+    padding-left: 6px !important;
   }
 
   #tecdoc-widget .tw-acc-l1-header {
@@ -603,20 +507,24 @@
     font-size: 12px;
   }
 
-  #tecdoc-widget .tw-section-title,
-  #tecdoc-widget .tw-compat-title,
-  #tecdoc-widget .tw-oe-title {
-    font-size: 15px;
+  #tecdoc-widget .tw-tabs {
+    gap: 0;
+  }
+
+  #tecdoc-widget .tw-tab {
+    padding: 10px 12px;
+    font-size: 13px;
+    flex: 1;
   }
 
   #tecdoc-widget .tw-specs-table td {
-    padding: 5px 0;
-    font-size: 12px;
+    padding: 5px 0 !important;
+    font-size: 12px !important;
   }
 
   #tecdoc-widget .tw-specs-table td:first-child {
-    width: 44%;
-    padding-left: 2px;
+    width: 42% !important;
+    padding-left: 2px !important;
   }
 
   #tecdoc-widget .tw-acc-l1-header {
@@ -647,21 +555,8 @@
     font-size: 11px;
   }
 
-  #tecdoc-widget .tw-oe-item {
-    font-size: 11px;
-    flex-wrap: wrap;
-  }
-
   #tecdoc-widget .tw-oe-info {
     font-size: 10px;
     padding: 8px 10px;
-  }
-
-  #tecdoc-widget .tw-compat-header {
-    gap: 6px;
-  }
-
-  #tecdoc-widget .tw-compat-icon {
-    font-size: 15px;
   }
 }
