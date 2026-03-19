@@ -31,6 +31,21 @@
   padding: 0 !important;
 }
 
+/* Fix Konimbo #item_content spacing */
+#item_content.item_attributes {
+  padding: 0 !important;
+}
+
+#item_content .specifications {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#item_content #item_content_title {
+  margin-bottom: 0 !important;
+  padding-bottom: 8px !important;
+}
+
 /* Hide any Konimbo-generated empty tables/divs in specifications */
 .specifications > table:not(#tecdoc-widget *),
 .specifications > div:empty:not(#tecdoc-widget) {
@@ -78,32 +93,36 @@
 
 /* Specs table — compact */
 #tecdoc-widget .tw-specs-table {
-  width: 100%;
-  border-collapse: collapse;
+  width: 100% !important;
+  border-collapse: collapse !important;
+  table-layout: fixed !important;
 }
 
 #tecdoc-widget .tw-specs-table tr {
-  border: none;
+  border: none !important;
+  height: auto !important;
 }
 
 #tecdoc-widget .tw-specs-table td {
-  padding: 6px 0;
-  font-size: 13px;
-  border: none;
-  vertical-align: top;
-  line-height: 1.4;
+  padding: 6px 0 !important;
+  font-size: 13px !important;
+  border: none !important;
+  vertical-align: top !important;
+  line-height: 1.4 !important;
+  background: transparent !important;
 }
 
 #tecdoc-widget .tw-specs-table td:first-child {
-  color: #333;
-  font-weight: 500;
-  width: 40%;
-  padding-left: 8px;
+  color: #333 !important;
+  font-weight: 500 !important;
+  width: 40% !important;
+  padding-left: 8px !important;
 }
 
 #tecdoc-widget .tw-specs-table td:last-child {
-  color: #222;
-  font-weight: 400;
+  color: #222 !important;
+  font-weight: 400 !important;
+  width: 60% !important;
 }
 
 /* Row separators */
