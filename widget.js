@@ -61,7 +61,23 @@
     'Check Character': '\u05EA\u05D5 \u05D1\u05D3\u05D9\u05E7\u05D4',
     'MAPP': 'MAPP',
     'Spring/Clamp': '\u05E7\u05E4\u05D9\u05E5/\u05DE\u05D4\u05D3\u05E7',
-    'Coating': '\u05E6\u05D9\u05E4\u05D5\u05D9'
+    'Coating': '\u05E6\u05D9\u05E4\u05D5\u05D9',
+    'Filter type': '\u05E1\u05D5\u05D2 \u05E4\u05D9\u05DC\u05D8\u05E8',
+    'Quantity': '\u05DB\u05DE\u05D5\u05EA',
+    'Seal Material': '\u05D7\u05D5\u05DE\u05E8 \u05D0\u05D8\u05D9\u05DE\u05D4',
+    'Packaging length [cm]': '\u05D0\u05D5\u05E8\u05DA \u05D0\u05E8\u05D9\u05D6\u05D4 [\u05E1"\u05DE]',
+    'Packaging width [cm]': '\u05E8\u05D5\u05D7\u05D1 \u05D0\u05E8\u05D9\u05D6\u05D4 [\u05E1"\u05DE]',
+    'Packaging height [cm]': '\u05D2\u05D5\u05D1\u05D4 \u05D0\u05E8\u05D9\u05D6\u05D4 [\u05E1"\u05DE]',
+    'Net Weight [g]': '\u05DE\u05E9\u05E7\u05DC \u05E0\u05E7\u05D9 [\u05D2\u05E8\u05DD]',
+    'Length 1 [mm]': '\u05D0\u05D5\u05E8\u05DA 1 [\u05DE"\u05DE]',
+    'Width 1 [mm]': '\u05E8\u05D5\u05D7\u05D1 1 [\u05DE"\u05DE]',
+    'Height 1 [mm]': '\u05D2\u05D5\u05D1\u05D4 1 [\u05DE"\u05DE]',
+    'Inner Diameter 1 [mm]': '\u05E7\u05D5\u05D8\u05E8 \u05E4\u05E0\u05D9\u05DE\u05D9 1 [\u05DE"\u05DE]',
+    'Inner Diameter 2 [mm]': '\u05E7\u05D5\u05D8\u05E8 \u05E4\u05E0\u05D9\u05DE\u05D9 2 [\u05DE"\u05DE]',
+    'Diameter 1 [mm]': '\u05E7\u05D5\u05D8\u05E8 1 [\u05DE"\u05DE]',
+    'Shape': '\u05E6\u05D5\u05E8\u05D4',
+    'Quantity Unit': '\u05D9\u05D7\u05D9\u05D3\u05EA \u05DB\u05DE\u05D5\u05EA',
+    'Fitting time [min.]': '\u05D6\u05DE\u05DF \u05D4\u05EA\u05E7\u05E0\u05D4 [\u05D3\u05E7\u05D5\u05EA]'
   };
 
   var VAL_TR = {
@@ -150,6 +166,14 @@
       if (h3) h3.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
       var specContainer = itemContent.querySelector('.specifications');
       if (specContainer) { specContainer.innerHTML = ''; }
+      /* Remove any extra sibling elements (Konimbo empty tables/divs) */
+      var siblings = itemContent.children;
+      for (var si = siblings.length - 1; si >= 0; si--) {
+        var sib = siblings[si];
+        if (sib !== h3 && sib !== specContainer && sib.id !== 'tecdoc-widget') {
+          sib.style.display = 'none';
+        }
+      }
       var widget = document.createElement('div');
       widget.id = 'tecdoc-widget';
       if (specContainer) { specContainer.appendChild(widget); }
