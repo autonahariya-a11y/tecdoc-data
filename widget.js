@@ -1,4 +1,4 @@
-/* TecDoc Widget v9.0 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters
+/* TecDoc Widget v9.1 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -97,9 +97,73 @@
     'yes': '\u05DB\u05DF', 'no': '\u05DC\u05D0', 'New': '\u05D7\u05D3\u05E9',
     '37': '\u05DE\u05E6\u05D5\u05E4\u05D4'
   };
+
+  var PRODUCT_TR = {
+    'Brake Pad Set, disc brake': '\u05E1\u05D8 \u05E8\u05E4\u05D9\u05D3\u05D5\u05EA \u05D1\u05DC\u05DD, \u05D3\u05D9\u05E1\u05E7',
+    'Brake Pad Set': '\u05E1\u05D8 \u05E8\u05E4\u05D9\u05D3\u05D5\u05EA \u05D1\u05DC\u05DD',
+    'Brake Disc': '\u05D3\u05D9\u05E1\u05E7 \u05D1\u05DC\u05DD',
+    'Brake Shoe Set': '\u05E1\u05D8 \u05E8\u05E4\u05D5\u05D3\u05D5\u05EA \u05D1\u05DC\u05DD',
+    'Air Filter': '\u05E4\u05D9\u05DC\u05D8\u05E8 \u05D0\u05D5\u05D5\u05D9\u05E8',
+    'Oil Filter': '\u05E4\u05D9\u05DC\u05D8\u05E8 \u05E9\u05DE\u05DF',
+    'Fuel Filter': '\u05E4\u05D9\u05DC\u05D8\u05E8 \u05D3\u05DC\u05E7',
+    'Cabin Filter': '\u05E4\u05D9\u05DC\u05D8\u05E8 \u05DE\u05D6\u05D2\u05DF',
+    'Filter, interior air': '\u05E4\u05D9\u05DC\u05D8\u05E8 \u05DE\u05D6\u05D2\u05DF',
+    'Pollen Filter': '\u05E4\u05D9\u05DC\u05D8\u05E8 \u05DE\u05D6\u05D2\u05DF',
+    'Spark Plug': '\u05DE\u05E6\u05EA',
+    'Ignition Coil': '\u05E1\u05DC\u05D9\u05DC \u05D4\u05E6\u05EA\u05D4',
+    'Wiper Blade': '\u05DE\u05D2\u05D1 \u05E9\u05DE\u05E9\u05D4',
+    'Wiper Blades': '\u05DE\u05D2\u05D1\u05D9 \u05E9\u05DE\u05E9\u05D4',
+    'Shock Absorber': '\u05D1\u05D5\u05DC\u05DD \u05D6\u05E2\u05D6\u05D5\u05E2\u05D9\u05DD',
+    'Coil Spring': '\u05E7\u05E4\u05D9\u05E5',
+    'Wheel Bearing': '\u05DE\u05D9\u05E1\u05D1 \u05D2\u05DC\u05D2\u05DC',
+    'Wheel Bearing Kit': '\u05E7\u05D9\u05D8 \u05DE\u05D9\u05E1\u05D1 \u05D2\u05DC\u05D2\u05DC',
+    'Water Pump': '\u05DE\u05E9\u05D0\u05D1\u05EA \u05DE\u05D9\u05DD',
+    'Thermostat': '\u05EA\u05E8\u05DE\u05D5\u05E1\u05D8\u05D8',
+    'Radiator': '\u05E8\u05D3\u05D9\u05D0\u05D8\u05D5\u05E8',
+    'Timing Belt': '\u05E8\u05E6\u05D5\u05E2\u05EA \u05D8\u05D9\u05D9\u05DE\u05D9\u05E0\u05D2',
+    'Timing Belt Kit': '\u05E7\u05D9\u05D8 \u05D8\u05D9\u05D9\u05DE\u05D9\u05E0\u05D2',
+    'Drive Belt': '\u05E8\u05E6\u05D5\u05E2\u05EA \u05D0\u05D1\u05D9\u05D6\u05E8\u05D9\u05DD',
+    'V-Belt': '\u05E8\u05E6\u05D5\u05E2\u05EA V',
+    'Oil Pump': '\u05DE\u05E9\u05D0\u05D1\u05EA \u05E9\u05DE\u05DF',
+    'Clutch Kit': '\u05E7\u05D9\u05D8 \u05DE\u05E6\u05DE\u05D3',
+    'Clutch Disc': '\u05D3\u05D9\u05E1\u05E7 \u05DE\u05E6\u05DE\u05D3',
+    'Ball Joint': '\u05EA\u05E4\u05D5\u05D7 \u05E4\u05E8\u05D5\u05E0\u05D8',
+    'Tie Rod End': '\u05E7\u05E6\u05D4 \u05DE\u05D5\u05D8 \u05D4\u05D2\u05D4',
+    'Control Arm': '\u05DE\u05E9\u05D5\u05DC\u05E9',
+    'Stabilizer Link': '\u05DE\u05D5\u05D8 \u05DE\u05D9\u05D9\u05E6\u05D1',
+    'CV Joint': '\u05DE\u05E4\u05E8\u05E7 \u05D4\u05D5\u05DE\u05D5\u05E7\u05D9\u05E0\u05D8\u05D9',
+    'Lambda Sensor': '\u05D7\u05D9\u05D9\u05E9\u05DF \u05D7\u05DE\u05E6\u05DF',
+    'ABS Sensor': '\u05D7\u05D9\u05D9\u05E9\u05DF ABS',
+    'Alternator': '\u05D0\u05DC\u05D8\u05E8\u05E0\u05D8\u05D5\u05E8',
+    'Starter Motor': '\u05DE\u05E0\u05D5\u05E2 \u05D4\u05EA\u05E0\u05E2\u05D4',
+    'Battery': '\u05DE\u05E6\u05D1\u05E8',
+    'Brake Caliper': '\u05E7\u05DC\u05D9\u05E4\u05E8 \u05D1\u05DC\u05DD',
+    'Brake Hose': '\u05E6\u05D9\u05E0\u05D5\u05E8 \u05D1\u05DC\u05DD',
+    'Brake Drum': '\u05EA\u05D5\u05E3 \u05D1\u05DC\u05DD',
+    'Exhaust Pipe': '\u05E6\u05D9\u05E0\u05D5\u05E8 \u05E4\u05DC\u05D9\u05D8\u05D4',
+    'Catalytic Converter': '\u05DE\u05DE\u05D9\u05E8 \u05E7\u05D8\u05DC\u05D9\u05D8\u05D9',
+    'Suspension Strut': '\u05D0\u05DE\u05D5\u05E8\u05D8\u05D9\u05E1\u05D5\u05E8',
+    'Engine Mount': '\u05EA\u05E4\u05D5\u05E1\u05EA \u05DE\u05E0\u05D5\u05E2',
+    'Gearbox Mount': '\u05EA\u05E4\u05D5\u05E1\u05EA \u05D2\u05D9\u05E8',
+    'Headlight': '\u05E4\u05E0\u05E1 \u05E8\u05D0\u05E9\u05D9',
+    'Tail Light': '\u05E4\u05E0\u05E1 \u05D0\u05D7\u05D5\u05E8\u05D9',
+    'Brake Light': '\u05E4\u05E0\u05E1 \u05D1\u05DC\u05DD'
+  };
+
   var DISC_MAP = { '1': '\u05DE\u05DC\u05D0', '2': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8', '3': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8 \u05E4\u05E0\u05D9\u05DE\u05D9' };
 
   function trSpec(n) { return SPEC_TR[n] || n; }
+  function trProduct(name) {
+    if (!name) return '';
+    if (PRODUCT_TR[name]) return PRODUCT_TR[name];
+    // Try case-insensitive match
+    var lower = name.toLowerCase();
+    var keys = Object.keys(PRODUCT_TR);
+    for (var i = 0; i < keys.length; i++) {
+      if (keys[i].toLowerCase() === lower) return PRODUCT_TR[keys[i]];
+    }
+    return name;
+  }
   function trVal(n, v) {
     if (n === 'Brake Disc Type' && DISC_MAP[v]) return DISC_MAP[v];
     if (n === 'Surface' && VAL_TR[v]) return VAL_TR[v];
@@ -152,6 +216,26 @@
   }
 
   /* ── Injection ── */
+  function cleanPage() {
+    /* Hide Konimbo sections we don't need on auto parts pages */
+    var style = document.createElement('style');
+    style.textContent = [
+      /* Hide the text description under product image */
+      '#item_content .description, #item_content .text, .item_text, .item_description { display:none !important; }',
+      /* Hide "למה לקנות אצלנו" section */
+      '.why_buy, .why-buy, [class*="why_buy"], [class*="why-buy"] { display:none !important; }',
+      /* Hide the trust icons row (מוצרים באחריות, משלוחים מהירים, תשלום מאובטח) */
+      '.trust_items, .trust-items, .trust_badges, .item_trust, #item_trust { display:none !important; }',
+      /* Hide "שאל אותנו" and WhatsApp section */
+      '.ask_about_item, .ask-about-item, #ask_about_item { display:none !important; }',
+      /* Hide "חזור למעלה" button */
+      '.back_to_top, .back-to-top, #back_to_top, a[href="#top"] { display:none !important; }',
+      /* Hide Konimbo long description text block */
+      '#item_content > .item_content_text, #item_content > p, #item_text { display:none !important; }'
+    ].join('\n');
+    document.head.appendChild(style);
+  }
+
   function getOrCreateWidget() {
     var existing = document.getElementById('tecdoc-widget');
     if (existing) return existing;
@@ -272,8 +356,7 @@
       if (D.supplier && !hideSupplier) allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF', value: D.supplier });
       /* Add product type */
       if (D.product) {
-        var productHeb = trSpec(D.product) !== D.product ? trSpec(D.product) : D.product;
-        allSpecs.push({ name: '\u05E1\u05D5\u05D2 \u05DE\u05D5\u05E6\u05E8', value: productHeb });
+        allSpecs.push({ name: '\u05E1\u05D5\u05D2 \u05DE\u05D5\u05E6\u05E8', value: trProduct(D.product) });
       }
       /* Add TecDoc specs */
       for (var i = 0; i < D.specs.length; i++) {
@@ -608,6 +691,7 @@
   /* ── Main flow ── */
   function init() {
     if (!document.getElementById('tecdoc-widget') && !isAutoPartsPage()) return;
+    cleanPage();
 
     var articleNo = detectArticleNo();
     if (!articleNo) return;
