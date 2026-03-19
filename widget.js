@@ -174,6 +174,11 @@
           sib.style.display = 'none';
         }
       }
+      /* Move #item_content up: place it right after #item_info */
+      var itemInfo = document.getElementById('item_info');
+      if (itemInfo && itemInfo.nextSibling !== itemContent) {
+        itemInfo.parentNode.insertBefore(itemContent, itemInfo.nextSibling);
+      }
       var widget = document.createElement('div');
       widget.id = 'tecdoc-widget';
       if (specContainer) { specContainer.appendChild(widget); }
@@ -193,10 +198,28 @@
       return widget2;
     }
 
-    /* Priority 3: Fallback — create before #item_also_buy or #item_info */
+    /* Priority 3: Fallback — create after #item_info or before #item_also_buy */
+    var itemInfo2 = document.getElementById('item_info');
+    if (itemInfo2) {
+      var wrapper = document.createElement('div');
+      wrapper.id = 'item_content';
+      wrapper.className = 'item_attributes';
+      var wh3 = document.createElement('h3');
+      wh3.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
+      wrapper.appendChild(wh3);
+      var specDiv = document.createElement('div');
+      specDiv.className = 'specifications full_width';
+      wrapper.appendChild(specDiv);
+      var widget3 = document.createElement('div');
+      widget3.id = 'tecdoc-widget';
+      specDiv.appendChild(widget3);
+      itemInfo2.parentNode.insertBefore(wrapper, itemInfo2.nextSibling);
+      return widget3;
+    }
+
+    /* Priority 4: Fallback — create before #item_also_buy */
     var anchors = [
-      document.getElementById('item_also_buy'),
-      document.getElementById('item_info')
+      document.getElementById('item_also_buy')
     ];
     for (var i = 0; i < anchors.length; i++) {
       if (anchors[i]) {
