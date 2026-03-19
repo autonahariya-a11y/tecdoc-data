@@ -1,5 +1,5 @@
-/* TecDoc Widget v8.4 — Autodoc-Exact Layout + Full Cache + OEM Fallback + Hide supplier for filters
-   Vertical sections (no tabs): Description → Vehicle Compatibility → OE Numbers
+/* TecDoc Widget v9.0 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters
+   Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
 */
@@ -55,7 +55,6 @@
     'Pad Thickness [mm]': '\u05E2\u05D5\u05D1\u05D9 \u05E8\u05E4\u05D9\u05D3\u05D4 [\u05DE"\u05DE]',
     'Pad Thickness 1 [mm]': '\u05E2\u05D5\u05D1\u05D9 \u05E8\u05E4\u05D9\u05D3\u05D4 1 [\u05DE"\u05DE]',
     'with accessories': '\u05E2\u05DD \u05D0\u05D1\u05D9\u05D6\u05E8\u05D9\u05DD',
-    'Number per Axle': '\u05DB\u05DE\u05D5\u05EA \u05DC\u05E1\u05E8\u05DF',
     'Packing Type': '\u05E1\u05D5\u05D2 \u05D0\u05E8\u05D9\u05D6\u05D4',
     'Vehicle Equipment': '\u05E6\u05D9\u05D5\u05D3 \u05E8\u05DB\u05D1',
     'Check Character': '\u05EA\u05D5 \u05D1\u05D3\u05D9\u05E7\u05D4',
@@ -145,10 +144,8 @@
 
   /* ── Category detection ── */
   function isAutoPartsPage() {
-    /* Check breadcrumb for category 186807 (חלקי חילוף לרכב) */
     var bcLink = document.querySelector('#bread_crumbs a[href*="186807"]');
     if (bcLink) return true;
-    /* Fallback: check breadcrumb text */
     var bc = document.getElementById('bread_crumbs');
     if (bc && bc.textContent.indexOf('\u05D7\u05DC\u05E7\u05D9 \u05D7\u05D9\u05DC\u05D5\u05E3 \u05DC\u05E8\u05DB\u05D1') !== -1) return true;
     return false;
@@ -163,18 +160,16 @@
     var itemContent = document.getElementById('item_content');
     if (itemContent) {
       var h3 = itemContent.querySelector('h3, #item_content_title');
-      if (h3) h3.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
+      if (h3) h3.style.display = 'none';
       var specContainer = itemContent.querySelector('.specifications');
       if (specContainer) { specContainer.innerHTML = ''; }
-      /* Remove any extra sibling elements (Konimbo empty tables/divs) */
       var siblings = itemContent.children;
       for (var si = siblings.length - 1; si >= 0; si--) {
         var sib = siblings[si];
-        if (sib !== h3 && sib !== specContainer && sib.id !== 'tecdoc-widget') {
+        if (sib !== specContainer && sib.id !== 'tecdoc-widget') {
           sib.style.display = 'none';
         }
       }
-      /* Move #item_content up: place it right after #item_info */
       var itemInfo = document.getElementById('item_info');
       if (itemInfo && itemInfo.nextSibling !== itemContent) {
         itemInfo.parentNode.insertBefore(itemContent, itemInfo.nextSibling);
@@ -194,19 +189,16 @@
       widget2.id = 'tecdoc-widget';
       specsDiv.appendChild(widget2);
       var header = document.querySelector('#item_specifications h3');
-      if (header) header.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
+      if (header) header.style.display = 'none';
       return widget2;
     }
 
-    /* Priority 3: Fallback — create after #item_info or before #item_also_buy */
+    /* Priority 3: Fallback — create after #item_info */
     var itemInfo2 = document.getElementById('item_info');
     if (itemInfo2) {
       var wrapper = document.createElement('div');
       wrapper.id = 'item_content';
       wrapper.className = 'item_attributes';
-      var wh3 = document.createElement('h3');
-      wh3.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
-      wrapper.appendChild(wh3);
       var specDiv = document.createElement('div');
       specDiv.className = 'specifications full_width';
       wrapper.appendChild(specDiv);
@@ -218,25 +210,20 @@
     }
 
     /* Priority 4: Fallback — create before #item_also_buy */
-    var anchors = [
-      document.getElementById('item_also_buy')
-    ];
+    var anchors = [document.getElementById('item_also_buy')];
     for (var i = 0; i < anchors.length; i++) {
       if (anchors[i]) {
-        var wrapper = document.createElement('div');
-        wrapper.id = 'item_content';
-        wrapper.className = 'item_attributes';
-        var wh3 = document.createElement('h3');
-        wh3.textContent = '\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD';
-        wrapper.appendChild(wh3);
-        var specDiv = document.createElement('div');
-        specDiv.className = 'specifications full_width';
-        wrapper.appendChild(specDiv);
-        var widget3 = document.createElement('div');
-        widget3.id = 'tecdoc-widget';
-        specDiv.appendChild(widget3);
-        anchors[i].parentNode.insertBefore(wrapper, anchors[i]);
-        return widget3;
+        var wrapper2 = document.createElement('div');
+        wrapper2.id = 'item_content';
+        wrapper2.className = 'item_attributes';
+        var specDiv2 = document.createElement('div');
+        specDiv2.className = 'specifications full_width';
+        wrapper2.appendChild(specDiv2);
+        var widget4 = document.createElement('div');
+        widget4.id = 'tecdoc-widget';
+        specDiv2.appendChild(widget4);
+        anchors[i].parentNode.insertBefore(wrapper2, anchors[i]);
+        return widget4;
       }
     }
     return null;
@@ -254,39 +241,51 @@
 
   function showError(msg) {
     var w = getWidget(); if (!w) return;
-    /* Hide the entire widget section when no data is found */
     var parent = w.closest('#item_content, #item_specifications');
     if (parent) { parent.style.display = 'none'; }
     else { w.style.display = 'none'; }
   }
 
-  /* ═══ RENDER — Autodoc Vertical Sections ═══ */
+  /* ═══ RENDER — Tab Layout ═══ */
   function render() {
     var w = getWidget(); if (!w) return;
     var html = '';
 
-    /* ── SECTION 1: Description / Specs ── */
-    html += '<div class="tw-section tw-desc-section">';
-    /* Section title removed — Konimbo H3 provides the heading */
+    /* ── TAB NAVIGATION ── */
+    html += '<div class="tw-tabs">';
+    html += '<div class="tw-tab tw-tab-active" data-tab="specs">\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
+    html += '<div class="tw-tab" data-tab="vehicles">\u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD</div>';
+    html += '<div class="tw-tab" data-tab="oe">\u05DE\u05E1\u05E4\u05E8\u05D9 OE</div>';
+    html += '</div>';
+
+    /* ── TAB PANEL 1: Technical Specs ── */
+    html += '<div class="tw-panel tw-panel-active" data-panel="specs">';
     if (!D.specs.length && !D.articleNo && !D.supplier && !D.ean) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
     } else {
-      /* Build spec rows: TecDoc specs + article/supplier/EAN */
       var allSpecs = [];
-      for (var i = 0; i < D.specs.length; i++) {
-        allSpecs.push({ name: trSpec(D.specs[i].criteriaName), value: trVal(D.specs[i].criteriaName, D.specs[i].criteriaValue) });
-      }
+      /* Add article number first */
       if (D.articleNo) allSpecs.push({ name: '\u05DE\u05E7"\u05D8', value: D.articleNo });
+      /* Add supplier (unless hidden for filters) */
       var pLow = (D.product || '').toLowerCase();
       var hideSupplier = (pLow === 'air filter' || pLow.indexOf('cabin air') !== -1 || pLow.indexOf('pollen') !== -1);
       if (D.supplier && !hideSupplier) allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF', value: D.supplier });
+      /* Add product type */
+      if (D.product) {
+        var productHeb = trSpec(D.product) !== D.product ? trSpec(D.product) : D.product;
+        allSpecs.push({ name: '\u05E1\u05D5\u05D2 \u05DE\u05D5\u05E6\u05E8', value: productHeb });
+      }
+      /* Add TecDoc specs */
+      for (var i = 0; i < D.specs.length; i++) {
+        allSpecs.push({ name: trSpec(D.specs[i].criteriaName), value: trVal(D.specs[i].criteriaName, D.specs[i].criteriaValue) });
+      }
       if (D.ean) allSpecs.push({ name: '\u05DE\u05E1\u05E4\u05E8 EAN', value: D.ean });
 
       var hasHidden = allSpecs.length > SPECS_VISIBLE;
       html += '<table class="tw-specs-table" id="tw-specs-tbl">';
       for (var si = 0; si < allSpecs.length; si++) {
         var cls = si >= SPECS_VISIBLE ? ' class="tw-spec-hidden"' : '';
-        html += '<tr'+cls+'><td>'+esc(allSpecs[si].name)+':</td><td>'+esc(allSpecs[si].value)+'</td></tr>';
+        html += '<tr'+cls+'><td>'+esc(allSpecs[si].name)+'</td><td>'+esc(allSpecs[si].value)+'</td></tr>';
       }
       html += '</table>';
 
@@ -296,13 +295,8 @@
     }
     html += '</div>';
 
-    /* ── SECTION 2: Vehicle Compatibility ── */
-    html += '<div class="tw-section tw-compat-section">';
-    html += '<div class="tw-compat-header">';
-    html += '<span class="tw-compat-icon">\uD83D\uDE97</span>';
-    html += '<span class="tw-compat-title">\u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD</span>';
-    html += '</div>';
-
+    /* ── TAB PANEL 2: Vehicle Compatibility ── */
+    html += '<div class="tw-panel" data-panel="vehicles">';
     if (!D.vehicles.length) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05E8\u05DB\u05D1\u05D9\u05DD \u05EA\u05D5\u05D0\u05DE\u05D9\u05DD</div>';
     } else {
@@ -332,24 +326,19 @@
     }
     html += '</div>';
 
-    /* ── SECTION 3: OE Numbers (accordion with +/- per brand) ── */
-    html += '<div class="tw-section tw-oe-section">';
-    html += '<div class="tw-oe-header">';
-    html += '<div class="tw-oe-title">\u05DE\u05E1\u05E4\u05E8\u05D9 OE</div>';
-    html += '<div class="tw-oe-subtitle">\u05DE\u05E1\u05E4\u05E8\u05D9 OE \u05DE\u05E7\u05D1\u05D9\u05DC\u05D9\u05DD \u05DC\u05DE\u05E1\u05E4\u05E8 \u05D7\u05DC\u05E7 \u05D4\u05D7\u05D9\u05DC\u05D5\u05E3 \u05D4\u05DE\u05E7\u05D5\u05E8\u05D9:</div>';
-    html += '</div>';
-
+    /* ── TAB PANEL 3: OE Numbers ── */
+    html += '<div class="tw-panel" data-panel="oe">';
     if (!D.oe.length) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E1\u05E4\u05E8\u05D9 OE</div>';
     } else {
-      /* Group OE by brand for accordion display */
       var byBrand = {};
       for (var oi = 0; oi < D.oe.length; oi++) {
         var o = D.oe[oi], brand = o.oemBrand || 'Other';
         if (!byBrand[brand]) byBrand[brand] = [];
         if (byBrand[brand].indexOf(o.oemDisplayNo) === -1) byBrand[brand].push(o.oemDisplayNo);
       }
-      html += '<div class="tw-accordion" style="margin-top:14px">';
+      html += '<div class="tw-oe-subtitle">\u05DE\u05E1\u05E4\u05E8\u05D9 OE \u05DE\u05E7\u05D1\u05D9\u05DC\u05D9\u05DD \u05DC\u05DE\u05E1\u05E4\u05E8 \u05D7\u05DC\u05E7 \u05D4\u05D7\u05D9\u05DC\u05D5\u05E3 \u05D4\u05DE\u05E7\u05D5\u05E8\u05D9:</div>';
+      html += '<div class="tw-accordion">';
       var bKeys = Object.keys(byBrand).sort();
       for (var bi = 0; bi < bKeys.length; bi++) {
         var bn = bKeys[bi], nums = byBrand[bn];
@@ -367,6 +356,7 @@
     html += '<div class="tw-footer"><span>\u05E0\u05EA\u05D5\u05E0\u05D9\u05DD \u05DE-TecDoc\u00AE Catalogue</span></div>';
 
     w.innerHTML = html;
+    bindTabs(w);
     bindAccordions(w);
     bindMoreToggle(w);
   }
@@ -390,6 +380,26 @@
       });
     });
     return tree;
+  }
+
+  /* ── Tab switching ── */
+  function bindTabs(w) {
+    var tabs = w.querySelectorAll('.tw-tab');
+    var panels = w.querySelectorAll('.tw-panel');
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener('click', function() {
+        var target = this.getAttribute('data-tab');
+        for (var t = 0; t < tabs.length; t++) {
+          tabs[t].classList.remove('tw-tab-active');
+        }
+        for (var p = 0; p < panels.length; p++) {
+          panels[p].classList.remove('tw-panel-active');
+        }
+        this.classList.add('tw-tab-active');
+        var targetPanel = w.querySelector('.tw-panel[data-panel="' + target + '"]');
+        if (targetPanel) targetPanel.classList.add('tw-panel-active');
+      });
+    }
   }
 
   function bindAccordions(w) {
@@ -433,10 +443,8 @@
 
   function articleVariations(artNo) {
     var variations = [artNo];
-    /* Strip trailing letter suffixes (X=Xtra, S=Sport, etc.) */
     var noTrail = artNo.replace(/[A-Z]$/, '');
     if (noTrail !== artNo && noTrail.length > 3) variations.push(noTrail);
-    /* Add spaces for Brembo-style numbers (P85126 -> P 85 126) */
     var spaced = artNo.replace(/([A-Za-z]+)(\d+)/g, function(m, letters, digits) {
       var d = digits;
       if (d.length === 5) d = d.slice(0,2) + ' ' + d.slice(2);
@@ -445,7 +453,6 @@
       return letters + ' ' + d;
     });
     if (spaced !== artNo) variations.push(spaced);
-    /* Spaced version of stripped suffix */
     if (noTrail !== artNo && noTrail.length > 3) {
       var spacedNoTrail = noTrail.replace(/([A-Za-z]+)(\d+)/g, function(m, letters, digits) {
         var d = digits;
@@ -457,14 +464,12 @@
       if (spacedNoTrail !== noTrail) variations.push(spacedNoTrail);
     }
     if (artNo.indexOf('.') > -1) variations.push(artNo.replace(/\./g, ' '));
-    /* OEM-style long numbers: try with hyphen (26300-35505 style) */
     if (/^\d{10,}$/.test(artNo)) {
       variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
     }
     if (/^\d{5}[A-Z]/.test(artNo)) {
       variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
     }
-    /* Strip brand prefixes: FEB170297 -> 170297 (Febi Bilstein) */
     var pfxMatch = artNo.match(/^(FEB|MAN|NGK|BOS|VAL|LUK|SKF|INA|FAG|SNR)(\d{4,})$/i);
     if (pfxMatch) variations.push(pfxMatch[2]);
     var nospace = artNo.replace(/[\s.-]/g, '');
@@ -494,7 +499,6 @@
       });
     }
 
-    /* ── OEM fallback: search as manufacturer OE number ── */
     function tryOemSearch(originalSku) {
       return api({
         endpoint_partsSearchArticlesByOem: true,
@@ -502,7 +506,6 @@
         parts_langId_29: 4
       }).then(function(oemData) {
         if (!oemData || !oemData.length) return Promise.reject('no_results');
-        /* Deduplicate by articleId */
         var seen = {};
         var unique = [];
         for (var i = 0; i < oemData.length; i++) {
@@ -512,7 +515,6 @@
           unique.push(a);
         }
         if (!unique.length) return Promise.reject('no_results');
-        /* Sort by preferred brands */
         unique.sort(function(a, b) {
           var nameA = (a.supplierName || '').toUpperCase();
           var nameB = (b.supplierName || '').toUpperCase();
@@ -523,7 +525,6 @@
           }
           return (sA === -1 ? 999 : sA) - (sB === -1 ? 999 : sB);
         });
-        /* Check top 5 candidates for vehicle count, pick the best */
         var candidates = unique.slice(0, 5);
         var chain = Promise.resolve({ best: null, bestCount: 0 });
         candidates.forEach(function(cand) {
@@ -551,7 +552,6 @@
       });
     }
 
-    /* ── Build result from article data ── */
     function buildResultFromArticle(a, articleNo) {
       var result = {
         articleNo: a.articleNo || articleNo,
@@ -586,7 +586,6 @@
       return buildResultFromArticle(data[0].articles[0], articleNo);
     }).catch(function(err) {
       if (err !== 'no_results') return Promise.reject(err);
-      /* Article search failed — try OEM search */
       return tryOemSearch(articleNo).then(function(bestArticle) {
         return buildResultFromArticle(bestArticle, articleNo);
       });
@@ -608,7 +607,6 @@
 
   /* ── Main flow ── */
   function init() {
-    /* Only activate on auto-parts product pages (or if tecdoc-widget div already exists) */
     if (!document.getElementById('tecdoc-widget') && !isAutoPartsPage()) return;
 
     var articleNo = detectArticleNo();
