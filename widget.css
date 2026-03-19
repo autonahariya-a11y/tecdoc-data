@@ -41,9 +41,14 @@
   padding: 0 !important;
 }
 
-#item_content #item_content_title {
-  margin-bottom: 0 !important;
-  padding-bottom: 8px !important;
+#item_content #item_content_title,
+#item_content > h3 {
+  margin: 0 !important;
+  padding: 12px 0 0 !important;
+  border: none !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #000 !important;
 }
 
 /* Hide any Konimbo-generated empty tables/divs in specifications */

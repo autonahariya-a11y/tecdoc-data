@@ -244,7 +244,7 @@
 
     /* ── SECTION 1: Description / Specs ── */
     html += '<div class="tw-section tw-desc-section">';
-    html += '<div class="tw-section-title">\u05EA\u05D9\u05D0\u05D5\u05E8</div>';
+    /* Section title removed — Konimbo H3 provides the heading */
     if (!D.specs.length && !D.articleNo && !D.supplier && !D.ean) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
     } else {
