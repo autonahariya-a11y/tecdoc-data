@@ -450,8 +450,11 @@
       /* Broad Konimbo description selectors */
       '.item_description, .desc, .item_desc, .product_description, .product-description { display:none !important; }',
       '.item_right > .description, .item_right > div.desc { display:none !important; }',
-      /* Hide description sibling of #item_current_title — Konimbo structure */
-      '#item_current_title ~ p, #item_current_title ~ .item_description, #item_current_title ~ .description { display:none !important; }',
+      /* Konimbo real structure: hide anchors, facebook, old specs */
+      '#item_anchors { display:none !important; }',
+      '#item_show_facebook { display:none !important; }',
+      '#item_current_sub_title { display:none !important; }',
+      '.wrap_content_top { display:none !important; }',
 
       /* Hide WhatsApp floating buttons if outside main content */
       'a[href*="whatsapp.com/send"]:not(#item_info a) { }',
@@ -512,7 +515,7 @@
   function mergeSKUintoBrandBadge() {
     if (document.querySelector('.tw-sku-merged')) return;
     /* Find the gray SKU box (code_item) and the brand-badge */
-    var codeEl = document.querySelector('#item_info .code_item');
+    var codeEl = document.querySelector('.item_main_top .code_item') || document.querySelector('#item_info .code_item') || document.querySelector('.code_item');
     var badge = document.querySelector('.brand-badge');
     if (!codeEl || !badge) return;
     /* Create a flex wrapper that places them side by side */
@@ -578,55 +581,62 @@
     var readMore = document.querySelectorAll('a.read_more_link, a.read_more, a[class*="read_more"]');
     for (var r = 0; r < readMore.length; r++) readMore[r].style.display = 'none';
 
-    /* 4. Hide product description — Konimbo structure: H1 is inside #item_current_title,
-       description is a SIBLING of #item_current_title (not sibling of H1) */
-    var titleDiv = document.getElementById('item_current_title');
-    if (titleDiv) {
-      /* Walk siblings of the title container to find and hide description */
-      var sibling = titleDiv.nextElementSibling;
-      while (sibling) {
-        var sCls = sibling.className || '';
-        var sId = sibling.id || '';
-        var sTxt = (sibling.textContent || '').trim();
-        var sTag = sibling.tagName;
-        /* Stop at price, cart, widget, purchase areas */
-        if (sCls.indexOf('price') !== -1 || sCls.indexOf('cart') !== -1 || sCls.indexOf('tw-') !== -1 || sCls.indexOf('item_add') !== -1 || sCls.indexOf('purchase') !== -1) break;
-        if (sibling.querySelector && sibling.querySelector('[class*="price"], .item_add_to_cart, input[name="quantity"]')) break;
-        if (sId === 'tecdoc-widget' || sId === 'item_content') break;
-        /* Skip elements we want to keep */
-        if (sCls.indexOf('code_item') !== -1 || sCls.indexOf('stock') !== -1 || sCls.indexOf('brand-badge') !== -1) { sibling = sibling.nextElementSibling; continue; }
-        /* Hide description-like text blocks (any tag) */
-        if (sTag !== 'H1' && sTag !== 'H2' && sTag !== 'IMG' && sTag !== 'INPUT' && sTag !== 'BUTTON' && sTag !== 'FORM') {
-          if (sTxt.length > 20 && sTxt.indexOf('\u20AA') === -1 && sTxt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
-            sibling.style.display = 'none';
-          }
-          if (sTag === 'A' && (sTxt.indexOf('\u05E7\u05E8\u05D0 \u05E2\u05D5\u05D3') !== -1 || sCls.indexOf('read_more') !== -1)) {
-            sibling.style.display = 'none';
-          }
+    /* 4. Hide old Konimbo product description & unwanted sections.
+       Real Konimbo structure:
+         #item_current_title > h1
+         #item_details > .item_main_top (code_item, sub_title, etc)
+                       > .item_main_bottom (price, cart, description text, shipping, etc)
+         #item_show_facebook
+         .specifications.full_width > #tecdoc-widget
+    */
+    /* 4a. Hide #item_anchors ("הוסף להשוואה") */
+    var anchors = document.getElementById('item_anchors');
+    if (anchors) anchors.style.display = 'none';
+
+    /* 4b. Hide description and shipping info inside .item_main_bottom */
+    var mainBottom = document.querySelector('.item_main_bottom');
+    if (mainBottom) {
+      var mbKids = mainBottom.children;
+      for (var mb = 0; mb < mbKids.length; mb++) {
+        var kid = mbKids[mb];
+        var kCls = kid.className || '';
+        var kId = kid.id || '';
+        var kTxt = (kid.textContent || '').trim();
+        /* Keep price, cart, quantity, buy buttons */
+        if (kCls.indexOf('price') !== -1 || kCls.indexOf('cart') !== -1 || kCls.indexOf('item_add') !== -1 || kCls.indexOf('quantity') !== -1 || kCls.indexOf('buy') !== -1) continue;
+        if (kid.querySelector && kid.querySelector('[class*="price"], .item_add_to_cart, input[name="quantity"], .add_to_cart_button')) continue;
+        /* Keep our widget elements */
+        if (kCls.indexOf('tw-') !== -1 || kId === 'tecdoc-widget') continue;
+        /* Hide everything else: description text, shipping info, warranty, etc */
+        if (kTxt.length > 30 && kTxt.indexOf('\u20AA') === -1) {
+          kid.style.display = 'none';
         }
-        sibling = sibling.nextElementSibling;
       }
-      /* Also wrap bare text nodes in the PARENT of #item_current_title */
-      var titleParent = titleDiv.parentElement;
-      if (titleParent) {
-        var childNodes = titleParent.childNodes;
-        for (var tn = 0; tn < childNodes.length; tn++) {
-          var node = childNodes[tn];
-          if (node.nodeType === 3 && node.textContent.trim().length > 20) {
-            var txt = node.textContent.trim();
-            if (txt.indexOf('\u20AA') === -1 && txt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
-              var wrapper = document.createElement('span');
-              wrapper.style.display = 'none';
-              wrapper.className = 'tw-hidden-desc';
-              node.parentNode.insertBefore(wrapper, node);
-              wrapper.appendChild(node);
-              tn--;
-            }
-          }
+      /* Also hide bare text nodes in item_main_bottom */
+      var mbNodes = mainBottom.childNodes;
+      for (var mbn = 0; mbn < mbNodes.length; mbn++) {
+        if (mbNodes[mbn].nodeType === 3 && mbNodes[mbn].textContent.trim().length > 20) {
+          var wrap = document.createElement('span');
+          wrap.style.display = 'none';
+          wrap.className = 'tw-hidden-desc';
+          mbNodes[mbn].parentNode.insertBefore(wrap, mbNodes[mbn]);
+          wrap.appendChild(mbNodes[mbn]);
+          mbn--;
         }
       }
     }
-    /* Fallback: also try #item_info direct children approach */
+
+    /* 4c. Hide #item_show_facebook */
+    var fb = document.getElementById('item_show_facebook');
+    if (fb) fb.style.display = 'none';
+
+    /* 4d. Hide sub_title and wrap_content_top in item_main_top (usually already hidden) */
+    var subTitle = document.getElementById('item_current_sub_title');
+    if (subTitle) subTitle.style.display = 'none';
+    var wrapTop = document.querySelector('.wrap_content_top');
+    if (wrapTop) wrapTop.style.display = 'none';
+
+    /* 4e. Fallback: #item_info approach for non-standard Konimbo layouts */
     var itemInfo = document.getElementById('item_info');
     if (itemInfo) {
       var pTags = itemInfo.querySelectorAll(':scope > p');
@@ -638,14 +648,6 @@
         if (sp.textContent.trim().length > 30) sp.style.display = 'none';
       }
     }
-    /* Hide known sections by text */
-    var allEls = document.querySelectorAll('div, section');
-    for (var ae = 0; ae < allEls.length; ae++) {
-      var aeTxt = (allEls[ae].textContent || '').trim();
-      if (aeTxt.indexOf('\u05DC\u05DE\u05D4 \u05DC\u05E7\u05D5\u05D7\u05D5\u05EA') !== -1 && aeTxt.length < 300) {
-        if (!allEls[ae].querySelector('[class*="price"], input')) allEls[ae].style.display = 'none';
-      }
-    }
 
     /* 5. Hide back-to-top */
     var backTop = document.querySelectorAll('.back_to_top, .back-to-top, #back_to_top, a[href="#top"]');
@@ -655,6 +657,26 @@
   function getOrCreateWidget() {
     var existing = document.getElementById('tecdoc-widget');
     if (existing) return existing;
+
+    /* Priority 0: Konimbo real layout — place inside #item_details after .item_main_bottom */
+    var itemDetails = document.getElementById('item_details');
+    if (itemDetails) {
+      var widget0 = document.createElement('div');
+      widget0.id = 'tecdoc-widget';
+      widget0.style.cssText = 'width:100%; padding:0 15px;';
+      var mainBottom = itemDetails.querySelector('.item_main_bottom');
+      if (mainBottom && mainBottom.nextSibling) {
+        itemDetails.insertBefore(widget0, mainBottom.nextSibling);
+      } else {
+        itemDetails.appendChild(widget0);
+      }
+      /* Hide old #item_content / specifications if they exist */
+      var oldContent = document.getElementById('item_content');
+      if (oldContent) oldContent.style.display = 'none';
+      var oldSpecs = document.querySelector('#item_specifications');
+      if (oldSpecs) oldSpecs.style.display = 'none';
+      return widget0;
+    }
 
     /* Priority 1: Replace #item_content ("מידע נוסף") on Konimbo product pages */
     var itemContent = document.getElementById('item_content');
@@ -669,10 +691,6 @@
         if (sib !== specContainer && sib.id !== 'tecdoc-widget') {
           sib.style.display = 'none';
         }
-      }
-      var itemInfo = document.getElementById('item_info');
-      if (itemInfo && itemInfo.nextSibling !== itemContent) {
-        itemInfo.parentNode.insertBefore(itemContent, itemInfo.nextSibling);
       }
       var widget = document.createElement('div');
       widget.id = 'tecdoc-widget';
@@ -693,40 +711,11 @@
       return widget2;
     }
 
-    /* Priority 3: Fallback — create after #item_info */
-    var itemInfo2 = document.getElementById('item_info');
-    if (itemInfo2) {
-      var wrapper = document.createElement('div');
-      wrapper.id = 'item_content';
-      wrapper.className = 'item_attributes';
-      var specDiv = document.createElement('div');
-      specDiv.className = 'specifications full_width';
-      wrapper.appendChild(specDiv);
-      var widget3 = document.createElement('div');
-      widget3.id = 'tecdoc-widget';
-      specDiv.appendChild(widget3);
-      itemInfo2.parentNode.insertBefore(wrapper, itemInfo2.nextSibling);
-      return widget3;
-    }
-
-    /* Priority 4: Fallback — create before #item_also_buy */
-    var anchors = [document.getElementById('item_also_buy')];
-    for (var i = 0; i < anchors.length; i++) {
-      if (anchors[i]) {
-        var wrapper2 = document.createElement('div');
-        wrapper2.id = 'item_content';
-        wrapper2.className = 'item_attributes';
-        var specDiv2 = document.createElement('div');
-        specDiv2.className = 'specifications full_width';
-        wrapper2.appendChild(specDiv2);
-        var widget4 = document.createElement('div');
-        widget4.id = 'tecdoc-widget';
-        specDiv2.appendChild(widget4);
-        anchors[i].parentNode.insertBefore(wrapper2, anchors[i]);
-        return widget4;
-      }
-    }
-    return null;
+    /* Priority 3: Fallback — append to body */
+    var widget3 = document.createElement('div');
+    widget3.id = 'tecdoc-widget';
+    document.body.appendChild(widget3);
+    return widget3;
   }
 
   function getWidget() { return document.getElementById('tecdoc-widget'); }
