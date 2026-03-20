@@ -557,8 +557,6 @@
   }
 
   function cleanPageDOM() {
-    /* SAFE approach: only hide elements we KNOW should be hidden, by ID or specific selector */
-
     /* 1. Hide by specific IDs */
     var idsToHide = ['why_buy', 'trust_icons', 'ask_section', 'delivery_info'];
     for (var i = 0; i < idsToHide.length; i++) {
@@ -570,53 +568,60 @@
     var compareLinks = document.querySelectorAll('a[href*="add_compare"]');
     for (var c = 0; c < compareLinks.length; c++) compareLinks[c].style.display = 'none';
 
-    /* 3. Hide read-more link */
-    var readMore = document.querySelectorAll('a.read_more_link');
+    /* 3. Hide read-more link (multiple selectors for Konimbo variants) */
+    var readMore = document.querySelectorAll('a.read_more_link, a.read_more, a[class*="read_more"]');
     for (var r = 0; r < readMore.length; r++) readMore[r].style.display = 'none';
 
-    /* 4. Hide description elements that are direct children of #item_info */
-    var itemInfo = document.getElementById('item_info');
-    if (itemInfo) {
-      var pTags = itemInfo.querySelectorAll(':scope > p');
+    /* 4. Hide description — try #item_info first, then H1 parent fallback */
+    var container = document.getElementById('item_info');
+    if (!container) {
+      /* Konimbo doesn't always use #item_info — find the H1's parent as container */
+      var h1 = document.querySelector('h1');
+      if (h1) container = h1.parentElement;
+    }
+    if (container) {
+      /* Hide <p> tags (description paragraphs) */
+      var pTags = container.querySelectorAll(':scope > p');
       for (var p = 0; p < pTags.length; p++) pTags[p].style.display = 'none';
-      /* Also hide description spans (Konimbo sometimes uses spans for descriptions) */
-      var spans = itemInfo.querySelectorAll(':scope > span');
+      /* Hide <span> tags with long text (Konimbo description) but keep code_item, price, stock */
+      var spans = container.querySelectorAll(':scope > span');
       for (var s = 0; s < spans.length; s++) {
         var sp = spans[s];
-        /* Keep: code_item, price, stock elements */
         if (sp.classList.contains('code_item') || sp.className.indexOf('price') !== -1 || sp.className.indexOf('stock') !== -1) continue;
-        /* Hide if it has substantial text (likely a description) */
         if (sp.textContent.trim().length > 30) sp.style.display = 'none';
       }
       /* Hide .item_description or .description divs */
-      var descDivs = itemInfo.querySelectorAll(':scope > .item_description, :scope > .description');
+      var descDivs = container.querySelectorAll(':scope > .item_description, :scope > .description');
       for (var dd = 0; dd < descDivs.length; dd++) descDivs[dd].style.display = 'none';
+      /* Walk children: hide text-heavy blocks between H1 and price/cart that look like descriptions */
+      var children = container.children;
+      for (var j = 0; j < children.length; j++) {
+        var child = children[j];
+        var tag = child.tagName;
+        var txt = (child.textContent || '').trim();
+        /* Skip important elements */
+        if (tag === 'H1' || tag === 'H2') continue;
+        if (child.querySelector && child.querySelector('.price, [class*="price"], input[name="quantity"], .add_to_cart, [class*="add_to_cart"], .item_add_to_cart, .code_item, .tw-')) continue;
+        if (child.classList && (child.classList.contains('code_item') || child.classList.contains('tw-stock-inline') || child.classList.contains('tw-sku-merged'))) continue;
+        if (child.className && (child.className.indexOf('price') !== -1 || child.className.indexOf('cart') !== -1 || child.className.indexOf('stock') !== -1 || child.className.indexOf('brand') !== -1)) continue;
+        /* Hide "why buy", "ask us" sections */
+        if (txt.indexOf('\u05DC\u05DE\u05D4 \u05DC\u05E7\u05D5\u05D7\u05D5\u05EA') !== -1 || txt.indexOf('\u05E9\u05D0\u05DC \u05D0\u05D5\u05EA\u05E0\u05D5') !== -1) {
+          child.style.display = 'none';
+          continue;
+        }
+        /* Hide description-like text blocks (long text, not inside important containers) */
+        if ((tag === 'P' || tag === 'SPAN' || tag === 'DIV') && txt.length > 40) {
+          /* Extra safety: don't hide if it contains price numbers like ₪ */
+          if (txt.indexOf('\u20AA') === -1 && !child.querySelector('input, select, button')) {
+            child.style.display = 'none';
+          }
+        }
+      }
     }
 
     /* 5. Hide back-to-top */
     var backTop = document.querySelectorAll('.back_to_top, .back-to-top, #back_to_top, a[href="#top"]');
     for (var b = 0; b < backTop.length; b++) backTop[b].style.display = 'none';
-
-    /* 6. Text-based fallback: walk #item_info children and hide only "why buy" type sections */
-    if (itemInfo) {
-      var children = itemInfo.children;
-      for (var j = 0; j < children.length; j++) {
-        var child = children[j];
-        var txt = (child.textContent || '').trim();
-        /* Only hide divs that contain "למה לקוחות" heading text and nothing else important */
-        if (txt.indexOf('\u05DC\u05DE\u05D4 \u05DC\u05E7\u05D5\u05D7\u05D5\u05EA') !== -1) {
-          /* Make sure this div doesn't contain price or cart elements */
-          if (!child.querySelector('.price, [class*="price"], input[name="quantity"], .add_to_cart, [class*="add_to_cart"]')) {
-            child.style.display = 'none';
-          }
-        }
-        if (txt.indexOf('\u05E9\u05D0\u05DC \u05D0\u05D5\u05EA\u05E0\u05D5') !== -1) {
-          if (!child.querySelector('.price, input[name="quantity"]')) {
-            child.style.display = 'none';
-          }
-        }
-      }
-    }
   }
 
   function getOrCreateWidget() {
