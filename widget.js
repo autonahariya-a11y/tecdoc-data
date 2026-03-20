@@ -177,7 +177,7 @@
     'VOLKSWAGEN':'\u05E4\u05D5\u05DC\u05E7\u05E1\u05D5\u05D5\u05D2\u05DF','VW':'\u05E4\u05D5\u05DC\u05E7\u05E1\u05D5\u05D5\u05D2\u05DF',
     'VOLVO':'\u05D5\u05D5\u05DC\u05D5\u05D5'
   };
-  /* ── Vehicle sub-model Hebrew translations ── */
+  /* ── Vehicle sub-type Hebrew translations ── */
   var MODEL_PART_TR = {
     'Variant': '\u05E7\u05D5\u05DE\u05D1\u05D9',
     'Estate': '\u05E7\u05D5\u05DE\u05D1\u05D9',
@@ -197,23 +197,160 @@
     'Sportstourer': '\u05E1\u05E4\u05D5\u05E8\u05D8\u05D8\u05D5\u05E8\u05E8',
     'Allstreet': '\u05D0\u05D5\u05DC\u05E1\u05D8\u05E8\u05D9\u05D8',
     'Alltrack': '\u05D0\u05D5\u05DC\u05D8\u05E8\u05E7',
-    'Shooting Brake': '\u05E9\u05D5\u05D8\u05D9\u05E0\u05D2 \u05D1\u05E8\u05D9\u05D9\u05E7'
+    'Shooting Brake': '\u05E9\u05D5\u05D8\u05D9\u05E0\u05D2 \u05D1\u05E8\u05D9\u05D9\u05E7',
+    'Sportwagon': '\u05E1\u05E4\u05D5\u05E8\u05D8\u05D5\u05D5\u05D0\u05D2\u05D5\u05DF',
+    'Break': '\u05E7\u05D5\u05DE\u05D1\u05D9',
+    'Station Wagon': '\u05E1\u05D8\u05D9\u05D9\u05E9\u05DF',
+    'Avant': '\u05D0\u05D5\u05D5\u05D0\u05E0\u05D8',
+    'Wagon': '\u05E7\u05D5\u05DE\u05D1\u05D9',
+    'Gran Turismo': '\u05D2\u05E8\u05DF \u05D8\u05D5\u05E8\u05D9\u05D6\u05DE\u05D5',
+    'Cross': '\u05E7\u05E8\u05D5\u05E1',
+    'MPV': 'MPV',
+    'Compact': '\u05E7\u05D5\u05DE\u05E4\u05E7\u05D8',
+    'Pickup': '\u05D8\u05E0\u05D3\u05E8'
+  };
+
+  /* ── Car model name Hebrew translations (popular models in Israel) ── */
+  var MODEL_NAME_TR = {
+    /* VW */
+    'GOLF':'\u05D2\u05D5\u05DC\u05E3','TIGUAN':'\u05D8\u05D9\u05D2\u05D5\u05D0\u05DF','PASSAT':'\u05E4\u05E1\u05D0\u05D8',
+    'POLO':'\u05E4\u05D5\u05DC\u05D5','TOURAN':'\u05D8\u05D5\u05E8\u05D0\u05DF','ARTEON':'\u05D0\u05E8\u05D8\u05D9\u05D0\u05D5\u05DF',
+    'JETTA':'\u05D2\u05F3\u05D8\u05D4','T-ROC':'\u05D8\u05D9-\u05E8\u05D5\u05E7','T-CROSS':'\u05D8\u05D9-\u05E7\u05E8\u05D5\u05E1',
+    'TAOS':'\u05D8\u05D0\u05D5\u05E1','CADDY':'\u05E7\u05D0\u05D3\u05D9','TRANSPORTER':'\u05D8\u05E8\u05E0\u05E1\u05E4\u05D5\u05E8\u05D8\u05E8',
+    'UP':'\u05D0\u05E4','CC':'CC','ID.3':'ID.3','ID.4':'ID.4','ID.5':'ID.5',
+    'SHARAN':'\u05E9\u05D0\u05E8\u05DF','SCIROCCO':'\u05E1\u05D9\u05E8\u05D5\u05E7\u05D5',
+    'TARRACO':'\u05D8\u05D0\u05E8\u05E7\u05D5','TAYRON':'\u05D8\u05D9\u05D9\u05E8\u05D5\u05DF',
+    'LAVIDA':'\u05DC\u05D0\u05D5\u05D9\u05D3\u05D4','THARU':'\u05EA\u05D0\u05E8\u05D5','MAGOTAN':'\u05DE\u05D0\u05D2\u05D5\u05D8\u05DF',
+    'SPORTSVAN':'\u05E1\u05E4\u05D5\u05E8\u05D8\u05E1\u05D5\u05D5\u05D0\u05DF',
+    /* SKODA */
+    'OCTAVIA':'\u05D0\u05D5\u05E7\u05D8\u05D1\u05D9\u05D4','KAROQ':'\u05E7\u05D0\u05E8\u05D5\u05E7','KODIAQ':'\u05E7\u05D5\u05D3\u05D9\u05D0\u05E7',
+    'SUPERB':'\u05E1\u05D5\u05E4\u05E8\u05D1','FABIA':'\u05E4\u05D0\u05D1\u05D9\u05D4','RAPID':'\u05E8\u05E4\u05D9\u05D3',
+    'SCALA':'\u05E1\u05E7\u05D0\u05DC\u05D4','KAMIQ':'\u05E7\u05DE\u05D9\u05E7','ENYAQ':'\u05D0\u05E0\u05D9\u05D0\u05E7',
+    'YETI':'\u05D9\u05D8\u05D9','ROOMSTER':'\u05E8\u05D5\u05DE\u05E1\u05D8\u05E8',
+    /* SEAT / CUPRA */
+    'LEON':'\u05DC\u05D9\u05D0\u05D5\u05DF','IBIZA':'\u05D0\u05D9\u05D1\u05D9\u05D6\u05D4','ATECA':'\u05D0\u05D8\u05E7\u05D4',
+    'ARONA':'\u05D0\u05E8\u05D5\u05E0\u05D4','FORMENTOR':'\u05E4\u05D5\u05E8\u05DE\u05E0\u05D8\u05D5\u05E8',
+    'ALHAMBRA':'\u05D0\u05DC\u05D4\u05DE\u05D1\u05E8\u05D4','TOLEDO':'\u05D8\u05D5\u05DC\u05D3\u05D5',
+    /* AUDI */
+    'A1':'A1','A3':'A3','A3L':'A3L','A4':'A4','A5':'A5','A6':'A6','A7':'A7','A8':'A8',
+    'Q2':'Q2','Q3':'Q3','Q5':'Q5','Q7':'Q7','Q8':'Q8',
+    'TT':'TT','R8':'R8','E-TRON':'E-TRON',
+    /* BMW */
+    '1 SERIES':'\u05E1\u05D3\u05E8\u05D4 1','2 SERIES':'\u05E1\u05D3\u05E8\u05D4 2','3 SERIES':'\u05E1\u05D3\u05E8\u05D4 3',
+    '4 SERIES':'\u05E1\u05D3\u05E8\u05D4 4','5 SERIES':'\u05E1\u05D3\u05E8\u05D4 5','6 SERIES':'\u05E1\u05D3\u05E8\u05D4 6',
+    '7 SERIES':'\u05E1\u05D3\u05E8\u05D4 7','8 SERIES':'\u05E1\u05D3\u05E8\u05D4 8',
+    'X1':'X1','X2':'X2','X3':'X3','X4':'X4','X5':'X5','X6':'X6','X7':'X7',
+    'Z4':'Z4','I3':'I3','IX':'IX','IX3':'IX3',
+    /* Mercedes */
+    'A-CLASS':'\u05DE\u05D7\u05DC\u05E7\u05EA A','B-CLASS':'\u05DE\u05D7\u05DC\u05E7\u05EA B','C-CLASS':'\u05DE\u05D7\u05DC\u05E7\u05EA C',
+    'E-CLASS':'\u05DE\u05D7\u05DC\u05E7\u05EA E','S-CLASS':'\u05DE\u05D7\u05DC\u05E7\u05EA S',
+    'CLA':'CLA','CLS':'CLS','GLA':'GLA','GLB':'GLB','GLC':'GLC','GLE':'GLE','GLS':'GLS',
+    'VITO':'\u05D5\u05D9\u05D8\u05D5','SPRINTER':'\u05E1\u05E4\u05E8\u05D9\u05E0\u05D8\u05E8',
+    /* Toyota */
+    'COROLLA':'\u05E7\u05D5\u05E8\u05D5\u05DC\u05D4','CAMRY':'\u05E7\u05DE\u05E8\u05D9','RAV4':'RAV4','RAV 4':'RAV4',
+    'YARIS':'\u05D9\u05D0\u05E8\u05D9\u05E1','AYGO':'\u05D0\u05D9\u05D2\u05D5','C-HR':'C-HR',
+    'LAND CRUISER':'\u05DC\u05E0\u05D3 \u05E7\u05E8\u05D5\u05D6\u05E8','HILUX':'\u05D4\u05D9\u05DC\u05D5\u05E7\u05E1',
+    'PRIUS':'\u05E4\u05E8\u05D9\u05D5\u05E1','AVENSIS':'\u05D0\u05D1\u05E0\u05E1\u05D9\u05E1','AURIS':'\u05D0\u05D5\u05E8\u05D9\u05E1',
+    /* Hyundai */
+    'TUCSON':'\u05D8\u05D5\u05E1\u05D5\u05DF','I10':'I10','I20':'I20','I30':'I30','I40':'I40',
+    'KONA':'\u05E7\u05D5\u05E0\u05D4','IONIQ':'\u05D0\u05D9\u05D5\u05E0\u05D9\u05E7','SANTA FE':'\u05E1\u05E0\u05D8\u05D4 \u05E4\u05D4',
+    'ELANTRA':'\u05D0\u05DC\u05E0\u05D8\u05E8\u05D4','ACCENT':'\u05D0\u05E7\u05E1\u05E0\u05D8','GETZ':'\u05D2\u05D8\u05E1',
+    'CRETA':'\u05E7\u05E8\u05D8\u05D4','BAYON':'\u05D1\u05D0\u05D9\u05D5\u05DF','VENUE':'\u05D5\u05E0\u05D9\u05D5',
+    /* Kia */
+    'SPORTAGE':'\u05E1\u05E4\u05D5\u05E8\u05D8\u05D0\u05D6\u05F3','PICANTO':'\u05E4\u05D9\u05E7\u05E0\u05D8\u05D5',
+    'RIO':'\u05E8\u05D9\u05D5','CEED':'\u05E1\u05D9\u05D3','NIRO':'\u05E0\u05D9\u05E8\u05D5',
+    'SORENTO':'\u05E1\u05D5\u05E8\u05E0\u05D8\u05D5','STONIC':'\u05E1\u05D8\u05D5\u05E0\u05D9\u05E7',
+    'CARNIVAL':'\u05E7\u05E8\u05E0\u05D9\u05D5\u05DC','OPTIMA':'\u05D0\u05D5\u05E4\u05D8\u05D9\u05DE\u05D4',
+    'SOUL':'\u05E1\u05D5\u05DC','STINGER':'\u05E1\u05D8\u05D9\u05E0\u05D2\u05E8','EV6':'EV6',
+    /* Renault */
+    'CLIO':'\u05E7\u05DC\u05D9\u05D5','MEGANE':'\u05DE\u05D2\u05D0\u05DF','CAPTUR':'\u05E7\u05E4\u05D8\u05D5\u05E8',
+    'KADJAR':'\u05E7\u05D3\u05D2\u05F3\u05D0\u05E8','KOLEOS':'\u05E7\u05D5\u05DC\u05D9\u05D0\u05D5\u05E1',
+    'SCENIC':'\u05E1\u05E6\u05E0\u05D9\u05E7','KANGOO':'\u05E7\u05E0\u05D2\u05D5',
+    'TALISMAN':'\u05D8\u05DC\u05D9\u05E1\u05DE\u05DF','LAGUNA':'\u05DC\u05D0\u05D2\u05D5\u05E0\u05D4',
+    'FLUENCE':'\u05E4\u05DC\u05D5\u05D0\u05E0\u05E1','SANDERO':'\u05E1\u05E0\u05D3\u05E8\u05D5',
+    'DUSTER':'\u05D3\u05D0\u05E1\u05D8\u05E8','ZOE':'\u05D6\u05D5\u05D0\u05D4',
+    /* Peugeot */
+    '208':'208','308':'308','3008':'3008','2008':'2008','5008':'5008',
+    '206':'206','207':'207','301':'301','407':'407','508':'508',
+    'PARTNER':'\u05E4\u05E8\u05D8\u05E0\u05E8','RIFTER':'\u05E8\u05D9\u05E4\u05D8\u05E8',
+    /* Citroen */
+    'C1':'C1','C3':'C3','C4':'C4','C5':'C5','BERLINGO':'\u05D1\u05E8\u05DC\u05D9\u05E0\u05D2\u05D5',
+    'C-ELYSEE':'C-\u05D0\u05DC\u05D9\u05D6\u05D4','C3 AIRCROSS':'C3 \u05D0\u05D9\u05D9\u05E8\u05E7\u05E8\u05D5\u05E1',
+    'C4 CACTUS':'C4 \u05E7\u05E7\u05D8\u05D5\u05E1','C5 AIRCROSS':'C5 \u05D0\u05D9\u05D9\u05E8\u05E7\u05E8\u05D5\u05E1',
+    /* Nissan */
+    'QASHQAI':'\u05E7\u05E9\u05E7\u05D0\u05D9','JUKE':'\u05D2\u05F3\u05D5\u05E7','X-TRAIL':'\u05D0\u05E7\u05E1-\u05D8\u05E8\u05D9\u05D9\u05DC',
+    'MICRA':'\u05DE\u05D9\u05E7\u05E8\u05D4','NOTE':'\u05E0\u05D5\u05D8','LEAF':'\u05DC\u05D9\u05E3',
+    'NAVARA':'\u05E0\u05D1\u05D0\u05E8\u05D4','PATHFINDER':'\u05E4\u05D0\u05EA\u05E4\u05D9\u05D9\u05E0\u05D3\u05E8',
+    /* Honda */
+    'CIVIC':'\u05E1\u05D9\u05D5\u05D9\u05E7','JAZZ':'\u05D2\u05F3\u05D0\u05D6','HR-V':'HR-V','CR-V':'CR-V',
+    'ACCORD':'\u05D0\u05E7\u05D5\u05E8\u05D3',
+    /* Mazda */
+    'CX-5':'CX-5','CX-3':'CX-3','CX-30':'CX-30','CX-60':'CX-60',
+    'MAZDA3':'\u05DE\u05D0\u05D6\u05D3\u05D4 3','MAZDA6':'\u05DE\u05D0\u05D6\u05D3\u05D4 6','MAZDA2':'\u05DE\u05D0\u05D6\u05D3\u05D4 2',
+    /* Suzuki */
+    'SWIFT':'\u05E1\u05D5\u05D5\u05D9\u05E4\u05D8','VITARA':'\u05D5\u05D9\u05D8\u05D0\u05E8\u05D4','BALENO':'\u05D1\u05DC\u05E0\u05D5',
+    'JIMNY':'\u05D2\u05F3\u05D9\u05DE\u05E0\u05D9','SX4':'SX4','IGNIS':'\u05D0\u05D9\u05D2\u05E0\u05D9\u05E1',
+    /* Subaru */
+    'IMPREZA':'\u05D0\u05D9\u05DE\u05E4\u05E8\u05D6\u05D4','FORESTER':'\u05E4\u05D5\u05E8\u05E1\u05D8\u05E8',
+    'OUTBACK':'\u05D0\u05D0\u05D5\u05D8\u05D1\u05E7','XV':'XV','LEGACY':'\u05DC\u05D2\u05E1\u05D9',
+    /* Fiat */
+    'PUNTO':'\u05E4\u05D5\u05E0\u05D8\u05D5','PANDA':'\u05E4\u05E0\u05D3\u05D4','500':'500','500X':'500X','500L':'500L',
+    'TIPO':'\u05D8\u05D9\u05E4\u05D5','DUCATO':'\u05D3\u05D5\u05E7\u05D0\u05D8\u05D5',
+    /* Opel */
+    'CORSA':'\u05E7\u05D5\u05E8\u05E1\u05D4','ASTRA':'\u05D0\u05E1\u05D8\u05E8\u05D4','INSIGNIA':'\u05D0\u05D9\u05E0\u05E1\u05D9\u05D2\u05E0\u05D9\u05D4',
+    'MOKKA':'\u05DE\u05D5\u05E7\u05D4','CROSSLAND':'\u05E7\u05E8\u05D5\u05E1\u05DC\u05E0\u05D3','GRANDLAND':'\u05D2\u05E8\u05E0\u05D3\u05DC\u05E0\u05D3',
+    'ZAFIRA':'\u05D6\u05E4\u05D9\u05E8\u05D4','MERIVA':'\u05DE\u05E8\u05D9\u05D1\u05D4','VECTRA':'\u05D5\u05E7\u05D8\u05E8\u05D4',
+    /* Ford */
+    'FOCUS':'\u05E4\u05D5\u05E7\u05D5\u05E1','FIESTA':'\u05E4\u05D9\u05D0\u05E1\u05D8\u05D4','KUGA':'\u05E7\u05D5\u05D2\u05D4',
+    'PUMA':'\u05E4\u05D5\u05DE\u05D4','MONDEO':'\u05DE\u05D5\u05E0\u05D3\u05D9\u05D0\u05D5','ECOSPORT':'\u05D0\u05E7\u05D5\u05E1\u05E4\u05D5\u05E8\u05D8',
+    'RANGER':'\u05E8\u05E0\u05D2\u05F3\u05E8','TRANSIT':'\u05D8\u05E8\u05E0\u05D6\u05D9\u05D8','MUSTANG':'\u05DE\u05D5\u05E1\u05D8\u05E0\u05D2',
+    /* Volvo */
+    'S40':'S40','S60':'S60','S80':'S80','S90':'S90',
+    'V40':'V40','V60':'V60','V90':'V90',
+    'XC40':'XC40','XC60':'XC60','XC90':'XC90',
+    /* Alfa Romeo */
+    'GIULIETTA':'\u05D2\u05F3\u05D5\u05DC\u05D9\u05D0\u05D8\u05D4','GIULIA':'\u05D2\u05F3\u05D5\u05DC\u05D9\u05D4',
+    'STELVIO':'\u05E1\u05D8\u05DC\u05D5\u05D9\u05D5','MITO':'\u05DE\u05D9\u05D8\u05D5',
+    '147':'147','156':'156','159':'159'
   };
 
   function trModelName(name) {
     if (!name) return name;
     /* Remove chassis codes in parentheses for cleaner display */
     var clean = name.replace(/\s*\([^)]*\)\s*/g, '').trim();
-    /* Translate known sub-model keywords */
-    var keys = Object.keys(MODEL_PART_TR);
-    for (var i = 0; i < keys.length; i++) {
-      var re = new RegExp('\\b' + keys[i] + '\\b', 'gi');
-      clean = clean.replace(re, MODEL_PART_TR[keys[i]]);
-    }
-    /* Translate Roman numerals to regular numbers for readability */
+    /* Translate Roman numerals to regular numbers first */
     clean = clean.replace(/\bVIII\b/g, '8').replace(/\bVII\b/g, '7').replace(/\bVI\b/g, '6');
     clean = clean.replace(/\bIV\b/g, '4').replace(/\bIII\b/g, '3').replace(/\bII\b/g, '2');
-    return clean;
+    /* Translate known sub-type keywords */
+    var ptKeys = Object.keys(MODEL_PART_TR);
+    for (var i = 0; i < ptKeys.length; i++) {
+      var re = new RegExp('\\b' + ptKeys[i] + '\\b', 'gi');
+      clean = clean.replace(re, MODEL_PART_TR[ptKeys[i]]);
+    }
+    /* Translate car model names */
+    var words = clean.split(/\s+/);
+    var result = [];
+    var skip = false;
+    for (var w = 0; w < words.length; w++) {
+      if (skip) { skip = false; continue; }
+      /* Try two-word matches first (e.g. 'LAND CRUISER', 'SANTA FE') */
+      if (w + 1 < words.length) {
+        var twoWord = words[w] + ' ' + words[w+1];
+        if (MODEL_NAME_TR[twoWord.toUpperCase()]) {
+          result.push(MODEL_NAME_TR[twoWord.toUpperCase()]);
+          skip = true;
+          continue;
+        }
+      }
+      /* Single word match */
+      var upper = words[w].toUpperCase();
+      if (MODEL_NAME_TR[upper]) {
+        result.push(MODEL_NAME_TR[upper]);
+      } else {
+        result.push(words[w]);
+      }
+    }
+    return result.join(' ');
   }
 
   function trBrand(name) {
