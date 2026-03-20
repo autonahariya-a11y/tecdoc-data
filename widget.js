@@ -1,4 +1,4 @@
-/* TecDoc Widget v9.1 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
+/* TecDoc Widget v9.2 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -220,20 +220,87 @@
     /* Hide Konimbo sections we don't need on auto parts pages */
     var style = document.createElement('style');
     style.textContent = [
-      /* Hide the text description under product image */
-      '#item_content .description, #item_content .text, .item_text, .item_description { display:none !important; }',
       /* Hide "למה לקנות אצלנו" section */
-      '.why_buy, .why-buy, [class*="why_buy"], [class*="why-buy"] { display:none !important; }',
+      '#why_buy, div.why_buy, .why_buy_section, [id*="why_buy"] { display:none !important; }',
       /* Hide the trust icons row (מוצרים באחריות, משלוחים מהירים, תשלום מאובטח) */
-      '.trust_items, .trust-items, .trust_badges, .item_trust, #item_trust { display:none !important; }',
+      '#trust_icons, .trust_icons_row, div.trust_row, [id*="trust_icons"] { display:none !important; }',
       /* Hide "שאל אותנו" and WhatsApp section */
-      '.ask_about_item, .ask-about-item, #ask_about_item { display:none !important; }',
+      '#ask_section, .ask_us, [id*="ask_section"] { display:none !important; }',
+      /* Hide compare link */
+      'a[href*="add_compare"], a.compare_link, #add_compare { display:none !important; }',
       /* Hide "חזור למעלה" button */
       '.back_to_top, .back-to-top, #back_to_top, a[href="#top"] { display:none !important; }',
-      /* Hide Konimbo long description text block */
-      '#item_content > .item_content_text, #item_content > p, #item_text { display:none !important; }'
+      /* Hide delivery info */
+      '#delivery_info, .delivery_details, div.item_delivery { display:none !important; }',
+      /* Hide Konimbo description text and read-more */
+      'a.read_more_link, a[href*="#read_more"] { display:none !important; }',
+      /* Hide description paragraphs inside #item_info (not inside TecDoc widget) */
+      '#item_info > p, #item_info > .item_description, #item_info > div.item_description { display:none !important; }'
     ].join('\n');
     document.head.appendChild(style);
+
+    /* Also use JS DOM manipulation for reliable hiding */
+    setTimeout(function() { cleanPageDOM(); }, 200);
+    setTimeout(function() { cleanPageDOM(); }, 800);
+    setTimeout(function() { cleanPageDOM(); }, 2000);
+  }
+
+  function cleanPageDOM() {
+    /* Direct ID-based hiding — most reliable */
+    var idsToHide = ['why_buy', 'trust_icons', 'ask_section', 'delivery_info'];
+    for (var i = 0; i < idsToHide.length; i++) {
+      var el = document.getElementById(idsToHide[i]);
+      if (el) el.style.display = 'none';
+    }
+
+    /* Hide compare link */
+    var compareLinks = document.querySelectorAll('a[href*="add_compare"]');
+    for (var c = 0; c < compareLinks.length; c++) compareLinks[c].style.display = 'none';
+
+    /* Hide read more link */
+    var readMore = document.querySelectorAll('a.read_more_link, a[href*="#read_more"]');
+    for (var r = 0; r < readMore.length; r++) readMore[r].style.display = 'none';
+
+    /* Hide description text inside #item_info — walk direct children */
+    var itemInfo = document.getElementById('item_info');
+    if (itemInfo) {
+      var children = itemInfo.children;
+      for (var j = 0; j < children.length; j++) {
+        var child = children[j];
+        var tag = child.tagName.toLowerCase();
+        var id = child.id || '';
+        /* Keep: product title (h1), price elements, quantity/cart area, code_item, tecdoc-widget */
+        if (tag === 'h1' || tag === 'h2') continue; /* title */
+        if (id === 'tecdoc-widget' || child.querySelector('#tecdoc-widget')) continue;
+        if (child.classList.contains('code_item') || child.querySelector('.code_item')) continue;
+        if (child.querySelector('input[name="quantity"]') || child.querySelector('.quantity')) continue;
+        if (child.querySelector('.add_to_cart') || child.querySelector('[class*="add_to_cart"]')) continue;
+        if (child.querySelector('.price') || child.classList.contains('price') || id.indexOf('price') !== -1) continue;
+        if (child.querySelector('#item_price') || id === 'item_price') continue;
+        /* Hide description paragraphs */
+        if (tag === 'p') { child.style.display = 'none'; continue; }
+        /* Hide sections by known IDs */
+        if (id === 'why_buy' || id === 'trust_icons' || id === 'ask_section' || id === 'delivery_info') {
+          child.style.display = 'none'; continue;
+        }
+        /* Hide elements containing "למה לקוחות" or "שאל אותנו" text */
+        var txt = child.textContent || '';
+        if (txt.indexOf('\u05DC\u05DE\u05D4 \u05DC\u05E7\u05D5\u05D7\u05D5\u05EA') !== -1 && !child.querySelector('.price')) {
+          child.style.display = 'none'; continue;
+        }
+      }
+    }
+
+    /* Also hide WhatsApp links */
+    var waLinks = document.querySelectorAll('a[href*="whatsapp.com"]');
+    for (var w = 0; w < waLinks.length; w++) {
+      var waParent = waLinks[w].parentElement;
+      if (waParent && !waParent.querySelector('.price')) waParent.style.display = 'none';
+    }
+
+    /* Hide back-to-top */
+    var backTop = document.querySelectorAll('.back_to_top, .back-to-top, #back_to_top, a[href="#top"]');
+    for (var b = 0; b < backTop.length; b++) backTop[b].style.display = 'none';
   }
 
   function getOrCreateWidget() {
