@@ -1,5 +1,5 @@
-/* TecDoc Widget v9.5 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
-   Changes in v9.5: Stock indicator, Hebrew sub-models (Variant→קומבי etc), larger tab fonts, WVA kept, Autodoc-inspired design
+/* TecDoc Widget v9.7 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
+   Changes in v9.7: Aggressive trust-icon hiding, MutationObserver, walk-up parent hiding
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -458,13 +458,19 @@
       /* Hide shipping/warranty/ask-us/trust icons in Konimbo */
       '.item_shipping, .item_warranty, .item_delivery, .shipping_details { display:none !important; }',
       '.ask_about_item, .ask_us, .ask_question, [class*="ask_about"] { display:none !important; }',
-      '.item_trust, .trust_icons, .trust_badges, .item_badges { display:none !important; }',
+      '.item_trust, .trust_icons, .trust_badges, .item_badges, .trust-icons { display:none !important; }',
       '.item_extra_details, .extra_details, .item_extra_info { display:none !important; }',
       '#item_shipping, #item_warranty, #shipping_info, #warranty_info { display:none !important; }',
       '.whatsapp_product, .product_whatsapp { display:none !important; }',
-
-      /* Hide WhatsApp floating buttons if outside main content */
-      'a[href*="whatsapp.com/send"]:not(#item_info a) { }',
+      /* Aggressively target trust/icon containers by common Konimbo patterns */
+      '[class*="trust"], [class*="Trust"], [class*="badge"], [class*="guarantee"] { }',
+      '.item_main_bottom [class*="trust"] { display:none !important; }',
+      '.item_main_bottom [class*="icon"] { display:none !important; }',
+      '.item_main_bottom [class*="badge"] { display:none !important; }',
+      /* TecDoc-hidden marker class */
+      '.tw-hidden { display:none !important; }',
+      /* Hide "Buy Now" button */
+      '.buy_now_button, .buy-now-button, [class*="buy_now"], [class*="buy-now"] { display:none !important; }',
 
       /* Quantity + Cart on same row (Konimbo + demo) */
       '.item_add_to_cart { display:flex !important; align-items:center !important; gap:10px !important; flex-wrap:nowrap !important; }',
@@ -479,6 +485,25 @@
     setTimeout(function() { cleanPageDOM(); }, 300);
     setTimeout(function() { cleanPageDOM(); }, 1000);
     setTimeout(function() { cleanPageDOM(); }, 2500);
+    setTimeout(function() { cleanPageDOM(); }, 5000);
+    setTimeout(function() { cleanPageDOM(); }, 8000);
+
+    /* MutationObserver: catch dynamically loaded elements */
+    if (typeof MutationObserver !== 'undefined') {
+      var cleanupCount = 0;
+      var observer = new MutationObserver(function() {
+        if (cleanupCount < 10) {
+          cleanupCount++;
+          cleanPageDOM();
+        }
+      });
+      var detailsEl = document.getElementById('item_details');
+      if (detailsEl) {
+        observer.observe(detailsEl, { childList: true, subtree: true });
+        /* Stop observing after 15 seconds to avoid infinite loops */
+        setTimeout(function() { observer.disconnect(); }, 15000);
+      }
+    }
 
     /* Inject stock indicator next to the price area */
     injectStockIndicator();
@@ -601,7 +626,8 @@
     if (anchors) anchors.style.display = 'none';
 
     /* 4b. Deep-hide description, shipping, warranty, ask-us, icons inside #item_details.
-       We walk ALL descendants and hide by text content pattern matching. */
+       We walk ALL descendants and hide by text content pattern matching.
+       Also walk UP from matches to hide parent containers. */
     var itemDetails = document.getElementById('item_details');
     if (itemDetails) {
       /* Known Hebrew text patterns to hide */
@@ -615,27 +641,72 @@
         '\u05DE\u05E9\u05DC\u05D5\u05D7\u05D9\u05DD \u05DE\u05D4\u05D9\u05E8\u05D9\u05DD', /* משלוחים מהירים */
         '\u05EA\u05E9\u05DC\u05D5\u05DD \u05DE\u05D0\u05D5\u05D1\u05D8\u05D7', /* תשלום מאובטח */
         '\u05DE\u05D5\u05E6\u05E8\u05D9\u05DD \u05D1\u05D0\u05D7\u05E8\u05D9\u05D5\u05EA', /* מוצרים באחריות */
+        '\u05DE\u05D0\u05D5\u05D1\u05D8\u05D7', /* מאובטחת - also catches קניה מאובטחת */
         'WhatsApp',
         '\u05D4\u05EA\u05DE\u05D5\u05E0\u05D4 \u05DC\u05D4\u05DE\u05D7\u05E9\u05D4' /* התמונה להמחשה (illustration only) */
       ];
-      var allEls = itemDetails.querySelectorAll('div, p, span, section, a, li, ul');
+
+      /* Helper: check if element is safe to hide (does not contain price/cart/widget) */
+      function isSafeToHide(el) {
+        var cls = (el.className || '').toString();
+        var id = el.id || '';
+        if (cls.indexOf('price') !== -1 || cls.indexOf('item_add') !== -1 || cls.indexOf('cart') !== -1) return false;
+        if (cls.indexOf('tw-') !== -1 || id === 'tecdoc-widget') return false;
+        if (id === 'item_details' || cls.indexOf('item_main_top') !== -1) return false;
+        if (el.querySelector && el.querySelector('.add_to_cart_button, [class*="price"], input[name="quantity"], #tecdoc-widget, [class*="tw-"]')) return false;
+        return true;
+      }
+
+      /* Search ALL descendant elements (broad tag list) */
+      var allEls = itemDetails.querySelectorAll('div, p, span, section, a, li, ul, b, strong, h3, h4, h5, h6, label, td, img');
       for (var ae = 0; ae < allEls.length; ae++) {
         var el = allEls[ae];
-        var elTxt = (el.textContent || '').trim();
-        var elCls = el.className || '';
-        var elId = el.id || '';
-        /* Never hide price, cart, widget, stock */
-        if (elCls.indexOf('price') !== -1 || elCls.indexOf('item_add') !== -1 || elCls.indexOf('cart') !== -1) continue;
-        if (elCls.indexOf('tw-') !== -1 || elId === 'tecdoc-widget') continue;
-        if (el.querySelector && el.querySelector('.add_to_cart_button, [class*="price"], input[name="quantity"]')) continue;
-        /* Check if this element's OWN text matches a hide pattern */
+        /* For img elements, use alt text */
+        var elTxt = el.tagName === 'IMG' ? (el.alt || '') : (el.textContent || '');
+        elTxt = elTxt.trim();
+        if (!isSafeToHide(el)) continue;
+        /* Check if this element's text matches a hide pattern */
         for (var hp = 0; hp < hidePatterns.length; hp++) {
           if (elTxt.indexOf(hidePatterns[hp]) !== -1 && elTxt.length < 500) {
-            /* Make sure we're not hiding a parent that contains price/cart */
-            if (!el.querySelector || !el.querySelector('[class*="price"], .add_to_cart_button, input[name="quantity"]')) {
+            if (isSafeToHide(el)) {
               el.style.display = 'none';
+              /* WALK UP: also hide parent containers (up to 3 levels) if they're small enough */
+              var parent = el.parentElement;
+              for (var up = 0; up < 3 && parent; up++) {
+                var parentTxt = (parent.textContent || '').trim();
+                if (parentTxt.length < 200 && isSafeToHide(parent)) {
+                  parent.style.display = 'none';
+                }
+                parent = parent.parentElement;
+              }
             }
             break;
+          }
+        }
+      }
+
+      /* 4b2. Additional: hide all elements between cart and widget that have no price/cart */
+      var widget = document.getElementById('tecdoc-widget');
+      var mainBottom = itemDetails.querySelector('.item_main_bottom');
+      if (mainBottom && widget) {
+        var children = mainBottom.children;
+        for (var ci = 0; ci < children.length; ci++) {
+          var child = children[ci];
+          if (child === widget || child.contains(widget)) continue;
+          /* Keep only elements that contain price, cart, or quantity */
+          if (isSafeToHide(child)) {
+            var childTxt = (child.textContent || '').trim();
+            /* Keep if it has ₪ and is very short (price) */
+            if (childTxt.indexOf('\u20AA') !== -1 && childTxt.length < 20) continue;
+            /* Keep quantity/cart containers */
+            if (child.querySelector && child.querySelector('.add_to_cart_button, input[name="quantity"], [class*="price"], [class*="quantity"]')) continue;
+            /* Everything else in item_main_bottom that's not price/cart — check patterns */
+            for (var hp2 = 0; hp2 < hidePatterns.length; hp2++) {
+              if (childTxt.indexOf(hidePatterns[hp2]) !== -1) {
+                child.style.display = 'none';
+                break;
+              }
+            }
           }
         }
       }
