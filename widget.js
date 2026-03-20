@@ -445,7 +445,13 @@
       /* Hide description paragraphs ONLY direct children of #item_info */
       '#item_info > p { display:none !important; }',
       /* Hide WhatsApp floating buttons if outside main content */
-      'a[href*="whatsapp.com/send"]:not(#item_info a) { }'
+      'a[href*="whatsapp.com/send"]:not(#item_info a) { }',
+      /* Hide standalone code_item — SKU now merged into brand-badge */
+      '#item_info > .code_item { display:none !important; }',
+      /* Quantity + Cart on same row */
+      '.purchase-area .quantity-row { margin-bottom:0; }',
+      '.purchase-area .buttons-row { display:flex; align-items:center; gap:10px; }',
+      '.purchase-area { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }'
     ].join('\n');
     document.head.appendChild(style);
 
@@ -456,6 +462,10 @@
 
     /* Inject stock indicator next to the price area */
     injectStockIndicator();
+    /* Merge SKU into brand-badge */
+    mergeSKUintoBrandBadge();
+    /* Make quantity + cart side by side */
+    mergeQuantityAndCart();
   }
 
   function injectStockIndicator() {
@@ -487,6 +497,47 @@
       '.tw-stock-text-inline { font-size:15px; font-weight:600; color:#222; font-family:"Heebo",Arial,sans-serif; }'
     ].join('\n');
     document.head.appendChild(stockStyle);
+  }
+
+  function mergeSKUintoBrandBadge() {
+    if (document.querySelector('.tw-sku-merged')) return;
+    var sku = getStoreSKU();
+    if (!sku) return;
+    /* Find brand-badge (Konimbo manufacturer row under the image) */
+    var badge = document.querySelector('.brand-badge');
+    if (badge) {
+      var skuSpan = document.createElement('span');
+      skuSpan.className = 'tw-sku-merged';
+      skuSpan.style.cssText = 'margin-right:auto; font-size:13px; color:#666; direction:ltr; unicode-bidi:embed;';
+      skuSpan.innerHTML = '<span style="color:#999;margin-left:4px;">\u05DE\u05E7"\u05D8:</span> <strong style="color:#1B4E91;font-size:14px;">' + esc(sku) + '</strong>';
+      /* Add a separator */
+      var sep = document.createElement('span');
+      sep.style.cssText = 'color:#ddd; margin:0 6px; font-size:16px;';
+      sep.textContent = '|';
+      badge.appendChild(sep);
+      badge.appendChild(skuSpan);
+    }
+    /* Also hide the original code_item box */
+    var codeEl = document.querySelector('#item_info > .code_item, #item_info .code_item');
+    if (codeEl) codeEl.style.display = 'none';
+  }
+
+  function mergeQuantityAndCart() {
+    if (document.querySelector('.tw-qty-cart-merged')) return;
+    var purchaseArea = document.querySelector('.purchase-area');
+    if (!purchaseArea) return;
+    var qtyRow = purchaseArea.querySelector('.quantity-row');
+    var btnRow = purchaseArea.querySelector('.buttons-row');
+    if (!qtyRow || !btnRow) return;
+    /* Flatten: move qty-selector into buttons-row, then remove empty quantity-row */
+    var qtySelector = qtyRow.querySelector('.qty-selector');
+    if (qtySelector) {
+      btnRow.insertBefore(qtySelector, btnRow.firstChild);
+      qtyRow.style.display = 'none';
+      /* Style the merged row */
+      btnRow.style.cssText = 'display:flex; align-items:center; gap:10px; width:100%;';
+      purchaseArea.classList.add('tw-qty-cart-merged');
+    }
   }
 
   function cleanPageDOM() {
