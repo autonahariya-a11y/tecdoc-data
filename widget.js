@@ -1,5 +1,5 @@
-/* TecDoc Widget v10.0 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
-   Changes in v10.0: Aggressive purchase area restyling — dark blue cart button, attached qty selector, stock above price
+/* TecDoc Widget v10.3 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
+   Changes in v10.3: Fixed qty selector CSS — target Konimbo .quantity_up/.quantity_down + .item_quantity_input, fixed RTL border-radius, inline styles for qty buttons
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -629,7 +629,7 @@
         '  color: #fff !important;',
         '  border: none !important;',
         '  border-color: #1B4E91 !important;',
-        '  border-radius: 0 8px 8px 0 !important;',
+        '  border-radius: 8px 0 0 8px !important;',
         '  font-size: 17px !important;',
         '  font-weight: 700 !important;',
         '  font-family: "Heebo", Arial, sans-serif !important;',
@@ -667,13 +667,14 @@
         '  display: flex !important;',
         '  align-items: center !important;',
         '  border: 2px solid #e0e0e0 !important;',
-        '  border-radius: 8px 0 0 8px !important;',
-        '  border-left: 2px solid #e0e0e0 !important;',
+        '  border-radius: 0 8px 8px 0 !important;',
+        '  border-left: none !important;',
         '  overflow: hidden !important;',
         '  flex-shrink: 0 !important;',
         '  height: 50px !important;',
         '  background: #fff !important;',
         '}',
+        '.item_quantity .quantity_up, .item_quantity .quantity_down,',
         '.item_quantity .plus, .item_quantity .minus {',
         '  width: 38px !important;',
         '  height: 100% !important;',
@@ -686,7 +687,9 @@
         '  align-items: center !important;',
         '  justify-content: center !important;',
         '}',
-        '.item_quantity input[type="number"], .item_quantity input[name="quantity"] {',
+        '.item_quantity input[type="number"],',
+        '.item_quantity input.item_quantity_input,',
+        '.item_quantity input[name="quantity"] {',
         '  width: 44px !important;',
         '  height: 100% !important;',
         '  text-align: center !important;',
@@ -699,8 +702,13 @@
         '  -moz-appearance: textfield !important;',
         '  background: #fff !important;',
         '}',
+        '/* Hide number input spinners */',
+        '.item_quantity input::-webkit-outer-spin-button,',
+        '.item_quantity input::-webkit-inner-spin-button { -webkit-appearance: none !important; margin: 0 !important; }',
         '/* Hide buy-now inside cart area */',
-        '.item_add_to_cart .buy_now_button, .item_add_to_cart .buy-now-button { display: none !important; }'
+        '.item_add_to_cart .buy_now_button,',
+        '.item_add_to_cart .buy-now-button,',
+        '.item_add_to_cart a.buy_now_button { display: none !important; }'
       ].join('\n');
       document.body.appendChild(s);
     }
@@ -722,7 +730,7 @@
     }
     if (cartBtn) {
       cartBtn.setAttribute('style',
-        'background-color:#1B4E91 !important; background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; ' +
+        'background-color:#1B4E91 !important; background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:8px 0 0 8px !important; ' +
         'font-size:17px !important; font-weight:700 !important; min-height:50px !important; height:50px !important; display:flex !important; align-items:center !important; ' +
         'justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 24px !important; text-decoration:none !important; font-family:"Heebo",sans-serif !important; ' +
         'cursor:pointer !important; box-sizing:border-box !important; line-height:1.2 !important; letter-spacing:0.3px !important; white-space:nowrap !important; min-width:160px !important;');
@@ -761,8 +769,24 @@
     }
     if (qtyBox) {
       qtyBox.setAttribute('style',
-        'display:flex !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:8px 0 0 8px !important; ' +
+        'display:flex !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:0 8px 8px 0 !important; border-left:none !important; ' +
         'overflow:hidden !important; flex-shrink:0 !important; height:50px !important; background:#fff !important;');
+      /* Style the +/- buttons inside qty (Konimbo uses .quantity_up/.quantity_down) */
+      var qtyBtns = qtyBox.querySelectorAll('.quantity_up, .quantity_down, .plus, .minus');
+      for (var qb = 0; qb < qtyBtns.length; qb++) {
+        qtyBtns[qb].setAttribute('style',
+          'width:38px !important; height:100% !important; border:none !important; background:transparent !important; font-size:22px !important; ' +
+          'cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; ' +
+          'padding:0 !important; margin:0 !important; line-height:1 !important; user-select:none !important;');
+      }
+      /* Style the qty input */
+      var qtyInp = qtyBox.querySelector('input[type="number"], input.item_quantity_input, input[name="quantity"]');
+      if (qtyInp) {
+        qtyInp.setAttribute('style',
+          'width:44px !important; height:100% !important; text-align:center !important; border:none !important; ' +
+          'border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; ' +
+          'color:#333 !important; -moz-appearance:textfield !important; background:#fff !important; padding:0 !important; margin:0 !important;');
+      }
     }
 
     /* 4. Style cart container row — find by class OR as parent of cart button */
