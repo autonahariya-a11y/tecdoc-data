@@ -587,44 +587,64 @@
   function stylePurchaseArea() {
     if (document.querySelector('.tw-purchase-styled')) return;
 
-    /* Find cart area — try multiple selectors */
+    /* Find cart area */
     var konimboCart = document.querySelector('.item_add_to_cart');
-    if (!konimboCart) return; /* Not loaded yet — retry will call us again */
-
-    /* Find the cart button and quantity */
+    if (!konimboCart) return;
     var cartBtn = konimboCart.querySelector('.add_to_cart_button, a[class*="add_to_cart"]');
+    if (!cartBtn) return;
+
+    /* Get cart button href for click functionality */
+    var cartHref = cartBtn.getAttribute('href') || '#';
     var qtyField = konimboCart.querySelector('.item_quantity, .quantity_field');
-    if (!cartBtn) return; /* Not ready yet */
+    var qtyInput = qtyField ? qtyField.querySelector('input') : null;
 
-    /* ── Force inline styles using setAttribute to override everything ── */
-    konimboCart.setAttribute('style', 'display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:8px !important;');
+    /* HIDE original cart area */
+    konimboCart.setAttribute('style', 'display:none !important;');
 
-    /* Cart button: bold, prominent, dark blue */
-    cartBtn.setAttribute('style', 'flex:1 !important; display:flex !important; align-items:center !important; justify-content:center !important; gap:8px !important; min-height:50px !important; background-color:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; font-size:17px !important; font-weight:700 !important; cursor:pointer !important; font-family:"Heebo",Arial,sans-serif !important; text-decoration:none !important; letter-spacing:0.3px !important; padding:0 24px !important; box-sizing:border-box !important;');
+    /* BUILD custom purchase row */
+    var customRow = document.createElement('div');
+    customRow.className = 'tw-purchase-styled';
+    customRow.setAttribute('style', 'display:flex; align-items:stretch; gap:0; direction:rtl; margin-top:8px;');
 
-    /* Add cart icon */
-    if (!cartBtn.querySelector('svg') && !cartBtn.querySelector('.tw-cart-icon')) {
-      var originalText = cartBtn.textContent.trim();
-      cartBtn.innerHTML = '<svg class="tw-cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span>' + esc(originalText) + '</span>';
-    }
+    /* Quantity selector */
+    customRow.innerHTML = '<div class="tw-qty" style="display:flex; align-items:center; border:2px solid #ddd; border-radius:8px 0 0 8px; border-left:none; overflow:hidden; flex-shrink:0; height:50px; background:#fff;">' +
+      '<span class="tw-qty-plus" style="width:38px; height:100%; display:flex; align-items:center; justify-content:center; font-size:22px; cursor:pointer; color:#333; user-select:none; font-weight:400;">+</span>' +
+      '<input type="number" class="tw-qty-input" value="1" min="1" style="width:44px; height:100%; text-align:center; border:none; border-right:1px solid #ddd; border-left:1px solid #ddd; font-size:16px; font-weight:600; color:#333; font-family:Heebo,sans-serif; -moz-appearance:textfield; -webkit-appearance:none; background:#fff;" />' +
+      '<span class="tw-qty-minus" style="width:38px; height:100%; display:flex; align-items:center; justify-content:center; font-size:22px; cursor:pointer; color:#333; user-select:none; font-weight:400;">\u2212</span>' +
+      '</div>' +
+      '<a href="' + esc(cartHref) + '" class="tw-cart-btn" style="flex:1; display:flex; align-items:center; justify-content:center; gap:10px; height:50px; background:#1B4E91; color:#fff; border:none; border-radius:0 8px 8px 0; font-size:17px; font-weight:700; cursor:pointer; font-family:Heebo,Arial,sans-serif; text-decoration:none; letter-spacing:0.3px;">' +
+      '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>' +
+      '<span>\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4</span></a>';
 
-    /* Quantity selector: compact, bordered, attached to button */
-    if (qtyField) {
-      qtyField.setAttribute('style', 'display:flex !important; align-items:center !important; border:2px solid #ddd !important; border-radius:8px 0 0 8px !important; border-left:none !important; overflow:hidden !important; flex-shrink:0 !important; min-height:50px !important; background:#fff !important;');
-      var plusBtn = qtyField.querySelector('.plus');
-      var minusBtn = qtyField.querySelector('.minus');
-      var qtyInput = qtyField.querySelector('input');
-      if (plusBtn) plusBtn.setAttribute('style', 'width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:20px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; font-weight:500 !important;');
-      if (minusBtn) minusBtn.setAttribute('style', 'width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:20px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; font-weight:500 !important;');
-      if (qtyInput) qtyInput.setAttribute('style', 'width:42px !important; height:100% !important; text-align:center !important; border:none !important; border-right:1px solid #ddd !important; border-left:1px solid #ddd !important; font-size:16px !important; font-weight:600 !important; color:#333 !important; -moz-appearance:textfield !important; background:#fff !important;');
-    }
+    /* Insert after the hidden original */
+    konimboCart.parentNode.insertBefore(customRow, konimboCart.nextSibling);
 
-    /* Hide buy-now */
-    var buyNow = konimboCart.querySelector('.buy_now_button');
-    if (buyNow) buyNow.setAttribute('style', 'display:none !important;');
+    /* Wire up quantity buttons to sync with hidden original */
+    var twInput = customRow.querySelector('.tw-qty-input');
+    var twPlus = customRow.querySelector('.tw-qty-plus');
+    var twMinus = customRow.querySelector('.tw-qty-minus');
+    twPlus.addEventListener('click', function() {
+      var v = parseInt(twInput.value) || 1;
+      twInput.value = v + 1;
+      if (qtyInput) { qtyInput.value = v + 1; qtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
+    });
+    twMinus.addEventListener('click', function() {
+      var v = parseInt(twInput.value) || 1;
+      if (v > 1) {
+        twInput.value = v - 1;
+        if (qtyInput) { qtyInput.value = v - 1; qtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
+      }
+    });
+    twInput.addEventListener('change', function() {
+      if (qtyInput) { qtyInput.value = twInput.value; qtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
+    });
 
-    /* Mark as styled */
-    konimboCart.classList.add('tw-purchase-styled');
+    /* Cart button click: trigger original button click */
+    customRow.querySelector('.tw-cart-btn').addEventListener('click', function(e) {
+      e.preventDefault();
+      if (qtyInput) { qtyInput.value = twInput.value; qtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
+      cartBtn.click();
+    });
 
     /* Also hide by text matching */
     hideBuyNowByText();
