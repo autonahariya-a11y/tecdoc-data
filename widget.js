@@ -447,6 +447,9 @@
       '#item_info > .item_description, #item_info > .description, .item_description { display:none !important; }',
       '#item_info > span:not(.code_item):not(.price):not([class*="price"]):not([class*="stock"]) { display:none !important; }',
       'a.read_more_link, a.read_more, .read_more_link { display:none !important; }',
+      /* Broad Konimbo description selectors */
+      '.item_description, .desc, .item_desc, .product_description, .product-description { display:none !important; }',
+      '.item_right > .description, .item_right > div.desc { display:none !important; }',
       /* Hide WhatsApp floating buttons if outside main content */
       'a[href*="whatsapp.com/send"]:not(#item_info a) { }',
 
@@ -581,19 +584,46 @@
         var sTag = sibling.tagName;
         var sTxt = (sibling.textContent || '').trim();
         var sCls = sibling.className || '';
-        /* Stop when we hit price, cart, or widget elements */
-        if (sCls.indexOf('price') !== -1 || sCls.indexOf('cart') !== -1 || sCls.indexOf('tw-') !== -1 || sCls.indexOf('item_add') !== -1) break;
+        /* Stop when we hit price, cart, widget, or purchase elements */
+        if (sCls.indexOf('price') !== -1 || sCls.indexOf('cart') !== -1 || sCls.indexOf('tw-') !== -1 || sCls.indexOf('item_add') !== -1 || sCls.indexOf('purchase') !== -1) break;
         if (sibling.querySelector && sibling.querySelector('[class*="price"], .item_add_to_cart, input[name="quantity"]')) break;
-        /* Skip code_item, stock indicator */
-        if (sCls.indexOf('code_item') !== -1 || sCls.indexOf('stock') !== -1) { sibling = sibling.nextElementSibling; continue; }
-        /* Hide if it's a text block (description) or read-more link */
-        if ((sTag === 'P' || sTag === 'SPAN' || sTag === 'DIV') && sTxt.length > 30 && sTxt.indexOf('\u20AA') === -1) {
-          sibling.style.display = 'none';
-        }
-        if (sTag === 'A' && (sTxt.indexOf('\u05E7\u05E8\u05D0 \u05E2\u05D5\u05D3') !== -1 || sCls.indexOf('read_more') !== -1)) {
-          sibling.style.display = 'none';
+        if (sibling.id === 'tecdoc-widget' || sibling.id === 'item_content') break;
+        /* Skip code_item, stock indicator, brand-badge wrapper */
+        if (sCls.indexOf('code_item') !== -1 || sCls.indexOf('stock') !== -1 || sCls.indexOf('brand-badge') !== -1) { sibling = sibling.nextElementSibling; continue; }
+        /* Hide ANY element with long text that isn't a price — covers P, SPAN, DIV, LABEL, SECTION etc. */
+        if (sTag !== 'H1' && sTag !== 'H2' && sTag !== 'IMG' && sTag !== 'INPUT' && sTag !== 'BUTTON' && sTag !== 'FORM') {
+          if (sTxt.length > 20 && sTxt.indexOf('\u20AA') === -1 && sTxt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
+            sibling.style.display = 'none';
+          }
+          /* Also hide read-more style links */
+          if (sTag === 'A' && (sTxt.indexOf('\u05E7\u05E8\u05D0 \u05E2\u05D5\u05D3') !== -1 || sCls.indexOf('read_more') !== -1)) {
+            sibling.style.display = 'none';
+          }
         }
         sibling = sibling.nextElementSibling;
+      }
+      /* Also walk H1's PARENT's children (in case H1 is inside a wrapper) */
+      var h1Parent = h1El.parentElement;
+      if (h1Parent) {
+        var kids = h1Parent.children;
+        var pastH1 = false;
+        for (var ki = 0; ki < kids.length; ki++) {
+          if (kids[ki] === h1El) { pastH1 = true; continue; }
+          if (!pastH1) continue;
+          var kTag = kids[ki].tagName;
+          var kTxt = (kids[ki].textContent || '').trim();
+          var kCls = kids[ki].className || '';
+          /* Stop at price/cart/widget */
+          if (kCls.indexOf('price') !== -1 || kCls.indexOf('cart') !== -1 || kCls.indexOf('tw-') !== -1 || kCls.indexOf('item_add') !== -1 || kCls.indexOf('purchase') !== -1) break;
+          if (kids[ki].querySelector && kids[ki].querySelector('[class*="price"], .item_add_to_cart, input[name="quantity"]')) break;
+          if (kids[ki].id === 'tecdoc-widget' || kids[ki].id === 'item_content') break;
+          if (kCls.indexOf('code_item') !== -1 || kCls.indexOf('stock') !== -1 || kCls.indexOf('brand-badge') !== -1) continue;
+          if (kTag !== 'H1' && kTag !== 'H2' && kTag !== 'IMG' && kTag !== 'INPUT' && kTag !== 'BUTTON' && kTag !== 'FORM') {
+            if (kTxt.length > 20 && kTxt.indexOf('\u20AA') === -1 && kTxt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
+              kids[ki].style.display = 'none';
+            }
+          }
+        }
       }
     }
     /* Also try #item_info direct children approach */
@@ -614,6 +644,28 @@
       var aeTxt = (allEls[ae].textContent || '').trim();
       if (aeTxt.indexOf('\u05DC\u05DE\u05D4 \u05DC\u05E7\u05D5\u05D7\u05D5\u05EA') !== -1 && aeTxt.length < 300) {
         if (!allEls[ae].querySelector('[class*="price"], input')) allEls[ae].style.display = 'none';
+      }
+    }
+    /* Wrap bare text nodes near H1 into spans so they can be hidden */
+    if (h1El) {
+      var container = h1El.parentElement;
+      if (container) {
+        var childNodes = container.childNodes;
+        for (var tn = 0; tn < childNodes.length; tn++) {
+          var node = childNodes[tn];
+          if (node.nodeType === 3 && node.textContent.trim().length > 20) {
+            /* This is a bare text node with significant content — likely the description */
+            var txt = node.textContent.trim();
+            if (txt.indexOf('\u20AA') === -1 && txt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
+              var wrapper = document.createElement('span');
+              wrapper.style.display = 'none';
+              wrapper.className = 'tw-hidden-desc';
+              node.parentNode.insertBefore(wrapper, node);
+              wrapper.appendChild(node);
+              tn--; /* Adjust index since we changed the nodeList */
+            }
+          }
+        }
       }
     }
 
