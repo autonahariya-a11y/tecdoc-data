@@ -450,6 +450,9 @@
       /* Broad Konimbo description selectors */
       '.item_description, .desc, .item_desc, .product_description, .product-description { display:none !important; }',
       '.item_right > .description, .item_right > div.desc { display:none !important; }',
+      /* Hide description sibling of #item_current_title — Konimbo structure */
+      '#item_current_title ~ p, #item_current_title ~ .item_description, #item_current_title ~ .description { display:none !important; }',
+
       /* Hide WhatsApp floating buttons if outside main content */
       'a[href*="whatsapp.com/send"]:not(#item_info a) { }',
 
@@ -575,61 +578,55 @@
     var readMore = document.querySelectorAll('a.read_more_link, a.read_more, a[class*="read_more"]');
     for (var r = 0; r < readMore.length; r++) readMore[r].style.display = 'none';
 
-    /* 4. Hide product description — find it relative to H1 */
-    var h1El = document.querySelector('h1');
-    console.log('[TecDoc] cleanPageDOM: h1 found=', !!h1El);
-    if (h1El) {
-      console.log('[TecDoc] h1 parent:', h1El.parentElement ? h1El.parentElement.tagName + '#' + (h1El.parentElement.id||'') + '.' + (h1El.parentElement.className||'') : 'none');
-      /* Walk siblings after H1 and hide description-like elements */
-      var sibling = h1El.nextElementSibling;
-      console.log('[TecDoc] first sibling:', sibling ? sibling.tagName + '#' + (sibling.id||'') + '.' + (sibling.className||'') + ' txt=' + (sibling.textContent||'').trim().substring(0,60) : 'NONE');
+    /* 4. Hide product description — Konimbo structure: H1 is inside #item_current_title,
+       description is a SIBLING of #item_current_title (not sibling of H1) */
+    var titleDiv = document.getElementById('item_current_title');
+    if (titleDiv) {
+      /* Walk siblings of the title container to find and hide description */
+      var sibling = titleDiv.nextElementSibling;
       while (sibling) {
-        var sTag = sibling.tagName;
-        var sTxt = (sibling.textContent || '').trim();
         var sCls = sibling.className || '';
-        /* Stop when we hit price, cart, widget, or purchase elements */
+        var sId = sibling.id || '';
+        var sTxt = (sibling.textContent || '').trim();
+        var sTag = sibling.tagName;
+        /* Stop at price, cart, widget, purchase areas */
         if (sCls.indexOf('price') !== -1 || sCls.indexOf('cart') !== -1 || sCls.indexOf('tw-') !== -1 || sCls.indexOf('item_add') !== -1 || sCls.indexOf('purchase') !== -1) break;
         if (sibling.querySelector && sibling.querySelector('[class*="price"], .item_add_to_cart, input[name="quantity"]')) break;
-        if (sibling.id === 'tecdoc-widget' || sibling.id === 'item_content') break;
-        /* Skip code_item, stock indicator, brand-badge wrapper */
+        if (sId === 'tecdoc-widget' || sId === 'item_content') break;
+        /* Skip elements we want to keep */
         if (sCls.indexOf('code_item') !== -1 || sCls.indexOf('stock') !== -1 || sCls.indexOf('brand-badge') !== -1) { sibling = sibling.nextElementSibling; continue; }
-        /* Hide ANY element with long text that isn't a price — covers P, SPAN, DIV, LABEL, SECTION etc. */
+        /* Hide description-like text blocks (any tag) */
         if (sTag !== 'H1' && sTag !== 'H2' && sTag !== 'IMG' && sTag !== 'INPUT' && sTag !== 'BUTTON' && sTag !== 'FORM') {
           if (sTxt.length > 20 && sTxt.indexOf('\u20AA') === -1 && sTxt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
             sibling.style.display = 'none';
           }
-          /* Also hide read-more style links */
           if (sTag === 'A' && (sTxt.indexOf('\u05E7\u05E8\u05D0 \u05E2\u05D5\u05D3') !== -1 || sCls.indexOf('read_more') !== -1)) {
             sibling.style.display = 'none';
           }
         }
         sibling = sibling.nextElementSibling;
       }
-      /* Also walk H1's PARENT's children (in case H1 is inside a wrapper) */
-      var h1Parent = h1El.parentElement;
-      if (h1Parent) {
-        var kids = h1Parent.children;
-        var pastH1 = false;
-        for (var ki = 0; ki < kids.length; ki++) {
-          if (kids[ki] === h1El) { pastH1 = true; continue; }
-          if (!pastH1) continue;
-          var kTag = kids[ki].tagName;
-          var kTxt = (kids[ki].textContent || '').trim();
-          var kCls = kids[ki].className || '';
-          /* Stop at price/cart/widget */
-          if (kCls.indexOf('price') !== -1 || kCls.indexOf('cart') !== -1 || kCls.indexOf('tw-') !== -1 || kCls.indexOf('item_add') !== -1 || kCls.indexOf('purchase') !== -1) break;
-          if (kids[ki].querySelector && kids[ki].querySelector('[class*="price"], .item_add_to_cart, input[name="quantity"]')) break;
-          if (kids[ki].id === 'tecdoc-widget' || kids[ki].id === 'item_content') break;
-          if (kCls.indexOf('code_item') !== -1 || kCls.indexOf('stock') !== -1 || kCls.indexOf('brand-badge') !== -1) continue;
-          if (kTag !== 'H1' && kTag !== 'H2' && kTag !== 'IMG' && kTag !== 'INPUT' && kTag !== 'BUTTON' && kTag !== 'FORM') {
-            if (kTxt.length > 20 && kTxt.indexOf('\u20AA') === -1 && kTxt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
-              kids[ki].style.display = 'none';
+      /* Also wrap bare text nodes in the PARENT of #item_current_title */
+      var titleParent = titleDiv.parentElement;
+      if (titleParent) {
+        var childNodes = titleParent.childNodes;
+        for (var tn = 0; tn < childNodes.length; tn++) {
+          var node = childNodes[tn];
+          if (node.nodeType === 3 && node.textContent.trim().length > 20) {
+            var txt = node.textContent.trim();
+            if (txt.indexOf('\u20AA') === -1 && txt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
+              var wrapper = document.createElement('span');
+              wrapper.style.display = 'none';
+              wrapper.className = 'tw-hidden-desc';
+              node.parentNode.insertBefore(wrapper, node);
+              wrapper.appendChild(node);
+              tn--;
             }
           }
         }
       }
     }
-    /* Also try #item_info direct children approach */
+    /* Fallback: also try #item_info direct children approach */
     var itemInfo = document.getElementById('item_info');
     if (itemInfo) {
       var pTags = itemInfo.querySelectorAll(':scope > p');
@@ -647,31 +644,6 @@
       var aeTxt = (allEls[ae].textContent || '').trim();
       if (aeTxt.indexOf('\u05DC\u05DE\u05D4 \u05DC\u05E7\u05D5\u05D7\u05D5\u05EA') !== -1 && aeTxt.length < 300) {
         if (!allEls[ae].querySelector('[class*="price"], input')) allEls[ae].style.display = 'none';
-      }
-    }
-    /* Wrap bare text nodes near H1 into spans so they can be hidden */
-    if (h1El) {
-      var container = h1El.parentElement;
-      console.log('[TecDoc] bare text check in container:', container ? container.tagName + '#' + (container.id||'') : 'none', 'childNodes:', container ? container.childNodes.length : 0);
-      if (container) {
-        var childNodes = container.childNodes;
-        for (var tn = 0; tn < childNodes.length; tn++) {
-          var node = childNodes[tn];
-          if (node.nodeType === 3 && node.textContent.trim().length > 20) {
-            console.log('[TecDoc] found bare text node:', node.textContent.trim().substring(0,60));
-            /* This is a bare text node with significant content — likely the description */
-            var txt = node.textContent.trim();
-            if (txt.indexOf('\u20AA') === -1 && txt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
-              var wrapper = document.createElement('span');
-              wrapper.style.display = 'none';
-              wrapper.className = 'tw-hidden-desc';
-              node.parentNode.insertBefore(wrapper, node);
-              wrapper.appendChild(node);
-              console.log('[TecDoc] wrapped and hid bare text node');
-              tn--; /* Adjust index since we changed the nodeList */
-            }
-          }
-        }
       }
     }
 
