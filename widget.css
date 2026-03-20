@@ -562,46 +562,46 @@
   }
 
   #tecdoc-widget .tw-strengths {
-    grid-template-columns: 1fr 1fr;
-    gap: 6px;
-    padding: 8px;
+    padding: 12px 14px;
   }
   #tecdoc-widget .tw-strength-item {
-    padding: 6px 8px;
-    gap: 6px;
+    padding: 10px 0;
   }
   #tecdoc-widget .tw-strength-icon svg {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
   }
   #tecdoc-widget .tw-strength-text {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 
-/* ══ STRENGTHS / USP BADGES ══ */
+/* ══ STRENGTHS / USP LIST ══ */
 #tecdoc-widget .tw-strengths {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  padding: 12px 0;
-  margin-bottom: 12px;
-  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  background: #f5f9fc;
+  border: 1px solid #e2eaf2;
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
 }
 
 #tecdoc-widget .tw-strength-item {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 10px;
-  background: #f8fafe;
-  border-radius: 6px;
-  border: 1px solid #e8eef5;
-  transition: background 0.15s ease;
+  gap: 12px;
+  padding: 11px 0;
+  border-bottom: 1px solid #e8eff5;
 }
 
-#tecdoc-widget .tw-strength-item:hover {
-  background: #eef3fa;
+#tecdoc-widget .tw-strength-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+#tecdoc-widget .tw-strength-item:first-child {
+  padding-top: 0;
 }
 
 #tecdoc-widget .tw-strength-icon {
@@ -612,16 +612,16 @@
 }
 
 #tecdoc-widget .tw-strength-icon svg {
-  width: 18px;
-  height: 18px;
-  color: #1B4E91;
-  stroke: #1B4E91;
+  width: 22px;
+  height: 22px;
+  color: #3da0d8;
+  stroke: #3da0d8;
 }
 
 #tecdoc-widget .tw-strength-text {
-  font-size: 12px;
-  font-weight: 500;
-  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  color: #444;
   font-family: 'Heebo', Arial, sans-serif;
-  line-height: 1.3;
+  line-height: 1.4;
 }
