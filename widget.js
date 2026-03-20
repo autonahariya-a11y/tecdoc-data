@@ -724,8 +724,8 @@
       cartBtn.setAttribute('style',
         'background-color:#1B4E91 !important; background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; ' +
         'font-size:17px !important; font-weight:700 !important; min-height:50px !important; height:50px !important; display:flex !important; align-items:center !important; ' +
-        'justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 20px !important; text-decoration:none !important; font-family:"Heebo",sans-serif !important; ' +
-        'cursor:pointer !important; box-sizing:border-box !important; line-height:50px !important; letter-spacing:0.3px !important;');
+        'justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 24px !important; text-decoration:none !important; font-family:"Heebo",sans-serif !important; ' +
+        'cursor:pointer !important; box-sizing:border-box !important; line-height:1.2 !important; letter-spacing:0.3px !important; white-space:nowrap !important; min-width:160px !important;');
 
       /* Add cart SVG icon if not already there */
       if (!cartBtn.querySelector('.tw-cart-icon')) {
