@@ -475,7 +475,7 @@
       /* Quantity + Cart on same row (Konimbo + demo) */
       '.item_add_to_cart { display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:6px !important; }',
       '.item_add_to_cart .buy_now_button, .item_add_to_cart .buy-now-button { display:none !important; }',
-      '.item_add_to_cart .add_to_cart_button { flex:1 !important; display:flex !important; align-items:center !important; justify-content:center !important; gap:8px !important; height:48px !important; background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; font-size:17px !important; font-weight:700 !important; cursor:pointer !important; font-family:"Heebo",Arial,sans-serif !important; text-decoration:none !important; letter-spacing:0.3px !important; }',
+      '.item_add_to_cart a.add_to_cart_button, .item_add_to_cart a.add_to_cart_button.button, .item_add_to_cart .add_to_cart_button { flex:1 !important; display:flex !important; align-items:center !important; justify-content:center !important; gap:8px !important; min-height:48px !important; height:48px !important; background-color:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; font-size:17px !important; font-weight:700 !important; cursor:pointer !important; font-family:"Heebo",Arial,sans-serif !important; text-decoration:none !important; letter-spacing:0.3px !important; padding:0 20px !important; line-height:48px !important; box-sizing:border-box !important; }',
       '.item_add_to_cart .item_quantity { display:flex !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:8px 0 0 8px !important; overflow:hidden !important; flex-shrink:0 !important; height:48px !important; background:#fff !important; }',
       '.item_add_to_cart .item_quantity .plus, .item_add_to_cart .item_quantity .minus { width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:20px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; font-weight:500 !important; }',
       '.item_add_to_cart .item_quantity input { width:40px !important; height:100% !important; text-align:center !important; border:none !important; border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; color:#333 !important; -moz-appearance:textfield !important; background:#fff !important; }',
@@ -515,11 +515,11 @@
     /* Merge SKU into brand-badge */
     mergeSKUintoBrandBadge();
     /* Style quantity + cart + price with retries for late-loading elements */
-    mergeQuantityAndCart();
-    setTimeout(function() { mergeQuantityAndCart(); injectStockIndicator(); }, 500);
-    setTimeout(function() { mergeQuantityAndCart(); injectStockIndicator(); }, 1500);
-    setTimeout(function() { mergeQuantityAndCart(); injectStockIndicator(); }, 3000);
-    setTimeout(function() { mergeQuantityAndCart(); injectStockIndicator(); }, 6000);
+    stylePurchaseArea();
+    setTimeout(function() { stylePurchaseArea(); injectStockIndicator(); }, 500);
+    setTimeout(function() { stylePurchaseArea(); injectStockIndicator(); }, 1500);
+    setTimeout(function() { stylePurchaseArea(); injectStockIndicator(); }, 3000);
+    setTimeout(function() { stylePurchaseArea(); injectStockIndicator(); }, 6000);
   }
 
   function injectStockIndicator() {
@@ -584,54 +584,61 @@
     }
   }
 
-  function mergeQuantityAndCart() {
-    if (document.querySelector('.tw-qty-cart-merged')) return;
-    /* Konimbo store: .item_add_to_cart contains .item_quantity + .add_to_cart_button */
+  function stylePurchaseArea() {
+    if (document.querySelector('.tw-purchase-styled')) return;
+
+    /* Find cart area — try multiple selectors */
     var konimboCart = document.querySelector('.item_add_to_cart');
-    if (konimboCart) {
-      /* RTL layout: quantity on the right, cart button on the left (flex-direction:row in RTL) */
-      konimboCart.style.cssText = 'display:flex !important; align-items:stretch; gap:0; flex-wrap:nowrap; direction:rtl; margin-top:6px;';
+    if (!konimboCart) return; /* Not loaded yet — retry will call us again */
 
-      /* Style quantity selector — compact rounded box on the right */
-      var qtyField = konimboCart.querySelector('.item_quantity, .quantity_field');
-      if (qtyField) {
-        qtyField.style.cssText = 'display:flex !important; align-items:center; border:2px solid #e0e0e0; border-radius:8px 0 0 8px; overflow:hidden; flex-shrink:0; height:48px; background:#fff;';
-        /* Style plus/minus buttons */
-        var plusBtn = qtyField.querySelector('.plus');
-        var minusBtn = qtyField.querySelector('.minus');
-        var qtyInput = qtyField.querySelector('input');
-        if (plusBtn) plusBtn.style.cssText = 'width:36px; height:100%; border:none; background:transparent; font-size:20px; cursor:pointer; color:#333; display:flex; align-items:center; justify-content:center; font-weight:500; font-family:"Heebo",sans-serif;';
-        if (minusBtn) minusBtn.style.cssText = 'width:36px; height:100%; border:none; background:transparent; font-size:20px; cursor:pointer; color:#333; display:flex; align-items:center; justify-content:center; font-weight:500; font-family:"Heebo",sans-serif;';
-        if (qtyInput) qtyInput.style.cssText = 'width:40px; height:100%; text-align:center; border:none; border-right:1px solid #e0e0e0; border-left:1px solid #e0e0e0; font-size:16px; font-weight:600; color:#333; font-family:"Heebo",sans-serif; -moz-appearance:textfield; background:#fff;';
-      }
+    /* Find the cart button and quantity */
+    var cartBtn = konimboCart.querySelector('.add_to_cart_button, a[class*="add_to_cart"]');
+    var qtyField = konimboCart.querySelector('.item_quantity, .quantity_field');
+    if (!cartBtn) return; /* Not ready yet */
 
-      /* Style cart button — bold, prominent, fills remaining width */
-      var cartBtn = konimboCart.querySelector('.add_to_cart_button');
-      if (cartBtn) {
-        cartBtn.style.cssText = 'flex:1; display:flex !important; align-items:center; justify-content:center; gap:8px; height:48px; background:#1B4E91; color:#fff; border:none; border-radius:0 8px 8px 0; font-size:17px; font-weight:700; cursor:pointer; font-family:"Heebo",Arial,sans-serif; text-decoration:none; transition:background 0.2s ease; letter-spacing:0.3px;';
-        /* Add cart icon if not already present */
-        if (cartBtn.textContent.trim().indexOf('\uD83D') === -1 && !cartBtn.querySelector('svg')) {
-          cartBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg> ' + cartBtn.textContent.trim();
-        }
-      }
+    /* ── Force inline styles using setAttribute to override everything ── */
+    konimboCart.setAttribute('style', 'display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:8px !important;');
 
-      /* Hide buy-now to save space */
-      var buyNow = konimboCart.querySelector('.buy_now_button');
-      if (buyNow) buyNow.style.display = 'none';
-      konimboCart.classList.add('tw-qty-cart-merged');
+    /* Cart button: bold, prominent, dark blue */
+    cartBtn.setAttribute('style', 'flex:1 !important; display:flex !important; align-items:center !important; justify-content:center !important; gap:8px !important; min-height:50px !important; background-color:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; font-size:17px !important; font-weight:700 !important; cursor:pointer !important; font-family:"Heebo",Arial,sans-serif !important; text-decoration:none !important; letter-spacing:0.3px !important; padding:0 24px !important; box-sizing:border-box !important;');
+
+    /* Add cart icon */
+    if (!cartBtn.querySelector('svg') && !cartBtn.querySelector('.tw-cart-icon')) {
+      var originalText = cartBtn.textContent.trim();
+      cartBtn.innerHTML = '<svg class="tw-cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span>' + esc(originalText) + '</span>';
     }
-    /* Also hide "\u05E7\u05E0\u05D4 \u05E2\u05DB\u05E9\u05D9\u05D5" button by text matching */
+
+    /* Quantity selector: compact, bordered, attached to button */
+    if (qtyField) {
+      qtyField.setAttribute('style', 'display:flex !important; align-items:center !important; border:2px solid #ddd !important; border-radius:8px 0 0 8px !important; border-left:none !important; overflow:hidden !important; flex-shrink:0 !important; min-height:50px !important; background:#fff !important;');
+      var plusBtn = qtyField.querySelector('.plus');
+      var minusBtn = qtyField.querySelector('.minus');
+      var qtyInput = qtyField.querySelector('input');
+      if (plusBtn) plusBtn.setAttribute('style', 'width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:20px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; font-weight:500 !important;');
+      if (minusBtn) minusBtn.setAttribute('style', 'width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:20px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; font-weight:500 !important;');
+      if (qtyInput) qtyInput.setAttribute('style', 'width:42px !important; height:100% !important; text-align:center !important; border:none !important; border-right:1px solid #ddd !important; border-left:1px solid #ddd !important; font-size:16px !important; font-weight:600 !important; color:#333 !important; -moz-appearance:textfield !important; background:#fff !important;');
+    }
+
+    /* Hide buy-now */
+    var buyNow = konimboCart.querySelector('.buy_now_button');
+    if (buyNow) buyNow.setAttribute('style', 'display:none !important;');
+
+    /* Mark as styled */
+    konimboCart.classList.add('tw-purchase-styled');
+
+    /* Also hide by text matching */
     hideBuyNowByText();
 
-    /* Style the price to be bigger and bolder */
+    /* Style the price */
     var priceEl = document.querySelector('.item_price');
-    if (priceEl) {
-      priceEl.style.cssText = 'font-size:32px; font-weight:700; color:#1a1a1a; font-family:"Heebo",Arial,sans-serif; padding:4px 0 8px; direction:rtl;';
+    if (priceEl && !priceEl.classList.contains('tw-price-styled')) {
+      priceEl.setAttribute('style', 'font-size:34px !important; font-weight:700 !important; color:#1a1a1a !important; font-family:"Heebo",Arial,sans-serif !important; padding:2px 0 6px !important; direction:rtl !important;');
       var priceSpan = priceEl.querySelector('.price');
-      if (priceSpan) priceSpan.style.cssText = 'font-size:inherit; font-weight:inherit; color:inherit;';
+      if (priceSpan) priceSpan.setAttribute('style', 'font-size:inherit !important; font-weight:inherit !important; color:inherit !important;');
+      priceEl.classList.add('tw-price-styled');
     }
 
-    /* Demo fallback: .purchase-area with .quantity-row + .buttons-row */
+    /* Demo fallback */
     var purchaseArea = document.querySelector('.purchase-area');
     if (!purchaseArea) return;
     var qtyRow = purchaseArea.querySelector('.quantity-row');
@@ -641,8 +648,8 @@
     if (qtySelector) {
       btnRow.insertBefore(qtySelector, btnRow.firstChild);
       qtyRow.style.display = 'none';
-      btnRow.style.cssText = 'display:flex; align-items:center; gap:10px; width:100%;';
-      purchaseArea.classList.add('tw-qty-cart-merged');
+      btnRow.setAttribute('style', 'display:flex; align-items:center; gap:10px; width:100%;');
+      purchaseArea.classList.add('tw-purchase-styled');
     }
   }
 
