@@ -516,30 +516,27 @@
   function injectStockIndicator() {
     /* Don't inject if already exists */
     if (document.querySelector('.tw-stock-inline')) return;
-    /* Find price area or code_item to place it nearby */
-    var priceArea = document.querySelector('.price-area, .price_area, .item_price, #item_price');
+    /* Find price area to place stock ABOVE it */
+    var priceArea = document.querySelector('.item_price, .price-area, .price_area, #item_price');
     var codeItem = document.querySelector('.code_item');
-    var anchor = priceArea || codeItem;
-    if (!anchor) return;
+    if (!priceArea && !codeItem) return;
     var stockEl = document.createElement('div');
     stockEl.className = 'tw-stock-inline';
     stockEl.innerHTML = '<span class="tw-stock-dot-inline tw-in-stock-inline"></span><span class="tw-stock-text-inline">\u05D6\u05DE\u05D9\u05DF \u05D1\u05DE\u05DC\u05D0\u05D9</span>';
-    /* Insert after price area */
-    if (priceArea && priceArea.nextSibling) {
-      priceArea.parentNode.insertBefore(stockEl, priceArea.nextSibling);
-    } else if (priceArea) {
-      priceArea.parentNode.appendChild(stockEl);
+    /* Insert BEFORE price area (stock above price) */
+    if (priceArea && priceArea.parentNode) {
+      priceArea.parentNode.insertBefore(stockEl, priceArea);
     } else if (codeItem) {
       codeItem.parentNode.insertBefore(stockEl, codeItem.nextSibling);
     }
     /* Add inline styles since this is outside the widget scope */
     var stockStyle = document.createElement('style');
     stockStyle.textContent = [
-      '.tw-stock-inline { display:flex; align-items:center; gap:8px; padding:10px 0 6px; }',
+      '.tw-stock-inline { display:flex; align-items:center; gap:8px; padding:8px 0 4px; }',
       '.tw-stock-dot-inline { width:10px; height:10px; border-radius:50%; flex-shrink:0; display:inline-block; }',
-      '.tw-stock-dot-inline.tw-in-stock-inline { background:#22c55e; box-shadow:0 0 4px rgba(34,197,94,0.4); }',
-      '.tw-stock-dot-inline.tw-out-of-stock-inline { background:#ef4444; box-shadow:0 0 4px rgba(239,68,68,0.4); }',
-      '.tw-stock-text-inline { font-size:15px; font-weight:600; color:#222; font-family:"Heebo",Arial,sans-serif; }'
+      '.tw-stock-dot-inline.tw-in-stock-inline { background:#22c55e; box-shadow:0 0 6px rgba(34,197,94,0.5); }',
+      '.tw-stock-dot-inline.tw-out-of-stock-inline { background:#ef4444; box-shadow:0 0 6px rgba(239,68,68,0.5); }',
+      '.tw-stock-text-inline { font-size:14px; font-weight:600; color:#22c55e; font-family:"Heebo",Arial,sans-serif; }'
     ].join('\n');
     document.head.appendChild(stockStyle);
   }
@@ -580,14 +577,35 @@
 
   function mergeQuantityAndCart() {
     if (document.querySelector('.tw-qty-cart-merged')) return;
-    /* Konimbo store: .item_add_to_cart contains .quantity_field + .add_to_cart_button */
+    /* Konimbo store: .item_add_to_cart contains .item_quantity + .add_to_cart_button */
     var konimboCart = document.querySelector('.item_add_to_cart');
     if (konimboCart) {
-      konimboCart.style.cssText = 'display:flex !important; align-items:center; gap:10px; flex-wrap:nowrap;';
-      var qtyField = konimboCart.querySelector('.quantity_field');
-      if (qtyField) qtyField.style.cssText += '; flex-shrink:0;';
+      /* RTL layout: quantity on the right, cart button on the left (flex-direction:row in RTL) */
+      konimboCart.style.cssText = 'display:flex !important; align-items:stretch; gap:0; flex-wrap:nowrap; direction:rtl; margin-top:6px;';
+
+      /* Style quantity selector — compact rounded box on the right */
+      var qtyField = konimboCart.querySelector('.item_quantity, .quantity_field');
+      if (qtyField) {
+        qtyField.style.cssText = 'display:flex !important; align-items:center; border:2px solid #e0e0e0; border-radius:8px 0 0 8px; overflow:hidden; flex-shrink:0; height:48px; background:#fff;';
+        /* Style plus/minus buttons */
+        var plusBtn = qtyField.querySelector('.plus');
+        var minusBtn = qtyField.querySelector('.minus');
+        var qtyInput = qtyField.querySelector('input');
+        if (plusBtn) plusBtn.style.cssText = 'width:36px; height:100%; border:none; background:transparent; font-size:20px; cursor:pointer; color:#333; display:flex; align-items:center; justify-content:center; font-weight:500; font-family:"Heebo",sans-serif;';
+        if (minusBtn) minusBtn.style.cssText = 'width:36px; height:100%; border:none; background:transparent; font-size:20px; cursor:pointer; color:#333; display:flex; align-items:center; justify-content:center; font-weight:500; font-family:"Heebo",sans-serif;';
+        if (qtyInput) qtyInput.style.cssText = 'width:40px; height:100%; text-align:center; border:none; border-right:1px solid #e0e0e0; border-left:1px solid #e0e0e0; font-size:16px; font-weight:600; color:#333; font-family:"Heebo",sans-serif; -moz-appearance:textfield; background:#fff;';
+      }
+
+      /* Style cart button — bold, prominent, fills remaining width */
       var cartBtn = konimboCart.querySelector('.add_to_cart_button');
-      if (cartBtn) cartBtn.style.cssText += '; flex:1;';
+      if (cartBtn) {
+        cartBtn.style.cssText = 'flex:1; display:flex !important; align-items:center; justify-content:center; gap:8px; height:48px; background:#1B4E91; color:#fff; border:none; border-radius:0 8px 8px 0; font-size:17px; font-weight:700; cursor:pointer; font-family:"Heebo",Arial,sans-serif; text-decoration:none; transition:background 0.2s ease; letter-spacing:0.3px;';
+        /* Add cart icon if not already present */
+        if (cartBtn.textContent.trim().indexOf('\uD83D') === -1 && !cartBtn.querySelector('svg')) {
+          cartBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg> ' + cartBtn.textContent.trim();
+        }
+      }
+
       /* Hide buy-now to save space */
       var buyNow = konimboCart.querySelector('.buy_now_button');
       if (buyNow) buyNow.style.display = 'none';
@@ -595,6 +613,15 @@
     }
     /* Also hide "\u05E7\u05E0\u05D4 \u05E2\u05DB\u05E9\u05D9\u05D5" button by text matching */
     hideBuyNowByText();
+
+    /* Style the price to be bigger and bolder */
+    var priceEl = document.querySelector('.item_price');
+    if (priceEl) {
+      priceEl.style.cssText = 'font-size:32px; font-weight:700; color:#1a1a1a; font-family:"Heebo",Arial,sans-serif; padding:4px 0 8px; direction:rtl;';
+      var priceSpan = priceEl.querySelector('.price');
+      if (priceSpan) priceSpan.style.cssText = 'font-size:inherit; font-weight:inherit; color:inherit;';
+    }
+
     /* Demo fallback: .purchase-area with .quantity-row + .buttons-row */
     var purchaseArea = document.querySelector('.purchase-area');
     if (!purchaseArea) return;
