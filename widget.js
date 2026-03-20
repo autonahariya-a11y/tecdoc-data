@@ -447,7 +447,9 @@
       /* Hide WhatsApp floating buttons if outside main content */
       'a[href*="whatsapp.com/send"]:not(#item_info a) { }',
 
-      /* Quantity + Cart on same row */
+      /* Quantity + Cart on same row (Konimbo + demo) */
+      '.item_add_to_cart { display:flex !important; align-items:center !important; gap:10px !important; flex-wrap:nowrap !important; }',
+      '.item_add_to_cart .buy_now_button { display:none !important; }',
       '.purchase-area .quantity-row { margin-bottom:0; }',
       '.purchase-area .buttons-row { display:flex; align-items:center; gap:10px; }',
       '.purchase-area { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }'
@@ -522,17 +524,30 @@
 
   function mergeQuantityAndCart() {
     if (document.querySelector('.tw-qty-cart-merged')) return;
+    /* Konimbo store: .item_add_to_cart contains .quantity_field + .add_to_cart_button */
+    var konimboCart = document.querySelector('.item_add_to_cart');
+    if (konimboCart) {
+      konimboCart.style.cssText = 'display:flex !important; align-items:center; gap:10px; flex-wrap:nowrap;';
+      var qtyField = konimboCart.querySelector('.quantity_field');
+      if (qtyField) qtyField.style.cssText += '; flex-shrink:0;';
+      var cartBtn = konimboCart.querySelector('.add_to_cart_button');
+      if (cartBtn) cartBtn.style.cssText += '; flex:1;';
+      /* Hide buy-now to save space */
+      var buyNow = konimboCart.querySelector('.buy_now_button');
+      if (buyNow) buyNow.style.display = 'none';
+      konimboCart.classList.add('tw-qty-cart-merged');
+      return;
+    }
+    /* Demo fallback: .purchase-area with .quantity-row + .buttons-row */
     var purchaseArea = document.querySelector('.purchase-area');
     if (!purchaseArea) return;
     var qtyRow = purchaseArea.querySelector('.quantity-row');
     var btnRow = purchaseArea.querySelector('.buttons-row');
     if (!qtyRow || !btnRow) return;
-    /* Flatten: move qty-selector into buttons-row, then remove empty quantity-row */
     var qtySelector = qtyRow.querySelector('.qty-selector');
     if (qtySelector) {
       btnRow.insertBefore(qtySelector, btnRow.firstChild);
       qtyRow.style.display = 'none';
-      /* Style the merged row */
       btnRow.style.cssText = 'display:flex; align-items:center; gap:10px; width:100%;';
       purchaseArea.classList.add('tw-qty-cart-merged');
     }
