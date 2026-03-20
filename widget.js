@@ -1,5 +1,5 @@
-/* TecDoc Widget v9.8 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP section
-   Changes in v9.8: Added חוזקות (strengths) section — Autodoc-style USP badges above TecDoc tabs
+/* TecDoc Widget v10.0 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
+   Changes in v10.0: Aggressive purchase area restyling — dark blue cart button, attached qty selector, stock above price
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -472,13 +472,7 @@
       /* Hide "Buy Now" button */
       '.buy_now_button, .buy-now-button, [class*="buy_now"], [class*="buy-now"] { display:none !important; }',
 
-      /* Quantity + Cart on same row (Konimbo + demo) */
-      '.item_add_to_cart { display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:6px !important; }',
-      '.item_add_to_cart .buy_now_button, .item_add_to_cart .buy-now-button { display:none !important; }',
-      '.item_add_to_cart a.add_to_cart_button, .item_add_to_cart a.add_to_cart_button.button, .item_add_to_cart .add_to_cart_button { flex:1 !important; display:flex !important; align-items:center !important; justify-content:center !important; gap:8px !important; min-height:48px !important; height:48px !important; background-color:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; font-size:17px !important; font-weight:700 !important; cursor:pointer !important; font-family:"Heebo",Arial,sans-serif !important; text-decoration:none !important; letter-spacing:0.3px !important; padding:0 20px !important; line-height:48px !important; box-sizing:border-box !important; }',
-      '.item_add_to_cart .item_quantity { display:flex !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:8px 0 0 8px !important; overflow:hidden !important; flex-shrink:0 !important; height:48px !important; background:#fff !important; }',
-      '.item_add_to_cart .item_quantity .plus, .item_add_to_cart .item_quantity .minus { width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:20px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; font-weight:500 !important; }',
-      '.item_add_to_cart .item_quantity input { width:40px !important; height:100% !important; text-align:center !important; border:none !important; border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; color:#333 !important; -moz-appearance:textfield !important; background:#fff !important; }',
+      /* Purchase area row styling */
       '.item_price { font-size:32px !important; font-weight:700 !important; color:#1a1a1a !important; font-family:"Heebo",Arial,sans-serif !important; padding:4px 0 8px !important; }',
       '.purchase-area .quantity-row { margin-bottom:0; }',
       '.purchase-area .buttons-row { display:flex; align-items:center; gap:10px; }',
@@ -520,6 +514,25 @@
     setTimeout(function() { stylePurchaseArea(); injectStockIndicator(); }, 1500);
     setTimeout(function() { stylePurchaseArea(); injectStockIndicator(); }, 3000);
     setTimeout(function() { stylePurchaseArea(); injectStockIndicator(); }, 6000);
+    setTimeout(function() { stylePurchaseArea(); injectStockIndicator(); }, 10000);
+    setTimeout(function() { stylePurchaseArea(); injectStockIndicator(); }, 15000);
+
+    /* MutationObserver specifically for cart area: re-apply styles when Konimbo re-renders */
+    if (typeof MutationObserver !== 'undefined') {
+      var purchaseCount = 0;
+      var purchaseObserver = new MutationObserver(function() {
+        if (purchaseCount < 20) {
+          purchaseCount++;
+          stylePurchaseArea();
+          injectStockIndicator();
+        }
+      });
+      var bodyEl = document.body;
+      if (bodyEl) {
+        purchaseObserver.observe(bodyEl, { childList: true, subtree: true });
+        setTimeout(function() { purchaseObserver.disconnect(); }, 20000);
+      }
+    }
   }
 
   function injectStockIndicator() {
@@ -585,71 +598,156 @@
   }
 
   function stylePurchaseArea() {
-    if (document.querySelector('.tw-purchase-styled')) return;
+    /* Check if already styled AND styles haven't been overridden by Konimbo */
+    var existingStyled = document.querySelector('.tw-purchase-styled');
+    if (existingStyled) {
+      /* Verify our styles are still applied (Konimbo may override) */
+      var bg = window.getComputedStyle(existingStyled).backgroundColor;
+      if (bg && bg.indexOf('27') !== -1 && bg.indexOf('78') !== -1 && bg.indexOf('145') !== -1) return; /* Still #1B4E91 */
+      /* Styles were overridden — remove marker and re-apply */
+      existingStyled.classList.remove('tw-purchase-styled');
+    }
 
-    /* Find cart area */
-    var konimboCart = document.querySelector('.item_add_to_cart');
-    if (!konimboCart) return;
-    var cartBtn = konimboCart.querySelector('.add_to_cart_button, a[class*="add_to_cart"]');
-    if (!cartBtn) return;
+    /* Strategy: Inject aggressive CSS into <body> to override Konimbo styles, THEN use JS for fine-tuning.
+       Konimbo loads styles after <head> stylesheets, so we inject at the end of <body> to win cascade. */
 
-    /* Get cart button href for click functionality */
-    var cartHref = cartBtn.getAttribute('href') || '#';
-    var qtyField = konimboCart.querySelector('.item_quantity, .quantity_field');
-    var qtyInput = qtyField ? qtyField.querySelector('input') : null;
+    /* 1. Inject body-level CSS override (wins cascade over <head> styles) */
+    if (!document.querySelector('#tw-purchase-css')) {
+      var s = document.createElement('style');
+      s.id = 'tw-purchase-css';
+      s.textContent = [
+        '/* Cart button: dark blue filled */',
+        '.item_add_to_cart a.add_to_cart_button,',
+        '.item_add_to_cart a.add_to_cart_button.button,',
+        '.item_add_to_cart .add_to_cart_button,',
+        'a.add_to_cart_button.button,',
+        'a.add_to_cart_button,',
+        '.add_to_cart_button {',
+        '  background-color: #1B4E91 !important;',
+        '  background-image: none !important;',
+        '  background: #1B4E91 !important;',
+        '  color: #fff !important;',
+        '  border: none !important;',
+        '  border-color: #1B4E91 !important;',
+        '  border-radius: 0 8px 8px 0 !important;',
+        '  font-size: 17px !important;',
+        '  font-weight: 700 !important;',
+        '  font-family: "Heebo", Arial, sans-serif !important;',
+        '  text-decoration: none !important;',
+        '  letter-spacing: 0.3px !important;',
+        '  min-height: 50px !important;',
+        '  height: 50px !important;',
+        '  display: flex !important;',
+        '  align-items: center !important;',
+        '  justify-content: center !important;',
+        '  gap: 8px !important;',
+        '  flex: 1 !important;',
+        '  padding: 0 20px !important;',
+        '  cursor: pointer !important;',
+        '  box-sizing: border-box !important;',
+        '  line-height: 50px !important;',
+        '  transition: background 0.2s !important;',
+        '}',
+        'a.add_to_cart_button:hover, .add_to_cart_button:hover {',
+        '  background-color: #15407a !important;',
+        '  background: #15407a !important;',
+        '}',
+        '/* Cart row layout */',
+        '.item_add_to_cart {',
+        '  display: flex !important;',
+        '  align-items: stretch !important;',
+        '  gap: 0 !important;',
+        '  flex-wrap: nowrap !important;',
+        '  direction: rtl !important;',
+        '  margin-top: 6px !important;',
+        '}',
+        '/* Quantity selector attached to button */',
+        '.item_add_to_cart .item_quantity,',
+        '.item_quantity {',
+        '  display: flex !important;',
+        '  align-items: center !important;',
+        '  border: 2px solid #e0e0e0 !important;',
+        '  border-radius: 8px 0 0 8px !important;',
+        '  border-left: 2px solid #e0e0e0 !important;',
+        '  overflow: hidden !important;',
+        '  flex-shrink: 0 !important;',
+        '  height: 50px !important;',
+        '  background: #fff !important;',
+        '}',
+        '.item_quantity .plus, .item_quantity .minus {',
+        '  width: 38px !important;',
+        '  height: 100% !important;',
+        '  border: none !important;',
+        '  background: transparent !important;',
+        '  font-size: 22px !important;',
+        '  cursor: pointer !important;',
+        '  color: #333 !important;',
+        '  display: flex !important;',
+        '  align-items: center !important;',
+        '  justify-content: center !important;',
+        '}',
+        '.item_quantity input[type="number"], .item_quantity input[name="quantity"] {',
+        '  width: 44px !important;',
+        '  height: 100% !important;',
+        '  text-align: center !important;',
+        '  border: none !important;',
+        '  border-right: 1px solid #e0e0e0 !important;',
+        '  border-left: 1px solid #e0e0e0 !important;',
+        '  font-size: 16px !important;',
+        '  font-weight: 600 !important;',
+        '  color: #333 !important;',
+        '  -moz-appearance: textfield !important;',
+        '  background: #fff !important;',
+        '}',
+        '/* Hide buy-now inside cart area */',
+        '.item_add_to_cart .buy_now_button, .item_add_to_cart .buy-now-button { display: none !important; }'
+      ].join('\n');
+      document.body.appendChild(s);
+    }
 
-    /* HIDE original cart area */
-    konimboCart.setAttribute('style', 'display:none !important;');
+    /* 2. JS: set inline styles on existing elements (finds by multiple strategies) */
+    var cartBtn = document.querySelector('.item_add_to_cart .add_to_cart_button') ||
+                  document.querySelector('.add_to_cart_button') ||
+                  document.querySelector('a[class*="add_to_cart"]');
+    if (cartBtn) {
+      cartBtn.setAttribute('style',
+        'background-color:#1B4E91 !important; background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; ' +
+        'font-size:17px !important; font-weight:700 !important; min-height:50px !important; height:50px !important; display:flex !important; align-items:center !important; ' +
+        'justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 20px !important; text-decoration:none !important; font-family:"Heebo",sans-serif !important; ' +
+        'cursor:pointer !important; box-sizing:border-box !important; line-height:50px !important; letter-spacing:0.3px !important;');
 
-    /* BUILD custom purchase row */
-    var customRow = document.createElement('div');
-    customRow.className = 'tw-purchase-styled';
-    customRow.setAttribute('style', 'display:flex; align-items:stretch; gap:0; direction:rtl; margin-top:8px;');
-
-    /* Quantity selector */
-    customRow.innerHTML = '<div class="tw-qty" style="display:flex; align-items:center; border:2px solid #ddd; border-radius:8px 0 0 8px; border-left:none; overflow:hidden; flex-shrink:0; height:50px; background:#fff;">' +
-      '<span class="tw-qty-plus" style="width:38px; height:100%; display:flex; align-items:center; justify-content:center; font-size:22px; cursor:pointer; color:#333; user-select:none; font-weight:400;">+</span>' +
-      '<input type="number" class="tw-qty-input" value="1" min="1" style="width:44px; height:100%; text-align:center; border:none; border-right:1px solid #ddd; border-left:1px solid #ddd; font-size:16px; font-weight:600; color:#333; font-family:Heebo,sans-serif; -moz-appearance:textfield; -webkit-appearance:none; background:#fff;" />' +
-      '<span class="tw-qty-minus" style="width:38px; height:100%; display:flex; align-items:center; justify-content:center; font-size:22px; cursor:pointer; color:#333; user-select:none; font-weight:400;">\u2212</span>' +
-      '</div>' +
-      '<a href="' + esc(cartHref) + '" class="tw-cart-btn" style="flex:1; display:flex; align-items:center; justify-content:center; gap:10px; height:50px; background:#1B4E91; color:#fff; border:none; border-radius:0 8px 8px 0; font-size:17px; font-weight:700; cursor:pointer; font-family:Heebo,Arial,sans-serif; text-decoration:none; letter-spacing:0.3px;">' +
-      '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>' +
-      '<span>\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4</span></a>';
-
-    /* Insert after the hidden original */
-    konimboCart.parentNode.insertBefore(customRow, konimboCart.nextSibling);
-
-    /* Wire up quantity buttons to sync with hidden original */
-    var twInput = customRow.querySelector('.tw-qty-input');
-    var twPlus = customRow.querySelector('.tw-qty-plus');
-    var twMinus = customRow.querySelector('.tw-qty-minus');
-    twPlus.addEventListener('click', function() {
-      var v = parseInt(twInput.value) || 1;
-      twInput.value = v + 1;
-      if (qtyInput) { qtyInput.value = v + 1; qtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
-    });
-    twMinus.addEventListener('click', function() {
-      var v = parseInt(twInput.value) || 1;
-      if (v > 1) {
-        twInput.value = v - 1;
-        if (qtyInput) { qtyInput.value = v - 1; qtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
+      /* Add cart SVG icon if not already there */
+      if (!cartBtn.querySelector('.tw-cart-icon')) {
+        var icon = document.createElement('span');
+        icon.className = 'tw-cart-icon';
+        icon.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
+        icon.setAttribute('style', 'display:flex; align-items:center; flex-shrink:0;');
+        cartBtn.insertBefore(icon, cartBtn.firstChild);
       }
-    });
-    twInput.addEventListener('change', function() {
-      if (qtyInput) { qtyInput.value = twInput.value; qtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
-    });
 
-    /* Cart button click: trigger original button click */
-    customRow.querySelector('.tw-cart-btn').addEventListener('click', function(e) {
-      e.preventDefault();
-      if (qtyInput) { qtyInput.value = twInput.value; qtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
-      cartBtn.click();
-    });
+      /* Mark as styled */
+      cartBtn.classList.add('tw-purchase-styled');
+    }
 
-    /* Also hide by text matching */
+    /* 3. Style quantity selector */
+    var qtyBox = document.querySelector('.item_add_to_cart .item_quantity') || document.querySelector('.item_quantity');
+    if (qtyBox) {
+      qtyBox.setAttribute('style',
+        'display:flex !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:8px 0 0 8px !important; ' +
+        'overflow:hidden !important; flex-shrink:0 !important; height:50px !important; background:#fff !important;');
+    }
+
+    /* 4. Style cart container row */
+    var cartRow = document.querySelector('.item_add_to_cart');
+    if (cartRow) {
+      cartRow.setAttribute('style',
+        'display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:6px !important;');
+    }
+
+    /* 5. Hide buy-now buttons */
     hideBuyNowByText();
 
-    /* Style the price */
+    /* 6. Style the price */
     var priceEl = document.querySelector('.item_price');
     if (priceEl && !priceEl.classList.contains('tw-price-styled')) {
       priceEl.setAttribute('style', 'font-size:34px !important; font-weight:700 !important; color:#1a1a1a !important; font-family:"Heebo",Arial,sans-serif !important; padding:2px 0 6px !important; direction:rtl !important;');
@@ -658,17 +756,17 @@
       priceEl.classList.add('tw-price-styled');
     }
 
-    /* Demo fallback */
+    /* 7. Demo fallback (for demo page) */
     var purchaseArea = document.querySelector('.purchase-area');
     if (!purchaseArea) return;
-    var qtyRow = purchaseArea.querySelector('.quantity-row');
-    var btnRow = purchaseArea.querySelector('.buttons-row');
-    if (!qtyRow || !btnRow) return;
-    var qtySelector = qtyRow.querySelector('.qty-selector');
-    if (qtySelector) {
-      btnRow.insertBefore(qtySelector, btnRow.firstChild);
-      qtyRow.style.display = 'none';
-      btnRow.setAttribute('style', 'display:flex; align-items:center; gap:10px; width:100%;');
+    var qtyRowD = purchaseArea.querySelector('.quantity-row');
+    var btnRowD = purchaseArea.querySelector('.buttons-row');
+    if (!qtyRowD || !btnRowD) return;
+    var qtySelectorD = qtyRowD.querySelector('.qty-selector');
+    if (qtySelectorD) {
+      btnRowD.insertBefore(qtySelectorD, btnRowD.firstChild);
+      qtyRowD.style.display = 'none';
+      btnRowD.setAttribute('style', 'display:flex; align-items:center; gap:10px; width:100%;');
       purchaseArea.classList.add('tw-purchase-styled');
     }
   }
@@ -908,7 +1006,7 @@
 
     var strengthsHTML = '<div class="tw-strengths">';
     var items = [
-      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>', text: '\u05DE\u05E9\u05DC\u05D5\u05D7 \u05E2\u05D3 7 \u05D9\u05DE\u05D9 \u05E2\u05E1\u05E7\u05D9\u05DD | \u05D0\u05D9\u05E1\u05D5\u05E3 \u05E2\u05E6\u05DE\u05D9 \u05DE\u05E0\u05D4\u05E8\u05D9\u05D4' },
+      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>', text: '\u05DE\u05E9\u05DC\u05D5\u05D7 \u05E2\u05D3 7 \u05D9\u05DE\u05D9 \u05E2\u05E1\u05E7\u05D9\u05DD' },
       { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>', text: '\u05D0\u05D7\u05E8\u05D9\u05D5\u05EA 3 \u05D7\u05D5\u05D3\u05E9\u05D9\u05DD / 6,000 \u05E7"\u05DE' },
       { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>', text: '\u05DE\u05D5\u05E8\u05E9\u05D9\u05DD \u05DE\u05E9\u05E8\u05D3 \u05D4\u05EA\u05D7\u05D1\u05D5\u05E8\u05D4' },
       { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>', text: '\u05EA\u05E9\u05DC\u05D5\u05DD \u05DE\u05D0\u05D5\u05D1\u05D8\u05D7' },
