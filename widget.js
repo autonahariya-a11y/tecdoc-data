@@ -450,11 +450,18 @@
       /* Broad Konimbo description selectors */
       '.item_description, .desc, .item_desc, .product_description, .product-description { display:none !important; }',
       '.item_right > .description, .item_right > div.desc { display:none !important; }',
-      /* Konimbo real structure: hide anchors, facebook, old specs */
+      /* Konimbo real structure: hide unwanted sections */
       '#item_anchors { display:none !important; }',
       '#item_show_facebook { display:none !important; }',
       '#item_current_sub_title { display:none !important; }',
       '.wrap_content_top { display:none !important; }',
+      /* Hide shipping/warranty/ask-us/trust icons in Konimbo */
+      '.item_shipping, .item_warranty, .item_delivery, .shipping_details { display:none !important; }',
+      '.ask_about_item, .ask_us, .ask_question, [class*="ask_about"] { display:none !important; }',
+      '.item_trust, .trust_icons, .trust_badges, .item_badges { display:none !important; }',
+      '.item_extra_details, .extra_details, .item_extra_info { display:none !important; }',
+      '#item_shipping, #item_warranty, #shipping_info, #warranty_info { display:none !important; }',
+      '.whatsapp_product, .product_whatsapp { display:none !important; }',
 
       /* Hide WhatsApp floating buttons if outside main content */
       'a[href*="whatsapp.com/send"]:not(#item_info a) { }',
@@ -593,36 +600,42 @@
     var anchors = document.getElementById('item_anchors');
     if (anchors) anchors.style.display = 'none';
 
-    /* 4b. Hide description and shipping info inside .item_main_bottom */
-    var mainBottom = document.querySelector('.item_main_bottom');
-    if (mainBottom) {
-      var mbKids = mainBottom.children;
-      for (var mb = 0; mb < mbKids.length; mb++) {
-        var kid = mbKids[mb];
-        var kCls = kid.className || '';
-        var kId = kid.id || '';
-        var kTxt = (kid.textContent || '').trim();
-        /* Keep price row (has price class, or is the MAIN price — short text under 15 chars with ₪) */
-        if (kCls.indexOf('price') !== -1) continue;
-        if (kTxt.indexOf('\u20AA') !== -1 && kTxt.length < 15) continue;
-        /* Keep cart/buy area */
-        if (kCls.indexOf('item_add') !== -1 || kCls.indexOf('cart') !== -1 || kCls.indexOf('buy') !== -1 || kCls.indexOf('quantity') !== -1) continue;
-        if (kid.querySelector && kid.querySelector('.item_add_to_cart, .add_to_cart_button, input[name="quantity"], .buy_now_button, [class*="price"], [class*="cart"]')) continue;
-        /* Keep our widget elements */
-        if (kCls.indexOf('tw-') !== -1 || kId === 'tecdoc-widget') continue;
-        /* Hide everything else: description, shipping, warranty, icons, etc */
-        kid.style.display = 'none';
-      }
-      /* Also hide bare text nodes in item_main_bottom */
-      var mbNodes = mainBottom.childNodes;
-      for (var mbn = 0; mbn < mbNodes.length; mbn++) {
-        if (mbNodes[mbn].nodeType === 3 && mbNodes[mbn].textContent.trim().length > 10) {
-          var wrap = document.createElement('span');
-          wrap.style.display = 'none';
-          wrap.className = 'tw-hidden-desc';
-          mbNodes[mbn].parentNode.insertBefore(wrap, mbNodes[mbn]);
-          wrap.appendChild(mbNodes[mbn]);
-          mbn--;
+    /* 4b. Deep-hide description, shipping, warranty, ask-us, icons inside #item_details.
+       We walk ALL descendants and hide by text content pattern matching. */
+    var itemDetails = document.getElementById('item_details');
+    if (itemDetails) {
+      /* Known Hebrew text patterns to hide */
+      var hidePatterns = [
+        '\u05DE\u05E9\u05DC\u05D5\u05D7',    /* משלוח (shipping) */
+        '\u05D0\u05D7\u05E8\u05D9\u05D5\u05EA',  /* אחריות (warranty) */
+        '\u05D6\u05DE\u05DF \u05D0\u05E1\u05E4\u05E7\u05D4', /* זמן אספקה (delivery time) */
+        '\u05D0\u05D9\u05E1\u05D5\u05E3 \u05E2\u05E6\u05DE\u05D9', /* איסוף עצמי (self pickup) */
+        '\u05E9\u05D0\u05DC \u05D0\u05D5\u05EA\u05E0\u05D5', /* שאל אותנו (ask us) */
+        '\u05DC\u05DE\u05D4 \u05DC\u05E7\u05D5\u05D7\u05D5\u05EA', /* למה לקוחות (why buy) */
+        '\u05DE\u05E9\u05DC\u05D5\u05D7\u05D9\u05DD \u05DE\u05D4\u05D9\u05E8\u05D9\u05DD', /* משלוחים מהירים */
+        '\u05EA\u05E9\u05DC\u05D5\u05DD \u05DE\u05D0\u05D5\u05D1\u05D8\u05D7', /* תשלום מאובטח */
+        '\u05DE\u05D5\u05E6\u05E8\u05D9\u05DD \u05D1\u05D0\u05D7\u05E8\u05D9\u05D5\u05EA', /* מוצרים באחריות */
+        'WhatsApp'
+      ];
+      var allEls = itemDetails.querySelectorAll('div, p, span, section, a, li, ul');
+      for (var ae = 0; ae < allEls.length; ae++) {
+        var el = allEls[ae];
+        var elTxt = (el.textContent || '').trim();
+        var elCls = el.className || '';
+        var elId = el.id || '';
+        /* Never hide price, cart, widget, stock */
+        if (elCls.indexOf('price') !== -1 || elCls.indexOf('item_add') !== -1 || elCls.indexOf('cart') !== -1) continue;
+        if (elCls.indexOf('tw-') !== -1 || elId === 'tecdoc-widget') continue;
+        if (el.querySelector && el.querySelector('.add_to_cart_button, [class*="price"], input[name="quantity"]')) continue;
+        /* Check if this element's OWN text matches a hide pattern */
+        for (var hp = 0; hp < hidePatterns.length; hp++) {
+          if (elTxt.indexOf(hidePatterns[hp]) !== -1 && elTxt.length < 500) {
+            /* Make sure we're not hiding a parent that contains price/cart */
+            if (!el.querySelector || !el.querySelector('[class*="price"], .add_to_cart_button, input[name="quantity"]')) {
+              el.style.display = 'none';
+            }
+            break;
+          }
         }
       }
     }
