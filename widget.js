@@ -566,6 +566,18 @@
     wrapper.appendChild(skuBadge);
   }
 
+  function hideBuyNowByText() {
+    /* Find and hide any element that says "קנה עכשיו" by text content */
+    var candidates = document.querySelectorAll('a, button, input[type="submit"], input[type="button"], div[role="button"]');
+    for (var i = 0; i < candidates.length; i++) {
+      var el = candidates[i];
+      var txt = (el.textContent || el.value || '').trim();
+      if (txt.indexOf('\u05E7\u05E0\u05D4 \u05E2\u05DB\u05E9\u05D9\u05D5') !== -1) {
+        el.style.display = 'none';
+      }
+    }
+  }
+
   function mergeQuantityAndCart() {
     if (document.querySelector('.tw-qty-cart-merged')) return;
     /* Konimbo store: .item_add_to_cart contains .quantity_field + .add_to_cart_button */
@@ -580,8 +592,9 @@
       var buyNow = konimboCart.querySelector('.buy_now_button');
       if (buyNow) buyNow.style.display = 'none';
       konimboCart.classList.add('tw-qty-cart-merged');
-      return;
     }
+    /* Also hide "\u05E7\u05E0\u05D4 \u05E2\u05DB\u05E9\u05D9\u05D5" button by text matching */
+    hideBuyNowByText();
     /* Demo fallback: .purchase-area with .quantity-row + .buttons-row */
     var purchaseArea = document.querySelector('.purchase-area');
     if (!purchaseArea) return;
@@ -738,6 +751,9 @@
     /* 5. Hide back-to-top */
     var backTop = document.querySelectorAll('.back_to_top, .back-to-top, #back_to_top, a[href="#top"]');
     for (var b = 0; b < backTop.length; b++) backTop[b].style.display = 'none';
+
+    /* 6. Hide Buy Now button */
+    hideBuyNowByText();
   }
 
   function getOrCreateWidget() {
