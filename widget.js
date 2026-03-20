@@ -1,4 +1,5 @@
-/* TecDoc Widget v9.3 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
+/* TecDoc Widget v9.4 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
+   Changes in v9.4: Filter empty/0 specs, remove EAN, larger fonts, Hebrew vehicle names, brand in strengths
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -151,6 +152,37 @@
   };
 
   var DISC_MAP = { '1': '\u05DE\u05DC\u05D0', '2': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8', '3': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8 \u05E4\u05E0\u05D9\u05DE\u05D9' };
+
+  /* ── Vehicle brand/model Hebrew translations ── */
+  var BRAND_TR = {
+    'ALFA ROMEO':'\u05D0\u05DC\u05E4\u05D0 \u05E8\u05D5\u05DE\u05D0\u05D5','AUDI':'\u05D0\u05D5\u05D3\u05D9',
+    'BMW':'\u05D1\u05D9.\u05D0\u05DE.\u05D3\u05D1\u05DC\u05D5','CHEVROLET':'\u05E9\u05D1\u05E8\u05D5\u05DC\u05D8',
+    'CHRYSLER':'\u05E7\u05E8\u05D9\u05D9\u05D6\u05DC\u05E8','CITROEN':'\u05E1\u05D9\u05D8\u05E8\u05D5\u05D0\u05DF',
+    'CUPRA':'\u05E7\u05D5\u05E4\u05E8\u05D0','DACIA':'\u05D3\u05D0\u05E6\u05F3\u05D9\u05D4',
+    'DAEWOO':'\u05D3\u05D0\u05D5\u05D5','DS':'DS','FIAT':'\u05E4\u05D9\u05D0\u05D8',
+    'FORD':'\u05E4\u05D5\u05E8\u05D3','HONDA':'\u05D4\u05D5\u05E0\u05D3\u05D4',
+    'HYUNDAI':'\u05D9\u05D5\u05E0\u05D3\u05D0\u05D9','INFINITI':'\u05D0\u05D9\u05E0\u05E4\u05D9\u05E0\u05D9\u05D8\u05D9',
+    'ISUZU':'\u05D0\u05D9\u05E1\u05D5\u05D6\u05D5','JAGUAR':'\u05D9\u05D2\u05D5\u05D0\u05E8',
+    'JEEP':'\u05D2\u05F3\u05D9\u05E4','KIA':'\u05E7\u05D9\u05D4',
+    'LANCIA':'\u05DC\u05E0\u05E6\u05F3\u05D9\u05D4','LAND ROVER':'\u05DC\u05E0\u05D3 \u05E8\u05D5\u05D1\u05E8',
+    'LEXUS':'\u05DC\u05E7\u05E1\u05D5\u05E1','MAZDA':'\u05DE\u05D0\u05D6\u05D3\u05D4',
+    'MERCEDES-BENZ':'\u05DE\u05E8\u05E6\u05D3\u05E1','MINI':'\u05DE\u05D9\u05E0\u05D9',
+    'MITSUBISHI':'\u05DE\u05D9\u05E6\u05D5\u05D1\u05D9\u05E9\u05D9','NISSAN':'\u05E0\u05D9\u05E1\u05DF',
+    'OPEL':'\u05D0\u05D5\u05E4\u05DC','PEUGEOT':'\u05E4\u05D9\u05D6\u05F3\u05D5',
+    'PORSCHE':'\u05E4\u05D5\u05E8\u05E9\u05D4','RENAULT':'\u05E8\u05E0\u05D5',
+    'SEAT':'\u05E1\u05D9\u05D0\u05D8','SKODA':'\u05E1\u05E7\u05D5\u05D3\u05D4',
+    'SMART':'\u05E1\u05DE\u05D0\u05E8\u05D8','SSANGYONG':'\u05E1\u05D0\u05E0\u05D2\u05D9\u05D5\u05E0\u05D2',
+    'SUBARU':'\u05E1\u05D5\u05D1\u05D0\u05E8\u05D5','SUZUKI':'\u05E1\u05D5\u05D6\u05D5\u05E7\u05D9',
+    'TESLA':'\u05D8\u05E1\u05DC\u05D4','TOYOTA':'\u05D8\u05D5\u05D9\u05D5\u05D8\u05D4',
+    'VOLKSWAGEN':'\u05E4\u05D5\u05DC\u05E7\u05E1\u05D5\u05D5\u05D2\u05DF','VW':'\u05E4\u05D5\u05DC\u05E7\u05E1\u05D5\u05D5\u05D2\u05DF',
+    'VOLVO':'\u05D5\u05D5\u05DC\u05D5\u05D5'
+  };
+  function trBrand(name) {
+    if (!name) return '';
+    var upper = name.toUpperCase();
+    if (BRAND_TR[upper]) return BRAND_TR[upper] + ' ' + name;
+    return name;
+  }
 
   function trSpec(n) { return SPEC_TR[n] || n; }
   function trProduct(name) {
@@ -420,11 +452,16 @@
       if (D.product) {
         allSpecs.push({ name: '\u05E1\u05D5\u05D2 \u05DE\u05D5\u05E6\u05E8', value: trProduct(D.product) });
       }
-      /* Add TecDoc specs */
+      /* Add TecDoc specs — skip empty, 0, or irrelevant values */
       for (var i = 0; i < D.specs.length; i++) {
+        var sv = (D.specs[i].criteriaValue || '').trim();
+        if (!sv || sv === '0' || sv === '0.0' || sv === '0,0' || sv === '-' || sv === 'N/A') continue;
+        /* Skip EAN if it appears as a spec */
+        var sn = (D.specs[i].criteriaName || '').toLowerCase();
+        if (sn.indexOf('ean') !== -1) continue;
         allSpecs.push({ name: trSpec(D.specs[i].criteriaName), value: trVal(D.specs[i].criteriaName, D.specs[i].criteriaValue) });
       }
-      if (D.ean) allSpecs.push({ name: '\u05DE\u05E1\u05E4\u05E8 EAN', value: D.ean });
+      /* EAN removed per user request */
 
       var hasHidden = allSpecs.length > SPECS_VISIBLE;
       html += '<table class="tw-specs-table" id="tw-specs-tbl">';
@@ -450,7 +487,7 @@
       var mKeys = Object.keys(tree).sort();
       for (var mk = 0; mk < mKeys.length; mk++) {
         var mfr = mKeys[mk], models = tree[mfr];
-        html += '<div class="tw-acc-l1"><div class="tw-acc-l1-header" data-level="1"><span class="tw-acc-icon">+</span><span class="tw-acc-l1-name">' + esc(mfr) + '</span></div><div class="tw-acc-l1-body">';
+        html += '<div class="tw-acc-l1"><div class="tw-acc-l1-header" data-level="1"><span class="tw-acc-icon">+</span><span class="tw-acc-l1-name">' + esc(trBrand(mfr)) + '</span></div><div class="tw-acc-l1-body">';
         var mdKeys = Object.keys(models).sort();
         for (var mi = 0; mi < mdKeys.length; mi++) {
           var mn = mdKeys[mi], md = models[mn];
