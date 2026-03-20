@@ -577,9 +577,12 @@
 
     /* 4. Hide product description — find it relative to H1 */
     var h1El = document.querySelector('h1');
+    console.log('[TecDoc] cleanPageDOM: h1 found=', !!h1El);
     if (h1El) {
+      console.log('[TecDoc] h1 parent:', h1El.parentElement ? h1El.parentElement.tagName + '#' + (h1El.parentElement.id||'') + '.' + (h1El.parentElement.className||'') : 'none');
       /* Walk siblings after H1 and hide description-like elements */
       var sibling = h1El.nextElementSibling;
+      console.log('[TecDoc] first sibling:', sibling ? sibling.tagName + '#' + (sibling.id||'') + '.' + (sibling.className||'') + ' txt=' + (sibling.textContent||'').trim().substring(0,60) : 'NONE');
       while (sibling) {
         var sTag = sibling.tagName;
         var sTxt = (sibling.textContent || '').trim();
@@ -649,11 +652,13 @@
     /* Wrap bare text nodes near H1 into spans so they can be hidden */
     if (h1El) {
       var container = h1El.parentElement;
+      console.log('[TecDoc] bare text check in container:', container ? container.tagName + '#' + (container.id||'') : 'none', 'childNodes:', container ? container.childNodes.length : 0);
       if (container) {
         var childNodes = container.childNodes;
         for (var tn = 0; tn < childNodes.length; tn++) {
           var node = childNodes[tn];
           if (node.nodeType === 3 && node.textContent.trim().length > 20) {
+            console.log('[TecDoc] found bare text node:', node.textContent.trim().substring(0,60));
             /* This is a bare text node with significant content — likely the description */
             var txt = node.textContent.trim();
             if (txt.indexOf('\u20AA') === -1 && txt.indexOf('\u05D6\u05DE\u05D9\u05DF') === -1) {
@@ -662,6 +667,7 @@
               wrapper.className = 'tw-hidden-desc';
               node.parentNode.insertBefore(wrapper, node);
               wrapper.appendChild(node);
+              console.log('[TecDoc] wrapped and hid bare text node');
               tn--; /* Adjust index since we changed the nodeList */
             }
           }
