@@ -473,8 +473,13 @@
       '.buy_now_button, .buy-now-button, [class*="buy_now"], [class*="buy-now"] { display:none !important; }',
 
       /* Quantity + Cart on same row (Konimbo + demo) */
-      '.item_add_to_cart { display:flex !important; align-items:center !important; gap:10px !important; flex-wrap:nowrap !important; }',
-      '.item_add_to_cart .buy_now_button { display:none !important; }',
+      '.item_add_to_cart { display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:6px !important; }',
+      '.item_add_to_cart .buy_now_button, .item_add_to_cart .buy-now-button { display:none !important; }',
+      '.item_add_to_cart .add_to_cart_button { flex:1 !important; display:flex !important; align-items:center !important; justify-content:center !important; gap:8px !important; height:48px !important; background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; font-size:17px !important; font-weight:700 !important; cursor:pointer !important; font-family:"Heebo",Arial,sans-serif !important; text-decoration:none !important; letter-spacing:0.3px !important; }',
+      '.item_add_to_cart .item_quantity { display:flex !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:8px 0 0 8px !important; overflow:hidden !important; flex-shrink:0 !important; height:48px !important; background:#fff !important; }',
+      '.item_add_to_cart .item_quantity .plus, .item_add_to_cart .item_quantity .minus { width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:20px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; font-weight:500 !important; }',
+      '.item_add_to_cart .item_quantity input { width:40px !important; height:100% !important; text-align:center !important; border:none !important; border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; color:#333 !important; -moz-appearance:textfield !important; background:#fff !important; }',
+      '.item_price { font-size:32px !important; font-weight:700 !important; color:#1a1a1a !important; font-family:"Heebo",Arial,sans-serif !important; padding:4px 0 8px !important; }',
       '.purchase-area .quantity-row { margin-bottom:0; }',
       '.purchase-area .buttons-row { display:flex; align-items:center; gap:10px; }',
       '.purchase-area { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }'
@@ -509,8 +514,12 @@
     injectStockIndicator();
     /* Merge SKU into brand-badge */
     mergeSKUintoBrandBadge();
-    /* Make quantity + cart side by side */
+    /* Style quantity + cart + price with retries for late-loading elements */
     mergeQuantityAndCart();
+    setTimeout(function() { mergeQuantityAndCart(); injectStockIndicator(); }, 500);
+    setTimeout(function() { mergeQuantityAndCart(); injectStockIndicator(); }, 1500);
+    setTimeout(function() { mergeQuantityAndCart(); injectStockIndicator(); }, 3000);
+    setTimeout(function() { mergeQuantityAndCart(); injectStockIndicator(); }, 6000);
   }
 
   function injectStockIndicator() {
