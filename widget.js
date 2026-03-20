@@ -709,6 +709,17 @@
     var cartBtn = document.querySelector('.item_add_to_cart .add_to_cart_button') ||
                   document.querySelector('.add_to_cart_button') ||
                   document.querySelector('a[class*="add_to_cart"]');
+    /* Fallback: find by text content */
+    if (!cartBtn) {
+      var allAnchors = document.querySelectorAll('a');
+      for (var ai = 0; ai < allAnchors.length; ai++) {
+        var atxt = (allAnchors[ai].textContent || '').trim();
+        if (atxt === '\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4' || atxt.indexOf('\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4') !== -1) {
+          cartBtn = allAnchors[ai];
+          break;
+        }
+      }
+    }
     if (cartBtn) {
       cartBtn.setAttribute('style',
         'background-color:#1B4E91 !important; background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:0 8px 8px 0 !important; ' +
@@ -729,17 +740,35 @@
       cartBtn.classList.add('tw-purchase-styled');
     }
 
-    /* 3. Style quantity selector */
+    /* 3. Style quantity selector — find by class OR by proximity to cart button */
     var qtyBox = document.querySelector('.item_add_to_cart .item_quantity') || document.querySelector('.item_quantity');
+    if (!qtyBox && cartBtn) {
+      /* Try finding quantity box near the cart button */
+      var cartParent = cartBtn.parentElement;
+      if (cartParent) {
+        qtyBox = cartParent.querySelector('.item_quantity, .quantity_field, [class*="quantity"]');
+        /* Try siblings */
+        if (!qtyBox) {
+          var siblings = cartParent.children;
+          for (var si = 0; si < siblings.length; si++) {
+            if (siblings[si] !== cartBtn && siblings[si].querySelector && siblings[si].querySelector('input[type="number"], input[name="quantity"]')) {
+              qtyBox = siblings[si];
+              break;
+            }
+          }
+        }
+      }
+    }
     if (qtyBox) {
       qtyBox.setAttribute('style',
         'display:flex !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:8px 0 0 8px !important; ' +
         'overflow:hidden !important; flex-shrink:0 !important; height:50px !important; background:#fff !important;');
     }
 
-    /* 4. Style cart container row */
+    /* 4. Style cart container row — find by class OR as parent of cart button */
     var cartRow = document.querySelector('.item_add_to_cart');
-    if (cartRow) {
+    if (!cartRow && cartBtn) cartRow = cartBtn.parentElement;
+    if (cartRow && cartRow !== document.body) {
       cartRow.setAttribute('style',
         'display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:6px !important;');
     }
