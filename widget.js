@@ -1,5 +1,5 @@
-/* TecDoc Widget v9.7 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
-   Changes in v9.7: Aggressive trust-icon hiding, MutationObserver, walk-up parent hiding
+/* TecDoc Widget v9.8 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP section
+   Changes in v9.8: Added חוזקות (strengths) section — Autodoc-style USP badges above TecDoc tabs
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -837,6 +837,34 @@
     else { w.style.display = 'none'; }
   }
 
+  /* ═══ STRENGTHS / USP BADGES ═══ */
+  function renderStrengths() {
+    /* Only inject once */
+    if (document.querySelector('.tw-strengths')) return;
+    var w = getWidget(); if (!w) return;
+
+    var strengthsHTML = '<div class="tw-strengths">';
+    var items = [
+      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>', text: '\u05DE\u05E9\u05DC\u05D5\u05D7 \u05E2\u05D3 7 \u05D9\u05DE\u05D9 \u05E2\u05E1\u05E7\u05D9\u05DD' },
+      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>', text: '\u05D0\u05D9\u05E1\u05D5\u05E3 \u05E2\u05E6\u05DE\u05D9 \u05DE\u05E0\u05D4\u05E8\u05D9\u05D4' },
+      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>', text: '\u05E7\u05E0\u05D9\u05D9\u05D4 \u05DE\u05D0\u05D5\u05D1\u05D8\u05D7\u05EA' },
+      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>', text: '\u05D0\u05D7\u05E8\u05D9\u05D5\u05EA \u05D9\u05E6\u05E8\u05DF' }
+    ];
+    for (var i = 0; i < items.length; i++) {
+      strengthsHTML += '<div class="tw-strength-item">' +
+        '<span class="tw-strength-icon">' + items[i].icon + '</span>' +
+        '<span class="tw-strength-text">' + items[i].text + '</span>' +
+        '</div>';
+    }
+    strengthsHTML += '</div>';
+
+    /* Insert BEFORE the widget content (tabs) */
+    var tempDiv = document.createElement('div');
+    tempDiv.innerHTML = strengthsHTML;
+    var strengthsEl = tempDiv.firstChild;
+    w.insertBefore(strengthsEl, w.firstChild);
+  }
+
   /* ═══ RENDER — Tab Layout ═══ */
   function render() {
     var w = getWidget(); if (!w) return;
@@ -1202,6 +1230,7 @@
     D.vehicles = data.vehicles || [];
     D.oe = data.oe || [];
     render();
+    renderStrengths();
   }
 
   /* ── Main flow ── */
