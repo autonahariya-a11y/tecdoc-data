@@ -602,9 +602,9 @@
         var kCls = kid.className || '';
         var kId = kid.id || '';
         var kTxt = (kid.textContent || '').trim();
-        /* Keep price row (has price class, or is the MAIN price — short text with ₪) */
+        /* Keep price row (has price class, or is the MAIN price — short text under 15 chars with ₪) */
         if (kCls.indexOf('price') !== -1) continue;
-        if (kTxt.indexOf('\u20AA') !== -1 && kTxt.length < 30) continue;
+        if (kTxt.indexOf('\u20AA') !== -1 && kTxt.length < 15) continue;
         /* Keep cart/buy area */
         if (kCls.indexOf('item_add') !== -1 || kCls.indexOf('cart') !== -1 || kCls.indexOf('buy') !== -1 || kCls.indexOf('quantity') !== -1) continue;
         if (kid.querySelector && kid.querySelector('.item_add_to_cart, .add_to_cart_button, input[name="quantity"], .buy_now_button, [class*="price"], [class*="cart"]')) continue;
