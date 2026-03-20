@@ -1,5 +1,5 @@
-/* TecDoc Widget v9.4 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
-   Changes in v9.4: Filter empty/0 specs, remove EAN, larger fonts, Hebrew vehicle names, brand in strengths
+/* TecDoc Widget v9.5 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names
+   Changes in v9.5: Stock indicator, Hebrew sub-models (Variant→קומבי etc), larger tab fonts, WVA kept, Autodoc-inspired design
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -177,6 +177,45 @@
     'VOLKSWAGEN':'\u05E4\u05D5\u05DC\u05E7\u05E1\u05D5\u05D5\u05D2\u05DF','VW':'\u05E4\u05D5\u05DC\u05E7\u05E1\u05D5\u05D5\u05D2\u05DF',
     'VOLVO':'\u05D5\u05D5\u05DC\u05D5\u05D5'
   };
+  /* ── Vehicle sub-model Hebrew translations ── */
+  var MODEL_PART_TR = {
+    'Variant': '\u05E7\u05D5\u05DE\u05D1\u05D9',
+    'Estate': '\u05E7\u05D5\u05DE\u05D1\u05D9',
+    'Touring': '\u05E7\u05D5\u05DE\u05D1\u05D9',
+    'Sportback': '\u05E1\u05E4\u05D5\u05E8\u05D8\u05D1\u05E7',
+    'Convertible': '\u05E7\u05D1\u05E8\u05D9\u05D5\u05DC\u05D8',
+    'Cabriolet': '\u05E7\u05D1\u05E8\u05D9\u05D5\u05DC\u05D8',
+    'Roadster': '\u05E8\u05D5\u05D3\u05E1\u05D8\u05E8',
+    'Limousine': '\u05E1\u05D3\u05D0\u05DF',
+    'Saloon': '\u05E1\u05D3\u05D0\u05DF',
+    'Sedan': '\u05E1\u05D3\u05D0\u05DF',
+    'Hatchback': '\u05D4\u05D0\u05E6\u05F3\u05D1\u05E7',
+    'Coupe': '\u05E7\u05D5\u05E4\u05D4',
+    'SUV': 'SUV',
+    'Van': '\u05DE\u05E1\u05D7\u05E8\u05D9',
+    'Combi': '\u05E7\u05D5\u05DE\u05D1\u05D9',
+    'Sportstourer': '\u05E1\u05E4\u05D5\u05E8\u05D8\u05D8\u05D5\u05E8\u05E8',
+    'Allstreet': '\u05D0\u05D5\u05DC\u05E1\u05D8\u05E8\u05D9\u05D8',
+    'Alltrack': '\u05D0\u05D5\u05DC\u05D8\u05E8\u05E7',
+    'Shooting Brake': '\u05E9\u05D5\u05D8\u05D9\u05E0\u05D2 \u05D1\u05E8\u05D9\u05D9\u05E7'
+  };
+
+  function trModelName(name) {
+    if (!name) return name;
+    /* Remove chassis codes in parentheses for cleaner display */
+    var clean = name.replace(/\s*\([^)]*\)\s*/g, '').trim();
+    /* Translate known sub-model keywords */
+    var keys = Object.keys(MODEL_PART_TR);
+    for (var i = 0; i < keys.length; i++) {
+      var re = new RegExp('\\b' + keys[i] + '\\b', 'gi');
+      clean = clean.replace(re, MODEL_PART_TR[keys[i]]);
+    }
+    /* Translate Roman numerals to regular numbers for readability */
+    clean = clean.replace(/\bVIII\b/g, '8').replace(/\bVII\b/g, '7').replace(/\bVI\b/g, '6');
+    clean = clean.replace(/\bIV\b/g, '4').replace(/\bIII\b/g, '3').replace(/\bII\b/g, '2');
+    return clean;
+  }
+
   function trBrand(name) {
     if (!name) return '';
     var upper = name.toUpperCase();
@@ -429,6 +468,9 @@
     var w = getWidget(); if (!w) return;
     var html = '';
 
+    /* ── STOCK INDICATOR ── */
+    html += '<div class="tw-stock-bar"><span class="tw-stock-dot tw-in-stock"></span><span class="tw-stock-text">\u05D6\u05DE\u05D9\u05DF \u05D1\u05DE\u05DC\u05D0\u05D9</span></div>';
+
     /* ── TAB NAVIGATION ── */
     html += '<div class="tw-tabs">';
     html += '<div class="tw-tab tw-tab-active" data-tab="specs">\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
@@ -491,7 +533,7 @@
         var mdKeys = Object.keys(models).sort();
         for (var mi = 0; mi < mdKeys.length; mi++) {
           var mn = mdKeys[mi], md = models[mn];
-          html += '<div class="tw-acc-l2"><div class="tw-acc-l2-header" data-level="2"><span class="tw-acc-icon">+</span><span class="tw-acc-l2-name">' + esc(mn) + '</span>';
+          html += '<div class="tw-acc-l2"><div class="tw-acc-l2-header" data-level="2"><span class="tw-acc-icon">+</span><span class="tw-acc-l2-name">' + esc(trModelName(mn)) + '</span>';
           if (md.years) html += '<span class="tw-acc-l2-years">(' + esc(md.years) + ')</span>';
           html += '</div><div class="tw-acc-l2-body">';
           for (var ei = 0; ei < md.engines.length; ei++) {
