@@ -602,17 +602,15 @@
         var kCls = kid.className || '';
         var kId = kid.id || '';
         var kTxt = (kid.textContent || '').trim();
-        /* Keep price row (has class with price in it) */
-        if (kCls.indexOf('price') !== -1) continue;
-        /* Keep cart/buy area (has add_to_cart_button or quantity input) */
-        if (kCls.indexOf('item_add') !== -1 || kCls.indexOf('cart') !== -1) continue;
-        if (kid.querySelector && kid.querySelector('.item_add_to_cart, .add_to_cart_button, input[name="quantity"]')) continue;
+        /* Keep price row (class or contains ₪) */
+        if (kCls.indexOf('price') !== -1 || kTxt.indexOf('\u20AA') !== -1) continue;
+        /* Keep cart/buy area */
+        if (kCls.indexOf('item_add') !== -1 || kCls.indexOf('cart') !== -1 || kCls.indexOf('buy') !== -1 || kCls.indexOf('quantity') !== -1) continue;
+        if (kid.querySelector && kid.querySelector('.item_add_to_cart, .add_to_cart_button, input[name="quantity"], .buy_now_button, [class*="price"], [class*="cart"]')) continue;
         /* Keep our widget elements */
         if (kCls.indexOf('tw-') !== -1 || kId === 'tecdoc-widget') continue;
         /* Hide everything else: description, shipping, warranty, icons, etc */
-        if (kTxt.length > 15) {
-          kid.style.display = 'none';
-        }
+        kid.style.display = 'none';
       }
       /* Also hide bare text nodes in item_main_bottom */
       var mbNodes = mainBottom.childNodes;
