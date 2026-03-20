@@ -512,9 +512,12 @@
     badge.parentNode.insertBefore(wrapper, badge);
     badge.style.margin = '0';
     wrapper.appendChild(badge);
-    /* Style the code_item to match brand-badge look */
-    codeEl.style.cssText = 'display:inline-block; font-size:14px; color:#1B4E91; font-weight:600; background:#f8f9fa; padding:8px 12px; border-radius:6px; border:1px solid #eee; margin:0; direction:ltr;';
-    wrapper.appendChild(codeEl);
+    /* Replace code_item with a proper RTL badge matching brand-badge style */
+    var skuBadge = document.createElement('div');
+    skuBadge.style.cssText = 'display:flex; align-items:center; gap:8px; background:#f8f9fa; padding:8px 12px; border-radius:6px; border:1px solid #eee; direction:rtl;';
+    skuBadge.innerHTML = '<span style="font-size:13px;color:#666;">\u05DE\u05E7"\u05D8:</span> <strong style="font-size:14px;color:#1B4E91;font-weight:600;">' + esc(codeEl.textContent.trim().replace(/^[\u05DE\u05E7"\u05D8:.\s]+/g,'').trim()) + '</strong>';
+    codeEl.style.display = 'none';
+    wrapper.appendChild(skuBadge);
   }
 
   function mergeQuantityAndCart() {
