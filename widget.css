@@ -1,6 +1,6 @@
-/* TecDoc Widget v9.1 — Tab Layout
+/* TecDoc Widget v9.4 — Tab Layout
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
-   RTL Hebrew, Heebo font — Compact design */
+   RTL Hebrew, Heebo font — Accessible design with larger fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
 
@@ -74,10 +74,10 @@
 }
 
 #tecdoc-widget .tw-tab {
-  padding: 12px 20px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #666;
+  padding: 14px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
   cursor: pointer;
   position: relative;
   white-space: nowrap;
@@ -134,8 +134,8 @@
 }
 
 #tecdoc-widget .tw-specs-table td {
-  padding: 8px 0 !important;
-  font-size: 13px !important;
+  padding: 10px 0 !important;
+  font-size: 15px !important;
   border: none !important;
   vertical-align: top !important;
   line-height: 1.4 !important;
@@ -253,11 +253,11 @@
 }
 
 #tecdoc-widget .tw-acc-icon {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 300;
   color: #329FDA;
-  width: 15px;
-  min-width: 15px;
+  width: 20px;
+  min-width: 20px;
   text-align: center;
   flex-shrink: 0;
   line-height: 1;
@@ -265,8 +265,8 @@
 }
 
 #tecdoc-widget .tw-acc-l1-name {
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   color: #222;
 }
 
@@ -300,14 +300,14 @@
 }
 
 #tecdoc-widget .tw-acc-l2-name {
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   color: #333;
   flex: 1;
 }
 
 #tecdoc-widget .tw-acc-l2-years {
-  font-size: 11px;
+  font-size: 13px;
   color: #888;
   white-space: nowrap;
   direction: ltr;
@@ -323,20 +323,21 @@
 
 /* Level 3: Engine specs (leaf nodes) */
 #tecdoc-widget .tw-acc-l3 {
-  padding: 5px 14px;
+  padding: 7px 14px;
   padding-right: 58px;
-  font-size: 11px;
+  font-size: 13px;
   color: #555;
   border-top: 1px solid #F5F5F5;
   line-height: 1.4;
 }
 
 #tecdoc-widget .tw-acc-l3-engine {
-  font-weight: 500;
-  color: #333;
+  font-weight: 600;
+  color: #222;
 }
 
 #tecdoc-widget .tw-acc-l3-years {
+  font-size: 12px;
   color: #888;
   direction: ltr;
   unicode-bidi: plaintext;
@@ -351,17 +352,17 @@
    OE NUMBERS
    ═══════════════════════════════════ */
 #tecdoc-widget .tw-oe-subtitle {
-  font-size: 11px;
+  font-size: 13px;
   color: #888;
   line-height: 1.4;
   padding: 10px 0 4px;
 }
 
 #tecdoc-widget .tw-oe-acc-item {
-  padding: 5px 0;
+  padding: 7px 0;
   padding-right: 36px;
   border-top: 1px solid #F5F5F5;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
