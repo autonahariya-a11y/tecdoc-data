@@ -316,6 +316,40 @@
     setTimeout(function() { cleanPageDOM(); }, 300);
     setTimeout(function() { cleanPageDOM(); }, 1000);
     setTimeout(function() { cleanPageDOM(); }, 2500);
+
+    /* Inject stock indicator next to the price area */
+    injectStockIndicator();
+  }
+
+  function injectStockIndicator() {
+    /* Don't inject if already exists */
+    if (document.querySelector('.tw-stock-inline')) return;
+    /* Find price area or code_item to place it nearby */
+    var priceArea = document.querySelector('.price-area, .price_area, .item_price, #item_price');
+    var codeItem = document.querySelector('.code_item');
+    var anchor = priceArea || codeItem;
+    if (!anchor) return;
+    var stockEl = document.createElement('div');
+    stockEl.className = 'tw-stock-inline';
+    stockEl.innerHTML = '<span class="tw-stock-dot-inline tw-in-stock-inline"></span><span class="tw-stock-text-inline">\u05D6\u05DE\u05D9\u05DF \u05D1\u05DE\u05DC\u05D0\u05D9</span>';
+    /* Insert after price area */
+    if (priceArea && priceArea.nextSibling) {
+      priceArea.parentNode.insertBefore(stockEl, priceArea.nextSibling);
+    } else if (priceArea) {
+      priceArea.parentNode.appendChild(stockEl);
+    } else if (codeItem) {
+      codeItem.parentNode.insertBefore(stockEl, codeItem.nextSibling);
+    }
+    /* Add inline styles since this is outside the widget scope */
+    var stockStyle = document.createElement('style');
+    stockStyle.textContent = [
+      '.tw-stock-inline { display:flex; align-items:center; gap:8px; padding:10px 0 6px; }',
+      '.tw-stock-dot-inline { width:10px; height:10px; border-radius:50%; flex-shrink:0; display:inline-block; }',
+      '.tw-stock-dot-inline.tw-in-stock-inline { background:#22c55e; box-shadow:0 0 4px rgba(34,197,94,0.4); }',
+      '.tw-stock-dot-inline.tw-out-of-stock-inline { background:#ef4444; box-shadow:0 0 4px rgba(239,68,68,0.4); }',
+      '.tw-stock-text-inline { font-size:15px; font-weight:600; color:#222; font-family:"Heebo",Arial,sans-serif; }'
+    ].join('\n');
+    document.head.appendChild(stockStyle);
   }
 
   function cleanPageDOM() {
@@ -468,9 +502,6 @@
     var w = getWidget(); if (!w) return;
     var html = '';
 
-    /* ── STOCK INDICATOR ── */
-    html += '<div class="tw-stock-bar"><span class="tw-stock-dot tw-in-stock"></span><span class="tw-stock-text">\u05D6\u05DE\u05D9\u05DF \u05D1\u05DE\u05DC\u05D0\u05D9</span></div>';
-
     /* ── TAB NAVIGATION ── */
     html += '<div class="tw-tabs">';
     html += '<div class="tw-tab tw-tab-active" data-tab="specs">\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
@@ -484,12 +515,16 @@
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
     } else {
       var allSpecs = [];
-      /* Add article number first */
-      if (D.articleNo) allSpecs.push({ name: '\u05DE\u05E7"\u05D8', value: D.articleNo });
-      /* Add supplier (unless hidden for filters) */
+      /* Add supplier + article number on same row */
       var pLow = (D.product || '').toLowerCase();
       var hideSupplier = (pLow === 'air filter' || pLow.indexOf('cabin air') !== -1 || pLow.indexOf('pollen') !== -1);
-      if (D.supplier && !hideSupplier) allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF', value: D.supplier });
+      if (D.supplier && !hideSupplier) {
+        var supplierVal = D.supplier;
+        if (D.articleNo) supplierVal += '  \u00B7  ' + D.articleNo;
+        allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF / \u05DE\u05E7"\u05D8', value: supplierVal });
+      } else if (D.articleNo) {
+        allSpecs.push({ name: '\u05DE\u05E7"\u05D8', value: D.articleNo });
+      }
       /* Add product type */
       if (D.product) {
         allSpecs.push({ name: '\u05E1\u05D5\u05D2 \u05DE\u05D5\u05E6\u05E8', value: trProduct(D.product) });
