@@ -63,41 +63,6 @@
 }
 
 /* ═══════════════════════════════════
-   STOCK INDICATOR — Autodoc-inspired
-   ═══════════════════════════════════ */
-#tecdoc-widget .tw-stock-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 4px;
-  margin-bottom: 4px;
-}
-
-#tecdoc-widget .tw-stock-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  display: inline-block;
-}
-
-#tecdoc-widget .tw-stock-dot.tw-in-stock {
-  background: #22c55e;
-  box-shadow: 0 0 4px rgba(34, 197, 94, 0.4);
-}
-
-#tecdoc-widget .tw-stock-dot.tw-out-of-stock {
-  background: #ef4444;
-  box-shadow: 0 0 4px rgba(239, 68, 68, 0.4);
-}
-
-#tecdoc-widget .tw-stock-text {
-  font-size: 15px;
-  font-weight: 600;
-  color: #222;
-}
-
-/* ═══════════════════════════════════
    TABS — Navigation bar
    ═══════════════════════════════════ */
 #tecdoc-widget .tw-tabs {
