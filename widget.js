@@ -442,8 +442,11 @@
       '#delivery_info, .delivery_details, div.item_delivery { display:none !important; }',
       /* Hide read-more link */
       'a.read_more_link { display:none !important; }',
-      /* Hide description paragraphs ONLY direct children of #item_info */
+      /* Hide description text — Konimbo uses p, span, or div for product descriptions */
       '#item_info > p { display:none !important; }',
+      '#item_info > .item_description, #item_info > .description, .item_description { display:none !important; }',
+      '#item_info > span:not(.code_item):not(.price):not([class*="price"]):not([class*="stock"]) { display:none !important; }',
+      'a.read_more_link, a.read_more, .read_more_link { display:none !important; }',
       /* Hide WhatsApp floating buttons if outside main content */
       'a[href*="whatsapp.com/send"]:not(#item_info a) { }',
 
@@ -571,11 +574,23 @@
     var readMore = document.querySelectorAll('a.read_more_link');
     for (var r = 0; r < readMore.length; r++) readMore[r].style.display = 'none';
 
-    /* 4. Hide description <p> tags that are direct children of #item_info */
+    /* 4. Hide description elements that are direct children of #item_info */
     var itemInfo = document.getElementById('item_info');
     if (itemInfo) {
       var pTags = itemInfo.querySelectorAll(':scope > p');
       for (var p = 0; p < pTags.length; p++) pTags[p].style.display = 'none';
+      /* Also hide description spans (Konimbo sometimes uses spans for descriptions) */
+      var spans = itemInfo.querySelectorAll(':scope > span');
+      for (var s = 0; s < spans.length; s++) {
+        var sp = spans[s];
+        /* Keep: code_item, price, stock elements */
+        if (sp.classList.contains('code_item') || sp.className.indexOf('price') !== -1 || sp.className.indexOf('stock') !== -1) continue;
+        /* Hide if it has substantial text (likely a description) */
+        if (sp.textContent.trim().length > 30) sp.style.display = 'none';
+      }
+      /* Hide .item_description or .description divs */
+      var descDivs = itemInfo.querySelectorAll(':scope > .item_description, :scope > .description');
+      for (var dd = 0; dd < descDivs.length; dd++) descDivs[dd].style.display = 'none';
     }
 
     /* 5. Hide back-to-top */
