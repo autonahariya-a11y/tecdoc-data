@@ -1394,49 +1394,86 @@
 
   /* ── Tab switching ── */
   function bindTabs(w) {
-    /* Use querySelectorAll with attribute selectors (NOT class selectors — Konimbo blocks those from JS) */
     var tabs = w.querySelectorAll('[data-tab]');
     var panels = w.querySelectorAll('[data-panel]');
+    if (!tabs.length) {
+      /* Fallback: find by getElementsByTagName if querySelectorAll fails */
+      var allDivs = w.getElementsByTagName('div');
+      var tabList = [], panelList = [];
+      for (var d = 0; d < allDivs.length; d++) {
+        if (allDivs[d].getAttribute('data-tab')) tabList.push(allDivs[d]);
+        if (allDivs[d].getAttribute('data-panel')) panelList.push(allDivs[d]);
+      }
+      tabs = tabList;
+      panels = panelList;
+    }
     for (var i = 0; i < tabs.length; i++) {
       tabs[i].addEventListener('click', function() {
         var target = this.getAttribute('data-tab');
+        /* Remove active from all tabs and panels using className directly */
         for (var t = 0; t < tabs.length; t++) {
-          tabs[t].classList.remove('tw-tab-active');
+          tabs[t].className = (tabs[t].className || '').replace(/\btw-tab-active\b/g, '').trim();
         }
         for (var p = 0; p < panels.length; p++) {
-          panels[p].classList.remove('tw-panel-active');
+          panels[p].className = (panels[p].className || '').replace(/\btw-panel-active\b/g, '').trim();
+          panels[p].style.display = 'none';
         }
-        this.classList.add('tw-tab-active');
-        var targetPanel = w.querySelector('[data-panel="' + target + '"]');
-        if (targetPanel) targetPanel.classList.add('tw-panel-active');
+        /* Activate clicked tab */
+        this.className = (this.className || '').replace(/\btw-tab-active\b/g, '').trim() + ' tw-tab-active';
+        /* Show target panel */
+        for (var p2 = 0; p2 < panels.length; p2++) {
+          if (panels[p2].getAttribute('data-panel') === target) {
+            panels[p2].className = (panels[p2].className || '').replace(/\btw-panel-active\b/g, '').trim() + ' tw-panel-active';
+            panels[p2].style.display = 'block';
+          }
+        }
       });
     }
   }
 
   function bindAccordions(w) {
-    /* Use data-level attribute instead of class selector (Konimbo blocks class-based querySelector) */
     var hs = w.querySelectorAll('[data-level]');
+    if (!hs.length) {
+      var allDivs = w.getElementsByTagName('div');
+      var hList = [];
+      for (var d = 0; d < allDivs.length; d++) {
+        if (allDivs[d].getAttribute('data-level')) hList.push(allDivs[d]);
+      }
+      hs = hList;
+    }
     for (var i = 0; i < hs.length; i++) {
       hs[i].addEventListener('click', function() {
         var p = this.parentElement;
-        var ic = this.getElementsByTagName('span')[0]; /* tw-acc-icon is the first span */
-        var open = p.classList.contains('tw-open');
-        p.classList.toggle('tw-open');
-        if (ic) ic.textContent = open ? '+' : '\u2212';
+        var ic = this.getElementsByTagName('span')[0];
+        var open = (p.className || '').indexOf('tw-open') !== -1;
+        if (open) {
+          p.className = (p.className || '').replace(/\btw-open\b/g, '').trim();
+          if (ic) ic.textContent = '+';
+        } else {
+          p.className = (p.className || '') + ' tw-open';
+          if (ic) ic.textContent = '\u2212';
+        }
       });
     }
   }
 
   function bindMoreToggle(w) {
-    var btn = w.querySelector('#tw-more-toggle');
+    var btn = document.getElementById('tw-more-toggle');
     if (!btn) return;
-    var tbl = w.querySelector('#tw-specs-tbl');
+    var tbl = document.getElementById('tw-specs-tbl');
     btn.addEventListener('click', function(e) {
       e.preventDefault();
       e.stopPropagation();
-      var expanded = tbl.classList.toggle('tw-expanded');
-      btn.classList.toggle('tw-expanded', expanded);
-      btn.innerHTML = expanded ? '\u05E4\u05D7\u05D5\u05EA <span class="tw-arrow">\u25B2</span>' : '\u05E2\u05D5\u05D3 <span class="tw-arrow">\u25BC</span>';
+      var isExpanded = (tbl.className || '').indexOf('tw-expanded') !== -1;
+      if (isExpanded) {
+        tbl.className = (tbl.className || '').replace(/\btw-expanded\b/g, '').trim();
+        btn.className = (btn.className || '').replace(/\btw-expanded\b/g, '').trim();
+        btn.innerHTML = '\u05E2\u05D5\u05D3 <span class="tw-arrow">\u25BC</span>';
+      } else {
+        tbl.className = (tbl.className || '') + ' tw-expanded';
+        btn.className = (btn.className || '') + ' tw-expanded';
+        btn.innerHTML = '\u05E4\u05D7\u05D5\u05EA <span class="tw-arrow">\u25B2</span>';
+      }
     });
   }
 
