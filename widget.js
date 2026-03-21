@@ -1,5 +1,5 @@
-/* TecDoc Widget v10.9 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
-   Changes in v10.9: Added CSS-level purchase row styling (not just inline) to survive Konimbo overrides. Mobile responsive purchase area. Reinforced cart button color #1B4E91 via <style> tag.
+/* TecDoc Widget v11.0 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
+   Changes in v11.0: Separated cart+qty buttons (gap between them). Hidden non-consumer specs (WVA, Supplementary Info, packaging). Fitting Position prioritized to top of specs.
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -15,6 +15,19 @@
 
   /* How many spec rows to show before "More ▼" */
   var SPECS_VISIBLE = 6;
+
+  /* Specs to HIDE from consumers (technical/catalog data not useful for private buyer) */
+  var HIDDEN_SPECS = [
+    'WVA Number', 'Supplementary Article/Supplementary Info',
+    'Supplementary Article/Info 2', 'Supplementary Article/Info',
+    'for PR number', 'Check Character', 'MAPP',
+    'Packaging length [cm]', 'Packaging width [cm]', 'Packaging height [cm]',
+    'Net Weight [g]', 'Fitting time [min.]', 'Packing Type',
+    'Quantity Unit', 'EAN number'
+  ];
+
+  /* Specs to show FIRST (priority order) — Fitting Position at the top */
+  var PRIORITY_SPECS = ['Fitting Position'];
 
   /* ── Hebrew translations ── */
   var SPEC_TR = {
@@ -621,11 +634,11 @@
         '.buy_now_button, .buy-now-button, [class*="buy_now"], [class*="buy-now"] { display: none !important; }',
         '/* Hide number input spinners */',
         'input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none !important; margin: 0 !important; }',
-        '/* Purchase row layout */',
-        '.tw-purchase-row { display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:8px !important; width:100% !important; max-width:400px !important; }',
-        '.tw-purchase-row a, .tw-purchase-row .tw-cart-btn { background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:8px 0 0 8px !important; font-size:17px !important; font-weight:700 !important; height:48px !important; display:flex !important; align-items:center !important; justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 16px !important; text-decoration:none !important; font-family:"Heebo",sans-serif !important; cursor:pointer !important; box-sizing:border-box !important; line-height:1.2 !important; white-space:nowrap !important; }',
+        '/* Purchase row layout — SEPARATED buttons */',
+        '.tw-purchase-row { display:flex !important; align-items:stretch !important; gap:10px !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:8px !important; width:100% !important; max-width:420px !important; }',
+        '.tw-purchase-row a, .tw-purchase-row .tw-cart-btn { background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:8px !important; font-size:17px !important; font-weight:700 !important; height:48px !important; display:flex !important; align-items:center !important; justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 16px !important; text-decoration:none !important; font-family:"Heebo",sans-serif !important; cursor:pointer !important; box-sizing:border-box !important; line-height:1.2 !important; white-space:nowrap !important; }',
         '/* Custom qty selector styling */',
-        '.tw-qty-selector { display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:0 8px 8px 0 !important; border-left:none !important; overflow:hidden !important; flex-shrink:0 !important; height:48px !important; min-width:110px !important; background:#fff !important; }',
+        '.tw-qty-selector { display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:8px !important; overflow:hidden !important; flex-shrink:0 !important; height:48px !important; min-width:110px !important; background:#fff !important; }',
         '.tw-qty-selector span { width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:22px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; padding:0 !important; margin:0 !important; line-height:1 !important; user-select:none !important; flex-shrink:0 !important; }',
         '.tw-qty-selector input { width:38px !important; height:100% !important; text-align:center !important; border:none !important; border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; color:#333 !important; -moz-appearance:textfield !important; background:#fff !important; padding:0 !important; margin:0 !important; outline:none !important; }',
         '/* Mobile purchase area */',
@@ -705,12 +718,12 @@
       var purchaseRow = document.createElement('div');
       purchaseRow.className = 'tw-purchase-row';
       purchaseRow.setAttribute('style',
-        'display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:8px !important; width:100% !important;');
+        'display:flex !important; align-items:stretch !important; gap:10px !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:8px !important; width:100% !important; max-width:420px !important;');
 
       /* Clone & restyle the cart button */
       var cartClone = cartBtn.cloneNode(true);
       cartClone.setAttribute('style',
-        'background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:8px 0 0 8px !important; ' +
+        'background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:8px !important; ' +
         'font-size:17px !important; font-weight:700 !important; height:48px !important; display:flex !important; align-items:center !important; ' +
         'justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 16px !important; text-decoration:none !important; ' +
         'font-family:"Heebo",sans-serif !important; cursor:pointer !important; box-sizing:border-box !important; line-height:1.2 !important; white-space:nowrap !important;');
@@ -1077,16 +1090,32 @@
       if (D.product) {
         allSpecs.push({ name: '\u05E1\u05D5\u05D2 \u05DE\u05D5\u05E6\u05E8', value: trProduct(D.product) });
       }
-      /* Add TecDoc specs — skip empty, 0, or irrelevant values */
+      /* Add TecDoc specs — skip empty, 0, hidden, or irrelevant values */
+      var prioritySpecs = [];
+      var normalSpecs = [];
       for (var i = 0; i < D.specs.length; i++) {
         var sv = (D.specs[i].criteriaValue || '').trim();
         if (!sv || sv === '0' || sv === '0.0' || sv === '0,0' || sv === '-' || sv === 'N/A') continue;
-        /* Skip EAN if it appears as a spec */
-        var sn = (D.specs[i].criteriaName || '').toLowerCase();
+        var rawName = D.specs[i].criteriaName || '';
+        var sn = rawName.toLowerCase();
+        /* Skip EAN */
         if (sn.indexOf('ean') !== -1) continue;
-        allSpecs.push({ name: trSpec(D.specs[i].criteriaName), value: trVal(D.specs[i].criteriaName, D.specs[i].criteriaValue) });
+        /* Skip hidden specs (not relevant for private consumer) */
+        var isHidden = false;
+        for (var hi = 0; hi < HIDDEN_SPECS.length; hi++) {
+          if (rawName === HIDDEN_SPECS[hi] || sn === HIDDEN_SPECS[hi].toLowerCase()) { isHidden = true; break; }
+        }
+        if (isHidden) continue;
+        /* Check if priority spec */
+        var isPriority = false;
+        for (var pi = 0; pi < PRIORITY_SPECS.length; pi++) {
+          if (rawName === PRIORITY_SPECS[pi]) { isPriority = true; break; }
+        }
+        var specObj = { name: trSpec(rawName), value: trVal(rawName, D.specs[i].criteriaValue) };
+        if (isPriority) { prioritySpecs.push(specObj); } else { normalSpecs.push(specObj); }
       }
-      /* EAN removed per user request */
+      /* Merge: priority specs first, then normal */
+      allSpecs = allSpecs.concat(prioritySpecs).concat(normalSpecs);
 
       var hasHidden = allSpecs.length > SPECS_VISIBLE;
       html += '<table class="tw-specs-table" id="tw-specs-tbl">';
