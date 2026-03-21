@@ -1,5 +1,5 @@
-/* TecDoc Widget v11.0 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
-   Changes in v11.0: Separated cart+qty buttons (gap between them). Hidden non-consumer specs (WVA, Supplementary Info, packaging). Fitting Position prioritized to top of specs.
+/* TecDoc Widget v11.1 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
+   Changes in v11.1: Hide old Konimbo +/- qty box aggressively. Out-of-stock detection with red indicator + WhatsApp CTA. Hide duplicate stock indicators. Stock above price.
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -548,6 +548,39 @@
     }
   }
 
+  function detectOutOfStock() {
+    /* Check if product is out of stock by looking for Konimbo's indicators */
+    /* Konimbo uses various patterns: disabled cart button, 'אזל' text, 'out_of_stock' class, quantity=0 */
+    var body = document.body;
+    if (!body) return false;
+    var bodyText = body.innerHTML || '';
+    /* Check for common Konimbo out-of-stock signals */
+    var cartBtn = document.querySelector('.add_to_cart_button');
+    if (!cartBtn) {
+      /* Also search by text */
+      var allA = document.getElementsByTagName('a');
+      for (var i = 0; i < allA.length; i++) {
+        if ((allA[i].textContent || '').trim().indexOf('\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4') !== -1) {
+          cartBtn = allA[i]; break;
+        }
+      }
+    }
+    if (cartBtn) {
+      var btnStyle = window.getComputedStyle(cartBtn);
+      if (btnStyle.display === 'none' || btnStyle.visibility === 'hidden') return true;
+      if (cartBtn.classList.contains('disabled') || cartBtn.hasAttribute('disabled')) return true;
+    }
+    /* Check for Konimbo out-of-stock text patterns */
+    var spans = document.getElementsByTagName('span');
+    for (var s = 0; s < spans.length; s++) {
+      var txt = (spans[s].textContent || '').trim();
+      if (txt === '\u05D0\u05D6\u05DC \u05DE\u05D4\u05DE\u05DC\u05D0\u05D9' || txt === '\u05DC\u05D0 \u05D6\u05DE\u05D9\u05DF' || txt === 'Out of stock') return true;
+    }
+    /* Check for item_not_available class or similar */
+    if (document.querySelector('.item_not_available, .out-of-stock, .out_of_stock, [class*="not_available"]')) return true;
+    return false;
+  }
+
   function injectStockIndicator() {
     /* Don't inject if already exists */
     if (document.querySelector('.tw-stock-inline')) return;
@@ -555,25 +588,49 @@
     var priceArea = document.querySelector('.item_price, .price-area, .price_area, #item_price');
     var codeItem = document.querySelector('.code_item');
     if (!priceArea && !codeItem) return;
+
+    var isOOS = detectOutOfStock();
     var stockEl = document.createElement('div');
     stockEl.className = 'tw-stock-inline';
-    stockEl.innerHTML = '<span class="tw-stock-dot-inline tw-in-stock-inline"></span><span class="tw-stock-text-inline">\u05D6\u05DE\u05D9\u05DF \u05D1\u05DE\u05DC\u05D0\u05D9</span>';
+    stockEl.setAttribute('style', 'display:flex !important; align-items:center !important; gap:8px !important; padding:8px 0 4px !important; clear:both !important; width:100% !important;');
+    if (isOOS) {
+      stockEl.innerHTML = '<span class="tw-stock-dot-inline tw-out-of-stock-inline"></span><span class="tw-stock-text-inline" style="color:#ef4444 !important;">\u05D0\u05D6\u05DC \u05DE\u05D4\u05DE\u05DC\u05D0\u05D9</span>';
+    } else {
+      stockEl.innerHTML = '<span class="tw-stock-dot-inline tw-in-stock-inline"></span><span class="tw-stock-text-inline">\u05D6\u05DE\u05D9\u05DF \u05D1\u05DE\u05DC\u05D0\u05D9</span>';
+    }
     /* Insert BEFORE price area (stock above price) */
     if (priceArea && priceArea.parentNode) {
       priceArea.parentNode.insertBefore(stockEl, priceArea);
     } else if (codeItem) {
       codeItem.parentNode.insertBefore(stockEl, codeItem.nextSibling);
     }
+
+    /* Hide Konimbo's own stock indicator if it exists (to avoid duplicate) */
+    var allSpans = document.getElementsByTagName('span');
+    for (var hs = 0; hs < allSpans.length; hs++) {
+      var hsTxt = (allSpans[hs].textContent || '').trim();
+      if ((hsTxt === '\u05D6\u05DE\u05D9\u05DF \u05D1\u05DE\u05DC\u05D0\u05D9' || hsTxt === '\u05D0\u05D6\u05DC \u05DE\u05D4\u05DE\u05DC\u05D0\u05D9') && !allSpans[hs].classList.contains('tw-stock-text-inline')) {
+        var sParent = allSpans[hs].closest ? allSpans[hs].closest('div,span,p') : allSpans[hs].parentElement;
+        if (sParent && !sParent.classList.contains('tw-stock-inline')) {
+          sParent.setAttribute('style', 'display:none !important;');
+        }
+      }
+    }
+
     /* Add inline styles since this is outside the widget scope */
-    var stockStyle = document.createElement('style');
-    stockStyle.textContent = [
-      '.tw-stock-inline { display:flex; align-items:center; gap:8px; padding:8px 0 4px; }',
-      '.tw-stock-dot-inline { width:10px; height:10px; border-radius:50%; flex-shrink:0; display:inline-block; }',
-      '.tw-stock-dot-inline.tw-in-stock-inline { background:#22c55e; box-shadow:0 0 6px rgba(34,197,94,0.5); }',
-      '.tw-stock-dot-inline.tw-out-of-stock-inline { background:#ef4444; box-shadow:0 0 6px rgba(239,68,68,0.5); }',
-      '.tw-stock-text-inline { font-size:14px; font-weight:600; color:#22c55e; font-family:"Heebo",Arial,sans-serif; }'
-    ].join('\n');
-    document.head.appendChild(stockStyle);
+    if (!document.querySelector('#tw-stock-style')) {
+      var stockStyle = document.createElement('style');
+      stockStyle.id = 'tw-stock-style';
+      stockStyle.textContent = [
+        '.tw-stock-inline { display:flex !important; align-items:center !important; gap:8px !important; padding:8px 0 4px !important; }',
+        '.tw-stock-dot-inline { width:10px; height:10px; border-radius:50%; flex-shrink:0; display:inline-block; }',
+        '.tw-stock-dot-inline.tw-in-stock-inline { background:#22c55e; box-shadow:0 0 6px rgba(34,197,94,0.5); }',
+        '.tw-stock-dot-inline.tw-out-of-stock-inline { background:#ef4444; box-shadow:0 0 6px rgba(239,68,68,0.5); }',
+        '.tw-stock-text-inline { font-size:14px; font-weight:600; color:#22c55e; font-family:"Heebo",Arial,sans-serif; }',
+        '.tw-stock-text-inline[style*="ef4444"] { color:#ef4444 !important; }'
+      ].join('\n');
+      document.head.appendChild(stockStyle);
+    }
   }
 
   function mergeSKUintoBrandBadge() {
@@ -630,8 +687,9 @@
       s.id = 'tw-purchase-css';
       s.textContent = [
         '/* TW Purchase Area Override v10.9 */',
-        '/* Hide buy-now everywhere */',
+        '/* Hide buy-now and old Konimbo quantity everywhere */',
         '.buy_now_button, .buy-now-button, [class*="buy_now"], [class*="buy-now"] { display: none !important; }',
+        '.item_quantity:not(.tw-qty-selector) { display: none !important; width:0 !important; height:0 !important; position:absolute !important; overflow:hidden !important; }',
         '/* Hide number input spinners */',
         'input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none !important; margin: 0 !important; }',
         '/* Purchase row layout — SEPARATED buttons */',
@@ -645,6 +703,29 @@
         '@media (max-width: 480px) { .tw-purchase-row { max-width:100% !important; } .tw-purchase-row a, .tw-purchase-row .tw-cart-btn { font-size:15px !important; height:44px !important; padding:0 12px !important; } .tw-qty-selector { height:44px !important; min-width:100px !important; } .tw-qty-selector span { width:32px !important; font-size:20px !important; } .tw-qty-selector input { width:34px !important; font-size:15px !important; } }'
       ].join('\n');
       document.body.appendChild(s);
+    }
+
+    /* 1b. Aggressively hide ALL original Konimbo quantity selectors (the stacked +/- box) */
+    var allSpansQ = document.getElementsByTagName('span');
+    for (var sq = 0; sq < allSpansQ.length; sq++) {
+      var sqClass = allSpansQ[sq].className || '';
+      if (sqClass.indexOf('quantity_up') !== -1 || sqClass.indexOf('quantity_down') !== -1) {
+        var qtyContainer = allSpansQ[sq].parentElement;
+        if (qtyContainer && !qtyContainer.classList.contains('tw-qty-selector')) {
+          qtyContainer.setAttribute('style', 'display:none !important; width:0 !important; height:0 !important; position:absolute !important; overflow:hidden !important;');
+        }
+      }
+    }
+    /* Also hide by tag search: find input[type=number] outside our widget and hide its container */
+    var allInputsQ = document.getElementsByTagName('input');
+    for (var iq = 0; iq < allInputsQ.length; iq++) {
+      if ((allInputsQ[iq].type === 'number' || allInputsQ[iq].className.indexOf('quantity') !== -1) &&
+          !allInputsQ[iq].closest('.tw-qty-selector') && !allInputsQ[iq].closest('.tw-purchase-row')) {
+        var iqParent = allInputsQ[iq].parentElement;
+        if (iqParent) {
+          iqParent.setAttribute('style', 'display:none !important; width:0 !important; height:0 !important; position:absolute !important; overflow:hidden !important;');
+        }
+      }
     }
 
     /* 2. Find the cart button — by class OR text content */
@@ -662,6 +743,41 @@
       }
     }
     if (!cartBtn) return;
+
+    /* 2b. Check if out of stock — replace purchase area with WhatsApp button */
+    var isOOS = detectOutOfStock();
+    if (isOOS && !document.querySelector('.tw-whatsapp-row')) {
+      /* Build WhatsApp CTA instead of cart */
+      var productTitle = '';
+      var h1 = document.querySelector('#item_current_title h1') || document.querySelector('h1');
+      if (h1) productTitle = (h1.textContent || '').trim();
+      var sku = '';
+      var codeEl = document.querySelector('.code_item');
+      if (codeEl) sku = (codeEl.textContent || '').replace(/[^a-zA-Z0-9]/g, ' ').trim();
+      var waMsg = '\u05E9\u05DC\u05D5\u05DD, \u05D0\u05E0\u05D9 \u05DE\u05E2\u05D5\u05E0\u05D9\u05D9\u05DF/\u05EA \u05D1\u05DE\u05D5\u05E6\u05E8: ' + productTitle;
+      if (sku) waMsg += ' (\u05DE\u05E7"\u05D8: ' + sku + ')';
+      waMsg += '. \u05D4\u05D0\u05DD \u05D0\u05E4\u05E9\u05E8 \u05DC\u05D4\u05D6\u05DE\u05D9\u05DF?';
+      var waUrl = 'https://wa.me/97249517322?text=' + encodeURIComponent(waMsg);
+
+      var waRow = document.createElement('div');
+      waRow.className = 'tw-whatsapp-row';
+      waRow.setAttribute('style', 'display:flex !important; direction:rtl !important; margin-top:8px !important; width:100% !important; max-width:420px !important;');
+      waRow.innerHTML = '<a href="' + waUrl + '" target="_blank" rel="noopener" style="' +
+        'background:#25D366 !important; color:#fff !important; border:none !important; border-radius:8px !important; ' +
+        'font-size:17px !important; font-weight:700 !important; height:48px !important; display:flex !important; align-items:center !important; ' +
+        'justify-content:center !important; gap:10px !important; width:100% !important; padding:0 16px !important; text-decoration:none !important; ' +
+        'font-family:Heebo,sans-serif !important; cursor:pointer !important; box-sizing:border-box !important;">' +
+        '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492l4.624-1.467A11.932 11.932 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75c-2.16 0-4.16-.681-5.803-1.84l-.416-.262-2.743.87.893-2.666-.287-.442A9.72 9.72 0 012.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75z"/></svg>' +
+        '\u05E9\u05D0\u05DC \u05D0\u05D5\u05EA\u05E0\u05D5 \u05D1\u05D5\u05D5\u05D0\u05D8\u05E1\u05D0\u05E4</a>';
+
+      /* Insert and hide original cart area */
+      var cartParent = cartBtn.parentElement;
+      if (cartParent && cartParent.parentElement) {
+        cartParent.parentElement.insertBefore(waRow, cartParent);
+        cartParent.setAttribute('style', 'position:absolute !important; width:0 !important; height:0 !important; overflow:hidden !important; opacity:0 !important; pointer-events:none !important;');
+      }
+      return; /* Don't build cart row when OOS */
+    }
 
     /* Skip if already fully built */
     if (document.querySelector('.tw-purchase-row')) {
