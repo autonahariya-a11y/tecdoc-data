@@ -1,5 +1,5 @@
-/* TecDoc Widget v10.8 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
-   Changes in v10.8: Complete purchase row rebuild (clone cart+build qty as one unit), hide original cart area entirely. Bigger fonts in tabs.
+/* TecDoc Widget v10.9 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
+   Changes in v10.9: Added CSS-level purchase row styling (not just inline) to survive Konimbo overrides. Mobile responsive purchase area. Reinforced cart button color #1B4E91 via <style> tag.
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -616,15 +616,20 @@
       var s = document.createElement('style');
       s.id = 'tw-purchase-css';
       s.textContent = [
-        '/* TW Purchase Area Override v10.8 */',
+        '/* TW Purchase Area Override v10.9 */',
         '/* Hide buy-now everywhere */',
         '.buy_now_button, .buy-now-button, [class*="buy_now"], [class*="buy-now"] { display: none !important; }',
         '/* Hide number input spinners */',
         'input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none !important; margin: 0 !important; }',
+        '/* Purchase row layout */',
+        '.tw-purchase-row { display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:8px !important; width:100% !important; max-width:400px !important; }',
+        '.tw-purchase-row a, .tw-purchase-row .tw-cart-btn { background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:8px 0 0 8px !important; font-size:17px !important; font-weight:700 !important; height:48px !important; display:flex !important; align-items:center !important; justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 16px !important; text-decoration:none !important; font-family:"Heebo",sans-serif !important; cursor:pointer !important; box-sizing:border-box !important; line-height:1.2 !important; white-space:nowrap !important; }',
         '/* Custom qty selector styling */',
         '.tw-qty-selector { display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:0 8px 8px 0 !important; border-left:none !important; overflow:hidden !important; flex-shrink:0 !important; height:48px !important; min-width:110px !important; background:#fff !important; }',
         '.tw-qty-selector span { width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:22px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; padding:0 !important; margin:0 !important; line-height:1 !important; user-select:none !important; flex-shrink:0 !important; }',
-        '.tw-qty-selector input { width:38px !important; height:100% !important; text-align:center !important; border:none !important; border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; color:#333 !important; -moz-appearance:textfield !important; background:#fff !important; padding:0 !important; margin:0 !important; outline:none !important; }'
+        '.tw-qty-selector input { width:38px !important; height:100% !important; text-align:center !important; border:none !important; border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; color:#333 !important; -moz-appearance:textfield !important; background:#fff !important; padding:0 !important; margin:0 !important; outline:none !important; }',
+        '/* Mobile purchase area */',
+        '@media (max-width: 480px) { .tw-purchase-row { max-width:100% !important; } .tw-purchase-row a, .tw-purchase-row .tw-cart-btn { font-size:15px !important; height:44px !important; padding:0 12px !important; } .tw-qty-selector { height:44px !important; min-width:100px !important; } .tw-qty-selector span { width:32px !important; font-size:20px !important; } .tw-qty-selector input { width:34px !important; font-size:15px !important; } }'
       ].join('\n');
       document.body.appendChild(s);
     }
