@@ -468,6 +468,9 @@
       '#item_show_facebook { display:none !important; }',
       '#item_current_sub_title { display:none !important; }',
       '.wrap_content_top { display:none !important; }',
+      '/* Spacing: gap between spotlight circles and product title */',
+      '.spotlight_items, .spotlights, .spotlight-items, .spotlight_wrapper, .spot_light_items { margin-bottom:16px !important; }',
+      '#item_current_title { margin-top:8px !important; }',
       /* Hide shipping/warranty/ask-us/trust icons in Konimbo */
       '.item_shipping, .item_warranty, .item_delivery, .shipping_details { display:none !important; }',
       '.ask_about_item, .ask_us, .ask_question, [class*="ask_about"] { display:none !important; }',
