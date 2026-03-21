@@ -135,7 +135,7 @@
 
 #tecdoc-widget .tw-specs-table td {
   padding: 10px 0 !important;
-  font-size: 15px !important;
+  font-size: 16px !important;
   border: none !important;
   vertical-align: top !important;
   line-height: 1.4 !important;
@@ -179,9 +179,9 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 6px 16px;
-  font-size: 12px;
-  font-weight: 400;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 500;
   color: #329FDA;
   cursor: pointer;
   background: none;
@@ -265,7 +265,7 @@
 }
 
 #tecdoc-widget .tw-acc-l1-name {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
   color: #222;
 }
@@ -300,7 +300,7 @@
 }
 
 #tecdoc-widget .tw-acc-l2-name {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   color: #333;
   flex: 1;
@@ -325,7 +325,7 @@
 #tecdoc-widget .tw-acc-l3 {
   padding: 7px 14px;
   padding-right: 58px;
-  font-size: 13px;
+  font-size: 14px;
   color: #555;
   border-top: 1px solid #F5F5F5;
   line-height: 1.4;
@@ -352,17 +352,17 @@
    OE NUMBERS
    ═══════════════════════════════════ */
 #tecdoc-widget .tw-oe-subtitle {
-  font-size: 13px;
+  font-size: 14px;
   color: #888;
   line-height: 1.4;
   padding: 10px 0 4px;
 }
 
 #tecdoc-widget .tw-oe-acc-item {
-  padding: 7px 0;
+  padding: 8px 0;
   padding-right: 36px;
   border-top: 1px solid #F5F5F5;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.4;
 }
 
@@ -473,8 +473,8 @@
   }
 
   #tecdoc-widget .tw-specs-table td {
-    padding: 6px 0 !important;
-    font-size: 12px !important;
+    padding: 8px 0 !important;
+    font-size: 14px !important;
   }
 
   #tecdoc-widget .tw-specs-table td:first-child {
@@ -482,7 +482,11 @@
   }
 
   #tecdoc-widget .tw-acc-l1-header {
-    padding: 7px 12px;
+    padding: 8px 12px;
+  }
+
+  #tecdoc-widget .tw-acc-l1-name {
+    font-size: 15px;
   }
 
   #tecdoc-widget .tw-acc-l2-header {
@@ -490,13 +494,19 @@
     padding-left: 12px;
   }
 
+  #tecdoc-widget .tw-acc-l2-name {
+    font-size: 14px;
+  }
+
   #tecdoc-widget .tw-acc-l3 {
     padding-right: 46px;
     padding-left: 12px;
+    font-size: 13px;
   }
 
   #tecdoc-widget .tw-oe-acc-item {
     padding-right: 30px;
+    font-size: 14px;
   }
 }
 
@@ -505,7 +515,7 @@
    ═══════════════════════════════════ */
 @media (max-width: 480px) {
   #tecdoc-widget {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   #tecdoc-widget .tw-tabs {
@@ -513,14 +523,14 @@
   }
 
   #tecdoc-widget .tw-tab {
-    padding: 10px 12px;
-    font-size: 14px;
+    padding: 12px 10px;
+    font-size: 15px;
     flex: 1;
   }
 
   #tecdoc-widget .tw-specs-table td {
-    padding: 5px 0 !important;
-    font-size: 12px !important;
+    padding: 8px 0 !important;
+    font-size: 14px !important;
   }
 
   #tecdoc-widget .tw-specs-table td:first-child {
@@ -529,11 +539,11 @@
   }
 
   #tecdoc-widget .tw-acc-l1-header {
-    padding: 7px 10px;
+    padding: 9px 10px;
   }
 
   #tecdoc-widget .tw-acc-l1-name {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   #tecdoc-widget .tw-acc-l2-header {
@@ -542,22 +552,22 @@
   }
 
   #tecdoc-widget .tw-acc-l2-name {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   #tecdoc-widget .tw-acc-l3 {
     padding-right: 40px;
     padding-left: 10px;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   #tecdoc-widget .tw-oe-acc-item {
     padding-right: 26px;
-    font-size: 11px;
+    font-size: 14px;
   }
 
   #tecdoc-widget .tw-oe-info {
-    font-size: 10px;
+    font-size: 12px;
     padding: 8px 10px;
   }
 
@@ -568,11 +578,11 @@
     padding: 10px 0;
   }
   #tecdoc-widget .tw-strength-icon svg {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
   }
   #tecdoc-widget .tw-strength-text {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
