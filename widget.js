@@ -752,20 +752,24 @@
 
     /* 3. Style quantity selector — multiple strategies to find it */
     var qtyBox = document.querySelector('.item_add_to_cart .item_quantity') || document.querySelector('.item_quantity');
+    var qtyDebug = 'initial:' + !!qtyBox;
     if (!qtyBox && cartBtn) {
       /* Strategy A: walk up from cartBtn and search siblings at each level */
       var ancestor = cartBtn.parentElement;
       for (var lvl = 0; lvl < 4 && ancestor && !qtyBox; lvl++) {
         var kids = ancestor.children;
+        qtyDebug += '|lvl' + lvl + ':' + kids.length + 'kids';
         for (var si = 0; si < kids.length; si++) {
           var kid = kids[si];
-          if (kid === cartBtn || kid.contains(cartBtn)) continue;
-          /* Check if this element IS a qty container (has input + text elements) */
+          if (kid === cartBtn || (kid.contains && kid.contains(cartBtn))) continue;
           var kidInputs = kid.getElementsByTagName('input');
+          qtyDebug += ',kid' + si + ':' + kid.tagName + '/' + kidInputs.length + 'inp';
           for (var ii = 0; ii < kidInputs.length; ii++) {
             var inp = kidInputs[ii];
+            qtyDebug += ',inp:' + inp.type;
             if (inp.type === 'number' || inp.name === 'quantity' || (inp.className && inp.className.indexOf('quantity') !== -1)) {
               qtyBox = kid;
+              qtyDebug += ',FOUND!';
               break;
             }
           }
@@ -776,17 +780,25 @@
       /* Strategy B: find ANY number input on the page and use its parent */
       if (!qtyBox) {
         var allInputs = document.getElementsByTagName('input');
+        qtyDebug += '|globalInputs:' + allInputs.length;
         for (var inp2 = 0; inp2 < allInputs.length; inp2++) {
           var ai = allInputs[inp2];
+          qtyDebug += ',t:' + ai.type;
           if (ai.type === 'number' || ai.name === 'quantity' || (ai.className && ai.className.indexOf('quantity') !== -1)) {
             var aiParent = ai.parentElement;
             if (aiParent && aiParent !== document.body) {
               qtyBox = aiParent;
+              qtyDebug += ',FOUND-B!';
               break;
             }
           }
         }
       }
+    }
+    /* Save debug info to DOM for diagnostics */
+    if (cartBtn) {
+      cartBtn.setAttribute('data-qty-debug', qtyDebug);
+      cartBtn.setAttribute('data-qty-found', qtyBox ? 'yes' : 'no');
     }
     if (qtyBox) {
       qtyBox.setAttribute('style',
