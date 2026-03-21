@@ -1,5 +1,5 @@
-/* TecDoc Widget v10.3 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
-   Changes in v10.3: Fixed qty selector CSS — target Konimbo .quantity_up/.quantity_down + .item_quantity_input, fixed RTL border-radius, inline styles for qty buttons
+/* TecDoc Widget v10.4 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
+   Changes in v10.4: Fixed qty vertical stacking — added flex-direction:row + min-width:120px to .item_quantity, target .quantity_up/.quantity_down
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -665,6 +665,7 @@
         '.item_add_to_cart .item_quantity,',
         '.item_quantity {',
         '  display: flex !important;',
+        '  flex-direction: row !important;',
         '  align-items: center !important;',
         '  border: 2px solid #e0e0e0 !important;',
         '  border-radius: 0 8px 8px 0 !important;',
@@ -672,6 +673,7 @@
         '  overflow: hidden !important;',
         '  flex-shrink: 0 !important;',
         '  height: 50px !important;',
+        '  min-width: 120px !important;',
         '  background: #fff !important;',
         '}',
         '.item_quantity .quantity_up, .item_quantity .quantity_down,',
@@ -769,8 +771,8 @@
     }
     if (qtyBox) {
       qtyBox.setAttribute('style',
-        'display:flex !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:0 8px 8px 0 !important; border-left:none !important; ' +
-        'overflow:hidden !important; flex-shrink:0 !important; height:50px !important; background:#fff !important;');
+        'display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:0 8px 8px 0 !important; border-left:none !important; ' +
+        'overflow:hidden !important; flex-shrink:0 !important; height:50px !important; background:#fff !important; min-width:120px !important;');
       /* Style the +/- buttons inside qty (Konimbo uses .quantity_up/.quantity_down) */
       var qtyBtns = qtyBox.querySelectorAll('.quantity_up, .quantity_down, .plus, .minus');
       for (var qb = 0; qb < qtyBtns.length; qb++) {
