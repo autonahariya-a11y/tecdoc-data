@@ -716,25 +716,60 @@
       document.body.appendChild(s);
     }
 
-    /* 1b. Aggressively hide ALL original Konimbo quantity selectors (the stacked +/- box) */
-    var allSpansQ = document.getElementsByTagName('span');
-    for (var sq = 0; sq < allSpansQ.length; sq++) {
-      var sqClass = allSpansQ[sq].className || '';
-      if (sqClass.indexOf('quantity_up') !== -1 || sqClass.indexOf('quantity_down') !== -1) {
-        var qtyContainer = allSpansQ[sq].parentElement;
-        if (qtyContainer && !qtyContainer.classList.contains('tw-qty-selector')) {
-          qtyContainer.setAttribute('style', 'display:none !important; width:0 !important; height:0 !important; position:absolute !important; overflow:hidden !important;');
+    /* 1b. Aggressively hide ALL original Konimbo quantity selectors.
+       On Konimbo, className returns empty from JS, so we find by TEXT CONTENT and structure. */
+    var HIDE_STYLE = 'display:none !important; width:0 !important; height:0 !important; position:absolute !important; overflow:hidden !important; pointer-events:none !important;';
+    
+    /* Find spans/divs that contain only "+" or "-" and are NOT inside our widget */
+    var allEls = document.getElementsByTagName('span');
+    for (var sq = 0; sq < allEls.length; sq++) {
+      var sqText = (allEls[sq].textContent || '').trim();
+      if ((sqText === '+' || sqText === '-' || sqText === '\u2212') && allEls[sq].children.length === 0) {
+        /* Check it's NOT inside our custom widget */
+        var inOurWidget = false;
+        var checkParent = allEls[sq];
+        for (var up = 0; up < 5; up++) {
+          if (!checkParent) break;
+          if (checkParent.className && (checkParent.className.indexOf('tw-qty') !== -1 || checkParent.className.indexOf('tw-purchase') !== -1)) {
+            inOurWidget = true; break;
+          }
+          checkParent = checkParent.parentElement;
+        }
+        if (!inOurWidget) {
+          /* This is a Konimbo +/- button — hide its container */
+          var qtyContainer = allEls[sq].parentElement;
+          if (qtyContainer) {
+            qtyContainer.setAttribute('style', HIDE_STYLE);
+            /* Also hide grandparent if it looks like a qty wrapper (has 2-3 children: +, input, -) */
+            var gp = qtyContainer.parentElement;
+            if (gp && gp.children.length <= 4) {
+              var hasInput = gp.getElementsByTagName('input').length > 0;
+              if (hasInput) {
+                gp.setAttribute('style', HIDE_STYLE);
+              }
+            }
+          }
         }
       }
     }
-    /* Also hide by tag search: find input[type=number] outside our widget and hide its container */
+    /* Also hide any input[type=number] outside our widget */
     var allInputsQ = document.getElementsByTagName('input');
     for (var iq = 0; iq < allInputsQ.length; iq++) {
-      if ((allInputsQ[iq].type === 'number' || allInputsQ[iq].className.indexOf('quantity') !== -1) &&
-          !allInputsQ[iq].closest('.tw-qty-selector') && !allInputsQ[iq].closest('.tw-purchase-row')) {
-        var iqParent = allInputsQ[iq].parentElement;
-        if (iqParent) {
-          iqParent.setAttribute('style', 'display:none !important; width:0 !important; height:0 !important; position:absolute !important; overflow:hidden !important;');
+      if (allInputsQ[iq].type === 'number') {
+        var inWidget = false;
+        var chk = allInputsQ[iq];
+        for (var u2 = 0; u2 < 5; u2++) {
+          if (!chk) break;
+          if (chk.className && (chk.className.indexOf('tw-qty') !== -1 || chk.className.indexOf('tw-purchase') !== -1)) {
+            inWidget = true; break;
+          }
+          chk = chk.parentElement;
+        }
+        if (!inWidget) {
+          allInputsQ[iq].setAttribute('style', HIDE_STYLE);
+          if (allInputsQ[iq].parentElement) {
+            allInputsQ[iq].parentElement.setAttribute('style', HIDE_STYLE);
+          }
         }
       }
     }
