@@ -1,5 +1,5 @@
-/* TecDoc Widget v10.7 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
-   Changes in v10.7: Build custom qty selector (replace Konimbo native), connected to original input
+/* TecDoc Widget v10.8 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
+   Changes in v10.8: Complete purchase row rebuild (clone cart+build qty as one unit), hide original cart area entirely. Bigger fonts in tabs.
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -616,115 +616,25 @@
       var s = document.createElement('style');
       s.id = 'tw-purchase-css';
       s.textContent = [
-        '/* Cart button: dark blue filled */',
-        '.item_add_to_cart a.add_to_cart_button,',
-        '.item_add_to_cart a.add_to_cart_button.button,',
-        '.item_add_to_cart .add_to_cart_button,',
-        'a.add_to_cart_button.button,',
-        'a.add_to_cart_button,',
-        '.add_to_cart_button {',
-        '  background-color: #1B4E91 !important;',
-        '  background-image: none !important;',
-        '  background: #1B4E91 !important;',
-        '  color: #fff !important;',
-        '  border: none !important;',
-        '  border-color: #1B4E91 !important;',
-        '  border-radius: 8px 0 0 8px !important;',
-        '  font-size: 17px !important;',
-        '  font-weight: 700 !important;',
-        '  font-family: "Heebo", Arial, sans-serif !important;',
-        '  text-decoration: none !important;',
-        '  letter-spacing: 0.3px !important;',
-        '  min-height: 50px !important;',
-        '  height: 50px !important;',
-        '  display: flex !important;',
-        '  align-items: center !important;',
-        '  justify-content: center !important;',
-        '  gap: 8px !important;',
-        '  flex: 1 !important;',
-        '  padding: 0 20px !important;',
-        '  cursor: pointer !important;',
-        '  box-sizing: border-box !important;',
-        '  line-height: 50px !important;',
-        '  transition: background 0.2s !important;',
-        '}',
-        'a.add_to_cart_button:hover, .add_to_cart_button:hover {',
-        '  background-color: #15407a !important;',
-        '  background: #15407a !important;',
-        '}',
-        '/* Cart row layout */',
-        '.item_add_to_cart {',
-        '  display: flex !important;',
-        '  align-items: stretch !important;',
-        '  gap: 0 !important;',
-        '  flex-wrap: nowrap !important;',
-        '  direction: rtl !important;',
-        '  margin-top: 6px !important;',
-        '}',
-        '/* Quantity selector attached to button */',
-        '.item_add_to_cart .item_quantity,',
-        '.item_quantity {',
-        '  display: flex !important;',
-        '  flex-direction: row !important;',
-        '  align-items: center !important;',
-        '  border: 2px solid #e0e0e0 !important;',
-        '  border-radius: 0 8px 8px 0 !important;',
-        '  border-left: none !important;',
-        '  overflow: hidden !important;',
-        '  flex-shrink: 0 !important;',
-        '  height: 50px !important;',
-        '  min-width: 120px !important;',
-        '  background: #fff !important;',
-        '}',
-        '.item_quantity .quantity_up, .item_quantity .quantity_down,',
-        '.item_quantity .plus, .item_quantity .minus {',
-        '  width: 38px !important;',
-        '  height: 100% !important;',
-        '  border: none !important;',
-        '  background: transparent !important;',
-        '  font-size: 22px !important;',
-        '  cursor: pointer !important;',
-        '  color: #333 !important;',
-        '  display: flex !important;',
-        '  align-items: center !important;',
-        '  justify-content: center !important;',
-        '}',
-        '.item_quantity input[type="number"],',
-        '.item_quantity input.item_quantity_input,',
-        '.item_quantity input[name="quantity"] {',
-        '  width: 44px !important;',
-        '  height: 100% !important;',
-        '  text-align: center !important;',
-        '  border: none !important;',
-        '  border-right: 1px solid #e0e0e0 !important;',
-        '  border-left: 1px solid #e0e0e0 !important;',
-        '  font-size: 16px !important;',
-        '  font-weight: 600 !important;',
-        '  color: #333 !important;',
-        '  -moz-appearance: textfield !important;',
-        '  background: #fff !important;',
-        '}',
+        '/* TW Purchase Area Override v10.8 */',
+        '/* Hide buy-now everywhere */',
+        '.buy_now_button, .buy-now-button, [class*="buy_now"], [class*="buy-now"] { display: none !important; }',
         '/* Hide number input spinners */',
-        '.item_quantity input::-webkit-outer-spin-button,',
-        '.item_quantity input::-webkit-inner-spin-button { -webkit-appearance: none !important; margin: 0 !important; }',
-        '/* Hide buy-now inside cart area */',
-        '.item_add_to_cart .buy_now_button,',
-        '.item_add_to_cart .buy-now-button,',
-        '.item_add_to_cart a.buy_now_button { display: none !important; }',
-        '/* Hide original Konimbo qty when custom one exists */',
-        '.tw-qty-selector ~ .item_quantity,',
-        '.item_add_to_cart:has(.tw-qty-selector) > .item_quantity { display: none !important; width: 0 !important; height: 0 !important; overflow: hidden !important; }'
+        'input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none !important; margin: 0 !important; }',
+        '/* Custom qty selector styling */',
+        '.tw-qty-selector { display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:0 8px 8px 0 !important; border-left:none !important; overflow:hidden !important; flex-shrink:0 !important; height:48px !important; min-width:110px !important; background:#fff !important; }',
+        '.tw-qty-selector span { width:36px !important; height:100% !important; border:none !important; background:transparent !important; font-size:22px !important; cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; padding:0 !important; margin:0 !important; line-height:1 !important; user-select:none !important; flex-shrink:0 !important; }',
+        '.tw-qty-selector input { width:38px !important; height:100% !important; text-align:center !important; border:none !important; border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; color:#333 !important; -moz-appearance:textfield !important; background:#fff !important; padding:0 !important; margin:0 !important; outline:none !important; }'
       ].join('\n');
       document.body.appendChild(s);
     }
 
-    /* 2. JS: set inline styles on existing elements (finds by multiple strategies) */
+    /* 2. Find the cart button — by class OR text content */
     var cartBtn = document.querySelector('.item_add_to_cart .add_to_cart_button') ||
                   document.querySelector('.add_to_cart_button') ||
                   document.querySelector('a[class*="add_to_cart"]');
-    /* Fallback: find by text content */
     if (!cartBtn) {
-      var allAnchors = document.querySelectorAll('a');
+      var allAnchors = document.getElementsByTagName('a');
       for (var ai = 0; ai < allAnchors.length; ai++) {
         var atxt = (allAnchors[ai].textContent || '').trim();
         if (atxt === '\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4' || atxt.indexOf('\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4') !== -1) {
@@ -733,160 +643,144 @@
         }
       }
     }
-    if (cartBtn) {
-      cartBtn.setAttribute('style',
-        'background-color:#1B4E91 !important; background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:8px 0 0 8px !important; ' +
-        'font-size:17px !important; font-weight:700 !important; min-height:50px !important; height:50px !important; display:flex !important; align-items:center !important; ' +
-        'justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 24px !important; text-decoration:none !important; font-family:"Heebo",sans-serif !important; ' +
-        'cursor:pointer !important; box-sizing:border-box !important; line-height:1.2 !important; letter-spacing:0.3px !important; white-space:nowrap !important; min-width:160px !important;');
+    if (!cartBtn) return;
 
-      /* Add cart SVG icon if not already there */
-      if (!cartBtn.querySelector('.tw-cart-icon')) {
-        var icon = document.createElement('span');
-        icon.className = 'tw-cart-icon';
-        icon.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
-        icon.setAttribute('style', 'display:flex; align-items:center; flex-shrink:0;');
-        cartBtn.insertBefore(icon, cartBtn.firstChild);
-      }
-
-      /* Mark as styled */
-      cartBtn.classList.add('tw-purchase-styled');
+    /* Skip if already fully built */
+    if (document.querySelector('.tw-purchase-row')) {
+      var existRow = document.querySelector('.tw-purchase-row');
+      var bg = window.getComputedStyle(existRow.querySelector('a') || existRow).backgroundColor;
+      if (bg && bg.indexOf('27') !== -1) return;
     }
 
-    /* 3. Style or rebuild quantity selector */
-    var qtyBox = document.querySelector('.item_add_to_cart .item_quantity') || document.querySelector('.item_quantity');
-    if (qtyBox) {
-      /* Found by class — style it directly (works on non-Konimbo / demo pages) */
-      qtyBox.setAttribute('style',
-        'display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; ' +
-        'border-radius:0 8px 8px 0 !important; border-left:none !important; overflow:hidden !important; flex-shrink:0 !important; ' +
-        'height:50px !important; background:#fff !important; min-width:120px !important;');
-      /* Style children by tag/text */
-      var qtyKids = qtyBox.children;
-      for (var qk = 0; qk < qtyKids.length; qk++) {
-        var qkChild = qtyKids[qk];
-        var qkText = (qkChild.textContent || '').trim();
-        if (qkChild.tagName === 'INPUT') {
-          qkChild.setAttribute('style',
-            'width:44px !important; height:100% !important; text-align:center !important; border:none !important; ' +
-            'border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; ' +
-            'color:#333 !important; -moz-appearance:textfield !important; -webkit-appearance:none !important; background:#fff !important; padding:0 !important; margin:0 !important;');
-        } else if (qkText === '+' || qkText === '-' || qkText === '\u2212') {
-          qkChild.setAttribute('style',
-            'width:38px !important; height:100% !important; border:none !important; background:transparent !important; font-size:22px !important; ' +
-            'cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; ' +
-            'padding:0 !important; margin:0 !important; line-height:1 !important; user-select:none !important; flex-shrink:0 !important;');
+    /* 3. Find the original quantity input (by tag, NOT class — Konimbo blocks class selectors) */
+    var origQtyInput = null;
+    var searchRoot = cartBtn.parentElement;
+    for (var up = 0; up < 5 && searchRoot && !origQtyInput; up++) {
+      var allInp = searchRoot.getElementsByTagName('input');
+      for (var qi = 0; qi < allInp.length; qi++) {
+        if (allInp[qi].type === 'number' || allInp[qi].name === 'quantity') {
+          origQtyInput = allInp[qi];
+          break;
         }
       }
-    } else if (cartBtn && !document.querySelector('.tw-qty-selector')) {
-      /* Konimbo: class selectors fail, build a CUSTOM qty selector */
-      /* Find the original quantity input */
-      var origQtyInput = null;
-      var origQtyContainer = null;
-      /* Strategy: find input[type=number] near the cart button */
-      var searchRoot = cartBtn.parentElement;
-      for (var up = 0; up < 4 && searchRoot && !origQtyInput; up++) {
-        var allInp = searchRoot.getElementsByTagName('input');
-        for (var qi = 0; qi < allInp.length; qi++) {
-          if (allInp[qi].type === 'number' || allInp[qi].name === 'quantity') {
-            origQtyInput = allInp[qi];
-            origQtyContainer = origQtyInput.parentElement;
-            break;
-          }
-        }
-        searchRoot = searchRoot.parentElement;
-      }
-      /* If we found the original input, hide it and its container, build a new one */
-      if (origQtyInput) {
-        /* Hide the original qty container */
-        if (origQtyContainer && origQtyContainer !== cartBtn.parentElement) {
-          origQtyContainer.setAttribute('style', 'display:none !important; visibility:hidden !important; width:0 !important; height:0 !important; overflow:hidden !important; position:absolute !important;');
-        } else {
-          /* Container is the cart row itself — just hide the input and its siblings */
-          origQtyInput.setAttribute('style', 'display:none !important;');
-          var prevSib = origQtyInput.previousElementSibling;
-          var nextSib = origQtyInput.nextElementSibling;
-          if (prevSib && (prevSib.textContent || '').trim().match(/^[+\-\u2212]$/)) prevSib.style.display = 'none';
-          if (nextSib && (nextSib.textContent || '').trim().match(/^[+\-\u2212]$/)) nextSib.style.display = 'none';
-        }
-        /* Create new qty selector */
-        var newQty = document.createElement('div');
-        newQty.className = 'tw-qty-selector';
-        newQty.setAttribute('style',
-          'display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; ' +
-          'border-radius:0 8px 8px 0 !important; border-left:none !important; overflow:hidden !important; flex-shrink:0 !important; ' +
-          'height:50px !important; background:#fff !important; min-width:120px !important;');
-        var btnStyle = 'width:38px; height:100%; border:none; background:transparent; font-size:22px; cursor:pointer; color:#333; ' +
-          'display:flex; align-items:center; justify-content:center; padding:0; margin:0; line-height:1; user-select:none; flex-shrink:0; font-family:"Heebo",sans-serif;';
-        var plusBtn = document.createElement('span');
-        plusBtn.textContent = '+';
-        plusBtn.setAttribute('style', btnStyle);
-        plusBtn.onclick = function() {
-          var v = parseInt(origQtyInput.value) || 1;
-          origQtyInput.value = v + 1;
-          newInput.value = v + 1;
-          origQtyInput.dispatchEvent(new Event('change', {bubbles:true}));
-        };
-        var newInput = document.createElement('input');
-        newInput.type = 'text';
-        newInput.value = origQtyInput.value || '1';
-        newInput.readOnly = true;
-        newInput.setAttribute('style',
-          'width:44px; height:100%; text-align:center; border:none; border-right:1px solid #e0e0e0; border-left:1px solid #e0e0e0; ' +
-          'font-size:16px; font-weight:600; color:#333; background:#fff; padding:0; margin:0; font-family:"Heebo",sans-serif; outline:none;');
-        var minusBtn = document.createElement('span');
-        minusBtn.textContent = '\u2212';
-        minusBtn.setAttribute('style', btnStyle);
-        minusBtn.onclick = function() {
-          var v = parseInt(origQtyInput.value) || 1;
-          if (v > 1) {
-            origQtyInput.value = v - 1;
-            newInput.value = v - 1;
-            origQtyInput.dispatchEvent(new Event('change', {bubbles:true}));
-          }
-        };
-        newQty.appendChild(plusBtn);
-        newQty.appendChild(newInput);
-        newQty.appendChild(minusBtn);
-        /* Insert before the cart button */
-        if (cartBtn.parentElement) {
-          cartBtn.parentElement.insertBefore(newQty, cartBtn.nextSibling);
+      searchRoot = searchRoot.parentElement;
+    }
+
+    /* 4. Hide ALL original purchase elements — aggressively walk up from cart button and hide siblings */
+    var cartParent = cartBtn.parentElement;
+    if (cartParent) {
+      /* Hide all children of cart parent except the cart button itself */
+      var siblings = cartParent.children;
+      for (var si = 0; si < siblings.length; si++) {
+        var sib = siblings[si];
+        if (sib === cartBtn) continue;
+        if (sib.classList && sib.classList.contains('tw-purchase-row')) continue;
+        /* Hide original qty containers, buy-now buttons, etc */
+        var sibText = (sib.textContent || '').trim();
+        if (sibText === '+' || sibText === '-' || sibText === '\u2212' ||
+            sib.tagName === 'INPUT' ||
+            (sib.getElementsByTagName && sib.getElementsByTagName('input').length > 0) ||
+            sibText.indexOf('\u05E7\u05E0\u05D4') !== -1) {
+          sib.setAttribute('style', 'display:none !important; width:0 !important; height:0 !important; position:absolute !important; overflow:hidden !important;');
         }
       }
     }
 
-    /* 4. Style cart container row — find by class OR as parent of cart button */
-    var cartRow = document.querySelector('.item_add_to_cart');
-    if (!cartRow && cartBtn) cartRow = cartBtn.parentElement;
-    if (cartRow && cartRow !== document.body) {
-      cartRow.setAttribute('style',
-        'display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:6px !important;');
+    /* Also hide original qty if it exists — and its container */
+    if (origQtyInput) {
+      origQtyInput.setAttribute('style', 'position:absolute !important; opacity:0 !important; pointer-events:none !important; width:0 !important; height:0 !important;');
+      var qtyParent = origQtyInput.parentElement;
+      if (qtyParent && qtyParent !== cartParent) {
+        qtyParent.setAttribute('style', 'display:none !important; width:0 !important; height:0 !important; position:absolute !important;');
+      }
     }
 
-    /* 5. Hide buy-now buttons */
+    /* 5. Build a complete purchase row: [cart button] [qty selector] — connected, same height */
+    if (!document.querySelector('.tw-purchase-row')) {
+      var purchaseRow = document.createElement('div');
+      purchaseRow.className = 'tw-purchase-row';
+      purchaseRow.setAttribute('style',
+        'display:flex !important; align-items:stretch !important; gap:0 !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:8px !important; width:100% !important;');
+
+      /* Clone & restyle the cart button */
+      var cartClone = cartBtn.cloneNode(true);
+      cartClone.setAttribute('style',
+        'background:#1B4E91 !important; color:#fff !important; border:none !important; border-radius:8px 0 0 8px !important; ' +
+        'font-size:17px !important; font-weight:700 !important; height:48px !important; display:flex !important; align-items:center !important; ' +
+        'justify-content:center !important; gap:8px !important; flex:1 !important; padding:0 16px !important; text-decoration:none !important; ' +
+        'font-family:"Heebo",sans-serif !important; cursor:pointer !important; box-sizing:border-box !important; line-height:1.2 !important; white-space:nowrap !important;');
+      /* Clean up clone text — ensure it says הוסף לעגלה with cart icon */
+      cartClone.innerHTML = '<span style="display:flex;align-items:center;flex-shrink:0;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></span>\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4';
+      /* Wire up click — trigger the ORIGINAL cart button */
+      cartClone.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        cartBtn.click();
+      });
+
+      /* Build custom qty selector */
+      var newQty = document.createElement('div');
+      newQty.className = 'tw-qty-selector';
+      var qtyVal = (origQtyInput && origQtyInput.value) ? parseInt(origQtyInput.value) || 1 : 1;
+      var btnStyle = 'width:36px;height:100%;border:none;background:transparent;font-size:22px;cursor:pointer;color:#333;display:flex;align-items:center;justify-content:center;padding:0;margin:0;line-height:1;user-select:none;flex-shrink:0;font-family:"Heebo",sans-serif;-webkit-tap-highlight-color:transparent;';
+
+      var plusBtn = document.createElement('span');
+      plusBtn.textContent = '+';
+      plusBtn.setAttribute('style', btnStyle);
+
+      var newInput = document.createElement('input');
+      newInput.type = 'text';
+      newInput.value = qtyVal;
+      newInput.readOnly = true;
+      newInput.setAttribute('style',
+        'width:38px;height:100%;text-align:center;border:none;border-right:1px solid #e0e0e0;border-left:1px solid #e0e0e0;' +
+        'font-size:16px;font-weight:600;color:#333;background:#fff;padding:0;margin:0;font-family:"Heebo",sans-serif;outline:none;-webkit-appearance:none;');
+
+      var minusBtn = document.createElement('span');
+      minusBtn.textContent = '\u2212';
+      minusBtn.setAttribute('style', btnStyle);
+
+      plusBtn.addEventListener('click', function() {
+        var v = parseInt(newInput.value) || 1;
+        newInput.value = v + 1;
+        if (origQtyInput) { origQtyInput.value = v + 1; origQtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
+      });
+      minusBtn.addEventListener('click', function() {
+        var v = parseInt(newInput.value) || 1;
+        if (v > 1) {
+          newInput.value = v - 1;
+          if (origQtyInput) { origQtyInput.value = v - 1; origQtyInput.dispatchEvent(new Event('change', {bubbles:true})); }
+        }
+      });
+
+      newQty.appendChild(plusBtn);
+      newQty.appendChild(newInput);
+      newQty.appendChild(minusBtn);
+
+      purchaseRow.appendChild(cartClone);
+      purchaseRow.appendChild(newQty);
+
+      /* Insert the purchase row — BEFORE the original cart area, or after price */
+      if (cartParent && cartParent.parentElement) {
+        cartParent.parentElement.insertBefore(purchaseRow, cartParent);
+      }
+
+      /* Hide the original cart area entirely */
+      if (cartParent) {
+        cartParent.setAttribute('style', 'position:absolute !important; width:0 !important; height:0 !important; overflow:hidden !important; opacity:0 !important; pointer-events:none !important;');
+      }
+    }
+
+    /* 6. Hide buy-now buttons */
     hideBuyNowByText();
 
-    /* 6. Style the price */
+    /* 7. Style the price */
     var priceEl = document.querySelector('.item_price');
     if (priceEl && !priceEl.classList.contains('tw-price-styled')) {
-      priceEl.setAttribute('style', 'font-size:34px !important; font-weight:700 !important; color:#1a1a1a !important; font-family:"Heebo",Arial,sans-serif !important; padding:2px 0 6px !important; direction:rtl !important;');
+      priceEl.setAttribute('style', 'font-size:32px !important; font-weight:700 !important; color:#1a1a1a !important; font-family:"Heebo",Arial,sans-serif !important; padding:2px 0 6px !important; direction:rtl !important;');
       var priceSpan = priceEl.querySelector('.price');
       if (priceSpan) priceSpan.setAttribute('style', 'font-size:inherit !important; font-weight:inherit !important; color:inherit !important;');
       priceEl.classList.add('tw-price-styled');
-    }
-
-    /* 7. Demo fallback (for demo page) */
-    var purchaseArea = document.querySelector('.purchase-area');
-    if (!purchaseArea) return;
-    var qtyRowD = purchaseArea.querySelector('.quantity-row');
-    var btnRowD = purchaseArea.querySelector('.buttons-row');
-    if (!qtyRowD || !btnRowD) return;
-    var qtySelectorD = qtyRowD.querySelector('.qty-selector');
-    if (qtySelectorD) {
-      btnRowD.insertBefore(qtySelectorD, btnRowD.firstChild);
-      qtyRowD.style.display = 'none';
-      btnRowD.setAttribute('style', 'display:flex; align-items:center; gap:10px; width:100%;');
-      purchaseArea.classList.add('tw-purchase-styled');
     }
   }
 
