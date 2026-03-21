@@ -1394,8 +1394,9 @@
 
   /* ── Tab switching ── */
   function bindTabs(w) {
-    var tabs = w.querySelectorAll('.tw-tab');
-    var panels = w.querySelectorAll('.tw-panel');
+    /* Use querySelectorAll with attribute selectors (NOT class selectors — Konimbo blocks those from JS) */
+    var tabs = w.querySelectorAll('[data-tab]');
+    var panels = w.querySelectorAll('[data-panel]');
     for (var i = 0; i < tabs.length; i++) {
       tabs[i].addEventListener('click', function() {
         var target = this.getAttribute('data-tab');
@@ -1406,17 +1407,20 @@
           panels[p].classList.remove('tw-panel-active');
         }
         this.classList.add('tw-tab-active');
-        var targetPanel = w.querySelector('.tw-panel[data-panel="' + target + '"]');
+        var targetPanel = w.querySelector('[data-panel="' + target + '"]');
         if (targetPanel) targetPanel.classList.add('tw-panel-active');
       });
     }
   }
 
   function bindAccordions(w) {
-    var hs = w.querySelectorAll('.tw-acc-l1-header,.tw-acc-l2-header');
+    /* Use data-level attribute instead of class selector (Konimbo blocks class-based querySelector) */
+    var hs = w.querySelectorAll('[data-level]');
     for (var i = 0; i < hs.length; i++) {
       hs[i].addEventListener('click', function() {
-        var p = this.parentElement, ic = this.querySelector('.tw-acc-icon'), open = p.classList.contains('tw-open');
+        var p = this.parentElement;
+        var ic = this.getElementsByTagName('span')[0]; /* tw-acc-icon is the first span */
+        var open = p.classList.contains('tw-open');
         p.classList.toggle('tw-open');
         if (ic) ic.textContent = open ? '+' : '\u2212';
       });
