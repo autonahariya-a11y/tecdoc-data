@@ -729,8 +729,9 @@
     /* Find ALL +/- spans and number inputs that are NOT inside our widget (use data-tw attribute) */
     function isOurElement(el) {
       var node = el;
-      for (var i = 0; i < 8 && node; i++) {
+      for (var i = 0; i < 10 && node; i++) {
         if (node.getAttribute && node.getAttribute('data-tw')) return true;
+        if (node.id === 'tecdoc-widget') return true;
         node = node.parentElement;
       }
       return false;
