@@ -578,6 +578,13 @@
     }
     /* Check for item_not_available class or similar */
     if (document.querySelector('.item_not_available, .out-of-stock, .out_of_stock, [class*="not_available"]')) return true;
+    /* Check if price is 0 — treat as out of stock */
+    var priceEl = document.querySelector('.item_price .price') || document.querySelector('.item_price');
+    if (priceEl) {
+      var priceText = (priceEl.textContent || '').replace(/[^0-9.,]/g, '').trim();
+      var priceNum = parseFloat(priceText.replace(',', '.'));
+      if (priceNum === 0 || priceText === '' || priceText === '0' || priceText === '0.00') return true;
+    }
     return false;
   }
 
