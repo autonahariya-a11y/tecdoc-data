@@ -746,6 +746,11 @@
 
     /* 2b. Check if out of stock — replace purchase area with WhatsApp button */
     var isOOS = detectOutOfStock();
+    if (isOOS) {
+      /* Hide existing purchase row if it was built before OOS was detected */
+      var existPR = document.querySelector('.tw-purchase-row');
+      if (existPR) existPR.setAttribute('style', 'display:none !important;');
+    }
     if (isOOS && !document.querySelector('.tw-whatsapp-row')) {
       /* Build WhatsApp CTA instead of cart */
       var productTitle = '';
