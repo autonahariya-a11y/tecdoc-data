@@ -29,6 +29,43 @@
   /* Specs to show FIRST (priority order) — Fitting Position at the top */
   var PRIORITY_SPECS = ['Fitting Position'];
 
+  /* ── Brand info for "About the Manufacturer" section ── */
+  var BRAND_INFO = {
+    'BREMBO': { name: 'Brembo', desc: 'יצרנית מערכות בלימה מובילה בעולם. מספקת מערכות בלימה ליצרניות הרכב הגדולות וגם לשוק החלפים. ידועה מעולם המירוצים — פורמולה 1, MotoGP ועוד.', founded: '1961' },
+    'BOSCH': { name: 'Bosch', desc: 'ספקית חלקי הרכב הגדולה בעולם. מעל 130 שנות ניסיון בתעשיית הרכב. מייצרת מגוון רחב — ממערכות הצתה ועד מערכות בלימה, פילטרים, מצתים וחיישנים.', founded: '1886' },
+    'MANN-FILTER': { name: 'MANN-FILTER', desc: 'מותג הפילטרים המוביל באירופה. חלק מקבוצת MANN+HUMMEL. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM ליצרניות הרכב המובילות.', founded: '1941' },
+    'MAHLE': { name: 'Mahle', desc: 'קבוצת טכנולוגיה בינלאומית. מתמחה ברכיבי מנוע, פילטרים ומערכות תרמיות לרכב. ספקית ציוד מקורי ליצרניות הרכב המובילות בעולם.', founded: '1920' },
+    'VALEO': { name: 'Valeo', desc: 'ספקית ציוד מקורי ליצרני רכב ברחבי העולם. מתמחה במערכות מיזוג, תאורה, מצמדים, מגבים ומערכות חשמל לרכב.', founded: '1923' },
+    'TRW': { name: 'TRW', desc: 'מובילה עולמית במערכות בטיחות לרכב — בלמים, היגוי ומערכות התלייה. כיום חלק מקבוצת ZF. ספקית ציוד מקורי ליצרני הרכב הגדולים.', founded: '1901' },
+    'FEBI BILSTEIN': { name: 'Febi Bilstein', desc: 'חברה גרמנית עם מעל 175 שנות ניסיון. מתמחה בחלקי חילוף לרכב באיכות OEM — בולמי זעזועים, חלקי פרונט, מערכת קירור ועוד.', founded: '1844' },
+    'MEYLE': { name: 'Meyle', desc: 'יצרנית חלקי חילוף גרמנית. מציעה מעל 40,000 חלקים באיכות גבוהה — התלייה, היגוי, בלימה ומערכת ההנעה. ידועה בקו MEYLE-HD המחוזק.', founded: '1958' },
+    'SKF': { name: 'SKF', desc: 'מובילה עולמית במיסבים ומערכות סיבוב. מייצרת מיסבי גלגלים, ערכות טיימינג ורכיבי הנעה לתעשיית הרכב.', founded: '1907' },
+    'NGK': { name: 'NGK', desc: 'יצרנית המצתים הגדולה בעולם. ספקית ציוד מקורי לכל יצרניות הרכב הגדולות. מייצרת גם חיישני חמצן וסלילי הצתה.', founded: '1936' },
+    'DENSO': { name: 'Denso', desc: 'ספקית רכיבים יפנית מובילה, חלק מקבוצת Toyota. מתמחה במצתים, מזרקים, מערכות מיזוג, סטרטרים ואלטרנטורים.', founded: '1949' },
+    'SACHS': { name: 'Sachs', desc: 'מותג מוביל בבולמי זעזועים ומערכות מצמד. חלק מקבוצת ZF. ספקית ציוד מקורי ליצרניות הרכב הגדולות באירופה.', founded: '1894' },
+    'LUK': { name: 'LuK', desc: 'מתמחה במערכות מצמד ומערכות הנעה. חלק מקבוצת Schaeffler. ספקית ציוד מקורי — מצמדים, גלגלי תנופה ומערכות גיר.', founded: '1965' },
+    'INA': { name: 'INA', desc: 'חלק מקבוצת Schaeffler. מתמחה במיסבים, ערכות טיימינג, מותחנים וגלגלות. ספקית ציוד מקורי ליצרניות הרכב.', founded: '1946' },
+    'CONTINENTAL': { name: 'Continental', desc: 'חברת טכנולוגיה גרמנית מובילה. מייצרת רצועות טיימינג, רצועות אביזרים, צינורות, חיישנים ומערכות בלימה.', founded: '1871' },
+    'GATES': { name: 'Gates', desc: 'מובילה עולמית ברצועות, צינורות ומערכות הנעה לרכב. מייצרת ערכות טיימינג, רצועות אביזרים ומשאבות מים.', founded: '1911' },
+    'HENGST': { name: 'Hengst', desc: 'יצרנית פילטרים גרמנית מובילה. ספקית ציוד מקורי ליצרניות הרכב הגדולות באירופה. מתמחה בפילטרי שמן, אוויר ומזגן.', founded: '1958' },
+    'DAYCO': { name: 'Dayco', desc: 'מתמחה במערכות הנעה — רצועות טיימינג, גלגלות, מותחנים ומשאבות מים. ספקית ציוד מקורי ליצרניות רכב גדולות.', founded: '1905' },
+    'LEMFORDER': { name: 'Lemförder', desc: 'חלק מקבוצת ZF. מובילה עולמית ברכיבי התלייה והיגוי — קצוות הגה, מוטות מייצב, משולשים. ספקית ציוד מקורי.', founded: '1947' },
+    'TEXTAR': { name: 'Textar', desc: 'מותג רפידות בלם מוביל באירופה. חלק מקבוצת TMD Friction. ספקית ציוד מקורי ליצרניות הרכב הגדולות.', founded: '1913' },
+    'ATE': { name: 'ATE', desc: 'מותג מערכות בלימה ותוק. חלק מקבוצת Continental. מייצרת דיסקי בלם, רפידות, נוזלי בלמים וצילינדרים.', founded: '1906' },
+    'KNECHT': { name: 'Knecht', desc: 'מותג פילטרים של קבוצת Mahle. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM.', founded: '1927' },
+    'NIPPARTS': { name: 'Nipparts', desc: 'מתמחה בחלקי חילוף לרכבים אסייתיים — טויוטה, הונדה, ניסן, מאזדה, יונדאי וקיה. מגוון רחב של פילטרים, בלמים ומתלים.', founded: '1975' },
+    'BLUE PRINT': { name: 'Blue Print', desc: 'מותג חלקי חילוף לרכבים אסייתיים ואמריקאיים. חלק מקבוצת Bilstein. מגוון של למעלה מ-35,000 חלקים.', founded: '1997' },
+    'MOTUL': { name: 'Motul', desc: 'יצרנית שמנים וחומרי סיכה צרפתית מובילה. ידועה מעולם המירוצים — 24 שעות של לה-מאן, MotoGP ועוד. מציעה שמנים סינתטיים מתקדמים.', founded: '1853' },
+    'CASTROL': { name: 'Castrol', desc: 'מותג שמנים בינלאומי מוביל. חלק מקבוצת BP. מציע שמני מנוע, גיר ונוזלי בלמים. שותף רשמי של יצרני רכב רבים.', founded: '1899' },
+    'LIQUI MOLY': { name: 'Liqui Moly', desc: 'יצרנית שמנים ותוספי דלק גרמנית. ידועה באיכות הגבוהה ובמגוון הרחב — שמני מנוע, תוספים, חומרי טיפוח ושמנים מיוחדים.', founded: '1957' },
+    'MOBIL': { name: 'Mobil', desc: 'מותג שמנים בינלאומי מוביל. חלק מקבוצת ExxonMobil. סדרת Mobil 1 היא מהשמנים הסינתטיים הנמכרים בעולם.', founded: '1911' },
+    'OSRAM': { name: 'Osram', desc: 'מובילה עולמית בתאורה לרכב. מייצרת נורות הלוגן, LED, קסנון ונורות איתות. ספקית ציוד מקורי ליצרניות הרכב.', founded: '1919' },
+    'PHILIPS': { name: 'Philips', desc: 'מותג תאורה בינלאומי מוביל. מייצרת נורות רכב — הלוגן, LED וקסנון. ידועה בסדרות X-tremeVision ו-WhiteVision.', founded: '1891' },
+    'SWAG': { name: 'Swag', desc: 'מותג חלקי חילוף של קבוצת Bilstein Group. מתמחה בחלקים לרכבים אירופאיים — VW, BMW, Mercedes, Audi. מעל 40,000 פריטים.', founded: '1954' },
+    'TOPRAN': { name: 'Topran', desc: 'יצרנית חלקי חילוף גרמנית. מתמחה בחלקים לרכבים אירופאיים — מערכת קירור, חשמל, פרונט ומנוע.', founded: '1996' },
+    'RIDEX': { name: 'Ridex', desc: 'מותג חלקי חילוף במחיר תחרותי. מציע מגוון רחב של חלקים — בלמים, פילטרים, מתלים וחלקי מנוע. יחס מחיר-איכות טוב.', founded: '' }
+  };
+
   /* ── Hebrew translations ── */
   var SPEC_TR = {
     'Fitting Position': '\u05DE\u05D9\u05E7\u05D5\u05DD \u05D4\u05EA\u05E7\u05E0\u05D4',
@@ -1212,10 +1249,10 @@
 
     var strengthsHTML = '<div class="tw-strengths">';
     var items = [
-      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>', text: '\u05DE\u05E9\u05DC\u05D5\u05D7 \u05E2\u05D3 7 \u05D9\u05DE\u05D9 \u05E2\u05E1\u05E7\u05D9\u05DD' },
+      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>', text: '\u05DE\u05E9\u05DC\u05D5\u05D7 \u05E2\u05D3 7 \u05D9\u05DE\u05D9 \u05E2\u05E1\u05E7\u05D9\u05DD \u05DC\u05DB\u05DC \u05D4\u05D0\u05E8\u05E5' },
       { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>', text: '\u05D0\u05D7\u05E8\u05D9\u05D5\u05EA 3 \u05D7\u05D5\u05D3\u05E9\u05D9\u05DD / 6,000 \u05E7"\u05DE' },
       { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>', text: '\u05DE\u05D5\u05E8\u05E9\u05D9\u05DD \u05DE\u05E9\u05E8\u05D3 \u05D4\u05EA\u05D7\u05D1\u05D5\u05E8\u05D4' },
-      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>', text: '\u05EA\u05E9\u05DC\u05D5\u05DD \u05DE\u05D0\u05D5\u05D1\u05D8\u05D7' },
+      { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>', text: '\u05EA\u05E9\u05DC\u05D5\u05DD \u05DE\u05D0\u05D5\u05D1\u05D8\u05D7 \u2014 SSL \u05DE\u05D5\u05E6\u05E4\u05DF' },
       { icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>', text: '\u05D0\u05E4\u05E9\u05E8\u05D5\u05EA \u05EA\u05E9\u05DC\u05D5\u05DE\u05D9\u05DD \u05D1\u05E7\u05D5\u05E4\u05D4' }
     ];
     for (var i = 0; i < items.length; i++) {
@@ -1231,6 +1268,27 @@
     tempDiv.innerHTML = strengthsHTML;
     var strengthsEl = tempDiv.firstChild;
     w.insertBefore(strengthsEl, w.firstChild);
+  }
+
+  /* ═══ RENDER — "About the Manufacturer" section ═══ */
+  function renderBrandInfo(w) {
+    if (!D.supplier || !BRAND_INFO[D.supplier.toUpperCase()]) return;
+    var brand = BRAND_INFO[D.supplier.toUpperCase()];
+    var existing = document.getElementById('tw-brand-info');
+    if (existing) existing.remove();
+
+    var html = '<div id="tw-brand-info" class="tw-brand-info" data-tw="1">' +
+      '<div class="tw-brand-header">' +
+        '<span class="tw-brand-badge">' + esc(D.supplier) + '</span>' +
+        '<span class="tw-brand-name">' + esc(brand.name) + '</span>' +
+      '</div>' +
+      '<p class="tw-brand-desc">' + esc(brand.desc) + '</p>' +
+      (brand.founded ? '<div class="tw-brand-since">\u05DE\u05D0\u05D6 ' + esc(brand.founded) + '</div>' : '') +
+    '</div>';
+
+    var tempDiv = document.createElement('div');
+    tempDiv.innerHTML = html;
+    w.appendChild(tempDiv.firstChild);
   }
 
   /* ═══ RENDER — Tab Layout ═══ */
@@ -1370,6 +1428,7 @@
     bindTabs(w);
     bindAccordions(w);
     bindMoreToggle(w);
+    renderBrandInfo(w);
   }
 
   function buildTree(vehicles) {
