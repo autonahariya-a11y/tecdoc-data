@@ -1,5 +1,5 @@
-/* TecDoc Widget v10.5 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
-   Changes in v10.5: Robust qty finding (getElementsByTagName fallback, text-based child styling), flex-direction:row, min-width:120px
+/* TecDoc Widget v10.6 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
+   Changes in v10.6: Walk-up ancestor tree to find qty box, text-based child styling, flex-direction:row
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -750,40 +750,39 @@
       cartBtn.classList.add('tw-purchase-styled');
     }
 
-    /* 3. Style quantity selector — find by class OR by proximity to cart button */
+    /* 3. Style quantity selector — multiple strategies to find it */
     var qtyBox = document.querySelector('.item_add_to_cart .item_quantity') || document.querySelector('.item_quantity');
     if (!qtyBox && cartBtn) {
-      /* Try finding quantity box near the cart button */
-      var cartParent = cartBtn.parentElement;
-      if (cartParent) {
-        qtyBox = cartParent.querySelector('.item_quantity, .quantity_field, [class*="quantity"]');
-        /* Try siblings — look for a child that contains a number input */
-        if (!qtyBox) {
-          var siblings = cartParent.children;
-          for (var si = 0; si < siblings.length; si++) {
-            if (siblings[si] !== cartBtn && siblings[si].nodeType === 1) {
-              /* Check if this sibling has a number input (by iterating inputs, not querySelector) */
-              var inputs = siblings[si].getElementsByTagName('input');
-              for (var ii = 0; ii < inputs.length; ii++) {
-                if (inputs[ii].type === 'number' || inputs[ii].name === 'quantity') {
-                  qtyBox = siblings[si];
-                  break;
-                }
-              }
-              if (qtyBox) break;
+      /* Strategy A: walk up from cartBtn and search siblings at each level */
+      var ancestor = cartBtn.parentElement;
+      for (var lvl = 0; lvl < 4 && ancestor && !qtyBox; lvl++) {
+        var kids = ancestor.children;
+        for (var si = 0; si < kids.length; si++) {
+          var kid = kids[si];
+          if (kid === cartBtn || kid.contains(cartBtn)) continue;
+          /* Check if this element IS a qty container (has input + text elements) */
+          var kidInputs = kid.getElementsByTagName('input');
+          for (var ii = 0; ii < kidInputs.length; ii++) {
+            var inp = kidInputs[ii];
+            if (inp.type === 'number' || inp.name === 'quantity' || (inp.className && inp.className.indexOf('quantity') !== -1)) {
+              qtyBox = kid;
+              break;
             }
           }
+          if (qtyBox) break;
         }
-        /* Last resort: find the number input anywhere and use its parent */
-        if (!qtyBox) {
-          var allInputs = document.getElementsByTagName('input');
-          for (var inp = 0; inp < allInputs.length; inp++) {
-            if (allInputs[inp].type === 'number' || allInputs[inp].name === 'quantity') {
-              var inpParent = allInputs[inp].parentElement;
-              if (inpParent && inpParent !== document.body && inpParent !== cartParent) {
-                qtyBox = inpParent;
-                break;
-              }
+        ancestor = ancestor.parentElement;
+      }
+      /* Strategy B: find ANY number input on the page and use its parent */
+      if (!qtyBox) {
+        var allInputs = document.getElementsByTagName('input');
+        for (var inp2 = 0; inp2 < allInputs.length; inp2++) {
+          var ai = allInputs[inp2];
+          if (ai.type === 'number' || ai.name === 'quantity' || (ai.className && ai.className.indexOf('quantity') !== -1)) {
+            var aiParent = ai.parentElement;
+            if (aiParent && aiParent !== document.body) {
+              qtyBox = aiParent;
+              break;
             }
           }
         }
