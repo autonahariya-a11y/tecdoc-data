@@ -710,7 +710,10 @@
         '/* Hide buy-now inside cart area */',
         '.item_add_to_cart .buy_now_button,',
         '.item_add_to_cart .buy-now-button,',
-        '.item_add_to_cart a.buy_now_button { display: none !important; }'
+        '.item_add_to_cart a.buy_now_button { display: none !important; }',
+        '/* Hide original Konimbo qty when custom one exists */',
+        '.tw-qty-selector ~ .item_quantity,',
+        '.item_add_to_cart:has(.tw-qty-selector) > .item_quantity { display: none !important; width: 0 !important; height: 0 !important; overflow: hidden !important; }'
       ].join('\n');
       document.body.appendChild(s);
     }
@@ -793,10 +796,18 @@
         }
         searchRoot = searchRoot.parentElement;
       }
-      /* If we found the original input, hide its container and build a new one */
+      /* If we found the original input, hide it and its container, build a new one */
       if (origQtyInput) {
+        /* Hide the original qty container */
         if (origQtyContainer && origQtyContainer !== cartBtn.parentElement) {
-          origQtyContainer.style.display = 'none';
+          origQtyContainer.setAttribute('style', 'display:none !important; visibility:hidden !important; width:0 !important; height:0 !important; overflow:hidden !important; position:absolute !important;');
+        } else {
+          /* Container is the cart row itself — just hide the input and its siblings */
+          origQtyInput.setAttribute('style', 'display:none !important;');
+          var prevSib = origQtyInput.previousElementSibling;
+          var nextSib = origQtyInput.nextElementSibling;
+          if (prevSib && (prevSib.textContent || '').trim().match(/^[+\-\u2212]$/)) prevSib.style.display = 'none';
+          if (nextSib && (nextSib.textContent || '').trim().match(/^[+\-\u2212]$/)) nextSib.style.display = 'none';
         }
         /* Create new qty selector */
         var newQty = document.createElement('div');
