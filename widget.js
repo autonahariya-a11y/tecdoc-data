@@ -1,5 +1,5 @@
-/* TecDoc Widget v10.6 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
-   Changes in v10.6: Walk-up ancestor tree to find qty box, text-based child styling, flex-direction:row
+/* TecDoc Widget v10.7 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
+   Changes in v10.7: Build custom qty selector (replace Konimbo native), connected to original input
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -750,78 +750,96 @@
       cartBtn.classList.add('tw-purchase-styled');
     }
 
-    /* 3. Style quantity selector — multiple strategies to find it */
+    /* 3. Style or rebuild quantity selector */
     var qtyBox = document.querySelector('.item_add_to_cart .item_quantity') || document.querySelector('.item_quantity');
-    var qtyDebug = 'initial:' + !!qtyBox;
-    if (!qtyBox && cartBtn) {
-      /* Strategy A: walk up from cartBtn and search siblings at each level */
-      var ancestor = cartBtn.parentElement;
-      for (var lvl = 0; lvl < 4 && ancestor && !qtyBox; lvl++) {
-        var kids = ancestor.children;
-        qtyDebug += '|lvl' + lvl + ':' + kids.length + 'kids';
-        for (var si = 0; si < kids.length; si++) {
-          var kid = kids[si];
-          if (kid === cartBtn || (kid.contains && kid.contains(cartBtn))) continue;
-          var kidInputs = kid.getElementsByTagName('input');
-          qtyDebug += ',kid' + si + ':' + kid.tagName + '/' + kidInputs.length + 'inp';
-          for (var ii = 0; ii < kidInputs.length; ii++) {
-            var inp = kidInputs[ii];
-            qtyDebug += ',inp:' + inp.type;
-            if (inp.type === 'number' || inp.name === 'quantity' || (inp.className && inp.className.indexOf('quantity') !== -1)) {
-              qtyBox = kid;
-              qtyDebug += ',FOUND!';
-              break;
-            }
-          }
-          if (qtyBox) break;
-        }
-        ancestor = ancestor.parentElement;
-      }
-      /* Strategy B: find ANY number input on the page and use its parent */
-      if (!qtyBox) {
-        var allInputs = document.getElementsByTagName('input');
-        qtyDebug += '|globalInputs:' + allInputs.length;
-        for (var inp2 = 0; inp2 < allInputs.length; inp2++) {
-          var ai = allInputs[inp2];
-          qtyDebug += ',t:' + ai.type;
-          if (ai.type === 'number' || ai.name === 'quantity' || (ai.className && ai.className.indexOf('quantity') !== -1)) {
-            var aiParent = ai.parentElement;
-            if (aiParent && aiParent !== document.body) {
-              qtyBox = aiParent;
-              qtyDebug += ',FOUND-B!';
-              break;
-            }
-          }
-        }
-      }
-    }
-    /* Save debug info to DOM for diagnostics */
-    if (cartBtn) {
-      cartBtn.setAttribute('data-qty-debug', qtyDebug);
-      cartBtn.setAttribute('data-qty-found', qtyBox ? 'yes' : 'no');
-    }
     if (qtyBox) {
+      /* Found by class — style it directly (works on non-Konimbo / demo pages) */
       qtyBox.setAttribute('style',
-        'display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; border-radius:0 8px 8px 0 !important; border-left:none !important; ' +
-        'overflow:hidden !important; flex-shrink:0 !important; height:50px !important; background:#fff !important; min-width:120px !important;');
-      /* Style ALL child elements inside qty box (Konimbo class selectors may fail due to bot protection) */
-      var qtyChildren = qtyBox.children;
-      for (var qc = 0; qc < qtyChildren.length; qc++) {
-        var child = qtyChildren[qc];
-        var childText = (child.textContent || '').trim();
-        var childTag = child.tagName;
-        if (childTag === 'INPUT' || (childTag === 'input')) {
-          /* Quantity input */
-          child.setAttribute('style',
+        'display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; ' +
+        'border-radius:0 8px 8px 0 !important; border-left:none !important; overflow:hidden !important; flex-shrink:0 !important; ' +
+        'height:50px !important; background:#fff !important; min-width:120px !important;');
+      /* Style children by tag/text */
+      var qtyKids = qtyBox.children;
+      for (var qk = 0; qk < qtyKids.length; qk++) {
+        var qkChild = qtyKids[qk];
+        var qkText = (qkChild.textContent || '').trim();
+        if (qkChild.tagName === 'INPUT') {
+          qkChild.setAttribute('style',
             'width:44px !important; height:100% !important; text-align:center !important; border:none !important; ' +
             'border-right:1px solid #e0e0e0 !important; border-left:1px solid #e0e0e0 !important; font-size:16px !important; font-weight:600 !important; ' +
             'color:#333 !important; -moz-appearance:textfield !important; -webkit-appearance:none !important; background:#fff !important; padding:0 !important; margin:0 !important;');
-        } else if (childText === '+' || childText === '-' || childText === '\u2212') {
-          /* Plus or minus button */
-          child.setAttribute('style',
+        } else if (qkText === '+' || qkText === '-' || qkText === '\u2212') {
+          qkChild.setAttribute('style',
             'width:38px !important; height:100% !important; border:none !important; background:transparent !important; font-size:22px !important; ' +
             'cursor:pointer !important; color:#333 !important; display:flex !important; align-items:center !important; justify-content:center !important; ' +
             'padding:0 !important; margin:0 !important; line-height:1 !important; user-select:none !important; flex-shrink:0 !important;');
+        }
+      }
+    } else if (cartBtn && !document.querySelector('.tw-qty-selector')) {
+      /* Konimbo: class selectors fail, build a CUSTOM qty selector */
+      /* Find the original quantity input */
+      var origQtyInput = null;
+      var origQtyContainer = null;
+      /* Strategy: find input[type=number] near the cart button */
+      var searchRoot = cartBtn.parentElement;
+      for (var up = 0; up < 4 && searchRoot && !origQtyInput; up++) {
+        var allInp = searchRoot.getElementsByTagName('input');
+        for (var qi = 0; qi < allInp.length; qi++) {
+          if (allInp[qi].type === 'number' || allInp[qi].name === 'quantity') {
+            origQtyInput = allInp[qi];
+            origQtyContainer = origQtyInput.parentElement;
+            break;
+          }
+        }
+        searchRoot = searchRoot.parentElement;
+      }
+      /* If we found the original input, hide its container and build a new one */
+      if (origQtyInput) {
+        if (origQtyContainer && origQtyContainer !== cartBtn.parentElement) {
+          origQtyContainer.style.display = 'none';
+        }
+        /* Create new qty selector */
+        var newQty = document.createElement('div');
+        newQty.className = 'tw-qty-selector';
+        newQty.setAttribute('style',
+          'display:flex !important; flex-direction:row !important; align-items:center !important; border:2px solid #e0e0e0 !important; ' +
+          'border-radius:0 8px 8px 0 !important; border-left:none !important; overflow:hidden !important; flex-shrink:0 !important; ' +
+          'height:50px !important; background:#fff !important; min-width:120px !important;');
+        var btnStyle = 'width:38px; height:100%; border:none; background:transparent; font-size:22px; cursor:pointer; color:#333; ' +
+          'display:flex; align-items:center; justify-content:center; padding:0; margin:0; line-height:1; user-select:none; flex-shrink:0; font-family:"Heebo",sans-serif;';
+        var plusBtn = document.createElement('span');
+        plusBtn.textContent = '+';
+        plusBtn.setAttribute('style', btnStyle);
+        plusBtn.onclick = function() {
+          var v = parseInt(origQtyInput.value) || 1;
+          origQtyInput.value = v + 1;
+          newInput.value = v + 1;
+          origQtyInput.dispatchEvent(new Event('change', {bubbles:true}));
+        };
+        var newInput = document.createElement('input');
+        newInput.type = 'text';
+        newInput.value = origQtyInput.value || '1';
+        newInput.readOnly = true;
+        newInput.setAttribute('style',
+          'width:44px; height:100%; text-align:center; border:none; border-right:1px solid #e0e0e0; border-left:1px solid #e0e0e0; ' +
+          'font-size:16px; font-weight:600; color:#333; background:#fff; padding:0; margin:0; font-family:"Heebo",sans-serif; outline:none;');
+        var minusBtn = document.createElement('span');
+        minusBtn.textContent = '\u2212';
+        minusBtn.setAttribute('style', btnStyle);
+        minusBtn.onclick = function() {
+          var v = parseInt(origQtyInput.value) || 1;
+          if (v > 1) {
+            origQtyInput.value = v - 1;
+            newInput.value = v - 1;
+            origQtyInput.dispatchEvent(new Event('change', {bubbles:true}));
+          }
+        };
+        newQty.appendChild(plusBtn);
+        newQty.appendChild(newInput);
+        newQty.appendChild(minusBtn);
+        /* Insert before the cart button */
+        if (cartBtn.parentElement) {
+          cartBtn.parentElement.insertBefore(newQty, cartBtn.nextSibling);
         }
       }
     }
