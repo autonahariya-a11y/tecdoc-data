@@ -723,57 +723,40 @@
        On Konimbo, className returns empty from JS, so we find by TEXT CONTENT and structure. */
     var HIDE_STYLE = 'display:none !important; width:0 !important; height:0 !important; position:absolute !important; overflow:hidden !important; pointer-events:none !important;';
     
-    /* Find spans/divs that contain only "+" or "-" and are NOT inside our widget */
+    /* Find ALL +/- spans and number inputs that are NOT inside our widget (use data-tw attribute) */
+    function isOurElement(el) {
+      var node = el;
+      for (var i = 0; i < 8 && node; i++) {
+        if (node.getAttribute && node.getAttribute('data-tw')) return true;
+        node = node.parentElement;
+      }
+      return false;
+    }
+    /* Hide +/- spans */
     var allEls = document.getElementsByTagName('span');
     for (var sq = 0; sq < allEls.length; sq++) {
       var sqText = (allEls[sq].textContent || '').trim();
-      if ((sqText === '+' || sqText === '-' || sqText === '\u2212') && allEls[sq].children.length === 0) {
-        /* Check it's NOT inside our custom widget */
-        var inOurWidget = false;
-        var checkParent = allEls[sq];
-        for (var up = 0; up < 5; up++) {
-          if (!checkParent) break;
-          if (checkParent.className && (checkParent.className.indexOf('tw-qty') !== -1 || checkParent.className.indexOf('tw-purchase') !== -1)) {
-            inOurWidget = true; break;
-          }
-          checkParent = checkParent.parentElement;
-        }
-        if (!inOurWidget) {
-          /* This is a Konimbo +/- button — hide its container */
-          var qtyContainer = allEls[sq].parentElement;
-          if (qtyContainer) {
-            qtyContainer.setAttribute('style', HIDE_STYLE);
-            /* Also hide grandparent if it looks like a qty wrapper (has 2-3 children: +, input, -) */
-            var gp = qtyContainer.parentElement;
-            if (gp && gp.children.length <= 4) {
-              var hasInput = gp.getElementsByTagName('input').length > 0;
-              if (hasInput) {
-                gp.setAttribute('style', HIDE_STYLE);
-              }
-            }
+      if ((sqText === '+' || sqText === '-' || sqText === '\u2212') && allEls[sq].children.length === 0 && !isOurElement(allEls[sq])) {
+        allEls[sq].setAttribute('style', HIDE_STYLE);
+        var qc = allEls[sq].parentElement;
+        if (qc && !isOurElement(qc)) {
+          qc.setAttribute('style', HIDE_STYLE);
+          var gp = qc.parentElement;
+          if (gp && !isOurElement(gp) && gp.children.length <= 4 && gp.getElementsByTagName('input').length > 0) {
+            gp.setAttribute('style', HIDE_STYLE);
           }
         }
       }
     }
-    /* Also hide any input[type=number] outside our widget */
+    /* Hide number inputs outside our widget */
     var allInputsQ = document.getElementsByTagName('input');
     for (var iq = 0; iq < allInputsQ.length; iq++) {
-      if (allInputsQ[iq].type === 'number') {
-        var inWidget = false;
-        var chk = allInputsQ[iq];
-        for (var u2 = 0; u2 < 5; u2++) {
-          if (!chk) break;
-          if (chk.className && (chk.className.indexOf('tw-qty') !== -1 || chk.className.indexOf('tw-purchase') !== -1)) {
-            inWidget = true; break;
-          }
-          chk = chk.parentElement;
-        }
-        if (!inWidget) {
-          allInputsQ[iq].setAttribute('style', HIDE_STYLE);
-          if (allInputsQ[iq].parentElement) {
-            allInputsQ[iq].parentElement.setAttribute('style', HIDE_STYLE);
-          }
-        }
+      if (allInputsQ[iq].type === 'number' && !isOurElement(allInputsQ[iq])) {
+        allInputsQ[iq].setAttribute('style', HIDE_STYLE);
+        var iqp = allInputsQ[iq].parentElement;
+        if (iqp && !isOurElement(iqp)) iqp.setAttribute('style', HIDE_STYLE);
+        var iqgp = iqp ? iqp.parentElement : null;
+        if (iqgp && !isOurElement(iqgp)) iqgp.setAttribute('style', HIDE_STYLE);
       }
     }
 
@@ -815,6 +798,7 @@
 
       var waRow = document.createElement('div');
       waRow.className = 'tw-whatsapp-row';
+      waRow.setAttribute('data-tw', '1');
       waRow.setAttribute('style', 'display:flex !important; direction:rtl !important; margin-top:8px !important; width:100% !important; max-width:420px !important; min-height:48px !important;');
       var waLink = document.createElement('a');
       waLink.href = waUrl;
@@ -902,6 +886,7 @@
     if (!document.querySelector('.tw-purchase-row')) {
       var purchaseRow = document.createElement('div');
       purchaseRow.className = 'tw-purchase-row';
+      purchaseRow.setAttribute('data-tw', '1');
       purchaseRow.setAttribute('style',
         'display:flex !important; align-items:stretch !important; gap:10px !important; flex-wrap:nowrap !important; direction:rtl !important; margin-top:8px !important; width:100% !important; max-width:420px !important;');
 
@@ -924,6 +909,7 @@
       /* Build custom qty selector */
       var newQty = document.createElement('div');
       newQty.className = 'tw-qty-selector';
+      newQty.setAttribute('data-tw', '1');
       var qtyVal = (origQtyInput && origQtyInput.value) ? parseInt(origQtyInput.value) || 1 : 1;
       var btnStyle = 'width:36px;height:100%;border:none;background:transparent;font-size:22px;cursor:pointer;color:#333;display:flex;align-items:center;justify-content:center;padding:0;margin:0;line-height:1;user-select:none;flex-shrink:0;font-family:"Heebo",sans-serif;-webkit-tap-highlight-color:transparent;';
 
