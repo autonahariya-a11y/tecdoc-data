@@ -1245,7 +1245,7 @@
     html += '</div>';
 
     /* ── TAB PANEL 1: Technical Specs ── */
-    html += '<div class="tw-panel tw-panel-active" data-panel="specs">';
+    html += '<div class="tw-panel tw-panel-active" data-panel="specs" style="display:block;">';
     if (!D.specs.length && !D.articleNo && !D.supplier && !D.ean) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
     } else {
@@ -1306,7 +1306,7 @@
     html += '</div>';
 
     /* ── TAB PANEL 2: Vehicle Compatibility ── */
-    html += '<div class="tw-panel" data-panel="vehicles">';
+    html += '<div class="tw-panel" data-panel="vehicles" style="display:none;">';
     if (!D.vehicles.length) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05E8\u05DB\u05D1\u05D9\u05DD \u05EA\u05D5\u05D0\u05DE\u05D9\u05DD</div>';
     } else {
@@ -1337,7 +1337,7 @@
     html += '</div>';
 
     /* ── TAB PANEL 3: OE Numbers ── */
-    html += '<div class="tw-panel" data-panel="oe">';
+    html += '<div class="tw-panel" data-panel="oe" style="display:none;">';
     if (!D.oe.length) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E1\u05E4\u05E8\u05D9 OE</div>';
     } else {
