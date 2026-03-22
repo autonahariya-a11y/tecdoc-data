@@ -8,33 +8,58 @@
   function isAutoPartsPage() {
     // Must be a product page
     if (window.location.pathname.indexOf('/items/') === -1) return false;
-    // Check breadcrumbs for category 186807
-    var breadcrumbs = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a, nav a');
-    for (var i = 0; i < breadcrumbs.length; i++) {
-      if (breadcrumbs[i].href && breadcrumbs[i].href.indexOf('186807') !== -1) {
-        return true;
-      }
-    }
-    // Also check all links on page for 186807
+
+    // EXCLUDE known non-spare-parts categories by checking breadcrumb text
+    // Non-spare-parts breadcrumbs contain: שמנים, נוזלים, אביזרים, טיפוח, תוספים, כלי עבודה, אופנועים, מבצעים
+    var excludeTerms = ['\u05e9\u05de\u05e0\u05d9\u05dd', '\u05e0\u05d5\u05d6\u05dc\u05d9\u05dd', '\u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd',
+      '\u05d8\u05d9\u05e4\u05d5\u05d7', '\u05ea\u05d5\u05e1\u05e4\u05d9\u05dd', '\u05db\u05dc\u05d9 \u05e2\u05d1\u05d5\u05d3\u05d4',
+      '\u05d0\u05d5\u05e4\u05e0\u05d5\u05e2\u05d9\u05dd', '\u05de\u05d1\u05e6\u05e2\u05d9\u05dd',
+      '188508', '188509', '638356', '186810', '186816', '186817', '199985'];
+
+    // Check breadcrumb text and all page links in the breadcrumb area
+    var breadLinks = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a');
+    // Also scan all links for ones containing category IDs of excluded categories
     var allLinks = document.getElementsByTagName('a');
-    for (var j = 0; j < allLinks.length; j++) {
-      if (allLinks[j].href && allLinks[j].href.indexOf('186807') !== -1) {
+
+    // If any breadcrumb or page link contains excluded category IDs, skip
+    // But: only check non-nav links (breadcrumb area)
+    // Since breadcrumbs have no class, check the page URL referrer or the text visible in the top product area
+
+    // Simple & reliable approach:
+    // The product page title/content for non-spare-parts won't have a מק"ט field.
+    // Spare parts: Konimbo adds a .code_item element with the SKU.
+    // This element is in the ORIGINAL DOM (before our script runs).
+
+    // Check 1: .code_item span with visible SKU text
+    var allEls = document.getElementsByTagName('*');
+    for (var e = 0; e < allEls.length; e++) {
+      var elCls = (allEls[e].className || '').toString();
+      if (elCls.indexOf('code_item') !== -1) {
+        var elText = (allEls[e].textContent || '').trim();
+        if (elText.length > 0) return true;
+      }
+    }
+
+    // Check 2: look for מק"ט / מק״ט text in the product area specifically
+    // Scan all spans and strongs for SKU-like label
+    var spans = document.getElementsByTagName('span');
+    for (var s = 0; s < spans.length; s++) {
+      var st = (spans[s].textContent || '').trim();
+      if (st === '\u05de\u05e7"\u05d8' || st === '\u05de\u05e7\u05f4\u05d8' ||
+          st === '\u05de\u05e7\u05f3\u05d8' || st === '\u05de\u05e7\u05d8' ||
+          st === '\u05de\u05e7"\u05d8:' || st === '\u05de\u05e7\u05f4\u05d8:') {
         return true;
       }
     }
-    // Check page URL itself
-    if (window.location.href.indexOf('186807') !== -1) return true;
-    // Fallback: check if page has מק"ט (SKU) text — only spare-parts have it
-    var bodyText = document.body.innerText || document.body.textContent || '';
-    if (bodyText.indexOf('\u05de\u05e7"\u05d8') !== -1) return true;
-    if (bodyText.indexOf('\u05de\u05e7\u05f4\u05d8') !== -1) return true;
-    if (bodyText.indexOf('\u05de\u05e7\u05d8') !== -1) return true;
-    // Check for #item_show which is the Konimbo product area
-    var itemShow = document.getElementById('item_show');
-    if (itemShow) {
-      // item_show exists but no מק"ט found — not spare parts
-      return false;
+    var strongs = document.getElementsByTagName('strong');
+    for (var g = 0; g < strongs.length; g++) {
+      var gt = (strongs[g].textContent || '').trim();
+      if (gt === '\u05de\u05e7"\u05d8' || gt === '\u05de\u05e7\u05f4\u05d8' ||
+          gt === '\u05de\u05e7\u05f3\u05d8' || gt === '\u05de\u05e7\u05d8') {
+        return true;
+      }
     }
+
     return false;
   }
 
