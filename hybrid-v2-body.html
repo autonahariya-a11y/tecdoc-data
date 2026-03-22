@@ -431,13 +431,31 @@
     }
   }
 
-  // 3e. Cart button — anchor/button with הוסף לעגלה text
+  // 3e. Cart button — find the ORIGINAL Konimbo add-to-cart button
+  // IMPORTANT: search BEFORE we create our own buttons (otherwise we'd find ours)
   var cartButton = null;
-  var allButtons = document.getElementsByTagName('button');
-  for (var b = 0; b < allButtons.length; b++) {
-    if (getText(allButtons[b]).indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
-      cartButton = allButtons[b];
-      break;
+  // Look for Konimbo's form submit or cart button
+  var allForms = document.getElementsByTagName('form');
+  for (var f = 0; f < allForms.length; f++) {
+    var action = allForms[f].action || '';
+    if (action.indexOf('cart') !== -1 || action.indexOf('add') !== -1) {
+      var formBtns = allForms[f].getElementsByTagName('button');
+      if (formBtns.length) { cartButton = formBtns[0]; break; }
+      var formInputs = allForms[f].getElementsByTagName('input');
+      for (var fi = 0; fi < formInputs.length; fi++) {
+        if (formInputs[fi].type === 'submit') { cartButton = formInputs[fi]; break; }
+      }
+      if (cartButton) break;
+    }
+  }
+  // Fallback: find button/anchor with הוסף text (but skip any inside #an-product-redesign)
+  if (!cartButton) {
+    var allButtons = document.getElementsByTagName('button');
+    for (var b = 0; b < allButtons.length; b++) {
+      if (getText(allButtons[b]).indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
+        cartButton = allButtons[b];
+        break;
+      }
     }
   }
   if (!cartButton) {
@@ -449,7 +467,6 @@
       }
     }
   }
-  // Also look for input[type=submit] with add to cart value
   if (!cartButton) {
     var allInputs = document.getElementsByTagName('input');
     for (var inp = 0; inp < allInputs.length; inp++) {
@@ -460,6 +477,8 @@
       }
     }
   }
+  // Store the original cart form for direct submission
+  var cartForm = cartButton ? cartButton.closest('form') || cartButton.form || null : null;
 
   // 3f. Breadcrumbs
   var breadcrumbItems = [];
@@ -615,7 +634,7 @@
   // Col 1: Image section
   html += '<div class="product-image-section">';
   html += '<div class="product-image-main">';
-  html += '<div class="image-badge">\u05de\u05d5\u05e6\u05e8 \u05d0\u05d9\u05db\u05d5\u05ea\u05d9</div>';
+  // Badge removed per user request
   html += mainImageHtml;
   html += '</div>';
   html += '<div class="image-thumbnails">' + thumbnailsHtml + '</div>';
@@ -799,13 +818,17 @@
   }
 
   if (qtyMinusBtn) {
-    qtyMinusBtn.addEventListener('click', function() {
+    qtyMinusBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
       anQty = Math.max(1, anQty - 1);
       updateQtyDisplay();
     });
   }
   if (qtyPlusBtn) {
-    qtyPlusBtn.addEventListener('click', function() {
+    qtyPlusBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
       anQty = Math.min(99, anQty + 1);
       updateQtyDisplay();
     });
@@ -813,16 +836,46 @@
 
   // --- Buy button clicks original Konimbo cart button ---
   function doAddToCart(triggerBtn) {
-    if (cartButton) {
-      // Update Konimbo quantity if possible
-      var konimboQtyInput = document.querySelector('[name="quantity"], [id*="quantity"], [class*="quantity"] input');
-      if (konimboQtyInput && konimboQtyInput.tagName === 'INPUT') {
-        konimboQtyInput.value = anQty;
+    // Update Konimbo quantity if possible
+    var konimboQtyInput = null;
+    var allQtyInputs = document.getElementsByTagName('input');
+    for (var qi = 0; qi < allQtyInputs.length; qi++) {
+      var qiName = allQtyInputs[qi].name || '';
+      var qiType = allQtyInputs[qi].type || '';
+      if ((qiName.indexOf('quantity') !== -1 || qiName.indexOf('qty') !== -1) && qiType !== 'hidden') {
+        konimboQtyInput = allQtyInputs[qi];
+        break;
       }
-      // Click the original cart button
+    }
+    if (konimboQtyInput) {
+      konimboQtyInput.value = anQty;
+    }
+
+    // Try multiple methods to trigger add-to-cart
+    var added = false;
+    if (cartButton) {
       try {
         cartButton.click();
+        added = true;
       } catch(e) {}
+    }
+    // If cartButton click didn't work, try submitting the form directly
+    if (!added && cartForm) {
+      try {
+        cartForm.submit();
+        added = true;
+      } catch(e) {}
+    }
+    // Last resort: find any form with cart action and submit it
+    if (!added) {
+      var forms2 = document.getElementsByTagName('form');
+      for (var f2 = 0; f2 < forms2.length; f2++) {
+        var a2 = forms2[f2].action || '';
+        if (a2.indexOf('cart') !== -1) {
+          try { forms2[f2].submit(); added = true; } catch(e2) {}
+          break;
+        }
+      }
     }
 
     // Visual feedback on our button
@@ -840,12 +893,20 @@
 
   var mainBuyBtn = document.getElementById('an-buy-btn');
   if (mainBuyBtn) {
-    mainBuyBtn.addEventListener('click', function() { doAddToCart(mainBuyBtn); });
+    mainBuyBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      doAddToCart(mainBuyBtn);
+    });
   }
 
   var stickyBuyBtn = document.getElementById('an-sticky-buy-btn');
   if (stickyBuyBtn) {
-    stickyBuyBtn.addEventListener('click', function() { doAddToCart(stickyBuyBtn); });
+    stickyBuyBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      doAddToCart(stickyBuyBtn);
+    });
   }
 
   // --- Image thumbnail click ---
