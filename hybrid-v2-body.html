@@ -697,11 +697,19 @@
   // Brand section
   html += '<div class="brand-section">';
   html += '<div class="brand-section-header">';
-  if (brandData.logo) {
-    html += '<div class="brand-logo-box"><img src="' + brandData.logo + '" alt="' + brandData.name + '" onerror="this.parentElement.innerHTML=\'' + brandData.name.toUpperCase().substring(0,6) + '\';this.parentElement.style.background=\'' + brandData.color + '\';this.parentElement.style.color=\'#fff\';this.parentElement.style.fontSize=\'11px\';this.parentElement.style.fontWeight=\'900\'"></div>';
-  } else {
-    html += '<div class="brand-logo-box" style="background:' + brandData.color + ';color:#fff;font-size:11px;font-weight:900;letter-spacing:1px">' + brandData.name.toUpperCase().substring(0, 6) + '</div>';
-  }
+  // Brand logo box — styled SVG with brand initial + color
+  var brandInitial = brandData.name.charAt(0).toUpperCase();
+  var brandShort = brandData.name.toUpperCase().substring(0, 4);
+  var bc = brandData.color || '#1B4E91';
+  var logoSvg = '<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">' +
+    '<defs><linearGradient id="bg_' + brandShort + '" x1="0" y1="0" x2="1" y2="1">' +
+    '<stop offset="0%" stop-color="' + bc + '"/>' +
+    '<stop offset="100%" stop-color="' + bc + '88"/>' +
+    '</linearGradient></defs>' +
+    '<rect width="48" height="48" rx="10" fill="url(#bg_' + brandShort + ')"/>' +
+    '<text x="24" y="31" text-anchor="middle" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="900" letter-spacing="0.5">' + brandShort + '</text>' +
+    '</svg>';
+  html += '<div class="brand-logo-box">' + logoSvg + '</div>';
   html += '<div class="brand-section-info">';
   html += '<h3>' + brandData.name + '</h3>';
   html += '<span>' + (brandData.country ? brandData.country + (brandData.founded ? ', ' + brandData.founded : '') : '') + '</span>';
