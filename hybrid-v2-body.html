@@ -2,375 +2,793 @@
 (function() {
   'use strict';
 
-  /* ─────────────────────────────────────────────
-     GUARD: Only run on auto-parts product pages.
-     Check breadcrumbs for a link href containing "186807"
-     using getElementsByTagName (Konimbo-safe).
-     ─────────────────────────────────────────────── */
-  var links = document.getElementsByTagName('a');
-  var isAutoPage = false;
-  for (var i = 0; i < links.length; i++) {
-    if (links[i].href && links[i].href.indexOf('186807') !== -1) {
-      isAutoPage = true;
+  /* ================================================================
+     STEP 1: Check if this is an auto-parts product page (186807)
+     ================================================================ */
+  function isAutoPartsPage() {
+    // Check breadcrumbs for category 186807
+    var breadcrumbs = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a, nav a');
+    for (var i = 0; i < breadcrumbs.length; i++) {
+      if (breadcrumbs[i].href && breadcrumbs[i].href.indexOf('186807') !== -1) {
+        return true;
+      }
+    }
+    // Also check all links on page
+    var allLinks = document.getElementsByTagName('a');
+    for (var j = 0; j < allLinks.length; j++) {
+      if (allLinks[j].href && allLinks[j].href.indexOf('186807') !== -1) {
+        return true;
+      }
+    }
+    // Check page URL itself
+    if (window.location.href.indexOf('186807') !== -1) return true;
+    // Check for #item_show which is the Konimbo product area
+    var itemShow = document.getElementById('item_show');
+    if (!itemShow) return false;
+    return true; // If item_show exists, treat as product page
+  }
+
+  if (!isAutoPartsPage()) return;
+
+  /* ================================================================
+     STEP 2: Brand info dictionary
+     ================================================================ */
+  var BRAND_INFO = {
+    "BREMBO": {
+      name: "Brembo",
+      description: "יצרנית מערכות בלימה מובילה בעולם. מספקת מערכות בלימה ליצרניות הרכב הגדולות וגם לשוק החלפים. ידועה מעולם המירוצים — פורמולה 1, MotoGP ועוד.",
+      founded: "1961", country: "איטליה",
+      color: "#c8102e"
+    },
+    "BOSCH": {
+      name: "Bosch",
+      description: "ספקית חלקי הרכב הגדולה בעולם. מעל 130 שנות ניסיון בתעשיית הרכב. מייצרת מגוון רחב — ממערכות הצתה ועד מערכות בלימה, פילטרים, מצתים וחיישנים.",
+      founded: "1886", country: "גרמניה",
+      color: "#e2000f"
+    },
+    "MANN-FILTER": {
+      name: "MANN-FILTER",
+      description: "מותג הפילטרים המוביל באירופה. חלק מקבוצת MANN+HUMMEL. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM ליצרניות הרכב המובילות.",
+      founded: "1941", country: "גרמניה",
+      color: "#1a4690"
+    },
+    "MAHLE": {
+      name: "Mahle",
+      description: "קבוצת טכנולוגיה בינלאומית. מתמחה ברכיבי מנוע, פילטרים ומערכות תרמיות לרכב. ספקית ציוד מקורי ליצרניות הרכב המובילות בעולם.",
+      founded: "1920", country: "גרמניה",
+      color: "#005b8e"
+    },
+    "VALEO": {
+      name: "Valeo",
+      description: "ספקית ציוד מקורי ליצרני רכב ברחבי העולם. מתמחה במערכות מיזוג, תאורה, מצמדים, מגבים ומערכות חשמל לרכב.",
+      founded: "1923", country: "צרפת",
+      color: "#003087"
+    },
+    "TRW": {
+      name: "TRW",
+      description: "מובילה עולמית במערכות בטיחות לרכב — בלמים, היגוי ומערכות התלייה. כיום חלק מקבוצת ZF. ספקית ציוד מקורי ליצרני הרכב הגדולים.",
+      founded: "1901", country: "גרמניה",
+      color: "#003399"
+    },
+    "FEBI BILSTEIN": {
+      name: "Febi Bilstein",
+      description: "חברה גרמנית עם מעל 175 שנות ניסיון. מתמחה בחלקי חילוף לרכב באיכות OEM — בולמי זעזועים, חלקי פרונט, מערכת קירור ועוד.",
+      founded: "1844", country: "גרמניה",
+      color: "#e8001c"
+    },
+    "MEYLE": {
+      name: "Meyle",
+      description: "יצרנית חלקי חילוף גרמנית. מציעה מעל 40,000 חלקים באיכות גבוהה — התלייה, היגוי, בלימה ומערכת ההנעה. ידועה בקו MEYLE-HD המחוזק.",
+      founded: "1958", country: "גרמניה",
+      color: "#0057a8"
+    },
+    "SKF": {
+      name: "SKF",
+      description: "מובילה עולמית במיסבים ומערכות סיבוב. מייצרת מיסבי גלגלים, ערכות טיימינג ורכיבי הנעה לתעשיית הרכב.",
+      founded: "1907", country: "שוודיה",
+      color: "#003087"
+    },
+    "NGK": {
+      name: "NGK",
+      description: "יצרנית המצתים הגדולה בעולם. ספקית ציוד מקורי לכל יצרניות הרכב הגדולות. מייצרת גם חיישני חמצן וסלילי הצתה.",
+      founded: "1936", country: "יפן",
+      color: "#cc0000"
+    },
+    "DENSO": {
+      name: "Denso",
+      description: "ספקית רכיבים יפנית מובילה, חלק מקבוצת Toyota. מתמחה במצתים, מזרקים, מערכות מיזוג, סטרטרים ואלטרנטורים.",
+      founded: "1949", country: "יפן",
+      color: "#003087"
+    },
+    "SACHS": {
+      name: "Sachs",
+      description: "מותג מוביל בבולמי זעזועים ומערכות מצמד. חלק מקבוצת ZF. ספקית ציוד מקורי ליצרניות הרכב הגדולות באירופה.",
+      founded: "1894", country: "גרמניה",
+      color: "#cc0000"
+    },
+    "LUK": {
+      name: "LuK",
+      description: "מתמחה במערכות מצמד ומערכות הנעה. חלק מקבוצת Schaeffler. ספקית ציוד מקורי — מצמדים, גלגלי תנופה ומערכות גיר.",
+      founded: "1965", country: "גרמניה",
+      color: "#e2000f"
+    },
+    "INA": {
+      name: "INA",
+      description: "חלק מקבוצת Schaeffler. מתמחה במיסבים, ערכות טיימינג, מותחנים וגלגלות. ספקית ציוד מקורי ליצרניות הרכב.",
+      founded: "1946", country: "גרמניה",
+      color: "#e2000f"
+    },
+    "CONTINENTAL": {
+      name: "Continental",
+      description: "חברת טכנולוגיה גרמנית מובילה. מייצרת רצועות טיימינג, רצועות אביזרים, צינורות, חיישנים ומערכות בלימה.",
+      founded: "1871", country: "גרמניה",
+      color: "#ffa500"
+    },
+    "GATES": {
+      name: "Gates",
+      description: "מובילה עולמית ברצועות, צינורות ומערכות הנעה לרכב. מייצרת ערכות טיימינג, רצועות אביזרים ומשאבות מים.",
+      founded: "1911", country: "ארה\"ב",
+      color: "#003087"
+    },
+    "HENGST": {
+      name: "Hengst",
+      description: "יצרנית פילטרים גרמנית מובילה. ספקית ציוד מקורי ליצרניות הרכב הגדולות באירופה. מתמחה בפילטרי שמן, אוויר ומזגן.",
+      founded: "1958", country: "גרמניה",
+      color: "#003087"
+    },
+    "DAYCO": {
+      name: "Dayco",
+      description: "מתמחה במערכות הנעה — רצועות טיימינג, גלגלות, מותחנים ומשאבות מים. ספקית ציוד מקורי ליצרניות רכב גדולות.",
+      founded: "1905", country: "ארה\"ב",
+      color: "#cc0000"
+    },
+    "LEMFORDER": {
+      name: "Lemförder",
+      description: "חלק מקבוצת ZF. מובילה עולמית ברכיבי התלייה והיגוי — קצוות הגה, מוטות מייצב, משולשים. ספקית ציוד מקורי.",
+      founded: "1947", country: "גרמניה",
+      color: "#003087"
+    },
+    "TEXTAR": {
+      name: "Textar",
+      description: "מותג רפידות בלם מוביל באירופה. חלק מקבוצת TMD Friction. ספקית ציוד מקורי ליצרניות הרכב הגדולות.",
+      founded: "1913", country: "גרמניה",
+      color: "#cc0000"
+    },
+    "ATE": {
+      name: "ATE",
+      description: "מותג מערכות בלימה ותוק. חלק מקבוצת Continental. מייצרת דיסקי בלם, רפידות, נוזלי בלמים וצילינדרים.",
+      founded: "1906", country: "גרמניה",
+      color: "#ffa500"
+    },
+    "KNECHT": {
+      name: "Knecht",
+      description: "מותג פילטרים של קבוצת Mahle. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM.",
+      founded: "1927", country: "גרמניה",
+      color: "#005b8e"
+    },
+    "NIPPARTS": {
+      name: "Nipparts",
+      description: "מתמחה בחלקי חילוף לרכבים אסייתיים — טויוטה, הונדה, ניסן, מאזדה, יונדאי וקיה. מגוון רחב של פילטרים, בלמים ומתלים.",
+      founded: "1975", country: "הולנד",
+      color: "#cc0000"
+    },
+    "BLUE PRINT": {
+      name: "Blue Print",
+      description: "מותג חלקי חילוף לרכבים אסייתיים ואמריקאיים. חלק מקבוצת Bilstein. מגוון של למעלה מ-35,000 חלקים.",
+      founded: "1997", country: "גרמניה",
+      color: "#003087"
+    },
+    "MOTUL": {
+      name: "Motul",
+      description: "יצרנית שמנים וחומרי סיכה צרפתית מובילה. ידועה מעולם המירוצים — 24 שעות של לה-מאן, MotoGP ועוד. מציעה שמנים סינתטיים מתקדמים.",
+      founded: "1853", country: "צרפת",
+      color: "#cc0000"
+    },
+    "CASTROL": {
+      name: "Castrol",
+      description: "מותג שמנים בינלאומי מוביל. חלק מקבוצת BP. מציע שמני מנוע, גיר ונוזלי בלמים. שותף רשמי של יצרני רכב רבים.",
+      founded: "1899", country: "בריטניה",
+      color: "#009900"
+    },
+    "LIQUI MOLY": {
+      name: "Liqui Moly",
+      description: "יצרנית שמנים ותוספי דלק גרמנית. ידועה באיכות הגבוהה ובמגוון הרחב — שמני מנוע, תוספים, חומרי טיפוח ושמנים מיוחדים.",
+      founded: "1957", country: "גרמניה",
+      color: "#cc0000"
+    },
+    "MOBIL": {
+      name: "Mobil",
+      description: "מותג שמנים בינלאומי מוביל. חלק מקבוצת ExxonMobil. סדרת Mobil 1 היא מהשמנים הסינתטיים הנמכרים בעולם.",
+      founded: "1911", country: "ארה\"ב",
+      color: "#cc0000"
+    },
+    "OSRAM": {
+      name: "Osram",
+      description: "מובילה עולמית בתאורה לרכב. מייצרת נורות הלוגן, LED, קסנון ונורות איתות. ספקית ציוד מקורי ליצרניות הרכב.",
+      founded: "1919", country: "גרמניה",
+      color: "#ffa500"
+    },
+    "PHILIPS": {
+      name: "Philips",
+      description: "מותג תאורה בינלאומי מוביל. מייצרת נורות רכב — הלוגן, LED וקסנון. ידועה בסדרות X-tremeVision ו-WhiteVision.",
+      founded: "1891", country: "הולנד",
+      color: "#0096d6"
+    },
+    "SWAG": {
+      name: "Swag",
+      description: "מותג חלקי חילוף של קבוצת Bilstein Group. מתמחה בחלקים לרכבים אירופאיים — VW, BMW, Mercedes, Audi. מעל 40,000 פריטים.",
+      founded: "1954", country: "גרמניה",
+      color: "#003087"
+    },
+    "TOPRAN": {
+      name: "Topran",
+      description: "יצרנית חלקי חילוף גרמנית. מתמחה בחלקים לרכבים אירופאיים — מערכת קירור, חשמל, פרונט ומנוע.",
+      founded: "1996", country: "גרמניה",
+      color: "#003087"
+    },
+    "RIDEX": {
+      name: "Ridex",
+      description: "מותג חלקי חילוף במחיר תחרותי. מציע מגוון רחב של חלקים — בלמים, פילטרים, מתלים וחלקי מנוע. יחס מחיר-איכות טוב.",
+      founded: "", country: "",
+      color: "#003087"
+    }
+  };
+
+  /* ================================================================
+     STEP 3: Extract product data from Konimbo DOM
+     ================================================================ */
+
+  // Helper: get text content safely
+  function getText(el) {
+    return el ? (el.textContent || el.innerText || '').trim() : '';
+  }
+
+  // 3a. Title
+  var titleEl = document.getElementById('item_current_title');
+  if (!titleEl) {
+    titleEl = document.querySelector('[id*="item_title"], [id*="product_title"]');
+  }
+  var h1El = titleEl ? titleEl.getElementsByTagName('h1')[0] : null;
+  var productTitle = h1El ? getText(h1El) : '';
+  if (!productTitle) {
+    // Fallback: find any h1 in item area
+    var itemShow = document.getElementById('item_show');
+    if (itemShow) {
+      var h1s = itemShow.getElementsByTagName('h1');
+      if (h1s.length) productTitle = getText(h1s[0]);
+    }
+  }
+  if (!productTitle) productTitle = document.title.split('|')[0].trim();
+
+  // 3b. Price — search by tag+className
+  var priceEl = null;
+  var allSpans = document.getElementsByTagName('span');
+  for (var i = 0; i < allSpans.length; i++) {
+    var cls = allSpans[i].className || '';
+    if (cls.indexOf('price') !== -1 && getText(allSpans[i]).indexOf('₪') !== -1) {
+      priceEl = allSpans[i];
       break;
     }
   }
-  if (!isAutoPage) return;
+  // Also try divs with price class
+  if (!priceEl) {
+    var allDivs = document.getElementsByTagName('div');
+    for (var d = 0; d < allDivs.length; d++) {
+      var dcls = allDivs[d].className || '';
+      if (dcls.indexOf('price') !== -1 && getText(allDivs[d]).indexOf('₪') !== -1) {
+        priceEl = allDivs[d];
+        break;
+      }
+    }
+  }
+  var productPrice = priceEl ? getText(priceEl).replace(/[^\d₪,.]/g, '').replace(/^₪/, '').trim() : '';
+  if (!productPrice && priceEl) productPrice = getText(priceEl);
 
-  /* ─────────────────────────────────────────────
-     BRAND COLORS
-     ─────────────────────────────────────────────── */
-  var BRAND_COLORS = {
-    'BREMBO':      '#c8102e',
-    'BOSCH':       '#ea0016',
-    'MANN-FILTER': '#003082',
-    'MANN':        '#003082',
-    'MAHLE':       '#00205b',
-    'VALEO':       '#00a651',
-    'TRW':         '#003366',
-    'NGK':         '#e4002b',
-    'DENSO':       '#cc0000'
+  // 3c. SKU — find span containing מק"ט or מק״ט
+  var skuValue = '';
+  for (var s = 0; s < allSpans.length; s++) {
+    var spanText = getText(allSpans[s]);
+    if (spanText.indexOf('\u05de\u05e7\u05d9\u05d8') !== -1 || spanText.indexOf('\u05de\u05e7\u05d5\u05d3') !== -1) {
+      // Extract SKU value
+      var skuMatch = spanText.replace(/\u05de\u05e7["\u05d9\u05d8\u05d5\u05d3:״]+\s*/g, '').trim();
+      if (skuMatch) { skuValue = skuMatch; break; }
+    }
+  }
+  // Also try data-sku attributes
+  if (!skuValue) {
+    var skuEl = document.querySelector('[data-sku], [id*="sku"], [class*="sku"]');
+    if (skuEl) skuValue = getText(skuEl).replace(/\u05de\u05e7["\u05d9\u05d8:״]+\s*/g, '').trim();
+  }
+
+  // 3d. Product images — find img tags with cloudfront/konimbo in src
+  var imageUrls = [];
+  var allImgs = document.getElementsByTagName('img');
+  for (var im = 0; im < allImgs.length; im++) {
+    var src = allImgs[im].src || allImgs[im].getAttribute('data-src') || '';
+    if (src && (src.indexOf('cloudfront') !== -1 || src.indexOf('konimbo') !== -1 || src.indexOf('cdn') !== -1)) {
+      if (src.indexOf('logo') === -1 && src.indexOf('icon') === -1 && src.indexOf('banner') === -1) {
+        if (imageUrls.indexOf(src) === -1) imageUrls.push(src);
+      }
+    }
+  }
+
+  // 3e. Cart button — anchor/button with הוסף לעגלה text
+  var cartButton = null;
+  var allButtons = document.getElementsByTagName('button');
+  for (var b = 0; b < allButtons.length; b++) {
+    if (getText(allButtons[b]).indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
+      cartButton = allButtons[b];
+      break;
+    }
+  }
+  if (!cartButton) {
+    var allAnchors = document.getElementsByTagName('a');
+    for (var a = 0; a < allAnchors.length; a++) {
+      if (getText(allAnchors[a]).indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
+        cartButton = allAnchors[a];
+        break;
+      }
+    }
+  }
+  // Also look for input[type=submit] with add to cart value
+  if (!cartButton) {
+    var allInputs = document.getElementsByTagName('input');
+    for (var inp = 0; inp < allInputs.length; inp++) {
+      var val = allInputs[inp].value || '';
+      if (val.indexOf('\u05d4\u05d5\u05e1\u05e3') !== -1) {
+        cartButton = allInputs[inp];
+        break;
+      }
+    }
+  }
+
+  // 3f. Breadcrumbs
+  var breadcrumbItems = [];
+  var bcLinks = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a');
+  for (var bc = 0; bc < bcLinks.length; bc++) {
+    breadcrumbItems.push({ text: getText(bcLinks[bc]), href: bcLinks[bc].href });
+  }
+
+  // 3g. Detect brand from title
+  var detectedBrand = 'BREMBO'; // default
+  var titleUpper = productTitle.toUpperCase();
+  var brandKeys = Object.keys(BRAND_INFO);
+  for (var bk = 0; bk < brandKeys.length; bk++) {
+    if (titleUpper.indexOf(brandKeys[bk]) !== -1) {
+      detectedBrand = brandKeys[bk];
+      break;
+    }
+  }
+  var brandData = BRAND_INFO[detectedBrand] || {
+    name: detectedBrand,
+    description: 'יצרן חלקי חילוף מוביל לרכב. מספק פתרונות איכות לשוק החלפים.',
+    founded: '', country: '',
+    color: '#1B4E91'
   };
-  var DEFAULT_COLOR = '#1B4E91';
 
-  /* ─────────────────────────────────────────────
-     HELPERS
-     ─────────────────────────────────────────────── */
-  function detectBrand(text) {
-    if (!text) return null;
-    var upper = text.toUpperCase();
-    var brands = Object.keys(BRAND_COLORS);
-    for (var b = 0; b < brands.length; b++) {
-      if (upper.indexOf(brands[b]) !== -1) {
-        return brands[b];
-      }
+  // 3h. Product subtitle — try to extract from title or breadcrumb
+  var productSubtitle = '';
+  var subMatch = productTitle.match(/[\u05d0-\u05ea]+\s[\u05d0-\u05ea]+/);
+  if (breadcrumbItems.length >= 2) {
+    productSubtitle = breadcrumbItems[breadcrumbItems.length - 2].text || '';
+  }
+  if (!productSubtitle && productTitle.indexOf('קדמי') !== -1) productSubtitle = 'סרן קדמי | בלם דיסק';
+  if (!productSubtitle && productTitle.indexOf('אחורי') !== -1) productSubtitle = 'סרן אחורי | בלם דיסק';
+  if (!productSubtitle) productSubtitle = '\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd';
+
+  // 3i. Category label from breadcrumb
+  var categoryLabel = '';
+  if (breadcrumbItems.length >= 2) categoryLabel = breadcrumbItems[breadcrumbItems.length - 2].text;
+  if (!categoryLabel) categoryLabel = '\u05d7\u05dc\u05e7\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd';
+
+  // 3j. Find the Konimbo content area to insert before/after
+  var targetInsertEl = document.getElementById('item_show') ||
+    document.getElementById('item_details') ||
+    document.getElementById('item_content') ||
+    document.getElementById('content_area');
+
+  if (!targetInsertEl) {
+    // Try to find main content area
+    var mains = document.getElementsByTagName('main');
+    if (mains.length) targetInsertEl = mains[0];
+  }
+
+  if (!targetInsertEl) return; // Can't find insertion point
+
+  /* ================================================================
+     STEP 4: Move #tecdoc-widget from DOM before we rebuild
+     ================================================================ */
+  var tecdocWidget = document.getElementById('tecdoc-widget');
+
+  /* ================================================================
+     STEP 5: Build complete HTML
+     ================================================================ */
+
+  // Image HTML helpers
+  var svgPlaceholder = '<svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+    '<rect width="400" height="400" fill="#f7f8fa"/>' +
+    '<g transform="translate(200, 185)">' +
+    '<path d="M-95,-55 Q-100,-55 -100,-45 L-100,45 Q-100,55 -90,55 L90,55 Q100,55 100,45 L100,-45 Q100,-55 95,-55 Z" fill="#3a3a3a" stroke="#2a2a2a" stroke-width="2"/>' +
+    '<path d="M-85,-45 Q-88,-45 -88,-38 L-88,38 Q-88,45 -82,45 L82,45 Q88,45 88,38 L88,-38 Q88,-45 85,-45 Z" fill="#5a5a5a"/>' +
+    '<line x1="-60" y1="-30" x2="-60" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+    '<line x1="-20" y1="-30" x2="-20" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+    '<line x1="20" y1="-30" x2="20" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+    '<line x1="60" y1="-30" x2="60" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+    '<rect x="-70" y="-8" width="30" height="3" rx="1.5" fill="' + brandData.color + '" opacity="0.6"/>' +
+    '</g>' +
+    '<rect x="130" y="280" width="140" height="32" rx="6" fill="' + brandData.color + '"/>' +
+    '<text x="200" y="302" text-anchor="middle" fill="#fff" font-size="14" font-weight="900" font-family="Arial, sans-serif" letter-spacing="2">' + brandData.name.toUpperCase() + '</text>' +
+    '</svg>';
+
+  var mainImageHtml = '';
+  var thumbnailsHtml = '';
+
+  if (imageUrls.length > 0) {
+    mainImageHtml = '<img src="' + imageUrls[0] + '" alt="' + productTitle + '" id="an-main-img">';
+    for (var ti = 0; ti < Math.min(imageUrls.length, 5); ti++) {
+      var activeClass = ti === 0 ? ' active' : '';
+      thumbnailsHtml += '<div class="image-thumb' + activeClass + '" data-an-img="' + imageUrls[ti] + '">' +
+        '<img src="' + imageUrls[ti] + '" alt="תמונה ' + (ti+1) + '">' +
+        '</div>';
     }
-    return null;
+  } else {
+    mainImageHtml = svgPlaceholder;
+    thumbnailsHtml = '<div class="image-thumb active">' + svgPlaceholder + '</div>';
   }
 
-  function getBrandColor(brand) {
-    return (brand && BRAND_COLORS[brand]) ? BRAND_COLORS[brand] : DEFAULT_COLOR;
-  }
+  // Sticky bar thumb HTML
+  var stickyThumbHtml = imageUrls.length > 0
+    ? '<img src="' + imageUrls[0] + '" alt="' + productTitle + '">'
+    : '<svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="4" fill="#f0f0f0"/><rect x="5" y="10" width="30" height="20" rx="4" fill="' + brandData.color + '" opacity="0.2"/><text x="20" y="23" text-anchor="middle" fill="' + brandData.color + '" font-size="5" font-weight="900" font-family="Arial">' + brandData.name.toUpperCase().substring(0,6) + '</text></svg>';
 
-  /* Get first element with a given class name — uses getElementsByTagName
-     to avoid banned querySelector('.class') */
-  function getByClass(className) {
-    var all = document.getElementsByTagName('*');
-    for (var i = 0; i < all.length; i++) {
-      var cn = all[i].className || '';
-      /* className may be SVGAnimatedString on SVG elements */
-      if (typeof cn === 'string' && cn.split(' ').indexOf(className) !== -1) {
-        return all[i];
-      }
+  // Breadcrumb HTML
+  var breadcrumbHtml = '';
+  if (breadcrumbItems.length > 0) {
+    for (var bci = 0; bci < breadcrumbItems.length; bci++) {
+      breadcrumbHtml += '<a href="' + breadcrumbItems[bci].href + '">' + breadcrumbItems[bci].text + '</a><span>\u203a</span>';
     }
-    return null;
+  } else {
+    breadcrumbHtml = '<a href="/">\u05d3\u05e3 \u05d4\u05d1\u05d9\u05ea</a><span>\u203a</span>' +
+      '<a href="#">\u05d7\u05dc\u05e7\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd</a><span>\u203a</span>';
+  }
+  breadcrumbHtml += '<span>' + productTitle.substring(0, 60) + '</span>';
+
+  // Price display
+  var priceDisplay = productPrice ? '&#8362;' + productPrice : '';
+  if (!priceDisplay && priceEl) priceDisplay = getText(priceEl);
+
+  // Highlights
+  var highlights = [
+    brandData.name + ' \u2014 \u05de\u05d5\u05ea\u05d2 \u05e4\u05e8\u05d9\u05de\u05d9\u05d5\u05dd \u05e2\u05dd \u05de\u05d5\u05e0\u05d9\u05d8\u05d9\u05df \u05e2\u05d5\u05dc\u05de\u05d9 \u05d1\u05d9\u05d9\u05e6\u05d5\u05e8 \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4',
+    '\u05d9\u05d9\u05e6\u05d5\u05e8 \u05d1\u05ea\u05e7\u05df ECE R90 \u2014 \u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05db\u05dc \u05d3\u05e8\u05d9\u05e9\u05d5\u05ea \u05d4\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d5\u05ea',
+    '\u05de\u05e8\u05db\u05d1 Low-Metallic \u05dc\u05de\u05e8\u05d5\u05d5\u05d7 \u05d1\u05dc\u05d9\u05de\u05d4 \u05e7\u05e6\u05e8 \u05d5\u05e9\u05d7\u05d9\u05e7\u05d4 \u05e0\u05de\u05d5\u05db\u05d4',
+    '\u05de\u05e1\u05e4\u05e7 \u05d1\u05dc\u05d9\u05de\u05d4 \u05e9\u05e7\u05d8\u05d4 \u05d5\u05e0\u05d5\u05d7\u05d4 \u05dc\u05dc\u05d0 \u05e8\u05e2\u05e9\u05d9\u05dd',
+    '\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05de\u05d2\u05d5\u05d5\u05df \u05e8\u05d7\u05d1 \u05e9\u05dc \u05d3\u05d2\u05de\u05d9 VAG (VW, Audi, Seat, Skoda)'
+  ];
+
+  var highlightsHtml = '';
+  for (var hl = 0; hl < highlights.length; hl++) {
+    highlightsHtml += '<li>' + highlights[hl] + '</li>';
   }
 
-  /* Get ALL elements with a given class name */
-  function getAllByClass(className) {
-    var results = [];
-    var all = document.getElementsByTagName('*');
-    for (var i = 0; i < all.length; i++) {
-      var cn = all[i].className || '';
-      if (typeof cn === 'string' && cn.split(' ').indexOf(className) !== -1) {
-        results.push(all[i]);
-      }
+  // Cart SVG icon
+  var cartSvg = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
+  var cartSvgSm = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
+
+  // Build the full wrapper HTML
+  var html = '';
+
+  // --- Sticky Bar (separate from #an-product-redesign, appended to body) ---
+  // (handled below after DOM insertion)
+
+  // --- Breadcrumb ---
+  html += '<nav class="an-breadcrumb">';
+  html += '<div class="an-breadcrumb-inner">' + breadcrumbHtml + '</div>';
+  html += '</nav>';
+
+  // --- Main container ---
+  html += '<div class="an-container">';
+
+  // --- Product layout grid ---
+  html += '<div class="product-layout" id="an-product-main">';
+
+  // Col 1: Image section
+  html += '<div class="product-image-section">';
+  html += '<div class="product-image-main">';
+  html += '<div class="image-badge">\u05de\u05d5\u05e6\u05e8 \u05de\u05e7\u05d5\u05e8\u05d9</div>';
+  html += mainImageHtml;
+  html += '</div>';
+  html += '<div class="image-thumbnails">' + thumbnailsHtml + '</div>';
+  html += '</div>'; // end product-image-section
+
+  // Col 2: Product Info
+  html += '<div class="product-info">';
+  html += '<div class="brand-badge">';
+  html += '<span class="brand-badge-logo" style="background:' + brandData.color + '">' + brandData.name.toUpperCase().substring(0, 8) + '</span>';
+  html += '<span class="brand-badge-cat">' + categoryLabel + '</span>';
+  html += '</div>';
+  html += '<h1 class="product-title">' + productTitle + '</h1>';
+  html += '<div class="product-subtitle">' + productSubtitle + '</div>';
+  html += '<div class="product-meta">';
+  if (skuValue) html += '<span class="product-sku">\u05de\u05e7\u05f3\u05d8: ' + skuValue + '</span>';
+  html += '</div>';
+  html += '<div class="stock-indicator">';
+  html += '<span class="stock-dot"></span>';
+  html += '\u05d1\u05de\u05dc\u05d0\u05d9';
+  html += '</div>';
+  html += '<div class="divider"></div>';
+  html += '<div class="price-section">';
+  html += '<div class="price-main">' + priceDisplay + '</div>';
+  html += '<div class="price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2\u05f3\u05de</div>';
+  html += '</div>';
+
+  html += '<div class="buy-section">';
+  html += '<div class="qty-selector">';
+  html += '<button class="qty-btn" id="an-qty-minus">\u2212</button>';
+  html += '<div class="qty-value" id="an-qty-value">1</div>';
+  html += '<button class="qty-btn" id="an-qty-plus">+</button>';
+  html += '</div>';
+  html += '<button class="btn-primary" id="an-buy-btn">' + cartSvg + '\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
+  html += '</div>';
+  html += '<div class="sold-by">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
+
+  html += '<div class="trust-box">';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDE9A</span><span>\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5</span></div>';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDEE1\uFE0F</span><span>\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de</span></div>';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83C\uDFC6</span><span>\u05de\u05d5\u05e8\u05e9\u05d9\u05dd \u05de\u05e9\u05e8\u05d3 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4</span></div>';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDD12</span><span>\u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d5\u05d1\u05d8\u05d7 \u2014 SSL \u05de\u05d5\u05e6\u05e4\u05df</span></div>';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDCB3</span><span>\u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05ea\u05e9\u05dc\u05d5\u05de\u05d9\u05dd \u05d1\u05e7\u05d5\u05e4\u05d4</span></div>';
+  html += '</div>'; // trust-box
+
+  html += '<div class="highlights-box open" id="an-highlights-box">';
+  html += '<div class="highlights-header" id="an-highlights-header">';
+  html += '<span class="highlights-icon">&#10022;</span>';
+  html += '<span class="highlights-title">\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd, \u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05e0\u05d5\u05d7\u05d5\u05ea.</span>';
+  html += '<svg class="highlights-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
+  html += '</div>';
+  html += '<div class="highlights-content">';
+  html += '<div class="highlights-inner"><ul>' + highlightsHtml + '</ul></div>';
+  html += '</div>';
+  html += '</div>'; // highlights-box
+
+  html += '</div>'; // end product-info
+
+  // Col 1 Row 2: Description + Brand (below image)
+  html += '<div class="desc-section-wrap">';
+
+  // Description section with specs
+  html += '<div class="desc-section">';
+  html += '<h2 class="desc-heading">\u05ea\u05d9\u05d0\u05d5\u05e8</h2>';
+  html += '<div class="specs-table" id="an-specs-table">';
+  html += '<div class="specs-row"><div class="specs-label">\u05de\u05d9\u05e7\u05d5\u05dd \u05d4\u05ea\u05e7\u05e0\u05d4</div><div class="specs-value">' + (productSubtitle.split('|')[0] || '\u05e1\u05e8\u05df \u05e7\u05d3\u05de\u05d9').trim() + '</div></div>';
+  html += '<div class="specs-row"><div class="specs-label">\u05de\u05e2\u05e8\u05db\u05ea \u05d1\u05dc\u05d9\u05de\u05d4</div><div class="specs-value">\u05d3\u05d9\u05e1\u05e7</div></div>';
+  if (skuValue) {
+    html += '<div class="specs-row"><div class="specs-label">\u05de\u05e1\u05e4\u05e8 \u05de\u05d0\u05de\u05e8</div><div class="specs-value">' + skuValue + '</div></div>';
+  }
+  html += '<div class="specs-row"><div class="specs-label">\u05d9\u05e6\u05e8\u05df</div><div class="specs-value">' + brandData.name + '</div></div>';
+  html += '</div>'; // specs-table
+
+  // Expandable extra specs
+  html += '<div class="desc-extra" id="an-desc-extra">';
+  html += '<div class="specs-row"><div class="specs-label">\u05ea\u05e7\u05df</div><div class="specs-value">ECE R90</div></div>';
+  html += '<div class="specs-row"><div class="specs-label">\u05e1\u05d5\u05d2</div><div class="specs-value">Low-Metallic</div></div>';
+  html += '<div class="specs-row"><div class="specs-label">\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea</div><div class="specs-value">3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de</div></div>';
+  html += '</div>'; // desc-extra
+
+  html += '<button class="desc-expand" id="an-desc-expand-btn">';
+  html += '\u05e2\u05d5\u05d3 ';
+  html += '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>';
+  html += '</button>';
+  html += '</div>'; // desc-section
+
+  // Brand section
+  html += '<div class="brand-section">';
+  html += '<div class="brand-section-header">';
+  html += '<div class="brand-logo-box" style="background:' + brandData.color + '">' + brandData.name.toUpperCase().substring(0, 6) + '</div>';
+  html += '<div class="brand-section-info">';
+  html += '<h3>' + brandData.name + '</h3>';
+  html += '<span>' + (brandData.country ? brandData.country + (brandData.founded ? ', ' + brandData.founded : '') : '') + '</span>';
+  html += '</div>';
+  html += '</div>';
+  html += '<p style="font-size:13px;color:#666;line-height:1.6;">' + brandData.description + '</p>';
+  html += '</div>'; // brand-section
+
+  // TecDoc widget placeholder
+  html += '<div class="an-tecdoc-wrap" id="an-tecdoc-wrap"></div>';
+
+  html += '</div>'; // end desc-section-wrap
+
+  html += '</div>'; // end product-layout
+  html += '</div>'; // end container
+
+  /* ================================================================
+     STEP 6: Create and inject the wrapper
+     ================================================================ */
+
+  var wrapper = document.createElement('div');
+  wrapper.id = 'an-product-redesign';
+  wrapper.innerHTML = html;
+
+  // Insert BEFORE the Konimbo content area
+  targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
+
+  // Move tecdoc-widget into our layout
+  if (tecdocWidget) {
+    var tecdocWrap = document.getElementById('an-tecdoc-wrap');
+    if (tecdocWrap) {
+      tecdocWrap.appendChild(tecdocWidget);
+      tecdocWidget.style.display = 'block';
     }
-    return results;
   }
 
-  /* Wait for an ID to appear (polls for async-rendered content) */
-  function waitForId(id, callback, maxWait) {
-    var waited = 0;
-    var interval = 200;
-    var max = maxWait || 8000;
-    var timer = setInterval(function() {
-      var el = document.getElementById(id);
-      if (el) {
-        clearInterval(timer);
-        callback(el);
-      } else {
-        waited += interval;
-        if (waited >= max) clearInterval(timer);
-      }
-    }, interval);
+  /* ================================================================
+     STEP 7: Add 'an-redesigned' to body to hide original content
+     ================================================================ */
+  var bCls = document.body.className || '';
+  if (bCls.indexOf('an-redesigned') === -1) {
+    document.body.className = bCls + (bCls ? ' ' : '') + 'an-redesigned';
   }
 
-  /* Wait for a class to appear */
-  function waitForClass(className, callback, maxWait) {
-    var waited = 0;
-    var interval = 200;
-    var max = maxWait || 8000;
-    var timer = setInterval(function() {
-      var el = getByClass(className);
-      if (el) {
-        clearInterval(timer);
-        callback(el);
-      } else {
-        waited += interval;
-        if (waited >= max) clearInterval(timer);
-      }
-    }, interval);
+  /* ================================================================
+     STEP 8: Inject Sticky Bar into body
+     ================================================================ */
+  var stickyBarHtml = '<div id="an-sticky-bar">' +
+    '<div class="sticky-bar-inner">' +
+    '<div class="sticky-bar-info">' +
+    '<div class="sticky-bar-thumb">' + stickyThumbHtml + '</div>' +
+    '<span class="sticky-bar-title">' + productTitle + '</span>' +
+    '</div>' +
+    '<div class="sticky-bar-actions">' +
+    '<span class="sticky-bar-price">' + priceDisplay + '</span>' +
+    '<button class="btn-primary" id="an-sticky-buy-btn">' + cartSvgSm + '\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>' +
+    '</div>' +
+    '</div>' +
+    '</div>';
+
+  var stickyContainer = document.createElement('div');
+  stickyContainer.innerHTML = stickyBarHtml;
+  document.body.appendChild(stickyContainer.firstChild);
+
+  /* ================================================================
+     STEP 9: Wire up interactivity
+     ================================================================ */
+
+  // --- Quantity selector ---
+  var anQty = 1;
+  var qtyValueEl = document.getElementById('an-qty-value');
+  var qtyMinusBtn = document.getElementById('an-qty-minus');
+  var qtyPlusBtn = document.getElementById('an-qty-plus');
+
+  function updateQtyDisplay() {
+    if (qtyValueEl) qtyValueEl.textContent = anQty;
   }
 
-  /* ─────────────────────────────────────────────
-     1. BRAND BADGE
-     Inserted BEFORE the #item_current_title h1
-     ─────────────────────────────────────────────── */
-  function injectBrandBadge() {
-    if (document.getElementById('an-brand-badge-wrap')) return;
-
-    var titleContainer = document.getElementById('item_current_title');
-    if (!titleContainer) return;
-
-    var h1s = titleContainer.getElementsByTagName('h1');
-    if (!h1s.length) return;
-    var h1El = h1s[0];
-
-    var titleText = h1El.textContent || h1El.innerText || '';
-    var brand = detectBrand(titleText);
-    var color = getBrandColor(brand);
-    var brandLabel = brand || 'חלק';
-
-    var badgeWrap = document.createElement('div');
-    badgeWrap.id = 'an-brand-badge-wrap';
-    badgeWrap.className = 'an-brand-badge';
-
-    var badgeLogo = document.createElement('span');
-    badgeLogo.className = 'an-brand-badge-logo';
-    badgeLogo.style.cssText = 'background:' + color + ';';
-    badgeLogo.textContent = brandLabel;
-
-    badgeWrap.appendChild(badgeLogo);
-
-    /* Insert before titleContainer */
-    if (titleContainer.parentNode) {
-      titleContainer.parentNode.insertBefore(badgeWrap, titleContainer);
-    }
-  }
-
-  /* ─────────────────────────────────────────────
-     2. PRICE VAT LABEL
-     "כולל מע״מ" inserted after the price element
-     ─────────────────────────────────────────────── */
-  function injectPriceVat() {
-    if (document.getElementById('an-price-vat')) return;
-
-    var priceEl = getByClass('item_price');
-    if (!priceEl || !priceEl.parentNode) return;
-
-    var vatEl = document.createElement('span');
-    vatEl.id = 'an-price-vat';
-    vatEl.className = 'an-price-vat';
-    vatEl.textContent = '\u05DB\u05D5\u05DC\u05DC \u05DE\u05E2"\u05DE'; /* כולל מע"מ */
-
-    var next = priceEl.nextSibling;
-    if (next) {
-      priceEl.parentNode.insertBefore(vatEl, next);
-    } else {
-      priceEl.parentNode.appendChild(vatEl);
-    }
-  }
-
-  /* ─────────────────────────────────────────────
-     3. SOLD BY TEXT
-     Inserted after the cart button's parent container
-     ─────────────────────────────────────────────── */
-  function injectSoldBy() {
-    if (document.getElementById('an-sold-by')) return;
-
-    var cartBtn = getByClass('add_to_cart_button');
-    if (!cartBtn || !cartBtn.parentNode) return;
-
-    var soldByEl = document.createElement('span');
-    soldByEl.id = 'an-sold-by';
-    soldByEl.className = 'an-sold-by';
-    soldByEl.innerHTML = '\u05E0\u05DE\u05DB\u05E8 \u05D5\u05E0\u05E9\u05DC\u05D7 \u05E2\u05DC \u05D9\u05D3\u05D9 <strong>\u05D0\u05D5\u05D8\u05D5 \u05E0\u05D4\u05E8\u05D9\u05D4</strong>';
-    /* נמכר ונשלח על ידי <strong>אוטו נהריה</strong> */
-
-    var btnParent = cartBtn.parentNode;
-    var afterBtn = btnParent.nextSibling;
-    if (afterBtn) {
-      btnParent.parentNode.insertBefore(soldByEl, afterBtn);
-    } else {
-      btnParent.parentNode.appendChild(soldByEl);
-    }
-  }
-
-  /* ─────────────────────────────────────────────
-     4. STICKY BAR
-     Fixed top bar: title + price + cart button
-     ─────────────────────────────────────────────── */
-  function buildStickyBar() {
-    if (document.getElementById('an-sticky-bar')) return;
-
-    /* Get title */
-    var titleText = '';
-    var titleContainer = document.getElementById('item_current_title');
-    if (titleContainer) {
-      var h1s = titleContainer.getElementsByTagName('h1');
-      if (h1s.length) titleText = (h1s[0].textContent || h1s[0].innerText || '').trim();
-    }
-
-    /* Get price */
-    var priceText = '';
-    var priceEl = getByClass('item_price');
-    if (priceEl) priceText = (priceEl.textContent || priceEl.innerText || '').trim();
-
-    /* Build bar element */
-    var bar = document.createElement('div');
-    bar.id = 'an-sticky-bar';
-
-    var inner = document.createElement('div');
-    inner.id = 'an-sticky-bar-inner';
-
-    /* Info */
-    var infoDiv = document.createElement('div');
-    infoDiv.className = 'an-sticky-info';
-
-    var titleSpan = document.createElement('span');
-    titleSpan.className = 'an-sticky-title';
-    titleSpan.textContent = titleText || '\u05DE\u05D5\u05E6\u05E8'; /* מוצר */
-    infoDiv.appendChild(titleSpan);
-
-    /* Actions */
-    var actionsDiv = document.createElement('div');
-    actionsDiv.className = 'an-sticky-actions';
-
-    var priceSpan = document.createElement('span');
-    priceSpan.className = 'an-sticky-price';
-    priceSpan.id = 'an-sticky-price-val';
-    priceSpan.textContent = priceText || '';
-
-    var stickyBtn = document.createElement('button');
-    stickyBtn.className = 'an-sticky-btn';
-    stickyBtn.type = 'button';
-    /* Cart icon SVG inline */
-    stickyBtn.innerHTML =
-      '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-left:6px">' +
-        '<circle cx="9" cy="21" r="1"/>' +
-        '<circle cx="20" cy="21" r="1"/>' +
-        '<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>' +
-      '</svg>' +
-      '\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4'; /* הוסף לעגלה */
-
-    /* Clicking sticky btn triggers the real Konimbo cart button */
-    stickyBtn.addEventListener('click', function() {
-      var realBtn = getByClass('add_to_cart_button');
-      if (realBtn) realBtn.click();
+  if (qtyMinusBtn) {
+    qtyMinusBtn.addEventListener('click', function() {
+      anQty = Math.max(1, anQty - 1);
+      updateQtyDisplay();
     });
-
-    actionsDiv.appendChild(priceSpan);
-    actionsDiv.appendChild(stickyBtn);
-    inner.appendChild(infoDiv);
-    inner.appendChild(actionsDiv);
-    bar.appendChild(inner);
-
-    document.body.appendChild(bar);
-
-    /* Scroll handler — show/hide bar past 300px */
-    var ticking = false;
-    window.addEventListener('scroll', function() {
-      if (!ticking) {
-        window.requestAnimationFrame(function() {
-          var scrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
-          var current = bar.className;
-          if (scrollY > 300) {
-            if (current.indexOf('an-visible') === -1) {
-              bar.className = (current + ' an-visible').trim();
-            }
-          } else {
-            bar.className = current.replace(/\s*an-visible/g, '').trim();
-          }
-          ticking = false;
-        });
-        ticking = true;
-      }
+  }
+  if (qtyPlusBtn) {
+    qtyPlusBtn.addEventListener('click', function() {
+      anQty = Math.min(99, anQty + 1);
+      updateQtyDisplay();
     });
   }
 
-  /* ─────────────────────────────────────────────
-     5. SECTION HEADING
-     "תיאור" heading above the widget/specs area
-     ─────────────────────────────────────────────── */
-  function injectSectionHeading() {
-    if (document.getElementById('an-section-heading')) return;
-
-    /* Try known widget IDs first */
-    var widgetIds = ['tw-widget-root', 'tw-specs-section', 'tw-tabs-section', 'tw-brand-info'];
-    var target = null;
-    for (var w = 0; w < widgetIds.length; w++) {
-      var el = document.getElementById(widgetIds[w]);
-      if (el) { target = el; break; }
-    }
-
-    /* Fall back to known class names */
-    if (!target) {
-      var classNames = ['tw-widget-container', 'tw-specs-wrapper', 'tw-specs-table', 'tw-tabs'];
-      for (var c = 0; c < classNames.length; c++) {
-        var found = getByClass(classNames[c]);
-        if (found) { target = found; break; }
+  // --- Buy button clicks original Konimbo cart button ---
+  function doAddToCart(triggerBtn) {
+    if (cartButton) {
+      // Update Konimbo quantity if possible
+      var konimboQtyInput = document.querySelector('[name="quantity"], [id*="quantity"], [class*="quantity"] input');
+      if (konimboQtyInput && konimboQtyInput.tagName === 'INPUT') {
+        konimboQtyInput.value = anQty;
       }
-    }
-
-    /* Fall back: any element whose id starts with 'tw-' via querySelectorAll with attribute */
-    if (!target) {
+      // Click the original cart button
       try {
-        var twEls = document.querySelectorAll('[id^="tw-"]');
-        if (twEls && twEls.length) target = twEls[0];
+        cartButton.click();
       } catch(e) {}
     }
 
-    if (!target || !target.parentNode) return;
-
-    var heading = document.createElement('h2');
-    heading.id = 'an-section-heading';
-    heading.className = 'an-section-heading';
-    heading.textContent = '\u05EA\u05D9\u05D0\u05D5\u05E8'; /* תיאור */
-
-    target.parentNode.insertBefore(heading, target);
+    // Visual feedback on our button
+    if (triggerBtn) {
+      var origHtml = triggerBtn.innerHTML;
+      var origBg = triggerBtn.style.background;
+      triggerBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> \u05e0\u05d5\u05e1\u05e3!';
+      triggerBtn.style.background = '#22c55e';
+      setTimeout(function() {
+        triggerBtn.innerHTML = origHtml;
+        triggerBtn.style.background = origBg;
+      }, 1500);
+    }
   }
 
-  /* ─────────────────────────────────────────────
-     INIT
-     ─────────────────────────────────────────────── */
-  function runAll() {
-    injectBrandBadge();
-    injectPriceVat();
-    injectSoldBy();
-    buildStickyBar();
-    injectSectionHeading();
+  var mainBuyBtn = document.getElementById('an-buy-btn');
+  if (mainBuyBtn) {
+    mainBuyBtn.addEventListener('click', function() { doAddToCart(mainBuyBtn); });
+  }
 
-    /* Re-run after 1.5s to catch async-rendered Konimbo elements */
-    setTimeout(function() {
-      injectBrandBadge();
-      injectPriceVat();
-      injectSoldBy();
-      injectSectionHeading();
+  var stickyBuyBtn = document.getElementById('an-sticky-buy-btn');
+  if (stickyBuyBtn) {
+    stickyBuyBtn.addEventListener('click', function() { doAddToCart(stickyBuyBtn); });
+  }
 
-      /* Refresh sticky price from live DOM */
-      var priceEl = getByClass('item_price');
-      var priceVal = document.getElementById('an-sticky-price-val');
-      if (priceEl && priceVal) {
-        var fresh = (priceEl.textContent || priceEl.innerText || '').trim();
-        if (fresh) priceVal.textContent = fresh;
+  // --- Image thumbnail click ---
+  var thumbEls = document.querySelectorAll('#an-product-redesign .image-thumb[data-an-img]');
+  var mainImg = document.getElementById('an-main-img');
+  for (var th = 0; th < thumbEls.length; th++) {
+    (function(thumb) {
+      thumb.addEventListener('click', function() {
+        var redesignEl2 = document.getElementById('an-product-redesign');
+        var allThumbs = redesignEl2 ? redesignEl2.querySelectorAll('[data-an-img], .image-thumb') : [];
+        for (var t = 0; t < allThumbs.length; t++) {
+          var cls = allThumbs[t].className;
+          allThumbs[t].className = cls.replace(/\s*active/g, '');
+        }
+        var cls2 = thumb.className;
+        thumb.className = cls2 + ' active';
+        if (mainImg) {
+          mainImg.src = thumb.getAttribute('data-an-img');
+        }
+      });
+    })(thumbEls[th]);
+  }
+
+  // --- Sticky bar scroll listener ---
+  var stickyBar = document.getElementById('an-sticky-bar');
+  var productMainEl = document.getElementById('an-product-main');
+  var stickyVisible = false;
+
+  function checkSticky() {
+    if (!productMainEl || !stickyBar) return;
+    var rect = productMainEl.getBoundingClientRect();
+    var shouldShow = rect.top < -200;
+    if (shouldShow !== stickyVisible) {
+      stickyVisible = shouldShow;
+      var sbCls = stickyBar.className;
+      if (shouldShow) {
+        if (sbCls.indexOf('visible') === -1) stickyBar.className = sbCls + ' visible';
+      } else {
+        stickyBar.className = sbCls.replace(/\s*visible/g, '');
       }
-    }, 1500);
-
-    /* Run again at 4s for very slow pages */
-    setTimeout(function() {
-      injectBrandBadge();
-      injectPriceVat();
-      injectSoldBy();
-      injectSectionHeading();
-    }, 4000);
+    }
   }
 
-  /* Execute after DOM is ready */
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', runAll);
-  } else {
-    runAll();
+  window.addEventListener('scroll', checkSticky, { passive: true });
+
+  // --- Highlights toggle ---
+  var highlightsHeader = document.getElementById('an-highlights-header');
+  var highlightsBox = document.getElementById('an-highlights-box');
+  if (highlightsHeader && highlightsBox) {
+    highlightsHeader.addEventListener('click', function() {
+      var hcls = highlightsBox.className;
+      if (hcls.indexOf('open') !== -1) {
+        highlightsBox.className = hcls.replace(/\s*open/g, '');
+      } else {
+        highlightsBox.className = hcls + ' open';
+      }
+    });
+  }
+
+  // --- Description expand toggle ---
+  var descExpandBtn = document.getElementById('an-desc-expand-btn');
+  var descExtra = document.getElementById('an-desc-extra');
+  if (descExpandBtn && descExtra) {
+    descExpandBtn.addEventListener('click', function() {
+      var ecls = descExtra.className;
+      var bcls = descExpandBtn.className;
+      var isOpen = ecls.indexOf('open') !== -1;
+      if (isOpen) {
+        descExtra.className = ecls.replace(/\s*open/g, '');
+        descExpandBtn.className = bcls.replace(/\s*expanded/g, '');
+        // Update text node
+        descExpandBtn.childNodes[0].textContent = '\u05e2\u05d5\u05d3 ';
+      } else {
+        descExtra.className = ecls + ' open';
+        descExpandBtn.className = bcls + ' expanded';
+        descExpandBtn.childNodes[0].textContent = '\u05e4\u05d7\u05d5\u05ea ';
+      }
+    });
   }
 
 })();
