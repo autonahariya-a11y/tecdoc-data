@@ -3,19 +3,38 @@
   'use strict';
 
   /* ================================================================
-     STEP 1: Check if this is a spare-parts product page
-     Conditions: (a) URL contains /items/ (product page)
-                 (b) Page body text contains מק"ט (SKU label)
-     Non-spare-parts (oils, tools, accessories) have no מק"ט on page.
+     STEP 1: Check if this is an auto-parts product page (186807)
      ================================================================ */
   function isAutoPartsPage() {
-    // Must be a product page (URL contains /items/)
+    // Must be a product page
     if (window.location.pathname.indexOf('/items/') === -1) return false;
-    // Check for מק"ט text in page body — only spare-parts products show it
+    // Check breadcrumbs for category 186807
+    var breadcrumbs = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a, nav a');
+    for (var i = 0; i < breadcrumbs.length; i++) {
+      if (breadcrumbs[i].href && breadcrumbs[i].href.indexOf('186807') !== -1) {
+        return true;
+      }
+    }
+    // Also check all links on page for 186807
+    var allLinks = document.getElementsByTagName('a');
+    for (var j = 0; j < allLinks.length; j++) {
+      if (allLinks[j].href && allLinks[j].href.indexOf('186807') !== -1) {
+        return true;
+      }
+    }
+    // Check page URL itself
+    if (window.location.href.indexOf('186807') !== -1) return true;
+    // Fallback: check if page has מק"ט (SKU) text — only spare-parts have it
     var bodyText = document.body.innerText || document.body.textContent || '';
-    if (bodyText.indexOf('\u05de\u05e7\u05f4\u05d8') !== -1) return true;  // מק"ט
-    if (bodyText.indexOf('\u05de\u05e7\u05d8') !== -1) return true;        // מקט (without geresh)
-    if (bodyText.indexOf('\u05de\u05e7\u05d9\u05d8') !== -1) return true;  // מקיט (alternate)
+    if (bodyText.indexOf('\u05de\u05e7"\u05d8') !== -1) return true;
+    if (bodyText.indexOf('\u05de\u05e7\u05f4\u05d8') !== -1) return true;
+    if (bodyText.indexOf('\u05de\u05e7\u05d8') !== -1) return true;
+    // Check for #item_show which is the Konimbo product area
+    var itemShow = document.getElementById('item_show');
+    if (itemShow) {
+      // item_show exists but no מק"ט found — not spare parts
+      return false;
+    }
     return false;
   }
 
@@ -234,12 +253,20 @@
     return el ? (el.textContent || el.innerText || '').trim() : '';
   }
 
-  // 3a. Title — find h1 directly (Konimbo has no IDs)
-  var productTitle = '';
-  var h1Tags = document.getElementsByTagName('h1');
-  for (var hi = 0; hi < h1Tags.length; hi++) {
-    var h1text = getText(h1Tags[hi]);
-    if (h1text && h1text.length > 3) { productTitle = h1text; break; }
+  // 3a. Title
+  var titleEl = document.getElementById('item_current_title');
+  if (!titleEl) {
+    titleEl = document.querySelector('[id*="item_title"], [id*="product_title"]');
+  }
+  var h1El = titleEl ? titleEl.getElementsByTagName('h1')[0] : null;
+  var productTitle = h1El ? getText(h1El) : '';
+  if (!productTitle) {
+    // Fallback: find any h1 in item area
+    var itemShow = document.getElementById('item_show');
+    if (itemShow) {
+      var h1s = itemShow.getElementsByTagName('h1');
+      if (h1s.length) productTitle = getText(h1s[0]);
+    }
   }
   if (!productTitle) productTitle = document.title.split('|')[0].trim();
 
@@ -285,7 +312,7 @@
 
   // 3d. Product images — find images from carousel/product area only
   var imageUrls = [];
-  var carouselEl = document.getElementById('item_show_carousel') || document.getElementById('item_show') || document.body;
+  var carouselEl = document.getElementById('item_show_carousel') || document.getElementById('item_show');
   var imgSource = carouselEl || document;
   var allImgs = imgSource.getElementsByTagName('img');
   for (var im = 0; im < allImgs.length; im++) {
@@ -383,40 +410,17 @@
   if (!categoryLabel) categoryLabel = '\u05d7\u05dc\u05e7\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd';
 
   // 3j. Find the Konimbo content area to insert before/after
-  // Konimbo may not have IDs — try multiple strategies
   var targetInsertEl = document.getElementById('item_show') ||
     document.getElementById('item_details') ||
     document.getElementById('item_content') ||
     document.getElementById('content_area');
 
   if (!targetInsertEl) {
+    // Try to find main content area
     var mains = document.getElementsByTagName('main');
     if (mains.length) targetInsertEl = mains[0];
   }
-  if (!targetInsertEl) {
-    // Fallback: find the h1 and use its parent container
-    for (var fh = 0; fh < h1Tags.length; fh++) {
-      var fhText = getText(h1Tags[fh]);
-      if (fhText && fhText.length > 3) {
-        targetInsertEl = h1Tags[fh].parentElement;
-        // Walk up a couple of levels to get the main container
-        if (targetInsertEl && targetInsertEl.parentElement && targetInsertEl.parentElement !== document.body) {
-          targetInsertEl = targetInsertEl.parentElement;
-        }
-        break;
-      }
-    }
-  }
-  if (!targetInsertEl) {
-    // Last resort: first div child of body
-    var bodyDivs = document.body.children;
-    for (var bd = 0; bd < bodyDivs.length; bd++) {
-      if (bodyDivs[bd].tagName === 'DIV') {
-        targetInsertEl = bodyDivs[bd];
-        break;
-      }
-    }
-  }
+
   if (!targetInsertEl) return; // Can't find insertion point
 
   /* ================================================================
@@ -657,24 +661,11 @@
   }
 
   /* ================================================================
-     STEP 7: Hide original Konimbo content
-     Since Konimbo may not have standard IDs, we hide ALL siblings
-     of our wrapper that aren't ours, the header, or the footer.
+     STEP 7: Add 'an-redesigned' to body to hide original content
      ================================================================ */
   var bCls = document.body.className || '';
   if (bCls.indexOf('an-redesigned') === -1) {
     document.body.className = bCls + (bCls ? ' ' : '') + 'an-redesigned';
-  }
-
-  // Also directly hide the original content container and its siblings
-  // (in case CSS selectors don't match due to missing IDs)
-  if (targetInsertEl && targetInsertEl !== document.body) {
-    targetInsertEl.style.display = 'none';
-  }
-  // Hide old widget strengths and brand info sections
-  var oldStrengths = document.querySelectorAll('[class*="tw-strengths"], [id*="tw-brand-info"]');
-  for (var os = 0; os < oldStrengths.length; os++) {
-    oldStrengths[os].style.display = 'none';
   }
 
   /* ================================================================
