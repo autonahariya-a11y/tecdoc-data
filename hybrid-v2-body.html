@@ -661,11 +661,11 @@
   /* ================================================================
      STEP 8: Inject Sticky Bar into body
      ================================================================ */
+  var shortTitle = productTitle.length > 35 ? productTitle.substring(0, 35) + '...' : productTitle;
   var stickyBarHtml = '<div id="an-sticky-bar">' +
     '<div class="sticky-bar-inner">' +
     '<div class="sticky-bar-info">' +
-    '<div class="sticky-bar-thumb">' + stickyThumbHtml + '</div>' +
-    '<span class="sticky-bar-title">' + productTitle + '</span>' +
+    '<span class="sticky-bar-title">' + shortTitle + '</span>' +
     '</div>' +
     '<div class="sticky-bar-actions">' +
     '<span class="sticky-bar-price">' + priceDisplay + '</span>' +
