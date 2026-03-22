@@ -368,6 +368,19 @@ body.an-redesigned .code_item {
   display: none !important;
 }
 
+/* Hide old widget strengths and brand info (replaced by Hybrid) */
+body.an-redesigned .tw-strengths,
+body.an-redesigned #tw-brand-info {
+  display: none !important;
+}
+
+/* Sticky bar: desktop hidden, mobile only */
+@media (min-width: 769px) {
+  #an-sticky-bar {
+    display: none !important;
+  }
+}
+
 /* Ensure our container shows */
 #an-product-redesign {
   display: block !important;
