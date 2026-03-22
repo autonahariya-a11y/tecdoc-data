@@ -3,29 +3,38 @@
   'use strict';
 
   /* ================================================================
-     STEP 1: Check if this is an auto-parts product page (186807)
+     STEP 1: Check if this is a spare-parts product page
+     Only spare-parts products have a visible .code_item (מק"ט) element.
+     Non-spare-parts categories (oils, tools, accessories, etc.) do NOT.
      ================================================================ */
   function isAutoPartsPage() {
-    // Check breadcrumbs for category 186807
-    var breadcrumbs = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a, nav a');
-    for (var i = 0; i < breadcrumbs.length; i++) {
-      if (breadcrumbs[i].href && breadcrumbs[i].href.indexOf('186807') !== -1) {
-        return true;
-      }
-    }
-    // Also check all links on page
-    var allLinks = document.getElementsByTagName('a');
-    for (var j = 0; j < allLinks.length; j++) {
-      if (allLinks[j].href && allLinks[j].href.indexOf('186807') !== -1) {
-        return true;
-      }
-    }
-    // Check page URL itself
-    if (window.location.href.indexOf('186807') !== -1) return true;
-    // Check for #item_show which is the Konimbo product area
+    // Must be a product page (has #item_show)
     var itemShow = document.getElementById('item_show');
     if (!itemShow) return false;
-    return true; // If item_show exists, treat as product page
+    // Check for .code_item element — only spare-parts products have it
+    var codeItems = document.getElementsByTagName('span');
+    for (var ci = 0; ci < codeItems.length; ci++) {
+      var ciCls = codeItems[ci].className || '';
+      if (ciCls.indexOf('code_item') !== -1) {
+        // Must be visible (not display:none) and have text content
+        var ciStyle = window.getComputedStyle ? window.getComputedStyle(codeItems[ci]) : null;
+        var isHidden = ciStyle && ciStyle.display === 'none';
+        var hasText = (codeItems[ci].textContent || '').trim().length > 0;
+        if (!isHidden && hasText) return true;
+      }
+    }
+    // Also check divs with code_item class
+    var codeDivs = document.getElementsByTagName('div');
+    for (var cd = 0; cd < codeDivs.length; cd++) {
+      var cdCls = codeDivs[cd].className || '';
+      if (cdCls.indexOf('code_item') !== -1) {
+        var cdStyle = window.getComputedStyle ? window.getComputedStyle(codeDivs[cd]) : null;
+        var cdHidden = cdStyle && cdStyle.display === 'none';
+        var cdText = (codeDivs[cd].textContent || '').trim().length > 0;
+        if (!cdHidden && cdText) return true;
+      }
+    }
+    return false;
   }
 
   if (!isAutoPartsPage()) return;
