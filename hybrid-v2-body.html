@@ -708,15 +708,15 @@
   /* ================================================================
      STEP 8: Inject Sticky Bar into body
      ================================================================ */
-  var shortTitle = productTitle.length > 35 ? productTitle.substring(0, 35) + '...' : productTitle;
+  var shortTitle = productTitle.length > 30 ? productTitle.substring(0, 30) + '...' : productTitle;
   var stickyBarHtml = '<div id="an-sticky-bar">' +
     '<div class="sticky-bar-inner">' +
     '<div class="sticky-bar-info">' +
     '<span class="sticky-bar-title">' + shortTitle + '</span>' +
+    '<span class="sticky-bar-price">' + priceDisplay + '</span>' +
     '</div>' +
     '<div class="sticky-bar-actions">' +
-    '<span class="sticky-bar-price">' + priceDisplay + '</span>' +
-    '<button class="btn-primary" id="an-sticky-buy-btn">' + cartSvgSm + '\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>' +
+    '<button class="btn-primary" id="an-sticky-buy-btn">' + cartSvgSm + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>' +
     '</div>' +
     '</div>' +
     '</div>';
