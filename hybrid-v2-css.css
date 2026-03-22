@@ -1,0 +1,41 @@
+/* Hybrid Product Page v2 — hide original Konimbo content while template loads */
+body.an-template-loading #page_content,
+body.an-template-loading .item_container,
+body.an-template-loading #item_show,
+body.an-template-loading #item_details,
+body.an-template-loading #item_content,
+body.an-template-loading .specifications,
+body.an-template-loading #item_show_carousel {
+  opacity: 0 !important;
+  transition: opacity 0.3s;
+}
+
+/* Loading indicator */
+#an-template-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  font-family: 'Heebo', sans-serif;
+}
+#an-template-loader .spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #e5e7eb;
+  border-top-color: #1B4E91;
+  border-radius: 50%;
+  animation: an-spin 0.8s linear infinite;
+}
+@keyframes an-spin { to { transform: rotate(360deg); } }
+#an-template-loader .text {
+  font-size: 14px;
+  color: #666;
+}
