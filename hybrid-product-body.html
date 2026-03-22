@@ -1,0 +1,484 @@
+<!-- ============================================================
+     Auto Nahariya — Konimbo Hybrid body_html
+     Product Page Enhancer (Autodoc-style)
+     Category: 186807
+     Paste this into the Hybrid "body_html" field (field 11)
+     ============================================================ -->
+
+<!-- Sticky Bar Structure (hidden by default via CSS) -->
+<div id="an-sticky-bar">
+  <div class="an-sticky-inner">
+    <div class="an-sticky-info">
+      <span class="an-sticky-title" id="an-sticky-title">טוען...</span>
+    </div>
+    <div class="an-sticky-actions">
+      <span class="an-sticky-price" id="an-sticky-price"></span>
+      <button class="an-sticky-btn" id="an-sticky-btn" type="button">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+        </svg>
+        הוסף לעגלה
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Sold By element (will be moved into DOM by JS near buy button) -->
+<div class="an-sold-by" id="an-sold-by" style="display:none;">
+  נמכר ונשלח על ידי <strong>אוטו נהריה</strong>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  /* ===========================================================
+     0. CATEGORY GUARD — only run on category 186807
+     =========================================================== */
+  function isTargetPage() {
+    var url = window.location.href;
+    var pageText = document.body ? document.body.innerText : '';
+
+    // Check URL for category ID
+    if (url.indexOf('186807') !== -1) return true;
+
+    // Check breadcrumbs by tag (Konimbo uses <nav> or list of <a> tags)
+    var navEls = document.getElementsByTagName('nav');
+    for (var i = 0; i < navEls.length; i++) {
+      if (navEls[i].innerText && navEls[i].innerText.indexOf('186807') !== -1) return true;
+    }
+
+    // Check all links for category in href
+    var links = document.getElementsByTagName('a');
+    for (var j = 0; j < links.length; j++) {
+      var href = links[j].getAttribute('href') || '';
+      if (href.indexOf('186807') !== -1) return true;
+    }
+
+    // Check hidden category meta/data attributes on body/html
+    var bodyAttr = document.body ? document.body.getAttribute('data-category') : null;
+    if (bodyAttr && bodyAttr.indexOf('186807') !== -1) return true;
+
+    // Fallback: check any element with data-category-id
+    var catEls = document.querySelectorAll('[data-category-id]');
+    for (var k = 0; k < catEls.length; k++) {
+      if ((catEls[k].getAttribute('data-category-id') || '').indexOf('186807') !== -1) return true;
+    }
+
+    // Check meta tags
+    var metas = document.getElementsByTagName('meta');
+    for (var m = 0; m < metas.length; m++) {
+      var content = metas[m].getAttribute('content') || '';
+      if (content.indexOf('186807') !== -1) return true;
+    }
+
+    return false;
+  }
+
+  /* ===========================================================
+     1. HELPERS
+     =========================================================== */
+
+  // Safe element finder by ID
+  function byId(id) {
+    return document.getElementById(id);
+  }
+
+  // Find first H1 on page
+  function getProductTitle() {
+    // Prefer the one inside #item_current_title
+    var titleContainer = byId('item_current_title');
+    if (titleContainer) {
+      var h1s = titleContainer.getElementsByTagName('h1');
+      if (h1s.length > 0) return h1s[0];
+    }
+    // Fallback: first h1 on page
+    var allH1 = document.getElementsByTagName('h1');
+    if (allH1.length > 0) return allH1[0];
+    return null;
+  }
+
+  // Get price text from page
+  function getPriceText() {
+    // Try common Konimbo price element IDs first
+    var priceEl = byId('item_price') || byId('product_price');
+    if (priceEl && priceEl.innerText.trim()) return priceEl.innerText.trim();
+
+    // Try by tag/attribute
+    var priceEls = document.querySelectorAll('[data-price]');
+    if (priceEls.length > 0) return priceEls[0].getAttribute('data-price');
+
+    // Try common price class patterns via tag scan
+    var spans = document.getElementsByTagName('span');
+    for (var i = 0; i < spans.length; i++) {
+      var txt = spans[i].innerText || '';
+      // Price pattern: starts with ₪ or contains ₪ followed by digits
+      if (/₪\s*\d+/.test(txt) && txt.length < 30) {
+        return txt.trim();
+      }
+    }
+
+    // Try divs
+    var divs = document.getElementsByTagName('div');
+    for (var j = 0; j < divs.length; j++) {
+      var dtxt = (divs[j].innerText || '').trim();
+      if (/^₪\s*\d+/.test(dtxt) && dtxt.length < 20) {
+        return dtxt;
+      }
+    }
+
+    return '';
+  }
+
+  // Find add-to-cart button by text content
+  function findCartButton() {
+    var searchText = 'הוסף לעגלה';
+
+    // Check buttons
+    var buttons = document.getElementsByTagName('button');
+    for (var i = 0; i < buttons.length; i++) {
+      if ((buttons[i].innerText || '').indexOf(searchText) !== -1) {
+        return buttons[i];
+      }
+    }
+
+    // Check input[type=submit]
+    var inputs = document.getElementsByTagName('input');
+    for (var j = 0; j < inputs.length; j++) {
+      var val = inputs[j].getAttribute('value') || '';
+      if (val.indexOf(searchText) !== -1) return inputs[j];
+    }
+
+    // Check anchor tags (some themes use <a> for cart)
+    var anchors = document.getElementsByTagName('a');
+    for (var k = 0; k < anchors.length; k++) {
+      if ((anchors[k].innerText || '').indexOf(searchText) !== -1) {
+        return anchors[k];
+      }
+    }
+
+    return null;
+  }
+
+  /* ===========================================================
+     2. BRAND DETECTION
+     =========================================================== */
+  var KNOWN_BRANDS = [
+    { key: 'brembo',     display: 'BREMBO',       pattern: /brembo/i },
+    { key: 'bosch',      display: 'BOSCH',        pattern: /bosch/i },
+    { key: 'mann',       display: 'MANN-FILTER',  pattern: /mann[\s\-]?filter|mann\b/i },
+    { key: 'mahle',      display: 'MAHLE',        pattern: /mahle/i },
+    { key: 'valeo',      display: 'VALEO',        pattern: /valeo/i },
+    { key: 'sachs',      display: 'SACHS',        pattern: /sachs/i },
+    { key: 'ngk',        display: 'NGK',          pattern: /\bngk\b/i },
+    { key: 'ferodo',     display: 'FERODO',       pattern: /ferodo/i },
+    { key: 'ate',        display: 'ATE',          pattern: /\bate\b/i },
+    { key: 'trw',        display: 'TRW',          pattern: /\btrw\b/i },
+    { key: 'lemforder',  display: 'LEMFÖDER',     pattern: /lemf.?rder|lemforder/i },
+    { key: 'gates',      display: 'GATES',        pattern: /\bgates\b/i },
+    { key: 'dayco',      display: 'DAYCO',        pattern: /dayco/i },
+    { key: 'febi',       display: 'FEBI',         pattern: /\bfebi\b/i },
+    { key: 'kw',         display: 'KW',           pattern: /\bkw\b suspension|\bkw coilover/i },
+    { key: 'bilstein',   display: 'BILSTEIN',     pattern: /bilstein/i },
+    { key: 'continental',display: 'CONTINENTAL',  pattern: /continental/i },
+    { key: 'hella',      display: 'HELLA',        pattern: /\bhella\b/i },
+    { key: 'denso',      display: 'DENSO',        pattern: /\bdenso\b/i },
+    { key: 'textar',     display: 'TEXTAR',       pattern: /textar/i },
+    { key: 'pagid',      display: 'PAGID',        pattern: /pagid/i },
+    { key: 'hengst',     display: 'HENGST',       pattern: /hengst/i },
+    { key: 'knecht',     display: 'KNECHT',       pattern: /knecht/i },
+    { key: 'filtron',    display: 'FILTRON',      pattern: /filtron/i },
+    { key: 'swf',        display: 'SWF',          pattern: /\bswf\b/i },
+    { key: 'monroe',     display: 'MONROE',       pattern: /monroe/i },
+    { key: 'kayaba',     display: 'KAYABA',       pattern: /kayaba|\bkyb\b/i },
+    { key: 'luk',        display: 'LUK',          pattern: /\bluk\b/i },
+    { key: 'victor',     display: 'VICTOR REINZ', pattern: /victor\s*reinz/i },
+    { key: 'elring',     display: 'ELRING',       pattern: /elring/i }
+  ];
+
+  function detectBrand(text) {
+    for (var i = 0; i < KNOWN_BRANDS.length; i++) {
+      if (KNOWN_BRANDS[i].pattern.test(text)) {
+        return KNOWN_BRANDS[i];
+      }
+    }
+    return null;
+  }
+
+  function getBrandSourceText() {
+    var sources = [];
+
+    // Title h1
+    var h1 = getProductTitle();
+    if (h1) sources.push(h1.innerText || '');
+
+    // SKU / code element (Konimbo often has .code_item or #item_code)
+    var codeEl = byId('item_code') || byId('product_code');
+    if (codeEl) sources.push(codeEl.innerText || '');
+
+    // Span elements that might have SKU/code
+    var codeEls = document.querySelectorAll('[data-item-code], [data-sku]');
+    for (var i = 0; i < codeEls.length; i++) {
+      sources.push(codeEls[i].innerText || codeEls[i].getAttribute('data-item-code') || codeEls[i].getAttribute('data-sku') || '');
+    }
+
+    // Page title
+    sources.push(document.title || '');
+
+    return sources.join(' ');
+  }
+
+  /* ===========================================================
+     3. BRAND BADGE INJECTION
+     =========================================================== */
+  function injectBrandBadge() {
+    var h1 = getProductTitle();
+    if (!h1) return;
+
+    // Don't inject twice
+    if (byId('an-brand-badge')) return;
+
+    var brandText = getBrandSourceText();
+    var brand = detectBrand(brandText);
+    if (!brand) return;
+
+    // Create brand row wrapper
+    var row = document.createElement('div');
+    row.className = 'an-brand-row';
+
+    var badge = document.createElement('span');
+    badge.className = 'an-brand-badge';
+    badge.id = 'an-brand-badge';
+    badge.setAttribute('data-brand', brand.key);
+    badge.appendChild(document.createTextNode(brand.display));
+
+    row.appendChild(badge);
+
+    // Insert the row BEFORE the h1 (or before its parent if h1 is nested)
+    var insertTarget = h1.parentNode;
+    if (insertTarget) {
+      insertTarget.insertBefore(row, h1);
+    }
+  }
+
+  /* ===========================================================
+     4. STOCK INDICATOR
+     =========================================================== */
+  function injectStockIndicator() {
+    // If widget already injected .tw-stock-inline, leave it (CSS handles restyle)
+    // Otherwise inject our own near the title area
+    var existing = document.querySelectorAll('[class*="tw-stock"]');
+    if (existing.length > 0) return; // widget handles it, CSS restyled it
+
+    var h1 = getProductTitle();
+    if (!h1) return;
+
+    // Don't inject twice
+    if (byId('an-stock-indicator')) return;
+
+    var indicator = document.createElement('div');
+    indicator.className = 'an-stock-indicator';
+    indicator.id = 'an-stock-indicator';
+
+    var dot = document.createElement('span');
+    dot.className = 'an-stock-dot';
+
+    var label = document.createTextNode('במלאי');
+
+    indicator.appendChild(dot);
+    indicator.appendChild(label);
+
+    // Insert after h1
+    var next = h1.nextSibling;
+    if (next) {
+      h1.parentNode.insertBefore(indicator, next);
+    } else {
+      h1.parentNode.appendChild(indicator);
+    }
+  }
+
+  /* ===========================================================
+     5. PRICE: inject "כולל מע״מ" subtitle
+     =========================================================== */
+  function injectPriceVAT() {
+    if (byId('an-price-vat')) return;
+
+    // Find price element
+    var priceEl = byId('item_price') || byId('product_price');
+    if (!priceEl) {
+      // Try via spans with price-like content
+      var spans = document.getElementsByTagName('span');
+      for (var i = 0; i < spans.length; i++) {
+        var txt = (spans[i].innerText || '').trim();
+        if (/^₪\s*\d+/.test(txt) && txt.length < 20) {
+          priceEl = spans[i];
+          break;
+        }
+      }
+    }
+    if (!priceEl) return;
+
+    var vatEl = document.createElement('span');
+    vatEl.className = 'an-price-vat';
+    vatEl.id = 'an-price-vat';
+    vatEl.appendChild(document.createTextNode('כולל מע״מ'));
+
+    var next = priceEl.nextSibling;
+    if (next) {
+      priceEl.parentNode.insertBefore(vatEl, next);
+    } else {
+      priceEl.parentNode.appendChild(vatEl);
+    }
+  }
+
+  /* ===========================================================
+     6. SOLD BY — inject below buy button
+     =========================================================== */
+  function injectSoldBy() {
+    if (byId('an-sold-by-placed')) return;
+
+    var cartBtn = findCartButton();
+    if (!cartBtn) return;
+
+    var soldBy = byId('an-sold-by');
+    if (!soldBy) return;
+
+    // Clone a new placed element so we don't move the original
+    var placed = soldBy.cloneNode(true);
+    placed.id = 'an-sold-by-placed';
+    placed.style.display = '';
+
+    var next = cartBtn.nextSibling;
+    if (next) {
+      cartBtn.parentNode.insertBefore(placed, next);
+    } else {
+      cartBtn.parentNode.appendChild(placed);
+    }
+  }
+
+  /* ===========================================================
+     7. STICKY BAR
+     =========================================================== */
+  function initStickyBar() {
+    var stickyBar = byId('an-sticky-bar');
+    if (!stickyBar) return;
+
+    // Populate sticky bar with product info
+    var h1 = getProductTitle();
+    var titleEl = byId('an-sticky-title');
+    if (h1 && titleEl) {
+      titleEl.appendChild(document.createTextNode(h1.innerText || ''));
+    }
+
+    var priceText = getPriceText();
+    var priceEl = byId('an-sticky-price');
+    if (priceEl && priceText) {
+      priceEl.appendChild(document.createTextNode(priceText));
+    }
+
+    // Wire sticky button to click the real cart button
+    var stickyBtn = byId('an-sticky-btn');
+    if (stickyBtn) {
+      stickyBtn.addEventListener('click', function() {
+        var realBtn = findCartButton();
+        if (realBtn) {
+          realBtn.click();
+          // Scroll back to the real button area
+          realBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+    }
+
+    // Determine scroll trigger — use IntersectionObserver on the cart button
+    var cartBtn = findCartButton();
+    var stickyVisible = false;
+
+    function showSticky(show) {
+      if (show === stickyVisible) return;
+      stickyVisible = show;
+      if (show) {
+        // Add class via direct property (Konimbo constraint — no classList)
+        stickyBar.className = stickyBar.className + ' an-visible';
+      } else {
+        stickyBar.className = stickyBar.className.replace(/\s*an-visible/g, '');
+      }
+    }
+
+    if (cartBtn && typeof IntersectionObserver !== 'undefined') {
+      var observer = new IntersectionObserver(function(entries) {
+        // Show sticky when button is NOT intersecting (scrolled past)
+        var entry = entries[0];
+        showSticky(!entry.isIntersecting);
+      }, {
+        threshold: 0,
+        rootMargin: '0px 0px 0px 0px'
+      });
+      observer.observe(cartBtn);
+    } else {
+      // Fallback: scroll event
+      var SCROLL_THRESHOLD = 400;
+      function onScroll() {
+        showSticky(window.scrollY > SCROLL_THRESHOLD);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+    }
+  }
+
+  /* ===========================================================
+     8. LAYOUT DIVIDERS
+     =========================================================== */
+  function injectDividers() {
+    // Add a divider before the price area
+    var priceEl = byId('item_price') || byId('product_price');
+    if (priceEl && !byId('an-divider-price')) {
+      var div = document.createElement('div');
+      div.className = 'an-divider';
+      div.id = 'an-divider-price';
+      priceEl.parentNode.insertBefore(div, priceEl);
+    }
+  }
+
+  /* ===========================================================
+     9. MAIN INIT
+     =========================================================== */
+  function init() {
+    // Guard: only run on target product pages
+    if (!isTargetPage()) return;
+
+    // Run enhancements
+    injectBrandBadge();
+    injectStockIndicator();
+    injectPriceVAT();
+    injectSoldBy();
+    injectDividers();
+    initStickyBar();
+  }
+
+  // Run on DOMContentLoaded OR immediately if already loaded
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  // Also attempt a delayed run for pages with async content (Konimbo sometimes
+  // renders product info slightly after DOMContentLoaded)
+  setTimeout(function() {
+    if (!isTargetPage()) return;
+    // Re-run injections that may have been missed
+    if (!byId('an-brand-badge')) injectBrandBadge();
+    if (!byId('an-stock-indicator')) injectStockIndicator();
+    if (!byId('an-price-vat')) injectPriceVAT();
+    if (!byId('an-sold-by-placed')) injectSoldBy();
+  }, 800);
+
+  setTimeout(function() {
+    if (!isTargetPage()) return;
+    if (!byId('an-brand-badge')) injectBrandBadge();
+    if (!byId('an-sold-by-placed')) injectSoldBy();
+    if (!byId('an-price-vat')) injectPriceVAT();
+  }, 2000);
+
+})();
+</script>
