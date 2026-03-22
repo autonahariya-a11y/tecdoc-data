@@ -351,7 +351,20 @@ body.an-redesigned #item_show,
 body.an-redesigned #item_details,
 body.an-redesigned #item_content,
 body.an-redesigned .specifications,
-body.an-redesigned #item_show_facebook {
+body.an-redesigned #item_show_facebook,
+body.an-redesigned #item_show_carousel,
+body.an-redesigned .item_show_carousel,
+body.an-redesigned .item_container,
+body.an-redesigned #item_info,
+body.an-redesigned .item_main_top,
+body.an-redesigned .item_main_bottom,
+body.an-redesigned #bread_crumbs,
+body.an-redesigned .product-container,
+body.an-redesigned #item_current_title,
+body.an-redesigned .item_add_to_cart,
+body.an-redesigned .item_price,
+body.an-redesigned .item_quantity,
+body.an-redesigned .code_item {
   display: none !important;
 }
 
