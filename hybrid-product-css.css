@@ -1,0 +1,434 @@
+/* ============================================================
+   Auto Nahariya — Konimbo Hybrid CSS
+   Product Page Enhancer (Autodoc-style)
+   Category: 186807
+   ============================================================ */
+
+/* ---- VARIABLES ---- */
+:root {
+  --an-primary: #1B4E91;
+  --an-primary-hover: #153d73;
+  --an-accent: #329FDA;
+  --an-green: #22c55e;
+  --an-red: #ef4444;
+  --an-text: #1a1a1a;
+  --an-text-secondary: #666;
+  --an-text-muted: #999;
+  --an-border: #e5e7eb;
+  --an-bg-light: #f7f8fa;
+  --an-shadow-md: 0 4px 12px rgba(0,0,0,0.10);
+  --an-radius: 8px;
+  --an-radius-lg: 12px;
+}
+
+/* ============================================================
+   BRAND BADGE (inserted before h1 by JS)
+   ============================================================ */
+.an-brand-badge {
+  display: inline-block;
+  background: #c8102e;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-family: 'Heebo', Arial, sans-serif;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* Brand badge color variants — set via JS by brand name */
+.an-brand-badge[data-brand="bosch"] { background: #d40000; }
+.an-brand-badge[data-brand="mann"] { background: #00437e; }
+.an-brand-badge[data-brand="mahle"] { background: #e30613; }
+.an-brand-badge[data-brand="brembo"] { background: #c8102e; }
+.an-brand-badge[data-brand="valeo"] { background: #0070c0; }
+.an-brand-badge[data-brand="sachs"] { background: #1a1a1a; }
+.an-brand-badge[data-brand="ngk"] { background: #e60012; }
+.an-brand-badge[data-brand="ferodo"] { background: #002244; }
+.an-brand-badge[data-brand="ate"] { background: #003087; }
+.an-brand-badge[data-brand="trw"] { background: #e4002b; }
+.an-brand-badge[data-brand="lemforder"] { background: #005ca9; }
+.an-brand-badge[data-brand="gates"] { background: #ff6900; }
+.an-brand-badge[data-brand="dayco"] { background: #e2001a; }
+.an-brand-badge[data-brand="febi"] { background: #00508c; }
+.an-brand-badge[data-brand="kw"] { background: #ffcc00; color: #1a1a1a; }
+.an-brand-badge[data-brand="bilstein"] { background: #ffed00; color: #1a1a1a; }
+.an-brand-badge[data-brand="continental"] { background: #ffa500; color: #fff; }
+.an-brand-badge[data-brand="hella"] { background: #fccc00; color: #1a1a1a; }
+.an-brand-badge[data-brand="denso"] { background: #002f6c; }
+
+/* Brand badge wrapper — used when JS inserts badge+category row */
+.an-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.an-brand-cat {
+  font-size: 13px;
+  color: var(--an-accent);
+  font-weight: 500;
+  font-family: 'Heebo', Arial, sans-serif;
+}
+
+/* ============================================================
+   STOCK INDICATOR RESTYLE
+   Overrides the widget's .tw-stock-inline element
+   ============================================================ */
+.tw-stock-inline,
+[class*="tw-stock"] {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: var(--an-green) !important;
+  margin-bottom: 14px !important;
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+}
+
+/* Green dot — injected by JS or via ::before on stock element */
+.tw-stock-inline::before,
+.an-stock-indicator::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--an-green);
+  flex-shrink: 0;
+  animation: an-pulse-dot 2s infinite;
+}
+
+@keyframes an-pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+/* Standalone stock indicator (injected by hybrid JS) */
+.an-stock-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--an-green);
+  margin-bottom: 14px;
+  font-family: 'Heebo', Arial, sans-serif;
+}
+
+.an-stock-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--an-green);
+  display: inline-block;
+  flex-shrink: 0;
+  animation: an-pulse-dot 2s infinite;
+}
+
+/* ============================================================
+   PRICE STYLING
+   ============================================================ */
+/* Konimbo native price element */
+.item_price,
+.product_price,
+#item_price {
+  font-size: 32px !important;
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+  color: var(--an-text) !important;
+  direction: rtl !important;
+}
+
+/* "כולל מע״מ" subtitle — injected by JS after price */
+.an-price-vat {
+  font-size: 13px;
+  color: var(--an-text-muted);
+  margin-top: 2px;
+  margin-bottom: 14px;
+  font-family: 'Heebo', Arial, sans-serif;
+  display: block;
+}
+
+/* Price wrapper divider row */
+.an-price-block {
+  padding: 14px 0;
+  border-top: 1px solid var(--an-border);
+  border-bottom: 1px solid var(--an-border);
+  margin-bottom: 16px;
+}
+
+/* ============================================================
+   BUY BUTTON RESTYLE
+   ============================================================ */
+/* Target common Konimbo add-to-cart buttons */
+.add_to_cart_button,
+.add-to-cart,
+input[type="submit"][value*="הוסף"],
+button[class*="cart"],
+a[href*="cart"],
+.an-cart-btn {
+  background: var(--an-primary) !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  border-radius: var(--an-radius) !important;
+  height: 48px !important;
+  min-height: 48px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  padding: 0 28px !important;
+  border: none !important;
+  cursor: pointer !important;
+  transition: background 0.2s ease, transform 0.1s ease !important;
+  text-decoration: none !important;
+  font-family: 'Heebo', Arial, sans-serif !important;
+  line-height: 1 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.add_to_cart_button:hover,
+.add-to-cart:hover,
+.an-cart-btn:hover {
+  background: var(--an-primary-hover) !important;
+  text-decoration: none !important;
+}
+
+.add_to_cart_button:active,
+.an-cart-btn:active {
+  transform: scale(0.98) !important;
+}
+
+/* ============================================================
+   SOLD BY TEXT
+   ============================================================ */
+.an-sold-by {
+  font-size: 12px;
+  color: var(--an-text-muted);
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-family: 'Heebo', Arial, sans-serif;
+  direction: rtl;
+}
+
+.an-sold-by strong {
+  color: var(--an-text-secondary);
+  font-weight: 600;
+}
+
+/* ============================================================
+   DIVIDER
+   ============================================================ */
+.an-divider {
+  height: 1px;
+  background: var(--an-border);
+  margin: 16px 0;
+}
+
+/* ============================================================
+   STICKY BAR
+   ============================================================ */
+#an-sticky-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: 1px solid var(--an-border);
+  box-shadow: var(--an-shadow-md);
+  z-index: 9999;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+  padding: 0 20px;
+  direction: rtl;
+  font-family: 'Heebo', Arial, sans-serif;
+}
+
+#an-sticky-bar.an-visible {
+  transform: translateY(0);
+}
+
+.an-sticky-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  gap: 16px;
+}
+
+.an-sticky-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  flex: 1;
+}
+
+.an-sticky-title {
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--an-text);
+  max-width: 400px;
+}
+
+.an-sticky-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.an-sticky-price {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--an-text);
+  white-space: nowrap;
+  direction: rtl;
+}
+
+.an-sticky-btn {
+  background: var(--an-primary);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: var(--an-radius);
+  height: 40px;
+  padding: 0 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+  font-family: 'Heebo', Arial, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.an-sticky-btn:hover {
+  background: var(--an-primary-hover);
+  text-decoration: none;
+}
+
+.an-sticky-btn:active {
+  transform: scale(0.97);
+}
+
+/* ============================================================
+   PRODUCT PAGE LAYOUT IMPROVEMENTS
+   ============================================================ */
+
+/* Push page content down when sticky bar is visible */
+body.an-sticky-active {
+  /* No extra padding needed — sticky bar overlaps, doesn't push */
+}
+
+/* Item title area improvements */
+#item_current_title h1,
+.item_title h1,
+.product-title-area h1 {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  color: var(--an-text) !important;
+  margin-bottom: 4px !important;
+  direction: rtl !important;
+}
+
+/* General Konimbo product page spacing */
+.an-product-enhanced {
+  direction: rtl;
+}
+
+/* Subtle section dividers between main info blocks */
+.an-section-divider {
+  height: 1px;
+  background: var(--an-border);
+  margin: 18px 0;
+}
+
+/* ============================================================
+   DELIVERY INFO ROW (optional enhancement)
+   ============================================================ */
+.an-delivery-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--an-text-secondary);
+  margin-bottom: 14px;
+  font-family: 'Heebo', Arial, sans-serif;
+}
+
+/* ============================================================
+   RESPONSIVE — MOBILE
+   ============================================================ */
+@media (max-width: 768px) {
+  #an-sticky-bar {
+    padding: 0 12px;
+  }
+
+  .an-sticky-title {
+    font-size: 13px;
+    max-width: 140px;
+  }
+
+  .an-sticky-price {
+    font-size: 17px;
+  }
+
+  .an-sticky-btn {
+    padding: 0 14px;
+    font-size: 13px;
+  }
+
+  .item_price,
+  .product_price,
+  #item_price {
+    font-size: 28px !important;
+  }
+
+  .an-brand-badge {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .an-sticky-inner {
+    height: 52px;
+    gap: 10px;
+  }
+
+  .an-sticky-title {
+    max-width: 100px;
+    font-size: 12px;
+  }
+
+  .an-sticky-price {
+    font-size: 15px;
+  }
+
+  .an-sticky-btn {
+    padding: 0 10px;
+    font-size: 12px;
+    height: 36px;
+  }
+}
