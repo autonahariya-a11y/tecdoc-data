@@ -2,236 +2,376 @@
 (function() {
   'use strict';
 
-  /* ═══ CONFIG ═══ */
-  var TEMPLATE_URL = 'https://autonahariya-a11y.github.io/tecdoc-data/product-template.html';
-  var TIMEOUT_MS = 8000;
-
-  /* ═══ DETECT AUTO PARTS PRODUCT PAGE ═══ */
-  function isAutoPartsProduct() {
-    var loc = window.location.href;
-    if (loc.indexOf('/items/') === -1) return false;
-    /* Check breadcrumbs for 186807 */
-    var links = document.getElementsByTagName('a');
-    for (var i = 0; i < links.length; i++) {
-      if ((links[i].href || '').indexOf('186807') !== -1) return true;
+  /* ─────────────────────────────────────────────
+     GUARD: Only run on auto-parts product pages.
+     Check breadcrumbs for a link href containing "186807"
+     using getElementsByTagName (Konimbo-safe).
+     ─────────────────────────────────────────────── */
+  var links = document.getElementsByTagName('a');
+  var isAutoPage = false;
+  for (var i = 0; i < links.length; i++) {
+    if (links[i].href && links[i].href.indexOf('186807') !== -1) {
+      isAutoPage = true;
+      break;
     }
-    var bc = document.getElementById('bread_crumbs');
-    if (bc && (bc.innerHTML || '').indexOf('186807') !== -1) return true;
-    return false;
+  }
+  if (!isAutoPage) return;
+
+  /* ─────────────────────────────────────────────
+     BRAND COLORS
+     ─────────────────────────────────────────────── */
+  var BRAND_COLORS = {
+    'BREMBO':      '#c8102e',
+    'BOSCH':       '#ea0016',
+    'MANN-FILTER': '#003082',
+    'MANN':        '#003082',
+    'MAHLE':       '#00205b',
+    'VALEO':       '#00a651',
+    'TRW':         '#003366',
+    'NGK':         '#e4002b',
+    'DENSO':       '#cc0000'
+  };
+  var DEFAULT_COLOR = '#1B4E91';
+
+  /* ─────────────────────────────────────────────
+     HELPERS
+     ─────────────────────────────────────────────── */
+  function detectBrand(text) {
+    if (!text) return null;
+    var upper = text.toUpperCase();
+    var brands = Object.keys(BRAND_COLORS);
+    for (var b = 0; b < brands.length; b++) {
+      if (upper.indexOf(brands[b]) !== -1) {
+        return brands[b];
+      }
+    }
+    return null;
   }
 
-  /* ═══ EXTRACT PRODUCT DATA ═══ */
-  function extractProductData() {
-    var data = {};
-
-    /* Title */
-    var titleEl = document.getElementById('item_current_title');
-    if (titleEl) {
-      var h1 = titleEl.getElementsByTagName('h1')[0];
-      data.title = h1 ? (h1.textContent || '').trim() : '';
-    }
-
-    /* Price — find span with class containing 'price' or search by ₪ */
-    var allEls = document.getElementsByTagName('*');
-    for (var pe = 0; pe < allEls.length; pe++) {
-      var cn = allEls[pe].className || '';
-      if (typeof cn === 'string' && cn.indexOf('price') !== -1 && allEls[pe].children.length === 0) {
-        var ptxt = (allEls[pe].textContent || '').replace(/[^\d.,]/g, '').trim();
-        if (ptxt && parseFloat(ptxt) > 0) { data.price = ptxt; break; }
-      }
-    }
-
-    /* SKU */
-    var spans = document.getElementsByTagName('span');
-    for (var ce = 0; ce < spans.length; ce++) {
-      var ceTxt = (spans[ce].textContent || '').trim();
-      if (ceTxt.indexOf('מק"ט') !== -1 || ceTxt.indexOf('מק״ט') !== -1) {
-        data.sku = ceTxt.replace(/מק"ט:?\s*|מק״ט:?\s*/g, '').trim();
-        break;
-      }
-    }
-
-    /* Images */
-    var imgs = document.getElementsByTagName('img');
-    var imageUrls = [];
-    for (var im = 0; im < imgs.length; im++) {
-      var src = imgs[im].src || imgs[im].getAttribute('data-src') || '';
-      if (src && (src.indexOf('cloudfront') !== -1 || src.indexOf('konimbo') !== -1) && src.indexOf('logo') === -1) {
-        imageUrls.push(src);
-      }
-    }
-    data.images = imageUrls;
-    data.mainImage = imageUrls[0] || '';
-
-    /* Cart button reference */
-    var allAnchors = document.getElementsByTagName('a');
-    for (var ca = 0; ca < allAnchors.length; ca++) {
-      if ((allAnchors[ca].textContent || '').trim().indexOf('הוסף לעגלה') !== -1) {
-        data.cartElement = allAnchors[ca];
-        break;
-      }
-    }
-
-    /* Brand detection */
-    var brands = ['BREMBO','BOSCH','MANN-FILTER','MANN FILTER','MAHLE','VALEO','TRW','FEBI','MEYLE','SKF','NGK','DENSO','SACHS','LUK','INA','CONTINENTAL','GATES','HENGST','DAYCO','TEXTAR','ATE','KNECHT','MOTUL','CASTROL','LIQUI MOLY','OSRAM','PHILIPS'];
-    var titleUpper = (data.title || '').toUpperCase();
-    for (var bi = 0; bi < brands.length; bi++) {
-      if (titleUpper.indexOf(brands[bi]) !== -1) { data.brand = brands[bi]; break; }
-    }
-
-    /* Out of stock */
-    data.inStock = !(parseFloat(data.price || '0') === 0);
-
-    return data;
+  function getBrandColor(brand) {
+    return (brand && BRAND_COLORS[brand]) ? BRAND_COLORS[brand] : DEFAULT_COLOR;
   }
 
-  /* ═══ REPLACE PAGE CONTENT ═══ */
-  function replaceContent(templateHTML, productData) {
-    /* Parse template */
-    var parser = new DOMParser();
-    var doc = parser.parseFromString(templateHTML, 'text/html');
-
-    /* Extract styles */
-    var styles = doc.getElementsByTagName('style');
-    var styleContent = '';
-    for (var s = 0; s < styles.length; s++) styleContent += styles[s].textContent;
-
-    /* Inject styles */
-    var styleEl = document.createElement('style');
-    styleEl.id = 'an-product-template-style';
-    styleEl.textContent = styleContent;
-    document.head.appendChild(styleEl);
-
-    /* Get body content */
-    var bodyHTML = doc.body.innerHTML;
-
-    /* Replace data in template HTML string (faster than DOM manipulation) */
-    var title = productData.title || '';
-    var price = productData.price || '0';
-    var sku = productData.sku || '';
-    var brand = productData.brand || '';
-    var shortTitle = title.length > 40 ? title.substring(0, 40) + '...' : title;
-
-    /* Template has hardcoded P85126 / Brembo data — replace with actual */
-    bodyHTML = bodyHTML.replace(/סט רפידות בלם, בלם דיסק קדמי — Brembo P85126/g, title);
-    bodyHTML = bodyHTML.replace(/רפידות בלם קדמיות Brembo P85126/g, shortTitle);
-    bodyHTML = bodyHTML.replace(/₪195/g, '₪' + price);
-    bodyHTML = bodyHTML.replace(/מק״ט: P85126/g, 'מק״ט: ' + sku);
-    bodyHTML = bodyHTML.replace(/>P85126</g, '>' + sku + '<');
-    if (brand) bodyHTML = bodyHTML.replace(/>BREMBO</g, '>' + brand + '<');
-
-    /* Replace product image if available */
-    if (productData.mainImage) {
-      /* Replace the SVG placeholder with actual image */
-      var svgStart = bodyHTML.indexOf('<svg viewBox="0 0 400 400"');
-      var svgEnd = bodyHTML.indexOf('</svg>', svgStart);
-      if (svgStart !== -1 && svgEnd !== -1) {
-        bodyHTML = bodyHTML.substring(0, svgStart) + 
-          '<img src="' + productData.mainImage + '" alt="' + title + '" style="width:100%;height:100%;object-fit:contain;">' +
-          bodyHTML.substring(svgEnd + 6);
+  /* Get first element with a given class name — uses getElementsByTagName
+     to avoid banned querySelector('.class') */
+  function getByClass(className) {
+    var all = document.getElementsByTagName('*');
+    for (var i = 0; i < all.length; i++) {
+      var cn = all[i].className || '';
+      /* className may be SVGAnimatedString on SVG elements */
+      if (typeof cn === 'string' && cn.split(' ').indexOf(className) !== -1) {
+        return all[i];
       }
     }
+    return null;
+  }
 
-    /* Find page content area and replace */
-    var pageContent = document.getElementById('page_content') || document.getElementById('item_show');
-    if (!pageContent) {
-      /* Try to find main content wrapper */
-      var allDivs = document.getElementsByTagName('div');
-      for (var d = 0; d < allDivs.length; d++) {
-        var did = allDivs[d].id || '';
-        if (did === 'page_content' || did === 'content' || did === 'item_show' || did === 'main_content') {
-          pageContent = allDivs[d]; break;
-        }
+  /* Get ALL elements with a given class name */
+  function getAllByClass(className) {
+    var results = [];
+    var all = document.getElementsByTagName('*');
+    for (var i = 0; i < all.length; i++) {
+      var cn = all[i].className || '';
+      if (typeof cn === 'string' && cn.split(' ').indexOf(className) !== -1) {
+        results.push(all[i]);
       }
     }
+    return results;
+  }
 
-    if (!pageContent) {
-      /* Last resort: can't find content area, abort */
-      console.log('AN: Could not find page content area, aborting template injection');
-      return;
-    }
-
-    /* Create wrapper with template content */
-    var wrapper = document.createElement('div');
-    wrapper.id = 'an-product-page';
-    wrapper.innerHTML = bodyHTML;
-
-    /* Remove template's header/footer/topbar (keep Konimbo's) */
-    var children = wrapper.children;
-    var removeList = [];
-    for (var c = 0; c < children.length; c++) {
-      var cn2 = children[c].className || '';
-      var tag = children[c].tagName || '';
-      if (cn2.indexOf('top-bar') !== -1 || tag === 'HEADER' || cn2.indexOf('footer') !== -1) {
-        removeList.push(children[c]);
+  /* Wait for an ID to appear (polls for async-rendered content) */
+  function waitForId(id, callback, maxWait) {
+    var waited = 0;
+    var interval = 200;
+    var max = maxWait || 8000;
+    var timer = setInterval(function() {
+      var el = document.getElementById(id);
+      if (el) {
+        clearInterval(timer);
+        callback(el);
+      } else {
+        waited += interval;
+        if (waited >= max) clearInterval(timer);
       }
-    }
-    for (var r = 0; r < removeList.length; r++) {
-      wrapper.removeChild(removeList[r]);
-    }
+    }, interval);
+  }
 
-    /* Wire buy buttons to real Konimbo cart */
-    if (productData.cartElement) {
-      var btns = wrapper.getElementsByTagName('button');
-      for (var b = 0; b < btns.length; b++) {
-        if ((btns[b].className || '').indexOf('btn-primary') !== -1 || 
-            (btns[b].textContent || '').indexOf('הוסף לעגלה') !== -1) {
-          (function(btn, cartEl) {
-            btn.addEventListener('click', function(e) {
-              e.preventDefault();
-              cartEl.click();
-            });
-          })(btns[b], productData.cartElement);
-        }
+  /* Wait for a class to appear */
+  function waitForClass(className, callback, maxWait) {
+    var waited = 0;
+    var interval = 200;
+    var max = maxWait || 8000;
+    var timer = setInterval(function() {
+      var el = getByClass(className);
+      if (el) {
+        clearInterval(timer);
+        callback(el);
+      } else {
+        waited += interval;
+        if (waited >= max) clearInterval(timer);
       }
-    }
+    }, interval);
+  }
 
-    /* NOW hide original content and show template */
-    pageContent.style.display = 'none';
-    pageContent.parentElement.insertBefore(wrapper, pageContent.nextSibling);
+  /* ─────────────────────────────────────────────
+     1. BRAND BADGE
+     Inserted BEFORE the #item_current_title h1
+     ─────────────────────────────────────────────── */
+  function injectBrandBadge() {
+    if (document.getElementById('an-brand-badge-wrap')) return;
 
-    /* Execute template scripts */
-    var scripts = wrapper.getElementsByTagName('script');
-    for (var sc = scripts.length - 1; sc >= 0; sc--) {
-      var newScript = document.createElement('script');
-      newScript.textContent = scripts[sc].textContent;
-      scripts[sc].parentElement.removeChild(scripts[sc]);
-      document.body.appendChild(newScript);
+    var titleContainer = document.getElementById('item_current_title');
+    if (!titleContainer) return;
+
+    var h1s = titleContainer.getElementsByTagName('h1');
+    if (!h1s.length) return;
+    var h1El = h1s[0];
+
+    var titleText = h1El.textContent || h1El.innerText || '';
+    var brand = detectBrand(titleText);
+    var color = getBrandColor(brand);
+    var brandLabel = brand || 'חלק';
+
+    var badgeWrap = document.createElement('div');
+    badgeWrap.id = 'an-brand-badge-wrap';
+    badgeWrap.className = 'an-brand-badge';
+
+    var badgeLogo = document.createElement('span');
+    badgeLogo.className = 'an-brand-badge-logo';
+    badgeLogo.style.cssText = 'background:' + color + ';';
+    badgeLogo.textContent = brandLabel;
+
+    badgeWrap.appendChild(badgeLogo);
+
+    /* Insert before titleContainer */
+    if (titleContainer.parentNode) {
+      titleContainer.parentNode.insertBefore(badgeWrap, titleContainer);
     }
   }
 
-  /* ═══ MAIN ═══ */
-  function init() {
-    if (!isAutoPartsProduct()) return;
+  /* ─────────────────────────────────────────────
+     2. PRICE VAT LABEL
+     "כולל מע״מ" inserted after the price element
+     ─────────────────────────────────────────────── */
+  function injectPriceVat() {
+    if (document.getElementById('an-price-vat')) return;
 
-    var productData = extractProductData();
-    if (!productData.title) return; /* No product data found, don't touch the page */
+    var priceEl = getByClass('item_price');
+    if (!priceEl || !priceEl.parentNode) return;
 
-    /* Load template with timeout fallback */
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', TEMPLATE_URL + '?v=' + Date.now(), true);
-    xhr.timeout = TIMEOUT_MS;
+    var vatEl = document.createElement('span');
+    vatEl.id = 'an-price-vat';
+    vatEl.className = 'an-price-vat';
+    vatEl.textContent = '\u05DB\u05D5\u05DC\u05DC \u05DE\u05E2"\u05DE'; /* כולל מע"מ */
 
-    xhr.onload = function() {
-      if (xhr.status === 200 && xhr.responseText.length > 1000) {
-        replaceContent(xhr.responseText, productData);
-      }
-    };
-
-    /* On error or timeout: do nothing, original page stays visible */
-    xhr.onerror = function() {};
-    xhr.ontimeout = function() {};
-
-    xhr.send();
+    var next = priceEl.nextSibling;
+    if (next) {
+      priceEl.parentNode.insertBefore(vatEl, next);
+    } else {
+      priceEl.parentNode.appendChild(vatEl);
+    }
   }
 
-  /* Run after page is fully loaded */
-  if (document.readyState === 'complete') {
-    setTimeout(init, 300);
-  } else {
-    window.addEventListener('load', function() {
-      setTimeout(init, 300);
+  /* ─────────────────────────────────────────────
+     3. SOLD BY TEXT
+     Inserted after the cart button's parent container
+     ─────────────────────────────────────────────── */
+  function injectSoldBy() {
+    if (document.getElementById('an-sold-by')) return;
+
+    var cartBtn = getByClass('add_to_cart_button');
+    if (!cartBtn || !cartBtn.parentNode) return;
+
+    var soldByEl = document.createElement('span');
+    soldByEl.id = 'an-sold-by';
+    soldByEl.className = 'an-sold-by';
+    soldByEl.innerHTML = '\u05E0\u05DE\u05DB\u05E8 \u05D5\u05E0\u05E9\u05DC\u05D7 \u05E2\u05DC \u05D9\u05D3\u05D9 <strong>\u05D0\u05D5\u05D8\u05D5 \u05E0\u05D4\u05E8\u05D9\u05D4</strong>';
+    /* נמכר ונשלח על ידי <strong>אוטו נהריה</strong> */
+
+    var btnParent = cartBtn.parentNode;
+    var afterBtn = btnParent.nextSibling;
+    if (afterBtn) {
+      btnParent.parentNode.insertBefore(soldByEl, afterBtn);
+    } else {
+      btnParent.parentNode.appendChild(soldByEl);
+    }
+  }
+
+  /* ─────────────────────────────────────────────
+     4. STICKY BAR
+     Fixed top bar: title + price + cart button
+     ─────────────────────────────────────────────── */
+  function buildStickyBar() {
+    if (document.getElementById('an-sticky-bar')) return;
+
+    /* Get title */
+    var titleText = '';
+    var titleContainer = document.getElementById('item_current_title');
+    if (titleContainer) {
+      var h1s = titleContainer.getElementsByTagName('h1');
+      if (h1s.length) titleText = (h1s[0].textContent || h1s[0].innerText || '').trim();
+    }
+
+    /* Get price */
+    var priceText = '';
+    var priceEl = getByClass('item_price');
+    if (priceEl) priceText = (priceEl.textContent || priceEl.innerText || '').trim();
+
+    /* Build bar element */
+    var bar = document.createElement('div');
+    bar.id = 'an-sticky-bar';
+
+    var inner = document.createElement('div');
+    inner.id = 'an-sticky-bar-inner';
+
+    /* Info */
+    var infoDiv = document.createElement('div');
+    infoDiv.className = 'an-sticky-info';
+
+    var titleSpan = document.createElement('span');
+    titleSpan.className = 'an-sticky-title';
+    titleSpan.textContent = titleText || '\u05DE\u05D5\u05E6\u05E8'; /* מוצר */
+    infoDiv.appendChild(titleSpan);
+
+    /* Actions */
+    var actionsDiv = document.createElement('div');
+    actionsDiv.className = 'an-sticky-actions';
+
+    var priceSpan = document.createElement('span');
+    priceSpan.className = 'an-sticky-price';
+    priceSpan.id = 'an-sticky-price-val';
+    priceSpan.textContent = priceText || '';
+
+    var stickyBtn = document.createElement('button');
+    stickyBtn.className = 'an-sticky-btn';
+    stickyBtn.type = 'button';
+    /* Cart icon SVG inline */
+    stickyBtn.innerHTML =
+      '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-left:6px">' +
+        '<circle cx="9" cy="21" r="1"/>' +
+        '<circle cx="20" cy="21" r="1"/>' +
+        '<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>' +
+      '</svg>' +
+      '\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4'; /* הוסף לעגלה */
+
+    /* Clicking sticky btn triggers the real Konimbo cart button */
+    stickyBtn.addEventListener('click', function() {
+      var realBtn = getByClass('add_to_cart_button');
+      if (realBtn) realBtn.click();
+    });
+
+    actionsDiv.appendChild(priceSpan);
+    actionsDiv.appendChild(stickyBtn);
+    inner.appendChild(infoDiv);
+    inner.appendChild(actionsDiv);
+    bar.appendChild(inner);
+
+    document.body.appendChild(bar);
+
+    /* Scroll handler — show/hide bar past 300px */
+    var ticking = false;
+    window.addEventListener('scroll', function() {
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          var scrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+          var current = bar.className;
+          if (scrollY > 300) {
+            if (current.indexOf('an-visible') === -1) {
+              bar.className = (current + ' an-visible').trim();
+            }
+          } else {
+            bar.className = current.replace(/\s*an-visible/g, '').trim();
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
     });
   }
+
+  /* ─────────────────────────────────────────────
+     5. SECTION HEADING
+     "תיאור" heading above the widget/specs area
+     ─────────────────────────────────────────────── */
+  function injectSectionHeading() {
+    if (document.getElementById('an-section-heading')) return;
+
+    /* Try known widget IDs first */
+    var widgetIds = ['tw-widget-root', 'tw-specs-section', 'tw-tabs-section', 'tw-brand-info'];
+    var target = null;
+    for (var w = 0; w < widgetIds.length; w++) {
+      var el = document.getElementById(widgetIds[w]);
+      if (el) { target = el; break; }
+    }
+
+    /* Fall back to known class names */
+    if (!target) {
+      var classNames = ['tw-widget-container', 'tw-specs-wrapper', 'tw-specs-table', 'tw-tabs'];
+      for (var c = 0; c < classNames.length; c++) {
+        var found = getByClass(classNames[c]);
+        if (found) { target = found; break; }
+      }
+    }
+
+    /* Fall back: any element whose id starts with 'tw-' via querySelectorAll with attribute */
+    if (!target) {
+      try {
+        var twEls = document.querySelectorAll('[id^="tw-"]');
+        if (twEls && twEls.length) target = twEls[0];
+      } catch(e) {}
+    }
+
+    if (!target || !target.parentNode) return;
+
+    var heading = document.createElement('h2');
+    heading.id = 'an-section-heading';
+    heading.className = 'an-section-heading';
+    heading.textContent = '\u05EA\u05D9\u05D0\u05D5\u05E8'; /* תיאור */
+
+    target.parentNode.insertBefore(heading, target);
+  }
+
+  /* ─────────────────────────────────────────────
+     INIT
+     ─────────────────────────────────────────────── */
+  function runAll() {
+    injectBrandBadge();
+    injectPriceVat();
+    injectSoldBy();
+    buildStickyBar();
+    injectSectionHeading();
+
+    /* Re-run after 1.5s to catch async-rendered Konimbo elements */
+    setTimeout(function() {
+      injectBrandBadge();
+      injectPriceVat();
+      injectSoldBy();
+      injectSectionHeading();
+
+      /* Refresh sticky price from live DOM */
+      var priceEl = getByClass('item_price');
+      var priceVal = document.getElementById('an-sticky-price-val');
+      if (priceEl && priceVal) {
+        var fresh = (priceEl.textContent || priceEl.innerText || '').trim();
+        if (fresh) priceVal.textContent = fresh;
+      }
+    }, 1500);
+
+    /* Run again at 4s for very slow pages */
+    setTimeout(function() {
+      injectBrandBadge();
+      injectPriceVat();
+      injectSoldBy();
+      injectSectionHeading();
+    }, 4000);
+  }
+
+  /* Execute after DOM is ready */
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', runAll);
+  } else {
+    runAll();
+  }
+
 })();
 </script>
