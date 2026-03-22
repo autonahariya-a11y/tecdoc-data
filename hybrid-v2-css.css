@@ -58,54 +58,33 @@
   right: 0;
   background: #fff;
   border-bottom: 1px solid var(--border);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   z-index: 99999;
   transform: translateY(-100%);
   transition: transform 0.3s ease;
-  padding: 0 20px;
+  padding: 0 12px;
   font-family: 'Heebo', sans-serif;
   direction: rtl;
 }
 #an-sticky-bar.visible { transform: translateY(0); }
-#an-product-redesign .sticky-bar-inner {
-  max-width: var(--max-width);
-  margin: 0 auto;
+#an-sticky-bar .sticky-bar-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 56px;
-  gap: 16px;
+  height: 48px;
+  gap: 10px;
 }
-#an-product-redesign .sticky-bar-info { display: flex; align-items: center; gap: 12px; min-width: 0; }
-#an-product-redesign .sticky-bar-thumb {
-  width: 40px;
-  height: 40px;
-  border-radius: 6px;
-  background: var(--bg-light);
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-#an-product-redesign .sticky-bar-thumb img {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-#an-product-redesign .sticky-bar-thumb svg { width: 32px; height: 32px; }
-#an-product-redesign .sticky-bar-title {
-  font-size: 14px;
+#an-sticky-bar .sticky-bar-info { display: flex; align-items: center; min-width: 0; flex: 1; }
+#an-sticky-bar .sticky-bar-title {
+  font-size: 13px;
   font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 300px;
 }
-#an-product-redesign .sticky-bar-actions { display: flex; align-items: center; gap: 16px; flex-shrink: 0; }
-#an-product-redesign .sticky-bar-price { font-size: 20px; font-weight: 800; color: var(--text); white-space: nowrap; }
-#an-sticky-bar .btn-primary { padding: 8px 24px; font-size: 14px; height: 40px; }
+#an-sticky-bar .sticky-bar-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+#an-sticky-bar .sticky-bar-price { font-size: 16px; font-weight: 800; color: var(--text); white-space: nowrap; }
+#an-sticky-bar .btn-primary { padding: 6px 16px; font-size: 13px; height: 36px; border-radius: 6px; }
 
 /* ===== BREADCRUMB ===== */
 #an-product-redesign .an-breadcrumb {
