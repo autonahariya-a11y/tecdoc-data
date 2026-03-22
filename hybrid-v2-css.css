@@ -1,14 +1,4 @@
-/* Hybrid Product Page v2 — hide original Konimbo content while template loads */
-body.an-template-loading #page_content,
-body.an-template-loading .item_container,
-body.an-template-loading #item_show,
-body.an-template-loading #item_details,
-body.an-template-loading #item_content,
-body.an-template-loading .specifications,
-body.an-template-loading #item_show_carousel {
-  opacity: 0 !important;
-  transition: opacity 0.3s;
-}
+/* Hybrid Product Page v2 — minimal CSS, content hiding done by JS only after template loads */
 
 /* Loading indicator */
 #an-template-loader {
