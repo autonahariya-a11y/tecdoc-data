@@ -281,7 +281,7 @@
       }
     }
   }
-  var productPrice = priceEl ? getText(priceEl).replace(/[^\d₪,.]/g, '').replace(/^₪/, '').trim() : '';
+  var productPrice = priceEl ? getText(priceEl).replace(/[^\d,.]/g, '').trim() : '';
   if (!productPrice && priceEl) productPrice = getText(priceEl);
 
   // 3c. SKU — find span containing מק"ט or מק״ט
@@ -300,14 +300,32 @@
     if (skuEl) skuValue = getText(skuEl).replace(/\u05de\u05e7["\u05d9\u05d8:״]+\s*/g, '').trim();
   }
 
-  // 3d. Product images — find img tags with cloudfront/konimbo in src
+  // 3d. Product images — find images from carousel/product area only
   var imageUrls = [];
-  var allImgs = document.getElementsByTagName('img');
+  var carouselEl = document.getElementById('item_show_carousel') || document.getElementById('item_show');
+  var imgSource = carouselEl || document;
+  var allImgs = imgSource.getElementsByTagName('img');
   for (var im = 0; im < allImgs.length; im++) {
     var src = allImgs[im].src || allImgs[im].getAttribute('data-src') || '';
-    if (src && (src.indexOf('cloudfront') !== -1 || src.indexOf('konimbo') !== -1 || src.indexOf('cdn') !== -1)) {
-      if (src.indexOf('logo') === -1 && src.indexOf('icon') === -1 && src.indexOf('banner') === -1) {
+    if (src && src.indexOf('http') === 0) {
+      // Filter: minimum size, no logos/icons/banners/spotlights/svg
+      var w = allImgs[im].naturalWidth || allImgs[im].width || 0;
+      var lsrc = src.toLowerCase();
+      if (lsrc.indexOf('logo') === -1 && lsrc.indexOf('icon') === -1 && 
+          lsrc.indexOf('banner') === -1 && lsrc.indexOf('spotlight') === -1 &&
+          lsrc.indexOf('.svg') === -1 && lsrc.indexOf('placeholder') === -1) {
         if (imageUrls.indexOf(src) === -1) imageUrls.push(src);
+      }
+    }
+  }
+  // If no images from carousel, try all page images with cloudfront
+  if (imageUrls.length === 0) {
+    var fallbackImgs = document.getElementsByTagName('img');
+    for (var fi = 0; fi < fallbackImgs.length; fi++) {
+      var fsrc = fallbackImgs[fi].src || '';
+      if (fsrc && (fsrc.indexOf('cloudfront') !== -1 || fsrc.indexOf('konimbo') !== -1) &&
+          fsrc.indexOf('logo') === -1 && fsrc.indexOf('icon') === -1) {
+        if (imageUrls.indexOf(fsrc) === -1) imageUrls.push(fsrc);
       }
     }
   }
@@ -454,7 +472,8 @@
   breadcrumbHtml += '<span>' + productTitle.substring(0, 60) + '</span>';
 
   // Price display
-  var priceDisplay = productPrice ? '&#8362;' + productPrice : '';
+  var cleanPrice = productPrice.replace(/[₪\u20aa]/g, '').trim();
+  var priceDisplay = cleanPrice ? '&#8362;' + cleanPrice : '';
   if (!priceDisplay && priceEl) priceDisplay = getText(priceEl);
 
   // Highlights
@@ -495,7 +514,7 @@
   // Col 1: Image section
   html += '<div class="product-image-section">';
   html += '<div class="product-image-main">';
-  html += '<div class="image-badge">\u05de\u05d5\u05e6\u05e8 \u05de\u05e7\u05d5\u05e8\u05d9</div>';
+  html += '<div class="image-badge">\u05de\u05d5\u05e6\u05e8 \u05d0\u05d9\u05db\u05d5\u05ea\u05d9</div>';
   html += mainImageHtml;
   html += '</div>';
   html += '<div class="image-thumbnails">' + thumbnailsHtml + '</div>';
@@ -612,13 +631,23 @@
   // Insert BEFORE the Konimbo content area
   targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
 
-  // Move tecdoc-widget into our layout
-  if (tecdocWidget) {
-    var tecdocWrap = document.getElementById('an-tecdoc-wrap');
-    if (tecdocWrap) {
-      tecdocWrap.appendChild(tecdocWidget);
-      tecdocWidget.style.display = 'block';
+  // Move tecdoc-widget into our layout (with retries for late-loading widget)
+  function moveTecDoc() {
+    var tw = document.getElementById('tecdoc-widget');
+    var wrap = document.getElementById('an-tecdoc-wrap');
+    if (tw && wrap && !wrap.children.length) {
+      wrap.appendChild(tw);
+      tw.style.display = 'block';
+      return true;
     }
+    return false;
+  }
+  if (!moveTecDoc()) {
+    setTimeout(moveTecDoc, 1000);
+    setTimeout(moveTecDoc, 3000);
+    setTimeout(moveTecDoc, 6000);
+    setTimeout(moveTecDoc, 10000);
+    setTimeout(moveTecDoc, 15000);
   }
 
   /* ================================================================
@@ -774,7 +803,9 @@
   var descExpandBtn = document.getElementById('an-desc-expand-btn');
   var descExtra = document.getElementById('an-desc-extra');
   if (descExpandBtn && descExtra) {
-    descExpandBtn.addEventListener('click', function() {
+    descExpandBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
       var ecls = descExtra.className;
       var bcls = descExpandBtn.className;
       var isOpen = ecls.indexOf('open') !== -1;
