@@ -172,18 +172,7 @@
   object-fit: contain;
 }
 #an-product-redesign .product-image-main svg { width: 70%; height: 70%; }
-#an-product-redesign .image-badge {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  background: var(--primary);
-  color: #fff;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 4px 12px;
-  border-radius: 20px;
-  z-index: 2;
-}
+/* image-badge removed */
 #an-product-redesign .image-thumbnails { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
 #an-product-redesign .image-thumb {
   width: 64px;
