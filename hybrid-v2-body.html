@@ -393,33 +393,40 @@
   var productPrice = priceEl ? getText(priceEl).replace(/[^\d,.]/g, '').trim() : '';
   if (!productPrice && priceEl) productPrice = getText(priceEl);
 
-  // 3c. SKU — extract from title (most reliable) or from code_item element
+  // 3c. SKU — what to DISPLAY as the product SKU
+  // Priority: Montecchio pattern from title > other SKU from title > code_item
   var skuValue = '';
-  // Try to extract SKU from product title — it's usually the last word/code
-  // Pattern: alphanumeric code at the end or after | separator
-  var titleParts = productTitle.split('|');
-  // Check each part for SKU-like patterns (alphanumeric, 4+ chars, contains digits)
-  for (var tp = titleParts.length - 1; tp >= 0; tp--) {
-    var part = titleParts[tp].trim();
-    // SKU pattern: contains digits and letters, or is purely numeric with 4+ digits
-    var skuPattern = part.match(/([A-Za-z0-9][A-Za-z0-9\-\.\s]{3,}[0-9][A-Za-z0-9\-\.]*)/); 
-    if (skuPattern) {
-      var candidate = skuPattern[1].trim();
-      // Must contain at least one digit and be mostly non-Hebrew
-      if (/\d/.test(candidate) && !/[\u05d0-\u05ea]{3}/.test(candidate)) {
-        // Remove brand name prefix if present
-        var bKeys = Object.keys(BRAND_INFO);
-        for (var bki = 0; bki < bKeys.length; bki++) {
-          if (candidate.toUpperCase().indexOf(bKeys[bki]) === 0) {
-            candidate = candidate.substring(bKeys[bki].length).trim();
-            break;
+
+  // First: check for Montecchio-style SKU in title (4-5 digits + letter)
+  var montecchioMatch = productTitle.match(/\b(\d{4,5}[A-Za-z])\b/);
+  if (montecchioMatch) {
+    skuValue = montecchioMatch[1];
+  }
+
+  // If no Montecchio SKU, try general SKU from title parts
+  if (!skuValue) {
+    var titleParts = productTitle.split('|');
+    for (var tp = titleParts.length - 1; tp >= 0; tp--) {
+      var part = titleParts[tp].trim();
+      var skuPattern = part.match(/([A-Za-z][A-Za-z0-9\-]{3,}[0-9][A-Za-z0-9]*)/);
+      if (skuPattern) {
+        var candidate = skuPattern[1].trim();
+        if (/\d/.test(candidate) && /[A-Za-z]/.test(candidate) && !/[\u05d0-\u05ea]{3}/.test(candidate)) {
+          // Remove brand prefix
+          var bKeys = Object.keys(BRAND_INFO);
+          for (var bki = 0; bki < bKeys.length; bki++) {
+            if (candidate.toUpperCase().indexOf(bKeys[bki]) === 0) {
+              candidate = candidate.substring(bKeys[bki].length).trim();
+              break;
+            }
           }
+          if (candidate) { skuValue = candidate; break; }
         }
-        if (candidate) { skuValue = candidate; break; }
       }
     }
   }
-  // Fallback: try code_item element
+
+  // Fallback: try code_item element (Konimbo's main SKU field)
   if (!skuValue) {
     var allEls2 = document.getElementsByTagName('*');
     for (var ce = 0; ce < allEls2.length; ce++) {
@@ -427,16 +434,6 @@
       if (ceCls.indexOf('code_item') !== -1) {
         var ceText = getText(allEls2[ce]).replace(/\u05de\u05e7["\u05d9\u05d8:\u05f4]+\s*/g, '').trim();
         if (ceText) { skuValue = ceText; break; }
-      }
-    }
-  }
-  // Fallback: try span with מק"ט text (but only near the title, not from TecDoc widget)
-  if (!skuValue) {
-    for (var s = 0; s < allSpans.length; s++) {
-      var spanText = getText(allSpans[s]);
-      if (spanText.indexOf('\u05de\u05e7') !== -1 && spanText.indexOf('\u05d8') !== -1) {
-        var skuMatch = spanText.replace(/[\u05d0-\u05ea":\u05f4\u05f3]+/g, '').trim();
-        if (skuMatch && skuMatch.length > 2) { skuValue = skuMatch; break; }
       }
     }
   }
