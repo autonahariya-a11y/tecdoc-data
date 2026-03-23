@@ -385,20 +385,52 @@
   var productPrice = priceEl ? getText(priceEl).replace(/[^\d,.]/g, '').trim() : '';
   if (!productPrice && priceEl) productPrice = getText(priceEl);
 
-  // 3c. SKU — find span containing מק"ט or מק״ט
+  // 3c. SKU — extract from title (most reliable) or from code_item element
   var skuValue = '';
-  for (var s = 0; s < allSpans.length; s++) {
-    var spanText = getText(allSpans[s]);
-    if (spanText.indexOf('\u05de\u05e7\u05d9\u05d8') !== -1 || spanText.indexOf('\u05de\u05e7\u05d5\u05d3') !== -1) {
-      // Extract SKU value
-      var skuMatch = spanText.replace(/\u05de\u05e7["\u05d9\u05d8\u05d5\u05d3:״]+\s*/g, '').trim();
-      if (skuMatch) { skuValue = skuMatch; break; }
+  // Try to extract SKU from product title — it's usually the last word/code
+  // Pattern: alphanumeric code at the end or after | separator
+  var titleParts = productTitle.split('|');
+  // Check each part for SKU-like patterns (alphanumeric, 4+ chars, contains digits)
+  for (var tp = titleParts.length - 1; tp >= 0; tp--) {
+    var part = titleParts[tp].trim();
+    // SKU pattern: contains digits and letters, or is purely numeric with 4+ digits
+    var skuPattern = part.match(/([A-Za-z0-9][A-Za-z0-9\-\.\s]{3,}[0-9][A-Za-z0-9\-\.]*)/); 
+    if (skuPattern) {
+      var candidate = skuPattern[1].trim();
+      // Must contain at least one digit and be mostly non-Hebrew
+      if (/\d/.test(candidate) && !/[\u05d0-\u05ea]{3}/.test(candidate)) {
+        // Remove brand name prefix if present
+        var bKeys = Object.keys(BRAND_INFO);
+        for (var bki = 0; bki < bKeys.length; bki++) {
+          if (candidate.toUpperCase().indexOf(bKeys[bki]) === 0) {
+            candidate = candidate.substring(bKeys[bki].length).trim();
+            break;
+          }
+        }
+        if (candidate) { skuValue = candidate; break; }
+      }
     }
   }
-  // Also try data-sku attributes
+  // Fallback: try code_item element
   if (!skuValue) {
-    var skuEl = document.querySelector('[data-sku], [id*="sku"], [class*="sku"]');
-    if (skuEl) skuValue = getText(skuEl).replace(/\u05de\u05e7["\u05d9\u05d8:״]+\s*/g, '').trim();
+    var allEls2 = document.getElementsByTagName('*');
+    for (var ce = 0; ce < allEls2.length; ce++) {
+      var ceCls = (allEls2[ce].className || '').toString();
+      if (ceCls.indexOf('code_item') !== -1) {
+        var ceText = getText(allEls2[ce]).replace(/\u05de\u05e7["\u05d9\u05d8:\u05f4]+\s*/g, '').trim();
+        if (ceText) { skuValue = ceText; break; }
+      }
+    }
+  }
+  // Fallback: try span with מק"ט text (but only near the title, not from TecDoc widget)
+  if (!skuValue) {
+    for (var s = 0; s < allSpans.length; s++) {
+      var spanText = getText(allSpans[s]);
+      if (spanText.indexOf('\u05de\u05e7') !== -1 && spanText.indexOf('\u05d8') !== -1) {
+        var skuMatch = spanText.replace(/[\u05d0-\u05ea":\u05f4\u05f3]+/g, '').trim();
+        if (skuMatch && skuMatch.length > 2) { skuValue = skuMatch; break; }
+      }
+    }
   }
 
   // 3d. Product images — find images from carousel/product area only
@@ -505,20 +537,33 @@
     highlights: []
   };
 
-  // 3h. Product subtitle — try to extract from title or breadcrumb
+  // 3h. Product subtitle — extract product TYPE from title (Hebrew words before brand/SKU)
   var productSubtitle = '';
-  var subMatch = productTitle.match(/[\u05d0-\u05ea]+\s[\u05d0-\u05ea]+/);
-  if (breadcrumbItems.length >= 2) {
-    productSubtitle = breadcrumbItems[breadcrumbItems.length - 2].text || '';
+  // Extract Hebrew words from title as subtitle (e.g., "רפידות בלם", "פילטר אוויר", "מצת")
+  var hebrewWords = productTitle.match(/[\u05d0-\u05ea]+(?:\s+[\u05d0-\u05ea]+)*/g);
+  if (hebrewWords && hebrewWords.length > 0) {
+    // Take the first Hebrew phrase (usually the product type)
+    productSubtitle = hebrewWords[0].trim();
+    // If it's just one word and there are more, try to get two
+    if (hebrewWords.length > 1 && productSubtitle.split(' ').length < 2) {
+      productSubtitle = hebrewWords[0].trim() + ' ' + hebrewWords[1].trim();
+    }
   }
-  if (!productSubtitle && productTitle.indexOf('קדמי') !== -1) productSubtitle = 'סרן קדמי | בלם דיסק';
-  if (!productSubtitle && productTitle.indexOf('אחורי') !== -1) productSubtitle = 'סרן אחורי | בלם דיסק';
-  if (!productSubtitle) productSubtitle = '\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd';
+  // Clean up: remove brand-like Hebrew words that aren't product types
+  productSubtitle = productSubtitle.replace(/\s*\|\s*/g, '').trim();
+  // If subtitle is same as title, clear it
+  if (productSubtitle === productTitle.trim()) productSubtitle = '';
 
-  // 3i. Category label from breadcrumb
+  // 3i. Category label from breadcrumb — leave empty if not found (no hardcoded default)
   var categoryLabel = '';
-  if (breadcrumbItems.length >= 2) categoryLabel = breadcrumbItems[breadcrumbItems.length - 2].text;
-  if (!categoryLabel) categoryLabel = '\u05d7\u05dc\u05e7\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd';
+  if (breadcrumbItems.length >= 2) {
+    var bcLabel = breadcrumbItems[breadcrumbItems.length - 2].text || '';
+    // Only use breadcrumb if it's a real category link (not "#" or self-link)
+    var bcHref = breadcrumbItems[breadcrumbItems.length - 2].href || '';
+    if (bcLabel && bcHref.indexOf('#') === -1 && bcHref !== window.location.href) {
+      categoryLabel = bcLabel;
+    }
+  }
 
   // 3j. Find the Konimbo content area to insert before/after
   var targetInsertEl = document.getElementById('item_show') ||
