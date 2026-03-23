@@ -456,12 +456,46 @@
 
   function getStoreSKU() {
     var codeEl = document.querySelector('.code_item');
+    var sku = null;
     if (codeEl) {
       var text = codeEl.textContent.trim();
       text = text.replace(/^[\u05DE\u05E7"\u05D8:.\s]+/g, '').trim();
-      if (text) return text;
+      if (text) sku = text;
     }
-    return null;
+    // If SKU matches Montecchio pattern (4-5 digits + letter), look for OEM SKU
+    // in the product title instead — Montecchio SKUs aren't in TecDoc
+    if (sku && /^\d{4,5}[A-Za-z]$/.test(sku)) {
+      // Try to find an OEM part number in the page title
+      var title = document.title || '';
+      var h1s = document.getElementsByTagName('h1');
+      for (var hi = 0; hi < h1s.length; hi++) {
+        title += ' ' + (h1s[hi].textContent || '');
+      }
+      // Look for OEM-style SKUs in title: alphanumeric 5+ chars with letters and digits
+      var oemMatches = title.match(/\b([A-Z0-9][A-Z0-9\-]{4,}[0-9])\b/gi) || [];
+      for (var om = 0; om < oemMatches.length; om++) {
+        var candidate = oemMatches[om].trim();
+        // Skip the Montecchio SKU itself and short codes
+        if (candidate === sku) continue;
+        if (/^\d{4,5}[A-Za-z]$/.test(candidate)) continue;
+        // Must have both letters and digits
+        if (/[A-Za-z]/.test(candidate) && /\d/.test(candidate)) {
+          return candidate; // Use OEM SKU for TecDoc lookup
+        }
+      }
+      // Also check for secondary code element or any nearby spans
+      var allSpans = document.getElementsByTagName('span');
+      for (var si = 0; si < allSpans.length; si++) {
+        var st = (allSpans[si].textContent || '').trim();
+        if (st.indexOf('\u05de\u05e7') !== -1 && st !== sku) {
+          var extracted = st.replace(/[\u05d0-\u05ea":\u05f4\u05f3\s]+/g, '').trim();
+          if (extracted && extracted !== sku && extracted.length >= 5 && /[A-Za-z]/.test(extracted) && /\d/.test(extracted)) {
+            return extracted;
+          }
+        }
+      }
+    }
+    return sku;
   }
 
   /* ── Category detection ── */
