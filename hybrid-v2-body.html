@@ -537,8 +537,16 @@
       break;
     }
   }
-  // If no brand detected from title, check SKU pattern for Montecchio
-  // Montecchio SKUs: 4-5 digits followed by 1 letter (e.g. 93114E, 7890A)
+  // Detect Montecchio: by name variations in title OR by SKU pattern
+  if (!detectedBrand) {
+    // Check for "Aaron Montecchio" or "מונטקיו" or "אהרון מונטקיו" in title
+    if (titleUpper.indexOf('MONTECCHIO') !== -1 || titleUpper.indexOf('AARON') !== -1 ||
+        productTitle.indexOf('\u05de\u05d5\u05e0\u05d8\u05e7\u05d9\u05d5') !== -1 ||
+        productTitle.indexOf('\u05d0\u05d4\u05e8\u05d5\u05df') !== -1) {
+      detectedBrand = 'MONTECCHIO';
+    }
+  }
+  // Also detect by SKU pattern: 4-5 digits + 1 letter (e.g. 93114E)
   if (!detectedBrand && skuValue) {
     if (/^\d{4,5}[A-Za-z]$/.test(skuValue.trim())) {
       detectedBrand = 'MONTECCHIO';
