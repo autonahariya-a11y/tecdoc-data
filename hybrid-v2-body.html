@@ -332,6 +332,14 @@
       color: "#cc0000",
       logo: "",
       highlights: ["Sangsin Brake — יצרנית בלמים קוריאנית, ספקית OEM ליונדאי וקיה","מפעילה את מותגי Hi-Q ו-Hardron","רפידות בלם ודיסקים באיכות מקורית","אחריות 3 חודשים / 6,000 ק׳מ"]
+    },
+    "MONTECCHIO": {
+      name: "Montecchio",
+      description: "אהרון מונטקיו בע\"מ — החברה המובילה בשוק חלקי החילוף לרכב בישראל מאז 1947. חלק מקבוצת Kogol (מפיצי מישלן בישראל) וקבוצת Mayer Group. מייבאת ומשווקת פילטרים, מערכות בלימה, התלייה, מצמדים ובולמי זעזועים.",
+      founded: "1947", country: "ישראל",
+      color: "#1a3c6e",
+      logo: "",
+      highlights: ["אהרון מונטקיו — החברה המובילה בשוק חלקי החילוף לרכב בישראל מאז 1947","חלק מקבוצת Kogol/Mayer Group — מפיצי Michelin בישראל","פילטרים באיכות גבוהה למגוון רחב של דגמי רכב","אחריות 3 חודשים / 6,000 ק׳מ"]
     }
   };
 
@@ -529,9 +537,16 @@
       break;
     }
   }
+  // If no brand detected from title, check SKU pattern for Montecchio
+  // Montecchio SKUs: 4-5 digits followed by 1 letter (e.g. 93114E, 7890A)
+  if (!detectedBrand && skuValue) {
+    if (/^\d{4,5}[A-Za-z]$/.test(skuValue.trim())) {
+      detectedBrand = 'MONTECCHIO';
+    }
+  }
   var brandData = BRAND_INFO[detectedBrand] || {
-    name: detectedBrand || 'יצרן',
-    description: 'יצרן חלקי חילוף מוביל לרכב. מספק פתרונות איכות לשוק החלפים.',
+    name: detectedBrand || '\u05d9\u05e6\u05e8\u05df',
+    description: '\u05d9\u05e6\u05e8\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1. \u05de\u05e1\u05e4\u05e7 \u05e4\u05ea\u05e8\u05d5\u05e0\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05dc\u05e9\u05d5\u05e7 \u05d4\u05d7\u05dc\u05e4\u05d9\u05dd.',
     founded: '', country: '',
     color: '#1B4E91',
     highlights: []
