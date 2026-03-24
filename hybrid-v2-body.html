@@ -507,50 +507,22 @@
     updateQtyDisplay();
   });
   }
-  var itemIdMatch = window.location.pathname.match(/\/items\/(\d+)/);
-  var itemId = itemIdMatch ? itemIdMatch[1] : '';
-  var storeHost = window.location.hostname.replace('www.', '').replace('.co.il', '').replace('.com', '');
   function doAddToCart(triggerBtn) {
-  if (cartButton) {
-    try {
-      var origDisplay = cartButton.style.display;
-      cartButton.style.display = 'block';
-      cartButton.style.position = 'fixed';
-      cartButton.style.top = '-9999px';
-      cartButton.click();
-      cartButton.style.display = origDisplay;
-      cartButton.style.position = '';
-      cartButton.style.top = '';
-    } catch(e) {}
-  }
-  if (itemId) {
-    try {
-      var xhr = new XMLHttpRequest();
-      xhr.open('POST', '/orders/' + storeHost + '/new', true);
-      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-      xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4) {
-          var cartBadges = document.querySelectorAll('[class*="cart"] span, [class*="cart_count"], .items_count');
-          for (var cb = 0; cb < cartBadges.length; cb++) {
-            var num = parseInt(cartBadges[cb].textContent || '0');
-            cartBadges[cb].textContent = num + anQty;
-          }
-        }
-      };
-      xhr.send('order[line_items_attributes][0][item_id]=' + itemId + '&order[line_items_attributes][0][quantity]=' + anQty);
-    } catch(e2) {}
-  }
-  if (triggerBtn) {
-    var origHtml = triggerBtn.innerHTML;
-    var origBg = triggerBtn.style.background;
-    triggerBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> \u05e0\u05d5\u05e1\u05e3!';
-    triggerBtn.style.background = '#22c55e';
-    setTimeout(function() {
-      triggerBtn.innerHTML = origHtml;
-      triggerBtn.style.background = origBg;
-    }, 1500);
-  }
+    // Simply click the original Konimbo cart button
+    if (cartButton) {
+      try { cartButton.click(); } catch(e) {}
+    }
+    // Visual feedback only
+    if (triggerBtn) {
+      var origHtml = triggerBtn.innerHTML;
+      var origBg = triggerBtn.style.background;
+      triggerBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> \u05e0\u05d5\u05e1\u05e3!';
+      triggerBtn.style.background = '#22c55e';
+      setTimeout(function() {
+        triggerBtn.innerHTML = origHtml;
+        triggerBtn.style.background = origBg;
+      }, 1500);
+    }
   }
   var mainBuyBtn = document.getElementById('an-buy-btn');
   if (mainBuyBtn) {
