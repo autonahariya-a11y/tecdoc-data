@@ -382,12 +382,8 @@
   html += '<div class="price-main">' + priceDisplay + '</div>';
   html += '<div class="price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2\u05f3\u05de</div>';
   html += '</div>';
-  // Cart section — uses direct page navigation to add to cart
-  var itemIdMatch = window.location.pathname.match(/\/items\/(\d+)/);
-  var itemId = itemIdMatch ? itemIdMatch[1] : '';
-  html += '<div class="buy-section">';
-  html += '<button class="btn-primary" id="an-buy-btn" style="flex:1;background:#1B4E91;color:#fff;font-size:16px;font-weight:700;border-radius:8px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;border:none;cursor:pointer;font-family:Heebo,sans-serif">' + cartSvg + '\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
-  html += '</div>';
+  // Placeholder — Konimbo's original cart area will be moved here
+  html += '<div id="an-cart-area"></div>';
   html += '<div class="sold-by">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
   html += '<div class="trust-box">';
   html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDE9A</span><span>\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5</span></div>';
@@ -447,8 +443,52 @@
   wrapper.innerHTML = html;
   targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
 
-  // Konimbo's cart button stays in its original location (not moved)
-  // We do NOT hide item_add_to_cart, item_price, or item_quantity in CSS
+  // Move Konimbo's ORIGINAL cart elements (link + quantity) into our layout
+  var cartArea = document.getElementById('an-cart-area');
+  if (cartArea) {
+    // Find the "הוסף לעגלה" link (Konimbo uses <a>, not <button>)
+    var cartLink = null;
+    var allAnchors2 = document.getElementsByTagName('a');
+    for (var ca = 0; ca < allAnchors2.length; ca++) {
+      if ((allAnchors2[ca].textContent || '').indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
+        cartLink = allAnchors2[ca];
+        break;
+      }
+    }
+    // Also find the "קנה עכשיו" link
+    var buyNowLink = null;
+    for (var bn = 0; bn < allAnchors2.length; bn++) {
+      if ((allAnchors2[bn].textContent || '').indexOf('\u05e7\u05e0\u05d4 \u05e2\u05db\u05e9\u05d9\u05d5') !== -1) {
+        buyNowLink = allAnchors2[bn];
+        break;
+      }
+    }
+    // Find quantity input (spinbutton)
+    var qtyInput = document.querySelector('input[type="number"]');
+    // Move everything into our cart area
+    if (cartLink) {
+      // Try to move the entire parent row (contains qty + buttons)
+      var cartParent = cartLink.parentElement;
+      if (cartParent && qtyInput && cartParent.contains(qtyInput)) {
+        // Parent contains both — move the whole thing
+        cartArea.appendChild(cartParent);
+      } else {
+        // Move individual elements
+        if (qtyInput && qtyInput.parentElement) {
+          cartArea.appendChild(qtyInput.parentElement);
+        }
+        cartArea.appendChild(cartLink);
+        if (buyNowLink) cartArea.appendChild(buyNowLink);
+      }
+    } else if (cartButton) {
+      // Fallback: if we found a button earlier
+      if (cartButton.parentElement) {
+        cartArea.appendChild(cartButton.parentElement);
+      } else {
+        cartArea.appendChild(cartButton);
+      }
+    }
+  }
 
   function moveTecDoc() {
   var tw = document.getElementById('tecdoc-widget');
@@ -486,29 +526,7 @@
   var stickyContainer = document.createElement('div');
   stickyContainer.innerHTML = stickyBarHtml;
   document.body.appendChild(stickyContainer.firstChild);
-  var anQty = 1;
-  var qtyValueEl = document.getElementById('an-qty-value');
-  var qtyMinusBtn = document.getElementById('an-qty-minus');
-  var qtyPlusBtn = document.getElementById('an-qty-plus');
-  function updateQtyDisplay() {
-  if (qtyValueEl) qtyValueEl.textContent = anQty;
-  }
-  if (qtyMinusBtn) {
-  qtyMinusBtn.addEventListener('click', function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    anQty = Math.max(1, anQty - 1);
-    updateQtyDisplay();
-  });
-  }
-  if (qtyPlusBtn) {
-  qtyPlusBtn.addEventListener('click', function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    anQty = Math.min(99, anQty + 1);
-    updateQtyDisplay();
-  });
-  }
+  // Quantity +/- and cart button are Konimbo's originals (moved into #an-cart-area)
   function doAddToCart(triggerBtn) {
     // Click the original Konimbo cart button using multiple methods
     if (cartButton) {
@@ -549,19 +567,14 @@
       }, 1500);
     }
   }
-  var mainBuyBtn = document.getElementById('an-buy-btn');
-  if (mainBuyBtn && itemId) {
-    mainBuyBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      // Navigate to Konimbo's add-to-cart URL directly
-      window.location.href = '/orders/autonahariya/new?order[line_items_attributes][0][item_id]=' + itemId + '&order[line_items_attributes][0][quantity]=1';
-    });
-  }
+  // Cart buttons are Konimbo's originals — no custom handlers needed
   var stickyBuyBtn = document.getElementById('an-sticky-buy-btn');
-  if (stickyBuyBtn && itemId) {
+  if (stickyBuyBtn) {
     stickyBuyBtn.addEventListener('click', function(e) {
       e.preventDefault();
-      window.location.href = '/orders/autonahariya/new?order[line_items_attributes][0][item_id]=' + itemId + '&order[line_items_attributes][0][quantity]=1';
+      // Scroll to the cart area so user can use the real button
+      var cartAreaEl = document.getElementById('an-cart-area');
+      if (cartAreaEl) cartAreaEl.scrollIntoView({behavior:'smooth',block:'center'});
     });
   }
   var thumbEls = document.querySelectorAll('#an-product-redesign .image-thumb[data-an-img]');
