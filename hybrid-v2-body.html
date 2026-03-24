@@ -382,8 +382,12 @@
   html += '<div class="price-main">' + priceDisplay + '</div>';
   html += '<div class="price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2\u05f3\u05de</div>';
   html += '</div>';
-  // Placeholder — Konimbo's original cart area will be moved here
-  html += '<div id="an-cart-area"></div>';
+  // Cart buttons — direct links to Konimbo's cart URL (100% reliable)
+  var pageItemId = (window.location.pathname.match(/\/items\/(\d+)/) || [])[1] || '';
+  var cartUrl = '/orders/autonahariya/new?order[line_items_attributes][0][item_id]=' + pageItemId + '&order[line_items_attributes][0][quantity]=1';
+  html += '<div style="display:flex;gap:10px;align-items:stretch;margin-bottom:8px">';
+  html += '<a href="' + cartUrl + '" id="an-buy-btn" style="flex:1;background:#1B4E91;color:#fff;font-size:16px;font-weight:700;border-radius:8px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-family:Heebo,sans-serif">' + cartSvg + '\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</a>';
+  html += '</div>';
   html += '<div class="sold-by">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
   html += '<div class="trust-box">';
   html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDE9A</span><span>\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5</span></div>';
@@ -443,52 +447,7 @@
   wrapper.innerHTML = html;
   targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
 
-  // Move Konimbo's ORIGINAL cart elements (link + quantity) into our layout
-  var cartArea = document.getElementById('an-cart-area');
-  if (cartArea) {
-    // Find the "הוסף לעגלה" link (Konimbo uses <a>, not <button>)
-    var cartLink = null;
-    var allAnchors2 = document.getElementsByTagName('a');
-    for (var ca = 0; ca < allAnchors2.length; ca++) {
-      if ((allAnchors2[ca].textContent || '').indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
-        cartLink = allAnchors2[ca];
-        break;
-      }
-    }
-    // Also find the "קנה עכשיו" link
-    var buyNowLink = null;
-    for (var bn = 0; bn < allAnchors2.length; bn++) {
-      if ((allAnchors2[bn].textContent || '').indexOf('\u05e7\u05e0\u05d4 \u05e2\u05db\u05e9\u05d9\u05d5') !== -1) {
-        buyNowLink = allAnchors2[bn];
-        break;
-      }
-    }
-    // Find quantity input (spinbutton)
-    var qtyInput = document.querySelector('input[type="number"]');
-    // Move everything into our cart area
-    if (cartLink) {
-      // Try to move the entire parent row (contains qty + buttons)
-      var cartParent = cartLink.parentElement;
-      if (cartParent && qtyInput && cartParent.contains(qtyInput)) {
-        // Parent contains both — move the whole thing
-        cartArea.appendChild(cartParent);
-      } else {
-        // Move individual elements
-        if (qtyInput && qtyInput.parentElement) {
-          cartArea.appendChild(qtyInput.parentElement);
-        }
-        cartArea.appendChild(cartLink);
-        if (buyNowLink) cartArea.appendChild(buyNowLink);
-      }
-    } else if (cartButton) {
-      // Fallback: if we found a button earlier
-      if (cartButton.parentElement) {
-        cartArea.appendChild(cartButton.parentElement);
-      } else {
-        cartArea.appendChild(cartButton);
-      }
-    }
-  }
+  // Cart is a direct <a> link — always works, no DOM tricks needed
 
   function moveTecDoc() {
   var tw = document.getElementById('tecdoc-widget');
@@ -567,14 +526,12 @@
       }, 1500);
     }
   }
-  // Cart buttons are Konimbo's originals — no custom handlers needed
+  // Sticky bar buy button — same direct link
   var stickyBuyBtn = document.getElementById('an-sticky-buy-btn');
   if (stickyBuyBtn) {
     stickyBuyBtn.addEventListener('click', function(e) {
       e.preventDefault();
-      // Scroll to the cart area so user can use the real button
-      var cartAreaEl = document.getElementById('an-cart-area');
-      if (cartAreaEl) cartAreaEl.scrollIntoView({behavior:'smooth',block:'center'});
+      window.location.href = '/orders/autonahariya/new?order[line_items_attributes][0][item_id]=' + pageItemId + '&order[line_items_attributes][0][quantity]=1';
     });
   }
   var thumbEls = document.querySelectorAll('#an-product-redesign .image-thumb[data-an-img]');
