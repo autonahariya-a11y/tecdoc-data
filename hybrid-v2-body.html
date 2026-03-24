@@ -382,14 +382,8 @@
   html += '<div class="price-main">' + priceDisplay + '</div>';
   html += '<div class="price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2\u05f3\u05de</div>';
   html += '</div>';
-  html += '<div class="buy-section">';
-  html += '<div class="qty-selector">';
-  html += '<button class="qty-btn" id="an-qty-minus">\u2212</button>';
-  html += '<div class="qty-value" id="an-qty-value">1</div>';
-  html += '<button class="qty-btn" id="an-qty-plus">+</button>';
-  html += '</div>';
-  html += '<button class="btn-primary" id="an-buy-btn">' + cartSvg + '\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
-  html += '</div>';
+  // Placeholder for Konimbo's original cart button (will be moved here)
+  html += '<div id="an-cart-placeholder"></div>';
   html += '<div class="sold-by">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
   html += '<div class="trust-box">';
   html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDE9A</span><span>\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5</span></div>';
@@ -448,6 +442,23 @@
   wrapper.id = 'an-product-redesign';
   wrapper.innerHTML = html;
   targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
+
+  // Move Konimbo's ORIGINAL cart button into our layout
+  var cartPlaceholder = document.getElementById('an-cart-placeholder');
+  if (cartButton && cartPlaceholder) {
+    // Move the cart button and its siblings (quantity buttons) into our placeholder
+    var cartParent = cartButton.parentElement;
+    if (cartParent) {
+      cartPlaceholder.appendChild(cartParent);
+      cartParent.style.display = 'flex';
+      cartParent.style.gap = '10px';
+      cartParent.style.alignItems = 'stretch';
+      cartParent.style.marginBottom = '8px';
+    } else {
+      cartPlaceholder.appendChild(cartButton);
+    }
+  }
+
   function moveTecDoc() {
   var tw = document.getElementById('tecdoc-widget');
   var wrap = document.getElementById('an-tecdoc-wrap');
@@ -547,20 +558,18 @@
       }, 1500);
     }
   }
-  var mainBuyBtn = document.getElementById('an-buy-btn');
-  if (mainBuyBtn) {
-  mainBuyBtn.addEventListener('click', function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    doAddToCart(mainBuyBtn);
-  });
-  }
+  // Main buy button is now the ORIGINAL Konimbo button (moved into our layout)
+  // No custom handler needed — Konimbo's native click handler works directly
   var stickyBuyBtn = document.getElementById('an-sticky-buy-btn');
   if (stickyBuyBtn) {
   stickyBuyBtn.addEventListener('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
-    doAddToCart(stickyBuyBtn);
+    // Scroll to the real cart button and click it
+    if (cartButton) {
+      cartButton.scrollIntoView({behavior:'smooth',block:'center'});
+      setTimeout(function(){ cartButton.click(); }, 500);
+    }
   });
   }
   var thumbEls = document.querySelectorAll('#an-product-redesign .image-thumb[data-an-img]');

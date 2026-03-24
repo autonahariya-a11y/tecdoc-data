@@ -355,20 +355,10 @@ body.an-redesigned .item_main_bottom,
 body.an-redesigned #bread_crumbs,
 body.an-redesigned .product-container,
 body.an-redesigned #item_current_title,
-body.an-redesigned .item_price,
-body.an-redesigned .item_quantity,
 body.an-redesigned .code_item {
   display: none !important;
 }
-/* Keep original cart button accessible for JS click but not visible */
-body.an-redesigned .item_add_to_cart {
-  position: fixed !important;
-  left: -9999px !important;
-  top: -9999px !important;
-  opacity: 0.01 !important;
-  width: 1px !important;
-  height: 1px !important;
-}
+/* item_price, item_quantity, item_add_to_cart are NOT hidden — they must stay functional for the cart */
 
 /* Hide old widget strengths and brand info (replaced by Hybrid) */
 body.an-redesigned .tw-strengths,
