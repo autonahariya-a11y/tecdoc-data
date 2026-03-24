@@ -508,9 +508,32 @@
   });
   }
   function doAddToCart(triggerBtn) {
-    // Simply click the original Konimbo cart button
+    // Click the original Konimbo cart button using multiple methods
     if (cartButton) {
-      try { cartButton.click(); } catch(e) {}
+      try {
+        // Method 1: direct click
+        cartButton.click();
+      } catch(e) {}
+      try {
+        // Method 2: dispatch mouse events (works even on hidden elements)
+        var evt = new MouseEvent('click', {bubbles: true, cancelable: true, view: window});
+        cartButton.dispatchEvent(evt);
+      } catch(e2) {}
+    } else {
+      // Method 3: find and click any button with הוסף text that's NOT ours
+      var allBtns = document.getElementsByTagName('button');
+      for (var fb = 0; fb < allBtns.length; fb++) {
+        var btnId = allBtns[fb].id || '';
+        if (btnId.indexOf('an-') === 0) continue; // skip our buttons
+        if ((allBtns[fb].textContent || '').indexOf('\u05d4\u05d5\u05e1\u05e3') !== -1) {
+          try {
+            allBtns[fb].click();
+            var evt2 = new MouseEvent('click', {bubbles: true, cancelable: true, view: window});
+            allBtns[fb].dispatchEvent(evt2);
+          } catch(e3) {}
+          break;
+        }
+      }
     }
     // Visual feedback only
     if (triggerBtn) {

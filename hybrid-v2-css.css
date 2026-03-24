@@ -360,13 +360,14 @@ body.an-redesigned .item_quantity,
 body.an-redesigned .code_item {
   display: none !important;
 }
-/* Keep cart button in DOM but visually hidden (so click() works) */
+/* Keep original cart button accessible for JS click but not visible */
 body.an-redesigned .item_add_to_cart {
-  position: absolute !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-  height: 0 !important;
-  overflow: hidden !important;
+  position: fixed !important;
+  left: -9999px !important;
+  top: -9999px !important;
+  opacity: 0.01 !important;
+  width: 1px !important;
+  height: 1px !important;
 }
 
 /* Hide old widget strengths and brand info (replaced by Hybrid) */
