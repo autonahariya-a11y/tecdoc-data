@@ -1,424 +1,377 @@
-<script src="https://autonahariya-a11y.github.io/tecdoc-data/brand-info.js"></script>
 <script>
 (function() {
   'use strict';
-
-  /* ================================================================
-     STEP 1: Check if this is an auto-parts product page (186807)
-     ================================================================ */
   function isAutoPartsPage() {
-    // Must be a product page
-    if (window.location.pathname.indexOf('/items/') === -1) return false;
-
-    // Check 1: .code_item element with visible SKU text
-    var allEls = document.getElementsByTagName('*');
-    for (var e = 0; e < allEls.length; e++) {
-      var elCls = (allEls[e].className || '').toString();
-      if (elCls.indexOf('code_item') !== -1) {
-        var elText = (allEls[e].textContent || '').trim();
-        if (elText.length > 0) return true;
-      }
+  if (window.location.pathname.indexOf('/items/') === -1) return false;
+  var allEls = document.getElementsByTagName('*');
+  for (var e = 0; e < allEls.length; e++) {
+    var elCls = (allEls[e].className || '').toString();
+    if (elCls.indexOf('code_item') !== -1) {
+      var elText = (allEls[e].textContent || '').trim();
+      if (elText.length > 0) return true;
     }
-
-    // Check 2: look for מק"ט text anywhere in the visible page content
-    // This catches products like Hi-Q that have "מק"ט יצרן" in specs table
-    var bodyText = document.body.innerText || '';
-    // Check for מק"ט variations (but NOT in the nav menu area)
-    // We search from char 500+ to skip the header/nav which is ~first 400 chars
-    var contentArea = bodyText.length > 500 ? bodyText.substring(400) : bodyText;
-    if (contentArea.indexOf('\u05de\u05e7"\u05d8') !== -1) return true;
-    if (contentArea.indexOf('\u05de\u05e7\u05f4\u05d8') !== -1) return true;
-    if (contentArea.indexOf('\u05de\u05e7\u05f3\u05d8') !== -1) return true;
-
-    // Check 3: breadcrumb contains "חלקי חילוף" text
-    var bcText = '';
-    var bcEls = document.querySelectorAll('[class*="breadcrumb"], [id*="breadcrumb"]');
-    for (var b = 0; b < bcEls.length; b++) bcText += (bcEls[b].textContent || '');
-    if (bcText.indexOf('\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3') !== -1) return true;
-
-    return false;
   }
-
+  var bodyText = document.body.innerText || '';
+  var contentArea = bodyText.length > 500 ? bodyText.substring(400) : bodyText;
+  if (contentArea.indexOf('\u05de\u05e7"\u05d8') !== -1) return true;
+  if (contentArea.indexOf('\u05de\u05e7\u05f4\u05d8') !== -1) return true;
+  if (contentArea.indexOf('\u05de\u05e7\u05f3\u05d8') !== -1) return true;
+  var bcText = '';
+  var bcEls = document.querySelectorAll('[class*="breadcrumb"], [id*="breadcrumb"]');
+  for (var b = 0; b < bcEls.length; b++) bcText += (bcEls[b].textContent || '');
+  if (bcText.indexOf('\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3') !== -1) return true;
+  return false;
+  }
   if (!isAutoPartsPage()) return;
-
-  /* ================================================================
-     STEP 2: Brand info dictionary
-     ================================================================ */
-  // BRAND_INFO loaded from CDN (brand-info.js) or fallback empty
-  var BRAND_INFO = window.BRAND_INFO || {};
-
-  /* ================================================================
-     STEP 3: Extract product data from Konimbo DOM
-     ================================================================ */
-
-  // Helper: get text content safely
-  function getText(el) {
-    return el ? (el.textContent || el.innerText || '').trim() : '';
+  var BRAND_INFO = {
+  "BREMBO": { name: "Brembo", description: "יצרנית מערכות בלימה מובילה בעולם. מספקת מערכות בלימה ליצרניות הרכב הגדולות וגם לשוק החלפים. ידועה מעולם המירוצים — פורמולה 1, MotoGP ועוד.", founded: "1961", country: "איטליה", color: "#c8102e"
+  },
+  "BOSCH": { name: "Bosch", description: "ספקית חלקי הרכב הגדולה בעולם. מעל 130 שנות ניסיון בתעשיית הרכב. מייצרת מגוון רחב — ממערכות הצתה ועד מערכות בלימה, פילטרים, מצתים וחיישנים.", founded: "1886", country: "גרמניה", color: "#e2000f"
+  },
+  "MANN-FILTER": { name: "MANN-FILTER", description: "מותג הפילטרים המוביל באירופה. חלק מקבוצת MANN+HUMMEL. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM ליצרניות הרכב המובילות.", founded: "1941", country: "גרמניה", color: "#1a4690"
+  },
+  "MAHLE": { name: "Mahle", description: "קבוצת טכנולוגיה בינלאומית. מתמחה ברכיבי מנוע, פילטרים ומערכות תרמיות לרכב. ספקית ציוד מקורי ליצרניות הרכב המובילות בעולם.", founded: "1920", country: "גרמניה", color: "#005b8e"
+  },
+  "VALEO": { name: "Valeo", description: "ספקית ציוד מקורי ליצרני רכב ברחבי העולם. מתמחה במערכות מיזוג, תאורה, מצמדים, מגבים ומערכות חשמל לרכב.", founded: "1923", country: "צרפת", color: "#003087"
+  },
+  "TRW": { name: "TRW", description: "מובילה עולמית במערכות בטיחות לרכב — בלמים, היגוי ומערכות התלייה. כיום חלק מקבוצת ZF. ספקית ציוד מקורי ליצרני הרכב הגדולים.", founded: "1901", country: "גרמניה", color: "#003399"
+  },
+  "FEBI BILSTEIN": { name: "Febi Bilstein", description: "חברה גרמנית עם מעל 175 שנות ניסיון. מתמחה בחלקי חילוף לרכב באיכות OEM — בולמי זעזועים, חלקי פרונט, מערכת קירור ועוד.", founded: "1844", country: "גרמניה", color: "#e8001c"
+  },
+  "MEYLE": { name: "Meyle", description: "יצרנית חלקי חילוף גרמנית. מציעה מעל 40,000 חלקים באיכות גבוהה — התלייה, היגוי, בלימה ומערכת ההנעה. ידועה בקו MEYLE-HD המחוזק.", founded: "1958", country: "גרמניה", color: "#0057a8"
+  },
+  "SKF": { name: "SKF", description: "מובילה עולמית במיסבים ומערכות סיבוב. מייצרת מיסבי גלגלים, ערכות טיימינג ורכיבי הנעה לתעשיית הרכב.", founded: "1907", country: "שוודיה", color: "#003087"
+  },
+  "NGK": { name: "NGK", description: "יצרנית המצתים הגדולה בעולם. ספקית ציוד מקורי לכל יצרניות הרכב הגדולות. מייצרת גם חיישני חמצן וסלילי הצתה.", founded: "1936", country: "יפן", color: "#cc0000"
+  },
+  "DENSO": { name: "Denso", description: "ספקית רכיבים יפנית מובילה, חלק מקבוצת Toyota. מתמחה במצתים, מזרקים, מערכות מיזוג, סטרטרים ואלטרנטורים.", founded: "1949", country: "יפן", color: "#003087"
+  },
+  "SACHS": { name: "Sachs", description: "מותג מוביל בבולמי זעזועים ומערכות מצמד. חלק מקבוצת ZF. ספקית ציוד מקורי ליצרניות הרכב הגדולות באירופה.", founded: "1894", country: "גרמניה", color: "#cc0000"
+  },
+  "LUK": { name: "LuK", description: "מתמחה במערכות מצמד ומערכות הנעה. חלק מקבוצת Schaeffler. ספקית ציוד מקורי — מצמדים, גלגלי תנופה ומערכות גיר.", founded: "1965", country: "גרמניה", color: "#e2000f"
+  },
+  "INA": { name: "INA", description: "חלק מקבוצת Schaeffler. מתמחה במיסבים, ערכות טיימינג, מותחנים וגלגלות. ספקית ציוד מקורי ליצרניות הרכב.", founded: "1946", country: "גרמניה", color: "#e2000f"
+  },
+  "CONTINENTAL": { name: "Continental", description: "חברת טכנולוגיה גרמנית מובילה. מייצרת רצועות טיימינג, רצועות אביזרים, צינורות, חיישנים ומערכות בלימה.", founded: "1871", country: "גרמניה", color: "#ffa500"
+  },
+  "GATES": { name: "Gates", description: "מובילה עולמית ברצועות, צינורות ומערכות הנעה לרכב. מייצרת ערכות טיימינג, רצועות אביזרים ומשאבות מים.", founded: "1911", country: "ארה\"ב", color: "#003087"
+  },
+  "HENGST": { name: "Hengst", description: "יצרנית פילטרים גרמנית מובילה. ספקית ציוד מקורי ליצרניות הרכב הגדולות באירופה. מתמחה בפילטרי שמן, אוויר ומזגן.", founded: "1958", country: "גרמניה", color: "#003087"
+  },
+  "DAYCO": { name: "Dayco", description: "מתמחה במערכות הנעה — רצועות טיימינג, גלגלות, מותחנים ומשאבות מים. ספקית ציוד מקורי ליצרניות רכב גדולות.", founded: "1905", country: "ארה\"ב", color: "#cc0000"
+  },
+  "LEMFORDER": { name: "Lemförder", description: "חלק מקבוצת ZF. מובילה עולמית ברכיבי התלייה והיגוי — קצוות הגה, מוטות מייצב, משולשים. ספקית ציוד מקורי.", founded: "1947", country: "גרמניה", color: "#003087"
+  },
+  "TEXTAR": { name: "Textar", description: "מותג רפידות בלם מוביל באירופה. חלק מקבוצת TMD Friction. ספקית ציוד מקורי ליצרניות הרכב הגדולות.", founded: "1913", country: "גרמניה", color: "#cc0000"
+  },
+  "ATE": { name: "ATE", description: "מותג מערכות בלימה ותוק. חלק מקבוצת Continental. מייצרת דיסקי בלם, רפידות, נוזלי בלמים וצילינדרים.", founded: "1906", country: "גרמניה", color: "#ffa500"
+  },
+  "KNECHT": { name: "Knecht", description: "מותג פילטרים של קבוצת Mahle. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM.", founded: "1927", country: "גרמניה", color: "#005b8e"
+  },
+  "NIPPARTS": { name: "Nipparts", description: "מתמחה בחלקי חילוף לרכבים אסייתיים — טויוטה, הונדה, ניסן, מאזדה, יונדאי וקיה. מגוון רחב של פילטרים, בלמים ומתלים.", founded: "1975", country: "הולנד", color: "#cc0000"
+  },
+  "BLUE PRINT": { name: "Blue Print", description: "מותג חלקי חילוף לרכבים אסייתיים ואמריקאיים. חלק מקבוצת Bilstein. מגוון של למעלה מ-35,000 חלקים.", founded: "1997", country: "גרמניה", color: "#003087"
+  },
+  "MOTUL": { name: "Motul", description: "יצרנית שמנים וחומרי סיכה צרפתית מובילה. ידועה מעולם המירוצים — 24 שעות של לה-מאן, MotoGP ועוד. מציעה שמנים סינתטיים מתקדמים.", founded: "1853", country: "צרפת", color: "#cc0000"
+  },
+  "CASTROL": { name: "Castrol", description: "מותג שמנים בינלאומי מוביל. חלק מקבוצת BP. מציע שמני מנוע, גיר ונוזלי בלמים. שותף רשמי של יצרני רכב רבים.", founded: "1899", country: "בריטניה", color: "#009900"
+  },
+  "LIQUI MOLY": { name: "Liqui Moly", description: "יצרנית שמנים ותוספי דלק גרמנית. ידועה באיכות הגבוהה ובמגוון הרחב — שמני מנוע, תוספים, חומרי טיפוח ושמנים מיוחדים.", founded: "1957", country: "גרמניה", color: "#cc0000"
+  },
+  "MOBIL": { name: "Mobil", description: "מותג שמנים בינלאומי מוביל. חלק מקבוצת ExxonMobil. סדרת Mobil 1 היא מהשמנים הסינתטיים הנמכרים בעולם.", founded: "1911", country: "ארה\"ב", color: "#cc0000"
+  },
+  "OSRAM": { name: "Osram", description: "מובילה עולמית בתאורה לרכב. מייצרת נורות הלוגן, LED, קסנון ונורות איתות. ספקית ציוד מקורי ליצרניות הרכב.", founded: "1919", country: "גרמניה", color: "#ffa500"
+  },
+  "PHILIPS": { name: "Philips", description: "מותג תאורה בינלאומי מוביל. מייצרת נורות רכב — הלוגן, LED וקסנון. ידועה בסדרות X-tremeVision ו-WhiteVision.", founded: "1891", country: "הולנד", color: "#0096d6"
+  },
+  "SWAG": { name: "Swag", description: "מותג חלקי חילוף של קבוצת Bilstein Group. מתמחה בחלקים לרכבים אירופאיים — VW, BMW, Mercedes, Audi. מעל 40,000 פריטים.", founded: "1954", country: "גרמניה", color: "#003087"
+  },
+  "TOPRAN": { name: "Topran", description: "יצרנית חלקי חילוף גרמנית. מתמחה בחלקים לרכבים אירופאיים — מערכת קירור, חשמל, פרונט ומנוע.", founded: "1996", country: "גרמניה", color: "#003087"
+  },
+  "RIDEX": { name: "Ridex", description: "מותג חלקי חילוף במחיר תחרותי. מציע מגוון רחב של חלקים — בלמים, פילטרים, מתלים וחלקי מנוע. יחס מחיר-איכות טוב.", founded: "", country: "", color: "#003087"
+  },
+  "HI-Q": { name: "Hi-Q", description: "מותג רפידות בלם של קבוצת Sangsin Brake הקוריאנית. ספקית ציוד מקורי ליצרניות יונדאי וקיה. מציעה רפידות בלם באיכות גבוהה במחיר תחרותי.", founded: "1975", country: "קוריאה", color: "#e2000f"
+  },
+  "ICER": { name: "Icer", description: "יצרנית רפידות בלם ספרדית מובילה. ספקית ציוד מקורי ליצרניות רכב אירופאיות. עומדת בתקני ECE R90 ובדרישות הבטיחות המחמירות.", founded: "1963", country: "ספרד", color: "#003087"
+  },
+  "SANGSIN": { name: "Sangsin Brake", description: "יצרנית מערכות בלימה קוריאנית. מפעילה את מותגי Hi-Q ו-Hardron. ספקית ציוד מקורי ליצרניות יונדאי וקיה.", founded: "1975", country: "קוריאה", color: "#cc0000"
+  },
+  "MONTECCHIO": { name: "Montecchio", description: "אהרון מונטקיו בע\"מ — החברה המובילה בשוק חלקי החילוף לרכב בישראל מאז 1947. חלק מקבוצת Kogol (מפיצי מישלן בישראל) וקבוצת Mayer Group. מייבאת ומשווקת פילטרים, מערכות בלימה, התלייה, מצמדים ובולמי זעזועים.", founded: "1947", country: "ישראל", color: "#1a3c6e"
   }
-
-  // 3a. Title
+  };
+  function getText(el) {
+  return el ? (el.textContent || el.innerText || '').trim() : '';
+  }
   var titleEl = document.getElementById('item_current_title');
   if (!titleEl) {
-    titleEl = document.querySelector('[id*="item_title"], [id*="product_title"]');
+  titleEl = document.querySelector('[id*="item_title"], [id*="product_title"]');
   }
   var h1El = titleEl ? titleEl.getElementsByTagName('h1')[0] : null;
   var productTitle = h1El ? getText(h1El) : '';
   if (!productTitle) {
-    // Fallback: find any h1 in item area
-    var itemShow = document.getElementById('item_show');
-    if (itemShow) {
-      var h1s = itemShow.getElementsByTagName('h1');
-      if (h1s.length) productTitle = getText(h1s[0]);
-    }
+  var itemShow = document.getElementById('item_show');
+  if (itemShow) {
+    var h1s = itemShow.getElementsByTagName('h1');
+    if (h1s.length) productTitle = getText(h1s[0]);
+  }
   }
   if (!productTitle) productTitle = document.title.split('|')[0].trim();
-
-  // 3b. Price — search by tag+className
   var priceEl = null;
   var allSpans = document.getElementsByTagName('span');
   for (var i = 0; i < allSpans.length; i++) {
-    var cls = allSpans[i].className || '';
-    if (cls.indexOf('price') !== -1 && getText(allSpans[i]).indexOf('₪') !== -1) {
-      priceEl = allSpans[i];
+  var cls = allSpans[i].className || '';
+  if (cls.indexOf('price') !== -1 && getText(allSpans[i]).indexOf('₪') !== -1) {
+    priceEl = allSpans[i];
+    break;
+  }
+  }
+  if (!priceEl) {
+  var allDivs = document.getElementsByTagName('div');
+  for (var d = 0; d < allDivs.length; d++) {
+    var dcls = allDivs[d].className || '';
+    if (dcls.indexOf('price') !== -1 && getText(allDivs[d]).indexOf('₪') !== -1) {
+      priceEl = allDivs[d];
       break;
     }
   }
-  // Also try divs with price class
-  if (!priceEl) {
-    var allDivs = document.getElementsByTagName('div');
-    for (var d = 0; d < allDivs.length; d++) {
-      var dcls = allDivs[d].className || '';
-      if (dcls.indexOf('price') !== -1 && getText(allDivs[d]).indexOf('₪') !== -1) {
-        priceEl = allDivs[d];
-        break;
-      }
-    }
   }
   var productPrice = priceEl ? getText(priceEl).replace(/[^\d,.]/g, '').trim() : '';
   if (!productPrice && priceEl) productPrice = getText(priceEl);
-
-  // 3c. SKU — what to DISPLAY as the product SKU
-  // Priority: Montecchio pattern from title > other SKU from title > code_item
   var skuValue = '';
-
-  // First: check for Montecchio-style SKU in title (4-5 digits + letter)
   var montecchioMatch = productTitle.match(/\b(\d{4,5}[A-Za-z])\b/);
   if (montecchioMatch) {
-    skuValue = montecchioMatch[1];
+  skuValue = montecchioMatch[1];
   }
-
-  // If no Montecchio SKU, try general SKU from title parts
   if (!skuValue) {
-    var titleParts = productTitle.split('|');
-    for (var tp = titleParts.length - 1; tp >= 0; tp--) {
-      var part = titleParts[tp].trim();
-      var skuPattern = part.match(/([A-Za-z][A-Za-z0-9\-]{3,}[0-9][A-Za-z0-9]*)/);
-      if (skuPattern) {
-        var candidate = skuPattern[1].trim();
-        if (/\d/.test(candidate) && /[A-Za-z]/.test(candidate) && !/[\u05d0-\u05ea]{3}/.test(candidate)) {
-          // Remove brand prefix
-          var bKeys = Object.keys(BRAND_INFO);
-          for (var bki = 0; bki < bKeys.length; bki++) {
-            if (candidate.toUpperCase().indexOf(bKeys[bki]) === 0) {
-              candidate = candidate.substring(bKeys[bki].length).trim();
-              break;
-            }
+  var titleParts = productTitle.split('|');
+  for (var tp = titleParts.length - 1; tp >= 0; tp--) {
+    var part = titleParts[tp].trim();
+    var skuPattern = part.match(/([A-Za-z][A-Za-z0-9\-]{3,}[0-9][A-Za-z0-9]*)/);
+    if (skuPattern) {
+      var candidate = skuPattern[1].trim();
+      if (/\d/.test(candidate) && /[A-Za-z]/.test(candidate) && !/[\u05d0-\u05ea]{3}/.test(candidate)) {
+        var bKeys = Object.keys(BRAND_INFO);
+        for (var bki = 0; bki < bKeys.length; bki++) {
+          if (candidate.toUpperCase().indexOf(bKeys[bki]) === 0) {
+            candidate = candidate.substring(bKeys[bki].length).trim();
+            break;
           }
-          if (candidate) { skuValue = candidate; break; }
         }
+        if (candidate) { skuValue = candidate; break; }
       }
     }
   }
-
-  // Fallback: try code_item element (Konimbo's main SKU field)
+  }
   if (!skuValue) {
-    var allEls2 = document.getElementsByTagName('*');
-    for (var ce = 0; ce < allEls2.length; ce++) {
-      var ceCls = (allEls2[ce].className || '').toString();
-      if (ceCls.indexOf('code_item') !== -1) {
-        var ceText = getText(allEls2[ce]).replace(/\u05de\u05e7["\u05d9\u05d8:\u05f4]+\s*/g, '').trim();
-        if (ceText) { skuValue = ceText; break; }
-      }
+  var allEls2 = document.getElementsByTagName('*');
+  for (var ce = 0; ce < allEls2.length; ce++) {
+    var ceCls = (allEls2[ce].className || '').toString();
+    if (ceCls.indexOf('code_item') !== -1) {
+      var ceText = getText(allEls2[ce]).replace(/\u05de\u05e7["\u05d9\u05d8:\u05f4]+\s*/g, '').trim();
+      if (ceText) { skuValue = ceText; break; }
     }
   }
-
-  // 3d. Product images — find images from carousel/product area only
+  }
   var imageUrls = [];
   var carouselEl = document.getElementById('item_show_carousel') || document.getElementById('item_show');
   var imgSource = carouselEl || document;
   var allImgs = imgSource.getElementsByTagName('img');
   for (var im = 0; im < allImgs.length; im++) {
-    var src = allImgs[im].src || allImgs[im].getAttribute('data-src') || '';
-    if (src && src.indexOf('http') === 0) {
-      // Filter: minimum size, no logos/icons/banners/spotlights/svg
-      var w = allImgs[im].naturalWidth || allImgs[im].width || 0;
-      var lsrc = src.toLowerCase();
-      if (lsrc.indexOf('logo') === -1 && lsrc.indexOf('icon') === -1 && 
-          lsrc.indexOf('banner') === -1 && lsrc.indexOf('spotlight') === -1 &&
-          lsrc.indexOf('.svg') === -1 && lsrc.indexOf('placeholder') === -1) {
-        if (imageUrls.indexOf(src) === -1) imageUrls.push(src);
-      }
+  var src = allImgs[im].src || allImgs[im].getAttribute('data-src') || '';
+  if (src && src.indexOf('http') === 0) {
+    var w = allImgs[im].naturalWidth || allImgs[im].width || 0;
+    var lsrc = src.toLowerCase();
+    if (lsrc.indexOf('logo') === -1 && lsrc.indexOf('icon') === -1 && 
+        lsrc.indexOf('banner') === -1 && lsrc.indexOf('spotlight') === -1 &&
+        lsrc.indexOf('.svg') === -1 && lsrc.indexOf('placeholder') === -1) {
+      if (imageUrls.indexOf(src) === -1) imageUrls.push(src);
     }
   }
-  // If no images from carousel, try all page images with cloudfront
+  }
   if (imageUrls.length === 0) {
-    var fallbackImgs = document.getElementsByTagName('img');
-    for (var fi = 0; fi < fallbackImgs.length; fi++) {
-      var fsrc = fallbackImgs[fi].src || '';
-      if (fsrc && (fsrc.indexOf('cloudfront') !== -1 || fsrc.indexOf('konimbo') !== -1) &&
-          fsrc.indexOf('logo') === -1 && fsrc.indexOf('icon') === -1) {
-        if (imageUrls.indexOf(fsrc) === -1) imageUrls.push(fsrc);
-      }
+  var fallbackImgs = document.getElementsByTagName('img');
+  for (var fi = 0; fi < fallbackImgs.length; fi++) {
+    var fsrc = fallbackImgs[fi].src || '';
+    if (fsrc && (fsrc.indexOf('cloudfront') !== -1 || fsrc.indexOf('konimbo') !== -1) &&
+        fsrc.indexOf('logo') === -1 && fsrc.indexOf('icon') === -1) {
+      if (imageUrls.indexOf(fsrc) === -1) imageUrls.push(fsrc);
     }
   }
-
-  // 3e. Cart button — find the ORIGINAL Konimbo add-to-cart button
-  // IMPORTANT: search BEFORE we create our own buttons (otherwise we'd find ours)
+  }
   var cartButton = null;
-  // Look for Konimbo's form submit or cart button
   var allForms = document.getElementsByTagName('form');
   for (var f = 0; f < allForms.length; f++) {
-    var action = allForms[f].action || '';
-    if (action.indexOf('cart') !== -1 || action.indexOf('add') !== -1) {
-      var formBtns = allForms[f].getElementsByTagName('button');
-      if (formBtns.length) { cartButton = formBtns[0]; break; }
-      var formInputs = allForms[f].getElementsByTagName('input');
-      for (var fi = 0; fi < formInputs.length; fi++) {
-        if (formInputs[fi].type === 'submit') { cartButton = formInputs[fi]; break; }
-      }
-      if (cartButton) break;
+  var action = allForms[f].action || '';
+  if (action.indexOf('cart') !== -1 || action.indexOf('add') !== -1) {
+    var formBtns = allForms[f].getElementsByTagName('button');
+    if (formBtns.length) { cartButton = formBtns[0]; break; }
+    var formInputs = allForms[f].getElementsByTagName('input');
+    for (var fi = 0; fi < formInputs.length; fi++) {
+      if (formInputs[fi].type === 'submit') { cartButton = formInputs[fi]; break; }
     }
+    if (cartButton) break;
   }
-  // Fallback: find button/anchor with הוסף text (but skip any inside #an-product-redesign)
-  if (!cartButton) {
-    var allButtons = document.getElementsByTagName('button');
-    for (var b = 0; b < allButtons.length; b++) {
-      if (getText(allButtons[b]).indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
-        cartButton = allButtons[b];
-        break;
-      }
-    }
   }
   if (!cartButton) {
-    var allAnchors = document.getElementsByTagName('a');
-    for (var a = 0; a < allAnchors.length; a++) {
-      if (getText(allAnchors[a]).indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
-        cartButton = allAnchors[a];
-        break;
-      }
+  var allButtons = document.getElementsByTagName('button');
+  for (var b = 0; b < allButtons.length; b++) {
+    if (getText(allButtons[b]).indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
+      cartButton = allButtons[b];
+      break;
     }
+  }
   }
   if (!cartButton) {
-    var allInputs = document.getElementsByTagName('input');
-    for (var inp = 0; inp < allInputs.length; inp++) {
-      var val = allInputs[inp].value || '';
-      if (val.indexOf('\u05d4\u05d5\u05e1\u05e3') !== -1) {
-        cartButton = allInputs[inp];
-        break;
-      }
+  var allAnchors = document.getElementsByTagName('a');
+  for (var a = 0; a < allAnchors.length; a++) {
+    if (getText(allAnchors[a]).indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
+      cartButton = allAnchors[a];
+      break;
     }
   }
-  // Store the original cart form for direct submission
+  }
+  if (!cartButton) {
+  var allInputs = document.getElementsByTagName('input');
+  for (var inp = 0; inp < allInputs.length; inp++) {
+    var val = allInputs[inp].value || '';
+    if (val.indexOf('\u05d4\u05d5\u05e1\u05e3') !== -1) {
+      cartButton = allInputs[inp];
+      break;
+    }
+  }
+  }
   var cartForm = cartButton ? cartButton.closest('form') || cartButton.form || null : null;
-
-  // 3f. Breadcrumbs
   var breadcrumbItems = [];
   var bcLinks = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a');
   for (var bc = 0; bc < bcLinks.length; bc++) {
-    breadcrumbItems.push({ text: getText(bcLinks[bc]), href: bcLinks[bc].href });
+  breadcrumbItems.push({ text: getText(bcLinks[bc]), href: bcLinks[bc].href });
   }
-
-  // 3g. Detect brand from title
   var detectedBrand = ''; // no default — detect from title
   var titleUpper = productTitle.toUpperCase();
   var brandKeys = Object.keys(BRAND_INFO);
   for (var bk = 0; bk < brandKeys.length; bk++) {
-    if (titleUpper.indexOf(brandKeys[bk]) !== -1) {
-      detectedBrand = brandKeys[bk];
-      break;
-    }
+  if (titleUpper.indexOf(brandKeys[bk]) !== -1) {
+    detectedBrand = brandKeys[bk];
+    break;
   }
-  // Detect Montecchio: by name variations in title OR by SKU pattern
+  }
   if (!detectedBrand) {
-    // Check for "Aaron Montecchio" or "מונטקיו" or "אהרון מונטקיו" in title
-    if (titleUpper.indexOf('MONTECCHIO') !== -1 || titleUpper.indexOf('AARON') !== -1 ||
-        productTitle.indexOf('\u05de\u05d5\u05e0\u05d8\u05e7\u05d9\u05d5') !== -1 ||
-        productTitle.indexOf('\u05d0\u05d4\u05e8\u05d5\u05df') !== -1) {
-      detectedBrand = 'MONTECCHIO';
-    }
+  if (titleUpper.indexOf('MONTECCHIO') !== -1 || titleUpper.indexOf('AARON') !== -1 ||
+      productTitle.indexOf('\u05de\u05d5\u05e0\u05d8\u05e7\u05d9\u05d5') !== -1 ||
+      productTitle.indexOf('\u05d0\u05d4\u05e8\u05d5\u05df') !== -1) {
+    detectedBrand = 'MONTECCHIO';
   }
-  // Also detect by SKU pattern: 4-5 digits + 1 letter (e.g. 93114E)
+  }
   if (!detectedBrand && skuValue) {
-    if (/^\d{4,5}[A-Za-z]$/.test(skuValue.trim())) {
-      detectedBrand = 'MONTECCHIO';
-    }
+  if (/^\d{4,5}[A-Za-z]$/.test(skuValue.trim())) {
+    detectedBrand = 'MONTECCHIO';
   }
-  var brandData = BRAND_INFO[detectedBrand] || {
-    name: detectedBrand || '\u05d9\u05e6\u05e8\u05df',
-    description: '\u05d9\u05e6\u05e8\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1. \u05de\u05e1\u05e4\u05e7 \u05e4\u05ea\u05e8\u05d5\u05e0\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05dc\u05e9\u05d5\u05e7 \u05d4\u05d7\u05dc\u05e4\u05d9\u05dd.',
-    founded: '', country: '',
-    color: '#1B4E91',
-    highlights: []
+  }
+  var brandData = BRAND_INFO[detectedBrand] || { name: detectedBrand || '\u05d9\u05e6\u05e8\u05df', description: '\u05d9\u05e6\u05e8\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1. \u05de\u05e1\u05e4\u05e7 \u05e4\u05ea\u05e8\u05d5\u05e0\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05dc\u05e9\u05d5\u05e7 \u05d4\u05d7\u05dc\u05e4\u05d9\u05dd.', founded: '', country: '', color: '#1B4E91'
   };
-
-  // 3h. Product subtitle — extract product TYPE from title (Hebrew words before brand/SKU)
   var productSubtitle = '';
-  // Extract Hebrew words from title as subtitle (e.g., "רפידות בלם", "פילטר אוויר", "מצת")
   var hebrewWords = productTitle.match(/[\u05d0-\u05ea]+(?:\s+[\u05d0-\u05ea]+)*/g);
   if (hebrewWords && hebrewWords.length > 0) {
-    // Take the first Hebrew phrase (usually the product type)
-    productSubtitle = hebrewWords[0].trim();
-    // If it's just one word and there are more, try to get two
-    if (hebrewWords.length > 1 && productSubtitle.split(' ').length < 2) {
-      productSubtitle = hebrewWords[0].trim() + ' ' + hebrewWords[1].trim();
-    }
+  productSubtitle = hebrewWords[0].trim();
+  if (hebrewWords.length > 1 && productSubtitle.split(' ').length < 2) {
+    productSubtitle = hebrewWords[0].trim() + ' ' + hebrewWords[1].trim();
   }
-  // Clean up: remove brand-like Hebrew words that aren't product types
+  }
   productSubtitle = productSubtitle.replace(/\s*\|\s*/g, '').trim();
-  // If subtitle is same as title, clear it
   if (productSubtitle === productTitle.trim()) productSubtitle = '';
-
-  // 3i. Category label from breadcrumb — leave empty if not found (no hardcoded default)
   var categoryLabel = '';
   if (breadcrumbItems.length >= 2) {
-    var bcLabel = breadcrumbItems[breadcrumbItems.length - 2].text || '';
-    // Only use breadcrumb if it's a real category link (not "#" or self-link)
-    var bcHref = breadcrumbItems[breadcrumbItems.length - 2].href || '';
-    if (bcLabel && bcHref.indexOf('#') === -1 && bcHref !== window.location.href) {
-      categoryLabel = bcLabel;
-    }
+  var bcLabel = breadcrumbItems[breadcrumbItems.length - 2].text || '';
+  var bcHref = breadcrumbItems[breadcrumbItems.length - 2].href || '';
+  if (bcLabel && bcHref.indexOf('#') === -1 && bcHref !== window.location.href) {
+    categoryLabel = bcLabel;
   }
-
-  // 3j. Find the Konimbo content area to insert before/after
+  }
   var targetInsertEl = document.getElementById('item_show') ||
-    document.getElementById('item_details') ||
-    document.getElementById('item_content') ||
-    document.getElementById('content_area');
-
+  document.getElementById('item_details') ||
+  document.getElementById('item_content') ||
+  document.getElementById('content_area');
   if (!targetInsertEl) {
-    // Try to find main content area
-    var mains = document.getElementsByTagName('main');
-    if (mains.length) targetInsertEl = mains[0];
+  var mains = document.getElementsByTagName('main');
+  if (mains.length) targetInsertEl = mains[0];
   }
-
   if (!targetInsertEl) return; // Can't find insertion point
-
-  /* ================================================================
-     STEP 4: Move #tecdoc-widget from DOM before we rebuild
-     ================================================================ */
   var tecdocWidget = document.getElementById('tecdoc-widget');
-
-  /* ================================================================
-     STEP 5: Build complete HTML
-     ================================================================ */
-
-  // Image HTML helpers
   var svgPlaceholder = '<svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">' +
-    '<rect width="400" height="400" fill="#f7f8fa"/>' +
-    '<g transform="translate(200, 185)">' +
-    '<path d="M-95,-55 Q-100,-55 -100,-45 L-100,45 Q-100,55 -90,55 L90,55 Q100,55 100,45 L100,-45 Q100,-55 95,-55 Z" fill="#3a3a3a" stroke="#2a2a2a" stroke-width="2"/>' +
-    '<path d="M-85,-45 Q-88,-45 -88,-38 L-88,38 Q-88,45 -82,45 L82,45 Q88,45 88,38 L88,-38 Q88,-45 85,-45 Z" fill="#5a5a5a"/>' +
-    '<line x1="-60" y1="-30" x2="-60" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
-    '<line x1="-20" y1="-30" x2="-20" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
-    '<line x1="20" y1="-30" x2="20" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
-    '<line x1="60" y1="-30" x2="60" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
-    '<rect x="-70" y="-8" width="30" height="3" rx="1.5" fill="' + brandData.color + '" opacity="0.6"/>' +
-    '</g>' +
-    '<rect x="130" y="280" width="140" height="32" rx="6" fill="' + brandData.color + '"/>' +
-    '<text x="200" y="302" text-anchor="middle" fill="#fff" font-size="14" font-weight="900" font-family="Arial, sans-serif" letter-spacing="2">' + brandData.name.toUpperCase() + '</text>' +
-    '</svg>';
-
+  '<rect width="400" height="400" fill="#f7f8fa"/>' +
+  '<g transform="translate(200, 185)">' +
+  '<path d="M-95,-55 Q-100,-55 -100,-45 L-100,45 Q-100,55 -90,55 L90,55 Q100,55 100,45 L100,-45 Q100,-55 95,-55 Z" fill="#3a3a3a" stroke="#2a2a2a" stroke-width="2"/>' +
+  '<path d="M-85,-45 Q-88,-45 -88,-38 L-88,38 Q-88,45 -82,45 L82,45 Q88,45 88,38 L88,-38 Q88,-45 85,-45 Z" fill="#5a5a5a"/>' +
+  '<line x1="-60" y1="-30" x2="-60" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+  '<line x1="-20" y1="-30" x2="-20" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+  '<line x1="20" y1="-30" x2="20" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+  '<line x1="60" y1="-30" x2="60" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+  '<rect x="-70" y="-8" width="30" height="3" rx="1.5" fill="' + brandData.color + '" opacity="0.6"/>' +
+  '</g>' +
+  '<rect x="130" y="280" width="140" height="32" rx="6" fill="' + brandData.color + '"/>' +
+  '<text x="200" y="302" text-anchor="middle" fill="#fff" font-size="14" font-weight="900" font-family="Arial, sans-serif" letter-spacing="2">' + brandData.name.toUpperCase() + '</text>' +
+  '</svg>';
   var mainImageHtml = '';
   var thumbnailsHtml = '';
-
   if (imageUrls.length > 0) {
-    mainImageHtml = '<img src="' + imageUrls[0] + '" alt="' + productTitle + '" id="an-main-img">';
-    for (var ti = 0; ti < Math.min(imageUrls.length, 5); ti++) {
-      var activeClass = ti === 0 ? ' active' : '';
-      thumbnailsHtml += '<div class="image-thumb' + activeClass + '" data-an-img="' + imageUrls[ti] + '">' +
-        '<img src="' + imageUrls[ti] + '" alt="תמונה ' + (ti+1) + '">' +
-        '</div>';
-    }
-  } else {
-    mainImageHtml = svgPlaceholder;
-    thumbnailsHtml = '<div class="image-thumb active">' + svgPlaceholder + '</div>';
+  mainImageHtml = '<img src="' + imageUrls[0] + '" alt="' + productTitle + '" id="an-main-img">';
+  for (var ti = 0; ti < Math.min(imageUrls.length, 5); ti++) {
+    var activeClass = ti === 0 ? ' active' : '';
+    thumbnailsHtml += '<div class="image-thumb' + activeClass + '" data-an-img="' + imageUrls[ti] + '">' +
+      '<img src="' + imageUrls[ti] + '" alt="תמונה ' + (ti+1) + '">' +
+      '</div>';
   }
-
-  // Sticky bar thumb HTML
+  } else {
+  mainImageHtml = svgPlaceholder;
+  thumbnailsHtml = '<div class="image-thumb active">' + svgPlaceholder + '</div>';
+  }
   var stickyThumbHtml = imageUrls.length > 0
-    ? '<img src="' + imageUrls[0] + '" alt="' + productTitle + '">'
-    : '<svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="4" fill="#f0f0f0"/><rect x="5" y="10" width="30" height="20" rx="4" fill="' + brandData.color + '" opacity="0.2"/><text x="20" y="23" text-anchor="middle" fill="' + brandData.color + '" font-size="5" font-weight="900" font-family="Arial">' + brandData.name.toUpperCase().substring(0,6) + '</text></svg>';
-
-  // Breadcrumb HTML
+  ? '<img src="' + imageUrls[0] + '" alt="' + productTitle + '">'
+  : '<svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="4" fill="#f0f0f0"/><rect x="5" y="10" width="30" height="20" rx="4" fill="' + brandData.color + '" opacity="0.2"/><text x="20" y="23" text-anchor="middle" fill="' + brandData.color + '" font-size="5" font-weight="900" font-family="Arial">' + brandData.name.toUpperCase().substring(0,6) + '</text></svg>';
   var breadcrumbHtml = '';
   if (breadcrumbItems.length > 0) {
-    for (var bci = 0; bci < breadcrumbItems.length; bci++) {
-      breadcrumbHtml += '<a href="' + breadcrumbItems[bci].href + '">' + breadcrumbItems[bci].text + '</a><span>\u203a</span>';
-    }
+  for (var bci = 0; bci < breadcrumbItems.length; bci++) {
+    breadcrumbHtml += '<a href="' + breadcrumbItems[bci].href + '">' + breadcrumbItems[bci].text + '</a><span>\u203a</span>';
+  }
   } else {
-    breadcrumbHtml = '<a href="/">\u05d3\u05e3 \u05d4\u05d1\u05d9\u05ea</a><span>\u203a</span>' +
-      '<a href="#">\u05d7\u05dc\u05e7\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd</a><span>\u203a</span>';
+  breadcrumbHtml = '<a href="/">\u05d3\u05e3 \u05d4\u05d1\u05d9\u05ea</a><span>\u203a</span>' +
+    '<a href="#">\u05d7\u05dc\u05e7\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd</a><span>\u203a</span>';
   }
   breadcrumbHtml += '<span>' + productTitle.substring(0, 60) + '</span>';
-
-  // Price display
   var cleanPrice = productPrice.replace(/[₪\u20aa]/g, '').trim();
   var priceDisplay = cleanPrice ? '&#8362;' + cleanPrice : '';
   if (!priceDisplay && priceEl) priceDisplay = getText(priceEl);
-
-  // Highlights — use brand-specific if available, otherwise generate from brand info
   var highlights = brandData.highlights || [
-    brandData.name + ' \u2014 ' + (brandData.description ? brandData.description.split('.')[0] : '\u05d9\u05e6\u05e8\u05df \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1'),
-    '\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd',
-    '\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de',
-    '\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5'
+  brandData.name + ' \u2014 ' + (brandData.description ? brandData.description.split('.')[0] : '\u05d9\u05e6\u05e8\u05df \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1'),
+  '\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd',
+  '\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de',
+  '\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5'
   ];
-
   var highlightsHtml = '';
   for (var hl = 0; hl < highlights.length; hl++) {
-    highlightsHtml += '<li>' + highlights[hl] + '</li>';
+  highlightsHtml += '<li>' + highlights[hl] + '</li>';
   }
-
-  // Cart SVG icon
   var cartSvg = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
   var cartSvgSm = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
-
-  // Build the full wrapper HTML
   var html = '';
-
-  // --- Sticky Bar (separate from #an-product-redesign, appended to body) ---
-  // (handled below after DOM insertion)
-
-  // --- Breadcrumb ---
   html += '<nav class="an-breadcrumb">';
   html += '<div class="an-breadcrumb-inner">' + breadcrumbHtml + '</div>';
   html += '</nav>';
-
-  // --- Main container ---
   html += '<div class="an-container">';
-
-  // --- Product layout grid ---
   html += '<div class="product-layout" id="an-product-main">';
-
-  // Col 1: Image section
   html += '<div class="product-image-section">';
   html += '<div class="product-image-main">';
-  // Badge removed per user request
   html += mainImageHtml;
   html += '</div>';
   html += '<div class="image-thumbnails">' + thumbnailsHtml + '</div>';
   html += '</div>'; // end product-image-section
-
-  // Col 2: Product Info
   html += '<div class="product-info">';
   html += '<div class="brand-badge">';
   html += '<span class="brand-badge-logo" style="background:' + brandData.color + '">' + brandData.name.toUpperCase().substring(0, 8) + '</span>';
-  // category label removed per user request
   html += '</div>';
   html += '<h1 class="product-title">' + productTitle + '</h1>';
   html += '<div class="product-subtitle">' + productSubtitle + '</div>';
   html += '<div class="product-meta">';
-  // SKU shown in code_item badge area only — no duplicate here
   html += '</div>';
   html += '<div class="stock-indicator">';
   html += '<span class="stock-dot"></span>';
@@ -429,7 +382,6 @@
   html += '<div class="price-main">' + priceDisplay + '</div>';
   html += '<div class="price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2\u05f3\u05de</div>';
   html += '</div>';
-
   html += '<div class="buy-section">';
   html += '<div class="qty-selector">';
   html += '<button class="qty-btn" id="an-qty-minus">\u2212</button>';
@@ -439,7 +391,6 @@
   html += '<button class="btn-primary" id="an-buy-btn">' + cartSvg + '\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
   html += '</div>';
   html += '<div class="sold-by">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
-
   html += '<div class="trust-box">';
   html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDE9A</span><span>\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5</span></div>';
   html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDEE1\uFE0F</span><span>\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de</span></div>';
@@ -447,7 +398,6 @@
   html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDD12</span><span>\u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d5\u05d1\u05d8\u05d7 \u2014 SSL \u05de\u05d5\u05e6\u05e4\u05df</span></div>';
   html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDCB3</span><span>\u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05ea\u05e9\u05dc\u05d5\u05de\u05d9\u05dd \u05d1\u05e7\u05d5\u05e4\u05d4</span></div>';
   html += '</div>'; // trust-box
-
   html += '<div class="highlights-box open" id="an-highlights-box">';
   html += '<div class="highlights-header" id="an-highlights-header">';
   html += '<span class="highlights-icon">&#10022;</span>';
@@ -458,40 +408,31 @@
   html += '<div class="highlights-inner"><ul>' + highlightsHtml + '</ul></div>';
   html += '</div>';
   html += '</div>'; // highlights-box
-
   html += '</div>'; // end product-info
-
-  // Col 1 Row 2: Description + Brand (below image)
   html += '<div class="desc-section-wrap">';
-
-  // Description section with specs — only show what we know for sure
   html += '<div class="desc-section">';
   html += '<h2 class="desc-heading">\u05ea\u05d9\u05d0\u05d5\u05e8</h2>';
   html += '<div class="specs-table" id="an-specs-table">';
   if (brandData.name && brandData.name !== '\u05d9\u05e6\u05e8\u05df') {
-    html += '<div class="specs-row"><div class="specs-label">\u05d9\u05e6\u05e8\u05df</div><div class="specs-value">' + brandData.name + '</div></div>';
+  html += '<div class="specs-row"><div class="specs-label">\u05d9\u05e6\u05e8\u05df</div><div class="specs-value">' + brandData.name + '</div></div>';
   }
   if (skuValue) {
-    html += '<div class="specs-row"><div class="specs-label">\u05de\u05e7\u05f3\u05d8</div><div class="specs-value">' + skuValue + '</div></div>';
+  html += '<div class="specs-row"><div class="specs-label">\u05de\u05e7\u05f3\u05d8</div><div class="specs-value">' + skuValue + '</div></div>';
   }
   if (categoryLabel) {
-    html += '<div class="specs-row"><div class="specs-label">\u05e7\u05d8\u05d2\u05d5\u05e8\u05d9\u05d4</div><div class="specs-value">' + categoryLabel + '</div></div>';
+  html += '<div class="specs-row"><div class="specs-label">\u05e7\u05d8\u05d2\u05d5\u05e8\u05d9\u05d4</div><div class="specs-value">' + categoryLabel + '</div></div>';
   }
   html += '<div class="specs-row"><div class="specs-label">\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea</div><div class="specs-value">3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de</div></div>';
   html += '</div>'; // specs-table
-  // TecDoc widget will provide the full technical specs (below)
   html += '</div>'; // desc-section
-
-  // Brand section
   html += '<div class="brand-section">';
   html += '<div class="brand-section-header">';
-  // Brand logo box — colored box with brand abbreviation
   var bc = brandData.color || '#1B4E91';
   var brandAbbr = brandData.name.toUpperCase();
   if (brandAbbr.length > 5) brandAbbr = brandAbbr.substring(0, 5);
   var abbrSize = brandAbbr.length > 4 ? '10' : (brandAbbr.length > 3 ? '11' : '13');
   html += '<div class="brand-logo-box" style="background:' + bc + ';display:flex;align-items:center;justify-content:center;border-radius:8px">' +
-    '<span style="color:#fff;font-size:' + abbrSize + 'px;font-weight:900;letter-spacing:0.5px;font-family:Arial,Helvetica,sans-serif;line-height:1">' + brandAbbr + '</span></div>';
+  '<span style="color:#fff;font-size:' + abbrSize + 'px;font-weight:900;letter-spacing:0.5px;font-family:Arial,Helvetica,sans-serif;line-height:1">' + brandAbbr + '</span></div>';
   html += '<div class="brand-section-info">';
   html += '<h3>' + brandData.name + '</h3>';
   html += '<span>' + (brandData.country ? brandData.country + (brandData.founded ? ', ' + brandData.founded : '') : '') + '</span>';
@@ -499,258 +440,202 @@
   html += '</div>';
   html += '<p style="font-size:13px;color:#666;line-height:1.6;">' + brandData.description + '</p>';
   html += '</div>'; // brand-section
-
-  // TecDoc widget placeholder
   html += '<div class="an-tecdoc-wrap" id="an-tecdoc-wrap"></div>';
-
   html += '</div>'; // end desc-section-wrap
-
   html += '</div>'; // end product-layout
   html += '</div>'; // end container
-
-  /* ================================================================
-     STEP 6: Create and inject the wrapper
-     ================================================================ */
-
   var wrapper = document.createElement('div');
   wrapper.id = 'an-product-redesign';
   wrapper.innerHTML = html;
-
-  // Insert BEFORE the Konimbo content area
   targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
-
-  // Move tecdoc-widget into our layout (with retries for late-loading widget)
   function moveTecDoc() {
-    var tw = document.getElementById('tecdoc-widget');
-    var wrap = document.getElementById('an-tecdoc-wrap');
-    if (tw && wrap && !wrap.children.length) {
-      wrap.appendChild(tw);
-      tw.style.display = 'block';
-      return true;
-    }
-    return false;
+  var tw = document.getElementById('tecdoc-widget');
+  var wrap = document.getElementById('an-tecdoc-wrap');
+  if (tw && wrap && !wrap.children.length) {
+    wrap.appendChild(tw);
+    tw.style.display = 'block';
+    return true;
+  }
+  return false;
   }
   if (!moveTecDoc()) {
-    setTimeout(moveTecDoc, 1000);
-    setTimeout(moveTecDoc, 3000);
-    setTimeout(moveTecDoc, 6000);
-    setTimeout(moveTecDoc, 10000);
-    setTimeout(moveTecDoc, 15000);
+  setTimeout(moveTecDoc, 1000);
+  setTimeout(moveTecDoc, 3000);
+  setTimeout(moveTecDoc, 6000);
+  setTimeout(moveTecDoc, 10000);
+  setTimeout(moveTecDoc, 15000);
   }
-
-  /* ================================================================
-     STEP 7: Add 'an-redesigned' to body to hide original content
-     ================================================================ */
   var bCls = document.body.className || '';
   if (bCls.indexOf('an-redesigned') === -1) {
-    document.body.className = bCls + (bCls ? ' ' : '') + 'an-redesigned';
+  document.body.className = bCls + (bCls ? ' ' : '') + 'an-redesigned';
   }
-
-  /* ================================================================
-     STEP 8: Inject Sticky Bar into body
-     ================================================================ */
   var shortTitle = productTitle.length > 30 ? productTitle.substring(0, 30) + '...' : productTitle;
   var stickyBarHtml = '<div id="an-sticky-bar">' +
-    '<div class="sticky-bar-inner">' +
-    '<div class="sticky-bar-info">' +
-    '<span class="sticky-bar-title">' + shortTitle + '</span>' +
-    '<span class="sticky-bar-price">' + priceDisplay + '</span>' +
-    '</div>' +
-    '<div class="sticky-bar-actions">' +
-    '<button class="btn-primary" id="an-sticky-buy-btn">' + cartSvgSm + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>' +
-    '</div>' +
-    '</div>' +
-    '</div>';
-
+  '<div class="sticky-bar-inner">' +
+  '<div class="sticky-bar-info">' +
+  '<span class="sticky-bar-title">' + shortTitle + '</span>' +
+  '<span class="sticky-bar-price">' + priceDisplay + '</span>' +
+  '</div>' +
+  '<div class="sticky-bar-actions">' +
+  '<button class="btn-primary" id="an-sticky-buy-btn">' + cartSvgSm + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>' +
+  '</div>' +
+  '</div>' +
+  '</div>';
   var stickyContainer = document.createElement('div');
   stickyContainer.innerHTML = stickyBarHtml;
   document.body.appendChild(stickyContainer.firstChild);
-
-  /* ================================================================
-     STEP 9: Wire up interactivity
-     ================================================================ */
-
-  // --- Quantity selector ---
   var anQty = 1;
   var qtyValueEl = document.getElementById('an-qty-value');
   var qtyMinusBtn = document.getElementById('an-qty-minus');
   var qtyPlusBtn = document.getElementById('an-qty-plus');
-
   function updateQtyDisplay() {
-    if (qtyValueEl) qtyValueEl.textContent = anQty;
+  if (qtyValueEl) qtyValueEl.textContent = anQty;
   }
-
   if (qtyMinusBtn) {
-    qtyMinusBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      anQty = Math.max(1, anQty - 1);
-      updateQtyDisplay();
-    });
+  qtyMinusBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    anQty = Math.max(1, anQty - 1);
+    updateQtyDisplay();
+  });
   }
   if (qtyPlusBtn) {
-    qtyPlusBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      anQty = Math.min(99, anQty + 1);
-      updateQtyDisplay();
-    });
+  qtyPlusBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    anQty = Math.min(99, anQty + 1);
+    updateQtyDisplay();
+  });
   }
-
-  // --- Buy button: add to cart via Konimbo AJAX API ---
-  // Extract item ID from URL
   var itemIdMatch = window.location.pathname.match(/\/items\/(\d+)/);
   var itemId = itemIdMatch ? itemIdMatch[1] : '';
-  // Store subdomain
   var storeHost = window.location.hostname.replace('www.', '').replace('.co.il', '').replace('.com', '');
-
   function doAddToCart(triggerBtn) {
-    // Method 1: Try clicking original Konimbo button (even if hidden)
-    if (cartButton) {
-      try {
-        // Temporarily make it visible for click
-        var origDisplay = cartButton.style.display;
-        cartButton.style.display = 'block';
-        cartButton.style.position = 'fixed';
-        cartButton.style.top = '-9999px';
-        cartButton.click();
-        cartButton.style.display = origDisplay;
-        cartButton.style.position = '';
-        cartButton.style.top = '';
-      } catch(e) {}
-    }
-
-    // Method 2: Konimbo AJAX POST as backup
-    if (itemId) {
-      try {
-        var xhr = new XMLHttpRequest();
-        xhr.open('POST', '/orders/' + storeHost + '/new', true);
-        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-        xhr.onreadystatechange = function() {
-          if (xhr.readyState === 4) {
-            // Update cart count in header
-            var cartBadges = document.querySelectorAll('[class*="cart"] span, [class*="cart_count"], .items_count');
-            for (var cb = 0; cb < cartBadges.length; cb++) {
-              var num = parseInt(cartBadges[cb].textContent || '0');
-              cartBadges[cb].textContent = num + anQty;
-            }
-          }
-        };
-        xhr.send('order[line_items_attributes][0][item_id]=' + itemId + '&order[line_items_attributes][0][quantity]=' + anQty);
-      } catch(e2) {}
-    }
-
-    // Visual feedback
-    if (triggerBtn) {
-      var origHtml = triggerBtn.innerHTML;
-      var origBg = triggerBtn.style.background;
-      triggerBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> \u05e0\u05d5\u05e1\u05e3!';
-      triggerBtn.style.background = '#22c55e';
-      setTimeout(function() {
-        triggerBtn.innerHTML = origHtml;
-        triggerBtn.style.background = origBg;
-      }, 1500);
-    }
+  if (cartButton) {
+    try {
+      var origDisplay = cartButton.style.display;
+      cartButton.style.display = 'block';
+      cartButton.style.position = 'fixed';
+      cartButton.style.top = '-9999px';
+      cartButton.click();
+      cartButton.style.display = origDisplay;
+      cartButton.style.position = '';
+      cartButton.style.top = '';
+    } catch(e) {}
   }
-
+  if (itemId) {
+    try {
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', '/orders/' + storeHost + '/new', true);
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+      xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+          var cartBadges = document.querySelectorAll('[class*="cart"] span, [class*="cart_count"], .items_count');
+          for (var cb = 0; cb < cartBadges.length; cb++) {
+            var num = parseInt(cartBadges[cb].textContent || '0');
+            cartBadges[cb].textContent = num + anQty;
+          }
+        }
+      };
+      xhr.send('order[line_items_attributes][0][item_id]=' + itemId + '&order[line_items_attributes][0][quantity]=' + anQty);
+    } catch(e2) {}
+  }
+  if (triggerBtn) {
+    var origHtml = triggerBtn.innerHTML;
+    var origBg = triggerBtn.style.background;
+    triggerBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> \u05e0\u05d5\u05e1\u05e3!';
+    triggerBtn.style.background = '#22c55e';
+    setTimeout(function() {
+      triggerBtn.innerHTML = origHtml;
+      triggerBtn.style.background = origBg;
+    }, 1500);
+  }
+  }
   var mainBuyBtn = document.getElementById('an-buy-btn');
   if (mainBuyBtn) {
-    mainBuyBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      doAddToCart(mainBuyBtn);
-    });
+  mainBuyBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    doAddToCart(mainBuyBtn);
+  });
   }
-
   var stickyBuyBtn = document.getElementById('an-sticky-buy-btn');
   if (stickyBuyBtn) {
-    stickyBuyBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      doAddToCart(stickyBuyBtn);
-    });
+  stickyBuyBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    doAddToCart(stickyBuyBtn);
+  });
   }
-
-  // --- Image thumbnail click ---
   var thumbEls = document.querySelectorAll('#an-product-redesign .image-thumb[data-an-img]');
   var mainImg = document.getElementById('an-main-img');
   for (var th = 0; th < thumbEls.length; th++) {
-    (function(thumb) {
-      thumb.addEventListener('click', function() {
-        var redesignEl2 = document.getElementById('an-product-redesign');
-        var allThumbs = redesignEl2 ? redesignEl2.querySelectorAll('[data-an-img], .image-thumb') : [];
-        for (var t = 0; t < allThumbs.length; t++) {
-          var cls = allThumbs[t].className;
-          allThumbs[t].className = cls.replace(/\s*active/g, '');
-        }
-        var cls2 = thumb.className;
-        thumb.className = cls2 + ' active';
-        if (mainImg) {
-          mainImg.src = thumb.getAttribute('data-an-img');
-        }
-      });
-    })(thumbEls[th]);
+  (function(thumb) {
+    thumb.addEventListener('click', function() {
+      var redesignEl2 = document.getElementById('an-product-redesign');
+      var allThumbs = redesignEl2 ? redesignEl2.querySelectorAll('[data-an-img], .image-thumb') : [];
+      for (var t = 0; t < allThumbs.length; t++) {
+        var cls = allThumbs[t].className;
+        allThumbs[t].className = cls.replace(/\s*active/g, '');
+      }
+      var cls2 = thumb.className;
+      thumb.className = cls2 + ' active';
+      if (mainImg) {
+        mainImg.src = thumb.getAttribute('data-an-img');
+      }
+    });
+  })(thumbEls[th]);
   }
-
-  // --- Sticky bar scroll listener ---
   var stickyBar = document.getElementById('an-sticky-bar');
   var productMainEl = document.getElementById('an-product-main');
   var stickyVisible = false;
-
   function checkSticky() {
-    if (!productMainEl || !stickyBar) return;
-    var rect = productMainEl.getBoundingClientRect();
-    var shouldShow = rect.top < -200;
-    if (shouldShow !== stickyVisible) {
-      stickyVisible = shouldShow;
-      var sbCls = stickyBar.className;
-      if (shouldShow) {
-        if (sbCls.indexOf('visible') === -1) stickyBar.className = sbCls + ' visible';
-      } else {
-        stickyBar.className = sbCls.replace(/\s*visible/g, '');
-      }
+  if (!productMainEl || !stickyBar) return;
+  var rect = productMainEl.getBoundingClientRect();
+  var shouldShow = rect.top < -200;
+  if (shouldShow !== stickyVisible) {
+    stickyVisible = shouldShow;
+    var sbCls = stickyBar.className;
+    if (shouldShow) {
+      if (sbCls.indexOf('visible') === -1) stickyBar.className = sbCls + ' visible';
+    } else {
+      stickyBar.className = sbCls.replace(/\s*visible/g, '');
     }
   }
-
+  }
   window.addEventListener('scroll', checkSticky, { passive: true });
-
-  // --- Highlights toggle ---
   var highlightsHeader = document.getElementById('an-highlights-header');
   var highlightsBox = document.getElementById('an-highlights-box');
   if (highlightsHeader && highlightsBox) {
-    highlightsHeader.addEventListener('click', function() {
-      var hcls = highlightsBox.className;
-      if (hcls.indexOf('open') !== -1) {
-        highlightsBox.className = hcls.replace(/\s*open/g, '');
-      } else {
-        highlightsBox.className = hcls + ' open';
-      }
-    });
+  highlightsHeader.addEventListener('click', function() {
+    var hcls = highlightsBox.className;
+    if (hcls.indexOf('open') !== -1) {
+      highlightsBox.className = hcls.replace(/\s*open/g, '');
+    } else {
+      highlightsBox.className = hcls + ' open';
+    }
+  });
   }
-
-  // --- Description expand toggle ---
   var descExpandBtn = document.getElementById('an-desc-expand-btn');
   var descExtra = document.getElementById('an-desc-extra');
   if (descExpandBtn && descExtra) {
-    descExpandBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      var ecls = descExtra.className;
-      var bcls = descExpandBtn.className;
-      var isOpen = ecls.indexOf('open') !== -1;
-      if (isOpen) {
-        descExtra.className = ecls.replace(/\s*open/g, '');
-        descExpandBtn.className = bcls.replace(/\s*expanded/g, '');
-        // Update text node
-        descExpandBtn.childNodes[0].textContent = '\u05e2\u05d5\u05d3 ';
-      } else {
-        descExtra.className = ecls + ' open';
-        descExpandBtn.className = bcls + ' expanded';
-        descExpandBtn.childNodes[0].textContent = '\u05e4\u05d7\u05d5\u05ea ';
-      }
-    });
+  descExpandBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var ecls = descExtra.className;
+    var bcls = descExpandBtn.className;
+    var isOpen = ecls.indexOf('open') !== -1;
+    if (isOpen) {
+      descExtra.className = ecls.replace(/\s*open/g, '');
+      descExpandBtn.className = bcls.replace(/\s*expanded/g, '');
+      descExpandBtn.childNodes[0].textContent = '\u05e2\u05d5\u05d3 ';
+    } else {
+      descExtra.className = ecls + ' open';
+      descExpandBtn.className = bcls + ' expanded';
+      descExpandBtn.childNodes[0].textContent = '\u05e4\u05d7\u05d5\u05ea ';
+    }
+  });
   }
-
 })();
 </script>
