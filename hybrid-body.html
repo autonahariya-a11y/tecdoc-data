@@ -299,12 +299,33 @@
   var cleanPrice = productPrice.replace(/[₪\u20aa]/g, '').trim();
   var priceDisplay = cleanPrice ? '&#8362;' + cleanPrice : '';
   if (!priceDisplay && priceEl) priceDisplay = getText(priceEl);
-  var highlights = brandData.highlights || [
-  brandData.name + ' \u2014 ' + (brandData.description ? brandData.description.split('.')[0] : '\u05d9\u05e6\u05e8\u05df \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1'),
-  '\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd',
-  '\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de',
-  '\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5'
-  ];
+  // Build brand-only highlights (no store policies like shipping/warranty)
+  var highlights = [];
+  var descSentences = brandData.description ? brandData.description.split('.').filter(function(s) { return s.trim().length > 5; }) : [];
+  // First highlight: brand name + first sentence
+  if (descSentences.length > 0) {
+    highlights.push(brandData.name + ' \u2014 ' + descSentences[0].trim());
+  } else {
+    highlights.push(brandData.name + ' \u2014 \u05d9\u05e6\u05e8\u05df \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1');
+  }
+  // Second highlight: second sentence of description or OEM supplier note
+  if (descSentences.length > 1) {
+    highlights.push(descSentences[1].trim());
+  } else {
+    highlights.push('\u05e1\u05e4\u05e7\u05d9\u05ea \u05e6\u05d9\u05d5\u05d3 \u05de\u05e7\u05d5\u05e8\u05d9 \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9\u05d5\u05ea \u05d4\u05e8\u05db\u05d1');
+  }
+  // Third highlight: country + founded year
+  if (brandData.country && brandData.founded) {
+    highlights.push('\u05de\u05d5\u05e6\u05d0 ' + brandData.country + ' \u2014 \u05de\u05d0\u05d6 ' + brandData.founded);
+  } else if (brandData.country) {
+    highlights.push('\u05de\u05d5\u05e6\u05d0 ' + brandData.country);
+  } else if (descSentences.length > 2) {
+    highlights.push(descSentences[2].trim());
+  }
+  // Fourth highlight: third sentence if available
+  if (descSentences.length > 2 && highlights.length < 4) {
+    highlights.push(descSentences[2].trim());
+  }
   var highlightsHtml = '';
   for (var hl = 0; hl < highlights.length; hl++) {
   highlightsHtml += '<li>' + highlights[hl] + '</li>';
