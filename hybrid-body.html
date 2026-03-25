@@ -426,30 +426,35 @@
     var cartArea = document.getElementById('an-cart-area');
     if (!cartArea || cartArea.children.length > 0) return false;
     origCartRef = findOrigCartLink();
-    // Build our styled button that proxies to the original
+    // Build our styled button (using <button> to avoid scroll-to-top on mobile)
     var btnHtml = '<div style="display:flex;gap:10px;align-items:stretch;margin-bottom:8px">' +
-      '<a href="#" id="an-buy-btn" style="flex:1;background:#1B4E91;color:#fff;font-size:16px;font-weight:700;border-radius:8px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-family:Heebo,sans-serif;cursor:pointer">' +
-      cartSvg + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</a></div>';
+      '<button type="button" id="an-buy-btn" style="flex:1;background:#1B4E91;color:#fff;font-size:16px;font-weight:700;border-radius:8px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-family:Heebo,sans-serif;cursor:pointer;border:none;-webkit-appearance:none;appearance:none">' +
+      cartSvg + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button></div>';
     cartArea.innerHTML = btnHtml;
     var buyBtn = document.getElementById('an-buy-btn');
     if (buyBtn) {
       buyBtn.addEventListener('click', function(e) {
         e.preventDefault();
-        // Always re-find the original link (Konimbo may replace it after each click)
+        e.stopImmediatePropagation();
+        // Always re-find the original link (Konimbo may replace/rebuild it)
         var orig = findOrigCartLink();
         if (!orig) orig = origCartRef;
         if (orig) {
-          // Trigger click on original — keep it simple
-          orig.click();
-          // Also try jQuery trigger if available
+          // Use jQuery trigger if available (fires AJAX handler without navigation)
           if (typeof jQuery !== 'undefined') {
-            try { jQuery(orig).trigger('click'); } catch(jqe) {}
+            try {
+              jQuery(orig).trigger('click');
+              origCartRef = orig;
+            } catch(jqe) {
+              orig.click();
+            }
+          } else {
+            // Fallback: programmatic click
+            orig.click();
           }
-          // Re-cache for next time
           origCartRef = orig;
         }
-        // Brief visual feedback using textContent (no innerHTML replacement)
-        var origText = buyBtn.textContent;
+        // Brief green flash feedback
         buyBtn.style.background = '#22c55e';
         setTimeout(function() {
           buyBtn.style.background = '#1B4E91';
