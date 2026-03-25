@@ -975,10 +975,27 @@
       /* Clean up clone text — ensure it says הוסף לעגלה with cart icon */
       cartClone.innerHTML = '<span style="display:flex;align-items:center;flex-shrink:0;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></span>\u05D4\u05D5\u05E1\u05E3 \u05DC\u05E2\u05D2\u05DC\u05D4';
       /* Wire up click — trigger the ORIGINAL cart button */
+      cartClone.className = 'commit_to_real';
       cartClone.addEventListener('click', function(e) {
         e.preventDefault();
-        e.stopPropagation();
-        cartBtn.click();
+        /* Sync quantity to Konimbo's hidden input before clicking */
+        var qtyInp = purchaseRow.querySelector('.tw-qty-selector input');
+        var qty = qtyInp ? (parseInt(qtyInp.value) || 1) : 1;
+        if (origQtyInput) {
+          origQtyInput.value = qty;
+          try { origQtyInput.dispatchEvent(new Event('change', {bubbles:true})); } catch(ee) {}
+        }
+        /* Also set any other quantity inputs Konimbo might use */
+        var allQty = document.querySelectorAll('input.counter, input[name="quantity"]');
+        for (var qi = 0; qi < allQty.length; qi++) {
+          allQty[qi].value = qty;
+        }
+        /* Trigger the original button — try jQuery first, then .click() */
+        if (typeof jQuery !== 'undefined') {
+          try { jQuery(cartBtn).trigger('click'); } catch(jqe) { cartBtn.click(); }
+        } else {
+          cartBtn.click();
+        }
       });
 
       /* Build custom qty selector */
