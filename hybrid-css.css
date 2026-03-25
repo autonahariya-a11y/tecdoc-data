@@ -340,18 +340,10 @@
    KONIMBO CONTENT HIDING — active when body has 'an-redesigned' class
    =================================================================== */
 
-/* Hide original Konimbo product content when our template is active.
-   CRITICAL: #item_show is NOT fully hidden — only visually collapsed.
-   The cart <a> inside #item_show MUST stay in the DOM and in its original
-   parent so Konimbo's jQuery delegation keeps working. */
-body.an-redesigned #item_show {
-  height: 0 !important;
-  overflow: hidden !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  border: none !important;
-  visibility: hidden !important;
-}
+/* Hide original Konimbo product content when hybrid is active.
+   .item_main_bottom is NOT hidden — contains .special_cart_wrapper
+   with the real cart button (.tw-purchase-row) + quantity selector. */
+body.an-redesigned #item_show,
 body.an-redesigned #item_details,
 body.an-redesigned #item_content,
 body.an-redesigned .specifications,
@@ -361,12 +353,21 @@ body.an-redesigned .item_show_carousel,
 body.an-redesigned .item_container,
 body.an-redesigned #item_info,
 body.an-redesigned .item_main_top,
-body.an-redesigned .item_main_bottom,
 body.an-redesigned #bread_crumbs,
 body.an-redesigned .product-container,
 body.an-redesigned #item_current_title,
 body.an-redesigned .code_item {
   display: none !important;
+}
+/* Hide everything in .item_main_bottom EXCEPT the cart widget */
+body.an-redesigned .item_main_bottom {
+  display: block !important;
+  height: 0 !important;
+  overflow: visible !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  position: relative !important;
 }
 
 /* Hide old widget strengths and brand info (replaced by Hybrid) */
@@ -387,12 +388,12 @@ body.an-redesigned #tw-brand-info {
   display: block !important;
 }
 
-/* Cart area placeholder — our styled proxy button lives here */
+/* Cart area — receives the real .tw-purchase-row from TecDoc widget */
 #an-cart-area {
   margin-bottom: 8px;
 }
-
-#an-buy-btn:hover {
-  background: #153d73 !important;
-  text-decoration: none !important;
+#an-cart-area .tw-purchase-row {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }

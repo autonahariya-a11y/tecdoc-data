@@ -401,70 +401,21 @@
   wrapper.innerHTML = html;
   targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
 
-  // Wire up cart button: our styled button triggers click on the ORIGINAL
-  // Konimbo cart link (hidden in #item_show). The original stays in its
-  // DOM position so Konimbo's jQuery event delegation keeps working.
-  function findOrigCartLink() {
-    var allAnchors = document.getElementsByTagName('a');
-    for (var ca = 0; ca < allAnchors.length; ca++) {
-      var aText = (allAnchors[ca].textContent || '').trim();
-      if (aText.indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
-        // Skip links inside our redesign or sticky bar
-        var isOurs = false;
-        var pEl = allAnchors[ca].parentElement;
-        while (pEl) {
-          if (pEl.id === 'an-product-redesign' || pEl.id === 'an-sticky-bar') { isOurs = true; break; }
-          pEl = pEl.parentElement;
-        }
-        if (!isOurs) return allAnchors[ca];
-      }
-    }
-    return null;
-  }
-  var origCartRef = null;
-  function wireCartButton() {
+  // Move the TecDoc widget's .tw-purchase-row (cart + qty) into our layout.
+  // This row contains the REAL .commit_to_real cart link + .tw-qty-selector.
+  // It's created by our own widget.js, so moving it is safe.
+  function moveCartRow() {
     var cartArea = document.getElementById('an-cart-area');
-    if (!cartArea || cartArea.children.length > 0) return false;
-    origCartRef = findOrigCartLink();
-    // Build our styled button (using <button> to avoid scroll-to-top on mobile)
-    var btnHtml = '<div style="display:flex;gap:10px;align-items:stretch;margin-bottom:8px">' +
-      '<button type="button" id="an-buy-btn" style="flex:1;background:#1B4E91;color:#fff;font-size:16px;font-weight:700;border-radius:8px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-family:Heebo,sans-serif;cursor:pointer;border:none;-webkit-appearance:none;appearance:none">' +
-      cartSvg + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button></div>';
-    cartArea.innerHTML = btnHtml;
-    var buyBtn = document.getElementById('an-buy-btn');
-    if (buyBtn) {
-      buyBtn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        // Always re-find the original link (Konimbo may replace/rebuild it)
-        var orig = findOrigCartLink();
-        if (!orig) orig = origCartRef;
-        if (orig) {
-          // Use jQuery trigger if available (fires AJAX handler without navigation)
-          if (typeof jQuery !== 'undefined') {
-            try {
-              jQuery(orig).trigger('click');
-              origCartRef = orig;
-            } catch(jqe) {
-              orig.click();
-            }
-          } else {
-            // Fallback: programmatic click
-            orig.click();
-          }
-          origCartRef = orig;
-        }
-        // Brief green flash feedback
-        buyBtn.style.background = '#22c55e';
-        setTimeout(function() {
-          buyBtn.style.background = '#1B4E91';
-        }, 800);
-      });
+    if (!cartArea || cartArea.children.length > 0) return true; // already done
+    var twRow = document.querySelector('.tw-purchase-row');
+    if (twRow) {
+      cartArea.appendChild(twRow);
+      return true;
     }
-    return true;
+    return false;
   }
-  if (!wireCartButton()) {
-    setTimeout(function() { if (!wireCartButton()) setTimeout(function() { wireCartButton(); }, 1500); }, 500);
+  if (!moveCartRow()) {
+    setTimeout(function() { if (!moveCartRow()) setTimeout(function() { if (!moveCartRow()) setTimeout(moveCartRow, 3000); }, 1500); }, 500);
   }
 
   function moveTecDoc() {
@@ -503,17 +454,13 @@
   var stickyContainer = document.createElement('div');
   stickyContainer.innerHTML = stickyBarHtml;
   document.body.appendChild(stickyContainer.firstChild);
-  // Sticky bar buy button — clicks the original Konimbo cart link
+  // Sticky bar buy button — clicks the real cart link
   var stickyBuyBtn = document.getElementById('an-sticky-buy-btn');
   if (stickyBuyBtn) {
     stickyBuyBtn.addEventListener('click', function(e) {
       e.preventDefault();
-      // Click our main buy button which will proxy to the original
-      var buyBtn = document.getElementById('an-buy-btn');
-      if (buyBtn) { buyBtn.click(); return; }
-      // Direct fallback
-      var orig = origCartRef || findOrigCartLink();
-      if (orig) orig.click();
+      var realBtn = document.querySelector('.commit_to_real');
+      if (realBtn) realBtn.click();
     });
   }
   var thumbEls = document.querySelectorAll('#an-product-redesign .image-thumb[data-an-img]');
