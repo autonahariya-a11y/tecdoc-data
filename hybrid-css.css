@@ -358,16 +358,18 @@ body.an-redesigned #item_current_title,
 body.an-redesigned .code_item {
   display: none !important;
 }
-/* Collapse #item_details and .item_main_bottom but keep
-   their children accessible (for moving .tw-purchase-row) */
+/* Collapse #item_details and .item_main_bottom visually.
+   JS moves .tw-purchase-row out before it gets clipped. */
 body.an-redesigned #item_details,
 body.an-redesigned .item_main_bottom {
   display: block !important;
   height: 0 !important;
-  overflow: visible !important;
+  overflow: hidden !important;
   margin: 0 !important;
   padding: 0 !important;
   border: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
 /* Hide old widget strengths and brand info (replaced by Hybrid) */
