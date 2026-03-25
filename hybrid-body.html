@@ -403,19 +403,39 @@
 
   // Move the TecDoc widget's .tw-purchase-row (cart + qty) into our layout.
   // This row contains the REAL .commit_to_real cart link + .tw-qty-selector.
-  // It's created by our own widget.js, so moving it is safe.
+  // It's created by widget.js which loads async, so we use polling + observer.
+  var cartRowMoved = false;
   function moveCartRow() {
+    if (cartRowMoved) return true;
     var cartArea = document.getElementById('an-cart-area');
-    if (!cartArea || cartArea.children.length > 0) return true; // already done
+    if (!cartArea) return false;
     var twRow = document.querySelector('.tw-purchase-row');
     if (twRow) {
+      // Clear any old placeholder content in cart area
+      cartArea.innerHTML = '';
       cartArea.appendChild(twRow);
+      cartRowMoved = true;
       return true;
     }
     return false;
   }
+  // Try immediately and with increasing timeouts
   if (!moveCartRow()) {
-    setTimeout(function() { if (!moveCartRow()) setTimeout(function() { if (!moveCartRow()) setTimeout(moveCartRow, 3000); }, 1500); }, 500);
+    var cartTimers = [300, 800, 1500, 3000, 5000, 8000, 12000];
+    for (var ct = 0; ct < cartTimers.length; ct++) {
+      (function(delay) {
+        setTimeout(function() { moveCartRow(); }, delay);
+      })(cartTimers[ct]);
+    }
+    // Also use MutationObserver to catch it immediately when widget creates it
+    if (typeof MutationObserver !== 'undefined') {
+      var cartObs = new MutationObserver(function(mutations) {
+        if (moveCartRow()) cartObs.disconnect();
+      });
+      cartObs.observe(document.body, { childList: true, subtree: true });
+      // Safety: disconnect after 15 seconds
+      setTimeout(function() { cartObs.disconnect(); }, 15000);
+    }
   }
 
   function moveTecDoc() {

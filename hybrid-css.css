@@ -344,7 +344,6 @@
    .item_main_bottom is NOT hidden — contains .special_cart_wrapper
    with the real cart button (.tw-purchase-row) + quantity selector. */
 body.an-redesigned #item_show,
-body.an-redesigned #item_details,
 body.an-redesigned #item_content,
 body.an-redesigned .specifications,
 body.an-redesigned #item_show_facebook,
@@ -359,7 +358,9 @@ body.an-redesigned #item_current_title,
 body.an-redesigned .code_item {
   display: none !important;
 }
-/* Hide everything in .item_main_bottom EXCEPT the cart widget */
+/* Collapse #item_details and .item_main_bottom but keep
+   their children accessible (for moving .tw-purchase-row) */
+body.an-redesigned #item_details,
 body.an-redesigned .item_main_bottom {
   display: block !important;
   height: 0 !important;
@@ -367,7 +368,6 @@ body.an-redesigned .item_main_bottom {
   margin: 0 !important;
   padding: 0 !important;
   border: none !important;
-  position: relative !important;
 }
 
 /* Hide old widget strengths and brand info (replaced by Hybrid) */
