@@ -24,25 +24,32 @@
   }
   if (!isAutoPartsPage()) return;
   var BRAND_INFO = {
-  "BREMBO": { name: "Brembo", description: "יצרנית מערכות בלימה מובילה בעולם. מספקת מערכות בלימה ליצרניות הרכב הגדולות וגם לשוק החלפים. ידועה מעולם המירוצים — פורמולה 1, MotoGP ועוד.", founded: "1961", country: "איטליה", color: "#c8102e"
+  "BREMBO": { name: "Brembo", description: "יצרנית מערכות בלימה מובילה בעולם. מספקת מערכות בלימה ליצרניות הרכב הגדולות וגם לשוק החלפים. ידועה מעולם המירוצים — פורמולה 1, MotoGP ועוד.", founded: "1961", country: "איטליה", color: "#c8102e",
+  highlights: ["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05d4\u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e0\u05d1\u05d3\u05e7 \u05d1\u05ea\u05e0\u05d0\u05d9 \u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP","\u05d1\u05dc\u05d9\u05de\u05d4 \u05d7\u05d6\u05e7\u05d4 \u05d2\u05dd \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea"]
   },
-  "BOSCH": { name: "Bosch", description: "ספקית חלקי הרכב הגדולה בעולם. מעל 130 שנות ניסיון בתעשיית הרכב. מייצרת מגוון רחב — ממערכות הצתה ועד מערכות בלימה, פילטרים, מצתים וחיישנים.", founded: "1886", country: "גרמניה", color: "#e2000f"
+  "BOSCH": { name: "Bosch", description: "ספקית חלקי הרכב הגדולה בעולם. מעל 130 שנות ניסיון בתעשיית הרכב. מייצרת מגוון רחב — ממערכות הצתה ועד מערכות בלימה, פילטרים, מצתים וחיישנים.", founded: "1886", country: "גרמניה", color: "#e2000f",
+  highlights: ["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1 \u05de\u05d4\u05de\u05e4\u05e2\u05dc","\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 ISO/TS 16949","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd \u2014 \u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05e9\u05d7\u05d9\u05e7\u05d4 \u05d5\u05d1\u05dc\u05d0\u05d9","\u05de\u05d5\u05ea\u05d0\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05de\u05d9 \u05d4\u05e8\u05db\u05d1 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd"]
   },
-  "MANN-FILTER": { name: "MANN-FILTER", description: "מותג הפילטרים המוביל באירופה. חלק מקבוצת MANN+HUMMEL. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM ליצרניות הרכב המובילות.", founded: "1941", country: "גרמניה", color: "#1a4690"
+  "MANN-FILTER": { name: "MANN-FILTER", description: "מותג הפילטרים המוביל באירופה. חלק מקבוצת MANN+HUMMEL. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM ליצרניות הרכב המובילות.", founded: "1941", country: "גרמניה", color: "#1a4690",
+  highlights: ["\u05e1\u05d9\u05e0\u05d5\u05df \u05d9\u05e2\u05d9\u05dc \u05e9\u05dc 99.98% \u05de\u05d4\u05de\u05d6\u05d4\u05de\u05d9\u05dd","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05d4\u05d2\u05e0\u05d4 \u05de\u05e4\u05e0\u05d9 \u05dc\u05db\u05dc\u05d5\u05da, \u05d0\u05d1\u05e7 \u05d5\u05e9\u05d1\u05d1\u05d9\u05dd","\u05de\u05d0\u05e8\u05d9\u05da \u05d7\u05d9\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2 \u05d5\u05de\u05e9\u05e4\u05e8 \u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd"]
   },
-  "MAHLE": { name: "Mahle", description: "קבוצת טכנולוגיה בינלאומית. מתמחה ברכיבי מנוע, פילטרים ומערכות תרמיות לרכב. ספקית ציוד מקורי ליצרניות הרכב המובילות בעולם.", founded: "1920", country: "גרמניה", color: "#005b8e"
+  "MAHLE": { name: "Mahle", description: "קבוצת טכנולוגיה בינלאומית. מתמחה ברכיבי מנוע, פילטרים ומערכות תרמיות לרכב. ספקית ציוד מקורי ליצרניות הרכב המובילות בעולם.", founded: "1920", country: "גרמניה", color: "#005b8e",
+  highlights: ["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d1\u05d3\u05d9\u05e7\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d4","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05e1\u05d1\u05d9\u05d1\u05d4 \u05d4\u05de\u05d7\u05de\u05d9\u05e8\u05d9\u05dd","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd \u05d5\u05d4\u05d3\u05dc\u05e7"]
   },
   "VALEO": { name: "Valeo", description: "ספקית ציוד מקורי ליצרני רכב ברחבי העולם. מתמחה במערכות מיזוג, תאורה, מצמדים, מגבים ומערכות חשמל לרכב.", founded: "1923", country: "צרפת", color: "#003087"
   },
-  "TRW": { name: "TRW", description: "מובילה עולמית במערכות בטיחות לרכב — בלמים, היגוי ומערכות התלייה. כיום חלק מקבוצת ZF. ספקית ציוד מקורי ליצרני הרכב הגדולים.", founded: "1901", country: "גרמניה", color: "#003399"
+  "TRW": { name: "TRW", description: "מובילה עולמית במערכות בטיחות לרכב — בלמים, היגוי ומערכות התלייה. כיום חלק מקבוצת ZF. ספקית ציוד מקורי ליצרני הרכב הגדולים.", founded: "1901", country: "גרמניה", color: "#003399",
+  highlights: ["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea \u05dc\u05db\u05dc \u05de\u05d5\u05e6\u05e8","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd \u05e2\u05dd \u05d0\u05d5\u05e8\u05da \u05d7\u05d9\u05d9\u05dd \u05de\u05d5\u05d0\u05e8\u05da"]
   },
   "FEBI BILSTEIN": { name: "Febi Bilstein", description: "חברה גרמנית עם מעל 175 שנות ניסיון. מתמחה בחלקי חילוף לרכב באיכות OEM — בולמי זעזועים, חלקי פרונט, מערכת קירור ועוד.", founded: "1844", country: "גרמניה", color: "#e8001c"
   },
-  "MEYLE": { name: "Meyle", description: "יצרנית חלקי חילוף גרמנית. מציעה מעל 40,000 חלקים באיכות גבוהה — התלייה, היגוי, בלימה ומערכת ההנעה. ידועה בקו MEYLE-HD המחוזק.", founded: "1958", country: "גרמניה", color: "#0057a8"
+  "MEYLE": { name: "Meyle", description: "יצרנית חלקי חילוף גרמנית. מציעה מעל 40,000 חלקים באיכות גבוהה — התלייה, היגוי, בלימה ומערכת ההנעה. ידועה בקו MEYLE-HD המחוזק.", founded: "1958", country: "גרמניה", color: "#0057a8",
+  highlights: ["\u05e7\u05d5 MEYLE-HD \u2014 \u05d7\u05dc\u05e7\u05d9\u05dd \u05de\u05d7\u05d5\u05d6\u05e7\u05d9\u05dd \u05de\u05e2\u05d1\u05e8 \u05dc\u05de\u05e7\u05d5\u05e8","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u05d5\u05de\u05e2\u05dc\u05d4 \u2014 \u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05de\u05d5\u05d2\u05d1\u05e8\u05ea","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea \u05dc\u05db\u05dc \u05d7\u05dc\u05e7","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05d3\u05e8\u05d9\u05e9\u05d4 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd"]
   },
   "SKF": { name: "SKF", description: "מובילה עולמית במיסבים ומערכות סיבוב. מייצרת מיסבי גלגלים, ערכות טיימינג ורכיבי הנעה לתעשיית הרכב.", founded: "1907", country: "שוודיה", color: "#003087"
   },
-  "NGK": { name: "NGK", description: "יצרנית המצתים הגדולה בעולם. ספקית ציוד מקורי לכל יצרניות הרכב הגדולות. מייצרת גם חיישני חמצן וסלילי הצתה.", founded: "1936", country: "יפן", color: "#cc0000"
+  "NGK": { name: "NGK", description: "יצרנית המצתים הגדולה בעולם. ספקית ציוד מקורי לכל יצרניות הרכב הגדולות. מייצרת גם חיישני חמצן וסלילי הצתה.", founded: "1936", country: "יפן", color: "#cc0000",
+  highlights: ["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea","\u05d4\u05e6\u05ea\u05d4 \u05d9\u05e6\u05d9\u05d1\u05d4 \u05d5\u05d7\u05d9\u05e1\u05db\u05d5\u05df \u05d1\u05d3\u05dc\u05e7","\u05de\u05ea\u05d0\u05d9\u05de\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd"]
   },
   "DENSO": { name: "Denso", description: "ספקית רכיבים יפנית מובילה, חלק מקבוצת Toyota. מתמחה במצתים, מזרקים, מערכות מיזוג, סטרטרים ואלטרנטורים.", founded: "1949", country: "יפן", color: "#003087"
   },
@@ -62,7 +69,8 @@
   },
   "LEMFORDER": { name: "Lemförder", description: "חלק מקבוצת ZF. מובילה עולמית ברכיבי התלייה והיגוי — קצוות הגה, מוטות מייצב, משולשים. ספקית ציוד מקורי.", founded: "1947", country: "גרמניה", color: "#003087"
   },
-  "TEXTAR": { name: "Textar", description: "מותג רפידות בלם מוביל באירופה. חלק מקבוצת TMD Friction. ספקית ציוד מקורי ליצרניות הרכב הגדולות.", founded: "1913", country: "גרמניה", color: "#cc0000"
+  "TEXTAR": { name: "Textar", description: "מותג רפידות בלם מוביל באירופה. חלק מקבוצת TMD Friction. ספקית ציוד מקורי ליצרניות הרכב הגדולות.", founded: "1913", country: "גרמניה", color: "#cc0000",
+  highlights: ["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05dc\u05dc\u05d0 \u05d0\u05e1\u05d1\u05e1\u05d8 \u2014 \u05d1\u05dc\u05d9\u05de\u05d4 \u05e9\u05e7\u05d8\u05d4 \u05dc\u05dc\u05d0 \u05e8\u05e2\u05e9","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd \u05e2\u05dd \u05d0\u05d5\u05e8\u05da \u05d7\u05d9\u05d9\u05dd \u05de\u05d5\u05d0\u05e8\u05da"]
   },
   "ATE": { name: "ATE", description: "מותג מערכות בלימה ותוק. חלק מקבוצת Continental. מייצרת דיסקי בלם, רפידות, נוזלי בלמים וצילינדרים.", founded: "1906", country: "גרמניה", color: "#ffa500"
   },
@@ -299,33 +307,13 @@
   var cleanPrice = productPrice.replace(/[₪\u20aa]/g, '').trim();
   var priceDisplay = cleanPrice ? '&#8362;' + cleanPrice : '';
   if (!priceDisplay && priceEl) priceDisplay = getText(priceEl);
-  // Build brand-only highlights (no store policies like shipping/warranty)
-  var highlights = [];
-  var descSentences = brandData.description ? brandData.description.split('.').filter(function(s) { return s.trim().length > 5; }) : [];
-  // First highlight: brand name + first sentence
-  if (descSentences.length > 0) {
-    highlights.push(brandData.name + ' \u2014 ' + descSentences[0].trim());
-  } else {
-    highlights.push(brandData.name + ' \u2014 \u05d9\u05e6\u05e8\u05df \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1');
-  }
-  // Second highlight: second sentence of description or OEM supplier note
-  if (descSentences.length > 1) {
-    highlights.push(descSentences[1].trim());
-  } else {
-    highlights.push('\u05e1\u05e4\u05e7\u05d9\u05ea \u05e6\u05d9\u05d5\u05d3 \u05de\u05e7\u05d5\u05e8\u05d9 \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9\u05d5\u05ea \u05d4\u05e8\u05db\u05d1');
-  }
-  // Third highlight: country + founded year
-  if (brandData.country && brandData.founded) {
-    highlights.push('\u05de\u05d5\u05e6\u05d0 ' + brandData.country + ' \u2014 \u05de\u05d0\u05d6 ' + brandData.founded);
-  } else if (brandData.country) {
-    highlights.push('\u05de\u05d5\u05e6\u05d0 ' + brandData.country);
-  } else if (descSentences.length > 2) {
-    highlights.push(descSentences[2].trim());
-  }
-  // Fourth highlight: third sentence if available
-  if (descSentences.length > 2 && highlights.length < 4) {
-    highlights.push(descSentences[2].trim());
-  }
+  // Product quality highlights (no company history or store policies)
+  var highlights = brandData.highlights || [
+    '\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1',
+    '\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd',
+    '\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd \u05e2\u05dd \u05d0\u05d5\u05e8\u05da \u05d7\u05d9\u05d9\u05dd \u05de\u05d5\u05d0\u05e8\u05da',
+    '\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05de\u05d9 \u05d4\u05e8\u05db\u05d1 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd'
+  ];
   var highlightsHtml = '';
   for (var hl = 0; hl < highlights.length; hl++) {
   highlightsHtml += '<li>' + highlights[hl] + '</li>';
