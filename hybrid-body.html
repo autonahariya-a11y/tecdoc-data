@@ -1,0 +1,631 @@
+<script>
+(function() {
+  'use strict';
+  function isAutoPartsPage() {
+  if (window.location.pathname.indexOf('/items/') === -1) return false;
+  var allEls = document.getElementsByTagName('*');
+  for (var e = 0; e < allEls.length; e++) {
+    var elCls = (allEls[e].className || '').toString();
+    if (elCls.indexOf('code_item') !== -1) {
+      var elText = (allEls[e].textContent || '').trim();
+      if (elText.length > 0) return true;
+    }
+  }
+  var bodyText = document.body.innerText || '';
+  var contentArea = bodyText.length > 500 ? bodyText.substring(400) : bodyText;
+  if (contentArea.indexOf('\u05de\u05e7"\u05d8') !== -1) return true;
+  if (contentArea.indexOf('\u05de\u05e7\u05f4\u05d8') !== -1) return true;
+  if (contentArea.indexOf('\u05de\u05e7\u05f3\u05d8') !== -1) return true;
+  var bcText = '';
+  var bcEls = document.querySelectorAll('[class*="breadcrumb"], [id*="breadcrumb"]');
+  for (var b = 0; b < bcEls.length; b++) bcText += (bcEls[b].textContent || '');
+  if (bcText.indexOf('\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3') !== -1) return true;
+  return false;
+  }
+  if (!isAutoPartsPage()) return;
+  var BRAND_INFO = {
+  "BREMBO": { name: "Brembo", description: "יצרנית מערכות בלימה מובילה בעולם. מספקת מערכות בלימה ליצרניות הרכב הגדולות וגם לשוק החלפים. ידועה מעולם המירוצים — פורמולה 1, MotoGP ועוד.", founded: "1961", country: "איטליה", color: "#c8102e"
+  },
+  "BOSCH": { name: "Bosch", description: "ספקית חלקי הרכב הגדולה בעולם. מעל 130 שנות ניסיון בתעשיית הרכב. מייצרת מגוון רחב — ממערכות הצתה ועד מערכות בלימה, פילטרים, מצתים וחיישנים.", founded: "1886", country: "גרמניה", color: "#e2000f"
+  },
+  "MANN-FILTER": { name: "MANN-FILTER", description: "מותג הפילטרים המוביל באירופה. חלק מקבוצת MANN+HUMMEL. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM ליצרניות הרכב המובילות.", founded: "1941", country: "גרמניה", color: "#1a4690"
+  },
+  "MAHLE": { name: "Mahle", description: "קבוצת טכנולוגיה בינלאומית. מתמחה ברכיבי מנוע, פילטרים ומערכות תרמיות לרכב. ספקית ציוד מקורי ליצרניות הרכב המובילות בעולם.", founded: "1920", country: "גרמניה", color: "#005b8e"
+  },
+  "VALEO": { name: "Valeo", description: "ספקית ציוד מקורי ליצרני רכב ברחבי העולם. מתמחה במערכות מיזוג, תאורה, מצמדים, מגבים ומערכות חשמל לרכב.", founded: "1923", country: "צרפת", color: "#003087"
+  },
+  "TRW": { name: "TRW", description: "מובילה עולמית במערכות בטיחות לרכב — בלמים, היגוי ומערכות התלייה. כיום חלק מקבוצת ZF. ספקית ציוד מקורי ליצרני הרכב הגדולים.", founded: "1901", country: "גרמניה", color: "#003399"
+  },
+  "FEBI BILSTEIN": { name: "Febi Bilstein", description: "חברה גרמנית עם מעל 175 שנות ניסיון. מתמחה בחלקי חילוף לרכב באיכות OEM — בולמי זעזועים, חלקי פרונט, מערכת קירור ועוד.", founded: "1844", country: "גרמניה", color: "#e8001c"
+  },
+  "MEYLE": { name: "Meyle", description: "יצרנית חלקי חילוף גרמנית. מציעה מעל 40,000 חלקים באיכות גבוהה — התלייה, היגוי, בלימה ומערכת ההנעה. ידועה בקו MEYLE-HD המחוזק.", founded: "1958", country: "גרמניה", color: "#0057a8"
+  },
+  "SKF": { name: "SKF", description: "מובילה עולמית במיסבים ומערכות סיבוב. מייצרת מיסבי גלגלים, ערכות טיימינג ורכיבי הנעה לתעשיית הרכב.", founded: "1907", country: "שוודיה", color: "#003087"
+  },
+  "NGK": { name: "NGK", description: "יצרנית המצתים הגדולה בעולם. ספקית ציוד מקורי לכל יצרניות הרכב הגדולות. מייצרת גם חיישני חמצן וסלילי הצתה.", founded: "1936", country: "יפן", color: "#cc0000"
+  },
+  "DENSO": { name: "Denso", description: "ספקית רכיבים יפנית מובילה, חלק מקבוצת Toyota. מתמחה במצתים, מזרקים, מערכות מיזוג, סטרטרים ואלטרנטורים.", founded: "1949", country: "יפן", color: "#003087"
+  },
+  "SACHS": { name: "Sachs", description: "מותג מוביל בבולמי זעזועים ומערכות מצמד. חלק מקבוצת ZF. ספקית ציוד מקורי ליצרניות הרכב הגדולות באירופה.", founded: "1894", country: "גרמניה", color: "#cc0000"
+  },
+  "LUK": { name: "LuK", description: "מתמחה במערכות מצמד ומערכות הנעה. חלק מקבוצת Schaeffler. ספקית ציוד מקורי — מצמדים, גלגלי תנופה ומערכות גיר.", founded: "1965", country: "גרמניה", color: "#e2000f"
+  },
+  "INA": { name: "INA", description: "חלק מקבוצת Schaeffler. מתמחה במיסבים, ערכות טיימינג, מותחנים וגלגלות. ספקית ציוד מקורי ליצרניות הרכב.", founded: "1946", country: "גרמניה", color: "#e2000f"
+  },
+  "CONTINENTAL": { name: "Continental", description: "חברת טכנולוגיה גרמנית מובילה. מייצרת רצועות טיימינג, רצועות אביזרים, צינורות, חיישנים ומערכות בלימה.", founded: "1871", country: "גרמניה", color: "#ffa500"
+  },
+  "GATES": { name: "Gates", description: "מובילה עולמית ברצועות, צינורות ומערכות הנעה לרכב. מייצרת ערכות טיימינג, רצועות אביזרים ומשאבות מים.", founded: "1911", country: "ארה\"ב", color: "#003087"
+  },
+  "HENGST": { name: "Hengst", description: "יצרנית פילטרים גרמנית מובילה. ספקית ציוד מקורי ליצרניות הרכב הגדולות באירופה. מתמחה בפילטרי שמן, אוויר ומזגן.", founded: "1958", country: "גרמניה", color: "#003087"
+  },
+  "DAYCO": { name: "Dayco", description: "מתמחה במערכות הנעה — רצועות טיימינג, גלגלות, מותחנים ומשאבות מים. ספקית ציוד מקורי ליצרניות רכב גדולות.", founded: "1905", country: "ארה\"ב", color: "#cc0000"
+  },
+  "LEMFORDER": { name: "Lemförder", description: "חלק מקבוצת ZF. מובילה עולמית ברכיבי התלייה והיגוי — קצוות הגה, מוטות מייצב, משולשים. ספקית ציוד מקורי.", founded: "1947", country: "גרמניה", color: "#003087"
+  },
+  "TEXTAR": { name: "Textar", description: "מותג רפידות בלם מוביל באירופה. חלק מקבוצת TMD Friction. ספקית ציוד מקורי ליצרניות הרכב הגדולות.", founded: "1913", country: "גרמניה", color: "#cc0000"
+  },
+  "ATE": { name: "ATE", description: "מותג מערכות בלימה ותוק. חלק מקבוצת Continental. מייצרת דיסקי בלם, רפידות, נוזלי בלמים וצילינדרים.", founded: "1906", country: "גרמניה", color: "#ffa500"
+  },
+  "KNECHT": { name: "Knecht", description: "מותג פילטרים של קבוצת Mahle. מייצרת פילטרי שמן, אוויר, מזגן וסולר באיכות OEM.", founded: "1927", country: "גרמניה", color: "#005b8e"
+  },
+  "NIPPARTS": { name: "Nipparts", description: "מתמחה בחלקי חילוף לרכבים אסייתיים — טויוטה, הונדה, ניסן, מאזדה, יונדאי וקיה. מגוון רחב של פילטרים, בלמים ומתלים.", founded: "1975", country: "הולנד", color: "#cc0000"
+  },
+  "BLUE PRINT": { name: "Blue Print", description: "מותג חלקי חילוף לרכבים אסייתיים ואמריקאיים. חלק מקבוצת Bilstein. מגוון של למעלה מ-35,000 חלקים.", founded: "1997", country: "גרמניה", color: "#003087"
+  },
+  "MOTUL": { name: "Motul", description: "יצרנית שמנים וחומרי סיכה צרפתית מובילה. ידועה מעולם המירוצים — 24 שעות של לה-מאן, MotoGP ועוד. מציעה שמנים סינתטיים מתקדמים.", founded: "1853", country: "צרפת", color: "#cc0000"
+  },
+  "CASTROL": { name: "Castrol", description: "מותג שמנים בינלאומי מוביל. חלק מקבוצת BP. מציע שמני מנוע, גיר ונוזלי בלמים. שותף רשמי של יצרני רכב רבים.", founded: "1899", country: "בריטניה", color: "#009900"
+  },
+  "LIQUI MOLY": { name: "Liqui Moly", description: "יצרנית שמנים ותוספי דלק גרמנית. ידועה באיכות הגבוהה ובמגוון הרחב — שמני מנוע, תוספים, חומרי טיפוח ושמנים מיוחדים.", founded: "1957", country: "גרמניה", color: "#cc0000"
+  },
+  "MOBIL": { name: "Mobil", description: "מותג שמנים בינלאומי מוביל. חלק מקבוצת ExxonMobil. סדרת Mobil 1 היא מהשמנים הסינתטיים הנמכרים בעולם.", founded: "1911", country: "ארה\"ב", color: "#cc0000"
+  },
+  "OSRAM": { name: "Osram", description: "מובילה עולמית בתאורה לרכב. מייצרת נורות הלוגן, LED, קסנון ונורות איתות. ספקית ציוד מקורי ליצרניות הרכב.", founded: "1919", country: "גרמניה", color: "#ffa500"
+  },
+  "PHILIPS": { name: "Philips", description: "מותג תאורה בינלאומי מוביל. מייצרת נורות רכב — הלוגן, LED וקסנון. ידועה בסדרות X-tremeVision ו-WhiteVision.", founded: "1891", country: "הולנד", color: "#0096d6"
+  },
+  "SWAG": { name: "Swag", description: "מותג חלקי חילוף של קבוצת Bilstein Group. מתמחה בחלקים לרכבים אירופאיים — VW, BMW, Mercedes, Audi. מעל 40,000 פריטים.", founded: "1954", country: "גרמניה", color: "#003087"
+  },
+  "TOPRAN": { name: "Topran", description: "יצרנית חלקי חילוף גרמנית. מתמחה בחלקים לרכבים אירופאיים — מערכת קירור, חשמל, פרונט ומנוע.", founded: "1996", country: "גרמניה", color: "#003087"
+  },
+  "RIDEX": { name: "Ridex", description: "מותג חלקי חילוף במחיר תחרותי. מציע מגוון רחב של חלקים — בלמים, פילטרים, מתלים וחלקי מנוע. יחס מחיר-איכות טוב.", founded: "", country: "", color: "#003087"
+  },
+  "HI-Q": { name: "Hi-Q", description: "מותג רפידות בלם של קבוצת Sangsin Brake הקוריאנית. ספקית ציוד מקורי ליצרניות יונדאי וקיה. מציעה רפידות בלם באיכות גבוהה במחיר תחרותי.", founded: "1975", country: "קוריאה", color: "#e2000f"
+  },
+  "ICER": { name: "Icer", description: "יצרנית רפידות בלם ספרדית מובילה. ספקית ציוד מקורי ליצרניות רכב אירופאיות. עומדת בתקני ECE R90 ובדרישות הבטיחות המחמירות.", founded: "1963", country: "ספרד", color: "#003087"
+  },
+  "SANGSIN": { name: "Sangsin Brake", description: "יצרנית מערכות בלימה קוריאנית. מפעילה את מותגי Hi-Q ו-Hardron. ספקית ציוד מקורי ליצרניות יונדאי וקיה.", founded: "1975", country: "קוריאה", color: "#cc0000"
+  },
+  "MONTECCHIO": { name: "Montecchio", description: "אהרון מונטקיו בע\"מ — החברה המובילה בשוק חלקי החילוף לרכב בישראל מאז 1947. חלק מקבוצת Kogol (מפיצי מישלן בישראל) וקבוצת Mayer Group. מייבאת ומשווקת פילטרים, מערכות בלימה, התלייה, מצמדים ובולמי זעזועים.", founded: "1947", country: "ישראל", color: "#1a3c6e"
+  }
+  };
+  function getText(el) {
+  return el ? (el.textContent || el.innerText || '').trim() : '';
+  }
+  var titleEl = document.getElementById('item_current_title');
+  if (!titleEl) {
+  titleEl = document.querySelector('[id*="item_title"], [id*="product_title"]');
+  }
+  var h1El = titleEl ? titleEl.getElementsByTagName('h1')[0] : null;
+  var productTitle = h1El ? getText(h1El) : '';
+  if (!productTitle) {
+  var itemShow = document.getElementById('item_show');
+  if (itemShow) {
+    var h1s = itemShow.getElementsByTagName('h1');
+    if (h1s.length) productTitle = getText(h1s[0]);
+  }
+  }
+  if (!productTitle) productTitle = document.title.split('|')[0].trim();
+  var priceEl = null;
+  var allSpans = document.getElementsByTagName('span');
+  for (var i = 0; i < allSpans.length; i++) {
+  var cls = allSpans[i].className || '';
+  if (cls.indexOf('price') !== -1 && getText(allSpans[i]).indexOf('₪') !== -1) {
+    priceEl = allSpans[i];
+    break;
+  }
+  }
+  if (!priceEl) {
+  var allDivs = document.getElementsByTagName('div');
+  for (var d = 0; d < allDivs.length; d++) {
+    var dcls = allDivs[d].className || '';
+    if (dcls.indexOf('price') !== -1 && getText(allDivs[d]).indexOf('₪') !== -1) {
+      priceEl = allDivs[d];
+      break;
+    }
+  }
+  }
+  var productPrice = priceEl ? getText(priceEl).replace(/[^\d,.]/g, '').trim() : '';
+  if (!productPrice && priceEl) productPrice = getText(priceEl);
+  var skuValue = '';
+  var montecchioMatch = productTitle.match(/\b(\d{4,5}[A-Za-z])\b/);
+  if (montecchioMatch) {
+  skuValue = montecchioMatch[1];
+  }
+  if (!skuValue) {
+  var titleParts = productTitle.split('|');
+  for (var tp = titleParts.length - 1; tp >= 0; tp--) {
+    var part = titleParts[tp].trim();
+    var skuPattern = part.match(/([A-Za-z][A-Za-z0-9\-]{3,}[0-9][A-Za-z0-9]*)/);
+    if (skuPattern) {
+      var candidate = skuPattern[1].trim();
+      if (/\d/.test(candidate) && /[A-Za-z]/.test(candidate) && !/[\u05d0-\u05ea]{3}/.test(candidate)) {
+        var bKeys = Object.keys(BRAND_INFO);
+        for (var bki = 0; bki < bKeys.length; bki++) {
+          if (candidate.toUpperCase().indexOf(bKeys[bki]) === 0) {
+            candidate = candidate.substring(bKeys[bki].length).trim();
+            break;
+          }
+        }
+        if (candidate) { skuValue = candidate; break; }
+      }
+    }
+  }
+  }
+  if (!skuValue) {
+  var allEls2 = document.getElementsByTagName('*');
+  for (var ce = 0; ce < allEls2.length; ce++) {
+    var ceCls = (allEls2[ce].className || '').toString();
+    if (ceCls.indexOf('code_item') !== -1) {
+      var ceText = getText(allEls2[ce]).replace(/\u05de\u05e7["\u05d9\u05d8:\u05f4]+\s*/g, '').trim();
+      if (ceText) { skuValue = ceText; break; }
+    }
+  }
+  }
+  var imageUrls = [];
+  var carouselEl = document.getElementById('item_show_carousel') || document.getElementById('item_show');
+  var imgSource = carouselEl || document;
+  var allImgs = imgSource.getElementsByTagName('img');
+  for (var im = 0; im < allImgs.length; im++) {
+  var src = allImgs[im].src || allImgs[im].getAttribute('data-src') || '';
+  if (src && src.indexOf('http') === 0) {
+    var w = allImgs[im].naturalWidth || allImgs[im].width || 0;
+    var lsrc = src.toLowerCase();
+    if (lsrc.indexOf('logo') === -1 && lsrc.indexOf('icon') === -1 && 
+        lsrc.indexOf('banner') === -1 && lsrc.indexOf('spotlight') === -1 &&
+        lsrc.indexOf('.svg') === -1 && lsrc.indexOf('placeholder') === -1) {
+      if (imageUrls.indexOf(src) === -1) imageUrls.push(src);
+    }
+  }
+  }
+  if (imageUrls.length === 0) {
+  var fallbackImgs = document.getElementsByTagName('img');
+  for (var fi = 0; fi < fallbackImgs.length; fi++) {
+    var fsrc = fallbackImgs[fi].src || '';
+    if (fsrc && (fsrc.indexOf('cloudfront') !== -1 || fsrc.indexOf('konimbo') !== -1) &&
+        fsrc.indexOf('logo') === -1 && fsrc.indexOf('icon') === -1) {
+      if (imageUrls.indexOf(fsrc) === -1) imageUrls.push(fsrc);
+    }
+  }
+  }
+  // Original cart button will be found and moved later (after hybrid HTML is built)
+  var breadcrumbItems = [];
+  var bcLinks = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a');
+  for (var bc = 0; bc < bcLinks.length; bc++) {
+  breadcrumbItems.push({ text: getText(bcLinks[bc]), href: bcLinks[bc].href });
+  }
+  var detectedBrand = ''; // no default — detect from title
+  var titleUpper = productTitle.toUpperCase();
+  var brandKeys = Object.keys(BRAND_INFO);
+  for (var bk = 0; bk < brandKeys.length; bk++) {
+  if (titleUpper.indexOf(brandKeys[bk]) !== -1) {
+    detectedBrand = brandKeys[bk];
+    break;
+  }
+  }
+  if (!detectedBrand) {
+  if (titleUpper.indexOf('MONTECCHIO') !== -1 || titleUpper.indexOf('AARON') !== -1 ||
+      productTitle.indexOf('\u05de\u05d5\u05e0\u05d8\u05e7\u05d9\u05d5') !== -1 ||
+      productTitle.indexOf('\u05d0\u05d4\u05e8\u05d5\u05df') !== -1) {
+    detectedBrand = 'MONTECCHIO';
+  }
+  }
+  if (!detectedBrand && skuValue) {
+  if (/^\d{4,5}[A-Za-z]$/.test(skuValue.trim())) {
+    detectedBrand = 'MONTECCHIO';
+  }
+  }
+  var brandData = BRAND_INFO[detectedBrand] || { name: detectedBrand || '\u05d9\u05e6\u05e8\u05df', description: '\u05d9\u05e6\u05e8\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1. \u05de\u05e1\u05e4\u05e7 \u05e4\u05ea\u05e8\u05d5\u05e0\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05dc\u05e9\u05d5\u05e7 \u05d4\u05d7\u05dc\u05e4\u05d9\u05dd.', founded: '', country: '', color: '#1B4E91'
+  };
+  var productSubtitle = '';
+  var hebrewWords = productTitle.match(/[\u05d0-\u05ea]+(?:\s+[\u05d0-\u05ea]+)*/g);
+  if (hebrewWords && hebrewWords.length > 0) {
+  productSubtitle = hebrewWords[0].trim();
+  if (hebrewWords.length > 1 && productSubtitle.split(' ').length < 2) {
+    productSubtitle = hebrewWords[0].trim() + ' ' + hebrewWords[1].trim();
+  }
+  }
+  productSubtitle = productSubtitle.replace(/\s*\|\s*/g, '').trim();
+  if (productSubtitle === productTitle.trim()) productSubtitle = '';
+  var categoryLabel = '';
+  if (breadcrumbItems.length >= 2) {
+  var bcLabel = breadcrumbItems[breadcrumbItems.length - 2].text || '';
+  var bcHref = breadcrumbItems[breadcrumbItems.length - 2].href || '';
+  if (bcLabel && bcHref.indexOf('#') === -1 && bcHref !== window.location.href) {
+    categoryLabel = bcLabel;
+  }
+  }
+  var targetInsertEl = document.getElementById('item_show') ||
+  document.getElementById('item_details') ||
+  document.getElementById('item_content') ||
+  document.getElementById('content_area');
+  if (!targetInsertEl) {
+  var mains = document.getElementsByTagName('main');
+  if (mains.length) targetInsertEl = mains[0];
+  }
+  if (!targetInsertEl) return; // Can't find insertion point
+  var tecdocWidget = document.getElementById('tecdoc-widget');
+  var svgPlaceholder = '<svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+  '<rect width="400" height="400" fill="#f7f8fa"/>' +
+  '<g transform="translate(200, 185)">' +
+  '<path d="M-95,-55 Q-100,-55 -100,-45 L-100,45 Q-100,55 -90,55 L90,55 Q100,55 100,45 L100,-45 Q100,-55 95,-55 Z" fill="#3a3a3a" stroke="#2a2a2a" stroke-width="2"/>' +
+  '<path d="M-85,-45 Q-88,-45 -88,-38 L-88,38 Q-88,45 -82,45 L82,45 Q88,45 88,38 L88,-38 Q88,-45 85,-45 Z" fill="#5a5a5a"/>' +
+  '<line x1="-60" y1="-30" x2="-60" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+  '<line x1="-20" y1="-30" x2="-20" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+  '<line x1="20" y1="-30" x2="20" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+  '<line x1="60" y1="-30" x2="60" y2="30" stroke="#4a4a4a" stroke-width="2"/>' +
+  '<rect x="-70" y="-8" width="30" height="3" rx="1.5" fill="' + brandData.color + '" opacity="0.6"/>' +
+  '</g>' +
+  '<rect x="130" y="280" width="140" height="32" rx="6" fill="' + brandData.color + '"/>' +
+  '<text x="200" y="302" text-anchor="middle" fill="#fff" font-size="14" font-weight="900" font-family="Arial, sans-serif" letter-spacing="2">' + brandData.name.toUpperCase() + '</text>' +
+  '</svg>';
+  var mainImageHtml = '';
+  var thumbnailsHtml = '';
+  if (imageUrls.length > 0) {
+  mainImageHtml = '<img src="' + imageUrls[0] + '" alt="' + productTitle + '" id="an-main-img">';
+  for (var ti = 0; ti < Math.min(imageUrls.length, 5); ti++) {
+    var activeClass = ti === 0 ? ' active' : '';
+    thumbnailsHtml += '<div class="image-thumb' + activeClass + '" data-an-img="' + imageUrls[ti] + '">' +
+      '<img src="' + imageUrls[ti] + '" alt="תמונה ' + (ti+1) + '">' +
+      '</div>';
+  }
+  } else {
+  mainImageHtml = svgPlaceholder;
+  thumbnailsHtml = '<div class="image-thumb active">' + svgPlaceholder + '</div>';
+  }
+  var stickyThumbHtml = imageUrls.length > 0
+  ? '<img src="' + imageUrls[0] + '" alt="' + productTitle + '">'
+  : '<svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="4" fill="#f0f0f0"/><rect x="5" y="10" width="30" height="20" rx="4" fill="' + brandData.color + '" opacity="0.2"/><text x="20" y="23" text-anchor="middle" fill="' + brandData.color + '" font-size="5" font-weight="900" font-family="Arial">' + brandData.name.toUpperCase().substring(0,6) + '</text></svg>';
+  var breadcrumbHtml = '';
+  if (breadcrumbItems.length > 0) {
+  for (var bci = 0; bci < breadcrumbItems.length; bci++) {
+    breadcrumbHtml += '<a href="' + breadcrumbItems[bci].href + '">' + breadcrumbItems[bci].text + '</a><span>\u203a</span>';
+  }
+  } else {
+  breadcrumbHtml = '<a href="/">\u05d3\u05e3 \u05d4\u05d1\u05d9\u05ea</a><span>\u203a</span>' +
+    '<a href="#">\u05d7\u05dc\u05e7\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd</a><span>\u203a</span>';
+  }
+  breadcrumbHtml += '<span>' + productTitle.substring(0, 60) + '</span>';
+  var cleanPrice = productPrice.replace(/[₪\u20aa]/g, '').trim();
+  var priceDisplay = cleanPrice ? '&#8362;' + cleanPrice : '';
+  if (!priceDisplay && priceEl) priceDisplay = getText(priceEl);
+  var highlights = brandData.highlights || [
+  brandData.name + ' \u2014 ' + (brandData.description ? brandData.description.split('.')[0] : '\u05d9\u05e6\u05e8\u05df \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1'),
+  '\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd',
+  '\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de',
+  '\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5'
+  ];
+  var highlightsHtml = '';
+  for (var hl = 0; hl < highlights.length; hl++) {
+  highlightsHtml += '<li>' + highlights[hl] + '</li>';
+  }
+  var cartSvg = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
+  var cartSvgSm = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
+  var html = '';
+  html += '<nav class="an-breadcrumb">';
+  html += '<div class="an-breadcrumb-inner">' + breadcrumbHtml + '</div>';
+  html += '</nav>';
+  html += '<div class="an-container">';
+  html += '<div class="product-layout" id="an-product-main">';
+  html += '<div class="product-image-section">';
+  html += '<div class="product-image-main">';
+  html += mainImageHtml;
+  html += '</div>';
+  html += '<div class="image-thumbnails">' + thumbnailsHtml + '</div>';
+  html += '</div>'; // end product-image-section
+  html += '<div class="product-info">';
+  html += '<div class="brand-badge">';
+  html += '<span class="brand-badge-logo" style="background:' + brandData.color + '">' + brandData.name.toUpperCase().substring(0, 8) + '</span>';
+  html += '</div>';
+  html += '<h1 class="product-title">' + productTitle + '</h1>';
+  html += '<div class="product-subtitle">' + productSubtitle + '</div>';
+  html += '<div class="product-meta">';
+  html += '</div>';
+  html += '<div class="stock-indicator">';
+  html += '<span class="stock-dot"></span>';
+  html += '\u05d1\u05de\u05dc\u05d0\u05d9';
+  html += '</div>';
+  html += '<div class="divider"></div>';
+  html += '<div class="price-section">';
+  html += '<div class="price-main">' + priceDisplay + '</div>';
+  html += '<div class="price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2\u05f3\u05de</div>';
+  html += '</div>';
+  // Placeholder for original Konimbo cart elements (will be moved here after build)
+  html += '<div id="an-cart-area"></div>';
+  html += '<div class="sold-by">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
+  html += '<div class="trust-box">';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDE9A</span><span>\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5</span></div>';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDEE1\uFE0F</span><span>\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de</span></div>';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83C\uDFC6</span><span>\u05de\u05d5\u05e8\u05e9\u05d9\u05dd \u05de\u05e9\u05e8\u05d3 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4</span></div>';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDD12</span><span>\u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d5\u05d1\u05d8\u05d7 \u2014 SSL \u05de\u05d5\u05e6\u05e4\u05df</span></div>';
+  html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDCB3</span><span>\u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05ea\u05e9\u05dc\u05d5\u05de\u05d9\u05dd \u05d1\u05e7\u05d5\u05e4\u05d4</span></div>';
+  html += '</div>'; // trust-box
+  html += '<div class="highlights-box open" id="an-highlights-box">';
+  html += '<div class="highlights-header" id="an-highlights-header">';
+  html += '<span class="highlights-icon">&#10022;</span>';
+  html += '<span class="highlights-title">\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd, \u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05e0\u05d5\u05d7\u05d5\u05ea.</span>';
+  html += '<svg class="highlights-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
+  html += '</div>';
+  html += '<div class="highlights-content">';
+  html += '<div class="highlights-inner"><ul>' + highlightsHtml + '</ul></div>';
+  html += '</div>';
+  html += '</div>'; // highlights-box
+  html += '</div>'; // end product-info
+  html += '<div class="desc-section-wrap">';
+  html += '<div class="desc-section">';
+  html += '<h2 class="desc-heading">\u05ea\u05d9\u05d0\u05d5\u05e8</h2>';
+  html += '<div class="specs-table" id="an-specs-table">';
+  if (brandData.name && brandData.name !== '\u05d9\u05e6\u05e8\u05df') {
+  html += '<div class="specs-row"><div class="specs-label">\u05d9\u05e6\u05e8\u05df</div><div class="specs-value">' + brandData.name + '</div></div>';
+  }
+  if (skuValue) {
+  html += '<div class="specs-row"><div class="specs-label">\u05de\u05e7\u05f3\u05d8</div><div class="specs-value">' + skuValue + '</div></div>';
+  }
+  if (categoryLabel) {
+  html += '<div class="specs-row"><div class="specs-label">\u05e7\u05d8\u05d2\u05d5\u05e8\u05d9\u05d4</div><div class="specs-value">' + categoryLabel + '</div></div>';
+  }
+  html += '<div class="specs-row"><div class="specs-label">\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea</div><div class="specs-value">3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de</div></div>';
+  html += '</div>'; // specs-table
+  html += '</div>'; // desc-section
+  html += '<div class="brand-section">';
+  html += '<div class="brand-section-header">';
+  var bc = brandData.color || '#1B4E91';
+  var brandAbbr = brandData.name.toUpperCase();
+  if (brandAbbr.length > 5) brandAbbr = brandAbbr.substring(0, 5);
+  var abbrSize = brandAbbr.length > 4 ? '10' : (brandAbbr.length > 3 ? '11' : '13');
+  html += '<div class="brand-logo-box" style="background:' + bc + ';display:flex;align-items:center;justify-content:center;border-radius:8px">' +
+  '<span style="color:#fff;font-size:' + abbrSize + 'px;font-weight:900;letter-spacing:0.5px;font-family:Arial,Helvetica,sans-serif;line-height:1">' + brandAbbr + '</span></div>';
+  html += '<div class="brand-section-info">';
+  html += '<h3>' + brandData.name + '</h3>';
+  html += '<span>' + (brandData.country ? brandData.country + (brandData.founded ? ', ' + brandData.founded : '') : '') + '</span>';
+  html += '</div>';
+  html += '</div>';
+  html += '<p style="font-size:13px;color:#666;line-height:1.6;">' + brandData.description + '</p>';
+  html += '</div>'; // brand-section
+  html += '<div class="an-tecdoc-wrap" id="an-tecdoc-wrap"></div>';
+  html += '</div>'; // end desc-section-wrap
+  html += '</div>'; // end product-layout
+  html += '</div>'; // end container
+  var wrapper = document.createElement('div');
+  wrapper.id = 'an-product-redesign';
+  wrapper.innerHTML = html;
+  targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
+
+  // Move original Konimbo cart elements into our hybrid layout
+  // This preserves jQuery event handlers so the cart actually works
+  var cartMoved = false;
+  function findOrigCartLink() {
+    var allAnchors = document.getElementsByTagName('a');
+    for (var ca = 0; ca < allAnchors.length; ca++) {
+      var aText = (allAnchors[ca].textContent || '').trim();
+      if (aText.indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1 ||
+          aText.indexOf('\u05d4\u05d5\u05e1\u05e3') !== -1) {
+        // Make sure it's NOT inside our redesign or sticky bar
+        var isOurs = false;
+        var pEl = allAnchors[ca].parentElement;
+        while (pEl) {
+          if (pEl.id === 'an-product-redesign' || pEl.id === 'an-sticky-bar') { isOurs = true; break; }
+          pEl = pEl.parentElement;
+        }
+        if (!isOurs) return allAnchors[ca];
+      }
+    }
+    return null;
+  }
+  function moveKonimboCart() {
+    if (cartMoved) return true;
+    var cartArea = document.getElementById('an-cart-area');
+    if (!cartArea) return false;
+    var origCartLink = findOrigCartLink();
+    if (!origCartLink) return false;
+    // Find the quantity controls near the cart link
+    var qtyInput = null;
+    var searchEl = origCartLink.parentElement;
+    for (var up = 0; up < 5 && searchEl; up++) {
+      var inputs = searchEl.querySelectorAll('input[type="number"], input[type="text"]');
+      for (var qi = 0; qi < inputs.length; qi++) {
+        var inp = inputs[qi];
+        // Skip search/email/password inputs; we want the quantity spinbox
+        if (inp.name && (inp.name.indexOf('search') !== -1 || inp.name.indexOf('email') !== -1)) continue;
+        if (inp.type === 'text' && inp.readOnly) { qtyInput = inp; break; }
+        if (inp.type === 'number') { qtyInput = inp; break; }
+      }
+      if (qtyInput) break;
+      searchEl = searchEl.parentElement;
+    }
+    // Build wrapper
+    var wrapper = document.createElement('div');
+    wrapper.className = 'an-konimbo-cart';
+    // Move quantity controls
+    if (qtyInput) {
+      var qtyContainer = qtyInput.parentElement;
+      if (qtyContainer) {
+        var qtyWrap = document.createElement('div');
+        qtyWrap.className = 'an-qty-wrap';
+        qtyWrap.appendChild(qtyContainer);
+        wrapper.appendChild(qtyWrap);
+      }
+    }
+    // Move the cart link itself
+    var btnWrap = document.createElement('div');
+    btnWrap.className = 'an-cart-btn-wrap';
+    btnWrap.appendChild(origCartLink);
+    wrapper.appendChild(btnWrap);
+    cartArea.appendChild(wrapper);
+    cartMoved = true;
+    return true;
+  }
+  // Fallback: if we can't move, create a proxy button that clicks the original
+  function createFallbackCart() {
+    if (cartMoved) return;
+    var cartArea = document.getElementById('an-cart-area');
+    if (!cartArea || cartArea.children.length > 0) return;
+    var origCartLink = findOrigCartLink();
+    // Create styled proxy button
+    var proxyBtn = document.createElement('a');
+    proxyBtn.id = 'an-buy-btn';
+    proxyBtn.href = '#';
+    proxyBtn.innerHTML = cartSvg + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4';
+    proxyBtn.style.cssText = 'flex:1;background:#1B4E91;color:#fff;font-size:16px;font-weight:700;border-radius:8px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-family:Heebo,sans-serif';
+    proxyBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      if (origCartLink) {
+        origCartLink.click();
+      } else {
+        // Last resort: try to find any cart link
+        var fl = findOrigCartLink();
+        if (fl) fl.click();
+      }
+    });
+    var wrap = document.createElement('div');
+    wrap.style.cssText = 'display:flex;gap:10px;align-items:stretch;margin-bottom:8px';
+    wrap.appendChild(proxyBtn);
+    cartArea.appendChild(wrap);
+  }
+  if (!moveKonimboCart()) {
+    setTimeout(function() { if (!moveKonimboCart()) setTimeout(function() { if (!moveKonimboCart()) setTimeout(function() { moveKonimboCart() || createFallbackCart(); }, 2000); }, 1000); }, 500);
+  }
+
+  function moveTecDoc() {
+  var tw = document.getElementById('tecdoc-widget');
+  var wrap = document.getElementById('an-tecdoc-wrap');
+  if (tw && wrap && !wrap.children.length) {
+    wrap.appendChild(tw);
+    tw.style.display = 'block';
+    return true;
+  }
+  return false;
+  }
+  if (!moveTecDoc()) {
+  setTimeout(moveTecDoc, 1000);
+  setTimeout(moveTecDoc, 3000);
+  setTimeout(moveTecDoc, 6000);
+  setTimeout(moveTecDoc, 10000);
+  setTimeout(moveTecDoc, 15000);
+  }
+  var bCls = document.body.className || '';
+  if (bCls.indexOf('an-redesigned') === -1) {
+  document.body.className = bCls + (bCls ? ' ' : '') + 'an-redesigned';
+  }
+  var shortTitle = productTitle.length > 30 ? productTitle.substring(0, 30) + '...' : productTitle;
+  var stickyBarHtml = '<div id="an-sticky-bar">' +
+  '<div class="sticky-bar-inner">' +
+  '<div class="sticky-bar-info">' +
+  '<span class="sticky-bar-title">' + shortTitle + '</span>' +
+  '<span class="sticky-bar-price">' + priceDisplay + '</span>' +
+  '</div>' +
+  '<div class="sticky-bar-actions">' +
+  '<button class="btn-primary" id="an-sticky-buy-btn">' + cartSvgSm + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>' +
+  '</div>' +
+  '</div>' +
+  '</div>';
+  var stickyContainer = document.createElement('div');
+  stickyContainer.innerHTML = stickyBarHtml;
+  document.body.appendChild(stickyContainer.firstChild);
+  // Sticky bar buy button — clicks the original Konimbo cart link
+  var stickyBuyBtn = document.getElementById('an-sticky-buy-btn');
+  if (stickyBuyBtn) {
+    stickyBuyBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      // Find the original Konimbo cart link (now inside #an-cart-area)
+      var cartArea = document.getElementById('an-cart-area');
+      if (cartArea) {
+        var origLink = cartArea.querySelector('a');
+        if (origLink) {
+          origLink.click();
+          return;
+        }
+      }
+      // Fallback: find any non-redesign cart link
+      var allA = document.getElementsByTagName('a');
+      for (var sa = 0; sa < allA.length; sa++) {
+        if ((allA[sa].textContent || '').indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
+          var inSticky = false;
+          var p = allA[sa].parentElement;
+          while (p) { if (p.id === 'an-sticky-bar') { inSticky = true; break; } p = p.parentElement; }
+          if (!inSticky) { allA[sa].click(); break; }
+        }
+      }
+    });
+  }
+  var thumbEls = document.querySelectorAll('#an-product-redesign .image-thumb[data-an-img]');
+  var mainImg = document.getElementById('an-main-img');
+  for (var th = 0; th < thumbEls.length; th++) {
+  (function(thumb) {
+    thumb.addEventListener('click', function() {
+      var redesignEl2 = document.getElementById('an-product-redesign');
+      var allThumbs = redesignEl2 ? redesignEl2.querySelectorAll('[data-an-img], .image-thumb') : [];
+      for (var t = 0; t < allThumbs.length; t++) {
+        var cls = allThumbs[t].className;
+        allThumbs[t].className = cls.replace(/\s*active/g, '');
+      }
+      var cls2 = thumb.className;
+      thumb.className = cls2 + ' active';
+      if (mainImg) {
+        mainImg.src = thumb.getAttribute('data-an-img');
+      }
+    });
+  })(thumbEls[th]);
+  }
+  var stickyBar = document.getElementById('an-sticky-bar');
+  var productMainEl = document.getElementById('an-product-main');
+  var stickyVisible = false;
+  function checkSticky() {
+  if (!productMainEl || !stickyBar) return;
+  var rect = productMainEl.getBoundingClientRect();
+  var shouldShow = rect.top < -200;
+  if (shouldShow !== stickyVisible) {
+    stickyVisible = shouldShow;
+    var sbCls = stickyBar.className;
+    if (shouldShow) {
+      if (sbCls.indexOf('visible') === -1) stickyBar.className = sbCls + ' visible';
+    } else {
+      stickyBar.className = sbCls.replace(/\s*visible/g, '');
+    }
+  }
+  }
+  window.addEventListener('scroll', checkSticky, { passive: true });
+  var highlightsHeader = document.getElementById('an-highlights-header');
+  var highlightsBox = document.getElementById('an-highlights-box');
+  if (highlightsHeader && highlightsBox) {
+  highlightsHeader.addEventListener('click', function() {
+    var hcls = highlightsBox.className;
+    if (hcls.indexOf('open') !== -1) {
+      highlightsBox.className = hcls.replace(/\s*open/g, '');
+    } else {
+      highlightsBox.className = hcls + ' open';
+    }
+  });
+  }
+  var descExpandBtn = document.getElementById('an-desc-expand-btn');
+  var descExtra = document.getElementById('an-desc-extra');
+  if (descExpandBtn && descExtra) {
+  descExpandBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var ecls = descExtra.className;
+    var bcls = descExpandBtn.className;
+    var isOpen = ecls.indexOf('open') !== -1;
+    if (isOpen) {
+      descExtra.className = ecls.replace(/\s*open/g, '');
+      descExpandBtn.className = bcls.replace(/\s*expanded/g, '');
+      descExpandBtn.childNodes[0].textContent = '\u05e2\u05d5\u05d3 ';
+    } else {
+      descExtra.className = ecls + ' open';
+      descExpandBtn.className = bcls + ' expanded';
+      descExpandBtn.childNodes[0].textContent = '\u05e4\u05d7\u05d5\u05ea ';
+    }
+  });
+  }
+})();
+</script>

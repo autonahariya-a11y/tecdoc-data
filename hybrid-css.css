@@ -1,0 +1,498 @@
+/* ===================================================================
+   Konimbo Hybrid Product Page CSS
+   All selectors namespaced under #an-product-redesign to avoid
+   conflicts with existing Konimbo styles.
+   =================================================================== */
+
+#an-product-redesign {
+  font-family: 'Heebo', sans-serif;
+  background: #fff;
+  color: #1a1a1a;
+  line-height: 1.6;
+  direction: rtl;
+  -webkit-font-smoothing: antialiased;
+  --primary: #1B4E91;
+  --primary-hover: #153d73;
+  --accent: #329FDA;
+  --green: #22c55e;
+  --red: #ef4444;
+  --text: #1a1a1a;
+  --text-secondary: #666;
+  --text-muted: #999;
+  --border: #e5e7eb;
+  --bg-light: #f7f8fa;
+  --bg-card: #fff;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+  --radius: 8px;
+  --radius-lg: 12px;
+  --max-width: 1200px;
+  box-sizing: border-box;
+}
+
+#an-product-redesign *, #an-product-redesign *::before, #an-product-redesign *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#an-product-redesign a {
+  color: #1B4E91;
+  text-decoration: none;
+}
+#an-product-redesign a:hover { text-decoration: underline; }
+#an-product-redesign button {
+  font-family: 'Heebo', sans-serif;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+#an-product-redesign img { max-width: 100%; display: block; }
+
+/* ===== STICKY BAR ===== */
+#an-sticky-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+  box-shadow: 0 -4px 16px rgba(0,0,0,0.1);
+  z-index: 99999;
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+  padding: 0 16px;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  font-family: 'Heebo', sans-serif;
+  direction: rtl;
+}
+#an-sticky-bar.visible { transform: translateY(0); }
+#an-sticky-bar .sticky-bar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#an-sticky-bar .sticky-bar-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  flex: 1;
+  gap: 1px;
+}
+#an-sticky-bar .sticky-bar-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+}
+#an-sticky-bar .sticky-bar-price {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1a1a1a;
+  white-space: nowrap;
+  line-height: 1.2;
+}
+#an-sticky-bar .sticky-bar-actions { display: flex; align-items: center; flex-shrink: 0; }
+#an-sticky-bar .btn-primary {
+  padding: 0 24px;
+  font-size: 15px;
+  font-weight: 700;
+  height: 44px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+/* ===== BREADCRUMB ===== */
+#an-product-redesign .an-breadcrumb {
+  background: var(--bg-light);
+  padding: 10px 20px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+#an-product-redesign .an-breadcrumb-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+#an-product-redesign .an-breadcrumb a { color: var(--text-secondary); }
+
+/* ===== CONTAINER ===== */
+#an-product-redesign .an-container { max-width: var(--max-width); margin: 0 auto; padding: 0 20px; }
+
+/* ===== PRODUCT LAYOUT ===== */
+#an-product-redesign .product-layout {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 32px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+#an-product-redesign .product-layout > .product-image-section { grid-column: 1; grid-row: 1; }
+#an-product-redesign .product-layout > .product-info { grid-column: 2; grid-row: 1 / 3; }
+#an-product-redesign .product-layout > .desc-section-wrap { grid-column: 1; grid-row: 2; }
+
+@media (max-width: 900px) {
+  #an-product-redesign .product-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  #an-product-redesign .product-layout > .product-image-section { grid-column: 1; grid-row: 1; }
+  #an-product-redesign .product-layout > .product-info { grid-column: 1; grid-row: 2; }
+  #an-product-redesign .product-layout > .desc-section-wrap { grid-column: 1; grid-row: 3; }
+}
+
+/* ===== PRODUCT IMAGE ===== */
+#an-product-redesign .product-image-section { position: relative; }
+#an-product-redesign .product-image-main {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  max-height: 500px;
+}
+#an-product-redesign .product-image-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#an-product-redesign .product-image-main svg { width: 70%; height: 70%; }
+/* image-badge removed */
+#an-product-redesign .image-thumbnails { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+#an-product-redesign .image-thumb {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  background: var(--bg-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  overflow: hidden;
+}
+#an-product-redesign .image-thumb.active,
+#an-product-redesign .image-thumb:hover { border-color: var(--primary); }
+#an-product-redesign .image-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#an-product-redesign .image-thumb svg { width: 40px; height: 40px; }
+
+/* ===== PRODUCT INFO ===== */
+#an-product-redesign .product-info { display: flex; flex-direction: column; gap: 0; }
+#an-product-redesign .brand-badge { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+#an-product-redesign .brand-badge-logo {
+  background: #c8102e;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+#an-product-redesign .brand-badge-cat { font-size: 13px; color: var(--accent); font-weight: 500; }
+#an-product-redesign .product-title { font-size: 22px; font-weight: 700; line-height: 1.35; margin-bottom: 4px; }
+#an-product-redesign .product-subtitle { font-size: 14px; color: var(--text-secondary); margin-bottom: 12px; }
+#an-product-redesign .product-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; font-size: 13px; }
+#an-product-redesign .product-sku { color: var(--text-muted); }
+#an-product-redesign .stock-indicator { display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 500; color: var(--green); margin-bottom: 16px; }
+#an-product-redesign .stock-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); animation: an-pulse-dot 2s infinite; }
+@keyframes an-pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+#an-product-redesign .divider { height: 1px; background: var(--border); margin: 16px 0; }
+#an-product-redesign .price-main { font-size: 32px; font-weight: 800; line-height: 1.2; }
+#an-product-redesign .price-vat { font-size: 13px; color: var(--text-muted); margin-bottom: 4px; }
+#an-product-redesign .delivery-info { font-size: 13px; color: var(--text-secondary); display: flex; align-items: center; gap: 6px; margin-bottom: 16px; }
+#an-product-redesign .delivery-info svg { flex-shrink: 0; }
+
+/* Buy section */
+#an-product-redesign .buy-section { display: flex; gap: 10px; align-items: stretch; margin-bottom: 8px; }
+#an-product-redesign .qty-selector {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+#an-product-redesign .qty-btn {
+  width: 40px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: var(--text-secondary);
+  transition: background 0.15s, color 0.15s;
+  background: #fff;
+}
+#an-product-redesign .qty-btn:hover { background: var(--bg-light); color: var(--text); }
+#an-product-redesign .qty-value {
+  width: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-right: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#an-product-redesign .btn-primary {
+  flex: 1;
+  background: var(--primary);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: var(--radius);
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.2s, transform 0.1s;
+  font-family: 'Heebo', sans-serif;
+  cursor: pointer;
+  border: none;
+}
+#an-product-redesign .btn-primary:hover { background: var(--primary-hover); }
+#an-product-redesign .btn-primary:active { transform: scale(0.98); }
+#an-product-redesign .sold-by { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; }
+
+/* Trust box */
+#an-product-redesign .trust-box { background: var(--bg-light); border-radius: var(--radius-lg); padding: 16px; margin-bottom: 16px; }
+#an-product-redesign .trust-item { display: flex; align-items: center; gap: 10px; padding: 7px 0; font-size: 13px; }
+#an-product-redesign .trust-item:not(:last-child) { border-bottom: 1px solid var(--border); }
+#an-product-redesign .trust-icon { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 18px; }
+
+/* Highlights box */
+#an-product-redesign .highlights-box { border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 16px; }
+#an-product-redesign .highlights-header { display: flex; align-items: center; gap: 10px; padding: 14px 16px; cursor: pointer; transition: background 0.15s; user-select: none; }
+#an-product-redesign .highlights-header:hover { background: var(--bg-light); }
+#an-product-redesign .highlights-icon { width: 36px; height: 36px; background: #329FDA15; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent); font-size: 18px; }
+#an-product-redesign .highlights-title { flex: 1; font-size: 14px; font-weight: 600; }
+#an-product-redesign .highlights-chevron { transition: transform 0.3s; color: var(--text-muted); }
+#an-product-redesign .highlights-box.open .highlights-chevron { transform: rotate(180deg); }
+#an-product-redesign .highlights-content { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+#an-product-redesign .highlights-box.open .highlights-content { max-height: 500px; }
+#an-product-redesign .highlights-inner { padding: 0 16px 16px; }
+#an-product-redesign .highlights-inner ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+#an-product-redesign .highlights-inner li { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+#an-product-redesign .highlights-inner li::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); flex-shrink: 0; margin-top: 7px; }
+
+/* ===== DESCRIPTION SECTION ===== */
+#an-product-redesign .desc-section { margin-bottom: 32px; }
+#an-product-redesign .desc-heading { font-size: 18px; font-weight: 700; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid var(--primary); display: inline-block; }
+#an-product-redesign .specs-table { width: 100%; }
+#an-product-redesign .specs-row { display: flex; padding: 10px 0; font-size: 14px; }
+#an-product-redesign .specs-row:not(:last-child) { border-bottom: 1px solid #f0f0f0; }
+#an-product-redesign .specs-label { width: 160px; flex-shrink: 0; color: var(--text-secondary); }
+#an-product-redesign .specs-value { flex: 1; font-weight: 500; }
+#an-product-redesign .desc-expand { display: flex; align-items: center; gap: 4px; font-size: 14px; color: var(--primary); font-weight: 500; margin-top: 12px; cursor: pointer; padding: 4px 0; background: none; border: none; font-family: 'Heebo', sans-serif; }
+#an-product-redesign .desc-expand:hover { text-decoration: underline; }
+#an-product-redesign .desc-expand svg { transition: transform 0.3s; }
+#an-product-redesign .desc-expand.expanded svg { transform: rotate(180deg); }
+#an-product-redesign .desc-extra { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+#an-product-redesign .desc-extra.open { max-height: 300px; }
+
+/* ===== BRAND SECTION ===== */
+#an-product-redesign .brand-section { background: var(--bg-light); border-radius: var(--radius-lg); padding: 20px; margin-bottom: 32px; }
+#an-product-redesign .brand-section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+#an-product-redesign .brand-logo-box { width: 48px; height: 48px; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden; }
+#an-product-redesign .brand-logo-box svg { width: 48px; height: 48px; }
+#an-product-redesign .brand-section-info h3 { font-size: 16px; font-weight: 700; }
+#an-product-redesign .brand-section-info span { font-size: 13px; color: var(--text-secondary); }
+
+/* ===== TECDOC WIDGET AREA ===== */
+#an-product-redesign .an-tecdoc-wrap { margin-bottom: 40px; }
+#an-product-redesign .an-tecdoc-wrap #tecdoc-widget { display: block !important; }
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  #an-product-redesign .product-title { font-size: 19px; }
+  #an-product-redesign .price-main { font-size: 28px; }
+  #an-sticky-bar .sticky-bar-title { font-size: 12px; }
+  #an-sticky-bar .sticky-bar-price { font-size: 19px; }
+  #an-sticky-bar .btn-primary { padding: 0 20px; font-size: 14px; height: 42px; }
+}
+@media (max-width: 480px) {
+  #an-product-redesign .product-layout { padding-top: 16px; }
+}
+
+/* ===================================================================
+   KONIMBO CONTENT HIDING — active when body has 'an-redesigned' class
+   =================================================================== */
+
+/* Hide original Konimbo product content when our template is active */
+body.an-redesigned #item_show,
+body.an-redesigned #item_details,
+body.an-redesigned #item_content,
+body.an-redesigned .specifications,
+body.an-redesigned #item_show_facebook,
+body.an-redesigned #item_show_carousel,
+body.an-redesigned .item_show_carousel,
+body.an-redesigned .item_container,
+body.an-redesigned #item_info,
+body.an-redesigned .item_main_top,
+body.an-redesigned .item_main_bottom,
+body.an-redesigned #bread_crumbs,
+body.an-redesigned .product-container,
+body.an-redesigned #item_current_title,
+body.an-redesigned .code_item {
+  display: none !important;
+}
+/* item_price, item_quantity, item_add_to_cart are NOT hidden — they must stay functional for the cart */
+
+/* Hide old widget strengths and brand info (replaced by Hybrid) */
+body.an-redesigned .tw-strengths,
+body.an-redesigned #tw-brand-info {
+  display: none !important;
+}
+
+/* Sticky bar: desktop hidden, mobile only */
+@media (min-width: 769px) {
+  #an-sticky-bar {
+    display: none !important;
+  }
+}
+
+/* Ensure our container shows */
+#an-product-redesign {
+  display: block !important;
+}
+
+/* ===================================================================
+   KONIMBO CART ELEMENTS (moved into hybrid layout)
+   Style the ORIGINAL Konimbo cart button & quantity controls
+   =================================================================== */
+
+#an-cart-area {
+  margin-bottom: 8px;
+}
+
+#an-cart-area .an-konimbo-cart {
+  display: flex !important;
+  gap: 10px;
+  align-items: stretch;
+  flex-direction: row-reverse;
+}
+
+/* Quantity wrapper */
+#an-cart-area .an-qty-wrap {
+  display: flex !important;
+  align-items: center;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  height: 48px;
+  direction: ltr;
+}
+
+#an-cart-area .an-qty-wrap * {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+#an-cart-area .an-qty-wrap span,
+#an-cart-area .an-qty-wrap div {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  width: 36px;
+  height: 48px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+#an-cart-area .an-qty-wrap span:hover,
+#an-cart-area .an-qty-wrap div:hover {
+  background: #f0f1f3;
+}
+
+#an-cart-area .an-qty-wrap input {
+  width: 40px !important;
+  height: 48px !important;
+  text-align: center !important;
+  border: none !important;
+  border-left: 1px solid #e5e7eb !important;
+  border-right: 1px solid #e5e7eb !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  font-family: 'Heebo', sans-serif !important;
+  color: #1a1a1a !important;
+  background: #fff !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  outline: none !important;
+  -moz-appearance: textfield !important;
+  -webkit-appearance: none !important;
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+#an-cart-area .an-qty-wrap input::-webkit-inner-spin-button,
+#an-cart-area .an-qty-wrap input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Cart button wrapper — style the original Konimbo <a> */
+#an-cart-area .an-cart-btn-wrap {
+  flex: 1;
+  display: flex !important;
+}
+
+#an-cart-area .an-cart-btn-wrap a {
+  flex: 1;
+  background: #1B4E91 !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  text-decoration: none !important;
+  font-family: 'Heebo', sans-serif !important;
+  cursor: pointer !important;
+  transition: background 0.2s !important;
+  border: none !important;
+  padding: 0 16px !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+#an-cart-area .an-cart-btn-wrap a:hover {
+  background: #153d73 !important;
+  text-decoration: none !important;
+}
+
+#an-cart-area .an-cart-btn-wrap a img {
+  display: none !important; /* hide Konimbo's cart icon, we use our own styling */
+}
