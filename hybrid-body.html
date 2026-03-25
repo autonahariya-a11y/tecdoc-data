@@ -401,16 +401,15 @@
   wrapper.innerHTML = html;
   targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
 
-  // Move original Konimbo cart elements into our hybrid layout
-  // This preserves jQuery event handlers so the cart actually works
-  var cartMoved = false;
+  // Wire up cart button: our styled button triggers click on the ORIGINAL
+  // Konimbo cart link (hidden in #item_show). The original stays in its
+  // DOM position so Konimbo's jQuery event delegation keeps working.
   function findOrigCartLink() {
     var allAnchors = document.getElementsByTagName('a');
     for (var ca = 0; ca < allAnchors.length; ca++) {
       var aText = (allAnchors[ca].textContent || '').trim();
-      if (aText.indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1 ||
-          aText.indexOf('\u05d4\u05d5\u05e1\u05e3') !== -1) {
-        // Make sure it's NOT inside our redesign or sticky bar
+      if (aText.indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
+        // Skip links inside our redesign or sticky bar
         var isOurs = false;
         var pEl = allAnchors[ca].parentElement;
         while (pEl) {
@@ -422,78 +421,82 @@
     }
     return null;
   }
-  function moveKonimboCart() {
-    if (cartMoved) return true;
+  // Make original cart link clickable even though parent is visibility:hidden
+  function setupOrigCart() {
+    var origLink = findOrigCartLink();
+    if (origLink) {
+      // Ensure the original link can receive programmatic clicks
+      origLink.style.visibility = 'visible';
+      origLink.style.position = 'absolute';
+      origLink.style.width = '1px';
+      origLink.style.height = '1px';
+      origLink.style.overflow = 'hidden';
+      origLink.style.opacity = '0.01';
+      origLink.style.pointerEvents = 'auto';
+    }
+    return origLink;
+  }
+  var origCartRef = null;
+  function wireCartButton() {
     var cartArea = document.getElementById('an-cart-area');
-    if (!cartArea) return false;
-    var origCartLink = findOrigCartLink();
-    if (!origCartLink) return false;
-    // Find the quantity controls near the cart link
-    var qtyInput = null;
-    var searchEl = origCartLink.parentElement;
-    for (var up = 0; up < 5 && searchEl; up++) {
-      var inputs = searchEl.querySelectorAll('input[type="number"], input[type="text"]');
-      for (var qi = 0; qi < inputs.length; qi++) {
-        var inp = inputs[qi];
-        // Skip search/email/password inputs; we want the quantity spinbox
-        if (inp.name && (inp.name.indexOf('search') !== -1 || inp.name.indexOf('email') !== -1)) continue;
-        if (inp.type === 'text' && inp.readOnly) { qtyInput = inp; break; }
-        if (inp.type === 'number') { qtyInput = inp; break; }
-      }
-      if (qtyInput) break;
-      searchEl = searchEl.parentElement;
+    if (!cartArea || cartArea.children.length > 0) return false;
+    origCartRef = setupOrigCart();
+    // Build our styled button that proxies to the original
+    var btnHtml = '<div style="display:flex;gap:10px;align-items:stretch;margin-bottom:8px">' +
+      '<a href="#" id="an-buy-btn" style="flex:1;background:#1B4E91;color:#fff;font-size:16px;font-weight:700;border-radius:8px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-family:Heebo,sans-serif;cursor:pointer">' +
+      cartSvg + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</a></div>';
+    cartArea.innerHTML = btnHtml;
+    var buyBtn = document.getElementById('an-buy-btn');
+    if (buyBtn) {
+      buyBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var orig = origCartRef || findOrigCartLink();
+        if (orig) {
+          // Temporarily make original fully visible for the click
+          var prevVis = orig.style.visibility;
+          var prevPos = orig.style.position;
+          var prevW = orig.style.width;
+          var prevH = orig.style.height;
+          var prevOp = orig.style.opacity;
+          orig.style.visibility = 'visible';
+          orig.style.position = 'fixed';
+          orig.style.width = 'auto';
+          orig.style.height = 'auto';
+          orig.style.opacity = '1';
+          orig.style.left = '-9999px';
+          orig.style.top = '-9999px';
+          // Trigger the click
+          orig.click();
+          // Also try jQuery trigger if available
+          if (typeof jQuery !== 'undefined') {
+            try { jQuery(orig).trigger('click'); } catch(jqe) {}
+          }
+          // Restore styles
+          setTimeout(function() {
+            orig.style.visibility = prevVis;
+            orig.style.position = prevPos;
+            orig.style.width = prevW;
+            orig.style.height = prevH;
+            orig.style.opacity = prevOp;
+            orig.style.left = '';
+            orig.style.top = '';
+          }, 100);
+        }
+        // Visual feedback
+        buyBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> \u05e0\u05d5\u05e1\u05e3!';
+        buyBtn.style.background = '#22c55e';
+        var origHtml = cartSvg + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4';
+        setTimeout(function() {
+          buyBtn.innerHTML = origHtml;
+          buyBtn.style.background = '#1B4E91';
+        }, 1500);
+      });
     }
-    // Build wrapper
-    var wrapper = document.createElement('div');
-    wrapper.className = 'an-konimbo-cart';
-    // Move quantity controls
-    if (qtyInput) {
-      var qtyContainer = qtyInput.parentElement;
-      if (qtyContainer) {
-        var qtyWrap = document.createElement('div');
-        qtyWrap.className = 'an-qty-wrap';
-        qtyWrap.appendChild(qtyContainer);
-        wrapper.appendChild(qtyWrap);
-      }
-    }
-    // Move the cart link itself
-    var btnWrap = document.createElement('div');
-    btnWrap.className = 'an-cart-btn-wrap';
-    btnWrap.appendChild(origCartLink);
-    wrapper.appendChild(btnWrap);
-    cartArea.appendChild(wrapper);
-    cartMoved = true;
     return true;
   }
-  // Fallback: if we can't move, create a proxy button that clicks the original
-  function createFallbackCart() {
-    if (cartMoved) return;
-    var cartArea = document.getElementById('an-cart-area');
-    if (!cartArea || cartArea.children.length > 0) return;
-    var origCartLink = findOrigCartLink();
-    // Create styled proxy button
-    var proxyBtn = document.createElement('a');
-    proxyBtn.id = 'an-buy-btn';
-    proxyBtn.href = '#';
-    proxyBtn.innerHTML = cartSvg + ' \u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4';
-    proxyBtn.style.cssText = 'flex:1;background:#1B4E91;color:#fff;font-size:16px;font-weight:700;border-radius:8px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-family:Heebo,sans-serif';
-    proxyBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      if (origCartLink) {
-        origCartLink.click();
-      } else {
-        // Last resort: try to find any cart link
-        var fl = findOrigCartLink();
-        if (fl) fl.click();
-      }
-    });
-    var wrap = document.createElement('div');
-    wrap.style.cssText = 'display:flex;gap:10px;align-items:stretch;margin-bottom:8px';
-    wrap.appendChild(proxyBtn);
-    cartArea.appendChild(wrap);
-  }
-  if (!moveKonimboCart()) {
-    setTimeout(function() { if (!moveKonimboCart()) setTimeout(function() { if (!moveKonimboCart()) setTimeout(function() { moveKonimboCart() || createFallbackCart(); }, 2000); }, 1000); }, 500);
+  if (!wireCartButton()) {
+    setTimeout(function() { if (!wireCartButton()) setTimeout(function() { wireCartButton(); }, 1500); }, 500);
   }
 
   function moveTecDoc() {
@@ -537,25 +540,12 @@
   if (stickyBuyBtn) {
     stickyBuyBtn.addEventListener('click', function(e) {
       e.preventDefault();
-      // Find the original Konimbo cart link (now inside #an-cart-area)
-      var cartArea = document.getElementById('an-cart-area');
-      if (cartArea) {
-        var origLink = cartArea.querySelector('a');
-        if (origLink) {
-          origLink.click();
-          return;
-        }
-      }
-      // Fallback: find any non-redesign cart link
-      var allA = document.getElementsByTagName('a');
-      for (var sa = 0; sa < allA.length; sa++) {
-        if ((allA[sa].textContent || '').indexOf('\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4') !== -1) {
-          var inSticky = false;
-          var p = allA[sa].parentElement;
-          while (p) { if (p.id === 'an-sticky-bar') { inSticky = true; break; } p = p.parentElement; }
-          if (!inSticky) { allA[sa].click(); break; }
-        }
-      }
+      // Click our main buy button which will proxy to the original
+      var buyBtn = document.getElementById('an-buy-btn');
+      if (buyBtn) { buyBtn.click(); return; }
+      // Direct fallback
+      var orig = origCartRef || findOrigCartLink();
+      if (orig) orig.click();
     });
   }
   var thumbEls = document.querySelectorAll('#an-product-redesign .image-thumb[data-an-img]');

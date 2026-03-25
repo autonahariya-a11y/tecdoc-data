@@ -340,8 +340,18 @@
    KONIMBO CONTENT HIDING — active when body has 'an-redesigned' class
    =================================================================== */
 
-/* Hide original Konimbo product content when our template is active */
-body.an-redesigned #item_show,
+/* Hide original Konimbo product content when our template is active.
+   CRITICAL: #item_show is NOT fully hidden — only visually collapsed.
+   The cart <a> inside #item_show MUST stay in the DOM and in its original
+   parent so Konimbo's jQuery delegation keeps working. */
+body.an-redesigned #item_show {
+  height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  visibility: hidden !important;
+}
 body.an-redesigned #item_details,
 body.an-redesigned #item_content,
 body.an-redesigned .specifications,
@@ -358,7 +368,6 @@ body.an-redesigned #item_current_title,
 body.an-redesigned .code_item {
   display: none !important;
 }
-/* item_price, item_quantity, item_add_to_cart are NOT hidden — they must stay functional for the cart */
 
 /* Hide old widget strengths and brand info (replaced by Hybrid) */
 body.an-redesigned .tw-strengths,
@@ -378,121 +387,12 @@ body.an-redesigned #tw-brand-info {
   display: block !important;
 }
 
-/* ===================================================================
-   KONIMBO CART ELEMENTS (moved into hybrid layout)
-   Style the ORIGINAL Konimbo cart button & quantity controls
-   =================================================================== */
-
+/* Cart area placeholder — our styled proxy button lives here */
 #an-cart-area {
   margin-bottom: 8px;
 }
 
-#an-cart-area .an-konimbo-cart {
-  display: flex !important;
-  gap: 10px;
-  align-items: stretch;
-  flex-direction: row-reverse;
-}
-
-/* Quantity wrapper */
-#an-cart-area .an-qty-wrap {
-  display: flex !important;
-  align-items: center;
-  border: 1.5px solid #e5e7eb;
-  border-radius: 8px;
-  overflow: hidden;
-  flex-shrink: 0;
-  height: 48px;
-  direction: ltr;
-}
-
-#an-cart-area .an-qty-wrap * {
-  display: inline-flex !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-#an-cart-area .an-qty-wrap span,
-#an-cart-area .an-qty-wrap div {
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 600;
-  color: #1a1a1a;
-  width: 36px;
-  height: 48px;
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  transition: background 0.15s;
-}
-
-#an-cart-area .an-qty-wrap span:hover,
-#an-cart-area .an-qty-wrap div:hover {
-  background: #f0f1f3;
-}
-
-#an-cart-area .an-qty-wrap input {
-  width: 40px !important;
-  height: 48px !important;
-  text-align: center !important;
-  border: none !important;
-  border-left: 1px solid #e5e7eb !important;
-  border-right: 1px solid #e5e7eb !important;
-  font-size: 15px !important;
-  font-weight: 600 !important;
-  font-family: 'Heebo', sans-serif !important;
-  color: #1a1a1a !important;
-  background: #fff !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  outline: none !important;
-  -moz-appearance: textfield !important;
-  -webkit-appearance: none !important;
-  display: inline-flex !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-#an-cart-area .an-qty-wrap input::-webkit-inner-spin-button,
-#an-cart-area .an-qty-wrap input::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Cart button wrapper — style the original Konimbo <a> */
-#an-cart-area .an-cart-btn-wrap {
-  flex: 1;
-  display: flex !important;
-}
-
-#an-cart-area .an-cart-btn-wrap a {
-  flex: 1;
-  background: #1B4E91 !important;
-  color: #fff !important;
-  font-size: 16px !important;
-  font-weight: 700 !important;
-  border-radius: 8px !important;
-  height: 48px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  gap: 8px !important;
-  text-decoration: none !important;
-  font-family: 'Heebo', sans-serif !important;
-  cursor: pointer !important;
-  transition: background 0.2s !important;
-  border: none !important;
-  padding: 0 16px !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-#an-cart-area .an-cart-btn-wrap a:hover {
+#an-buy-btn:hover {
   background: #153d73 !important;
   text-decoration: none !important;
-}
-
-#an-cart-area .an-cart-btn-wrap a img {
-  display: none !important; /* hide Konimbo's cart icon, we use our own styling */
 }
