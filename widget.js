@@ -16,18 +16,78 @@
   /* How many spec rows to show before "More ▼" */
   var SPECS_VISIBLE = 6;
 
-  /* Specs to HIDE from consumers (technical/catalog data not useful for private buyer) */
-  var HIDDEN_SPECS = [
-    'WVA Number', 'Supplementary Article/Supplementary Info',
-    'Supplementary Article/Info 2', 'Supplementary Article/Info',
-    'for PR number', 'Check Character', 'MAPP',
-    'Packaging length [cm]', 'Packaging width [cm]', 'Packaging height [cm]',
-    'Net Weight [g]', 'Fitting time [min.]', 'Packing Type',
-    'Quantity Unit', 'EAN number'
-  ];
+  /* WHITELIST: Only these specs are shown to consumers, with Hebrew names.
+     Anything NOT in this list is hidden. Whitelist = cleaner for private buyers. */
+  var SPEC_TRANSLATIONS = {
+    'Fitting Position': '\u05de\u05d9\u05e7\u05d5\u05dd \u05d4\u05ea\u05e7\u05e0\u05d4',
+    'Brake System': '\u05de\u05e2\u05e8\u05db\u05ea \u05d1\u05dc\u05d9\u05de\u05d4',
+    'Brake Disc Type': '\u05e1\u05d5\u05d2 \u05d3\u05d9\u05e1\u05e7',
+    'Material': '\u05d7\u05d5\u05de\u05e8',
+    'Surface': '\u05e6\u05d9\u05e4\u05d5\u05d9',
+    'Colour': '\u05e6\u05d1\u05e2',
+    'Filter type': '\u05e1\u05d5\u05d2 \u05e4\u05d9\u05dc\u05d8\u05e8',
+    'Control/Trailing Arm Type': '\u05e1\u05d5\u05d2 \u05d6\u05e8\u05d5\u05e2',
+    'Thickness [mm]': '\u05e2\u05d5\u05d1\u05d9 [\u05de"\u05de]',
+    'Brake Disc Thickness [mm]': '\u05e2\u05d5\u05d1\u05d9 \u05d3\u05d9\u05e1\u05e7 [\u05de"\u05de]',
+    'Minimum thickness [mm]': '\u05e2\u05d5\u05d1\u05d9 \u05de\u05d9\u05e0\u05d9\u05de\u05dc\u05d9 [\u05de"\u05de]',
+    'Width [mm]': '\u05e8\u05d5\u05d7\u05d1 [\u05de"\u05de]',
+    'Width 1 [mm]': '\u05e8\u05d5\u05d7\u05d1 1 [\u05de"\u05de]',
+    'Width 2 [mm]': '\u05e8\u05d5\u05d7\u05d1 2 [\u05de"\u05de]',
+    'Height [mm]': '\u05d2\u05d5\u05d1\u05d4 [\u05de"\u05de]',
+    'Height 1 [mm]': '\u05d2\u05d5\u05d1\u05d4 1 [\u05de"\u05de]',
+    'Height 2 [mm]': '\u05d2\u05d5\u05d1\u05d4 2 [\u05de"\u05de]',
+    'Length [mm]': '\u05d0\u05d5\u05e8\u05da [\u05de"\u05de]',
+    'Length 1 [mm]': '\u05d0\u05d5\u05e8\u05da 1 [\u05de"\u05de]',
+    'Diameter [mm]': '\u05e7\u05d5\u05d8\u05e8 [\u05de"\u05de]',
+    'Diameter 1 [mm]': '\u05e7\u05d5\u05d8\u05e8 1 [\u05de"\u05de]',
+    'Outer Diameter [mm]': '\u05e7\u05d5\u05d8\u05e8 \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9 [\u05de"\u05de]',
+    'Outer Diameter 1 [mm]': '\u05e7\u05d5\u05d8\u05e8 \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9 1 [\u05de"\u05de]',
+    'Inner Diameter [mm]': '\u05e7\u05d5\u05d8\u05e8 \u05e4\u05e0\u05d9\u05de\u05d9 [\u05de"\u05de]',
+    'Inner Diameter 1 [mm]': '\u05e7\u05d5\u05d8\u05e8 \u05e4\u05e0\u05d9\u05de\u05d9 1 [\u05de"\u05de]',
+    'Centering Diameter [mm]': '\u05e7\u05d5\u05d8\u05e8 \u05de\u05e8\u05db\u05d5\u05d6 [\u05de"\u05de]',
+    'Number of Holes': '\u05de\u05e1\u05e4\u05e8 \u05d7\u05d5\u05e8\u05d9\u05dd',
+    'Number of Teeth': '\u05de\u05e1\u05e4\u05e8 \u05e9\u05d9\u05e0\u05d9\u05d9\u05dd',
+    'Belt Width [mm]': '\u05e8\u05d5\u05d7\u05d1 \u05e8\u05e6\u05d5\u05e2\u05d4 [\u05de"\u05de]',
+    'Voltage [V]': '\u05de\u05ea\u05d7 [V]',
+    'Electrode Gap [mm]': '\u05de\u05e8\u05d5\u05d5\u05d7 \u05d0\u05dc\u05e7\u05d8\u05e8\u05d5\u05d3\u05d4 [\u05de"\u05de]',
+    'Thread Size': '\u05d2\u05d5\u05d3\u05dc \u05d4\u05d1\u05e8\u05d2\u05d4',
+    'Spanner Size': '\u05de\u05e4\u05ea\u05d7 \u05d1\u05e8\u05d2\u05d9\u05dd',
+    'Weight [kg]': '\u05de\u05e9\u05e7\u05dc [\u05e7"\u05d2]',
+    'Weight [g]': '\u05de\u05e9\u05e7\u05dc [\u05d2\u05e8\u05dd]',
+    'fulfils ECE norm': '\u05ea\u05e7\u05df ECE',
+    'Quantity': '\u05db\u05de\u05d5\u05ea \u05d1\u05d0\u05e8\u05d9\u05d6\u05d4',
+    'Belts': '\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea',
+    'Pulleys': '\u05d2\u05dc\u05d2\u05dc\u05d5\u05ea',
+    'Charge Type': '\u05e1\u05d5\u05d2 \u05d8\u05e2\u05d9\u05e0\u05d4',
+    'Spark Plug': '\u05e1\u05d5\u05d2 \u05de\u05e6\u05ea',
+    'Spark Position [mm]': '\u05de\u05d9\u05e7\u05d5\u05dd \u05e0\u05d9\u05e6\u05d5\u05e5 [\u05de"\u05de]',
+    'Mounting points diameter [mm]': '\u05e7\u05d5\u05d8\u05e8 \u05e0\u05e7\u05d5\u05d3\u05d5\u05ea \u05d4\u05ea\u05e7\u05e0\u05d4 [\u05de"\u05de]',
+    'Distance of mounting bores [mm]': '\u05de\u05e8\u05d7\u05e7 \u05d1\u05d9\u05df \u05d7\u05d5\u05e8\u05d9 \u05d4\u05ea\u05e7\u05e0\u05d4 [\u05de"\u05de]',
+    'Quality/ Grade': '\u05d3\u05e8\u05d2\u05ea \u05d0\u05d9\u05db\u05d5\u05ea',
+    'Operating Mode': '\u05d0\u05d5\u05e4\u05df \u05e4\u05e2\u05d5\u05dc\u05d4'
+  };
 
-  /* Specs to show FIRST (priority order) — Fitting Position at the top */
-  var PRIORITY_SPECS = ['Fitting Position'];
+  /* Fitting Position value translations */
+  var POSITION_TRANSLATIONS = {
+    'Front Axle': '\u05e6\u05d9\u05e8 \u05e7\u05d3\u05de\u05d9',
+    'Rear Axle': '\u05e6\u05d9\u05e8 \u05d0\u05d7\u05d5\u05e8\u05d9',
+    'Front Axle Left': '\u05e7\u05d3\u05de\u05d9 \u05e9\u05de\u05d0\u05dc',
+    'Front Axle Right': '\u05e7\u05d3\u05de\u05d9 \u05d9\u05de\u05d9\u05df',
+    'Rear Axle Left': '\u05d0\u05d7\u05d5\u05e8\u05d9 \u05e9\u05de\u05d0\u05dc',
+    'Rear Axle Right': '\u05d0\u05d7\u05d5\u05e8\u05d9 \u05d9\u05de\u05d9\u05df',
+    'Front Axle both sides': '\u05e7\u05d3\u05de\u05d9 \u05e9\u05e0\u05d9 \u05e6\u05d3\u05d3\u05d9\u05dd',
+    'Rear Axle both sides': '\u05d0\u05d7\u05d5\u05e8\u05d9 \u05e9\u05e0\u05d9 \u05e6\u05d3\u05d3\u05d9\u05dd',
+    'both sides': '\u05e9\u05e0\u05d9 \u05e6\u05d3\u05d3\u05d9\u05dd',
+    'Left': '\u05e9\u05de\u05d0\u05dc',
+    'Right': '\u05d9\u05de\u05d9\u05df',
+    'Upper': '\u05e2\u05dc\u05d9\u05d5\u05df',
+    'Lower': '\u05ea\u05d7\u05ea\u05d5\u05df',
+    'Interior': '\u05e4\u05e0\u05d9\u05de\u05d9',
+    'Exterior': '\u05d7\u05d9\u05e6\u05d5\u05e0\u05d9'
+  };
+
+  /* Priority order for display */
+  var PRIORITY_SPECS = ['Fitting Position', 'Brake System', 'Material', 'Brake Disc Type', 'Filter type'];
 
   /* ── Brand info for "About the Manufacturer" section ── */
   var BRAND_INFO = {
@@ -410,7 +470,7 @@
     return name;
   }
 
-  function trSpec(n) { return SPEC_TR[n] || n; }
+  function trSpec(n) { return SPEC_TRANSLATIONS[n] || SPEC_TR[n] || n; }
   function trProduct(name) {
     if (!name) return '';
     if (PRODUCT_TR[name]) return PRODUCT_TR[name];
@@ -425,8 +485,8 @@
   function trVal(n, v) {
     if (n === 'Brake Disc Type' && DISC_MAP[v]) return DISC_MAP[v];
     if (n === 'Surface' && VAL_TR[v]) return VAL_TR[v];
-    if (n === 'Fitting Position') return v.split(/[;,]\s*/).map(function(x) { return VAL_TR[x.trim()] || x.trim(); }).join(' / ');
-    return VAL_TR[v] || v;
+    if (n === 'Fitting Position') return v.split(/[;,]\s*/).map(function(x) { return POSITION_TRANSLATIONS[x.trim()] || VAL_TR[x.trim()] || x.trim(); }).join(' / ');
+    return POSITION_TRANSLATIONS[v] || VAL_TR[v] || v;
   }
   function fmtDate(d) { if (!d) return ''; var x = new Date(d); return isNaN(x.getTime()) ? d : ('0'+(x.getMonth()+1)).slice(-2)+'.'+x.getFullYear(); }
   function esc(s) { if (!s && s !== 0) return ''; var d = document.createElement('div'); d.textContent = String(s); return d.innerHTML; }
@@ -1374,28 +1434,27 @@
       if (D.product) {
         allSpecs.push({ name: '\u05E1\u05D5\u05D2 \u05DE\u05D5\u05E6\u05E8', value: trProduct(D.product) });
       }
-      /* Add TecDoc specs — skip empty, 0, hidden, or irrelevant values */
+      /* Add TecDoc specs — WHITELIST: only show specs in SPEC_TRANSLATIONS.
+         Everything else is hidden. All names in Hebrew. */
       var prioritySpecs = [];
       var normalSpecs = [];
+      var seen = {}; /* deduplicate */
       for (var i = 0; i < D.specs.length; i++) {
         var sv = (D.specs[i].criteriaValue || '').trim();
         if (!sv || sv === '0' || sv === '0.0' || sv === '0,0' || sv === '-' || sv === 'N/A') continue;
         var rawName = D.specs[i].criteriaName || '';
-        var sn = rawName.toLowerCase();
-        /* Skip EAN */
-        if (sn.indexOf('ean') !== -1) continue;
-        /* Skip hidden specs (not relevant for private consumer) */
-        var isHidden = false;
-        for (var hi = 0; hi < HIDDEN_SPECS.length; hi++) {
-          if (rawName === HIDDEN_SPECS[hi] || sn === HIDDEN_SPECS[hi].toLowerCase()) { isHidden = true; break; }
-        }
-        if (isHidden) continue;
+        /* WHITELIST: only show if spec name is in SPEC_TRANSLATIONS */
+        if (!SPEC_TRANSLATIONS[rawName]) continue;
+        /* Deduplicate */
+        var dedup = rawName + ':' + sv;
+        if (seen[dedup]) continue;
+        seen[dedup] = true;
         /* Check if priority spec */
         var isPriority = false;
         for (var pi = 0; pi < PRIORITY_SPECS.length; pi++) {
           if (rawName === PRIORITY_SPECS[pi]) { isPriority = true; break; }
         }
-        var specObj = { name: trSpec(rawName), value: trVal(rawName, D.specs[i].criteriaValue) };
+        var specObj = { name: SPEC_TRANSLATIONS[rawName], value: trVal(rawName, D.specs[i].criteriaValue) };
         if (isPriority) { prioritySpecs.push(specObj); } else { normalSpecs.push(specObj); }
       }
       /* Merge: priority specs first, then normal */
