@@ -630,7 +630,7 @@ window.__anFetchProductImages = function (catName, callback) {
    */
   function yearInRange(yearsStr, selectedYear) {
     if (!selectedYear) return true;   /* no year filter */
-    if (!yearsStr) return true;       /* no year data on product — include it */
+    if (!yearsStr) return false;      /* no year data — EXCLUDE from results */
     var y = parseInt(selectedYear, 10);
     if (isNaN(y)) return true;
     var clean = yearsStr.replace(/"/g, '').trim();
@@ -672,11 +672,13 @@ window.__anFetchProductImages = function (catName, callback) {
 
       if (!category || !id) continue;
 
-      /* ---- Year filter: if product has year data, selected year must be in range ---- */
-      if (!yearInRange(years, selectedYear)) continue;
+      /* ---- Determine match type ---- */
+      var matched = false;
+      var hasTecDoc = !!(tecdocMfr.trim() || tecdocModel.trim());
+      var hasYears  = !!years.trim();
 
       /* Priority 1: column 7 – vehicles from title */
-      var matched = fieldMatches(vehicles, brandAliases, modelAliases);
+      matched = fieldMatches(vehicles, brandAliases, modelAliases);
 
       /* Priority 2: columns 4+5 – TecDoc manufacturer + models */
       if (!matched) {
@@ -689,18 +691,35 @@ window.__anFetchProductImages = function (catName, callback) {
         matched = fieldMatches(name, brandAliases, modelAliases);
       }
 
-      if (matched) {
-        if (!results[category]) results[category] = [];
-        results[category].push({
-          id: id.replace(/"/g, ''),
-          name: name.replace(/"/g, ''),
-          category: category.replace(/"/g, ''),
-          partCode: partCode.replace(/"/g, ''),
-          years: years.replace(/"/g, ''),
-          source: source.replace(/"/g, ''),
-          link: (link || '').replace(/"/g, '')
-        });
+      if (!matched) continue;
+
+      /* ---- Year/Generation verification ---- */
+      /* A product matches brand+model. Now verify it fits the selected year/generation. */
+
+      if (hasTecDoc && hasYears) {
+        /* Has TecDoc data AND year data — use year range check */
+        if (!yearInRange(years, selectedYear)) continue;
+      } else if (hasTecDoc) {
+        /* Has TecDoc data but no explicit year range — TecDoc models are generation-specific, trust the match */
+        /* (TecDoc model codes like _E18_ already represent specific generations) */
+      } else if (hasYears) {
+        /* No TecDoc but has year data (from title parsing) — use year range check */
+        if (!yearInRange(years, selectedYear)) continue;
+      } else {
+        /* No TecDoc data AND no year data — cannot verify generation fit, EXCLUDE */
+        continue;
       }
+
+      if (!results[category]) results[category] = [];
+      results[category].push({
+        id: id.replace(/"/g, ''),
+        name: name.replace(/"/g, ''),
+        category: category.replace(/"/g, ''),
+        partCode: partCode.replace(/"/g, ''),
+        years: years.replace(/"/g, ''),
+        source: source.replace(/"/g, ''),
+        link: (link || '').replace(/"/g, '')
+      });
     }
     return results;
   }
