@@ -244,7 +244,15 @@
     'Iridium': '\u05d0\u05d9\u05e8\u05d9\u05d3\u05d9\u05d5\u05dd',
     'Platinum': '\u05e4\u05dc\u05d8\u05d9\u05e0\u05d4',
     'Nickel': '\u05e0\u05d9\u05e7\u05dc',
-    'Copper': '\u05e0\u05d7\u05d5\u05e9\u05ea'
+    'Copper': '\u05e0\u05d7\u05d5\u05e9\u05ea',
+    'with acoustic wear warning': '\u05e2\u05dd \u05d7\u05d9\u05d9\u05e9\u05df \u05d1\u05dc\u05d0\u05d9 \u05d0\u05e7\u05d5\u05e1\u05d8\u05d9',
+    'with anti-squeak plate': '\u05e2\u05dd \u05e6\u05dc\u05d7\u05ea \u05de\u05d5\u05e0\u05e2\u05ea \u05d7\u05e8\u05d9\u05e7\u05d4',
+    'with accessories': '\u05e2\u05dd \u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd',
+    'without accessories': '\u05dc\u05dc\u05d0 \u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd',
+    'with bolts': '\u05e2\u05dd \u05d1\u05e8\u05d2\u05d9\u05dd',
+    'Plastic': '\u05e4\u05dc\u05e1\u05d8\u05d9\u05e7',
+    'Paper': '\u05e0\u05d9\u05d9\u05e8',
+    'Gas pressure': '\u05dc\u05d7\u05e5 \u05d2\u05d6'
   };
 
   var PRODUCT_TR = {
@@ -323,6 +331,151 @@
   };
 
   var DISC_MAP = { '1': '\u05DE\u05DC\u05D0', '2': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8', '3': '\u05DE\u05D0\u05D5\u05D5\u05E8\u05E8 \u05E4\u05E0\u05D9\u05DE\u05D9' };
+
+  // TecDoc criteria value ID -> Hebrew description mappings
+  var MATERIAL_MAP = {
+    '1': '\u05e4\u05dc\u05d3\u05ea \u05d9\u05e6\u05d9\u05e7\u05d4',
+    '5': '\u05e4\u05dc\u05d3\u05ea \u05d9\u05e6\u05d9\u05e7\u05d4',
+    '6': '\u05e4\u05dc\u05e1\u05d8\u05d9\u05e7',
+    '9': '\u05e0\u05d9\u05d9\u05e8',
+    '10': '\u05e4\u05dc\u05d3\u05d4',
+    '16': '\u05e4\u05dc\u05d3\u05ea \u05d2\u05d9\u05dc\u05d9\u05d5\u05df',
+    '18': '\u05de\u05ea\u05db\u05ea',
+    '24': '\u05e4\u05d5\u05dc\u05d9\u05e4\u05e8\u05d5\u05e4\u05d9\u05dc\u05df (PP)',
+    '43': '\u05d0\u05dc\u05e1\u05d8\u05d5\u05de\u05e8',
+    '57': '\u05d1\u05e8\u05d6\u05dc \u05d9\u05e6\u05d5\u05e7',
+    '93': '\u05de\u05ea\u05db\u05ea\u05d9 \u05e0\u05de\u05d5\u05da',
+    '176': '\u05d2\u05d5\u05de\u05d9 AEM',
+    '252': '\u05dc\u05d1\u05d3 \u05e1\u05d9\u05e0\u05d8\u05d8\u05d9'
+  };
+
+  var WEAR_WARNING_MAP = {
+    '0': '\u05dc\u05dc\u05d0 \u05d7\u05d9\u05d9\u05e9\u05df \u05d1\u05dc\u05d0\u05d9',
+    '1': '\u05de\u05d5\u05db\u05df \u05dc\u05d7\u05d9\u05d9\u05e9\u05df \u05d1\u05dc\u05d0\u05d9',
+    '2': '\u05e2\u05dd \u05e9\u05e7\u05e2 \u05dc\u05d7\u05d9\u05d9\u05e9\u05df \u05d1\u05dc\u05d0\u05d9',
+    '3': '\u05dc\u05d0 \u05de\u05d5\u05db\u05df \u05dc\u05d7\u05d9\u05d9\u05e9\u05df \u05d1\u05dc\u05d0\u05d9',
+    '4': '\u05e2\u05dd \u05d7\u05d9\u05d9\u05e9\u05df \u05d1\u05dc\u05d0\u05d9 \u05d0\u05e7\u05d5\u05e1\u05d8\u05d9',
+    '50': '\u05e2\u05dd \u05d7\u05d9\u05d9\u05e9\u05df \u05d1\u05dc\u05d0\u05d9 \u05de\u05e9\u05d5\u05dc\u05d1',
+    '51': '\u05e2\u05dd \u05d7\u05d9\u05d9\u05e9\u05df \u05d1\u05dc\u05d0\u05d9 \u05d0\u05e7\u05d5\u05e1\u05d8\u05d9 \u05de\u05e9\u05d5\u05dc\u05d1'
+  };
+
+  var SUPP_INFO_2_MAP = {
+    '0': '\u05dc\u05dc\u05d0 \u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd',
+    '1': '\u05e2\u05dd \u05ea\u05d5\u05e9\u05d1\u05ea \u05d2\u05d5\u05de\u05d9',
+    '5': '\u05e2\u05dd \u05d6\u05d5\u05d5\u05d9\u05ea',
+    '7': '\u05e2\u05dd \u05e7\u05e4\u05d9\u05e5',
+    '50': '\u05e2\u05dd \u05d0\u05d5\u05de\u05d9\u05dd \u05e0\u05e2\u05d5\u05dc\u05d9\u05dd',
+    '63': '\u05e2\u05dd \u05d2\u05d5\u05de\u05d9\u05d5\u05ea',
+    '71': '\u05e2\u05dd \u05de\u05d2\u05df \u05d0\u05d1\u05e7',
+    '133': '\u05e2\u05dd \u05d9\u05d3\u05d9\u05ea',
+    '163': '\u05e2\u05dd \u05db\u05d1\u05dc',
+    '168': '\u05e2\u05dd \u05de\u05d7\u05d1\u05e8',
+    '170': '\u05e2\u05dd \u05d0\u05d8\u05dd \u05e6\u05d9\u05e8',
+    '182': '\u05e2\u05dd \u05db\u05d9\u05e1\u05d5\u05d9',
+    '206': '\u05e2\u05dd \u05d8\u05d1\u05e2\u05ea \u05d0\u05d9\u05d8\u05d5\u05dd',
+    '256': '\u05e2\u05dd \u05d1\u05e8\u05d2\u05d9 \u05e7\u05dc\u05d9\u05e4\u05e8',
+    '274': '\u05e2\u05dd \u05e4\u05d9\u05df',
+    '287': '\u05e2\u05dd \u05d1\u05e8\u05d2\u05d9\u05dd',
+    '288': '\u05e2\u05dd \u05d1\u05d5\u05dc\u05d8\u05d9\u05dd',
+    '314': '\u05e2\u05dd \u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd',
+    '396': '\u05e2\u05dd \u05ea\u05e7\u05e2',
+    '420': '\u05dc\u05dc\u05d0 \u05d1\u05e8\u05d2\u05d9 \u05e7\u05dc\u05d9\u05e4\u05e8',
+    '450': '\u05e2\u05dd \u05e6\u05dc\u05d7\u05ea \u05de\u05d5\u05e0\u05e2\u05ea \u05d7\u05e8\u05d9\u05e7\u05d4',
+    '475': '\u05e2\u05dd \u05d7\u05d9\u05d9\u05e9\u05df',
+    '494': '\u05e2\u05dd \u05ea\u05e8\u05de\u05d5\u05e1\u05d8\u05d8',
+    '515': '\u05e2\u05dd \u05d0\u05d8\u05dd',
+    '523': '\u05e2\u05dd \u05e9\u05e8\u05d5\u05d5\u05dc',
+    '524': '\u05e2\u05dd \u05d2\u05d5\u05de\u05d9\u05d9\u05d4',
+    '536': '\u05e2\u05dd \u05ea\u05e8\u05de\u05d5\u05e1\u05d8\u05d8',
+    '626': '\u05e2\u05dd \u05de\u05e0\u05d5\u05e2 \u05d7\u05e9\u05de\u05dc\u05d9'
+  };
+
+  var SUPP_INFO_MAP = {
+    '0': '\u05dc\u05dc\u05d0 \u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd',
+    '7': '\u05e2\u05dd \u05e7\u05e4\u05d9\u05e5',
+    '11': '\u05e2\u05dd \u05e6\u05d9\u05e8 \u05db\u05d3\u05d5\u05e8\u05d9',
+    '20': '\u05e2\u05dd \u05e6\u05d9\u05e8 \u05db\u05d3\u05d5\u05e8\u05d9',
+    '21': '\u05e2\u05dd \u05d7\u05d5\u05de\u05e8 \u05e9\u05d7\u05d9\u05e7\u05d4',
+    '35': '\u05e2\u05dd \u05d0\u05d8\u05dd \u05e9\u05de\u05df',
+    '50': '\u05e2\u05dd \u05ea\u05d5\u05e9\u05d1\u05d5\u05ea \u05d2\u05d5\u05de\u05d9',
+    '70': '\u05e2\u05dd \u05d0\u05d5\u05de\u05d9\u05dd \u05e0\u05e2\u05d5\u05dc\u05d9\u05dd',
+    '85': '\u05e2\u05dd \u05d0\u05d8\u05dd',
+    '98': '\u05e2\u05dd \u05de\u05e0\u05d5\u05e2 \u05d7\u05e9\u05de\u05dc\u05d9',
+    '99': '\u05e2\u05dd \u05d2\u05d5\u05de\u05d9\u05d5\u05ea',
+    '237': '\u05e2\u05dd \u05e9\u05e2\u05d5\u05df \u05e7\u05e4\u05d9\u05e5',
+    '321': '\u05e2\u05dd \u05d7\u05d9\u05d9\u05e9\u05df \u05d6\u05d5\u05d5\u05d9\u05ea',
+    '326': '\u05e2\u05dd \u05d0\u05d5\u05d5\u05e8\u05d5\u05e8',
+    '462': '\u05e2\u05dd \u05d7\u05d9\u05d9\u05e9\u05df ABS',
+    '603': '\u05e2\u05dd \u05de\u05e0\u05d5\u05e2',
+    '615': '\u05e2\u05dd \u05e6\u05d9\u05e8 \u05db\u05d3\u05d5\u05e8\u05d9',
+    '619': '\u05e2\u05dd \u05de\u05e4\u05ea\u05d7',
+    '621': '\u05e2\u05dd \u05de\u05d2\u05e0\u05d9\u05dd',
+    '627': '\u05e2\u05dd \u05e8\u05d2\u05dc\u05d9\u05d5\u05ea',
+    '896': '\u05e2\u05dd \u05db\u05e8\u05d9\u05ea',
+    '897': '\u05e2\u05dd \u05db\u05e8\u05d9\u05ea'
+  };
+
+  var FILTER_TYPE_MAP = {
+    '1': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05e9\u05de\u05df',
+    '8': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05de\u05d6\u05d2\u05df',
+    '9': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05d0\u05d5\u05d5\u05d9\u05e8',
+    '10': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05d3\u05dc\u05e7',
+    '13': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05e4\u05d7\u05de\u05df \u05e4\u05e2\u05d9\u05dc',
+    '21': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05de\u05d6\u05d2\u05df \u05e4\u05d7\u05de\u05df',
+    '25': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05e9\u05de\u05df \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9',
+    '27': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05e9\u05de\u05df \u05de\u05db\u05e0\u05d9',
+    '47': '\u05e4\u05d9\u05dc\u05d8\u05e8 HEPA',
+    '48': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05d3\u05dc\u05e7 \u05d1\u05dc\u05d7\u05e5',
+    '55': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05d0\u05d1\u05e7\u05d4',
+    '56': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05de\u05d9\u05e7\u05e8\u05d5',
+    '57': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05e0\u05e0\u05d5',
+    '82': '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05d7\u05dc\u05e7\u05d9\u05e7\u05d9\u05dd'
+  };
+
+  var COLOUR_MAP_EX = {
+    '1': '\u05e9\u05d7\u05d5\u05e8',
+    '5': '\u05db\u05d7\u05d5\u05dc',
+    '7': '\u05e9\u05d7\u05d5\u05e8'
+  };
+
+  var CTRL_ARM_TYPE_MAP = {
+    '1': '\u05d6\u05e8\u05d5\u05e2 \u05e9\u05dc\u05d9\u05d8\u05d4',
+    '10': '\u05d6\u05e8\u05d5\u05e2 \u05d2\u05e8\u05d9\u05e8\u05d4'
+  };
+
+  var SHOCK_DESIGN_MAP = {
+    '2': '\u05d8\u05dc\u05e1\u05e7\u05d5\u05e4\u05d9',
+    '3': '\u05de\u05e7\u05e4\u05e8\u05e1\u05d5\u05df',
+    '4': '\u05de\u05d5\u05e0\u05d5-\u05e6\u05d9\u05e0\u05d5\u05e8',
+    '6': '\u05d3\u05d5-\u05e6\u05d9\u05e0\u05d5\u05e8\u05d9'
+  };
+
+  var SHOCK_TYPE_MAP = {
+    '2': '\u05d2\u05d6'
+  };
+
+  var SHOCK_SYSTEM_MAP = {
+    '1': '\u05d3\u05d5-\u05e6\u05d9\u05e0\u05d5\u05e8\u05d9',
+    '2': '\u05d7\u05d3-\u05e6\u05d9\u05e0\u05d5\u05e8\u05d9'
+  };
+
+  var SHOCK_MOUNT_MAP = {
+    '1': '\u05e2\u05d9\u05df',
+    '2': '\u05e2\u05d9\u05df',
+    '3': '\u05e4\u05d9\u05df',
+    '8': '\u05ea\u05d5\u05ea\u05d1',
+    '11': '\u05e2\u05d9\u05df-\u05e4\u05d9\u05df'
+  };
+
+  var SEAL_MATERIAL_MAP = {
+    '6': '\u05d2\u05d5\u05de\u05d9',
+    '234': 'ACM (\u05e4\u05d5\u05dc\u05d9\u05d0\u05e7\u05e8\u05d9\u05dc\u05d8)'
+  };
+
+  var LEFT_RIGHT_MAP = {
+    '1': '\u05d4\u05d2\u05d4 \u05e9\u05de\u05d0\u05dc',
+    '3': '\u05d4\u05d2\u05d4 \u05e9\u05de\u05d0\u05dc \u05d5\u05d9\u05de\u05d9\u05df'
+  };
 
   /* ── Vehicle brand/model Hebrew translations ── */
   var BRAND_TR = {
@@ -544,9 +697,59 @@
     return name;
   }
   function trVal(n, v) {
-    if (n === 'Brake Disc Type' && DISC_MAP[v]) return DISC_MAP[v];
-    if (n === 'Surface' && VAL_TR[v]) return VAL_TR[v];
-    if (n === 'Fitting Position') return v.split(/[;,]\s*/).map(function(x) { return POSITION_TRANSLATIONS[x.trim()] || VAL_TR[x.trim()] || x.trim(); }).join(' / ');
+    // Brake Disc Type
+    if (n === 'Brake Disc Type') {
+      var dt = DISC_MAP[v];
+      if (dt) return dt;
+      if (v === '8') return '\u05de\u05d7\u05d5\u05e8\u05e8';
+      return v;
+    }
+    // Surface
+    if (n === 'Surface') {
+      if (v === '37') return '\u05de\u05e6\u05d5\u05e4\u05d4';
+      if (v === '0') return '\u05dc\u05dc\u05d0 \u05e6\u05d9\u05e4\u05d5\u05d9';
+      if (v === '7') return '\u05e4\u05d5\u05e1\u05e4\u05d8\u05d9';
+      return VAL_TR[v] || v;
+    }
+    // Fitting Position
+    if (n === 'Fitting Position') {
+      var fpMap = {'286':'\u05d1\u05e6\u05d3 \u05d4\u05e0\u05d4\u05d2','425':'\u05de\u05d6\u05d2\u05df','435':'\u05de\u05d6\u05d2\u05df','A':'\u05e1\u05e8\u05df \u05d0\u05d7\u05d5\u05e8\u05d9','FB':'\u05e7\u05d3\u05de\u05d9 \u05de\u05d0\u05d7\u05d5\u05e8','H':'\u05d0\u05d7\u05d5\u05e8\u05d9','I':'\u05e4\u05e0\u05d9\u05de\u05d9','LV':'\u05e9\u05de\u05d0\u05dc \u05e7\u05d3\u05de\u05d9','O':'\u05e2\u05dc\u05d9\u05d5\u05df','R':'\u05d0\u05d7\u05d5\u05e8\u05d9','V':'\u05e7\u05d3\u05de\u05d9','VD':'\u05e7\u05d3\u05de\u05d9 \u05dc\u05de\u05d8\u05d4','VO':'\u05e7\u05d3\u05de\u05d9 \u05e2\u05dc\u05d9\u05d5\u05df','VU':'\u05e7\u05d3\u05de\u05d9 \u05ea\u05d7\u05ea\u05d5\u05df'};
+      return v.split(/[;,]\s*/).map(function(x) {
+        var t = x.trim();
+        return POSITION_TRANSLATIONS[t] || VAL_TR[t] || fpMap[t] || t;
+      }).join(' / ');
+    }
+    // Material
+    if (n === 'Material' && MATERIAL_MAP[v]) return MATERIAL_MAP[v];
+    // Wear Warning Contact
+    if (n === 'Wear Warning Contact' && WEAR_WARNING_MAP[v]) return WEAR_WARNING_MAP[v];
+    // Supplementary Article/Info 2
+    if (n === 'Supplementary Article/Info 2' && SUPP_INFO_2_MAP[v]) return SUPP_INFO_2_MAP[v];
+    // Supplementary Article/Supplementary Info
+    if (n === 'Supplementary Article/Supplementary Info' && SUPP_INFO_MAP[v]) return SUPP_INFO_MAP[v];
+    // Filter type
+    if (n === 'Filter type' && FILTER_TYPE_MAP[v]) return FILTER_TYPE_MAP[v];
+    // Colour
+    if (n === 'Colour' && COLOUR_MAP_EX[v]) return COLOUR_MAP_EX[v];
+    // Control/Trailing Arm Type
+    if (n === 'Control/Trailing Arm Type' && CTRL_ARM_TYPE_MAP[v]) return CTRL_ARM_TYPE_MAP[v];
+    // Control/Trailing Arm Design
+    if (n === 'Control/Trailing Arm Design' && v === '2') return '\u05de\u05e8\u05d5\u05db\u05d1';
+    // Shock Absorber fields
+    if (n === 'Shock Absorber Design' && SHOCK_DESIGN_MAP[v]) return SHOCK_DESIGN_MAP[v];
+    if (n === 'Shock Absorber Type' && SHOCK_TYPE_MAP[v]) return SHOCK_TYPE_MAP[v];
+    if (n === 'Shock Absorber System' && SHOCK_SYSTEM_MAP[v]) return SHOCK_SYSTEM_MAP[v];
+    if (n === 'Shock Absorber Mounting Type' && SHOCK_MOUNT_MAP[v]) return SHOCK_MOUNT_MAP[v];
+    // Seal Material
+    if (n === 'Seal Material' && SEAL_MATERIAL_MAP[v]) return SEAL_MATERIAL_MAP[v];
+    // Left-/right-hand drive vehicles
+    if (n === 'Left-/right-hand drive vehicles' && LEFT_RIGHT_MAP[v]) return LEFT_RIGHT_MAP[v];
+    // Rod/Strut
+    if (n === 'Rod/Strut') {
+      if (v === '5') return '\u05de\u05d5\u05d8';
+      if (v === '6') return '\u05de\u05e9\u05d5\u05dc\u05d1';
+    }
+    // Default: try existing maps
     return POSITION_TRANSLATIONS[v] || VAL_TR[v] || v;
   }
   function fmtDate(d) { if (!d) return ''; var x = new Date(d); return isNaN(x.getTime()) ? d : ('0'+(x.getMonth()+1)).slice(-2)+'.'+x.getFullYear(); }
