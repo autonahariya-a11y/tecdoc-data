@@ -26,7 +26,7 @@
     'Surface': '\u05e6\u05d9\u05e4\u05d5\u05d9',
     'Colour': '\u05e6\u05d1\u05e2',
     'Filter type': '\u05e1\u05d5\u05d2 \u05e4\u05d9\u05dc\u05d8\u05e8',
-    'Control/Trailing Arm Type': '\u05e1\u05d5\u05d2 \u05d6\u05e8\u05d5\u05e2',
+
     'Thickness [mm]': '\u05e2\u05d5\u05d1\u05d9 [\u05de"\u05de]',
     'Brake Disc Thickness [mm]': '\u05e2\u05d5\u05d1\u05d9 \u05d3\u05d9\u05e1\u05e7 [\u05de"\u05de]',
     'Minimum thickness [mm]': '\u05e2\u05d5\u05d1\u05d9 \u05de\u05d9\u05e0\u05d9\u05de\u05dc\u05d9 [\u05de"\u05de]',
@@ -52,8 +52,7 @@
     'Electrode Gap [mm]': '\u05de\u05e8\u05d5\u05d5\u05d7 \u05d0\u05dc\u05e7\u05d8\u05e8\u05d5\u05d3\u05d4 [\u05de"\u05de]',
     'Thread Size': '\u05d2\u05d5\u05d3\u05dc \u05d4\u05d1\u05e8\u05d2\u05d4',
     'Spanner Size': '\u05de\u05e4\u05ea\u05d7 \u05d1\u05e8\u05d2\u05d9\u05dd',
-    'Weight [kg]': '\u05de\u05e9\u05e7\u05dc [\u05e7"\u05d2]',
-    'Weight [g]': '\u05de\u05e9\u05e7\u05dc [\u05d2\u05e8\u05dd]',
+
     'fulfils ECE norm': '\u05ea\u05e7\u05df ECE',
     'Quantity': '\u05db\u05de\u05d5\u05ea \u05d1\u05d0\u05e8\u05d9\u05d6\u05d4',
     'Belts': '\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea',
@@ -61,10 +60,7 @@
     'Charge Type': '\u05e1\u05d5\u05d2 \u05d8\u05e2\u05d9\u05e0\u05d4',
     'Spark Plug': '\u05e1\u05d5\u05d2 \u05de\u05e6\u05ea',
     'Spark Position [mm]': '\u05de\u05d9\u05e7\u05d5\u05dd \u05e0\u05d9\u05e6\u05d5\u05e5 [\u05de"\u05de]',
-    'Mounting points diameter [mm]': '\u05e7\u05d5\u05d8\u05e8 \u05e0\u05e7\u05d5\u05d3\u05d5\u05ea \u05d4\u05ea\u05e7\u05e0\u05d4 [\u05de"\u05de]',
-    'Distance of mounting bores [mm]': '\u05de\u05e8\u05d7\u05e7 \u05d1\u05d9\u05df \u05d7\u05d5\u05e8\u05d9 \u05d4\u05ea\u05e7\u05e0\u05d4 [\u05de"\u05de]',
-    'Quality/ Grade': '\u05d3\u05e8\u05d2\u05ea \u05d0\u05d9\u05db\u05d5\u05ea',
-    'Operating Mode': '\u05d0\u05d5\u05e4\u05df \u05e4\u05e2\u05d5\u05dc\u05d4'
+    'Left-/right-hand drive vehicles': '\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05d4\u05d2\u05d4'
   };
 
   /* Fitting Position value translations */
@@ -231,160 +227,24 @@
     'Hydraulic': '\u05d4\u05d9\u05d3\u05e8\u05d0\u05d5\u05dc\u05d9',
     'HY': '\u05d4\u05d9\u05d3\u05e8\u05d0\u05d5\u05dc\u05d9',
     'Pt GE': '\u05e4\u05dc\u05d8\u05d9\u05e0\u05d4',
-    'with acoustic wear warning': 'עם חיישן בלאי אקוסטי',
-    'with anti-squeak plate': 'עם צלחת מונעת חריקה',
-    'with accessories': 'עם אביזרים',
-    'without accessories': 'ללא אביזרים',
-    'with bolts': 'עם ברגים',
-    'Sheet Steel': 'פלדת גיליון',
-    'Plastic': 'פלסטיק',
-    'Paper': 'נייר',
-    'Gas pressure': 'לחץ גז'
-  };
-
-  // TecDoc criteria value ID -> Hebrew description mappings
-  var MATERIAL_MAP = {
-    '1': 'פלדת יציקה',
-    '5': 'פלדת יציקה',
-    '6': 'פלסטיק',
-    '9': 'נייר',
-    '10': 'פלדה',
-    '16': 'פלדת גיליון',
-    '18': 'מתכת',
-    '24': 'פוליפרופילן (PP)',
-    '43': 'אלסטומר',
-    '57': 'ברזל יצוק',
-    '93': 'מתכתי נמוך',
-    '176': 'גומי AEM',
-    '252': 'לבד סינטטי'
-  };
-
-  var WEAR_WARNING_MAP = {
-    '0': 'ללא חיישן בלאי',
-    '1': 'מוכן לחיישן בלאי',
-    '2': 'עם שקע לחיישן בלאי',
-    '3': 'לא מוכן לחיישן בלאי',
-    '4': 'עם חיישן בלאי אקוסטי',
-    '50': 'עם חיישן בלאי משולב',
-    '51': 'עם חיישן בלאי אקוסטי משולב'
-  };
-
-  var SUPP_INFO_2_MAP = {
-    '0': 'ללא אביזרים',
-    '1': 'עם תושבת גומי',
-    '5': 'עם זווית',
-    '7': 'עם קפיץ',
-    '50': 'עם אומים נעולים',
-    '63': 'עם גומיות',
-    '71': 'עם מגן אבק',
-    '133': 'עם ידית',
-    '163': 'עם כבל',
-    '168': 'עם מחבר',
-    '170': 'עם אטם ציר',
-    '182': 'עם כיסוי',
-    '206': 'עם טבעת איטום',
-    '256': 'עם ברגי קליפר',
-    '274': 'עם פין',
-    '287': 'עם ברגים',
-    '288': 'עם בולטים',
-    '314': 'עם אביזרים',
-    '396': 'עם תקע',
-    '420': 'ללא ברגי קליפר',
-    '450': 'עם צלחת מונעת חריקה',
-    '475': 'עם חיישן',
-    '494': 'עם תרמוסטט',
-    '515': 'עם אטם',
-    '523': 'עם שרוול',
-    '524': 'עם גומייה',
-    '536': 'עם תרמוסטט',
-    '626': 'עם מנוע חשמלי'
-  };
-
-  var SUPP_INFO_MAP = {
-    '0': 'ללא אביזרים',
-    '7': 'עם קפיץ',
-    '11': 'עם ציר כדורי',
-    '20': 'עם ציר כדורי',
-    '21': 'עם חומר שחיקה',
-    '35': 'עם אטם שמן',
-    '50': 'עם תושבות גומי',
-    '70': 'עם אומים נעולים',
-    '85': 'עם אטם',
-    '98': 'עם מנוע חשמלי',
-    '99': 'עם גומיות',
-    '237': 'עם שעון קפיץ',
-    '321': 'עם חיישן זווית',
-    '326': 'עם אוורור',
-    '462': 'עם חיישן ABS',
-    '603': 'עם מנוע',
-    '615': 'עם ציר כדורי',
-    '619': 'עם מפתח',
-    '621': 'עם מגנים',
-    '627': 'עם רגליות',
-    '896': 'עם כרית',
-    '897': 'עם כרית'
-  };
-
-  var FILTER_TYPE_MAP = {
-    '1': 'פילטר שמן',
-    '8': 'פילטר מזגן',
-    '9': 'פילטר אוויר',
-    '10': 'פילטר דלק',
-    '13': 'פילטר פחמן פעיל',
-    '21': 'פילטר מזגן פחמן',
-    '25': 'פילטר שמן חיצוני',
-    '27': 'פילטר שמן מכני',
-    '47': 'פילטר HEPA',
-    '48': 'פילטר דלק בלחץ',
-    '55': 'פילטר אבקה',
-    '56': 'פילטר מיקרו',
-    '57': 'פילטר ננו',
-    '82': 'פילטר חלקיקים'
-  };
-
-  var COLOUR_MAP_EX = {
-    '1': 'שחור',
-    '5': 'כחול',
-    '7': 'שחור'
-  };
-
-  var CTRL_ARM_TYPE_MAP = {
-    '1': 'זרוע שליטה',
-    '10': 'זרוע גרירה'
-  };
-
-  var SHOCK_DESIGN_MAP = {
-    '2': 'טלסקופי',
-    '3': 'מקפרסון',
-    '4': 'מונו-צינור',
-    '6': 'דו-צינורי'
-  };
-
-  var SHOCK_TYPE_MAP = {
-    '2': 'גז'
-  };
-
-  var SHOCK_SYSTEM_MAP = {
-    '1': 'דו-צינורי',
-    '2': 'חד-צינורי'
-  };
-
-  var SHOCK_MOUNT_MAP = {
-    '1': 'עין',
-    '2': 'עין',
-    '3': 'פין',
-    '8': 'תותב',
-    '11': 'עין-פין'
-  };
-
-  var SEAL_MATERIAL_MAP = {
-    '6': 'גומי',
-    '234': 'ACM (פוליאקרילט)'
-  };
-
-  var LEFT_RIGHT_MAP = {
-    '1': 'הגה שמאל',
-    '3': 'הגה שמאל וימין'
+    'Sheet Steel': '\u05e4\u05dc\u05d3\u05ea \u05d2\u05d9\u05dc\u05d9\u05d5\u05df',
+    'Sheet steel': '\u05e4\u05dc\u05d3\u05ea \u05d2\u05d9\u05dc\u05d9\u05d5\u05df',
+    'sheet steel': '\u05e4\u05dc\u05d3\u05ea \u05d2\u05d9\u05dc\u05d9\u05d5\u05df',
+    'Forged Steel': '\u05e4\u05dc\u05d3\u05d4 \u05de\u05d7\u05d5\u05e9\u05dc\u05ea',
+    'Forged steel': '\u05e4\u05dc\u05d3\u05d4 \u05de\u05d7\u05d5\u05e9\u05dc\u05ea',
+    'Stamped Steel': '\u05e4\u05dc\u05d3\u05d4 \u05de\u05d5\u05d8\u05d1\u05e2\u05ea',
+    'Control arm': '\u05d6\u05e8\u05d5\u05e2 \u05e9\u05dc\u05d9\u05d8\u05d4',
+    'control arm': '\u05d6\u05e8\u05d5\u05e2 \u05e9\u05dc\u05d9\u05d8\u05d4',
+    'Wishbone': '\u05de\u05e9\u05d5\u05dc\u05e9',
+    'wishbone': '\u05de\u05e9\u05d5\u05dc\u05e9',
+    'Trailing arm': '\u05d6\u05e8\u05d5\u05e2 \u05e0\u05d2\u05e8\u05e8\u05ea',
+    'with ball joint': '\u05e2\u05dd \u05db\u05d3\u05d5\u05e8\u05d9\u05ea',
+    'without ball joint': '\u05dc\u05dc\u05d0 \u05db\u05d3\u05d5\u05e8\u05d9\u05ea',
+    'with rubber mount': '\u05e2\u05dd \u05d1\u05d5\u05db\u05e1\u05d4',
+    'Iridium': '\u05d0\u05d9\u05e8\u05d9\u05d3\u05d9\u05d5\u05dd',
+    'Platinum': '\u05e4\u05dc\u05d8\u05d9\u05e0\u05d4',
+    'Nickel': '\u05e0\u05d9\u05e7\u05dc',
+    'Copper': '\u05e0\u05d7\u05d5\u05e9\u05ea'
   };
 
   var PRODUCT_TR = {
@@ -684,59 +544,9 @@
     return name;
   }
   function trVal(n, v) {
-    // Brake Disc Type — existing map + new codes
-    if (n === 'Brake Disc Type') {
-      var dt = DISC_MAP[v];
-      if (dt) return dt;
-      if (v === '8') return 'מחורר';
-      return v;
-    }
-    // Surface
-    if (n === 'Surface') {
-      if (v === '37') return 'מצופה';
-      if (v === '0') return 'ללא ציפוי';
-      if (v === '7') return 'פוספטי';
-      return VAL_TR[v] || v;
-    }
-    // Fitting Position — keep existing logic, add numeric codes
-    if (n === 'Fitting Position') {
-      var fpMap = {'286':'בצד הנהג','425':'מזגן','435':'מזגן','A':'סרן אחורי','FB':'קדמי מאחור','H':'אחורי','I':'פנימי','LV':'שמאל קדמי','O':'עליון','R':'אחורי','V':'קדמי','VD':'קדמי למטה','VO':'קדמי עליון','VU':'קדמי תחתון'};
-      return v.split(/[;,]\s*/).map(function(x) {
-        var t = x.trim();
-        return POSITION_TRANSLATIONS[t] || VAL_TR[t] || fpMap[t] || t;
-      }).join(' / ');
-    }
-    // Material
-    if (n === 'Material' && MATERIAL_MAP[v]) return MATERIAL_MAP[v];
-    // Wear Warning Contact
-    if (n === 'Wear Warning Contact' && WEAR_WARNING_MAP[v]) return WEAR_WARNING_MAP[v];
-    // Supplementary Article/Info 2
-    if (n === 'Supplementary Article/Info 2' && SUPP_INFO_2_MAP[v]) return SUPP_INFO_2_MAP[v];
-    // Supplementary Article/Supplementary Info
-    if (n === 'Supplementary Article/Supplementary Info' && SUPP_INFO_MAP[v]) return SUPP_INFO_MAP[v];
-    // Filter type
-    if (n === 'Filter type' && FILTER_TYPE_MAP[v]) return FILTER_TYPE_MAP[v];
-    // Colour
-    if (n === 'Colour' && COLOUR_MAP_EX[v]) return COLOUR_MAP_EX[v];
-    // Control/Trailing Arm Type
-    if (n === 'Control/Trailing Arm Type' && CTRL_ARM_TYPE_MAP[v]) return CTRL_ARM_TYPE_MAP[v];
-    // Control/Trailing Arm Design
-    if (n === 'Control/Trailing Arm Design' && v === '2') return 'מרוכב';
-    // Shock Absorber fields
-    if (n === 'Shock Absorber Design' && SHOCK_DESIGN_MAP[v]) return SHOCK_DESIGN_MAP[v];
-    if (n === 'Shock Absorber Type' && SHOCK_TYPE_MAP[v]) return SHOCK_TYPE_MAP[v];
-    if (n === 'Shock Absorber System' && SHOCK_SYSTEM_MAP[v]) return SHOCK_SYSTEM_MAP[v];
-    if (n === 'Shock Absorber Mounting Type' && SHOCK_MOUNT_MAP[v]) return SHOCK_MOUNT_MAP[v];
-    // Seal Material
-    if (n === 'Seal Material' && SEAL_MATERIAL_MAP[v]) return SEAL_MATERIAL_MAP[v];
-    // Left-/right-hand drive vehicles
-    if (n === 'Left-/right-hand drive vehicles' && LEFT_RIGHT_MAP[v]) return LEFT_RIGHT_MAP[v];
-    // Rod/Strut
-    if (n === 'Rod/Strut') {
-      if (v === '5') return 'מוט';
-      if (v === '6') return 'משולב';
-    }
-    // Default: try existing maps
+    if (n === 'Brake Disc Type' && DISC_MAP[v]) return DISC_MAP[v];
+    if (n === 'Surface' && VAL_TR[v]) return VAL_TR[v];
+    if (n === 'Fitting Position') return v.split(/[;,]\s*/).map(function(x) { return POSITION_TRANSLATIONS[x.trim()] || VAL_TR[x.trim()] || x.trim(); }).join(' / ');
     return POSITION_TRANSLATIONS[v] || VAL_TR[v] || v;
   }
   function fmtDate(d) { if (!d) return ''; var x = new Date(d); return isNaN(x.getTime()) ? d : ('0'+(x.getMonth()+1)).slice(-2)+'.'+x.getFullYear(); }
@@ -1686,17 +1496,25 @@
         allSpecs.push({ name: '\u05E1\u05D5\u05D2 \u05DE\u05D5\u05E6\u05E8', value: trProduct(D.product) });
       }
       /* Add TecDoc specs — WHITELIST: only show specs in SPEC_TRANSLATIONS.
-         Everything else is hidden. All names in Hebrew. */
+         Everything else is hidden. All names in Hebrew.
+         Fitting Position: merge all values into ONE row. */
       var prioritySpecs = [];
       var normalSpecs = [];
-      var seen = {}; /* deduplicate */
+      var seen = {}; /* deduplicate by spec NAME (not name+value) */
+      var fittingVals = []; /* collect all Fitting Position values */
       for (var i = 0; i < D.specs.length; i++) {
         var sv = (D.specs[i].criteriaValue || '').trim();
         if (!sv || sv === '0' || sv === '0.0' || sv === '0,0' || sv === '-' || sv === 'N/A') continue;
         var rawName = D.specs[i].criteriaName || '';
         /* WHITELIST: only show if spec name is in SPEC_TRANSLATIONS */
         if (!SPEC_TRANSLATIONS[rawName]) continue;
-        /* Deduplicate */
+        /* Fitting Position: collect all values, render as single merged row later */
+        if (rawName === 'Fitting Position') {
+          var translated = trVal(rawName, sv);
+          if (fittingVals.indexOf(translated) === -1) fittingVals.push(translated);
+          continue;
+        }
+        /* Deduplicate by name+value */
         var dedup = rawName + ':' + sv;
         if (seen[dedup]) continue;
         seen[dedup] = true;
@@ -1707,6 +1525,10 @@
         }
         var specObj = { name: SPEC_TRANSLATIONS[rawName], value: trVal(rawName, D.specs[i].criteriaValue) };
         if (isPriority) { prioritySpecs.push(specObj); } else { normalSpecs.push(specObj); }
+      }
+      /* Add merged Fitting Position as first priority spec */
+      if (fittingVals.length > 0) {
+        prioritySpecs.unshift({ name: SPEC_TRANSLATIONS['Fitting Position'], value: fittingVals.join(' / ') });
       }
       /* Merge: priority specs first, then normal */
       allSpecs = allSpecs.concat(prioritySpecs).concat(normalSpecs);
