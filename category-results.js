@@ -711,9 +711,7 @@ window.__anFetchProductImages = function (catName, callback) {
         continue;
       }
 
-      /* ---- Skip products without TecDoc part code ---- */
       var cleanCode = partCode.replace(/"/g, '').trim();
-      if (!cleanCode) continue;
 
       if (!results[category]) results[category] = [];
 
@@ -814,7 +812,7 @@ window.__anFetchProductImages = function (catName, callback) {
    * Calls cb(true) if the part fits, cb(false) otherwise.
    */
   function verifyPartTecDoc(partCode, mfrEn, baseModel, selectedYear, cb) {
-    if (!partCode) { cb(false); return; }
+    if (!partCode) { cb(true); return; } /* No part code = no TecDoc file to check, include by text match */
     var url = TECDOC_DATA_BASE + encodeURIComponent(partCode) + '.json';
     var x = new XMLHttpRequest();
     x.open('GET', url, true);
