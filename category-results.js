@@ -194,6 +194,7 @@ window.__anFetchProductImages = function (catName, callback) {
    * ---------------------------------------------------------- */
 
   var SHEET_URL = 'https://docs.google.com/spreadsheets/d/1I5_KWRWIq1UpUDagRQVs65LuXELRSVCeInU0HRLcWHg/gviz/tq?tqx=out:csv';
+  var TECDOC_DATA_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
   var WA_NUMBER = '97249517322';
 
   /* --- Merged Brand Aliases (original + hotfix) --- */
@@ -739,6 +740,159 @@ window.__anFetchProductImages = function (catName, callback) {
 
 
   /* ----------------------------------------------------------
+   *  TecDoc JSON VERIFICATION – validate products against
+   *  real TecDoc vehicle compatibility data stored in JSON files.
+   *  This ensures only parts that TecDoc confirms for the
+   *  selected manufacturer+model+year are shown.
+   * ---------------------------------------------------------- */
+
+  /**
+   * Extract base model name from vehicleData model key.
+   * e.g. "COROLLA (דור 10) E150" → "COROLLA"
+   *      "GOLF (דור 7) MK7"     → "GOLF"
+   *      "COROLLA CROSS"          → "COROLLA CROSS"
+   *      "RAV4 (דור 5) XA50"    → "RAV4"
+   */
+  function extractBaseModel(modelKey) {
+    if (!modelKey) return '';
+    /* Remove Hebrew generation info and trailing code: "(דור N) XXXX" */
+    var cleaned = modelKey.replace(/\s*\(\u05d3\u05d5\u05e8\s+\d+\)\s*[A-Z]*\d*/g, '').trim();
+    return cleaned || modelKey.split('(')[0].trim();
+  }
+
+  /**
+   * Check if a TecDoc vehicle entry matches the selected vehicle.
+   * Uses manufacturer + base model name + year overlap for precise matching.
+   *
+   * mfrEn: English manufacturer name from URL param (e.g. "TOYOTA")
+   * baseModel: base model extracted from vehicleData key (e.g. "COROLLA")
+   * selectedYear: year string (e.g. "2011")
+   */
+  function tecdocVehicleMatches(vehicle, mfrEn, baseModel, selectedYear) {
+    if (!vehicle) return false;
+
+    /* 1. Check manufacturer */
+    var vMfr = (vehicle.manufacturerName || '').toUpperCase();
+    var searchMfr = mfrEn.toUpperCase();
+    /* Allow partial matches for manufacturer variants: TOYOTA (FAW), FORD (CHANGAN), etc. */
+    var mfrOk = (vMfr.indexOf(searchMfr) !== -1 || searchMfr.indexOf(vMfr) !== -1);
+    /* Special case: VW ↔ VOLKSWAGEN */
+    if (!mfrOk) {
+      mfrOk = (searchMfr === 'VW' && vMfr.indexOf('VW') !== -1) ||
+              (searchMfr === 'VOLKSWAGEN' && vMfr.indexOf('VW') !== -1) ||
+              (vMfr === 'VW' && searchMfr.indexOf('VOLKSWAGEN') !== -1);
+    }
+    if (!mfrOk) return false;
+
+    /* 2. Check base model name appears in TecDoc model name */
+    if (baseModel) {
+      var vModel = (vehicle.modelName || '').toUpperCase();
+      var searchModel = baseModel.toUpperCase();
+      if (vModel.indexOf(searchModel) === -1) {
+        return false;
+      }
+    }
+
+    /* 3. Check year overlap (critical for generation accuracy) */
+    if (selectedYear) {
+      var y = parseInt(selectedYear, 10);
+      if (!isNaN(y)) {
+        var startStr = vehicle.constructionIntervalStart || '';
+        var endStr = vehicle.constructionIntervalEnd || '';
+        var startYear = startStr ? parseInt(startStr.substring(0, 4), 10) : 0;
+        var endYear = endStr ? parseInt(endStr.substring(0, 4), 10) : 9999;
+        if (isNaN(startYear)) startYear = 0;
+        if (isNaN(endYear)) endYear = 9999;
+        if (y < startYear || y > endYear) return false;
+      }
+    }
+    return true;
+  }
+
+  /**
+   * Fetch TecDoc JSON for a part code and check vehicle compatibility.
+   * Calls cb(true) if the part fits, cb(false) otherwise.
+   */
+  function verifyPartTecDoc(partCode, mfrEn, baseModel, selectedYear, cb) {
+    if (!partCode) { cb(false); return; }
+    var url = TECDOC_DATA_BASE + encodeURIComponent(partCode) + '.json';
+    var x = new XMLHttpRequest();
+    x.open('GET', url, true);
+    x.timeout = 8000;
+    x.onreadystatechange = function () {
+      if (x.readyState === 4) {
+        if (x.status === 200) {
+          try {
+            var data = JSON.parse(x.responseText);
+            var vehicles = data.vehicles || [];
+            for (var i = 0; i < vehicles.length; i++) {
+              if (tecdocVehicleMatches(vehicles[i], mfrEn, baseModel, selectedYear)) {
+                cb(true);
+                return;
+              }
+            }
+            cb(false);
+          } catch (e) {
+            cb(true); /* parse error — don’t exclude */
+          }
+        } else if (x.status === 404) {
+          cb(false); /* no TecDoc file — exclude */
+        } else {
+          cb(true); /* network error — don’t exclude */
+        }
+      }
+    };
+    x.onerror = x.ontimeout = function () { cb(true); };
+    x.send();
+  }
+
+  /**
+   * Verify all matched products against TecDoc JSON data.
+   * For each product, fetches its TecDoc JSON and checks if any
+   * vehicle entry matches the selected manufacturer + model + year.
+   *
+   * mfrEn:      English manufacturer key  (e.g. "TOYOTA")
+   * modelKey:   vehicleData model key      (e.g. "COROLLA (דור 10) E150")
+   * selectedYear: year string              (e.g. "2011")
+   * cb:         callback receiving filtered results
+   */
+  function verifyWithTecDoc(matched, mfrEn, modelKey, selectedYear, cb) {
+    var baseModel = extractBaseModel(modelKey);
+    var categories = Object.keys(matched);
+    var totalProducts = 0;
+    var checkedProducts = 0;
+    var verified = {};
+
+    /* Count total products */
+    for (var ci = 0; ci < categories.length; ci++) {
+      totalProducts += matched[categories[ci]].length;
+    }
+
+    if (totalProducts === 0) { cb({}); return; }
+
+    /* Verify each product in parallel */
+    for (var c = 0; c < categories.length; c++) {
+      var catName = categories[c];
+      var products = matched[catName];
+      for (var p = 0; p < products.length; p++) {
+        (function (cat, product) {
+          verifyPartTecDoc(product.partCode, mfrEn, baseModel, selectedYear, function (isMatch) {
+            if (isMatch) {
+              if (!verified[cat]) verified[cat] = [];
+              verified[cat].push(product);
+            }
+            checkedProducts++;
+            if (checkedProducts === totalProducts) {
+              cb(verified);
+            }
+          });
+        })(catName, products[p]);
+      }
+    }
+  }
+
+
+  /* ----------------------------------------------------------
    *  PAGE ACTIVATION – hide default content, show results
    * ---------------------------------------------------------- */
 
@@ -1125,17 +1279,31 @@ window.__anFetchProductImages = function (catName, callback) {
       }
     }
 
+    /* Get English manufacturer & model keys for TecDoc verification */
+    var mfrEn = getParam('mfr') || brandEn || '';
+    var modelKey = getParam('model') || modelEn || '';
+
     /* Fetch CSV & match */
     fetchCSV(function (rows) {
-      if (loading) loading.style.display = 'none';
-
       if (!rows || rows.length === 0) {
+        if (loading) loading.style.display = 'none';
         showEmpty(brandHe, modelHe);
         return;
       }
 
       var matched = matchProducts(rows, brandAliases, modelAliases, year);
-      renderCategories(matched, brandHe, modelHe || modelEn);
+
+      /* Verify against TecDoc JSON data for precise vehicle compatibility */
+      if (mfrEn) {
+        verifyWithTecDoc(matched, mfrEn, modelKey, year, function (verified) {
+          if (loading) loading.style.display = 'none';
+          renderCategories(verified, brandHe, modelHe || modelEn);
+        });
+      } else {
+        /* No English mfr key — fall back to CSV-only matching */
+        if (loading) loading.style.display = 'none';
+        renderCategories(matched, brandHe, modelHe || modelEn);
+      }
     });
   }
 
