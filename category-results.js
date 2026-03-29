@@ -710,12 +710,25 @@ window.__anFetchProductImages = function (catName, callback) {
         continue;
       }
 
+      /* ---- Skip products without TecDoc part code ---- */
+      var cleanCode = partCode.replace(/"/g, '').trim();
+      if (!cleanCode) continue;
+
       if (!results[category]) results[category] = [];
+
+      /* ---- Deduplicate: skip if same product ID already in this category ---- */
+      var cleanId = id.replace(/"/g, '');
+      var dominated = false;
+      for (var di = 0; di < results[category].length; di++) {
+        if (results[category][di].id === cleanId) { dominated = true; break; }
+      }
+      if (dominated) continue;
+
       results[category].push({
-        id: id.replace(/"/g, ''),
+        id: cleanId,
         name: name.replace(/"/g, ''),
         category: category.replace(/"/g, ''),
-        partCode: partCode.replace(/"/g, ''),
+        partCode: cleanCode,
         years: years.replace(/"/g, ''),
         source: source.replace(/"/g, ''),
         link: (link || '').replace(/"/g, '')
