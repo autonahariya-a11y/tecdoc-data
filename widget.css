@@ -2,7 +2,7 @@
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    RTL Hebrew, Heebo font — Clean, modern, Autodoc-style layout */
 
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
+/* Note: Heebo font is loaded by the parent page — no @import needed here */
 
 /* ── Reset ── */
 #tecdoc-widget *,
