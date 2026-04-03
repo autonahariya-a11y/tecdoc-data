@@ -1,46 +1,14 @@
 /* ══════════════════════════════════════════════════════════════
    CLS Prevention — autonahariya.co.il speed optimization
-   Added: April 2026
+   Updated: April 2026
    ══════════════════════════════════════════════════════════════ */
 
-/* Product images — reserve space with aspect-ratio */
-.list_item_image {
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
-  background-color: #f8f8f8;
-  contain: layout;
-}
-
+/* Product images — prevent layout shift without forcing aspect-ratio */
 .list_item_image img,
 .box .zoom-new .wrap img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-
-/* Carousel containers — reserve height */
-[id^="images_carousel_"] .swiper-slide .image_wrapper {
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-  display: block;
-}
-
-[id^="images_carousel_"] .swiper-slide img.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* Generic images — prevent layout shift */
-img {
   max-width: 100%;
   height: auto;
-}
-
-img[width][height] {
-  height: auto;
+  display: block;
 }
 
 /* Fixed elements — don't cause CLS */
