@@ -1,25 +1,3 @@
-/* ══════════════════════════════════════════════════════════════
-   CLS Prevention — autonahariya.co.il speed optimization
-   Updated: April 2026
-   ══════════════════════════════════════════════════════════════ */
-
-/* Product images — prevent layout shift without forcing aspect-ratio */
-.list_item_image img,
-.box .zoom-new .wrap img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Fixed elements — don't cause CLS */
-.an-cart-drawer,
-#an-cart-drawer,
-#upBtn,
-.whatsapp-float,
-.floating-widget {
-  position: fixed !important;
-}
-
 /* ===================================================================
    Konimbo Hybrid Product Page CSS
    All selectors namespaced under #an-product-redesign to avoid
