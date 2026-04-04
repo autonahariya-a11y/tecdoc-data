@@ -3,24 +3,27 @@
   'use strict';
   function isAutoPartsPage() {
   if (window.location.pathname.indexOf('/items/') === -1) return false;
-  var allEls = document.getElementsByTagName('*');
-  for (var e = 0; e < allEls.length; e++) {
-    var elCls = (allEls[e].className || '').toString();
-    if (elCls.indexOf('code_item') !== -1) {
-      var elText = (allEls[e].textContent || '').trim();
-      if (elText.length > 0) return true;
-    }
-  }
-  var bodyText = document.body.innerText || '';
-  var contentArea = bodyText.length > 500 ? bodyText.substring(400) : bodyText;
-  if (contentArea.indexOf('\u05de\u05e7"\u05d8') !== -1) return true;
-  if (contentArea.indexOf('\u05de\u05e7\u05f4\u05d8') !== -1) return true;
-  if (contentArea.indexOf('\u05de\u05e7\u05f3\u05d8') !== -1) return true;
+  // MUST be under "חלקי חילוף לרכב" category (breadcrumb or link)
   var bcText = '';
   var bcEls = document.querySelectorAll('[class*="breadcrumb"], [id*="breadcrumb"]');
   for (var b = 0; b < bcEls.length; b++) bcText += (bcEls[b].textContent || '');
-  if (bcText.indexOf('\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3') !== -1) return true;
-  return false;
+  // Also check all links for the spare parts category URL
+  var allLinks = document.getElementsByTagName('a');
+  for (var al = 0; al < allLinks.length; al++) {
+    var lHref = allLinks[al].href || '';
+    if (lHref.indexOf('186807') !== -1 || lHref.indexOf('%D7%97%D7%9C%D7%A7%D7%99-%D7%97%D7%99%D7%9C%D7%95%D7%A3') !== -1) {
+      bcText += ' \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3';
+      break;
+    }
+  }
+  if (bcText.indexOf('\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3') === -1) return false;
+  // Exclude specific non-spare-parts categories
+  if (bcText.indexOf('\u05e9\u05de\u05e0\u05d9\u05dd') !== -1) return false;  // שמנים
+  if (bcText.indexOf('\u05db\u05dc\u05d9 \u05e2\u05d1\u05d5\u05d3\u05d4') !== -1) return false;  // כלי עבודה
+  if (bcText.indexOf('\u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd') !== -1) return false;  // אביזרים
+  if (bcText.indexOf('\u05d8\u05d9\u05e4\u05d5\u05d7') !== -1) return false;  // טיפוח
+  if (bcText.indexOf('\u05de\u05d2\u05d1\u05d5\u05ea') !== -1) return false;  // מגבות
+  return true;
   }
   if (!isAutoPartsPage()) return;
   var BRAND_INFO = {
