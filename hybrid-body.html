@@ -3,36 +3,58 @@
   'use strict';
   function isAutoPartsPage() {
   if (window.location.pathname.indexOf('/items/') === -1) return false;
-  // STRICT: Only run on pages that are under the spare parts category (186807)
-  // Check breadcrumb links for the category ID or exact URL
-  var bcEls = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a');
-  var isUnderSpareParts = false;
-  for (var b = 0; b < bcEls.length; b++) {
-    var lHref = bcEls[b].href || '';
-    // Category ID 186807 = חלקי חילוף לרכב
-    if (lHref.indexOf('186807') !== -1) { isUnderSpareParts = true; break; }
-  }
-  if (!isUnderSpareParts) {
-    // Fallback: check non-breadcrumb links too (some Konimbo templates)
-    var allLinks = document.getElementsByTagName('a');
-    for (var al = 0; al < allLinks.length; al++) {
-      var h = allLinks[al].href || '';
-      // Only match the category page URL, not just any link with the number
-      if (h.indexOf('/186807-') !== -1) { isUnderSpareParts = true; break; }
-    }
-  }
-  if (!isUnderSpareParts) return false;
-  // Exclude non-spare-parts sub-categories by breadcrumb text
+  // Whitelist: breadcrumb must contain a known spare-parts category name.
+  // This is the ONLY way in — no fallbacks that scan all page links.
+  var bcEls = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a, .bread_crumbs a');
   var bcText = '';
-  for (var bc2 = 0; bc2 < bcEls.length; bc2++) bcText += ' ' + (bcEls[bc2].textContent || '');
-  if (bcText.indexOf('\u05e9\u05de\u05e0\u05d9\u05dd') !== -1) return false;
-  if (bcText.indexOf('\u05db\u05dc\u05d9 \u05e2\u05d1\u05d5\u05d3\u05d4') !== -1) return false;
-  if (bcText.indexOf('\u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd') !== -1) return false;
-  if (bcText.indexOf('\u05d8\u05d9\u05e4\u05d5\u05d7') !== -1) return false;
-  if (bcText.indexOf('\u05de\u05d2\u05d1\u05d5\u05ea') !== -1) return false;
-  // Exclude by product title keywords (safety net for miscategorized products)
-  var title = document.title || '';
-  if (/Meguiar|meguiar|\u05de\u05d9\u05e7\u05e8\u05d5\u05e4\u05d9\u05d9\u05d1\u05e8|microfiber|\u05e4\u05d5\u05dc\u05d9\u05e9|polish|\u05e9\u05e2\u05d5\u05d5\u05d4/i.test(title)) return false;
+  for (var b = 0; b < bcEls.length; b++) bcText += ' ' + (bcEls[b].textContent || '').trim().toLowerCase();
+  // Also check non-link breadcrumb text (Konimbo sometimes uses spans)
+  var bcAll = document.querySelectorAll('[class*="breadcrumb"], [id*="breadcrumb"], .bread_crumbs');
+  for (var ba = 0; ba < bcAll.length; ba++) bcText += ' ' + (bcAll[ba].textContent || '').trim().toLowerCase();
+  // Whitelist of spare parts sub-category names (Hebrew, lowercased)
+  var spareParts = [
+    '\u05d7\u05dc\u05e7\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd',   // חלקי בלמים
+    '\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd',             // פילטרים
+    '\u05de\u05e2\u05e8\u05db\u05ea \u05d4\u05ea\u05dc\u05d9\u05d9\u05d4',  // מערכת התלייה
+    '\u05de\u05e2\u05e8\u05db\u05ea \u05d4\u05d9\u05d2\u05d5\u05d9',    // מערכת היגוי
+    '\u05de\u05e2\u05e8\u05db\u05ea \u05d4\u05e0\u05e2\u05d4',      // מערכת הנעה
+    '\u05de\u05e2\u05e8\u05db\u05ea \u05e7\u05d9\u05e8\u05d5\u05e8',   // מערכת קירור
+    '\u05de\u05e2\u05e8\u05db\u05ea \u05d1\u05dc\u05d9\u05de\u05d4',   // מערכת בלימה
+    '\u05de\u05e6\u05ea\u05d9\u05dd',                 // מצתים
+    '\u05d1\u05d5\u05dc\u05de\u05d9 \u05d6\u05e2\u05d6\u05d5\u05e2\u05d9\u05dd',  // בולמי זעזועים
+    '\u05de\u05e6\u05de\u05d3\u05d9\u05dd',               // מצמדים
+    '\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea',               // רצועות
+    '\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05dc\u05e8\u05db\u05d1',  // חלקי חילוף לרכב
+    '\u05d7\u05dc\u05e7\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd',     // חלקי בלמים (note: different spelling)
+    '\u05d7\u05dc\u05e7\u05d9 \u05d7\u05e9\u05de\u05dc',       // חלקי חשמל
+    '\u05d7\u05dc\u05e7\u05d9 \u05de\u05e0\u05d5\u05e2',       // חלקי מנוע
+    '\u05d7\u05dc\u05e7\u05d9 \u05e4\u05e8\u05d5\u05e0\u05d8',     // חלקי פרונט
+    '\u05ea\u05d0\u05d5\u05e8\u05d4',                 // תאורה
+    '\u05e1\u05d8\u05e8\u05d8\u05e8\u05d9\u05dd',           // סטרטרים
+    '\u05d0\u05dc\u05d8\u05e8\u05e0\u05d8\u05d5\u05e8\u05d9\u05dd'    // אלטרנטורים
+  ];
+  var found = false;
+  for (var sp = 0; sp < spareParts.length; sp++) {
+    if (bcText.indexOf(spareParts[sp]) !== -1) { found = true; break; }
+  }
+  if (!found) return false;
+  // Blacklist: categories that are NOT spare parts even if they match
+  var blocked = [
+    '\u05d8\u05d9\u05e4\u05d5\u05d7',       // טיפוח
+    '\u05e4\u05d3\u05d9\u05dd \u05dc\u05de\u05db\u05d5\u05e0\u05d4', // פדים למכונה
+    '\u05e9\u05e2\u05d5\u05d5\u05d4',       // שעווה
+    '\u05e4\u05d5\u05dc\u05d9\u05e9',       // פוליש
+    '\u05de\u05d9\u05e7\u05e8\u05d5\u05e4\u05d9\u05d9\u05d1\u05e8', // מיקרופייבר
+    'microfiber', 'polish', 'meguiar',
+    '\u05de\u05d5\u05e6\u05e8\u05d9 \u05d8\u05d9\u05e4\u05d5\u05d7', // מוצרי טיפוח
+    '\u05db\u05dc\u05d9 \u05e2\u05d1\u05d5\u05d3\u05d4',       // כלי עבודה
+    '\u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd',           // אביזרים
+    '\u05e9\u05de\u05e0\u05d9\u05dd',               // שמנים
+    '\u05de\u05d2\u05d1\u05d5\u05ea'                // מגבות
+  ];
+  for (var bl = 0; bl < blocked.length; bl++) {
+    if (bcText.indexOf(blocked[bl]) !== -1) return false;
+  }
   return true;
   }
   if (!isAutoPartsPage()) return;
