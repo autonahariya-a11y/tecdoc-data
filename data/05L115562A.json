@@ -1,0 +1,777 @@
+{
+  "articleNo": "100 322 0026",
+  "articleId": 804367,
+  "supplier": "MEYLE",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "make": "VW",
+      "model": "PASSAT B8 (3G2, CB2)",
+      "type": "2.0 TDI",
+      "yearFrom": "2014-11-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT B8 Variant (3G5, CB5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2014-11-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT B8 Variant (3G5, CB5)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2014-08-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT B8 (3G2, CB2)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2014-08-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "SKODA",
+      "model": "SUPERB III (3V3)",
+      "type": "2.0 TDI",
+      "yearFrom": "2015-03-01",
+      "yearTo": "2024-06-01"
+    },
+    {
+      "make": "SKODA",
+      "model": "SUPERB III Estate (3V5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2015-03-01",
+      "yearTo": "2024-06-01"
+    },
+    {
+      "make": "VW",
+      "model": "TOURAN (5T1)",
+      "type": "2.0 TDI",
+      "yearFrom": "2015-05-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "TIGUAN (AD1, AX1)",
+      "type": "2.0 TDI",
+      "yearFrom": "2016-01-01",
+      "yearTo": "2024-04-01"
+    },
+    {
+      "make": "VW",
+      "model": "TIGUAN (AD1, AX1)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2016-01-01",
+      "yearTo": "2024-04-01"
+    },
+    {
+      "make": "SEAT",
+      "model": "ATECA (KH7, KHP)",
+      "type": "2.0 TDI",
+      "yearFrom": "2016-04-01",
+      "yearTo": null
+    },
+    {
+      "make": "SEAT",
+      "model": "ATECA (KH7, KHP)",
+      "type": "2.0 TDI 4Drive",
+      "yearFrom": "2016-04-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "KODIAQ I (NS6, NS7, NV7)",
+      "type": "2.0 TDI 4x4",
+      "yearFrom": "2016-10-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "KODIAQ I (NS6, NS7, NV7)",
+      "type": "2.0 TDI",
+      "yearFrom": "2016-10-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "ARTEON (3H7, 3H8)",
+      "type": "2.0 TDI",
+      "yearFrom": "2017-03-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "KAROQ (NU7, ND7)",
+      "type": "2.0 TDI 4x4",
+      "yearFrom": "2017-07-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "T-ROC (A11, D11)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2017-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "T-ROC (A11, D11)",
+      "type": "2.0 TDI",
+      "yearFrom": "2018-03-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "Q3 (F3B)",
+      "type": "35 TDI",
+      "yearFrom": "2018-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "Q3 (F3B)",
+      "type": "35 TDI quattro",
+      "yearFrom": "2018-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "Q3 Sportback (F3N)",
+      "type": "35 TDI",
+      "yearFrom": "2019-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "Q3 Sportback (F3N)",
+      "type": "35 TDI quattro",
+      "yearFrom": "2019-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "KAROQ (NU7, ND7)",
+      "type": "2.0 TDI",
+      "yearFrom": "2017-07-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "Q2 (GAB, GAG)",
+      "type": "35 TDI quattro",
+      "yearFrom": "2019-01-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "Q2 (GAB, GAG)",
+      "type": "35 TDI",
+      "yearFrom": "2016-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "GOLF VIII (CD1, DA1)",
+      "type": "2.0 TDI",
+      "yearFrom": "2019-08-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "GOLF VIII (CD1, DA1)",
+      "type": "2.0 TDI",
+      "yearFrom": "2019-08-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV Combi (NX5, PV5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2019-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV Combi (NX5, PV5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2019-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "A3 Sportback (8YA, 8YF)",
+      "type": "30 TDI",
+      "yearFrom": "2019-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "A3 Sportback (8YA, 8YF)",
+      "type": "35 TDI",
+      "yearFrom": "2019-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "SEAT",
+      "model": "LEON (KL1, KLG)",
+      "type": "2.0 TDI",
+      "yearFrom": "2019-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "SEAT",
+      "model": "LEON (KL1, KLG)",
+      "type": "2.0 TDI",
+      "yearFrom": "2019-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV (NX3, NN3, PV3)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-03-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV (NX3, NN3, PV3)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-01-01",
+      "yearTo": null
+    },
+    {
+      "make": "SEAT",
+      "model": "LEON Sportstourer (KL8, KLD)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-04-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "A3 Limousine (8YS, 8YM)",
+      "type": "30 TDI",
+      "yearFrom": "2020-06-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "A3 Limousine (8YS, 8YM)",
+      "type": "35 TDI",
+      "yearFrom": "2020-04-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "ARTEON SHOOTING BRAKE (3H9)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "ARTEON SHOOTING BRAKE (3H9)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "GOLF VIII Variant (CG5, DB5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-08-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "GOLF VIII Variant (CG5, DB5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-08-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "TIGUAN (AD1, AX1)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2020-07-01",
+      "yearTo": "2024-04-01"
+    },
+    {
+      "make": "AUDI",
+      "model": "Q3 Sportback (F3N)",
+      "type": "40 TDI quattro",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "KODIAQ I (NS6, NS7, NV7)",
+      "type": "2.0 TDI 4x4",
+      "yearFrom": "2020-06-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "SUPERB III (3V3)",
+      "type": "2.0 TDI 4x4",
+      "yearFrom": "2020-09-01",
+      "yearTo": "2024-06-01"
+    },
+    {
+      "make": "SKODA",
+      "model": "SUPERB III Estate (3V5)",
+      "type": "2.0 TDI 4x4",
+      "yearFrom": "2020-09-01",
+      "yearTo": "2024-06-01"
+    },
+    {
+      "make": "VW",
+      "model": "TIGUAN (AD1, AX1)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-07-01",
+      "yearTo": "2024-04-01"
+    },
+    {
+      "make": "SKODA",
+      "model": "SUPERB III (3V3)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-09-01",
+      "yearTo": "2024-06-01"
+    },
+    {
+      "make": "SKODA",
+      "model": "SUPERB III Estate (3V5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-09-01",
+      "yearTo": "2024-06-01"
+    },
+    {
+      "make": "VW",
+      "model": "CADDY V MPV (SBB, SBJ)",
+      "type": "2.0 TDi BMT",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY V MPV (SBB, SBJ)",
+      "type": "2.0 TDi BMT",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY V Box Body/MPV (SBA, SBH)",
+      "type": "2.0 TDi BMT",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY V Box Body/MPV (SBA, SBH)",
+      "type": "2.0 TDi BMT",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY V Box Body/MPV (SBA, SBH)",
+      "type": "2.0 TDi BMT",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "SEAT",
+      "model": "TARRACO (KN2)",
+      "type": "2.0 TDI 4Drive",
+      "yearFrom": "2020-07-01",
+      "yearTo": "2024-05-01"
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV Combi (NX5, PV5)",
+      "type": "2.0 TDI RS 4x4",
+      "yearFrom": "2020-07-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV Combi (NX5, PV5)",
+      "type": "2.0 TDI RS",
+      "yearFrom": "2020-07-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV (NX3, NN3, PV3)",
+      "type": "2.0 TDI RS 4x4",
+      "yearFrom": "2020-07-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV (NX3, NN3, PV3)",
+      "type": "2.0 TDI RS",
+      "yearFrom": "2020-07-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT B8 Variant (3G5, CB5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-07-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT B8 Variant (3G5, CB5)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2020-08-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT B8 (3G2, CB2)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2020-08-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT B8 (3G2, CB2)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-07-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "SKODA",
+      "model": "SUPERB III (3V3)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-07-01",
+      "yearTo": "2024-06-01"
+    },
+    {
+      "make": "SKODA",
+      "model": "SUPERB III Estate (3V5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-07-01",
+      "yearTo": "2024-06-01"
+    },
+    {
+      "make": "VW",
+      "model": "CADDY V MPV (SBB, SBJ)",
+      "type": "2.0 TDi BMT",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "ARTEON (3H7, 3H8)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "ARTEON (3H7, 3H8)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "ARTEON SHOOTING BRAKE (3H9)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT B8 (3G2, CB2)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-10-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT B8 Variant (3G5, CB5)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-09-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "AUDI",
+      "model": "A3 Limousine (8YS, 8YM)",
+      "type": "40 TDI quattro",
+      "yearFrom": "2020-12-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "A3 Sportback (8YA, 8YF)",
+      "type": "40 TDI quattro",
+      "yearFrom": "2020-12-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "GOLF ALLTRACK VIII (CG5)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2020-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "T-ROC (A11, D11)",
+      "type": "2.0 TDI SCR",
+      "yearFrom": "2020-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV Combi (NX5, PV5)",
+      "type": "2.0 TDI 4x4",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "GOLF VIII (CD1, DA1)",
+      "type": "2.0 TDI GTD",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "SEAT",
+      "model": "ATECA (KH7, KHP)",
+      "type": "2.0 TDI",
+      "yearFrom": "2021-01-01",
+      "yearTo": null
+    },
+    {
+      "make": "CUPRA",
+      "model": "FORMENTOR (KM7, KMP)",
+      "type": "2.0 TDI",
+      "yearFrom": "2021-03-01",
+      "yearTo": null
+    },
+    {
+      "make": "CUPRA",
+      "model": "FORMENTOR (KM7, KMP)",
+      "type": "2.0 TDI 4Drive",
+      "yearFrom": "2021-03-01",
+      "yearTo": null
+    },
+    {
+      "make": "SEAT",
+      "model": "LEON Sportstourer (KL8, KLD)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY V MPV (SBB, SBJ)",
+      "type": "2.0 TDI BMT 4motion",
+      "yearFrom": "2021-03-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY V Box Body/MPV (SBA, SBH)",
+      "type": "2.0 TDI BMT 4motion",
+      "yearFrom": "2021-03-01",
+      "yearTo": null
+    },
+    {
+      "make": "SEAT",
+      "model": "LEON Sportstourer (KL8, KLD)",
+      "type": "2.0 TDI 4Drive",
+      "yearFrom": "2020-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "Q2 (GAB, GAG)",
+      "type": "30 TDI",
+      "yearFrom": "2021-02-01",
+      "yearTo": null
+    },
+    {
+      "make": "SKODA",
+      "model": "KAROQ (NU7, ND7)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "TIGUAN ALLSPACE (BW2, BJ2)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2020-06-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "PASSAT ALLTRACK B8 Variant (3G5, CB5)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2020-08-01",
+      "yearTo": "2024-03-01"
+    },
+    {
+      "make": "SKODA",
+      "model": "OCTAVIA IV (NX3, NN3, PV3)",
+      "type": "2.0 TDI 4x4",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "TOURAN (5T1)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "TOURAN VAN (5T1)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "TOURAN VAN (5T1)",
+      "type": "2.0 TDI",
+      "yearFrom": "2020-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "AUDI",
+      "model": "Q3 (F3B)",
+      "type": "40 TDI quattro",
+      "yearFrom": "2020-11-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "GOLF VIII Variant (CG5, DB5)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2021-06-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "GOLF VIII (CD1, DA1)",
+      "type": "2.0 TDI 4motion",
+      "yearFrom": "2021-06-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY CALIFORNIA V Camper (SBB, SBJ)",
+      "type": "2.0 TDi BMT",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY CALIFORNIA V Camper (SBB, SBJ)",
+      "type": "2.0 TDi BMT",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY CALIFORNIA V Camper (SBB, SBJ)",
+      "type": "2.0 TDi BMT",
+      "yearFrom": "2020-09-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "CADDY CALIFORNIA V Camper (SBB, SBJ)",
+      "type": "2.0 TDI BMT 4motion",
+      "yearFrom": "2021-03-01",
+      "yearTo": null
+    },
+    {
+      "make": "FORD",
+      "model": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
+      "type": "2.0 EcoBlue",
+      "yearFrom": "2022-02-01",
+      "yearTo": null
+    },
+    {
+      "make": "FORD",
+      "model": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
+      "type": "2.0 EcoBlue",
+      "yearFrom": "2022-02-01",
+      "yearTo": null
+    },
+    {
+      "make": "FORD",
+      "model": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
+      "type": "2.0 EcoBlue",
+      "yearFrom": "2022-02-01",
+      "yearTo": null
+    },
+    {
+      "make": "FORD",
+      "model": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
+      "type": "2.0 EcoBlue 4WD",
+      "yearFrom": "2022-02-01",
+      "yearTo": null
+    },
+    {
+      "make": "VW",
+      "model": "MULTIVAN T7 (STM, STN)",
+      "type": "2.0 TDI",
+      "yearFrom": "2022-03-01",
+      "yearTo": null
+    },
+    {
+      "make": "FORD",
+      "model": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
+      "type": "EcoBlue",
+      "yearFrom": "2024-05-01",
+      "yearTo": null
+    },
+    {
+      "make": "FORD",
+      "model": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
+      "type": "EcoBlue",
+      "yearFrom": "2024-05-01",
+      "yearTo": null
+    },
+    {
+      "make": "FORD",
+      "model": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
+      "type": "EcoBlue",
+      "yearFrom": "2024-05-01",
+      "yearTo": null
+    },
+    {
+      "make": "FORD",
+      "model": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
+      "type": "EcoBlue 4WD",
+      "yearFrom": "2024-05-01",
+      "yearTo": null
+    },
+    {
+      "make": "CUPRA",
+      "model": "LEON (KL1, KU1, KUG)",
+      "type": "2.0 TDI",
+      "yearFrom": "2022-11-01",
+      "yearTo": null
+    }
+  ],
+  "specs": [],
+  "oe": [],
+  "ean": "",
+  "originalSKU": "05L115562A",
+  "enrichedVia": "OEM",
+  "fetchedAt": "2026-04-04T00:23:16Z"
+}
