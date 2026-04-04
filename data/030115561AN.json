@@ -1,7 +1,7 @@
 {
-  "articleNo": "100 115 0004",
+  "articleNo": "030115561AN",
   "articleId": 802692,
-  "supplier": "MEYLE",
+  "supplier": "VAG Original",
   "product": "Oil Filter",
   "vehicles": [
     {
@@ -1150,6 +1150,7 @@
   "oe": [],
   "ean": "",
   "originalSKU": "030115561AN",
-  "enrichedVia": "OEM",
-  "fetchedAt": "2026-04-04T00:22:09Z"
+  "enrichedVia": "OEM-original",
+  "fetchedAt": "2026-04-04T00:22:09Z",
+  "isOEM": true
 }
