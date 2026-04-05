@@ -286,6 +286,27 @@
     break;
   }
   }
+  // Flexible brand detection: match partial/alternate names in title
+  if (!detectedBrand) {
+  var brandAliases = {
+    'MANN': 'MANN-FILTER', 'MANN FILTER': 'MANN-FILTER', 'MANN+HUMMEL': 'MANN-FILTER',
+    'FEBI': 'FEBI BILSTEIN', 'BILSTEIN': 'FEBI BILSTEIN',
+    'LEMFORDER': 'LEMFORDER', 'LEMF\u00D6RDER': 'LEMFORDER',
+    'KNECHT': 'KNECHT', 'FILTRON': 'KNECHT',
+    'SANGSIN': 'SANGSIN', 'HI-Q': 'SANGSIN', 'HIQ': 'SANGSIN',
+    'GATES': 'GATES', 'DAYCO': 'DAYCO', 'INA': 'INA', 'LUK': 'LUK',
+    'HELLA': 'HELLA', 'CONTINENTAL': 'CONTINENTAL',
+    'FORMACY': 'FORMACY', 'MOOG': 'MOOG', 'DELPHI': 'DELPHI',
+    'TEKNOROT': 'TEKNOROT', 'AYD': 'AYD'
+  };
+  var aliasKeys = Object.keys(brandAliases);
+  for (var ak = 0; ak < aliasKeys.length; ak++) {
+    if (titleUpper.indexOf(aliasKeys[ak]) !== -1) {
+      detectedBrand = brandAliases[aliasKeys[ak]];
+      break;
+    }
+  }
+  }
   if (!detectedBrand) {
   if (titleUpper.indexOf('MONTECCHIO') !== -1 || titleUpper.indexOf('AARON') !== -1 ||
       productTitle.indexOf('\u05de\u05d5\u05e0\u05d8\u05e7\u05d9\u05d5') !== -1 ||
