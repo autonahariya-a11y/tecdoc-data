@@ -2,6 +2,14 @@
 (function() {
   'use strict';
 
+  /* Load CSS from GitHub (bypasses Konimbo field 9 size limit) */
+  if (!document.querySelector('link[href*="hybrid-v4.css"]')) {
+    var cssLink = document.createElement('link');
+    cssLink.rel = 'stylesheet';
+    cssLink.href = 'https://autonahariya-a11y.github.io/tecdoc-data/hybrid-v4.css';
+    document.head.appendChild(cssLink);
+  }
+
   /* ===================================================
      STEP 1: Category detection (copied from hybrid-final)
      =================================================== */
