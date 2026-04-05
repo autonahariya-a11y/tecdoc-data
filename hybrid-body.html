@@ -387,10 +387,33 @@
   var targetInsertEl = document.getElementById('item_show') ||
   document.getElementById('item_details') ||
   document.getElementById('item_content') ||
-  document.getElementById('content_area');
+  document.getElementById('content_area') ||
+  document.getElementById('item_main') ||
+  document.getElementById('layout_item');
+  if (!targetInsertEl) {
+  // Try Konimbo's form wrapper
+  var form = document.querySelector('form#new_order, form.productForm');
+  if (form) targetInsertEl = form;
+  }
+  if (!targetInsertEl) {
+  // Try breadcrumb's next sibling or parent's first child
+  var bc = document.getElementById('bread_crumbs');
+  if (bc && bc.nextElementSibling) targetInsertEl = bc.nextElementSibling;
+  else if (bc && bc.parentElement) targetInsertEl = bc.parentElement.children[0];
+  }
   if (!targetInsertEl) {
   var mains = document.getElementsByTagName('main');
   if (mains.length) targetInsertEl = mains[0];
+  }
+  if (!targetInsertEl) {
+  // Last resort: find the product title h1 and use its parent
+  var h1s = document.querySelectorAll('h1');
+  for (var h1i = 0; h1i < h1s.length; h1i++) {
+    if (h1s[h1i].textContent.indexOf(productTitle.substring(0, 10)) !== -1) {
+      targetInsertEl = h1s[h1i].parentElement;
+      break;
+    }
+  }
   }
   if (!targetInsertEl) return; // Can't find insertion point
   var tecdocWidget = document.getElementById('tecdoc-widget');
