@@ -13,7 +13,10 @@ body.an-redesigned .item_main_top,
 body.an-redesigned #bread_crumbs,
 body.an-redesigned .product-container,
 body.an-redesigned #item_current_title,
-body.an-redesigned .code_item {
+body.an-redesigned .code_item,
+body.an-redesigned #page_notice,
+body.an-redesigned #storiesWidget,
+body.an-redesigned .stories-wrapper {
   display: none !important;
 }
 body.an-redesigned #item_details,
@@ -41,6 +44,32 @@ body.an-redesigned .item_main_bottom {
 body.an-redesigned .tw-strengths,
 body.an-redesigned #tw-brand-info {
   display: none !important;
+}
+
+/* Cart button full width like demo */
+.an-cart-row {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+}
+.an-add-to-cart-btn,
+.an-add-to-cart {
+  width: 100% !important;
+  height: 54px !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 14px rgba(27,78,145,0.35) !important;
+}
+.tw-purchase-row {
+  width: 100% !important;
+}
+.tw-purchase-row .tw-cart-btn {
+  width: 100% !important;
+  height: 54px !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 14px rgba(27,78,145,0.35) !important;
 }
 
 /* Chevron icon in collapsible headers */
