@@ -1,3 +1,97 @@
+/* ===================================================================
+   KONIMBO CONTENT HIDING — active when body has 'an-redesigned' class
+   =================================================================== */
+body.an-redesigned #item_show,
+body.an-redesigned #item_content,
+body.an-redesigned .specifications,
+body.an-redesigned #item_show_facebook,
+body.an-redesigned #item_show_carousel,
+body.an-redesigned .item_show_carousel,
+body.an-redesigned .item_container,
+body.an-redesigned #item_info,
+body.an-redesigned .item_main_top,
+body.an-redesigned #bread_crumbs,
+body.an-redesigned .product-container,
+body.an-redesigned #item_current_title,
+body.an-redesigned .code_item {
+  display: none !important;
+}
+body.an-redesigned #item_details,
+body.an-redesigned .item_main_bottom {
+  display: block !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+/* Ensure our container shows */
+#an-product-redesign {
+  display: block !important;
+}
+/* Cart area */
+#an-cart-area .tw-purchase-row {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+/* Hide old widget elements replaced by Hybrid */
+body.an-redesigned .tw-strengths,
+body.an-redesigned #tw-brand-info {
+  display: none !important;
+}
+
+/* Chevron icon in collapsible headers */
+.an-chevron {
+  width: 18px !important;
+  height: 18px !important;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+.an-collapsed .an-chevron {
+  transform: rotate(-90deg);
+}
+.an-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 16px 20px;
+  user-select: none;
+}
+.an-section-header h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+.an-section-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.an-section-content {
+  padding: 0 20px 20px;
+}
+/* Highlights chevron */
+.an-highlights-header .an-chevron,
+.an-highlights-box .an-chevron {
+  width: 18px !important;
+  height: 18px !important;
+}
+svg.an-chevron {
+  max-width: 18px !important;
+  max-height: 18px !important;
+}
+
+
+/* Page background */
+.an-page-bg { background: #f7f8fa; padding: 8px 0 40px; }
+.an-product-layout { width: 100%; }
+
 *, *::before, *::after {
       box-sizing: border-box;
       margin: 0;
@@ -895,91 +989,3 @@
         font-size: 13px;
       }
     }
-/* ===================================================================
-   KONIMBO CONTENT HIDING — active when body has 'an-redesigned' class
-   =================================================================== */
-body.an-redesigned #item_show,
-body.an-redesigned #item_content,
-body.an-redesigned .specifications,
-body.an-redesigned #item_show_facebook,
-body.an-redesigned #item_show_carousel,
-body.an-redesigned .item_show_carousel,
-body.an-redesigned .item_container,
-body.an-redesigned #item_info,
-body.an-redesigned .item_main_top,
-body.an-redesigned #bread_crumbs,
-body.an-redesigned .product-container,
-body.an-redesigned #item_current_title,
-body.an-redesigned .code_item {
-  display: none !important;
-}
-body.an-redesigned #item_details,
-body.an-redesigned .item_main_bottom {
-  display: block !important;
-  height: 0 !important;
-  overflow: hidden !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  border: none !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
-/* Ensure our container shows */
-#an-product-redesign {
-  display: block !important;
-}
-/* Cart area */
-#an-cart-area .tw-purchase-row {
-  display: flex !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-/* Hide old widget elements replaced by Hybrid */
-body.an-redesigned .tw-strengths,
-body.an-redesigned #tw-brand-info {
-  display: none !important;
-}
-
-/* Chevron icon in collapsible headers */
-.an-chevron {
-  width: 18px !important;
-  height: 18px !important;
-  flex-shrink: 0;
-  transition: transform 0.3s;
-}
-.an-collapsed .an-chevron {
-  transform: rotate(-90deg);
-}
-.an-section-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  padding: 16px 20px;
-  user-select: none;
-}
-.an-section-header h2 {
-  margin: 0;
-  font-size: 17px;
-  font-weight: 700;
-}
-.an-section-card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  margin-bottom: 16px;
-  overflow: hidden;
-}
-.an-section-content {
-  padding: 0 20px 20px;
-}
-/* Highlights chevron */
-.an-highlights-header .an-chevron,
-.an-highlights-box .an-chevron {
-  width: 18px !important;
-  height: 18px !important;
-}
-svg.an-chevron {
-  max-width: 18px !important;
-  max-height: 18px !important;
-}
