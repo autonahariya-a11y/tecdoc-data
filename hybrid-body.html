@@ -5,11 +5,11 @@
   if (window.location.pathname.indexOf('/items/') === -1) return false;
   // Whitelist: breadcrumb must contain a known spare-parts category name.
   // This is the ONLY way in — no fallbacks that scan all page links.
-  var bcEls = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a, .bread_crumbs a');
+  var bcEls = document.querySelectorAll('[class*="breadcrumb"] a, [id*="breadcrumb"] a, .bread_crumbs a, #bread_crumbs a');
   var bcText = '';
   for (var b = 0; b < bcEls.length; b++) bcText += ' ' + (bcEls[b].textContent || '').trim().toLowerCase();
   // Also check non-link breadcrumb text (Konimbo sometimes uses spans)
-  var bcAll = document.querySelectorAll('[class*="breadcrumb"], [id*="breadcrumb"], .bread_crumbs');
+  var bcAll = document.querySelectorAll('[class*="breadcrumb"], [id*="breadcrumb"], .bread_crumbs, #bread_crumbs');
   for (var ba = 0; ba < bcAll.length; ba++) bcText += ' ' + (bcAll[ba].textContent || '').trim().toLowerCase();
   // Whitelist of spare parts sub-category names (Hebrew, lowercased)
   var spareParts = [
@@ -31,7 +31,18 @@
     '\u05d7\u05dc\u05e7\u05d9 \u05e4\u05e8\u05d5\u05e0\u05d8',     // חלקי פרונט
     '\u05ea\u05d0\u05d5\u05e8\u05d4',                 // תאורה
     '\u05e1\u05d8\u05e8\u05d8\u05e8\u05d9\u05dd',           // סטרטרים
-    '\u05d0\u05dc\u05d8\u05e8\u05e0\u05d8\u05d5\u05e8\u05d9\u05dd'    // אלטרנטורים
+    '\u05d0\u05dc\u05d8\u05e8\u05e0\u05d8\u05d5\u05e8\u05d9\u05dd',   // אלטרנטורים
+    '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05d0\u05d5\u05d5\u05d9\u05e8',     // פילטר אוויר
+    '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05e9\u05de\u05df',         // פילטר שמן
+    '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05de\u05d6\u05d2\u05df',       // פילטר מזגן
+    '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05e1\u05d5\u05dc\u05e8',       // פילטר סולר
+    '\u05d3\u05d9\u05e1\u05e7\u05d9 \u05d1\u05dc\u05dd',         // דיסקי בלם
+    '\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd',       // רפידות בלם
+    '\u05e7\u05e6\u05d5\u05d5\u05ea \u05d4\u05d2\u05d4',         // קצוות הגה
+    '\u05de\u05d5\u05d8\u05d5\u05ea \u05de\u05d9\u05d9\u05e6\u05d1',     // מוטות מייצב
+    '\u05de\u05e9\u05d5\u05dc\u05e9\u05d9\u05dd',             // משולשים
+    '\u05db\u05d3\u05d5\u05e8\u05d9\u05d5\u05ea',             // כדוריות
+    '\u05d1\u05d5\u05db\u05e1\u05d5\u05ea'                // בוכסות
   ];
   var found = false;
   for (var sp = 0; sp < spareParts.length; sp++) {
