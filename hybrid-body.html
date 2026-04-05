@@ -298,7 +298,8 @@
     detectedBrand = 'MONTECCHIO';
   }
   }
-  // OEM detection: if SKU matches a car manufacturer's OEM pattern, override brand
+  // OEM detection: if SKU matches a car manufacturer's OEM pattern, mark as OEM
+  var isOEMpart = false;
   if (!BRAND_INFO[detectedBrand] && skuValue) {
     var sk = skuValue.trim();
     // VAG: 03C115561H, 04E115561AC, 1K0129620A, 5Q0698151A
@@ -329,6 +330,7 @@
     else if (/^(11|13|17|22|31|32|33|34|64)\d{9}$/.test(sk)) {
       detectedBrand = 'BMW';
     }
+    if (detectedBrand) isOEMpart = true;
   }
   var brandData = BRAND_INFO[detectedBrand] || { name: detectedBrand || '\u05d9\u05e6\u05e8\u05df', description: '\u05d9\u05e6\u05e8\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1. \u05de\u05e1\u05e4\u05e7 \u05e4\u05ea\u05e8\u05d5\u05e0\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05dc\u05e9\u05d5\u05e7 \u05d4\u05d7\u05dc\u05e4\u05d9\u05dd.', founded: '', country: '', color: '#1B4E91'
   };
@@ -430,9 +432,11 @@
   html += '<div class="image-thumbnails">' + thumbnailsHtml + '</div>';
   html += '</div>'; // end product-image-section
   html += '<div class="product-info">';
+  if (!isOEMpart) {
   html += '<div class="brand-badge">';
   html += '<span class="brand-badge-logo" style="background:' + brandData.color + '">' + brandData.name.toUpperCase().substring(0, 8) + '</span>';
   html += '</div>';
+  }
   html += '<h1 class="product-title">' + productTitle + '</h1>';
   html += '<div class="product-subtitle">' + productSubtitle + '</div>';
   html += '<div class="product-meta">';
@@ -456,6 +460,7 @@
   html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDD12</span><span>\u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d5\u05d1\u05d8\u05d7 \u2014 SSL \u05de\u05d5\u05e6\u05e4\u05df</span></div>';
   html += '<div class="trust-item"><span class="trust-icon">\uD83D\uDCB3</span><span>\u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05ea\u05e9\u05dc\u05d5\u05de\u05d9\u05dd \u05d1\u05e7\u05d5\u05e4\u05d4</span></div>';
   html += '</div>'; // trust-box
+  if (!isOEMpart) {
   html += '<div class="highlights-box open" id="an-highlights-box">';
   html += '<div class="highlights-header" id="an-highlights-header">';
   html += '<span class="highlights-icon">&#10022;</span>';
@@ -466,6 +471,7 @@
   html += '<div class="highlights-inner"><ul>' + highlightsHtml + '</ul></div>';
   html += '</div>';
   html += '</div>'; // highlights-box
+  }
   html += '</div>'; // end product-info
   html += '<div class="desc-section-wrap">';
   html += '<div class="desc-section">';
@@ -483,6 +489,7 @@
   html += '<div class="specs-row"><div class="specs-label">\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea</div><div class="specs-value">3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7\u05f3\u05de</div></div>';
   html += '</div>'; // specs-table
   html += '</div>'; // desc-section
+  if (!isOEMpart) {
   html += '<div class="brand-section">';
   html += '<div class="brand-section-header">';
   var bc = brandData.color || '#1B4E91';
@@ -498,6 +505,7 @@
   html += '</div>';
   html += '<p style="font-size:13px;color:#666;line-height:1.6;">' + brandData.description + '</p>';
   html += '</div>'; // brand-section
+  }
   html += '<div class="an-tecdoc-wrap" id="an-tecdoc-wrap"></div>';
   html += '</div>'; // end desc-section-wrap
   html += '</div>'; // end product-layout
