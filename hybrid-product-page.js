@@ -1,16 +1,291 @@
 (function() {
   'use strict';
 
-  /* Load CSS from GitHub (bypasses Konimbo field 9 size limit) */
-  if (!document.querySelector('link[href*="hybrid-v4.css"]')) {
-    var cssLink = document.createElement('link');
-    cssLink.rel = 'stylesheet';
-    cssLink.href = 'https://autonahariya-a11y.github.io/tecdoc-data/hybrid-v4.css';
-    document.head.appendChild(cssLink);
+  /* ===================================================
+     STEP 1: Inject CSS
+     =================================================== */
+  if (!document.getElementById('an-style-v2')) {
+    var style = document.createElement('style');
+    style.id = 'an-style-v2';
+    style.textContent = [
+      /* ===== KONIMBO ELEMENT HIDING ===== */
+      'body.an-redesigned #item_show,',
+      'body.an-redesigned #item_content,',
+      'body.an-redesigned .specifications,',
+      'body.an-redesigned #item_show_facebook,',
+      'body.an-redesigned #item_show_carousel,',
+      'body.an-redesigned .item_show_carousel,',
+      'body.an-redesigned .item_container,',
+      'body.an-redesigned #item_info,',
+      'body.an-redesigned .item_main_top,',
+      'body.an-redesigned #bread_crumbs,',
+      'body.an-redesigned .product-container,',
+      'body.an-redesigned #item_current_title,',
+      'body.an-redesigned .code_item,',
+      'body.an-redesigned #page_notice,',
+      'body.an-redesigned #storiesWidget,',
+      'body.an-redesigned .stories-wrapper{display:none!important}',
+      'body.an-redesigned #item_details,',
+      'body.an-redesigned .item_main_bottom{display:block!important;height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:none!important;opacity:0!important;pointer-events:none!important}',
+
+      /* ===== ROOT VARIABLES ===== */
+      '.an-product-redesign,:root{',
+      '--an-primary:#1B4E91;--an-primary-dark:#153d73;--an-brand-blue:#1a4690;--an-brand-red:#c8102e;',
+      '--an-bg:#f7f8fa;--an-white:#ffffff;--an-text:#1a1a2e;--an-text-secondary:#5a5a6e;',
+      '--an-text-muted:#8a8a9a;--an-border:#e4e6eb;--an-border-light:#f0f1f4;',
+      '--an-green:#00a651;--an-green-bg:#e8f8ef;--an-radius:12px;--an-radius-sm:8px;',
+      '--an-shadow:0 2px 8px rgba(0,0,0,0.06);--an-shadow-lg:0 4px 20px rgba(0,0,0,0.08)}',
+
+      /* ===== PAGE BACKGROUND ===== */
+      '#an-product-redesign{font-family:\'Heebo\',sans-serif;background:var(--an-bg);color:var(--an-text);',
+      'line-height:1.6;-webkit-font-smoothing:antialiased;direction:rtl}',
+      '#an-product-redesign *,#an-product-redesign *::before,#an-product-redesign *::after{box-sizing:border-box;margin:0;padding:0}',
+
+      /* ===== BREADCRUMB ===== */
+      '.an-breadcrumb-bar{background:var(--an-white);border-bottom:1px solid var(--an-border-light)}',
+      '.an-breadcrumb{max-width:1200px;margin:0 auto;padding:12px 24px;font-size:13px;color:var(--an-text-muted);',
+      'display:flex;align-items:center;gap:6px;flex-wrap:wrap}',
+      '.an-breadcrumb a{color:var(--an-text-secondary);text-decoration:none;transition:color 0.2s}',
+      '.an-breadcrumb a:hover{color:var(--an-primary)}',
+      '.an-sep{color:var(--an-border)}',
+      '.an-current{color:var(--an-text);font-weight:500}',
+
+      /* ===== CONTAINER ===== */
+      '.an-container{max-width:1200px;margin:0 auto;padding:24px}',
+      '.an-page-bg{background:var(--an-bg)}',
+
+      /* ===== PRODUCT TOP ===== */
+      '.an-product-layout{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-bottom:24px}',
+
+      /* ===== IMAGE AREA ===== */
+      '.an-image-section{background:var(--an-white);border-radius:var(--an-radius);',
+      'box-shadow:var(--an-shadow);padding:24px;display:flex;flex-direction:column;align-items:center}',
+      '.an-main-image{width:100%;max-width:400px;aspect-ratio:1;display:flex;align-items:center;',
+      'justify-content:center;margin-bottom:16px;overflow:hidden}',
+      '.an-main-image img{width:100%;height:100%;object-fit:contain}',
+      '.an-img-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;',
+      'justify-content:center;background:#f5f6f8;border-radius:12px;gap:8px}',
+      '.an-img-ph-brand{font-size:22px;font-weight:800;color:var(--an-primary);letter-spacing:2px}',
+      '.an-img-ph-sku{font-size:16px;font-weight:600;color:var(--an-text-secondary)}',
+      '.an-thumb-row{display:flex;gap:10px;justify-content:center}',
+      '.an-thumb{width:64px;height:64px;border-radius:8px;border:2px solid var(--an-border);',
+      'background:var(--an-bg);display:flex;align-items:center;justify-content:center;',
+      'cursor:pointer;transition:border-color 0.2s;overflow:hidden}',
+      '.an-thumb img{width:100%;height:100%;object-fit:contain}',
+      '.an-thumb.an-thumb-active{border-color:var(--an-brand-red)}',
+      '.an-thumb:hover{border-color:var(--an-brand-red)}',
+      '.an-thumb-ph{font-size:8px;color:var(--an-text-muted);font-weight:600;text-align:center;line-height:1.2}',
+
+      /* ===== INFO AREA ===== */
+      '.an-info-section{display:flex;flex-direction:column;gap:16px}',
+      '.an-sku-brand-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}',
+      '.an-sku-badge{display:inline-flex;align-items:center;gap:6px;background:var(--an-bg);',
+      'border:1px solid var(--an-border);border-radius:6px;padding:5px 12px;font-size:13px;',
+      'color:var(--an-text-secondary);font-weight:500}',
+      '.an-brand-badge{display:inline-flex;align-items:center;gap:6px;border-radius:6px;',
+      'padding:5px 14px;font-size:13px;color:white;font-weight:700;letter-spacing:0.5px}',
+      '.an-product-title{font-size:26px;font-weight:700;color:var(--an-text);line-height:1.3}',
+      '.an-product-subtitle{font-size:15px;color:var(--an-text-muted);margin-top:-8px}',
+      '.an-stock-row{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:500;color:var(--an-green)}',
+      '.an-stock-dot{width:10px;height:10px;border-radius:50%;background:var(--an-green);',
+      'display:inline-block;animation:an-pulse 2s infinite;flex-shrink:0}',
+      '@keyframes an-pulse{0%,100%{opacity:1}50%{opacity:0.5}}',
+      '.an-price-row{display:flex;align-items:baseline;gap:10px}',
+      '.an-price-amount{font-size:34px;font-weight:800;color:var(--an-text)}',
+      '.an-price-vat{font-size:13px;color:var(--an-text-muted);font-weight:400}',
+
+      /* ===== CART ROW ===== */
+      '.an-cart-row{display:flex;flex-direction:column;gap:10px}',
+      '.an-qty-selector{display:flex;align-items:center;border:1px solid var(--an-border);',
+      'border-radius:var(--an-radius-sm);overflow:hidden;background:var(--an-white);align-self:flex-start}',
+      '.an-qty-btn{width:40px;height:44px;display:flex;align-items:center;justify-content:center;',
+      'background:var(--an-bg);border:none;cursor:pointer;font-size:18px;color:var(--an-text-secondary);',
+      'font-weight:600;transition:background 0.2s;font-family:\'Heebo\',sans-serif}',
+      '.an-qty-btn:hover{background:var(--an-border)}',
+      '.an-qty-input{width:44px;height:44px;display:flex;align-items:center;justify-content:center;',
+      'font-size:16px;font-weight:600;border:none;border-left:1px solid var(--an-border);',
+      'border-right:1px solid var(--an-border);text-align:center;background:var(--an-white);',
+      'color:var(--an-text);font-family:\'Heebo\',sans-serif;-moz-appearance:textfield}',
+      '.an-qty-input::-webkit-inner-spin-button,.an-qty-input::-webkit-outer-spin-button{-webkit-appearance:none}',
+      '.an-add-to-cart-btn{flex:1;height:54px;background:var(--an-primary);color:white;border:none;',
+      'border-radius:var(--an-radius-sm);font-family:\'Heebo\',sans-serif;font-size:18px;font-weight:700;',
+      'cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;',
+      'transition:background 0.2s,transform 0.1s;letter-spacing:0.3px;',
+      'box-shadow:0 4px 14px rgba(27,78,145,0.35);width:100%}',
+      '.an-add-to-cart-btn:hover{background:var(--an-primary-dark)}',
+      '.an-add-to-cart-btn:active{transform:scale(0.98)}',
+      '.an-seller-note{font-size:13px;color:var(--an-text-muted)}',
+      '.an-seller-note strong{color:var(--an-text-secondary);font-weight:600}',
+
+      /* ===== TRUST BOX ===== */
+      '.an-trust-box{background:#f9fafb;border:1px solid var(--an-border-light);',
+      'border-radius:var(--an-radius-sm);padding:16px 20px;display:flex;flex-direction:column;gap:10px}',
+      '.an-trust-item{display:flex;align-items:center;gap:10px;font-size:13.5px;',
+      'color:var(--an-text-secondary);line-height:1.4}',
+      '.an-trust-item>span:first-child{font-size:17px;width:24px;text-align:center;flex-shrink:0}',
+
+      /* ===== HIGHLIGHTS BOX (inside info section) ===== */
+      '.an-highlights-box{background:var(--an-white);border:1px solid var(--an-border-light);',
+      'border-radius:var(--an-radius-sm);overflow:hidden}',
+      '.an-highlights-header{display:flex;align-items:center;justify-content:space-between;',
+      'padding:14px 18px;cursor:pointer;user-select:none;transition:background 0.2s}',
+      '.an-highlights-header:hover{background:#fafbfc}',
+      '.an-highlights-header h2{font-size:16px;font-weight:700;display:flex;align-items:center;gap:8px}',
+      '.an-highlights-content{padding:0 18px 16px}',
+      '.an-highlights-list{list-style:none;display:flex;flex-direction:column;gap:10px}',
+      '.an-highlights-list li{display:flex;align-items:flex-start;gap:10px;font-size:14px;',
+      'color:var(--an-text-secondary);line-height:1.5}',
+      '.an-highlights-list li::before{content:"✓";color:var(--an-green);font-weight:700;',
+      'font-size:13px;margin-top:2px;flex-shrink:0}',
+
+      /* ===== SECTION CARDS ===== */
+      '.an-section-card{background:var(--an-white);border-radius:var(--an-radius);',
+      'box-shadow:var(--an-shadow);margin-bottom:20px;overflow:hidden}',
+      '.an-section-header{display:flex;align-items:center;justify-content:space-between;',
+      'padding:18px 24px;cursor:pointer;user-select:none;transition:background 0.2s}',
+      '.an-section-header:hover{background:#fafbfc}',
+      '.an-section-header h2{font-size:18px;font-weight:700;display:flex;align-items:center;gap:8px}',
+      '.an-chevron{width:24px;height:24px;transition:transform 0.3s ease;color:var(--an-text-muted);flex-shrink:0}',
+      '.an-sec-col .an-chevron{transform:rotate(180deg)}',
+      '.an-section-body{padding:0 24px 24px}',
+      '.an-description-section{font-size:15px;color:var(--an-text-secondary);line-height:1.8}',
+      '.an-description-text{font-size:15px;color:var(--an-text-secondary);line-height:1.8}',
+
+      /* ===== SPECS TABLE ===== */
+      '.an-specs-table{width:100%;border-collapse:collapse}',
+      '.an-specs-table tr:nth-child(even){background:#fafbfc}',
+      '.an-specs-table td{padding:12px 16px;font-size:14px;border-bottom:1px solid var(--an-border-light)}',
+      '.an-specs-table td:first-child{font-weight:600;color:var(--an-text);width:40%}',
+      '.an-specs-table td:last-child{color:var(--an-text-secondary)}',
+
+      /* ===== TECDOC SECTION ===== */
+      '.an-tecdoc-attribution{display:flex;align-items:center;gap:8px;padding:14px 24px 0;',
+      'font-size:12px;color:var(--an-text-muted)}',
+      '.an-tecdoc-dot{width:6px;height:6px;border-radius:50%;background:var(--an-primary);',
+      'opacity:0.5;flex-shrink:0}',
+
+      /* ===== TABS ===== */
+      '.an-tabs{display:flex;border-bottom:2px solid var(--an-border-light);padding:0 24px;',
+      'margin-top:12px;gap:0;overflow-x:auto;-webkit-overflow-scrolling:touch}',
+      '.an-tab{padding:12px 20px;font-size:14px;font-weight:500;color:var(--an-text-muted);',
+      'border-bottom:3px solid transparent;margin-bottom:-2px;cursor:pointer;',
+      'transition:all 0.2s;white-space:nowrap;user-select:none}',
+      '.an-tab:hover{color:var(--an-text)}',
+      '.an-tab.an-tab-active{color:var(--an-primary);border-bottom-color:var(--an-primary);font-weight:600}',
+      '.an-tab .an-count{display:inline-flex;align-items:center;justify-content:center;',
+      'min-width:22px;height:20px;border-radius:10px;background:var(--an-bg);font-size:11px;',
+      'font-weight:600;color:var(--an-text-muted);padding:0 6px;margin-right:4px}',
+      '.an-tab.an-tab-active .an-count{background:#e8eef6;color:var(--an-primary)}',
+
+      /* ===== TAB PANELS ===== */
+      '.an-tab-panel{display:none;padding:20px 24px 24px}',
+      '.an-tab-panel.an-tab-active{display:block}',
+
+      /* ===== OE NUMBERS ===== */
+      '.an-oe-grid{display:flex;flex-wrap:wrap;gap:8px}',
+      '.an-oe-chip{display:inline-flex;align-items:center;background:#eef3fb;border:1px solid #c8d8f0;',
+      'border-radius:6px;padding:6px 14px;font-size:13px;font-weight:600;color:var(--an-primary);',
+      'font-family:\'Courier New\',monospace;letter-spacing:0.3px;transition:background 0.15s}',
+      '.an-oe-chip:hover{background:#ddeafa}',
+
+      /* ===== VEHICLE GROUPS ===== */
+      '.an-veh-groups{display:flex;flex-direction:column;gap:2px}',
+      '.an-veh-group{border:1px solid #e4e6eb;border-radius:10px;overflow:hidden}',
+      '.an-veh-group-header{display:flex;align-items:center;justify-content:space-between;',
+      'padding:14px 18px;cursor:pointer;background:#fff;transition:background 0.15s}',
+      '.an-veh-group-header:hover{background:#f7f8fa}',
+      '.an-veh-make-info{display:flex;align-items:center;gap:12px}',
+      '.an-veh-make-logo{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;',
+      'justify-content:center;font-weight:800;font-size:12px;letter-spacing:0.5px;flex-shrink:0}',
+      '.an-veh-make-name{font-size:16px;font-weight:700;color:#1a1a2e}',
+      '.an-veh-make-count{font-size:13px;color:#8a8a9a;font-weight:400}',
+      '.an-veh-chevron{transition:transform 0.3s;flex-shrink:0;color:#8a8a9a}',
+      '.an-veh-group.an-open .an-veh-chevron{transform:rotate(180deg)}',
+      '.an-veh-group-models{background:#fafbfc;border-top:1px solid #e4e6eb}',
+      '.an-veh-model-item{border-bottom:1px solid #f0f1f4}',
+      '.an-veh-model-item:last-child{border-bottom:none}',
+      '.an-veh-model-row{display:flex;align-items:center;justify-content:space-between;',
+      'padding:11px 20px 11px 18px;cursor:pointer;transition:background 0.12s;gap:8px}',
+      '.an-veh-model-row:hover{background:#f0f4ff}',
+      '.an-veh-model-name{font-size:14px;font-weight:600;color:#1a1a2e;flex:1}',
+      '.an-veh-model-years{font-size:13px;color:#8a8a9a;direction:ltr;margin-left:12px;flex-shrink:0}',
+      '.an-veh-model-chev{transition:transform 0.25s;flex-shrink:0;color:#b0b0b0}',
+      '.an-veh-model-item.an-open .an-veh-model-chev{transform:rotate(180deg)}',
+      '.an-veh-engines{background:#f5f7fa;padding:0 20px 0 18px}',
+      '.an-veh-engine-row{display:flex;align-items:center;justify-content:space-between;',
+      'padding:8px 0 8px 28px;font-size:13px;color:#5a5a6e;border-top:1px solid #ebedf2}',
+      '.an-veh-engine-row:first-child{border-top:none}',
+      '.an-veh-eng-years{font-size:12px;color:#a0a0a0;direction:ltr}',
+
+      /* ===== BRAND CARD ===== */
+      '.an-brand-card{display:flex;align-items:stretch;overflow:hidden}',
+      '.an-brand-sidebar{width:100px;min-height:120px;display:flex;align-items:center;',
+      'justify-content:center;flex-shrink:0}',
+      '.an-brand-sidebar span{color:white;font-size:18px;font-weight:800;letter-spacing:1px}',
+      '.an-brand-card-info{padding:20px 24px;display:flex;flex-direction:column;gap:6px}',
+      '.an-brand-card-info h3{font-size:18px;font-weight:700;color:var(--an-text)}',
+      '.an-brand-origin{font-size:13px;color:var(--an-text-muted);display:flex;align-items:center;gap:6px}',
+      '.an-brand-card-info p{font-size:14px;color:var(--an-text-secondary);line-height:1.7;margin-top:4px}',
+
+      /* ===== STICKY MOBILE BAR ===== */
+      '#an-sticky-bar{position:fixed;bottom:0;right:0;left:0;z-index:9999;',
+      'background:var(--an-white);border-top:1px solid var(--an-border);',
+      'box-shadow:0 -2px 12px rgba(0,0,0,0.08);transform:translateY(100%);',
+      'transition:transform 0.3s ease;font-family:\'Heebo\',sans-serif;direction:rtl}',
+      '#an-sticky-bar.an-sticky-visible{transform:translateY(0)}',
+      '.an-sticky-inner{max-width:1200px;margin:0 auto;padding:10px 16px;',
+      'display:flex;align-items:center;justify-content:space-between;gap:12px}',
+      '.an-sticky-info{display:flex;flex-direction:column;gap:2px;min-width:0}',
+      '.an-sticky-title{font-size:13px;font-weight:600;color:var(--an-text);',
+      'white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+      '.an-sticky-price{font-size:16px;font-weight:800;color:var(--an-text)}',
+      '.an-sticky-buy{height:44px;padding:0 20px;background:var(--an-primary);color:white;',
+      'border:none;border-radius:var(--an-radius-sm);font-family:\'Heebo\',sans-serif;font-size:15px;',
+      'font-weight:700;cursor:pointer;display:flex;align-items:center;gap:8px;flex-shrink:0;',
+      'box-shadow:0 2px 8px rgba(27,78,145,0.3)}',
+      '.an-sticky-buy:hover{background:var(--an-primary-dark)}',
+
+      /* ===== RESPONSIVE ===== */
+      '@media(max-width:768px){',
+      '.an-product-layout{grid-template-columns:1fr;gap:20px}',
+      '.an-product-title{font-size:22px}',
+      '.an-price-amount{font-size:28px}',
+      '.an-qty-selector{align-self:stretch;justify-content:center;width:100%}',
+      '.an-qty-btn{flex:1}.an-qty-input{flex:1}',
+      '.an-brand-card{flex-direction:column}',
+      '.an-brand-sidebar{width:100%;min-height:60px}',
+      '.an-tabs{padding:0 16px}.an-tab{padding:12px 14px;font-size:13px}',
+      '.an-container{padding:16px}',
+      '.an-section-body{padding:0 16px 16px}',
+      '.an-tab-panel{padding:16px 16px 20px}',
+      '.an-section-header{padding:16px}',
+      '.an-tecdoc-attribution{padding:14px 16px 0}',
+      '.an-veh-group-header{padding:12px 14px}',
+      '.an-veh-make-logo{width:32px;height:32px;font-size:11px}',
+      '.an-veh-make-name{font-size:14px}',
+      '.an-veh-model-row{padding:10px 14px}',
+      '.an-veh-model-name{font-size:13px}',
+      '.an-veh-engine-row{padding:7px 0 7px 20px;font-size:12px}',
+      '}',
+      '@media(max-width:480px){',
+      '.an-breadcrumb{padding:10px 16px;font-size:12px}',
+      '.an-trust-item{font-size:13px}',
+      '.an-oe-chip{font-size:12px;padding:5px 10px}',
+      '}'
+    ].join('');
+    document.head.appendChild(style);
+
+    /* Load Heebo font if not already loaded */
+    if (!document.querySelector('link[href*="Heebo"]')) {
+      var font = document.createElement('link');
+      font.rel = 'stylesheet';
+      font.href = 'https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap';
+      document.head.appendChild(font);
+    }
   }
 
   /* ===================================================
-     STEP 1: Category detection (copied from hybrid-final)
+     STEP 2: Category detection
      =================================================== */
   function isAutoPartsPage() {
     if (window.location.pathname.indexOf('/items/') === -1) return false;
@@ -30,15 +305,15 @@
   if (!isAutoPartsPage()) return;
 
   /* ===================================================
-     STEP 2: BRAND_INFO (copied/adapted from hybrid-final)
+     STEP 3: BRAND_INFO
      =================================================== */
-  var H = ['\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05d4\u05d5\u05ea\u05e7\u05df \u05d1\u05e8\u05db\u05d1 \u05d1\u05de\u05e4\u05e2\u05dc','\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d5\u05e9\u05dc\u05de\u05ea \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da','\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d0\u05d9\u05db\u05d5\u05ea \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9\u05d9\u05dd','\u05dc\u05dc\u05d0 \u05e4\u05e9\u05e8\u05d5\u05ea \u05d1\u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05d1\u05d4\u05ea\u05d0\u05de\u05d4']; // OEM highlights
+  var H = ['\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05d4\u05d5\u05ea\u05e7\u05df \u05d1\u05e8\u05db\u05d1 \u05d1\u05de\u05e4\u05e2\u05dc','\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d5\u05e9\u05dc\u05de\u05ea \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da','\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d0\u05d9\u05db\u05d5\u05ea \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9\u05d9\u05dd','\u05dc\u05dc\u05d0 \u05e4\u05e9\u05e8\u05d5\u05ea \u05d1\u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05d1\u05d4\u05ea\u05d0\u05de\u05d4'];
   var BRAND_INFO = {
     "BREMBO":{name:"Brembo",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd. \u05d9\u05d3\u05d5\u05e2\u05d4 \u05de\u05e2\u05d5\u05dc\u05dd \u05d4\u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP.",founded:"1961",country:"\u05d0\u05d9\u05d8\u05dc\u05d9\u05d4",color:"#c8102e",
       highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05d4\u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e0\u05d1\u05d3\u05e7 \u05d1\u05ea\u05e0\u05d0\u05d9 \u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP","\u05d1\u05dc\u05d9\u05de\u05d4 \u05d7\u05d6\u05e7\u05d4 \u05d2\u05dd \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea"]},
     "BOSCH":{name:"Bosch",description:"\u05e1\u05e4\u05e7\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05e8\u05db\u05d1 \u05d2\u05d3\u05d5\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd. \u05de\u05e2\u05dc 130 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df.",founded:"1886",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f",
       highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1 \u05de\u05d4\u05de\u05e4\u05e2\u05dc","\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 ISO/TS 16949","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd \u2014 \u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05e9\u05d7\u05d9\u05e7\u05d4 \u05d5\u05d1\u05dc\u05d0\u05d9","\u05de\u05d5\u05ea\u05d0\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05de\u05d9 \u05d4\u05e8\u05db\u05d1 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd"]},
-    "MANN-FILTER":{name:"MANN-FILTER",description:"\u05de\u05d5\u05ea\u05d2 \u05d4\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d4\u05de\u05d5\u05d1\u05d9\u05dc \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4. \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea MANN+HUMMEL. \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9 \u05e9\u05de\u05df, \u05d0\u05d5\u05d5\u05d9\u05e8, \u05de\u05d6\u05d2\u05df \u05d5\u05e1\u05d5\u05dc\u05e8 \u05d1\u05d0\u05d9\u05db\u05d5\u05ea OEM.",founded:"1941",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#1a4690",
+    "MANN-FILTER":{name:"MANN-FILTER",description:"\u05de\u05d5\u05ea\u05d2 \u05d4\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d4\u05de\u05d5\u05d1\u05d9\u05dc \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4. \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea MANN+HUMMEL.",founded:"1941",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#1a4690",
       highlights:["\u05e1\u05d9\u05e0\u05d5\u05df \u05d9\u05e2\u05d9\u05dc \u05e9\u05dc 99.98% \u05de\u05d4\u05de\u05d6\u05d4\u05de\u05d9\u05dd","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05d4\u05d2\u05e0\u05d4 \u05de\u05e4\u05e0\u05d9 \u05dc\u05db\u05dc\u05d5\u05da, \u05d0\u05d1\u05e7 \u05d5\u05e9\u05d1\u05d1\u05d9\u05dd","\u05de\u05d0\u05e8\u05d9\u05da \u05d7\u05d9\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2 \u05d5\u05de\u05e9\u05e4\u05e8 \u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd"]},
     "MAHLE":{name:"Mahle",description:"\u05e7\u05d1\u05d5\u05e6\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9\u05ea. \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d5\u05e8\u05db\u05d9\u05d1\u05d9 \u05de\u05e0\u05d5\u05e2 \u05d1\u05d0\u05d9\u05db\u05d5\u05ea OEM.",founded:"1920",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#005b8e",
       highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d1\u05d3\u05d9\u05e7\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d4","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05e1\u05d1\u05d9\u05d1\u05d4 \u05d4\u05de\u05d7\u05de\u05d9\u05e8\u05d9\u05dd","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd \u05d5\u05d4\u05d3\u05dc\u05e7"]},
@@ -70,11 +345,11 @@
     "CASTROL":{name:"Castrol",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd. \u05d7\u05dc\u05e7 BP.",founded:"1899",country:"\u05d1\u05e8\u05d9\u05d8\u05e0\u05d9\u05d4",color:"#009900"},
     "LIQUI MOLY":{name:"Liqui Moly",description:"\u05e9\u05de\u05e0\u05d9\u05dd \u05d5\u05ea\u05d5\u05e1\u05e4\u05d9 \u05d3\u05dc\u05e7 \u05d2\u05e8\u05de\u05e0\u05d9\u05d9\u05dd \u05d1\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05d1\u05d5\u05d4\u05d4.",founded:"1957",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000"},
     "MOBIL":{name:"Mobil",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 ExxonMobil. \u05e1\u05d3\u05e8\u05ea Mobil 1 \u05d4\u05e1\u05d9\u05e0\u05ea\u05d8\u05d9\u05ea.",founded:"1911",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#cc0000"},
-    "OSRAM":{name:"Osram",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05ea\u05d0\u05d5\u05e8\u05d4 \u05dc\u05e8\u05db\u05d1. \u05d4\u05dc\u05d5\u05d2\u05df, LED \u05d5\u05e7\u05e1\u05e0\u05d5\u05df.",founded:"1919",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
+    "OSRAM":{name:"Osram",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05ea\u05d0\u05d5\u05e8\u05d4 \u05dc\u05e8\u05db\u05d1.",founded:"1919",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
     "PHILIPS":{name:"Philips",description:"\u05ea\u05d0\u05d5\u05e8\u05d4 \u05dc\u05e8\u05db\u05d1 \u2014 \u05d4\u05dc\u05d5\u05d2\u05df, LED \u05d5\u05e7\u05e1\u05e0\u05d5\u05df.",founded:"1891",country:"\u05d4\u05d5\u05dc\u05e0\u05d3",color:"#0096d6"},
     "SWAG":{name:"Swag",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05e9\u05dc Bilstein Group.",founded:"1954",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
     "TOPRAN":{name:"Topran",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd.",founded:"1996",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "RIDEX":{name:"Ridex",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d1\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9. \u05d9\u05d7\u05e1 \u05de\u05d7\u05d9\u05e8-\u05d0\u05d9\u05db\u05d5\u05ea \u05d8\u05d5\u05d1.",founded:"",country:"",color:"#003087"},
+    "RIDEX":{name:"Ridex",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d1\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9.",founded:"",country:"",color:"#003087"},
     "HI-Q":{name:"Hi-Q",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e9\u05dc Sangsin Brake \u05d4\u05e7\u05d5\u05e8\u05d0\u05d9\u05ea.",founded:"1975",country:"\u05e7\u05d5\u05e8\u05d0\u05d4",color:"#e2000f"},
     "ICER":{name:"Icer",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e1\u05e4\u05e8\u05d3\u05d9\u05d5\u05ea \u05d1\u05d0\u05d9\u05db\u05d5\u05ea OEM.",founded:"1963",country:"\u05e1\u05e4\u05e8\u05d3",color:"#003087"},
     "SANGSIN":{name:"Sangsin Brake",description:"\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05e7\u05d5\u05e8\u05d0\u05d9\u05d5\u05ea. \u05e1\u05e4\u05e7\u05d9\u05ea OEM \u05dc\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9/\u05e7\u05d9\u05d4.",founded:"1975",country:"\u05e7\u05d5\u05e8\u05d0\u05d4",color:"#cc0000"},
@@ -94,7 +369,7 @@
   };
 
   /* ===================================================
-     STEP 2: Extract data from Konimbo DOM
+     STEP 4: Extract data from Konimbo DOM
      =================================================== */
   function getText(el) { return el ? (el.textContent || el.innerText || '').trim() : ''; }
 
@@ -180,22 +455,20 @@
   var stockText = '\u05d6\u05de\u05d9\u05df \u05d1\u05de\u05dc\u05d0\u05d9';
 
   /* ===================================================
-     STEP 3: Brand detection (from hybrid-final)
+     STEP 5: Brand detection
      =================================================== */
   var detectedBrand = '';
   var titleUpper = productTitle.toUpperCase();
   var brandAliases = {
     'MANN ':'MANN-FILTER','MANN FILTER':'MANN-FILTER','FEBI':'FEBI BILSTEIN','LIQUI':'LIQUI MOLY',
     'LIQUI-MOLY':'LIQUI MOLY','BLUE PRINT':'BLUE PRINT','BLUEPRINT':'BLUE PRINT',
-    'HI Q':'HI-Q','HIQ':'HI-Q','VOLKSWAGEN':'VAG ORIGINAL','AUDI ':'VAG ORIGINAL',
-    'SKODA':'VAG ORIGINAL','SEAT ':'VAG ORIGINAL','VAG ':'VAG','VW ':'VAG',
-    'PEUGEOT':'PSA','CITROEN':'PSA','TOYOTA':'TOYOTA','LEXUS':'TOYOTA',
-    'HYUNDAI':'HYUNDAI','KIA ':'HYUNDAI','RENAULT':'RENAULT','DACIA':'RENAULT',
-    'MERCEDES':'MERCEDES','BMW':'BMW','MINI ':'BMW'
+    'HI Q':'HI-Q','HIQ':'HI-Q','VOLKSWAGEN':'VAG','AUDI ':'VAG','SKODA':'VAG','SEAT ':'VAG',
+    'CUPRA':'VAG','VW ':'VAG'
   };
-  var bKys = Object.keys(BRAND_INFO);
-  for (var bi = 0; bi < bKys.length; bi++) {
-    if (titleUpper.indexOf(bKys[bi]) !== -1) { detectedBrand = bKys[bi]; break; }
+
+  var bKeys = Object.keys(BRAND_INFO);
+  for (var bk = 0; bk < bKeys.length; bk++) {
+    if (titleUpper.indexOf(bKeys[bk]) !== -1) { detectedBrand = bKeys[bk]; break; }
   }
   if (!detectedBrand) {
     var alKeys = Object.keys(brandAliases);
@@ -236,7 +509,7 @@
   }
 
   /* ===================================================
-     STEP 4: Find insertion target (from hybrid-final)
+     STEP 6: Find insertion target
      =================================================== */
   var targetInsertEl = document.getElementById('item_show')||document.getElementById('item_details')||
     document.getElementById('item_content')||document.getElementById('content_area')||
@@ -255,7 +528,7 @@
   if (!targetInsertEl) return;
 
   /* ===================================================
-     STEP 5: Build HTML matching the demo layout
+     STEP 7: Build HTML
      =================================================== */
   var highlights = brandData.highlights || [
     '\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1',
@@ -266,7 +539,9 @@
 
   var cartSvg = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
   var cartSvgSm = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
-  var chev = '<svg class="an-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
+  var chev = '<svg class="an-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
+  var vehChev = '<svg class="an-veh-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
+  var modelChev = '<svg class="an-veh-model-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
 
   // Images
   var mainImgHtml = '', thumbsHtml = '';
@@ -303,6 +578,9 @@
   var hlItems = '';
   for (var hl = 0; hl < highlights.length; hl++) hlItems += '<li>'+highlights[hl]+'</li>';
 
+  // Brand badge background color
+  var brandBadgeBg = brandData.color || '#1a4690';
+
   // Brand card
   var brandCardHtml = '';
   if (!isOEMpart && brandData.name && brandData.description) {
@@ -330,14 +608,19 @@
   html += '<div class="an-page-bg"><div class="an-container">';
   // Product layout (2-col desktop)
   html += '<div class="an-product-layout">';
-  // LEFT: images
-  html += '<div class="an-image-section"><div class="an-main-image">'+mainImgHtml+'</div><div class="an-thumb-row">'+thumbsHtml+'</div></div>';
-  // RIGHT: info
+
+  // LEFT/RIGHT col 1: images (right column in RTL = first in DOM)
+  html += '<div class="an-image-section">';
+  html += '<div class="an-main-image">'+mainImgHtml+'</div>';
+  html += '<div class="an-thumb-row">'+thumbsHtml+'</div>';
+  html += '</div>';
+
+  // LEFT/RIGHT col 2: info
   html += '<div class="an-info-section">';
   // SKU + brand badges
   html += '<div class="an-sku-brand-row">';
-  if (skuValue) html += '<span class="an-sku-badge">\u05de\u05e7"\u05d8: '+skuValue+'</span>';
-  if (!isOEMpart && brandData.name) html += '<span class="an-brand-badge">'+brandData.name+'</span>';
+  if (skuValue) html += '<span class="an-sku-badge">מק"ט: '+skuValue+'</span>';
+  if (!isOEMpart && brandData.name) html += '<span class="an-brand-badge" style="background:'+brandBadgeBg+'">'+brandData.name+'</span>';
   html += '</div>';
   // Title
   html += '<h1 class="an-product-title">'+productTitle+'</h1>';
@@ -345,7 +628,7 @@
   // Stock
   html += '<div class="an-stock-row"><span class="an-stock-dot"></span>'+stockText+'</div>';
   // Price
-  html += '<div class="an-price-row"><span class="an-price-amount">'+priceDisplay+'</span><span class="an-price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2"\u05de</span></div>';
+  html += '<div class="an-price-row"><span class="an-price-amount">'+priceDisplay+'</span><span class="an-price-vat">כולל מע"מ</span></div>';
   // Cart row
   html += '<div class="an-cart-row" id="an-cart-row">';
   html += '<div class="an-qty-selector"><button class="an-qty-btn" id="an-qty-minus">\u2212</button><input class="an-qty-input" id="an-qty-val" type="number" value="1" min="1" max="99" readonly><button class="an-qty-btn" id="an-qty-plus">+</button></div>';
@@ -360,45 +643,55 @@
   html += '<div class="an-trust-item"><span>\uD83C\uDFC6</span><span>\u05de\u05d5\u05e8\u05e9\u05d9\u05dd \u05de\u05e9\u05e8\u05d3 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4</span></div>';
   html += '<div class="an-trust-item"><span>\uD83D\uDD12</span><span>\u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d5\u05d1\u05d8\u05d7 \u2014 SSL \u05de\u05d5\u05e6\u05e4\u05df</span></div>';
   html += '<div class="an-trust-item"><span>\uD83D\uDCB3</span><span>\u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05ea\u05e9\u05dc\u05d5\u05de\u05d9\u05dd \u05d1\u05e7\u05d5\u05e4\u05d4</span></div>';
-  html += '</div>';
-  // Highlights (not OEM)
+  html += '</div>'; // trust-box
+  // Highlights section (not OEM, inside info section)
   if (!isOEMpart) {
-    html += '<div class="an-highlights-box"><div class="an-highlights-header" id="an-hl-hdr"><h2>\u2756 \u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd, \u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05e0\u05d5\u05d7\u05d5\u05ea</h2>'+chev+'</div>';
-    html += '<div class="an-highlights-content" id="an-hl-cnt"><ul class="an-highlights-list">'+hlItems+'</ul></div></div>';
+    html += '<div class="an-highlights-box">';
+    html += '<div class="an-highlights-header" id="an-hl-hdr"><h2>\u2756 \u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd, \u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea</h2>'+chev+'</div>';
+    html += '<div class="an-highlights-content" id="an-hl-cnt"><ul class="an-highlights-list">'+hlItems+'</ul></div>';
+    html += '</div>';
   }
   html += '</div>'; // .an-info-section
   html += '</div>'; // .an-product-layout
 
   // Description card
-  html += '<div class="an-section-card"><div class="an-section-header" id="an-desc-hdr"><h2>\u05ea\u05d9\u05d0\u05d5\u05e8</h2>'+chev+'</div>';
+  html += '<div class="an-section-card">';
+  html += '<div class="an-section-header" id="an-desc-hdr"><h2>\u05ea\u05d9\u05d0\u05d5\u05e8 \u05d4\u05de\u05d5\u05e6\u05e8</h2>'+chev+'</div>';
   html += '<div class="an-section-body" id="an-desc-body">';
   html += productDescription ? '<div class="an-description-section">'+productDescription+'</div>' : '<p class="an-description-text">'+productTitle+'</p>';
   html += '</div></div>';
 
-  // Specs card
-  html += '<div class="an-section-card"><div class="an-section-header" id="an-specs-hdr"><h2>\u05e4\u05e8\u05d8\u05d9\u05dd \u05d8\u05db\u05e0\u05d9\u05d9\u05dd</h2>'+chev+'</div>';
-  html += '<div class="an-section-body" id="an-specs-body"><table class="an-specs-table"><tbody>'+specRows+'</tbody></table></div></div>';
+  // Tech specs card
+  html += '<div class="an-section-card">';
+  html += '<div class="an-section-header" id="an-specs-hdr"><h2>\u05e4\u05e8\u05d8\u05d9\u05dd \u05d8\u05db\u05e0\u05d9\u05d9\u05dd</h2>'+chev+'</div>';
+  html += '<div class="an-section-body" id="an-specs-body">';
+  html += '<table class="an-specs-table"><tbody>'+specRows+'</tbody></table>';
+  html += '</div></div>';
 
   // Brand card
   html += brandCardHtml;
 
-  // TecDoc placeholder
-  html += '<div class="an-section-card" id="an-tecdoc-section"><div id="an-tecdoc-wrap"></div></div>';
+  // TecDoc section placeholder
+  html += '<div class="an-section-card" id="an-tecdoc-section">';
+  html += '<div class="an-tecdoc-attribution"><div class="an-tecdoc-dot"></div><span>\u05e0\u05ea\u05d5\u05e0\u05d9\u05dd \u05de-TecDoc\u00ae Catalogue</span></div>';
+  html += '<div id="an-tecdoc-wrap"></div>';
+  html += '</div>';
 
   html += '</div></div>'; // container + page-bg
 
   /* ===================================================
-     STEP 5: Insert into DOM
+     STEP 8: Insert into DOM
      =================================================== */
   var wrapper = document.createElement('div');
   wrapper.id = 'an-product-redesign';
+  wrapper.className = 'an-product-redesign';
   wrapper.innerHTML = html;
   targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
   var bCls = document.body.className || '';
-  if (bCls.indexOf('an-redesigned') === -1) document.body.className = bCls + (bCls?' ':' ') + 'an-redesigned';
+  if (bCls.indexOf('an-redesigned') === -1) document.body.className = (bCls ? bCls + ' ' : '') + 'an-redesigned';
 
   /* ===================================================
-     STEP 6: Wire up interactions
+     STEP 9: Wire up interactions
      =================================================== */
   // Qty +/-
   var qtyInput = document.getElementById('an-qty-val');
@@ -468,10 +761,11 @@
   if (hlHdr && hlCnt) {
     hlHdr.addEventListener('click', function() {
       var c = hlHdr.className||'';
-      if (c.indexOf('an-collapsed')!==-1) { hlHdr.className=c.replace(/\s*an-collapsed/g,''); hlCnt.style.display=''; }
-      else { hlHdr.className=c+' an-collapsed'; hlCnt.style.display='none'; }
+      if (c.indexOf('an-sec-col')!==-1) { hlHdr.className=c.replace(/\s*an-sec-col/g,''); hlCnt.style.display=''; }
+      else { hlHdr.className=c+' an-sec-col'; hlCnt.style.display='none'; }
     });
   }
+
   // Section toggles
   function setupToggle(hId, bId) {
     var hE=document.getElementById(hId), bE=document.getElementById(bId);
@@ -484,6 +778,58 @@
   }
   setupToggle('an-desc-hdr','an-desc-body');
   setupToggle('an-specs-hdr','an-specs-body');
+
+  // Vehicle group toggles (for TecDoc injected content)
+  function setupVehGroups() {
+    var grpHdrs = document.querySelectorAll('#an-product-redesign .an-veh-group-header');
+    for (var gh=0;gh<grpHdrs.length;gh++) {
+      (function(hdr){
+        hdr.addEventListener('click', function(){
+          var grp=hdr.parentElement;
+          var models=grp.querySelector('.an-veh-group-models');
+          if(!models) return;
+          var isOpen=grp.className.indexOf('an-open')!==-1;
+          if(isOpen){grp.className=grp.className.replace(/\s*an-open/g,'');models.style.display='none';}
+          else{grp.className+=' an-open';models.style.display='';}
+        });
+      })(grpHdrs[gh]);
+    }
+    var modelRows = document.querySelectorAll('#an-product-redesign .an-veh-model-row');
+    for (var mr=0;mr<modelRows.length;mr++) {
+      (function(row){
+        row.addEventListener('click', function(){
+          var item=row.parentElement;
+          var eng=item.querySelector('.an-veh-engines');
+          if(!eng) return;
+          var isOpen=item.className.indexOf('an-open')!==-1;
+          if(isOpen){item.className=item.className.replace(/\s*an-open/g,'');eng.style.display='none';}
+          else{item.className+=' an-open';eng.style.display='';}
+        });
+      })(modelRows[mr]);
+    }
+  }
+  setupVehGroups();
+
+  // Tab switching
+  function setupTabs() {
+    var tabs = document.querySelectorAll('#an-product-redesign .an-tab');
+    for (var tb=0;tb<tabs.length;tb++) {
+      (function(tab){
+        tab.addEventListener('click', function(){
+          var panelId = tab.getAttribute('data-an-panel');
+          if (!panelId) return;
+          var allTabs = document.querySelectorAll('#an-product-redesign .an-tab');
+          var allPanels = document.querySelectorAll('#an-product-redesign .an-tab-panel');
+          for (var at=0;at<allTabs.length;at++) allTabs[at].className=allTabs[at].className.replace(/\s*an-tab-active/g,'');
+          for (var ap=0;ap<allPanels.length;ap++) allPanels[ap].className=allPanels[ap].className.replace(/\s*an-tab-active/g,'');
+          tab.className+=' an-tab-active';
+          var panel=document.getElementById(panelId);
+          if(panel) panel.className+=' an-tab-active';
+        });
+      })(tabs[tb]);
+    }
+  }
+  setupTabs();
 
   // Sticky mobile bar
   var shortT = productTitle.length > 30 ? productTitle.substring(0,30)+'\u2026' : productTitle;
