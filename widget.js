@@ -1557,7 +1557,13 @@
       var mKeys = Object.keys(tree).sort();
       for (var mk = 0; mk < mKeys.length; mk++) {
         var mfr = mKeys[mk], models = tree[mfr];
-        html += '<div class="tw-acc-l1"><div class="tw-acc-l1-header" data-level="1"><span class="tw-acc-icon">+</span><span class="tw-acc-l1-name">' + esc(trBrand(mfr)) + '</span></div><div class="tw-acc-l1-body">';
+        var modelCount = Object.keys(models).length;
+        var makeAbr = mfr.substring(0,2).toUpperCase();
+        var MAKE_COLORS = {VOLKSWAGEN:'#1a3a5c',VW:'#1a3a5c',SKODA:'#4a7a2e',AUDI:'#1a1a1a',SEAT:'#c41230',CUPRA:'#6b4c3b',BMW:'#0066b1',MERCEDES:'#333',TOYOTA:'#cc0000',HYUNDAI:'#002c5f',FORD:'#003478',RENAULT:'#f4b400',PEUGEOT:'#1a3f6f',CITROEN:'#9e1b34',OPEL:'#f7e500',FIAT:'#8b0000',HONDA:'#cc0000',NISSAN:'#c3002f',MAZDA:'#910813',MITSUBISHI:'#e60012',SUZUKI:'#e30613',KIA:'#05141f',VOLVO:'#003057',LAND:'#005a2b',JEEP:'#374b39',CHRYSLER:'#1c2b4a',DODGE:'#ba0c2f',CHEVROLET:'#d1a019',DACIA:'#003da5',ALFA:'#8b0000',PORSCHE:'#a61e2a',MINI:'#000',SAAB:'#00573f',SMART:'#ff8c00',ISUZU:'#cc0000',SUBARU:'#003399',SSANGYONG:'#002f5f',MG:'#a61414',CHERY:'#004c97',GEELY:'#1a3b6a',BYD:'#e60012',GREAT:'#8b0000',DS:'#1d1d1b'};
+        var mKey = mfr.toUpperCase();
+        var makeCol = '#1a4690';
+        for (var mcK in MAKE_COLORS) { if (mKey.indexOf(mcK) !== -1) { makeCol = MAKE_COLORS[mcK]; break; } }
+        html += '<div class="tw-acc-l1"><div class="tw-acc-l1-header" data-level="1"><span class="tw-acc-icon tw-chev">&lsaquo;</span><div style="display:flex;align-items:center;gap:12px;flex:1;justify-content:flex-end"><span class="tw-acc-l1-name">' + esc(trBrand(mfr)) + '</span><span class="tw-make-badge" style="background:' + makeCol + ';color:#fff;width:36px;height:36px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:12px">' + makeAbr + '</span></div><span class="tw-model-count">' + modelCount + ' \u05D3\u05D2\u05DE\u05D9\u05DD</span></div><div class="tw-acc-l1-body">';
         var mdKeys = Object.keys(models).sort();
         for (var mi = 0; mi < mdKeys.length; mi++) {
           var mn = mdKeys[mi], md = models[mn];
@@ -1589,16 +1595,17 @@
         if (!byBrand[brand]) byBrand[brand] = [];
         if (byBrand[brand].indexOf(o.oemDisplayNo) === -1) byBrand[brand].push(o.oemDisplayNo);
       }
-      html += '<div class="tw-oe-subtitle">\u05DE\u05E1\u05E4\u05E8\u05D9 OE \u05DE\u05E7\u05D1\u05D9\u05DC\u05D9\u05DD \u05DC\u05DE\u05E1\u05E4\u05E8 \u05D7\u05DC\u05E7 \u05D4\u05D7\u05D9\u05DC\u05D5\u05E3 \u05D4\u05DE\u05E7\u05D5\u05E8\u05D9:</div>';
-      html += '<div class="tw-accordion">';
+      html += '<div class="tw-oe-grid" style="display:flex;flex-wrap:wrap;gap:8px;padding:4px 0">';
+      var allNums = [];
       var bKeys = Object.keys(byBrand).sort();
       for (var bi = 0; bi < bKeys.length; bi++) {
-        var bn = bKeys[bi], nums = byBrand[bn];
-        html += '<div class="tw-acc-l1"><div class="tw-acc-l1-header" data-level="1"><span class="tw-acc-icon">+</span><span class="tw-acc-l1-name">' + esc(bn) + '</span><span class="tw-acc-l2-years">(' + nums.length + ')</span></div><div class="tw-acc-l1-body">';
+        var nums = byBrand[bKeys[bi]];
         for (var ni = 0; ni < nums.length; ni++) {
-          html += '<div class="tw-oe-acc-item"><span class="tw-oe-acc-num">' + esc(nums[ni]) + '</span></div>';
+          if (allNums.indexOf(nums[ni]) === -1) allNums.push(nums[ni]);
         }
-        html += '</div></div>';
+      }
+      for (var ai = 0; ai < allNums.length; ai++) {
+        html += '<span class="tw-oe-chip" style="display:inline-flex;align-items:center;background:#eef3fb;border:1px solid #c8d8f0;border-radius:6px;padding:7px 16px;font-size:13px;font-weight:600;color:#1B4E91;font-family:Courier New,monospace">' + esc(allNums[ai]) + '</span>';
       }
       html += '</div>';
       html += '<div class="tw-oe-info">\u05DE\u05E1\u05E4\u05E8\u05D9 \u05D4-OE \u05DE\u05E9\u05DE\u05E9\u05D9\u05DD \u05DC\u05D4\u05E9\u05D5\u05D5\u05D0\u05D4 \u05D1\u05DC\u05D1\u05D3. \u05D9\u05E9 \u05DC\u05D5\u05D5\u05D3\u05D0 \u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1 \u05D4\u05E1\u05E4\u05E6\u05D9\u05E4\u05D9 \u05DC\u05E4\u05E0\u05D9 \u05E8\u05DB\u05D9\u05E9\u05D4.</div>';
