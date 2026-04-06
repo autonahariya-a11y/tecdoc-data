@@ -2,7 +2,7 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — Demo CSS with an- prefix
+     CSS INJECTION — v3.1 with an- prefix + TecDoc styles
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
     var styleEl = document.createElement('style');
@@ -55,10 +55,10 @@
       /* Main Container */
       '.an-container { max-width: 1200px !important; margin: 0 auto !important; padding: 24px !important; }',
 
-      /* Product Top: 2-col grid */
+      /* Product Top: 2-col grid — info LEFT, image RIGHT (RTL: info is on right side visually, image on left) */
       '.an-product-top { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 32px !important; margin-bottom: 24px !important; }',
 
-      /* Product Image Area */
+      /* Product Image Area (right column in RTL) */
       '.an-product-image-area { background: var(--an-white) !important; border-radius: var(--an-radius) !important; box-shadow: var(--an-shadow) !important; padding: 24px !important; display: flex !important; flex-direction: column !important; align-items: center !important; }',
       '.an-main-image { width: 100% !important; max-width: 400px !important; aspect-ratio: 1; display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: 16px !important; overflow: hidden !important; }',
       '.an-main-image img { width: 100% !important; height: 100% !important; object-fit: contain !important; }',
@@ -77,7 +77,7 @@
       '.an-info-section { display: flex !important; flex-direction: column !important; gap: 16px !important; }',
       '.an-badge-row { display: flex !important; align-items: center !important; gap: 10px !important; flex-wrap: wrap !important; }',
       '.an-sku-badge { display: inline-flex !important; align-items: center !important; gap: 6px !important; background: var(--an-bg) !important; border: 1px solid var(--an-border) !important; border-radius: 6px !important; padding: 5px 12px !important; font-size: 13px !important; color: var(--an-text-secondary) !important; font-weight: 500 !important; }',
-      '.an-brand-badge { display: inline-flex !important; align-items: center !important; gap: 6px !important; background: var(--an-brand-red) !important; border-radius: 6px !important; padding: 5px 14px !important; font-size: 13px !important; color: white !important; font-weight: 700 !important; letter-spacing: 0.5px !important; }',
+      '.an-brand-badge { display: inline-flex !important; align-items: center !important; gap: 6px !important; border-radius: 6px !important; padding: 5px 14px !important; font-size: 13px !important; color: white !important; font-weight: 700 !important; letter-spacing: 0.5px !important; }',
       '.an-product-title { font-size: 26px !important; font-weight: 700 !important; color: var(--an-text) !important; line-height: 1.3 !important; }',
       '.an-product-subtitle { font-size: 15px !important; color: var(--an-text-muted) !important; margin-top: -8px !important; }',
       '.an-stock-status { display: flex !important; align-items: center !important; gap: 8px !important; font-size: 14px !important; font-weight: 500 !important; color: var(--an-green) !important; }',
@@ -87,7 +87,7 @@
       '.an-price { font-size: 34px !important; font-weight: 800 !important; color: var(--an-text) !important; }',
       '.an-price-vat { font-size: 13px !important; color: var(--an-text-muted) !important; font-weight: 400 !important; }',
 
-      /* Cart Row — qty on separate row above full-width cart button */
+      /* Cart Row */
       '.an-cart-row { display: flex !important; flex-direction: column !important; gap: 10px !important; }',
       '.an-qty-selector { display: flex !important; align-items: center !important; border: 1px solid var(--an-border) !important; border-radius: var(--an-radius-sm) !important; overflow: hidden !important; background: var(--an-white) !important; align-self: flex-start !important; }',
       '.an-qty-btn { width: 40px !important; height: 44px !important; display: flex !important; align-items: center !important; justify-content: center !important; background: var(--an-bg) !important; border: none !important; cursor: pointer !important; font-size: 18px !important; color: var(--an-text-secondary) !important; font-weight: 600 !important; transition: background 0.2s; }',
@@ -114,20 +114,16 @@
       '.an-section-body { padding: 0 24px 24px !important; }',
       '.an-section-body.an-collapsed { display: none !important; }',
 
-      /* Highlights Box (inside info-section) */
-      '.an-highlights-box { background: var(--an-white) !important; border: 1px solid var(--an-border-light) !important; border-radius: var(--an-radius-sm) !important; overflow: hidden !important; }',
-      '.an-highlights-header { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 14px 18px !important; cursor: pointer !important; user-select: none !important; background: #fafbfc !important; }',
-      '.an-highlights-header h2 { font-size: 15px !important; font-weight: 700 !important; display: flex !important; align-items: center !important; gap: 6px !important; color: var(--an-text) !important; }',
-      '.an-highlights-header.an-collapsed .an-chevron { transform: rotate(180deg); }',
-      '.an-highlights-content { padding: 14px 18px !important; }',
+      /* Highlights list */
       '.an-highlights-list { list-style: none !important; display: flex !important; flex-direction: column !important; gap: 12px !important; }',
       '.an-highlights-list li { display: flex !important; align-items: flex-start !important; gap: 10px !important; font-size: 15px !important; color: var(--an-text-secondary) !important; line-height: 1.5 !important; }',
-      '.an-highlights-list li::before { content: "✓"; color: var(--an-green) !important; font-weight: 700 !important; font-size: 14px !important; margin-top: 2px !important; flex-shrink: 0 !important; }',
+      '.an-highlights-list li::before { content: "\u2713"; color: var(--an-green) !important; font-weight: 700 !important; font-size: 14px !important; margin-top: 2px !important; flex-shrink: 0 !important; }',
 
       /* Description */
       '.an-description-text { font-size: 15px !important; color: var(--an-text-secondary) !important; line-height: 1.8 !important; }',
       '.an-description-section { font-size: 15px !important; color: var(--an-text-secondary) !important; line-height: 1.8 !important; }',
       '.an-description-section p { margin-bottom: 10px !important; }',
+      '.an-description-section * { font-family: \'Heebo\', sans-serif !important; color: var(--an-text-secondary) !important; }',
 
       /* TecDoc Attribution */
       '.an-tecdoc-attribution { display: flex !important; align-items: center !important; gap: 8px !important; padding: 14px 24px 0 !important; font-size: 12px !important; color: var(--an-text-muted) !important; }',
@@ -163,7 +159,7 @@
       '.an-veh-make-count { font-size: 13px !important; color: #8a8a9a !important; font-weight: 400 !important; }',
       '.an-veh-chevron { transition: transform 0.3s; flex-shrink: 0 !important; color: #8a8a9a !important; }',
       '.an-veh-group.an-open .an-veh-chevron { transform: rotate(180deg); }',
-      '.an-veh-group-models { background: #fafbfc !important; border-top: 1px solid #e4e6eb !important; }',
+      '.an-veh-group-models { background: #fafbfc !important; border-top: 1px solid #e4e6eb !important; display: none; }',
       '.an-veh-model-item { border-bottom: 1px solid #f0f1f4 !important; }',
       '.an-veh-model-item:last-child { border-bottom: none !important; }',
       '.an-veh-model-row { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 11px 20px 11px 18px !important; cursor: pointer !important; transition: background 0.12s; gap: 8px !important; }',
@@ -172,7 +168,7 @@
       '.an-veh-model-years { font-size: 13px !important; color: #8a8a9a !important; direction: ltr !important; margin-left: 12px !important; flex-shrink: 0 !important; }',
       '.an-veh-model-chev { transition: transform 0.25s; flex-shrink: 0 !important; color: #b0b0b0 !important; }',
       '.an-veh-model-item.an-open .an-veh-model-chev { transform: rotate(180deg); }',
-      '.an-veh-engines { background: #f5f7fa !important; padding: 0 20px 0 18px !important; }',
+      '.an-veh-engines { background: #f5f7fa !important; padding: 0 20px 0 18px !important; display: none; }',
       '.an-veh-engine-row { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 8px 0 8px 28px !important; font-size: 13px !important; color: #5a5a6e !important; border-top: 1px solid #ebedf2 !important; }',
       '.an-veh-engine-row:first-child { border-top: none !important; }',
       '.an-veh-eng-years { font-size: 12px !important; color: #a0a0a0 !important; direction: ltr !important; }',
@@ -190,11 +186,51 @@
       '.an-brand-info h3 { font-size: 18px !important; font-weight: 700 !important; color: var(--an-text) !important; }',
       '.an-brand-origin { font-size: 13px !important; color: var(--an-text-muted) !important; display: flex !important; align-items: center !important; gap: 6px !important; }',
       '.an-brand-info p { font-size: 14px !important; color: var(--an-text-secondary) !important; line-height: 1.7 !important; margin-top: 4px !important; }',
+      '.an-brand-highlights { list-style: none !important; display: flex !important; flex-direction: column !important; gap: 6px !important; margin-top: 8px !important; }',
+      '.an-brand-highlights li { font-size: 13px !important; color: var(--an-text-secondary) !important; display: flex !important; align-items: flex-start !important; gap: 6px !important; }',
+      '.an-brand-highlights li::before { content: "\u2713"; color: var(--an-green) !important; font-weight: 700 !important; flex-shrink: 0 !important; }',
 
-      /* TecDoc widget wrapper */
-      '#an-tecdoc-wrap #tecdoc-widget { background: var(--an-white) !important; border-radius: var(--an-radius) !important; box-shadow: none !important; margin: 0 !important; }',
+      /* ===== TECDOC WIDGET STYLES ===== */
+      /* Container */
+      '#an-tecdoc-wrap { padding: 0 !important; }',
+      '#an-tecdoc-wrap #tecdoc-widget { background: transparent !important; box-shadow: none !important; margin: 0 !important; border: none !important; }',
       '#an-tecdoc-wrap .tw-strengths, #an-tecdoc-wrap #tw-brand-info { display: none !important; }',
       '#an-tecdoc-wrap .tw-purchase-row { display: none !important; }',
+
+      /* TecDoc tabs bar */
+      '#tecdoc-widget .tw-tabs, #tecdoc-widget [class*="tabs-bar"], #tecdoc-widget [class*="tab-bar"] { display: flex !important; border-bottom: 2px solid var(--an-border-light) !important; padding: 0 24px !important; gap: 0 !important; overflow-x: auto !important; }',
+      '#tecdoc-widget .tw-tab, #tecdoc-widget [class*="tab-item"], #tecdoc-widget [class*="tw-tab"] { padding: 12px 20px !important; font-size: 14px !important; font-weight: 500 !important; color: var(--an-text-muted) !important; border-bottom: 3px solid transparent !important; margin-bottom: -2px !important; cursor: pointer !important; white-space: nowrap !important; font-family: \'Heebo\', sans-serif !important; background: none !important; }',
+      '#tecdoc-widget .tw-tab.active, #tecdoc-widget .tw-tab[class*="active"], #tecdoc-widget [class*="tab-item"].active { color: var(--an-primary) !important; border-bottom-color: var(--an-primary) !important; font-weight: 600 !important; }',
+      /* Count badges inside tabs */
+      '#tecdoc-widget .tw-tab .tw-count, #tecdoc-widget [class*="tab-count"], #tecdoc-widget [class*="badge"] { display: inline-flex !important; align-items: center !important; justify-content: center !important; min-width: 22px !important; height: 20px !important; border-radius: 10px !important; background: var(--an-bg) !important; font-size: 11px !important; font-weight: 600 !important; color: var(--an-text-muted) !important; padding: 0 6px !important; margin-right: 4px !important; }',
+      '#tecdoc-widget .tw-tab.active .tw-count, #tecdoc-widget .tw-tab.active [class*="badge"] { background: #e8eef6 !important; color: var(--an-primary) !important; }',
+
+      /* TecDoc specs table */
+      '#tecdoc-widget table, #tecdoc-widget .tw-specs-table { width: 100% !important; border-collapse: collapse !important; }',
+      '#tecdoc-widget table tr:nth-child(even), #tecdoc-widget .tw-specs-table tr:nth-child(even) { background: #fafbfc !important; }',
+      '#tecdoc-widget table td, #tecdoc-widget .tw-specs-table td { padding: 12px 16px !important; font-size: 14px !important; border-bottom: 1px solid var(--an-border-light) !important; }',
+      '#tecdoc-widget table td:first-child, #tecdoc-widget .tw-specs-table td:first-child { font-weight: 600 !important; color: var(--an-text) !important; width: 40% !important; }',
+      '#tecdoc-widget table td:last-child, #tecdoc-widget .tw-specs-table td:last-child { color: var(--an-text-secondary) !important; }',
+
+      /* TecDoc vehicle groups */
+      '#tecdoc-widget [class*="make-group"], #tecdoc-widget [class*="vehicle-group"], #tecdoc-widget .tw-make-group { border: 1px solid #e4e6eb !important; border-radius: 10px !important; overflow: hidden !important; margin-bottom: 4px !important; }',
+      '#tecdoc-widget [class*="make-header"], #tecdoc-widget [class*="group-header"], #tecdoc-widget .tw-make-header { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 14px 18px !important; cursor: pointer !important; background: #fff !important; }',
+      '#tecdoc-widget [class*="make-header"]:hover, #tecdoc-widget .tw-make-header:hover { background: #f7f8fa !important; }',
+      '#tecdoc-widget [class*="make-badge"], #tecdoc-widget .tw-make-badge { width: 36px !important; height: 36px !important; border-radius: 8px !important; display: flex !important; align-items: center !important; justify-content: center !important; font-weight: 800 !important; font-size: 12px !important; flex-shrink: 0 !important; }',
+      '#tecdoc-widget [class*="make-name"], #tecdoc-widget .tw-make-name { font-size: 16px !important; font-weight: 700 !important; color: #1a1a2e !important; }',
+      '#tecdoc-widget [class*="model-count"], #tecdoc-widget .tw-model-count { font-size: 13px !important; color: #8a8a9a !important; }',
+      '#tecdoc-widget [class*="model-row"], #tecdoc-widget .tw-model-row { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 11px 20px !important; cursor: pointer !important; border-bottom: 1px solid #f0f1f4 !important; }',
+      '#tecdoc-widget [class*="model-row"]:hover, #tecdoc-widget .tw-model-row:hover { background: #f0f4ff !important; }',
+      '#tecdoc-widget [class*="model-name"], #tecdoc-widget .tw-model-name { font-size: 14px !important; font-weight: 600 !important; color: #1a1a2e !important; }',
+      '#tecdoc-widget [class*="model-years"], #tecdoc-widget .tw-model-years { font-size: 13px !important; color: #8a8a9a !important; direction: ltr !important; }',
+      '#tecdoc-widget [class*="engine-row"], #tecdoc-widget .tw-engine-row { padding: 8px 0 8px 28px !important; font-size: 13px !important; color: #5a5a6e !important; border-top: 1px solid #ebedf2 !important; background: #f5f7fa !important; }',
+
+      /* TecDoc OE chips */
+      '#tecdoc-widget [class*="oe-number"], #tecdoc-widget [class*="oe-chip"], #tecdoc-widget .tw-oe-chip, #tecdoc-widget [class*="cross-ref"] { display: inline-flex !important; align-items: center !important; background: #eef3fb !important; border: 1px solid #c8d8f0 !important; border-radius: 6px !important; padding: 6px 14px !important; font-size: 13px !important; font-weight: 600 !important; color: var(--an-primary) !important; font-family: \'Courier New\', monospace !important; margin: 4px !important; }',
+      '#tecdoc-widget [class*="oe-list"], #tecdoc-widget [class*="oe-grid"], #tecdoc-widget .tw-oe-list { display: flex !important; flex-wrap: wrap !important; gap: 8px !important; padding: 20px 24px !important; }',
+
+      /* TecDoc tab panels */
+      '#tecdoc-widget [class*="tab-panel"], #tecdoc-widget [class*="tab-content"] { padding: 20px 24px !important; }',
 
       /* Sticky Bar */
       '#an-sticky-bar { position: fixed !important; bottom: 0 !important; left: 0 !important; right: 0 !important; background: var(--an-white) !important; border-top: 1px solid var(--an-border) !important; box-shadow: 0 -4px 20px rgba(0,0,0,0.08) !important; z-index: 9999 !important; transform: translateY(100%) !important; transition: transform 0.3s ease; padding: 12px 20px !important; }',
@@ -229,10 +265,12 @@
       '  .an-veh-model-name { font-size: 13px !important; }',
       '  .an-veh-engine-row { padding: 7px 0 7px 20px !important; font-size: 12px !important; }',
       '  .an-tecdoc-attribution { padding: 14px 16px 0 !important; }',
+      '  .an-oe-chip { font-size: 12px !important; padding: 5px 10px !important; }',
       '}'
     ].join('\n');
     document.head.appendChild(styleEl);
   }
+
 
   /* ===================================================
      STEP 1: Category detection
@@ -254,59 +292,413 @@
   }
   if (!isAutoPartsPage()) return;
 
+
   /* ===================================================
-     STEP 2: BRAND_INFO
+     STEP 2: BRAND_INFO — all brands with complete Hebrew descriptions
      =================================================== */
   var H = ['\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05d4\u05d5\u05ea\u05e7\u05df \u05d1\u05e8\u05db\u05d1 \u05d1\u05de\u05e4\u05e2\u05dc','\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d5\u05e9\u05dc\u05de\u05ea \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da','\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d0\u05d9\u05db\u05d5\u05ea \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9\u05d9\u05dd','\u05dc\u05dc\u05d0 \u05e4\u05e9\u05e8\u05d5\u05ea \u05d1\u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05d1\u05d4\u05ea\u05d0\u05de\u05d4'];
+
   var BRAND_INFO = {
-    "BREMBO":{name:"Brembo",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd. \u05d9\u05d3\u05d5\u05e2\u05d4 \u05de\u05e2\u05d5\u05dc\u05dd \u05d4\u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP.",founded:"1961",country:"\u05d0\u05d9\u05d8\u05dc\u05d9\u05d4",color:"#c8102e",highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05d4\u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e0\u05d1\u05d3\u05e7 \u05d1\u05ea\u05e0\u05d0\u05d9 \u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP","\u05d1\u05dc\u05d9\u05de\u05d4 \u05d7\u05d6\u05e7\u05d4 \u05d2\u05dd \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea"]},
-    "BOSCH":{name:"Bosch",description:"\u05e1\u05e4\u05e7\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05e8\u05db\u05d1 \u05d2\u05d3\u05d5\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd. \u05de\u05e2\u05dc 130 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df.",founded:"1886",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f",highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1 \u05de\u05d4\u05de\u05e4\u05e2\u05dc","\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 ISO/TS 16949","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd","\u05de\u05d5\u05ea\u05d0\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05de\u05d9 \u05d4\u05e8\u05db\u05d1 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd"]},
-    "MANN-FILTER":{name:"MANN-FILTER",description:"\u05de\u05d5\u05ea\u05d2 \u05d4\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d4\u05de\u05d5\u05d1\u05d9\u05dc \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4.",founded:"1941",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#1a4690",highlights:["\u05e1\u05d9\u05e0\u05d5\u05df \u05d9\u05e2\u05d9\u05dc \u05e9\u05dc 99.98%","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d4\u05d2\u05e0\u05d4 \u05de\u05e4\u05e0\u05d9 \u05dc\u05db\u05dc\u05d5\u05da \u05d5\u05d0\u05d1\u05e7","\u05de\u05d0\u05e8\u05d9\u05da \u05d7\u05d9\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2"]},
-    "MAHLE":{name:"Mahle",description:"\u05e7\u05d1\u05d5\u05e6\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9\u05ea.",founded:"1920",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#005b8e",highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d1\u05d3\u05d9\u05e7\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d4","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05e1\u05d1\u05d9\u05d1\u05d4","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd"]},
-    "VALEO":{name:"Valeo",description:"\u05e1\u05e4\u05e7\u05d9\u05ea OEM \u05e6\u05e8\u05e4\u05ea\u05d9\u05ea.",founded:"1923",country:"\u05e6\u05e8\u05e4\u05ea",color:"#003087"},
-    "TRW":{name:"TRW",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05dc\u05e8\u05db\u05d1.",founded:"1901",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003399",highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]},
-    "FEBI BILSTEIN":{name:"Febi Bilstein",description:"\u05d7\u05d1\u05e8\u05d4 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05e2\u05dd \u05de\u05e2\u05dc 175 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df.",founded:"1844",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e8001c"},
-    "MEYLE":{name:"Meyle",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea.",founded:"1958",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#0057a8",highlights:["\u05e7\u05d5 MEYLE-HD","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u05d5\u05de\u05e2\u05dc\u05d4","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05d3\u05e8\u05d9\u05e9\u05d4 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd"]},
-    "SKF":{name:"SKF",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05de\u05d9\u05e1\u05d1\u05d9\u05dd.",founded:"1907",country:"\u05e9\u05d5\u05d5\u05d3\u05d9\u05d4",color:"#003087"},
-    "NGK":{name:"NGK",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d4\u05de\u05e6\u05ea\u05d9\u05dd \u05d4\u05d2\u05d3\u05d5\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd.",founded:"1936",country:"\u05d9\u05e4\u05df",color:"#cc0000",highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea","\u05d4\u05e6\u05ea\u05d4 \u05d9\u05e6\u05d9\u05d1\u05d4 \u05d5\u05d7\u05d9\u05e1\u05db\u05d5\u05df \u05d1\u05d3\u05dc\u05e7","\u05de\u05ea\u05d0\u05d9\u05de\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd"]},
-    "DENSO":{name:"Denso",description:"\u05e1\u05e4\u05e7\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05d9\u05e4\u05e0\u05d9\u05ea.",founded:"1949",country:"\u05d9\u05e4\u05df",color:"#003087"},
-    "SACHS":{name:"Sachs",description:"\u05de\u05d5\u05ea\u05d2 \u05d1\u05d5\u05dc\u05de\u05d9 \u05d6\u05e2\u05d6\u05d5\u05e2\u05d9\u05dd.",founded:"1894",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000"},
-    "LUK":{name:"LuK",description:"\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05de\u05e6\u05de\u05d3 \u05d5\u05d4\u05e0\u05e2\u05d4.",founded:"1965",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f"},
-    "INA":{name:"INA",description:"\u05de\u05d9\u05e1\u05d1\u05d9\u05dd, \u05e2\u05e8\u05db\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2.",founded:"1946",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f"},
-    "CONTINENTAL":{name:"Continental",description:"\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2 \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4.",founded:"1871",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
-    "GATES":{name:"Gates",description:"\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d4\u05e0\u05e2\u05d4.",founded:"1911",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#003087"},
-    "HENGST":{name:"Hengst",description:"\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05dd.",founded:"1958",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "DAYCO":{name:"Dayco",description:"\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2.",founded:"1905",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#cc0000"},
-    "LEMFORDER":{name:"Lemf\u00f6rder",description:"\u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05d5\u05d4\u05d9\u05d2\u05d5\u05d9.",founded:"1947",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "TEXTAR":{name:"Textar",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05de\u05d5\u05d1\u05d9\u05dc\u05d5\u05ea.",founded:"1913",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000",highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05dc\u05dc\u05d0 \u05d0\u05e1\u05d1\u05e1\u05d8","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]},
-    "ATE":{name:"ATE",description:"\u05d3\u05d9\u05e1\u05e7\u05d9 \u05d1\u05dc\u05dd \u05d5\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea.",founded:"1906",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
-    "KNECHT":{name:"Knecht",description:"\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9 Mahle.",founded:"1927",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#005b8e"},
-    "NIPPARTS":{name:"Nipparts",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05e1\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd.",founded:"1975",country:"\u05d4\u05d5\u05dc\u05e0\u05d3",color:"#cc0000"},
-    "BLUE PRINT":{name:"Blue Print",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05e1\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd.",founded:"1997",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "MOTUL":{name:"Motul",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05e1\u05d9\u05e0\u05ea\u05d8\u05d9\u05d9\u05dd.",founded:"1853",country:"\u05e6\u05e8\u05e4\u05ea",color:"#cc0000"},
-    "CASTROL":{name:"Castrol",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd.",founded:"1899",country:"\u05d1\u05e8\u05d9\u05d8\u05e0\u05d9\u05d4",color:"#009900"},
-    "LIQUI MOLY":{name:"Liqui Moly",description:"\u05e9\u05de\u05e0\u05d9\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05d9\u05dd.",founded:"1957",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000"},
-    "MOBIL":{name:"Mobil",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 ExxonMobil.",founded:"1911",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#cc0000"},
-    "OSRAM":{name:"Osram",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05ea\u05d0\u05d5\u05e8\u05d4.",founded:"1919",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
-    "PHILIPS":{name:"Philips",description:"\u05ea\u05d0\u05d5\u05e8\u05d4 \u05dc\u05e8\u05db\u05d1.",founded:"1891",country:"\u05d4\u05d5\u05dc\u05e0\u05d3",color:"#0096d6"},
-    "SWAG":{name:"Swag",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3.",founded:"1954",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "TOPRAN":{name:"Topran",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3.",founded:"1996",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "RIDEX":{name:"Ridex",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d1\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9.",founded:"",country:"",color:"#003087"},
-    "HI-Q":{name:"Hi-Q",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e9\u05dc Sangsin.",founded:"1975",country:"\u05e7\u05d5\u05e8\u05d0\u05d4",color:"#e2000f"},
-    "ICER":{name:"Icer",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e1\u05e4\u05e8\u05d3\u05d9\u05d5\u05ea.",founded:"1963",country:"\u05e1\u05e4\u05e8\u05d3",color:"#003087"},
-    "SANGSIN":{name:"Sangsin Brake",description:"\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05e7\u05d5\u05e8\u05d0\u05d9\u05d5\u05ea.",founded:"1975",country:"\u05e7\u05d5\u05e8\u05d0\u05d4",color:"#cc0000"},
-    "MONTECCHIO":{name:"Montecchio",description:"\u05d0\u05d4\u05e8\u05d5\u05df \u05de\u05d5\u05e0\u05d8\u05e7\u05d9\u05d5 \u05d1\u05e2\"\u05de \u2014 \u05d4\u05d7\u05d1\u05e8\u05d4 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e9\u05d5\u05e7 \u05d7\u05dc\u05e7\u05d9 \u05d4\u05d7\u05d9\u05dc\u05d5\u05e3 \u05d1\u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05d0\u05d6 1947.",founded:"1947",country:"\u05d9\u05e9\u05e8\u05d0\u05dc",color:"#1a3c6e"},
-    "TOYOTA":{name:"\u05d8\u05d5\u05d9\u05d5\u05d8\u05d4 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc \u05d8\u05d5\u05d9\u05d5\u05d8\u05d4/\u05dc\u05e7\u05e1\u05d5\u05e1.",founded:"",country:"\u05d9\u05e4\u05df",color:"#eb0a1e",highlights:H},
-    "HYUNDAI":{name:"\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9/\u05e7\u05d9\u05d4 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9.",founded:"",country:"\u05d3\u05e8\u05d5\u05dd \u05e7\u05d5\u05e8\u05d0\u05d4",color:"#002c5f",highlights:H},
-    "RENAULT":{name:"\u05e8\u05e0\u05d5 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc \u05e8\u05e0\u05d5.",founded:"",country:"\u05e6\u05e8\u05e4\u05ea",color:"#ffcc00",highlights:H},
-    "PSA":{name:"\u05e4\u05d9\u05d6'\u05d5/\u05e1\u05d9\u05d8\u05e8\u05d5\u05d0\u05df \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9.",founded:"",country:"\u05e6\u05e8\u05e4\u05ea",color:"#1f3c88",highlights:H},
-    "MERCEDES":{name:"\u05de\u05e8\u05e6\u05d3\u05e1-\u05d1\u05e0\u05e5 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#333333",highlights:H},
-    "BMW":{name:"BMW \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc BMW.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#1c69d4",highlights:H},
-    "VAG ORIGINAL":{name:"VAG Original",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc VAG.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#001e50",highlights:H},
-    "VAG":{name:"VAG Original",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc VAG.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#001e50",highlights:H},
-    "AYD":{name:"AYD",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05d9\u05d2\u05d5\u05d9 \u05d5\u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05de\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4.",founded:"1975",country:"\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4",color:"#0054a6",highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05ea\u05e7\u05df ISO","\u05d9\u05d9\u05e6\u05d5\u05e8 \u05de\u05ea\u05e7\u05d3\u05dd","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05de\u05d6\u05d2 \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05dd"]},
-    "TEKNOROT":{name:"Teknorot",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05d9\u05d2\u05d5\u05d9 \u05d5\u05d4\u05ea\u05dc\u05d9\u05d9\u05d4.",founded:"1992",country:"\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4",color:"#e31e24",highlights:["\u05ea\u05e7\u05df IATF 16949","\u05e4\u05dc\u05d3\u05d4 \u05de\u05d7\u05d5\u05e9\u05dc\u05ea","\u05d7\u05d5\u05de\u05e8\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd","\u05e2\u05d5\u05d1\u05e8 \u05de\u05d1\u05d7\u05e0\u05d9 \u05d7\u05d5\u05d6\u05e7"]}
+    "BREMBO":{
+      name:"Brembo",
+      nameHe:"\u05d1\u05e8\u05de\u05d1\u05d5",
+      country:"\u05d0\u05d9\u05d8\u05dc\u05d9\u05d4",
+      flag:"\uD83C\uDDEE\uD83C\uDDF9",
+      year:"1961",
+      color:"#c8102e",
+      description:"\u05d1\u05e8\u05de\u05d1\u05d5 \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05d0\u05d9\u05d8\u05dc\u05e7\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd, \u05d9\u05d3\u05d5\u05e2\u05d4 \u05d1\u05d6\u05db\u05d5\u05ea \u05d0\u05e1\u05e4\u05e7\u05ea \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05dc\u05de\u05d9\u05e8\u05d5\u05e6\u05d9 F1, MotoGP \u05d5\u05dc\u05e8\u05db\u05d1\u05d9 \u05e4\u05e8\u05e1\u05d8\u05d9\u05d6'\u05d4 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd. \u05d4\u05d7\u05d1\u05e8\u05d4 \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05e8\u05d1\u05d9\u05dd \u05d5\u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd \u05d4\u05e7\u05e4\u05d3\u05d9\u05d9\u05dd \u05d1\u05d9\u05d5\u05ea\u05e8.",
+      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05d4\u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e0\u05d1\u05d3\u05e7 \u05d1\u05ea\u05e0\u05d0\u05d9 \u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP","\u05d1\u05dc\u05d9\u05de\u05d4 \u05d7\u05d6\u05e7\u05d4 \u05d2\u05dd \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea"]
+    },
+    "BOSCH":{
+      name:"Bosch",
+      nameHe:"\u05d1\u05d5\u05e9",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1886",
+      color:"#e2000f",
+      description:"\u05d1\u05d5\u05e9 \u05d4\u05d9\u05d0 \u05e1\u05e4\u05e7\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05e8\u05db\u05d1 \u05d2\u05d3\u05d5\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd, \u05e2\u05dd \u05de\u05e2\u05dc \u05de\u05d0\u05d4 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df \u05d1\u05d9\u05e6\u05d5\u05e8 \u05d7\u05dc\u05e7\u05d9\u05dd \u05d0\u05d9\u05db\u05d5\u05ea\u05d9\u05d9\u05dd \u05dc\u05e8\u05db\u05d1. \u05ea\u05d5\u05e6\u05e8\u05ea\u05d9\u05d4 \u05de\u05db\u05e1\u05d4 \u05de\u05d2\u05d5\u05d5\u05df \u05e8\u05d7\u05d1 \u05e9\u05dc \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd, \u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd, \u05d6\u05e0\u05e7\u05d9 \u05d4\u05e6\u05ea\u05d4, \u05e1\u05d8\u05e8\u05d8\u05e8\u05d9\u05dd \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d7\u05e9\u05de\u05dc\u05d9\u05d5\u05ea \u05dc\u05e8\u05db\u05d1.",
+      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1 \u05de\u05d4\u05de\u05e4\u05e2\u05dc","\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 ISO/TS 16949","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd","\u05de\u05d5\u05ea\u05d0\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05de\u05d9 \u05d4\u05e8\u05db\u05d1 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd"]
+    },
+    "MANN-FILTER":{
+      name:"MANN-FILTER",
+      nameHe:"\u05de\u05d0\u05df \u05e4\u05d9\u05dc\u05d8\u05e8",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1941",
+      color:"#1a4690",
+      description:"MANN-FILTER \u05d4\u05d9\u05d0 \u05de\u05d5\u05ea\u05d2 \u05d4\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d4\u05de\u05d5\u05d1\u05d9\u05dc \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4, \u05e2\u05dd \u05de\u05e2\u05dc \u05e9\u05de\u05d5\u05e0\u05d9\u05dd \u05e2\u05e9\u05e8 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df \u05d1\u05e4\u05d9\u05ea\u05d5\u05d7 \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd. \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd \u05d1\u05db\u05dc \u05d4\u05e2\u05d5\u05dc\u05dd \u05d5\u05de\u05e1\u05d9\u05d9\u05e2\u05ea \u05d1\u05d4\u05d2\u05e0\u05ea \u05d4\u05de\u05e0\u05d5\u05e2 \u05d5\u05d4\u05d0\u05e8\u05db\u05ea \u05d7\u05d9\u05d9\u05d5.",
+      highlights:["\u05e1\u05d9\u05e0\u05d5\u05df \u05d9\u05e2\u05d9\u05dc \u05e9\u05dc 99.98%","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d4\u05d2\u05e0\u05d4 \u05de\u05e4\u05e0\u05d9 \u05dc\u05db\u05dc\u05d5\u05da \u05d5\u05d0\u05d1\u05e7","\u05de\u05d0\u05e8\u05d9\u05da \u05d7\u05d9\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2"]
+    },
+    "MAHLE":{
+      name:"Mahle",
+      nameHe:"\u05de\u05d0\u05dc\u05d4",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1920",
+      color:"#005b8e",
+      description:"Mahle \u05d4\u05d9\u05d0 \u05e7\u05d1\u05d5\u05e6\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9\u05ea \u05d2\u05e8\u05de\u05e0\u05d9\u05ea, \u05de\u05de\u05d5\u05d1\u05d9\u05dc\u05d9 \u05d1\u05e4\u05d9\u05ea\u05d5\u05d7 \u05d5\u05d9\u05e6\u05d5\u05e8 \u05e8\u05db\u05d9\u05d1\u05d9 \u05de\u05e0\u05d5\u05e2 \u05d5\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05e2\u05d1\u05d5\u05e8 \u05e8\u05db\u05d1. \u05de\u05d5\u05e6\u05e8\u05d9\u05d4 \u05d1\u05d3\u05d9\u05e7\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d4 \u05d5\u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 \u05e1\u05d1\u05d9\u05d1\u05d4 \u05de\u05d7\u05de\u05d9\u05e8\u05d9\u05dd.",
+      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d1\u05d3\u05d9\u05e7\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d4","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05e1\u05d1\u05d9\u05d1\u05d4","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd"]
+    },
+    "VALEO":{
+      name:"Valeo",
+      nameHe:"\u05d5\u05d0\u05dc\u05d0\u05d5",
+      country:"\u05e6\u05e8\u05e4\u05ea",
+      flag:"\uD83C\uDDEB\uD83C\uDDF7",
+      year:"1923",
+      color:"#003087",
+      description:"Valeo \u05d4\u05d9\u05d0 \u05e1\u05e4\u05e7\u05d9\u05ea OEM \u05e6\u05e8\u05e4\u05ea\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d5\u05ea \u05d7\u05d3\u05e9\u05e0\u05d5\u05ea \u05dc\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d4\u05d1\u05dc\u05d9\u05de\u05d4, \u05d4\u05ea\u05d0\u05d5\u05e8\u05d4, \u05de\u05d6\u05d2\u05df \u05d0\u05d5\u05d5\u05d9\u05e8 \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d9\u05d9\u05e6\u05d5\u05e8 \u05d7\u05e9\u05de\u05dc\u05d9\u05d5\u05ea. \u05d7\u05dc\u05e7\u05d9\u05d4 \u05de\u05d5\u05ea\u05e7\u05e0\u05d9\u05dd \u05d1\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05e7\u05d5\u05e8\u05d9\u05d5\u05ea \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d5\u05ea.",
+      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u05d2\u05d1\u05d5\u05d4\u05d4","\u05e1\u05e4\u05e7 \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05d4\u05e8\u05db\u05d1 \u05de\u05d4\u05de\u05e4\u05e2\u05dc","\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d7\u05d3\u05e9\u05e0\u05d9\u05ea","\u05d4\u05ea\u05d0\u05de\u05d4 \u05de\u05d5\u05e9\u05dc\u05de\u05ea \u05dc\u05d3\u05d2\u05dd"]
+    },
+    "TRW":{
+      name:"TRW",
+      nameHe:"\u05d8\u05d9.\u05d0\u05e8.\u05d3\u05d1\u05dc\u05d9\u05d5",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1901",
+      color:"#003399",
+      description:"TRW (ZF Aftermarket) \u05d4\u05d9\u05d0 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05dc\u05e8\u05db\u05d1, \u05d1\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd, \u05d3\u05d9\u05e1\u05e7\u05d9\u05dd \u05d5\u05d0\u05dc\u05de\u05e0\u05d8\u05d9 \u05d4\u05d9\u05d2\u05d5\u05d9. \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd \u05d1\u05db\u05dc \u05d4\u05e2\u05d5\u05dc\u05dd \u05d5\u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d1\u05d9\u05d8\u05d7\u05d5\u05df ECE R90.",
+      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]
+    },
+    "FEBI BILSTEIN":{
+      name:"Febi Bilstein",
+      nameHe:"\u05e4\u05d1\u05d9 \u05d1\u05d9\u05dc\u05e9\u05d8\u05d9\u05d9\u05df",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1844",
+      color:"#e8001c",
+      description:"Febi Bilstein \u05d4\u05d9\u05d0 \u05d7\u05d1\u05e8\u05d4 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05e2\u05dd \u05de\u05e2\u05dc 175 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df \u05d1\u05d9\u05e6\u05d5\u05e8 \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05dc\u05e8\u05db\u05d1. \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05e1\u05e4\u05e7 \u05d4\u05d9\u05e7\u05e3 \u05d5\u05e8\u05d7\u05d1 \u05e9\u05dc \u05e8\u05db\u05d9\u05d1\u05d9\u05dd, \u05db\u05d5\u05dc\u05dc \u05e8\u05db\u05d9\u05d1\u05d9 \u05ea\u05dc\u05d9\u05d9\u05d4, \u05d4\u05d9\u05d2\u05d5\u05d9, \u05de\u05e2\u05e8\u05db\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05d5\u05e2\u05d5\u05d3.",
+      highlights:["\u05de\u05e2\u05dc 175 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05e1\u05e4\u05e7 \u05e8\u05d7\u05d1 \u05e9\u05dc \u05e8\u05db\u05d9\u05d1\u05d9\u05dd","\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d5\u05e9\u05dc\u05de\u05ea"]
+    },
+    "MEYLE":{
+      name:"Meyle",
+      nameHe:"\u05de\u05d9\u05d9\u05dc\u05d4",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1958",
+      color:"#0057a8",
+      description:"Meyle \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05d4\u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05e7\u05d5 MEYLE-HD, \u05d4\u05de\u05e1\u05e4\u05e7 \u05d0\u05d9\u05db\u05d5\u05ea \u05e9\u05d5\u05d5\u05d4 \u05d0\u05d5 \u05e2\u05d5\u05dc\u05d4 \u05e2\u05dc OEM \u05d1\u05d3\u05e8\u05da \u05db\u05dc\u05dc. \u05d7\u05dc\u05e7\u05d9 MEYLE-HD \u05e2\u05d5\u05d1\u05e8\u05d9\u05dd \u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea \u05e9\u05e0\u05ea\u05d9\u05d9\u05dd.",
+      highlights:["\u05e7\u05d5 MEYLE-HD","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u05d5\u05de\u05e2\u05dc\u05d4","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05d3\u05e8\u05d9\u05e9\u05d4 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd"]
+    },
+    "SKF":{
+      name:"SKF",
+      nameHe:"\u05d0\u05e1.\u05e7\u05d9.\u05d0\u05e3",
+      country:"\u05e9\u05d5\u05d5\u05d3\u05d9\u05d4",
+      flag:"\uD83C\uDDF8\uD83C\uDDEA",
+      year:"1907",
+      color:"#003087",
+      description:"SKF \u05d4\u05d9\u05d0 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05e9\u05d5\u05d5\u05d3\u05d9\u05ea \u05d1\u05d9\u05e6\u05d5\u05e8 \u05de\u05d9\u05e1\u05d1\u05d9\u05dd, \u05d7\u05d5\u05ea\u05de\u05d5\u05ea \u05d5\u05d0\u05dc\u05de\u05e0\u05d8\u05d9 \u05de\u05d7\u05d6\u05d5\u05e8 \u05dc\u05e8\u05db\u05d1. \u05d0\u05d9\u05db\u05d5\u05ea\u05d4 \u05d1\u05d3\u05e8\u05d2 OEM \u05de\u05d5\u05db\u05e8\u05ea \u05e2\u05dc\u05d9\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd, \u05e2\u05dd \u05d3\u05d2\u05e9 \u05e2\u05dc\u05d9\u05d5\u05df \u05d1\u05ea\u05d1\u05d5\u05d0\u05ea \u05d4\u05de\u05e0\u05d5\u05e2 \u05d5\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea.",
+      highlights:["\u05de\u05d5\u05d1\u05d9\u05dc \u05e2\u05d5\u05dc\u05de\u05d9 \u05d1\u05de\u05d9\u05e1\u05d1\u05d9\u05dd","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea","\u05de\u05d7\u05d6\u05d5\u05e8 \u05d0\u05e8\u05d5\u05da \u05dc\u05e8\u05db\u05d1"]
+    },
+    "NGK":{
+      name:"NGK",
+      nameHe:"\u05d0\u05e0.\u05d2'\u05d9.\u05e7\u05d9\u05d9",
+      country:"\u05d9\u05e4\u05df",
+      flag:"\uD83C\uDDEF\uD83C\uDDF5",
+      year:"1936",
+      color:"#cc0000",
+      description:"NGK \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d4\u05de\u05e6\u05ea\u05d9\u05dd \u05d4\u05d2\u05d3\u05d5\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd, \u05d9\u05e4\u05e0\u05d9\u05ea, \u05d4\u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d4\u05e6\u05ea\u05d4 \u05d9\u05e6\u05d9\u05d1\u05d4, \u05d7\u05d9\u05e9\u05d5\u05dc \u05d3\u05dc\u05e7 \u05d9\u05e2\u05d9\u05dc \u05d5\u05d0\u05d5\u05e8\u05da \u05d7\u05d9\u05d9\u05dd \u05de\u05d5\u05d0\u05e8\u05da. \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d9\u05e4\u05e0\u05d9\u05d9\u05dd, \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd \u05d5\u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05d9\u05dd.",
+      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea","\u05d4\u05e6\u05ea\u05d4 \u05d9\u05e6\u05d9\u05d1\u05d4 \u05d5\u05d7\u05d9\u05e1\u05db\u05d5\u05df \u05d1\u05d3\u05dc\u05e7","\u05de\u05ea\u05d0\u05d9\u05de\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd"]
+    },
+    "DENSO":{
+      name:"Denso",
+      nameHe:"\u05d3\u05e0\u05e1\u05d5",
+      country:"\u05d9\u05e4\u05df",
+      flag:"\uD83C\uDDEF\uD83C\uDDF5",
+      year:"1949",
+      color:"#003087",
+      description:"Denso \u05d4\u05d9\u05d0 \u05e1\u05e4\u05e7\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05d9\u05e4\u05e0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05d0\u05d7\u05ea \u05d4\u05d2\u05d3\u05d5\u05dc\u05d5\u05ea \u05d1\u05e2\u05d5\u05dc\u05dd, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05d9\u05d5\u05d9\u05d5\u05d8\u05d4, \u05d4\u05d5\u05e0\u05d3\u05d4, \u05dc\u05e7\u05e1\u05d5\u05e1, \u05e1\u05d5\u05d1\u05d0\u05e8\u05d5 \u05d5\u05e2\u05d5\u05d3. \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d9\u05e6\u05d5\u05e8 \u05de\u05e6\u05ea\u05d9\u05dd, \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd, \u05de\u05e7\u05e8\u05e8\u05d9 \u05d4\u05ea\u05e0\u05e2\u05d4 \u05d5\u05de\u05d6\u05d2\u05e0\u05d9\u05dd.",
+      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u05d9\u05e4\u05e0\u05d9\u05ea","\u05e1\u05e4\u05e7 \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05d4\u05e8\u05db\u05d1","\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05de\u05ea\u05e7\u05d3\u05de\u05ea","\u05de\u05d5\u05ea\u05d0\u05dd \u05dc\u05d1\u05e7\u05e8\u05d4 \u05d0\u05e8\u05d5\u05db\u05d4"]
+    },
+    "SACHS":{
+      name:"Sachs",
+      nameHe:"\u05d6\u05d0\u05e7\u05e1",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1894",
+      color:"#cc0000",
+      description:"Sachs (ZF Aftermarket) \u05d4\u05d9\u05d0 \u05de\u05d5\u05ea\u05d2 \u05d1\u05d5\u05dc\u05de\u05d9 \u05d6\u05e2\u05d6\u05d5\u05e2\u05d9\u05dd, \u05d3\u05d9\u05e1\u05e7\u05d9 \u05de\u05e6\u05de\u05d3 \u05d5\u05d0\u05dc\u05de\u05e0\u05d8\u05d9 \u05de\u05e2\u05e8\u05db\u05ea \u05d4\u05e0\u05e2\u05d4 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea. \u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 OEM \u05e2\u05dc\u05d9\u05d5\u05e0\u05d9\u05d9\u05dd \u05d5\u05de\u05e1\u05e4\u05e7\u05ea \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd.",
+      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d3\u05d9\u05e1\u05e7\u05d9 \u05de\u05e6\u05de\u05d3 \u05e2\u05dc\u05d9\u05d5\u05e0\u05d9\u05d9\u05dd","\u05d1\u05d5\u05dc\u05de\u05d9 \u05d6\u05e2\u05d6\u05d5\u05e2\u05d9\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05d9\u05dd","\u05e2\u05d1\u05d5\u05e8 \u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05e8\u05db\u05d1"]
+    },
+    "LUK":{
+      name:"LuK",
+      nameHe:"\u05dc\u05d5\u05e7",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1965",
+      color:"#e2000f",
+      description:"LuK (Schaeffler Group) \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05de\u05e6\u05de\u05d3 \u05d5\u05d4\u05e0\u05e2\u05d4 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea, \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea. \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd \u05d1\u05db\u05dc \u05d4\u05e2\u05d5\u05dc\u05dd \u05d5\u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 OEM \u05e2\u05dc\u05d9\u05d5\u05e0\u05d9\u05d9\u05dd.",
+      highlights:["\u05e1\u05e4\u05e7 OEM \u05de\u05d5\u05d1\u05d9\u05dc","\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05e8\u05de\u05e0\u05d9\u05ea","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05dd"]
+    },
+    "INA":{
+      name:"INA",
+      nameHe:"\u05d0\u05d9.\u05e0\u05d0.",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1946",
+      color:"#e2000f",
+      description:"INA (Schaeffler Group) \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05de\u05d9\u05e1\u05d1\u05d9\u05dd, \u05e2\u05e8\u05db\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2 \u05d5\u05e8\u05db\u05d9\u05d1\u05d9 \u05e9\u05e8\u05e9\u05e8\u05ea \u05d4\u05de\u05e0\u05d5\u05e2 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea. \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd \u05d5\u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 OEM \u05e2\u05dc\u05d9\u05d5\u05e0\u05d9\u05d9\u05dd.",
+      highlights:["\u05de\u05d9\u05e1\u05d1\u05d9\u05dd \u05d1\u05d3\u05e8\u05d2 OEM","\u05e2\u05e8\u05db\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2 \u05d0\u05d9\u05db\u05d5\u05ea\u05d9\u05d9\u05dd","\u05e9\u05e8\u05e9\u05e8\u05ea \u05de\u05e0\u05d5\u05e2 \u05de\u05d5\u05d1\u05d9\u05dc","\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05e8\u05de\u05e0\u05d9\u05ea"]
+    },
+    "CONTINENTAL":{
+      name:"Continental",
+      nameHe:"\u05e7\u05d5\u05e0\u05d8\u05d9\u05e0\u05e0\u05d8\u05dc",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1871",
+      color:"#ffa500",
+      description:"Continental \u05d4\u05d9\u05d0 \u05e7\u05d1\u05d5\u05e6\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05e4\u05ea\u05d7\u05ea \u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2, \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05d5\u05e8\u05db\u05d9\u05d1\u05d9 \u05e8\u05db\u05d1. \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd \u05d1\u05db\u05dc \u05d4\u05e2\u05d5\u05dc\u05dd.",
+      highlights:["\u05de\u05e2\u05dc 150 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df","\u05e1\u05e4\u05e7 OEM \u05de\u05d5\u05d1\u05d9\u05dc","\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d7\u05d3\u05e9\u05e0\u05d9\u05ea","\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05e8\u05de\u05e0\u05d9\u05ea"]
+    },
+    "GATES":{
+      name:"Gates",
+      nameHe:"\u05d2\u05d9\u05d9\u05d8\u05e1",
+      country:"\u05d0\u05e8\u05d4\"\u05d1",
+      flag:"\uD83C\uDDFA\uD83C\uDDF8",
+      year:"1911",
+      color:"#003087",
+      description:"Gates \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d4\u05e0\u05e2\u05d4 \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd \u05d1\u05db\u05dc \u05d4\u05e2\u05d5\u05dc\u05dd. \u05d0\u05d9\u05db\u05d5\u05ea\u05d4 \u05e2\u05e1\u05e7\u05d9\u05ea \u05d5\u05e2\u05de\u05d9\u05d3\u05d5\u05ea\u05d4 \u05d1\u05ea\u05e7\u05e0\u05d9 OEM \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd.",
+      highlights:["\u05e1\u05e4\u05e7 OEM \u05de\u05d5\u05d1\u05d9\u05dc","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 OEM","\u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05dd"]
+    },
+    "HENGST":{
+      name:"Hengst",
+      nameHe:"\u05d4\u05e0\u05d2\u05e1\u05d8",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1958",
+      color:"#003087",
+      description:"Hengst \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4. \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d0\u05d9\u05db\u05d5\u05ea \u05e1\u05d9\u05e0\u05d5\u05df \u05d2\u05d1\u05d5\u05d4\u05d4 \u05d5\u05de\u05d0\u05e8\u05d9\u05db\u05ea \u05d7\u05d9\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2.",
+      highlights:["\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd OEM","\u05e1\u05d9\u05e0\u05d5\u05df \u05d2\u05d1\u05d5\u05d4","\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05e8\u05de\u05e0\u05d9\u05ea","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05dd"]
+    },
+    "DAYCO":{
+      name:"Dayco",
+      nameHe:"\u05d3\u05d9\u05d9\u05e7\u05d5",
+      country:"\u05d0\u05e8\u05d4\"\u05d1",
+      flag:"\uD83C\uDDFA\uD83C\uDDF8",
+      year:"1905",
+      color:"#cc0000",
+      description:"Dayco \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2 \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d4\u05e0\u05e2\u05d4 \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05ea, \u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd. \u05d0\u05d9\u05db\u05d5\u05ea\u05d4 \u05de\u05e2\u05d1\u05e8\u05ea \u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05e7\u05e4\u05d3\u05e0\u05d9\u05d5\u05ea.",
+      highlights:["\u05e1\u05e4\u05e7 OEM \u05de\u05d5\u05d1\u05d9\u05dc","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea OEM","\u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05dd"]
+    },
+    "LEMFORDER":{
+      name:"Lemf\u00f6rder",
+      nameHe:"\u05dc\u05de\u05e4\u05e8\u05d3\u05e8",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1947",
+      color:"#003087",
+      description:"Lemf\u00f6rder (ZF Group) \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05d5\u05d4\u05d9\u05d2\u05d5\u05d9 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd. \u05d9\u05d3\u05d5\u05e2\u05d4 \u05d1\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05d1\u05d5\u05d4\u05d4 \u05d5\u05d1\u05e7\u05e4\u05d3\u05e0\u05d5\u05ea \u05d1\u05e9\u05d9\u05d1\u05d5\u05e9 \u05e8\u05db\u05d9\u05d1\u05d9\u05dd.",
+      highlights:["\u05e1\u05e4\u05e7 OEM \u05de\u05d5\u05d1\u05d9\u05dc","\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05e8\u05de\u05e0\u05d9\u05ea","\u05e8\u05db\u05d9\u05d1\u05d9 \u05ea\u05dc\u05d9\u05d9\u05d4 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05dd"]
+    },
+    "TEXTAR":{
+      name:"Textar",
+      nameHe:"\u05d8\u05e7\u05e1\u05d8\u05e8",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1913",
+      color:"#cc0000",
+      description:"Textar \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd. \u05d4\u05de\u05d5\u05e6\u05e8\u05d9\u05dd \u05e0\u05e7\u05d9\u05d9\u05dd \u05de\u05d0\u05e1\u05d1\u05e1\u05d8 \u05d5\u05e2\u05d5\u05de\u05d3\u05d9\u05dd \u05d1\u05ea\u05e7\u05e0\u05d9 ECE R90.",
+      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05dc\u05dc\u05d0 \u05d0\u05e1\u05d1\u05e1\u05d8","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]
+    },
+    "ATE":{
+      name:"ATE",
+      nameHe:"\u05d0\u05d9.\u05d8\u05d9.\u05d0\u05d9",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1906",
+      color:"#ffa500",
+      description:"ATE (Continental) \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d3\u05d9\u05e1\u05e7\u05d9 \u05d1\u05dc\u05dd \u05d5\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd. \u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 ECE R90 \u05d5\u05de\u05ea\u05d0\u05d9\u05de\u05d4 \u05dc\u05e1\u05e4\u05e7\u05d9 \u05d4\u05de\u05e7\u05d5\u05e8.",
+      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d3\u05d9\u05e1\u05e7\u05d9\u05dd \u05d5\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]
+    },
+    "KNECHT":{
+      name:"Knecht",
+      nameHe:"\u05e7\u05e0\u05db\u05d8",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1927",
+      color:"#005b8e",
+      description:"Knecht (Mahle) \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea Mahle. \u05de\u05e1\u05e4\u05e7\u05ea \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9 \u05e9\u05de\u05df, \u05d0\u05d5\u05d5\u05d9\u05e8, \u05d3\u05dc\u05e7 \u05d5\u05de\u05d6\u05d2\u05df \u05d1\u05d0\u05d9\u05db\u05d5\u05ea OEM \u05dc\u05db\u05dc \u05d3\u05d2\u05de\u05d9 \u05d4\u05e8\u05db\u05d1.",
+      highlights:["\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd OEM","\u05d0\u05d9\u05db\u05d5\u05ea Mahle","\u05de\u05d2\u05d5\u05d5\u05df \u05e8\u05d7\u05d1 \u05e9\u05dc \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd","\u05e1\u05d9\u05e0\u05d5\u05df \u05d2\u05d1\u05d5\u05d4"]
+    },
+    "NIPPARTS":{
+      name:"Nipparts",
+      nameHe:"\u05e0\u05d9\u05e4\u05e4\u05e8\u05d8\u05e1",
+      country:"\u05d4\u05d5\u05dc\u05e0\u05d3",
+      flag:"\uD83C\uDDF3\uD83C\uDDF1",
+      year:"1975",
+      color:"#cc0000",
+      description:"Nipparts \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d4\u05d5\u05dc\u05e0\u05d3\u05d9\u05ea \u05d4\u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05e1\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd \u05db\u05d2\u05d5\u05df \u05d9\u05d5\u05d9\u05d5\u05d8\u05d4, \u05d4\u05d5\u05e0\u05d3\u05d4, \u05e0\u05d9\u05e1\u05d0\u05df \u05d5\u05de\u05d6\u05d5\u05d1\u05d9\u05e9\u05d9. \u05d0\u05d9\u05db\u05d5\u05ea\u05d4 \u05e2\u05e1\u05e7\u05d9\u05ea \u05d5\u05ea\u05d0\u05d9\u05de\u05d5\u05ea\u05d4 \u05de\u05d5\u05e9\u05dc\u05de\u05ea.",
+      highlights:["\u05e8\u05db\u05d9\u05d1\u05d9 \u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05e1\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d5\u05e9\u05dc\u05de\u05ea","\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9"]
+    },
+    "BLUE PRINT":{
+      name:"Blue Print",
+      nameHe:"\u05d1\u05dc\u05d5 \u05e4\u05e8\u05d9\u05e0\u05d8",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1997",
+      color:"#003087",
+      description:"Blue Print \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d4\u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05e1\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd, \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea ADL (Alliance Automotive Group). \u05d0\u05d9\u05db\u05d5\u05ea\u05d4 \u05de\u05d5\u05e9\u05dc\u05de\u05ea \u05d5\u05ea\u05d0\u05d9\u05de\u05d5\u05ea\u05d4 \u05de\u05d3\u05d5\u05d9\u05e7\u05ea.",
+      highlights:["\u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05d0\u05e1\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d3\u05d5\u05d9\u05e7\u05ea","\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9"]
+    },
+    "MOTUL":{
+      name:"Motul",
+      nameHe:"\u05de\u05d5\u05d8\u05d5\u05dc",
+      country:"\u05e6\u05e8\u05e4\u05ea",
+      flag:"\uD83C\uDDEB\uD83C\uDDF7",
+      year:"1853",
+      color:"#cc0000",
+      description:"Motul \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05e1\u05d9\u05e0\u05ea\u05d8\u05d9\u05d9\u05dd \u05e6\u05e8\u05e4\u05ea\u05d9\u05ea, \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05e4\u05d9\u05ea\u05d5\u05d7 \u05e9\u05de\u05e0\u05d9\u05dd \u05dc\u05e8\u05db\u05d1\u05d9 \u05e4\u05e8\u05e1\u05d8\u05d9\u05d6'\u05d4 \u05d5\u05dc\u05e9\u05d9\u05de\u05d5\u05e9 \u05d9\u05d5\u05de\u05d9\u05d5\u05de\u05d9. \u05de\u05d5\u05e6\u05e8\u05d9\u05d4 \u05e0\u05d1\u05d3\u05e7\u05d9\u05dd \u05d1\u05ea\u05e0\u05d0\u05d9 \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d4\u05de\u05d9\u05e8\u05d5\u05e5.",
+      highlights:["\u05e9\u05de\u05e0\u05d9 \u05e1\u05d9\u05e0\u05ea\u05d8\u05d9\u05d9\u05dd","\u05e0\u05d9\u05e1\u05d5\u05df \u05d1\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd","\u05de\u05d5\u05e8\u05e9\u05d4 \u05dc\u05e0\u05d9\u05e1\u05d5\u05df","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05e4\u05e8\u05e1\u05d8\u05d9\u05d6'\u05d4"]
+    },
+    "CASTROL":{
+      name:"Castrol",
+      nameHe:"\u05e7\u05e1\u05d8\u05e8\u05d5\u05dc",
+      country:"\u05d1\u05e8\u05d9\u05d8\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDEC\uD83C\uDDE7",
+      year:"1899",
+      color:"#009900",
+      description:"Castrol (BP) \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e8\u05d9\u05d8\u05d9\u05ea, \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05ea EDGE \u05d5\u05d1\u05e9\u05d9\u05ea\u05d5\u05e3 \u05e4\u05e2\u05d9\u05dc \u05e2\u05dd \u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd. \u05de\u05de\u05d5\u05e9 \u05e2\u05dc \u05d9\u05e2\u05d9\u05dc\u05d5\u05ea \u05d3\u05dc\u05e7 \u05d5\u05d4\u05d2\u05e0\u05ea \u05d4\u05de\u05e0\u05d5\u05e2.",
+      highlights:["\u05e9\u05de\u05e0\u05d9 \u05e1\u05d9\u05e0\u05ea\u05d8\u05d9\u05d9\u05dd","\u05d1\u05e9\u05d9\u05ea\u05d5\u05e3 \u05e2\u05dd \u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1","\u05d7\u05e1\u05db\u05d5\u05df \u05d1\u05d3\u05dc\u05e7","\u05d4\u05d2\u05e0\u05ea \u05de\u05e0\u05d5\u05e2"]
+    },
+    "LIQUI MOLY":{
+      name:"Liqui Moly",
+      nameHe:"\u05dc\u05d9\u05e7\u05d5\u05d9 \u05de\u05d5\u05dc\u05d9",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1957",
+      color:"#cc0000",
+      description:"Liqui Moly \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05d5\u05ea\u05d5\u05e1\u05e4\u05d9\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05d4\u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05d1\u05d5\u05d4\u05d4 \u05dc\u05de\u05e0\u05d5\u05e2. \u05d6\u05db\u05ea\u05d4 \u05d1\u05de\u05e2\u05dc 80 \u05e4\u05e8\u05e1\u05d9\u05dd \u05d1\u05de\u05d1\u05d7\u05e0\u05d9 \u05e9\u05de\u05e0\u05d9 \u05d2\u05e8\u05de\u05e0\u05d9\u05d9\u05dd.",
+      highlights:["\u05e2\u05dc 80 \u05e4\u05e8\u05e1\u05d9\u05dd","\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05d1\u05d5\u05d4\u05d4","\u05e9\u05de\u05e0\u05d9 \u05e1\u05d9\u05e0\u05ea\u05d8\u05d9\u05d9\u05dd","\u05ea\u05d5\u05e1\u05e4\u05d9\u05dd \u05dc\u05de\u05e0\u05d5\u05e2"]
+    },
+    "MOBIL":{
+      name:"Mobil",
+      nameHe:"\u05de\u05d5\u05d1\u05d9\u05dc",
+      country:"\u05d0\u05e8\u05d4\"\u05d1",
+      flag:"\uD83C\uDDFA\uD83C\uDDF8",
+      year:"1911",
+      color:"#cc0000",
+      description:"Mobil (ExxonMobil) \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05d9\u05d3\u05d5\u05e2\u05d4 \u05d1\u05e9\u05de\u05df Mobil 1 \u05d4\u05e1\u05d9\u05e0\u05ea\u05d8\u05d9. \u05de\u05e9\u05d5\u05de\u05e9\u05ea \u05d1\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05de\u05d9\u05e8\u05d5\u05e5 F1 \u05d5\u05de\u05d0\u05d5\u05e9\u05e8\u05ea \u05dc\u05e9\u05d9\u05de\u05d5\u05e9 \u05e2\u05dc \u05d9\u05d3\u05d9 \u05d9\u05e6\u05e8\u05e0\u05d9\u05dd \u05e8\u05d1\u05d9\u05dd.",
+      highlights:["\u05e9\u05de\u05df Mobil 1 \u05e1\u05d9\u05e0\u05ea\u05d8\u05d9","\u05e0\u05d9\u05e1\u05d5\u05df F1","\u05d0\u05d9\u05e9\u05d5\u05e8\u05d9 OEM","\u05d7\u05e1\u05db\u05d5\u05df \u05d1\u05d3\u05dc\u05e7"]
+    },
+    "OSRAM":{
+      name:"Osram",
+      nameHe:"\u05d0\u05d5\u05e1\u05e8\u05d0\u05dd",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1919",
+      color:"#ffa500",
+      description:"Osram \u05d4\u05d9\u05d0 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05d1\u05ea\u05d0\u05d5\u05e8\u05d4, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd. \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d0\u05d5\u05e8\u05da \u05d7\u05d9\u05d9\u05dd, \u05d1\u05e7\u05e8 \u05d0\u05d5\u05e8 \u05d5\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd.",
+      highlights:["\u05e1\u05e4\u05e7 OEM","\u05d0\u05d5\u05e8\u05da \u05d7\u05d9\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4","\u05d1\u05e7\u05e8 \u05d0\u05d5\u05e8 \u05de\u05d5\u05e9\u05dc\u05dd","\u05d7\u05d9\u05e1\u05db\u05d5\u05df \u05d1\u05d0\u05e0\u05e8\u05d2\u05d9\u05d4"]
+    },
+    "PHILIPS":{
+      name:"Philips",
+      nameHe:"\u05e4\u05d9\u05dc\u05d9\u05e4\u05e1",
+      country:"\u05d4\u05d5\u05dc\u05e0\u05d3",
+      flag:"\uD83C\uDDF3\uD83C\uDDF1",
+      year:"1891",
+      color:"#0096d6",
+      description:"Philips \u05d4\u05d9\u05d0 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d4\u05d5\u05dc\u05e0\u05d3\u05d9\u05ea \u05d1\u05ea\u05d0\u05d5\u05e8\u05d4 \u05dc\u05e8\u05db\u05d1, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd. \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d9\u05ea LED \u05d5-HID \u05de\u05ea\u05e7\u05d3\u05de\u05ea.",
+      highlights:["\u05e1\u05e4\u05e7 OEM","\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05ea LED","\u05d0\u05d5\u05e8\u05da \u05d7\u05d9\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4","\u05d7\u05d9\u05e1\u05db\u05d5\u05df \u05d1\u05d0\u05e0\u05e8\u05d2\u05d9\u05d4"]
+    },
+    "SWAG":{
+      name:"Swag",
+      nameHe:"\u05e1\u05d5\u05d5\u05d0\u05d2",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1954",
+      color:"#003087",
+      description:"Swag \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea, \u05de\u05e1\u05e4\u05e7\u05ea \u05de\u05d2\u05d5\u05d5\u05df \u05e8\u05d7\u05d1 \u05e9\u05dc \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd \u05d5\u05d9\u05e4\u05e0\u05d9\u05d9\u05dd. \u05d0\u05d9\u05db\u05d5\u05ea\u05d4 \u05e2\u05e1\u05e7\u05d9\u05ea \u05d5\u05ea\u05d0\u05d9\u05de\u05d5\u05ea\u05d4 \u05de\u05d5\u05e9\u05dc\u05de\u05ea.",
+      highlights:["\u05de\u05d2\u05d5\u05d5\u05df \u05e8\u05d7\u05d1","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d5\u05e9\u05dc\u05de\u05ea","\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9"]
+    },
+    "TOPRAN":{
+      name:"Topran",
+      nameHe:"\u05d8\u05d5\u05e4\u05e8\u05df",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"1996",
+      color:"#003087",
+      description:"Topran \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea, \u05de\u05e1\u05e4\u05e7\u05ea \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd, \u05d9\u05e4\u05e0\u05d9\u05d9\u05dd \u05d5\u05e7\u05d5\u05e8\u05d0\u05d9\u05d9\u05dd. \u05d0\u05d9\u05db\u05d5\u05ea\u05d4 \u05e2\u05e1\u05e7\u05d9\u05ea \u05d5\u05ea\u05d0\u05d9\u05de\u05d5\u05ea\u05d4 \u05de\u05d3\u05d5\u05d9\u05e7\u05ea.",
+      highlights:["\u05de\u05d2\u05d5\u05d5\u05df \u05e8\u05d7\u05d1","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d3\u05d5\u05d9\u05e7\u05ea","\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9"]
+    },
+    "RIDEX":{
+      name:"Ridex",
+      nameHe:"\u05e8\u05d0\u05d9\u05d3\u05e7\u05e1",
+      country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",
+      flag:"\uD83C\uDDE9\uD83C\uDDEA",
+      year:"2008",
+      color:"#003087",
+      description:"Ridex \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05d4\u05de\u05e1\u05e4\u05e7\u05ea \u05e4\u05ea\u05e8\u05d5\u05e0\u05d5\u05ea \u05d1\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9 \u05de\u05d1\u05dc\u05d9 \u05d5\u05d9\u05ea\u05d5\u05e8 \u05d1\u05d0\u05d9\u05db\u05d5\u05ea. \u05de\u05ea\u05d0\u05d9\u05de\u05d4 \u05dc\u05db\u05dc \u05d3\u05d2\u05de\u05d9 \u05d4\u05e8\u05db\u05d1 \u05d4\u05e0\u05e4\u05d5\u05e6\u05d9\u05dd \u05d1\u05d9\u05e9\u05e8\u05d0\u05dc.",
+      highlights:["\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea \u05d8\u05d5\u05d1\u05d4","\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d5\u05e9\u05dc\u05de\u05ea","\u05de\u05d2\u05d5\u05d5\u05df \u05e8\u05d7\u05d1"]
+    },
+    "HI-Q":{
+      name:"Hi-Q",
+      nameHe:"\u05d4\u05d0\u05d9 \u05e7\u05d9\u05d5",
+      country:"\u05e7\u05d5\u05e8\u05d0\u05d4",
+      flag:"\uD83C\uDDF0\uD83C\uDDF7",
+      year:"1975",
+      color:"#e2000f",
+      description:"Hi-Q \u05d4\u05d9\u05d0 \u05de\u05e2\u05e8\u05db\u05ea \u05d4\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05e9\u05dc Sangsin Brake, \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e7\u05d5\u05e8\u05d0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4. \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05e7\u05d5\u05e8\u05d0\u05d9\u05d9\u05dd \u05d5\u05d9\u05e4\u05e0\u05d9\u05d9\u05dd \u05d5\u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 ECE R90.",
+      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05e1\u05e4\u05e7 \u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]
+    },
+    "ICER":{
+      name:"Icer",
+      nameHe:"\u05d0\u05d9\u05e1\u05e8",
+      country:"\u05e1\u05e4\u05e8\u05d3",
+      flag:"\uD83C\uDDEA\uD83C\uDDF8",
+      year:"1963",
+      color:"#003087",
+      description:"Icer \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e1\u05e4\u05e8\u05d3\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd. \u05de\u05d5\u05e6\u05e8\u05d9\u05d4 \u05e0\u05e7\u05d9\u05d9\u05dd \u05de\u05d0\u05e1\u05d1\u05e1\u05d8 \u05d5\u05e2\u05d5\u05de\u05d3\u05d9\u05dd \u05d1\u05ea\u05e7\u05e0\u05d9 ECE R90.",
+      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05dc\u05dc\u05d0 \u05d0\u05e1\u05d1\u05e1\u05d8","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]
+    },
+    "SANGSIN":{
+      name:"Sangsin Brake",
+      nameHe:"\u05e1\u05d0\u05e0\u05d2\u05e1\u05d9\u05df \u05d1\u05e8\u05d9\u05d9\u05e7",
+      country:"\u05e7\u05d5\u05e8\u05d0\u05d4",
+      flag:"\uD83C\uDDF0\uD83C\uDDF7",
+      year:"1975",
+      color:"#cc0000",
+      description:"Sangsin Brake \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05e7\u05d5\u05e8\u05d0\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05e7\u05d5\u05e8\u05d0\u05d9\u05d9\u05dd, \u05d9\u05e4\u05e0\u05d9\u05d9\u05dd \u05d5\u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd. \u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 ECE R90.",
+      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05e1\u05e4\u05e7 \u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]
+    },
+    "MONTECCHIO":{
+      name:"Montecchio",
+      nameHe:"\u05de\u05d5\u05e0\u05d8\u05e7\u05d9\u05d5",
+      country:"\u05d9\u05e9\u05e8\u05d0\u05dc",
+      flag:"\uD83C\uDDEE\uD83C\uDDF1",
+      year:"1947",
+      color:"#1a3c6e",
+      description:"\u05d0\u05d4\u05e8\u05d5\u05df \u05de\u05d5\u05e0\u05d8\u05e7\u05d9\u05d5 \u05d1\u05e2\"\u05de \u2014 \u05d4\u05d7\u05d1\u05e8\u05d4 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e9\u05d5\u05e7 \u05d7\u05dc\u05e7\u05d9 \u05d4\u05d7\u05d9\u05dc\u05d5\u05e3 \u05d1\u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05d0\u05d6 1947. \u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05de\u05d2\u05d5\u05d5\u05df \u05e8\u05d7\u05d1 \u05e9\u05dc \u05d7\u05dc\u05e7\u05d9\u05dd \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd, \u05d9\u05e4\u05e0\u05d9\u05d9\u05dd \u05d5\u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05d9\u05dd. \u05e9\u05d9\u05e8\u05d5\u05ea \u05de\u05d5\u05de\u05d7\u05d9 \u05d0\u05d9\u05e9\u05d9 \u05e2\u05dd \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df \u05e8\u05d1\u05d5\u05ea.",
+      highlights:["\u05d5\u05d5\u05ea\u05e7\u05d9\u05df \u05d1\u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05d0\u05d6 1947","\u05de\u05d2\u05d5\u05d5\u05df \u05e8\u05d7\u05d1","\u05e9\u05d9\u05e8\u05d5\u05ea \u05d0\u05d9\u05e9\u05d9","\u05d0\u05e1\u05e4\u05e7\u05d4 \u05de\u05d4\u05d9\u05e8\u05d4"]
+    },
+    "TOYOTA":{name:"\u05d8\u05d5\u05d9\u05d5\u05d8\u05d4 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc \u05d8\u05d5\u05d9\u05d5\u05d8\u05d4/\u05dc\u05e7\u05e1\u05d5\u05e1. \u05de\u05ea\u05d0\u05d9\u05dd \u05d1\u05d3\u05d9\u05d5\u05e7 \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da.",founded:"",country:"\u05d9\u05e4\u05df",color:"#eb0a1e",highlights:H},
+    "HYUNDAI":{name:"\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9/\u05e7\u05d9\u05d4 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05dc\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9 \u05d5\u05e7\u05d9\u05d4. \u05de\u05ea\u05d0\u05d9\u05dd \u05d1\u05d3\u05d9\u05d5\u05e7 \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da.",founded:"",country:"\u05d3\u05e8\u05d5\u05dd \u05e7\u05d5\u05e8\u05d0\u05d4",color:"#002c5f",highlights:H},
+    "RENAULT":{name:"\u05e8\u05e0\u05d5 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc \u05e8\u05e0\u05d5. \u05de\u05ea\u05d0\u05d9\u05dd \u05d1\u05d3\u05d9\u05d5\u05e7 \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da.",founded:"",country:"\u05e6\u05e8\u05e4\u05ea",color:"#ffcc00",highlights:H},
+    "PSA":{name:"\u05e4\u05d9\u05d6'\u05d5/\u05e1\u05d9\u05d8\u05e8\u05d5\u05d0\u05df \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e4\u05d9\u05d6'\u05d5/\u05e1\u05d9\u05d8\u05e8\u05d5\u05d0\u05df. \u05de\u05ea\u05d0\u05d9\u05dd \u05d1\u05d3\u05d9\u05d5\u05e7.",founded:"",country:"\u05e6\u05e8\u05e4\u05ea",color:"#1f3c88",highlights:H},
+    "MERCEDES":{name:"\u05de\u05e8\u05e6\u05d3\u05e1-\u05d1\u05e0\u05e5 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05de\u05e8\u05e6\u05d3\u05e1. \u05de\u05ea\u05d0\u05d9\u05dd \u05d1\u05d3\u05d9\u05d5\u05e7 \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#333333",highlights:H},
+    "BMW":{name:"BMW \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc BMW. \u05de\u05ea\u05d0\u05d9\u05dd \u05d1\u05d3\u05d9\u05d5\u05e7 \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#1c69d4",highlights:H},
+    "VAG ORIGINAL":{name:"VAG Original",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc VAG (\u05e4\u05d5\u05dc\u05e7\u05e1\u05d5\u05d5\u05d0\u05d2\u05df, \u05e1\u05e7\u05d5\u05d3\u05d4, \u05d0\u05d0\u05d5\u05d3\u05d9, \u05e1\u05d9\u05d8). \u05de\u05ea\u05d0\u05d9\u05dd \u05d1\u05d3\u05d9\u05d5\u05e7.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#001e50",highlights:H},
+    "VAG":{name:"VAG Original",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc VAG (\u05e4\u05d5\u05dc\u05e7\u05e1\u05d5\u05d5\u05d0\u05d2\u05df, \u05e1\u05e7\u05d5\u05d3\u05d4, \u05d0\u05d0\u05d5\u05d3\u05d9, \u05e1\u05d9\u05d8). \u05de\u05ea\u05d0\u05d9\u05dd \u05d1\u05d3\u05d9\u05d5\u05e7.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#001e50",highlights:H},
+    "AYD":{
+      name:"AYD",
+      nameHe:"\u05d0\u05d9.\\u05d5\u05d5\u05d0\u05d9.\u05d3\u05d9",
+      country:"\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4",
+      flag:"\uD83C\uDDF9\uD83C\uDDF7",
+      year:"1975",
+      color:"#0054a6",
+      description:"AYD \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05d9\u05d2\u05d5\u05d9 \u05d5\u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05d8\u05d5\u05e8\u05e7\u05d9\u05ea \u05de\u05d5\u05d1\u05d9\u05dc\u05d4, \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd. \u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05df ISO \u05d5\u05de\u05ea\u05d0\u05d9\u05de\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05de\u05d6\u05d2 \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05dd.",
+      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05ea\u05e7\u05df ISO","\u05d9\u05d9\u05e6\u05d5\u05e8 \u05de\u05ea\u05e7\u05d3\u05dd","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05de\u05d6\u05d2 \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05dd"]
+    },
+    "TEKNOROT":{
+      name:"Teknorot",
+      nameHe:"\u05d8\u05e7\u05e0\u05d5\u05e8\u05d5\u05d8",
+      country:"\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4",
+      flag:"\uD83C\uDDF9\uD83C\uDDF7",
+      year:"1992",
+      color:"#e31e24",
+      description:"Teknorot \u05d4\u05d9\u05d0 \u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05d9\u05d2\u05d5\u05d9 \u05d5\u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05d8\u05d5\u05e8\u05e7\u05d9\u05ea, \u05d4\u05de\u05ea\u05de\u05d7\u05d4 \u05d1\u05d9\u05e6\u05d5\u05e8 \u05e4\u05dc\u05d3\u05d4 \u05de\u05d7\u05d5\u05e9\u05dc\u05ea \u05d5\u05d7\u05d5\u05de\u05e8\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd. \u05de\u05e1\u05e4\u05e7\u05ea OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd \u05d5\u05e2\u05d5\u05de\u05d3\u05ea \u05d1\u05ea\u05e7\u05df IATF 16949.",
+      highlights:["\u05ea\u05e7\u05df IATF 16949","\u05e4\u05dc\u05d3\u05d4 \u05de\u05d7\u05d5\u05e9\u05dc\u05ea","\u05d7\u05d5\u05de\u05e8\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd","\u05e2\u05d5\u05d1\u05e8 \u05de\u05d1\u05d7\u05e0\u05d9 \u05d7\u05d5\u05d6\u05e7"]
+    }
   };
+
 
   /* ===================================================
      STEP 3: Extract data from Konimbo DOM
@@ -388,9 +780,32 @@
     if (bt) breadcrumbItems.push({text: bt, href: bcLinks[bc2].href || '#'});
   }
 
+  /* Extract description from Konimbo — multiple selector fallbacks */
   var productDescription = '';
-  var descEl = document.querySelector('.item_description,#item_content,[id*="item_desc"],[class*="item_desc"]');
-  if (descEl) productDescription = descEl.innerHTML || '';
+  var descSelectors = [
+    '.item_description',
+    '#item_description',
+    '[class*="item_desc"]',
+    '[id*="item_desc"]',
+    '#item_content .description',
+    '.product-description',
+    '[class*="product_desc"]',
+    '.item_details_text',
+    '[class*="item_details"]',
+    '#item_content'
+  ];
+  for (var ds = 0; ds < descSelectors.length; ds++) {
+    var descEl = document.querySelector(descSelectors[ds]);
+    if (descEl) {
+      var descHtml = descEl.innerHTML || '';
+      var descText = getText(descEl);
+      /* Skip if it's just the title or too short */
+      if (descText && descText.length > 20 && descText !== productTitle) {
+        productDescription = descHtml;
+        break;
+      }
+    }
+  }
 
   var stockText = '\u05d6\u05de\u05d9\u05df \u05d1\u05de\u05dc\u05d0\u05d9';
 
@@ -467,7 +882,12 @@
   if (!targetInsertEl) return;
 
   /* ===================================================
-     STEP 6: Build HTML using EXACT demo class names (prefixed with an-)
+     STEP 6: Build HTML — EXACT section order from demo:
+     1. .an-product-top (info LEFT, image RIGHT in demo RTL)
+     2. .an-section-card — highlights (✦ ביצועים, איכות ובטיחות)
+     3. .an-section-card — description (תיאור המוצר)
+     4. .an-section-card — TecDoc (tabs: פרטים טכניים, התאמה לרכבים, מספרי OE)
+     5. .an-section-card — Brand card
      =================================================== */
   var highlights = brandData.highlights || [
     '\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1',
@@ -479,8 +899,6 @@
   var cartSvg = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
   var cartSvgSm = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
   var chevSvg = '<svg class="an-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
-  var vehChev = '<svg class="an-veh-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
-  var modChev = '<svg class="an-veh-model-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
 
   /* Images */
   var mainImgHtml = '', thumbsHtml = '';
@@ -517,17 +935,10 @@
   var hlItems = '';
   for (var hl = 0; hl < highlights.length; hl++) hlItems += '<li>'+highlights[hl]+'</li>';
 
-  /* Brand card */
-  var brandCardHtml = '';
-  if (!isOEMpart && brandData.name && brandData.description) {
-    var bc4 = brandData.color || '#1a4690';
-    var bAb = brandData.name.toUpperCase(); if (bAb.length > 5) bAb = bAb.substring(0,5);
-    var orig = brandData.country ? brandData.country+(brandData.founded?', '+brandData.founded:'') : '';
-    brandCardHtml = '<div class="an-section-card"><div class="an-brand-card">' +
-      '<div class="an-brand-sidebar" style="background:'+bc4+'"><span>'+bAb+'</span></div>' +
-      '<div class="an-brand-info"><h3>'+brandData.name+'</h3>' +
-      (orig ? '<div class="an-brand-origin">'+orig+'</div>' : '') +
-      '<p>'+brandData.description+'</p></div></div></div>';
+  /* Brand highlights */
+  var brandHlItems = '';
+  if (brandData.highlights) {
+    for (var bhl = 0; bhl < brandData.highlights.length; bhl++) brandHlItems += '<li>'+brandData.highlights[bhl]+'</li>';
   }
 
   /* Specs rows */
@@ -545,79 +956,95 @@
   /* Page background wrapper + container */
   html += '<div class="an-page-bg"><div class="an-container">';
 
-  /* Product Top: 2-column grid (image + info) — matches demo .product-top */
+  /* ===================================================
+     SECTION 1: .an-product-top — two-column grid
+     In demo: info column left (RTL: visually right), image column right (RTL: visually left)
+     =================================================== */
   html += '<div class="an-product-top">';
 
-  /* Left: Image Area — matches demo .product-image-area */
-  html += '<div class="an-product-image-area">';
-  html += '<div class="an-main-image">'+mainImgHtml+'</div>';
-  html += '<div class="an-thumb-row">'+thumbsHtml+'</div>';
-  html += '</div>'; /* end .an-product-image-area */
-
-  /* Right: Info Section — matches demo .product-info */
+  /* Column 1: Info */
   html += '<div class="an-info-section">';
-
-  /* Badge row — matches demo .badge-row */
   html += '<div class="an-badge-row">';
   if (skuValue) html += '<span class="an-sku-badge">\u05de\u05e7"\u05d8: '+skuValue+'</span>';
   if (!isOEMpart && brandData.name) html += '<span class="an-brand-badge" style="background:'+(brandData.color||'#c8102e')+'">'+brandData.name+'</span>';
   html += '</div>';
-
-  /* Title — matches demo .product-title */
   html += '<h1 class="an-product-title">'+productTitle+'</h1>';
   if (productSubtitle) html += '<div class="an-product-subtitle">'+productSubtitle+'</div>';
-
-  /* Stock — matches demo .stock-status */
   html += '<div class="an-stock-status"><span class="an-stock-dot"></span>'+stockText+'</div>';
-
-  /* Price — matches demo .price-section */
   html += '<div class="an-price-section"><span class="an-price">'+priceDisplay+'</span><span class="an-price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2"\u05de</span></div>';
-
-  /* Cart Row: qty selector on separate row, then full-width cart button — matches demo .cart-row */
   html += '<div class="an-cart-row" id="an-cart-row">';
   html += '<div class="an-qty-selector"><button class="an-qty-btn" id="an-qty-minus">\u2212</button><div class="an-qty-value" id="an-qty-val">1</div><button class="an-qty-btn" id="an-qty-plus">+</button></div>';
   html += '<button class="an-add-to-cart" id="an-add-to-cart">'+cartSvg+'\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
   html += '</div>';
-
-  /* Sold by — matches demo .sold-by */
   html += '<div class="an-sold-by">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
-
-  /* Trust Box — matches demo .trust-box */
   html += '<div class="an-trust-box">';
   html += '<div class="an-trust-item"><span class="an-icon">\uD83D\uDE9A</span><span>\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5</span></div>';
   html += '<div class="an-trust-item"><span class="an-icon">\uD83D\uDEE1\uFE0F</span><span>\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7"\u05de</span></div>';
   html += '<div class="an-trust-item"><span class="an-icon">\uD83C\uDFC6</span><span>\u05de\u05d5\u05e8\u05e9\u05d9\u05dd \u05de\u05e9\u05e8\u05d3 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4</span></div>';
   html += '<div class="an-trust-item"><span class="an-icon">\uD83D\uDD12</span><span>\u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d5\u05d1\u05d8\u05d7 \u2014 SSL \u05de\u05d5\u05e6\u05e4\u05df</span></div>';
   html += '<div class="an-trust-item"><span class="an-icon">\uD83D\uDCB3</span><span>\u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05ea\u05e9\u05dc\u05d5\u05de\u05d9\u05dd \u05d1\u05e7\u05d5\u05e4\u05d4</span></div>';
-  html += '</div>'; /* end .an-trust-box */
-
-  /* Highlights Box (inside info-section, collapsible) */
-  html += '<div class="an-highlights-box"><div class="an-highlights-header" id="an-hl-hdr"><h2>\u2756 \u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd, \u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea</h2>'+chevSvg+'</div>';
-  html += '<div class="an-highlights-content" id="an-hl-cnt"><ul class="an-highlights-list">'+hlItems+'</ul></div></div>';
-
+  html += '</div>';
   html += '</div>'; /* end .an-info-section */
+
+  /* Column 2: Image */
+  html += '<div class="an-product-image-area">';
+  html += '<div class="an-main-image">'+mainImgHtml+'</div>';
+  html += '<div class="an-thumb-row">'+thumbsHtml+'</div>';
+  html += '</div>'; /* end .an-product-image-area */
+
   html += '</div>'; /* end .an-product-top */
 
-  /* Description Section — matches demo .section-card */
-  html += '<div class="an-section-card"><div class="an-section-header" id="an-desc-hdr"><h2>\u05ea\u05d9\u05d0\u05d5\u05e8</h2>'+chevSvg+'</div>';
-  html += '<div class="an-section-body" id="an-desc-body">';
-  html += productDescription ? '<div class="an-description-section">'+productDescription+'</div>' : '<p class="an-description-text">'+productTitle+'</p>';
+  /* ===================================================
+     SECTION 2: Highlights — "✦ ביצועים, איכות ובטיחות"
+     =================================================== */
+  html += '<div class="an-section-card">';
+  html += '<div class="an-section-header" id="an-hl-hdr"><h2>\u2756 \u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd, \u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea</h2>'+chevSvg+'</div>';
+  html += '<div class="an-section-body" id="an-hl-body">';
+  html += '<ul class="an-highlights-list">'+hlItems+'</ul>';
   html += '</div></div>';
 
-  /* Specs Section — matches demo .section-card with .specs-table */
-  html += '<div class="an-section-card"><div class="an-section-header" id="an-specs-hdr"><h2>\u05e4\u05e8\u05d8\u05d9\u05dd \u05d8\u05db\u05e0\u05d9\u05d9\u05dd</h2>'+chevSvg+'</div>';
-  html += '<div class="an-section-body" id="an-specs-body"><table class="an-specs-table"><tbody>'+specRows+'</tbody></table></div></div>';
+  /* ===================================================
+     SECTION 3: Description — "תיאור המוצר" (from Konimbo)
+     =================================================== */
+  html += '<div class="an-section-card">';
+  html += '<div class="an-section-header" id="an-desc-hdr"><h2>\u05ea\u05d9\u05d0\u05d5\u05e8 \u05d4\u05de\u05d5\u05e6\u05e8</h2>'+chevSvg+'</div>';
+  html += '<div class="an-section-body" id="an-desc-body">';
+  if (productDescription) {
+    html += '<div class="an-description-section">'+productDescription+'</div>';
+  } else {
+    html += '<p class="an-description-text">'+productTitle+' \u2014 \u05d7\u05dc\u05e7 \u05d0\u05d9\u05db\u05d5\u05ea\u05d9 \u05dc\u05e8\u05db\u05d1\u05da. \u05d1\u05d3\u05d9\u05e7\u05ea \u05d4\u05ea\u05d0\u05de\u05d4 \u05de\u05d5\u05e9\u05dc\u05de\u05ea \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da. \u05d0\u05e1\u05e4\u05e7\u05d4 \u05de\u05d9\u05d9\u05d3\u05d9\u05ea \u05de\u05d4\u05de\u05dc\u05d0\u05d9.</p>';
+  }
+  html += '</div></div>';
 
-  /* Brand Card — matches demo .brand-card */
-  html += brandCardHtml;
-
-  /* TecDoc Section — matches demo .section-card with .tabs / .tab-panel */
+  /* ===================================================
+     SECTION 4: TecDoc — tabs: פרטים טכניים, התאמה לרכבים, מספרי OE
+     =================================================== */
   html += '<div class="an-section-card" id="an-tecdoc-section">';
   html += '<div class="an-tecdoc-attribution"><div class="an-tecdoc-dot"></div><span>\u05e0\u05ea\u05d5\u05e0\u05d9\u05dd \u05de-TecDoc\u00ae Catalogue</span></div>';
   html += '<div id="an-tecdoc-wrap"></div>';
   html += '</div>';
 
+  /* ===================================================
+     SECTION 5: Brand card
+     =================================================== */
+  if (!isOEMpart && brandData.name && brandData.description) {
+    var bc4 = brandData.color || '#1a4690';
+    var bAb = brandData.name.toUpperCase(); if (bAb.length > 5) bAb = bAb.substring(0,5);
+    var orig = brandData.country ? brandData.country+(brandData.year?', '+(brandData.founded||brandData.year):'') : '';
+    var flagStr = brandData.flag ? brandData.flag+' ' : '';
+    html += '<div class="an-section-card">';
+    html += '<div class="an-brand-card">';
+    html += '<div class="an-brand-sidebar" style="background:'+bc4+'"><span>'+bAb+'</span></div>';
+    html += '<div class="an-brand-info">';
+    html += '<h3>'+brandData.name+'</h3>';
+    if (orig) html += '<div class="an-brand-origin">'+flagStr+orig+'</div>';
+    html += '<p>'+brandData.description+'</p>';
+    if (brandHlItems) html += '<ul class="an-brand-highlights">'+brandHlItems+'</ul>';
+    html += '</div></div></div>';
+  }
+
   html += '</div></div>'; /* end .an-container + .an-page-bg */
+
 
   /* ===================================================
      STEP 7: Insert into DOM
@@ -701,22 +1128,6 @@
     })(thumbEls[th]);
   }
 
-  /* Highlights toggle */
-  var hlHdr = document.getElementById('an-hl-hdr');
-  var hlCnt = document.getElementById('an-hl-cnt');
-  if (hlHdr && hlCnt) {
-    hlHdr.addEventListener('click', function() {
-      var c = hlHdr.className || '';
-      if (c.indexOf('an-collapsed') !== -1) {
-        hlHdr.className = c.replace(/\s*an-collapsed/g,'');
-        hlCnt.style.display = '';
-      } else {
-        hlHdr.className = c + ' an-collapsed';
-        hlCnt.style.display = 'none';
-      }
-    });
-  }
-
   /* Section toggles */
   function setupToggle(hId, bId) {
     var hE = document.getElementById(hId), bE = document.getElementById(bId);
@@ -732,13 +1143,12 @@
       }
     });
   }
+  setupToggle('an-hl-hdr','an-hl-body');
   setupToggle('an-desc-hdr','an-desc-body');
-  setupToggle('an-specs-hdr','an-specs-body');
 
-  /* Vehicle group accordion — delegated since TecDoc content loads async */
+  /* Vehicle group accordion — delegated for async TecDoc content */
   document.addEventListener('click', function(e) {
     var hdr = null;
-    /* Check for veh-group-header */
     var el = e.target;
     while (el && el !== document) {
       if (el.classList && el.classList.contains('an-veh-group-header')) { hdr = el; break; }
@@ -777,11 +1187,9 @@
     var tabsContainer = tab.parentElement;
     var panelId = tab.getAttribute('data-panel');
     if (!panelId) return;
-    /* Deactivate all tabs in container */
     var allTabs = tabsContainer.querySelectorAll('.an-tab');
     for (var t=0;t<allTabs.length;t++) allTabs[t].classList.remove('an-active');
     tab.classList.add('an-active');
-    /* Deactivate all panels in parent section */
     var section = tabsContainer.parentElement;
     var allPanels = section.querySelectorAll('.an-tab-panel');
     for (var p=0;p<allPanels.length;p++) allPanels[p].classList.remove('an-active');
