@@ -2,25 +2,240 @@
   'use strict';
 
   /* ===================================================
-     STEP 1: Inject CSS
+     CSS INJECTION — Demo CSS with an- prefix
      =================================================== */
-  if (!document.getElementById('an-style-v2')) {
-    var style = document.createElement('style');
-    style.id = 'an-style-v2';
-    style.textContent = '/* KONIMBO HIDING */\nbody.an-redesigned #item_show,body.an-redesigned #item_content,body.an-redesigned .specifications,body.an-redesigned #item_show_facebook,body.an-redesigned #item_show_carousel,body.an-redesigned .item_show_carousel,body.an-redesigned .item_container,body.an-redesigned #item_info,body.an-redesigned .item_main_top,body.an-redesigned #bread_crumbs,body.an-redesigned .product-container,body.an-redesigned #item_current_title,body.an-redesigned .code_item,body.an-redesigned #page_notice,body.an-redesigned #storiesWidget,body.an-redesigned .stories-wrapper{display:none !important}\nbody.an-redesigned #item_details,body.an-redesigned .item_main_bottom{display:block !important;height:0 !important;overflow:hidden !important;margin:0 !important;padding:0 !important;border:none !important;opacity:0 !important;pointer-events:none !important}\n#an-product-redesign{display:block !important}\n.tw-purchase-row{width:100% !important}\n.tw-purchase-row .tw-cart-btn{width:100% !important;height:54px !important;font-size:18px !important;font-weight:700 !important;border-radius:8px !important;box-shadow:0 4px 14px rgba(27,78,145,0.35) !important}\n\n    *, *::before, *::after {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    :root {\n      --primary: #1B4E91;\n      --primary-dark: #153d73;\n      --brand-blue: #1a4690;\n      --brand-red: #c8102e;\n      --bg: #f7f8fa;\n      --white: #ffffff;\n      --text: #1a1a2e;\n      --text-secondary: #5a5a6e;\n      --text-muted: #8a8a9a;\n      --border: #e4e6eb;\n      --border-light: #f0f1f4;\n      --green: #00a651;\n      --green-bg: #e8f8ef;\n      --radius: 12px;\n      --radius-sm: 8px;\n      --shadow: 0 2px 8px rgba(0,0,0,0.06);\n      --shadow-lg: 0 4px 20px rgba(0,0,0,0.08);\n    }\n\n    body {\n      font-family: \'Heebo\', sans-serif;\n      background: var(--bg);\n      color: var(--text);\n      line-height: 1.6;\n      -webkit-font-smoothing: antialiased;\n    }\n\n    /* ===== HEADER ===== */\n    .an-site-header {\n      background: var(--white);\n      border-bottom: 1px solid var(--border);\n      position: sticky;\n      top: 0;\n      z-index: 100;\n    }\n\n    .an-header-inner {\n      max-width: 1200px;\n      margin: 0 auto;\n      padding: 0 24px;\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      height: 60px;\n    }\n\n    .an-logo {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      text-decoration: none;\n      color: var(--primary);\n      font-weight: 700;\n      font-size: 20px;\n    }\n\n    .an-logo-icon {\n      width: 36px;\n      height: 36px;\n      background: var(--primary);\n      border-radius: 8px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      color: white;\n      font-size: 14px;\n      font-weight: 800;\n      letter-spacing: -0.5px;\n    }\n\n    .an-header-actions {\n      display: flex;\n      align-items: center;\n      gap: 20px;\n    }\n\n    .an-header-search {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      background: var(--bg);\n      border: 1px solid var(--border);\n      border-radius: 8px;\n      padding: 8px 14px;\n      width: 320px;\n      color: var(--text-muted);\n      font-size: 14px;\n    }\n\n    .an-header-search svg {\n      flex-shrink: 0;\n    }\n\n    .an-header-icons {\n      display: flex;\n      align-items: center;\n      gap: 16px;\n    }\n\n    .an-header-icon {\n      width: 40px;\n      height: 40px;\n      border-radius: 50%;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      background: transparent;\n      border: none;\n      cursor: pointer;\n      color: var(--text-secondary);\n      transition: background 0.2s;\n      position: relative;\n    }\n\n    .an-header-icon:hover {\n      background: var(--bg);\n    }\n\n    .an-cart-badge {\n      position: absolute;\n      top: 4px;\n      left: 4px;\n      width: 18px;\n      height: 18px;\n      border-radius: 50%;\n      background: var(--primary);\n      color: white;\n      font-size: 11px;\n      font-weight: 700;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n\n    /* ===== BREADCRUMB ===== */\n    .an-breadcrumb-bar {\n      background: var(--white);\n      border-bottom: 1px solid var(--border-light);\n    }\n\n    .an-breadcrumb {\n      max-width: 1200px;\n      margin: 0 auto;\n      padding: 12px 24px;\n      font-size: 13px;\n      color: var(--text-muted);\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      flex-wrap: wrap;\n    }\n\n    .an-breadcrumb a {\n      color: var(--text-secondary);\n      text-decoration: none;\n      transition: color 0.2s;\n    }\n\n    .an-breadcrumb a:hover {\n      color: var(--primary);\n    }\n\n    .an-breadcrumb .sep {\n      color: var(--border);\n    }\n\n    .an-breadcrumb .an-current {\n      color: var(--text);\n      font-weight: 500;\n    }\n\n    /* ===== MAIN CONTAINER ===== */\n    .an-container {\n      max-width: 1200px;\n      margin: 0 auto;\n      padding: 24px;\n    }\n\n    /* ===== PRODUCT TOP SECTION ===== */\n    .an-product-layout {\n      display: grid;\n      grid-template-columns: 1fr 1fr;\n      gap: 32px;\n      margin-bottom: 24px;\n    }\n\n    /* Image Area */\n    .an-image-section {\n      background: var(--white);\n      border-radius: var(--radius);\n      box-shadow: var(--shadow);\n      padding: 24px;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .an-main-image {\n      width: 100%;\n      max-width: 400px;\n      aspect-ratio: 1;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      margin-bottom: 16px;\n    }\n\n    .an-main-image svg {\n      width: 100%;\n      height: 100%;\n    }\n\n    .an-thumb-row {\n      display: flex;\n      gap: 10px;\n      justify-content: center;\n    }\n\n    .an-thumb {\n      width: 64px;\n      height: 64px;\n      border-radius: 8px;\n      border: 2px solid var(--border);\n      background: var(--bg);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      cursor: pointer;\n      transition: border-color 0.2s;\n      overflow: hidden;\n    }\n\n    .an-thumb.an-active {\n      border-color: var(--brand-red);\n    }\n\n    .an-thumb:hover {\n      border-color: var(--brand-red);\n    }\n\n    .an-thumb-ph {\n      font-size: 8px;\n      color: var(--text-muted);\n      font-weight: 600;\n      text-align: center;\n      line-height: 1.2;\n    }\n\n    /* Info Area */\n    .product-info {\n      display: flex;\n      flex-direction: column;\n      gap: 16px;\n    }\n\n    .an-sku-brand-row {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      flex-wrap: wrap;\n    }\n\n    .an-sku-badge {\n      display: inline-flex;\n      align-items: center;\n      gap: 6px;\n      background: var(--bg);\n      border: 1px solid var(--border);\n      border-radius: 6px;\n      padding: 5px 12px;\n      font-size: 13px;\n      color: var(--text-secondary);\n      font-weight: 500;\n    }\n\n    .an-brand-badge {\n      display: inline-flex;\n      align-items: center;\n      gap: 6px;\n      background: var(--brand-red);\n      border-radius: 6px;\n      padding: 5px 14px;\n      font-size: 13px;\n      color: white;\n      font-weight: 700;\n      letter-spacing: 0.5px;\n    }\n\n    .an-product-title {\n      font-size: 26px;\n      font-weight: 700;\n      color: var(--text);\n      line-height: 1.3;\n    }\n\n    .an-product-subtitle {\n      font-size: 15px;\n      color: var(--text-muted);\n      margin-top: -8px;\n    }\n\n    .stock-status {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      font-size: 14px;\n      font-weight: 500;\n      color: var(--green);\n    }\n\n    .an-stock-dot {\n      width: 10px;\n      height: 10px;\n      border-radius: 50%;\n      background: var(--green);\n      display: inline-block;\n      animation: pulse-dot 2s infinite;\n    }\n\n    @keyframes pulse-dot {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.5; }\n    }\n\n    .an-price-row {\n      display: flex;\n      align-items: baseline;\n      gap: 10px;\n    }\n\n    .an-price-amount {\n      font-size: 34px;\n      font-weight: 800;\n      color: var(--text);\n    }\n\n    .an-price-vat {\n      font-size: 13px;\n      color: var(--text-muted);\n      font-weight: 400;\n    }\n\n    .an-cart-row {\n      display: flex;\n      flex-direction: column;\n      gap: 10px;\n    }\n\n    .an-cart-row .an-qty-selector {\n      align-self: flex-start;\n    }\n\n    .an-qty-selector {\n      display: flex;\n      align-items: center;\n      border: 1px solid var(--border);\n      border-radius: var(--radius-sm);\n      overflow: hidden;\n      background: var(--white);\n    }\n\n    .an-qty-btn {\n      width: 40px;\n      height: 44px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      background: var(--bg);\n      border: none;\n      cursor: pointer;\n      font-size: 18px;\n      color: var(--text-secondary);\n      font-weight: 600;\n      transition: background 0.2s;\n    }\n\n    .an-qty-btn:hover {\n      background: var(--border);\n    }\n\n    .an-qty-input {\n      width: 44px;\n      height: 44px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      font-size: 16px;\n      font-weight: 600;\n      border-left: 1px solid var(--border);\n      border-right: 1px solid var(--border);\n    }\n\n    .an-add-to-cart-btn {\n      flex: 1;\n      height: 54px;\n      background: var(--primary);\n      color: white;\n      border: none;\n      border-radius: var(--radius-sm);\n      font-family: \'Heebo\', sans-serif;\n      font-size: 18px;\n      font-weight: 700;\n      cursor: pointer;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      gap: 10px;\n      transition: background 0.2s, transform 0.1s;\n      letter-spacing: 0.3px;\n      box-shadow: 0 4px 14px rgba(27, 78, 145, 0.35);\n    }\n\n    .an-add-to-cart-btn:hover {\n      background: var(--primary-dark);\n    }\n\n    .an-add-to-cart-btn:active {\n      transform: scale(0.98);\n    }\n\n    .an-seller-note {\n      font-size: 13px;\n      color: var(--text-muted);\n    }\n\n    .an-seller-note strong {\n      color: var(--text-secondary);\n      font-weight: 600;\n    }\n\n    .an-trust-box {\n      background: #f9fafb;\n      border: 1px solid var(--border-light);\n      border-radius: var(--radius-sm);\n      padding: 16px 20px;\n      display: flex;\n      flex-direction: column;\n      gap: 10px;\n    }\n\n    .an-trust-item {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      font-size: 13.5px;\n      color: var(--text-secondary);\n      line-height: 1.4;\n    }\n\n    .an-trust-item .icon {\n      font-size: 17px;\n      width: 24px;\n      text-align: center;\n      flex-shrink: 0;\n    }\n\n    /* ===== SECTIONS (Cards) ===== */\n    .an-section-card {\n      background: var(--white);\n      border-radius: var(--radius);\n      box-shadow: var(--shadow);\n      margin-bottom: 20px;\n      overflow: hidden;\n    }\n\n    .an-section-header {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      padding: 18px 24px;\n      cursor: pointer;\n      user-select: none;\n      transition: background 0.2s;\n    }\n\n    .an-section-header:hover {\n      background: #fafbfc;\n    }\n\n    .an-section-header h2 {\n      font-size: 18px;\n      font-weight: 700;\n      display: flex;\n      align-items: center;\n      gap: 8px;\n    }\n\n    .an-chevron {\n      width: 24px;\n      height: 24px;\n      transition: transform 0.3s ease;\n      color: var(--text-muted);\n    }\n\n    .an-section-header.an-collapsed .an-chevron {\n      transform: rotate(180deg);\n    }\n\n    .an-section-body {\n      padding: 0 24px 24px;\n    }\n\n    .an-section-body.an-collapsed {\n      display: none;\n    }\n\n    /* ===== HIGHLIGHTS ===== */\n    .an-highlights-list {\n      list-style: none;\n      display: flex;\n      flex-direction: column;\n      gap: 12px;\n    }\n\n    .an-highlights-list li {\n      display: flex;\n      align-items: flex-start;\n      gap: 10px;\n      font-size: 15px;\n      color: var(--text-secondary);\n      line-height: 1.5;\n    }\n\n    .an-highlights-list li::before {\n      content: "✓";\n      color: var(--green);\n      font-weight: 700;\n      font-size: 14px;\n      margin-top: 2px;\n      flex-shrink: 0;\n    }\n\n    /* ===== DESCRIPTION ===== */\n    .an-description-text {\n      font-size: 15px;\n      color: var(--text-secondary);\n      line-height: 1.8;\n    }\n\n    /* ===== TECDOC SECTION ===== */\n    .tecdoc-attribution {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      padding: 14px 24px 0;\n      font-size: 12px;\n      color: var(--text-muted);\n    }\n\n    .tecdoc-dot {\n      width: 6px;\n      height: 6px;\n      border-radius: 50%;\n      background: var(--primary);\n      opacity: 0.5;\n      flex-shrink: 0;\n    }\n\n    /* ===== TABS ===== */\n    .an-tabs {\n      display: flex;\n      border-bottom: 2px solid var(--border-light);\n      padding: 0 24px;\n      margin-top: 12px;\n      gap: 0;\n      overflow-x: auto;\n      -webkit-overflow-scrolling: touch;\n    }\n\n    .an-tab {\n      padding: 12px 20px;\n      font-size: 14px;\n      font-weight: 500;\n      color: var(--text-muted);\n      border-bottom: 3px solid transparent;\n      margin-bottom: -2px;\n      cursor: pointer;\n      transition: all 0.2s;\n      white-space: nowrap;\n      user-select: none;\n    }\n\n    .an-tab:hover {\n      color: var(--text);\n    }\n\n    .an-tab.an-active {\n      color: var(--primary);\n      border-bottom-color: var(--primary);\n      font-weight: 600;\n    }\n\n    .an-tab .an-count {\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      min-width: 22px;\n      height: 20px;\n      border-radius: 10px;\n      background: var(--bg);\n      font-size: 11px;\n      font-weight: 600;\n      color: var(--text-muted);\n      padding: 0 6px;\n      margin-right: 4px;\n    }\n\n    .an-tab.an-active .an-count {\n      background: #e8eef6;\n      color: var(--primary);\n    }\n\n    /* ===== TAB PANELS ===== */\n    .an-tab-panel {\n      display: none;\n      padding: 20px 24px 24px;\n    }\n\n    .an-tab-panel.an-active {\n      display: block;\n    }\n\n    /* ===== SPECS TABLE ===== */\n    .an-specs-table {\n      width: 100%;\n      border-collapse: collapse;\n    }\n\n    .an-specs-table tr:nth-child(even) {\n      background: #fafbfc;\n    }\n\n    .an-specs-table td {\n      padding: 12px 16px;\n      font-size: 14px;\n      border-bottom: 1px solid var(--border-light);\n    }\n\n    .an-specs-table td:first-child {\n      font-weight: 600;\n      color: var(--text);\n      width: 40%;\n    }\n\n    .an-specs-table td:last-child {\n      color: var(--text-secondary);\n    }\n\n    /* ===== VEHICLE TABLE ===== */\n    .vehicle-table {\n      width: 100%;\n      border-collapse: collapse;\n    }\n\n    .vehicle-table thead {\n      background: #fafbfc;\n    }\n\n    .vehicle-table th {\n      padding: 12px 16px;\n      font-size: 12px;\n      font-weight: 600;\n      color: var(--text-muted);\n      text-transform: uppercase;\n      letter-spacing: 0.5px;\n      text-align: right;\n      border-bottom: 1px solid var(--border);\n    }\n\n    .vehicle-table td {\n      padding: 12px 16px;\n      font-size: 14px;\n      color: var(--text-secondary);\n      border-bottom: 1px solid var(--border-light);\n    }\n\n    .vehicle-table tr:hover {\n      background: #f8f9fb;\n    }\n\n    .vehicle-make {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n    }\n\n    .make-logo {\n      width: 28px;\n      height: 28px;\n      border-radius: 4px;\n      background: var(--bg);\n      border: 1px solid var(--border);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      font-size: 9px;\n      font-weight: 700;\n      color: var(--text-muted);\n      flex-shrink: 0;\n    }\n\n    .vehicle-table tr.an-hidden-row {\n      display: none;\n    }\n\n    .show-more-btn {\n      display: block;\n      width: 100%;\n      margin-top: 16px;\n      padding: 12px;\n      border: 1px dashed var(--border);\n      border-radius: var(--radius-sm);\n      background: transparent;\n      color: var(--primary);\n      font-family: \'Heebo\', sans-serif;\n      font-size: 14px;\n      font-weight: 600;\n      cursor: pointer;\n      text-align: center;\n      transition: background 0.2s, border-color 0.2s;\n    }\n\n    .show-more-btn:hover {\n      background: #eef3fb;\n      border-color: var(--primary);\n    }\n\n    .show-more-btn.hidden {\n      display: none;\n    }\n\n    /* ===== OE NUMBERS GRID ===== */\n    .an-oe-grid {\n      display: flex;\n      flex-wrap: wrap;\n      gap: 8px;\n    }\n\n    .an-oe-chip {\n      display: inline-flex;\n      align-items: center;\n      background: #eef3fb;\n      border: 1px solid #c8d8f0;\n      border-radius: 6px;\n      padding: 6px 14px;\n      font-size: 13px;\n      font-weight: 600;\n      color: var(--primary);\n      font-family: \'Courier New\', monospace;\n      letter-spacing: 0.3px;\n      transition: background 0.15s;\n    }\n\n    .an-oe-chip:hover {\n      background: #ddeafa;\n    }\n\n    /* ===== BRAND CARD ===== */\n    .an-brand-card {\n      display: flex;\n      align-items: stretch;\n      overflow: hidden;\n    }\n\n    .an-brand-sidebar {\n      width: 100px;\n      min-height: 120px;\n      background: var(--brand-red);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      flex-shrink: 0;\n    }\n\n    .an-brand-sidebar span {\n      color: white;\n      font-size: 18px;\n      font-weight: 800;\n      letter-spacing: 1px;\n      writing-mode: horizontal-tb;\n    }\n\n    .an-brand-card-info {\n      padding: 20px 24px;\n      display: flex;\n      flex-direction: column;\n      gap: 6px;\n    }\n\n    .an-brand-card-info h3 {\n      font-size: 18px;\n      font-weight: 700;\n      color: var(--text);\n    }\n\n    .an-brand-card-info .an-brand-origin {\n      font-size: 13px;\n      color: var(--text-muted);\n      display: flex;\n      align-items: center;\n      gap: 6px;\n    }\n\n    .an-brand-card-info .an-brand-origin::before {\n      content: "🇮🇹";\n      font-size: 16px;\n    }\n\n    .an-brand-card-info p {\n      font-size: 14px;\n      color: var(--text-secondary);\n      line-height: 1.7;\n      margin-top: 4px;\n    }\n\n    /* ===== FOOTER ===== */\n    .site-footer {\n      text-align: center;\n      padding: 32px 24px;\n      font-size: 12px;\n      color: var(--text-muted);\n      display: flex;\n      flex-direction: column;\n      gap: 6px;\n    }\n\n    .site-footer .perplexity {\n      color: var(--text-muted);\n      opacity: 0.7;\n    }\n\n    /* ===== RESPONSIVE ===== */\n    @media (max-width: 768px) {\n      .an-header-search {\n        display: none;\n      }\n\n      .an-product-layout {\n        grid-template-columns: 1fr;\n        gap: 20px;\n      }\n\n      .an-product-title {\n        font-size: 22px;\n      }\n\n      .an-price-amount {\n        font-size: 28px;\n      }\n\n      .an-cart-row {\n        flex-direction: column;\n      }\n\n      .an-cart-row .an-qty-selector {\n        align-self: stretch;\n        justify-content: center;\n      }\n\n      .an-qty-selector {\n        width: 100%;\n        justify-content: center;\n      }\n\n      .an-qty-btn {\n        flex: 1;\n      }\n\n      .an-qty-input {\n        flex: 1;\n      }\n\n      .an-add-to-cart-btn {\n        width: 100%;\n      }\n\n      .an-brand-card {\n        flex-direction: column;\n      }\n\n      .an-brand-sidebar {\n        width: 100%;\n        min-height: 60px;\n      }\n\n      .an-tabs {\n        padding: 0 16px;\n      }\n\n      .an-tab {\n        padding: 12px 14px;\n        font-size: 13px;\n      }\n\n      .an-container {\n        padding: 16px;\n      }\n\n      .an-section-body {\n        padding: 0 16px 16px;\n      }\n\n      .an-tab-panel {\n        padding: 16px 16px 20px;\n      }\n\n      .an-section-header {\n        padding: 16px;\n      }\n\n      .vehicle-table {\n        font-size: 13px;\n      }\n\n      .vehicle-table th,\n      .vehicle-table td {\n        padding: 10px 10px;\n      }\n\n      .tecdoc-attribution {\n        padding: 14px 16px 0;\n      }\n    }\n\n    @media (max-width: 480px) {\n      .an-header-inner {\n        padding: 0 16px;\n      }\n\n      .an-breadcrumb {\n        padding: 10px 16px;\n        font-size: 12px;\n      }\n\n      .an-trust-item {\n        font-size: 13px;\n      }\n\n      .an-oe-chip {\n        font-size: 12px;\n        padding: 5px 10px;\n      }\n    }\n  \n    /* Vehicle Groups Accordion */\n    .an-veh-groups { display:flex; flex-direction:column; gap:2px; }\n    .an-veh-group { border:1px solid #e4e6eb; border-radius:10px; overflow:hidden; }\n    .an-veh-group-header { display:flex; align-items:center; justify-content:space-between; padding:14px 18px; cursor:pointer; background:#fff; transition:background 0.15s; }\n    .an-veh-group-header:hover { background:#f7f8fa; }\n    .an-veh-make-info { display:flex; align-items:center; gap:12px; }\n    .an-veh-make-logo { width:36px; height:36px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:12px; letter-spacing:0.5px; flex-shrink:0; }\n    .an-veh-make-name { font-size:16px; font-weight:700; color:#1a1a2e; }\n    .an-veh-make-count { font-size:13px; color:#8a8a9a; font-weight:400; }\n    .an-veh-chevron { transition:transform 0.3s; flex-shrink:0; color:#8a8a9a; }\n    .an-veh-group.an-open .an-veh-chevron { transform:rotate(180deg); }\n    .an-veh-group-models { background:#fafbfc; border-top:1px solid #e4e6eb; }\n    .veh-model-table { width:100%; border-collapse:collapse; }\n    .veh-model-table td { padding:10px 18px; font-size:14px; color:#333; border-bottom:1px solid #f0f1f4; }\n    .veh-model-table tr:last-child td { border-bottom:none; }\n    .veh-model { font-weight:600; }\n    .veh-engine { color:#5a5a6e; }\n    .veh-years { color:#8a8a9a; direction:ltr; text-align:left; }\n    @media (max-width: 768px) {\n      .an-veh-group-header { padding:12px 14px; }\n      .an-veh-make-logo { width:32px; height:32px; font-size:11px; }\n      .an-veh-make-name { font-size:14px; }\n      .veh-model-table td { padding:8px 14px; font-size:13px; }\n    }\n\n  \n    /* Model rows inside manufacturer group */\n    .an-veh-model-item { border-bottom:1px solid #f0f1f4; }\n    .an-veh-model-item:last-child { border-bottom:none; }\n    .an-veh-model-row { display:flex; align-items:center; justify-content:space-between; padding:11px 20px 11px 18px; cursor:pointer; transition:background 0.12s; gap:8px; }\n    .an-veh-model-row:hover { background:#f0f4ff; }\n    .an-veh-model-name { font-size:14px; font-weight:600; color:#1a1a2e; flex:1; }\n    .an-veh-model-years { font-size:13px; color:#8a8a9a; direction:ltr; margin-left:12px; flex-shrink:0; }\n    .an-veh-model-chev { transition:transform 0.25s; flex-shrink:0; color:#b0b0b0; }\n    .an-veh-model-item.an-open .an-veh-model-chev { transform:rotate(180deg); }\n    /* Engine sub-rows */\n    .an-veh-engines { background:#f5f7fa; padding:0 20px 0 18px; }\n    .an-veh-engine-row { display:flex; align-items:center; justify-content:space-between; padding:8px 0 8px 28px; font-size:13px; color:#5a5a6e; border-top:1px solid #ebedf2; }\n    .an-veh-engine-row:first-child { border-top:none; }\n    .an-veh-eng-years { font-size:12px; color:#a0a0a0; direction:ltr; }\n    @media (max-width:768px) {\n      .an-veh-model-row { padding:10px 14px; }\n      .an-veh-model-name { font-size:13px; }\n      .an-veh-engine-row { padding:7px 0 7px 20px; font-size:12px; }\n    }\n\n\n\n/* Page background */\n.an-page-bg { background: #f7f8fa; padding: 8px 0 40px; }\n\n/* Ensure product layout width */\n.an-product-layout { width: 100%; }\n\n/* Highlights box styling (if missing from demo) */\n.an-highlights-box {\n  background: var(--white); border-radius: var(--radius);\n  box-shadow: var(--shadow); margin-bottom: 20px; overflow: hidden;\n}\n\n/* TecDoc widget trust box hide (duplicate) */\nbody.an-redesigned .tw-strengths,\nbody.an-redesigned #tw-brand-info { display: none !important; }\n\n/* === KONIMBO OVERRIDES (important) === */\n.an-container { max-width: 1200px !important; margin: 0 auto !important; padding: 24px !important; }\n.an-page-bg { background: #f7f8fa !important; padding: 8px 0 40px !important; }\n.an-add-to-cart-btn { width: 100% !important; height: 54px !important; flex: unset !important; }\n.an-cart-row { display: flex !important; flex-direction: column !important; gap: 10px !important; }\n.an-brand-card { background: #f9fafb !important; border-radius: 12px !important; box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important; overflow: hidden !important; }\n.an-image-section { background: #fff !important; border-radius: 12px !important; box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important; padding: 24px !important; }\n.an-info-section { display: flex !important; flex-direction: column !important; gap: 4px !important; }\n\n/* === KONIMBO BASE OVERRIDES === */\n#an-product-redesign, #an-product-redesign * {\n  font-size: 16px !important;\n  line-height: 1.6 !important;\n  box-sizing: border-box !important;\n}\n#an-product-redesign .an-product-title {\n  font-size: 28px !important;\n  line-height: 1.3 !important;\n  margin: 0 !important;\n}\n#an-product-redesign .an-product-subtitle {\n  font-size: 16px !important;\n  color: #64748b !important;\n}\n#an-product-redesign .an-price-amount {\n  font-size: 36px !important;\n  font-weight: 800 !important;\n  line-height: 1.2 !important;\n}\n#an-product-redesign .an-price-vat {\n  font-size: 14px !important;\n  color: #64748b !important;\n}\n\n/* === CONTAINER === */\n#an-product-redesign .an-container {\n  max-width: 1200px !important;\n  margin: 0 auto !important;\n  padding: 24px !important;\n}\n\n/* === PRODUCT GRID === */\n#an-product-redesign .an-product-layout {\n  display: grid !important;\n  grid-template-columns: 1fr 1fr !important;\n  gap: 32px !important;\n  margin-bottom: 24px !important;\n  width: 100% !important;\n}\n\n/* === IMAGE SECTION === */\n#an-product-redesign .an-image-section {\n  background: #fff !important;\n  border-radius: 12px !important;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;\n  padding: 24px !important;\n  display: flex !important;\n  flex-direction: column !important;\n  align-items: center !important;\n}\n\n/* === CART ROW - MUST BE VISIBLE === */\n#an-product-redesign .an-cart-row {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 10px !important;\n  width: 100% !important;\n  visibility: visible !important;\n  height: auto !important;\n  opacity: 1 !important;\n}\n#an-product-redesign .an-qty-selector {\n  display: flex !important;\n  align-items: center !important;\n  height: 46px !important;\n  border: 1px solid #e2e5e9 !important;\n  border-radius: 8px !important;\n  overflow: hidden !important;\n  width: fit-content !important;\n  visibility: visible !important;\n  opacity: 1 !important;\n}\n#an-product-redesign .an-qty-btn {\n  width: 42px !important;\n  height: 100% !important;\n  border: none !important;\n  background: transparent !important;\n  font-size: 18px !important;\n  cursor: pointer !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n#an-product-redesign .an-qty-input {\n  width: 42px !important;\n  text-align: center !important;\n  font-size: 16px !important;\n  font-weight: 600 !important;\n  border: none !important;\n  border-left: 1px solid #e2e5e9 !important;\n  border-right: 1px solid #e2e5e9 !important;\n  height: 100% !important;\n}\n#an-product-redesign .an-add-to-cart-btn {\n  width: 100% !important;\n  height: 54px !important;\n  background: #1B4E91 !important;\n  color: white !important;\n  border: none !important;\n  border-radius: 8px !important;\n  font-size: 18px !important;\n  font-weight: 700 !important;\n  cursor: pointer !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  gap: 10px !important;\n  box-shadow: 0 4px 14px rgba(27,78,145,0.35) !important;\n  font-family: \'Heebo\', sans-serif !important;\n}\n\n/* === TRUST BOX === */\n#an-product-redesign .an-trust-box {\n  padding: 16px 20px !important;\n  border: 1px solid #e2e5e9 !important;\n  border-radius: 12px !important;\n  margin-top: 16px !important;\n}\n#an-product-redesign .an-trust-item {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: flex-end !important;\n  gap: 10px !important;\n  padding: 6px 0 !important;\n  font-size: 14px !important;\n  color: #475569 !important;\n}\n\n/* === HIGHLIGHTS === */\n#an-product-redesign .an-highlights-box {\n  background: #fff !important;\n  border-radius: 12px !important;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;\n  margin-bottom: 20px !important;\n  overflow: hidden !important;\n}\n#an-product-redesign .an-highlights-list {\n  padding: 0 24px 20px !important;\n}\n#an-product-redesign .an-highlights-list div {\n  padding: 6px 0 !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: flex-end !important;\n  gap: 8px !important;\n  font-size: 15px !important;\n  color: #334155 !important;\n}\n\n/* === SECTION CARDS (description, tech specs) === */\n#an-product-redesign .an-section-card {\n  background: #fff !important;\n  border-radius: 12px !important;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;\n  margin-bottom: 20px !important;\n  overflow: hidden !important;\n}\n#an-product-redesign .an-section-header {\n  padding: 18px 24px !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  cursor: pointer !important;\n  font-size: 18px !important;\n  font-weight: 700 !important;\n}\n#an-product-redesign .an-section-body {\n  padding: 0 24px 20px !important;\n}\n\n/* === BRAND CARD === */\n#an-product-redesign .an-brand-card {\n  background: #f9fafb !important;\n  border-radius: 12px !important;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;\n  display: flex !important;\n  overflow: hidden !important;\n  margin-bottom: 20px !important;\n}\n#an-product-redesign .an-brand-sidebar {\n  width: 100px !important;\n  min-height: 120px !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  font-size: 18px !important;\n  font-weight: 800 !important;\n  color: white !important;\n}\n#an-product-redesign .an-brand-card-info {\n  flex: 1 !important;\n  padding: 20px 24px !important;\n  text-align: right !important;\n}\n\n/* === BREADCRUMB === */\n#an-product-redesign .an-breadcrumb-bar {\n  padding: 12px 0 !important;\n  margin-bottom: 8px !important;\n  font-size: 13px !important;\n}\n\n/* === PAGE BACKGROUND === */\n.an-page-bg {\n  background: #f7f8fa !important;\n  padding: 8px 0 40px !important;\n}\n\n/* === MOBILE === */\n@media (max-width: 768px) {\n  #an-product-redesign .an-product-layout {\n    grid-template-columns: 1fr !important;\n  }\n  #an-product-redesign .an-container {\n    padding: 16px !important;\n  }\n}\n\n\n#an-product-redesign .an-qty-input{width:44px!important;height:54px!important;display:flex!important;align-items:center!important;justify-content:center!important;text-align:center!important;font-size:16px!important;font-weight:600!important;border:none!important;border-left:1px solid #e2e5e9!important;border-right:1px solid #e2e5e9!important;-webkit-appearance:none!important;-moz-appearance:textfield!important;background:#fff!important;color:#1a1a2e!important}\n#an-product-redesign .an-qty-btn{width:42px!important;height:100%!important;display:flex!important;align-items:center!important;justify-content:center!important;border:none!important;background:#f7f8fa!important;font-size:18px!important;cursor:pointer!important;color:#5a5a6e!important;font-weight:600!important}\n/* Cart row horizontal layout */\n#an-product-redesign .an-cart-row{display:flex!important;flex-direction:row-reverse!important;gap:0!important;align-items:stretch!important;width:100%!important;visibility:visible!important;height:54px!important;opacity:1!important;position:static!important;overflow:visible!important;pointer-events:auto!important}\n#an-product-redesign .an-qty-selector{display:flex!important;flex-shrink:0!important;visibility:visible!important;opacity:1!important;height:46px!important;width:auto!important;position:static!important;overflow:visible!important;border:1px solid #e2e5e9!important;border-radius:8px!important;background:#fff!important;align-self:flex-end!important}\n#an-product-redesign .an-add-to-cart-btn{width:100%!important;height:54px!important;border-radius:8px!important;flex:none!important}\n/* Trust items RTL alignment */\n#an-product-redesign .an-trust-item{justify-content:flex-end!important;text-align:right!important;flex-direction:row-reverse!important}\n#an-product-redesign .an-trust-box{direction:rtl!important}\n\n/* === TECDOC WIDGET ONLY === */\n#tecdoc-widget{background:#fff!important;border-radius:12px!important;box-shadow:0 2px 8px rgba(0,0,0,0.06)!important;overflow:hidden!important;margin-bottom:20px!important}\n#tecdoc-widget .tw-attribution{padding:14px 24px 0!important;font-size:12px!important;color:#8a8a9a!important;display:flex!important;align-items:center!important;gap:8px!important;justify-content:flex-end!important}\n#tecdoc-widget .tw-tabs{display:flex!important;border-bottom:2px solid #f0f1f4!important;padding:0 24px!important;margin-top:12px!important;gap:0!important}\n#tecdoc-widget .tw-tab{padding:12px 20px!important;font-size:14px!important;font-weight:500!important;color:#8a8a9a!important;border-bottom:3px solid transparent!important;margin-bottom:-2px!important;cursor:pointer!important;white-space:nowrap!important;background:none!important;border-top:none!important;border-left:none!important;border-right:none!important}\n#tecdoc-widget .tw-tab-active,#tecdoc-widget .tw-tab.tw-tab-active{color:#1B4E91!important;border-bottom-color:#1B4E91!important;font-weight:600!important}\n#tecdoc-widget .tw-tab-count{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:22px!important;height:20px!important;border-radius:10px!important;background:#f7f8fa!important;font-size:11px!important;font-weight:600!important;color:#8a8a9a!important;padding:0 6px!important;margin-right:4px!important}\n#tecdoc-widget .tw-tab-active .tw-tab-count{background:#e8eef6!important;color:#1B4E91!important}\n#tecdoc-widget .tw-panel{padding:20px 24px 24px!important}\n#tecdoc-widget .tw-specs-table{width:100%!important;border-collapse:collapse!important}\n#tecdoc-widget .tw-specs-table tr:nth-child(even){background:#fafbfc!important}\n#tecdoc-widget .tw-specs-table td{padding:12px 16px!important;font-size:14px!important;border-bottom:1px solid #f0f1f4!important}\n#tecdoc-widget .tw-specs-table td:first-child{font-weight:600!important;color:#1a1a2e!important;width:40%!important}\n#tecdoc-widget .tw-specs-table td:last-child{color:#5a5a6e!important}\n#tecdoc-widget .tw-oe-chip,#tecdoc-widget .tw-oe-number{display:inline-flex!important;background:#eef3fb!important;border:1px solid #c8d8f0!important;border-radius:6px!important;padding:6px 14px!important;font-size:13px!important;font-weight:600!important;color:#1B4E91!important;font-family:'Courier New',monospace!important;margin:4px!important}\n#tecdoc-widget .tw-acc-l1{border:1px solid #e4e6eb!important;border-radius:10px!important;overflow:hidden!important;margin-bottom:4px!important}\n#tecdoc-widget .tw-acc-l1-header{display:flex!important;align-items:center!important;justify-content:space-between!important;padding:14px 18px!important;cursor:pointer!important;background:#fff!important}\n#tecdoc-widget .tw-acc-l1-header:hover{background:#f7f8fa!important}\n#tecdoc-widget .tw-make-badge{width:36px!important;height:36px!important;border-radius:8px!important;display:flex!important;align-items:center!important;justify-content:center!important;font-weight:800!important;font-size:12px!important}\n#tecdoc-widget .tw-acc-l1-body{background:#fafbfc!important;border-top:1px solid #e4e6eb!important}\n#tecdoc-widget .tw-acc-l2-header{display:flex!important;align-items:center!important;justify-content:space-between!important;padding:11px 20px!important;cursor:pointer!important;border-bottom:1px solid #f0f1f4!important}\n#tecdoc-widget .tw-acc-l2-header:hover{background:#f0f4ff!important}\n#tecdoc-widget .tw-show-more{display:block!important;width:100%!important;margin-top:16px!important;padding:12px!important;border:1px dashed #e4e6eb!important;border-radius:8px!important;background:transparent!important;color:#1B4E91!important;font-size:14px!important;font-weight:600!important;cursor:pointer!important;text-align:center!important}\n#tecdoc-widget .tw-strengths,#tecdoc-widget .tw-brand-info,#tw-brand-info{display:none!important}\n#tecdoc-widget .tw-oe-disclaimer{font-size:13px!important;color:#8a8a9a!important;padding:12px 0!important;border-top:1px solid #f0f1f4!important;margin-top:12px!important}\n\n#an-product-redesign .an-trust-box{border:1px solid #e2e5e9!important;border-radius:12px!important;padding:16px 20px!important;margin-top:16px!important;direction:rtl!important}\n#an-product-redesign .an-trust-item{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:10px!important;padding:6px 0!important;font-size:14px!important;color:#475569!important;flex-direction:row-reverse!important}\n#an-product-redesign .an-highlights-box{background:#fff!important;border-radius:12px!important;box-shadow:0 2px 8px rgba(0,0,0,0.06)!important;margin-bottom:20px!important;overflow:hidden!important;width:100%!important}\n#an-product-redesign .an-section-card{background:#fff!important;border-radius:12px!important;box-shadow:0 2px 8px rgba(0,0,0,0.06)!important;margin-bottom:20px!important;overflow:hidden!important}\n#an-product-redesign .an-section-header{padding:18px 24px!important;font-size:18px!important;font-weight:700!important;cursor:pointer!important;display:flex!important;align-items:center!important;justify-content:space-between!important}\n#an-product-redesign .an-section-body{padding:0 24px 20px!important}\n#an-product-redesign .an-brand-card{background:#f9fafb!important;border-radius:12px!important;box-shadow:0 2px 8px rgba(0,0,0,0.06)!important;display:flex!important;overflow:hidden!important;margin-bottom:20px!important}';
-    document.head.appendChild(style);
+  if (!document.getElementById('an-style-v3')) {
+    var styleEl = document.createElement('style');
+    styleEl.id = 'an-style-v3';
+    styleEl.textContent = [
+      /* Konimbo hiding rules */
+      'body.an-redesigned #item_show, body.an-redesigned #item_content, body.an-redesigned .specifications, body.an-redesigned #item_show_facebook, body.an-redesigned #item_show_carousel, body.an-redesigned .item_show_carousel, body.an-redesigned .item_container, body.an-redesigned #item_info, body.an-redesigned .item_main_top, body.an-redesigned #bread_crumbs, body.an-redesigned .product-container, body.an-redesigned #item_current_title, body.an-redesigned .code_item, body.an-redesigned #page_notice, body.an-redesigned #storiesWidget, body.an-redesigned .stories-wrapper { display: none !important; }',
+      'body.an-redesigned #item_details, body.an-redesigned .item_main_bottom { display: block !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important; border: none !important; opacity: 0 !important; pointer-events: none !important; }',
+      'body.an-redesigned .tw-strengths, body.an-redesigned #tw-brand-info { display: none !important; }',
 
-    /* Load Heebo font if not already loaded */
-    if (!document.querySelector('link[href*="Heebo"]')) {
-      var font = document.createElement('link');
-      font.rel = 'stylesheet';
-      font.href = 'https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap';
-      document.head.appendChild(font);
-    }
+      /* CSS Variables */
+      ':root {',
+      '  --an-primary: #1B4E91;',
+      '  --an-primary-dark: #153d73;',
+      '  --an-brand-blue: #1a4690;',
+      '  --an-brand-red: #c8102e;',
+      '  --an-bg: #f7f8fa;',
+      '  --an-white: #ffffff;',
+      '  --an-text: #1a1a2e;',
+      '  --an-text-secondary: #5a5a6e;',
+      '  --an-text-muted: #8a8a9a;',
+      '  --an-border: #e4e6eb;',
+      '  --an-border-light: #f0f1f4;',
+      '  --an-green: #00a651;',
+      '  --an-green-bg: #e8f8ef;',
+      '  --an-radius: 12px;',
+      '  --an-radius-sm: 8px;',
+      '  --an-shadow: 0 2px 8px rgba(0,0,0,0.06);',
+      '  --an-shadow-lg: 0 4px 20px rgba(0,0,0,0.08);',
+      '}',
+
+      /* Reset inside wrapper */
+      '#an-product-redesign *, #an-product-redesign *::before, #an-product-redesign *::after { box-sizing: border-box !important; margin: 0; padding: 0; }',
+      '#an-sticky-bar *, #an-sticky-bar *::before, #an-sticky-bar *::after { box-sizing: border-box !important; }',
+
+      /* Font */
+      '#an-product-redesign, #an-sticky-bar { font-family: \'Heebo\', sans-serif !important; -webkit-font-smoothing: antialiased; }',
+
+      /* Page BG */
+      '.an-page-bg { background: var(--an-bg) !important; padding-top: 8px !important; }',
+
+      /* Breadcrumb Bar */
+      '.an-breadcrumb-bar { background: var(--an-white) !important; border-bottom: 1px solid var(--an-border-light) !important; }',
+      '.an-breadcrumb { max-width: 1200px !important; margin: 0 auto !important; padding: 12px 24px !important; font-size: 13px !important; color: var(--an-text-muted) !important; display: flex !important; align-items: center !important; gap: 6px !important; flex-wrap: wrap !important; }',
+      '.an-breadcrumb a { color: var(--an-text-secondary) !important; text-decoration: none !important; transition: color 0.2s; }',
+      '.an-breadcrumb a:hover { color: var(--an-primary) !important; }',
+      '.an-breadcrumb .an-sep { color: var(--an-border) !important; }',
+      '.an-breadcrumb .an-current { color: var(--an-text) !important; font-weight: 500 !important; }',
+
+      /* Main Container */
+      '.an-container { max-width: 1200px !important; margin: 0 auto !important; padding: 24px !important; }',
+
+      /* Product Top: 2-col grid */
+      '.an-product-top { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 32px !important; margin-bottom: 24px !important; }',
+
+      /* Product Image Area */
+      '.an-product-image-area { background: var(--an-white) !important; border-radius: var(--an-radius) !important; box-shadow: var(--an-shadow) !important; padding: 24px !important; display: flex !important; flex-direction: column !important; align-items: center !important; }',
+      '.an-main-image { width: 100% !important; max-width: 400px !important; aspect-ratio: 1; display: flex !important; align-items: center !important; justify-content: center !important; margin-bottom: 16px !important; overflow: hidden !important; }',
+      '.an-main-image img { width: 100% !important; height: 100% !important; object-fit: contain !important; }',
+      '.an-main-image svg { width: 100% !important; height: 100% !important; }',
+      '.an-img-ph { width: 100% !important; max-width: 400px !important; aspect-ratio: 1; background: linear-gradient(135deg,#f5f6f8,#e8eaee) !important; border-radius: 12px !important; display: flex !important; flex-direction: column !important; align-items: center !important; justify-content: center !important; gap: 12px !important; }',
+      '.an-img-ph-brand { font-size: 28px !important; font-weight: 800 !important; color: #c8102e !important; letter-spacing: 2px !important; }',
+      '.an-img-ph-sku { font-size: 20px !important; font-weight: 700 !important; color: #1a1a2e !important; letter-spacing: 1px !important; }',
+      '.an-thumb-row { display: flex !important; gap: 10px !important; justify-content: center !important; }',
+      '.an-thumb { width: 64px !important; height: 64px !important; border-radius: 8px !important; border: 2px solid var(--an-border) !important; background: var(--an-bg) !important; display: flex !important; align-items: center !important; justify-content: center !important; cursor: pointer !important; transition: border-color 0.2s; overflow: hidden !important; }',
+      '.an-thumb.an-thumb-active { border-color: var(--an-brand-red) !important; }',
+      '.an-thumb:hover { border-color: var(--an-brand-red) !important; }',
+      '.an-thumb img { width: 100% !important; height: 100% !important; object-fit: cover !important; }',
+      '.an-thumb-ph { font-size: 8px !important; color: var(--an-text-muted) !important; font-weight: 600 !important; text-align: center !important; line-height: 1.2 !important; }',
+
+      /* Info Section */
+      '.an-info-section { display: flex !important; flex-direction: column !important; gap: 16px !important; }',
+      '.an-badge-row { display: flex !important; align-items: center !important; gap: 10px !important; flex-wrap: wrap !important; }',
+      '.an-sku-badge { display: inline-flex !important; align-items: center !important; gap: 6px !important; background: var(--an-bg) !important; border: 1px solid var(--an-border) !important; border-radius: 6px !important; padding: 5px 12px !important; font-size: 13px !important; color: var(--an-text-secondary) !important; font-weight: 500 !important; }',
+      '.an-brand-badge { display: inline-flex !important; align-items: center !important; gap: 6px !important; background: var(--an-brand-red) !important; border-radius: 6px !important; padding: 5px 14px !important; font-size: 13px !important; color: white !important; font-weight: 700 !important; letter-spacing: 0.5px !important; }',
+      '.an-product-title { font-size: 26px !important; font-weight: 700 !important; color: var(--an-text) !important; line-height: 1.3 !important; }',
+      '.an-product-subtitle { font-size: 15px !important; color: var(--an-text-muted) !important; margin-top: -8px !important; }',
+      '.an-stock-status { display: flex !important; align-items: center !important; gap: 8px !important; font-size: 14px !important; font-weight: 500 !important; color: var(--an-green) !important; }',
+      '.an-stock-dot { width: 10px !important; height: 10px !important; border-radius: 50% !important; background: var(--an-green) !important; display: inline-block !important; animation: an-pulse-dot 2s infinite; }',
+      '@keyframes an-pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }',
+      '.an-price-section { display: flex !important; align-items: baseline !important; gap: 10px !important; }',
+      '.an-price { font-size: 34px !important; font-weight: 800 !important; color: var(--an-text) !important; }',
+      '.an-price-vat { font-size: 13px !important; color: var(--an-text-muted) !important; font-weight: 400 !important; }',
+
+      /* Cart Row — qty on separate row above full-width cart button */
+      '.an-cart-row { display: flex !important; flex-direction: column !important; gap: 10px !important; }',
+      '.an-qty-selector { display: flex !important; align-items: center !important; border: 1px solid var(--an-border) !important; border-radius: var(--an-radius-sm) !important; overflow: hidden !important; background: var(--an-white) !important; align-self: flex-start !important; }',
+      '.an-qty-btn { width: 40px !important; height: 44px !important; display: flex !important; align-items: center !important; justify-content: center !important; background: var(--an-bg) !important; border: none !important; cursor: pointer !important; font-size: 18px !important; color: var(--an-text-secondary) !important; font-weight: 600 !important; transition: background 0.2s; }',
+      '.an-qty-btn:hover { background: var(--an-border) !important; }',
+      '.an-qty-value { width: 44px !important; height: 44px !important; display: flex !important; align-items: center !important; justify-content: center !important; font-size: 16px !important; font-weight: 600 !important; border-left: 1px solid var(--an-border) !important; border-right: 1px solid var(--an-border) !important; color: var(--an-text) !important; font-family: \'Heebo\', sans-serif !important; user-select: none !important; }',
+      '.an-add-to-cart { width: 100% !important; height: 54px !important; background: var(--an-primary) !important; color: white !important; border: none !important; border-radius: var(--an-radius-sm) !important; font-family: \'Heebo\', sans-serif !important; font-size: 18px !important; font-weight: 700 !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; gap: 10px !important; transition: background 0.2s, transform 0.1s; letter-spacing: 0.3px !important; box-shadow: 0 4px 14px rgba(27, 78, 145, 0.35) !important; }',
+      '.an-add-to-cart:hover { background: var(--an-primary-dark) !important; }',
+      '.an-add-to-cart:active { transform: scale(0.98); }',
+      '.an-sold-by { font-size: 13px !important; color: var(--an-text-muted) !important; }',
+      '.an-sold-by strong { color: var(--an-text-secondary) !important; font-weight: 600 !important; }',
+
+      /* Trust Box */
+      '.an-trust-box { background: #f9fafb !important; border: 1px solid var(--an-border-light) !important; border-radius: var(--an-radius-sm) !important; padding: 16px 20px !important; display: flex !important; flex-direction: column !important; gap: 10px !important; }',
+      '.an-trust-item { display: flex !important; align-items: center !important; gap: 10px !important; font-size: 13.5px !important; color: var(--an-text-secondary) !important; line-height: 1.4 !important; }',
+      '.an-trust-item .an-icon { font-size: 17px !important; width: 24px !important; text-align: center !important; flex-shrink: 0 !important; }',
+
+      /* Section Cards */
+      '.an-section-card { background: var(--an-white) !important; border-radius: var(--an-radius) !important; box-shadow: var(--an-shadow) !important; margin-bottom: 20px !important; overflow: hidden !important; }',
+      '.an-section-header { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 18px 24px !important; cursor: pointer !important; user-select: none !important; transition: background 0.2s; }',
+      '.an-section-header:hover { background: #fafbfc !important; }',
+      '.an-section-header h2 { font-size: 18px !important; font-weight: 700 !important; display: flex !important; align-items: center !important; gap: 8px !important; color: var(--an-text) !important; }',
+      '.an-chevron { width: 24px !important; height: 24px !important; transition: transform 0.3s ease; color: var(--an-text-muted) !important; flex-shrink: 0 !important; }',
+      '.an-section-header.an-collapsed .an-chevron { transform: rotate(180deg); }',
+      '.an-section-body { padding: 0 24px 24px !important; }',
+      '.an-section-body.an-collapsed { display: none !important; }',
+
+      /* Highlights Box (inside info-section) */
+      '.an-highlights-box { background: var(--an-white) !important; border: 1px solid var(--an-border-light) !important; border-radius: var(--an-radius-sm) !important; overflow: hidden !important; }',
+      '.an-highlights-header { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 14px 18px !important; cursor: pointer !important; user-select: none !important; background: #fafbfc !important; }',
+      '.an-highlights-header h2 { font-size: 15px !important; font-weight: 700 !important; display: flex !important; align-items: center !important; gap: 6px !important; color: var(--an-text) !important; }',
+      '.an-highlights-header.an-collapsed .an-chevron { transform: rotate(180deg); }',
+      '.an-highlights-content { padding: 14px 18px !important; }',
+      '.an-highlights-list { list-style: none !important; display: flex !important; flex-direction: column !important; gap: 12px !important; }',
+      '.an-highlights-list li { display: flex !important; align-items: flex-start !important; gap: 10px !important; font-size: 15px !important; color: var(--an-text-secondary) !important; line-height: 1.5 !important; }',
+      '.an-highlights-list li::before { content: "✓"; color: var(--an-green) !important; font-weight: 700 !important; font-size: 14px !important; margin-top: 2px !important; flex-shrink: 0 !important; }',
+
+      /* Description */
+      '.an-description-text { font-size: 15px !important; color: var(--an-text-secondary) !important; line-height: 1.8 !important; }',
+      '.an-description-section { font-size: 15px !important; color: var(--an-text-secondary) !important; line-height: 1.8 !important; }',
+      '.an-description-section p { margin-bottom: 10px !important; }',
+
+      /* TecDoc Attribution */
+      '.an-tecdoc-attribution { display: flex !important; align-items: center !important; gap: 8px !important; padding: 14px 24px 0 !important; font-size: 12px !important; color: var(--an-text-muted) !important; }',
+      '.an-tecdoc-dot { width: 6px !important; height: 6px !important; border-radius: 50% !important; background: var(--an-primary) !important; opacity: 0.5 !important; flex-shrink: 0 !important; }',
+
+      /* Tabs */
+      '.an-tabs { display: flex !important; border-bottom: 2px solid var(--an-border-light) !important; padding: 0 24px !important; margin-top: 12px !important; gap: 0 !important; overflow-x: auto !important; -webkit-overflow-scrolling: touch !important; }',
+      '.an-tab { padding: 12px 20px !important; font-size: 14px !important; font-weight: 500 !important; color: var(--an-text-muted) !important; border-bottom: 3px solid transparent !important; margin-bottom: -2px !important; cursor: pointer !important; transition: all 0.2s; white-space: nowrap !important; user-select: none !important; font-family: \'Heebo\', sans-serif !important; background: none !important; }',
+      '.an-tab:hover { color: var(--an-text) !important; }',
+      '.an-tab.an-active { color: var(--an-primary) !important; border-bottom-color: var(--an-primary) !important; font-weight: 600 !important; }',
+      '.an-tab .an-count { display: inline-flex !important; align-items: center !important; justify-content: center !important; min-width: 22px !important; height: 20px !important; border-radius: 10px !important; background: var(--an-bg) !important; font-size: 11px !important; font-weight: 600 !important; color: var(--an-text-muted) !important; padding: 0 6px !important; margin-right: 4px !important; }',
+      '.an-tab.an-active .an-count { background: #e8eef6 !important; color: var(--an-primary) !important; }',
+
+      /* Tab Panels */
+      '.an-tab-panel { display: none !important; padding: 20px 24px 24px !important; }',
+      '.an-tab-panel.an-active { display: block !important; }',
+
+      /* Specs Table */
+      '.an-specs-table { width: 100% !important; border-collapse: collapse !important; }',
+      '.an-specs-table tr:nth-child(even) { background: #fafbfc !important; }',
+      '.an-specs-table td { padding: 12px 16px !important; font-size: 14px !important; border-bottom: 1px solid var(--an-border-light) !important; }',
+      '.an-specs-table td:first-child { font-weight: 600 !important; color: var(--an-text) !important; width: 40% !important; }',
+      '.an-specs-table td:last-child { color: var(--an-text-secondary) !important; }',
+
+      /* Vehicle Groups Accordion */
+      '.an-veh-groups { display: flex !important; flex-direction: column !important; gap: 2px !important; }',
+      '.an-veh-group { border: 1px solid #e4e6eb !important; border-radius: 10px !important; overflow: hidden !important; }',
+      '.an-veh-group-header { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 14px 18px !important; cursor: pointer !important; background: #fff !important; transition: background 0.15s; }',
+      '.an-veh-group-header:hover { background: #f7f8fa !important; }',
+      '.an-veh-make-info { display: flex !important; align-items: center !important; gap: 12px !important; }',
+      '.an-veh-make-logo { width: 36px !important; height: 36px !important; border-radius: 8px !important; display: flex !important; align-items: center !important; justify-content: center !important; font-weight: 800 !important; font-size: 12px !important; letter-spacing: 0.5px !important; flex-shrink: 0 !important; }',
+      '.an-veh-make-name { font-size: 16px !important; font-weight: 700 !important; color: #1a1a2e !important; }',
+      '.an-veh-make-count { font-size: 13px !important; color: #8a8a9a !important; font-weight: 400 !important; }',
+      '.an-veh-chevron { transition: transform 0.3s; flex-shrink: 0 !important; color: #8a8a9a !important; }',
+      '.an-veh-group.an-open .an-veh-chevron { transform: rotate(180deg); }',
+      '.an-veh-group-models { background: #fafbfc !important; border-top: 1px solid #e4e6eb !important; }',
+      '.an-veh-model-item { border-bottom: 1px solid #f0f1f4 !important; }',
+      '.an-veh-model-item:last-child { border-bottom: none !important; }',
+      '.an-veh-model-row { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 11px 20px 11px 18px !important; cursor: pointer !important; transition: background 0.12s; gap: 8px !important; }',
+      '.an-veh-model-row:hover { background: #f0f4ff !important; }',
+      '.an-veh-model-name { font-size: 14px !important; font-weight: 600 !important; color: #1a1a2e !important; flex: 1 !important; }',
+      '.an-veh-model-years { font-size: 13px !important; color: #8a8a9a !important; direction: ltr !important; margin-left: 12px !important; flex-shrink: 0 !important; }',
+      '.an-veh-model-chev { transition: transform 0.25s; flex-shrink: 0 !important; color: #b0b0b0 !important; }',
+      '.an-veh-model-item.an-open .an-veh-model-chev { transform: rotate(180deg); }',
+      '.an-veh-engines { background: #f5f7fa !important; padding: 0 20px 0 18px !important; }',
+      '.an-veh-engine-row { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 8px 0 8px 28px !important; font-size: 13px !important; color: #5a5a6e !important; border-top: 1px solid #ebedf2 !important; }',
+      '.an-veh-engine-row:first-child { border-top: none !important; }',
+      '.an-veh-eng-years { font-size: 12px !important; color: #a0a0a0 !important; direction: ltr !important; }',
+
+      /* OE Grid */
+      '.an-oe-grid { display: flex !important; flex-wrap: wrap !important; gap: 8px !important; }',
+      '.an-oe-chip { display: inline-flex !important; align-items: center !important; background: #eef3fb !important; border: 1px solid #c8d8f0 !important; border-radius: 6px !important; padding: 6px 14px !important; font-size: 13px !important; font-weight: 600 !important; color: var(--an-primary) !important; font-family: \'Courier New\', monospace !important; letter-spacing: 0.3px !important; transition: background 0.15s; }',
+      '.an-oe-chip:hover { background: #ddeafa !important; }',
+
+      /* Brand Card */
+      '.an-brand-card { display: flex !important; align-items: stretch !important; overflow: hidden !important; }',
+      '.an-brand-sidebar { width: 100px !important; min-height: 120px !important; display: flex !important; align-items: center !important; justify-content: center !important; flex-shrink: 0 !important; }',
+      '.an-brand-sidebar span { color: white !important; font-size: 18px !important; font-weight: 800 !important; letter-spacing: 1px !important; writing-mode: horizontal-tb !important; }',
+      '.an-brand-info { padding: 20px 24px !important; display: flex !important; flex-direction: column !important; gap: 6px !important; }',
+      '.an-brand-info h3 { font-size: 18px !important; font-weight: 700 !important; color: var(--an-text) !important; }',
+      '.an-brand-origin { font-size: 13px !important; color: var(--an-text-muted) !important; display: flex !important; align-items: center !important; gap: 6px !important; }',
+      '.an-brand-info p { font-size: 14px !important; color: var(--an-text-secondary) !important; line-height: 1.7 !important; margin-top: 4px !important; }',
+
+      /* TecDoc widget wrapper */
+      '#an-tecdoc-wrap #tecdoc-widget { background: var(--an-white) !important; border-radius: var(--an-radius) !important; box-shadow: none !important; margin: 0 !important; }',
+      '#an-tecdoc-wrap .tw-strengths, #an-tecdoc-wrap #tw-brand-info { display: none !important; }',
+      '#an-tecdoc-wrap .tw-purchase-row { display: none !important; }',
+
+      /* Sticky Bar */
+      '#an-sticky-bar { position: fixed !important; bottom: 0 !important; left: 0 !important; right: 0 !important; background: var(--an-white) !important; border-top: 1px solid var(--an-border) !important; box-shadow: 0 -4px 20px rgba(0,0,0,0.08) !important; z-index: 9999 !important; transform: translateY(100%) !important; transition: transform 0.3s ease; padding: 12px 20px !important; }',
+      '#an-sticky-bar.an-sticky-visible { transform: translateY(0) !important; }',
+      '.an-sticky-inner { max-width: 1200px !important; margin: 0 auto !important; display: flex !important; align-items: center !important; justify-content: space-between !important; gap: 16px !important; }',
+      '.an-sticky-info { display: flex !important; flex-direction: column !important; gap: 2px !important; min-width: 0 !important; }',
+      '.an-sticky-title { font-size: 14px !important; font-weight: 600 !important; color: var(--an-text) !important; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; }',
+      '.an-sticky-price { font-size: 18px !important; font-weight: 800 !important; color: var(--an-text) !important; }',
+      '.an-sticky-buy { height: 46px !important; padding: 0 24px !important; background: var(--an-primary) !important; color: white !important; border: none !important; border-radius: var(--an-radius-sm) !important; font-family: \'Heebo\', sans-serif !important; font-size: 16px !important; font-weight: 700 !important; cursor: pointer !important; display: flex !important; align-items: center !important; gap: 8px !important; white-space: nowrap !important; flex-shrink: 0 !important; box-shadow: 0 4px 14px rgba(27,78,145,0.3) !important; }',
+      '.an-sticky-buy:hover { background: var(--an-primary-dark) !important; }',
+
+      /* Responsive */
+      '@media (max-width: 768px) {',
+      '  .an-product-top { grid-template-columns: 1fr !important; gap: 20px !important; }',
+      '  .an-product-title { font-size: 22px !important; }',
+      '  .an-price { font-size: 28px !important; }',
+      '  .an-qty-selector { align-self: stretch !important; justify-content: center !important; width: 100% !important; }',
+      '  .an-qty-btn { flex: 1 !important; }',
+      '  .an-qty-value { flex: 1 !important; }',
+      '  .an-brand-card { flex-direction: column !important; }',
+      '  .an-brand-sidebar { width: 100% !important; min-height: 60px !important; }',
+      '  .an-tabs { padding: 0 16px !important; }',
+      '  .an-tab { padding: 12px 14px !important; font-size: 13px !important; }',
+      '  .an-container { padding: 16px !important; }',
+      '  .an-section-body { padding: 0 16px 16px !important; }',
+      '  .an-tab-panel { padding: 16px 16px 20px !important; }',
+      '  .an-section-header { padding: 16px !important; }',
+      '  .an-veh-group-header { padding: 12px 14px !important; }',
+      '  .an-veh-make-logo { width: 32px !important; height: 32px !important; font-size: 11px !important; }',
+      '  .an-veh-make-name { font-size: 14px !important; }',
+      '  .an-veh-model-row { padding: 10px 14px !important; }',
+      '  .an-veh-model-name { font-size: 13px !important; }',
+      '  .an-veh-engine-row { padding: 7px 0 7px 20px !important; font-size: 12px !important; }',
+      '  .an-tecdoc-attribution { padding: 14px 16px 0 !important; }',
+      '}'
+    ].join('\n');
+    document.head.appendChild(styleEl);
   }
 
   /* ===================================================
-     STEP 2: Category detection
+     STEP 1: Category detection
      =================================================== */
   function isAutoPartsPage() {
     if (window.location.pathname.indexOf('/items/') === -1) return false;
@@ -40,71 +255,61 @@
   if (!isAutoPartsPage()) return;
 
   /* ===================================================
-     STEP 3: BRAND_INFO
+     STEP 2: BRAND_INFO
      =================================================== */
   var H = ['\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05d4\u05d5\u05ea\u05e7\u05df \u05d1\u05e8\u05db\u05d1 \u05d1\u05de\u05e4\u05e2\u05dc','\u05ea\u05d0\u05d9\u05de\u05d5\u05ea \u05de\u05d5\u05e9\u05dc\u05de\u05ea \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da','\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d0\u05d9\u05db\u05d5\u05ea \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9\u05d9\u05dd','\u05dc\u05dc\u05d0 \u05e4\u05e9\u05e8\u05d5\u05ea \u05d1\u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05d1\u05d4\u05ea\u05d0\u05de\u05d4'];
   var BRAND_INFO = {
-    "BREMBO":{name:"Brembo",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd. \u05d9\u05d3\u05d5\u05e2\u05d4 \u05de\u05e2\u05d5\u05dc\u05dd \u05d4\u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP.",founded:"1961",country:"\u05d0\u05d9\u05d8\u05dc\u05d9\u05d4",color:"#c8102e",
-      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05d4\u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e0\u05d1\u05d3\u05e7 \u05d1\u05ea\u05e0\u05d0\u05d9 \u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP","\u05d1\u05dc\u05d9\u05de\u05d4 \u05d7\u05d6\u05e7\u05d4 \u05d2\u05dd \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea"]},
-    "BOSCH":{name:"Bosch",description:"\u05e1\u05e4\u05e7\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05e8\u05db\u05d1 \u05d2\u05d3\u05d5\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd. \u05de\u05e2\u05dc 130 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df.",founded:"1886",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f",
-      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1 \u05de\u05d4\u05de\u05e4\u05e2\u05dc","\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 ISO/TS 16949","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd \u2014 \u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05e9\u05d7\u05d9\u05e7\u05d4 \u05d5\u05d1\u05dc\u05d0\u05d9","\u05de\u05d5\u05ea\u05d0\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05de\u05d9 \u05d4\u05e8\u05db\u05d1 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd"]},
-    "MANN-FILTER":{name:"MANN-FILTER",description:"\u05de\u05d5\u05ea\u05d2 \u05d4\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d4\u05de\u05d5\u05d1\u05d9\u05dc \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4. \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea MANN+HUMMEL.",founded:"1941",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#1a4690",
-      highlights:["\u05e1\u05d9\u05e0\u05d5\u05df \u05d9\u05e2\u05d9\u05dc \u05e9\u05dc 99.98% \u05de\u05d4\u05de\u05d6\u05d4\u05de\u05d9\u05dd","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05d4\u05d2\u05e0\u05d4 \u05de\u05e4\u05e0\u05d9 \u05dc\u05db\u05dc\u05d5\u05da, \u05d0\u05d1\u05e7 \u05d5\u05e9\u05d1\u05d1\u05d9\u05dd","\u05de\u05d0\u05e8\u05d9\u05da \u05d7\u05d9\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2 \u05d5\u05de\u05e9\u05e4\u05e8 \u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd"]},
-    "MAHLE":{name:"Mahle",description:"\u05e7\u05d1\u05d5\u05e6\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9\u05ea. \u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d5\u05e8\u05db\u05d9\u05d1\u05d9 \u05de\u05e0\u05d5\u05e2 \u05d1\u05d0\u05d9\u05db\u05d5\u05ea OEM.",founded:"1920",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#005b8e",
-      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d1\u05d3\u05d9\u05e7\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d4","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05e1\u05d1\u05d9\u05d1\u05d4 \u05d4\u05de\u05d7\u05de\u05d9\u05e8\u05d9\u05dd","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd \u05d5\u05d4\u05d3\u05dc\u05e7"]},
-    "VALEO":{name:"Valeo",description:"\u05e1\u05e4\u05e7\u05d9\u05ea OEM \u05e6\u05e8\u05e4\u05ea\u05d9\u05ea. \u05de\u05d9\u05d6\u05d5\u05d2, \u05ea\u05d0\u05d5\u05e8\u05d4, \u05de\u05e6\u05de\u05d3\u05d9\u05dd, \u05de\u05d2\u05d1\u05d9\u05dd \u05d5\u05d7\u05e9\u05de\u05dc \u05dc\u05e8\u05db\u05d1.",founded:"1923",country:"\u05e6\u05e8\u05e4\u05ea",color:"#003087"},
-    "TRW":{name:"TRW",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05dc\u05e8\u05db\u05d1 \u2014 \u05d1\u05dc\u05de\u05d9\u05dd, \u05d4\u05d9\u05d2\u05d5\u05d9 \u05d5\u05de\u05ea\u05dc\u05d9\u05dd. \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea ZF.",founded:"1901",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003399",
-      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea \u05dc\u05db\u05dc \u05de\u05d5\u05e6\u05e8","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd \u05e2\u05dd \u05d0\u05d5\u05e8\u05da \u05d7\u05d9\u05d9\u05dd \u05de\u05d5\u05d0\u05e8\u05da"]},
-    "FEBI BILSTEIN":{name:"Febi Bilstein",description:"\u05d7\u05d1\u05e8\u05d4 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05e2\u05dd \u05de\u05e2\u05dc 175 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df. \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d1\u05d0\u05d9\u05db\u05d5\u05ea OEM.",founded:"1844",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e8001c"},
-    "MEYLE":{name:"Meyle",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea. \u05d9\u05d3\u05d5\u05e2\u05d4 \u05d1\u05e7\u05d5 MEYLE-HD \u05d4\u05de\u05d7\u05d5\u05d6\u05e7.",founded:"1958",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#0057a8",
-      highlights:["\u05e7\u05d5 MEYLE-HD \u2014 \u05d7\u05dc\u05e7\u05d9\u05dd \u05de\u05d7\u05d5\u05d6\u05e7\u05d9\u05dd \u05de\u05e2\u05d1\u05e8 \u05dc\u05de\u05e7\u05d5\u05e8","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u05d5\u05de\u05e2\u05dc\u05d4 \u2014 \u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05de\u05d5\u05d2\u05d1\u05e8\u05ea","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea \u05dc\u05db\u05dc \u05d7\u05dc\u05e7","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05d3\u05e8\u05d9\u05e9\u05d4 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd"]},
-    "SKF":{name:"SKF",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05de\u05d9\u05e1\u05d1\u05d9\u05dd \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05e1\u05d9\u05d1\u05d5\u05d1 \u05dc\u05e8\u05db\u05d1.",founded:"1907",country:"\u05e9\u05d5\u05d5\u05d3\u05d9\u05d4",color:"#003087"},
-    "NGK":{name:"NGK",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d4\u05de\u05e6\u05ea\u05d9\u05dd \u05d4\u05d2\u05d3\u05d5\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd. \u05e1\u05e4\u05e7\u05d9\u05ea OEM \u05dc\u05db\u05dc \u05d9\u05e6\u05e8\u05e0\u05d9\u05d5\u05ea \u05d4\u05e8\u05db\u05d1.",founded:"1936",country:"\u05d9\u05e4\u05df",color:"#cc0000",
-      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea","\u05d4\u05e6\u05ea\u05d4 \u05d9\u05e6\u05d9\u05d1\u05d4 \u05d5\u05d7\u05d9\u05e1\u05db\u05d5\u05df \u05d1\u05d3\u05dc\u05e7","\u05de\u05ea\u05d0\u05d9\u05de\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd"]},
-    "DENSO":{name:"Denso",description:"\u05e1\u05e4\u05e7\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05d9\u05e4\u05e0\u05d9\u05ea, \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea Toyota.",founded:"1949",country:"\u05d9\u05e4\u05df",color:"#003087"},
-    "SACHS":{name:"Sachs",description:"\u05de\u05d5\u05ea\u05d2 \u05d1\u05d5\u05dc\u05de\u05d9 \u05d6\u05e2\u05d6\u05d5\u05e2\u05d9\u05dd \u05d5\u05de\u05e6\u05de\u05d3. \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea ZF.",founded:"1894",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000"},
-    "LUK":{name:"LuK",description:"\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05de\u05e6\u05de\u05d3 \u05d5\u05d4\u05e0\u05e2\u05d4. \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea Schaeffler.",founded:"1965",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f"},
-    "INA":{name:"INA",description:"\u05de\u05d9\u05e1\u05d1\u05d9\u05dd, \u05e2\u05e8\u05db\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2, \u05de\u05d5\u05ea\u05d7\u05e0\u05d9\u05dd \u05d5\u05d2\u05dc\u05d2\u05dc\u05d5\u05ea. \u05d7\u05dc\u05e7 Schaeffler.",founded:"1946",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f"},
-    "CONTINENTAL":{name:"Continental",description:"\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2, \u05e6\u05d9\u05e0\u05d5\u05e8\u05d5\u05ea, \u05d7\u05d9\u05d9\u05e9\u05e0\u05d9\u05dd \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05dc\u05e8\u05db\u05d1.",founded:"1871",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
-    "GATES":{name:"Gates",description:"\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea, \u05e6\u05d9\u05e0\u05d5\u05e8\u05d5\u05ea \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d4\u05e0\u05e2\u05d4 \u05dc\u05e8\u05db\u05d1.",founded:"1911",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#003087"},
-    "HENGST":{name:"Hengst",description:"\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05dd \u05d1\u05d0\u05d9\u05db\u05d5\u05ea OEM.",founded:"1958",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "DAYCO":{name:"Dayco",description:"\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2, \u05d2\u05dc\u05d2\u05dc\u05d5\u05ea, \u05de\u05d5\u05ea\u05d7\u05e0\u05d9\u05dd \u05d5\u05de\u05e9\u05d0\u05d1\u05d5\u05ea \u05de\u05d9\u05dd.",founded:"1905",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#cc0000"},
-    "LEMFORDER":{name:"Lemf\u00f6rder",description:"\u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05d5\u05d4\u05d9\u05d2\u05d5\u05d9. \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea ZF.",founded:"1947",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "TEXTAR":{name:"Textar",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05de\u05d5\u05d1\u05d9\u05dc\u05d5\u05ea \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4. \u05d7\u05dc\u05e7 \u05de\u05e7\u05d1\u05d5\u05e6\u05ea TMD Friction.",founded:"1913",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000",
-      highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05dc\u05dc\u05d0 \u05d0\u05e1\u05d1\u05e1\u05d8 \u2014 \u05d1\u05dc\u05d9\u05de\u05d4 \u05e9\u05e7\u05d8\u05d4 \u05dc\u05dc\u05d0 \u05e8\u05e2\u05e9","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd \u05e2\u05dd \u05d0\u05d5\u05e8\u05da \u05d7\u05d9\u05d9\u05dd \u05de\u05d5\u05d0\u05e8\u05da"]},
-    "ATE":{name:"ATE",description:"\u05d3\u05d9\u05e1\u05e7\u05d9 \u05d1\u05dc\u05dd, \u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d5\u05e0\u05d5\u05d6\u05dc\u05d9 \u05d1\u05dc\u05de\u05d9\u05dd. \u05d7\u05dc\u05e7 Continental.",founded:"1906",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
-    "KNECHT":{name:"Knecht",description:"\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9 Mahle \u05d1\u05d0\u05d9\u05db\u05d5\u05ea OEM.",founded:"1927",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#005b8e"},
+    "BREMBO":{name:"Brembo",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd. \u05d9\u05d3\u05d5\u05e2\u05d4 \u05de\u05e2\u05d5\u05dc\u05dd \u05d4\u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP.",founded:"1961",country:"\u05d0\u05d9\u05d8\u05dc\u05d9\u05d4",color:"#c8102e",highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e4\u05d9","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05d4\u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1","\u05e0\u05d1\u05d3\u05e7 \u05d1\u05ea\u05e0\u05d0\u05d9 \u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd \u2014 F1, MotoGP","\u05d1\u05dc\u05d9\u05de\u05d4 \u05d7\u05d6\u05e7\u05d4 \u05d2\u05dd \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea"]},
+    "BOSCH":{name:"Bosch",description:"\u05e1\u05e4\u05e7\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05e8\u05db\u05d1 \u05d2\u05d3\u05d5\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd. \u05de\u05e2\u05dc 130 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df.",founded:"1886",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f",highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1 \u05de\u05d4\u05de\u05e4\u05e2\u05dc","\u05e2\u05d5\u05de\u05d3 \u05d1\u05ea\u05e7\u05e0\u05d9 ISO/TS 16949","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd","\u05de\u05d5\u05ea\u05d0\u05dd \u05dc\u05db\u05dc \u05d3\u05d2\u05de\u05d9 \u05d4\u05e8\u05db\u05d1 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd"]},
+    "MANN-FILTER":{name:"MANN-FILTER",description:"\u05de\u05d5\u05ea\u05d2 \u05d4\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d4\u05de\u05d5\u05d1\u05d9\u05dc \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4.",founded:"1941",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#1a4690",highlights:["\u05e1\u05d9\u05e0\u05d5\u05df \u05d9\u05e2\u05d9\u05dc \u05e9\u05dc 99.98%","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d4\u05d2\u05e0\u05d4 \u05de\u05e4\u05e0\u05d9 \u05dc\u05db\u05dc\u05d5\u05da \u05d5\u05d0\u05d1\u05e7","\u05de\u05d0\u05e8\u05d9\u05da \u05d7\u05d9\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2"]},
+    "MAHLE":{name:"Mahle",description:"\u05e7\u05d1\u05d5\u05e6\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9\u05ea.",founded:"1920",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#005b8e",highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d1\u05d3\u05d9\u05e7\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d4","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05ea\u05e7\u05e0\u05d9 \u05d4\u05e1\u05d1\u05d9\u05d1\u05d4","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd"]},
+    "VALEO":{name:"Valeo",description:"\u05e1\u05e4\u05e7\u05d9\u05ea OEM \u05e6\u05e8\u05e4\u05ea\u05d9\u05ea.",founded:"1923",country:"\u05e6\u05e8\u05e4\u05ea",color:"#003087"},
+    "TRW":{name:"TRW",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05dc\u05e8\u05db\u05d1.",founded:"1901",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003399",highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d1\u05d8\u05d9\u05d7\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]},
+    "FEBI BILSTEIN":{name:"Febi Bilstein",description:"\u05d7\u05d1\u05e8\u05d4 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea \u05e2\u05dd \u05de\u05e2\u05dc 175 \u05e9\u05e0\u05d5\u05ea \u05e0\u05d9\u05e1\u05d9\u05d5\u05df.",founded:"1844",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e8001c"},
+    "MEYLE":{name:"Meyle",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d2\u05e8\u05de\u05e0\u05d9\u05ea.",founded:"1958",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#0057a8",highlights:["\u05e7\u05d5 MEYLE-HD","\u05d0\u05d9\u05db\u05d5\u05ea OEM \u05d5\u05de\u05e2\u05dc\u05d4","\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05de\u05d7\u05de\u05d9\u05e8\u05d5\u05ea","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05d3\u05e8\u05d9\u05e9\u05d4 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d9\u05d9\u05dd"]},
+    "SKF":{name:"SKF",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05de\u05d9\u05e1\u05d1\u05d9\u05dd.",founded:"1907",country:"\u05e9\u05d5\u05d5\u05d3\u05d9\u05d4",color:"#003087"},
+    "NGK":{name:"NGK",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05d4\u05de\u05e6\u05ea\u05d9\u05dd \u05d4\u05d2\u05d3\u05d5\u05dc\u05d4 \u05d1\u05e2\u05d5\u05dc\u05dd.",founded:"1936",country:"\u05d9\u05e4\u05df",color:"#cc0000",highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05e2\u05de\u05d9\u05d3\u05d5\u05ea \u05d1\u05d8\u05de\u05e4\u05e8\u05d8\u05d5\u05e8\u05d5\u05ea \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d5\u05ea","\u05d4\u05e6\u05ea\u05d4 \u05d9\u05e6\u05d9\u05d1\u05d4 \u05d5\u05d7\u05d9\u05e1\u05db\u05d5\u05df \u05d1\u05d3\u05dc\u05e7","\u05de\u05ea\u05d0\u05d9\u05de\u05d9\u05dd \u05dc\u05db\u05dc \u05e1\u05d5\u05d2\u05d9 \u05d4\u05de\u05e0\u05d5\u05e2\u05d9\u05dd"]},
+    "DENSO":{name:"Denso",description:"\u05e1\u05e4\u05e7\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05d9\u05e4\u05e0\u05d9\u05ea.",founded:"1949",country:"\u05d9\u05e4\u05df",color:"#003087"},
+    "SACHS":{name:"Sachs",description:"\u05de\u05d5\u05ea\u05d2 \u05d1\u05d5\u05dc\u05de\u05d9 \u05d6\u05e2\u05d6\u05d5\u05e2\u05d9\u05dd.",founded:"1894",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000"},
+    "LUK":{name:"LuK",description:"\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05de\u05e6\u05de\u05d3 \u05d5\u05d4\u05e0\u05e2\u05d4.",founded:"1965",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f"},
+    "INA":{name:"INA",description:"\u05de\u05d9\u05e1\u05d1\u05d9\u05dd, \u05e2\u05e8\u05db\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2.",founded:"1946",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#e2000f"},
+    "CONTINENTAL":{name:"Continental",description:"\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2 \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4.",founded:"1871",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
+    "GATES":{name:"Gates",description:"\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d5\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d4\u05e0\u05e2\u05d4.",founded:"1911",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#003087"},
+    "HENGST":{name:"Hengst",description:"\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05dd.",founded:"1958",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
+    "DAYCO":{name:"Dayco",description:"\u05e8\u05e6\u05d5\u05e2\u05d5\u05ea \u05d8\u05d9\u05d9\u05de\u05d9\u05e0\u05d2.",founded:"1905",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#cc0000"},
+    "LEMFORDER":{name:"Lemf\u00f6rder",description:"\u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05d5\u05d4\u05d9\u05d2\u05d5\u05d9.",founded:"1947",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
+    "TEXTAR":{name:"Textar",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05de\u05d5\u05d1\u05d9\u05dc\u05d5\u05ea.",founded:"1913",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000",highlights:["\u05e2\u05de\u05d9\u05d3\u05d4 \u05d1\u05ea\u05e7\u05df ECE R90","\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05dc\u05dc\u05d0 \u05d0\u05e1\u05d1\u05e1\u05d8","\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd \u05d2\u05d1\u05d5\u05d4\u05d9\u05dd"]},
+    "ATE":{name:"ATE",description:"\u05d3\u05d9\u05e1\u05e7\u05d9 \u05d1\u05dc\u05dd \u05d5\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea.",founded:"1906",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
+    "KNECHT":{name:"Knecht",description:"\u05e4\u05d9\u05dc\u05d8\u05e8\u05d9 Mahle.",founded:"1927",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#005b8e"},
     "NIPPARTS":{name:"Nipparts",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05e1\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd.",founded:"1975",country:"\u05d4\u05d5\u05dc\u05e0\u05d3",color:"#cc0000"},
-    "BLUE PRINT":{name:"Blue Print",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05e1\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd \u05d5\u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05d9\u05dd.",founded:"1997",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "MOTUL":{name:"Motul",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05e1\u05d9\u05e0\u05ea\u05d8\u05d9\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd. \u05d9\u05d3\u05d5\u05e2 \u05de\u05e2\u05d5\u05dc\u05dd \u05d4\u05de\u05d9\u05e8\u05d5\u05e6\u05d9\u05dd.",founded:"1853",country:"\u05e6\u05e8\u05e4\u05ea",color:"#cc0000"},
-    "CASTROL":{name:"Castrol",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd. \u05d7\u05dc\u05e7 BP.",founded:"1899",country:"\u05d1\u05e8\u05d9\u05d8\u05e0\u05d9\u05d4",color:"#009900"},
-    "LIQUI MOLY":{name:"Liqui Moly",description:"\u05e9\u05de\u05e0\u05d9\u05dd \u05d5\u05ea\u05d5\u05e1\u05e4\u05d9 \u05d3\u05dc\u05e7 \u05d2\u05e8\u05de\u05e0\u05d9\u05d9\u05dd \u05d1\u05d0\u05d9\u05db\u05d5\u05ea \u05d2\u05d1\u05d5\u05d4\u05d4.",founded:"1957",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000"},
-    "MOBIL":{name:"Mobil",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 ExxonMobil. \u05e1\u05d3\u05e8\u05ea Mobil 1 \u05d4\u05e1\u05d9\u05e0\u05ea\u05d8\u05d9\u05ea.",founded:"1911",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#cc0000"},
-    "OSRAM":{name:"Osram",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05ea\u05d0\u05d5\u05e8\u05d4 \u05dc\u05e8\u05db\u05d1.",founded:"1919",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
-    "PHILIPS":{name:"Philips",description:"\u05ea\u05d0\u05d5\u05e8\u05d4 \u05dc\u05e8\u05db\u05d1 \u2014 \u05d4\u05dc\u05d5\u05d2\u05df, LED \u05d5\u05e7\u05e1\u05e0\u05d5\u05df.",founded:"1891",country:"\u05d4\u05d5\u05dc\u05e0\u05d3",color:"#0096d6"},
-    "SWAG":{name:"Swag",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05e9\u05dc Bilstein Group.",founded:"1954",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
-    "TOPRAN":{name:"Topran",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05d9\u05e8\u05d5\u05e4\u05d0\u05d9\u05d9\u05dd.",founded:"1996",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
+    "BLUE PRINT":{name:"Blue Print",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d0\u05e1\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd.",founded:"1997",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
+    "MOTUL":{name:"Motul",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05e1\u05d9\u05e0\u05ea\u05d8\u05d9\u05d9\u05dd.",founded:"1853",country:"\u05e6\u05e8\u05e4\u05ea",color:"#cc0000"},
+    "CASTROL":{name:"Castrol",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 \u05de\u05d5\u05d1\u05d9\u05dc\u05d9\u05dd.",founded:"1899",country:"\u05d1\u05e8\u05d9\u05d8\u05e0\u05d9\u05d4",color:"#009900"},
+    "LIQUI MOLY":{name:"Liqui Moly",description:"\u05e9\u05de\u05e0\u05d9\u05dd \u05d2\u05e8\u05de\u05e0\u05d9\u05d9\u05dd.",founded:"1957",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#cc0000"},
+    "MOBIL":{name:"Mobil",description:"\u05e9\u05de\u05e0\u05d9 \u05de\u05e0\u05d5\u05e2 ExxonMobil.",founded:"1911",country:"\u05d0\u05e8\u05d4\"\u05d1",color:"#cc0000"},
+    "OSRAM":{name:"Osram",description:"\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05d1\u05ea\u05d0\u05d5\u05e8\u05d4.",founded:"1919",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#ffa500"},
+    "PHILIPS":{name:"Philips",description:"\u05ea\u05d0\u05d5\u05e8\u05d4 \u05dc\u05e8\u05db\u05d1.",founded:"1891",country:"\u05d4\u05d5\u05dc\u05e0\u05d3",color:"#0096d6"},
+    "SWAG":{name:"Swag",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3.",founded:"1954",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
+    "TOPRAN":{name:"Topran",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3.",founded:"1996",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#003087"},
     "RIDEX":{name:"Ridex",description:"\u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05d1\u05de\u05d7\u05d9\u05e8 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9.",founded:"",country:"",color:"#003087"},
-    "HI-Q":{name:"Hi-Q",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e9\u05dc Sangsin Brake \u05d4\u05e7\u05d5\u05e8\u05d0\u05d9\u05ea.",founded:"1975",country:"\u05e7\u05d5\u05e8\u05d0\u05d4",color:"#e2000f"},
-    "ICER":{name:"Icer",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e1\u05e4\u05e8\u05d3\u05d9\u05d5\u05ea \u05d1\u05d0\u05d9\u05db\u05d5\u05ea OEM.",founded:"1963",country:"\u05e1\u05e4\u05e8\u05d3",color:"#003087"},
-    "SANGSIN":{name:"Sangsin Brake",description:"\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05e7\u05d5\u05e8\u05d0\u05d9\u05d5\u05ea. \u05e1\u05e4\u05e7\u05d9\u05ea OEM \u05dc\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9/\u05e7\u05d9\u05d4.",founded:"1975",country:"\u05e7\u05d5\u05e8\u05d0\u05d4",color:"#cc0000"},
+    "HI-Q":{name:"Hi-Q",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e9\u05dc Sangsin.",founded:"1975",country:"\u05e7\u05d5\u05e8\u05d0\u05d4",color:"#e2000f"},
+    "ICER":{name:"Icer",description:"\u05e8\u05e4\u05d9\u05d3\u05d5\u05ea \u05d1\u05dc\u05dd \u05e1\u05e4\u05e8\u05d3\u05d9\u05d5\u05ea.",founded:"1963",country:"\u05e1\u05e4\u05e8\u05d3",color:"#003087"},
+    "SANGSIN":{name:"Sangsin Brake",description:"\u05de\u05e2\u05e8\u05db\u05d5\u05ea \u05d1\u05dc\u05d9\u05de\u05d4 \u05e7\u05d5\u05e8\u05d0\u05d9\u05d5\u05ea.",founded:"1975",country:"\u05e7\u05d5\u05e8\u05d0\u05d4",color:"#cc0000"},
     "MONTECCHIO":{name:"Montecchio",description:"\u05d0\u05d4\u05e8\u05d5\u05df \u05de\u05d5\u05e0\u05d8\u05e7\u05d9\u05d5 \u05d1\u05e2\"\u05de \u2014 \u05d4\u05d7\u05d1\u05e8\u05d4 \u05d4\u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05e9\u05d5\u05e7 \u05d7\u05dc\u05e7\u05d9 \u05d4\u05d7\u05d9\u05dc\u05d5\u05e3 \u05d1\u05d9\u05e9\u05e8\u05d0\u05dc \u05de\u05d0\u05d6 1947.",founded:"1947",country:"\u05d9\u05e9\u05e8\u05d0\u05dc",color:"#1a3c6e"},
     "TOYOTA":{name:"\u05d8\u05d5\u05d9\u05d5\u05d8\u05d4 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc \u05d8\u05d5\u05d9\u05d5\u05d8\u05d4/\u05dc\u05e7\u05e1\u05d5\u05e1.",founded:"",country:"\u05d9\u05e4\u05df",color:"#eb0a1e",highlights:H},
-    "HYUNDAI":{name:"\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9/\u05e7\u05d9\u05d4 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc \u05e7\u05d1\u05d5\u05e6\u05ea \u05d9\u05d5\u05e0\u05d3\u05d0\u05d9-\u05e7\u05d9\u05d4.",founded:"",country:"\u05d3\u05e8\u05d5\u05dd \u05e7\u05d5\u05e8\u05d0\u05d4",color:"#002c5f",highlights:H},
+    "HYUNDAI":{name:"\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9/\u05e7\u05d9\u05d4 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9.",founded:"",country:"\u05d3\u05e8\u05d5\u05dd \u05e7\u05d5\u05e8\u05d0\u05d4",color:"#002c5f",highlights:H},
     "RENAULT":{name:"\u05e8\u05e0\u05d5 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc \u05e8\u05e0\u05d5.",founded:"",country:"\u05e6\u05e8\u05e4\u05ea",color:"#ffcc00",highlights:H},
-    "PSA":{name:"\u05e4\u05d9\u05d6'\u05d5/\u05e1\u05d9\u05d8\u05e8\u05d5\u05d0\u05df \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc Stellantis.",founded:"",country:"\u05e6\u05e8\u05e4\u05ea",color:"#1f3c88",highlights:H},
-    "MERCEDES":{name:"\u05de\u05e8\u05e6\u05d3\u05e1-\u05d1\u05e0\u05e5 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc Mercedes-Benz.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#333333",highlights:H},
+    "PSA":{name:"\u05e4\u05d9\u05d6'\u05d5/\u05e1\u05d9\u05d8\u05e8\u05d5\u05d0\u05df \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9.",founded:"",country:"\u05e6\u05e8\u05e4\u05ea",color:"#1f3c88",highlights:H},
+    "MERCEDES":{name:"\u05de\u05e8\u05e6\u05d3\u05e1-\u05d1\u05e0\u05e5 \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#333333",highlights:H},
     "BMW":{name:"BMW \u05de\u05e7\u05d5\u05e8\u05d9",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc BMW.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#1c69d4",highlights:H},
-    "VAG ORIGINAL":{name:"VAG Original",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc VAG (VW, Audi, Skoda, Seat).",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#001e50",highlights:H},
-    "VAG":{name:"VAG Original",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc VAG (VW, Audi, Skoda, Seat).",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#001e50",highlights:H},
-    "AYD":{name:"AYD",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05d9\u05d2\u05d5\u05d9, \u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05d5\u05d1\u05dc\u05d9\u05de\u05d4 \u05de\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4. \u05d0\u05d9\u05db\u05d5\u05ea OEM.",founded:"1975",country:"\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4",color:"#0054a6",
-      highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05e1\u05e4\u05e7 OEM \u05dc\u05d9\u05e6\u05e8\u05e0\u05d9 \u05e8\u05db\u05d1 \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4, \u05d0\u05e1\u05d9\u05d4 \u05d5\u05d0\u05de\u05e8\u05d9\u05e7\u05d4","\u05ea\u05e7\u05df ISO \u2014 \u05d1\u05e7\u05e8\u05ea \u05d0\u05d9\u05db\u05d5\u05ea \u05d1\u05db\u05dc \u05e9\u05dc\u05d1","\u05d9\u05d9\u05e6\u05d5\u05e8 \u05de\u05ea\u05e7\u05d3\u05dd \u05d1\u05de\u05e4\u05e2\u05dc \u05d0\u05d7\u05d3","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05de\u05d6\u05d2 \u05d0\u05d5\u05d5\u05d9\u05e8 \u05d5\u05db\u05d1\u05d9\u05e9 \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05dd"]},
-    "TEKNOROT":{name:"Teknorot",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05d9\u05d2\u05d5\u05d9 \u05d5\u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05de\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d1\u05d0\u05d9\u05e8\u05d5\u05e4\u05d4. \u05ea\u05e7\u05df IATF 16949.",founded:"1992",country:"\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4",color:"#e31e24",
-      highlights:["\u05ea\u05e7\u05df IATF 16949 + ISO 9001","\u05e4\u05dc\u05d3\u05d4 \u05de\u05d7\u05d5\u05e9\u05dc\u05ea \u2014 \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05e2\u05de\u05d9\u05d3\u05d9\u05dd \u05de\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d7\u05d5\u05d6\u05e7","\u05d7\u05d5\u05de\u05e8\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd \u2014 \u05d1\u05e8\u05d6\u05dc \u05d5\u05d0\u05dc\u05d5\u05de\u05d9\u05e0\u05d9\u05d5\u05dd \u05de\u05d7\u05d5\u05e9\u05dc","\u05e2\u05d5\u05d1\u05e8 \u05de\u05d1\u05d7\u05e0\u05d9 \u05d7\u05d5\u05d6\u05e7 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05ea\u05e7\u05e0\u05d4 \u05d1\u05e8\u05db\u05d1"]}
+    "VAG ORIGINAL":{name:"VAG Original",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc VAG.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#001e50",highlights:H},
+    "VAG":{name:"VAG Original",description:"\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc VAG.",founded:"",country:"\u05d2\u05e8\u05de\u05e0\u05d9\u05d4",color:"#001e50",highlights:H},
+    "AYD":{name:"AYD",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05d9\u05d2\u05d5\u05d9 \u05d5\u05d4\u05ea\u05dc\u05d9\u05d9\u05d4 \u05de\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4.",founded:"1975",country:"\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4",color:"#0054a6",highlights:["\u05d0\u05d9\u05db\u05d5\u05ea OEM","\u05ea\u05e7\u05df ISO","\u05d9\u05d9\u05e6\u05d5\u05e8 \u05de\u05ea\u05e7\u05d3\u05dd","\u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05ea\u05e0\u05d0\u05d9 \u05de\u05d6\u05d2 \u05e7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05dd"]},
+    "TEKNOROT":{name:"Teknorot",description:"\u05d9\u05e6\u05e8\u05e0\u05d9\u05ea \u05e8\u05db\u05d9\u05d1\u05d9 \u05d4\u05d9\u05d2\u05d5\u05d9 \u05d5\u05d4\u05ea\u05dc\u05d9\u05d9\u05d4.",founded:"1992",country:"\u05d8\u05d5\u05e8\u05e7\u05d9\u05d4",color:"#e31e24",highlights:["\u05ea\u05e7\u05df IATF 16949","\u05e4\u05dc\u05d3\u05d4 \u05de\u05d7\u05d5\u05e9\u05dc\u05ea","\u05d7\u05d5\u05de\u05e8\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd","\u05e2\u05d5\u05d1\u05e8 \u05de\u05d1\u05d7\u05e0\u05d9 \u05d7\u05d5\u05d6\u05e7"]}
   };
 
   /* ===================================================
-     STEP 4: Extract data from Konimbo DOM
+     STEP 3: Extract data from Konimbo DOM
      =================================================== */
   function getText(el) { return el ? (el.textContent || el.innerText || '').trim() : ''; }
 
@@ -190,20 +395,19 @@
   var stockText = '\u05d6\u05de\u05d9\u05df \u05d1\u05de\u05dc\u05d0\u05d9';
 
   /* ===================================================
-     STEP 5: Brand detection
+     STEP 4: Brand detection
      =================================================== */
   var detectedBrand = '';
   var titleUpper = productTitle.toUpperCase();
   var brandAliases = {
-    'MANN ':'MANN-FILTER','MANN FILTER':'MANN-FILTER','FEBI':'FEBI BILSTEIN','LIQUI':'LIQUI MOLY',
-    'LIQUI-MOLY':'LIQUI MOLY','BLUE PRINT':'BLUE PRINT','BLUEPRINT':'BLUE PRINT',
-    'HI Q':'HI-Q','HIQ':'HI-Q','VOLKSWAGEN':'VAG','AUDI ':'VAG','SKODA':'VAG','SEAT ':'VAG',
-    'CUPRA':'VAG','VW ':'VAG'
+    'MANN ':'MANN-FILTER','MANN FILTER':'MANN-FILTER','FEBI':'FEBI BILSTEIN',
+    'LIQUI':'LIQUI MOLY','LIQUI-MOLY':'LIQUI MOLY','BLUE PRINT':'BLUE PRINT',
+    'BLUEPRINT':'BLUE PRINT','HI Q':'HI-Q','HIQ':'HI-Q',
+    'VOLKSWAGEN':'VAG','AUDI ':'VAG','SKODA':'VAG','SEAT ':'VAG','CUPRA':'VAG'
   };
-
-  var bKeys = Object.keys(BRAND_INFO);
-  for (var bk = 0; bk < bKeys.length; bk++) {
-    if (titleUpper.indexOf(bKeys[bk]) !== -1) { detectedBrand = bKeys[bk]; break; }
+  var brandKeys = Object.keys(BRAND_INFO);
+  for (var bk = 0; bk < brandKeys.length; bk++) {
+    if (titleUpper.indexOf(brandKeys[bk]) !== -1) { detectedBrand = brandKeys[bk]; break; }
   }
   if (!detectedBrand) {
     var alKeys = Object.keys(brandAliases);
@@ -244,7 +448,7 @@
   }
 
   /* ===================================================
-     STEP 6: Find insertion target
+     STEP 5: Find insertion target
      =================================================== */
   var targetInsertEl = document.getElementById('item_show')||document.getElementById('item_details')||
     document.getElementById('item_content')||document.getElementById('content_area')||
@@ -263,7 +467,7 @@
   if (!targetInsertEl) return;
 
   /* ===================================================
-     STEP 7: Build HTML
+     STEP 6: Build HTML using EXACT demo class names (prefixed with an-)
      =================================================== */
   var highlights = brandData.highlights || [
     '\u05d0\u05d9\u05db\u05d5\u05ea OEM \u2014 \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7 \u05e9\u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d4\u05e8\u05db\u05d1',
@@ -274,11 +478,11 @@
 
   var cartSvg = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
   var cartSvgSm = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>';
-  var chev = '<svg class="an-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
+  var chevSvg = '<svg class="an-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
   var vehChev = '<svg class="an-veh-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
-  var modelChev = '<svg class="an-veh-model-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
+  var modChev = '<svg class="an-veh-model-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
 
-  // Images
+  /* Images */
   var mainImgHtml = '', thumbsHtml = '';
   if (imageUrls.length > 0) {
     mainImgHtml = '<img src="'+imageUrls[0]+'" alt="'+productTitle+'" id="an-main-img">';
@@ -294,7 +498,7 @@
     thumbsHtml = '<div class="an-thumb an-thumb-active"><div class="an-thumb-ph">'+bN+'</div></div><div class="an-thumb"><div class="an-thumb-ph">'+bN+'</div></div><div class="an-thumb"><div class="an-thumb-ph">'+bN+'</div></div>';
   }
 
-  // Breadcrumb
+  /* Breadcrumb */
   var bcHtml = '';
   if (breadcrumbItems.length > 0) {
     for (var bci = 0; bci < breadcrumbItems.length; bci++) {
@@ -305,18 +509,15 @@
   }
   bcHtml += '<span class="an-current">'+productTitle.substring(0,60)+'</span>';
 
-  // Price
+  /* Price */
   var cleanPrice = productPrice.replace(/[\u20aa]/g,'').replace(/[^\d,. ]/g,'').trim();
   var priceDisplay = cleanPrice ? cleanPrice+' \u20aa' : (priceEl ? getText(priceEl) : '');
 
-  // Highlights list
+  /* Highlights list */
   var hlItems = '';
   for (var hl = 0; hl < highlights.length; hl++) hlItems += '<li>'+highlights[hl]+'</li>';
 
-  // Brand badge background color
-  var brandBadgeBg = brandData.color || '#1a4690';
-
-  // Brand card
+  /* Brand card */
   var brandCardHtml = '';
   if (!isOEMpart && brandData.name && brandData.description) {
     var bc4 = brandData.color || '#1a4690';
@@ -324,296 +525,294 @@
     var orig = brandData.country ? brandData.country+(brandData.founded?', '+brandData.founded:'') : '';
     brandCardHtml = '<div class="an-section-card"><div class="an-brand-card">' +
       '<div class="an-brand-sidebar" style="background:'+bc4+'"><span>'+bAb+'</span></div>' +
-      '<div class="an-brand-card-info"><h3>'+brandData.name+'</h3>' +
+      '<div class="an-brand-info"><h3>'+brandData.name+'</h3>' +
       (orig ? '<div class="an-brand-origin">'+orig+'</div>' : '') +
       '<p>'+brandData.description+'</p></div></div></div>';
   }
 
-  // Specs
+  /* Specs rows */
   var specRows = '';
   if (brandData.name && brandData.name !== '\u05d9\u05e6\u05e8\u05df') specRows += '<tr><td>\u05d9\u05e6\u05e8\u05df</td><td>'+brandData.name+'</td></tr>';
   if (skuValue) specRows += '<tr><td>\u05de\u05e7"\u05d8</td><td>'+skuValue+'</td></tr>';
   if (categoryLabel) specRows += '<tr><td>\u05e1\u05d5\u05d2 \u05de\u05d5\u05e6\u05e8</td><td>'+categoryLabel+'</td></tr>';
 
-  /* Build HTML */
+  /* ===== Build full HTML ===== */
   var html = '';
-  // Breadcrumb bar
-  html += '<div class="an-breadcrumb-bar"><nav class="an-breadcrumb">'+bcHtml+'</nav></div>';
-  // Page background + container
-  html += '<div class="an-page-bg"><div class="an-container">';
-  // Product layout (2-col desktop)
-  html += '<div class="an-product-layout">';
 
-  // LEFT/RIGHT col 1: images (right column in RTL = first in DOM)
-  html += '<div class="an-image-section">';
+  /* Breadcrumb bar */
+  html += '<div class="an-breadcrumb-bar"><nav class="an-breadcrumb">'+bcHtml+'</nav></div>';
+
+  /* Page background wrapper + container */
+  html += '<div class="an-page-bg"><div class="an-container">';
+
+  /* Product Top: 2-column grid (image + info) — matches demo .product-top */
+  html += '<div class="an-product-top">';
+
+  /* Left: Image Area — matches demo .product-image-area */
+  html += '<div class="an-product-image-area">';
   html += '<div class="an-main-image">'+mainImgHtml+'</div>';
   html += '<div class="an-thumb-row">'+thumbsHtml+'</div>';
+  html += '</div>'; /* end .an-product-image-area */
+
+  /* Right: Info Section — matches demo .product-info */
+  html += '<div class="an-info-section">';
+
+  /* Badge row — matches demo .badge-row */
+  html += '<div class="an-badge-row">';
+  if (skuValue) html += '<span class="an-sku-badge">\u05de\u05e7"\u05d8: '+skuValue+'</span>';
+  if (!isOEMpart && brandData.name) html += '<span class="an-brand-badge" style="background:'+(brandData.color||'#c8102e')+'">'+brandData.name+'</span>';
   html += '</div>';
 
-  // LEFT/RIGHT col 2: info
-  html += '<div class="an-info-section">';
-  // SKU + brand badges
-  html += '<div class="an-sku-brand-row">';
-  if (skuValue) html += '<span class="an-sku-badge">מק"ט: '+skuValue+'</span>';
-  if (!isOEMpart && brandData.name) html += '<span class="an-brand-badge" style="background:'+brandBadgeBg+'">'+brandData.name+'</span>';
-  html += '</div>';
-  // Title
+  /* Title — matches demo .product-title */
   html += '<h1 class="an-product-title">'+productTitle+'</h1>';
   if (productSubtitle) html += '<div class="an-product-subtitle">'+productSubtitle+'</div>';
-  // Stock
-  html += '<div class="an-stock-row"><span class="an-stock-dot"></span>'+stockText+'</div>';
-  // Price
-  html += '<div class="an-price-row"><span class="an-price-amount">'+priceDisplay+'</span><span class="an-price-vat">כולל מע"מ</span></div>';
-  // Cart row
-  html += '<div class="an-cart-row" id="an-cart-row" style="display:flex!important;flex-direction:column!important;gap:10px!important;align-items:stretch!important">';
-  html += '<div class="an-qty-selector"><button class="an-qty-btn" id="an-qty-minus">\u2212</button><input class="an-qty-input" id="an-qty-val" type="number" value="1" min="1" max="99" readonly><button class="an-qty-btn" id="an-qty-plus">+</button></div>';
-  html += '<button class="an-add-to-cart-btn" id="an-add-to-cart">'+cartSvg+'\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
-  html += '</div>';
-  // Seller note
-  html += '<div class="an-seller-note">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
-  // Trust box
-  html += '<div class="an-trust-box">';
-  html += '<div class="an-trust-item"><span>\uD83D\uDE9A</span><span>\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5</span></div>';
-  html += '<div class="an-trust-item"><span>\uD83D\uDEE1\uFE0F</span><span>\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7"\u05de</span></div>';
-  html += '<div class="an-trust-item"><span>\uD83C\uDFC6</span><span>\u05de\u05d5\u05e8\u05e9\u05d9\u05dd \u05de\u05e9\u05e8\u05d3 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4</span></div>';
-  html += '<div class="an-trust-item"><span>\uD83D\uDD12</span><span>\u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d5\u05d1\u05d8\u05d7 \u2014 SSL \u05de\u05d5\u05e6\u05e4\u05df</span></div>';
-  html += '<div class="an-trust-item"><span>\uD83D\uDCB3</span><span>\u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05ea\u05e9\u05dc\u05d5\u05de\u05d9\u05dd \u05d1\u05e7\u05d5\u05e4\u05d4</span></div>';
-  html += '</div>'; // trust-box
-  // Highlights section (not OEM, inside info section)
-  if (!isOEMpart) {
-    html += '<div class="an-highlights-box">';
-    html += '<div class="an-highlights-header" id="an-hl-hdr"><h2>\u2756 \u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd, \u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea</h2>'+chev+'</div>';
-    html += '<div class="an-highlights-content" id="an-hl-cnt"><ul class="an-highlights-list">'+hlItems+'</ul></div>';
-    html += '</div>';
-  }
-  html += '</div>'; // .an-info-section
-  html += '</div>'; // .an-product-layout
 
-  // Description card
-  html += '<div class="an-section-card">';
-  html += '<div class="an-section-header" id="an-desc-hdr"><h2>\u05ea\u05d9\u05d0\u05d5\u05e8 \u05d4\u05de\u05d5\u05e6\u05e8</h2>'+chev+'</div>';
+  /* Stock — matches demo .stock-status */
+  html += '<div class="an-stock-status"><span class="an-stock-dot"></span>'+stockText+'</div>';
+
+  /* Price — matches demo .price-section */
+  html += '<div class="an-price-section"><span class="an-price">'+priceDisplay+'</span><span class="an-price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2"\u05de</span></div>';
+
+  /* Cart Row: qty selector on separate row, then full-width cart button — matches demo .cart-row */
+  html += '<div class="an-cart-row" id="an-cart-row">';
+  html += '<div class="an-qty-selector"><button class="an-qty-btn" id="an-qty-minus">\u2212</button><div class="an-qty-value" id="an-qty-val">1</div><button class="an-qty-btn" id="an-qty-plus">+</button></div>';
+  html += '<button class="an-add-to-cart" id="an-add-to-cart">'+cartSvg+'\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
+  html += '</div>';
+
+  /* Sold by — matches demo .sold-by */
+  html += '<div class="an-sold-by">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
+
+  /* Trust Box — matches demo .trust-box */
+  html += '<div class="an-trust-box">';
+  html += '<div class="an-trust-item"><span class="an-icon">\uD83D\uDE9A</span><span>\u05de\u05e9\u05dc\u05d5\u05d7 \u05e2\u05d3 7 \u05d9\u05de\u05d9 \u05e2\u05e1\u05e7\u05d9\u05dd \u05dc\u05db\u05dc \u05d4\u05d0\u05e8\u05e5</span></div>';
+  html += '<div class="an-trust-item"><span class="an-icon">\uD83D\uDEE1\uFE0F</span><span>\u05d0\u05d7\u05e8\u05d9\u05d5\u05ea 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd / 6,000 \u05e7"\u05de</span></div>';
+  html += '<div class="an-trust-item"><span class="an-icon">\uD83C\uDFC6</span><span>\u05de\u05d5\u05e8\u05e9\u05d9\u05dd \u05de\u05e9\u05e8\u05d3 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4</span></div>';
+  html += '<div class="an-trust-item"><span class="an-icon">\uD83D\uDD12</span><span>\u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d5\u05d1\u05d8\u05d7 \u2014 SSL \u05de\u05d5\u05e6\u05e4\u05df</span></div>';
+  html += '<div class="an-trust-item"><span class="an-icon">\uD83D\uDCB3</span><span>\u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05ea\u05e9\u05dc\u05d5\u05de\u05d9\u05dd \u05d1\u05e7\u05d5\u05e4\u05d4</span></div>';
+  html += '</div>'; /* end .an-trust-box */
+
+  /* Highlights Box (inside info-section, collapsible) */
+  html += '<div class="an-highlights-box"><div class="an-highlights-header" id="an-hl-hdr"><h2>\u2756 \u05d1\u05d9\u05e6\u05d5\u05e2\u05d9\u05dd, \u05d0\u05d9\u05db\u05d5\u05ea \u05d5\u05d1\u05d8\u05d9\u05d7\u05d5\u05ea</h2>'+chevSvg+'</div>';
+  html += '<div class="an-highlights-content" id="an-hl-cnt"><ul class="an-highlights-list">'+hlItems+'</ul></div></div>';
+
+  html += '</div>'; /* end .an-info-section */
+  html += '</div>'; /* end .an-product-top */
+
+  /* Description Section — matches demo .section-card */
+  html += '<div class="an-section-card"><div class="an-section-header" id="an-desc-hdr"><h2>\u05ea\u05d9\u05d0\u05d5\u05e8</h2>'+chevSvg+'</div>';
   html += '<div class="an-section-body" id="an-desc-body">';
   html += productDescription ? '<div class="an-description-section">'+productDescription+'</div>' : '<p class="an-description-text">'+productTitle+'</p>';
   html += '</div></div>';
 
-  // Tech specs card
-  html += '<div class="an-section-card">';
-  html += '<div class="an-section-header" id="an-specs-hdr"><h2>\u05e4\u05e8\u05d8\u05d9\u05dd \u05d8\u05db\u05e0\u05d9\u05d9\u05dd</h2>'+chev+'</div>';
-  html += '<div class="an-section-body" id="an-specs-body">';
-  html += '<table class="an-specs-table"><tbody>'+specRows+'</tbody></table>';
-  html += '</div></div>';
+  /* Specs Section — matches demo .section-card with .specs-table */
+  html += '<div class="an-section-card"><div class="an-section-header" id="an-specs-hdr"><h2>\u05e4\u05e8\u05d8\u05d9\u05dd \u05d8\u05db\u05e0\u05d9\u05d9\u05dd</h2>'+chevSvg+'</div>';
+  html += '<div class="an-section-body" id="an-specs-body"><table class="an-specs-table"><tbody>'+specRows+'</tbody></table></div></div>';
 
-  // Brand card
+  /* Brand Card — matches demo .brand-card */
   html += brandCardHtml;
 
-  // TecDoc section placeholder
+  /* TecDoc Section — matches demo .section-card with .tabs / .tab-panel */
   html += '<div class="an-section-card" id="an-tecdoc-section">';
   html += '<div class="an-tecdoc-attribution"><div class="an-tecdoc-dot"></div><span>\u05e0\u05ea\u05d5\u05e0\u05d9\u05dd \u05de-TecDoc\u00ae Catalogue</span></div>';
   html += '<div id="an-tecdoc-wrap"></div>';
   html += '</div>';
 
-  html += '</div></div>'; // container + page-bg
+  html += '</div></div>'; /* end .an-container + .an-page-bg */
 
   /* ===================================================
-     STEP 8: Insert into DOM
+     STEP 7: Insert into DOM
      =================================================== */
   var wrapper = document.createElement('div');
   wrapper.id = 'an-product-redesign';
-  wrapper.className = 'an-product-redesign';
+  wrapper.setAttribute('dir', 'rtl');
   wrapper.innerHTML = html;
   targetInsertEl.parentNode.insertBefore(wrapper, targetInsertEl);
   var bCls = document.body.className || '';
   if (bCls.indexOf('an-redesigned') === -1) document.body.className = (bCls ? bCls + ' ' : '') + 'an-redesigned';
 
   /* ===================================================
-     STEP 9: Wire up interactions
+     STEP 8: Wire up interactions
      =================================================== */
-  // Qty +/-
-  var qtyInput = document.getElementById('an-qty-val');
+
+  /* Qty selector */
+  var qtyVal = document.getElementById('an-qty-val');
   var qtyMinus = document.getElementById('an-qty-minus');
   var qtyPlus = document.getElementById('an-qty-plus');
-  if (qtyMinus && qtyInput) qtyMinus.addEventListener('click', function() { var v=parseInt(qtyInput.value,10)||1; if(v>1) qtyInput.value=v-1; });
-  if (qtyPlus && qtyInput) qtyPlus.addEventListener('click', function() { var v=parseInt(qtyInput.value,10)||1; if(v<99) qtyInput.value=v+1; });
+  var qtyCount = 1;
+  function updateQtyDisplay() { if(qtyVal) qtyVal.textContent = qtyCount; }
+  if (qtyMinus) qtyMinus.addEventListener('click', function() { if(qtyCount>1){qtyCount--;updateQtyDisplay();} });
+  if (qtyPlus) qtyPlus.addEventListener('click', function() { if(qtyCount<99){qtyCount++;updateQtyDisplay();} });
 
+  /* Real cart click */
   function clickRealCart() {
     var btn = document.querySelector('.commit_to_real,a.buy_now,form#new_order input[type="submit"],form.productForm input[type="submit"]');
-    if (btn) { btn.click(); return true; } return false;
+    if (btn) { btn.click(); return true; }
+    return false;
   }
   var addBtn = document.getElementById('an-add-to-cart');
   if (addBtn) {
     addBtn.addEventListener('click', function(e) {
       e.preventDefault();
       var oq = document.querySelector('input[name="quantity"],input[id*="quantity"],select[name="quantity"]');
-      if (oq && qtyInput) oq.value = parseInt(qtyInput.value,10) || 1;
+      if (oq) oq.value = qtyCount;
       clickRealCart();
     });
   }
 
-  // Move TecDoc widget
+  /* Move TecDoc widget into our section */
   function moveTecDoc() {
     var tw = document.getElementById('tecdoc-widget');
     var wp = document.getElementById('an-tecdoc-wrap');
-    if (tw && wp && !wp.children.length) { wp.appendChild(tw); tw.style.display='block'; return true; }
+    if (tw && wp && !wp.querySelector('#tecdoc-widget')) {
+      wp.appendChild(tw);
+      tw.style.display = 'block';
+      return true;
+    }
     return false;
   }
-  if (!moveTecDoc()) { [1000,3000,6000,10000,15000].forEach(function(t){setTimeout(moveTecDoc,t);}); }
-
-  // Move .tw-purchase-row (TecDoc cart)
-  var cartMoved = false;
-  function moveCartRow() {
-    if (cartMoved) return true;
-    var twRow = document.querySelector('.tw-purchase-row');
-    var cartRow = document.getElementById('an-cart-row');
-    if (twRow && cartRow) { twRow.style.cssText='display:none !important'; cartRow.style.cssText='display:flex!important;flex-direction:column!important;gap:10px!important;align-items:stretch!important'; cartMoved=true; return true; }
-    return false;
-  }
-  if (!moveCartRow()) {
-    [300,800,1500,3000,5000,8000,12000].forEach(function(t){setTimeout(moveCartRow,t);});
+  if (!moveTecDoc()) {
+    [500,1500,3000,6000,10000,15000].forEach(function(t){ setTimeout(moveTecDoc, t); });
     if (typeof MutationObserver !== 'undefined') {
-      var cObs = new MutationObserver(function(){if(moveCartRow()) cObs.disconnect();});
-      cObs.observe(document.body,{childList:true,subtree:true});
-      setTimeout(function(){cObs.disconnect();},15000);
+      var tdObs = new MutationObserver(function(){ if(moveTecDoc()) tdObs.disconnect(); });
+      tdObs.observe(document.body, {childList:true, subtree:true});
+      setTimeout(function(){ tdObs.disconnect(); }, 20000);
     }
   }
 
-  // Thumbnail clicks
+  /* Hide Konimbo's .tw-purchase-row */
+  function hideTwPurchaseRow() {
+    var twRow = document.querySelectorAll('.tw-purchase-row');
+    for (var t = 0; t < twRow.length; t++) twRow[t].style.setProperty('display','none','important');
+  }
+  hideTwPurchaseRow();
+  [300,1000,3000,6000].forEach(function(t){ setTimeout(hideTwPurchaseRow, t); });
+
+  /* Thumbnail clicks */
   var thumbEls = document.querySelectorAll('#an-product-redesign .an-thumb[data-an-img]');
   var mainImg = document.getElementById('an-main-img');
   for (var th = 0; th < thumbEls.length; th++) {
     (function(thumb) {
       thumb.addEventListener('click', function() {
         var all = document.querySelectorAll('#an-product-redesign .an-thumb');
-        for (var t=0;t<all.length;t++) all[t].className=all[t].className.replace(/\s*an-thumb-active/g,'');
+        for (var t=0;t<all.length;t++) all[t].className = all[t].className.replace(/\s*an-thumb-active/g,'');
         thumb.className += ' an-thumb-active';
         if (mainImg) mainImg.src = thumb.getAttribute('data-an-img');
       });
     })(thumbEls[th]);
   }
 
-  // Highlights toggle
+  /* Highlights toggle */
   var hlHdr = document.getElementById('an-hl-hdr');
   var hlCnt = document.getElementById('an-hl-cnt');
   if (hlHdr && hlCnt) {
     hlHdr.addEventListener('click', function() {
-      var c = hlHdr.className||'';
-      if (c.indexOf('an-sec-col')!==-1) { hlHdr.className=c.replace(/\s*an-sec-col/g,''); hlCnt.style.display=''; }
-      else { hlHdr.className=c+' an-sec-col'; hlCnt.style.display='none'; }
+      var c = hlHdr.className || '';
+      if (c.indexOf('an-collapsed') !== -1) {
+        hlHdr.className = c.replace(/\s*an-collapsed/g,'');
+        hlCnt.style.display = '';
+      } else {
+        hlHdr.className = c + ' an-collapsed';
+        hlCnt.style.display = 'none';
+      }
     });
   }
 
-  // Section toggles
+  /* Section toggles */
   function setupToggle(hId, bId) {
-    var hE=document.getElementById(hId), bE=document.getElementById(bId);
-    if (!hE||!bE) return;
+    var hE = document.getElementById(hId), bE = document.getElementById(bId);
+    if (!hE || !bE) return;
     hE.addEventListener('click', function() {
-      var c=hE.className||'';
-      if(c.indexOf('an-sec-col')!==-1){hE.className=c.replace(/\s*an-sec-col/g,'');bE.style.display='';}
-      else{hE.className=c+' an-sec-col';bE.style.display='none';}
+      var c = hE.className || '';
+      if (c.indexOf('an-collapsed') !== -1) {
+        hE.className = c.replace(/\s*an-collapsed/g,'');
+        bE.style.display = '';
+      } else {
+        hE.className = c + ' an-collapsed';
+        bE.style.display = 'none';
+      }
     });
   }
   setupToggle('an-desc-hdr','an-desc-body');
   setupToggle('an-specs-hdr','an-specs-body');
 
-  // Vehicle group toggles (for TecDoc injected content)
-  function setupVehGroups() {
-    var grpHdrs = document.querySelectorAll('#an-product-redesign .an-veh-group-header');
-    for (var gh=0;gh<grpHdrs.length;gh++) {
-      (function(hdr){
-        hdr.addEventListener('click', function(){
-          var grp=hdr.parentElement;
-          var models=grp.querySelector('.an-veh-group-models');
-          if(!models) return;
-          var isOpen=grp.className.indexOf('an-open')!==-1;
-          if(isOpen){grp.className=grp.className.replace(/\s*an-open/g,'');models.style.display='none';}
-          else{grp.className+=' an-open';models.style.display='';}
-        });
-      })(grpHdrs[gh]);
+  /* Vehicle group accordion — delegated since TecDoc content loads async */
+  document.addEventListener('click', function(e) {
+    var hdr = null;
+    /* Check for veh-group-header */
+    var el = e.target;
+    while (el && el !== document) {
+      if (el.classList && el.classList.contains('an-veh-group-header')) { hdr = el; break; }
+      if (el.classList && el.classList.contains('an-veh-model-row')) { hdr = el; break; }
+      el = el.parentElement;
     }
-    var modelRows = document.querySelectorAll('#an-product-redesign .an-veh-model-row');
-    for (var mr=0;mr<modelRows.length;mr++) {
-      (function(row){
-        row.addEventListener('click', function(){
-          var item=row.parentElement;
-          var eng=item.querySelector('.an-veh-engines');
-          if(!eng) return;
-          var isOpen=item.className.indexOf('an-open')!==-1;
-          if(isOpen){item.className=item.className.replace(/\s*an-open/g,'');eng.style.display='none';}
-          else{item.className+=' an-open';eng.style.display='';}
-        });
-      })(modelRows[mr]);
+    if (!hdr) return;
+    if (hdr.classList.contains('an-veh-group-header')) {
+      var grp = hdr.parentElement;
+      var models = grp.querySelector('.an-veh-group-models');
+      if (models) {
+        var isOpen = grp.classList.contains('an-open');
+        if (isOpen) { grp.classList.remove('an-open'); models.style.display='none'; }
+        else { grp.classList.add('an-open'); models.style.display=''; }
+      }
+    } else if (hdr.classList.contains('an-veh-model-row')) {
+      var item = hdr.parentElement;
+      var engines = item.querySelector('.an-veh-engines');
+      if (engines) {
+        var isOpen2 = item.classList.contains('an-open');
+        if (isOpen2) { item.classList.remove('an-open'); engines.style.display='none'; }
+        else { item.classList.add('an-open'); engines.style.display=''; }
+      }
     }
-  }
-  setupVehGroups();
+  });
 
-  // Tab switching
-  function setupTabs() {
-    var tabs = document.querySelectorAll('#an-product-redesign .an-tab');
-    for (var tb=0;tb<tabs.length;tb++) {
-      (function(tab){
-        tab.addEventListener('click', function(){
-          var panelId = tab.getAttribute('data-an-panel');
-          if (!panelId) return;
-          var allTabs = document.querySelectorAll('#an-product-redesign .an-tab');
-          var allPanels = document.querySelectorAll('#an-product-redesign .an-tab-panel');
-          for (var at=0;at<allTabs.length;at++) allTabs[at].className=allTabs[at].className.replace(/\s*an-tab-active/g,'');
-          for (var ap=0;ap<allPanels.length;ap++) allPanels[ap].className=allPanels[ap].className.replace(/\s*an-tab-active/g,'');
-          tab.className+=' an-tab-active';
-          var panel=document.getElementById(panelId);
-          if(panel) panel.className+=' an-tab-active';
-        });
-      })(tabs[tb]);
+  /* Tab switching — delegated */
+  document.addEventListener('click', function(e) {
+    var tab = null;
+    var el2 = e.target;
+    while (el2 && el2 !== document) {
+      if (el2.classList && el2.classList.contains('an-tab')) { tab = el2; break; }
+      el2 = el2.parentElement;
     }
-  }
-  setupTabs();
+    if (!tab) return;
+    var tabsContainer = tab.parentElement;
+    var panelId = tab.getAttribute('data-panel');
+    if (!panelId) return;
+    /* Deactivate all tabs in container */
+    var allTabs = tabsContainer.querySelectorAll('.an-tab');
+    for (var t=0;t<allTabs.length;t++) allTabs[t].classList.remove('an-active');
+    tab.classList.add('an-active');
+    /* Deactivate all panels in parent section */
+    var section = tabsContainer.parentElement;
+    var allPanels = section.querySelectorAll('.an-tab-panel');
+    for (var p=0;p<allPanels.length;p++) allPanels[p].classList.remove('an-active');
+    var targetPanel = document.getElementById(panelId);
+    if (targetPanel) targetPanel.classList.add('an-active');
+  });
 
-  // Sticky mobile bar
+  /* ===================================================
+     STEP 9: Sticky mobile bar
+     =================================================== */
   var shortT = productTitle.length > 30 ? productTitle.substring(0,30)+'\u2026' : productTitle;
-  var sBH = '<div id="an-sticky-bar"><div class="an-sticky-inner"><div class="an-sticky-info"><span class="an-sticky-title">'+shortT+'</span><span class="an-sticky-price">'+priceDisplay+'</span></div><button class="an-sticky-buy" id="an-sticky-btn">'+cartSvgSm+'\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button></div></div>';
+  var sBarHtml = '<div id="an-sticky-bar"><div class="an-sticky-inner"><div class="an-sticky-info"><span class="an-sticky-title">'+shortT+'</span><span class="an-sticky-price">'+priceDisplay+'</span></div><button class="an-sticky-buy" id="an-sticky-btn">'+cartSvgSm+'\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button></div></div>';
   var sc = document.createElement('div');
-  sc.innerHTML = sBH;
+  sc.innerHTML = sBarHtml;
   document.body.appendChild(sc.firstChild);
   var sSBtn = document.getElementById('an-sticky-btn');
   if (sSBtn) sSBtn.addEventListener('click', function(e){e.preventDefault();clickRealCart();});
 
   var sBar = document.getElementById('an-sticky-bar');
-  var pLayout = document.querySelector('#an-product-redesign .an-product-layout');
+  var pTop = document.querySelector('#an-product-redesign .an-product-top');
   var sVis = false;
   function checkSticky() {
-    if (!pLayout||!sBar) return;
-    var r = pLayout.getBoundingClientRect();
+    if (!pTop || !sBar) return;
+    var r = pTop.getBoundingClientRect();
     var show = r.top < -200;
-    if (show !== sVis) { sVis=show; sBar.className=show?'an-sticky-visible':''; }
+    if (show !== sVis) {
+      sVis = show;
+      if (show) sBar.classList.add('an-sticky-visible');
+      else sBar.classList.remove('an-sticky-visible');
+    }
   }
   window.addEventListener('scroll', checkSticky, {passive:true});
-
-
-  // v2.5 hotfix: ensure cart row is visible
-  setTimeout(function() {
-    var cr = document.getElementById('an-cart-row');
-    if (cr && cr.style.display === 'none') {
-      cr.style.cssText = 'display:flex!important;flex-direction:column!important;gap:10px!important;align-items:stretch!important';
-      cr.removeAttribute('style');
-    }
-    var tw = document.querySelector('.tw-purchase-row');
-    if (tw) { tw.style.cssText = 'display:none !important'; }
-  }, 100);
-  setTimeout(function() {
-    var cr = document.getElementById('an-cart-row');
-    if (cr && cr.style.display === 'none') {
-      cr.style.cssText = 'display:flex!important;flex-direction:column!important;gap:10px!important;align-items:stretch!important';
-      cr.removeAttribute('style');
-    }
-    var tw = document.querySelector('.tw-purchase-row');
-    if (tw) { tw.style.cssText = 'display:none !important'; }
-  }, 2000);
-  setTimeout(function() {
-    var cr = document.getElementById('an-cart-row');
-    if (cr && cr.style.display === 'none') {
-      cr.style.cssText = 'display:flex!important;flex-direction:column!important;gap:10px!important;align-items:stretch!important';
-      cr.removeAttribute('style');
-    }
-    var tw = document.querySelector('.tw-purchase-row');
-    if (tw) { tw.style.cssText = 'display:none !important'; }
-  }, 5000);
 
 })();
