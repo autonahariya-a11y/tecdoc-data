@@ -586,4 +586,34 @@
   }
   window.addEventListener('scroll', checkSticky, {passive:true});
 
+
+  // v2.5 hotfix: ensure cart row is visible
+  setTimeout(function() {
+    var cr = document.getElementById('an-cart-row');
+    if (cr && cr.style.display === 'none') {
+      cr.style.cssText = '';
+      cr.removeAttribute('style');
+    }
+    var tw = document.querySelector('.tw-purchase-row');
+    if (tw) { tw.style.cssText = 'display:none !important'; }
+  }, 100);
+  setTimeout(function() {
+    var cr = document.getElementById('an-cart-row');
+    if (cr && cr.style.display === 'none') {
+      cr.style.cssText = '';
+      cr.removeAttribute('style');
+    }
+    var tw = document.querySelector('.tw-purchase-row');
+    if (tw) { tw.style.cssText = 'display:none !important'; }
+  }, 2000);
+  setTimeout(function() {
+    var cr = document.getElementById('an-cart-row');
+    if (cr && cr.style.display === 'none') {
+      cr.style.cssText = '';
+      cr.removeAttribute('style');
+    }
+    var tw = document.querySelector('.tw-purchase-row');
+    if (tw) { tw.style.cssText = 'display:none !important'; }
+  }, 5000);
+
 })();
