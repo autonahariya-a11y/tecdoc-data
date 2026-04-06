@@ -464,7 +464,7 @@
     if (cartMoved) return true;
     var twRow = document.querySelector('.tw-purchase-row');
     var cartRow = document.getElementById('an-cart-row');
-    if (twRow && cartRow) { cartRow.parentNode.insertBefore(twRow, cartRow.nextSibling); cartRow.style.display='none'; cartMoved=true; return true; }
+    if (twRow && cartRow) { twRow.style.cssText='display:none !important'; cartRow.style.cssText=''; cartMoved=true; return true; }
     return false;
   }
   if (!moveCartRow()) {
