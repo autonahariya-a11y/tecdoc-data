@@ -180,7 +180,7 @@
 
       /* Brand Card */
       '.an-brand-card { display: flex !important; align-items: stretch !important; overflow: hidden !important; }',
-      '.an-brand-sidebar { width: 100px !important; min-height: 120px !important; display: flex !important; align-items: center !important; justify-content: center !important; flex-shrink: 0 !important; }',
+      '.an-brand-sidebar { width: 120px !important; min-height: 120px !important; display: flex !important; align-items: center !important; justify-content: center !important; flex-shrink: 0 !important; }',
       '.an-brand-sidebar span { color: white !important; font-size: 18px !important; font-weight: 800 !important; letter-spacing: 1px !important; writing-mode: horizontal-tb !important; }',
       '.an-brand-info { padding: 20px 24px !important; display: flex !important; flex-direction: column !important; gap: 6px !important; }',
       '.an-brand-info h3 { font-size: 18px !important; font-weight: 700 !important; color: var(--an-text) !important; }',
@@ -269,7 +269,7 @@
       '}'
     ,
 '@media(max-width:768px){.an-product-top{display:flex!important;flex-direction:column!important}.an-info-section{order:2!important}.an-product-image-area{order:2!important}}',
-'@media(max-width:768px){#tecdoc-widget .tw-tabs{flex-wrap:wrap!important;justify-content:center!important;gap:0!important}#tecdoc-widget .tw-tab{padding:10px 14px!important;font-size:13px!important;flex:1 1 auto!important;text-align:center!important;min-width:0!important}}'
+'@media(max-width:768px){#tecdoc-widget .tw-tabs{display:grid!important;grid-template-columns:1fr 1fr 1fr!important;gap:0!important;border-bottom:2px solid #f0f1f4!important;padding:0!important}#tecdoc-widget .tw-tab{padding:12px 4px!important;font-size:12px!important;text-align:center!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;border-bottom:3px solid transparent!important;margin-bottom:-2px!important}}'
     ,
 '.an-product-top{display:flex!important;flex-direction:column!important;gap:24px!important}',
 '.an-info-section{order:2!important}',
@@ -1036,7 +1036,7 @@
      =================================================== */
   if (!isOEMpart && brandData.name && brandData.description) {
     var bc4 = brandData.color || '#1a4690';
-    var bAb = brandData.name.toUpperCase(); if (bAb.length > 5) bAb = bAb.substring(0,5);
+    var bAb = brandData.name.toUpperCase();
     var orig = brandData.country ? brandData.country+(brandData.year?', '+(brandData.founded||brandData.year):'') : '';
     var flagStr = brandData.flag ? brandData.flag+' ' : '';
     html += '<div class="an-section-card">';
