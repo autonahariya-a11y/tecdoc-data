@@ -268,12 +268,12 @@
       '  .an-oe-chip { font-size: 12px !important; padding: 5px 10px !important; }',
       '}'
     ,
-'@media(max-width:768px){.an-product-top{display:flex!important;flex-direction:column!important}.an-info-section{order:1!important}.an-product-image-area{order:2!important}}',
+'@media(max-width:768px){.an-product-top{display:flex!important;flex-direction:column!important}.an-info-section{order:2!important}.an-product-image-area{order:2!important}}',
 '@media(max-width:768px){#tecdoc-widget .tw-tabs{flex-wrap:wrap!important;justify-content:center!important;gap:0!important}#tecdoc-widget .tw-tab{padding:10px 14px!important;font-size:13px!important;flex:1 1 auto!important;text-align:center!important;min-width:0!important}}'
     ,
 '.an-product-top{display:flex!important;flex-direction:column!important;gap:24px!important}',
-'.an-info-section{order:1!important}',
-'.an-product-image-area{order:2!important;max-width:600px!important;margin:0 auto!important}'
+'.an-info-section{order:2!important}',
+'.an-product-image-area{order:1!important;max-width:600px!important;margin:0 auto!important}'
     ].join('\n');
     document.head.appendChild(styleEl);
   }
