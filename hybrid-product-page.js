@@ -267,6 +267,9 @@
       '  .an-tecdoc-attribution { padding: 14px 16px 0 !important; }',
       '  .an-oe-chip { font-size: 12px !important; padding: 5px 10px !important; }',
       '}'
+    ,
+'@media(max-width:768px){.an-product-top{display:flex!important;flex-direction:column!important}.an-info-section{order:1!important}.an-product-image-area{order:2!important}}',
+'@media(max-width:768px){#tecdoc-widget .tw-tabs{flex-wrap:wrap!important;justify-content:center!important;gap:0!important}#tecdoc-widget .tw-tab{padding:10px 14px!important;font-size:13px!important;flex:1 1 auto!important;text-align:center!important;min-width:0!important}}'
     ].join('\n');
     document.head.appendChild(styleEl);
   }
@@ -694,7 +697,7 @@
       flag:"\uD83C\uDDF9\uD83C\uDDF7",
       year:"1992",
       color:"#e31e24",
-      description:"Teknorot \u05D4\u05D9\u05D0 \u05D9\u05E6\u05E8\u05E0\u05D9\u05EA \u05E8\u05DB\u05D9\u05D1\u05D9 \u05D4\u05D9\u05D2\u05D5\u05D9 \u05D5\u05D4\u05EA\u05DC\u05D9\u05D9\u05D4 \u05D8\u05D5\u05E8\u05E7\u05D9\u05EA \u05DE\u05D5\u05D1\u05D9\u05DC\u05D4, \u05E9\u05E0\u05D5\u05E1\u05D3\u05D4 \u05D1-1992 \u05D5\u05DE\u05EA\u05DE\u05D7\u05D4 \u05D1\u05D9\u05D9\u05E6\u05D5\u05E8 \u05DE\u05E9\u05D5\u05DC\u05E9\u05D9\u05DD, \u05DE\u05D5\u05D8\u05D5\u05EA \u05D4\u05D9\u05D2\u05D5\u05D9, \u05D6\u05E8\u05D5\u05E2\u05D5\u05EA \u05D5\u05E8\u05DB\u05D9\u05D1\u05D9 \u05DE\u05EA\u05DC\u05D9\u05D4 \u05DE\u05E4\u05DC\u05D3\u05D4 \u05DE\u05D7\u05D5\u05E9\u05DC\u05EA \u05D5\u05D0\u05DC\u05D5\u05DE\u05D9\u05E0\u05D9\u05D5\u05DD \u05DE\u05D7\u05D5\u05E9\u05DC. \u05D4\u05DE\u05E4\u05E2\u05DC \u05DE\u05E9\u05E8\u05EA \u05DC\u05DE\u05E2\u05DC\u05D4 \u05DE-200 \u05D9\u05E6\u05E8\u05E0\u05D9 \u05E8\u05DB\u05D1 \u05D1\u05E2\u05D5\u05DC\u05DD, \u05D5\u05DE\u05D9\u05D9\u05E6\u05E8\u05EA \u05DE\u05E2\u05DC 50 \u05DE\u05D9\u05DC\u05D9\u05D5\u05DF \u05D7\u05DC\u05E7\u05D9\u05DD \u05D1\u05E9\u05E0\u05D4. \u05DB\u05DC \u05D4\u05DE\u05D5\u05E6\u05E8\u05D9\u05DD \u05E2\u05D5\u05D1\u05E8\u05D9\u05DD \u05D1\u05D3\u05D9\u05E7\u05D5\u05EA \u05D7\u05D5\u05D6\u05E7 \u05DE\u05D7\u05DE\u05D9\u05E8\u05D5\u05EA \u05D5\u05E2\u05D5\u05DE\u05D3\u05D9\u05DD \u05D1\u05EA\u05E7\u05E0\u05D9 ISO 9001 \u05D5-IATF 16949, \u05DE\u05D4 \u05E9\u05DE\u05D1\u05D8\u05D9\u05D7 \u05D0\u05D9\u05DB\u05D5\u05EA \u05D5\u05D0\u05DE\u05D9\u05E0\u05D5\u05EA \u05D1\u05E8\u05DE\u05D4 \u05D4\u05D2\u05D1\u05D5\u05D4\u05D4 \u05D1\u05D9\u05D5\u05EA\u05E8.",
+      description:"Teknorot \u05D4\u05D9\u05D0 \u05D9\u05E6\u05E8\u05E0\u05D9\u05EA \u05E8\u05DB\u05D9\u05D1\u05D9 \u05D4\u05D9\u05D2\u05D5\u05D9 \u05D5\u05D4\u05EA\u05DC\u05D9\u05D9\u05D4 \u05D8\u05D5\u05E8\u05E7\u05D9\u05EA \u05DE\u05D5\u05D1\u05D9\u05DC\u05D4, \u05E9\u05E0\u05D5\u05E1\u05D3\u05D4 \u05D1-1992. \u05DE\u05EA\u05DE\u05D7\u05D4 \u05D1\u05D9\u05D9\u05E6\u05D5\u05E8 \u05DE\u05E9\u05D5\u05DC\u05E9\u05D9\u05DD, \u05DE\u05D5\u05D8\u05D5\u05EA, \u05D6\u05E8\u05D5\u05E2\u05D5\u05EA \u05D5\u05E8\u05DB\u05D9\u05D1\u05D9 \u05DE\u05EA\u05DC\u05D9\u05D4. \u05DE\u05E9\u05E8\u05EA\u05EA \u05DC\u05DE\u05E2\u05DC\u05D4 \u05DE-200 \u05D9\u05E6\u05E8\u05E0\u05D9 \u05E8\u05DB\u05D1, \u05D5\u05DE\u05D9\u05D9\u05E6\u05E8\u05EA \u05DE\u05E2\u05DC 50 \u05DE\u05D9\u05DC\u05D9\u05D5\u05DF \u05D7\u05DC\u05E7\u05D9\u05DD \u05D1\u05E9\u05E0\u05D4. \u05E2\u05D5\u05DE\u05D3\u05EA \u05D1-ISO 9001 \u05D5-IATF 16949.",
       highlights:["\u05ea\u05e7\u05df IATF 16949","\u05e4\u05dc\u05d3\u05d4 \u05de\u05d7\u05d5\u05e9\u05dc\u05ea","\u05d7\u05d5\u05de\u05e8\u05d9\u05dd \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd","\u05e2\u05d5\u05d1\u05e8 \u05de\u05d1\u05d7\u05e0\u05d9 \u05d7\u05d5\u05d6\u05e7"]
     }
   };
@@ -1223,4 +1226,4 @@
   }
   window.addEventListener('scroll', checkSticky, {passive:true});
 
-})();\n/* Mobile: image below title */\n@media (max-width: 768px) {\n  .an-product-top { display: flex !important; flex-direction: column !important; }\n  .an-info-section { order: 1 !important; }\n  .an-product-image-area { order: 2 !important; }\n}\n/* TecDoc tabs - wrap on mobile instead of scroll */\n@media (max-width: 768px) {\n  #tecdoc-widget .tw-tabs {\n    flex-wrap: wrap !important;\n    justify-content: center !important;\n    gap: 0 !important;\n  }\n  #tecdoc-widget .tw-tab {\n    padding: 10px 14px !important;\n    font-size: 13px !important;\n    flex: 1 1 auto !important;\n    text-align: center !important;\n    min-width: 0 !important;\n  }\n}\n
+})();
