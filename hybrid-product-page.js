@@ -789,28 +789,44 @@
 
   /* Extract description from Konimbo — multiple selector fallbacks */
   var productDescription = '';
+  /* Only look WITHIN the main product area to avoid related-product descriptions */
+  var searchRoot = document.querySelector('#item_main, #item_show, #item_details, #item_content') || document.body;
   var descSelectors = [
     '.item_description',
     '#item_description',
-    '[class*="item_desc"]',
-    '[id*="item_desc"]',
-    '#item_content .description',
     '.product-description',
-    '[class*="product_desc"]',
     '.item_details_text',
-    '[class*="item_details"]',
-    '#item_content'
+    '.description_text',
+    '#description'
   ];
   for (var ds = 0; ds < descSelectors.length; ds++) {
-    var descEl = document.querySelector(descSelectors[ds]);
-    if (descEl) {
-      var descHtml = descEl.innerHTML || '';
-      var descText = getText(descEl);
-      /* Skip if it's just the title or too short */
-      if (descText && descText.length > 20 && descText !== productTitle) {
-        productDescription = descHtml;
-        break;
+    var descEl = searchRoot.querySelector(descSelectors[ds]);
+    if (!descEl) continue;
+    /* Skip if inside a link or related-products carousel */
+    var parent = descEl;
+    var skipThis = false;
+    while (parent && parent !== searchRoot) {
+      if (parent.tagName === 'A' || (parent.className && 
+          (parent.className.indexOf('carousel') !== -1 || parent.className.indexOf('related') !== -1 ||
+           parent.className.indexOf('recommend') !== -1 || parent.className.indexOf('upsell') !== -1))) {
+        skipThis = true; break;
       }
+      parent = parent.parentElement;
+    }
+    if (skipThis) continue;
+    var rawText = (descEl.innerText || descEl.textContent || '').trim();
+    var rawHtml = descEl.innerHTML || '';
+    if (!rawText || rawText.length < 20 || rawText === productTitle) continue;
+    /* Handle description stored as literal HTML string: "<p>text</p>" */
+    if (rawText.charAt(0) === '<') {
+      var tmpEl = document.createElement('div');
+      tmpEl.innerHTML = rawText;
+      rawText = (tmpEl.innerText || tmpEl.textContent || '').trim();
+      rawHtml = tmpEl.innerHTML;
+    }
+    if (rawText.length > 20) {
+      productDescription = rawHtml || ('<p>' + rawText + '</p>');
+      break;
     }
   }
 
@@ -1017,7 +1033,21 @@
   html += '<div class="an-section-header" id="an-desc-hdr"><h2>\u05ea\u05d9\u05d0\u05d5\u05e8 \u05d4\u05de\u05d5\u05e6\u05e8</h2>'+chevSvg+'</div>';
   html += '<div class="an-section-body" id="an-desc-body">';
   if (productDescription) {
-    html += '<div class="an-description-section">'+productDescription+'</div>';
+    /* If description contains literal HTML tags as text, parse them */
+    var cleanDesc = productDescription;
+    if (cleanDesc.indexOf('&lt;') !== -1) {
+      var tmpDiv = document.createElement('div');
+      tmpDiv.innerHTML = cleanDesc;
+      cleanDesc = tmpDiv.textContent || tmpDiv.innerText || cleanDesc;
+    }
+    /* If starts with literal <p> tag as string text, wrap it properly */
+    var trimmed = cleanDesc.trim();
+    if (trimmed.charAt(0) === '<' && trimmed.charAt(1) !== '/') {
+      /* Treat it as HTML - use as-is */
+    } else if (trimmed.indexOf('<p>') === -1 && trimmed.length > 0) {
+      cleanDesc = '<p>' + cleanDesc.replace(/\n/g, '</p><p>') + '</p>';
+    }
+    html += '<div class="an-description-section">'+cleanDesc+'</div>';
   } else {
     html += '<p class="an-description-text">'+productTitle+' \u2014 \u05d7\u05dc\u05e7 \u05d0\u05d9\u05db\u05d5\u05ea\u05d9 \u05dc\u05e8\u05db\u05d1\u05da. \u05d1\u05d3\u05d9\u05e7\u05ea \u05d4\u05ea\u05d0\u05de\u05d4 \u05de\u05d5\u05e9\u05dc\u05de\u05ea \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da. \u05d0\u05e1\u05e4\u05e7\u05d4 \u05de\u05d9\u05d9\u05d3\u05d9\u05ea \u05de\u05d4\u05de\u05dc\u05d0\u05d9.</p>';
   }
