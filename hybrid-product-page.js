@@ -996,8 +996,8 @@
   html += '<div class="an-stock-status"><span class="an-stock-dot"></span>'+stockText+'</div>';
   html += '<div class="an-price-section"><span class="an-price">'+priceDisplay+'</span><span class="an-price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2"\u05de</span></div>';
   html += '<div class="an-cart-row" id="an-cart-row">';
-  html += '<div class="an-qty-selector"><button class="an-qty-btn" id="an-qty-minus">\u2212</button><div class="an-qty-value" id="an-qty-val">1</div><button class="an-qty-btn" id="an-qty-plus">+</button></div>';
-  html += '<button class="an-add-to-cart" id="an-add-to-cart">'+cartSvg+'\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
+  html += '<div class="an-qty-selector"><button type="button" class="an-qty-btn" id="an-qty-minus">\u2212</button><div class="an-qty-value" id="an-qty-val">1</div><button type="button" class="an-qty-btn" id="an-qty-plus">+</button></div>';
+  html += '<button type="button" class="an-add-to-cart" id="an-add-to-cart">'+cartSvg+'\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
   html += '</div>';
   html += '<div class="an-sold-by">\u05e0\u05de\u05db\u05e8 \u05d5\u05e0\u05e9\u05dc\u05d7 \u05e2\u05dc \u05d9\u05d3\u05d9 <strong>\u05d0\u05d5\u05d8\u05d5 \u05e0\u05d4\u05e8\u05d9\u05d4</strong></div>';
   html += '<div class="an-trust-box">';
@@ -1104,8 +1104,8 @@
   var qtyPlus = document.getElementById('an-qty-plus');
   var qtyCount = 1;
   function updateQtyDisplay() { if(qtyVal) qtyVal.textContent = qtyCount; }
-  if (qtyMinus) qtyMinus.addEventListener('click', function() { if(qtyCount>1){qtyCount--;updateQtyDisplay();} });
-  if (qtyPlus) qtyPlus.addEventListener('click', function() { if(qtyCount<99){qtyCount++;updateQtyDisplay();} });
+  if (qtyMinus) qtyMinus.addEventListener('click', function(e) { e.preventDefault();e.stopPropagation(); if(qtyCount>1){qtyCount--;updateQtyDisplay();} });
+  if (qtyPlus) qtyPlus.addEventListener('click', function(e) { e.preventDefault();e.stopPropagation(); if(qtyCount<99){qtyCount++;updateQtyDisplay();} });
 
   /* Real cart click */
   function clickRealCart() {
