@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+<meta charset="utf-8">
+<title>אוטו נהריה — דמו חיפוש חכם</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Rubik, Assistant, Heebo, Arial, sans-serif;
+    background: #f6f8fa;
+    color: #0B3E5C;
+    direction: rtl;
+    line-height: 1.5;
+  }
+  /* ─── Header (mimics Konimbo) ─── */
+  .site-header {
+    background: linear-gradient(135deg, #0B3E5C 0%, #1A9FD5 100%);
+    color: #fff;
+    padding: 18px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .site-header-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .logo {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background: #F37021;
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  .search-bar {
+    flex: 1;
+    min-width: 280px;
+    max-width: 500px;
+    position: relative;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 10px 44px 10px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    background: #fff;
+    color: #0B3E5C;
+  }
+  .search-bar::before {
+    content: "🔍";
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+  }
+  /* ─── Demo notice ─── */
+  .demo-notice {
+    background: #FFF4E6;
+    border-right: 4px solid #F37021;
+    padding: 12px 20px;
+    margin: 12px auto;
+    max-width: 1240px;
+    font-size: 13px;
+    color: #8B4513;
+    border-radius: 6px;
+  }
+  .demo-notice strong { color: #F37021; }
+  /* ─── Page layout ─── */
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+  }
+  .page h1 {
+    font-size: 22px;
+    margin: 20px 0 6px;
+    font-weight: 700;
+  }
+  .search-meta {
+    font-size: 13px;
+    color: #6b7d8f;
+    margin-bottom: 20px;
+  }
+  /* ─── Vehicle widget (minimal demo) ─── */
+  .vehicle-widget {
+    background: #fff;
+    border: 2px solid #1A9FD5;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 16px 0;
+    box-shadow: 0 4px 12px rgba(26,159,213,0.12);
+  }
+  .vehicle-widget h3 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    color: #0B3E5C;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .widget-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .widget-row select {
+    padding: 8px 12px;
+    border: 1px solid #ccd8e0;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #0B3E5C;
+    background: #fff;
+    min-width: 130px;
+  }
+  .widget-btn {
+    background: #F37021;
+    color: #fff;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .widget-btn:hover { background: #e05e10; }
+  /* ─── Product grid (Konimbo-style class names so filter catches them) ─── */
+  #items_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .item_ib {
+    background: #fff;
+    border: 1px solid #e4e9ed;
+    border-radius: 10px;
+    padding: 14px;
+    position: relative;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+  .item_ib:hover { box-shadow: 0 6px 16px rgba(11,62,92,0.1); transform: translateY(-2px); }
+  .item_ib .thumb {
+    width: 100%;
+    height: 160px;
+    background: #ffffff;
+    border: 1px solid #eef2f5;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .item_ib .thumb img {
+    max-width: 92%;
+    max-height: 92%;
+    object-fit: contain;
+  }
+  .item_ib h3 {
+    margin: 0 0 8px;
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 600;
+    min-height: 54px;
+    color: #0B3E5C;
+  }
+  .item_ib .category-tag {
+    font-size: 11px;
+    color: #6b7d8f;
+    margin-bottom: 4px;
+  }
+  .item_ib .price_box {
+    color: #F37021;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 8px 0 4px;
+  }
+  .item_ib .sku {
+    color: #8b9aa8;
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  .item_ib .card-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: auto;
+  }
+  .item_ib .btn-cart,
+  .item_ib .btn-product {
+    border: none;
+    border-radius: 6px;
+    padding: 9px 6px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .item_ib .btn-cart {
+    background: #F37021;
+    color: #fff;
+  }
+  .item_ib .btn-cart:hover { background: #e05e10; transform: translateY(-1px); }
+  .item_ib .btn-product {
+    background: #fff;
+    color: #1A9FD5;
+    border: 1.5px solid #1A9FD5;
+  }
+  .item_ib .btn-product:hover { background: #1A9FD5; color: #fff; }
+  .item_ib .btn-cart.added {
+    background: #2ea043; pointer-events: none;
+  }
+  .anh-match { border-color: #1A9FD5; box-shadow: 0 4px 12px rgba(26,159,213,0.12); }
+  .anh-no-match, .anh-unknown { opacity: 0.4; }
+
+  /* ─── Footer ─── */
+  .site-footer {
+    background: #0B3E5C;
+    color: rgba(255,255,255,0.7);
+    padding: 24px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Header mimicking Konimbo -->
+<div class="site-header">
+  <div class="site-header-inner">
+    <div class="logo">אוטו נהריה</div>
+    <div class="search-bar">
+      <input type="text" id="topSearch" placeholder="חפש חלקי רכב…">
+    </div>
+    <div style="font-size: 13px; opacity: 0.9;">📞 04-XXX-XXXX</div>
+  </div>
+</div>
+
+<!-- Demo notice -->
+<div class="demo-notice">
+  <strong>⚡ דמו לבחינת שלב 2:</strong> הסקריפט <code>search-filter.js</code> נטען בזמן אמת מ-GitHub Pages.
+  בדיוק אותה התנהגות שתהיה בחנות האמיתית ברגע שמוסיפים את שורת ה-script ל-Foot HTML.
+  נסה להחליף רכב בווידג'ט למעלה ולראות איך הסינון משתנה.
+</div>
+
+<div class="page">
+  <!-- Vehicle picker widget (simplified for demo) -->
+  <div class="vehicle-widget">
+    <h3>🚗 בחר רכב לסינון חכם</h3>
+    <div class="widget-row">
+      <select id="sel-make" onchange="updateModelOptions()">
+        <option value="טויוטה">טויוטה</option>
+        <option value="יונדאי">יונדאי</option>
+        <option value="קיה">קיה</option>
+        <option value="ניסן">ניסן</option>
+      </select>
+      <select id="sel-model">
+        <option value="קורולה">קורולה</option>
+        <option value="יאריס">יאריס</option>
+      </select>
+      <select id="sel-year">
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
+        <option value="2018" selected>2018</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+      </select>
+      <button class="widget-btn" onclick="updateVehicle()">חפש חלקים מתאימים</button>
+      <button class="widget-btn" style="background:#6b7d8f" onclick="clearVehicle()">נקה בחירה</button>
+    </div>
+  </div>
+
+  <h1>תוצאות חיפוש</h1>
+  <div class="search-meta" id="search-meta">טוען…</div>
+
+  <!-- Konimbo-style results container -->
+  <div id="items_list">
+    <!-- products rendered by JS -->
+  </div>
+</div>
+
+<div class="site-footer">
+  © 2026 אוטו נהריה · דמו לבחינת מערכת סינון חלקים לפי רכב
+</div>
+
+<script>
+/* ────────────────────────────────────────────────
+ * Demo bootstrap — simulates Konimbo /search page
+ * ──────────────────────────────────────────────── */
+
+/* Tell search-filter.js that it's running on /search even though the actual path
+   is something like /index.html — this avoids 404s while still activating filtering. */
+window.ANH_FORCE_SEARCH_PATH = true;
+
+/* Category icons mapping (must match search-filter.js) */
+const CAT_ICONS = {
+  'רפידות בלם':      'brake_pads',
+  'פילטר שמן':       'oil_filter',
+  'פילטר אויר':      'air_filter',
+  'רצועות אביזרים':  'belts',
+  'בולמי תא מטען':   'trunk_strut',
+  'משולשים':         'triangle',
+  'מצתים':           'sparkplugs',
+  'פילטר מזגן':      'cabin_filter',
+  'בולם מכסה מנוע':  'hood_strut',
+  'סליל הצתה':       'coil'
+};
+
+/* Initial vehicle from URL or default */
+function getParam(name) {
+  const q = new URLSearchParams(location.search);
+  return q.get(name) || '';
+}
+
+/* Models per make — aligned with strong demo coverage */
+const MODELS_BY_MAKE = {
+  'טויוטה':  ['קורולה','יאריס','אוריס','ראב4'],
+  'יונדאי':  ['טוסון','i20','i30','אלנטרה'],
+  'קיה':     ['פיקנטו','ספורטאז','סיד'],
+  'ניסן':   ['קשקאי','מיקרה']
+};
+
+function updateModelOptions() {
+  const make = document.getElementById('sel-make').value;
+  const modelSel = document.getElementById('sel-model');
+  const models = MODELS_BY_MAKE[make] || [];
+  modelSel.innerHTML = '';
+  models.forEach(m => {
+    const o = document.createElement('option');
+    o.value = m; o.textContent = m;
+    modelSel.appendChild(o);
+  });
+}
+
+function updateMeta() {
+  const make = getParam('make');
+  const model = getParam('model');
+  const year = getParam('year');
+  const el = document.getElementById('search-meta');
+  if (make || model || year) {
+    el.innerHTML = 'חיפוש עבור: <b>' + [make, model, year].filter(Boolean).join(' ') + '</b> · סינון חכם פעיל';
+    /* Sync make first, then repopulate model options for that make, then sync model */
+    var mkSel = document.getElementById('sel-make');
+    if (make && mkSel) {
+      for (const opt of mkSel.options) if (opt.value === make) { mkSel.value = make; break; }
+      if (typeof updateModelOptions === 'function') updateModelOptions();
+    }
+    var mdSel = document.getElementById('sel-model');
+    if (model && mdSel) {
+      for (const opt of mdSel.options) if (opt.value === model) { mdSel.value = model; break; }
+    }
+    var yrSel = document.getElementById('sel-year');
+    if (year && yrSel) {
+      for (const opt of yrSel.options) if (opt.value === year) { yrSel.value = year; break; }
+    }
+  } else {
+    el.textContent = 'הזן רכב בווידג\'ט למעלה וראה את הסינון החכם בפעולה';
+  }
+}
+
+function updateVehicle() {
+  const make = document.getElementById('sel-make').value;
+  const model = document.getElementById('sel-model').value;
+  const year = document.getElementById('sel-year').value;
+  const q = make + ' ' + model + ' ' + year;
+  const qs = '?q=' + encodeURIComponent(q) +
+    '&make=' + encodeURIComponent(make) +
+    '&model=' + encodeURIComponent(model) +
+    '&year=' + encodeURIComponent(year);
+  /* Reload with just the query params — keeps the real file path so no 404 */
+  const base = location.href.split('?')[0];
+  location.href = base + qs;
+}
+function clearVehicle() {
+  const base = location.href.split('?')[0];
+  location.href = base;
+}
+
+/* On first load without URL params, auto-select Toyota Corolla 2018 so the
+   demo immediately shows the smart-filter experience with a vehicle context. */
+(function autoInitVehicle() {
+  if (location.search) return;
+  const q = new URLSearchParams();
+  q.set('q', 'טויוטה קורולה 2018');
+  q.set('make', 'טויוטה');
+  q.set('model', 'קורולה');
+  q.set('year', '2018');
+  history.replaceState(null, '', location.pathname + '?' + q.toString());
+})();
+
+updateMeta();
+
+/* ───────────── Load demo products ───────────── */
+fetch('product_lookup.json')
+  .then(r => r.json())
+  .then(lookup => {
+    return fetch('demo_ids.json').then(r => r.json()).then(ids => {
+      const grid = document.getElementById('items_list');
+      ids.forEach(kid => {
+        const p = lookup[kid];
+        if (!p) return;
+        const card = document.createElement('div');
+        card.className = 'item_ib';
+        /* Prefer real product image; fall back to category icon; then generic */
+        const catIcon = CAT_ICONS[p.c] ? ('categories/' + CAT_ICONS[p.c] + '.webp') : '';
+        const realImg = p.img || '';
+        const thumbImg = realImg || catIcon;
+        /* Real price from live Konimbo JSON-LD; fallback dash if missing */
+        const priceDisplay = (p.price !== undefined && p.price !== null && p.price !== '')
+          ? ('₪ ' + p.price)
+          : '—';
+        /* Full URL to real product page on live site — opens in new tab.
+           "הוסף לעגלה" also navigates to the product page where the real
+           add-to-cart action lives (Konimbo doesn't expose a reliable GET add-to-cart URL). */
+        const productUrl = 'https://www.autonahariya.co.il/items/' + kid;
+        const cartUrl = productUrl + '#add-to-cart';
+        /* SKU priority: actual sku > oem > Konimbo ID */
+        const skuDisplay = p.sku || p.oem || kid;
+        card.innerHTML =
+          '<div class="thumb">' +
+            (thumbImg
+              ? '<img src="' + thumbImg + '" alt="' + (p.c || '') + '" loading="lazy" onerror="this.onerror=null;this.src=' + (catIcon ? "'" + catIcon + "'" : "''") + ';">'
+              : '<div style="color:#ccc;font-size:14px;">' + (p.c || 'מוצר') + '</div>') +
+          '</div>' +
+          '<div class="category-tag">' + (p.c || '') + '</div>' +
+          '<h3>' + (p.n || '').replace(/</g,'&lt;').substring(0, 90) + '</h3>' +
+          '<div class="price_box">' + priceDisplay + '</div>' +
+          '<div class="sku">מק"ט: ' + skuDisplay + '</div>' +
+          '<div class="card-actions">' +
+            '<a class="btn-cart" data-kid="' + kid + '" href="' + cartUrl + '" target="_blank" rel="noopener">הוסף לעגלה</a>' +
+            '<a class="btn-product" href="' + productUrl + '" target="_blank" rel="noopener">לדף המוצר</a>' +
+          '</div>' +
+          '<a href="' + productUrl + '" style="display:none;" data-anh-link="1"></a>';
+        grid.appendChild(card);
+      });
+
+      /* Buttons are real links. Add brief visual feedback on cart click, then let navigation happen. */
+      grid.addEventListener('click', function (ev) {
+        var btn = ev.target.closest('.btn-cart');
+        if (btn) {
+          btn.classList.add('added');
+          var original = btn.textContent;
+          btn.textContent = '✓ נוסף לעגלה';
+          setTimeout(function(){
+            btn.classList.remove('added');
+            btn.textContent = original;
+          }, 1800);
+        }
+      });
+
+      /* Configure filter for demo — use LOCAL files (not GitHub Pages, so demo is fully self-contained) */
+      window.ANH_BASE = location.origin + location.pathname.replace(/\/[^\/]*$/, '');
+      window.ANH_LOOKUP_URL = 'product_lookup.json';
+
+      /* Load the filter script from local (same as what's on GitHub Pages) */
+      const s = document.createElement('script');
+      s.src = 'search-filter.js';
+      document.body.appendChild(s);
+    });
+  });
+</script>
+</body>
+</html>
