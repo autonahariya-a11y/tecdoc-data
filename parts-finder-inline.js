@@ -32,6 +32,25 @@
     var widget = document.getElementById('anh-parts-finder');
     if (!widget) return;
 
+    /* ── Reposition widget if it ended up at the bottom of <body> ─────── */
+    /* When site admins paste the widget HTML via foot_html, it lands as a direct
+       child of <body> and appears at the bottom of the page. We move it to right
+       before #homepage_group1 (top banners area) so it sits in the hero region. */
+    try {
+      var parent = widget.parentElement;
+      var landedInBody = parent && parent.tagName === 'BODY';
+      if (landedInBody) {
+        var target = document.getElementById('homepage_group1');
+        if (target && target.parentNode) {
+          target.parentNode.insertBefore(widget, target);
+        } else {
+          /* fallback — move to top of main content area */
+          var main = document.querySelector('#bg_middle, .main_content, main');
+          if (main) main.insertBefore(widget, main.firstChild);
+        }
+      }
+    } catch (e) { /* best-effort — keep going */ }
+
     /* Find containers to hide when showing results */
     var homepageGroups = [];
     for (var gi = 1; gi <= 4; gi++) {
