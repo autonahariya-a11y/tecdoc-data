@@ -84,6 +84,9 @@
 
     document.getElementById('anh-ir-back').addEventListener('click', hideResults);
 
+    /* Initialize widget UI (tabs + selects) — self-contained, no dependency on old inline script */
+    initWidgetInterface(widget);
+
     /* ── Hijack all three submission paths ────────────────────── */
     /* Override data-target so the inline JS within the widget can't redirect */
     widget.dataset.target = 'javascript:void(0)';
@@ -111,6 +114,108 @@
 
       runSearch(form, params);
     }, true); /* capture = true */
+
+    /* ── Widget UI initialization (tabs + cascading selects) ─────────── */
+    function initWidgetInterface(root) {
+      /* Tabs — switch between plate and vehicle forms */
+      var tabs = root.querySelectorAll('.anh-widget__tab');
+      tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+          tabs.forEach(function (t) {
+            t.classList.remove('anh-widget__tab--active');
+            t.setAttribute('aria-selected', 'false');
+          });
+          tab.classList.add('anh-widget__tab--active');
+          tab.setAttribute('aria-selected', 'true');
+          var mode = tab.dataset.mode;
+          root.querySelectorAll('.anh-widget__form').forEach(function (f) {
+            f.hidden = f.dataset.mode !== mode;
+          });
+        });
+      });
+
+      /* Plate input — digits only, max 8 */
+      var plateInput = root.querySelector('#anh-plate-input');
+      if (plateInput) {
+        plateInput.addEventListener('input', function () {
+          plateInput.value = plateInput.value.replace(/[^\d]/g, '').slice(0, 8);
+        });
+      }
+
+      /* Vehicle selects cascade: make > model > year > engine */
+      var selMake   = root.querySelector('#anh-sel-make');
+      var selModel  = root.querySelector('#anh-sel-model');
+      var selYear   = root.querySelector('#anh-sel-year');
+      var selEngine = root.querySelector('#anh-sel-engine');
+      var vehBtn    = root.querySelector('#anh-vehicle-form .anh-widget__submit');
+      if (!selMake || !selModel || !selYear || !selEngine) return;
+
+      var topMakes = [
+        'טויוטה','יונדאי','סקודה','קיה','מזדה',
+        'וולקסווגן','פיאט','פורד','שברולט','רנו',
+        'פיג׳ו','ניסאן','סיטרואן','BMW','מרצדס',
+        'הונדה','סוזוקי','מיצובישי','סובארו','אופל'
+      ];
+      topMakes.forEach(function (m) {
+        var opt = document.createElement('option');
+        opt.value = m; opt.textContent = m;
+        selMake.appendChild(opt);
+      });
+      selMake.disabled = false;
+
+      function resetSelect(sel, placeholder) {
+        sel.innerHTML = '<option value="">' + placeholder + '</option>';
+        sel.disabled = true;
+      }
+
+      selMake.addEventListener('change', function () {
+        resetSelect(selModel,  'בחר דגם…');
+        resetSelect(selYear,   'בחר שנה…');
+        resetSelect(selEngine, 'בחר מנוע…');
+        if (vehBtn) vehBtn.disabled = true;
+        if (!selMake.value) return;
+        selModel.disabled = false;
+        selModel.innerHTML = '<option value="">בחר דגם…</option><option value="__any__">כל הדגמים</option>';
+      });
+
+      selModel.addEventListener('change', function () {
+        resetSelect(selYear,   'בחר שנה…');
+        resetSelect(selEngine, 'בחר מנוע…');
+        if (vehBtn) vehBtn.disabled = true;
+        if (!selModel.value) return;
+        var cur = new Date().getFullYear();
+        for (var y = cur; y >= 1990; y--) {
+          var opt = document.createElement('option');
+          opt.value = String(y); opt.textContent = String(y);
+          selYear.appendChild(opt);
+        }
+        selYear.disabled = false;
+      });
+
+      selYear.addEventListener('change', function () {
+        resetSelect(selEngine, 'בחר מנוע…');
+        if (vehBtn) vehBtn.disabled = true;
+        if (!selYear.value) return;
+        var engines = [
+          { v: 'petrol',   t: 'בנזין' },
+          { v: 'diesel',   t: 'דיזל' },
+          { v: 'hybrid',   t: 'היברידי' },
+          { v: 'electric', t: 'חשמלי' },
+          { v: 'any',      t: 'כל סוגי המנוע' }
+        ];
+        engines.forEach(function (e) {
+          var opt = document.createElement('option');
+          opt.value = e.v; opt.textContent = e.t;
+          selEngine.appendChild(opt);
+        });
+        selEngine.disabled = false;
+      });
+
+      selEngine.addEventListener('change', function () {
+        if (vehBtn) vehBtn.disabled = !selEngine.value;
+      });
+    }
+
 
     /* ── Search flow ──────────────────────────────────────────── */
     var dataCache = null;
