@@ -58,12 +58,19 @@
       if (g) homepageGroups.push(g);
     }
 
+    /* Inject results CSS into <head> (innerHTML <style> tags don't always activate) */
+    if (!document.getElementById('anh-ir-styles')) {
+      var styleEl = document.createElement('style');
+      styleEl.id = 'anh-ir-styles';
+      styleEl.textContent = RESULTS_CSS;
+      document.head.appendChild(styleEl);
+    }
+
     /* Results container — inserted right after widget */
     var resultsWrap = document.createElement('div');
     resultsWrap.id = 'anh-inline-results';
     resultsWrap.setAttribute('hidden', '');
     resultsWrap.innerHTML =
-      '<style>' + RESULTS_CSS + '</style>' +
       '<div class="anh-ir__header">' +
         '<div class="anh-ir__title-wrap">' +
           '<h2 class="anh-ir__title" id="anh-ir-title"></h2>' +
@@ -742,8 +749,8 @@
     '.anh-ir__chip em{font-style:normal;background:rgba(0,0,0,0.08);padding:1px 6px;border-radius:10px;font-size:12px}' +
     '.anh-ir__chip.active em{background:rgba(255,255,255,0.25)}' +
     '.anh-ir__chip--all{background:#0B3E5C;color:#fff;border-color:#0B3E5C}' +
-    '.anh-ir__grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}' +
-    '.anh-ir__card{background:#fff;border:1px solid #e5ebf0;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .15s}' +
+    '.anh-ir__grid{display:grid !important;grid-template-columns:repeat(auto-fill,minmax(240px,1fr)) !important;gap:16px !important;width:100% !important}' +
+    '.anh-ir__card{background:#fff !important;border:1px solid #e5ebf0 !important;border-radius:12px !important;overflow:hidden !important;display:flex !important;flex-direction:column !important;transition:box-shadow .15s;width:auto !important;max-width:100% !important}' +
     '.anh-ir__card:hover{box-shadow:0 6px 20px rgba(11,62,92,0.12)}' +
     '.anh-ir__thumb{display:flex;align-items:center;justify-content:center;background:#fff;aspect-ratio:1;overflow:hidden;text-decoration:none}' +
     '.anh-ir__thumb img{max-width:100%;max-height:100%;object-fit:contain;padding:16px;box-sizing:border-box}' +
@@ -754,7 +761,7 @@
     '.anh-ir__name a:hover{color:#1A9FD5}' +
     '.anh-ir__price{padding:0 14px;font-size:22px;font-weight:700;color:#F37021;text-align:right;margin-top:auto}' +
     '.anh-ir__sku{padding:2px 14px 10px;font-size:12px;color:#6b7780;text-align:right}' +
-    '.anh-ir__actions{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #e5ebf0}' +
+    '.anh-ir__actions{display:grid !important;grid-template-columns:1fr 1fr !important;gap:0 !important;border-top:1px solid #e5ebf0}' +
     '.anh-ir__btn{display:flex;align-items:center;justify-content:center;padding:12px;font-size:14px;font-weight:600;text-decoration:none;transition:background .15s}' +
     '.anh-ir__btn--cart{background:#F37021;color:#fff}' +
     '.anh-ir__btn--cart:hover{background:#d95e18}' +
