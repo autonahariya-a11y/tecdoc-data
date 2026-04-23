@@ -371,6 +371,8 @@
       var kid = p.kid;
       var card = document.createElement('article');
       card.className = 'anh-ir__card';
+      /* Inline styles as a safety net against Konimbo CSS overrides */
+      card.style.cssText = 'background:#fff !important;border:1px solid #e5ebf0 !important;border-radius:12px !important;overflow:hidden !important;display:flex !important;flex-direction:column !important;width:auto !important;max-width:100% !important;float:none !important;text-align:right !important;';
       var img = p.img || '';
       var priceDisp = (p.price !== undefined && p.price !== null && p.price !== '')
         ? '₪ ' + p.price
@@ -378,19 +380,31 @@
       var skuDisp = p.sku || p.oem || kid;
       var prodUrl = 'https://www.autonahariya.co.il/items/' + kid;
 
+      /* Styles applied inline to each element */
+      var sThumb = 'display:flex !important;align-items:center !important;justify-content:center !important;background:#fff !important;aspect-ratio:1 !important;overflow:hidden !important;text-decoration:none !important;min-height:200px !important;';
+      var sImg   = 'max-width:100% !important;max-height:100% !important;object-fit:contain !important;padding:16px !important;box-sizing:border-box !important;';
+      var sCat   = 'font-size:12px !important;color:#1A9FD5 !important;padding:10px 14px 4px !important;text-align:right !important;';
+      var sName  = 'margin:0 !important;padding:0 14px 10px !important;font-size:14px !important;line-height:1.4 !important;font-weight:600 !important;text-align:right !important;';
+      var sNameA = 'color:#0B3E5C !important;text-decoration:none !important;';
+      var sPrice = 'padding:0 14px !important;font-size:22px !important;font-weight:700 !important;color:#F37021 !important;text-align:right !important;margin-top:auto !important;';
+      var sSku   = 'padding:2px 14px 10px !important;font-size:12px !important;color:#6b7780 !important;text-align:right !important;';
+      var sActs  = 'display:grid !important;grid-template-columns:1fr 1fr !important;gap:0 !important;border-top:1px solid #e5ebf0 !important;';
+      var sBtnC  = 'display:flex !important;align-items:center !important;justify-content:center !important;padding:12px !important;font-size:14px !important;font-weight:600 !important;text-decoration:none !important;background:#F37021 !important;color:#fff !important;';
+      var sBtnP  = 'display:flex !important;align-items:center !important;justify-content:center !important;padding:12px !important;font-size:14px !important;font-weight:600 !important;text-decoration:none !important;background:#fff !important;color:#1A9FD5 !important;border-right:1px solid #e5ebf0 !important;';
+
       card.innerHTML =
-        '<a class="anh-ir__thumb" href="' + prodUrl + '" target="_blank" rel="noopener">' +
-          (img ? '<img src="' + img + '" alt="' + escapeHtml(p.c || '') + '" loading="lazy">'
+        '<a class="anh-ir__thumb" style="' + sThumb + '" href="' + prodUrl + '" target="_blank" rel="noopener">' +
+          (img ? '<img style="' + sImg + '" src="' + img + '" alt="' + escapeHtml(p.c || '') + '" loading="lazy">'
                 : '<div class="anh-ir__thumb-fallback">' + escapeHtml(p.c || 'מוצר') + '</div>') +
         '</a>' +
-        '<div class="anh-ir__cat">' + escapeHtml(p.c || '') + '</div>' +
-        '<h3 class="anh-ir__name"><a href="' + prodUrl + '" target="_blank" rel="noopener">' +
+        '<div class="anh-ir__cat" style="' + sCat + '">' + escapeHtml(p.c || '') + '</div>' +
+        '<h3 class="anh-ir__name" style="' + sName + '"><a style="' + sNameA + '" href="' + prodUrl + '" target="_blank" rel="noopener">' +
           escapeHtml((p.n || '').substring(0, 80)) + '</a></h3>' +
-        '<div class="anh-ir__price">' + priceDisp + '</div>' +
-        '<div class="anh-ir__sku">מק"ט: ' + escapeHtml(skuDisp) + '</div>' +
-        '<div class="anh-ir__actions">' +
-          '<a class="anh-ir__btn anh-ir__btn--cart" href="' + prodUrl + '#add-to-cart" target="_blank" rel="noopener">הוסף לעגלה</a>' +
-          '<a class="anh-ir__btn anh-ir__btn--prod" href="' + prodUrl + '" target="_blank" rel="noopener">לדף המוצר</a>' +
+        '<div class="anh-ir__price" style="' + sPrice + '">' + priceDisp + '</div>' +
+        '<div class="anh-ir__sku" style="' + sSku + '">מק"ט: ' + escapeHtml(skuDisp) + '</div>' +
+        '<div class="anh-ir__actions" style="' + sActs + '">' +
+          '<a class="anh-ir__btn anh-ir__btn--cart" style="' + sBtnC + '" href="' + prodUrl + '#add-to-cart" target="_blank" rel="noopener">הוסף לעגלה</a>' +
+          '<a class="anh-ir__btn anh-ir__btn--prod" style="' + sBtnP + '" href="' + prodUrl + '" target="_blank" rel="noopener">לדף המוצר</a>' +
         '</div>';
       return card;
     }
