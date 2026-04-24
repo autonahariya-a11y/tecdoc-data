@@ -127,9 +127,14 @@
   function toHebrewModel(en) {
     if (!en) return '';
     var key = String(en).trim().toUpperCase();
-    if (MODEL_HEB[key]) return MODEL_HEB[key];
-    /* Try stripping trailing trim levels */
+    /* Keep alphanumeric model codes as-is (e.g. A1, A3, X5, C200, GLE350, 320i, CR-V, CX-5).
+       Rule: if the first token contains at least one letter AND at least one digit,
+       treat it as a technical code and preserve the original English casing. */
     var firstWord = key.split(/\s+/)[0];
+    if (/[A-Z]/.test(firstWord) && /[0-9]/.test(firstWord)) {
+      return String(en).trim();
+    }
+    if (MODEL_HEB[key]) return MODEL_HEB[key];
     if (MODEL_HEB[firstWord]) return MODEL_HEB[firstWord];
     /* Fallback: return the original (English) name */
     return String(en).trim();
@@ -148,9 +153,7 @@
     '#anh-inline-results *{box-sizing:border-box}',
     '#anh-inline-results .anh-ir__header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;background:linear-gradient(135deg,#0B3E5C,#1A9FD5);color:#fff;padding:18px 22px;border-radius:12px;margin-bottom:16px;flex-wrap:wrap}',
     '#anh-inline-results .anh-ir__title-wrap{display:flex;flex-direction:column;gap:10px;flex:1;min-width:220px}',
-    '#anh-inline-results .anh-ir__title-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}',
     '#anh-inline-results .anh-ir__title{font-size:22px;font-weight:700;margin:0;color:#fff;line-height:1.2;letter-spacing:-0.01em}',
-    '#anh-inline-results .anh-ir__count{display:inline-flex;align-items:center;font-size:13px;font-weight:600;background:rgba(255,255,255,0.18);color:#fff;padding:3px 10px;border-radius:999px;white-space:nowrap}',
     '#anh-inline-results .anh-ir__subtitle{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0}',
     '#anh-inline-results .anh-ir__spec{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:600;background:rgba(255,255,255,0.14);color:rgba(255,255,255,0.96);padding:4px 10px;border-radius:999px;border:1px solid rgba(255,255,255,0.18);white-space:nowrap}',
     '#anh-inline-results .anh-ir__spec-icon{width:12px;height:12px;flex-shrink:0;opacity:0.85}',
@@ -249,10 +252,7 @@
     resultsWrap.innerHTML =
       '<div class="anh-ir__header">' +
         '<div class="anh-ir__title-wrap">' +
-          '<div class="anh-ir__title-row">' +
-            '<h2 class="anh-ir__title" id="anh-ir-title"></h2>' +
-            '<span class="anh-ir__count" id="anh-ir-count" hidden></span>' +
-          '</div>' +
+          '<h2 class="anh-ir__title" id="anh-ir-title"></h2>' +
           '<div class="anh-ir__subtitle" id="anh-ir-subtitle" hidden></div>' +
         '</div>' +
         '<button type="button" class="anh-ir__back" id="anh-ir-back">' +
@@ -572,14 +572,6 @@
 
       /* Filter products */
       var matches = filterProducts(vehicle, data);
-      var countEl = document.getElementById('anh-ir-count');
-      if (matches.length > 0) {
-        countEl.textContent = matches.length + ' מוצרים';
-        countEl.hidden = false;
-      } else {
-        countEl.textContent = '';
-        countEl.hidden = true;
-      }
 
       var grid = document.getElementById('anh-ir-grid');
       grid.innerHTML = '';
@@ -623,8 +615,6 @@
 
     function showEmpty(label) {
       document.getElementById('anh-ir-title').textContent = 'לא מצאנו את ' + label;
-      var countElEmpty = document.getElementById('anh-ir-count');
-      if (countElEmpty) { countElEmpty.textContent = ''; countElEmpty.hidden = true; }
       var subEl = document.getElementById('anh-ir-subtitle');
       if (subEl) { subEl.innerHTML = ''; subEl.hidden = true; }
       document.getElementById('anh-ir-grid').innerHTML = '';
