@@ -146,13 +146,17 @@
     '#anh-inline-results{direction:rtl;max-width:1200px;margin:20px auto 40px;padding:0 16px;font-family:Heebo,Rubik,Arial,sans-serif;box-sizing:border-box}',
     '#anh-inline-results[hidden]{display:none}',
     '#anh-inline-results *{box-sizing:border-box}',
-    '#anh-inline-results .anh-ir__header{display:flex;align-items:center;justify-content:space-between;gap:12px;background:linear-gradient(135deg,#0B3E5C,#1A9FD5);color:#fff;padding:16px 20px;border-radius:12px;margin-bottom:16px;flex-wrap:wrap}',
-    '#anh-inline-results .anh-ir__title-wrap{display:flex;align-items:baseline;gap:10px;flex:1;min-width:200px}',
-    '#anh-inline-results .anh-ir__title{font-size:20px;font-weight:700;margin:0;color:#fff}',
-    '#anh-inline-results .anh-ir__subtitle{display:block;font-size:13px;color:rgba(255,255,255,0.9);margin-top:4px;font-weight:500}',
-    '#anh-inline-results .anh-ir__count{font-size:14px;opacity:0.9}',
-    '#anh-inline-results .anh-ir__back{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.3);padding:8px 14px;border-radius:8px;cursor:pointer;font-size:14px;font-weight:500;transition:background .15s}',
-    '#anh-inline-results .anh-ir__back:hover{background:rgba(255,255,255,0.25)}',
+    '#anh-inline-results .anh-ir__header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;background:linear-gradient(135deg,#0B3E5C,#1A9FD5);color:#fff;padding:18px 22px;border-radius:12px;margin-bottom:16px;flex-wrap:wrap}',
+    '#anh-inline-results .anh-ir__title-wrap{display:flex;flex-direction:column;gap:10px;flex:1;min-width:220px}',
+    '#anh-inline-results .anh-ir__title-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}',
+    '#anh-inline-results .anh-ir__title{font-size:22px;font-weight:700;margin:0;color:#fff;line-height:1.2;letter-spacing:-0.01em}',
+    '#anh-inline-results .anh-ir__count{display:inline-flex;align-items:center;font-size:13px;font-weight:600;background:rgba(255,255,255,0.18);color:#fff;padding:3px 10px;border-radius:999px;white-space:nowrap}',
+    '#anh-inline-results .anh-ir__subtitle{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0}',
+    '#anh-inline-results .anh-ir__spec{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:600;background:rgba(255,255,255,0.14);color:rgba(255,255,255,0.96);padding:4px 10px;border-radius:999px;border:1px solid rgba(255,255,255,0.18);white-space:nowrap}',
+    '#anh-inline-results .anh-ir__spec-icon{width:12px;height:12px;flex-shrink:0;opacity:0.85}',
+    '#anh-inline-results .anh-ir__back{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.18);color:#fff;border:1px solid rgba(255,255,255,0.35);padding:8px 14px;border-radius:8px;cursor:pointer;font-size:14px;font-weight:600;transition:background .15s;flex-shrink:0}',
+    '#anh-inline-results .anh-ir__back:hover{background:rgba(255,255,255,0.28)}',
+    '@media(max-width:520px){#anh-inline-results .anh-ir__header{padding:14px 16px}#anh-inline-results .anh-ir__title{font-size:18px}#anh-inline-results .anh-ir__back{padding:6px 10px;font-size:13px}#anh-inline-results .anh-ir__back span{display:none}}',
     '#anh-inline-results .anh-ir__cat-strip{display:flex;gap:8px;overflow-x:auto;padding:4px 0 12px;margin-bottom:8px;scrollbar-width:thin}',
     '#anh-inline-results .anh-ir__chip{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid #dfe6ec;border-radius:20px;padding:6px 14px;cursor:pointer;font-size:14px;color:#0B3E5C;white-space:nowrap;transition:all .15s}',
     '#anh-inline-results .anh-ir__chip:hover{border-color:#1A9FD5}',
@@ -245,8 +249,10 @@
     resultsWrap.innerHTML =
       '<div class="anh-ir__header">' +
         '<div class="anh-ir__title-wrap">' +
-          '<h2 class="anh-ir__title" id="anh-ir-title"></h2>' +
-          '<span class="anh-ir__count" id="anh-ir-count"></span>' +
+          '<div class="anh-ir__title-row">' +
+            '<h2 class="anh-ir__title" id="anh-ir-title"></h2>' +
+            '<span class="anh-ir__count" id="anh-ir-count" hidden></span>' +
+          '</div>' +
           '<div class="anh-ir__subtitle" id="anh-ir-subtitle" hidden></div>' +
         '</div>' +
         '<button type="button" class="anh-ir__back" id="anh-ir-back">' +
@@ -532,27 +538,48 @@
         (vehicle.year ? vehicle.year : '').trim();
       document.getElementById('anh-ir-title').textContent = title;
 
-      /* Build subtitle line: English kinuy (if differs) • engine CC • horsepower • fuel */
-      var sub = [];
-      if (vehicle.kinuyEn && vehicle.modelHe && vehicle.kinuyEn.toUpperCase() !== vehicle.modelHe.toUpperCase()) {
-        sub.push(vehicle.kinuyEn);
-      }
+      /* Build subtitle as individual chips: engine CC+liters, horsepower, fuel */
+      var specs = [];
       if (vehicle.engineCC) {
         var liters = (vehicle.engineCC / 1000).toFixed(1).replace(/\.0$/, '');
-        sub.push(liters + 'L (' + vehicle.engineCC + ' סמ״ק)');
+        specs.push({ icon: 'engine', label: liters + 'L \u00B7 ' + vehicle.engineCC + ' סמ״ק' });
       }
-      if (vehicle.horsepower) sub.push(vehicle.horsepower + ' כ״ס');
-      if (vehicle.fuel) sub.push(vehicle.fuel);
+      if (vehicle.horsepower) specs.push({ icon: 'power', label: vehicle.horsepower + ' כ״ס' });
+      if (vehicle.fuel) specs.push({ icon: 'fuel', label: vehicle.fuel });
       var subEl = document.getElementById('anh-ir-subtitle');
       if (subEl) {
-        if (sub.length) { subEl.textContent = sub.join(' • '); subEl.hidden = false; }
-        else { subEl.textContent = ''; subEl.hidden = true; }
+        subEl.innerHTML = '';
+        if (specs.length) {
+          specs.forEach(function (s) {
+            var chip = document.createElement('span');
+            chip.className = 'anh-ir__spec';
+            var iconSvg = '';
+            if (s.icon === 'engine') {
+              iconSvg = '<svg class="anh-ir__spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h2V7h4v2h4V7h4v2h2v6h-2v2h-4v-2h-4v2h-4v-2H4z"/></svg>';
+            } else if (s.icon === 'power') {
+              iconSvg = '<svg class="anh-ir__spec-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4.09 12.97h7.9l-1.08 8.93L19.91 11h-7.9z"/></svg>';
+            } else if (s.icon === 'fuel') {
+              iconSvg = '<svg class="anh-ir__spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22V6a2 2 0 012-2h7a2 2 0 012 2v16M3 22h11M14 10h2a2 2 0 012 2v5a2 2 0 004 0V7l-3-3"/></svg>';
+            }
+            chip.innerHTML = iconSvg + '<span>' + s.label + '</span>';
+            subEl.appendChild(chip);
+          });
+          subEl.hidden = false;
+        } else {
+          subEl.hidden = true;
+        }
       }
 
       /* Filter products */
       var matches = filterProducts(vehicle, data);
       var countEl = document.getElementById('anh-ir-count');
-      countEl.textContent = matches.length + ' מוצרים';
+      if (matches.length > 0) {
+        countEl.textContent = matches.length + ' מוצרים';
+        countEl.hidden = false;
+      } else {
+        countEl.textContent = '';
+        countEl.hidden = true;
+      }
 
       var grid = document.getElementById('anh-ir-grid');
       grid.innerHTML = '';
@@ -596,9 +623,10 @@
 
     function showEmpty(label) {
       document.getElementById('anh-ir-title').textContent = 'לא מצאנו את ' + label;
-      document.getElementById('anh-ir-count').textContent = '';
+      var countElEmpty = document.getElementById('anh-ir-count');
+      if (countElEmpty) { countElEmpty.textContent = ''; countElEmpty.hidden = true; }
       var subEl = document.getElementById('anh-ir-subtitle');
-      if (subEl) { subEl.textContent = ''; subEl.hidden = true; }
+      if (subEl) { subEl.innerHTML = ''; subEl.hidden = true; }
       document.getElementById('anh-ir-grid').innerHTML = '';
       document.getElementById('anh-ir-grid').hidden = true;
       document.getElementById('anh-ir-empty').hidden = false;
