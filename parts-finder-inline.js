@@ -44,6 +44,97 @@
     'בולמי תא מטען','בולם מכסה מנוע'
   ];
 
+  /* ── Hebrew model-name map ─────────────────────────────────────
+     Maps gov.il `kinuy_mishari` (English) to Hebrew.
+     Fallback: if a model isn't listed, the English name is used.
+     Keys are normalized to uppercase — lookup uses toUpperCase(). */
+  var MODEL_HEB = {
+    /* Toyota */
+    'COROLLA': 'קורולה','COROLLA CROSS':'קורולה קרוס','YARIS':'יאריס','AURIS':'אוריס',
+    'RAV4':'ראב4','RAV 4':'ראב4','CAMRY':'קאמרי','PRIUS':'פריוס','CHR':'סי-אייצ׳-אר','C-HR':'סי-אייצ׳-אר',
+    'HILUX':'היילקס','LAND CRUISER':'לנד קרוזר','AVENSIS':'אוונסיס','HIACE':'הייאס',
+    'PROACE':'פרואייס','AYGO':'אייגו',
+    /* Hyundai */
+    'I10':'איי 10','I20':'איי 20','I25':'איי 25','I30':'איי 30','I35':'איי 35',
+    'IONIQ':'איוניק','TUCSON':'טוסון','SANTA FE':'סנטה פה','KONA':'קונה','BAYON':'באיון',
+    'ELANTRA':'אלנטרה','SONATA':'סונטה','VENUE':'ונואה','STARIA':'סטריה','H1':'אייצ׳1',
+    /* Kia */
+    'PICANTO':'פיקנטו','RIO':'ריו','CEED':'סיד',"CEE'D":'סיד','STONIC':'סטוניק',
+    'SPORTAGE':'ספורטאז׳','SPORTAGE NQ5':'ספורטאז׳','SORENTO':'סורנטו','NIRO':'נירו',
+    'EV6':'איי-וי 6','CARNIVAL':'קרניבל','XCEED':'איקס-סיד','OPTIMA':'אופטימה','SOUL':'סול',
+    /* Mazda */
+    'MAZDA 2':'מאזדה 2','MAZDA 3':'מאזדה 3','MAZDA 5':'מאזדה 5','MAZDA 6':'מאזדה 6',
+    'CX-3':'סי-אקס 3','CX-30':'סי-אקס 30','CX-5':'סי-אקס 5','CX-60':'סי-אקס 60','CX-9':'סי-אקס 9','MX-5':'אם-אקס 5',
+    /* Mitsubishi */
+    'OUTLANDER':'אאוטלנדר','SPACE STAR':'ספייס סטאר','LANCER':'לנסר','ASX':'איי-אס-אקס',
+    'ECLIPSE CROSS':'אקליפס קרוס','PAJERO':'פאג׳רו','TRITON':'טריטון','ATTRAGE':'אטרז׳',
+    /* Nissan */
+    'MICRA':'מיקרה','JUKE':'ג׳וק','QASHQAI':'קשקאי','X-TRAIL':'אקס-טרייל','LEAF':'ליף',
+    'NAVARA':'נאוארה','NOTE':'נוט','SENTRA':'סנטרה','PATHFINDER':'פאתפיינדר',
+    /* Honda */
+    'CIVIC':'סיוויק','JAZZ':'ג׳אז','HR-V':'אייצ׳-אר-וי','HRV':'אייצ׳-אר-וי','CR-V':'סי-אר-וי','CRV':'סי-אר-וי',
+    'ACCORD':'אקורד','INSIGHT':'אינסייט','E':'הונדה אי',
+    /* Suzuki */
+    'SWIFT':'סוויפט','BALENO':'בלנו','VITARA':'ויטרה','S-CROSS':'אס-קרוס','JIMNY':'ג׳ימני','IGNIS':'איגניס',
+    /* Ford */
+    'FIESTA':'פיאסטה','FOCUS':'פוקוס','MONDEO':'מונדאו','ECOSPORT':'אקוספורט','KUGA':'קוגה',
+    'PUMA':'פומה','EXPLORER':'אקספלורר','EDGE':'אדג׳','TRANSIT':'טרנזיט','RANGER':'ריינג׳ר',
+    /* Opel/Vauxhall */
+    'CORSA':'קורסה','ASTRA':'אסטרה','INSIGNIA':'אינסיגניה','MOKKA':'מוקה','CROSSLAND':'קרוסלנד',
+    'GRANDLAND':'גרנדלנד','COMBO':'קומבו','VIVARO':'ויווארו',
+    /* Peugeot */
+    '208':'208','308':'308','508':'508','2008':'2008','3008':'3008','5008':'5008','RIFTER':'ריפטר','PARTNER':'פרטנר',
+    /* Citroen */
+    'C1':'סי 1','C3':'סי 3','C4':'סי 4','C5':'סי 5','C5 AIRCROSS':'סי 5 אירקרוס','BERLINGO':'ברלינגו',
+    /* Renault */
+    'CLIO':'קליאו','CAPTUR':'קפצ׳ור','MEGANE':'מגאן','KADJAR':'קדג׳אר','AUSTRAL':'אוסטרל','ARKANA':'ארקאנה',
+    'ZOE':'זואי','TRAFIC':'טראפיק','KANGOO':'קנגו','DUSTER':'דאסטר',
+    /* Dacia */
+    'SANDERO':'סנדרו','LODGY':'לודג׳י','DOKKER':'דוקר',
+    /* Volkswagen */
+    'POLO':'פולו','GOLF':'גולף','PASSAT':'פאסאט','TIGUAN':'טיגואן','T-ROC':'טי-רוק','T-CROSS':'טי-קרוס',
+    'TOURAN':'טוראן','CADDY':'קאדי','TRANSPORTER':'טרנספורטר','ID.3':'אי.די 3','ID.4':'אי.די 4',
+    /* Skoda */
+    'FABIA':'פאביה','SCALA':'סקאלה','OCTAVIA':'אוקטביה','SUPERB':'סופרב','KAMIQ':'קאמיק','KAROQ':'קארוק','KODIAQ':'קודיאק',
+    /* Seat */
+    'IBIZA':'איביזה','LEON':'לאון','ARONA':'ארונה','ATECA':'אטקה','TARRACO':'טראקו',
+    /* BMW */
+    'BMW 1':'סדרה 1','BMW 2':'סדרה 2','BMW 3':'סדרה 3','BMW 4':'סדרה 4','BMW 5':'סדרה 5','BMW 7':'סדרה 7',
+    'X1':'איקס 1','X2':'איקס 2','X3':'איקס 3','X4':'איקס 4','X5':'איקס 5','X6':'איקס 6','X7':'איקס 7',
+    'I3':'איי 3','I4':'איי 4','IX':'איי-אקס','IX3':'איי-אקס 3',
+    /* Mercedes */
+    'A-CLASS':'A קלאס','B-CLASS':'B קלאס','C-CLASS':'C קלאס','E-CLASS':'E קלאס','S-CLASS':'S קלאס',
+    'GLA':'ג׳י-אל-אי','GLB':'ג׳י-אל-בי','GLC':'ג׳י-אל-סי','GLE':'ג׳י-אל-אי','GLS':'ג׳י-אל-אס',
+    'CLA':'סי-אל-אי','CLS':'סי-אל-אס','VITO':'ויטו','V-CLASS':'V קלאס','SPRINTER':'ספרינטר',
+    /* Audi */
+    'A1':'איי 1','A3':'איי 3','A4':'איי 4','A5':'איי 5','A6':'איי 6','A7':'איי 7','A8':'איי 8',
+    'Q2':'קיו 2','Q3':'קיו 3','Q4':'קיו 4','Q5':'קיו 5','Q7':'קיו 7','Q8':'קיו 8','E-TRON':'אי-טרון',
+    /* Volvo */
+    'V40':'וי 40','V60':'וי 60','V90':'וי 90','S60':'אס 60','S90':'אס 90','XC40':'אקס-סי 40',
+    'XC60':'אקס-סי 60','XC90':'אקס-סי 90',
+    /* Fiat */
+    '500':'500','500X':'500 אקס','500L':'500 אל','PANDA':'פנדה','TIPO':'טיפו','DOBLO':'דובלו',
+    /* Jeep */
+    'RENEGADE':'רנגייד','COMPASS':'קומפאס','CHEROKEE':'צ׳ירוקי','GRAND CHEROKEE':'גרנד צ׳ירוקי','WRANGLER':'רנגלר',
+    /* Chinese */
+    'TIGGO 7 PRO':'טיגו 7 פרו','TIGGO 8 PRO':'טיגו 8 פרו','TIGGO 2':'טיגו 2',
+    'ATTO 3':'אטו 3','HAN':'האן','SEAL':'סיל','DOLPHIN':'דולפין','SONG PLUS':'סונג פלוס','YUAN PLUS':'יואן פלוס',
+    'ES6':'אי-אס 6','ET7':'אי-טי 7','X3 PRO':'איקס 3 פרו','X5':'איקס 5',
+    'GEELY GEOMETRY C':'ג׳אומטרי C','COOLRAY':'קולריי','MG 3':'אם-ג׳י 3','MG 5':'אם-ג׳י 5','MG ZS':'אם-ג׳י זי-אס',
+    'MG HS':'אם-ג׳י אייצ׳-אס','MG MARVEL R':'אם-ג׳י מארוול אר','MG4':'אם-ג׳י 4'
+  };
+
+  function toHebrewModel(en) {
+    if (!en) return '';
+    var key = String(en).trim().toUpperCase();
+    if (MODEL_HEB[key]) return MODEL_HEB[key];
+    /* Try stripping trailing trim levels */
+    var firstWord = key.split(/\s+/)[0];
+    if (MODEL_HEB[firstWord]) return MODEL_HEB[firstWord];
+    /* Fallback: return the original (English) name */
+    return String(en).trim();
+  }
+
   /* ── Bail if widget not present ─────────────────────────────── */
   function ready(fn) {
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn);
@@ -58,6 +149,7 @@
     '#anh-inline-results .anh-ir__header{display:flex;align-items:center;justify-content:space-between;gap:12px;background:linear-gradient(135deg,#0B3E5C,#1A9FD5);color:#fff;padding:16px 20px;border-radius:12px;margin-bottom:16px;flex-wrap:wrap}',
     '#anh-inline-results .anh-ir__title-wrap{display:flex;align-items:baseline;gap:10px;flex:1;min-width:200px}',
     '#anh-inline-results .anh-ir__title{font-size:20px;font-weight:700;margin:0;color:#fff}',
+    '#anh-inline-results .anh-ir__subtitle{display:block;font-size:13px;color:rgba(255,255,255,0.9);margin-top:4px;font-weight:500}',
     '#anh-inline-results .anh-ir__count{font-size:14px;opacity:0.9}',
     '#anh-inline-results .anh-ir__back{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.3);padding:8px 14px;border-radius:8px;cursor:pointer;font-size:14px;font-weight:500;transition:background .15s}',
     '#anh-inline-results .anh-ir__back:hover{background:rgba(255,255,255,0.25)}',
@@ -155,6 +247,7 @@
         '<div class="anh-ir__title-wrap">' +
           '<h2 class="anh-ir__title" id="anh-ir-title"></h2>' +
           '<span class="anh-ir__count" id="anh-ir-count"></span>' +
+          '<div class="anh-ir__subtitle" id="anh-ir-subtitle" hidden></div>' +
         '</div>' +
         '<button type="button" class="anh-ir__back" id="anh-ir-back">' +
           '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>' +
@@ -372,7 +465,7 @@
         });
       }
       if (params.plate) {
-        /* Try gov.il open-data API — CORS-friendly endpoint */
+        /* Step 1 — plate lookup (primary dataset) */
         var plateNum = params.plate;
         var url = 'https://data.gov.il/api/3/action/datastore_search?resource_id=053cea08-09bc-40ec-8f7a-156f0677aff3&q=' + encodeURIComponent(plateNum) + '&limit=1';
         return fetch(url)
@@ -380,13 +473,48 @@
           .then(function (j) {
             var rec = (j && j.result && j.result.records && j.result.records[0]) || null;
             if (!rec) return null;
-            /* Fields: tozeret_nm (make), kinuy_mishari (commercial name/model), shnat_yitzur (year) */
-            return {
-              make: (rec.tozeret_nm || '').split(' ')[0].trim(),  /* "טויוטה יפן" -> "טויוטה" */
+            /* Build base vehicle */
+            var baseMakeHeb = (rec.tozeret_nm || '').split(' ')[0].trim(); /* "מיצובישי יפן" -> "מיצובישי" */
+            var baseVehicle = {
+              make: baseMakeHeb,
               model: (rec.kinuy_mishari || '').trim(),
               year: String(rec.shnat_yitzur || '').trim(),
-              engine: ''
+              engine: '',
+              /* extras for display */
+              kinuyEn: (rec.kinuy_mishari || '').trim(),
+              modelHe: toHebrewModel(rec.kinuy_mishari),
+              makeHe: baseMakeHeb,
+              engineCode: (rec.degem_manoa || '').trim(),
+              trim: (rec.ramat_gimur || '').trim(),
+              fuel: (rec.sug_delek_nm || '').trim(),
+              _tozeret_cd: rec.tozeret_cd,
+              _degem_cd: rec.degem_cd,
+              _shnat: rec.shnat_yitzur
             };
+            /* Step 2 — enrich from catalog (engine cc + hp). If this call fails we still have a usable vehicle. */
+            if (!rec.tozeret_cd || !rec.degem_cd) return baseVehicle;
+            var catUrl = 'https://data.gov.il/api/3/action/datastore_search?resource_id=142afde2-6228-49f9-8a29-9b6c3a0cbe40' +
+              '&filters=' + encodeURIComponent(JSON.stringify({ tozeret_cd: rec.tozeret_cd, degem_cd: rec.degem_cd })) +
+              '&limit=10';
+            return fetch(catUrl)
+              .then(function (r2) { return r2.json(); })
+              .then(function (j2) {
+                var recs = (j2 && j2.result && j2.result.records) || [];
+                /* Prefer a record matching the production year if available */
+                var match = null;
+                for (var i = 0; i < recs.length; i++) {
+                  if (String(recs[i].shnat_yitzur) === String(rec.shnat_yitzur)) { match = recs[i]; break; }
+                }
+                if (!match && recs.length) match = recs[0];
+                if (match) {
+                  if (match.tozar) { baseVehicle.makeHe = match.tozar; baseVehicle.make = match.tozar; }
+                  if (match.nefah_manoa) baseVehicle.engineCC = match.nefah_manoa;
+                  if (match.koah_sus) baseVehicle.horsepower = match.koah_sus;
+                  if (match.merkav && !baseVehicle.trim) baseVehicle.trim = match.merkav;
+                }
+                return baseVehicle;
+              })
+              .catch(function () { return baseVehicle; });
           })
           .catch(function () { return null; });
       }
@@ -395,11 +523,31 @@
 
     /* ── Render ───────────────────────────────────────────────── */
     function showResults(vehicle, data) {
+      /* Prefer Hebrew translations when available */
+      var displayMake = vehicle.makeHe || vehicle.make || '';
+      var displayModel = vehicle.modelHe || vehicle.model || '';
       var title = 'חלקים מתאימים ל' +
-        (vehicle.make ? vehicle.make + ' ' : '') +
-        (vehicle.model ? vehicle.model + ' ' : '') +
+        (displayMake ? displayMake + ' ' : '') +
+        (displayModel ? displayModel + ' ' : '') +
         (vehicle.year ? vehicle.year : '').trim();
       document.getElementById('anh-ir-title').textContent = title;
+
+      /* Build subtitle line: English kinuy (if differs) • engine CC • horsepower • fuel */
+      var sub = [];
+      if (vehicle.kinuyEn && vehicle.modelHe && vehicle.kinuyEn.toUpperCase() !== vehicle.modelHe.toUpperCase()) {
+        sub.push(vehicle.kinuyEn);
+      }
+      if (vehicle.engineCC) {
+        var liters = (vehicle.engineCC / 1000).toFixed(1).replace(/\.0$/, '');
+        sub.push(liters + 'L (' + vehicle.engineCC + ' סמ״ק)');
+      }
+      if (vehicle.horsepower) sub.push(vehicle.horsepower + ' כ״ס');
+      if (vehicle.fuel) sub.push(vehicle.fuel);
+      var subEl = document.getElementById('anh-ir-subtitle');
+      if (subEl) {
+        if (sub.length) { subEl.textContent = sub.join(' • '); subEl.hidden = false; }
+        else { subEl.textContent = ''; subEl.hidden = true; }
+      }
 
       /* Filter products */
       var matches = filterProducts(vehicle, data);
@@ -448,6 +596,8 @@
     function showEmpty(label) {
       document.getElementById('anh-ir-title').textContent = 'לא מצאנו את ' + label;
       document.getElementById('anh-ir-count').textContent = '';
+      var subEl = document.getElementById('anh-ir-subtitle');
+      if (subEl) { subEl.textContent = ''; subEl.hidden = true; }
       document.getElementById('anh-ir-grid').innerHTML = '';
       document.getElementById('anh-ir-grid').hidden = true;
       document.getElementById('anh-ir-empty').hidden = false;
