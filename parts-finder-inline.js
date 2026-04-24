@@ -559,24 +559,25 @@
       /* Inline style as a belt-and-braces safety against Konimbo CSS overrides */
       grid.style.cssText = 'display:grid !important; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)) !important; gap:16px !important; width:100% !important;';
       var empty = document.getElementById('anh-ir-empty');
+      var _strip = document.getElementById('anh-ir-cat-strip');
+      var _tiles = document.getElementById('anh-ir-cat-tiles');
 
       if (matches.length === 0) {
+        /* No matches: show empty-state message, hide grid + category chips + tiles */
         empty.hidden = false;
         grid.hidden = true;
+        if (_strip) _strip.hidden = true;
+        if (_tiles) _tiles.hidden = true;
       } else {
+        /* Matches found: show grid + category navigation, hide empty state */
         empty.hidden = true;
         grid.hidden = false;
+        if (_strip) _strip.hidden = false;
+        if (_tiles) _tiles.hidden = false;
         matches.forEach(function (p) { grid.appendChild(buildCard(p, data)); });
+        renderCategoryStrip(matches);
+        renderCategoryTiles(matches, true);
       }
-
-      /* Category strip (chips) + large image tiles — un-hide in case previous state was empty */
-      var _strip = document.getElementById('anh-ir-cat-strip');
-      if (_strip) _strip.hidden = false;
-      var _tiles = document.getElementById('anh-ir-cat-tiles');
-      if (_tiles) _tiles.hidden = false;
-      document.getElementById('anh-ir-empty').hidden = true;
-      renderCategoryStrip(matches);
-      renderCategoryTiles(matches, matches.length > 0);
 
       /* Hide banners, show results, scroll to widget */
       homepageGroups.forEach(function (g) { g.style.display = 'none'; });
