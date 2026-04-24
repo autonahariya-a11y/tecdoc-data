@@ -86,9 +86,15 @@
     '#anh-inline-results .anh-ir__btn--cart:hover{background:#d95e18}',
     '#anh-inline-results .anh-ir__btn--prod{background:#fff;color:#1A9FD5;border-right:1px solid #e5ebf0}',
     '#anh-inline-results .anh-ir__btn--prod:hover{background:#f4fafd}',
-    '#anh-inline-results .anh-ir__empty{text-align:center;padding:40px 16px;background:#fff;border:1px dashed #cfd8df;border-radius:12px;color:#6b7780}',
-    '#anh-inline-results .anh-ir__empty-hint{font-size:13px;margin-top:8px}',
-    '#anh-inline-results .anh-ir__empty a{color:#1A9FD5}',
+    '#anh-inline-results .anh-ir__empty{text-align:center;padding:32px 20px;background:#fff;border:1px solid #E5ECF2;border-radius:12px;color:#0B3E5C;margin:0 0 20px !important}',
+    '#anh-inline-results .anh-ir__empty-title{font-size:18px !important;font-weight:700 !important;color:#0B3E5C !important;margin:0 0 8px !important}',
+    '#anh-inline-results .anh-ir__empty-sub{font-size:14px !important;color:#6b7780 !important;margin:0 0 20px !important;line-height:1.5 !important}',
+    '#anh-inline-results .anh-ir__empty-actions{display:flex !important;gap:12px !important;justify-content:center !important;flex-wrap:wrap !important}',
+    '#anh-inline-results .anh-ir__btn-wa{display:inline-flex !important;align-items:center !important;gap:8px !important;background:#25D366 !important;color:#fff !important;text-decoration:none !important;padding:12px 22px !important;border-radius:999px !important;font-weight:700 !important;font-size:15px !important;transition:all .2s !important;box-shadow:0 2px 8px rgba(37,211,102,0.3) !important}',
+    '#anh-inline-results .anh-ir__btn-wa:hover{background:#1fb855 !important;transform:translateY(-1px) !important;box-shadow:0 4px 12px rgba(37,211,102,0.4) !important;color:#fff !important}',
+    '#anh-inline-results .anh-ir__btn-wa svg{flex-shrink:0}',
+    '#anh-inline-results .anh-ir__btn-search{display:inline-flex !important;align-items:center !important;background:#fff !important;color:#1A9FD5 !important;text-decoration:none !important;padding:12px 22px !important;border-radius:999px !important;font-weight:700 !important;font-size:15px !important;border:2px solid #1A9FD5 !important;transition:all .2s !important}',
+    '#anh-inline-results .anh-ir__btn-search:hover{background:#1A9FD5 !important;color:#fff !important}',
     '#anh-inline-results .anh-ir__cat-tiles{display:grid !important;grid-template-columns:repeat(auto-fill,minmax(150px,1fr)) !important;gap:12px !important;margin:8px 0 20px !important;width:100% !important}',
     '#anh-inline-results .anh-ir__cat-tiles-title{font-size:16px;font-weight:700;color:#0B3E5C;margin:8px 0 4px;text-align:right}',
     '#anh-inline-results .anh-ir__tile{background:#fff !important;border:2px solid #E5ECF2 !important;border-radius:12px !important;padding:12px 8px !important;cursor:pointer !important;transition:all .2s !important;display:flex !important;flex-direction:column !important;align-items:center !important;gap:8px !important;text-decoration:none !important;font-family:inherit !important;color:#0B3E5C !important;text-align:center !important}',
@@ -155,14 +161,21 @@
           '<span>חזרה לדף הבית</span>' +
         '</button>' +
       '</div>' +
+      '<div class="anh-ir__empty" id="anh-ir-empty" hidden>' +
+        '<p class="anh-ir__empty-title">לא נמצאו חלקים מתאימים לרכב זה במאגר הנוכחי</p>' +
+        '<p class="anh-ir__empty-sub">אבל אנחנו מחזיקים מגוון רחב של חלקים ואביזרים לרכבכם — צרו איתנו קשר ונשמח לעזור.</p>' +
+        '<div class="anh-ir__empty-actions">' +
+          '<a class="anh-ir__btn-wa" href="https://wa.me/97249517322?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%97%D7%A4%D7%A9%20%D7%97%D7%9C%D7%A7%D7%99%D7%9D%20%D7%9C%D7%A8%D7%9B%D7%91%20%D7%A9%D7%9C%D7%99%20%E2%80%94%20%D7%AA%D7%95%D7%9B%D7%9C%D7%95%20%D7%9C%D7%A2%D7%96%D7%95%D7%A8%3F" target="_blank" rel="noopener">' +
+            '<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.824 11.824 0 013.48 8.413c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.264.489 1.696.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>' +
+            '<span>דברו איתנו בוואטסאפ</span>' +
+          '</a>' +
+          '<a class="anh-ir__btn-search" href="https://www.autonahariya.co.il/search?q=">חיפוש חופשי באתר</a>' +
+        '</div>' +
+      '</div>' +
       '<div class="anh-ir__cat-strip" id="anh-ir-cat-strip"></div>' +
       '<div class="anh-ir__cat-tiles" id="anh-ir-cat-tiles"></div>' +
       '<h3 class="anh-ir__section-title" id="anh-ir-section-title" hidden>כל החלפים</h3>' +
-      '<div class="anh-ir__grid" id="anh-ir-grid"></div>' +
-      '<div class="anh-ir__empty" id="anh-ir-empty" hidden>' +
-        '<p>לא נמצאו חלקים מתאימים לרכב זה במאגר הנוכחי, אבל אנחנו מחזיקים מגוון רחב של חלקים ואביזרים לרכבכם.</p>' +
-        '<p class="anh-ir__empty-hint">עיינו בקטגוריות למטה, או <a href="https://www.autonahariya.co.il/search?q=">חפשו חופשי באתר</a>.</p>' +
-      '</div>';
+      '<div class="anh-ir__grid" id="anh-ir-grid"></div>';
     widget.parentNode.insertBefore(resultsWrap, widget.nextSibling);
 
     document.getElementById('anh-ir-back').addEventListener('click', hideResults);
@@ -408,7 +421,12 @@
         matches.forEach(function (p) { grid.appendChild(buildCard(p, data)); });
       }
 
-      /* Category strip (chips) + large image tiles */
+      /* Category strip (chips) + large image tiles — un-hide in case previous state was empty */
+      var _strip = document.getElementById('anh-ir-cat-strip');
+      if (_strip) _strip.hidden = false;
+      var _tiles = document.getElementById('anh-ir-cat-tiles');
+      if (_tiles) _tiles.hidden = false;
+      document.getElementById('anh-ir-empty').hidden = true;
       renderCategoryStrip(matches);
       renderCategoryTiles(matches, matches.length > 0);
 
@@ -433,12 +451,13 @@
       document.getElementById('anh-ir-grid').innerHTML = '';
       document.getElementById('anh-ir-grid').hidden = true;
       document.getElementById('anh-ir-empty').hidden = false;
-      /* Hide chip strip, hide section title; show default category tiles */
+      /* Hide chip strip, category tiles and section title completely on empty state */
       var strip = document.getElementById('anh-ir-cat-strip');
-      if (strip) strip.innerHTML = '';
+      if (strip) { strip.innerHTML = ''; strip.hidden = true; }
+      var tiles = document.getElementById('anh-ir-cat-tiles');
+      if (tiles) { tiles.innerHTML = ''; tiles.hidden = true; }
       var sec = document.getElementById('anh-ir-section-title');
       if (sec) sec.hidden = true;
-      renderCategoryTiles([], false);
       homepageGroups.forEach(function (g) { g.style.display = 'none'; });
       resultsWrap.hidden = false;
       widget.scrollIntoView({ behavior: 'smooth', block: 'start' });
