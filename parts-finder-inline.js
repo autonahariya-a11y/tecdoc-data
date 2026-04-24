@@ -802,38 +802,202 @@
         'סיטרואן':['CITROEN','CITROËN'], 'רנו':['RENAULT'], 'דאצ\'יה':['DACIA'],
         "דודג'":['DODGE'], "ג'יפ":['JEEP'], 'קרייזלר':['CHRYSLER']
       };
-      var MODEL_ALIAS = {
+      /* Hebrew model name → English aliases (for Hebrew make/model search path) */
+      var MODEL_ALIAS_HE = {
+        /* Toyota */
         'קורולה':['COROLLA'],'יאריס':['YARIS'],'אוריס':['AURIS'],'ראב4':['RAV4','RAV 4'],
         'קאמרי':['CAMRY'],'קמרי':['CAMRY'],'היילקס':['HILUX'],'פריוס':['PRIUS'],
-        'סיטרואן':[],'וויגו':['WIGO'],'ויגו':['WIGO'],'אייגו':['AYGO'],
+        'וויגו':['WIGO'],'ויגו':['WIGO'],'אייגו':['AYGO'],
+        'לנד קרוזר':['LAND CRUISER','LANDCRUISER'],'אוונסיס':['AVENSIS'],
+        /* Hyundai */
         'טוסון':['TUCSON'],'איוניק':['IONIQ'],'אלנטרה':['ELANTRA'],'סונטה':['SONATA'],
-        'i10':['I10'],'i20':['I20'],'i25':['I25'],'i30':['I30'],'סנטה פה':['SANTA FE'],
+        'סנטה פה':['SANTA FE'],'קונה':['KONA'],'אקסנט':['ACCENT'],
+        'ונו':['VENUE'],'גטס':['GETZ'],
+        /* Kia */
         'פיקנטו':['PICANTO'],'ריו':['RIO'],'ספורטג':['SPORTAGE'],'סיד':['CEED','CEE\'D','PROCEED'],
         'קרניבל':['CARNIVAL','SEDONA'],'סטוניק':['STONIC'],'סלטוס':['SELTOS'],'נירו':['NIRO'],
-        '3':['3','MAZDA3'],'6':['6','MAZDA6'],'CX-3':['CX-3'],'CX-5':['CX-5'],
-        'סיוויק':['CIVIC'],'אקורד':['ACCORD'],'ג\'אז':['JAZZ'],'HR-V':['HR-V','HRV'],
+        'סול':['SOUL'],'אופטימה':['OPTIMA','K5'],
+        /* Honda */
+        'סיוויק':['CIVIC'],'אקורד':['ACCORD'],'ג\'אז':['JAZZ','FIT'],
+        /* Nissan */
         'מיקרה':['MICRA'],'קשקאי':['QASHQAI'],'ג\'וק':['JUKE'],'פאלסאר':['PULSAR'],
-        'לנסר':['LANCER'],'אאוטלנדר':['OUTLANDER'],'ASX':['ASX'],
+        'לף':['LEAF'],'נוט':['NOTE'],'סנטרה':['SENTRA'],
+        /* Mitsubishi */
+        'לנסר':['LANCER'],'אאוטלנדר':['OUTLANDER'],
+        'פאג׳רו':['PAJERO','MONTERO','SHOGUN'],'פאג\'רו':['PAJERO','MONTERO','SHOGUN'],
+        'אקליפס':['ECLIPSE','ECLIPSE CROSS'],'אקליפס קרוס':['ECLIPSE CROSS'],
+        'ספייס סטאר':['SPACE STAR','MIRAGE'],'קולט':['COLT'],
+        /* Suzuki */
+        'סוויפט':['SWIFT'],'ויטרה':['VITARA','GRAND VITARA','ESCUDO'],'איגניס':['IGNIS'],
+        'באלנו':['BALENO'],'גימני':['JIMNY'],
+        /* Ford */
         'פוקוס':['FOCUS'],'פיאסטה':['FIESTA'],'קוגה':['KUGA','ESCAPE'],
+        'מונדאו':['MONDEO','FUSION'],'פומה':['PUMA'],'רנג\'ר':['RANGER'],'אקו ספורט':['ECOSPORT','ECO SPORT'],
+        'טרנזיט':['TRANSIT','TRANSIT CUSTOM','TRANSIT CONNECT'],
+        /* Volkswagen */
         'גולף':['GOLF'],'פולו':['POLO'],'פאסאט':['PASSAT'],'ג\'טה':['JETTA'],'טיגואן':['TIGUAN'],
+        'טוארג':['TOUAREG'],'שרן':['SHARAN'],'קאדי':['CADDY'],'טרנספורטר':['TRANSPORTER','T5','T6'],
+        'ארטיאון':['ARTEON','CC'],
+        /* Skoda */
         'אוקטביה':['OCTAVIA'],'פאביה':['FABIA'],'קודיאק':['KODIAQ'],'קארוק':['KAROQ'],
-        '500':['500'],'פנדה':['PANDA'],'דוקאטו':['DUCATO'],
-        '207':['207'],'208':['208'],'301':['301'],'308':['308'],'3008':['3008'],'5008':['5008'],
-        'קליאו':['CLIO'],'מגאן':['MEGANE'],'קפצ\'ור':['CAPTUR'],'קדג\'אר':['KADJAR']
+        'קמיק':['KAMIQ'],'סופרב':['SUPERB'],'סקאלה':['SCALA'],'רומסטר':['ROOMSTER'],
+        /* SEAT */
+        'איביזה':['IBIZA'],'לאון':['LEON'],'ארונה':['ARONA'],'אטקה':['ATECA'],
+        'אלהמברה':['ALHAMBRA'],'טולדו':['TOLEDO'],
+        /* Opel / Vauxhall */
+        'קורסה':['CORSA'],'אסטרה':['ASTRA'],'אינסיגניה':['INSIGNIA'],'מוקה':['MOKKA','MOKKA X'],
+        'קרוסלנד':['CROSSLAND','CROSSLAND X'],'גרנדלנד':['GRANDLAND','GRANDLAND X'],
+        'מריבה':['MERIVA'],'זאפירה':['ZAFIRA'],'קומבו':['COMBO'],'ויואנו':['VIVARO'],
+        'אגילה':['AGILA'],'אדם':['ADAM'],
+        /* Fiat */
+        'פנדה':['PANDA'],'דוקאטו':['DUCATO'],'דובלו':['DOBLO'],
+        'פונטו':['PUNTO','GRANDE PUNTO'],'טיפו':['TIPO'],'באט':['BRAVO'],'פיורינו':['FIORINO'],
+        /* Peugeot */
+        'פרטנר':['PARTNER'],'בוקסר':['BOXER'],'ריפטר':['RIFTER'],
+        /* Renault */
+        'קליאו':['CLIO'],'מגאן':['MEGANE'],'קפצ\'ור':['CAPTUR'],'קדג\'אר':['KADJAR'],
+        'קולאוס':['KOLEOS'],'סניק':['SCENIC','GRAND SCENIC'],'טאליסמן':['TALISMAN'],
+        'קנגו':['KANGOO'],'טראפיק':['TRAFIC'],'מאסטר':['MASTER'],'זואי':['ZOE'],
+        'אוסטרל':['AUSTRAL'],'ארקאנה':['ARKANA'],
+        /* Citroen */
+        'ברלינגו':['BERLINGO'],'ג\'אמפי':['JUMPY'],'ג\'אמפר':['JUMPER'],
+        /* Dacia */
+        'דאסטר':['DUSTER'],'סנדרו':['SANDERO'],'לוגן':['LOGAN'],'ספנדור':['SPRING'],
+        'ג\'וגר':['JOGGER'],
+        /* Jeep */
+        'גרנד צ\'ירוקי':['GRAND CHEROKEE'],'צ\'ירוקי':['CHEROKEE'],'רנגייד':['RENEGADE'],
+        'קומפאס':['COMPASS'],'רנגלר':['WRANGLER'],'גלאדיאטור':['GLADIATOR'],
+        'קומנדר':['COMMANDER'],
+        /* Chinese brands */
+        'צ\'ירי':['CHERY'],'ג\'יאלי':['GEELY'],
+        'טייקו':['TYCOON'],'טיגו':['TIGGO','TIGGO 4','TIGGO 7','TIGGO 8'],'אומודה':['OMODA'],
+        /* Commercial vans */
+        'איבקו דיילי':['IVECO DAILY','DAILY']
+      };
+
+      /* Make-scoped alphanumeric model codes (avoids collisions like Mazda "3" vs BMW "3-Series") */
+      var MODEL_ALIAS_BY_MAKE = {
+        'AUDI': {
+          'A1':['A1'],'A3':['A3'],'A4':['A4'],'A5':['A5'],'A6':['A6'],'A7':['A7'],'A8':['A8'],
+          'Q2':['Q2'],'Q3':['Q3','RSQ3'],'Q4':['Q4','Q4 E-TRON'],'Q5':['Q5','SQ5'],'Q7':['Q7','SQ7'],'Q8':['Q8','SQ8','RSQ8'],
+          'TT':['TT','TTS','TT RS','TTRS'],'R8':['R8'],
+          'E-TRON':['E-TRON','ETRON']
+        },
+        'BMW': {
+          '1':['1 SERIES','SERIE 1','116','118','120','125','128','130','135','M135'],
+          '2':['2 SERIES','SERIE 2','216','218','220','225','228','230','235','M235','M240'],
+          '3':['3 SERIES','SERIE 3','316','318','320','323','325','328','330','335','340','M3'],
+          '4':['4 SERIES','SERIE 4','418','420','425','428','430','435','440','M4'],
+          '5':['5 SERIES','SERIE 5','518','520','523','525','528','530','535','540','550','M5'],
+          '6':['6 SERIES','SERIE 6','628','630','635','640','650','M6'],
+          '7':['7 SERIES','SERIE 7','728','730','735','740','745','750','760'],
+          '8':['8 SERIES','SERIE 8','840','850','M8'],
+          'X1':['X1'],'X2':['X2'],'X3':['X3','X3M'],'X4':['X4','X4M'],'X5':['X5','X5M'],
+          'X6':['X6','X6M'],'X7':['X7'],
+          'Z3':['Z3'],'Z4':['Z4'],
+          'I3':['I3'],'I4':['I4'],'I7':['I7'],'I8':['I8'],'IX':['IX','IX1','IX3'],'IX3':['IX3'],'IX1':['IX1']
+        },
+        'MERCEDES': {
+          'A':['A-CLASS','A CLASS','A150','A160','A170','A180','A200','A220','A250','A35','A45','AMG A'],
+          'B':['B-CLASS','B CLASS','B150','B160','B170','B180','B200','B220','B250'],
+          'C':['C-CLASS','C CLASS','C160','C180','C200','C220','C230','C240','C250','C280','C300','C320','C350','C400','C43','C63','AMG C'],
+          'E':['E-CLASS','E CLASS','E200','E220','E230','E240','E250','E280','E300','E320','E350','E400','E450','E500','E550','E43','E53','E63','AMG E'],
+          'S':['S-CLASS','S CLASS','S320','S350','S400','S420','S450','S500','S550','S560','S580','S600','S63','S65','AMG S'],
+          'G':['G-CLASS','G CLASS','G320','G350','G400','G500','G550','G63','G65','AMG G','GELANDEWAGEN'],
+          'CLA':['CLA','CLA180','CLA200','CLA220','CLA250','CLA35','CLA45'],
+          'CLS':['CLS','CLS300','CLS350','CLS400','CLS450','CLS500','CLS550','CLS63'],
+          'GLA':['GLA','GLA180','GLA200','GLA220','GLA250','GLA35','GLA45'],
+          'GLB':['GLB','GLB200','GLB220','GLB250','GLB35'],
+          'GLC':['GLC','GLC200','GLC220','GLC250','GLC300','GLC350','GLC43','GLC63'],
+          'GLE':['GLE','GLE300','GLE350','GLE400','GLE450','GLE500','GLE53','GLE63','M-CLASS','ML','ML250','ML350'],
+          'GLS':['GLS','GLS350','GLS400','GLS450','GLS500','GLS550','GLS580','GLS63','GL','GL-CLASS'],
+          'VITO':['VITO','V-CLASS','V250','V300'],'SPRINTER':['SPRINTER'],
+          'SLK':['SLK','SLC'],'SL':['SL'],'GT':['AMG GT','GT'],
+          'EQA':['EQA'],'EQB':['EQB'],'EQC':['EQC'],'EQE':['EQE'],'EQS':['EQS'],'EQV':['EQV']
+        },
+        'MAZDA': {
+          '2':['2','MAZDA2','DEMIO'],'3':['3','MAZDA3','AXELA'],'6':['6','MAZDA6','ATENZA'],
+          'CX-3':['CX-3','CX3'],'CX-30':['CX-30','CX30'],'CX-5':['CX-5','CX5'],'CX-9':['CX-9','CX9'],
+          'MX-5':['MX-5','MX5','MIATA']
+        },
+        'HONDA': {
+          'CIVIC':['CIVIC'],'ACCORD':['ACCORD'],'JAZZ':['JAZZ','FIT'],
+          'CR-V':['CR-V','CRV'],'HR-V':['HR-V','HRV'],'INSIGHT':['INSIGHT']
+        },
+        'NISSAN': {
+          'X-TRAIL':['X-TRAIL','XTRAIL','ROGUE']
+        },
+        'MITSUBISHI': {
+          'ASX':['ASX']
+        },
+        'SUZUKI': {
+          'SX4':['SX4','S-CROSS','SCROSS'],'S-CROSS':['S-CROSS','SCROSS','SX4']
+        },
+        'VOLKSWAGEN': {
+          'UP':['UP','UP!']
+        },
+        'FIAT': {
+          '500':['500'],'500L':['500L'],'500X':['500X']
+        },
+        'PEUGEOT': {
+          '107':['107'],'108':['108'],'207':['207'],'208':['208'],'301':['301'],'308':['308'],
+          '508':['508'],'2008':['2008'],'3008':['3008'],'4008':['4008'],'5008':['5008']
+        },
+        'HYUNDAI': {
+          'I10':['I10'],'I20':['I20'],'I25':['I25'],'I30':['I30'],'I35':['I35','IX35','TUCSON IX35'],
+          'IX35':['IX35','TUCSON IX35']
+        },
+        'KIA': {
+          'K5':['K5','OPTIMA']
+        },
+        'CITROEN': {
+          'C1':['C1'],'C3':['C3','C3 AIRCROSS','C3 PICASSO'],
+          'C4':['C4','C4 CACTUS','C4 PICASSO','C4 GRAND PICASSO'],
+          'C5':['C5','C5 AIRCROSS']
+        },
+        'TOYOTA': {
+          'C-HR':['C-HR','CHR']
+        }
       };
 
       var mfrEnList = BRAND_ALIAS[vehicle.make] || [(vehicle.make || '').toUpperCase()];
       var baseModelEn = (function () {
-        var m = vehicle.model || '';
-        /* Strip common suffixes */
+        var m = (vehicle.model || '').trim();
+        /* Strip common trailing trims/suffixes */
         m = m.replace(/\s+Verso\b/ig, '').trim();
-        for (var k in MODEL_ALIAS) {
-          if (m.indexOf(k) !== -1 || m.toUpperCase().indexOf(k.toUpperCase()) !== -1) {
-            return MODEL_ALIAS[k];
+        var mUpper = m.toUpperCase();
+
+        /* 1) Hebrew alias exact match */
+        if (MODEL_ALIAS_HE[m]) return MODEL_ALIAS_HE[m];
+
+        /* 2) Make-scoped alphanumeric code match (most reliable for codes like A1, X5, GLE350) */
+        for (var i = 0; i < mfrEnList.length; i++) {
+          var mfr = mfrEnList[i].toUpperCase();
+          var codeMap = MODEL_ALIAS_BY_MAKE[mfr];
+          if (!codeMap) continue;
+          /* Exact match on whole model string */
+          if (codeMap[mUpper]) return codeMap[mUpper];
+          /* First token match (e.g. "A3 SPORTBACK" → A3) */
+          var firstTok = mUpper.split(/\s+/)[0];
+          if (codeMap[firstTok]) return codeMap[firstTok];
+          /* Prefix match: code followed by digits, e.g. "C200" → code "C" */
+          for (var key in codeMap) {
+            /* Require code to be at start AND followed by a digit (handles C200, GLE350, 320i) */
+            var re = new RegExp('^' + key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\d');
+            if (re.test(mUpper)) return codeMap[key];
+            /* Also code exactly equals whole string, e.g. "X5" === "X5" */
+            if (mUpper === key) return codeMap[key];
           }
         }
-        var up = m.toUpperCase().trim();
-        return up ? [up] : [];
+
+        /* 3) Hebrew alias substring fallback */
+        for (var k in MODEL_ALIAS_HE) {
+          if (m.indexOf(k) !== -1) return MODEL_ALIAS_HE[k];
+        }
+
+        /* 4) Last resort: return uppercased first token as-is (preserves codes like A1, X5) */
+        var firstWord = mUpper.split(/\s+/)[0];
+        return firstWord ? [firstWord] : [];
       })();
       var yr = parseInt(vehicle.year, 10) || 0;
 
@@ -940,6 +1104,152 @@
         { from: 2007, to: 2014, gens: ['_J10','J10_'] },
         { from: 2013, to: 2021, gens: ['_J11','J11_'] },
         { from: 2021, to: 2026, gens: ['_J12','J12_'] }
+      ],
+      /* Audi — alphanumeric codes */
+      'AUDI|A1': [
+        { from: 2010, to: 2018, gens: ['_8X','8X_','8XA','8XF','8XK'] },
+        { from: 2018, to: 2026, gens: ['_GB','GB_','GBA','GBH'] }
+      ],
+      'AUDI|A3': [
+        { from: 1996, to: 2003, gens: ['_8L','8L_'] },
+        { from: 2003, to: 2013, gens: ['_8P','8P_','8PA'] },
+        { from: 2012, to: 2020, gens: ['_8V','8V_','8VA','8VS','8V1','8V7'] },
+        { from: 2020, to: 2026, gens: ['_8Y','8Y_','GYB','GYH'] }
+      ],
+      'AUDI|A4': [
+        { from: 2000, to: 2008, gens: ['_B6','_B7','8E_','8EC','8ED','8H_','8HE'] },
+        { from: 2007, to: 2015, gens: ['_B8','8K_','8K2','8K5'] },
+        { from: 2015, to: 2023, gens: ['_B9','8W_','8W2','8W5'] },
+        { from: 2023, to: 2026, gens: ['_B10','B10_'] }
+      ],
+      'AUDI|A5': [
+        { from: 2007, to: 2016, gens: ['_8T','8T_','8TA','8F7'] },
+        { from: 2016, to: 2024, gens: ['_F5','F5_','F53','F57'] }
+      ],
+      'AUDI|A6': [
+        { from: 2004, to: 2011, gens: ['_C6','4F_','4F2','4F5'] },
+        { from: 2011, to: 2018, gens: ['_C7','4G_','4G2','4G5'] },
+        { from: 2018, to: 2026, gens: ['_C8','4A_','4A2','4A5'] }
+      ],
+      'AUDI|Q3': [
+        { from: 2011, to: 2019, gens: ['_8U','8U_','8UB','8UG'] },
+        { from: 2018, to: 2026, gens: ['_F3','F3_','F3B','F3N'] }
+      ],
+      'AUDI|Q5': [
+        { from: 2008, to: 2017, gens: ['_8R','8R_','8RB'] },
+        { from: 2016, to: 2026, gens: ['_FY','FY_','FYB'] }
+      ],
+      'AUDI|Q7': [
+        { from: 2005, to: 2015, gens: ['_4L','4L_','4LB'] },
+        { from: 2015, to: 2026, gens: ['_4M','4M_','4MB'] }
+      ],
+      /* BMW — series-based */
+      'BMW|1': [
+        { from: 2004, to: 2013, gens: ['_E81','_E82','_E87','_E88','E81','E82','E87','E88'] },
+        { from: 2011, to: 2019, gens: ['_F20','_F21','F20','F21'] },
+        { from: 2019, to: 2026, gens: ['_F40','F40'] }
+      ],
+      'BMW|2': [
+        { from: 2013, to: 2021, gens: ['_F22','_F23','_F45','_F46','F22','F23','F45','F46'] },
+        { from: 2021, to: 2026, gens: ['_G42','_U06','G42','U06'] }
+      ],
+      'BMW|3': [
+        { from: 1998, to: 2006, gens: ['_E46','E46'] },
+        { from: 2005, to: 2013, gens: ['_E90','_E91','_E92','_E93','E90','E91','E92','E93'] },
+        { from: 2011, to: 2019, gens: ['_F30','_F31','_F34','_F35','F30','F31','F34'] },
+        { from: 2018, to: 2026, gens: ['_G20','_G21','_G28','G20','G21','G28'] }
+      ],
+      'BMW|4': [
+        { from: 2013, to: 2020, gens: ['_F32','_F33','_F36','F32','F33','F36'] },
+        { from: 2020, to: 2026, gens: ['_G22','_G23','_G26','G22','G23','G26'] }
+      ],
+      'BMW|5': [
+        { from: 2003, to: 2010, gens: ['_E60','_E61','E60','E61'] },
+        { from: 2009, to: 2017, gens: ['_F10','_F11','_F18','F10','F11','F18'] },
+        { from: 2017, to: 2024, gens: ['_G30','_G31','_G38','G30','G31','G38'] },
+        { from: 2023, to: 2026, gens: ['_G60','_G61','G60','G61'] }
+      ],
+      'BMW|X1': [
+        { from: 2009, to: 2015, gens: ['_E84','E84'] },
+        { from: 2015, to: 2022, gens: ['_F48','F48'] },
+        { from: 2022, to: 2026, gens: ['_U11','U11'] }
+      ],
+      'BMW|X3': [
+        { from: 2003, to: 2010, gens: ['_E83','E83'] },
+        { from: 2010, to: 2017, gens: ['_F25','F25'] },
+        { from: 2017, to: 2026, gens: ['_G01','G01'] }
+      ],
+      'BMW|X5': [
+        { from: 1999, to: 2006, gens: ['_E53','E53'] },
+        { from: 2006, to: 2013, gens: ['_E70','E70'] },
+        { from: 2013, to: 2018, gens: ['_F15','F15'] },
+        { from: 2018, to: 2026, gens: ['_G05','G05'] }
+      ],
+      'BMW|X6': [
+        { from: 2007, to: 2014, gens: ['_E71','E71'] },
+        { from: 2014, to: 2019, gens: ['_F16','F16'] },
+        { from: 2019, to: 2026, gens: ['_G06','G06'] }
+      ],
+      /* Mercedes — class-based */
+      'MERCEDES-BENZ|A': [
+        { from: 1997, to: 2005, gens: ['_W168','W168'] },
+        { from: 2004, to: 2012, gens: ['_W169','W169'] },
+        { from: 2012, to: 2018, gens: ['_W176','W176'] },
+        { from: 2018, to: 2026, gens: ['_W177','W177'] }
+      ],
+      'MERCEDES-BENZ|B': [
+        { from: 2005, to: 2011, gens: ['_W245','W245'] },
+        { from: 2011, to: 2018, gens: ['_W246','_W242','W246','W242'] },
+        { from: 2018, to: 2026, gens: ['_W247','W247'] }
+      ],
+      'MERCEDES-BENZ|C': [
+        { from: 2000, to: 2007, gens: ['_W203','_S203','_CL203','W203','S203','CL203'] },
+        { from: 2007, to: 2014, gens: ['_W204','_S204','_C204','W204','S204','C204'] },
+        { from: 2014, to: 2021, gens: ['_W205','_S205','_C205','_A205','W205','S205','C205'] },
+        { from: 2021, to: 2026, gens: ['_W206','_S206','W206','S206'] }
+      ],
+      'MERCEDES-BENZ|E': [
+        { from: 2002, to: 2009, gens: ['_W211','_S211','W211','S211'] },
+        { from: 2009, to: 2016, gens: ['_W212','_S212','_C207','_A207','W212','S212','C207','A207'] },
+        { from: 2016, to: 2023, gens: ['_W213','_S213','_C238','_A238','W213','S213','C238','A238'] },
+        { from: 2023, to: 2026, gens: ['_W214','_S214','W214','S214'] }
+      ],
+      'MERCEDES-BENZ|GLA': [
+        { from: 2013, to: 2020, gens: ['_X156','X156'] },
+        { from: 2020, to: 2026, gens: ['_H247','H247'] }
+      ],
+      'MERCEDES-BENZ|GLC': [
+        { from: 2015, to: 2022, gens: ['_X253','_C253','X253','C253'] },
+        { from: 2022, to: 2026, gens: ['_X254','_C254','X254','C254'] }
+      ],
+      'MERCEDES-BENZ|GLE': [
+        { from: 2015, to: 2019, gens: ['_W166','_C292','W166','C292'] },
+        { from: 2018, to: 2026, gens: ['_W167','_C167','W167','C167'] }
+      ],
+      'MERCEDES-BENZ|VITO': [
+        { from: 2003, to: 2014, gens: ['_W639','W639'] },
+        { from: 2014, to: 2026, gens: ['_W447','W447'] }
+      ],
+      'MERCEDES-BENZ|SPRINTER': [
+        { from: 2006, to: 2018, gens: ['_W906','906'] },
+        { from: 2018, to: 2026, gens: ['_W907','_W910','907','910'] }
+      ],
+      /* Volkswagen — alphanumeric popular */
+      'VOLKSWAGEN|GOLF': [
+        { from: 1997, to: 2006, gens: ['_1J','1J_','1J1','1J5'] },
+        { from: 2003, to: 2009, gens: ['_1K','1K_','1K1','1K5'] },
+        { from: 2008, to: 2014, gens: ['_5K','5K_','5K1','AJ5'] },
+        { from: 2012, to: 2020, gens: ['_5G','5G_','5G1','BA5','BE1','BE2'] },
+        { from: 2019, to: 2026, gens: ['_CD','CD1','CD5'] }
+      ],
+      'VOLKSWAGEN|POLO': [
+        { from: 2001, to: 2009, gens: ['_9N','9N_'] },
+        { from: 2009, to: 2017, gens: ['_6R','_6C','6R_','6C_'] },
+        { from: 2017, to: 2026, gens: ['_AW','AW_'] }
+      ],
+      'VOLKSWAGEN|TIGUAN': [
+        { from: 2007, to: 2017, gens: ['_5N','5N_','5N1','5N2'] },
+        { from: 2016, to: 2026, gens: ['_AD','AD1','AX1','BW2'] }
       ]
     };
 
