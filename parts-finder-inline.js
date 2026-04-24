@@ -22,6 +22,28 @@
   var TECDOC_DATA = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
   var VERSION = 'v1';
 
+  /* ── Category images — mirror /categories/*.webp from demo ──────────── */
+  var CAT_IMG_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder/categories/';
+  var CATEGORY_IMAGES = {
+    'רפידות בלם':        'brake_pads',
+    'פילטר שמן':         'oil_filter',
+    'פילטר אויר':        'air_filter',
+    'רצועות אביזרים':    'belts',
+    'בולמי תא מטען':     'trunk_strut',
+    'משולשים':           'triangle',
+    'מצתים':             'sparkplugs',
+    'פילטר מזגן':        'cabin_filter',
+    'בולם מכסה מנוע':    'hood_strut',
+    'סליל הצתה':         'coil'
+  };
+
+  /* Default category tiles when there are no matches (catalog browse) */
+  var DEFAULT_CATEGORY_TILES = [
+    'רפידות בלם','פילטר שמן','פילטר אויר','פילטר מזגן',
+    'מצתים','סליל הצתה','רצועות אביזרים','משולשים',
+    'בולמי תא מטען','בולם מכסה מנוע'
+  ];
+
   /* ── Bail if widget not present ─────────────────────────────── */
   function ready(fn) {
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn);
@@ -82,10 +104,12 @@
         '</button>' +
       '</div>' +
       '<div class="anh-ir__cat-strip" id="anh-ir-cat-strip"></div>' +
+      '<div class="anh-ir__cat-tiles" id="anh-ir-cat-tiles"></div>' +
+      '<h3 class="anh-ir__section-title" id="anh-ir-section-title" hidden>כל החלפים</h3>' +
       '<div class="anh-ir__grid" id="anh-ir-grid"></div>' +
       '<div class="anh-ir__empty" id="anh-ir-empty" hidden>' +
-        '<p>לא נמצאו חלקים מתאימים לרכב זה במאגר הנוכחי.</p>' +
-        '<p class="anh-ir__empty-hint">נסה רכב אחר, או <a href="/search?q=">חפש חופשי באתר</a>.</p>' +
+        '<p>לא נמצאו חלקים מתאימים לרכב זה במאגר הנוכחי, אבל אנחנו מחזיקים מגוון רחב של חלקים ואביזרים לרכבכם.</p>' +
+        '<p class="anh-ir__empty-hint">עיינו בקטגוריות למטה, או <a href="https://www.autonahariya.co.il/search?q=">חפשו חופשי באתר</a>.</p>' +
       '</div>';
     widget.parentNode.insertBefore(resultsWrap, widget.nextSibling);
 
@@ -332,8 +356,9 @@
         matches.forEach(function (p) { grid.appendChild(buildCard(p, data)); });
       }
 
-      /* Category strip */
+      /* Category strip (chips) + large image tiles */
       renderCategoryStrip(matches);
+      renderCategoryTiles(matches, matches.length > 0);
 
       /* Hide banners, show results, scroll to widget */
       homepageGroups.forEach(function (g) { g.style.display = 'none'; });
@@ -356,6 +381,12 @@
       document.getElementById('anh-ir-grid').innerHTML = '';
       document.getElementById('anh-ir-grid').hidden = true;
       document.getElementById('anh-ir-empty').hidden = false;
+      /* Hide chip strip, hide section title; show default category tiles */
+      var strip = document.getElementById('anh-ir-cat-strip');
+      if (strip) strip.innerHTML = '';
+      var sec = document.getElementById('anh-ir-section-title');
+      if (sec) sec.hidden = true;
+      renderCategoryTiles([], false);
       homepageGroups.forEach(function (g) { g.style.display = 'none'; });
       resultsWrap.hidden = false;
       widget.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -442,6 +473,68 @@
         filterByCategory('');
       });
       strip.insertBefore(all, strip.firstChild);
+    }
+
+
+    function renderCategoryTiles(matches, hasMatches) {
+      var tilesEl = document.getElementById('anh-ir-cat-tiles');
+      var titleEl = document.getElementById('anh-ir-section-title');
+      if (!tilesEl) return;
+      tilesEl.innerHTML = '';
+
+      var cats, counts = {};
+      if (hasMatches && matches && matches.length) {
+        matches.forEach(function (p) {
+          var c = (p.c || '').trim();
+          if (!c || !CATEGORY_IMAGES[c]) return;
+          counts[c] = (counts[c] || 0) + 1;
+        });
+        cats = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
+        if (cats.length === 0) {
+          cats = DEFAULT_CATEGORY_TILES.slice();
+        }
+      } else {
+        cats = DEFAULT_CATEGORY_TILES.slice();
+      }
+
+      if (cats.length === 0) { tilesEl.hidden = true; return; }
+      tilesEl.hidden = false;
+
+      cats.forEach(function (c) {
+        var imgKey = CATEGORY_IMAGES[c];
+        if (!imgKey) return;
+        var tile = document.createElement('a');
+        tile.className = 'anh-ir__tile';
+        tile.setAttribute('data-cat', c);
+        tile.href = 'javascript:void(0)';
+        var countBadge = (hasMatches && counts[c])
+          ? '<div class="anh-ir__tile-count">' + counts[c] + ' מוצרים</div>'
+          : '';
+        tile.innerHTML =
+          '<div class="anh-ir__tile-imgwrap">' +
+            '<img src="' + CAT_IMG_BASE + imgKey + '.webp" alt="' + escapeHtml(c) + '" loading="lazy" onerror="this.style.display=\'none\'" />' +
+          '</div>' +
+          '<div class="anh-ir__tile-name">' + escapeHtml(c) + '</div>' +
+          countBadge;
+        tile.addEventListener('click', function (e) {
+          e.preventDefault();
+          if (hasMatches && counts[c]) {
+            /* In-page filter */
+            var strip = document.getElementById('anh-ir-cat-strip');
+            if (strip) strip.querySelectorAll('.anh-ir__chip').forEach(function (x) { x.classList.remove('active'); });
+            filterByCategory(c);
+            var grid = document.getElementById('anh-ir-grid');
+            if (grid && !grid.hidden) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          } else {
+            /* Link to site search */
+            window.location.href = 'https://www.autonahariya.co.il/search?q=' + encodeURIComponent(c);
+          }
+        });
+        tilesEl.appendChild(tile);
+      });
+
+      /* Toggle section title visibility: show "כל החלפים" only when we have a grid of matches */
+      if (titleEl) titleEl.hidden = !(hasMatches && matches && matches.length);
     }
 
     function filterByCategory(cat) {
@@ -787,6 +880,16 @@
     '#anh-inline-results .anh-ir__empty{text-align:center;padding:40px 16px;background:#fff;border:1px dashed #cfd8df;border-radius:12px;color:#6b7780}',
     '#anh-inline-results .anh-ir__empty-hint{font-size:13px;margin-top:8px}',
     '#anh-inline-results .anh-ir__empty a{color:#1A9FD5}',
+    '#anh-inline-results .anh-ir__cat-tiles{display:grid !important;grid-template-columns:repeat(auto-fill,minmax(150px,1fr)) !important;gap:12px !important;margin:8px 0 20px !important;width:100% !important}',
+    '#anh-inline-results .anh-ir__cat-tiles-title{font-size:16px;font-weight:700;color:#0B3E5C;margin:8px 0 4px;text-align:right}',
+    '#anh-inline-results .anh-ir__tile{background:#fff !important;border:2px solid #E5ECF2 !important;border-radius:12px !important;padding:12px 8px !important;cursor:pointer !important;transition:all .2s !important;display:flex !important;flex-direction:column !important;align-items:center !important;gap:8px !important;text-decoration:none !important;font-family:inherit !important;color:#0B3E5C !important;text-align:center !important}',
+    '#anh-inline-results .anh-ir__tile:hover{border-color:#1A9FD5 !important;transform:translateY(-2px) !important;box-shadow:0 6px 16px rgba(26,159,213,0.18) !important}',
+    '#anh-inline-results .anh-ir__tile-imgwrap{width:90px !important;height:90px !important;background:linear-gradient(135deg,#E8F4FB 0%,#C7E4F3 100%) !important;border-radius:10px !important;overflow:hidden !important;display:flex !important;align-items:center !important;justify-content:center !important;flex-shrink:0 !important}',
+    '#anh-inline-results .anh-ir__tile-imgwrap img{width:100% !important;height:100% !important;object-fit:cover !important}',
+    '#anh-inline-results .anh-ir__tile-name{font-size:13px !important;font-weight:600 !important;color:#0B3E5C !important;line-height:1.25 !important;text-align:center !important}',
+    '#anh-inline-results .anh-ir__tile-count{font-size:11px !important;font-weight:700 !important;color:#1A9FD5 !important}',
+    '#anh-inline-results .anh-ir__section-title{font-size:17px;font-weight:700;color:#0B3E5C;margin:20px 0 12px;text-align:right;border-top:1px solid #e5ebf0;padding-top:16px}',
+    '@media(max-width:600px){#anh-inline-results .anh-ir__cat-tiles{grid-template-columns:repeat(3,1fr) !important;gap:8px !important}#anh-inline-results .anh-ir__tile-imgwrap{width:64px !important;height:64px !important}#anh-inline-results .anh-ir__tile-name{font-size:12px !important}}',
     '@media(max-width:600px){#anh-inline-results .anh-ir__grid{grid-template-columns:repeat(2,1fr);gap:10px}#anh-inline-results .anh-ir__btn{padding:10px 4px;font-size:13px}#anh-inline-results .anh-ir__price{font-size:18px}#anh-inline-results .anh-ir__title{font-size:16px}}'
   ].join("");
 
