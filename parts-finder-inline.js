@@ -719,13 +719,16 @@
       fetch(prodUrl, { credentials: 'include' })
         .then(function (r) { return r.text(); })
         .then(function (html) {
-          var m = html.match(/name=["']authenticity_token["']\s+value=["']([^"']+)["']/);
-          if (!m) m = html.match(/value=["']([^"']+)["']\s+name=["']authenticity_token["']/);
+          /* Konimbo HTML has token as: name="authenticity_token" type="hidden" value="..."
+             Match the token regardless of attribute order. */
+          var m = html.match(/<input[^>]*name=["']authenticity_token["'][^>]*value=["']([^"']+)["']/i);
+          if (!m) m = html.match(/<input[^>]*value=["']([^"']+)["'][^>]*name=["']authenticity_token["']/i);
           if (!m) throw new Error('no token');
           var token = m[1];
           var form = document.createElement('form');
           form.method = 'POST';
-          form.action = 'https://www.autonahariya.co.il/orders/autonahariya/new';
+          /* The real productForm posts to secure.konimbo.co.il (not www) */
+          form.action = 'https://secure.konimbo.co.il/orders/autonahariya/new#secureHook';
           form.target = '_blank';
           form.style.display = 'none';
           var fields = {
@@ -733,7 +736,8 @@
             'item_id': kid,
             'request_url': '/items/' + kid,
             'referer_url': location.href,
-            'num_of_cart_items': '1',
+            'num_of_cart_items': '',
+            'offer_code': '',
             'dont_go_back': '1'
           };
           for (var k in fields) {
