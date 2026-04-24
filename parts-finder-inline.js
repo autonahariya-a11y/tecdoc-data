@@ -645,9 +645,8 @@
       /* Inline styles as a safety net against Konimbo CSS overrides */
       card.style.cssText = 'background:#fff !important;border:1px solid #e5ebf0 !important;border-radius:12px !important;overflow:hidden !important;display:flex !important;flex-direction:column !important;width:auto !important;max-width:100% !important;float:none !important;text-align:right !important;';
       var img = p.img || '';
-      var priceDisp = (p.price !== undefined && p.price !== null && p.price !== '')
-        ? '₪ ' + p.price
-        : '—';
+      var hasPrice = (p.price !== undefined && p.price !== null && p.price !== '');
+      var priceDisp = hasPrice ? ('₪ ' + p.price) : 'מחיר בדף המוצר';
       var skuDisp = p.sku || p.oem || kid;
       var prodUrl = 'https://www.autonahariya.co.il/items/' + kid;
 
@@ -657,7 +656,9 @@
       var sCat   = 'font-size:12px !important;color:#1A9FD5 !important;padding:10px 14px 4px !important;text-align:right !important;';
       var sName  = 'margin:0 !important;padding:0 14px 10px !important;font-size:14px !important;line-height:1.4 !important;font-weight:600 !important;text-align:right !important;';
       var sNameA = 'color:#0B3E5C !important;text-decoration:none !important;';
-      var sPrice = 'padding:0 14px !important;font-size:22px !important;font-weight:700 !important;color:#F37021 !important;text-align:right !important;margin-top:auto !important;';
+      var sPrice = hasPrice
+        ? 'padding:0 14px !important;font-size:22px !important;font-weight:700 !important;color:#F37021 !important;text-align:right !important;margin-top:auto !important;'
+        : 'padding:0 14px !important;font-size:14px !important;font-weight:600 !important;color:#1A9FD5 !important;text-align:right !important;margin-top:auto !important;';
       var sSku   = 'padding:2px 14px 10px !important;font-size:12px !important;color:#6b7780 !important;text-align:right !important;';
       var sActs  = 'display:grid !important;grid-template-columns:1fr 1fr !important;gap:0 !important;border-top:1px solid #e5ebf0 !important;';
       var sBtnC  = 'display:flex !important;align-items:center !important;justify-content:center !important;padding:12px !important;font-size:14px !important;font-weight:600 !important;text-decoration:none !important;background:#F37021 !important;color:#fff !important;';
@@ -673,9 +674,11 @@
           escapeHtml((p.n || '').substring(0, 80)) + '</a></h3>' +
         '<div class="anh-ir__price" style="' + sPrice + '">' + priceDisp + '</div>' +
         '<div class="anh-ir__sku" style="' + sSku + '">מק"ט: ' + escapeHtml(skuDisp) + '</div>' +
-        '<div class="anh-ir__actions" style="' + sActs + '">' +
-          '<a class="anh-ir__btn anh-ir__btn--cart" style="' + sBtnC + '" href="' + prodUrl + '#add-to-cart" target="_blank" rel="noopener">הוסף לעגלה</a>' +
-          '<a class="anh-ir__btn anh-ir__btn--prod" style="' + sBtnP + '" href="' + prodUrl + '" target="_blank" rel="noopener">לדף המוצר</a>' +
+        '<div class="anh-ir__actions" style="' + (hasPrice ? sActs : sActs.replace('grid-template-columns:1fr 1fr','grid-template-columns:1fr')) + '">' +
+          (hasPrice
+            ? '<a class="anh-ir__btn anh-ir__btn--cart" style="' + sBtnC + '" href="' + prodUrl + '#add-to-cart" target="_blank" rel="noopener">הוסף לעגלה</a>'
+            : '') +
+          '<a class="anh-ir__btn anh-ir__btn--prod" style="' + (hasPrice ? sBtnP : sBtnC) + '" href="' + prodUrl + '" target="_blank" rel="noopener">' + (hasPrice ? 'לדף המוצר' : 'למוצר ומחיר') + '</a>' +
         '</div>';
       return card;
     }
@@ -961,6 +964,11 @@
       };
 
       var mfrEnList = BRAND_ALIAS[vehicle.make] || [(vehicle.make || '').toUpperCase()];
+      /* Build full brand alias list (HE + EN) for title/name matching */
+      var brandAliasesAll = [];
+      if (vehicle.make) brandAliasesAll.push(vehicle.make);
+      if (vehicle.makeHe && vehicle.makeHe !== vehicle.make) brandAliasesAll.push(vehicle.makeHe);
+      for (var bai = 0; bai < mfrEnList.length; bai++) brandAliasesAll.push(mfrEnList[bai]);
       var baseModelEn = (function () {
         var m = (vehicle.model || '').trim();
         /* Strip common trailing trims/suffixes */
@@ -999,39 +1007,59 @@
         var firstWord = mUpper.split(/\s+/)[0];
         return firstWord ? [firstWord] : [];
       })();
+      /* Build full model alias list (HE + EN) for title/name matching */
+      var modelAliasesAll = [];
+      if (vehicle.model) modelAliasesAll.push(vehicle.model);
+      if (vehicle.modelHe && vehicle.modelHe !== vehicle.model) modelAliasesAll.push(vehicle.modelHe);
+      for (var mai = 0; mai < baseModelEn.length; mai++) modelAliasesAll.push(baseModelEn[mai]);
       var yr = parseInt(vehicle.year, 10) || 0;
 
       var out = [];
       var lookup = data.lookup;
-      var demoIds = data.demoIds;
+      var prices = data.prices || {};
+      var images = data.images || {};
+      var skus = data.skus || {};
 
-      /* For now limit to products with price+image (the 140-product demo set).
-       * Later: expand to full 2,177. */
-      var ids = demoIds && demoIds.length ? demoIds : Object.keys(lookup);
+      /* Scan ALL products in lookup (2,177). Price gate filters out
+       * unpriced/out-of-stock entries. This replaces the demoIds limit
+       * which restricted us to a narrow 140-product subset. */
+      var ids = Object.keys(lookup);
 
       for (var i = 0; i < ids.length; i++) {
         var kid = String(ids[i]);
         var p = lookup[kid];
         if (!p) continue;
-        /* Price gate — only show priced products (prices guaranteed for demoIds) */
-        if (p.price === undefined || p.price === null || p.price === '') continue;
+        /* Pull price/image/sku from side maps (product_lookup.json doesn't carry them) */
+        var price = prices[kid];
+        var img = images[kid];
+        var sku = skus[kid];
+        /* No price gate — show all matching products. Card renders "מחיר באתר"
+         * for unpriced items and links to the live Konimbo product page. */
 
-        /* Check mdls + title match */
+        /* Check mdls (strict gen-based) + title/name (loose HE+EN token match) */
         var mdlsOk = mdlsGenMatches(p.mdls || '', mfrEnList, baseModelEn, yr);
-        var titleOk = titleMatches(p.title || '', vehicle.make, vehicle.model, yr);
+        var titleOk = titleMatches(p.title || '', brandAliasesAll, modelAliasesAll, yr);
+        var nameOk = titleMatches(p.n || '', brandAliasesAll, modelAliasesAll, yr);
 
-        if (mdlsOk || titleOk) {
+        if (mdlsOk || titleOk || nameOk) {
           out.push({
             kid: kid,
             n: p.n || '',
             c: p.c || '',
-            price: p.price,
-            sku: p.sku || '',
+            price: (price !== undefined && price !== null) ? price : '',
+            sku: sku || '',
             oem: p.oem || '',
-            img: p.img || ''
+            img: img || '',
+            /* Sort hint: priced+imaged first, then priced, then any */
+            _rank: (price ? 2 : 0) + (img ? 1 : 0)
           });
         }
       }
+      /* Sort: priced+imaged first, then by category alphabetical */
+      out.sort(function(a, b) {
+        if (b._rank !== a._rank) return b._rank - a._rank;
+        return (a.c || '').localeCompare(b.c || '', 'he');
+      });
       return out;
     }
 
@@ -1343,20 +1371,55 @@
       return false;
     }
 
-    function titleMatches(titleField, heBrand, heModel, yr) {
+    /* textMatches — flexible matcher for product title/name fields.
+     * brandAliases: array of possible brand strings (HE + EN), ANY must be found.
+     * modelAliases: array of possible model strings (HE + EN), ANY must be found.
+     * Returns true only when at least ONE brand alias AND at least ONE model alias
+     * appear in the text. Handles mixed Hebrew+English products. */
+    function titleMatches(titleField, brandAliases, modelAliases, yr) {
       if (!titleField) return false;
-      if (!heBrand && !heModel) return true;
-      var norm = function (s) { return (s || '').replace(/[\u0591-\u05c7]/g, '').replace(/\s+/g, ' ').trim().toUpperCase(); };
-      var titleN = norm(titleField);
-      var brandN = norm(heBrand);
-      var modelN = norm(heModel);
-      /* Brand check */
-      if (brandN && titleN.indexOf(brandN) === -1) return false;
-      /* Model check */
-      if (modelN && titleN.indexOf(modelN) === -1) return false;
-      /* Year check — if title contains a year range, gate by it */
+      var norm = function (s) { return (s || '').replace(/[\u0591-\u05c7]/g, '').replace(/[\u200f\u200e]/g,'').replace(/\s+/g, ' ').trim().toUpperCase(); };
+      var textN = norm(titleField);
+      if (!textN) return false;
+
+      /* Normalize aliases to arrays of non-empty strings */
+      var toList = function (v) {
+        if (!v) return [];
+        if (Array.isArray(v)) return v.filter(Boolean).map(norm).filter(Boolean);
+        return [norm(v)].filter(Boolean);
+      };
+      var brands = toList(brandAliases);
+      var models = toList(modelAliases);
+      if (!brands.length && !models.length) return false;
+
+      /* Brand check — ANY brand alias must appear */
+      if (brands.length) {
+        var brandHit = false;
+        for (var bi = 0; bi < brands.length; bi++) {
+          if (textN.indexOf(brands[bi]) !== -1) { brandHit = true; break; }
+        }
+        if (!brandHit) return false;
+      }
+      /* Model check — ANY model alias must appear */
+      if (models.length) {
+        var modelHit = false;
+        for (var mi = 0; mi < models.length; mi++) {
+          var mk = models[mi];
+          if (!mk) continue;
+          /* Short codes (<=3 chars) like "A1", "X5", "3" need word-boundary matching
+           * to avoid false positives (e.g. "A1" matching inside "RAV4 A1XX"). */
+          if (mk.length <= 3) {
+            var esc = mk.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            if (new RegExp('(^|[^A-Z0-9])' + esc + '([^A-Z0-9]|$)').test(textN)) { modelHit = true; break; }
+          } else {
+            if (textN.indexOf(mk) !== -1) { modelHit = true; break; }
+          }
+        }
+        if (!modelHit) return false;
+      }
+      /* Year gate — if text contains a year range, require overlap */
       if (yr) {
-        var rangeMatch = titleN.match(/(19|20)\d{2}\s*[-–]\s*(19|20)?\d{2,4}/);
+        var rangeMatch = textN.match(/(19|20)\d{2}\s*[-–]\s*(19|20)?\d{2,4}/);
         if (rangeMatch) {
           var parts = rangeMatch[0].replace(/\s/g, '').split(/[-–]/);
           var fromY = parseInt(parts[0], 10);
