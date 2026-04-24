@@ -661,13 +661,23 @@
         : 'padding:0 14px !important;font-size:14px !important;font-weight:600 !important;color:#1A9FD5 !important;text-align:right !important;margin-top:auto !important;';
       var sSku   = 'padding:2px 14px 10px !important;font-size:12px !important;color:#6b7780 !important;text-align:right !important;';
       var sActs  = 'display:grid !important;grid-template-columns:1fr 1fr !important;gap:0 !important;border-top:1px solid #e5ebf0 !important;';
-      var sBtnC  = 'display:flex !important;align-items:center !important;justify-content:center !important;padding:12px !important;font-size:14px !important;font-weight:600 !important;text-decoration:none !important;background:#F37021 !important;color:#fff !important;';
+      var sBtnC  = 'display:flex !important;align-items:center !important;justify-content:center !important;padding:12px !important;font-size:14px !important;font-weight:600 !important;text-decoration:none !important;background:#F37021 !important;color:#fff !important;border:0 !important;cursor:pointer !important;font-family:inherit !important;';
       var sBtnP  = 'display:flex !important;align-items:center !important;justify-content:center !important;padding:12px !important;font-size:14px !important;font-weight:600 !important;text-decoration:none !important;background:#fff !important;color:#1A9FD5 !important;border-right:1px solid #e5ebf0 !important;';
+
+      /* Cart action: button + JS handler that fetches the product page,
+       * extracts the live authenticity_token and submits the same form
+       * Konimbo's product page submits when its cart button is clicked.
+       * This adds the item to cart and lands on the cart page — the same
+       * UX as clicking 'Add to cart' on a product page directly. */
+      var cartBtnHtml = hasPrice
+        ? '<button type="button" class="anh-ir__btn anh-ir__btn--cart" data-anh-cart-add="' + kid + '" style="' + sBtnC + '">הוסף לעגלה</button>'
+        : '';
 
       card.innerHTML =
         '<a class="anh-ir__thumb" style="' + sThumb + '" href="' + prodUrl + '" target="_blank" rel="noopener">' +
-          (img ? '<img style="' + sImg + '" src="' + img + '" alt="' + escapeHtml(p.c || '') + '" loading="lazy">'
-                : '<div class="anh-ir__thumb-fallback">' + escapeHtml(p.c || 'מוצר') + '</div>') +
+          (img ? '<img style="' + sImg + '" src="' + img + '" alt="' + escapeHtml(p.c || '') + '" loading="lazy" data-anh-img-fallback="' + kid + '">'
+                : '<img style="' + sImg + '" src="" alt="' + escapeHtml(p.c || '') + '" loading="lazy" data-anh-img-needs="' + kid + '" hidden>' +
+                  '<div class="anh-ir__thumb-fallback" data-anh-img-placeholder="' + kid + '">' + escapeHtml(p.c || 'מוצר') + '</div>') +
         '</a>' +
         '<div class="anh-ir__cat" style="' + sCat + '">' + escapeHtml(p.c || '') + '</div>' +
         '<h3 class="anh-ir__name" style="' + sName + '"><a style="' + sNameA + '" href="' + prodUrl + '" target="_blank" rel="noopener">' +
@@ -675,12 +685,120 @@
         '<div class="anh-ir__price" style="' + sPrice + '">' + priceDisp + '</div>' +
         '<div class="anh-ir__sku" style="' + sSku + '">מק"ט: ' + escapeHtml(skuDisp) + '</div>' +
         '<div class="anh-ir__actions" style="' + (hasPrice ? sActs : sActs.replace('grid-template-columns:1fr 1fr','grid-template-columns:1fr')) + '">' +
-          (hasPrice
-            ? '<a class="anh-ir__btn anh-ir__btn--cart" style="' + sBtnC + '" href="' + prodUrl + '#add-to-cart" target="_blank" rel="noopener">הוסף לעגלה</a>'
-            : '') +
+          cartBtnHtml +
           '<a class="anh-ir__btn anh-ir__btn--prod" style="' + (hasPrice ? sBtnP : sBtnC) + '" href="' + prodUrl + '" target="_blank" rel="noopener">' + (hasPrice ? 'לדף המוצר' : 'למוצר ומחיר') + '</a>' +
         '</div>';
+
+      /* Wire up cart click — fetch live token from product page, then submit form */
+      var cartBtn = card.querySelector('[data-anh-cart-add]');
+      if (cartBtn) {
+        cartBtn.addEventListener('click', function (ev) {
+          ev.preventDefault();
+          addItemToCart(kid, cartBtn);
+        });
+      }
+
+      /* Lazy-load missing image: try to fetch og:image from product page */
+      var imgNeeds = card.querySelector('[data-anh-img-needs]');
+      if (imgNeeds) {
+        lazyFetchImage(kid, imgNeeds, card.querySelector('[data-anh-img-placeholder]'));
+      }
       return card;
+    }
+
+    /* Add item to Konimbo cart by submitting the same form their product page uses.
+     * 1. Fetch the product page HTML
+     * 2. Extract authenticity_token from the form
+     * 3. Build & submit a hidden form to /orders/autonahariya/new
+     * Behavior: opens the cart page in a new tab so the user sees confirmation. */
+    function addItemToCart(kid, btn) {
+      var origText = btn.textContent;
+      btn.textContent = 'מוסיף...';
+      btn.disabled = true;
+      var prodUrl = 'https://www.autonahariya.co.il/items/' + kid;
+      fetch(prodUrl, { credentials: 'include' })
+        .then(function (r) { return r.text(); })
+        .then(function (html) {
+          var m = html.match(/name=["']authenticity_token["']\s+value=["']([^"']+)["']/);
+          if (!m) m = html.match(/value=["']([^"']+)["']\s+name=["']authenticity_token["']/);
+          if (!m) throw new Error('no token');
+          var token = m[1];
+          var form = document.createElement('form');
+          form.method = 'POST';
+          form.action = 'https://www.autonahariya.co.il/orders/autonahariya/new';
+          form.target = '_blank';
+          form.style.display = 'none';
+          var fields = {
+            'authenticity_token': token,
+            'item_id': kid,
+            'request_url': '/items/' + kid,
+            'referer_url': location.href,
+            'num_of_cart_items': '1',
+            'dont_go_back': '1'
+          };
+          for (var k in fields) {
+            var inp = document.createElement('input');
+            inp.type = 'hidden';
+            inp.name = k;
+            inp.value = fields[k];
+            form.appendChild(inp);
+          }
+          document.body.appendChild(form);
+          form.submit();
+          setTimeout(function () { document.body.removeChild(form); }, 1000);
+          btn.textContent = 'נוסף לעגלה ✓';
+          setTimeout(function () { btn.textContent = origText; btn.disabled = false; }, 2500);
+        })
+        .catch(function (e) {
+          /* Fallback: open product page so user can click cart there */
+          window.open(prodUrl, '_blank', 'noopener');
+          btn.textContent = origText;
+          btn.disabled = false;
+        });
+    }
+
+    /* Lazy-load image from product page when not in image_map */
+    var IMG_FETCH_CACHE = {};
+    var IMG_FETCH_QUEUE = [];
+    var IMG_FETCH_ACTIVE = 0;
+    var IMG_FETCH_MAX = 4;
+    function lazyFetchImage(kid, imgEl, placeholderEl) {
+      if (IMG_FETCH_CACHE[kid] === null) return; /* known to have none */
+      if (IMG_FETCH_CACHE[kid]) {
+        applyImage(IMG_FETCH_CACHE[kid], imgEl, placeholderEl);
+        return;
+      }
+      IMG_FETCH_QUEUE.push({ kid: kid, imgEl: imgEl, placeholderEl: placeholderEl });
+      pumpImgQueue();
+    }
+    function pumpImgQueue() {
+      while (IMG_FETCH_ACTIVE < IMG_FETCH_MAX && IMG_FETCH_QUEUE.length) {
+        var job = IMG_FETCH_QUEUE.shift();
+        IMG_FETCH_ACTIVE++;
+        (function (j) {
+          fetch('https://www.autonahariya.co.il/items/' + j.kid, { credentials: 'omit' })
+            .then(function (r) { return r.text(); })
+            .then(function (html) {
+              var m = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i);
+              if (!m) m = html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+              var src = m && m[1];
+              if (src && src.indexOf('159998') === -1) {
+                IMG_FETCH_CACHE[j.kid] = src;
+                applyImage(src, j.imgEl, j.placeholderEl);
+              } else {
+                IMG_FETCH_CACHE[j.kid] = null;
+              }
+            })
+            .catch(function () { IMG_FETCH_CACHE[j.kid] = null; })
+            .then(function () { IMG_FETCH_ACTIVE--; pumpImgQueue(); });
+        })(job);
+      }
+    }
+    function applyImage(src, imgEl, placeholderEl) {
+      if (!imgEl) return;
+      imgEl.src = src;
+      imgEl.removeAttribute('hidden');
+      if (placeholderEl) placeholderEl.style.display = 'none';
     }
 
     function renderCategoryStrip(matches) {
@@ -1038,8 +1156,18 @@
 
         /* Check mdls (strict gen-based) + title/name (loose HE+EN token match) */
         var mdlsOk = mdlsGenMatches(p.mdls || '', mfrEnList, baseModelEn, yr);
-        var titleOk = titleMatches(p.title || '', brandAliasesAll, modelAliasesAll, yr);
-        var nameOk = titleMatches(p.n || '', brandAliasesAll, modelAliasesAll, yr);
+        /* When mdls is present and DOES NOT match, reject — strong negative signal.
+         * mdls is the authoritative TecDoc compatibility list for the part. */
+        if (p.mdls && !mdlsOk) continue;
+        var titleOk = false, nameOk = false;
+        if (!mdlsOk) {
+          /* No mdls or unmatched mdls — fall back to text matching. Use stricter rules. */
+          titleOk = titleMatches(p.title || '', brandAliasesAll, modelAliasesAll, yr);
+          nameOk = titleMatches(p.n || '', brandAliasesAll, modelAliasesAll, yr);
+        }
+        var rank = 0;
+        if (mdlsOk) rank += 4;       /* highest confidence */
+        if (titleOk || nameOk) rank += 1;
 
         if (mdlsOk || titleOk || nameOk) {
           out.push({
@@ -1050,8 +1178,9 @@
             sku: sku || '',
             oem: p.oem || '',
             img: img || '',
-            /* Sort hint: priced+imaged first, then priced, then any */
-            _rank: (price ? 2 : 0) + (img ? 1 : 0)
+            /* Sort hint: confidence + price + image */
+            _rank: rank * 100 + (price ? 2 : 0) + (img ? 1 : 0),
+            _mdls: !!mdlsOk
           });
         }
       }
@@ -1066,218 +1195,286 @@
     /* ── Fitment core (simplified ports) ───────────────────────── */
     var GEN_MAP = {
       'TOYOTA|COROLLA': [
-        { from: 2000, to: 2007, gens: ['_E12_','ZZE12','CDE12','NDE12','ZRE12'] },
-        { from: 2006, to: 2013, gens: ['_E15_','ZZE15','ZRE15','ADE15','NDE15'] },
-        { from: 2013, to: 2018, gens: ['_E18_','ZRE17','ZRE18','ADE17','NDE17'] },
-        { from: 2018, to: 2026, gens: ['_E21_','ZWE21','MZEA12','NRE21','ZRE21'] }
+        { from: 2000, to: 2007, gens: ['ZZE12','CDE12','NDE12','ZRE12'] },
+        { from: 2006, to: 2013, gens: ['ZZE15','ZRE15','ADE15','NDE15'] },
+        { from: 2013, to: 2018, gens: ['ZRE17','ZRE18','ADE17','NDE17'] },
+        { from: 2018, to: 2026, gens: ['ZWE21','MZEA12','NRE21','ZRE21'] }
       ],
       'TOYOTA|YARIS': [
-        { from: 2005, to: 2013, gens: ['_P9_','NCP9','KSP9','NLP9','ZSP9','SCP9'] },
-        { from: 2010, to: 2020, gens: ['_P13_','NCP13','NSP13','NHP13','KSP13'] },
-        { from: 2019, to: 2026, gens: ['_P15_','KSP21','MXPA1','MXPH1'] }
+        { from: 2005, to: 2013, gens: ['NCP9','KSP9','NLP9','ZSP9','SCP9'] },
+        { from: 2010, to: 2020, gens: ['NCP13','NSP13','NHP13','KSP13'] },
+        { from: 2019, to: 2026, gens: ['KSP21','MXPA1','MXPH1'] }
       ],
       'TOYOTA|AURIS': [
-        { from: 2006, to: 2012, gens: ['_E15_','NZE15','ZRE15','ZZE15','ADE15','NDE15'] },
-        { from: 2012, to: 2019, gens: ['_E18_','ZRE18','ADE18','NDE18','NRE18','ZWE18'] }
+        { from: 2006, to: 2012, gens: ['NZE15','ZRE15','ZZE15','ADE15','NDE15'] },
+        { from: 2012, to: 2019, gens: ['ZRE18','ADE18','NDE18','NRE18','ZWE18'] }
       ],
       'TOYOTA|RAV4': [
-        { from: 2000, to: 2005, gens: ['_A2_','ACA2','CLA2','ZCA2'] },
-        { from: 2005, to: 2013, gens: ['_A3_','ACA3','ALA3','GSA3','_MK3'] },
-        { from: 2012, to: 2019, gens: ['_A4_','ALA4','ASA4','AVA4','WWA4','ZSA4'] },
-        { from: 2018, to: 2026, gens: ['_A5_','AXAA5','AXAH5','MXAA5','MXAP5'] }
+        { from: 2000, to: 2005, gens: ['ACA2','CLA2','ZCA2'] },
+        { from: 2005, to: 2013, gens: ['ACA3','ALA3','GSA3'] },
+        { from: 2012, to: 2019, gens: ['ALA4','ASA4','AVA4','WWA4','ZSA4'] },
+        { from: 2018, to: 2026, gens: ['AXAA5','AXAH5','MXAA5','MXAP5'] }
       ],
       'TOYOTA|HILUX': [
-        { from: 2004, to: 2015, gens: ['_N1_','KUN1','GGN1','TGN1','_MK6','_MK7'] },
-        { from: 2015, to: 2026, gens: ['_N1_','GUN1','TGN1','_MK8'] }
+        { from: 2004, to: 2015, gens: ['KUN1','GGN1','TGN1'] },
+        { from: 2015, to: 2026, gens: ['GUN1','TGN1'] }
       ],
       'HYUNDAI|TUCSON': [
-        { from: 2004, to: 2010, gens: ['_JM','TL_MK1'] },
-        { from: 2009, to: 2015, gens: ['LM_','_IX35','IX35'] },
-        { from: 2015, to: 2020, gens: ['_TL','TL_'] },
-        { from: 2020, to: 2026, gens: ['_NX4','NX4_'] }
+        { from: 2004, to: 2010, gens: ['JM'] },
+        { from: 2009, to: 2015, gens: ['LM','IX35'] },
+        { from: 2015, to: 2020, gens: ['TL'] },
+        { from: 2020, to: 2026, gens: ['NX4'] }
       ],
       'HYUNDAI|I20': [
-        { from: 2008, to: 2014, gens: ['_PB_','_PBT_'] },
-        { from: 2014, to: 2020, gens: ['_GB_','_IB_'] },
-        { from: 2020, to: 2026, gens: ['_BC3_','_BI3_'] }
+        { from: 2008, to: 2014, gens: ['PB','PBT'] },
+        { from: 2014, to: 2020, gens: ['GB','IB'] },
+        { from: 2020, to: 2026, gens: ['BC3','BI3'] }
       ],
       'HYUNDAI|ELANTRA': [
-        { from: 2006, to: 2011, gens: ['_HD'] },
-        { from: 2010, to: 2015, gens: ['_MD','_UD'] },
-        { from: 2015, to: 2020, gens: ['_AD'] },
-        { from: 2020, to: 2026, gens: ['_CN7_'] }
+        { from: 2006, to: 2011, gens: ['HD'] },
+        { from: 2010, to: 2015, gens: ['MD','UD'] },
+        { from: 2015, to: 2020, gens: ['AD'] },
+        { from: 2020, to: 2026, gens: ['CN7'] }
       ],
       'KIA|PICANTO': [
-        { from: 2003, to: 2011, gens: ['_SA'] },
-        { from: 2011, to: 2017, gens: ['_TA'] },
-        { from: 2017, to: 2026, gens: ['_JA'] }
+        { from: 2003, to: 2011, gens: ['SA'] },
+        { from: 2011, to: 2017, gens: ['TA'] },
+        { from: 2017, to: 2026, gens: ['JA'] }
       ],
       'KIA|SPORTAGE': [
-        { from: 2004, to: 2010, gens: ['_JE_','_KM_'] },
-        { from: 2010, to: 2015, gens: ['_SL'] },
-        { from: 2015, to: 2022, gens: ['_QL','QLE_'] },
-        { from: 2021, to: 2026, gens: ['_NQ5_'] }
+        { from: 2004, to: 2010, gens: ['JE','KM'] },
+        { from: 2010, to: 2015, gens: ['SL'] },
+        { from: 2015, to: 2022, gens: ['QL','QLE'] },
+        { from: 2021, to: 2026, gens: ['NQ5'] }
       ],
       'KIA|CEED': [
-        { from: 2006, to: 2012, gens: ['_ED'] },
-        { from: 2012, to: 2018, gens: ['_JD'] },
-        { from: 2018, to: 2026, gens: ['_CD'] }
+        { from: 2006, to: 2012, gens: ['ED'] },
+        { from: 2012, to: 2018, gens: ['JD'] },
+        { from: 2018, to: 2026, gens: ['CD'] }
       ],
       'NISSAN|MICRA': [
-        { from: 2003, to: 2010, gens: ['_K12','K12_'] },
-        { from: 2010, to: 2017, gens: ['_K13','K13_'] },
-        { from: 2017, to: 2026, gens: ['_K14','K14_'] }
+        { from: 2003, to: 2010, gens: ['K12'] },
+        { from: 2010, to: 2017, gens: ['K13'] },
+        { from: 2017, to: 2026, gens: ['K14'] }
       ],
       'NISSAN|QASHQAI': [
-        { from: 2007, to: 2014, gens: ['_J10','J10_'] },
-        { from: 2013, to: 2021, gens: ['_J11','J11_'] },
-        { from: 2021, to: 2026, gens: ['_J12','J12_'] }
+        { from: 2007, to: 2014, gens: ['J10'] },
+        { from: 2013, to: 2021, gens: ['J11'] },
+        { from: 2021, to: 2026, gens: ['J12'] }
       ],
-      /* Audi — alphanumeric codes */
+      /* Audi — bare codes (matches actual data: 8X1, 8XA, GBA, GBH...) */
       'AUDI|A1': [
-        { from: 2010, to: 2018, gens: ['_8X','8X_','8XA','8XF','8XK'] },
-        { from: 2018, to: 2026, gens: ['_GB','GB_','GBA','GBH'] }
+        { from: 2010, to: 2018, gens: ['8X1','8XA','8XF','8XK'] },
+        { from: 2018, to: 2026, gens: ['GBA','GBH','GB1'] }
       ],
       'AUDI|A3': [
-        { from: 1996, to: 2003, gens: ['_8L','8L_'] },
-        { from: 2003, to: 2013, gens: ['_8P','8P_','8PA'] },
-        { from: 2012, to: 2020, gens: ['_8V','8V_','8VA','8VS','8V1','8V7'] },
-        { from: 2020, to: 2026, gens: ['_8Y','8Y_','GYB','GYH'] }
+        { from: 1996, to: 2003, gens: ['8L1','8L'] },
+        { from: 2003, to: 2013, gens: ['8P1','8PA','8P7'] },
+        { from: 2012, to: 2020, gens: ['8V1','8VA','8VS','8VK','8VM','8V7','8VF','8V'] },
+        { from: 2020, to: 2026, gens: ['8YA','8YF','8Y','GYB','GYH'] }
       ],
       'AUDI|A4': [
-        { from: 2000, to: 2008, gens: ['_B6','_B7','8E_','8EC','8ED','8H_','8HE'] },
-        { from: 2007, to: 2015, gens: ['_B8','8K_','8K2','8K5'] },
-        { from: 2015, to: 2023, gens: ['_B9','8W_','8W2','8W5'] },
-        { from: 2023, to: 2026, gens: ['_B10','B10_'] }
+        { from: 2000, to: 2008, gens: ['8E2','8E5','8EC','8ED','8HE','B6','B7'] },
+        { from: 2007, to: 2015, gens: ['8K2','8K5','B8'] },
+        { from: 2015, to: 2023, gens: ['8W2','8WC','8W5','8WD','B9'] },
+        { from: 2023, to: 2026, gens: ['B10'] }
       ],
       'AUDI|A5': [
-        { from: 2007, to: 2016, gens: ['_8T','8T_','8TA','8F7'] },
-        { from: 2016, to: 2024, gens: ['_F5','F5_','F53','F57'] }
+        { from: 2007, to: 2016, gens: ['8T3','8TA','8F7','8T'] },
+        { from: 2016, to: 2024, gens: ['F53','F57','F5'] }
       ],
       'AUDI|A6': [
-        { from: 2004, to: 2011, gens: ['_C6','4F_','4F2','4F5'] },
-        { from: 2011, to: 2018, gens: ['_C7','4G_','4G2','4G5'] },
-        { from: 2018, to: 2026, gens: ['_C8','4A_','4A2','4A5'] }
+        { from: 2004, to: 2011, gens: ['4F2','4F5','C6'] },
+        { from: 2011, to: 2018, gens: ['4G2','4G5','C7'] },
+        { from: 2018, to: 2026, gens: ['4A2','4A5','C8'] }
       ],
       'AUDI|Q3': [
-        { from: 2011, to: 2019, gens: ['_8U','8U_','8UB','8UG'] },
-        { from: 2018, to: 2026, gens: ['_F3','F3_','F3B','F3N'] }
+        { from: 2011, to: 2019, gens: ['8UB','8UG','8U'] },
+        { from: 2018, to: 2026, gens: ['F3B','F3N','F3'] }
       ],
       'AUDI|Q5': [
-        { from: 2008, to: 2017, gens: ['_8R','8R_','8RB'] },
-        { from: 2016, to: 2026, gens: ['_FY','FY_','FYB'] }
+        { from: 2008, to: 2017, gens: ['8RB','8R'] },
+        { from: 2016, to: 2026, gens: ['FYB','FY'] }
       ],
       'AUDI|Q7': [
-        { from: 2005, to: 2015, gens: ['_4L','4L_','4LB'] },
-        { from: 2015, to: 2026, gens: ['_4M','4M_','4MB'] }
+        { from: 2005, to: 2015, gens: ['4LB','4L'] },
+        { from: 2015, to: 2026, gens: ['4MB','4M'] }
       ],
-      /* BMW — series-based */
+      /* BMW — bare series codes */
       'BMW|1': [
-        { from: 2004, to: 2013, gens: ['_E81','_E82','_E87','_E88','E81','E82','E87','E88'] },
-        { from: 2011, to: 2019, gens: ['_F20','_F21','F20','F21'] },
-        { from: 2019, to: 2026, gens: ['_F40','F40'] }
+        { from: 2004, to: 2013, gens: ['E81','E82','E87','E88'] },
+        { from: 2011, to: 2019, gens: ['F20','F21'] },
+        { from: 2019, to: 2026, gens: ['F40'] }
       ],
       'BMW|2': [
-        { from: 2013, to: 2021, gens: ['_F22','_F23','_F45','_F46','F22','F23','F45','F46'] },
-        { from: 2021, to: 2026, gens: ['_G42','_U06','G42','U06'] }
+        { from: 2013, to: 2021, gens: ['F22','F23','F45','F46'] },
+        { from: 2021, to: 2026, gens: ['G42','U06'] }
       ],
       'BMW|3': [
-        { from: 1998, to: 2006, gens: ['_E46','E46'] },
-        { from: 2005, to: 2013, gens: ['_E90','_E91','_E92','_E93','E90','E91','E92','E93'] },
-        { from: 2011, to: 2019, gens: ['_F30','_F31','_F34','_F35','F30','F31','F34'] },
-        { from: 2018, to: 2026, gens: ['_G20','_G21','_G28','G20','G21','G28'] }
+        { from: 1991, to: 2000, gens: ['E36'] },
+        { from: 1998, to: 2006, gens: ['E46'] },
+        { from: 2005, to: 2013, gens: ['E90','E91','E92','E93'] },
+        { from: 2011, to: 2019, gens: ['F30','F31','F34','F80'] },
+        { from: 2018, to: 2026, gens: ['G20','G21','G28'] }
       ],
       'BMW|4': [
-        { from: 2013, to: 2020, gens: ['_F32','_F33','_F36','F32','F33','F36'] },
-        { from: 2020, to: 2026, gens: ['_G22','_G23','_G26','G22','G23','G26'] }
+        { from: 2013, to: 2020, gens: ['F32','F33','F36'] },
+        { from: 2020, to: 2026, gens: ['G22','G23','G26'] }
       ],
       'BMW|5': [
-        { from: 2003, to: 2010, gens: ['_E60','_E61','E60','E61'] },
-        { from: 2009, to: 2017, gens: ['_F10','_F11','_F18','F10','F11','F18'] },
-        { from: 2017, to: 2024, gens: ['_G30','_G31','_G38','G30','G31','G38'] },
-        { from: 2023, to: 2026, gens: ['_G60','_G61','G60','G61'] }
+        { from: 1988, to: 1995, gens: ['E34'] },
+        { from: 1995, to: 2003, gens: ['E39'] },
+        { from: 2003, to: 2010, gens: ['E60','E61'] },
+        { from: 2009, to: 2017, gens: ['F10','F11','F18'] },
+        { from: 2017, to: 2024, gens: ['G30','G31','G38'] },
+        { from: 2023, to: 2026, gens: ['G60','G61'] }
       ],
       'BMW|X1': [
-        { from: 2009, to: 2015, gens: ['_E84','E84'] },
-        { from: 2015, to: 2022, gens: ['_F48','F48'] },
-        { from: 2022, to: 2026, gens: ['_U11','U11'] }
+        { from: 2009, to: 2015, gens: ['E84'] },
+        { from: 2015, to: 2022, gens: ['F48'] },
+        { from: 2022, to: 2026, gens: ['U11'] }
       ],
       'BMW|X3': [
-        { from: 2003, to: 2010, gens: ['_E83','E83'] },
-        { from: 2010, to: 2017, gens: ['_F25','F25'] },
-        { from: 2017, to: 2026, gens: ['_G01','G01'] }
+        { from: 2003, to: 2010, gens: ['E83'] },
+        { from: 2010, to: 2017, gens: ['F25'] },
+        { from: 2017, to: 2026, gens: ['G01'] }
       ],
       'BMW|X5': [
-        { from: 1999, to: 2006, gens: ['_E53','E53'] },
-        { from: 2006, to: 2013, gens: ['_E70','E70'] },
-        { from: 2013, to: 2018, gens: ['_F15','F15'] },
-        { from: 2018, to: 2026, gens: ['_G05','G05'] }
+        { from: 1999, to: 2006, gens: ['E53'] },
+        { from: 2006, to: 2013, gens: ['E70'] },
+        { from: 2013, to: 2018, gens: ['F15'] },
+        { from: 2018, to: 2026, gens: ['G05'] }
       ],
       'BMW|X6': [
-        { from: 2007, to: 2014, gens: ['_E71','E71'] },
-        { from: 2014, to: 2019, gens: ['_F16','F16'] },
-        { from: 2019, to: 2026, gens: ['_G06','G06'] }
+        { from: 2007, to: 2014, gens: ['E71'] },
+        { from: 2014, to: 2019, gens: ['F16'] },
+        { from: 2019, to: 2026, gens: ['G06'] }
       ],
-      /* Mercedes — class-based */
-      'MERCEDES-BENZ|A': [
-        { from: 1997, to: 2005, gens: ['_W168','W168'] },
-        { from: 2004, to: 2012, gens: ['_W169','W169'] },
-        { from: 2012, to: 2018, gens: ['_W176','W176'] },
-        { from: 2018, to: 2026, gens: ['_W177','W177'] }
+      /* Mercedes — *-CLASS keys (match real data) */
+      'MERCEDES-BENZ|A-CLASS': [
+        { from: 1997, to: 2005, gens: ['W168'] },
+        { from: 2004, to: 2012, gens: ['W169'] },
+        { from: 2012, to: 2018, gens: ['W176'] },
+        { from: 2018, to: 2026, gens: ['W177','V177'] }
       ],
-      'MERCEDES-BENZ|B': [
-        { from: 2005, to: 2011, gens: ['_W245','W245'] },
-        { from: 2011, to: 2018, gens: ['_W246','_W242','W246','W242'] },
-        { from: 2018, to: 2026, gens: ['_W247','W247'] }
+      'MERCEDES-BENZ|B-CLASS': [
+        { from: 2005, to: 2011, gens: ['W245'] },
+        { from: 2011, to: 2018, gens: ['W246','W242'] },
+        { from: 2018, to: 2026, gens: ['W247'] }
       ],
-      'MERCEDES-BENZ|C': [
-        { from: 2000, to: 2007, gens: ['_W203','_S203','_CL203','W203','S203','CL203'] },
-        { from: 2007, to: 2014, gens: ['_W204','_S204','_C204','W204','S204','C204'] },
-        { from: 2014, to: 2021, gens: ['_W205','_S205','_C205','_A205','W205','S205','C205'] },
-        { from: 2021, to: 2026, gens: ['_W206','_S206','W206','S206'] }
+      'MERCEDES-BENZ|C-CLASS': [
+        { from: 2000, to: 2007, gens: ['W203','S203','CL203'] },
+        { from: 2007, to: 2014, gens: ['W204','S204','C204'] },
+        { from: 2014, to: 2021, gens: ['W205','S205','C205','A205'] },
+        { from: 2021, to: 2026, gens: ['W206','S206'] }
       ],
-      'MERCEDES-BENZ|E': [
-        { from: 2002, to: 2009, gens: ['_W211','_S211','W211','S211'] },
-        { from: 2009, to: 2016, gens: ['_W212','_S212','_C207','_A207','W212','S212','C207','A207'] },
-        { from: 2016, to: 2023, gens: ['_W213','_S213','_C238','_A238','W213','S213','C238','A238'] },
-        { from: 2023, to: 2026, gens: ['_W214','_S214','W214','S214'] }
+      'MERCEDES-BENZ|E-CLASS': [
+        { from: 2002, to: 2009, gens: ['W211','S211'] },
+        { from: 2009, to: 2016, gens: ['W212','S212','C207','A207'] },
+        { from: 2016, to: 2023, gens: ['W213','S213','C238','A238'] },
+        { from: 2023, to: 2026, gens: ['W214','S214'] }
+      ],
+      'MERCEDES-BENZ|S-CLASS': [
+        { from: 2005, to: 2013, gens: ['W221'] },
+        { from: 2013, to: 2020, gens: ['W222'] },
+        { from: 2020, to: 2026, gens: ['W223'] }
+      ],
+      'MERCEDES-BENZ|GLA-CLASS': [
+        { from: 2013, to: 2020, gens: ['X156'] },
+        { from: 2020, to: 2026, gens: ['H247'] }
       ],
       'MERCEDES-BENZ|GLA': [
-        { from: 2013, to: 2020, gens: ['_X156','X156'] },
-        { from: 2020, to: 2026, gens: ['_H247','H247'] }
+        { from: 2013, to: 2020, gens: ['X156'] },
+        { from: 2020, to: 2026, gens: ['H247'] }
       ],
       'MERCEDES-BENZ|GLC': [
-        { from: 2015, to: 2022, gens: ['_X253','_C253','X253','C253'] },
-        { from: 2022, to: 2026, gens: ['_X254','_C254','X254','C254'] }
+        { from: 2015, to: 2022, gens: ['X253','C253'] },
+        { from: 2022, to: 2026, gens: ['X254','C254'] }
       ],
       'MERCEDES-BENZ|GLE': [
-        { from: 2015, to: 2019, gens: ['_W166','_C292','W166','C292'] },
-        { from: 2018, to: 2026, gens: ['_W167','_C167','W167','C167'] }
+        { from: 2015, to: 2019, gens: ['W166','C292'] },
+        { from: 2018, to: 2026, gens: ['W167','C167'] }
       ],
       'MERCEDES-BENZ|VITO': [
-        { from: 2003, to: 2014, gens: ['_W639','W639'] },
-        { from: 2014, to: 2026, gens: ['_W447','W447'] }
+        { from: 2003, to: 2014, gens: ['W639'] },
+        { from: 2014, to: 2026, gens: ['W447'] }
       ],
       'MERCEDES-BENZ|SPRINTER': [
-        { from: 2006, to: 2018, gens: ['_W906','906'] },
-        { from: 2018, to: 2026, gens: ['_W907','_W910','907','910'] }
+        { from: 2006, to: 2018, gens: ['906','W906'] },
+        { from: 2018, to: 2026, gens: ['907','910','W907','W910'] }
       ],
-      /* Volkswagen — alphanumeric popular */
-      'VOLKSWAGEN|GOLF': [
-        { from: 1997, to: 2006, gens: ['_1J','1J_','1J1','1J5'] },
-        { from: 2003, to: 2009, gens: ['_1K','1K_','1K1','1K5'] },
-        { from: 2008, to: 2014, gens: ['_5K','5K_','5K1','AJ5'] },
-        { from: 2012, to: 2020, gens: ['_5G','5G_','5G1','BA5','BE1','BE2'] },
-        { from: 2019, to: 2026, gens: ['_CD','CD1','CD5'] }
+      /* VW — bare codes (data uses 'VW' not 'VOLKSWAGEN') */
+      'VW|GOLF': [
+        { from: 1997, to: 2006, gens: ['1J1','1J5'] },
+        { from: 2003, to: 2009, gens: ['1K1','1K5'] },
+        { from: 2008, to: 2014, gens: ['5K1','AJ5'] },
+        { from: 2012, to: 2020, gens: ['5G1','BA5','BE1','BE2','BV5','BQ1'] },
+        { from: 2019, to: 2026, gens: ['CD1','CD5'] }
       ],
-      'VOLKSWAGEN|POLO': [
-        { from: 2001, to: 2009, gens: ['_9N','9N_'] },
-        { from: 2009, to: 2017, gens: ['_6R','_6C','6R_','6C_'] },
-        { from: 2017, to: 2026, gens: ['_AW','AW_'] }
+      'VW|POLO': [
+        { from: 1994, to: 2001, gens: ['6N1','6N2'] },
+        { from: 2001, to: 2009, gens: ['9N','9A4'] },
+        { from: 2009, to: 2017, gens: ['6R1','6C1'] },
+        { from: 2017, to: 2026, gens: ['AW1'] }
       ],
-      'VOLKSWAGEN|TIGUAN': [
-        { from: 2007, to: 2017, gens: ['_5N','5N_','5N1','5N2'] },
-        { from: 2016, to: 2026, gens: ['_AD','AD1','AX1','BW2'] }
+      'VW|TIGUAN': [
+        { from: 2007, to: 2017, gens: ['5N1','5N2'] },
+        { from: 2016, to: 2026, gens: ['AD1','AX1','BW2','BJ2'] }
+      ],
+      'VW|PASSAT': [
+        { from: 1996, to: 2005, gens: ['3B2','3B3','3B5','3B6'] },
+        { from: 2005, to: 2010, gens: ['3C2','3C5'] },
+        { from: 2010, to: 2015, gens: ['362','365'] },
+        { from: 2014, to: 2026, gens: ['3G2','3G5','CB2','CB5'] }
+      ],
+      'VW|TOURAN': [
+        { from: 2003, to: 2015, gens: ['1T1','1T2','1T3'] },
+        { from: 2015, to: 2026, gens: ['5T1'] }
+      ],
+      'VW|JETTA': [
+        { from: 2005, to: 2010, gens: ['1K2'] },
+        { from: 2010, to: 2018, gens: ['162','163'] },
+        { from: 2018, to: 2026, gens: ['BU3'] }
+      ],
+      /* Renault */
+      'RENAULT|KANGOO': [
+        { from: 1997, to: 2008, gens: ['KC0','KC1'] },
+        { from: 2008, to: 2021, gens: ['KW0','KW1','FW0','FW1'] },
+        { from: 2021, to: 2026, gens: ['KF0'] }
+      ],
+      'RENAULT|KANGOO EXPRESS': [
+        { from: 1997, to: 2008, gens: ['FC0','FC1'] },
+        { from: 2008, to: 2021, gens: ['FW0','FW1'] },
+        { from: 2021, to: 2026, gens: ['FF0'] }
+      ],
+      'RENAULT|CLIO': [
+        { from: 1998, to: 2005, gens: ['BB','CB','SB'] },
+        { from: 2005, to: 2014, gens: ['BR0','BR1','CR0','CR1','KR0','KR1','SR'] },
+        { from: 2012, to: 2019, gens: ['BH','KH'] },
+        { from: 2019, to: 2026, gens: ['B7','BF'] }
+      ],
+      'RENAULT|MEGANE': [
+        { from: 1996, to: 2003, gens: ['BA0','BA1','LA0','LA1'] },
+        { from: 2002, to: 2009, gens: ['BM0','BM1','CM0','CM1','EM0','EM1','KM0','KM1','LM0','LM1'] },
+        { from: 2008, to: 2016, gens: ['BZ0','BZ1','DZ0','DZ1','EZ0','EZ1','KZ0','KZ1'] },
+        { from: 2016, to: 2026, gens: ['B9A','B9M','B9N','BFB','KFB'] }
+      ],
+      'RENAULT|CAPTUR': [
+        { from: 2013, to: 2020, gens: ['J5','H5'] },
+        { from: 2019, to: 2026, gens: ['HF','HJB'] }
+      ],
+      'RENAULT|SCENIC': [
+        { from: 2003, to: 2009, gens: ['JM0','JM1'] },
+        { from: 2009, to: 2016, gens: ['JZ0','JZ1'] },
+        { from: 2016, to: 2026, gens: ['J95'] }
+      ],
+      'RENAULT|TRAFIC': [
+        { from: 2001, to: 2014, gens: ['EL','FL','JL'] },
+        { from: 2014, to: 2026, gens: ['X82'] }
+      ],
+      'RENAULT|MASTER': [
+        { from: 1998, to: 2010, gens: ['FD','ED','HD','UD'] },
+        { from: 2010, to: 2026, gens: ['EV','HV','UV'] }
       ]
     };
 
@@ -1382,7 +1579,6 @@
       var textN = norm(titleField);
       if (!textN) return false;
 
-      /* Normalize aliases to arrays of non-empty strings */
       var toList = function (v) {
         if (!v) return [];
         if (Array.isArray(v)) return v.filter(Boolean).map(norm).filter(Boolean);
@@ -1390,33 +1586,33 @@
       };
       var brands = toList(brandAliases);
       var models = toList(modelAliases);
-      if (!brands.length && !models.length) return false;
+      if (!brands.length || !models.length) return false; /* must have both */
 
-      /* Brand check — ANY brand alias must appear */
-      if (brands.length) {
-        var brandHit = false;
-        for (var bi = 0; bi < brands.length; bi++) {
-          if (textN.indexOf(brands[bi]) !== -1) { brandHit = true; break; }
-        }
-        if (!brandHit) return false;
+      /* Word-boundary helper: needs a non-alphanumeric char before & after.
+       * Treats Hebrew letters as alphanumeric for this purpose so 'AUDI'
+       * inside ' אאודי ' still matches. We use [^A-Z0-9\u0590-\u05FF]. */
+      var wbTest = function (text, needle) {
+        var esc = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        return new RegExp('(^|[^A-Z0-9\\u0590-\\u05FF])' + esc + '([^A-Z0-9\\u0590-\\u05FF]|$)').test(text);
+      };
+
+      /* Brand check — ANY brand alias must appear with word boundaries */
+      var brandHit = false;
+      for (var bi = 0; bi < brands.length; bi++) {
+        if (wbTest(textN, brands[bi])) { brandHit = true; break; }
       }
-      /* Model check — ANY model alias must appear */
-      if (models.length) {
-        var modelHit = false;
-        for (var mi = 0; mi < models.length; mi++) {
-          var mk = models[mi];
-          if (!mk) continue;
-          /* Short codes (<=3 chars) like "A1", "X5", "3" need word-boundary matching
-           * to avoid false positives (e.g. "A1" matching inside "RAV4 A1XX"). */
-          if (mk.length <= 3) {
-            var esc = mk.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            if (new RegExp('(^|[^A-Z0-9])' + esc + '([^A-Z0-9]|$)').test(textN)) { modelHit = true; break; }
-          } else {
-            if (textN.indexOf(mk) !== -1) { modelHit = true; break; }
-          }
-        }
-        if (!modelHit) return false;
+      if (!brandHit) return false;
+
+      /* Model check — ANY model alias must appear with word boundaries.
+       * For short codes (≤3 chars) like 'A1', 'X5', boundary is critical. */
+      var modelHit = false;
+      for (var mi = 0; mi < models.length; mi++) {
+        var mk = models[mi];
+        if (!mk) continue;
+        if (wbTest(textN, mk)) { modelHit = true; break; }
       }
+      if (!modelHit) return false;
+
       /* Year gate — if text contains a year range, require overlap */
       if (yr) {
         var rangeMatch = textN.match(/(19|20)\d{2}\s*[-–]\s*(19|20)?\d{2,4}/);
