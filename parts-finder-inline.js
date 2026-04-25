@@ -20,7 +20,7 @@
   /* ── Config — single place to change ─────────────────────────── */
   var BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder';
   var TECDOC_DATA = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
-  var VERSION = 'v1';
+  var VERSION = 'v16';
 
   /* ── Category images — mirror /categories/*.webp from demo ──────────── */
   var CAT_IMG_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder/categories/';
@@ -448,9 +448,21 @@
         fetchJSON(BASE + '/price_map.json?' + VERSION),
         fetchJSON(BASE + '/image_map.json?' + VERSION),
         fetchJSON(BASE + '/sku_map.json?' + VERSION),
-        fetchJSON(BASE + '/demo_ids.json?' + VERSION)
+        fetchJSON(BASE + '/demo_ids.json?' + VERSION),
+        /* fitment.json — TecDoc authoritative kid → vehicle list */
+        fetchJSONOptional(BASE + '/fitment.json?' + VERSION),
+        /* make_aliases.json — Hebrew manufacturer → TecDoc canonical */
+        fetchJSONOptional(BASE + '/make_aliases.json?' + VERSION),
+        /* model_aliases.json — Hebrew model token → TecDoc model tokens */
+        fetchJSONOptional(BASE + '/model_aliases.json?' + VERSION),
+        /* product_meta.json — names/categories/skus from official Konimbo XML feed */
+        fetchJSONOptional(BASE + '/product_meta.json?' + VERSION)
       ]).then(function (r) {
-        dataCache = { lookup: r[0], prices: r[1], images: r[2], skus: r[3], demoIds: r[4] };
+        dataCache = {
+          lookup: r[0], prices: r[1], images: r[2], skus: r[3], demoIds: r[4],
+          fitment: r[5] || {}, makeAliases: r[6] || {}, modelAliases: r[7] || {},
+          meta: r[8] || {}
+        };
         return dataCache;
       });
       return loading;
@@ -461,6 +473,14 @@
         if (!r.ok) throw new Error('Fetch failed: ' + url);
         return r.json();
       });
+    }
+
+    /* fetchJSONOptional — returns {} on failure instead of rejecting */
+    function fetchJSONOptional(url) {
+      return fetch(url).then(function (r) {
+        if (!r.ok) return {};
+        return r.json();
+      }).catch(function () { return {}; });
     }
 
     /* ── Plate → vehicle resolution (via gov.il or cache) ──────── */
@@ -1141,52 +1161,98 @@
       var prices = data.prices || {};
       var images = data.images || {};
       var skus = data.skus || {};
+      var fitment = data.fitment || {};
+      var makeAliases = data.makeAliases || {};
+      var modelAliasesMap = data.modelAliases || {};
 
-      /* Scan ALL products in lookup (2,177). Price gate filters out
-       * unpriced/out-of-stock entries. This replaces the demoIds limit
-       * which restricted us to a narrow 140-product subset. */
-      var ids = Object.keys(lookup);
+      /* === TecDoc-based filtering (PRIMARY) ===
+       * Use fitment.json as the authoritative source. Each kid in fitment
+       * has a list of [make, model, yearFrom, yearTo] from TecDoc OE/article
+       * cross-reference. Products WITHOUT TecDoc data are EXCLUDED from
+       * results (per user policy — weekly cron expands coverage). */
 
-      for (var i = 0; i < ids.length; i++) {
-        var kid = String(ids[i]);
-        var p = lookup[kid];
-        if (!p) continue;
-        /* Pull price/image/sku from side maps (product_lookup.json doesn't carry them) */
+      /* Resolve user vehicle make/model into TecDoc canonical form */
+      var vehMakeHe = (vehicle.makeHe || vehicle.make || '').trim();
+      var vehModelHe = (vehicle.modelHe || vehicle.model || '').trim();
+      var vehMakeTd = (makeAliases[vehMakeHe] || makeAliases[vehMakeHe.toUpperCase()] || vehicle.make || '').toUpperCase();
+      /* Build list of TecDoc model tokens to look for in modelName */
+      var modelTokensTd = [];
+      var rawModel = (vehicle.model || vehModelHe || '').toUpperCase();
+      if (rawModel) modelTokensTd.push(rawModel);
+      var byHe = modelAliasesMap[vehModelHe];
+      if (byHe) for (var mt1 = 0; mt1 < byHe.length; mt1++) modelTokensTd.push(byHe[mt1].toUpperCase());
+      var byEn = modelAliasesMap[rawModel];
+      if (byEn) for (var mt2 = 0; mt2 < byEn.length; mt2++) modelTokensTd.push(byEn[mt2].toUpperCase());
+      /* Also add baseModelEn entries (from existing baseModel resolver) */
+      for (var mt3 = 0; mt3 < baseModelEn.length; mt3++) modelTokensTd.push(baseModelEn[mt3].toUpperCase());
+      /* Dedupe */
+      var seenT = {}; var modelTokens = [];
+      for (var mt4 = 0; mt4 < modelTokensTd.length; mt4++) {
+        var tk = modelTokensTd[mt4];
+        if (tk && !seenT[tk]) { seenT[tk] = 1; modelTokens.push(tk); }
+      }
+
+      /* Iterate ALL kids that have TecDoc fitment data */
+      var fitKids = Object.keys(fitment);
+      for (var i = 0; i < fitKids.length; i++) {
+        var kid = String(fitKids[i]);
+        var rows = fitment[kid];
+        if (!rows || !rows.length) continue;
+        /* Check if any row matches our vehicle:
+         * row = [make, model_full, yearFrom, yearTo]
+         * Match logic:
+         *   1. make EXACTLY equals vehMakeTd
+         *   2. model_full STARTS WITH or CONTAINS one of modelTokens (word boundary)
+         *   3. yr is within [yearFrom..yearTo] (inclusive; 0 = open-ended)
+         */
+        var matched = false;
+        for (var ri = 0; ri < rows.length; ri++) {
+          var row = rows[ri];
+          var rmk = row[0]; var rmd = row[1]; var ryF = row[2] || 0; var ryT = row[3] || 9999;
+          if (rmk !== vehMakeTd) continue;
+          /* Check model token match — split rmd at first space/paren and compare */
+          var rmdBase = rmd.split(/[\s(]/)[0];
+          var found = false;
+          for (var mtk = 0; mtk < modelTokens.length; mtk++) {
+            var tok = modelTokens[mtk];
+            if (rmdBase === tok || rmd.indexOf(tok) === 0 ||
+                /* Word boundary check on full rmd */
+                new RegExp('(^|[^A-Z0-9])' + tok.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '($|[^A-Z0-9])').test(rmd)) {
+              found = true; break;
+            }
+          }
+          if (!found) continue;
+          /* Year check */
+          if (yr && ryF && yr < ryF) continue;
+          if (yr && ryT && ryT < 9999 && yr > ryT) continue;
+          matched = true; break;
+        }
+        if (!matched) continue;
+
+        /* Pull metadata: prefer Konimbo XML feed (data.meta) > product_lookup */
+        var p = lookup[kid] || {};
+        var pm = (data.meta || {})[kid] || {};
         var price = prices[kid];
+        /* If price not in price_map, try meta.p2 (sale) > meta.p1 (regular) */
+        if (price === undefined || price === null || price === '') {
+          var pmPrice = pm.p2 || pm.p1;
+          if (pmPrice && parseFloat(pmPrice) > 0) price = parseFloat(pmPrice);
+        }
         var img = images[kid];
-        var sku = skus[kid];
-        /* No price gate — show all matching products. Card renders "מחיר באתר"
-         * for unpriced items and links to the live Konimbo product page. */
-
-        /* Check mdls (strict gen-based) + title/name (loose HE+EN token match) */
-        var mdlsOk = mdlsGenMatches(p.mdls || '', mfrEnList, baseModelEn, yr);
-        /* When mdls is present and DOES NOT match, reject — strong negative signal.
-         * mdls is the authoritative TecDoc compatibility list for the part. */
-        if (p.mdls && !mdlsOk) continue;
-        var titleOk = false, nameOk = false;
-        if (!mdlsOk) {
-          /* No mdls or unmatched mdls — fall back to text matching. Use stricter rules. */
-          titleOk = titleMatches(p.title || '', brandAliasesAll, modelAliasesAll, yr);
-          nameOk = titleMatches(p.n || '', brandAliasesAll, modelAliasesAll, yr);
-        }
-        var rank = 0;
-        if (mdlsOk) rank += 4;       /* highest confidence */
-        if (titleOk || nameOk) rank += 1;
-
-        if (mdlsOk || titleOk || nameOk) {
-          out.push({
-            kid: kid,
-            n: p.n || '',
-            c: p.c || '',
-            price: (price !== undefined && price !== null) ? price : '',
-            sku: sku || '',
-            oem: p.oem || '',
-            img: img || '',
-            /* Sort hint: confidence + price + image */
-            _rank: rank * 100 + (price ? 2 : 0) + (img ? 1 : 0),
-            _mdls: !!mdlsOk
-          });
-        }
+        var sku = skus[kid] || pm.sku || '';
+        var prodName = pm.n || p.n || p.title || '';
+        var prodCat = pm.c || p.c || '';
+        out.push({
+          kid: kid,
+          n: prodName,
+          c: prodCat,
+          price: (price !== undefined && price !== null) ? price : '',
+          sku: sku,
+          oem: p.oem || '',
+          img: img || '',
+          _rank: 1000 + (price ? 2 : 0) + (img ? 1 : 0),
+          _tecdoc: true
+        });
       }
       /* Sort: priced+imaged first, then by category alphabetical */
       out.sort(function(a, b) {
