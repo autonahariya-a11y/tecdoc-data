@@ -20,7 +20,7 @@
   /* ── Config — single place to change ─────────────────────────── */
   var BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder';
   var TECDOC_DATA = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
-  var VERSION = 'v16';
+  var VERSION = 'v17';
 
   /* ── Category images — mirror /categories/*.webp from demo ──────────── */
   var CAT_IMG_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder/categories/';
@@ -726,58 +726,121 @@
       return card;
     }
 
-    /* Add item to Konimbo cart by submitting the same form their product page uses.
-     * 1. Fetch the product page HTML
-     * 2. Extract authenticity_token from the form
-     * 3. Build & submit a hidden form to /orders/autonahariya/new
-     * Behavior: opens the cart page in a new tab so the user sees confirmation. */
+    /* Add item to cart WITHOUT navigating away.
+     * Strategy:
+     * 1. Fetch product page → extract title, price, image, authenticity_token
+     * 2. Write item to sessionStorage['an_cart_v4'] so AN Cart Drawer picks it up immediately
+     * 3. Update header badge counters in-place
+     * 4. Send background POST to Konimbo so the server-side cart syncs
+     * 5. Open AN Cart Drawer if available, otherwise show a small toast
+     * Result: page stays put, drawer slides open with the new item. */
+    var AN_CART_KEY = 'an_cart_v4';
+    function _anLoadCart() {
+      try { return JSON.parse(sessionStorage.getItem(AN_CART_KEY)) || {}; } catch (e) { return {}; }
+    }
+    function _anSaveCart(c) {
+      try { sessionStorage.setItem(AN_CART_KEY, JSON.stringify(c)); } catch (e) { }
+    }
+    function _anUpdateBadge() {
+      var c = _anLoadCart(), n = 0;
+      for (var k in c) { if (c.hasOwnProperty(k)) n += (c[k].q || 1); }
+      var sels = 'span.cart_with_items_counter, .cart_count, #cart_count, .header-cart-count, span[class*="cart_counter"], .nah-cart-badge, #anCnt';
+      var els = document.querySelectorAll(sels);
+      for (var i = 0; i < els.length; i++) els[i].textContent = n;
+    }
+    function _anShowToast(msg) {
+      var t = document.getElementById('anh-toast');
+      if (!t) {
+        t = document.createElement('div');
+        t.id = 'anh-toast';
+        t.style.cssText = 'position:fixed;top:18px;left:50%;transform:translate(-50%,-80px);background:#28a745;color:#fff;padding:10px 22px;border-radius:10px;font-size:14px;font-weight:600;z-index:10000001;transition:transform .35s cubic-bezier(.4,0,.2,1);direction:rtl;font-family:inherit;box-shadow:0 4px 15px rgba(40,167,69,.3);pointer-events:none;';
+        document.body.appendChild(t);
+      }
+      t.textContent = msg;
+      t.style.transform = 'translate(-50%,0)';
+      clearTimeout(t._h);
+      t._h = setTimeout(function () { t.style.transform = 'translate(-50%,-80px)'; }, 2200);
+    }
+    function _anOpenDrawer() {
+      /* AN Cart Drawer attaches click handler to .nah-ct / #link_order_with_counter etc. */
+      var sels = ['.nah-ct', 'a.nah-ct', '#link_order_with_counter a', '#link_order_with_counter'];
+      for (var i = 0; i < sels.length; i++) {
+        var el = document.querySelector(sels[i]);
+        if (el) { try { el.click(); return true; } catch (e) { } }
+      }
+      return false;
+    }
+
     function addItemToCart(kid, btn) {
       var origText = btn.textContent;
       btn.textContent = 'מוסיף...';
       btn.disabled = true;
       var prodUrl = 'https://www.autonahariya.co.il/items/' + kid;
+
       fetch(prodUrl, { credentials: 'include' })
         .then(function (r) { return r.text(); })
         .then(function (html) {
-          /* Konimbo HTML has token as: name="authenticity_token" type="hidden" value="..."
-             Match the token regardless of attribute order. */
-          var m = html.match(/<input[^>]*name=["']authenticity_token["'][^>]*value=["']([^"']+)["']/i);
-          if (!m) m = html.match(/<input[^>]*value=["']([^"']+)["'][^>]*name=["']authenticity_token["']/i);
-          if (!m) throw new Error('no token');
-          var token = m[1];
-          var form = document.createElement('form');
-          form.method = 'POST';
-          /* The real productForm posts to secure.konimbo.co.il (not www) */
-          form.action = 'https://secure.konimbo.co.il/orders/autonahariya/new#secureHook';
-          form.target = '_blank';
-          form.style.display = 'none';
-          var fields = {
-            'authenticity_token': token,
-            'item_id': kid,
-            'request_url': '/items/' + kid,
-            'referer_url': location.href,
-            'num_of_cart_items': '',
-            'offer_code': '',
-            'dont_go_back': '1'
-          };
-          for (var k in fields) {
-            var inp = document.createElement('input');
-            inp.type = 'hidden';
-            inp.name = k;
-            inp.value = fields[k];
-            form.appendChild(inp);
+          /* Extract product details for the drawer */
+          var titleM = html.match(/<h1[^>]*>\s*<span[^>]*>([^<]+)<\/span>/i)
+                    || html.match(/<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)["']/i);
+          var title = titleM ? titleM[1].replace(/^[\u200f\s]+|[\s\u200f]+$/g, '') : 'מוצר';
+
+          var imgM = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i);
+          var imgSrc = imgM ? imgM[1] : '';
+          if (imgSrc && imgSrc.indexOf('159998') !== -1) imgSrc = '';
+
+          var priceM = html.match(/itemprop=["']price["'][^>]+content=["']([\d.]+)["']/i)
+                    || html.match(/<meta[^>]+property=["']product:price:amount["'][^>]+content=["']([\d.]+)["']/i)
+                    || html.match(/<meta[^>]+property=["']og:price:amount["'][^>]+content=["']([\d.]+)["']/i);
+          var price = priceM ? parseFloat(priceM[1]) || 0 : 0;
+
+          /* Extract authenticity_token for background POST */
+          var tokM = html.match(/<input[^>]*name=["']authenticity_token["'][^>]*value=["']([^"']+)["']/i)
+                  || html.match(/<input[^>]*value=["']([^"']+)["'][^>]*name=["']authenticity_token["']/i);
+          var token = tokM ? tokM[1] : '';
+
+          /* 1. Write to AN Cart Drawer's sessionStorage */
+          var anId = 'item_id_' + kid;
+          var c = _anLoadCart();
+          if (c[anId]) { c[anId].q = (c[anId].q || 1) + 1; }
+          else { c[anId] = { t: title, p: price, q: 1, i: imgSrc, u: '/items/' + kid }; }
+          _anSaveCart(c);
+          _anUpdateBadge();
+
+          /* 2. Background POST to Konimbo so server cart syncs (no navigation) */
+          if (token) {
+            try {
+              var fd = new FormData();
+              fd.append('authenticity_token', token);
+              fd.append('item_id', kid);
+              fd.append('request_url', '/items/' + kid);
+              fd.append('referer_url', location.href);
+              fd.append('num_of_cart_items', '');
+              fd.append('offer_code', '');
+              fd.append('dont_go_back', '1');
+              fetch('https://secure.konimbo.co.il/orders/autonahariya/new', {
+                method: 'POST',
+                credentials: 'include',
+                mode: 'no-cors',
+                body: fd
+              }).catch(function () { });
+            } catch (e) { }
           }
-          document.body.appendChild(form);
-          form.submit();
-          setTimeout(function () { document.body.removeChild(form); }, 1000);
+
+          /* 3. Show feedback — open drawer if installed, otherwise toast */
           btn.textContent = 'נוסף לעגלה ✓';
-          setTimeout(function () { btn.textContent = origText; btn.disabled = false; }, 2500);
+          setTimeout(function () {
+            var opened = _anOpenDrawer();
+            if (!opened) _anShowToast('✓ נוסף לעגלה');
+          }, 250);
+          setTimeout(function () { btn.textContent = origText; btn.disabled = false; }, 2200);
         })
         .catch(function (e) {
           /* Fallback: open product page so user can click cart there */
-          window.open(prodUrl, '_blank', 'noopener');
           btn.textContent = origText;
           btn.disabled = false;
+          _anShowToast('שגיאה — נפתח דף המוצר');
+          window.open(prodUrl, '_blank', 'noopener');
         });
     }
 
