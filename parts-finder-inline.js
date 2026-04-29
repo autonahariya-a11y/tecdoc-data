@@ -20,7 +20,7 @@
   /* ── Config — single place to change ─────────────────────────── */
   var BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder';
   var TECDOC_DATA = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
-  var VERSION = 'v19';
+  var VERSION = 'v20';
 
   /* ── Category images — mirror /categories/*.webp from demo ──────────── */
   var CAT_IMG_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder/categories/';
@@ -491,24 +491,14 @@
         });
       }
       if (params.plate) {
-        /* Step 1 — plate lookup across ALL gov.il vehicle datasets in parallel.
-         * Priority order (when multiple datasets have the plate, first match wins):
+        /* Step 1 — plate lookup across active + personal-import datasets.
+         * Priority order (when both have the plate, first match wins):
          *   1. Active vehicles (053cea08) — main on-road registry
-         *   2. Personal import (03adc637) — BMW/Audi/Mercedes etc. imported privately
-         *   3. Off-road 2017+ (851ecab1) — recently de-registered
-         *   4. Off-road 2010-2016 (4e6b9724)
-         *   5. Off-road 2000-2009 (ec8cbc34)
-         *   6. Heavy >3.5T (cd3acc5c) — commercial/trucks
-         * This adds ~5x dataset coverage so plates that aren't in the active
-         * registry (private imports, off-road, commercial) still resolve. */
+         *   2. Personal import (03adc637) — BMW/Audi/Mercedes etc. imported privately */
         var plateNum = params.plate;
         var DATASETS = [
           '053cea08-09bc-40ec-8f7a-156f0677aff3', /* active */
-          '03adc637-b6fe-402b-9937-7c3d3afc9140', /* personal import */
-          '851ecab1-0622-4dbe-a6c7-f950cf82abf9', /* off-road 2017+ */
-          '4e6b9724-4c1e-43f0-909a-154d4cc4e046', /* off-road 2010-2016 */
-          'ec8cbc34-72e1-4b69-9c48-22821ba0bd6c', /* off-road 2000-2009 */
-          'cd3acc5c-03c3-4c89-9c54-d40f93c0d790'  /* heavy >3.5T */
+          '03adc637-b6fe-402b-9937-7c3d3afc9140'  /* personal import */
         ];
         var lookups = DATASETS.map(function (rid, idx) {
           var u = 'https://data.gov.il/api/3/action/datastore_search?resource_id=' + rid + '&q=' + encodeURIComponent(plateNum) + '&limit=1';
