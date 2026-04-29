@@ -2,7 +2,7 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v3.1 with an- prefix + TecDoc styles
+     CSS INJECTION — v3.13 OEM detection takes priority over title-based brand match
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
     var styleEl = document.createElement('style');
@@ -843,29 +843,37 @@
     'BLUEPRINT':'BLUE PRINT','HI Q':'HI-Q','HIQ':'HI-Q',
     'VOLKSWAGEN':'VAG','AUDI ':'VAG','SKODA':'VAG','SEAT ':'VAG','CUPRA':'VAG'
   };
-  var brandKeys = Object.keys(BRAND_INFO);
-  for (var bk = 0; bk < brandKeys.length; bk++) {
-    if (titleUpper.indexOf(brandKeys[bk]) !== -1) { detectedBrand = brandKeys[bk]; break; }
-  }
-  if (!detectedBrand) {
-    var alKeys = Object.keys(brandAliases);
-    for (var ai = 0; ai < alKeys.length; ai++) {
-      if (titleUpper.indexOf(alKeys[ai]) !== -1) { detectedBrand = brandAliases[alKeys[ai]]; break; }
-    }
-  }
-  if (!detectedBrand && skuValue && /^\d{4,5}[A-Za-z]$/.test(skuValue.trim())) detectedBrand = 'MONTECCHIO';
 
+  /* === OEM DETECTION FIRST (priority over title-based detection) ===
+     If SKU matches an OEM pattern, this is an ORIGINAL part — never label it
+     as an aftermarket brand even if the title mentions one (e.g. SWAG, FEBI). */
   var isOEMpart = false;
-  if (!BRAND_INFO[detectedBrand] && skuValue) {
+  var oemMake = ''; /* vehicle manufacturer for the OEM part (Volkswagen / Toyota etc) */
+  if (skuValue) {
     var sk = skuValue.trim();
-    if (/^\d{2}[A-Z]\d{5,7}[A-Z]{0,2}$/.test(sk)||/^\d[A-Z]\d\d{5,7}[A-Z]{0,2}$/.test(sk)) detectedBrand='VAG';
-    else if (/^(044|909|178|233|164|480|433|488|900)\d{7}$/.test(sk)) detectedBrand='TOYOTA';
-    else if (/^(281|263|971|548|311|923|586|517)\d{7,8}$/.test(sk)) detectedBrand='HYUNDAI';
-    else if (/^\d{9,10}R$/.test(sk)) detectedBrand='RENAULT';
-    else if (/^16\d{8}$/.test(sk)) detectedBrand='PSA';
-    else if (/^A\d{10}$/.test(sk)) detectedBrand='MERCEDES';
-    else if (/^(11|13|17|22|31|32|33|34|64)\d{9}$/.test(sk)) detectedBrand='BMW';
+    if (/^\d{2}[A-Z]\d{5,7}[A-Z]{0,2}$/.test(sk)||/^\d[A-Z]\d\d{5,7}[A-Z]{0,2}$/.test(sk)) { detectedBrand='VAG'; oemMake='\u05e7\u05d1\u05d5\u05e6\u05ea VAG (\u05e4\u05d5\u05dc\u05e7\u05e1\u05d5\u05d5\u05d0\u05d2\u05df / \u05d0\u05d0\u05d5\u05d3\u05d9 / \u05e1\u05e7\u05d5\u05d3\u05d4 / \u05e1\u05d9\u05d8)'; }
+    else if (/^(044|909|178|233|164|480|433|488|900)\d{7}$/.test(sk)) { detectedBrand='TOYOTA'; oemMake='\u05d8\u05d5\u05d9\u05d5\u05d8\u05d4'; }
+    else if (/^(281|263|971|548|311|923|586|517)\d{7,8}$/.test(sk)) { detectedBrand='HYUNDAI'; oemMake='\u05d4\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9 / \u05e7\u05d9\u05d4'; }
+    else if (/^\d{9,10}R$/.test(sk)) { detectedBrand='RENAULT'; oemMake='\u05e8\u05e0\u05d5'; }
+    else if (/^16\d{8}$/.test(sk)) { detectedBrand='PSA'; oemMake='\u05e4\u05d6\u0027\u05d5 / \u05e1\u05d9\u05d8\u05e8\u05d5\u05d0\u05df'; }
+    else if (/^A\d{10}$/.test(sk)) { detectedBrand='MERCEDES'; oemMake='\u05de\u05e8\u05e6\u05d3\u05e1'; }
+    else if (/^(11|13|17|22|31|32|33|34|64)\d{9}$/.test(sk)) { detectedBrand='BMW'; oemMake='BMW'; }
     if (detectedBrand) isOEMpart = true;
+  }
+
+  /* === Title-based detection (only if not already OEM) === */
+  if (!isOEMpart) {
+    var brandKeys = Object.keys(BRAND_INFO);
+    for (var bk = 0; bk < brandKeys.length; bk++) {
+      if (titleUpper.indexOf(brandKeys[bk]) !== -1) { detectedBrand = brandKeys[bk]; break; }
+    }
+    if (!detectedBrand) {
+      var alKeys = Object.keys(brandAliases);
+      for (var ai = 0; ai < alKeys.length; ai++) {
+        if (titleUpper.indexOf(alKeys[ai]) !== -1) { detectedBrand = brandAliases[alKeys[ai]]; break; }
+      }
+    }
+    if (!detectedBrand && skuValue && /^\d{4,5}[A-Za-z]$/.test(skuValue.trim())) detectedBrand = 'MONTECCHIO';
   }
 
   var brandData = BRAND_INFO[detectedBrand] || {name:detectedBrand||'\u05d9\u05e6\u05e8\u05df',description:'\u05d9\u05e6\u05e8\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1.',founded:'',country:'',color:'#1B4E91'};
@@ -989,7 +997,11 @@
   html += '<div class="an-info-section">';
   html += '<div class="an-badge-row">';
   if (skuValue) html += '<span class="an-sku-badge">\u05de\u05e7"\u05d8: '+skuValue+'</span>';
-  if (!isOEMpart && brandData.name) html += '<span class="an-brand-badge" style="background:'+(brandData.color||'#c8102e')+'">'+brandData.name+'</span>';
+  if (isOEMpart) {
+    html += '<span class="an-brand-badge an-oem-badge" style="background:#0a7a4a">\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05d9\u05e6\u05e8\u05df</span>';
+  } else if (brandData.name) {
+    html += '<span class="an-brand-badge" style="background:'+(brandData.color||'#c8102e')+'">'+brandData.name+'</span>';
+  }
   html += '</div>';
   html += '<h1 class="an-product-title">'+productTitle+'</h1>';
   if (productSubtitle) html += '<div class="an-product-subtitle">'+productSubtitle+'</div>';
@@ -1064,7 +1076,18 @@
   /* ===================================================
      SECTION 5: Brand card
      =================================================== */
-  if (!isOEMpart && brandData.name && brandData.description) {
+  if (isOEMpart) {
+    /* OEM original part — show "Original part" card instead of an aftermarket brand card */
+    var oemTitle = oemMake || '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9';
+    html += '<div class="an-section-card">';
+    html += '<div class="an-brand-card">';
+    html += '<div class="an-brand-sidebar" style="background:#0a7a4a"><span>\u05de\u05e7\u05d5\u05e8\u05d9</span></div>';
+    html += '<div class="an-brand-info">';
+    html += '<h3>'+oemTitle+'</h3>';
+    html += '<div class="an-brand-origin">\u05d7\u05dc\u05e7 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05e7\u05d5\u05e8\u05d9 (OEM) \u05de\u05e7\u05d8\u05dc\u05d5\u05d2 \u05d4\u05d9\u05e6\u05e8\u05df</div>';
+    html += '<p>\u05d4\u05de\u05e7"\u05d8 ('+(skuValue||'')+') \u05de\u05d6\u05d5\u05d4\u05d4 \u05db\u05de\u05e1\u05e4\u05e8 \u05d7\u05dc\u05e3 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e9\u05dc \u05d9\u05e6\u05e8\u05df \u05d4\u05e8\u05db\u05d1, \u05d6\u05d4\u05d4 \u05dc\u05d7\u05dc\u05e7\u05d9\u05dd \u05d4\u05de\u05d5\u05e8\u05db\u05d1\u05d9\u05dd \u05de\u05e4\u05e1 \u05d4\u05d9\u05e6\u05d5\u05e8 \u05d4\u05de\u05e7\u05d5\u05e8\u05d9. \u05e0\u05ea\u05d5\u05e0\u05d9 TecDoc \u05d4\u05de\u05d5\u05e6\u05d2\u05d9\u05dd \u05dc\u05de\u05d8\u05d4 (\u05d4\u05ea\u05d0\u05de\u05d4 \u05dc\u05e8\u05db\u05d1\u05d9\u05dd \u05d5\u05de\u05e1\u05e4\u05e8\u05d9 OE) \u05de\u05d0\u05de\u05ea\u05d9\u05dd \u05dc\u05d7\u05dc\u05e7 \u05d4\u05de\u05e7\u05d5\u05e8\u05d9 \u05d4\u05d6\u05d4.</p>';
+    html += '</div></div></div>';
+  } else if (brandData.name && brandData.description) {
     var bc4 = brandData.color || '#1a4690';
     var bAb = brandData.name.toUpperCase();
     var orig = brandData.country ? brandData.country+(brandData.year?', '+(brandData.founded||brandData.year):'') : '';

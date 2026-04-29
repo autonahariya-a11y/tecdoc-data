@@ -553,7 +553,7 @@
   function esc(s) { if (!s && s !== 0) return ''; var d = document.createElement('div'); d.textContent = String(s); return d.innerHTML; }
 
   /* ── State ── */
-  var D = { articleNo:'', articleId:null, supplier:'', product:'', ean:'', specs:[], vehicles:[], oe:[] };
+  var D = { articleNo:'', articleId:null, supplier:'', product:'', ean:'', specs:[], vehicles:[], oe:[], isOEM:false };
 
   /* ── API (live fallback) ── */
   function api(body) {
@@ -1485,7 +1485,25 @@
       var pLow = (D.product || '').toLowerCase();
       var hideSupplier = (pLow === 'air filter' || pLow.indexOf('cabin air') !== -1 || pLow.indexOf('pollen') !== -1);
       if (D.supplier && !hideSupplier) {
-        allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF', value: D.supplier });
+        /* Translate OEM supplier names so the page never shows aftermarket-style labels for original parts */
+        var supplierDisplay = D.supplier;
+        var supLow = (D.supplier || '').toLowerCase();
+        if (supLow === 'vag original' || supLow === 'vag' || supLow === 'volkswagen' || supLow === 'audi' || supLow === 'skoda' || supLow === 'seat') {
+          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 VAG (\u05e4\u05d5\u05dc\u05e7\u05e1\u05d5\u05d5\u05d0\u05d2\u05df / \u05d0\u05d0\u05d5\u05d3\u05d9 / \u05e1\u05e7\u05d5\u05d3\u05d4 / \u05e1\u05d9\u05d8)';
+        } else if (supLow === 'toyota' || supLow === 'toyota original') {
+          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05d8\u05d5\u05d9\u05d5\u05d8\u05d4';
+        } else if (supLow === 'hyundai' || supLow === 'kia' || supLow === 'hyundai original' || supLow === 'kia original') {
+          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05d4\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9 / \u05e7\u05d9\u05d4';
+        } else if (supLow === 'bmw' || supLow === 'bmw original') {
+          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 BMW';
+        } else if (supLow === 'mercedes' || supLow === 'mercedes-benz' || supLow === 'mercedes original') {
+          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05de\u05e8\u05e6\u05d3\u05e1';
+        } else if (supLow === 'renault' || supLow === 'renault original') {
+          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e8\u05e0\u05d5';
+        } else if (D.isOEM === true) {
+          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 (' + D.supplier + ')';
+        }
+        allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF', value: supplierDisplay });
       }
       /* Add article number as separate row */
       if (D.articleNo) {
@@ -1903,6 +1921,7 @@
     D.specs = data.specs || [];
     D.vehicles = data.vehicles || [];
     D.oe = data.oe || [];
+    D.isOEM = data.isOEM === true;
     render();
     renderStrengths();
   }
@@ -1945,7 +1964,7 @@
     if (!articleNo || !articleNo.trim()) return;
     var w = getOrCreateWidget();
     if (!w) return;
-    D = { articleNo:'', articleId:null, supplier:'', product:'', ean:'', specs:[], vehicles:[], oe:[] };
+    D = { articleNo:'', articleId:null, supplier:'', product:'', ean:'', specs:[], vehicles:[], oe:[], isOEM:false };
     showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
     loadFromCache(articleNo.trim())
       .then(function(data) { applyData(data); })
