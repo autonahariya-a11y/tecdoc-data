@@ -20,7 +20,7 @@
   /* ── Config — single place to change ─────────────────────────── */
   var BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder';
   var TECDOC_DATA = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
-  var VERSION = 'v20';
+  var VERSION = 'v21';
 
   /* ── Category images — mirror /categories/*.webp from demo ──────────── */
   var CAT_IMG_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder/categories/';
@@ -345,23 +345,37 @@
       var vehBtn    = root.querySelector('#anh-vehicle-form .anh-widget__submit');
       if (!selMake || !selModel || !selYear || !selEngine) return;
 
-      var topMakes = [
-        'טויוטה','יונדאי','סקודה','קיה','מזדה',
-        'וולקסווגן','פיאט','פורד','שברולט','רנו',
-        'פיג׳ו','ניסאן','סיטרואן','BMW','מרצדס',
-        'הונדה','סוזוקי','מיצובישי','סובארו','אופל'
-      ];
-      topMakes.forEach(function (m) {
-        var opt = document.createElement('option');
-        opt.value = m; opt.textContent = m;
-        selMake.appendChild(opt);
-      });
-      selMake.disabled = false;
-
       function resetSelect(sel, placeholder) {
         sel.innerHTML = '<option value="">' + placeholder + '</option>';
         sel.disabled = true;
       }
+
+      /* Load dropdown.json — full make/model/year tree from TecDoc + gov.il */
+      var dropdownData = null;
+      var dropdownByHe = {}; /* {he_make: {models: [...]}} */
+      fetchJSONOptional(BASE + '/dropdown.json?' + VERSION).then(function (data) {
+        if (!data || !data.makes || !data.makes.length) {
+          /* Fallback: small static list */
+          ['טויוטה','יונדאי','סקודה','קיה','מאזדה','פולקסווגן','פיאט','פורד',
+           'שברולט','רנו','פיג\'ו','ניסאן','סיטרואן','ב.מ.וו.','מרצדס','הונדה',
+           'סוזוקי','מיצובישי','סובארו','אופל'].forEach(function (m) {
+            var opt = document.createElement('option');
+            opt.value = m; opt.textContent = m;
+            selMake.appendChild(opt);
+          });
+          selMake.disabled = false;
+          return;
+        }
+        dropdownData = data;
+        data.makes.forEach(function (mk) {
+          dropdownByHe[mk.he] = mk;
+          var opt = document.createElement('option');
+          opt.value = mk.he;
+          opt.textContent = mk.he;
+          selMake.appendChild(opt);
+        });
+        selMake.disabled = false;
+      });
 
       selMake.addEventListener('change', function () {
         resetSelect(selModel,  'בחר דגם…');
@@ -371,6 +385,15 @@
         if (!selMake.value) return;
         selModel.disabled = false;
         selModel.innerHTML = '<option value="">בחר דגם…</option><option value="__any__">כל הדגמים</option>';
+        var mk = dropdownByHe[selMake.value];
+        if (mk && mk.models) {
+          mk.models.forEach(function (mod) {
+            var opt = document.createElement('option');
+            opt.value = mod.en;
+            opt.textContent = mod.he && mod.he !== mod.en ? (mod.he + ' (' + mod.en + ')') : mod.en;
+            selModel.appendChild(opt);
+          });
+        }
       });
 
       selModel.addEventListener('change', function () {
@@ -378,13 +401,33 @@
         resetSelect(selEngine, 'בחר מנוע…');
         if (vehBtn) vehBtn.disabled = true;
         if (!selModel.value) return;
-        var cur = new Date().getFullYear();
-        for (var y = cur; y >= 1990; y--) {
-          var opt = document.createElement('option');
-          opt.value = String(y); opt.textContent = String(y);
-          selYear.appendChild(opt);
-        }
         selYear.disabled = false;
+        /* Pull years from selected model when available */
+        var mk = dropdownByHe[selMake.value];
+        var yrs = null;
+        if (mk && mk.models && selModel.value !== '__any__') {
+          for (var i = 0; i < mk.models.length; i++) {
+            if (mk.models[i].en === selModel.value) {
+              yrs = mk.models[i].years;
+              break;
+            }
+          }
+        }
+        if (yrs && yrs.length) {
+          /* Show years high → low */
+          yrs.slice().sort(function (a,b){return b-a;}).forEach(function (y) {
+            var opt = document.createElement('option');
+            opt.value = String(y); opt.textContent = String(y);
+            selYear.appendChild(opt);
+          });
+        } else {
+          var cur = new Date().getFullYear();
+          for (var y = cur; y >= 2000; y--) {
+            var opt = document.createElement('option');
+            opt.value = String(y); opt.textContent = String(y);
+            selYear.appendChild(opt);
+          }
+        }
       });
 
       selYear.addEventListener('change', function () {
