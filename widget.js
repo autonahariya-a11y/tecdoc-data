@@ -1747,6 +1747,13 @@
 
   /* ── Load from cached JSON ── */
   function loadFromCache(articleNo) {
+    /* Check preloader first */
+    var pre = window.TECDOC_PRELOAD;
+    if (pre && pre.sku === articleNo) {
+      if (pre.data) return Promise.resolve(pre.data);
+      if (pre.promise) return pre.promise;
+    }
+    /* Fallback: fetch directly */
     var variations = articleVariations(articleNo);
     function tryCache(idx) {
       if (idx >= variations.length) return Promise.reject('not_cached');
@@ -1937,6 +1944,37 @@
     var w = getOrCreateWidget();
     if (!w) return;
 
+    /* Fast path: preloader already has data resolved → render instantly, no skeleton */
+    var pre = window.TECDOC_PRELOAD;
+    if (pre && pre.sku === articleNo && pre.data) {
+      applyData(pre.data);
+      return;
+    }
+
+    /* Medium path: preloader has in-flight promise → wait briefly before showing skeleton */
+    if (pre && pre.sku === articleNo && pre.promise) {
+      var settled = false;
+      pre.promise.then(function(data) {
+        settled = true;
+        applyData(data);
+      }).catch(function() {
+        settled = true;
+        showLoading('\u05DE\u05D7\u05E4\u05E9 \u05D1\u05E7\u05D8\u05DC\u05D5\u05D2 TecDoc...', 20);
+        return loadFromAPI(articleNo)
+          .then(function(data) { applyData(data); })
+          .catch(function(err) {
+            if (err === 'no_results') showError('\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05EA\u05D5\u05E6\u05D0\u05D5\u05EA \u05E2\u05D1\u05D5\u05E8 \u05DE\u05E1\u05E4\u05E8 \u05E7\u05D8\u05DC\u05D5\u05D2\u05D9: ' + articleNo);
+            else showError('\u05E9\u05D2\u05D9\u05D0\u05D4 \u05D1\u05D8\u05E2\u05D9\u05E0\u05EA \u05D4\u05E0\u05EA\u05D5\u05E0\u05D9\u05DD.');
+          });
+      });
+      /* Only show skeleton if preloader takes >100ms */
+      setTimeout(function() {
+        if (!settled) showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
+      }, 100);
+      return;
+    }
+
+    /* Slow path: no preloader — original behavior with skeleton */
     showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
 
     loadFromCache(articleNo)
