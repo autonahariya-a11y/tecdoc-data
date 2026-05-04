@@ -204,7 +204,9 @@
     '#anh-inline-results .anh-ir__tile-count{font-size:11px !important;font-weight:700 !important;color:#1A9FD5 !important}',
     '#anh-inline-results .anh-ir__section-title{font-size:17px;font-weight:700;color:#0B3E5C;margin:20px 0 12px;text-align:right;border-top:1px solid #e5ebf0;padding-top:16px}',
     '@media(max-width:600px){#anh-inline-results .anh-ir__cat-tiles{grid-template-columns:repeat(3,1fr) !important;gap:8px !important}#anh-inline-results .anh-ir__tile-imgwrap{width:64px !important;height:64px !important}#anh-inline-results .anh-ir__tile-name{font-size:12px !important}}',
-    '@media(max-width:600px){#anh-inline-results .anh-ir__grid{grid-template-columns:repeat(2,1fr);gap:10px}#anh-inline-results .anh-ir__btn{padding:10px 4px;font-size:13px}#anh-inline-results .anh-ir__price{font-size:18px}#anh-inline-results .anh-ir__title{font-size:16px}}'
+    '@media(max-width:600px){#anh-inline-results .anh-ir__grid{grid-template-columns:repeat(2,1fr);gap:10px}#anh-inline-results .anh-ir__btn{padding:10px 4px;font-size:13px}#anh-inline-results .anh-ir__price{font-size:18px}#anh-inline-results .anh-ir__title{font-size:16px}}',
+    '#anh-parts-finder{scroll-margin-top:90px}',
+    '@media(max-width:768px){#anh-parts-finder{margin-top:16px !important;scroll-margin-top:80px}}'
   ].join("");
 
   ready(function () {
