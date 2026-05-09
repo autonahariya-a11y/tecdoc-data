@@ -2,7 +2,7 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v3.14 sale price support (Konimbo .price_value vs .origin_price_number)
+     CSS INJECTION — v3.15 strip trailing .0 / .00 from prices (e.g. "80.0 ₪" → "80 ₪")
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
     var styleEl = document.createElement('style');
@@ -1002,9 +1002,21 @@
   bcHtml += '<span class="an-current">'+productTitle.substring(0,60)+'</span>';
 
   /* Price */
-  var cleanPrice = productPrice.replace(/[\u20aa]/g,'').replace(/[^\d,. ]/g,'').trim();
+  /* Strip currency + non-numeric, then drop trailing .0 / .00 (Konimbo's content attr is e.g. "80.0") */
+  function _fmtPrice(raw) {
+    if (!raw) return '';
+    var s = String(raw).replace(/[\u20aa]/g,'').replace(/[^\d,. ]/g,'').trim();
+    if (!s) return '';
+    /* Normalize comma decimal to dot for parsing, then format */
+    var n = parseFloat(s.replace(/,/g,'.'));
+    if (isNaN(n)) return s;
+    /* Whole number → no decimals; otherwise keep up to 2 decimals without trailing zeros */
+    if (Math.abs(n - Math.round(n)) < 0.005) return String(Math.round(n));
+    return n.toFixed(2).replace(/\.?0+$/,'');
+  }
+  var cleanPrice = _fmtPrice(productPrice);
   var priceDisplay = cleanPrice ? cleanPrice+' \u20aa' : (priceEl ? getText(priceEl) : '');
-  var cleanOrigPrice = productOrigPrice.replace(/[\u20aa]/g,'').replace(/[^\d,. ]/g,'').trim();
+  var cleanOrigPrice = _fmtPrice(productOrigPrice);
   var origPriceDisplay = cleanOrigPrice ? cleanOrigPrice+' \u20aa' : '';
   /* Compute savings amount + percent when on sale */
   var savePct = 0;
