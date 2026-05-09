@@ -2,7 +2,7 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v3.13 OEM detection takes priority over title-based brand match
+     CSS INJECTION — v3.14 sale price support (Konimbo .price_value vs .origin_price_number)
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
     var styleEl = document.createElement('style');
@@ -83,8 +83,11 @@
       '.an-stock-status { display: flex !important; align-items: center !important; gap: 8px !important; font-size: 14px !important; font-weight: 500 !important; color: var(--an-green) !important; }',
       '.an-stock-dot { width: 10px !important; height: 10px !important; border-radius: 50% !important; background: var(--an-green) !important; display: inline-block !important; animation: an-pulse-dot 2s infinite; }',
       '@keyframes an-pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }',
-      '.an-price-section { display: flex !important; align-items: baseline !important; gap: 10px !important; }',
+      '.an-price-section { display: flex !important; align-items: baseline !important; gap: 10px !important; flex-wrap: wrap !important; }',
       '.an-price { font-size: 34px !important; font-weight: 800 !important; color: var(--an-text) !important; }',
+      '.an-price-sale { color: #c8102e !important; }',
+      '.an-price-was { font-size: 18px !important; color: #94a3b8 !important; text-decoration: line-through !important; font-weight: 600 !important; }',
+      '.an-save-badge { display: inline-flex !important; align-items: center !important; background: #c8102e !important; color: #fff !important; font-size: 13px !important; font-weight: 700 !important; padding: 4px 10px !important; border-radius: 6px !important; line-height: 1.2 !important; }',
       '.an-price-vat { font-size: 13px !important; color: var(--an-text-muted) !important; font-weight: 400 !important; }',
 
       /* Cart Row */
@@ -724,18 +727,58 @@
   if (!productTitle) { var ah1 = document.getElementsByTagName('h1'); if (ah1.length) productTitle = getText(ah1[0]); }
   if (!productTitle) productTitle = document.title.split('|')[0].trim();
 
+  /* === Price extraction (Konimbo) ===
+     Konimbo markup:
+       • Current/sale price always lives in:  #item_show_price .price_value  (with content="NN.NN")
+       • When on sale, original price lives in: .item_show_origin_price .origin_price_number  (struck-through)
+     We MUST prefer .price_value (sale price) over .origin_price_number (which is the higher "was" price). */
   var priceEl = null;
-  var allS = document.getElementsByTagName('span');
-  for (var i = 0; i < allS.length; i++) {
-    if ((allS[i].className||'').indexOf('price') !== -1 && getText(allS[i]).indexOf('\u20aa') !== -1) { priceEl = allS[i]; break; }
-  }
-  if (!priceEl) {
-    var allD = document.getElementsByTagName('div');
-    for (var d = 0; d < allD.length; d++) {
-      if ((allD[d].className||'').indexOf('price') !== -1 && getText(allD[d]).indexOf('\u20aa') !== -1) { priceEl = allD[d]; break; }
+  var origPriceEl = null;
+  var productPrice = '';
+  var productOrigPrice = '';
+  var isOnSale = false;
+
+  /* 1. Sale/current price — always #item_show_price .price_value */
+  var pvEl = document.querySelector('#item_show_price .price_value, .price_value');
+  if (pvEl) {
+    priceEl = pvEl;
+    var contentAttr = pvEl.getAttribute('content');
+    if (contentAttr && /\d/.test(contentAttr)) {
+      productPrice = String(contentAttr).replace(/[^\d,.]/g,'').trim();
+    } else {
+      productPrice = getText(pvEl).replace(/[^\d,.]/g,'').trim();
     }
   }
-  var productPrice = priceEl ? getText(priceEl).replace(/[^\d,.]/g,'').trim() : '';
+
+  /* 2. Original ("was") price — only present when on sale */
+  var opEl = document.querySelector('.item_show_origin_price .origin_price_number, .origin_price_number');
+  if (opEl) {
+    origPriceEl = opEl;
+    productOrigPrice = getText(opEl).replace(/[^\d,.]/g,'').trim();
+    if (productOrigPrice && productPrice && productOrigPrice !== productPrice) {
+      isOnSale = true;
+    }
+  }
+
+  /* 3. Fallback — legacy logic (any element with 'price' class containing ₪) */
+  if (!priceEl) {
+    var allS = document.getElementsByTagName('span');
+    for (var i = 0; i < allS.length; i++) {
+      var cN = allS[i].className || '';
+      /* Skip the original/was price element so we never mistake it for the current price */
+      if (cN.indexOf('origin_price') !== -1) continue;
+      if (cN.indexOf('price') !== -1 && getText(allS[i]).indexOf('\u20aa') !== -1) { priceEl = allS[i]; break; }
+    }
+    if (!priceEl) {
+      var allD = document.getElementsByTagName('div');
+      for (var d = 0; d < allD.length; d++) {
+        var dC = allD[d].className || '';
+        if (dC.indexOf('origin_price') !== -1) continue;
+        if (dC.indexOf('price') !== -1 && getText(allD[d]).indexOf('\u20aa') !== -1) { priceEl = allD[d]; break; }
+      }
+    }
+    if (priceEl && !productPrice) productPrice = getText(priceEl).replace(/[^\d,.]/g,'').trim();
+  }
 
   var skuValue = '';
   var mcMatch = productTitle.match(/\b(\d{4,5}[A-Za-z])\b/);
@@ -961,6 +1004,21 @@
   /* Price */
   var cleanPrice = productPrice.replace(/[\u20aa]/g,'').replace(/[^\d,. ]/g,'').trim();
   var priceDisplay = cleanPrice ? cleanPrice+' \u20aa' : (priceEl ? getText(priceEl) : '');
+  var cleanOrigPrice = productOrigPrice.replace(/[\u20aa]/g,'').replace(/[^\d,. ]/g,'').trim();
+  var origPriceDisplay = cleanOrigPrice ? cleanOrigPrice+' \u20aa' : '';
+  /* Compute savings amount + percent when on sale */
+  var savePct = 0;
+  var saveAmt = 0;
+  if (isOnSale) {
+    var pNow = parseFloat(cleanPrice.replace(',','.'));
+    var pWas = parseFloat(cleanOrigPrice.replace(',','.'));
+    if (!isNaN(pNow) && !isNaN(pWas) && pWas > pNow && pWas > 0) {
+      saveAmt = pWas - pNow;
+      savePct = Math.round((saveAmt/pWas)*100);
+    } else {
+      isOnSale = false; /* numbers don't match — don't show sale */
+    }
+  }
 
   /* Highlights list */
   var hlItems = '';
@@ -1006,7 +1064,16 @@
   html += '<h1 class="an-product-title">'+productTitle+'</h1>';
   if (productSubtitle) html += '<div class="an-product-subtitle">'+productSubtitle+'</div>';
   html += '<div class="an-stock-status"><span class="an-stock-dot"></span>'+stockText+'</div>';
-  html += '<div class="an-price-section"><span class="an-price">'+priceDisplay+'</span><span class="an-price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2"\u05de</span></div>';
+  if (isOnSale) {
+    html += '<div class="an-price-section an-price-section-sale">';
+    html += '<span class="an-price an-price-sale">'+priceDisplay+'</span>';
+    html += '<span class="an-price-was">'+origPriceDisplay+'</span>';
+    if (savePct > 0) html += '<span class="an-save-badge">\u05d7\u05d9\u05e1\u05db\u05d5\u05df '+savePct+'%</span>';
+    html += '<span class="an-price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2"\u05de</span>';
+    html += '</div>';
+  } else {
+    html += '<div class="an-price-section"><span class="an-price">'+priceDisplay+'</span><span class="an-price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2"\u05de</span></div>';
+  }
   html += '<div class="an-cart-row" id="an-cart-row">';
   html += '<div class="an-qty-selector"><button type="button" class="an-qty-btn" id="an-qty-minus">\u2212</button><div class="an-qty-value" id="an-qty-val">1</div><button type="button" class="an-qty-btn" id="an-qty-plus">+</button></div>';
   html += '<button type="button" class="an-add-to-cart" id="an-add-to-cart">'+cartSvg+'\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button>';
