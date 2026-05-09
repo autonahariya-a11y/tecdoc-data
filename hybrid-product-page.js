@@ -2,7 +2,7 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v3.15 strip trailing .0 / .00 from prices (e.g. "80.0 ₪" → "80 ₪")
+     CSS INJECTION — v3.16 remove "כולל מעמ" label from price section
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
     var styleEl = document.createElement('style');
@@ -88,7 +88,6 @@
       '.an-price-sale { color: #c8102e !important; }',
       '.an-price-was { font-size: 18px !important; color: #94a3b8 !important; text-decoration: line-through !important; font-weight: 600 !important; }',
       '.an-save-badge { display: inline-flex !important; align-items: center !important; background: #c8102e !important; color: #fff !important; font-size: 13px !important; font-weight: 700 !important; padding: 4px 10px !important; border-radius: 6px !important; line-height: 1.2 !important; }',
-      '.an-price-vat { font-size: 13px !important; color: var(--an-text-muted) !important; font-weight: 400 !important; }',
 
       /* Cart Row */
       '.an-cart-row { display: flex !important; flex-direction: column !important; gap: 10px !important; }',
@@ -1081,10 +1080,9 @@
     html += '<span class="an-price an-price-sale">'+priceDisplay+'</span>';
     html += '<span class="an-price-was">'+origPriceDisplay+'</span>';
     if (savePct > 0) html += '<span class="an-save-badge">\u05d7\u05d9\u05e1\u05db\u05d5\u05df '+savePct+'%</span>';
-    html += '<span class="an-price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2"\u05de</span>';
     html += '</div>';
   } else {
-    html += '<div class="an-price-section"><span class="an-price">'+priceDisplay+'</span><span class="an-price-vat">\u05db\u05d5\u05dc\u05dc \u05de\u05e2"\u05de</span></div>';
+    html += '<div class="an-price-section"><span class="an-price">'+priceDisplay+'</span></div>';
   }
   html += '<div class="an-cart-row" id="an-cart-row">';
   html += '<div class="an-qty-selector"><button type="button" class="an-qty-btn" id="an-qty-minus">\u2212</button><div class="an-qty-value" id="an-qty-val">1</div><button type="button" class="an-qty-btn" id="an-qty-plus">+</button></div>';
