@@ -2,7 +2,7 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v3.16 remove "כולל מעמ" label from price section
+     CSS INJECTION — v3.17 description section uses ONLY Konimbo's real description; hidden when empty
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
     var styleEl = document.createElement('style');
@@ -829,48 +829,54 @@
     if (bt) breadcrumbItems.push({text: bt, href: bcLinks[bc2].href || '#'});
   }
 
-  /* Extract description from Konimbo — multiple selector fallbacks */
+  /* === Extract description from Konimbo ===
+     The real description (what the store owner typed in the product editor) lives in:
+       • The MAIN product's <span class="item_desc"> — BUT this same class is ALSO used by
+         every related-product tile in #item_also_buy (the "customers also bought" carousel).
+       • So we must scope our search to the main product area only, EXCLUDING #item_also_buy,
+         carousels, related/recommend/upsell wrappers, and any element nested inside an <a> tag.
+     If no real description is found, productDescription stays empty and the section is hidden
+     entirely — we never show generic fallback text. */
   var productDescription = '';
-  /* Only look WITHIN the main product area to avoid related-product descriptions */
-  var searchRoot = document.querySelector('#item_main, #item_show, #item_details, #item_content') || document.body;
-  var descSelectors = [
-    '.item_description',
-    '#item_description',
-    '.product-description',
-    '.item_details_text',
-    '.description_text',
-    '#description'
-  ];
-  for (var ds = 0; ds < descSelectors.length; ds++) {
-    var descEl = searchRoot.querySelector(descSelectors[ds]);
-    if (!descEl) continue;
-    /* Skip if inside a link or related-products carousel */
-    var parent = descEl;
-    var skipThis = false;
-    while (parent && parent !== searchRoot) {
-      if (parent.tagName === 'A' || (parent.className && 
-          (parent.className.indexOf('carousel') !== -1 || parent.className.indexOf('related') !== -1 ||
-           parent.className.indexOf('recommend') !== -1 || parent.className.indexOf('upsell') !== -1))) {
-        skipThis = true; break;
+  function _extractDesc() {
+    /* Get every .item_desc on the page, then filter out the ones in carousels/related products */
+    var all = document.querySelectorAll('.item_desc, #item_desc, .item_description, #item_description, .product-description, .item_details_text, .description_text, #description');
+    for (var i = 0; i < all.length; i++) {
+      var el = all[i];
+      /* Walk up the tree — reject if inside a known related-products / carousel container or an <a> link */
+      var p = el; var bad = false;
+      while (p && p.nodeType === 1) {
+        var pid = p.id || ''; var pcl = p.className || '';
+        if (typeof pcl !== 'string') pcl = '';
+        if (p.tagName === 'A') { bad = true; break; }
+        if (pid === 'item_also_buy' || pid === 'item_also_seen' || pid === 'item_friends' || pid === 'item_recommended') { bad = true; break; }
+        if (pcl.indexOf('carousel') !== -1 || pcl.indexOf('matchingCarousel') !== -1 ||
+            pcl.indexOf('related') !== -1 || pcl.indexOf('recommend') !== -1 ||
+            pcl.indexOf('upsell') !== -1 || pcl.indexOf('friend_item') !== -1 ||
+            pcl.indexOf('also_buy') !== -1 || pcl.indexOf('cross_sell') !== -1) { bad = true; break; }
+        p = p.parentElement;
       }
-      parent = parent.parentElement;
+      if (bad) continue;
+      /* Read text — Konimbo stores HTML as escaped entities, so innerText decodes them */
+      var rawText = (el.innerText || el.textContent || '').trim();
+      if (!rawText || rawText.length < 5) continue;
+      if (rawText === productTitle) continue;
+      /* If the text starts with a tag (e.g. "<p>...") then it's HTML stored as plain text — unwrap it */
+      var rawHtml = '';
+      if (rawText.charAt(0) === '<') {
+        var tmp = document.createElement('div');
+        tmp.innerHTML = rawText;
+        rawHtml = tmp.innerHTML;
+        rawText = (tmp.innerText || tmp.textContent || '').trim();
+      } else {
+        rawHtml = el.innerHTML || ('<p>' + rawText.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</p>');
+      }
+      if (rawText.length < 5) continue;
+      return rawHtml;
     }
-    if (skipThis) continue;
-    var rawText = (descEl.innerText || descEl.textContent || '').trim();
-    var rawHtml = descEl.innerHTML || '';
-    if (!rawText || rawText.length < 20 || rawText === productTitle) continue;
-    /* Handle description stored as literal HTML string: "<p>text</p>" */
-    if (rawText.charAt(0) === '<') {
-      var tmpEl = document.createElement('div');
-      tmpEl.innerHTML = rawText;
-      rawText = (tmpEl.innerText || tmpEl.textContent || '').trim();
-      rawHtml = tmpEl.innerHTML;
-    }
-    if (rawText.length > 20) {
-      productDescription = rawHtml || ('<p>' + rawText + '</p>');
-      break;
-    }
+    return '';
   }
+  productDescription = _extractDesc();
 
   var stockText = '\u05d6\u05de\u05d9\u05df \u05d1\u05de\u05dc\u05d0\u05d9';
 
@@ -1117,30 +1123,34 @@
 
   /* ===================================================
      SECTION 3: Description — "תיאור המוצר" (from Konimbo)
+     Only render this section if the store owner actually filled in a description in Konimbo.
+     If the field is empty — hide the section completely. NO generic fallback.
      =================================================== */
-  html += '<div class="an-section-card">';
-  html += '<div class="an-section-header" id="an-desc-hdr"><h2>\u05ea\u05d9\u05d0\u05d5\u05e8 \u05d4\u05de\u05d5\u05e6\u05e8</h2>'+chevSvg+'</div>';
-  html += '<div class="an-section-body" id="an-desc-body">';
   if (productDescription) {
-    /* If description contains literal HTML tags as text, parse them */
     var cleanDesc = productDescription;
+    /* Decode any escaped HTML entities (Konimbo sometimes stores '<p>...' as '&lt;p&gt;...') */
     if (cleanDesc.indexOf('&lt;') !== -1) {
       var tmpDiv = document.createElement('div');
       tmpDiv.innerHTML = cleanDesc;
       cleanDesc = tmpDiv.textContent || tmpDiv.innerText || cleanDesc;
     }
-    /* If starts with literal <p> tag as string text, wrap it properly */
     var trimmed = cleanDesc.trim();
     if (trimmed.charAt(0) === '<' && trimmed.charAt(1) !== '/') {
-      /* Treat it as HTML - use as-is */
+      /* Already HTML — use as-is */
     } else if (trimmed.indexOf('<p>') === -1 && trimmed.length > 0) {
       cleanDesc = '<p>' + cleanDesc.replace(/\n/g, '</p><p>') + '</p>';
     }
-    html += '<div class="an-description-section">'+cleanDesc+'</div>';
-  } else {
-    html += '<p class="an-description-text">'+productTitle+' \u2014 \u05d7\u05dc\u05e7 \u05d0\u05d9\u05db\u05d5\u05ea\u05d9 \u05dc\u05e8\u05db\u05d1\u05da. \u05d1\u05d3\u05d9\u05e7\u05ea \u05d4\u05ea\u05d0\u05de\u05d4 \u05de\u05d5\u05e9\u05dc\u05de\u05ea \u05dc\u05d3\u05d2\u05dd \u05e9\u05dc\u05da. \u05d0\u05e1\u05e4\u05e7\u05d4 \u05de\u05d9\u05d9\u05d3\u05d9\u05ea \u05de\u05d4\u05de\u05dc\u05d0\u05d9.</p>';
+    /* Final safety check: ensure there's actual readable text after stripping tags */
+    var _txtCheck = document.createElement('div'); _txtCheck.innerHTML = cleanDesc;
+    var _textOnly = (_txtCheck.innerText || _txtCheck.textContent || '').trim();
+    if (_textOnly.length >= 5) {
+      html += '<div class="an-section-card">';
+      html += '<div class="an-section-header" id="an-desc-hdr"><h2>\u05ea\u05d9\u05d0\u05d5\u05e8 \u05d4\u05de\u05d5\u05e6\u05e8</h2>'+chevSvg+'</div>';
+      html += '<div class="an-section-body" id="an-desc-body">';
+      html += '<div class="an-description-section">'+cleanDesc+'</div>';
+      html += '</div></div>';
+    }
   }
-  html += '</div></div>';
 
   /* ===================================================
      SECTION 4: TecDoc — tabs: פרטים טכניים, התאמה לרכבים, מספרי OE
