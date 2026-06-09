@@ -1,5 +1,8 @@
-/* TecDoc Widget v11.1 — Tab Layout + Full Cache + OEM Fallback + Hide supplier for filters + Page cleanup + Hebrew product names + Strengths/USP + Custom Purchase Area
-   Changes in v11.1: Hide old Konimbo +/- qty box aggressively. Out-of-stock detection with red indicator + WhatsApp CTA. Hide duplicate stock indicators. Stock above price.
+/* TecDoc Widget v11.2 — Brand & Secondary-SKU Sync + Tab Layout + Full Cache + OEM Fallback
+   Changes in v11.2:
+     • getStoreSKU() now prefers window.AN_PRODUCT.secondarySku (Konimbo's מק״ט משני) before guessing OEM from title
+     • Specs table now starts with a "יצרן" row, populated from the site brand (Liquid), falling back to TecDoc supplier
+     • New: getSiteBrand() helper reads brand from AN_PRODUCT / data-product-brand / title fallback
    Tabs: פרטים טכניים | התאמה לרכבים | מספרי OE
    Loads pre-fetched TecDoc data from GitHub Pages JSON cache.
    Falls back to live API with OEM search for manufacturer part numbers.
@@ -575,7 +578,48 @@
     return null;
   }
 
+  /* ── Get site brand (from product title or Konimbo field) ── */
+  function getSiteBrand() {
+    if (window.AN_PRODUCT && window.AN_PRODUCT.brand) return window.AN_PRODUCT.brand.trim();
+    var attr = document.documentElement.getAttribute('data-product-brand');
+    if (attr && attr.trim()) return attr.trim();
+    // Fallback — extract from title (last segment after "|")
+    var h1 = document.querySelector('h1');
+    if (h1) {
+      var parts = h1.textContent.split('|');
+      if (parts.length >= 2) {
+        var last = parts[parts.length - 1].trim();
+        // Strip leading SKU pattern (e.g. "93736E Aaron Montecchio" -> "Aaron Montecchio")
+        last = last.replace(/^\s*\d{4,5}[A-Za-z]\s+/, '').trim();
+        if (last) return last;
+      }
+    }
+    return '';
+  }
+
+  /* ── Get secondary SKU (internal/OEM SKU from Konimbo) ── */
+  function getSecondarySKU() {
+    // Priority 1: injected by Liquid bridge
+    if (window.AN_PRODUCT && window.AN_PRODUCT.secondarySku) {
+      var s = String(window.AN_PRODUCT.secondarySku).trim();
+      if (s) return s;
+    }
+    // Priority 2: data-attribute on <html>
+    var attr = document.documentElement.getAttribute('data-secondary-sku');
+    if (attr && attr.trim()) return attr.trim();
+    return '';
+  }
+
   function getStoreSKU() {
+    /* ── NEW: prefer secondary SKU (internal/OEM) if available ── */
+    var secondary = getSecondarySKU();
+    if (secondary) {
+      // If it's a list (multiple secondaries separated by ; or ,), take the first
+      var first = secondary.split(/[,;|]/)[0].trim();
+      if (first) return first;
+    }
+
+    /* ── Otherwise read the primary SKU from Konimbo ── */
     var codeEl = document.querySelector('.code_item');
     var sku = null;
     if (codeEl) {
@@ -1551,10 +1595,19 @@
       /* Merge: priority specs first, then normal */
       allSpecs = allSpecs.concat(prioritySpecs).concat(normalSpecs);
 
+      /* ── Inject "יצרן" (manufacturer) row at the top of the specs table ──
+         Priority: site brand (from Liquid) → TecDoc supplier */
+      var siteBrandForRow = getSiteBrand();
+      var brandRowValue = siteBrandForRow || D.supplier || '';
+      if (brandRowValue) {
+        allSpecs.unshift({ name: '\u05D9\u05E6\u05E8\u05DF', value: brandRowValue, isBrandRow: true });
+      }
+
       var hasHidden = allSpecs.length > SPECS_VISIBLE;
       html += '<table class="tw-specs-table" id="tw-specs-tbl">';
       for (var si = 0; si < allSpecs.length; si++) {
         var cls = si >= SPECS_VISIBLE ? ' class="tw-spec-hidden"' : '';
+        if (allSpecs[si].isBrandRow) cls = ' class="tw-spec-brand-row"';
         html += '<tr'+cls+'><td>'+esc(allSpecs[si].name)+'</td><td>'+esc(allSpecs[si].value)+'</td></tr>';
       }
       html += '</table>';

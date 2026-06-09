@@ -213,6 +213,10 @@
       '#tecdoc-widget table td, #tecdoc-widget .tw-specs-table td { padding: 12px 16px !important; font-size: 14px !important; border-bottom: 1px solid var(--an-border-light) !important; }',
       '#tecdoc-widget table td:first-child, #tecdoc-widget .tw-specs-table td:first-child { font-weight: 600 !important; color: var(--an-text) !important; width: 40% !important; }',
       '#tecdoc-widget table td:last-child, #tecdoc-widget .tw-specs-table td:last-child { color: var(--an-text-secondary) !important; }',
+      /* Brand row — highlight the יצרן row at top of specs */
+      '#tecdoc-widget tr.tw-spec-brand-row { background: linear-gradient(90deg, #f5f9ff 0%, #fafbfc 100%) !important; }',
+      '#tecdoc-widget tr.tw-spec-brand-row td { font-weight: 700 !important; color: var(--an-brand-blue, #1a4690) !important; border-bottom: 2px solid var(--an-border-light) !important; }',
+      '#tecdoc-widget tr.tw-spec-brand-row td:last-child { color: var(--an-brand-red, #c8102e) !important; font-size: 15px !important; letter-spacing: 0.3px !important; }',
 
       /* TecDoc vehicle groups */
       '#tecdoc-widget [class*="make-group"], #tecdoc-widget [class*="vehicle-group"], #tecdoc-widget .tw-make-group { border: 1px solid #e4e6eb !important; border-radius: 10px !important; overflow: hidden !important; margin-bottom: 4px !important; }',
