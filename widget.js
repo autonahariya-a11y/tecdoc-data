@@ -1,4 +1,4 @@
-/* TecDoc Widget v11.2 — Brand & Secondary-SKU Sync + Tab Layout + Full Cache + OEM Fallback
+/* TecDoc Widget v11.3 — Smart SKU Labels (OEM/SKU) + Brand & Secondary-SKU Sync + Tab Layout + Full Cache + OEM Fallback
    Changes in v11.2:
      • getStoreSKU() now prefers window.AN_PRODUCT.secondarySku (Konimbo's מק״ט משני) before guessing OEM from title
      • Specs table now starts with a "יצרן" row, populated from the site brand (Liquid), falling back to TecDoc supplier
@@ -888,17 +888,34 @@
     /* Create a flex wrapper that places them side by side */
     var wrapper = document.createElement('div');
     wrapper.className = 'tw-sku-merged';
-    wrapper.style.cssText = 'display:flex; align-items:center; gap:8px; margin-top:12px;';
+    wrapper.style.cssText = 'display:flex; align-items:center; gap:8px; margin-top:12px; flex-wrap:wrap;';
     /* Move the brand-badge into the wrapper */
     badge.parentNode.insertBefore(wrapper, badge);
     badge.style.margin = '0';
     wrapper.appendChild(badge);
-    /* Replace code_item with a proper RTL badge matching brand-badge style */
+    /* Extract the primary SKU value (cleaned) */
+    var primarySku = (codeEl.textContent || '').trim().replace(/^[\u05DE\u05E7"\u05D8:.\s]+/g, '').trim();
+    var secondarySku = (typeof getSecondarySKU === 'function') ? getSecondarySKU() : '';
+    /* Determine which badge label fits best:
+       - If primary SKU matches the OEM pattern (alphanumeric, often hyphenated, >= 8 chars typical for OEM) AND there's a secondary -> primary = OEM, secondary = internal
+       - Otherwise: primary = internal SKU only */
+    var looksLikeOEM = primarySku && primarySku.length >= 8 && /^[A-Z0-9][A-Z0-9\-\.]*$/i.test(primarySku);
+    /* Primary SKU badge */
     var skuBadge = document.createElement('div');
+    skuBadge.className = 'tw-sku-badge';
     skuBadge.style.cssText = 'display:flex; align-items:center; gap:8px; background:#f8f9fa; padding:8px 12px; border-radius:6px; border:1px solid #eee; direction:rtl;';
-    skuBadge.innerHTML = '<span style="font-size:13px;color:#666;">\u05DE\u05E7"\u05D8:</span> <strong style="font-size:14px;color:#1B4E91;font-weight:600;">' + esc(codeEl.textContent.trim().replace(/^[\u05DE\u05E7"\u05D8:.\s]+/g,'').trim()) + '</strong>';
+    var primaryLabel = looksLikeOEM ? 'OEM:' : '\u05DE\u05E7"\u05D8:';
+    skuBadge.innerHTML = '<span style="font-size:13px;color:#666;font-weight:600;">' + primaryLabel + '</span> <strong style="font-size:14px;color:#1B4E91;font-weight:600;">' + esc(primarySku) + '</strong>';
     codeEl.style.display = 'none';
     wrapper.appendChild(skuBadge);
+    /* Optional: secondary (internal) SKU badge if exists and differs from primary */
+    if (secondarySku && secondarySku !== primarySku) {
+      var skuBadge2 = document.createElement('div');
+      skuBadge2.className = 'tw-sku-badge-secondary';
+      skuBadge2.style.cssText = 'display:flex; align-items:center; gap:8px; background:#fff; padding:8px 12px; border-radius:6px; border:1px solid #ddd; direction:rtl;';
+      skuBadge2.innerHTML = '<span style="font-size:13px;color:#666;font-weight:600;">\u05DE\u05E7"\u05D8:</span> <strong style="font-size:14px;color:#333;font-weight:600;">' + esc(secondarySku) + '</strong>';
+      wrapper.appendChild(skuBadge2);
+    }
   }
 
   function hideBuyNowByText() {
