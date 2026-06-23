@@ -1,13 +1,57 @@
 /*!
- * Auto Nahariya - Performance Optimizer v3
- * 1. Image Optimizer (PNG → WebP via weserv.nl)
- * 2. Lazy Loading for below-the-fold images
- * 3. Async decoding for images
- * 4. Native lazy loading for iframes
- * 5. Reduce TBT - throttle layout-heavy operations
+ * Auto Nahariya - Performance Optimizer v4
+ * Focus: Reduce CLS by setting image dimensions ASAP
+ * 1. Image dimensions (prevent CLS) - PRIORITY
+ * 2. Image Optimizer (PNG → WebP via weserv.nl)
+ * 3. Lazy Loading + async decoding
+ * 4. Iframe lazy loading
  */
 (function() {
   'use strict';
+
+  // ============ CLS FIX: Set image dimensions ASAP ============
+  // Many images load without explicit width/height -> causes CLS
+  // We'll predict dimensions from CSS class/parent context
+  function setImageDimensions(img) {
+    if (!img || img.tagName !== 'IMG') return;
+    if (img.hasAttribute('width') && img.hasAttribute('height')) return;
+    
+    // Skip slider images (they have aspect-ratio CSS)
+    if (img.classList.contains('slide_img')) return;
+    
+    // If image already loaded, use natural dimensions
+    if (img.complete && img.naturalWidth > 0) {
+      if (!img.hasAttribute('width')) img.setAttribute('width', img.naturalWidth);
+      if (!img.hasAttribute('height')) img.setAttribute('height', img.naturalHeight);
+      return;
+    }
+    
+    // Set reasonable default aspect ratio (1:1 for product/category images)
+    var parent = img.parentElement;
+    var inProductCard = false;
+    while (parent && parent !== document.body) {
+      var cls = parent.className || '';
+      if (cls.indexOf('product') !== -1 || cls.indexOf('item') !== -1 || 
+          cls.indexOf('category') !== -1 || cls.indexOf('grid') !== -1) {
+        inProductCard = true;
+        break;
+      }
+      parent = parent.parentElement;
+    }
+    
+    if (inProductCard) {
+      // Square aspect for product/category thumbs prevents CLS
+      img.style.aspectRatio = '1 / 1';
+    }
+    
+    // When the image loads, set actual width/height attrs
+    img.addEventListener('load', function() {
+      if (this.naturalWidth > 0) {
+        if (!this.hasAttribute('width')) this.setAttribute('width', this.naturalWidth);
+        if (!this.hasAttribute('height')) this.setAttribute('height', this.naturalHeight);
+      }
+    }, { once: true });
+  }
 
   // ============ IMAGE OPTIMIZER (PNG → WebP) ============
   var EXCLUDE_PATTERNS = ['9462979827.jpg', '4458042398.jpg'];
@@ -39,34 +83,39 @@
     } catch(e) { return false; }
   }
 
-  function optimizeImage(img) {
-    if (img && img.tagName === 'IMG') {
-      // async decoding
-      if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
-      // lazy loading for below-the-fold (skip slider hero images)
-      if (!img.hasAttribute('loading') && !img.classList.contains('slide_img') && !isAboveFold(img)) {
-        img.setAttribute('loading', 'lazy');
-      }
+  function processImage(img) {
+    if (!img || img.tagName !== 'IMG') return;
+    
+    // 1. CLS FIX - set dimensions FIRST
+    setImageDimensions(img);
+    
+    // 2. Async decoding
+    if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
+    
+    // 3. Lazy loading for below-fold (skip slider)
+    if (!img.hasAttribute('loading') && !img.classList.contains('slide_img') && !isAboveFold(img)) {
+      img.setAttribute('loading', 'lazy');
     }
-    // PNG → WebP optimization
-    if (!shouldOptimize(img)) return;
-    var originalSrc = img.src;
-    var width = img.naturalWidth || img.width || img.getAttribute('width') || 800;
-    if (width > 1200) width = 1200;
-    var newSrc = 'https://images.weserv.nl/?url=' + encodeURIComponent(originalSrc) + '&output=webp&q=82&w=' + width;
-    img.src = newSrc;
-    if (img.srcset) img.srcset = '';
+    
+    // 4. PNG → WebP optimization
+    if (shouldOptimize(img)) {
+      var originalSrc = img.src;
+      var width = img.naturalWidth || img.width || img.getAttribute('width') || 800;
+      if (width > 1200) width = 1200;
+      var newSrc = 'https://images.weserv.nl/?url=' + encodeURIComponent(originalSrc) + '&output=webp&q=82&w=' + width;
+      img.src = newSrc;
+      if (img.srcset) img.srcset = '';
+    }
   }
 
-  function optimizeAllImages() {
+  function processAllImages() {
     var images = document.querySelectorAll('img');
-    for (var i = 0; i < images.length; i++) optimizeImage(images[i]);
+    for (var i = 0; i < images.length; i++) processImage(images[i]);
     var iframes = document.querySelectorAll('iframe:not([loading])');
     for (var k = 0; k < iframes.length; k++) iframes[k].setAttribute('loading', 'lazy');
   }
 
-  // ============ DELAY HEAVY 3RD PARTY SCRIPTS ============
-  // Only mark scripts as defer if they aren't already
+  // ============ DELAY 3RD PARTY SCRIPTS ============
   var DEFER_TARGETS = ['flashyapp.com', 'googletagmanager.com/gtag', 'google-analytics.com'];
 
   function deferScripts() {
@@ -83,45 +132,56 @@
     }
   }
 
-  // ============ RUN OPTIMIZATIONS ============
-  function runOptimizations() {
-    optimizeAllImages();
+  // ============ RUN ============
+  function init() {
+    processAllImages();
     deferScripts();
   }
 
+  // Run as early as possible
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', runOptimizations);
+    document.addEventListener('DOMContentLoaded', init);
+    // Also run partial scan during HTML parsing (catches images as they're parsed)
+    var earlyCount = 0;
+    var earlyInterval = setInterval(function() {
+      processAllImages();
+      earlyCount++;
+      if (earlyCount >= 8 || document.readyState !== 'loading') clearInterval(earlyInterval);
+    }, 100);
   } else {
-    runOptimizations();
+    init();
   }
-  window.addEventListener('load', optimizeAllImages);
+  window.addEventListener('load', processAllImages);
 
-  // MutationObserver for dynamic content (throttled)
+  // MutationObserver for dynamic content
   var mutationTimer = null;
+  var pendingMutations = [];
   if (window.MutationObserver) {
     var observer = new MutationObserver(function(mutations) {
-      // Throttle to avoid main-thread blocking
+      pendingMutations.push.apply(pendingMutations, mutations);
       if (mutationTimer) return;
       mutationTimer = setTimeout(function() {
+        var batch = pendingMutations;
+        pendingMutations = [];
         mutationTimer = null;
-        for (var i = 0; i < mutations.length; i++) {
-          var nodes = mutations[i].addedNodes;
+        for (var i = 0; i < batch.length; i++) {
+          var nodes = batch[i].addedNodes;
           for (var j = 0; j < nodes.length; j++) {
             var node = nodes[j];
             if (node.nodeType !== 1) continue;
             if (node.tagName === 'IMG') {
-              optimizeImage(node);
+              processImage(node);
             } else if (node.tagName === 'IFRAME' && !node.hasAttribute('loading')) {
               node.setAttribute('loading', 'lazy');
             } else if (node.querySelectorAll) {
               var imgs = node.querySelectorAll('img');
-              for (var k = 0; k < imgs.length; k++) optimizeImage(imgs[k]);
+              for (var k = 0; k < imgs.length; k++) processImage(imgs[k]);
               var ifrs = node.querySelectorAll('iframe:not([loading])');
               for (var m = 0; m < ifrs.length; m++) ifrs[m].setAttribute('loading', 'lazy');
             }
           }
         }
-      }, 250);
+      }, 200);
     });
     var startObserver = function() {
       if (document.body) observer.observe(document.body, { childList: true, subtree: true });
@@ -132,7 +192,7 @@
 
   // Final sweep when idle
   window.addEventListener('load', function() {
-    var sweep = function() { optimizeAllImages(); };
+    var sweep = function() { processAllImages(); };
     if (window.requestIdleCallback) {
       requestIdleCallback(sweep, { timeout: 3000 });
     } else {
