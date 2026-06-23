@@ -1,9 +1,10 @@
 /*!
- * Auto Nahariya - Performance Optimizer v2
+ * Auto Nahariya - Performance Optimizer v3
  * 1. Image Optimizer (PNG → WebP via weserv.nl)
- * 2. Lazy Loading for all images
+ * 2. Lazy Loading for below-the-fold images
  * 3. Async decoding for images
  * 4. Native lazy loading for iframes
+ * 5. Reduce TBT - throttle layout-heavy operations
  */
 (function() {
   'use strict';
@@ -31,16 +32,23 @@
     return true;
   }
 
+  function isAboveFold(el) {
+    try {
+      var rect = el.getBoundingClientRect();
+      return rect.top < window.innerHeight + 100;
+    } catch(e) { return false; }
+  }
+
   function optimizeImage(img) {
-    // Add lazy loading + async decoding (perf wins)
     if (img && img.tagName === 'IMG') {
+      // async decoding
       if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
-      // Only lazy-load below-the-fold images
+      // lazy loading for below-the-fold (skip slider hero images)
       if (!img.hasAttribute('loading') && !img.classList.contains('slide_img') && !isAboveFold(img)) {
         img.setAttribute('loading', 'lazy');
       }
     }
-    // PNG optimization
+    // PNG → WebP optimization
     if (!shouldOptimize(img)) return;
     var originalSrc = img.src;
     var width = img.naturalWidth || img.width || img.getAttribute('width') || 800;
@@ -50,39 +58,24 @@
     if (img.srcset) img.srcset = '';
   }
 
-  function isAboveFold(el) {
-    try {
-      var rect = el.getBoundingClientRect();
-      return rect.top < window.innerHeight;
-    } catch(e) { return false; }
-  }
-
   function optimizeAllImages() {
     var images = document.querySelectorAll('img');
     for (var i = 0; i < images.length; i++) optimizeImage(images[i]);
-    // Iframes - native lazy
     var iframes = document.querySelectorAll('iframe:not([loading])');
-    for (var k = 0; k < iframes.length; k++) {
-      iframes[k].setAttribute('loading', 'lazy');
-    }
+    for (var k = 0; k < iframes.length; k++) iframes[k].setAttribute('loading', 'lazy');
   }
 
-  // ============ DEFER NON-CRITICAL THIRD PARTY SCRIPTS ============
-  // List of script substrings to delay until user interaction
-  var DELAY_SCRIPTS = [
-    'flashyapp.com',
-    'enable.co.il',
-    'googletagmanager.com/gtag',
-    'google-analytics.com'
-  ];
+  // ============ DELAY HEAVY 3RD PARTY SCRIPTS ============
+  // Only mark scripts as defer if they aren't already
+  var DEFER_TARGETS = ['flashyapp.com', 'googletagmanager.com/gtag', 'google-analytics.com'];
 
-  function delayThirdPartyScripts() {
+  function deferScripts() {
     var scripts = document.querySelectorAll('script[src]');
     for (var i = 0; i < scripts.length; i++) {
       var s = scripts[i];
       var src = s.getAttribute('src') || '';
-      for (var j = 0; j < DELAY_SCRIPTS.length; j++) {
-        if (src.indexOf(DELAY_SCRIPTS[j]) !== -1 && !s.hasAttribute('async') && !s.hasAttribute('defer')) {
+      for (var j = 0; j < DEFER_TARGETS.length; j++) {
+        if (src.indexOf(DEFER_TARGETS[j]) !== -1 && !s.hasAttribute('async') && !s.hasAttribute('defer')) {
           s.setAttribute('defer', '');
           break;
         }
@@ -93,7 +86,7 @@
   // ============ RUN OPTIMIZATIONS ============
   function runOptimizations() {
     optimizeAllImages();
-    delayThirdPartyScripts();
+    deferScripts();
   }
 
   if (document.readyState === 'loading') {
@@ -103,54 +96,47 @@
   }
   window.addEventListener('load', optimizeAllImages);
 
-  // MutationObserver for dynamic content
+  // MutationObserver for dynamic content (throttled)
+  var mutationTimer = null;
   if (window.MutationObserver) {
     var observer = new MutationObserver(function(mutations) {
-      for (var i = 0; i < mutations.length; i++) {
-        var nodes = mutations[i].addedNodes;
-        for (var j = 0; j < nodes.length; j++) {
-          var node = nodes[j];
-          if (node.nodeType !== 1) continue;
-          if (node.tagName === 'IMG') {
-            optimizeImage(node);
-          } else if (node.tagName === 'IFRAME' && !node.hasAttribute('loading')) {
-            node.setAttribute('loading', 'lazy');
-          } else if (node.querySelectorAll) {
-            var imgs = node.querySelectorAll('img');
-            for (var k = 0; k < imgs.length; k++) optimizeImage(imgs[k]);
-            var ifrs = node.querySelectorAll('iframe:not([loading])');
-            for (var m = 0; m < ifrs.length; m++) ifrs[m].setAttribute('loading', 'lazy');
+      // Throttle to avoid main-thread blocking
+      if (mutationTimer) return;
+      mutationTimer = setTimeout(function() {
+        mutationTimer = null;
+        for (var i = 0; i < mutations.length; i++) {
+          var nodes = mutations[i].addedNodes;
+          for (var j = 0; j < nodes.length; j++) {
+            var node = nodes[j];
+            if (node.nodeType !== 1) continue;
+            if (node.tagName === 'IMG') {
+              optimizeImage(node);
+            } else if (node.tagName === 'IFRAME' && !node.hasAttribute('loading')) {
+              node.setAttribute('loading', 'lazy');
+            } else if (node.querySelectorAll) {
+              var imgs = node.querySelectorAll('img');
+              for (var k = 0; k < imgs.length; k++) optimizeImage(imgs[k]);
+              var ifrs = node.querySelectorAll('iframe:not([loading])');
+              for (var m = 0; m < ifrs.length; m++) ifrs[m].setAttribute('loading', 'lazy');
+            }
           }
         }
-      }
+      }, 250);
     });
-    if (document.body) {
-      observer.observe(document.body, { childList: true, subtree: true });
-    } else {
-      document.addEventListener('DOMContentLoaded', function() {
-        observer.observe(document.body, { childList: true, subtree: true });
-      });
-    }
+    var startObserver = function() {
+      if (document.body) observer.observe(document.body, { childList: true, subtree: true });
+    };
+    if (document.body) startObserver();
+    else document.addEventListener('DOMContentLoaded', startObserver);
   }
 
-  // Fallback - sweep every second for first 5 seconds
-  var fallbackCount = 0;
-  var fallbackInterval = setInterval(function() {
-    optimizeAllImages();
-    fallbackCount++;
-    if (fallbackCount >= 5) clearInterval(fallbackInterval);
-  }, 1000);
-
-  // ============ REQUESTIDLECALLBACK FOR CLEANUP ============
-  // After page is fully loaded, sweep all remaining iframes/scripts/images
+  // Final sweep when idle
   window.addEventListener('load', function() {
-    var doFinalSweep = function() {
-      optimizeAllImages();
-    };
+    var sweep = function() { optimizeAllImages(); };
     if (window.requestIdleCallback) {
-      requestIdleCallback(doFinalSweep, { timeout: 2000 });
+      requestIdleCallback(sweep, { timeout: 3000 });
     } else {
-      setTimeout(doFinalSweep, 1500);
+      setTimeout(sweep, 1500);
     }
   });
 
