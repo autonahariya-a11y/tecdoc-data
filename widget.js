@@ -1,4 +1,9 @@
-/* TecDoc Widget v11.3 — Smart SKU Labels (OEM/SKU) + Brand & Secondary-SKU Sync + Tab Layout + Full Cache + OEM Fallback
+/* TecDoc Widget v11.4 — Hidden-span secondary SKU support (an-oem-sku)
+   Changes in v11.4:
+     • getSecondarySKU() reads first from <span class="an-oem-sku" style="display:none">OEM_NUMBER</span>
+       inside the product description — easiest way for store owner to supply OEM SKU per product.
+     • Ignores the same class if it appears inside related-products carousels.
+     • Falls back to window.AN_PRODUCT.secondarySku and data-secondary-sku on <html>.
    Changes in v11.2:
      • getStoreSKU() now prefers window.AN_PRODUCT.secondarySku (Konimbo's מק״ט משני) before guessing OEM from title
      • Specs table now starts with a "יצרן" row, populated from the site brand (Liquid), falling back to TecDoc supplier
@@ -597,14 +602,37 @@
     return '';
   }
 
-  /* ── Get secondary SKU (internal/OEM SKU from Konimbo) ── */
+  /* ── Get secondary SKU (internal/OEM SKU from Konimbo) ──
+     Store owner can supply the manufacturer OEM number in ONE of three ways:
+       1. Hidden <span> in product description: <span class="an-oem-sku" style="display:none">04E115561AC</span>
+          (easiest — paste one line into the description in Konimbo editor)
+       2. window.AN_PRODUCT.secondarySku (custom Liquid bridge)
+       3. data-secondary-sku attribute on <html>
+     Also supports multiple OEM numbers separated by ; or , — the first one is used. */
   function getSecondarySKU() {
-    // Priority 1: injected by Liquid bridge
+    // Priority 1: hidden span in product page (easiest for store owner to add via editor)
+    var hiddenEls = document.querySelectorAll('.an-oem-sku, span.an-oem-sku, [data-an-oem-sku]');
+    for (var i = 0; i < hiddenEls.length; i++) {
+      var el = hiddenEls[i];
+      /* Skip if inside a related-products carousel or link */
+      var p = el; var bad = false;
+      while (p && p.nodeType === 1) {
+        var pid = p.id || ''; var pcl = (typeof p.className === 'string' ? p.className : '');
+        if (p.tagName === 'A' || pid === 'item_also_buy' || pid === 'item_also_seen' ||
+            pcl.indexOf('carousel') !== -1 || pcl.indexOf('related') !== -1 ||
+            pcl.indexOf('also_buy') !== -1 || pcl.indexOf('friend_item') !== -1) { bad = true; break; }
+        p = p.parentElement;
+      }
+      if (bad) continue;
+      var v = (el.getAttribute('data-an-oem-sku') || el.textContent || '').trim();
+      if (v) return v;
+    }
+    // Priority 2: injected by Liquid bridge
     if (window.AN_PRODUCT && window.AN_PRODUCT.secondarySku) {
       var s = String(window.AN_PRODUCT.secondarySku).trim();
       if (s) return s;
     }
-    // Priority 2: data-attribute on <html>
+    // Priority 3: data-attribute on <html>
     var attr = document.documentElement.getAttribute('data-secondary-sku');
     if (attr && attr.trim()) return attr.trim();
     return '';
