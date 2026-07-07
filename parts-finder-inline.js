@@ -1,5 +1,13 @@
 /* ================================================================================
- * Auto Nahariya — Inline Parts Finder
+ * Auto Nahariya — Inline Parts Finder  (v22 — fix ₪0 cart bug)
+ * ================================================================================
+ * v22 changes (July 2026):
+ *   • addItemToCart price extraction — was broken: only checked itemprop="price"
+ *     which doesn't exist on Konimbo product pages. Now tries:
+ *       .price_value → .item_price .price → .item_price → .current_price → .price
+ *       → JSON-LD offers.price → __anhPriceMap[kid] cache
+ *   • Exposes window.__anhPriceMap so the add-to-cart path can fall back to the
+ *     pre-loaded price_map.json even if the iframe DOM doesn't yield a price.
  * ================================================================================
  * Hijacks the #anh-parts-finder widget on autonahariya.co.il homepage.
  * Instead of redirecting to an external demo, loads product data lazily and
@@ -508,6 +516,10 @@
           fitment: r[5] || {}, makeAliases: r[6] || {}, modelAliases: r[7] || {},
           meta: r[8] || {}
         };
+        /* v22: expose the price map globally so addItemToCart can fall back to it
+           when the iframe DOM extraction fails (e.g. for items whose product page
+           doesn't expose price in .price_value / itemprop). */
+        try { window.__anhPriceMap = dataCache.prices || {}; } catch (e) { }
         return dataCache;
       });
       return loading;
@@ -897,10 +909,51 @@
           var ogImg = idoc.querySelector('meta[property="og:image"]');
           var imgSrc = ogImg ? ogImg.getAttribute('content') : '';
           if (imgSrc && imgSrc.indexOf('159998') !== -1) imgSrc = '';
-          var priceEl = idoc.querySelector('[itemprop="price"]');
+
+          /* v22: robust price extraction — Konimbo uses .price_value / .item_price .price, NOT itemprop="price" */
           var price = 0;
-          if (priceEl) {
-            price = parseFloat(priceEl.getAttribute('content') || priceEl.textContent.replace(/[^\d.]/g,'')) || 0;
+          var priceSelectors = [
+            '#item_show_price .price_value',
+            '.item_price .price',
+            '.item_price .price_value',
+            '.item_price',
+            '.current_price',
+            '.price_value',
+            '.price',
+            '[itemprop="price"]'
+          ];
+          for (var pi = 0; pi < priceSelectors.length; pi++) {
+            var priceEl = idoc.querySelector(priceSelectors[pi]);
+            if (!priceEl) continue;
+            var raw = (priceEl.getAttribute && (priceEl.getAttribute('content') || priceEl.getAttribute('data-price'))) || priceEl.textContent || '';
+            var cleaned = String(raw).replace(/[^\d.,]/g, '').replace(',', '.');
+            var num = parseFloat(cleaned);
+            if (num && num > 0) { price = num; break; }
+          }
+          /* v22: fallback — try JSON-LD Product offers if DOM price still 0 */
+          if (!price) {
+            try {
+              var ldBlocks = idoc.querySelectorAll('script[type="application/ld+json"]');
+              for (var li = 0; li < ldBlocks.length; li++) {
+                var ld = JSON.parse(ldBlocks[li].textContent || '{}');
+                var offers = ld && (ld.offers || (ld['@graph'] && ld['@graph'][0] && ld['@graph'][0].offers));
+                if (offers) {
+                  var pval = Array.isArray(offers) ? (offers[0] && offers[0].price) : offers.price;
+                  var pn = parseFloat(pval);
+                  if (pn && pn > 0) { price = pn; break; }
+                }
+              }
+            } catch (e) { }
+          }
+          /* v22: last-resort — the parts-finder itself had a price for this item in its cache */
+          if (!price) {
+            try {
+              var cachedPrice = (window.__anhPriceMap && window.__anhPriceMap[kid]);
+              if (cachedPrice) {
+                var cn = parseFloat(cachedPrice);
+                if (cn && cn > 0) price = cn;
+              }
+            } catch (e) { }
           }
 
           /* Update AN Cart Drawer storage so the side drawer shows the item right away */
