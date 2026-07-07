@@ -1,50 +1,59 @@
 /*!
- * Auto Nahariya - Performance Optimizer v4
- * Focus: Reduce CLS by setting image dimensions ASAP
- * 1. Image dimensions (prevent CLS) - PRIORITY
- * 2. Image Optimizer (PNG → WebP via weserv.nl)
- * 3. Lazy Loading + async decoding
- * 4. Iframe lazy loading
+ * Auto Nahariya - Performance Optimizer v5
+ * Focus: FIX CLS regression from Konimbo's splide/modules_general updates
+ * 1. Image dimensions (prevent CLS)
+ * 2. Iframe lazy loading (fix Google Maps CLS)
+ * 3. Image Optimizer (PNG → WebP)
+ * 4. Lazy Loading + async decoding
  */
 (function() {
   'use strict';
 
-  // ============ CLS FIX: Set image dimensions ASAP ============
-  // Many images load without explicit width/height -> causes CLS
-  // We'll predict dimensions from CSS class/parent context
+  // ============ CLS FIX: iframe lazy loading (Google Maps etc) ============
+  function fixIframes() {
+    var iframes = document.querySelectorAll('iframe');
+    for (var i = 0; i < iframes.length; i++) {
+      var ifr = iframes[i];
+      if (!ifr.hasAttribute('loading')) ifr.setAttribute('loading', 'lazy');
+      // Fix maps iframe specifically - add width/height styles to prevent CLS
+      var src = ifr.getAttribute('src') || '';
+      if (src.indexOf('google.com/maps') !== -1 || src.indexOf('googletagmanager') !== -1) {
+        var w = ifr.getAttribute('width') || 400;
+        var h = ifr.getAttribute('height') || 300;
+        if (!ifr.style.width) ifr.style.width = w + 'px';
+        if (!ifr.style.height) ifr.style.height = h + 'px';
+      }
+    }
+  }
+
+  // ============ CLS FIX: Set image dimensions ============
   function setImageDimensions(img) {
     if (!img || img.tagName !== 'IMG') return;
     if (img.hasAttribute('width') && img.hasAttribute('height')) return;
-    
-    // Skip slider images (they have aspect-ratio CSS)
     if (img.classList.contains('slide_img')) return;
-    
-    // If image already loaded, use natural dimensions
+
     if (img.complete && img.naturalWidth > 0) {
       if (!img.hasAttribute('width')) img.setAttribute('width', img.naturalWidth);
       if (!img.hasAttribute('height')) img.setAttribute('height', img.naturalHeight);
       return;
     }
-    
-    // Set reasonable default aspect ratio (1:1 for product/category images)
+
     var parent = img.parentElement;
     var inProductCard = false;
     while (parent && parent !== document.body) {
       var cls = parent.className || '';
-      if (cls.indexOf('product') !== -1 || cls.indexOf('item') !== -1 || 
-          cls.indexOf('category') !== -1 || cls.indexOf('grid') !== -1) {
+      if (typeof cls === 'string' && (cls.indexOf('product') !== -1 || cls.indexOf('item') !== -1 ||
+          cls.indexOf('category') !== -1 || cls.indexOf('grid') !== -1 || cls.indexOf('splide') !== -1)) {
         inProductCard = true;
         break;
       }
       parent = parent.parentElement;
     }
-    
+
     if (inProductCard) {
-      // Square aspect for product/category thumbs prevents CLS
       img.style.aspectRatio = '1 / 1';
     }
-    
-    // When the image loads, set actual width/height attrs
+
     img.addEventListener('load', function() {
       if (this.naturalWidth > 0) {
         if (!this.hasAttribute('width')) this.setAttribute('width', this.naturalWidth);
@@ -85,19 +94,11 @@
 
   function processImage(img) {
     if (!img || img.tagName !== 'IMG') return;
-    
-    // 1. CLS FIX - set dimensions FIRST
     setImageDimensions(img);
-    
-    // 2. Async decoding
     if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
-    
-    // 3. Lazy loading for below-fold (skip slider)
     if (!img.hasAttribute('loading') && !img.classList.contains('slide_img') && !isAboveFold(img)) {
       img.setAttribute('loading', 'lazy');
     }
-    
-    // 4. PNG → WebP optimization
     if (shouldOptimize(img)) {
       var originalSrc = img.src;
       var width = img.naturalWidth || img.width || img.getAttribute('width') || 800;
@@ -111,8 +112,7 @@
   function processAllImages() {
     var images = document.querySelectorAll('img');
     for (var i = 0; i < images.length; i++) processImage(images[i]);
-    var iframes = document.querySelectorAll('iframe:not([loading])');
-    for (var k = 0; k < iframes.length; k++) iframes[k].setAttribute('loading', 'lazy');
+    fixIframes();
   }
 
   // ============ DELAY 3RD PARTY SCRIPTS ============
@@ -132,16 +132,13 @@
     }
   }
 
-  // ============ RUN ============
   function init() {
     processAllImages();
     deferScripts();
   }
 
-  // Run as early as possible
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
-    // Also run partial scan during HTML parsing (catches images as they're parsed)
     var earlyCount = 0;
     var earlyInterval = setInterval(function() {
       processAllImages();
@@ -153,7 +150,7 @@
   }
   window.addEventListener('load', processAllImages);
 
-  // MutationObserver for dynamic content
+  // MutationObserver
   var mutationTimer = null;
   var pendingMutations = [];
   if (window.MutationObserver) {
@@ -190,7 +187,6 @@
     else document.addEventListener('DOMContentLoaded', startObserver);
   }
 
-  // Final sweep when idle
   window.addEventListener('load', function() {
     var sweep = function() { processAllImages(); };
     if (window.requestIdleCallback) {
@@ -199,5 +195,4 @@
       setTimeout(sweep, 1500);
     }
   });
-
 })();
