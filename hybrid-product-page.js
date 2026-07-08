@@ -2,7 +2,7 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v3.17 description section uses ONLY Konimbo's real description; hidden when empty
+     CSS INJECTION — v11.4: strip brand from title + remove empty thumbnail placeholders
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
     var styleEl = document.createElement('style');
@@ -930,6 +930,37 @@
 
   var brandData = BRAND_INFO[detectedBrand] || {name:detectedBrand||'\u05d9\u05e6\u05e8\u05df',description:'\u05d9\u05e6\u05e8\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1.',founded:'',country:'',color:'#1B4E91'};
 
+  /* v11.4: strip the brand name (and its aliases) from the product title
+     since the brand is already shown in its own badge above the title.
+     Example: '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05e9\u05de\u05df Mahle OX 1058D MAHLE-KNECHT' \u2192 '\u05e4\u05d9\u05dc\u05d8\u05e8 \u05e9\u05de\u05df OX 1058D' */
+  (function stripBrandFromTitle() {
+    if (!brandData || !brandData.name) return;
+    var namesToStrip = [brandData.name];
+    /* Include aliases that map to this brand */
+    var akeys = Object.keys(brandAliases);
+    for (var akx = 0; akx < akeys.length; akx++) {
+      if (brandAliases[akeys[akx]] === detectedBrand) namesToStrip.push(akeys[akx]);
+    }
+    /* Also strip the raw detectedBrand key (e.g. 'MAHLE') */
+    if (detectedBrand && namesToStrip.indexOf(detectedBrand) === -1) namesToStrip.push(detectedBrand);
+    /* De-duplicate and sort longest-first so 'MAHLE-KNECHT' strips before 'MAHLE' */
+    var seen = {};
+    namesToStrip = namesToStrip.filter(function(n){
+      if (!n || seen[n.toUpperCase()]) return false;
+      seen[n.toUpperCase()] = true; return true;
+    }).sort(function(a,b){ return b.length - a.length; });
+    for (var nsi = 0; nsi < namesToStrip.length; nsi++) {
+      var raw = namesToStrip[nsi].trim();
+      if (!raw) continue;
+      var escRe = raw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      /* Word-boundary safe match, optionally followed by '-SUFFIX' (like MAHLE-KNECHT) */
+      var re = new RegExp('(^|\\s)' + escRe + '(?:[\\-\u2013][A-Za-z]+)?(?=\\s|$|[|,])', 'gi');
+      productTitle = productTitle.replace(re, '$1').trim();
+    }
+    /* Collapse whitespace + trim trailing/leading pipes/dashes/commas */
+    productTitle = productTitle.replace(/\s{2,}/g, ' ').replace(/^[\s|,\-]+|[\s|,\-]+$/g, '').trim();
+  })();
+
   var productSubtitle = '';
   var hwds = productTitle.match(/[\u05d0-\u05ea]+(?:\s+[\u05d0-\u05ea]+)*/g);
   if (hwds && hwds.length > 0) {
@@ -984,19 +1015,22 @@
   var chevSvg = '<svg class="an-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>';
 
   /* Images */
+  /* v11.4: don't fill empty thumbnail slots with fake placeholders —
+     only render thumbnails if there are 2+ real images (single image = no thumbs). */
   var mainImgHtml = '', thumbsHtml = '';
   if (imageUrls.length > 0) {
     mainImgHtml = '<img src="'+imageUrls[0]+'" alt="'+productTitle+'" id="an-main-img">';
-    for (var ti = 0; ti < Math.min(imageUrls.length, 5); ti++) {
-      thumbsHtml += '<div class="an-thumb'+(ti===0?' an-thumb-active':'')+'" data-an-img="'+imageUrls[ti]+'"><img src="'+imageUrls[ti]+'" alt="'+(ti+1)+'"></div>';
+    if (imageUrls.length >= 2) {
+      for (var ti = 0; ti < Math.min(imageUrls.length, 5); ti++) {
+        thumbsHtml += '<div class="an-thumb'+(ti===0?' an-thumb-active':'')+'" data-an-img="'+imageUrls[ti]+'"><img src="'+imageUrls[ti]+'" alt="'+(ti+1)+'"></div>';
+      }
     }
-    for (var ti2 = imageUrls.length; ti2 < 3; ti2++) {
-      thumbsHtml += '<div class="an-thumb"><div class="an-thumb-ph">'+(brandData.name||'').substring(0,8)+'</div></div>';
-    }
+    /* Single image: thumbsHtml stays empty — the row will not render */
   } else {
     var bN = (brandData.name||'').toUpperCase().substring(0,10);
     mainImgHtml = '<div class="an-img-ph"><div class="an-img-ph-brand">'+bN+'</div><div class="an-img-ph-sku">'+(skuValue||'')+'</div></div>';
-    thumbsHtml = '<div class="an-thumb an-thumb-active"><div class="an-thumb-ph">'+bN+'</div></div><div class="an-thumb"><div class="an-thumb-ph">'+bN+'</div></div><div class="an-thumb"><div class="an-thumb-ph">'+bN+'</div></div>';
+    /* No images at all: single placeholder thumbnail row disabled to avoid clutter */
+    thumbsHtml = '';
   }
 
   /* Breadcrumb */
@@ -1111,7 +1145,8 @@
   /* Column 2: Image */
   html += '<div class="an-product-image-area">';
   html += '<div class="an-main-image">'+mainImgHtml+'</div>';
-  html += '<div class="an-thumb-row">'+thumbsHtml+'</div>';
+  /* v11.4: skip the entire thumb row when there are no thumbnails */
+  if (thumbsHtml) html += '<div class="an-thumb-row">'+thumbsHtml+'</div>';
   html += '</div>'; /* end .an-product-image-area */
 
   html += '</div>'; /* end .an-product-top */
