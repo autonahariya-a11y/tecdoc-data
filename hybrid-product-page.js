@@ -2,7 +2,7 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v11.4: strip brand from title + remove empty thumbnail placeholders
+     CSS INJECTION — v11.5: support SKUs with slash/dot (e.g. OX361/4D) + strip brand from title
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
     var styleEl = document.createElement('style');
@@ -789,7 +789,7 @@
   if (!skuValue) {
     var tParts = productTitle.split('|');
     for (var tp = tParts.length - 1; tp >= 0; tp--) {
-      var skuM = tParts[tp].trim().match(/([A-Za-z][A-Za-z0-9\-]{3,}[0-9][A-Za-z0-9]*)/);
+      var skuM = tParts[tp].trim().match(/([A-Za-z][A-Za-z0-9\-\/\.]{3,}[0-9][A-Za-z0-9\/\.]*)/);
       if (skuM) {
         var cand = skuM[1].trim();
         if (/\d/.test(cand) && /[A-Za-z]/.test(cand) && !/[\u05d0-\u05ea]{3}/.test(cand)) {
