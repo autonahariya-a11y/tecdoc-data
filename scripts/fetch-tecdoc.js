@@ -34,7 +34,30 @@ async function apiCall(body) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body)
   });
+  if (res.status === 401 || res.status === 403) {
+    const errText = await res.text().catch(() => '');
+    throw new Error(`APIFY_AUTH_FAILED (HTTP ${res.status}): ${errText.slice(0, 200)}`);
+  }
+  if (!res.ok) {
+    const errText = await res.text().catch(() => '');
+    throw new Error(`APIFY_HTTP_${res.status}: ${errText.slice(0, 200)}`);
+  }
   return res.json();
+}
+
+async function verifyToken() {
+  console.log('Verifying Apify token with a probe call...');
+  const data = await apiCall({
+    endpoint_partsCompatibleVehiclesByArticleNo: true,
+    parts_articleNo_20: 'OC 1183',
+    parts_langId_20: 4,
+    parts_countryFilterId_20: 81,
+    parts_typeId_20: 1
+  });
+  if (!data || !data.length || !data[0].articles || !data[0].articles.length) {
+    throw new Error('APIFY_PROBE_FAILED: token accepted but probe returned no data. The Apify actor may be broken.');
+  }
+  console.log(`  \u2713 Token valid — probe returned ${data[0].articles.length} article(s)\n`);
 }
 
 function toFilename(articleNo) {
@@ -139,6 +162,15 @@ async function main() {
 
   console.log(`Found ${articles.length} articles to process.\n`);
 
+  /* Verify token before running through the full list */
+  try {
+    await verifyToken();
+  } catch (err) {
+    console.error(`\n✗ Aborting: ${err.message}`);
+    console.error('Update the APIFY_TOKEN secret in the repo and re-run.\n');
+    process.exit(2);
+  }
+
   let success = 0;
   let failed = 0;
   let skipped = 0;
@@ -179,6 +211,10 @@ async function main() {
     } catch (err) {
       console.error(`  ✗ Error: ${err.message}\n`);
       failed++;
+      if (err.message && err.message.startsWith('APIFY_AUTH_FAILED')) {
+        console.error('\n✗ Auth failure detected mid-run — aborting to save API credits.');
+        process.exit(3);
+      }
     }
 
     /* Delay between articles */
