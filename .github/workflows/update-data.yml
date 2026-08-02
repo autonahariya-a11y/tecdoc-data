@@ -7,6 +7,9 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   fetch-data:
     runs-on: ubuntu-latest
@@ -15,11 +18,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Fetch TecDoc data
         env:
@@ -31,5 +37,9 @@ jobs:
           git config user.name "TecDoc Bot"
           git config user.email "bot@autonahariya.co.il"
           git add data/*.json
-          git diff --staged --quiet || git commit -m "Update TecDoc data — $(date +'%Y-%m-%d')"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update TecDoc data — $(date +'%Y-%m-%d')"
+            git push
+          fi
