@@ -692,6 +692,22 @@
   }
 
   /* ── Category detection ── */
+  /* FIX: the widget (and its aggressive cleanPage/stylePurchaseArea DOM surgery)
+     must run ONLY on a single product page. On category / listing pages every
+     product card contains <input type="number"> inside .amount_feed inside
+     .product_quantity, and stylePurchaseArea() used to hide the input's
+     grandparent — which killed the "הוסף לסל" button on every spare-parts
+     category page. */
+  function isSingleProductPage() {
+    try {
+      var cls = (document.body && document.body.className) ? String(document.body.className) : '';
+      if (/(^|\s)layout_item(\s|$)/.test(cls)) return true;
+      if (/\/items\//.test(window.location.pathname)) return true;
+      if (document.getElementById('item_details')) return true;
+    } catch (e) {}
+    return false;
+  }
+
   function isAutoPartsPage() {
     var bcLink = document.querySelector('#bread_crumbs a[href*="186807"]');
     if (bcLink) return true;
@@ -959,6 +975,10 @@
   }
 
   function stylePurchaseArea() {
+    /* FIX: hard guard — this function performs destructive DOM hiding and is
+       only valid on a single product page. */
+    if (!isSingleProductPage()) return;
+
     /* Check if already styled AND styles haven't been overridden by Konimbo */
     var existingStyled = document.querySelector('.tw-purchase-styled');
     if (existingStyled) {
@@ -1008,6 +1028,15 @@
     var HIDE_STYLE = 'display:none !important; width:0 !important; height:0 !important; position:absolute !important; overflow:hidden !important; pointer-events:none !important;';
     
     /* Find ALL +/- spans and number inputs that are NOT inside our widget (use data-tw attribute) */
+    /* FIX: elements that live inside a product-listing card must never be hidden */
+    function isInProductCard(el) {
+      try {
+        if (el && el.closest) {
+          return !!el.closest('.layout_list_item, .store_list_items, .element_items_list_items, .list_item_show_price, #bg_header');
+        }
+      } catch (e) {}
+      return false;
+    }
     function isOurElement(el) {
       var node = el;
       for (var i = 0; i < 10 && node; i++) {
@@ -1021,6 +1050,7 @@
     var allEls = document.getElementsByTagName('span');
     for (var sq = 0; sq < allEls.length; sq++) {
       var sqText = (allEls[sq].textContent || '').trim();
+      if (isInProductCard(allEls[sq])) continue;
       if ((sqText === '+' || sqText === '-' || sqText === '\u2212') && allEls[sq].children.length === 0 && !isOurElement(allEls[sq])) {
         allEls[sq].setAttribute('style', HIDE_STYLE);
         var qc = allEls[sq].parentElement;
@@ -1036,6 +1066,9 @@
     /* Hide number inputs outside our widget */
     var allInputsQ = document.getElementsByTagName('input');
     for (var iq = 0; iq < allInputsQ.length; iq++) {
+      /* FIX: never hide quantity controls that belong to a product card in a
+         listing/grid (related products, cross-sell, category grid). */
+      if (isInProductCard(allInputsQ[iq])) continue;
       if (allInputsQ[iq].type === 'number' && !isOurElement(allInputsQ[iq])) {
         allInputsQ[iq].setAttribute('style', HIDE_STYLE);
         var iqp = allInputsQ[iq].parentElement;
@@ -2034,6 +2067,8 @@
   /* ── Main flow ── */
   function init() {
     if (!document.getElementById('tecdoc-widget') && !isAutoPartsPage()) return;
+    /* FIX: never touch category / search / listing pages */
+    if (!isSingleProductPage()) return;
     cleanPage();
 
     var articleNo = detectArticleNo();
