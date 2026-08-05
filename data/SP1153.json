@@ -1,105 +1,175 @@
 {
   "articleNo": "SP1153",
-  "articleId": 9156693,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
+  "articleId": 9156692,
+  "supplier": "MONROE",
+  "product": "Suspension Spring",
   "vehicles": [
     {
-      "vehicleId": 4426,
-      "modelId": 4938,
-      "manufacturerName": "KIA",
-      "modelName": "SORENTO I (JC)",
-      "typeEngineName": "2.5 CRDi",
-      "constructionIntervalStart": "2006-05-01",
-      "constructionIntervalEnd": "2011-12-01"
+      "vehicleId": 16085,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.4 16V",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2008-06-01"
     },
     {
-      "vehicleId": 16912,
-      "modelId": 4938,
-      "manufacturerName": "KIA",
-      "modelName": "SORENTO I (JC)",
-      "typeEngineName": "2.4",
-      "constructionIntervalStart": "2002-08-01",
-      "constructionIntervalEnd": "2009-06-01"
+      "vehicleId": 16337,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2008-06-01"
     },
     {
-      "vehicleId": 16913,
-      "modelId": 4938,
-      "manufacturerName": "KIA",
-      "modelName": "SORENTO I (JC)",
-      "typeEngineName": "3.5 V6 4WD",
-      "constructionIntervalStart": "2002-08-01",
-      "constructionIntervalEnd": "2011-12-01"
+      "vehicleId": 16338,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2008-06-01"
     },
     {
-      "vehicleId": 16914,
-      "modelId": 4938,
-      "manufacturerName": "KIA",
-      "modelName": "SORENTO I (JC)",
-      "typeEngineName": "2.5 CRDi 4WD",
-      "constructionIntervalStart": "2002-08-01",
-      "constructionIntervalEnd": "2011-03-01"
+      "vehicleId": 16361,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2008-06-01"
     },
     {
-      "vehicleId": 19506,
-      "modelId": 4938,
-      "manufacturerName": "KIA",
-      "modelName": "SORENTO I (JC)",
-      "typeEngineName": "2.5 CRDi",
-      "constructionIntervalStart": "2006-12-01",
-      "constructionIntervalEnd": "2011-12-01"
+      "vehicleId": 17104,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-06-01"
     },
     {
-      "vehicleId": 27519,
-      "modelId": 4938,
-      "manufacturerName": "KIA",
-      "modelName": "SORENTO I (JC)",
-      "typeEngineName": "3.3 V6 4WD",
-      "constructionIntervalStart": "2007-02-01",
-      "constructionIntervalEnd": "2011-12-01"
+      "vehicleId": 17105,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 17317,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.2 (DY3W)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 17318,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.4 CD",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 17702,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.25 16V",
+      "constructionIntervalStart": "2003-03-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 17703,
+      "modelId": 4802,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V (JH_, JD_)",
+      "typeEngineName": "1.25 16V",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 20866,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.3 L (DY3W)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 21509,
+      "modelId": 4958,
+      "manufacturerName": "MAZDA",
+      "modelName": "2 (DY)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 26669,
+      "modelId": 7384,
+      "manufacturerName": "FORD",
+      "modelName": "FIESTA V Van",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2005-07-01"
     }
   ],
   "specs": [
     {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "16,5"
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "138"
     },
     {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "155"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "1,700"
     },
     {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "60"
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "138"
     },
     {
-      "criteriaName": "fulfils ECE norm",
-      "criteriaValue": "E9-90R-01,261/796"
+      "criteriaName": "Guarantee",
+      "criteriaValue": "5 years guarantee"
     },
     {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Front Axle"
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "40,6"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "15,1"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "15,2"
+    },
+    {
+      "criteriaName": "Wire Diameter [mm]",
+      "criteriaValue": "11,1"
     }
   ],
   "oe": [
     {
-      "oemBrand": "KIA",
-      "oemDisplayNo": "581013ED00"
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1146134"
     },
     {
-      "oemBrand": "KIA",
-      "oemDisplayNo": "581013EE00"
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1151928"
     },
     {
-      "oemBrand": "KIA",
-      "oemDisplayNo": "583013"
-    },
-    {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "583503ED00"
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1516827"
     }
   ],
-  "ean": null,
-  "originalSKU": "SP1153",
-  "fetchedAt": "2026-03-18T13:00:16Z"
+  "ean": "5412096467868",
+  "fetchedAt": "2026-08-05T17:35:23.290Z"
 }

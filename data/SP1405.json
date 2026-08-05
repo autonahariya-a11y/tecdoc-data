@@ -1,100 +1,318 @@
 {
   "articleNo": "SP1405",
-  "articleId": 9157228,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
+  "articleId": 9157227,
+  "supplier": "BGA",
+  "product": "Oil Sump",
   "vehicles": [
     {
-      "vehicleId": 7067,
-      "modelId": 9134,
-      "manufacturerName": "KIA",
-      "modelName": "PICANTO II (TA)",
-      "typeEngineName": "1.0",
-      "constructionIntervalStart": "2011-05-01",
-      "constructionIntervalEnd": "2017-03-01"
+      "vehicleId": 15599,
+      "modelId": 2042,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA (N1)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-03-01"
     },
     {
-      "vehicleId": 7068,
-      "modelId": 9134,
-      "manufacturerName": "KIA",
-      "modelName": "PICANTO II (TA)",
-      "typeEngineName": "1.0 Bi-Fuel",
-      "constructionIntervalStart": "2011-05-01",
-      "constructionIntervalEnd": "2014-10-01"
+      "vehicleId": 15601,
+      "modelId": 3392,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Break (N2)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-08-01"
     },
     {
-      "vehicleId": 7072,
-      "modelId": 9134,
-      "manufacturerName": "KIA",
-      "modelName": "PICANTO II (TA)",
-      "typeEngineName": "1.2",
-      "constructionIntervalStart": "2011-09-01",
-      "constructionIntervalEnd": "2017-03-01"
+      "vehicleId": 15638,
+      "modelId": 3433,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Coupe (N0)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-03-01"
     },
     {
-      "vehicleId": 53302,
-      "modelId": 9134,
-      "manufacturerName": "KIA",
-      "modelName": "PICANTO II (TA)",
-      "typeEngineName": "1.0 LPG",
-      "constructionIntervalStart": "2013-08-01",
-      "constructionIntervalEnd": "2017-03-01"
+      "vehicleId": 15704,
+      "modelId": 4572,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "206 CC (2D)",
+      "typeEngineName": "1.6 16V (2DNFUF, 2DNFUR)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2007-12-01"
     },
     {
-      "vehicleId": 114210,
-      "modelId": 9134,
-      "manufacturerName": "KIA",
-      "modelName": "PICANTO II (TA)",
-      "typeEngineName": "1.0",
-      "constructionIntervalStart": "2011-05-01",
-      "constructionIntervalEnd": "2017-03-01"
+      "vehicleId": 15705,
+      "modelId": 3555,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "206 Hatchback (2A/C)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 15901,
+      "modelId": 4771,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 (3A/C)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2007-11-01"
+    },
+    {
+      "vehicleId": 16155,
+      "modelId": 1567,
+      "manufacturerName": "CITROËN",
+      "modelName": "BERLINGO / BERLINGO FIRST MPV (MF_, GJK_, GFK_)",
+      "typeEngineName": "1.6 16V (MFNFU)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 16281,
+      "modelId": 1961,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "PARTNER MPV (5_, G_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 16335,
+      "modelId": 4841,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 I (FC_, FN_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 16612,
+      "modelId": 4882,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 SW (3H)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2008-04-01"
+    },
+    {
+      "vehicleId": 16676,
+      "modelId": 4898,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "206 SW (2E/K)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17276,
+      "modelId": 4990,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 Pluriel (HB_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17332,
+      "modelId": 4998,
+      "manufacturerName": "CITROËN",
+      "modelName": "C2 (JM_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 17914,
+      "modelId": 5113,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 Break (3E)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2008-04-01"
+    },
+    {
+      "vehicleId": 18333,
+      "modelId": 5221,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 I (LC_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 18340,
+      "modelId": 5220,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 Coupe (LA_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 18432,
+      "modelId": 5383,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "1007 (KM_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18550,
+      "modelId": 5011,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "307 CC (3B)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2003-03-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 18613,
+      "modelId": 4998,
+      "manufacturerName": "CITROËN",
+      "modelName": "C2 (JM_)",
+      "typeEngineName": "1.6 VTS",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 19008,
+      "modelId": 4172,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA PICASSO (N68)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 19350,
+      "modelId": 5522,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "207 (WA_, WC_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 19411,
+      "modelId": 1553,
+      "manufacturerName": "CITROËN",
+      "modelName": "BERLINGO / BERLINGO FIRST Box Body/MPV (M_)",
+      "typeEngineName": "1.6 16V (MBNFU)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 19881,
+      "modelId": 5615,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "206 Saloon",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20479,
+      "modelId": 1567,
+      "manufacturerName": "CITROËN",
+      "modelName": "BERLINGO / BERLINGO FIRST MPV (MF_, GJK_, GFK_)",
+      "typeEngineName": "1.6 16V (MFNFU)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 24512,
+      "modelId": 6731,
+      "manufacturerName": "CITROËN",
+      "modelName": "BERLINGO MULTISPACE (B9)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24513,
+      "modelId": 6731,
+      "manufacturerName": "CITROËN",
+      "modelName": "BERLINGO MULTISPACE (B9)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24517,
+      "modelId": 6732,
+      "manufacturerName": "CITROËN",
+      "modelName": "BERLINGO Box Body/MPV (B9)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24518,
+      "modelId": 6732,
+      "manufacturerName": "CITROËN",
+      "modelName": "BERLINGO Box Body/MPV (B9)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24529,
+      "modelId": 6738,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "PARTNER TEPEE",
+      "typeEngineName": "1.6 VTi",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24530,
+      "modelId": 6738,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "PARTNER TEPEE",
+      "typeEngineName": "1.6 VTi",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24534,
+      "modelId": 6739,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "PARTNER Box Body/MPV",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24535,
+      "modelId": 6739,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "PARTNER Box Body/MPV",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27579,
+      "modelId": 5221,
+      "manufacturerName": "CITROËN",
+      "modelName": "C4 I (LC_)",
+      "typeEngineName": "1.6 16V Bio-Flex",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2008-07-01"
     }
   ],
-  "specs": [
-    {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "16"
-    },
-    {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "110"
-    },
-    {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "47,5"
-    },
-    {
-      "criteriaName": "fulfils ECE norm",
-      "criteriaValue": "E9-90R-01,945/3164"
-    },
-    {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Front Axle"
-    }
-  ],
+  "specs": [],
   "oe": [
     {
-      "oemBrand": "KIA",
-      "oemDisplayNo": "581011YA00"
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "0301.L9"
     },
     {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "581011YA10"
-    },
-    {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "581011YA20"
-    },
-    {
-      "oemBrand": "KIA",
-      "oemDisplayNo": "581011YA30"
-    },
-    {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "58101A3A00"
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "0301.L9"
     }
   ],
-  "ean": null,
-  "originalSKU": "SP1405",
-  "fetchedAt": "2026-03-18T13:04:15Z"
+  "ean": "5038206242363",
+  "fetchedAt": "2026-08-05T17:42:51.104Z"
 }

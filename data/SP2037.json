@@ -1,192 +1,260 @@
 {
   "articleNo": "SP2037",
-  "articleId": 9161262,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
+  "articleId": 9161261,
+  "supplier": "MONROE",
+  "product": "Suspension Spring",
   "vehicles": [
     {
-      "vehicleId": 12236,
-      "modelId": 5813,
-      "manufacturerName": "TOYOTA",
-      "modelName": "CAMRY Saloon (_V4_)",
-      "typeEngineName": "2.5 (ASV40_)",
-      "constructionIntervalStart": "2010-01-01",
-      "constructionIntervalEnd": "2011-09-01"
+      "vehicleId": 3982,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1992-09-01",
+      "constructionIntervalEnd": "1996-12-01"
     },
     {
-      "vehicleId": 16362,
-      "modelId": 4846,
-      "manufacturerName": "TOYOTA",
-      "modelName": "CAMRY Saloon (_V3_)",
-      "typeEngineName": "2.4 (ACV30, ACV36)",
-      "constructionIntervalStart": "2001-11-01",
-      "constructionIntervalEnd": "2006-11-01"
+      "vehicleId": 4826,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1994-07-01"
     },
     {
-      "vehicleId": 16363,
-      "modelId": 4846,
-      "manufacturerName": "TOYOTA",
-      "modelName": "CAMRY Saloon (_V3_)",
-      "typeEngineName": "3.0 (MCV30_, MCV30R)",
-      "constructionIntervalStart": "2001-08-01",
-      "constructionIntervalEnd": "2006-11-01"
+      "vehicleId": 5706,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1996-12-01"
     },
     {
-      "vehicleId": 18773,
-      "modelId": 5433,
-      "manufacturerName": "LEXUS",
-      "modelName": "GS (_S19_)",
-      "typeEngineName": "300 (GRS190_, GRS190R)",
-      "constructionIntervalStart": "2005-04-01",
-      "constructionIntervalEnd": "2011-11-01"
+      "vehicleId": 7926,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "2000-03-01"
     },
     {
-      "vehicleId": 20837,
-      "modelId": 4846,
-      "manufacturerName": "TOYOTA",
-      "modelName": "CAMRY Saloon (_V3_)",
-      "typeEngineName": "3.3 (MCV31_, MCV31)",
-      "constructionIntervalStart": "2003-07-01",
-      "constructionIntervalEnd": "2006-02-01"
+      "vehicleId": 7985,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "T5",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-12-01"
     },
     {
-      "vehicleId": 26145,
-      "modelId": 7221,
-      "manufacturerName": "TOYOTA",
-      "modelName": "ISIS (_M1_)",
-      "typeEngineName": "1.8 VVTi (ZNM10W)",
-      "constructionIntervalStart": "2004-07-01",
-      "constructionIntervalEnd": "2014-08-01"
+      "vehicleId": 7986,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "T5-R",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1996-12-01"
     },
     {
-      "vehicleId": 34837,
-      "modelId": 5813,
-      "manufacturerName": "TOYOTA",
-      "modelName": "CAMRY Saloon (_V4_)",
-      "typeEngineName": "2.4 (ACV40_, ACV40R)",
-      "constructionIntervalStart": "2006-01-01",
-      "constructionIntervalEnd": "2011-09-01"
+      "vehicleId": 22646,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "2.0 Turbo",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1997-10-01"
     },
     {
-      "vehicleId": 58982,
-      "modelId": 11227,
-      "manufacturerName": "LEXUS",
-      "modelName": "IS III (_E3_)",
-      "typeEngineName": "250 (GSE30_, GSE30R)",
-      "constructionIntervalStart": "2013-04-01",
-      "constructionIntervalEnd": "2015-08-01"
+      "vehicleId": 4737,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1994-08-01",
+      "constructionIntervalEnd": "1996-12-01"
     },
     {
-      "vehicleId": 58983,
-      "modelId": 11227,
-      "manufacturerName": "LEXUS",
-      "modelName": "IS III (_E3_)",
-      "typeEngineName": "300h (AVE30_, AVE30R)",
-      "constructionIntervalStart": "2013-04-01",
-      "constructionIntervalEnd": "2020-09-01"
+      "vehicleId": 5392,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 5704,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 5705,
+      "modelId": 57,
+      "manufacturerName": "VOLVO",
+      "modelName": "850 Estate (855)",
+      "typeEngineName": "2.0 Turbo",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 7256,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2000-03-01"
+    },
+    {
+      "vehicleId": 7257,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2000-03-01"
+    },
+    {
+      "vehicleId": 7258,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2000-05-01"
+    },
+    {
+      "vehicleId": 7259,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.4 Turbo",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 7262,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 7372,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.0 Turbo",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2000-03-01"
+    },
+    {
+      "vehicleId": 7376,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2000-03-01"
+    },
+    {
+      "vehicleId": 7925,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.0 Turbo",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 11063,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 14440,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 18317,
+      "modelId": 1820,
+      "manufacturerName": "VOLVO",
+      "modelName": "V70 I (875, 876)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2000-12-01"
     }
   ],
   "specs": [
     {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "17,3"
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "432"
     },
     {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "131,4"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "2,900"
     },
     {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "58,4"
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "127"
     },
     {
-      "criteriaName": "fulfils ECE norm",
-      "criteriaValue": "E9-90R-02A0289/0701"
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "37"
     },
     {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Front Axle"
+      "criteriaName": "Guarantee",
+      "criteriaValue": "5 years guarantee"
+    },
+    {
+      "criteriaName": "Number of coils",
+      "criteriaValue": "9,8"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "56,5"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "18"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "18"
+    },
+    {
+      "criteriaName": "Wire Diameter [mm]",
+      "criteriaValue": "11,2"
     }
   ],
   "oe": [
     {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446506030"
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "3546549-1"
     },
     {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446530340"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446533240"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446533246"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446533250"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446533260"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446533320"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446533340"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446544140"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "04465YZZDZ"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446506030"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446530340"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446533240"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446533246"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446533250"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446533260"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446533320"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446533340"
-    },
-    {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446544140"
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "9140100-0"
     }
   ],
-  "ean": null,
-  "originalSKU": "SP2037",
-  "fetchedAt": "2026-03-18T13:11:24Z"
+  "ean": "5412096208829",
+  "fetchedAt": "2026-08-05T17:57:56.966Z"
 }

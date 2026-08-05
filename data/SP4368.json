@@ -1,38 +1,151 @@
 {
   "articleNo": "SP4368",
-  "articleId": 9166216,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
-  "vehicles": [],
+  "articleId": 11381288,
+  "supplier": "MONROE",
+  "product": "Suspension Spring",
+  "vehicles": [
+    {
+      "vehicleId": 126414,
+      "modelId": 37757,
+      "manufacturerName": "OPEL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17, P2QO)",
+      "typeEngineName": "1.2 (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126416,
+      "modelId": 37757,
+      "manufacturerName": "OPEL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17, P2QO)",
+      "typeEngineName": "1.2 (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126417,
+      "modelId": 37757,
+      "manufacturerName": "OPEL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17, P2QO)",
+      "typeEngineName": "1.6 Turbo D (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 126530,
+      "modelId": 37779,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17)",
+      "typeEngineName": "1.2 (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126531,
+      "modelId": 37779,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17)",
+      "typeEngineName": "1.2 (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126532,
+      "modelId": 37779,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CROSSLAND X / CROSSLAND (P17)",
+      "typeEngineName": "1.6 Turbo D (75)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 128136,
+      "modelId": 38129,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 AIRCROSS II (2R_, 2C_)",
+      "typeEngineName": "1.2 PureTech 110 (2RHNZB, 2RHNZW, 2RHNPX, 2RHNPJ)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128184,
+      "modelId": 38129,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 AIRCROSS II (2R_, 2C_)",
+      "typeEngineName": "1.2 PureTech 130 (2RHNYH)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133974,
+      "modelId": 38129,
+      "manufacturerName": "CITROËN",
+      "modelName": "C3 AIRCROSS II (2R_, 2C_)",
+      "typeEngineName": "1.6 HDi 92 (2C9HPA)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    }
+  ],
   "specs": [
     {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "VA"
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "363"
     },
     {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "18"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "1,603"
     },
     {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "134,2"
+      "criteriaName": "Spring Design",
+      "criteriaValue": "Coil Spring"
     },
     {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "59"
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "108"
     },
     {
-      "criteriaName": "fulfils ECE norm",
-      "criteriaValue": "E9-90R-02A0289/5419"
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "55"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "57"
+    },
+    {
+      "criteriaName": "Guarantee",
+      "criteriaValue": "5 years guarantee"
+    },
+    {
+      "criteriaName": "Number of coils",
+      "criteriaValue": "7,7"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "16,8"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "16,8"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "41,2"
+    },
+    {
+      "criteriaName": "Wire Diameter [mm]",
+      "criteriaValue": "10"
     }
   ],
   "oe": [
     {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "446502470"
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "3642565"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "9813719580"
     }
   ],
-  "ean": null,
-  "originalSKU": "SP4368",
-  "fetchedAt": "2026-03-18T13:14:20Z"
+  "ean": "5412096771934",
+  "fetchedAt": "2026-08-05T18:04:06.097Z"
 }

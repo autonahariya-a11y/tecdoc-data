@@ -1,715 +1,1938 @@
 {
   "articleNo": "SP1401",
-  "articleId": 9157218,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
+  "articleId": 9157217,
+  "supplier": "BGA",
+  "product": "Oil Sump",
   "vehicles": [
     {
-      "vehicleId": 4962,
-      "modelId": 7593,
-      "manufacturerName": "KIA",
-      "modelName": "SOUL I (AM)",
-      "typeEngineName": "1.6 CRDi 115",
-      "constructionIntervalStart": "2009-02-01",
-      "constructionIntervalEnd": "2014-12-01"
+      "vehicleId": 2175,
+      "modelId": 502,
+      "manufacturerName": "CITROËN",
+      "modelName": "VISA",
+      "typeEngineName": "16 GTI",
+      "constructionIntervalStart": "1985-01-01",
+      "constructionIntervalEnd": "1986-06-01"
     },
     {
-      "vehicleId": 5008,
-      "modelId": 7593,
-      "manufacturerName": "KIA",
-      "modelName": "SOUL I (AM)",
-      "typeEngineName": "1.6 CVVT",
-      "constructionIntervalStart": "2009-02-01",
-      "constructionIntervalEnd": "2011-12-01"
+      "vehicleId": 2176,
+      "modelId": 502,
+      "manufacturerName": "CITROËN",
+      "modelName": "VISA",
+      "typeEngineName": "16 GTI",
+      "constructionIntervalStart": "1986-06-01",
+      "constructionIntervalEnd": "1991-03-01"
     },
     {
-      "vehicleId": 6346,
-      "modelId": 9129,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (CK)",
-      "typeEngineName": "2.0 e-XDi",
-      "constructionIntervalStart": "2010-11-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 2177,
+      "modelId": 502,
+      "manufacturerName": "CITROËN",
+      "modelName": "VISA",
+      "typeEngineName": "17 D",
+      "constructionIntervalStart": "1984-04-01",
+      "constructionIntervalEnd": "1991-03-01"
     },
     {
-      "vehicleId": 6347,
-      "modelId": 9129,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (CK)",
-      "typeEngineName": "2.0 e-XDi 4WD",
-      "constructionIntervalStart": "2010-11-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 2182,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1987-01-01",
+      "constructionIntervalEnd": "1993-02-01"
     },
     {
-      "vehicleId": 9815,
-      "modelId": 9575,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "VELOSTER (FS)",
-      "typeEngineName": "1.6 GDI",
-      "constructionIntervalStart": "2011-03-01",
-      "constructionIntervalEnd": "2017-12-01"
+      "vehicleId": 2183,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1985-07-01",
+      "constructionIntervalEnd": "1993-02-01"
     },
     {
-      "vehicleId": 10618,
-      "modelId": 9650,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I CW (VF)",
-      "typeEngineName": "1.6 GDI",
-      "constructionIntervalStart": "2011-07-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 2184,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1982-10-01",
+      "constructionIntervalEnd": "1988-06-01"
     },
     {
-      "vehicleId": 10620,
-      "modelId": 9650,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I CW (VF)",
-      "typeEngineName": "2.0 GDI",
-      "constructionIntervalStart": "2011-07-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 2185,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1982-10-01",
+      "constructionIntervalEnd": "1992-12-01"
     },
     {
-      "vehicleId": 10622,
-      "modelId": 9650,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I CW (VF)",
-      "typeEngineName": "1.7 CRDi",
-      "constructionIntervalStart": "2011-07-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 2186,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "16 (XB180Z)",
+      "constructionIntervalStart": "1986-03-01",
+      "constructionIntervalEnd": "1993-02-01"
     },
     {
-      "vehicleId": 10623,
-      "modelId": 9650,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I CW (VF)",
-      "typeEngineName": "1.7 CRDi",
-      "constructionIntervalStart": "2011-07-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 2187,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "19",
+      "constructionIntervalStart": "1986-09-01",
+      "constructionIntervalEnd": "1989-11-01"
     },
     {
-      "vehicleId": 16132,
-      "modelId": 4847,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA VI (YF)",
-      "typeEngineName": "2.0 i",
-      "constructionIntervalStart": "2011-01-01",
-      "constructionIntervalEnd": "2014-06-01"
+      "vehicleId": 2188,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "19",
+      "constructionIntervalStart": "1986-07-01",
+      "constructionIntervalEnd": "1989-05-01"
     },
     {
-      "vehicleId": 17838,
-      "modelId": 4986,
-      "manufacturerName": "KIA",
-      "modelName": "OPIRUS (GH)",
-      "typeEngineName": "3.5",
-      "constructionIntervalStart": "2003-09-01",
+      "vehicleId": 2189,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "19 E",
+      "constructionIntervalStart": "1988-06-01",
+      "constructionIntervalEnd": "1993-02-01"
+    },
+    {
+      "vehicleId": 2193,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "TRD Turbo",
+      "constructionIntervalStart": "1988-03-01",
+      "constructionIntervalEnd": "1993-02-01"
+    },
+    {
+      "vehicleId": 2194,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "19 D",
+      "constructionIntervalStart": "1983-09-01",
+      "constructionIntervalEnd": "1993-09-01"
+    },
+    {
+      "vehicleId": 2195,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "19 D",
+      "constructionIntervalStart": "1987-03-01",
+      "constructionIntervalEnd": "1993-02-01"
+    },
+    {
+      "vehicleId": 2197,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "16 E",
+      "constructionIntervalStart": "1989-05-01",
+      "constructionIntervalEnd": "1993-02-01"
+    },
+    {
+      "vehicleId": 2200,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1988-09-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2201,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1985-07-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2202,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "16 (XB180Z)",
+      "constructionIntervalStart": "1986-03-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2203,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "19",
+      "constructionIntervalStart": "1986-07-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2204,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "19",
+      "constructionIntervalStart": "1988-06-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2205,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "TRD Turbo",
+      "constructionIntervalStart": "1988-03-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2206,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "19 D",
+      "constructionIntervalStart": "1983-09-01",
+      "constructionIntervalEnd": "1994-11-01"
+    },
+    {
+      "vehicleId": 2207,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "19 D",
+      "constructionIntervalStart": "1987-03-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2208,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1989-05-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2209,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "19",
+      "constructionIntervalStart": "1988-06-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2245,
+      "modelId": 421,
+      "manufacturerName": "CITROËN",
+      "modelName": "C15 Box Body/MPV (VD_)",
+      "typeEngineName": "1.8 D",
+      "constructionIntervalStart": "1986-07-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 2258,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1991-03-01",
+      "constructionIntervalEnd": "1997-06-01"
+    },
+    {
+      "vehicleId": 2259,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1997-06-01"
+    },
+    {
+      "vehicleId": 2261,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1991-03-01",
+      "constructionIntervalEnd": "1997-06-01"
+    },
+    {
+      "vehicleId": 2262,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1997-06-01"
+    },
+    {
+      "vehicleId": 2263,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.9 i",
+      "constructionIntervalStart": "1991-03-01",
+      "constructionIntervalEnd": "1997-06-01"
+    },
+    {
+      "vehicleId": 2266,
+      "modelId": 76,
+      "manufacturerName": "CITROËN",
+      "modelName": "XANTIA (X1_, X2_)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "2001-03-01"
+    },
+    {
+      "vehicleId": 2267,
+      "modelId": 76,
+      "manufacturerName": "CITROËN",
+      "modelName": "XANTIA (X1_, X2_)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1998-01-01"
+    },
+    {
+      "vehicleId": 2308,
+      "modelId": 196,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 I (741A/C)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1987-03-01",
+      "constructionIntervalEnd": "1987-10-01"
+    },
+    {
+      "vehicleId": 2309,
+      "modelId": 200,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 I Convertible (741B, 20D)",
+      "typeEngineName": "1.6 CTI",
+      "constructionIntervalStart": "1986-03-01",
+      "constructionIntervalEnd": "1990-10-01"
+    },
+    {
+      "vehicleId": 2310,
+      "modelId": 205,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 II (20A/C)",
+      "typeEngineName": "1.6 GTI",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 2312,
+      "modelId": 196,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 I (741A/C)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1986-08-01",
+      "constructionIntervalEnd": "1987-10-01"
+    },
+    {
+      "vehicleId": 2313,
+      "modelId": 196,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 I (741A/C)",
+      "typeEngineName": "1.6 GTI",
+      "constructionIntervalStart": "1984-12-01",
+      "constructionIntervalEnd": "1987-10-01"
+    },
+    {
+      "vehicleId": 2316,
+      "modelId": 205,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 II (20A/C)",
+      "typeEngineName": "1.7 Diesel",
+      "constructionIntervalStart": "1987-07-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 2317,
+      "modelId": 196,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 I (741A/C)",
+      "typeEngineName": "1.7 Diesel",
+      "constructionIntervalStart": "1983-08-01",
+      "constructionIntervalEnd": "1987-10-01"
+    },
+    {
+      "vehicleId": 2327,
+      "modelId": 200,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 I Convertible (741B, 20D)",
+      "typeEngineName": "1.6 CJ",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 2359,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 2361,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 2362,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1988-09-01"
+    },
+    {
+      "vehicleId": 2363,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1986-03-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 2364,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 2365,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1988-07-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 2366,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.9 GTI",
+      "constructionIntervalStart": "1988-07-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 2367,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.9 GTI",
+      "constructionIntervalStart": "1986-10-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 2368,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1986-06-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 2369,
+      "modelId": 3452,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 II (3C, 3A)",
+      "typeEngineName": "1.9 Diesel",
+      "constructionIntervalStart": "1989-07-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 2374,
+      "modelId": 3452,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 II (3C, 3A)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1989-07-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 2375,
+      "modelId": 3452,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 II (3C, 3A)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 2377,
+      "modelId": 3452,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 II (3C, 3A)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1990-10-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 2378,
+      "modelId": 3452,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 II (3C, 3A)",
+      "typeEngineName": "1.9 GTI",
+      "constructionIntervalStart": "1989-07-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 2379,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1987-07-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 2380,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1989-10-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 2381,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1987-07-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 2384,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.8 Turbo Diesel",
+      "constructionIntervalStart": "1988-03-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 2385,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.9 Diesel",
+      "constructionIntervalStart": "1988-07-01",
+      "constructionIntervalEnd": "1992-09-01"
+    },
+    {
+      "vehicleId": 2386,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.9 Diesel",
+      "constructionIntervalStart": "1988-03-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 2388,
+      "modelId": 400,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II (4B)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 2390,
+      "modelId": 400,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II (4B)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 2392,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1987-07-01",
+      "constructionIntervalEnd": "1988-06-01"
+    },
+    {
+      "vehicleId": 2393,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1987-07-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 2394,
+      "modelId": 400,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II (4B)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 2395,
+      "modelId": 400,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II (4B)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 2396,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.9 Injection",
+      "constructionIntervalStart": "1987-07-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 2397,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1987-06-01",
+      "constructionIntervalEnd": "1992-07-01"
+    },
+    {
+      "vehicleId": 2399,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1987-06-01",
+      "constructionIntervalEnd": "1992-07-01"
+    },
+    {
+      "vehicleId": 2407,
+      "modelId": 400,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II (4B)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 2408,
+      "modelId": 400,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II (4B)",
+      "typeEngineName": "2.0 X4",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 2411,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2412,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2413,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2414,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2416,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.8 TD",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2417,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2418,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2420,
+      "modelId": 392,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II Break (4E)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-10-01"
+    },
+    {
+      "vehicleId": 2422,
+      "modelId": 392,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II Break (4E)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-10-01"
+    },
+    {
+      "vehicleId": 2424,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2425,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2426,
+      "modelId": 392,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II Break (4E)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-10-01"
+    },
+    {
+      "vehicleId": 2427,
+      "modelId": 392,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II Break (4E)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-10-01"
+    },
+    {
+      "vehicleId": 2428,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2429,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 2433,
+      "modelId": 392,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II Break (4E)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-10-01"
+    },
+    {
+      "vehicleId": 2434,
+      "modelId": 392,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II Break (4E)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-10-01"
+    },
+    {
+      "vehicleId": 2475,
+      "modelId": 264,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Hatchback (7A, 7C, N3, N5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 2476,
+      "modelId": 264,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Hatchback (7A, 7C, N3, N5)",
+      "typeEngineName": "1.9 DT",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 2484,
+      "modelId": 264,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Hatchback (7A, 7C, N3, N5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 3731,
+      "modelId": 269,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Convertible (7D, N3, N5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 3732,
+      "modelId": 269,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Convertible (7D, N3, N5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 3741,
+      "modelId": 264,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Hatchback (7A, 7C, N3, N5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 3744,
+      "modelId": 273,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 (7B, N3, N5)",
+      "typeEngineName": "1.8 ST",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 3746,
+      "modelId": 273,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 (7B, N3, N5)",
+      "typeEngineName": "1.9 SRDT",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 3747,
+      "modelId": 273,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 (7B, N3, N5)",
+      "typeEngineName": "1.9 SLD",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 3748,
+      "modelId": 273,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 (7B, N3, N5)",
+      "typeEngineName": "2.0 ST",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 3751,
+      "modelId": 273,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 (7B, N3, N5)",
+      "typeEngineName": "1.9 SLD",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 3752,
+      "modelId": 400,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II (4B)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 3754,
+      "modelId": 392,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II Break (4E)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1996-10-01"
+    },
+    {
+      "vehicleId": 4030,
+      "modelId": 3469,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX Break (N2)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4031,
+      "modelId": 3469,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX Break (N2)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4033,
+      "modelId": 3469,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX Break (N2)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4034,
+      "modelId": 3469,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX Break (N2)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4045,
+      "modelId": 76,
+      "manufacturerName": "CITROËN",
+      "modelName": "XANTIA (X1_, X2_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1998-01-01"
+    },
+    {
+      "vehicleId": 4046,
+      "modelId": 76,
+      "manufacturerName": "CITROËN",
+      "modelName": "XANTIA (X1_, X2_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1998-01-01"
+    },
+    {
+      "vehicleId": 4048,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1997-06-01"
+    },
+    {
+      "vehicleId": 4049,
+      "modelId": 3469,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX Break (N2)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4746,
+      "modelId": 389,
+      "manufacturerName": "CITROËN",
+      "modelName": "EVASION MPV (22, U6)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1994-11-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 4747,
+      "modelId": 49,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "806 (221)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 4759,
+      "modelId": 476,
+      "manufacturerName": "FIAT",
+      "modelName": "ULYSSE (220_)",
+      "typeEngineName": "1.9 TD (220AH5)",
+      "constructionIntervalStart": "1995-02-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 5146,
+      "modelId": 1457,
+      "manufacturerName": "CITROËN",
+      "modelName": "XANTIA Break (X1_, X2_)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "1998-01-01"
+    },
+    {
+      "vehicleId": 5229,
+      "modelId": 1477,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "406 (8B)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 5327,
+      "modelId": 1477,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "406 (8B)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-01-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 5553,
+      "modelId": 1542,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY I (U6U_)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2003-11-01"
+    },
+    {
+      "vehicleId": 5554,
+      "modelId": 1542,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY I (U6U_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "1998-08-01"
+    },
+    {
+      "vehicleId": 5556,
+      "modelId": 76,
+      "manufacturerName": "CITROËN",
+      "modelName": "XANTIA (X1_, X2_)",
+      "typeEngineName": "1.9 SD",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2003-04-01"
+    },
+    {
+      "vehicleId": 5580,
+      "modelId": 1550,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT (224_)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-05-01"
+    },
+    {
+      "vehicleId": 5581,
+      "modelId": 1550,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT (224_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 5597,
+      "modelId": 1553,
+      "manufacturerName": "CITROËN",
+      "modelName": "BERLINGO / BERLINGO FIRST Box Body/MPV (M_)",
+      "typeEngineName": "1.9 D (MBDJY)",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 5617,
+      "modelId": 1542,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY I (U6U_)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 5631,
+      "modelId": 1477,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "406 (8B)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-01-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 5720,
+      "modelId": 1567,
+      "manufacturerName": "CITROËN",
+      "modelName": "BERLINGO / BERLINGO FIRST MPV (MF_, GJK_, GFK_)",
+      "typeEngineName": "1.9 D (MFDJY)",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 6444,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "1.8 D",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1993-09-01"
+    },
+    {
+      "vehicleId": 6450,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "19",
+      "constructionIntervalStart": "1987-12-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 6671,
+      "modelId": 205,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 II (20A/C)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 6672,
+      "modelId": 205,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 II (20A/C)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 6788,
+      "modelId": 49,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "806 (221)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 7865,
+      "modelId": 1901,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "406 Break (8E/F)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 7869,
+      "modelId": 1901,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "406 Break (8E/F)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 7978,
+      "modelId": 1911,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "PARTNER Box Body/MPV (5_, G_)",
+      "typeEngineName": "1.8 D",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 7979,
+      "modelId": 1911,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "PARTNER Box Body/MPV (5_, G_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 8218,
+      "modelId": 1961,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "PARTNER MPV (5_, G_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 8219,
+      "modelId": 1550,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT (224_)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8222,
+      "modelId": 1962,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (222)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 8223,
+      "modelId": 1963,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Platform/Chassis (223)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 8224,
+      "modelId": 1962,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (222)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8225,
+      "modelId": 1963,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Platform/Chassis (223)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8226,
+      "modelId": 1962,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Van (222)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-05-01"
+    },
+    {
+      "vehicleId": 8227,
+      "modelId": 1963,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "EXPERT Platform/Chassis (223)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-05-01"
+    },
+    {
+      "vehicleId": 8239,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 8240,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1987-01-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 8241,
+      "modelId": 205,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 II (20A/C)",
+      "typeEngineName": "1.8 TD",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 8356,
+      "modelId": 1457,
+      "manufacturerName": "CITROËN",
+      "modelName": "XANTIA Break (X1_, X2_)",
+      "typeEngineName": "1.9 SD",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2003-04-01"
+    },
+    {
+      "vehicleId": 8357,
+      "modelId": 76,
+      "manufacturerName": "CITROËN",
+      "modelName": "XANTIA (X1_, X2_)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2003-04-01"
+    },
+    {
+      "vehicleId": 8358,
+      "modelId": 1457,
+      "manufacturerName": "CITROËN",
+      "modelName": "XANTIA Break (X1_, X2_)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2003-04-01"
+    },
+    {
+      "vehicleId": 8397,
+      "modelId": 3921,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Break (7E, N3, N5)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 8398,
+      "modelId": 3921,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Break (7E, N3, N5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 8404,
+      "modelId": 3921,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Break (7E, N3, N5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 8411,
+      "modelId": 3921,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Break (7E, N3, N5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 8591,
+      "modelId": 3452,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 II (3C, 3A)",
+      "typeEngineName": "1.8 TD",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 8593,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1987-07-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 8594,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-08-01"
+    },
+    {
+      "vehicleId": 8622,
+      "modelId": 3452,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 II (3C, 3A)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1989-07-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 8623,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1986-01-01",
+      "constructionIntervalEnd": "1989-07-01"
+    },
+    {
+      "vehicleId": 8705,
+      "modelId": 49,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "806 (221)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 8753,
+      "modelId": 2042,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA (N1)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8754,
+      "modelId": 2042,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA (N1)",
+      "typeEngineName": "1.8 i Aut.",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8807,
+      "modelId": 2042,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA (N1)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8915,
+      "modelId": 3392,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Break (N2)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8916,
+      "modelId": 3392,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Break (N2)",
+      "typeEngineName": "1.8 i Aut.",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8920,
+      "modelId": 3392,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Break (N2)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8921,
+      "modelId": 3392,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Break (N2)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 8957,
+      "modelId": 2042,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA (N1)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 9096,
+      "modelId": 3433,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Coupe (N0)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 9108,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "19 Cat",
+      "constructionIntervalStart": "1986-07-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 9111,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1988-09-01",
+      "constructionIntervalEnd": "1993-02-01"
+    },
+    {
+      "vehicleId": 9480,
+      "modelId": 2042,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA (N1)",
+      "typeEngineName": "1.9 SD",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 9481,
+      "modelId": 3392,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Break (N2)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 9512,
+      "modelId": 264,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Hatchback (7A, 7C, N3, N5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 9513,
+      "modelId": 273,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 (7B, N3, N5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 9514,
+      "modelId": 3921,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Break (7E, N3, N5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 11088,
+      "modelId": 1543,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Bus (220_)",
+      "typeEngineName": "1.9 TD Eco",
+      "constructionIntervalStart": "1996-02-01",
       "constructionIntervalEnd": "2006-12-01"
     },
     {
-      "vehicleId": 18207,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0",
-      "constructionIntervalStart": "2004-08-01",
-      "constructionIntervalEnd": "2010-12-01"
+      "vehicleId": 11852,
+      "modelId": 4016,
+      "manufacturerName": "FIAT",
+      "modelName": "SCUDO Van (220_)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2006-12-01"
     },
     {
-      "vehicleId": 18208,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 All-wheel Drive",
-      "constructionIntervalStart": "2004-08-01",
-      "constructionIntervalEnd": "2010-03-01"
+      "vehicleId": 12483,
+      "modelId": 264,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Hatchback (7A, 7C, N3, N5)",
+      "typeEngineName": "1.8 D",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "2001-05-01"
     },
     {
-      "vehicleId": 18209,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.7 All-wheel Drive",
-      "constructionIntervalStart": "2004-08-01",
-      "constructionIntervalEnd": "2010-11-01"
+      "vehicleId": 12620,
+      "modelId": 3452,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 II (3C, 3A)",
+      "typeEngineName": "1.8 Diesel",
+      "constructionIntervalStart": "1989-07-01",
+      "constructionIntervalEnd": "1993-12-01"
     },
     {
-      "vehicleId": 18210,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 CRDi",
-      "constructionIntervalStart": "2004-06-01",
-      "constructionIntervalEnd": "2010-03-01"
-    },
-    {
-      "vehicleId": 18211,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 CRDi All-wheel Drive",
-      "constructionIntervalStart": "2004-08-01",
-      "constructionIntervalEnd": "2010-03-01"
-    },
-    {
-      "vehicleId": 18556,
-      "modelId": 7593,
-      "manufacturerName": "KIA",
-      "modelName": "SOUL I (AM)",
-      "typeEngineName": "1.6 GDI",
-      "constructionIntervalStart": "2011-06-01",
-      "constructionIntervalEnd": "2014-12-01"
-    },
-    {
-      "vehicleId": 18696,
-      "modelId": 5426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA V (NF)",
-      "typeEngineName": "2.4",
-      "constructionIntervalStart": "2005-01-01",
-      "constructionIntervalEnd": "2010-12-01"
-    },
-    {
-      "vehicleId": 18697,
-      "modelId": 5426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA V (NF)",
-      "typeEngineName": "3.3",
-      "constructionIntervalStart": "2005-01-01",
-      "constructionIntervalEnd": "2010-12-01"
-    },
-    {
-      "vehicleId": 19623,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 CRDi",
-      "constructionIntervalStart": "2006-01-01",
-      "constructionIntervalEnd": "2010-03-01"
-    },
-    {
-      "vehicleId": 19624,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 CRDi All-wheel Drive",
-      "constructionIntervalStart": "2006-01-01",
-      "constructionIntervalEnd": "2010-03-01"
-    },
-    {
-      "vehicleId": 19935,
-      "modelId": 5426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA V (NF)",
-      "typeEngineName": "2.0 CRDi",
-      "constructionIntervalStart": "2006-02-01",
-      "constructionIntervalEnd": "2010-12-01"
-    },
-    {
-      "vehicleId": 20915,
-      "modelId": 5426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA V (NF)",
-      "typeEngineName": "2.0 VVTi GLS",
-      "constructionIntervalStart": "2005-05-01",
-      "constructionIntervalEnd": "2010-12-01"
-    },
-    {
-      "vehicleId": 23052,
-      "modelId": 4986,
-      "manufacturerName": "KIA",
-      "modelName": "OPIRUS (GH)",
-      "typeEngineName": "3.8 V6",
-      "constructionIntervalStart": "2006-10-01",
-      "constructionIntervalEnd": "2012-10-01"
-    },
-    {
-      "vehicleId": 23308,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 CRDi",
-      "constructionIntervalStart": "2006-01-01",
-      "constructionIntervalEnd": "2010-03-01"
-    },
-    {
-      "vehicleId": 23309,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 CRDi All-wheel Drive",
-      "constructionIntervalStart": "2006-01-01",
-      "constructionIntervalEnd": "2010-03-01"
-    },
-    {
-      "vehicleId": 23314,
-      "modelId": 5426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA V (NF)",
-      "typeEngineName": "2.0 CRDi",
-      "constructionIntervalStart": "2006-02-01",
-      "constructionIntervalEnd": "2010-12-01"
-    },
-    {
-      "vehicleId": 25402,
-      "modelId": 9129,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (CK)",
-      "typeEngineName": "2.0 e-XDi",
-      "constructionIntervalStart": "2012-02-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 25403,
-      "modelId": 9129,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (CK)",
-      "typeEngineName": "2.0 e-XDi 4WD",
-      "constructionIntervalStart": "2012-02-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 25918,
-      "modelId": 10165,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "ELANTRA V Saloon (MD, UD)",
-      "typeEngineName": "1.6 CRDi",
-      "constructionIntervalStart": "2011-02-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
-      "vehicleId": 28578,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 CRDi All-wheel Drive",
-      "constructionIntervalStart": "2007-01-01",
-      "constructionIntervalEnd": "2010-03-01"
-    },
-    {
-      "vehicleId": 29979,
-      "modelId": 5426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA V (NF)",
-      "typeEngineName": "3.3",
-      "constructionIntervalStart": "2008-01-01",
-      "constructionIntervalEnd": "2010-12-01"
-    },
-    {
-      "vehicleId": 29980,
-      "modelId": 5426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA V (NF)",
-      "typeEngineName": "2.0 VVTi GLS",
-      "constructionIntervalStart": "2008-01-01",
-      "constructionIntervalEnd": "2010-12-01"
-    },
-    {
-      "vehicleId": 30356,
-      "modelId": 5426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA V (NF)",
-      "typeEngineName": "3.3",
-      "constructionIntervalStart": "2005-06-01",
-      "constructionIntervalEnd": "2010-12-01"
-    },
-    {
-      "vehicleId": 31015,
-      "modelId": 7593,
-      "manufacturerName": "KIA",
-      "modelName": "SOUL I (AM)",
-      "typeEngineName": "1.6 CVVT",
-      "constructionIntervalStart": "2009-02-01",
-      "constructionIntervalEnd": "2011-12-01"
-    },
-    {
-      "vehicleId": 31017,
-      "modelId": 7593,
-      "manufacturerName": "KIA",
-      "modelName": "SOUL I (AM)",
-      "typeEngineName": "1.6 CRDi 128",
-      "constructionIntervalStart": "2009-02-01",
-      "constructionIntervalEnd": "2014-12-01"
-    },
-    {
-      "vehicleId": 31178,
-      "modelId": 10163,
-      "manufacturerName": "KIA",
-      "modelName": "OPTIMA (FSGDS6B)",
-      "typeEngineName": "2.0",
-      "constructionIntervalStart": "2012-03-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
-      "vehicleId": 31183,
-      "modelId": 10163,
-      "manufacturerName": "KIA",
-      "modelName": "OPTIMA (FSGDS6B)",
-      "typeEngineName": "2.4",
-      "constructionIntervalStart": "2010-09-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
-      "vehicleId": 31217,
-      "modelId": 5426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA V (NF)",
-      "typeEngineName": "2.0 CRDi",
-      "constructionIntervalStart": "2009-03-01",
-      "constructionIntervalEnd": "2010-12-01"
-    },
-    {
-      "vehicleId": 31271,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 CRDi",
-      "constructionIntervalStart": "2009-01-01",
-      "constructionIntervalEnd": "2010-03-01"
-    },
-    {
-      "vehicleId": 31272,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 CRDi All-wheel Drive",
-      "constructionIntervalStart": "2009-01-01",
-      "constructionIntervalEnd": "2010-03-01"
-    },
-    {
-      "vehicleId": 32002,
-      "modelId": 10163,
-      "manufacturerName": "KIA",
-      "modelName": "OPTIMA (FSGDS6B)",
-      "typeEngineName": "2.4 Hybrid",
-      "constructionIntervalStart": "2011-09-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
-      "vehicleId": 33268,
-      "modelId": 10163,
-      "manufacturerName": "KIA",
-      "modelName": "OPTIMA (FSGDS6B)",
-      "typeEngineName": "2.0",
-      "constructionIntervalStart": "2010-09-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
-      "vehicleId": 33510,
-      "modelId": 10163,
-      "manufacturerName": "KIA",
-      "modelName": "OPTIMA (FSGDS6B)",
-      "typeEngineName": "1.7 CRDi",
-      "constructionIntervalStart": "2012-03-01",
-      "constructionIntervalEnd": "2015-12-01"
-    },
-    {
-      "vehicleId": 50411,
-      "modelId": 7593,
-      "manufacturerName": "KIA",
-      "modelName": "SOUL I (AM)",
+      "vehicleId": 12621,
+      "modelId": 3452,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 II (3C, 3A)",
       "typeEngineName": "1.6",
-      "constructionIntervalStart": "2009-09-01",
-      "constructionIntervalEnd": "2014-12-01"
+      "constructionIntervalStart": "1989-07-01",
+      "constructionIntervalEnd": "1993-12-01"
     },
     {
-      "vehicleId": 53380,
-      "modelId": 10163,
-      "manufacturerName": "KIA",
-      "modelName": "OPTIMA (FSGDS6B)",
-      "typeEngineName": "2.0 CVVT Hybrid",
-      "constructionIntervalStart": "2012-12-01",
-      "constructionIntervalEnd": "2015-12-01"
+      "vehicleId": 14132,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1985-06-01",
+      "constructionIntervalEnd": "1988-06-01"
     },
     {
-      "vehicleId": 57224,
-      "modelId": 9626,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "GRANDEUR (HG)",
-      "typeEngineName": "2.4",
-      "constructionIntervalStart": "2011-07-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 14133,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.8 D",
+      "constructionIntervalStart": "1993-06-01",
+      "constructionIntervalEnd": "1997-06-01"
     },
     {
-      "vehicleId": 57465,
-      "modelId": 9129,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (CK)",
-      "typeEngineName": "2.0",
-      "constructionIntervalStart": "2012-02-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 14783,
+      "modelId": 4634,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 Hatchback Van",
+      "typeEngineName": "1.7 Diesel",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "1997-05-01"
     },
     {
-      "vehicleId": 57467,
-      "modelId": 9129,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (CK)",
-      "typeEngineName": "2.0 4WD",
-      "constructionIntervalStart": "2012-02-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 15056,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "15",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1992-05-01"
     },
     {
-      "vehicleId": 57470,
-      "modelId": 10163,
-      "manufacturerName": "KIA",
-      "modelName": "OPTIMA (FSGDS6B)",
-      "typeEngineName": "2.0 CVVL",
-      "constructionIntervalStart": "2012-03-01",
-      "constructionIntervalEnd": "2015-12-01"
+      "vehicleId": 15057,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "15",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1992-05-01"
     },
     {
-      "vehicleId": 58102,
-      "modelId": 9626,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "GRANDEUR (HG)",
-      "typeEngineName": "3.0",
-      "constructionIntervalStart": "2011-02-01",
-      "constructionIntervalEnd": "2016-10-01"
+      "vehicleId": 15058,
+      "modelId": 410,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX (XB-_)",
+      "typeEngineName": "19",
+      "constructionIntervalStart": "1986-07-01",
+      "constructionIntervalEnd": "1989-05-01"
     },
     {
-      "vehicleId": 58679,
-      "modelId": 10165,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "ELANTRA V Saloon (MD, UD)",
+      "vehicleId": 15060,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "18 D",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1993-09-01"
+    },
+    {
+      "vehicleId": 15093,
+      "modelId": 4684,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY I Platform/Chassis (BU_, BV_, BW_, BX_)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 15100,
+      "modelId": 4683,
+      "manufacturerName": "CITROËN",
+      "modelName": "JUMPY I Van (BS_, BT_, BY_, BZ_)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 15124,
+      "modelId": 3433,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Coupe (N0)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 15126,
+      "modelId": 3433,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Coupe (N0)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 16000,
+      "modelId": 1477,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "406 (8B)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 16560,
+      "modelId": 3433,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA Coupe (N0)",
+      "typeEngineName": "1.8 i",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 17428,
+      "modelId": 389,
+      "manufacturerName": "CITROËN",
+      "modelName": "EVASION MPV (22, U6)",
+      "typeEngineName": "1.9 TD",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 21448,
+      "modelId": 1961,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "PARTNER MPV (5_, G_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 23127,
+      "modelId": 277,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "309 I (10C, 10A)",
       "typeEngineName": "1.6",
-      "constructionIntervalStart": "2011-06-01",
-      "constructionIntervalEnd": "2015-12-01"
+      "constructionIntervalStart": "1986-07-01",
+      "constructionIntervalEnd": "1989-06-01"
     },
     {
-      "vehicleId": 109975,
-      "modelId": 9575,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "VELOSTER (FS)",
-      "typeEngineName": "1.6 MPI",
-      "constructionIntervalStart": "2011-04-01",
-      "constructionIntervalEnd": "2017-12-01"
+      "vehicleId": 27699,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1987-01-01",
+      "constructionIntervalEnd": "1992-01-01"
     },
     {
-      "vehicleId": 110520,
-      "modelId": 7471,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "ELANTRA IV Saloon (HD)",
-      "typeEngineName": "1.6 CRDi",
-      "constructionIntervalStart": "2005-11-01",
-      "constructionIntervalEnd": "2011-12-01"
+      "vehicleId": 28629,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1991-03-01",
+      "constructionIntervalEnd": "1997-10-01"
     },
     {
-      "vehicleId": 111080,
-      "modelId": 10446,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I (VF)",
-      "typeEngineName": "2.0 GDi",
-      "constructionIntervalStart": "2014-12-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 28631,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.9 DT",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1997-10-01"
     },
     {
-      "vehicleId": 111981,
-      "modelId": 9626,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "GRANDEUR (HG)",
-      "typeEngineName": "2.4 16V",
-      "constructionIntervalStart": "2011-01-01",
-      "constructionIntervalEnd": "2016-10-01"
+      "vehicleId": 28643,
+      "modelId": 205,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 II (20A/C)",
+      "typeEngineName": "1.8 XDT",
+      "constructionIntervalStart": "1990-08-01",
+      "constructionIntervalEnd": "1997-05-01"
     },
     {
-      "vehicleId": 113136,
-      "modelId": 9650,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I CW (VF)",
-      "typeEngineName": "1.7 CRDi",
-      "constructionIntervalStart": "2015-01-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 28644,
+      "modelId": 205,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 II (20A/C)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1990-08-01",
+      "constructionIntervalEnd": "1992-07-01"
     },
     {
-      "vehicleId": 115091,
-      "modelId": 14015,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "TIVOLI",
-      "typeEngineName": "1.6 All-wheel Drive",
-      "constructionIntervalStart": "2015-03-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 28655,
+      "modelId": 273,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 (7B, N3, N5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "2001-05-01"
     },
     {
-      "vehicleId": 115177,
-      "modelId": 14015,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "TIVOLI",
-      "typeEngineName": "1.6 XDi 160 All-wheel Drive",
-      "constructionIntervalStart": "2015-04-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 28678,
+      "modelId": 387,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I Break (15E)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1988-05-01",
+      "constructionIntervalEnd": "1992-07-01"
     },
     {
-      "vehicleId": 115229,
-      "modelId": 10446,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I (VF)",
-      "typeEngineName": "1.7 CRDI",
-      "constructionIntervalStart": "2015-01-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 28683,
+      "modelId": 392,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II Break (4E)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1995-12-01"
     },
     {
-      "vehicleId": 115231,
-      "modelId": 9650,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I CW (VF)",
-      "typeEngineName": "2.0 GDi",
-      "constructionIntervalStart": "2014-12-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 28938,
+      "modelId": 7625,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "205 Hatchback Van",
+      "typeEngineName": "1.8 D",
+      "constructionIntervalStart": "1983-02-01",
+      "constructionIntervalEnd": "1990-07-01"
     },
     {
-      "vehicleId": 115425,
-      "modelId": 4847,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "SONATA VI (YF)",
-      "typeEngineName": "2.0",
-      "constructionIntervalStart": "2010-09-01",
-      "constructionIntervalEnd": "2015-12-01"
+      "vehicleId": 30955,
+      "modelId": 396,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 I (15B)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1989-01-01",
+      "constructionIntervalEnd": "1992-12-01"
     },
     {
-      "vehicleId": 117775,
-      "modelId": 9129,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (CK)",
-      "typeEngineName": "2.2 Xdi",
-      "constructionIntervalStart": "2015-07-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 31154,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1991-03-01",
+      "constructionIntervalEnd": "1997-06-01"
     },
     {
-      "vehicleId": 117776,
-      "modelId": 9129,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (CK)",
-      "typeEngineName": "2.2 Xdi 4WD",
-      "constructionIntervalStart": "2015-07-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 32843,
+      "modelId": 413,
+      "manufacturerName": "CITROËN",
+      "modelName": "BX Break (XB-_)",
+      "typeEngineName": "16",
+      "constructionIntervalStart": "1983-04-01",
+      "constructionIntervalEnd": "1992-01-01"
     },
     {
-      "vehicleId": 120575,
-      "modelId": 36739,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "XLV SUV",
-      "typeEngineName": "e-XGi 160 All-wheel Drive",
-      "constructionIntervalStart": "2016-04-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 12406,
+      "modelId": 264,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Hatchback (7A, 7C, N3, N5)",
+      "typeEngineName": "2.0 HDI 90",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2002-12-01"
     },
     {
-      "vehicleId": 120577,
-      "modelId": 36739,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "XLV SUV",
-      "typeEngineName": "e-XDi 160 All-wheel Drive",
-      "constructionIntervalStart": "2016-04-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 13083,
+      "modelId": 273,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 (7B, N3, N5)",
+      "typeEngineName": "2.0 HDI 90",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2001-12-01"
     },
     {
-      "vehicleId": 122069,
-      "modelId": 14015,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "TIVOLI",
-      "typeEngineName": "1.6 GPL All-wheel Drive",
-      "constructionIntervalStart": "2015-03-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 13084,
+      "modelId": 3921,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Break (7E, N3, N5)",
+      "typeEngineName": "2.0 HDI 90",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2002-04-01"
     },
     {
-      "vehicleId": 127925,
-      "modelId": 10446,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I (VF)",
-      "typeEngineName": "1.7 CRDI",
-      "constructionIntervalStart": "2012-10-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 11422,
+      "modelId": 264,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Hatchback (7A, 7C, N3, N5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2001-05-01"
     },
     {
-      "vehicleId": 127926,
-      "modelId": 9650,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i40 I CW (VF)",
-      "typeEngineName": "1.7 CRDI",
-      "constructionIntervalStart": "2012-03-01",
-      "constructionIntervalEnd": "2019-05-01"
+      "vehicleId": 11423,
+      "modelId": 3921,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 Break (7E, N3, N5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2002-04-01"
     },
     {
-      "vehicleId": 136965,
-      "modelId": 39697,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (C300)",
-      "typeEngineName": "1.5 e-XGDi 4WD",
-      "constructionIntervalStart": "2019-02-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 136967,
-      "modelId": 39697,
-      "manufacturerName": "SSANGYONG",
-      "modelName": "KORANDO (C300)",
-      "typeEngineName": "1.6 e-XDi 4WD",
-      "constructionIntervalStart": "2019-02-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 138725,
-      "modelId": 5157,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "TUCSON (JM)",
-      "typeEngineName": "2.0 LPG",
-      "constructionIntervalStart": "2004-06-01",
-      "constructionIntervalEnd": "2010-03-01"
+      "vehicleId": 11424,
+      "modelId": 273,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "306 (7B, N3, N5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2001-05-01"
     }
   ],
-  "specs": [
-    {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "15"
-    },
-    {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "99,8"
-    },
-    {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "41,2"
-    },
-    {
-      "criteriaName": "fulfils ECE norm",
-      "criteriaValue": "E9-90R-01,818/2689"
-    },
-    {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Rear Axle"
-    }
-  ],
+  "specs": [],
   "oe": [
     {
-      "oemBrand": "TOYOTA",
-      "oemDisplayNo": "0446602280"
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "0301.F3"
     },
     {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "581014CA00"
-    },
-    {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "583021RA30"
-    },
-    {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "583022KA10"
-    },
-    {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "583022VA50"
-    },
-    {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "583023XA00"
-    },
-    {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "583023XA30"
-    },
-    {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "583023ZA60"
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "0301.F3"
     }
   ],
-  "ean": null,
-  "originalSKU": "SP1401",
-  "fetchedAt": "2026-03-18T13:04:04Z"
+  "ean": "5038206352949",
+  "fetchedAt": "2026-08-05T17:42:28.668Z"
 }

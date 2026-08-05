@@ -1,149 +1,250 @@
 {
   "articleNo": "SP4212",
-  "articleId": 9165830,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
+  "articleId": 9165828,
+  "supplier": "MONROE",
+  "product": "Suspension Spring",
   "vehicles": [
     {
-      "vehicleId": 12928,
-      "modelId": 11477,
-      "manufacturerName": "SUZUKI",
-      "modelName": "SX4 S-CROSS (JY)",
-      "typeEngineName": "1.6 AllGrip (AKK 416)",
-      "constructionIntervalStart": "2013-08-01",
-      "constructionIntervalEnd": "2022-06-01"
+      "vehicleId": 105893,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "218 i",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2021-10-01"
     },
     {
-      "vehicleId": 20735,
-      "modelId": 11477,
-      "manufacturerName": "SUZUKI",
-      "modelName": "SX4 S-CROSS (JY)",
-      "typeEngineName": "1.6 DDiS (AKK 416D)",
-      "constructionIntervalStart": "2013-08-01",
-      "constructionIntervalEnd": "2022-06-01"
+      "vehicleId": 105897,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "225 i",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2019-12-01"
     },
     {
-      "vehicleId": 30795,
-      "modelId": 11477,
-      "manufacturerName": "SUZUKI",
-      "modelName": "SX4 S-CROSS (JY)",
-      "typeEngineName": "1.6 DDiS AllGrip (AKK 416D)",
-      "constructionIntervalStart": "2013-08-01",
-      "constructionIntervalEnd": "2022-06-01"
+      "vehicleId": 107547,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "218 d",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2021-10-01"
     },
     {
-      "vehicleId": 33192,
-      "modelId": 11477,
-      "manufacturerName": "SUZUKI",
-      "modelName": "SX4 S-CROSS (JY)",
-      "typeEngineName": "1.6 (AKK 416)",
-      "constructionIntervalStart": "2013-08-01",
-      "constructionIntervalEnd": "2022-06-01"
+      "vehicleId": 107975,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "216 d",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-10-01"
     },
     {
-      "vehicleId": 110038,
-      "modelId": 13638,
-      "manufacturerName": "SUZUKI",
-      "modelName": "VITARA (LY)",
-      "typeEngineName": "1.6 (APK 416)",
-      "constructionIntervalStart": "2015-02-01",
+      "vehicleId": 107976,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "220 d",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 108182,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "220 i",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 108188,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "225 i xDrive",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 116624,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "218 d",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 116625,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "220 d",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 116627,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "220 i",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 129815,
+      "modelId": 12791,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer (F45)",
+      "typeEngineName": "218 i",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 136564,
+      "modelId": 39641,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer Van (F45)",
+      "typeEngineName": "218 i",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 136566,
+      "modelId": 39641,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer Van (F45)",
+      "typeEngineName": "218 d",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 136567,
+      "modelId": 39641,
+      "manufacturerName": "BMW",
+      "modelName": "2 Active Tourer Van (F45)",
+      "typeEngineName": "220 d",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 123350,
+      "modelId": 37158,
+      "manufacturerName": "MINI",
+      "modelName": "MINI COUNTRYMAN (F60)",
+      "typeEngineName": "Cooper",
+      "constructionIntervalStart": "2016-10-01",
       "constructionIntervalEnd": null
     },
     {
-      "vehicleId": 110039,
-      "modelId": 13638,
-      "manufacturerName": "SUZUKI",
-      "modelName": "VITARA (LY)",
-      "typeEngineName": "1.6 AllGrip (APK 416)",
-      "constructionIntervalStart": "2015-02-01",
+      "vehicleId": 123357,
+      "modelId": 37158,
+      "manufacturerName": "MINI",
+      "modelName": "MINI COUNTRYMAN (F60)",
+      "typeEngineName": "Cooper S",
+      "constructionIntervalStart": "2016-10-01",
       "constructionIntervalEnd": null
     },
     {
-      "vehicleId": 110040,
-      "modelId": 13638,
-      "manufacturerName": "SUZUKI",
-      "modelName": "VITARA (LY)",
-      "typeEngineName": "1.6 DDiS (APK 416D)",
-      "constructionIntervalStart": "2015-02-01",
+      "vehicleId": 123362,
+      "modelId": 37158,
+      "manufacturerName": "MINI",
+      "modelName": "MINI COUNTRYMAN (F60)",
+      "typeEngineName": "Cooper D",
+      "constructionIntervalStart": "2016-10-01",
       "constructionIntervalEnd": null
     },
     {
-      "vehicleId": 110041,
-      "modelId": 13638,
-      "manufacturerName": "SUZUKI",
-      "modelName": "VITARA (LY)",
-      "typeEngineName": "1.6 DDiS AllGrip (APK416D)",
-      "constructionIntervalStart": "2015-02-01",
+      "vehicleId": 123815,
+      "modelId": 37158,
+      "manufacturerName": "MINI",
+      "modelName": "MINI COUNTRYMAN (F60)",
+      "typeEngineName": "Cooper S",
+      "constructionIntervalStart": "2016-10-01",
       "constructionIntervalEnd": null
     },
     {
-      "vehicleId": 116537,
-      "modelId": 13638,
-      "manufacturerName": "SUZUKI",
-      "modelName": "VITARA (LY)",
-      "typeEngineName": "1.4 T (APK414)",
-      "constructionIntervalStart": "2015-09-01",
+      "vehicleId": 123816,
+      "modelId": 37158,
+      "manufacturerName": "MINI",
+      "modelName": "MINI COUNTRYMAN (F60)",
+      "typeEngineName": "Cooper D",
+      "constructionIntervalStart": "2016-10-01",
       "constructionIntervalEnd": null
     },
     {
-      "vehicleId": 116538,
-      "modelId": 13638,
-      "manufacturerName": "SUZUKI",
-      "modelName": "VITARA (LY)",
-      "typeEngineName": "1.4 T AllGrip (APK414)",
-      "constructionIntervalStart": "2015-09-01",
+      "vehicleId": 140889,
+      "modelId": 37158,
+      "manufacturerName": "MINI",
+      "modelName": "MINI COUNTRYMAN (F60)",
+      "typeEngineName": "Cooper S",
+      "constructionIntervalStart": "2020-07-01",
       "constructionIntervalEnd": null
     }
   ],
   "specs": [
     {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "16"
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "246"
     },
     {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "141,4"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "1,88"
     },
     {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "54,8"
+      "criteriaName": "Spring Design",
+      "criteriaValue": "Coil Spring"
     },
     {
-      "criteriaName": "fulfils ECE norm",
-      "criteriaValue": "E9-90R-02A0289/3977"
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "114"
     },
     {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Rear Axle"
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "57"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "57"
+    },
+    {
+      "criteriaName": "Guarantee",
+      "criteriaValue": "5 years guarantee"
+    },
+    {
+      "criteriaName": "Number of coils",
+      "criteriaValue": "5,8"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "41,2"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "16,8"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "16,8"
+    },
+    {
+      "criteriaName": "Wire Diameter [mm]",
+      "criteriaValue": "12,5"
     }
   ],
   "oe": [
     {
-      "oemBrand": "MITSUBISHI",
-      "oemDisplayNo": "4605B949"
+      "oemBrand": "BMW",
+      "oemDisplayNo": "33536866773"
     },
     {
-      "oemBrand": "SUZUKI",
-      "oemDisplayNo": "5581061M00"
-    },
-    {
-      "oemBrand": "SUZUKI",
-      "oemDisplayNo": "5581061M01"
-    },
-    {
-      "oemBrand": "SUZUKI",
-      "oemDisplayNo": "5581061M01000"
-    },
-    {
-      "oemBrand": "SUZUKI",
-      "oemDisplayNo": "5581061M50"
-    },
-    {
-      "oemBrand": "SUZUKI",
-      "oemDisplayNo": "5581061M50000"
+      "oemBrand": "BMW",
+      "oemDisplayNo": "33536866774"
     }
   ],
-  "ean": "0880953579651",
-  "originalSKU": "SP4212",
-  "fetchedAt": "2026-03-18T13:14:00Z"
+  "ean": "5412096760051",
+  "fetchedAt": "2026-08-05T18:03:18.453Z"
 }

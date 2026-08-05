@@ -7737,11 +7737,11 @@
     },
     {
       "criteriaName": "Wear Warning Contact",
-      "criteriaValue": "0"
+      "criteriaValue": "incl. wear warning contact"
     },
     {
       "criteriaName": "Supplementary Article/Supplementary Info",
-      "criteriaValue": "0"
+      "criteriaValue": "with accessories"
     },
     {
       "criteriaName": "Brake System",
@@ -7753,11 +7753,11 @@
     },
     {
       "criteriaName": "Supplementary Article/Info 2",
-      "criteriaValue": "450"
+      "criteriaValue": "with anti-squeak plate"
     },
     {
       "criteriaName": "Supplementary Article/Info 2",
-      "criteriaValue": "7"
+      "criteriaValue": "with brake caliper screws"
     },
     {
       "criteriaName": "WVA Number",
@@ -7770,10 +7770,6 @@
     {
       "criteriaName": "directional",
       "criteriaValue": ""
-    },
-    {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Front Axle"
     }
   ],
   "oe": [
@@ -8030,5 +8026,6 @@
       "oemDisplayNo": "L8V0698151G"
     }
   ],
-  "ean": "8020584103999"
+  "ean": "8020584103999",
+  "fetchedAt": "2026-08-05T17:32:21.096Z"
 }

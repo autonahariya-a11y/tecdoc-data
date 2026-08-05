@@ -555,11 +555,11 @@
     },
     {
       "criteriaName": "Wear Warning Contact",
-      "criteriaValue": "4"
+      "criteriaValue": "with acoustic wear warning"
     },
     {
       "criteriaName": "Supplementary Article/Supplementary Info",
-      "criteriaValue": "0"
+      "criteriaValue": "with accessories"
     },
     {
       "criteriaName": "Thickness 1 [mm]",
@@ -572,10 +572,6 @@
     {
       "criteriaName": "directional",
       "criteriaValue": ""
-    },
-    {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Rear Axle"
     }
   ],
   "oe": [
@@ -609,6 +605,5 @@
     }
   ],
   "ean": "3322937918539",
-  "originalSKU": "GDB3480",
-  "fetchedAt": "2026-03-13T22:23:17.431Z"
+  "fetchedAt": "2026-08-05T17:22:51.308Z"
 }

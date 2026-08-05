@@ -1,208 +1,117 @@
 {
   "articleNo": "SP1603",
-  "articleId": 9157593,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
+  "articleId": 9157592,
+  "supplier": "MONROE",
+  "product": "Suspension Spring",
   "vehicles": [
     {
-      "vehicleId": 9389,
-      "modelId": 6435,
-      "manufacturerName": "MAZDA",
-      "modelName": "CX-7 (ER)",
-      "typeEngineName": "2.2 MZR-CD AWD (ER10A)",
-      "constructionIntervalStart": "2012-01-01",
-      "constructionIntervalEnd": "2013-03-01"
+      "vehicleId": 9990,
+      "modelId": 3879,
+      "manufacturerName": "OPEL",
+      "modelName": "FRONTERA B (U99)",
+      "typeEngineName": "2.2 i (6B_ZC, 6B_VF, 6B_66, 6B_76)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-07-01"
     },
     {
-      "vehicleId": 23395,
-      "modelId": 6435,
-      "manufacturerName": "MAZDA",
-      "modelName": "CX-7 (ER)",
-      "typeEngineName": "2.3 MZR DISI Turbo AWD (ER3P)",
-      "constructionIntervalStart": "2007-10-01",
-      "constructionIntervalEnd": "2009-08-01"
+      "vehicleId": 9992,
+      "modelId": 3879,
+      "manufacturerName": "OPEL",
+      "modelName": "FRONTERA B (U99)",
+      "typeEngineName": "2.2 DTI (6B_ZC, 6B_VF, 6B_66, 6B_76)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2003-12-01"
     },
     {
-      "vehicleId": 32110,
-      "modelId": 6435,
-      "manufacturerName": "MAZDA",
-      "modelName": "CX-7 (ER)",
-      "typeEngineName": "2.3 MZR DISI Turbo AWD (ER3P)",
-      "constructionIntervalStart": "2009-06-01",
-      "constructionIntervalEnd": "2013-03-01"
+      "vehicleId": 10232,
+      "modelId": 3947,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "FRONTERA Mk II (B) (U99)",
+      "typeEngineName": "2.2 i",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-10-01"
     },
     {
-      "vehicleId": 32111,
-      "modelId": 6435,
-      "manufacturerName": "MAZDA",
-      "modelName": "CX-7 (ER)",
-      "typeEngineName": "2.2 MZR-CD AWD (ER10A)",
-      "constructionIntervalStart": "2009-07-01",
-      "constructionIntervalEnd": "2013-03-01"
+      "vehicleId": 10233,
+      "modelId": 3947,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "FRONTERA Mk II (B) (U99)",
+      "typeEngineName": "3.2 i",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-10-01"
     },
     {
-      "vehicleId": 33084,
-      "modelId": 8556,
-      "manufacturerName": "MAZDA",
-      "modelName": "CX-9 (TB)",
-      "typeEngineName": "3.5",
-      "constructionIntervalStart": "2006-09-01",
-      "constructionIntervalEnd": "2007-12-01"
+      "vehicleId": 17100,
+      "modelId": 3879,
+      "manufacturerName": "OPEL",
+      "modelName": "FRONTERA B (U99)",
+      "typeEngineName": "2.2 DTI (6B_66, 6B_76)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-07-01"
     },
     {
-      "vehicleId": 33085,
-      "modelId": 8556,
-      "manufacturerName": "MAZDA",
-      "modelName": "CX-9 (TB)",
-      "typeEngineName": "3.7 AWD (TB10A)",
-      "constructionIntervalStart": "2007-01-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 9991,
+      "modelId": 3879,
+      "manufacturerName": "OPEL",
+      "modelName": "FRONTERA B (U99)",
+      "typeEngineName": "3.2 i (6B1VF, 6B1_6)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-07-01"
     },
     {
-      "vehicleId": 33086,
-      "modelId": 8556,
-      "manufacturerName": "MAZDA",
-      "modelName": "CX-9 (TB)",
-      "typeEngineName": "3.7",
-      "constructionIntervalStart": "2007-01-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 33087,
-      "modelId": 8556,
-      "manufacturerName": "MAZDA",
-      "modelName": "CX-9 (TB)",
-      "typeEngineName": "3.5 AWD",
-      "constructionIntervalStart": "2007-01-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 111099,
-      "modelId": 13834,
-      "manufacturerName": "MITSUBISHI",
-      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
-      "typeEngineName": "2.4 DI-D 4WD (KL1T)",
-      "constructionIntervalStart": "2014-11-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 116161,
-      "modelId": 13834,
-      "manufacturerName": "MITSUBISHI",
-      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
-      "typeEngineName": "2.4 DI-D 4WD (KJ0T)",
-      "constructionIntervalStart": "2015-09-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 116340,
-      "modelId": 14579,
-      "manufacturerName": "MITSUBISHI",
-      "modelName": "PAJERO SPORT III (KS_)",
-      "typeEngineName": "2.4 DI-D 4x4 (KS1W)",
-      "constructionIntervalStart": "2015-08-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 119113,
-      "modelId": 13834,
-      "manufacturerName": "MITSUBISHI",
-      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
-      "typeEngineName": "2.4 DI-D (KJ0T)",
-      "constructionIntervalStart": "2015-09-01",
-      "constructionIntervalEnd": null
-    },
-    {
-      "vehicleId": 127129,
-      "modelId": 36349,
-      "manufacturerName": "MAZDA",
-      "modelName": "CX-9 (TC)",
-      "typeEngineName": "2.5 T AWD (TC4W)",
-      "constructionIntervalStart": "2016-06-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 10234,
+      "modelId": 3947,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "FRONTERA Mk II (B) (U99)",
+      "typeEngineName": "2.2 DTI",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-09-01"
     }
   ],
   "specs": [
     {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "17,3"
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "414"
     },
     {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "139"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "2,700"
     },
     {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "58,1"
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "131"
     },
     {
-      "criteriaName": "fulfils ECE norm",
-      "criteriaValue": "E1190R02A01185/24050"
+      "criteriaName": "Guarantee",
+      "criteriaValue": "5 years guarantee"
     },
     {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Rear Axle"
+      "criteriaName": "Number of coils",
+      "criteriaValue": "7"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "41,5"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "15,4"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "15"
+    },
+    {
+      "criteriaName": "Wire Diameter [mm]",
+      "criteriaValue": "12,3"
     }
   ],
   "oe": [
     {
-      "oemBrand": "MITSUBISHI",
-      "oemDisplayNo": "4605B541"
-    },
-    {
-      "oemBrand": "FORD",
-      "oemDisplayNo": "7T432001AA"
-    },
-    {
-      "oemBrand": "FORD",
-      "oemDisplayNo": "7T4Z2001A"
-    },
-    {
-      "oemBrand": "FORD",
-      "oemDisplayNo": "7T4Z2V001AA"
-    },
-    {
-      "oemBrand": "FORD",
-      "oemDisplayNo": "7U2J2C452AA"
-    },
-    {
-      "oemBrand": "FORD",
-      "oemDisplayNo": "BT432001AB"
-    },
-    {
-      "oemBrand": "FORD",
-      "oemDisplayNo": "BT4Z2001B"
-    },
-    {
-      "oemBrand": "MAZDA",
-      "oemDisplayNo": "EHY23328Z"
-    },
-    {
-      "oemBrand": "MAZDA",
-      "oemDisplayNo": "EHY43328Z"
-    },
-    {
-      "oemBrand": "MAZDA",
-      "oemDisplayNo": "EHY53328ZA"
-    },
-    {
-      "oemBrand": "MAZDA",
-      "oemDisplayNo": "EHY53328ZB"
-    },
-    {
-      "oemBrand": "MAZDA",
-      "oemDisplayNo": "L2Y63323Z"
-    },
-    {
-      "oemBrand": "MAZDA",
-      "oemDisplayNo": "L2Y63328Z"
-    },
-    {
-      "oemBrand": "MITSUBISHI",
-      "oemDisplayNo": "L2Y63329Z"
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "424 037"
     }
   ],
-  "ean": null,
-  "originalSKU": "SP1603",
-  "fetchedAt": "2026-03-18T13:06:18Z"
+  "ean": "5412096198144",
+  "fetchedAt": "2026-08-05T17:47:23.738Z"
 }

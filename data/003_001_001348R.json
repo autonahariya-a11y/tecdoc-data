@@ -1,0 +1,56 @@
+{
+  "articleNo": "003-001-001348R",
+  "articleId": 143872,
+  "supplier": "REMANTE",
+  "product": "Charger, charging (supercharged/turbocharged)",
+  "vehicles": [
+    {
+      "vehicleId": 3849,
+      "modelId": 545,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Coupe (_T20_)",
+      "typeEngineName": "2.0 i Turbo 4WD (ST205)",
+      "constructionIntervalStart": "1994-02-01",
+      "constructionIntervalEnd": "1999-11-01"
+    },
+    {
+      "vehicleId": 9560,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.2 TD (HDJ100_, HDJ100)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Charge Type",
+      "criteriaValue": "Exhaust Turbocharger"
+    },
+    {
+      "criteriaName": "Exchange Part",
+      "criteriaValue": ""
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "Incl. Gasket Set"
+    },
+    {
+      "criteriaName": "Guarantee",
+      "criteriaValue": "2 years guarantee"
+    },
+    {
+      "criteriaName": "Generally overhauled",
+      "criteriaValue": ""
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "17201-17040"
+    }
+  ],
+  "ean": "08595706527668",
+  "fetchedAt": "2026-08-05T17:12:04.764Z"
+}

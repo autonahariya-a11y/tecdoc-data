@@ -1,38 +1,182 @@
 {
   "articleNo": "SP4350",
-  "articleId": 9166189,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
-  "vehicles": [],
+  "articleId": 13846498,
+  "supplier": "MONROE",
+  "product": "Suspension Spring",
+  "vehicles": [
+    {
+      "vehicleId": 119964,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 119966,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119967,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 128493,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128651,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129555,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130824,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130825,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 132942,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "30 TDI",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 134844,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "40 TFSI quattro",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136082,
+      "modelId": 36543,
+      "manufacturerName": "AUDI",
+      "modelName": "Q2 (GAB, GAG)",
+      "typeEngineName": "35 TDI quattro",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137767,
+      "modelId": 38190,
+      "manufacturerName": "VW",
+      "modelName": "T-ROC (A11, D11)",
+      "typeEngineName": "2.0 TDI 4motion",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2021-06-01"
+    }
+  ],
   "specs": [
     {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "14"
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "313"
     },
     {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "103,6"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "2,051"
     },
     {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "42,1"
+      "criteriaName": "Spring Design",
+      "criteriaValue": "Coil Spring"
     },
     {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Rear Axle"
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "144"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "87"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "96"
+    },
+    {
+      "criteriaName": "Guarantee",
+      "criteriaValue": "5 years guarantee"
+    },
+    {
+      "criteriaName": "Number of coils",
+      "criteriaValue": "4,8"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "16,8"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "16,8"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "41,2"
+    },
+    {
+      "criteriaName": "Wire Diameter [mm]",
+      "criteriaValue": "12,5"
     }
   ],
   "oe": [
     {
-      "oemBrand": "MITSUBISHI",
-      "oemDisplayNo": "4605B987"
+      "oemBrand": "VAG",
+      "oemDisplayNo": "5Q0 411 105 LH"
     },
     {
-      "oemBrand": "MITSUBISHI",
-      "oemDisplayNo": "4605B989"
+      "oemBrand": "VAG",
+      "oemDisplayNo": "5Q0 411 105 LJ"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "5Q0 411 105 LK"
     }
   ],
-  "ean": null,
-  "originalSKU": "SP4350",
-  "fetchedAt": "2026-03-18T13:14:14Z"
+  "ean": "5412096766848",
+  "fetchedAt": "2026-08-05T18:03:54.971Z"
 }

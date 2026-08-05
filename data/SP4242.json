@@ -1,66 +1,133 @@
 {
   "articleNo": "SP4242",
-  "articleId": 9165912,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
+  "articleId": 9165910,
+  "supplier": "MONROE",
+  "product": "Suspension Spring",
   "vehicles": [
     {
-      "vehicleId": 124833,
-      "modelId": 37426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i30 (PDE, PD, PDEN)",
-      "typeEngineName": "1.6 CRDi",
-      "constructionIntervalStart": "2016-11-01",
+      "vehicleId": 106480,
+      "modelId": 12860,
+      "manufacturerName": "MINI",
+      "modelName": "MINI (F55)",
+      "typeEngineName": "Cooper D",
+      "constructionIntervalStart": "2014-07-01",
       "constructionIntervalEnd": null
     },
     {
-      "vehicleId": 124836,
-      "modelId": 37426,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i30 (PDE, PD, PDEN)",
-      "typeEngineName": "1.4 T-GDI",
-      "constructionIntervalStart": "2016-11-01",
-      "constructionIntervalEnd": "2020-12-01"
+      "vehicleId": 106490,
+      "modelId": 12860,
+      "manufacturerName": "MINI",
+      "modelName": "MINI (F55)",
+      "typeEngineName": "Cooper",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
     },
     {
-      "vehicleId": 133105,
-      "modelId": 38363,
-      "manufacturerName": "HYUNDAI",
-      "modelName": "i30 FASTBACK (PDE, PDEN)",
-      "typeEngineName": "1.6 CRDi",
-      "constructionIntervalStart": "2017-12-01",
-      "constructionIntervalEnd": "2022-01-01"
+      "vehicleId": 106497,
+      "modelId": 12860,
+      "manufacturerName": "MINI",
+      "modelName": "MINI (F55)",
+      "typeEngineName": "Cooper S",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106499,
+      "modelId": 12860,
+      "manufacturerName": "MINI",
+      "modelName": "MINI (F55)",
+      "typeEngineName": "Cooper SD",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108012,
+      "modelId": 12860,
+      "manufacturerName": "MINI",
+      "modelName": "MINI (F55)",
+      "typeEngineName": "One D",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124256,
+      "modelId": 12860,
+      "manufacturerName": "MINI",
+      "modelName": "MINI (F55)",
+      "typeEngineName": "Cooper S",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124257,
+      "modelId": 12860,
+      "manufacturerName": "MINI",
+      "modelName": "MINI (F55)",
+      "typeEngineName": "Cooper SD",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
     }
   ],
   "specs": [
     {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "19"
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "270"
     },
     {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "148,8"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "1,960"
     },
     {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "59,4"
+      "criteriaName": "Spring Design",
+      "criteriaValue": "Coil Spring"
     },
     {
-      "criteriaName": "fulfils ECE norm",
-      "criteriaValue": "E9-90R-02A0289/4999"
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "162"
     },
     {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Front Axle"
+      "criteriaName": "Outer Diameter 1 [mm]",
+      "criteriaValue": "106"
+    },
+    {
+      "criteriaName": "Outer Diameter 2 [mm]",
+      "criteriaValue": "121"
+    },
+    {
+      "criteriaName": "Guarantee",
+      "criteriaValue": "5 years guarantee"
+    },
+    {
+      "criteriaName": "Number of coils",
+      "criteriaValue": "3,9"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "43"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "18"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "18"
+    },
+    {
+      "criteriaName": "Wire Diameter [mm]",
+      "criteriaValue": "12,8"
     }
   ],
   "oe": [
     {
-      "oemBrand": "HYUNDAI",
-      "oemDisplayNo": "58101G4A10"
+      "oemBrand": "MINI",
+      "oemDisplayNo": "31 33 6 864 178"
+    },
+    {
+      "oemBrand": "MINI",
+      "oemDisplayNo": "31 33 6 864 179"
     }
   ],
-  "ean": null,
-  "originalSKU": "SP4242",
-  "fetchedAt": "2026-03-18T13:14:09Z"
+  "ean": "5412096761973",
+  "fetchedAt": "2026-08-05T18:03:43.339Z"
 }

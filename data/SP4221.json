@@ -1,57 +1,201 @@
 {
   "articleNo": "SP4221",
-  "articleId": 9165858,
-  "supplier": "Hi-Q",
-  "product": "Brake Pad Set, disc brake",
+  "articleId": 9165856,
+  "supplier": "MONROE",
+  "product": "Suspension Spring",
   "vehicles": [
     {
-      "vehicleId": 111683,
-      "modelId": 13301,
-      "manufacturerName": "SUBARU",
-      "modelName": "OUTBACK (BS)",
-      "typeEngineName": "2.5 AWD (BS9)",
-      "constructionIntervalStart": "2015-03-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 59724,
+      "modelId": 11292,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 II (LB_, LP_, LW_, LH_, L3_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2021-06-01"
     },
     {
-      "vehicleId": 111688,
-      "modelId": 13301,
-      "manufacturerName": "SUBARU",
-      "modelName": "OUTBACK (BS)",
-      "typeEngineName": "2.0 D AWD (BSD)",
-      "constructionIntervalStart": "2015-03-01",
-      "constructionIntervalEnd": null
+      "vehicleId": 59725,
+      "modelId": 11292,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 II (LB_, LP_, LW_, LH_, L3_)",
+      "typeEngineName": "1.6 THP 125",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 100834,
+      "modelId": 11292,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 II (LB_, LP_, LW_, LH_, L3_)",
+      "typeEngineName": "1.2 THP 110",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 105876,
+      "modelId": 11791,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW II (LC_, LJ_, LR_, LX_, L4_)",
+      "typeEngineName": "1.2 THP 110",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 110757,
+      "modelId": 11292,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 II (LB_, LP_, LW_, LH_, L3_)",
+      "typeEngineName": "1.6 THP 150",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 110760,
+      "modelId": 11292,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 II (LB_, LP_, LW_, LH_, L3_)",
+      "typeEngineName": "1.6 THP 163",
+      "constructionIntervalStart": "2014-06-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 100644,
+      "modelId": 11791,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW II (LC_, LJ_, LR_, LX_, L4_)",
+      "typeEngineName": "1.2 THP 130",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 100835,
+      "modelId": 11292,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 II (LB_, LP_, LW_, LH_, L3_)",
+      "typeEngineName": "1.2 THP 130",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 110748,
+      "modelId": 11791,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW II (LC_, LJ_, LR_, LX_, L4_)",
+      "typeEngineName": "1.6 VTi (LWNFPA)",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 100645,
+      "modelId": 11791,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW II (LC_, LJ_, LR_, LX_, L4_)",
+      "typeEngineName": "1.6 THP 155",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 100836,
+      "modelId": 11292,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 II (LB_, LP_, LW_, LH_, L3_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 105877,
+      "modelId": 11791,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW II (LC_, LJ_, LR_, LX_, L4_)",
+      "typeEngineName": "1.6 BlueHDi 120",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 110749,
+      "modelId": 11791,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW II (LC_, LJ_, LR_, LX_, L4_)",
+      "typeEngineName": "1.6 THP 125",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 110750,
+      "modelId": 11791,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 SW II (LC_, LJ_, LR_, LX_, L4_)",
+      "typeEngineName": "1.6 THP 150 (L45GXA)",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 122064,
+      "modelId": 11292,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 II (LB_, LP_, LW_, LH_, L3_)",
+      "typeEngineName": "1.6 THP",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2021-06-01"
     }
   ],
   "specs": [
     {
-      "criteriaName": "Thickness [mm]",
-      "criteriaValue": "16"
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "441"
     },
     {
-      "criteriaName": "Width [mm]",
-      "criteriaValue": "145,3"
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "2,494"
     },
     {
-      "criteriaName": "Height [mm]",
-      "criteriaValue": "58,4"
+      "criteriaName": "Spring Design",
+      "criteriaValue": "Coil Spring"
     },
     {
-      "criteriaName": "fulfils ECE norm",
-      "criteriaValue": "E9-90R-02A0289/4932"
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "162"
     },
     {
-      "criteriaName": "Fitting Position",
-      "criteriaValue": "Front Axle"
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "91"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "92"
+    },
+    {
+      "criteriaName": "Guarantee",
+      "criteriaValue": "5 years guarantee"
+    },
+    {
+      "criteriaName": "Number of coils",
+      "criteriaValue": "5,5"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "56"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "17,800"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "17,800"
+    },
+    {
+      "criteriaName": "Wire Diameter [mm]",
+      "criteriaValue": "12,5"
     }
   ],
   "oe": [
     {
-      "oemBrand": "SUBARU",
-      "oemDisplayNo": "26296FL030"
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "9806762780"
     }
   ],
-  "ean": null,
-  "originalSKU": "SP4221",
-  "fetchedAt": "2026-03-18T13:14:04Z"
+  "ean": "5412096760877",
+  "fetchedAt": "2026-08-05T18:03:28.774Z"
 }

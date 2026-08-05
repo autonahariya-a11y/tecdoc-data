@@ -1,0 +1,383 @@
+{
+  "articleNo": "LX 1886",
+  "articleId": 7963819,
+  "supplier": "KNECHT",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 10101,
+      "modelId": 3903,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Van (X70)",
+      "typeEngineName": "2.8 DTI (FD)",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 10102,
+      "modelId": 3904,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Platform/Chassis (X70)",
+      "typeEngineName": "2.8 DTI (ED, HD, UD0, UD4)",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 10460,
+      "modelId": 3995,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Bus (X70)",
+      "typeEngineName": "2.8 DTI (JD)",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 13692,
+      "modelId": 4442,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOVANO Mk I (A) Van (X70)",
+      "typeEngineName": "2.8 TDI (FD)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 14552,
+      "modelId": 4592,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOVANO Mk I (A) Combi (X70)",
+      "typeEngineName": "2.8 DTI (JD)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 14554,
+      "modelId": 4593,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOVANO Mk I (A) Chassis/Cab (X70)",
+      "typeEngineName": "2.8 DTI (UD0, ED, HD)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 34140,
+      "modelId": 9530,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Platform/Chassis",
+      "typeEngineName": "130",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34143,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "130.55",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34144,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "130.35",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34145,
+      "modelId": 9530,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Platform/Chassis",
+      "typeEngineName": "110",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34149,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "110.55",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34150,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "110.50",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34151,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "110.35",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34152,
+      "modelId": 9530,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Platform/Chassis",
+      "typeEngineName": "90",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 34153,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "90.35",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 34189,
+      "modelId": 9530,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Platform/Chassis",
+      "typeEngineName": "140",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34192,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "140.35",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34193,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "140.55",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34257,
+      "modelId": 9530,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Platform/Chassis",
+      "typeEngineName": "150.35 (A00300161)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34258,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "150.35 (A02300161)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34259,
+      "modelId": 9530,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Platform/Chassis",
+      "typeEngineName": "150.35 (A00300164)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34260,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "150.55 (A02300164)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 34261,
+      "modelId": 9528,
+      "manufacturerName": "RENAULT TRUCKS",
+      "modelName": "MASCOTT Van",
+      "typeEngineName": "150.65 (A00300166)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 134106,
+      "modelId": 39160,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASCOTT Van (FH_)",
+      "typeEngineName": "110",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 134107,
+      "modelId": 39160,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASCOTT Van (FH_)",
+      "typeEngineName": "150",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 134108,
+      "modelId": 39162,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASCOTT Platform/Chassis (UH_, HH_)",
+      "typeEngineName": "110",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 134109,
+      "modelId": 39162,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASCOTT Platform/Chassis (UH_, HH_)",
+      "typeEngineName": "150",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 138640,
+      "modelId": 40172,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Van (FH__)",
+      "typeEngineName": "dCi 110 (FH0E, FH5E)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138642,
+      "modelId": 40172,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Van (FH__)",
+      "typeEngineName": "dCi 125 (FH0F)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138643,
+      "modelId": 40172,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Van (FH__)",
+      "typeEngineName": "dCi 140 (FH0G, FH5G)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138650,
+      "modelId": 40173,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Platform/Chassis (HH__, UH__)",
+      "typeEngineName": "dCi 110 (HH0E, HH1E, HH6E, HH7E, UH0E, UH1E, UH4E, UH6E,...",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138651,
+      "modelId": 40173,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Platform/Chassis (HH__, UH__)",
+      "typeEngineName": "dCi 125 (HH0F, HH1F, HH6F, HH7F, UH0F, UH1F, UH4F, UH6F,...",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 138652,
+      "modelId": 40173,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER PRO Platform/Chassis (HH__, UH__)",
+      "typeEngineName": "dCi 140 (HH0G, HH6G, UH0G, UH4G, UH5G, UH6G)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "318,0"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "262"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "65,0"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "27,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "7,50"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "34,00"
+    },
+    {
+      "criteriaName": "Seal Material",
+      "criteriaValue": "Foam/Rigid Foam"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "388"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "4415764"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "5001847123"
+    },
+    {
+      "oemBrand": "RENAULT TRUCKS",
+      "oemDisplayNo": "5001847123"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "5010317300"
+    },
+    {
+      "oemBrand": "RENAULT TRUCKS",
+      "oemDisplayNo": "5010317300"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "7702295409"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "93182799"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "93182799"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "93182799"
+    }
+  ],
+  "ean": "4009026510193",
+  "fetchedAt": "2026-08-05T17:10:05.535Z"
+}
