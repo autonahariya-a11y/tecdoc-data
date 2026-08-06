@@ -1,17 +1,18 @@
 #!/usr/bin/env node
 /**
- * TecDoc Data Pre-Fetcher
- * 
+ * TecDoc Data Pre-Fetcher (v2 — with OEM fallback)
+ *
  * Reads a list of article numbers from data/articles.txt (one per line),
  * fetches TecDoc data for each, and saves individual JSON files to data/.
- * 
- * Usage:
- *   node scripts/fetch-tecdoc.js
- * 
- * The articles.txt file should contain one TecDoc article number per line:
- *   09.A427.11
- *   82B0003
- *   23894
+ *
+ * Search strategy per article:
+ *   1. partsCompatibleVehiclesByArticleNo (tries all variations)
+ *   2. Fallback: partsSearchArticlesByOem (for original manufacturer OEM numbers)
+ *      — then fetch full details for the returned articleId
+ *
+ * When OEM fallback is used, the ORIGINAL OEM manufacturer name (e.g. TOYOTA,
+ * CITROËN) is preserved as `originalManufacturer`, while `supplier` reflects
+ * the aftermarket supplier that TecDoc actually returned.
  */
 
 const fs = require('fs');
@@ -55,7 +56,7 @@ async function verifyToken() {
     parts_typeId_20: 1
   });
   if (!data || !data.length || !data[0].articles || !data[0].articles.length) {
-    throw new Error('APIFY_PROBE_FAILED: token accepted but probe returned no data. The Apify actor may be broken.');
+    throw new Error('APIFY_PROBE_FAILED: token accepted but probe returned no data.');
   }
   console.log(`  \u2713 Token valid — probe returned ${data[0].articles.length} article(s)\n`);
 }
@@ -77,15 +78,108 @@ function articleVariations(artNo) {
   if (artNo.includes('.')) variations.push(artNo.replace(/\./g, ' '));
   const nospace = artNo.replace(/[\s.-]/g, '');
   if (nospace !== artNo) variations.push(nospace);
+  /* Add dashed OEM variation for numbers like "04152YZZA6" -> "04152-YZZA6" */
+  const dashed = artNo.replace(/^(\d{4,6})([A-Z].+)$/i, '$1-$2');
+  if (dashed !== artNo) variations.push(dashed);
   return [...new Set(variations)];
+}
+
+/**
+ * Fetch complete data by articleId (specs, OE numbers, compatible vehicles).
+ */
+async function fetchDetailsByArticleId(articleId) {
+  const result = { specs: [], oe: [], ean: '', vehicles: [] };
+
+  const detailData = await apiCall({
+    endpoint_partsArticleDetailsByArticleId: true,
+    parts_articleId_13: articleId,
+    parts_langId_13: 4
+  });
+
+  if (detailData && detailData.length) {
+    const det = detailData[0];
+    result.specs = det.articleAllSpecifications || [];
+    result.oe = det.articleOemNo || [];
+    if (det.articleEanNo && det.articleEanNo.eanNumbers) {
+      result.ean = det.articleEanNo.eanNumbers;
+    }
+    if (det.article) {
+      result.product = det.article.articleProductName || '';
+      result.supplier = det.article.supplierName || '';
+      result.articleNo = det.article.articleNo || '';
+    }
+  }
+
+  await sleep(DELAY_MS);
+
+  /* Fetch compatible vehicles via the article's canonical articleNo */
+  if (result.articleNo) {
+    const vehicleData = await apiCall({
+      endpoint_partsCompatibleVehiclesByArticleNo: true,
+      parts_articleNo_20: result.articleNo,
+      parts_langId_20: 4,
+      parts_countryFilterId_20: 81,
+      parts_typeId_20: 1
+    });
+    if (vehicleData && vehicleData.length && vehicleData[0].articles && vehicleData[0].articles.length) {
+      result.vehicles = vehicleData[0].articles[0].compatibleCars || [];
+    }
+  }
+
+  return result;
+}
+
+/**
+ * OEM search fallback — for original manufacturer part numbers that TecDoc
+ * only knows via cross-reference (e.g. Toyota 04152YZZA6 → Bosch 0 986 4B7 013).
+ */
+async function fetchByOem(oemNo) {
+  console.log(`    Trying OEM search for ${oemNo}...`);
+  const variations = articleVariations(oemNo);
+
+  for (const variant of variations) {
+    const data = await apiCall({
+      endpoint_partsSearchArticlesByOem: true,
+      parts_langId_29: 4,
+      parts_articleOemNo_29: variant
+    });
+
+    if (data && data.length && data[0].articleId) {
+      const first = data[0];
+      /* originalManufacturer = the manufacturer that owns this OEM number */
+      const originalMfr = first.manufacturerName || '';
+      const articleId = first.articleId;
+      console.log(`    ✓ OEM match: ${originalMfr} → ${first.articleNo} by ${first.supplierName} (articleId ${articleId})`);
+
+      await sleep(DELAY_MS);
+      const details = await fetchDetailsByArticleId(articleId);
+
+      return {
+        articleNo: oemNo,                    /* preserve user's original SKU */
+        articleId: articleId,
+        supplier: details.supplier || first.supplierName || '',
+        product: details.product || first.articleProductName || '',
+        originalManufacturer: originalMfr,   /* NEW — Toyota/Citroën/etc. */
+        matchedArticleNo: details.articleNo, /* the aftermarket article number that matched */
+        vehicles: details.vehicles || [],
+        specs: details.specs || [],
+        oe: details.oe || [],
+        ean: details.ean || '',
+        source: 'oem-search',
+        fetchedAt: new Date().toISOString()
+      };
+    }
+    if (variations.length > 1) await sleep(DELAY_MS);
+  }
+  return null;
 }
 
 async function fetchArticle(articleNo) {
   console.log(`  [1/2] Fetching vehicles for ${articleNo}...`);
-  
+
   const variations = articleVariations(articleNo);
   let vehicleData = null;
-  
+
   for (const variant of variations) {
     const data = await apiCall({
       endpoint_partsCompatibleVehiclesByArticleNo: true,
@@ -103,7 +197,11 @@ async function fetchArticle(articleNo) {
   }
 
   if (!vehicleData || !vehicleData.length || !vehicleData[0].articles || !vehicleData[0].articles.length) {
-    console.log(`  ⚠ No results found for ${articleNo} (tried ${variations.length} variations)`);
+    /* Fallback: try OEM search for original-manufacturer parts */
+    console.log(`  ⚠ articleNo lookup failed — trying OEM fallback...`);
+    const oemResult = await fetchByOem(articleNo);
+    if (oemResult) return oemResult;
+    console.log(`  ⚠ No results found for ${articleNo} (tried ${variations.length} articleNo variations + OEM fallback)`);
     return null;
   }
 
@@ -117,6 +215,7 @@ async function fetchArticle(articleNo) {
     specs: [],
     oe: [],
     ean: '',
+    source: 'article-search',
     fetchedAt: new Date().toISOString()
   };
 
@@ -146,12 +245,10 @@ async function fetchArticle(articleNo) {
 }
 
 async function main() {
-  console.log('=== TecDoc Data Pre-Fetcher ===\n');
+  console.log('=== TecDoc Data Pre-Fetcher (v2 with OEM fallback) ===\n');
 
-  /* Read articles list */
   if (!fs.existsSync(ARTICLES_FILE)) {
     console.error(`Error: ${ARTICLES_FILE} not found.`);
-    console.error('Create a file with one article number per line.');
     process.exit(1);
   }
 
@@ -162,7 +259,6 @@ async function main() {
 
   console.log(`Found ${articles.length} articles to process.\n`);
 
-  /* Verify token before running through the full list */
   try {
     await verifyToken();
   } catch (err) {
@@ -171,9 +267,18 @@ async function main() {
     process.exit(2);
   }
 
+  /* Force-refetch mode — set FORCE_REFETCH=1 to ignore cache freshness */
+  const forceRefetch = process.env.FORCE_REFETCH === '1';
+  /* Only-missing mode — skip anything already present regardless of age */
+  const onlyMissing = process.env.ONLY_MISSING === '1';
+
+  if (forceRefetch) console.log('⚠ FORCE_REFETCH mode: ignoring cache freshness.\n');
+  if (onlyMissing) console.log('⚠ ONLY_MISSING mode: skipping any article that has an existing file.\n');
+
   let success = 0;
   let failed = 0;
   let skipped = 0;
+  let oemMatches = 0;
 
   for (let i = 0; i < articles.length; i++) {
     const articleNo = articles[i];
@@ -182,28 +287,36 @@ async function main() {
 
     console.log(`[${i + 1}/${articles.length}] ${articleNo}`);
 
-    /* Check if already cached and still fresh (less than 7 days old) */
     if (fs.existsSync(filepath)) {
-      try {
-        const existing = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
-        if (existing.fetchedAt) {
-          const age = Date.now() - new Date(existing.fetchedAt).getTime();
-          const days = age / (1000 * 60 * 60 * 24);
-          if (days < 7) {
-            console.log(`  ✓ Already cached (${Math.round(days)}d old) — skipping\n`);
-            skipped++;
-            continue;
+      if (onlyMissing) {
+        console.log(`  ✓ Already exists — skipping (ONLY_MISSING)\n`);
+        skipped++;
+        continue;
+      }
+      if (!forceRefetch) {
+        try {
+          const existing = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+          if (existing.fetchedAt) {
+            const age = Date.now() - new Date(existing.fetchedAt).getTime();
+            const days = age / (1000 * 60 * 60 * 24);
+            if (days < 7) {
+              console.log(`  ✓ Already cached (${Math.round(days)}d old) — skipping\n`);
+              skipped++;
+              continue;
+            }
           }
-        }
-      } catch(e) { /* re-fetch if corrupt */ }
+        } catch(e) { /* re-fetch if corrupt */ }
+      }
     }
 
     try {
       const data = await fetchArticle(articleNo);
       if (data) {
         fs.writeFileSync(filepath, JSON.stringify(data, null, 2));
-        console.log(`  ✓ Saved → ${filename} (${data.vehicles.length} vehicles, ${data.specs.length} specs, ${data.oe.length} OE numbers)\n`);
+        const via = data.source === 'oem-search' ? ' [via OEM]' : '';
+        console.log(`  ✓ Saved${via} → ${filename} (${data.vehicles.length} vehicles, ${data.specs.length} specs, ${data.oe.length} OE)\n`);
         success++;
+        if (data.source === 'oem-search') oemMatches++;
       } else {
         failed++;
         console.log('');
@@ -217,7 +330,6 @@ async function main() {
       }
     }
 
-    /* Delay between articles */
     if (i < articles.length - 1) {
       await sleep(DELAY_MS);
     }
@@ -225,8 +337,8 @@ async function main() {
 
   console.log('=== Summary ===');
   console.log(`Total: ${articles.length}`);
-  console.log(`Success: ${success}`);
-  console.log(`Skipped (fresh cache): ${skipped}`);
+  console.log(`Success: ${success} (${oemMatches} via OEM fallback)`);
+  console.log(`Skipped: ${skipped}`);
   console.log(`Failed: ${failed}`);
 }
 
