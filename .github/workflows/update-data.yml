@@ -6,6 +6,19 @@ on:
     - cron: '0 0 * * 0'
   # Allow manual trigger
   workflow_dispatch:
+    inputs:
+      force_refetch:
+        description: 'Ignore 7-day cache and refetch all articles'
+        type: boolean
+        default: false
+      only_missing:
+        description: 'Only fetch SKUs that are missing entirely (skip any existing file)'
+        type: boolean
+        default: false
+      skip_sitemap_scan:
+        description: 'Skip the sitemap scan step (use existing articles.txt as-is)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -27,16 +40,40 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Scan site for spare-part SKUs (adds missing ones to articles.txt)
+        if: inputs.skip_sitemap_scan != true
+        run: |
+          node scripts/scan-sitemap.js || echo "Sitemap scan failed but continuing"
+          # Merge any newly-found live SKUs into articles.txt
+          if [ -f data/live-skus.txt ]; then
+            # Extract non-comment lines from live-skus.txt
+            grep -v '^#' data/live-skus.txt | grep -v '^$' > /tmp/live_skus.txt || true
+            # Concatenate with existing articles.txt, dedupe
+            cat data/articles.txt /tmp/live_skus.txt 2>/dev/null | \
+              grep -v '^#' | grep -v '^$' | \
+              awk '!seen[$0]++' > /tmp/articles_merged.txt
+            # Preserve header
+            {
+              echo "# TecDoc article numbers to fetch"
+              echo "# Auto-merged: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+              echo ""
+              cat /tmp/articles_merged.txt
+            } > data/articles.txt
+            echo "articles.txt line count: $(wc -l < data/articles.txt)"
+          fi
+
       - name: Fetch TecDoc data
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          FORCE_REFETCH: ${{ inputs.force_refetch == true && '1' || '' }}
+          ONLY_MISSING: ${{ inputs.only_missing == true && '1' || '' }}
         run: node scripts/fetch-tecdoc.js
 
       - name: Commit and push updated data
         run: |
           git config user.name "TecDoc Bot"
           git config user.email "bot@autonahariya.co.il"
-          git add data/*.json
+          git add data/*.json data/articles.txt data/*.txt 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
