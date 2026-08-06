@@ -1,1254 +1,1453 @@
 {
   "articleNo": "06J115403Q",
-  "articleId": 804356,
-  "supplier": "VAG Original",
+  "articleId": 568606,
+  "supplier": "TRUCKTEC AUTOMOTIVE",
   "product": "Oil Filter",
+  "originalManufacturer": "VW",
+  "matchedArticleNo": "07.18.053",
   "vehicles": [
     {
-      "make": "VW",
-      "model": "PASSAT B7 (362)",
-      "type": "1.8 TSI",
-      "yearFrom": "2010-08-01",
-      "yearTo": "2014-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B7 (362)",
-      "type": "2.0 TSI",
-      "yearFrom": "2010-11-01",
-      "yearTo": "2014-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B7 Variant (365)",
-      "type": "1.8 TSI",
-      "yearFrom": "2010-08-01",
-      "yearTo": "2014-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B7 Variant (365)",
-      "type": "2.0 TSI",
-      "yearFrom": "2010-11-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II (3T4)",
-      "type": "1.8 TSI",
-      "yearFrom": "2009-03-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II (3T4)",
-      "type": "1.8 TSI 4x4",
-      "yearFrom": "2009-03-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II Estate (3T5)",
-      "type": "1.8 TSI",
-      "yearFrom": "2009-10-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II Estate (3T5)",
-      "type": "1.8 TSI 4x4",
-      "yearFrom": "2009-10-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "VW",
-      "model": "SHARAN (7N1, 7N2)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2010-12-01",
-      "yearTo": "2015-11-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "ALHAMBRA (710, 711)",
-      "type": "2.0 TSI",
-      "yearFrom": "2010-11-01",
-      "yearTo": "2012-05-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II (3T4)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II Estate (3T5)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT (8J3)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2014-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT (8J3)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2014-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT Roadster (8J9)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2014-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT Roadster (8J9)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2014-06-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "OCTAVIA II Combi (1Z5)",
-      "type": "1.8 TSI 4x4",
-      "yearFrom": "2009-03-01",
-      "yearTo": "2013-02-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "OCTAVIA II (1Z3)",
-      "type": "1.8 TSI",
-      "yearFrom": "2009-03-01",
-      "yearTo": "2013-06-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "OCTAVIA II Combi (1Z5)",
-      "type": "1.8 TSI",
-      "yearFrom": "2009-03-01",
-      "yearTo": "2013-06-01"
-    },
-    {
-      "make": "VW",
-      "model": "GOLF VI Convertible (517)",
-      "type": "2.0 GTI",
-      "yearFrom": "2012-05-01",
-      "yearTo": "2016-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A6 C7 (4G2, 4GC)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2011-05-01",
-      "yearTo": "2018-09-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "YETI (5L)",
-      "type": "1.8 TSI 4x4",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2017-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "JETTA IV (162, 163, AV3, AV2)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2010-12-01",
-      "yearTo": "2014-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TIGUAN (5N_)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2007-11-01",
-      "yearTo": "2018-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "GOLF VI (5K1)",
-      "type": "2.0 GTi",
-      "yearFrom": "2009-06-01",
-      "yearTo": "2013-11-01"
-    },
-    {
-      "make": "VW",
-      "model": "TIGUAN (5N_)",
-      "type": "2.0 TSI 4motion",
-      "yearFrom": "2011-05-01",
-      "yearTo": "2018-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TIGUAN (5N_)",
-      "type": "2.0 TSI 4motion",
-      "yearFrom": "2011-05-01",
-      "yearTo": "2018-07-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q5 (8RB)",
-      "type": "2.0 TFSI Hybrid quattro",
-      "yearFrom": "2011-06-01",
-      "yearTo": "2016-06-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT CC B6 (357)",
-      "type": "2.0 TSI",
-      "yearFrom": "2010-11-01",
-      "yearTo": "2012-01-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT CC B6 (357)",
-      "type": "1.8 TSI",
-      "yearFrom": "2008-11-01",
-      "yearTo": "2010-05-01"
-    },
-    {
-      "make": "VW",
-      "model": "BEETLE (5C1, 5C2)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2011-04-01",
-      "yearTo": "2016-07-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A6 C7 Avant (4G5, 4GD)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2011-06-01",
-      "yearTo": "2018-09-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q3 (8UB, 8UG)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2011-06-01",
-      "yearTo": "2015-04-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q3 (8UB, 8UG)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2011-06-01",
-      "yearTo": "2015-04-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B7 (362)",
-      "type": "1.8 TSI",
-      "yearFrom": "2011-02-01",
-      "yearTo": "2014-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B7 Variant (365)",
-      "type": "1.8 TSI",
-      "yearFrom": "2011-02-01",
-      "yearTo": "2014-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
-      "type": "2.0 TSI",
-      "yearFrom": "2010-12-01",
-      "yearTo": "2016-10-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A6 C7 (4G2, 4GC)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2011-03-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A6 C7 (4G2, 4GC)",
-      "type": "2.0 TFSI Hybrid",
-      "yearFrom": "2011-11-01",
-      "yearTo": "2015-04-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
-      "type": "2.0 TFSI hybrid",
-      "yearFrom": "2012-02-01",
-      "yearTo": "2015-11-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 (8P1)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2006-11-01",
-      "yearTo": "2012-08-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 Sportback (8PA)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2006-11-01",
-      "yearTo": "2013-03-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "ALTEA XL (5P5, 5P8)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2007-01-01",
-      "yearTo": "2015-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TIGUAN (5N_)",
-      "type": "2.0 TFSI 4motion",
-      "yearFrom": "2007-09-01",
-      "yearTo": "2018-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TIGUAN (5N_)",
-      "type": "2.0 TFSI 4motion",
-      "yearFrom": "2007-09-01",
-      "yearTo": "2018-07-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "ALTEA (5P1)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2007-01-01",
-      "yearTo": "2015-07-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "TOLEDO III (5P2)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2007-01-01",
-      "yearTo": "2009-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2007-11-01",
-      "yearTo": "2012-03-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 (8P1)",
-      "type": "1.8 T",
-      "yearFrom": "2006-08-01",
-      "yearTo": "2012-08-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 Convertible (8P7)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2008-04-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 Convertible (8P7)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2008-04-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2008-01-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 Avant (8K5)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2007-11-01",
-      "yearTo": "2012-03-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A6 C7 (4G2, 4GC)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2012-05-01",
-      "yearTo": "2015-04-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A6 C7 (4G2, 4GC)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2013-05-01",
-      "yearTo": "2018-09-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A6 C7 (4G2, 4GC)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2013-05-01",
-      "yearTo": "2018-09-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT CC B6 (357)",
-      "type": "1.8 TSI",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2012-01-01"
-    },
-    {
-      "make": "VW",
-      "model": "CC B7 (358)",
-      "type": "2.0 TSI",
-      "yearFrom": "2011-11-01",
-      "yearTo": "2016-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 Avant (8K5)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 Avant (8K5)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2008-04-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "CC B7 (358)",
-      "type": "1.8 TSI",
-      "yearFrom": "2011-11-01",
-      "yearTo": "2016-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
-      "type": "2.0 TSI",
-      "yearFrom": "2011-05-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
-      "type": "2.0 TSI 4motion",
-      "yearFrom": "2011-07-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
-      "type": "2.0 TSI",
-      "yearFrom": "2011-05-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
-      "type": "2.0 TSI 4motion",
-      "yearFrom": "2011-07-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN)",
-      "type": "2.0 TSI",
-      "yearFrom": "2011-05-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN)",
-      "type": "2.0 TSI 4motion",
-      "yearFrom": "2011-07-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B6 Variant (3C5)",
-      "type": "1.8 TSI",
-      "yearFrom": "2007-05-01",
-      "yearTo": "2011-10-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B6 (3C2)",
-      "type": "1.8 TSI",
-      "yearFrom": "2007-05-01",
-      "yearTo": "2010-07-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q5 (8RB)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2008-11-01",
-      "yearTo": "2012-09-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "LEON (1P1)",
-      "type": "1.8 TSI",
-      "yearFrom": "2007-06-01",
-      "yearTo": "2012-12-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "OCTAVIA II (1Z3)",
-      "type": "1.8 TSI",
-      "yearFrom": "2007-06-01",
-      "yearTo": "2013-04-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "OCTAVIA II Combi (1Z5)",
-      "type": "1.8 TSI",
-      "yearFrom": "2007-06-01",
-      "yearTo": "2013-04-01"
-    },
-    {
-      "make": "VW",
-      "model": "SCIROCCO III (137, 138)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2008-05-01",
-      "yearTo": "2009-11-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II (3T4)",
-      "type": "1.8 TSI",
-      "yearFrom": "2008-03-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II (3T4)",
-      "type": "1.8 TSI 4x4",
-      "yearFrom": "2008-11-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 Avant (8K5)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 Avant (8K5)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT (8J3)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2014-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT Roadster (8J9)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2014-06-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT CC B6 (357)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2012-01-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT ALLTRACK B7 (365)",
-      "type": "2.0 TSI 4motion",
-      "yearFrom": "2012-01-01",
-      "yearTo": "2014-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 (8T3)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2008-11-01",
-      "yearTo": "2012-03-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 (8T3)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2013-11-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 (8T3)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2017-01-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "1.8 TFSI quattro",
-      "yearFrom": "2008-09-01",
-      "yearTo": "2012-03-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 Avant (8K5)",
-      "type": "1.8 TFSI quattro",
-      "yearFrom": "2008-09-01",
-      "yearTo": "2012-03-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 (8P1)",
-      "type": "1.8 TFSI quattro",
-      "yearFrom": "2008-07-01",
-      "yearTo": "2012-08-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 Sportback (8PA)",
-      "type": "1.8 TFSI quattro",
-      "yearFrom": "2008-07-01",
-      "yearTo": "2013-03-01"
-    },
-    {
-      "make": "VW",
-      "model": "GOLF VI (5K1)",
-      "type": "2.0 GTi",
-      "yearFrom": "2009-04-01",
-      "yearTo": "2012-11-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Convertible (8F7)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2009-03-01",
-      "yearTo": "2012-03-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Convertible (8F7)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2009-03-01",
-      "yearTo": "2014-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Convertible (8F7)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2009-03-01",
-      "yearTo": "2017-01-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 Allroad B8 (8KH)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2009-04-01",
-      "yearTo": "2016-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT Roadster (8J9)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2010-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT (8J3)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2008-06-01",
-      "yearTo": "2010-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 (8T3)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2009-05-01",
-      "yearTo": "2011-09-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Sportback (8TA)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2009-09-01",
-      "yearTo": "2014-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Sportback (8TA)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2009-09-01",
-      "yearTo": "2017-01-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "LEON (1P1)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2009-06-01",
-      "yearTo": "2012-12-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "OCTAVIA II Combi (1Z5)",
-      "type": "1.8 TSI 4x4",
-      "yearFrom": "2008-11-01",
-      "yearTo": "2013-02-01"
-    },
-    {
-      "make": "VW",
-      "model": "SCIROCCO III (137, 138)",
-      "type": "2.0 TSI",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2017-11-01"
-    },
-    {
-      "make": "VW",
-      "model": "EOS (1F7, 1F8)",
-      "type": "2.0 TSI",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "YETI (5L)",
-      "type": "1.8 TSI 4x4",
-      "yearFrom": "2009-05-01",
-      "yearTo": "2017-12-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II Estate (3T5)",
-      "type": "1.8 TSI",
-      "yearFrom": "2009-10-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "SUPERB II Estate (3T5)",
-      "type": "1.8 TSI 4x4",
-      "yearFrom": "2009-10-01",
-      "yearTo": "2015-05-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B6 Variant (3C5)",
-      "type": "1.8 TSI",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2010-11-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B6 (3C2)",
-      "type": "1.8 TSI",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2010-07-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "2.0 TFSI flexible fuel",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "2.0 TFSI flexible fuel quattro",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 Avant (8K5)",
-      "type": "2.0 TFSI flexible fuel",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 Avant (8K5)",
-      "type": "2.0 TFSI flexible fuel quattro",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Sportback (8TA)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2009-11-01",
-      "yearTo": "2011-09-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Sportback (8TA)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2009-09-01",
-      "yearTo": "2013-11-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Convertible (8F7)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2009-09-01",
-      "yearTo": "2012-03-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "EXEO (3R2)",
-      "type": "1.8 TSI",
-      "yearFrom": "2010-09-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "EXEO (3R2)",
-      "type": "1.8 TSI",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "EXEO (3R2)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "EXEO ST (3R5)",
-      "type": "1.8 TSI",
-      "yearFrom": "2010-09-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "EXEO ST (3R5)",
-      "type": "1.8 TSI",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "EXEO ST (3R5)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2010-05-01",
-      "yearTo": "2013-05-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "ALTEA XL (5P5, 5P8)",
-      "type": "2.0 TFSI 4x4",
-      "yearFrom": "2009-05-01",
-      "yearTo": "2015-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "GOLF VI (5K1)",
-      "type": "1.8 TSI",
-      "yearFrom": "2009-06-01",
-      "yearTo": "2011-01-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
-      "type": "2.0 TSI",
-      "yearFrom": "2012-07-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
-      "type": "2.0 TSI",
-      "yearFrom": "2012-07-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T5 Platform/Chassis (7JD, 7JE, 7JL, 7JY, 7JZ, 7F",
-      "type": "2.0 TSI",
-      "yearFrom": "2012-07-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN)",
-      "type": "2.0 TSI",
-      "yearFrom": "2012-07-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q5 (8RB)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2013-05-01",
-      "yearTo": "2017-05-01"
-    },
-    {
-      "make": "VW",
-      "model": "BEETLE Convertible (5C7, 5C8)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2011-12-01",
-      "yearTo": "2016-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "CC B7 (358)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2011-11-01",
-      "yearTo": "2016-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "CC B7 (358)",
-      "type": "1.8 TSI",
-      "yearFrom": "2011-11-01",
-      "yearTo": "2016-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT ALLTRACK B7 (365)",
-      "type": "1.8 TSI",
-      "yearFrom": "2012-01-01",
-      "yearTo": "2014-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT ALLTRACK B7 (365)",
-      "type": "1.8 TSI",
-      "yearFrom": "2012-01-01",
-      "yearTo": "2014-12-01"
-    },
-    {
-      "make": "VW",
-      "model": "GOLF VI Variant (AJ5)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2009-07-01",
-      "yearTo": "2013-07-01"
-    },
-    {
-      "make": "SEAT",
-      "model": "ALHAMBRA (710, 711)",
-      "type": "1.8 TSI",
-      "yearFrom": "2012-11-01",
-      "yearTo": "2015-04-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2013-05-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2013-05-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 Allroad B8 (8KH)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2013-05-01",
-      "yearTo": "2016-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Convertible (8F7)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2013-05-01",
-      "yearTo": "2014-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Convertible (8F7)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2012-03-01",
-      "yearTo": "2017-01-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 (8T3)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2012-03-01",
-      "yearTo": "2017-01-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q3 (8UB, 8UG)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2014-09-01",
-      "yearTo": "2018-10-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q3 (8UB, 8UG)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2014-09-01",
-      "yearTo": "2018-10-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T6 / CARAVELLE T6 Bus (SGB, SGJ, SHB, SHJ)",
-      "type": "2.0 TSI",
-      "yearFrom": "2015-04-01",
-      "yearTo": "2019-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T6 Van (SGA, SGH, SHA, SHH)",
-      "type": "2.0 TSI",
-      "yearFrom": "2015-04-01",
-      "yearTo": "2019-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T6 / CARAVELLE T6 Bus (SGB, SGJ, SHB, SHJ)",
-      "type": "2.0 TSI 4motion",
-      "yearFrom": "2015-06-01",
-      "yearTo": "2019-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T6 Van (SGA, SGH, SHA, SHH)",
-      "type": "2.0 TSI 4motion",
-      "yearFrom": "2015-06-01",
-      "yearTo": "2019-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T6 / CARAVELLE T6 Bus (SGB, SGJ, SHB, SHJ)",
-      "type": "2.0 TSI",
-      "yearFrom": "2015-04-01",
-      "yearTo": "2019-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T6 Van (SGA, SGH, SHA, SHH)",
-      "type": "2.0 TSI",
-      "yearFrom": "2015-04-01",
-      "yearTo": "2019-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "TRANSPORTER T6 Platform/Chassis (SFD, SFE, SFL, SFZ, SJD, SJ",
-      "type": "2.0 TSI",
-      "yearFrom": "2015-04-01",
-      "yearTo": "2019-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 Allroad B8 (8KH)",
-      "type": "2.0 TFSI Flexfuel quattro",
-      "yearFrom": "2012-09-01",
-      "yearTo": "2013-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 Convertible (8F7)",
-      "type": "2.0 TFSI Flexfuel quattro",
-      "yearFrom": "2012-03-01",
-      "yearTo": "2017-01-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 (8T3)",
-      "type": "2.0 TFSI Flexfuel quattro",
-      "yearFrom": "2012-03-01",
-      "yearTo": "2017-01-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q5 (8RB)",
-      "type": "2.0 TFSI Flexfuel quattro",
-      "yearFrom": "2012-09-01",
-      "yearTo": "2013-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q5 (8RB)",
-      "type": "2.0 TFSI Flexfuel quattro",
-      "yearFrom": "2013-09-01",
-      "yearTo": "2017-05-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "2.0 TFSI Flexfuel quattro",
-      "yearFrom": "2013-05-01",
-      "yearTo": "2015-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A4 B8 (8K2)",
-      "type": "2.0 TFSI Flexfuel quattro",
-      "yearFrom": "2012-09-01",
-      "yearTo": "2013-12-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A6 C7 (4G2, 4GC)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2013-01-01",
-      "yearTo": "2018-09-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 Sportback (8PA)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2004-09-01",
-      "yearTo": "2013-03-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 Sportback (8PA)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2004-09-01",
-      "yearTo": "2013-03-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 (8P1)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2004-09-01",
-      "yearTo": "2012-08-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A3 (8P1)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2004-09-01",
-      "yearTo": "2012-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "GOLF V (1K1)",
-      "type": "2.0 GTI",
-      "yearFrom": "2004-10-01",
-      "yearTo": "2009-02-01"
-    },
-    {
-      "make": "VW",
-      "model": "JETTA III (1K2)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2005-10-01",
-      "yearTo": "2010-10-01"
-    },
-    {
-      "make": "VW",
-      "model": "GOLF V Variant (1K5)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2007-06-01",
-      "yearTo": "2009-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "EOS (1F7, 1F8)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2006-03-01",
-      "yearTo": "2015-08-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B6 (3C2)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2005-07-01",
-      "yearTo": "2010-07-01"
-    },
-    {
-      "make": "VW",
-      "model": "PASSAT B6 Variant (3C5)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2005-08-01",
-      "yearTo": "2010-11-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT (8J3)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2006-08-01",
-      "yearTo": "2010-06-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "TT Roadster (8J9)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2007-03-01",
-      "yearTo": "2010-06-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "OCTAVIA II (1Z3)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2005-10-01",
-      "yearTo": "2013-02-01"
-    },
-    {
-      "make": "SKODA",
-      "model": "OCTAVIA II Combi (1Z5)",
-      "type": "2.0 TFSI",
-      "yearFrom": "2005-10-01",
-      "yearTo": "2013-02-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "A5 (8T3)",
-      "type": "1.8 TFSI",
-      "yearFrom": "2007-10-01",
-      "yearTo": "2017-01-01"
-    },
-    {
-      "make": "AUDI",
-      "model": "Q5 (8RB)",
-      "type": "2.0 TFSI quattro",
-      "yearFrom": "2009-08-01",
-      "yearTo": "2017-05-01"
+      "vehicleId": 269,
+      "modelId": 9003,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 (362)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 276,
+      "modelId": 9003,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 (362)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 326,
+      "modelId": 9004,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 Variant (365)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 346,
+      "modelId": 9004,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 Variant (365)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 5929,
+      "modelId": 7588,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II (3T4)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 5930,
+      "modelId": 7588,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II (3T4)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 5935,
+      "modelId": 8495,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II Estate (3T5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 5936,
+      "modelId": 8495,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II Estate (3T5)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 6021,
+      "modelId": 8630,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7N1, 7N2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 6029,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 6306,
+      "modelId": 7588,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II (3T4)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 6326,
+      "modelId": 8495,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II Estate (3T5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 6441,
+      "modelId": 5544,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8J3)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 6496,
+      "modelId": 5544,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8J3)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 6625,
+      "modelId": 5608,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8J9)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 6626,
+      "modelId": 5608,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8J9)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 6800,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-02-01"
+    },
+    {
+      "vehicleId": 7867,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 7868,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 8210,
+      "modelId": 9158,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Convertible (517)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 9309,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 9491,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 9630,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 10431,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 GTi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 10935,
+      "modelId": 6397,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (5N_)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 10954,
+      "modelId": 6397,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (5N_)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 11054,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "2.0 TFSI Hybrid quattro",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2016-06-01"
+    },
+    {
+      "vehicleId": 11255,
+      "modelId": 7375,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT CC B6 (357)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 11256,
+      "modelId": 7375,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT CC B6 (357)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 11294,
+      "modelId": 9710,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE (5C1, 5C2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 11724,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 11792,
+      "modelId": 9731,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (8UB, 8UG)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 11794,
+      "modelId": 9731,
+      "manufacturerName": "AUDI",
+      "modelName": "Q3 (8UB, 8UG)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 12010,
+      "modelId": 9003,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 (362)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12011,
+      "modelId": 9004,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B7 Variant (365)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 12071,
+      "modelId": 8636,
+      "manufacturerName": "VW",
+      "modelName": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2010-12-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 12077,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 12078,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.0 TFSI Hybrid",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 12156,
+      "modelId": 8627,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D4 (4H2, 4H8, 4HC, 4HL)",
+      "typeEngineName": "2.0 TFSI hybrid",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-11-01"
+    },
+    {
+      "vehicleId": 18082,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18083,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18358,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 18359,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 18387,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-02-01"
+    },
+    {
+      "vehicleId": 18976,
+      "modelId": 5457,
+      "manufacturerName": "VW",
+      "modelName": "EOS (1F7, 1F8)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 19179,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 19395,
+      "modelId": 5398,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 (3C2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 19396,
+      "modelId": 5427,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 Variant (3C5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 19453,
+      "modelId": 5544,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8J3)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 19458,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2013-02-01"
+    },
+    {
+      "vehicleId": 19459,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2013-02-01"
+    },
+    {
+      "vehicleId": 19806,
+      "modelId": 5608,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8J9)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 20864,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 20898,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 22547,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 22695,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 23180,
+      "modelId": 6397,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (5N_)",
+      "typeEngineName": "2.0 TFSI 4motion",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 23181,
+      "modelId": 6397,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (5N_)",
+      "typeEngineName": "2.0 TFSI 4motion",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 23232,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 23233,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 23299,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 23795,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 24493,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 24494,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 25456,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 25506,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 25658,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2012-05-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 25709,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 26607,
+      "modelId": 7375,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT CC B6 (357)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 26740,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 26911,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 26912,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 26913,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 26914,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 26916,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 27347,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 27394,
+      "modelId": 5005,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 27396,
+      "modelId": 5005,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 27402,
+      "modelId": 5004,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 27403,
+      "modelId": 5004,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 27416,
+      "modelId": 4988,
+      "manufacturerName": "VW",
+      "modelName": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 27456,
+      "modelId": 4988,
+      "manufacturerName": "VW",
+      "modelName": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 27541,
+      "modelId": 5427,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 Variant (3C5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2011-10-01"
+    },
+    {
+      "vehicleId": 27545,
+      "modelId": 5398,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 (3C2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 27563,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 28174,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 28203,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 28204,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-04-01"
+    },
+    {
+      "vehicleId": 28234,
+      "modelId": 7584,
+      "manufacturerName": "VW",
+      "modelName": "SCIROCCO III (137, 138)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 28253,
+      "modelId": 7588,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II (3T4)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 28254,
+      "modelId": 7588,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II (3T4)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 28276,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 28277,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 28278,
+      "modelId": 5544,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8J3)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 28280,
+      "modelId": 5608,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8J9)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 28284,
+      "modelId": 7375,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT CC B6 (357)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 29304,
+      "modelId": 11084,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B7 (365)",
+      "typeEngineName": "2.0 TSI 4motion",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 29973,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 29974,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 29975,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 30000,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30004,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30509,
+      "modelId": 5398,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 (3C2)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 30738,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 30739,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.8 TFSI quattro",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 30971,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "2.0 GTi",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 30979,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 30980,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 30981,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 30990,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 31071,
+      "modelId": 5608,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8J9)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 31072,
+      "modelId": 5544,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8J3)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 31321,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 31569,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 31570,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 31586,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 31594,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2013-02-01"
+    },
+    {
+      "vehicleId": 31955,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 32159,
+      "modelId": 7584,
+      "manufacturerName": "VW",
+      "modelName": "SCIROCCO III (137, 138)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2017-11-01"
+    },
+    {
+      "vehicleId": 32160,
+      "modelId": 5457,
+      "manufacturerName": "VW",
+      "modelName": "EOS (1F7, 1F8)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 32751,
+      "modelId": 8486,
+      "manufacturerName": "SKODA",
+      "modelName": "YETI (5L)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 32784,
+      "modelId": 8495,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II Estate (3T5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 32785,
+      "modelId": 8495,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II Estate (3T5)",
+      "typeEngineName": "1.8 TSI 4x4",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 32974,
+      "modelId": 5427,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 Variant (3C5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 32978,
+      "modelId": 5398,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 (3C2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 33365,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI flexible fuel",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33366,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI flexible fuel quattro",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33367,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI flexible fuel",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33368,
+      "modelId": 6988,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 Avant (8K5)",
+      "typeEngineName": "2.0 TFSI flexible fuel quattro",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 33409,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2009-11-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 33410,
+      "modelId": 8159,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Sportback (8TA)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 33416,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "1.8 TFSI",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 34806,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34809,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34810,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34811,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34814,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34818,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 34858,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "2.0 TFSI 4x4",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 34879,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2011-01-01"
+    },
+    {
+      "vehicleId": 55109,
+      "modelId": 5005,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 55110,
+      "modelId": 5004,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 55111,
+      "modelId": 5003,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Platform/Chassis (7JD, 7JE, 7JL, 7JY, 7JZ, 7F",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 55112,
+      "modelId": 4988,
+      "manufacturerName": "VW",
+      "modelName": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN)",
+      "typeEngineName": "2.0 TSI",
+      "constructionIntervalStart": "2012-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 56115,
+      "modelId": 7534,
+      "manufacturerName": "AUDI",
+      "modelName": "Q5 (8RB)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 56791,
+      "modelId": 10735,
+      "manufacturerName": "VW",
+      "modelName": "BEETLE Convertible (5C7, 5C8)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2011-12-01",
+      "constructionIntervalEnd": "2016-07-01"
+    },
+    {
+      "vehicleId": 56899,
+      "modelId": 10200,
+      "manufacturerName": "VW",
+      "modelName": "CC B7 (358)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 58529,
+      "modelId": 11084,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B7 (365)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 58530,
+      "modelId": 11084,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT ALLTRACK B7 (365)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 58748,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 59056,
+      "modelId": 9009,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (710, 711)",
+      "typeEngineName": "1.8 TSI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 59561,
+      "modelId": 6418,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B8 (8K2)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59570,
+      "modelId": 8031,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 Allroad B8 (8KH)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 106460,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 106461,
+      "modelId": 8030,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 Convertible (8F7)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 106462,
+      "modelId": 6243,
+      "manufacturerName": "AUDI",
+      "modelName": "A5 (8T3)",
+      "typeEngineName": "2.0 TFSI quattro",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2017-01-01"
     }
   ],
-  "specs": [],
-  "oe": [],
+  "specs": [
+    {
+      "criteriaName": "for OE number",
+      "criteriaValue": "06J 115 403 C"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "06H 115 403"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "06J 115 403 C"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "06J 115 403 J"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "06J 115 403 M"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "06J 115 403 Q"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "06J 115 561 B"
+    }
+  ],
   "ean": "",
-  "originalSKU": "06J115403Q",
-  "enrichedVia": "OEM-original",
-  "fetchedAt": "2026-04-04T00:23:32Z",
-  "isOEM": true
+  "source": "oem-search",
+  "fetchedAt": "2026-08-06T17:38:27.652Z"
 }
