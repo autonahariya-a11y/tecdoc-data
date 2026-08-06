@@ -1,4 +1,10 @@
-/* TecDoc Widget v11.4 — Hidden-span secondary SKU support (an-oem-sku)
+/* TecDoc Widget v11.5 — SKU detection from <title> + URL when .code_item is empty
+   Changes in v11.5:
+     • getStoreSKU() now falls back to parsing the SKU from document.title
+       (segment before ' | אוטו נהריה') when .code_item is empty/hidden.
+     • Additional fallback: parse trailing SKU token from window.location.pathname.
+     • Fixes the case where hybrid-product-page.js hides the native Konimbo
+       SKU element and the widget therefore couldn't detect any article number.
    Changes in v11.4:
      • getSecondarySKU() reads first from <span class="an-oem-sku" style="display:none">OEM_NUMBER</span>
        inside the product description — easiest way for store owner to supply OEM SKU per product.
@@ -575,7 +581,10 @@
       if (window.TECDOC_MAP && window.TECDOC_MAP[sku]) return window.TECDOC_MAP[sku];
       return sku;
     }
-    var el = document.getElementById('tecdoc-widget');
+    /* v11.5: also try the hybrid page container as a data-article source. */
+    var el = document.getElementById('tecdoc-widget') ||
+             document.getElementById('an-tecdoc-wrap') ||
+             document.getElementById('an-tecdoc-section');
     if (el) {
       var attr = el.getAttribute('data-article');
       if (attr && attr.trim()) return attr.trim();
@@ -654,6 +663,33 @@
       var text = codeEl.textContent.trim();
       text = text.replace(/^[\u05DE\u05E7"\u05D8:.\s]+/g, '').trim();
       if (text) sku = text;
+    }
+    /* v11.5 FALLBACK: if .code_item is empty/hidden (happens when hybrid
+       product page hides Konimbo's native layout), read SKU from <title>.
+       Format: 'שם המוצר | תיאור | מק"ט | אוטו נהריה' — SKU is the segment
+       right before ' | אוטו נהריה'. */
+    if (!sku) {
+      var docTitle = document.title || '';
+      var titleMatch = docTitle.match(/\|\s*([^|]{2,40}?)\s*\|\s*\u05d0\u05d5\u05d8\u05d5\s*\u05e0\u05d4\u05e8\u05d9\u05d4/);
+      if (titleMatch) {
+        var titleSku = titleMatch[1].trim();
+        if (titleSku.length >= 4 && titleSku.length <= 30 &&
+            !/[\u05d0-\u05ea]/.test(titleSku) && /[A-Za-z0-9]/.test(titleSku)) {
+          sku = titleSku;
+        }
+      }
+    }
+    /* v11.5 FALLBACK: also try the URL path — Konimbo product URLs often end
+       with the SKU: /items/<id>-<slug>-<SKU> */
+    if (!sku) {
+      var pathName = decodeURIComponent(window.location.pathname || '');
+      var urlMatch = pathName.match(/-([A-Z0-9]{4,20})(?:\/|$)/i);
+      if (urlMatch) {
+        var urlSku = urlMatch[1];
+        if (!/[\u05d0-\u05ea]/.test(urlSku) && /[A-Za-z0-9]/.test(urlSku)) {
+          sku = urlSku;
+        }
+      }
     }
     // If SKU matches Montecchio pattern (4-5 digits + letter), look for OEM SKU
     // in the product title instead — Montecchio SKUs aren't in TecDoc

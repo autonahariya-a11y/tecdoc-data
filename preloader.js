@@ -1,19 +1,17 @@
 /**
- * TecDoc Preloader — Eliminates loading delay on product pages
+ * TecDoc Preloader v4 — Robust SKU detection with title fallback
  *
  * This script runs BEFORE widget.js and pre-fetches the TecDoc JSON
  * for the current product using async fetch(), so the request starts
  * in parallel with HTML parsing — no render blocking.
  *
- * Place this in Konimbo foot_html BEFORE the widget.js script tag
- * (inline or without defer/async so it runs immediately).
- *
- * Strategy:
- * 1. Detect the product SKU from the page DOM (same logic as widget.js)
- * 2. Build the GitHub Pages cache URL
- * 3. Fire an async fetch() immediately — starts in parallel with page load
- * 4. Store { sku, promise, data } on window.TECDOC_PRELOAD
- * 5. Widget.js picks it up: if data is ready, render instantly (no skeleton)
+ * v4 changes:
+ *   • Reads SKU from page <title> (last pipe-separated segment before
+ *     "אוטו נהריה") — works even when .code_item is empty/hidden.
+ *   • Also tries the H1 heading and the URL path.
+ *   • Tries the container id '#an-tecdoc-wrap' in addition to '#tecdoc-widget'.
+ *   • Widens the price-selector detection so the preloader runs on more
+ *     Konimbo product page layouts.
  */
 (function() {
   'use strict';
@@ -21,15 +19,48 @@
   var BASE_URL = window.TECDOC_BASE_URL || 'https://autonahariya-a11y.github.io/tecdoc-data';
   var CACHE_URL = BASE_URL + '/data/';
 
-  /* ── Detect SKU — mirrors widget.js getStoreSKU() + detectArticleNo() ── */
+  /* ── Read SKU from Konimbo product page <title> ──
+     Format: 'שם המוצר | תיאור | מק"ט | אוטו נהריה'
+     The SKU is the token immediately before ' | אוטו נהריה'. */
+  function skuFromTitle() {
+    var title = document.title || '';
+    var m = title.match(/\|\s*([^|]{2,40}?)\s*\|\s*\u05d0\u05d5\u05d8\u05d5\s*\u05e0\u05d4\u05e8\u05d9\u05d4/);
+    if (!m) return null;
+    var candidate = m[1].trim();
+    if (candidate.length < 4 || candidate.length > 30) return null;
+    /* Reject if it contains Hebrew (would mean it's not a SKU) */
+    if (/[\u05d0-\u05ea]/.test(candidate)) return null;
+    /* Must contain at least one letter or digit */
+    if (!/[A-Za-z0-9]/.test(candidate)) return null;
+    return candidate;
+  }
+
+  /* ── Read SKU from URL path — e.g. /items/9479430-...-1680682480 ── */
+  function skuFromUrl() {
+    var path = decodeURIComponent(window.location.pathname || '');
+    /* Look for trailing alphanumeric OEM-style token at end of URL */
+    var m = path.match(/-([A-Z0-9]{4,20})(?:\/|$)/i);
+    if (m) {
+      var candidate = m[1];
+      /* Must be all-alpha, alphanumeric, or all-digit; reject Hebrew */
+      if (!/[\u05d0-\u05ea]/.test(candidate) && /[A-Za-z0-9]/.test(candidate)) {
+        return candidate;
+      }
+    }
+    return null;
+  }
+
+  /* ── Detect SKU — mirrors widget.js getStoreSKU() + adds title/url fallback ── */
   function getStoreSKU() {
+    /* Try .code_item first — the traditional Konimbo location */
     var codeEl = document.querySelector('.code_item');
     var sku = null;
     if (codeEl) {
-      var text = codeEl.textContent.trim();
+      var text = (codeEl.textContent || '').trim();
       text = text.replace(/^[\u05DE\u05E7"\u05D8:.\s]+/g, '').trim();
       if (text) sku = text;
     }
+    /* Try #item_specifications */
     if (!sku) {
       var specItems = document.querySelectorAll('#item_specifications li');
       for (var si = 0; si < specItems.length; si++) {
@@ -40,14 +71,24 @@
         }
       }
     }
-    // Montecchio pattern (4-5 digits + letter) → look for OEM SKU in title instead
+
+    /* v4: Fallback to <title> pipe segment (works when .code_item is empty) */
+    if (!sku) {
+      sku = skuFromTitle();
+    }
+    /* v4: Fallback to URL path last segment */
+    if (!sku) {
+      sku = skuFromUrl();
+    }
+
+    /* Montecchio pattern (4-5 digits + letter) → look for OEM SKU in title/H1 instead */
     if (sku && /^\d{4,5}[A-Za-z]$/.test(sku)) {
-      var title = document.title || '';
+      var searchText = document.title || '';
       var h1s = document.getElementsByTagName('h1');
       for (var hi = 0; hi < h1s.length; hi++) {
-        title += ' ' + (h1s[hi].textContent || '');
+        searchText += ' ' + (h1s[hi].textContent || '');
       }
-      var oemMatches = title.match(/\b([A-Z0-9][A-Z0-9\-]{4,}[0-9])\b/gi) || [];
+      var oemMatches = searchText.match(/\b([A-Z0-9][A-Z0-9\-]{4,}[0-9])\b/gi) || [];
       for (var om = 0; om < oemMatches.length; om++) {
         var candidate = oemMatches[om].trim();
         if (candidate === sku) continue;
@@ -66,7 +107,10 @@
       if (window.TECDOC_MAP && window.TECDOC_MAP[sku]) return window.TECDOC_MAP[sku];
       return sku;
     }
-    var el = document.getElementById('tecdoc-widget');
+    /* v4: try multiple widget container IDs */
+    var el = document.getElementById('tecdoc-widget') ||
+             document.getElementById('an-tecdoc-wrap') ||
+             document.getElementById('an-tecdoc-section');
     if (el) {
       var attr = el.getAttribute('data-article');
       if (attr && attr.trim()) return attr.trim();
@@ -104,6 +148,9 @@
     if (/^\d{5}[A-Z]/.test(artNo)) {
       variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
     }
+    /* v4: dashed OEM variant, e.g. 04152YZZA6 → 04152-YZZA6 */
+    var dashed = artNo.replace(/^(\d{4,6})([A-Z].+)$/i, '$1-$2');
+    if (dashed !== artNo) variations.push(dashed);
     var pfxMatch = artNo.match(/^(FEB|MAN|NGK|BOS|VAL|LUK|SKF|INA|FAG|SNR)(\d{4,})$/i);
     if (pfxMatch) variations.push(pfxMatch[2]);
     var nospace = artNo.replace(/[\s.-]/g, '');
@@ -111,13 +158,23 @@
     return variations;
   }
 
-  /* ── Only run on product pages ── */
-  var priceEl = document.querySelector('.price_value, .price_current, .price .number, .price_val, .item_current_price');
-  if (!priceEl) return;
+  /* ── Only run on product pages ──
+     v4: widen the selector so it works with newer/custom Konimbo layouts. */
+  var priceEl = document.querySelector(
+    '.price_value, .price_current, .price .number, .price_val, ' +
+    '.item_current_price, #item_show_price, .price_number, ' +
+    '[itemprop="price"], .item_price'
+  );
+  var itemContainer = document.querySelector('#item_details, #item_show, .item_show, .item_page');
+  if (!priceEl && !itemContainer) return;
 
   var articleNo = detectArticleNo();
-  if (!articleNo) return;
+  if (!articleNo) {
+    console.log('[TecDoc Preloader v4] No SKU detected on this page');
+    return;
+  }
 
+  console.log('[TecDoc Preloader v4] Detected SKU:', articleNo);
   var variations = articleVariations(articleNo);
 
   /* ── Async fetch with variation chain ── */
@@ -127,24 +184,27 @@
     return fetch(CACHE_URL + filename)
       .then(function(r) {
         if (!r.ok) return tryCache(idx + 1);
-        return r.json();
+        return r.json().then(function(data) {
+          console.log('[TecDoc Preloader v4] Match on variation:', variations[idx]);
+          return data;
+        });
       });
   }
 
   var fetchPromise = tryCache(0);
 
-  /* Store both the in-flight promise and (once resolved) the data */
   window.TECDOC_PRELOAD = {
     sku: articleNo,
+    variations: variations,
     promise: fetchPromise,
     data: null
   };
 
   fetchPromise.then(function(d) {
     window.TECDOC_PRELOAD.data = d;
-    console.log('[TecDoc Preloader] Data ready for', articleNo);
-  }).catch(function() {
-    console.log('[TecDoc Preloader] No cached data found for', articleNo);
+    console.log('[TecDoc Preloader v4] Data ready for', articleNo);
+  }).catch(function(err) {
+    console.log('[TecDoc Preloader v4] No cached data for', articleNo, '— tried', variations);
   });
 
 })();
