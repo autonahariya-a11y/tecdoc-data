@@ -963,7 +963,16 @@
     if (!detectedBrand && skuValue && /^\d{4,5}[A-Za-z]$/.test(skuValue.trim())) detectedBrand = 'MONTECCHIO';
   }
 
-  var brandData = BRAND_INFO[detectedBrand] || {name:detectedBrand||'\u05d9\u05e6\u05e8\u05df',description:'\u05d9\u05e6\u05e8\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1.',founded:'',country:'',color:'#1B4E91'};
+  /* v11.6: only fill brandData if we actually detected a real brand — avoid an
+     empty 'יצרן' chip when the brand is unknown */
+  var brandData;
+  if (detectedBrand && BRAND_INFO[detectedBrand]) {
+    brandData = BRAND_INFO[detectedBrand];
+  } else if (detectedBrand) {
+    brandData = {name:detectedBrand,description:'\u05d9\u05e6\u05e8\u05df \u05d7\u05dc\u05e7\u05d9 \u05d7\u05d9\u05dc\u05d5\u05e3 \u05de\u05d5\u05d1\u05d9\u05dc \u05dc\u05e8\u05db\u05d1.',founded:'',country:'',color:'#1B4E91'};
+  } else {
+    brandData = {name:'',description:'',founded:'',country:'',color:'#1B4E91'};
+  }
 
   /* v11.4: strip the brand name (and its aliases) from the product title
      since the brand is already shown in its own badge above the title.
@@ -1147,7 +1156,8 @@
   if (skuValue) html += '<span class="an-sku-badge">\u05de\u05e7"\u05d8: '+skuValue+'</span>';
   if (isOEMpart) {
     html += '<span class="an-brand-badge an-oem-badge" style="background:#0a7a4a">\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05d9\u05e6\u05e8\u05df</span>';
-  } else if (brandData.name) {
+  } else if (brandData.name && brandData.name !== '\u05d9\u05e6\u05e8\u05df') {
+    /* v11.6: skip empty 'יצרן' placeholder chip — only show when we have a real brand */
     html += '<span class="an-brand-badge" style="background:'+(brandData.color||'#c8102e')+'">'+brandData.name+'</span>';
   }
   html += '</div>';
@@ -1326,6 +1336,36 @@
       setTimeout(function(){ tdObs.disconnect(); }, 20000);
     }
   }
+
+  /* v11.6: hide the whole 'נתונים מ-TecDoc® Catalogue' card if the widget stays
+     stuck on the loading spinner — happens when the SKU isn't in TecDoc
+     (e.g. Subaru/Hyundai/Kia OEM numbers). Check every second for 15s
+     and remove the section when we detect a permanent loading state
+     (spinner visible and no populated content). */
+  function hideEmptyTecdocSection() {
+    var section = document.getElementById('an-tecdoc-section');
+    if (!section) return false;
+    var wrap = document.getElementById('an-tecdoc-wrap');
+    var tw = document.getElementById('tecdoc-widget');
+    if (!wrap || !tw) return false;
+    /* If widget has been populated with real content — leave alone */
+    var hasVehicles = wrap.querySelector('.tw-vehicles-list, .tw-vehicles-table, [data-panel="vehicles"] .an-veh-group, .an-veh-group');
+    var hasSpecs = wrap.querySelector('.tw-specs-table, .an-tab-panel table, [data-panel="tech"] table');
+    if (hasVehicles || hasSpecs) return true;
+    /* If we see the loading spinner or an error, hide the whole card */
+    var stillLoading = wrap.querySelector('.tw-spinner, .tw-loading');
+    var errorShown = wrap.querySelector('.tw-error, .tw-no-data');
+    var widgetHidden = tw.style && tw.style.display === 'none';
+    if (stillLoading || errorShown || widgetHidden) {
+      section.style.display = 'none';
+      return true;
+    }
+    return false;
+  }
+  /* Poll for 15s */
+  [4000, 6000, 8000, 10000, 12000, 15000].forEach(function(t){
+    setTimeout(hideEmptyTecdocSection, t);
+  });
 
   /* Hide Konimbo's .tw-purchase-row */
   function hideTwPurchaseRow() {
