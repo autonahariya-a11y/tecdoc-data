@@ -1717,14 +1717,8 @@
         }
         allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF', value: supplierDisplay });
       }
-      /* Add article number as separate row */
-      if (D.articleNo) {
-        allSpecs.push({ name: '\u05DE\u05E7"\u05D8', value: D.articleNo });
-      }
-      /* Add product type */
-      if (D.product) {
-        allSpecs.push({ name: '\u05E1\u05D5\u05D2 \u05DE\u05D5\u05E6\u05E8', value: trProduct(D.product) });
-      }
+      /* v11.9: Removed מק"ט/סוג מוצר/סוג פילטר rows per user request
+         (technical spec tab should only contain actual TecDoc technical criteria). */
       /* Add TecDoc specs — WHITELIST: only show specs in SPEC_TRANSLATIONS.
          Everything else is hidden. All names in Hebrew.
          Fitting Position: merge all values into ONE row. */
@@ -1844,7 +1838,7 @@
         }
       }
       for (var ai = 0; ai < allNums.length; ai++) {
-        html += '<span class="tw-oe-chip" style="display:inline-flex;align-items:center;background:#eef3fb;border:1px solid #c8d8f0;border-radius:6px;padding:7px 16px;font-size:13px;font-weight:600;color:#1B4E91;font-family:Courier New,monospace">' + esc(allNums[ai]) + '</span>';
+        html += '<span class="tw-oe-chip" style="display:inline-flex;align-items:center;background:#eef3fb;border:1px solid #c8d8f0;border-radius:6px;padding:7px 16px;font-size:13px;font-weight:600;color:#1B4E91;font-family:Courier New,monospace;direction:ltr;unicode-bidi:isolate">' + esc(allNums[ai]) + '</span>';
       }
       html += '</div>';
       html += '<div class="tw-oe-info">\u05DE\u05E1\u05E4\u05E8\u05D9 \u05D4-OE \u05DE\u05E9\u05DE\u05E9\u05D9\u05DD \u05DC\u05D4\u05E9\u05D5\u05D5\u05D0\u05D4 \u05D1\u05DC\u05D1\u05D3. \u05D9\u05E9 \u05DC\u05D5\u05D5\u05D3\u05D0 \u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1 \u05D4\u05E1\u05E4\u05E6\u05D9\u05E4\u05D9 \u05DC\u05E4\u05E0\u05D9 \u05E8\u05DB\u05D9\u05E9\u05D4.</div>';

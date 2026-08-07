@@ -2,7 +2,8 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v11.7: Hebrew OEM detection (מיצובישי/סוברו/מזדה etc. → brand card)
+     CSS INJECTION — v11.9: no sticky add-to-cart bar on spare-parts pages
+     (Previous v11.7: Hebrew OEM detection מיצובישי/סוברו/מזדה)
      v11.5: support SKUs with slash/dot (e.g. OX361/4D) + strip brand from title
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
@@ -1510,29 +1511,11 @@
   });
 
   /* ===================================================
-     STEP 9: Sticky mobile bar
+     STEP 9: Sticky mobile bar — v11.9: DISABLED for spare-parts pages.
+     User request: no floating "add to cart" bar on car spare-parts product
+     pages. The redesigned page keeps its primary add-to-cart button, so the
+     sticky duplicate is unnecessary.
      =================================================== */
-  var shortT = productTitle.length > 30 ? productTitle.substring(0,30)+'\u2026' : productTitle;
-  var sBarHtml = '<div id="an-sticky-bar"><div class="an-sticky-inner"><div class="an-sticky-info"><span class="an-sticky-title">'+shortT+'</span><span class="an-sticky-price">'+priceDisplay+'</span></div><button class="an-sticky-buy" id="an-sticky-btn">'+cartSvgSm+'\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e2\u05d2\u05dc\u05d4</button></div></div>';
-  var sc = document.createElement('div');
-  sc.innerHTML = sBarHtml;
-  document.body.appendChild(sc.firstChild);
-  var sSBtn = document.getElementById('an-sticky-btn');
-  if (sSBtn) sSBtn.addEventListener('click', function(e){e.preventDefault();clickRealCart();});
-
-  var sBar = document.getElementById('an-sticky-bar');
-  var pTop = document.querySelector('#an-product-redesign .an-product-top');
-  var sVis = false;
-  function checkSticky() {
-    if (!pTop || !sBar) return;
-    var r = pTop.getBoundingClientRect();
-    var show = r.top < -200;
-    if (show !== sVis) {
-      sVis = show;
-      if (show) sBar.classList.add('an-sticky-visible');
-      else sBar.classList.remove('an-sticky-visible');
-    }
-  }
-  window.addEventListener('scroll', checkSticky, {passive:true});
+  /*  (sticky bar code removed — v11.9)  */
 
 })();
