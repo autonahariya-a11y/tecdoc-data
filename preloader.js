@@ -166,14 +166,19 @@
   }
 
   /* ── Only run on product pages ──
-     v4: widen the selector so it works with newer/custom Konimbo layouts. */
+     v5: URL-based detection is the most reliable trigger since hybrid pages
+     hide/collapse both #item_details and the price element. */
+  var isProductUrl = /\/items\/\d+/.test(window.location.pathname || '');
   var priceEl = document.querySelector(
     '.price_value, .price_current, .price .number, .price_val, ' +
     '.item_current_price, #item_show_price, .price_number, ' +
-    '[itemprop="price"], .item_price'
+    '[itemprop="price"], .item_price, .an-price'
   );
-  var itemContainer = document.querySelector('#item_details, #item_show, .item_show, .item_page');
-  if (!priceEl && !itemContainer) return;
+  var itemContainer = document.querySelector(
+    '#item_details, #item_show, .item_show, .item_page, ' +
+    '#an-product-redesign, #an-tecdoc-section, #an-tecdoc-wrap'
+  );
+  if (!isProductUrl && !priceEl && !itemContainer) return;
 
   var articleNo = detectArticleNo();
   if (!articleNo) {
