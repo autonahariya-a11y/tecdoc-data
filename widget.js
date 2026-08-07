@@ -1,4 +1,9 @@
-/* TecDoc Widget v11.8 — Split title segments by whitespace for SINGLE-pipe titles
+/* TecDoc Widget v11.10 — Remove יצרן/סוג מוצר rows from specs tab (already in title)
+   Changes in v11.10:
+     • Specs tab: removed יצרן, סוג מוצר and מק"ט rows. They duplicate
+       information already visible in the product title, and clutter the
+       technical-criteria table.
+   Previous v11.8 — Split title segments by whitespace for SINGLE-pipe titles
    Changes in v11.8:
      • Fixes: SKU not detected on pages with single-pipe title format
        ('פילטר שמן MAHLE OX353/7D | אוטו נהריה') because the segment
@@ -1689,36 +1694,15 @@
 
     /* ── TAB PANEL 1: Technical Specs ── */
     html += '<div class="tw-panel tw-panel-active" data-panel="specs" style="display:block;">';
-    if (!D.specs.length && !D.articleNo && !D.supplier && !D.ean) {
+    if (!D.specs.length) {
+      /* v11.10: check only specs — supplier/articleNo no longer contribute rows */
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05DE\u05E4\u05E8\u05D8\u05D9\u05DD \u05D8\u05DB\u05E0\u05D9\u05D9\u05DD</div>';
     } else {
       var allSpecs = [];
-      /* Add supplier row */
-      var pLow = (D.product || '').toLowerCase();
-      var hideSupplier = (pLow === 'air filter' || pLow.indexOf('cabin air') !== -1 || pLow.indexOf('pollen') !== -1);
-      if (D.supplier && !hideSupplier) {
-        /* Translate OEM supplier names so the page never shows aftermarket-style labels for original parts */
-        var supplierDisplay = D.supplier;
-        var supLow = (D.supplier || '').toLowerCase();
-        if (supLow === 'vag original' || supLow === 'vag' || supLow === 'volkswagen' || supLow === 'audi' || supLow === 'skoda' || supLow === 'seat') {
-          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 VAG (\u05e4\u05d5\u05dc\u05e7\u05e1\u05d5\u05d5\u05d0\u05d2\u05df / \u05d0\u05d0\u05d5\u05d3\u05d9 / \u05e1\u05e7\u05d5\u05d3\u05d4 / \u05e1\u05d9\u05d8)';
-        } else if (supLow === 'toyota' || supLow === 'toyota original') {
-          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05d8\u05d5\u05d9\u05d5\u05d8\u05d4';
-        } else if (supLow === 'hyundai' || supLow === 'kia' || supLow === 'hyundai original' || supLow === 'kia original') {
-          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05d4\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9 / \u05e7\u05d9\u05d4';
-        } else if (supLow === 'bmw' || supLow === 'bmw original') {
-          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 BMW';
-        } else if (supLow === 'mercedes' || supLow === 'mercedes-benz' || supLow === 'mercedes original') {
-          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05de\u05e8\u05e6\u05d3\u05e1';
-        } else if (supLow === 'renault' || supLow === 'renault original') {
-          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 \u05e8\u05e0\u05d5';
-        } else if (D.isOEM === true) {
-          supplierDisplay = '\u05d7\u05dc\u05e7 \u05de\u05e7\u05d5\u05e8\u05d9 (' + D.supplier + ')';
-        }
-        allSpecs.push({ name: '\u05D9\u05E6\u05E8\u05DF', value: supplierDisplay });
-      }
-      /* v11.9: Removed מק"ט/סוג מוצר/סוג פילטר rows per user request
-         (technical spec tab should only contain actual TecDoc technical criteria). */
+      /* v11.10: Removed all יצרן / סוג מוצר / מק"ט rows from the specs tab.
+         Manufacturer and product type are already prominently displayed in
+         the product title — duplicating them inside the technical-details
+         table is redundant. Only real TecDoc technical criteria remain. */
       /* Add TecDoc specs — WHITELIST: only show specs in SPEC_TRANSLATIONS.
          Everything else is hidden. All names in Hebrew.
          Fitting Position: merge all values into ONE row. */
@@ -1757,13 +1741,9 @@
       /* Merge: priority specs first, then normal */
       allSpecs = allSpecs.concat(prioritySpecs).concat(normalSpecs);
 
-      /* ── Inject "יצרן" (manufacturer) row at the top of the specs table ──
-         Priority: site brand (from Liquid) → TecDoc supplier */
-      var siteBrandForRow = getSiteBrand();
-      var brandRowValue = siteBrandForRow || D.supplier || '';
-      if (brandRowValue) {
-        allSpecs.unshift({ name: '\u05D9\u05E6\u05E8\u05DF', value: brandRowValue, isBrandRow: true });
-      }
+      /* v11.10: יצרן row no longer injected — the manufacturer is already
+         shown in the product title above, so duplicating it in the tech-
+         details table only adds noise. */
 
       var hasHidden = allSpecs.length > SPECS_VISIBLE;
       html += '<table class="tw-specs-table" id="tw-specs-tbl">';

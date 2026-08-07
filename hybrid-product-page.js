@@ -2,8 +2,8 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v11.9: no sticky add-to-cart bar on spare-parts pages
-     (Previous v11.7: Hebrew OEM detection מיצובישי/סוברו/מזדה)
+     CSS INJECTION — v11.10: TecDoc section moved above highlights card
+     (Previous v11.9: no sticky add-to-cart bar on spare-parts pages)
      v11.5: support SKUs with slash/dot (e.g. OX361/4D) + strip brand from title
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
@@ -1249,6 +1249,18 @@
   html += '</div>'; /* end .an-product-top */
 
   /* ===================================================
+     v11.10: TecDoc section moved ABOVE the highlights card
+     User request: TecDoc data (technical details, compatible vehicles, OE)
+     should appear FIRST after the product hero — above the marketing
+     "performance/quality/safety" card, because it's the primary decision-
+     relevant content on spare-parts pages.
+     =================================================== */
+  html += '<div class="an-section-card" id="an-tecdoc-section">';
+  html += '<div class="an-tecdoc-attribution"><div class="an-tecdoc-dot"></div><span>\u05e0\u05ea\u05d5\u05e0\u05d9\u05dd \u05de-TecDoc\u00ae Catalogue</span></div>';
+  html += '<div id="an-tecdoc-wrap"></div>';
+  html += '</div>';
+
+  /* ===================================================
      SECTION 2: Highlights — "✦ ביצועים, איכות ובטיחות"
      =================================================== */
   html += '<div class="an-section-card">';
@@ -1288,13 +1300,8 @@
     }
   }
 
-  /* ===================================================
-     SECTION 4: TecDoc — tabs: פרטים טכניים, התאמה לרכבים, מספרי OE
-     =================================================== */
-  html += '<div class="an-section-card" id="an-tecdoc-section">';
-  html += '<div class="an-tecdoc-attribution"><div class="an-tecdoc-dot"></div><span>\u05e0\u05ea\u05d5\u05e0\u05d9\u05dd \u05de-TecDoc\u00ae Catalogue</span></div>';
-  html += '<div id="an-tecdoc-wrap"></div>';
-  html += '</div>';
+  /* SECTION 4 (TecDoc) has been relocated — rendered directly after the
+     product hero above. See v11.10 comment near top of layout. */
 
   /* ===================================================
      SECTION 5: Brand card
