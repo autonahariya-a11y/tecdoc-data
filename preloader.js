@@ -1,17 +1,18 @@
 /**
- * TecDoc Preloader v4 — Robust SKU detection with title fallback
+ * TecDoc Preloader v5 — Longest-SKU picker across title/H1/URL
  *
  * This script runs BEFORE widget.js and pre-fetches the TecDoc JSON
  * for the current product using async fetch(), so the request starts
  * in parallel with HTML parsing — no render blocking.
  *
- * v4 changes:
- *   • Reads SKU from page <title> (last pipe-separated segment before
- *     "אוטו נהריה") — works even when .code_item is empty/hidden.
- *   • Also tries the H1 heading and the URL path.
- *   • Tries the container id '#an-tecdoc-wrap' in addition to '#tecdoc-widget'.
- *   • Widens the price-selector detection so the preloader runs on more
- *     Konimbo product page layouts.
+ * v5 changes:
+ *   • Uses a shared isLikelySku()/pickLongestSku() helper: picks the
+ *     LONGEST alphanumeric token (≥6 chars, at least one digit, no Hebrew)
+ *     from the title, then H1, then URL path.
+ *   • No longer requires the trailing '| אוטו נהריה' anchor — works for
+ *     titles that end with the SKU (like '... | 15208AA100').
+ *   • URL parse tokenizes on non-alphanumeric characters so long SKUs like
+ *     '15208AA100' don't get truncated to 'AA100'.
  */
 (function() {
   'use strict';
@@ -19,35 +20,45 @@
   var BASE_URL = window.TECDOC_BASE_URL || 'https://autonahariya-a11y.github.io/tecdoc-data';
   var CACHE_URL = BASE_URL + '/data/';
 
-  /* ── Read SKU from Konimbo product page <title> ──
-     Format: 'שם המוצר | תיאור | מק"ט | אוטו נהריה'
-     The SKU is the token immediately before ' | אוטו נהריה'. */
-  function skuFromTitle() {
-    var title = document.title || '';
-    var m = title.match(/\|\s*([^|]{2,40}?)\s*\|\s*\u05d0\u05d5\u05d8\u05d5\s*\u05e0\u05d4\u05e8\u05d9\u05d4/);
-    if (!m) return null;
-    var candidate = m[1].trim();
-    if (candidate.length < 4 || candidate.length > 30) return null;
-    /* Reject if it contains Hebrew (would mean it's not a SKU) */
-    if (/[\u05d0-\u05ea]/.test(candidate)) return null;
-    /* Must contain at least one letter or digit */
-    if (!/[A-Za-z0-9]/.test(candidate)) return null;
-    return candidate;
+  /* ── Longest-SKU picker (shared logic across title / H1 / URL) ── */
+  function isLikelySku(candidate) {
+    if (!candidate) return false;
+    candidate = candidate.trim();
+    if (candidate.length < 6 || candidate.length > 30) return false;
+    if (/[\u05d0-\u05ea]/.test(candidate)) return false;  /* no Hebrew */
+    if (!/\d/.test(candidate)) return false;              /* must have a digit */
+    if (!/^[A-Za-z0-9][A-Za-z0-9._\/-]*[A-Za-z0-9]$/.test(candidate)) return false;
+    var alnum = candidate.replace(/[^A-Za-z0-9]/g, '');
+    if (alnum.length < candidate.length * 0.7) return false;
+    return true;
+  }
+  function pickLongestSku(candidates) {
+    var best = null;
+    for (var ci = 0; ci < candidates.length; ci++) {
+      var c = (candidates[ci] || '').trim();
+      if (isLikelySku(c) && (!best || c.length > best.length)) best = c;
+    }
+    return best;
   }
 
-  /* ── Read SKU from URL path — e.g. /items/9479430-...-1680682480 ── */
+  function skuFromTitle() {
+    var title = document.title || '';
+    return pickLongestSku(title.split('|'));
+  }
+
+  function skuFromH1() {
+    var h1s = document.getElementsByTagName('h1');
+    var candidates = [];
+    for (var i = 0; i < h1s.length; i++) {
+      var toks = (h1s[i].textContent || '').split(/[|\s,\u05f4\u05f3]+/);
+      for (var j = 0; j < toks.length; j++) candidates.push(toks[j]);
+    }
+    return pickLongestSku(candidates);
+  }
+
   function skuFromUrl() {
     var path = decodeURIComponent(window.location.pathname || '');
-    /* Look for trailing alphanumeric OEM-style token at end of URL */
-    var m = path.match(/-([A-Z0-9]{4,20})(?:\/|$)/i);
-    if (m) {
-      var candidate = m[1];
-      /* Must be all-alpha, alphanumeric, or all-digit; reject Hebrew */
-      if (!/[\u05d0-\u05ea]/.test(candidate) && /[A-Za-z0-9]/.test(candidate)) {
-        return candidate;
-      }
-    }
-    return null;
+    return pickLongestSku(path.split(/[^A-Za-z0-9]+/));
   }
 
   /* ── Detect SKU — mirrors widget.js getStoreSKU() + adds title/url fallback ── */
@@ -72,14 +83,10 @@
       }
     }
 
-    /* v4: Fallback to <title> pipe segment (works when .code_item is empty) */
-    if (!sku) {
-      sku = skuFromTitle();
-    }
-    /* v4: Fallback to URL path last segment */
-    if (!sku) {
-      sku = skuFromUrl();
-    }
+    /* v5: Fallback chain — title, then H1, then URL path */
+    if (!sku) sku = skuFromTitle();
+    if (!sku) sku = skuFromH1();
+    if (!sku) sku = skuFromUrl();
 
     /* Montecchio pattern (4-5 digits + letter) → look for OEM SKU in title/H1 instead */
     if (sku && /^\d{4,5}[A-Za-z]$/.test(sku)) {
@@ -170,11 +177,11 @@
 
   var articleNo = detectArticleNo();
   if (!articleNo) {
-    console.log('[TecDoc Preloader v4] No SKU detected on this page');
+    console.log('[TecDoc Preloader v5] No SKU detected on this page');
     return;
   }
 
-  console.log('[TecDoc Preloader v4] Detected SKU:', articleNo);
+  console.log('[TecDoc Preloader v5] Detected SKU:', articleNo);
   var variations = articleVariations(articleNo);
 
   /* ── Async fetch with variation chain ── */
@@ -185,7 +192,7 @@
       .then(function(r) {
         if (!r.ok) return tryCache(idx + 1);
         return r.json().then(function(data) {
-          console.log('[TecDoc Preloader v4] Match on variation:', variations[idx]);
+          console.log('[TecDoc Preloader v5] Match on variation:', variations[idx]);
           return data;
         });
       });
@@ -202,9 +209,9 @@
 
   fetchPromise.then(function(d) {
     window.TECDOC_PRELOAD.data = d;
-    console.log('[TecDoc Preloader v4] Data ready for', articleNo);
+    console.log('[TecDoc Preloader v5] Data ready for', articleNo);
   }).catch(function(err) {
-    console.log('[TecDoc Preloader v4] No cached data for', articleNo, '— tried', variations);
+    console.log('[TecDoc Preloader v5] No cached data for', articleNo, '— tried', variations);
   });
 
 })();

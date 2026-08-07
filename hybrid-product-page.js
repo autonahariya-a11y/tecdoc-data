@@ -2,7 +2,8 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v11.5: support SKUs with slash/dot (e.g. OX361/4D) + strip brand from title
+     CSS INJECTION — v11.6: numeric-prefix SKU support (15208AA100 not cropped to AA100)
+     v11.5: support SKUs with slash/dot (e.g. OX361/4D) + strip brand from title
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
     var styleEl = document.createElement('style');
@@ -784,23 +785,57 @@
   }
 
   var skuValue = '';
-  var mcMatch = productTitle.match(/\b(\d{4,5}[A-Za-z])\b/);
-  if (mcMatch) skuValue = mcMatch[1];
-  if (!skuValue) {
-    var tParts = productTitle.split('|');
-    for (var tp = tParts.length - 1; tp >= 0; tp--) {
-      var skuM = tParts[tp].trim().match(/([A-Za-z][A-Za-z0-9\-\/\.]{3,}[0-9][A-Za-z0-9\/\.]*)/);
-      if (skuM) {
-        var cand = skuM[1].trim();
-        if (/\d/.test(cand) && /[A-Za-z]/.test(cand) && !/[\u05d0-\u05ea]{3}/.test(cand)) {
+  /* v3.18: robust longest-token SKU picker — previously the leading-letter
+     regex was cropping numeric-prefixed SKUs like 15208AA100 down to 'AA100'.
+     We now scan every pipe-separated segment of the title AND every
+     whitespace/dash-separated sub-token inside those segments, pick the
+     LONGEST alphanumeric token that (a) has both a letter and a digit,
+     (b) contains no Hebrew, and (c) is ≥6 chars long. */
+  function _isLikelySku(cand) {
+    if (!cand) return false;
+    cand = cand.trim();
+    if (cand.length < 6 || cand.length > 30) return false;
+    if (/[\u05d0-\u05ea]/.test(cand)) return false;
+    if (!/\d/.test(cand)) return false;
+    if (!/[A-Za-z]/.test(cand) && cand.length < 8) return false;  /* pure-digit SKUs must be ≥8 chars */
+    if (!/^[A-Za-z0-9][A-Za-z0-9._\/\-]*[A-Za-z0-9]$/.test(cand)) return false;
+    var alnum = cand.replace(/[^A-Za-z0-9]/g, '');
+    if (alnum.length < cand.length * 0.7) return false;
+    return true;
+  }
+  function _pickLongestSkuFromTitle(title) {
+    var best = null;
+    var segments = title.split('|');
+    for (var si = 0; si < segments.length; si++) {
+      var seg = (segments[si] || '').trim();
+      /* Also try each whitespace/dash-separated sub-token within the segment */
+      var subs = seg.split(/[\s,\u05f4\u05f3]+/);
+      subs.push(seg);
+      for (var sj = 0; sj < subs.length; sj++) {
+        var c = (subs[sj] || '').trim();
+        /* Strip known aftermarket brand prefix (BOSCH, MANN etc.) */
+        var stripped = c;
+        if (typeof BRAND_INFO !== 'undefined') {
           var bKs = Object.keys(BRAND_INFO);
           for (var bki = 0; bki < bKs.length; bki++) {
-            if (cand.toUpperCase().indexOf(bKs[bki]) === 0) { cand = cand.substring(bKs[bki].length).trim(); break; }
+            if (stripped.toUpperCase().indexOf(bKs[bki]) === 0) {
+              stripped = stripped.substring(bKs[bki].length).trim();
+              break;
+            }
           }
-          if (cand) { skuValue = cand; break; }
+        }
+        if (_isLikelySku(stripped) && (!best || stripped.length > best.length)) {
+          best = stripped;
         }
       }
     }
+    return best;
+  }
+  skuValue = _pickLongestSkuFromTitle(productTitle) || '';
+  /* Montecchio-style trailing pattern only kicks in as last resort */
+  if (!skuValue) {
+    var mcMatch = productTitle.match(/\b(\d{4,5}[A-Za-z])\b/);
+    if (mcMatch) skuValue = mcMatch[1];
   }
   if (!skuValue) {
     var codeEls = document.getElementsByTagName('*');

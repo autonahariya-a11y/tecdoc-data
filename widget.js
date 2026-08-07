@@ -1,7 +1,15 @@
-/* TecDoc Widget v11.5 — SKU detection from <title> + URL when .code_item is empty
+/* TecDoc Widget v11.6 — Robust SKU extraction from title/H1
+   Changes in v11.6:
+     • Title parse no longer requires the trailing ' | אוטו נהריה' anchor —
+       instead finds the LONGEST pipe-separated segment that looks like
+       an SKU (all-ASCII, ≥6 chars, mostly digits+letters, no Hebrew).
+     • URL parse extracts the LAST alphanumeric token from the path so
+       long SKUs like '15208AA100' aren't truncated to trailing 'AA100'.
+     • Adds H1 fallback with the same longest-SKU logic.
+     • Ensures the detected SKU has at least one digit AND at least 6 chars
+       (filters out generic words that leaked through v11.5).
    Changes in v11.5:
-     • getStoreSKU() now falls back to parsing the SKU from document.title
-       (segment before ' | אוטו נהריה') when .code_item is empty/hidden.
+     • getStoreSKU() first fallback was parsing SKU from document.title.
      • Additional fallback: parse trailing SKU token from window.location.pathname.
      • Fixes the case where hybrid-product-page.js hides the native Konimbo
        SKU element and the widget therefore couldn't detect any article number.
@@ -664,32 +672,57 @@
       text = text.replace(/^[\u05DE\u05E7"\u05D8:.\s]+/g, '').trim();
       if (text) sku = text;
     }
-    /* v11.5 FALLBACK: if .code_item is empty/hidden (happens when hybrid
-       product page hides Konimbo's native layout), read SKU from <title>.
-       Format: 'שם המוצר | תיאור | מק"ט | אוטו נהריה' — SKU is the segment
-       right before ' | אוטו נהריה'. */
+    /* v11.6 FALLBACK: if .code_item is empty/hidden (happens when the hybrid
+       product page hides Konimbo's native layout), find the SKU in the
+       document title or H1. We look for the LONGEST pipe-separated segment
+       (or, in URL/H1, the longest whitespace/dash-separated token) that
+       looks like an SKU: ASCII-only, ≥6 chars, has at least one digit,
+       and contains no Hebrew characters. */
+    function isLikelySku(candidate) {
+      if (!candidate) return false;
+      candidate = candidate.trim();
+      if (candidate.length < 6 || candidate.length > 30) return false;
+      if (/[\u05d0-\u05ea]/.test(candidate)) return false;
+      if (!/\d/.test(candidate)) return false;  /* must have at least one digit */
+      if (!/^[A-Za-z0-9][A-Za-z0-9._\/-]*[A-Za-z0-9]$/.test(candidate)) return false;
+      /* Reject if too many special chars */
+      var alnum = candidate.replace(/[^A-Za-z0-9]/g, '');
+      if (alnum.length < candidate.length * 0.7) return false;
+      return true;
+    }
+    function pickLongestSku(candidates) {
+      var best = null;
+      for (var ci = 0; ci < candidates.length; ci++) {
+        var c = (candidates[ci] || '').trim();
+        if (isLikelySku(c) && (!best || c.length > best.length)) best = c;
+      }
+      return best;
+    }
     if (!sku) {
       var docTitle = document.title || '';
-      var titleMatch = docTitle.match(/\|\s*([^|]{2,40}?)\s*\|\s*\u05d0\u05d5\u05d8\u05d5\s*\u05e0\u05d4\u05e8\u05d9\u05d4/);
-      if (titleMatch) {
-        var titleSku = titleMatch[1].trim();
-        if (titleSku.length >= 4 && titleSku.length <= 30 &&
-            !/[\u05d0-\u05ea]/.test(titleSku) && /[A-Za-z0-9]/.test(titleSku)) {
-          sku = titleSku;
-        }
-      }
+      var titleParts = docTitle.split('|');
+      sku = pickLongestSku(titleParts);
     }
-    /* v11.5 FALLBACK: also try the URL path — Konimbo product URLs often end
-       with the SKU: /items/<id>-<slug>-<SKU> */
+    /* v11.6 FALLBACK: also check H1 headings for a bare SKU token */
+    if (!sku) {
+      var h1Nodes = document.getElementsByTagName('h1');
+      var h1Candidates = [];
+      for (var hi2 = 0; hi2 < h1Nodes.length; hi2++) {
+        var txt = (h1Nodes[hi2].textContent || '').trim();
+        /* split by pipes, spaces, and Hebrew whitespace punctuation */
+        var toks = txt.split(/[|\s,\u05f4\u05f3]+/);
+        for (var ti = 0; ti < toks.length; ti++) h1Candidates.push(toks[ti]);
+      }
+      sku = pickLongestSku(h1Candidates);
+    }
+    /* v11.6 FALLBACK: URL path — pick the LONGEST alphanumeric token from
+       the pathname (Konimbo URLs often end with the SKU, but the token can
+       be preceded by Hebrew slug segments). */
     if (!sku) {
       var pathName = decodeURIComponent(window.location.pathname || '');
-      var urlMatch = pathName.match(/-([A-Z0-9]{4,20})(?:\/|$)/i);
-      if (urlMatch) {
-        var urlSku = urlMatch[1];
-        if (!/[\u05d0-\u05ea]/.test(urlSku) && /[A-Za-z0-9]/.test(urlSku)) {
-          sku = urlSku;
-        }
-      }
+      /* Tokenize by non-alphanumeric so long SKUs like '15208AA100' stay whole */
+      var pathTokens = pathName.split(/[^A-Za-z0-9]+/);
+      sku = pickLongestSku(pathTokens);
     }
     // If SKU matches Montecchio pattern (4-5 digits + letter), look for OEM SKU
     // in the product title instead — Montecchio SKUs aren't in TecDoc
