@@ -1,0 +1,191 @@
+{
+  "articleNo": "04152YZZA1",
+  "articleId": 72180,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "TOYOTA",
+  "matchedArticleNo": "0 986 4B7 015",
+  "vehicles": [
+    {
+      "vehicleId": 7235,
+      "modelId": 9138,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VERSO S (_P12_)",
+      "typeEngineName": "1.4 D4-D (NLP121_, NLP121R)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 9793,
+      "modelId": 9572,
+      "manufacturerName": "SUBARU",
+      "modelName": "TREZIA",
+      "typeEngineName": "1.4 D",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11253,
+      "modelId": 9111,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P13_)",
+      "typeEngineName": "1.4 D (NLP130_, NLP130)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 32025,
+      "modelId": 8253,
+      "manufacturerName": "TOYOTA",
+      "modelName": "URBAN CRUISER (_P1_)",
+      "typeEngineName": "1.4 D-4D (NLP110_, NLP110R)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 32026,
+      "modelId": 8253,
+      "manufacturerName": "TOYOTA",
+      "modelName": "URBAN CRUISER (_P1_)",
+      "typeEngineName": "1.4 D-4D 4WD (NLP115_, NLP115R)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 52439,
+      "modelId": 11560,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E18_, ZRE1_)",
+      "typeEngineName": "1.4 D-4D (NDE180_, NDE170_)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 134559,
+      "modelId": 38365,
+      "manufacturerName": "LEXUS",
+      "modelName": "LS (_F5_)",
+      "typeEngineName": "500h (GVF50, GVF50_, GVF50R)",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140360,
+      "modelId": 37348,
+      "manufacturerName": "LEXUS",
+      "modelName": "LC Coupe (_Z10_)",
+      "typeEngineName": "500h (GWZ100_, GWZ100R)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19255,
+      "modelId": 5499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P9_)",
+      "typeEngineName": "1.4 D-4D (NLP90_, NLP90R)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 22467,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.4 D-4D (NDE150_, NDE150R)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 31144,
+      "modelId": 8046,
+      "manufacturerName": "TOYOTA",
+      "modelName": "IQ (_J1_)",
+      "typeEngineName": "1.4 D-4D (NUJ10_, NUJ10R)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 31150,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.4 D-4D (NDE150)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 57455,
+      "modelId": 10460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E18_)",
+      "typeEngineName": "1.4 D-4D (NDE180_, NDE180R)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 59604,
+      "modelId": 11280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Estate (_E18_)",
+      "typeEngineName": "1.4 D-4D (NDE180_)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2018-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "67"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "70"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with gaskets/seals"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "29"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152 31090"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "04152 31110"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152-0V010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152-YZZA8"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152YZZA1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152YZZD1"
+    },
+    {
+      "oemBrand": "LOTUS",
+      "oemDisplayNo": "A132E6399S"
+    }
+  ],
+  "ean": "4047026361216",
+  "source": "oem-search",
+  "fetchedAt": "2026-08-07T09:47:09.172Z"
+}

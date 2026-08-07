@@ -1,0 +1,141 @@
+{
+  "articleNo": "15208AA100",
+  "articleId": 64076,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "SUBARU",
+  "matchedArticleNo": "0 986 452 614",
+  "vehicles": [
+    {
+      "vehicleId": 17663,
+      "modelId": 5060,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY IV (BL)",
+      "typeEngineName": "2.5 AWD (BL9)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-04-01"
+    },
+    {
+      "vehicleId": 20612,
+      "modelId": 3476,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Estate (GF)",
+      "typeEngineName": "1.5 L (GF1)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 20613,
+      "modelId": 3476,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Estate (GF)",
+      "typeEngineName": "1.5 L (GF1)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "1998-08-01"
+    },
+    {
+      "vehicleId": 20700,
+      "modelId": 4080,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY III Estate (BH)",
+      "typeEngineName": "2.0 RSK AWD (BH5)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 20702,
+      "modelId": 4081,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY III (BE)",
+      "typeEngineName": "2.0 RSK AWD (BE5)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 28347,
+      "modelId": 4080,
+      "manufacturerName": "SUBARU",
+      "modelName": "LEGACY III Estate (BH)",
+      "typeEngineName": "2.0 AWD",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 20427,
+      "modelId": 1291,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Saloon (GC)",
+      "typeEngineName": "2.0 AWD (GC8, GM8)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 20455,
+      "modelId": 1489,
+      "manufacturerName": "SUBARU",
+      "modelName": "IMPREZA Coupe (GFC)",
+      "typeEngineName": "2.0 AWD (GC8, GM8)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "70"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "80"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "63"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "1 5208-AA021"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208 AA020"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208 AA021"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208 AA022"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208 AA023"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208 AA024"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208 AA100"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "AY100-FJ021"
+    }
+  ],
+  "ean": "",
+  "source": "oem-search",
+  "fetchedAt": "2026-08-07T09:46:34.936Z"
+}
