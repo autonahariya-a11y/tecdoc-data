@@ -2,7 +2,7 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v11.6: numeric-prefix SKU support (15208AA100 not cropped to AA100)
+     CSS INJECTION — v11.7: Hebrew OEM detection (מיצובישי/סוברו/מזדה etc. → brand card)
      v11.5: support SKUs with slash/dot (e.g. OX361/4D) + strip brand from title
      =================================================== */
   if (!document.getElementById('an-style-v3')) {
@@ -931,6 +931,36 @@
     'VOLKSWAGEN':'VAG','AUDI ':'VAG','SKODA':'VAG','SEAT ':'VAG','CUPRA':'VAG'
   };
 
+  /* v11.7: Hebrew car-manufacturer names in the title → OEM detection
+     Maps מיצובישי/סוברו/מזדה/פורד etc. to their aftermarket brand+full name.
+     Only used if the SKU-pattern OEM detection didn't already match. */
+  var hebrewOemAliases = {
+    '\u05de\u05d9\u05e6\u05d5\u05d1\u05d9\u05e9\u05d9': {brand:'MITSUBISHI', make:'\u05de\u05d9\u05e6\u05d5\u05d1\u05d9\u05e9\u05d9'},
+    '\u05e1\u05d5\u05d1\u05e8\u05d5': {brand:'SUBARU', make:'\u05e1\u05d5\u05d1\u05e8\u05d5'},
+    '\u05de\u05d6\u05d3\u05d4': {brand:'MAZDA', make:'\u05de\u05d6\u05d3\u05d4'},
+    '\u05e4\u05d5\u05e8\u05d3': {brand:'FORD', make:'\u05e4\u05d5\u05e8\u05d3'},
+    '\u05d0\u05d5\u05e4\u05dc': {brand:'OPEL', make:'\u05d0\u05d5\u05e4\u05dc'},
+    '\u05e0\u05d9\u05e1\u05d0\u05df': {brand:'NISSAN', make:'\u05e0\u05d9\u05e1\u05d0\u05df'},
+    '\u05d0\u05d9\u05e1\u05d5\u05d6\u05d5': {brand:'ISUZU', make:'\u05d0\u05d9\u05e1\u05d5\u05d6\u05d5'},
+    '\u05e1\u05d5\u05d6\u05d5\u05e7\u05d9': {brand:'SUZUKI', make:'\u05e1\u05d5\u05d6\u05d5\u05e7\u05d9'},
+    '\u05d3\u05d0\u05d9\u05d4\u05d0\u05e6\u05d5': {brand:'DAIHATSU', make:'\u05d3\u05d0\u05d9\u05d4\u05d0\u05e6\u05d5'},
+    '\u05d8\u05d5\u05d9\u05d5\u05d8\u05d4': {brand:'TOYOTA', make:'\u05d8\u05d5\u05d9\u05d5\u05d8\u05d4'},
+    '\u05d4\u05d5\u05e0\u05d3\u05d4': {brand:'HONDA', make:'\u05d4\u05d5\u05e0\u05d3\u05d4'},
+    '\u05d4\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9': {brand:'HYUNDAI', make:'\u05d4\u05d9\u05d5\u05e0\u05d3\u05d0\u05d9'},
+    '\u05e7\u05d9\u05d4': {brand:'KIA', make:'\u05e7\u05d9\u05d4'},
+    '\u05e4\u05d6\u05d5': {brand:'PSA', make:'\u05e4\u05d6\u0027\u05d5'},
+    '\u05e4\u05d6\u0027\u05d5': {brand:'PSA', make:'\u05e4\u05d6\u0027\u05d5'},
+    '\u05e1\u05d9\u05d8\u05e8\u05d5\u05d0\u05df': {brand:'PSA', make:'\u05e1\u05d9\u05d8\u05e8\u05d5\u05d0\u05df'},
+    '\u05e8\u05e0\u05d5': {brand:'RENAULT', make:'\u05e8\u05e0\u05d5'},
+    '\u05de\u05e8\u05e6\u05d3\u05e1': {brand:'MERCEDES', make:'\u05de\u05e8\u05e6\u05d3\u05e1'},
+    '\u05d5\u05d5\u05dc\u05d5\u05d5': {brand:'VOLVO', make:'\u05d5\u05d5\u05dc\u05d5\u05d5'},
+    '\u05e6\u0027\u05e8\u05d9': {brand:'JEEP', make:'\u05d2\u0027\u05d9\u05e4'},
+    '\u05e4\u05d5\u05dc\u05e7\u05e1\u05d5\u05d5\u05d0\u05d2\u05df': {brand:'VAG', make:'\u05e4\u05d5\u05dc\u05e7\u05e1\u05d5\u05d5\u05d0\u05d2\u05df'},
+    '\u05d0\u05d0\u05d5\u05d3\u05d9': {brand:'VAG', make:'\u05d0\u05d0\u05d5\u05d3\u05d9'},
+    '\u05e1\u05e7\u05d5\u05d3\u05d4': {brand:'VAG', make:'\u05e1\u05e7\u05d5\u05d3\u05d4'},
+    '\u05e1\u05d9\u05d0\u05d8': {brand:'VAG', make:'\u05e1\u05d9\u05d0\u05d8'}
+  };
+
   /* === OEM DETECTION FIRST (priority over title-based detection) ===
      If SKU matches an OEM pattern, this is an ORIGINAL part — never label it
      as an aftermarket brand even if the title mentions one (e.g. SWAG, FEBI). */
@@ -946,6 +976,27 @@
     else if (/^A\d{10}$/.test(sk)) { detectedBrand='MERCEDES'; oemMake='\u05de\u05e8\u05e6\u05d3\u05e1'; }
     else if (/^(11|13|17|22|31|32|33|34|64)\d{9}$/.test(sk)) { detectedBrand='BMW'; oemMake='BMW'; }
     if (detectedBrand) isOEMpart = true;
+  }
+
+  /* === v11.7: Hebrew-title OEM detection ===
+     If the title contains מקורי/חלף-מקורי and a Hebrew manufacturer name,
+     this is an ORIGINAL part — promote it to OEM even without an SKU-pattern hit. */
+  if (!isOEMpart) {
+    var titleIsOriginal = productTitle.indexOf('\u05de\u05e7\u05d5\u05e8\u05d9') !== -1 || /* מקורי */
+                          productTitle.indexOf('\u05d7\u05dc\u05e3 \u05de\u05e7\u05d5\u05e8\u05d9') !== -1 || /* חלף מקורי */
+                          productTitle.indexOf('OEM') !== -1 ||
+                          productTitle.indexOf('OE ') !== -1;
+    if (titleIsOriginal) {
+      var hebKeys = Object.keys(hebrewOemAliases);
+      for (var hi = 0; hi < hebKeys.length; hi++) {
+        if (productTitle.indexOf(hebKeys[hi]) !== -1) {
+          detectedBrand = hebrewOemAliases[hebKeys[hi]].brand;
+          oemMake = hebrewOemAliases[hebKeys[hi]].make;
+          isOEMpart = true;
+          break;
+        }
+      }
+    }
   }
 
   /* === Title-based detection (only if not already OEM) === */
