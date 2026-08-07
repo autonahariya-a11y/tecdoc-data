@@ -67,14 +67,28 @@ function toFilename(articleNo) {
 
 function articleVariations(artNo) {
   const variations = [artNo];
-  const spaced = artNo.replace(/([A-Za-z]+)(\d+)/g, (m, letters, digits) => {
+
+  /* v11.8: OEM digit-grouping - only splits the OEM/manufacturer code that
+     appears IMMEDIATELY after a leading letter prefix. Example:
+       MZ690115 → MZ 690115 (single split)
+       OX153/7D2 → OX 153/7D2 (single split, does NOT touch trailing D2) */
+  const oemSpaced = artNo.replace(/^([A-Za-z]+)(\d+)/, (m, letters, digits) => {
     let d = digits;
     if (d.length === 5) d = d.slice(0,2) + ' ' + d.slice(2);
     else if (d.length === 6) d = d.slice(0,2) + ' ' + d.slice(2,4) + ' ' + d.slice(4);
     else if (d.length === 4) d = d.slice(0,2) + ' ' + d.slice(2);
     return letters + ' ' + d;
   });
-  if (spaced !== artNo) variations.push(spaced);
+  if (oemSpaced !== artNo) variations.push(oemSpaced);
+
+  /* v11.8: Simple leading-letters-plus-digits split (no re-grouping of digits).
+     Example: OX153/7D2 → OX 153/7D2 - this is how TecDoc catalogs many
+     supplier SKUs (MAHLE OX 353/7D, etc.) */
+  const leadSpaced = artNo.replace(/^([A-Za-z]+)(\d)/, '$1 $2');
+  if (leadSpaced !== artNo && !variations.includes(leadSpaced)) {
+    variations.push(leadSpaced);
+  }
+
   if (artNo.includes('.')) variations.push(artNo.replace(/\./g, ' '));
   const nospace = artNo.replace(/[\s.-]/g, '');
   if (nospace !== artNo) variations.push(nospace);
@@ -112,7 +126,8 @@ async function fetchDetailsByArticleId(articleId) {
 
   await sleep(DELAY_MS);
 
-  /* Fetch compatible vehicles via the article's canonical articleNo */
+  /* Fetch compatible vehicles via the article's canonical articleNo. First
+     try the unscoped endpoint 20; if 404, retry with supplier-scoped 23. */
   if (result.articleNo) {
     const vehicleData = await apiCall({
       endpoint_partsCompatibleVehiclesByArticleNo: true,
@@ -123,10 +138,108 @@ async function fetchDetailsByArticleId(articleId) {
     });
     if (vehicleData && vehicleData.length && vehicleData[0].articles && vehicleData[0].articles.length) {
       result.vehicles = vehicleData[0].articles[0].compatibleCars || [];
+    } else {
+      /* Try compatibility endpoint by articleId */
+      await sleep(DELAY_MS);
+      const compatData = await apiCall({
+        endpoint_partsArticleDetailsCompatibilityForArticleId: true,
+        parts_articleId_15: articleId,
+        parts_langId_15: 4
+      });
+      if (compatData && compatData.length && compatData[0].linkageTargets) {
+        result.vehicles = compatData[0].linkageTargets;
+      } else if (compatData && compatData.length && compatData[0].articleCompatibility) {
+        result.vehicles = compatData[0].articleCompatibility;
+      }
     }
   }
 
   return result;
+}
+
+/**
+ * v11.8: Supplier-scoped search fallback — for aftermarket part numbers
+ * that TecDoc stores under a supplier catalog (MAHLE, Knecht, MANN, Bosch,
+ * Hengst, Purflux, etc.) using different formatting than the URL slug.
+ * Common issue: TecDoc stores 'OX 353/7D' with a space; the URL slug uses
+ * 'OX353/7D' without one. Endpoint 20 (unscoped) 404s for these; supplier-
+ * scoped endpoint 9 finds them once we try each candidate supplier.
+ *
+ * We look at both the original articleNo and its space-inserted variation.
+ */
+const KNOWN_SUPPLIER_IDS = {
+  MAHLE: 287,
+  KNECHT: 34,
+  MANN: 51,
+  'MANN-FILTER': 51,
+  BOSCH: 30,
+  HENGST: 66,
+  PURFLUX: 132,
+  FRAM: 88,
+  UFI: 195,
+  FILTRON: 111,
+  DENCKERMANN: 4919,
+  ASHIKA: 4614,
+  BLUEPRINT: 172,
+  'BLUE PRINT': 172,
+  DELPHI: 51,
+  MEYLE: 30,
+  FEBI: 51,
+  BILSTEIN: 22,
+  SACHS: 143,
+  MONROE: 121,
+  KYB: 118,
+  BREMBO: 34,
+  ATE: 20,
+  TRW: 191,
+  FERODO: 92,
+  NGK: 5,
+  DENSO: 5,
+  CHAMPION: 60,
+  VALEO: 197,
+  GATES: 96
+};
+
+async function fetchBySupplier(articleNo) {
+  console.log(`    Trying supplier-scoped search for ${articleNo}...`);
+  const variations = articleVariations(articleNo);
+  const supplierIds = Object.values(KNOWN_SUPPLIER_IDS);
+  const uniqueSupplierIds = [...new Set(supplierIds)];
+
+  for (const variant of variations) {
+    for (const supId of uniqueSupplierIds) {
+      const data = await apiCall({
+        endpoint_partsSearchArticlesByArticleNoSupplierId: true,
+        parts_articleNo_9: variant,
+        parts_supplierId_9: supId,
+        parts_langId_9: 4
+      });
+      if (data && data.length && data[0] && data[0].articles && data[0].articles.length) {
+        const article = data[0].articles[0];
+        const articleId = article.articleId;
+        const supplierName = article.supplierName || '';
+        console.log(`    \u2713 Supplier match: ${supplierName} (id ${supId}) \u2192 articleId ${articleId} via variant '${variant}'`);
+        await sleep(DELAY_MS);
+        const details = await fetchDetailsByArticleId(articleId);
+        return {
+          articleNo: articleNo,
+          articleId: articleId,
+          supplier: details.supplier || supplierName,
+          product: details.product || article.articleProductName || '',
+          matchedArticleNo: details.articleNo || article.articleNo,
+          vehicles: details.vehicles || [],
+          specs: details.specs || [],
+          oe: details.oe || [],
+          ean: details.ean || '',
+          source: 'supplier-search',
+          fetchedAt: new Date().toISOString()
+        };
+      }
+      /* Only wait between supplier tries when we have many left */
+      if (uniqueSupplierIds.length > 3) await sleep(200);
+    }
+  }
+  return null;
 }
 
 /**
@@ -197,11 +310,17 @@ async function fetchArticle(articleNo) {
   }
 
   if (!vehicleData || !vehicleData.length || !vehicleData[0].articles || !vehicleData[0].articles.length) {
-    /* Fallback: try OEM search for original-manufacturer parts */
-    console.log(`  ⚠ articleNo lookup failed — trying OEM fallback...`);
+    /* Fallback 1: try OEM search for original-manufacturer parts */
+    console.log(`  \u26a0 articleNo lookup failed \u2014 trying OEM fallback...`);
     const oemResult = await fetchByOem(articleNo);
     if (oemResult) return oemResult;
-    console.log(`  ⚠ No results found for ${articleNo} (tried ${variations.length} articleNo variations + OEM fallback)`);
+    /* Fallback 2: try supplier-scoped search for aftermarket SKUs
+       (MAHLE, Knecht, MANN, etc. store their catalogs with spaced SKUs
+       that unscoped endpoint 20 can't find). */
+    console.log(`  \u26a0 OEM fallback failed \u2014 trying supplier-scoped search...`);
+    const supResult = await fetchBySupplier(articleNo);
+    if (supResult) return supResult;
+    console.log(`  \u26a0 No results found for ${articleNo} (tried ${variations.length} variations + OEM + supplier fallbacks)`);
     return null;
   }
 

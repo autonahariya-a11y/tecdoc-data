@@ -1,4 +1,10 @@
-/* TecDoc Widget v11.6 — Robust SKU extraction from title/H1
+/* TecDoc Widget v11.8 — Split title segments by whitespace for SINGLE-pipe titles
+   Changes in v11.8:
+     • Fixes: SKU not detected on pages with single-pipe title format
+       ('פילטר שמן MAHLE OX353/7D | אוטו נהריה') because the segment
+       contained Hebrew chars and was rejected as a whole. Now splits each
+       pipe-segment by whitespace/comma/Hebrew-punct and evaluates every token.
+   Previous v11.6 — Robust SKU extraction from title/H1
    Changes in v11.6:
      • Title parse no longer requires the trailing ' | אוטו נהריה' anchor —
        instead finds the LONGEST pipe-separated segment that looks like
@@ -699,9 +705,24 @@
       return best;
     }
     if (!sku) {
+      /* v11.8: split title by pipes AND by whitespace/dash inside each
+         segment. This handles Konimbo titles that use a SINGLE pipe with the
+         SKU embedded inside a longer Hebrew segment, e.g.:
+           'פילטר שמן MAHLE OX353/7D | אוטו נהריה'
+         The previous code only inspected each pipe-segment as a whole; that
+         whole string contains Hebrew chars, so isLikelySku rejected it and
+         no SKU was found. */
       var docTitle = document.title || '';
       var titleParts = docTitle.split('|');
-      sku = pickLongestSku(titleParts);
+      var titleTokens = [];
+      for (var tpi = 0; tpi < titleParts.length; tpi++) {
+        var seg = titleParts[tpi];
+        titleTokens.push(seg);  /* whole segment as fallback */
+        /* split segment by whitespace, commas, and Hebrew punctuation */
+        var sub = seg.split(/[\s,\u05f4\u05f3]+/);
+        for (var sbi = 0; sbi < sub.length; sbi++) titleTokens.push(sub[sbi]);
+      }
+      sku = pickLongestSku(titleTokens);
     }
     /* v11.6 FALLBACK: also check H1 headings for a bare SKU token */
     if (!sku) {
