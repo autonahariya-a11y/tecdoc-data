@@ -58,7 +58,7 @@
     'Material': '\u05d7\u05d5\u05de\u05e8',
     'Surface': '\u05e6\u05d9\u05e4\u05d5\u05d9',
     'Colour': '\u05e6\u05d1\u05e2',
-    'Filter type': '\u05e1\u05d5\u05d2 \u05e4\u05d9\u05dc\u05d8\u05e8',
+    /* v11.11: 'Filter type' removed from whitelist — duplicates title info */
 
     'Thickness [mm]': '\u05e2\u05d5\u05d1\u05d9 [\u05de"\u05de]',
     'Brake Disc Thickness [mm]': '\u05e2\u05d5\u05d1\u05d9 \u05d3\u05d9\u05e1\u05e7 [\u05de"\u05de]',
@@ -116,7 +116,7 @@
   };
 
   /* Priority order for display */
-  var PRIORITY_SPECS = ['Fitting Position', 'Brake System', 'Material', 'Brake Disc Type', 'Filter type'];
+  var PRIORITY_SPECS = ['Fitting Position', 'Brake System', 'Material', 'Brake Disc Type'];
 
   /* ── Brand info for "About the Manufacturer" section ── */
   var BRAND_INFO = {
@@ -201,7 +201,7 @@
     'MAPP': 'MAPP',
     'Spring/Clamp': '\u05E7\u05E4\u05D9\u05E5/\u05DE\u05D4\u05D3\u05E7',
     'Coating': '\u05E6\u05D9\u05E4\u05D5\u05D9',
-    'Filter type': '\u05E1\u05D5\u05D2 \u05E4\u05D9\u05DC\u05D8\u05E8',
+    /* v11.11: 'Filter type' removed */
     'Quantity': '\u05DB\u05DE\u05D5\u05EA',
     'Seal Material': '\u05D7\u05D5\u05DE\u05E8 \u05D0\u05D8\u05D9\u05DE\u05D4',
     'Packaging length [cm]': '\u05D0\u05D5\u05E8\u05DA \u05D0\u05E8\u05D9\u05D6\u05D4 [\u05E1"\u05DE]',
