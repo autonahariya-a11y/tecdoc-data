@@ -1,4 +1,11 @@
-/* TecDoc Widget v11.20 — MAHLE OX/OC/LX spaced-form priority + pending flag
+/* TecDoc Widget v11.21 — MAHLE variation fix (no digit chunking)
+   Changes in v11.21:
+     • v11.20 used digit-chunk regex that turned "OX1238D" into "OX 12 38D"
+       (invalid). Now uses SIMPLE prefix-space: "OX 1238D".
+     • Also adds "OX 177/3 D" (trailing-letter separated) form.
+     • Fixes OX1238D and OX177/3D that stayed loading in v11.20.
+
+   v11.20 — MAHLE OX/OC/LX spaced-form priority + pending flag
    Changes in v11.20:
      • MAHLE part numbers (OX/OC/LX/LA/KL/OF prefix + digits + optional letter)
        now try the spaced canonical form ("OX 387D") FIRST instead of last.
@@ -2142,11 +2149,18 @@
       else if (d.length === 4) d = d.slice(0,2) + ' ' + d.slice(2);
       return letters + ' ' + d;
     });
-    /* v11.20: MAHLE OX/OC/LX/KL uses "OX 387D" (spaced) as canonical TecDoc lookup.
-       Try spaced form FIRST for these prefixes to avoid an unnecessary 429-prone hop. */
-    var mahlePfx = /^(OX|OC|LX|LA|KL|OF)\d+[A-Z]?/i.test(artNo);
-    if (mahlePfx && spaced !== artNo) {
-      variations = [spaced, artNo];
+    /* v11.20/v11.21: MAHLE OX/OC/LX/KL uses "OX 387D" (spaced) as canonical TecDoc lookup.
+       Try spaced form FIRST for these prefixes to avoid an unnecessary 429-prone hop.
+       v11.21 fix: use SIMPLE prefix-space ("OX1238D" -> "OX 1238D"), not digit-chunked
+       ("OX 12 38D") which is invalid. Also generate the "OX 177/3 D" variant for slash SKUs. */
+    var mahleMatch = artNo.match(/^(OX|OC|LX|LA|KL|OF)([\d\/]+[A-Z]?)$/i);
+    if (mahleMatch) {
+      var mahleSpaced = mahleMatch[1].toUpperCase() + ' ' + mahleMatch[2];
+      var mahleForms = [mahleSpaced];
+      /* extra variant: 'OX 177/3 D' — space before trailing letter */
+      var trailLetter = mahleSpaced.match(/^(.+\d)([A-Z])$/);
+      if (trailLetter) mahleForms.push(trailLetter[1] + ' ' + trailLetter[2]);
+      variations = mahleForms.concat([artNo]);
     } else if (spaced !== artNo) {
       variations.push(spaced);
     }
