@@ -1,5 +1,10 @@
-/* TecDoc Widget v11.22 — Systematic variation rules + manual override table
-   Changes in v11.22:
+/* TecDoc Widget v11.23 — Israeli-market vehicle filter (extensive)
+   Changes in v11.23:
+     • הרחבת סינון רכבים לכל היצרנים (לא רק טויוטה)
+     • 290+ דגמים JDM/US/אסייתיים ספציפיים על פני 20+ יצרנים
+     • קאט-אוף שנה: רכבים מ-1995 והלאה בלבד
+     • ECLIPSE CROSS נשמר (רק ECLIPSE הישן מסונן)
+   v11.22 changes:
      • Rewrote articleVariations() with brand-specific rules (MAHLE, MANN,
        Hyundai/Kia, Toyota, VAG, Bosch, NGK). Removes bad digit-chunking.
      • Added tecdoc-overrides.js — manual SKU→TecDoc mapping for edge cases.
@@ -1984,9 +1989,342 @@
     /* --- משאיות + יצרנים בריטיים/סיניים נוספים --- */
     'RENAULT TRUCKS': 1, 'LDV': 1
   };
-  /* דגמים ספציפיים לסינון (יצרן:דגם) */
+  /* קאט-אוף שנה: רכבים מ-1995 והלאה בלבד */
+  var TW_MIN_YEAR = 1995;
+
+  /* דגמים ספציפיים לסינון (יצרן:דגם) — מורחב אוגוסט 2026 */
   var TW_EXCLUDED_MODELS = [
-    { mfr: 'ISUZU', modelIncludes: 'GEMINI' }
+    /* ─── ISUZU (סינון מקורי) ─── */
+    { mfr: 'ISUZU', modelIncludes: 'GEMINI' },
+
+    /* ─── TOYOTA — JDM/US only ─── */
+    { mfr: 'TOYOTA', modelIncludes: 'ARISTO' },
+    { mfr: 'TOYOTA', modelIncludes: 'ALTEZZA' },
+    { mfr: 'TOYOTA', modelIncludes: 'ALPHARD' },
+    { mfr: 'TOYOTA', modelIncludes: 'VELLFIRE' },
+    { mfr: 'TOYOTA', modelIncludes: 'ESTIMA' },
+    { mfr: 'TOYOTA', modelIncludes: 'ALLION' },
+    { mfr: 'TOYOTA', modelIncludes: 'PREMIO' },
+    { mfr: 'TOYOTA', modelIncludes: 'CROWN' },
+    { mfr: 'TOYOTA', modelIncludes: 'MARK II' },
+    { mfr: 'TOYOTA', modelIncludes: 'MARK X' },
+    { mfr: 'TOYOTA', modelIncludes: 'CHASER' },
+    { mfr: 'TOYOTA', modelIncludes: 'CRESTA' },
+    { mfr: 'TOYOTA', modelIncludes: 'SOARER' },
+    { mfr: 'TOYOTA', modelIncludes: 'CELSIOR' },
+    { mfr: 'TOYOTA', modelIncludes: 'CENTURY' },
+    { mfr: 'TOYOTA', modelIncludes: 'BREVIS' },
+    { mfr: 'TOYOTA', modelIncludes: 'PROGRES' },
+    { mfr: 'TOYOTA', modelIncludes: 'ORIGIN' },
+    { mfr: 'TOYOTA', modelIncludes: 'PROBOX' },
+    { mfr: 'TOYOTA', modelIncludes: 'SUCCEED' },
+    { mfr: 'TOYOTA', modelIncludes: 'REGIUS' },
+    { mfr: 'TOYOTA', modelIncludes: 'GRANVIA' },
+    { mfr: 'TOYOTA', modelIncludes: 'CAMI' },
+    { mfr: 'TOYOTA', modelIncludes: 'IST' },
+    { mfr: 'TOYOTA', modelIncludes: 'BLADE' },
+    { mfr: 'TOYOTA', modelIncludes: 'PORTE' },
+    { mfr: 'TOYOTA', modelIncludes: 'RACTIS' },
+    { mfr: 'TOYOTA', modelIncludes: 'PASSO' },
+    { mfr: 'TOYOTA', modelIncludes: 'PIXIS' },
+    { mfr: 'TOYOTA', modelIncludes: 'SIENTA' },
+    { mfr: 'TOYOTA', modelIncludes: 'ISIS' },
+    { mfr: 'TOYOTA', modelIncludes: 'GAIA' },
+    { mfr: 'TOYOTA', modelIncludes: 'IPSUM' },
+    { mfr: 'TOYOTA', modelIncludes: 'NADIA' },
+    { mfr: 'TOYOTA', modelIncludes: 'PLATZ' },
+    { mfr: 'TOYOTA', modelIncludes: 'FUN CARGO' },
+    { mfr: 'TOYOTA', modelIncludes: 'FUNCARGO' },
+    { mfr: 'TOYOTA', modelIncludes: 'RAUM' },
+    { mfr: 'TOYOTA', modelIncludes: 'CORONA' },
+    { mfr: 'TOYOTA', modelIncludes: 'CARINA' },
+    { mfr: 'TOYOTA', modelIncludes: 'CALDINA' },
+    { mfr: 'TOYOTA', modelIncludes: 'GRACIA' },
+    { mfr: 'TOYOTA', modelIncludes: 'MASTER ACE' },
+    { mfr: 'TOYOTA', modelIncludes: 'DUET' },
+    { mfr: 'TOYOTA', modelIncludes: 'HARRIER' },
+    /* US-only */
+    { mfr: 'TOYOTA', modelIncludes: 'TACOMA' },
+    { mfr: 'TOYOTA', modelIncludes: 'TUNDRA' },
+    { mfr: 'TOYOTA', modelIncludes: 'SEQUOIA' },
+    { mfr: 'TOYOTA', modelIncludes: '4RUNNER' },
+    { mfr: 'TOYOTA', modelIncludes: 'MATRIX' },
+    { mfr: 'TOYOTA', modelIncludes: 'PASEO' },
+    { mfr: 'TOYOTA', modelIncludes: 'ECHO' },
+    { mfr: 'TOYOTA', modelIncludes: 'VENZA' },
+    { mfr: 'TOYOTA', modelIncludes: 'PRIUS C' },
+    { mfr: 'TOYOTA', modelIncludes: 'TERCEL' },
+    { mfr: 'TOYOTA', modelIncludes: 'AURION' },
+    { mfr: 'TOYOTA', modelIncludes: 'AVENSIS VERSO' },
+    { mfr: 'TOYOTA', modelIncludes: 'PICNIC' },
+
+    /* ─── LEXUS ─── */
+    { mfr: 'LEXUS', modelIncludes: ' HS ' },
+    { mfr: 'LEXUS', modelIncludes: 'LFA' },
+    { mfr: 'LEXUS', modelIncludes: ' SC ' },
+    { mfr: 'LEXUS', modelIncludes: ' CT' },
+    { mfr: 'LEXUS', modelIncludes: 'GS F' },
+    { mfr: 'LEXUS', modelIncludes: ' LM ' },
+    { mfr: 'LEXUS', modelIncludes: ' LC ' },
+
+    /* ─── NISSAN — JDM/US ─── */
+    { mfr: 'NISSAN', modelIncludes: 'CEDRIC' },
+    { mfr: 'NISSAN', modelIncludes: 'GLORIA' },
+    { mfr: 'NISSAN', modelIncludes: 'FUGA' },
+    { mfr: 'NISSAN', modelIncludes: 'PRESIDENT' },
+    { mfr: 'NISSAN', modelIncludes: 'FIGARO' },
+    { mfr: 'NISSAN', modelIncludes: 'CIMA' },
+    { mfr: 'NISSAN', modelIncludes: 'LAUREL' },
+    { mfr: 'NISSAN', modelIncludes: 'STAGEA' },
+    { mfr: 'NISSAN', modelIncludes: 'AVENIR' },
+    { mfr: 'NISSAN', modelIncludes: 'BLUEBIRD' },
+    { mfr: 'NISSAN', modelIncludes: 'SUNNY' },
+    { mfr: 'NISSAN', modelIncludes: 'SILVIA' },
+    { mfr: 'NISSAN', modelIncludes: 'ELGRAND' },
+    { mfr: 'NISSAN', modelIncludes: 'SERENA' },
+    { mfr: 'NISSAN', modelIncludes: 'ARMADA' },
+    { mfr: 'NISSAN', modelIncludes: 'FRONTIER' },
+    { mfr: 'NISSAN', modelIncludes: 'TITAN' },
+    { mfr: 'NISSAN', modelIncludes: 'ROGUE' },
+    { mfr: 'NISSAN', modelIncludes: 'VERSA' },
+    { mfr: 'NISSAN', modelIncludes: 'PRIMERA' },
+
+    /* ─── HONDA ─── */
+    { mfr: 'HONDA', modelIncludes: 'ODYSSEY' },
+    { mfr: 'HONDA', modelIncludes: 'RIDGELINE' },
+    { mfr: 'HONDA', modelIncludes: 'PILOT' },
+    { mfr: 'HONDA', modelIncludes: 'PASSPORT' },
+    { mfr: 'HONDA', modelIncludes: 'ELEMENT' },
+    { mfr: 'HONDA', modelIncludes: 'STEP WGN' },
+    { mfr: 'HONDA', modelIncludes: 'STEPWGN' },
+    { mfr: 'HONDA', modelIncludes: 'FREED' },
+    { mfr: 'HONDA', modelIncludes: 'AIRWAVE' },
+    { mfr: 'HONDA', modelIncludes: 'MOBILIO' },
+    { mfr: 'HONDA', modelIncludes: 'STREAM' },
+    { mfr: 'HONDA', modelIncludes: 'INTEGRA' },
+    { mfr: 'HONDA', modelIncludes: 'PRELUDE' },
+    { mfr: 'HONDA', modelIncludes: 'INSPIRE' },
+    { mfr: 'HONDA', modelIncludes: 'LEGEND' },
+    { mfr: 'HONDA', modelIncludes: 'AVANCIER' },
+    { mfr: 'HONDA', modelIncludes: 'S2000' },
+
+    /* ─── MAZDA ─── */
+    { mfr: 'MAZDA', modelIncludes: 'RX-7' },
+    { mfr: 'MAZDA', modelIncludes: 'ATENZA' },
+    { mfr: 'MAZDA', modelIncludes: 'AXELA' },
+    { mfr: 'MAZDA', modelIncludes: 'DEMIO' },
+    { mfr: 'MAZDA', modelIncludes: 'MPV' },
+    { mfr: 'MAZDA', modelIncludes: 'TRIBUTE' },
+    { mfr: 'MAZDA', modelIncludes: 'BT-50' },
+    { mfr: 'MAZDA', modelIncludes: 'FAMILIA' },
+    { mfr: 'MAZDA', modelIncludes: 'BONGO' },
+    { mfr: 'MAZDA', modelIncludes: 'CAPELLA' },
+    { mfr: 'MAZDA', modelIncludes: 'CX-9' },
+    { mfr: 'MAZDA', modelIncludes: 'PREMACY' },
+    { mfr: 'MAZDA', modelIncludes: 'BIANTE' },
+
+    /* ─── HYUNDAI ─── */
+    { mfr: 'HYUNDAI', modelIncludes: 'AVANTE' },
+    { mfr: 'HYUNDAI', modelIncludes: 'GRANDEUR' },
+    { mfr: 'HYUNDAI', modelIncludes: 'DYNASTY' },
+    { mfr: 'HYUNDAI', modelIncludes: 'CENTENNIAL' },
+    { mfr: 'HYUNDAI', modelIncludes: 'EQUUS' },
+    { mfr: 'HYUNDAI', modelIncludes: 'PONY' },
+    { mfr: 'HYUNDAI', modelIncludes: 'MIGHTY' },
+    { mfr: 'HYUNDAI', modelIncludes: 'HB20' },
+    { mfr: 'HYUNDAI', modelIncludes: 'PALISADE' },
+    { mfr: 'HYUNDAI', modelIncludes: 'ENTOURAGE' },
+    { mfr: 'HYUNDAI', modelIncludes: 'CRETA' },
+    { mfr: 'HYUNDAI', modelIncludes: 'GENESIS COUPE' },
+    { mfr: 'HYUNDAI', modelIncludes: 'NEXO' },
+
+    /* ─── KIA ─── */
+    { mfr: 'KIA', modelIncludes: 'MOHAVE' },
+    { mfr: 'KIA', modelIncludes: 'BORREGO' },
+    { mfr: 'KIA', modelIncludes: 'SEDONA' },
+    { mfr: 'KIA', modelIncludes: 'MAGENTIS' },
+    { mfr: 'KIA', modelIncludes: 'AMANTI' },
+    { mfr: 'KIA', modelIncludes: 'SEPHIA' },
+    { mfr: 'KIA', modelIncludes: 'CLARUS' },
+    { mfr: 'KIA', modelIncludes: 'SHUMA' },
+    { mfr: 'KIA', modelIncludes: 'SPECTRA' },
+    { mfr: 'KIA', modelIncludes: 'TELLURIDE' },
+    { mfr: 'KIA', modelIncludes: 'K900' },
+
+    /* ─── FORD — US only ─── */
+    { mfr: 'FORD', modelIncludes: 'F-150' },
+    { mfr: 'FORD', modelIncludes: 'F-250' },
+    { mfr: 'FORD', modelIncludes: 'F-350' },
+    { mfr: 'FORD', modelIncludes: 'F-450' },
+    { mfr: 'FORD', modelIncludes: 'F-550' },
+    { mfr: 'FORD', modelIncludes: 'BRONCO' },
+    { mfr: 'FORD', modelIncludes: 'EXPEDITION' },
+    { mfr: 'FORD', modelIncludes: 'FLEX' },
+    { mfr: 'FORD', modelIncludes: 'FREESTYLE' },
+    { mfr: 'FORD', modelIncludes: 'FIVE HUNDRED' },
+    { mfr: 'FORD', modelIncludes: 'CROWN VICTORIA' },
+    { mfr: 'FORD', modelIncludes: 'TAURUS' },
+    { mfr: 'FORD', modelIncludes: 'THUNDERBIRD' },
+    { mfr: 'FORD', modelIncludes: 'MAVERICK' },
+    { mfr: 'FORD', modelIncludes: 'EXCURSION' },
+    { mfr: 'FORD', modelIncludes: 'AEROSTAR' },
+    { mfr: 'FORD', modelIncludes: 'WINDSTAR' },
+    { mfr: 'FORD', modelIncludes: 'FREESTAR' },
+    { mfr: 'FORD', modelIncludes: 'CONTOUR' },
+    { mfr: 'FORD', modelIncludes: 'PROBE' },
+    { mfr: 'FORD', modelIncludes: 'ESCAPE' },
+    { mfr: 'FORD', modelIncludes: 'SPORT TRAC' },
+    { mfr: 'FORD', modelIncludes: 'ORION' },
+    { mfr: 'FORD', modelIncludes: 'SIERRA' },
+    { mfr: 'FORD', modelIncludes: 'SCORPIO' },
+
+    /* ─── CHEVROLET ─── */
+    { mfr: 'CHEVROLET', modelIncludes: 'SILVERADO' },
+    { mfr: 'CHEVROLET', modelIncludes: 'COLORADO' },
+    { mfr: 'CHEVROLET', modelIncludes: 'AVALANCHE' },
+    { mfr: 'CHEVROLET', modelIncludes: 'S-10' },
+    { mfr: 'CHEVROLET', modelIncludes: 'TAHOE' },
+    { mfr: 'CHEVROLET', modelIncludes: 'SUBURBAN' },
+    { mfr: 'CHEVROLET', modelIncludes: 'TRAILBLAZER' },
+    { mfr: 'CHEVROLET', modelIncludes: 'EQUINOX' },
+    { mfr: 'CHEVROLET', modelIncludes: 'TRAVERSE' },
+    { mfr: 'CHEVROLET', modelIncludes: 'MALIBU' },
+    { mfr: 'CHEVROLET', modelIncludes: 'IMPALA' },
+    { mfr: 'CHEVROLET', modelIncludes: 'MONTE CARLO' },
+    { mfr: 'CHEVROLET', modelIncludes: 'HHR' },
+    { mfr: 'CHEVROLET', modelIncludes: 'COBALT' },
+    { mfr: 'CHEVROLET', modelIncludes: 'CAPRICE' },
+    { mfr: 'CHEVROLET', modelIncludes: 'ASTRO' },
+    { mfr: 'CHEVROLET', modelIncludes: 'EXPRESS' },
+    { mfr: 'CHEVROLET', modelIncludes: 'VENTURE' },
+    { mfr: 'CHEVROLET', modelIncludes: 'LUMINA' },
+    { mfr: 'CHEVROLET', modelIncludes: 'CAVALIER' },
+
+    /* ─── VW ─── */
+    { mfr: 'VW', modelIncludes: 'ROUTAN' },
+    { mfr: 'VW', modelIncludes: 'ATLAS' },
+    { mfr: 'VW', modelIncludes: 'PHAETON' },
+    { mfr: 'VW', modelIncludes: 'SANTANA' },
+    { mfr: 'VW', modelIncludes: 'BORA' },
+    { mfr: 'VW', modelIncludes: 'LAVIDA' },
+    { mfr: 'VW', modelIncludes: 'GOL' },
+    { mfr: 'VW', modelIncludes: 'VOYAGE' },
+    { mfr: 'VW', modelIncludes: 'CROSSFOX' },
+    { mfr: 'VW', modelIncludes: 'FOX' },
+    { mfr: 'VW', modelIncludes: 'AMEO' },
+    { mfr: 'VW', modelIncludes: 'CORRADO' },
+
+    /* ─── MERCEDES-BENZ ─── */
+    { mfr: 'MERCEDES-BENZ', modelIncludes: 'METRIS' },
+    { mfr: 'MERCEDES-BENZ', modelIncludes: 'FREIGHTLINER' },
+    { mfr: 'MERCEDES-BENZ', modelIncludes: 'MAYBACH' },
+
+    /* ─── SUBARU ─── */
+    { mfr: 'SUBARU', modelIncludes: 'DOMINGO' },
+    { mfr: 'SUBARU', modelIncludes: 'PLEO' },
+    { mfr: 'SUBARU', modelIncludes: 'STELLA' },
+    { mfr: 'SUBARU', modelIncludes: 'SAMBAR' },
+    { mfr: 'SUBARU', modelIncludes: 'DEX' },
+    { mfr: 'SUBARU', modelIncludes: 'JUSTY' },
+    { mfr: 'SUBARU', modelIncludes: 'LEONE' },
+    { mfr: 'SUBARU', modelIncludes: 'ALCYONE' },
+    { mfr: 'SUBARU', modelIncludes: 'BAJA' },
+    { mfr: 'SUBARU', modelIncludes: 'TRIBECA' },
+    { mfr: 'SUBARU', modelIncludes: 'ASCENT' },
+    { mfr: 'SUBARU', modelIncludes: 'EXIGA' },
+    { mfr: 'SUBARU', modelIncludes: 'BRZ' },
+
+    /* ─── MITSUBISHI ─── */
+    { mfr: 'MITSUBISHI', modelIncludes: 'DELICA' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'DIGNITY' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'DION' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'PROUDIA' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'DEBONAIR' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'DIAMANTE' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'GALANT FORTIS' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'CARISMA' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'DINGO' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'TOWNBOX' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'MINICA' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'RAIDER' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'ENDEAVOR' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'MONTERO' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'PAJERO IO' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'PAJERO PININ' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'CHARIOT' },
+    /* ECLIPSE הישן (קופה) נחסם — ECLIPSE CROSS נמכרת בישראל, לכן לא נחסם */
+    { mfr: 'MITSUBISHI', modelIncludes: 'STARION' },
+    { mfr: 'MITSUBISHI', modelIncludes: '3000 GT' },
+    { mfr: 'MITSUBISHI', modelIncludes: 'LEGNUM' },
+
+    /* ─── SUZUKI ─── */
+    { mfr: 'SUZUKI', modelIncludes: 'ESCUDO' },
+    { mfr: 'SUZUKI', modelIncludes: 'ERTIGA' },
+    { mfr: 'SUZUKI', modelIncludes: 'CIAZ' },
+    { mfr: 'SUZUKI', modelIncludes: 'CELERIO' },
+    { mfr: 'SUZUKI', modelIncludes: 'HUSTLER' },
+    { mfr: 'SUZUKI', modelIncludes: 'SPACIA' },
+    { mfr: 'SUZUKI', modelIncludes: 'WAGON R' },
+    { mfr: 'SUZUKI', modelIncludes: 'LAPIN' },
+    { mfr: 'SUZUKI', modelIncludes: 'PALETTE' },
+    { mfr: 'SUZUKI', modelIncludes: 'CARRY' },
+    { mfr: 'SUZUKI', modelIncludes: 'CULTUS' },
+    { mfr: 'SUZUKI', modelIncludes: 'CAPPUCCINO' },
+    { mfr: 'SUZUKI', modelIncludes: 'X-90' },
+    { mfr: 'SUZUKI', modelIncludes: 'ESTEEM' },
+    { mfr: 'SUZUKI', modelIncludes: 'FORENZA' },
+    { mfr: 'SUZUKI', modelIncludes: 'RENO' },
+    { mfr: 'SUZUKI', modelIncludes: 'VERONA' },
+    { mfr: 'SUZUKI', modelIncludes: 'AERIO' },
+    { mfr: 'SUZUKI', modelIncludes: 'KIZASHI' },
+    { mfr: 'SUZUKI', modelIncludes: 'XL7' },
+
+    /* ─── DAIHATSU ─── */
+    { mfr: 'DAIHATSU', modelIncludes: 'BOON' },
+    { mfr: 'DAIHATSU', modelIncludes: 'MOVE' },
+    { mfr: 'DAIHATSU', modelIncludes: 'MIRA' },
+    { mfr: 'DAIHATSU', modelIncludes: 'TANTO' },
+    { mfr: 'DAIHATSU', modelIncludes: 'HIJET' },
+    { mfr: 'DAIHATSU', modelIncludes: 'ATRAI' },
+    { mfr: 'DAIHATSU', modelIncludes: 'COPEN' },
+    { mfr: 'DAIHATSU', modelIncludes: 'NAKED' },
+    { mfr: 'DAIHATSU', modelIncludes: 'ESSE' },
+    { mfr: 'DAIHATSU', modelIncludes: 'YRV' },
+    { mfr: 'DAIHATSU', modelIncludes: 'FEROZA' },
+
+    /* ─── OPEL ─── */
+    { mfr: 'OPEL', modelIncludes: 'ANTARA' },
+    { mfr: 'OPEL', modelIncludes: 'AMPERA' },
+    { mfr: 'OPEL', modelIncludes: 'ADAM' },
+    { mfr: 'OPEL', modelIncludes: 'MONZA' },
+    { mfr: 'OPEL', modelIncludes: 'SENATOR' },
+    { mfr: 'OPEL', modelIncludes: 'OMEGA' },
+    { mfr: 'OPEL', modelIncludes: 'CALIBRA' },
+    { mfr: 'OPEL', modelIncludes: 'MANTA' },
+    { mfr: 'OPEL', modelIncludes: 'REKORD' },
+
+    /* ─── SKODA ─── */
+    { mfr: 'SKODA', modelIncludes: 'FELICIA' },
+    { mfr: 'SKODA', modelIncludes: 'FAVORIT' },
+    { mfr: 'SKODA', modelIncludes: 'FORMAN' },
+
+    /* ─── SEAT ─── */
+    { mfr: 'SEAT', modelIncludes: 'MARBELLA' },
+    { mfr: 'SEAT', modelIncludes: 'AROSA' },
+    { mfr: 'SEAT', modelIncludes: 'INCA' },
+    { mfr: 'SEAT', modelIncludes: 'TERRA' },
+    { mfr: 'SEAT', modelIncludes: 'MALAGA' },
+
+    /* ─── VOLVO ─── */
+    { mfr: 'VOLVO', modelIncludes: '440' },
+    { mfr: 'VOLVO', modelIncludes: '460' },
+    { mfr: 'VOLVO', modelIncludes: '480' },
+    { mfr: 'VOLVO', modelIncludes: '740' },
+    { mfr: 'VOLVO', modelIncludes: '760' },
+    { mfr: 'VOLVO', modelIncludes: '780' },
+    { mfr: 'VOLVO', modelIncludes: '850' },
+    { mfr: 'VOLVO', modelIncludes: '940' },
+    { mfr: 'VOLVO', modelIncludes: '960' }
   ];
 
   function isVehicleExcluded(v) {
@@ -1995,6 +2333,12 @@
     /* EXACT match only — prevents "MG" from matching "MG (SAIC)" partially
        and lets us keep MG while blocking MG (SAIC), same for GEELY etc. */
     if (TW_EXCLUDED_MANUFACTURERS[mfr]) return true;
+    /* קאט-אוף שנה — הצאת רכבים שיוצרו לפני 1995 */
+    var startYear = 0;
+    if (v.constructionIntervalStart) {
+      startYear = parseInt(String(v.constructionIntervalStart).substr(0,4), 10);
+      if (!isNaN(startYear) && startYear > 0 && startYear < TW_MIN_YEAR) return true;
+    }
     /* Model-specific exclusions */
     var model = (v.modelName || '').toUpperCase();
     for (var i = 0; i < TW_EXCLUDED_MODELS.length; i++) {
