@@ -118,10 +118,11 @@
          width: 100vw ensures it doesn\'t inherit the parent\'s constrained width.
          Inner max-width caps the content at a reasonable readable width
          (1600px — wider than 1200 but not painfully wide on 4K screens). */
-      '.an-tecdoc-fullwidth { background: #ffffff !important; width: 100vw !important; max-width: 100vw !important; margin-left: calc(-50vw + 50%) !important; margin-right: calc(-50vw + 50%) !important; margin-top: 0 !important; margin-bottom: 20px !important; padding: 24px clamp(16px, 4vw, 60px) !important; box-sizing: border-box !important; position: relative !important; }',
-      '.an-tecdoc-fullwidth #an-tecdoc-section { margin: 0 auto !important; max-width: 1600px !important; width: 100% !important; box-shadow: var(--an-shadow) !important; border-radius: var(--an-radius) !important; }',
-      '.an-tecdoc-fullwidth #tecdoc-widget { max-width: none !important; width: 100% !important; }',
-      '@media (max-width: 768px) { .an-tecdoc-fullwidth { padding: 16px 8px !important; } }',
+      /* v11.19: constrain TecDoc width to match rest of product page (no full-viewport breakout). */
+      '.an-tecdoc-fullwidth { background: #ffffff !important; width: 100% !important; max-width: 100% !important; margin: 0 auto 20px auto !important; padding: 24px 0 !important; box-sizing: border-box !important; position: relative !important; }',
+      '.an-tecdoc-fullwidth #an-tecdoc-section { margin: 0 auto !important; max-width: 100% !important; width: 100% !important; box-shadow: var(--an-shadow) !important; border-radius: var(--an-radius) !important; }',
+      '.an-tecdoc-fullwidth #tecdoc-widget { max-width: 100% !important; width: 100% !important; }',
+      '@media (max-width: 768px) { .an-tecdoc-fullwidth { padding: 16px 0 !important; } }',
       '.an-section-header { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 18px 24px !important; cursor: pointer !important; user-select: none !important; transition: background 0.2s; }',
       '.an-section-header:hover { background: #fafbfc !important; }',
       '.an-section-header h2 { font-size: 18px !important; font-weight: 700 !important; display: flex !important; align-items: center !important; gap: 8px !important; color: var(--an-text) !important; }',

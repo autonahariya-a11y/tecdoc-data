@@ -1,5 +1,13 @@
 /**
- * TecDoc Preloader v6 — Longest-SKU picker + null-articles guard
+ * TecDoc Preloader v7 — Dual-format cache support (object + array)
+ *
+ * v7 changes:
+ *   • Support NEW cache format: {articleNo, vehicles, specs, oe, ...}
+ *     (object with articleNo at root, no articles[] wrapper).
+ *   • Still supports OLD format: [{articles: [{compatibleCars, ...}]}]
+ *   • Empty-check adapts to whichever format arrived.
+ *
+ * v6 changes — Longest-SKU picker + null-articles guard
  *
  * v6 changes:
  *   • Filter out cached responses that have articles=null (SKU not in TecDoc).
@@ -235,23 +243,34 @@
   };
 
   fetchPromise.then(function(d) {
-    /* v6: Only mark data as ready if it's actually useful.
-       Cached files can contain [{articles: null}] for SKUs not in TecDoc catalog
-       (e.g., dealer-only OEM SKUs like GV80 263203V000).
-       Storing that as pre.data causes widget's fast-path to call applyData(nullData)
-       which leaves the widget stuck at the loading skeleton. */
-    var hasArticles = d && d.length && d[0] && d[0].articles && d[0].articles.length;
+    /* v7: Support BOTH cache formats:
+       - OLD (array): [{articles: [{compatibleCars, ...}]}]  — raw TecDoc API shape
+       - NEW (object): {articleNo, supplier, vehicles, specs, oe, ...}  — pre-processed
+
+       Also detect empty responses in either format (null-articles = not in TecDoc). */
+    var hasArticles;
+    if (Array.isArray(d)) {
+      hasArticles = d.length && d[0] && d[0].articles && d[0].articles.length;
+    } else if (d && typeof d === 'object') {
+      /* New format — populated if it has vehicles OR specs OR articleNo */
+      hasArticles = !!(d.articleNo && (
+        (d.vehicles && d.vehicles.length) ||
+        (d.specs && d.specs.length)
+      ));
+    } else {
+      hasArticles = false;
+    }
+
     if (!hasArticles) {
-      console.log('[TecDoc Preloader v6] Cached but empty for', articleNo, '— will let widget fall through to API/error');
-      /* Reject so widget's medium-path catch triggers showError */
+      console.log('[TecDoc Preloader v7] Cached but empty for', articleNo, '— will let widget fall through to API/error');
       window.TECDOC_PRELOAD.data = null;
       window.TECDOC_PRELOAD.empty = true;
       return;
     }
     window.TECDOC_PRELOAD.data = d;
-    console.log('[TecDoc Preloader v6] Data ready for', articleNo);
+    console.log('[TecDoc Preloader v7] Data ready for', articleNo, '(' + (Array.isArray(d) ? 'array' : 'object') + ' format)');
   }).catch(function(err) {
-    console.log('[TecDoc Preloader v6] No cached data for', articleNo, '— tried', variations);
+    console.log('[TecDoc Preloader v7] No cached data for', articleNo, '— tried', variations);
   });
 
 })();

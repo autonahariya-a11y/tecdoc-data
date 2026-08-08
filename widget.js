@@ -1,4 +1,10 @@
-/* TecDoc Widget v11.18 — Fixes stuck LOADING + HIDDEN + year-range SKU bugs
+/* TecDoc Widget v11.19 — Compatible with preloader v7 dual-format cache + width fix
+   Changes in v11.19:
+     • Companion to preloader v7 which supports both cache formats (array + object).
+     • Desktop max-width constraint added — widget no longer stretches wider than the product content column.
+     • Increased loading watchdog patience for slower connections.
+
+   v11.18 — Fixes stuck LOADING + HIDDEN + year-range SKU bugs
    Changes in v11.18:
      • applyData() now guards against empty [{articles: null}] responses that
        used to leave the widget stuck at loading skeleton (60% of products!).
