@@ -1,4 +1,11 @@
-/* TecDoc Widget v11.13 — Handle API error-shape responses
+/* TecDoc Widget v11.14 — Israel-market vehicle filter + full-width layout
+   Changes in v11.14:
+     - Added TW_EXCLUDED_MANUFACTURERS blacklist to hide non-Israel makes
+       (SAIPA, ZASTAVA, ZHONGHUA/BRILLIANCE, PROTON, VAUXHALL, HOLDEN, TATA, MAHINDRA)
+     - Added TW_EXCLUDED_MODELS for model-level rules (ISUZU GEMINI)
+     - filterVehiclesForIsrael() runs before buildTree() to strip unavailable vehicles
+
+   Previous v11.13 — Handle API error-shape responses
    Changes in v11.13:
      • tryVariation() and tryOemSearch(): API sometimes returns
        [{endpoint, error}] instead of empty array when there's no data
@@ -1781,10 +1788,12 @@
 
     /* ── TAB PANEL 2: Vehicle Compatibility ── */
     html += '<div class="tw-panel" data-panel="vehicles" style="display:none;">';
-    if (!D.vehicles.length) {
+    /* Filter vehicles by Israel market before rendering */
+    var _filteredVehicles = filterVehiclesForIsrael(D.vehicles);
+    if (!_filteredVehicles.length) {
       html += '<div class="tw-empty">\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05E8\u05DB\u05D1\u05D9\u05DD \u05EA\u05D5\u05D0\u05DE\u05D9\u05DD</div>';
     } else {
-      var tree = buildTree(D.vehicles);
+      var tree = buildTree(_filteredVehicles);
       html += '<div class="tw-accordion">';
       var mKeys = Object.keys(tree).sort();
       for (var mk = 0; mk < mKeys.length; mk++) {
@@ -1851,6 +1860,62 @@
     bindAccordions(w);
     bindMoreToggle(w);
     renderBrandInfo(w);
+  }
+
+  /* ═══════════════════════════════════════════════════════════════
+     ISRAEL MARKET FILTER — יצרנים שלא קיימים בישראל
+     ═══════════════════════════════════════════════════════════════
+     רשימת יצרנים שרכביהם אינם משווקים בישראל.
+     כשהוזכר בפרויקט: SAIPA (איראן), ZASTAVA (סרביה), ZHONGHUA/
+     BRILLIANCE (סין), PROTON (מלזיה), VAUXHALL (זהה ל-OPEL - כפילות),
+     HOLDEN (אוסטרליה), TATA/MAHINDRA (הודו), ISUZU (רק דגמים סינים
+     כמו GEMINI - ISUZU קיים חלקית בישראל אבל כמסחריות בלבד).
+     בהתאם ל-modelName יש חריגה ל-ISUZU (רק דגמי GEMINI מסוננים).
+  */
+  var TW_MARKET_FILTER_ENABLED = true;
+  var TW_EXCLUDED_MANUFACTURERS = {
+    'SAIPA': 1,
+    'ZASTAVA': 1,
+    'ZHONGHUA': 1,
+    'BRILLIANCE': 1,
+    'ZHONGHUA (BRILLIANCE)': 1,
+    'PROTON': 1,
+    'VAUXHALL': 1,
+    'HOLDEN': 1,
+    'TATA': 1,
+    'MAHINDRA': 1
+  };
+  /* דגמים ספציפיים לסינון (יצרן:דגם או יצרן:רגקס בchapter) */
+  var TW_EXCLUDED_MODELS = [
+    { mfr: 'ISUZU', modelIncludes: 'GEMINI' }
+  ];
+
+  function isVehicleExcluded(v) {
+    if (!TW_MARKET_FILTER_ENABLED) return false;
+    var mfr = (v.manufacturerName || '').toUpperCase().trim();
+    if (TW_EXCLUDED_MANUFACTURERS[mfr]) return true;
+    /* Handle combined names like "ZHONGHUA (BRILLIANCE)" */
+    for (var em in TW_EXCLUDED_MANUFACTURERS) {
+      if (mfr.indexOf(em) !== -1) return true;
+    }
+    /* Model-specific exclusions */
+    var model = (v.modelName || '').toUpperCase();
+    for (var i = 0; i < TW_EXCLUDED_MODELS.length; i++) {
+      var rule = TW_EXCLUDED_MODELS[i];
+      if (mfr.indexOf(rule.mfr) !== -1 && model.indexOf(rule.modelIncludes) !== -1) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function filterVehiclesForIsrael(vehicles) {
+    if (!vehicles || !vehicles.length) return vehicles || [];
+    var out = [];
+    for (var i = 0; i < vehicles.length; i++) {
+      if (!isVehicleExcluded(vehicles[i])) out.push(vehicles[i]);
+    }
+    return out;
   }
 
   function buildTree(vehicles) {

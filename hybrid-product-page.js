@@ -110,6 +110,15 @@
 
       /* Section Cards */
       '.an-section-card { background: var(--an-white) !important; border-radius: var(--an-radius) !important; box-shadow: var(--an-shadow) !important; margin-bottom: 20px !important; overflow: hidden !important; }',
+
+      /* v11.14: TecDoc section is FULL-WIDTH (outside .an-container).
+         The section card fills the entire viewport horizontally,
+         with a subtle side padding. Content inside remains centered readable
+         but stretches wider than the 1200px page container. */
+      '.an-tecdoc-fullwidth { background: var(--an-page-bg, #f5f6f8) !important; width: 100% !important; padding: 24px clamp(16px, 4vw, 60px) !important; margin: 0 0 20px 0 !important; box-sizing: border-box !important; }',
+      '.an-tecdoc-fullwidth #an-tecdoc-section { margin: 0 !important; max-width: none !important; width: 100% !important; }',
+      '.an-tecdoc-fullwidth #tecdoc-widget { max-width: none !important; width: 100% !important; }',
+      '@media (max-width: 768px) { .an-tecdoc-fullwidth { padding: 16px 8px !important; } }',
       '.an-section-header { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 18px 24px !important; cursor: pointer !important; user-select: none !important; transition: background 0.2s; }',
       '.an-section-header:hover { background: #fafbfc !important; }',
       '.an-section-header h2 { font-size: 18px !important; font-weight: 700 !important; display: flex !important; align-items: center !important; gap: 8px !important; color: var(--an-text) !important; }',
@@ -1250,15 +1259,22 @@
 
   /* ===================================================
      v11.10: TecDoc section moved ABOVE the highlights card
-     User request: TecDoc data (technical details, compatible vehicles, OE)
-     should appear FIRST after the product hero — above the marketing
-     "performance/quality/safety" card, because it's the primary decision-
-     relevant content on spare-parts pages.
+     v11.14: TecDoc section breaks out of .an-container to span FULL VIEWPORT WIDTH.
+     User request: הדף מוצר לא מרוכז לרוחב 1200 — החלונית הטכנית צריכה לפרוס על רוחב מלא של המסך,
+     כמו ב-AutoDoc. שבירת הcontainer ומסגרת container חדש רחב 100vw.
      =================================================== */
+  /* Close the container so the TecDoc section can be full-width */
+  html += '</div>'; /* /an-container */
+
+  html += '<div class="an-tecdoc-fullwidth">';
   html += '<div class="an-section-card" id="an-tecdoc-section">';
   html += '<div class="an-tecdoc-attribution"><div class="an-tecdoc-dot"></div><span>\u05e0\u05ea\u05d5\u05e0\u05d9\u05dd \u05de-TecDoc\u00ae Catalogue</span></div>';
   html += '<div id="an-tecdoc-wrap"></div>';
   html += '</div>';
+  html += '</div>';
+
+  /* Re-open the container for the remaining sections */
+  html += '<div class="an-container">';
 
   /* ===================================================
      SECTION 2: Highlights — "✦ ביצועים, איכות ובטיחות"
