@@ -111,12 +111,15 @@
       /* Section Cards */
       '.an-section-card { background: var(--an-white) !important; border-radius: var(--an-radius) !important; box-shadow: var(--an-shadow) !important; margin-bottom: 20px !important; overflow: hidden !important; }',
 
-      /* v11.14: TecDoc section is FULL-WIDTH (outside .an-container).
-         The section card fills the entire viewport horizontally,
-         with a subtle side padding. Content inside remains centered readable
-         but stretches wider than the 1200px page container. */
-      '.an-tecdoc-fullwidth { background: var(--an-page-bg, #f5f6f8) !important; width: 100% !important; padding: 24px clamp(16px, 4vw, 60px) !important; margin: 0 0 20px 0 !important; box-sizing: border-box !important; }',
-      '.an-tecdoc-fullwidth #an-tecdoc-section { margin: 0 !important; max-width: none !important; width: 100% !important; }',
+      /* v11.14+: TecDoc section BREAKS OUT of the Konimbo #item_main/#main 
+         .max-width-center 1200px cap using full-bleed technique.
+         margin-left/right: calc(-50vw + 50%) forces the element to span the
+         entire viewport width regardless of the constrained ancestor.
+         width: 100vw ensures it doesn\'t inherit the parent\'s constrained width.
+         Inner max-width caps the content at a reasonable readable width
+         (1600px — wider than 1200 but not painfully wide on 4K screens). */
+      '.an-tecdoc-fullwidth { background: #ffffff !important; width: 100vw !important; max-width: 100vw !important; margin-left: calc(-50vw + 50%) !important; margin-right: calc(-50vw + 50%) !important; margin-top: 0 !important; margin-bottom: 20px !important; padding: 24px clamp(16px, 4vw, 60px) !important; box-sizing: border-box !important; position: relative !important; }',
+      '.an-tecdoc-fullwidth #an-tecdoc-section { margin: 0 auto !important; max-width: 1600px !important; width: 100% !important; box-shadow: var(--an-shadow) !important; border-radius: var(--an-radius) !important; }',
       '.an-tecdoc-fullwidth #tecdoc-widget { max-width: none !important; width: 100% !important; }',
       '@media (max-width: 768px) { .an-tecdoc-fullwidth { padding: 16px 8px !important; } }',
       '.an-section-header { display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 18px 24px !important; cursor: pointer !important; user-select: none !important; transition: background 0.2s; }',
