@@ -1,5 +1,5 @@
 /*!
- * Auto Nahariya - Performance Optimizer v6
+ * Auto Nahariya - Performance Optimizer v7
  * v6 FIX: product images were squashed/stretched.
  *   Cause: forced 1:1 aspect-ratio (CSS + inline style) with default
  *   object-fit:fill -> non-square images were distorted to a square box.
@@ -19,9 +19,19 @@
   // Neutralises the blanket `img:not([width]):not([height]){aspect-ratio:1/1}`
   // rule that squashes every non-square product photo.
   var FIX_CSS = [
-    /* 1. Any image still forced into a reserved box must letterbox, not stretch. */
-    'img[style*="aspect-ratio"]{object-fit:contain !important;object-position:center !important;}',
-    /* 2. Konimbo native product grid / lists / carousels: restore natural ratio. */
+    /* --------------------------------------------------------------
+       ROOT FIX: neutralise the blanket square-ratio rule coming from
+       the Konimbo head_html:
+           img:not([width]):not([height]) { aspect-ratio: 1/1; }
+       Same specificity, injected later in the cascade -> this wins.
+       -------------------------------------------------------------- */
+    'img:not([width]):not([height]){aspect-ratio:auto;}',
+    /* Safety net: if anything still forces a box ratio on an image,
+       letterbox instead of stretching. Never applies to images the
+       theme deliberately crops with object-fit:cover. */
+    'img[style*="aspect-ratio"]:not([style*="object-fit"]){object-fit:contain;object-position:center;}',
+    /* Product imagery everywhere: grid, lists, carousels, menus,
+       cart drawer, cross-sell, recently viewed, search suggestions. */
     '.list_item_image img,',
     'table.imgWrapperT img,',
     '.store_list_items img,',
@@ -30,17 +40,20 @@
     '.item_image img,',
     '.product_image img,',
     '.mega-product img,',
+    '.mega-side img,',
     '.splide img,',
+    '.swiper-slide .img_wrapper img,',
     '.owl-item .img_wrapper img,',
+    '.carousel_items img,',
+    '.an-cart-drawer img,',
+    '.anh-suggest-item img,',
+    '.x-live-img,',
+    '#item_image img,.main_image img,.gallery_main img,.zoom_image img,',
     'body:not(.articles) .img_wrapper img{',
     'object-fit:contain !important;object-position:center !important;',
     'aspect-ratio:auto !important;',
     '}',
-    /* 3. Main product page gallery. */
-    '#item_image img,.main_image img,.gallery_main img,.zoom_image img{',
-    'object-fit:contain !important;aspect-ratio:auto !important;',
-    '}',
-    /* 4. Keep CLS protection where a box height already exists, without crop. */
+    /* Clean backdrop so letterboxed photos blend into the card. */
     '.list_item_image,.img_wrapper{background:#fff;}'
   ].join('');
 
@@ -62,6 +75,23 @@
     if ((ar === '1 / 1' || ar === '1/1') && img.naturalWidth > 0 &&
         img.naturalWidth !== img.naturalHeight) {
       img.style.aspectRatio = '';
+    }
+    // Last-resort guard: if the painted box still disagrees with the real
+    // photo ratio and nothing told the browser how to fit, letterbox it.
+    if (img.naturalWidth > 0 && img.naturalHeight > 0) {
+      var w = img.clientWidth, h = img.clientHeight;
+      if (w > 20 && h > 20) {
+        var nat = img.naturalWidth / img.naturalHeight;
+        var box = w / h;
+        if (Math.abs(nat - box) / nat > 0.05) {
+          var fit = '';
+          try { fit = window.getComputedStyle(img).objectFit; } catch (e) {}
+          if (fit === 'fill' || fit === '') {
+            img.style.objectFit = 'contain';
+            img.style.objectPosition = 'center';
+          }
+        }
+      }
     }
   }
 
