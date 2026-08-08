@@ -1426,13 +1426,28 @@
     var wrap = document.getElementById('an-tecdoc-wrap');
     var tw = document.getElementById('tecdoc-widget');
     if (!wrap || !tw) return false;
-    /* If widget has been populated with real content — leave alone */
-    var hasVehicles = wrap.querySelector('.tw-vehicles-list, .tw-vehicles-table, [data-panel="vehicles"] .an-veh-group, .an-veh-group');
-    var hasSpecs = wrap.querySelector('.tw-specs-table, .an-tab-panel table, [data-panel="tech"] table');
-    if (hasVehicles || hasSpecs) return true;
-    /* If we see the loading spinner or an error, hide the whole card */
+    /* v11.18 fix: widget.js v11.18+ ALWAYS produces meaningful content —
+       either real data or a friendly no-data card (.tw-no-data with WhatsApp CTA).
+       The user WANTS to see the friendly card so they know the product loaded
+       and can contact us. Only truly-stuck spinners after 15s should be hidden. */
+    /* Broadened content detection: any populated content inside the widget counts */
+    var hasVehicles = tw.querySelector(
+      '.tw-vehicles-list, .tw-vehicles-table, ' +
+      '[data-panel="vehicles"] .an-veh-group, .an-veh-group, ' +
+      '[data-panel="vehicles"] table, [data-panel="vehicles"] .tw-manufacturer'
+    );
+    var hasSpecs = tw.querySelector(
+      '.tw-specs-table, .an-tab-panel table, ' +
+      '[data-panel="tech"] table, [data-panel="tech"] .tw-specs, ' +
+      '.tw-strengths, #tw-brand-info, .tw-tabs'
+    );
+    /* v11.18: .tw-no-data is the FRIENDLY message card — SHOW it, don't hide it. */
+    var hasFriendlyMessage = tw.querySelector('.tw-no-data');
+    if (hasVehicles || hasSpecs || hasFriendlyMessage) return true;
+    /* Only hide when we see the loading spinner still spinning —
+       genuine hard-error (.tw-error) is fine to hide since it's usually a technical failure. */
     var stillLoading = wrap.querySelector('.tw-spinner, .tw-loading');
-    var errorShown = wrap.querySelector('.tw-error, .tw-no-data');
+    var errorShown = wrap.querySelector('.tw-error');
     var widgetHidden = tw.style && tw.style.display === 'none';
     if (stillLoading || errorShown || widgetHidden) {
       section.style.display = 'none';
@@ -1440,8 +1455,9 @@
     }
     return false;
   }
-  /* Poll for 15s */
-  [4000, 6000, 8000, 10000, 12000, 15000].forEach(function(t){
+  /* v11.18: extended poll window (up to 25s) so watchdogs (15s/20s) have time to fire
+     BEFORE we make the hide decision. Previously we stopped at 15s = race condition. */
+  [4000, 6000, 8000, 10000, 12000, 15000, 18000, 22000, 25000].forEach(function(t){
     setTimeout(hideEmptyTecdocSection, t);
   });
 

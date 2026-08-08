@@ -1668,12 +1668,14 @@
     /* v11.18: friendly no-data message with variants by reason (no_results / no_sku / generic).
        Instead of hiding the widget (leaves ugly gap), always render a small card that
        tells the user the product loaded but TecDoc data isn't available, with a WhatsApp
-       CTA to the parts team. */
+       CTA to the parts team. Force-unhide section+wrap because hybrid-product-page.js's
+       polling may have already set display:none before our friendly card rendered. */
     w.style.display = 'block';
+    w.style.removeProperty('display'); w.style.display = 'block';
     var section = document.getElementById('an-tecdoc-section');
-    if (section) section.style.display = 'block';
+    if (section) { section.style.removeProperty('display'); section.style.display = 'block'; }
     var wrap = document.getElementById('an-tecdoc-wrap');
-    if (wrap) wrap.style.display = 'block';
+    if (wrap) { wrap.style.removeProperty('display'); wrap.style.display = 'block'; }
 
     var title, subtitle;
     if (msg === 'no_sku') {
@@ -2295,6 +2297,14 @@
     D.isOEM = data.isOEM === true;
     render();
     renderStrengths();
+    /* v11.18: Force-unhide section+wrap because hybrid-product-page.js's polling
+       may have already set display:none while we were mid-render. */
+    var w2 = getWidget();
+    if (w2) { w2.style.removeProperty('display'); w2.style.display = 'block'; }
+    var sec2 = document.getElementById('an-tecdoc-section');
+    if (sec2) { sec2.style.removeProperty('display'); sec2.style.display = 'block'; }
+    var wr2 = document.getElementById('an-tecdoc-wrap');
+    if (wr2) { wr2.style.removeProperty('display'); wr2.style.display = 'block'; }
   }
 
   /* ── Main flow ── */
