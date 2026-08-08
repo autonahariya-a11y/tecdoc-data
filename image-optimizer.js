@@ -1,5 +1,10 @@
 /*!
- * Auto Nahariya - Performance Optimizer v5
+ * Auto Nahariya - Performance Optimizer v6
+ * v6 FIX: product images were squashed/stretched.
+ *   Cause: forced 1:1 aspect-ratio (CSS + inline style) with default
+ *   object-fit:fill -> non-square images were distorted to a square box.
+ *   Fix: never force inline 1:1; inject a stylesheet that pairs any
+ *   reserved box with object-fit:contain and restores natural ratios.
  * Focus: FIX CLS regression from Konimbo's splide/modules_general updates
  * 1. Image dimensions (prevent CLS)
  * 2. Iframe lazy loading (fix Google Maps CLS)
@@ -8,6 +13,57 @@
  */
 (function() {
   'use strict';
+
+
+  // ============ v6 ASPECT-RATIO FIX (stylesheet) ============
+  // Neutralises the blanket `img:not([width]):not([height]){aspect-ratio:1/1}`
+  // rule that squashes every non-square product photo.
+  var FIX_CSS = [
+    /* 1. Any image still forced into a reserved box must letterbox, not stretch. */
+    'img[style*="aspect-ratio"]{object-fit:contain !important;object-position:center !important;}',
+    /* 2. Konimbo native product grid / lists / carousels: restore natural ratio. */
+    '.list_item_image img,',
+    'table.imgWrapperT img,',
+    '.store_list_items img,',
+    '.element_items_list_items img,',
+    '.layout_list_item img,',
+    '.item_image img,',
+    '.product_image img,',
+    '.mega-product img,',
+    '.splide img,',
+    '.owl-item .img_wrapper img,',
+    'body:not(.articles) .img_wrapper img{',
+    'object-fit:contain !important;object-position:center !important;',
+    'aspect-ratio:auto !important;',
+    '}',
+    /* 3. Main product page gallery. */
+    '#item_image img,.main_image img,.gallery_main img,.zoom_image img{',
+    'object-fit:contain !important;aspect-ratio:auto !important;',
+    '}',
+    /* 4. Keep CLS protection where a box height already exists, without crop. */
+    '.list_item_image,.img_wrapper{background:#fff;}'
+  ].join('');
+
+  function injectFixCss() {
+    if (document.getElementById('an-img-ratio-fix')) return;
+    var head = document.head || document.getElementsByTagName('head')[0];
+    if (!head) return;
+    var st = document.createElement('style');
+    st.id = 'an-img-ratio-fix';
+    st.appendChild(document.createTextNode(FIX_CSS));
+    head.appendChild(st);
+  }
+  injectFixCss();
+
+  // Strip stale inline 1:1 ratios left by earlier versions of this script.
+  function clearForcedRatio(img) {
+    if (!img || img.tagName !== 'IMG') return;
+    var ar = img.style && img.style.aspectRatio;
+    if ((ar === '1 / 1' || ar === '1/1') && img.naturalWidth > 0 &&
+        img.naturalWidth !== img.naturalHeight) {
+      img.style.aspectRatio = '';
+    }
+  }
 
   // ============ CLS FIX: iframe lazy loading (Google Maps etc) ============
   function fixIframes() {
@@ -51,13 +107,20 @@
     }
 
     if (inProductCard) {
+      // v6: reserve space WITHOUT distorting. A square box is fine only when
+      // the image is told to letterbox inside it (object-fit: contain).
       img.style.aspectRatio = '1 / 1';
+      img.style.objectFit = 'contain';
     }
 
     img.addEventListener('load', function() {
       if (this.naturalWidth > 0) {
         if (!this.hasAttribute('width')) this.setAttribute('width', this.naturalWidth);
         if (!this.hasAttribute('height')) this.setAttribute('height', this.naturalHeight);
+        // v6: real ratio is known now, release the 1:1 placeholder ratio.
+        if (this.style.aspectRatio === '1 / 1' || this.style.aspectRatio === '1/1') {
+          this.style.aspectRatio = '';
+        }
       }
     }, { once: true });
   }
@@ -95,6 +158,7 @@
   function processImage(img) {
     if (!img || img.tagName !== 'IMG') return;
     setImageDimensions(img);
+    clearForcedRatio(img);
     if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
     if (!img.hasAttribute('loading') && !img.classList.contains('slide_img') && !isAboveFold(img)) {
       img.setAttribute('loading', 'lazy');
@@ -133,6 +197,7 @@
   }
 
   function init() {
+    injectFixCss();
     processAllImages();
     deferScripts();
   }
