@@ -1445,20 +1445,29 @@
     /* v11.18: .tw-no-data is the FRIENDLY message card — SHOW it, don't hide it. */
     var hasFriendlyMessage = tw.querySelector('.tw-no-data');
     if (hasVehicles || hasSpecs || hasFriendlyMessage) return true;
+    /* v11.20: don't hide while widget's live-API fallback chain is still running.
+       Fallback can take 5-15s for MAHLE OX / rate-limited endpoints. Hiding
+       mid-flight causes the section to disappear even though data arrives seconds later. */
+    var pending = false;
+    try { pending = !!window.__tw_pending__; } catch(e) {}
     /* Only hide when we see the loading spinner still spinning —
        genuine hard-error (.tw-error) is fine to hide since it's usually a technical failure. */
     var stillLoading = wrap.querySelector('.tw-spinner, .tw-loading');
     var errorShown = wrap.querySelector('.tw-error');
     var widgetHidden = tw.style && tw.style.display === 'none';
+    if (pending && stillLoading && !errorShown) {
+      /* still fetching — keep section visible with spinner and re-poll later */
+      return false;
+    }
     if (stillLoading || errorShown || widgetHidden) {
       section.style.display = 'none';
       return true;
     }
     return false;
   }
-  /* v11.18: extended poll window (up to 25s) so watchdogs (15s/20s) have time to fire
-     BEFORE we make the hide decision. Previously we stopped at 15s = race condition. */
-  [4000, 6000, 8000, 10000, 12000, 15000, 18000, 22000, 25000].forEach(function(t){
+  /* v11.20: extended poll window (up to 40s) so slow rate-limited MAHLE OX* fallbacks
+     complete before we make the hide decision. */
+  [4000, 6000, 8000, 10000, 12000, 15000, 18000, 22000, 25000, 30000, 35000, 40000].forEach(function(t){
     setTimeout(hideEmptyTecdocSection, t);
   });
 

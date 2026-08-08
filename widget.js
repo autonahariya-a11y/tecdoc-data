@@ -1,4 +1,14 @@
-/* TecDoc Widget v11.19 — Compatible with preloader v7 dual-format cache + width fix
+/* TecDoc Widget v11.20 — MAHLE OX/OC/LX spaced-form priority + pending flag
+   Changes in v11.20:
+     • MAHLE part numbers (OX/OC/LX/LA/KL/OF prefix + digits + optional letter)
+       now try the spaced canonical form ("OX 387D") FIRST instead of last.
+       Fixes OX387D/OX1238D/OX560D/OX379D/OX175D/OX177/3D that were hidden
+       because hybrid poll hid the section before variation #3 reached the network.
+     • window.__tw_pending__ flag prevents hybrid poll from hiding the section
+       while fallback chain is still running (avoids race condition when Apify
+       returns 429 and widget retries).
+
+   v11.19 — Compatible with preloader v7 dual-format cache + width fix
    Changes in v11.19:
      • Companion to preloader v7 which supports both cache formats (array + object).
      • Desktop max-width constraint added — widget no longer stretches wider than the product content column.
@@ -1670,6 +1680,8 @@
   }
 
   function showError(msg) {
+    /* v11.20: pending done — either data arrived or we failed cleanly */
+    try { window.__tw_pending__ = false; } catch(e) {}
     var w = getWidget(); if (!w) return;
     /* v11.18: friendly no-data message with variants by reason (no_results / no_sku / generic).
        Instead of hiding the widget (leaves ugly gap), always render a small card that
@@ -2116,6 +2128,9 @@
     return tryCache(0);
   }
 
+  /* v11.20: mark pending on entry so hybrid poll waits for fallback chain */
+  try { window.__tw_pending__ = true; } catch(e) {}
+
   function articleVariations(artNo) {
     var variations = [artNo];
     var noTrail = artNo.replace(/[A-Z]$/, '');
@@ -2127,7 +2142,14 @@
       else if (d.length === 4) d = d.slice(0,2) + ' ' + d.slice(2);
       return letters + ' ' + d;
     });
-    if (spaced !== artNo) variations.push(spaced);
+    /* v11.20: MAHLE OX/OC/LX/KL uses "OX 387D" (spaced) as canonical TecDoc lookup.
+       Try spaced form FIRST for these prefixes to avoid an unnecessary 429-prone hop. */
+    var mahlePfx = /^(OX|OC|LX|LA|KL|OF)\d+[A-Z]?/i.test(artNo);
+    if (mahlePfx && spaced !== artNo) {
+      variations = [spaced, artNo];
+    } else if (spaced !== artNo) {
+      variations.push(spaced);
+    }
     if (noTrail !== artNo && noTrail.length > 3) {
       var spacedNoTrail = noTrail.replace(/([A-Za-z]+)(\d+)/g, function(m, letters, digits) {
         var d = digits;
@@ -2158,6 +2180,8 @@
   /* ── Load from live API (fallback) ── */
   function loadFromAPI(articleNo) {
     if (!API_URL) return Promise.reject('no_token');
+    /* v11.20: mark widget as pending so hybrid doesn't hide us mid-fallback */
+    try { window.__tw_pending__ = true; } catch(e) {}
     var variations = articleVariations(articleNo);
 
     function tryVariation(idx) {
@@ -2274,6 +2298,8 @@
 
   /* ── Apply data to state and render ── */
   function applyData(data) {
+    /* v11.20: clear pending flag — hybrid poll may now hide if content is empty */
+    try { window.__tw_pending__ = false; } catch(e) {}
     /* v11.18: Guard against empty API responses [{articles: null}] that used to
        cause widget to render empty and stay stuck. If data looks like the raw
        preloader shape with no articles, or has no articleNo AND no vehicles, treat
