@@ -1,9 +1,12 @@
-/* TecDoc Widget v11.14 — Israel-market vehicle filter + full-width layout
-   Changes in v11.14:
-     - Added TW_EXCLUDED_MANUFACTURERS blacklist to hide non-Israel makes
-       (SAIPA, ZASTAVA, ZHONGHUA/BRILLIANCE, PROTON, VAUXHALL, HOLDEN, TATA, MAHINDRA)
-     - Added TW_EXCLUDED_MODELS for model-level rules (ISUZU GEMINI)
-     - filterVehiclesForIsrael() runs before buildTree() to strip unavailable vehicles
+/* TecDoc Widget v11.15 — Extended Israel-market blacklist (~75 manufacturers)
+   Changes in v11.15:
+     - Expanded blacklist to ~75 non-Israel manufacturers based on full market mapping
+     - Chinese JV variants (NISSAN DFAC, VW FAW etc.), pure Chinese brands
+       (excl. GEELY which IS in Israel), regional shutdowns (LADA, DAEWOO, ROVER),
+       niche/discontinued (PONTIAC, HUMMER, SPYKER, MORGAN)
+     - Switched to EXACT match (removed partial indexOf) to prevent MG being blocked
+       when only MG (SAIC) should be blocked
+   Previous v11.14 — Israel-market vehicle filter + full-width layout
 
    Previous v11.13 — Handle API error-shape responses
    Changes in v11.13:
@@ -1873,19 +1876,43 @@
      בהתאם ל-modelName יש חריגה ל-ISUZU (רק דגמי GEMINI מסוננים).
   */
   var TW_MARKET_FILTER_ENABLED = true;
+  /* רשימה מלאה של יצרנים שאינם משווקים בישראל.
+     מעודכן אוגוסט 2026 לפי מיפוי שוק מלא.
+     הערה: GEELY נשאר בכוונה (בעלים Emgrand וכו' קיימים בשוק הישראלי). */
   var TW_EXCLUDED_MANUFACTURERS = {
-    'SAIPA': 1,
-    'ZASTAVA': 1,
-    'ZHONGHUA': 1,
-    'BRILLIANCE': 1,
-    'ZHONGHUA (BRILLIANCE)': 1,
-    'PROTON': 1,
-    'VAUXHALL': 1,
-    'HOLDEN': 1,
-    'TATA': 1,
-    'MAHINDRA': 1
+    /* --- שוקים אזוריים סגורים --- */
+    'SAIPA': 1, 'ZASTAVA': 1, 'PROTON': 1, 'HOLDEN': 1, 'VAUXHALL': 1,
+    'TATA': 1, 'MAHINDRA': 1, 'PERODUA': 1, 'MARUTI SUZUKI': 1,
+    'INOKOM': 1, 'UZ-DAEWOO': 1, 'RAVON': 1,
+    /* --- ווריאציות סיניות Joint Venture --- */
+    'NISSAN (DFAC)': 1, 'VW (FAW)': 1, 'AUDI (FAW)': 1, 'TOYOTA (FAW)': 1,
+    'FORD (CHANGAN)': 1, 'VW (SVW)': 1, 'HYUNDAI (BEIJING)': 1,
+    'MAZDA (CHANGAN)': 1, 'MAZDA (FAW)': 1, 'VOLVO (CHANGAN)': 1,
+    'SKODA (SVW)': 1, 'KIA (DYK)': 1, 'HONDA (DONGFENG)': 1, 'HONDA (GAC)': 1,
+    'TOYOTA (GAC)': 1, 'PEUGEOT (DF-PSA)': 1, 'BMW (BRILLIANCE)': 1,
+    'MERCEDES-BENZ (BBDC)': 1, 'RENAULT (DFAC)': 1, 'MITSUBISHI (GAC)': 1,
+    'MITSUBISHI (BJC)': 1, 'MITSUBISHI (SOUEAST)': 1, 'INFINITI (DFAC)': 1,
+    'CHEVROLET (SGM)': 1, 'BUICK (SGM)': 1, 'NISSAN (ZHENGZHOU)': 1,
+    'LAND ROVER (CHERY)': 1, 'JAGUAR (CHERY)': 1, 'LINCOLN (CHANGAN)': 1,
+    'SUZUKI (CHANGAN)': 1, 'FORD (JMC)': 1, 'ISUZU (JIANGXI)': 1,
+    'MG (SAIC)': 1, 'ROEWE (SAIC)': 1, 'HAIMA (FAW)': 1,
+    'DONGFENG (DFAC)': 1, 'BESTURN (FAW)': 1, 'FAW (TIANJIN)': 1,
+    'LANDWIND (JMC)': 1,
+    /* --- מותגים סיניים לא בישראל (GEELY נשאר בכוונה) --- */
+    'ZHONGHUA': 1, 'BRILLIANCE': 1, 'ZHONGHUA (BRILLIANCE)': 1,
+    'BAW': 1, 'BAIC': 1, 'BAIC BJEV': 1, 'BAIC WEIWANG': 1, 'BAIC-ORV': 1,
+    'BESTUNE': 1, 'CHANGAN': 1, 'CHANGFENG': 1, 'CHANGHE': 1, 'CIIMO': 1,
+    'DONGFENG XIAOKANG': 1, 'ENGLON': 1, 'FENGSHEN': 1, 'FENGXING': 1,
+    'GAC NE': 1, 'GLEAGLE': 1, 'HAFEI': 1, 'HAVAL': 1, 'HONGQI': 1,
+    'JAC': 1, 'JMC': 1, 'LIFAN': 1, 'MAXUS': 1, 'VENUCIA': 1, 'ZOTYE': 1,
+    /* --- שוקי ניש לא בישראל --- */
+    'FORD AUSTRALIA': 1, 'FORD USA': 1, 'FORD ASIA & OCEANIA': 1,
+    'VOLVO ASIA': 1, 'BUICK': 1, 'PONTIAC': 1, 'SATURN': 1, 'OLDSMOBILE': 1,
+    'HUMMER': 1, 'GEO': 1, 'DAEWOO': 1, 'ROVER': 1, 'TALBOT': 1,
+    'ZAZ': 1, 'LADA': 1, 'ARO': 1, 'MORGAN': 1, 'WESTFIELD': 1, 'SPYKER': 1,
+    'KTM': 1, 'PIAGGIO': 1, 'DAIMLER': 1
   };
-  /* דגמים ספציפיים לסינון (יצרן:דגם או יצרן:רגקס בchapter) */
+  /* דגמים ספציפיים לסינון (יצרן:דגם) */
   var TW_EXCLUDED_MODELS = [
     { mfr: 'ISUZU', modelIncludes: 'GEMINI' }
   ];
@@ -1893,16 +1920,14 @@
   function isVehicleExcluded(v) {
     if (!TW_MARKET_FILTER_ENABLED) return false;
     var mfr = (v.manufacturerName || '').toUpperCase().trim();
+    /* EXACT match only — prevents "MG" from matching "MG (SAIC)" partially
+       and lets us keep MG while blocking MG (SAIC), same for GEELY etc. */
     if (TW_EXCLUDED_MANUFACTURERS[mfr]) return true;
-    /* Handle combined names like "ZHONGHUA (BRILLIANCE)" */
-    for (var em in TW_EXCLUDED_MANUFACTURERS) {
-      if (mfr.indexOf(em) !== -1) return true;
-    }
     /* Model-specific exclusions */
     var model = (v.modelName || '').toUpperCase();
     for (var i = 0; i < TW_EXCLUDED_MODELS.length; i++) {
       var rule = TW_EXCLUDED_MODELS[i];
-      if (mfr.indexOf(rule.mfr) !== -1 && model.indexOf(rule.modelIncludes) !== -1) {
+      if (mfr === rule.mfr && model.indexOf(rule.modelIncludes) !== -1) {
         return true;
       }
     }
