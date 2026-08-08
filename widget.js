@@ -1,4 +1,10 @@
-/* TecDoc Widget v11.10 — Remove יצרן/סוג מוצר rows from specs tab (already in title)
+/* TecDoc Widget v11.12 — Double-load guard
+   Changes in v11.12:
+     • Guards against double-execution when theme includes widget.js twice.
+       Fixes 'empty shell' bug (page-5 style) where widget renders header bar
+       but body stays blank due to two competing MutationObservers/render calls.
+     • Guard: `if (window.__TECDOC_WIDGET_LOADED__) return;` at top of IIFE.
+   Previous v11.10 — Remove יצרן/סוג מוצר rows from specs tab (already in title)
    Changes in v11.10:
      • Specs tab: removed יצרן, סוג מוצר and מק"ט rows. They duplicate
        information already visible in the product title, and clutter the
@@ -39,6 +45,12 @@
 */
 (function () {
   'use strict';
+
+  /* v11.12: Guard against double-load — prevents duplicate MutationObservers,
+     duplicate API calls, and empty-shell race condition when theme includes
+     widget.js twice. */
+  if (window.__TECDOC_WIDGET_LOADED__) return;
+  window.__TECDOC_WIDGET_LOADED__ = true;
 
   /* ══ CONFIGURATION ══ */
   var BASE_URL = window.TECDOC_BASE_URL || 'https://autonahariya-a11y.github.io/tecdoc-data';

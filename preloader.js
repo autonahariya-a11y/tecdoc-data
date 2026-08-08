@@ -17,6 +17,11 @@
 (function() {
   'use strict';
 
+  /* v6: Guard against double-load — theme templates sometimes include this script
+     twice, causing duplicate fetches and empty-shell widget race condition. */
+  if (window.__TECDOC_PRELOADER_LOADED__) return;
+  window.__TECDOC_PRELOADER_LOADED__ = true;
+
   var BASE_URL = window.TECDOC_BASE_URL || 'https://autonahariya-a11y.github.io/tecdoc-data';
   var CACHE_URL = BASE_URL + '/data/';
 
