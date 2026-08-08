@@ -155,44 +155,35 @@
     return null;
   }
 
-  /* Generate same filename variations as widget.js articleVariations() */
+  /* v11.22: Cache filename variations — tries the raw SKU + common no-punct forms.
+     Cache files are named with underscores replacing / and spaces removed.
+     We generate a small set here just for cache lookup; the widget's articleVariations()
+     does the full brand-specific fanout for API calls. */
   function articleVariations(artNo) {
-    var variations = [artNo];
-    var noTrail = artNo.replace(/[A-Z]$/, '');
-    if (noTrail !== artNo && noTrail.length > 3) variations.push(noTrail);
-    var spaced = artNo.replace(/([A-Za-z]+)(\d+)/g, function(m, letters, digits) {
-      var d = digits;
-      if (d.length === 5) d = d.slice(0,2) + ' ' + d.slice(2);
-      else if (d.length === 6) d = d.slice(0,2) + ' ' + d.slice(2,4) + ' ' + d.slice(4);
-      else if (d.length === 4) d = d.slice(0,2) + ' ' + d.slice(2);
-      return letters + ' ' + d;
-    });
-    if (spaced !== artNo) variations.push(spaced);
-    if (noTrail !== artNo && noTrail.length > 3) {
-      var spacedNoTrail = noTrail.replace(/([A-Za-z]+)(\d+)/g, function(m, letters, digits) {
-        var d = digits;
-        if (d.length === 5) d = d.slice(0,2) + ' ' + d.slice(2);
-        else if (d.length === 6) d = d.slice(0,2) + ' ' + d.slice(2,4) + ' ' + d.slice(4);
-        else if (d.length === 4) d = d.slice(0,2) + ' ' + d.slice(2);
-        return letters + ' ' + d;
-      });
-      if (spacedNoTrail !== noTrail) variations.push(spacedNoTrail);
+    if (!artNo) return [];
+    var raw = artNo.trim();
+    var variations = [raw];
+    var noSpace = raw.replace(/\s+/g, '');
+    if (noSpace !== raw) variations.push(noSpace);
+    /* Cache files use underscore for slash */
+    var underscored = noSpace.replace(/\//g, '_');
+    if (underscored !== noSpace) variations.push(underscored);
+    /* Drop trailing letter */
+    var noTrail = raw.replace(/[A-Za-z]$/, '');
+    if (noTrail !== raw && noTrail.length > 3) variations.push(noTrail);
+    /* Hyundai/Kia 5-5 dashed */
+    var hkMatch = noSpace.toUpperCase().match(/^(\d{5})([\dA-Z]{5})$/);
+    if (hkMatch) variations.push(hkMatch[1] + '-' + hkMatch[2]);
+    /* Dedupe */
+    var seen = {};
+    var out = [];
+    for (var i = 0; i < variations.length; i++) {
+      var v = variations[i];
+      if (!v || seen[v.toUpperCase()]) continue;
+      seen[v.toUpperCase()] = 1;
+      out.push(v);
     }
-    if (artNo.indexOf('.') > -1) variations.push(artNo.replace(/\./g, ' '));
-    if (/^\d{10,}$/.test(artNo)) {
-      variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
-    }
-    if (/^\d{5}[A-Z]/.test(artNo)) {
-      variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
-    }
-    /* v4: dashed OEM variant, e.g. 04152YZZA6 → 04152-YZZA6 */
-    var dashed = artNo.replace(/^(\d{4,6})([A-Z].+)$/i, '$1-$2');
-    if (dashed !== artNo) variations.push(dashed);
-    var pfxMatch = artNo.match(/^(FEB|MAN|NGK|BOS|VAL|LUK|SKF|INA|FAG|SNR)(\d{4,})$/i);
-    if (pfxMatch) variations.push(pfxMatch[2]);
-    var nospace = artNo.replace(/[\s.-]/g, '');
-    if (nospace !== artNo) variations.push(nospace);
-    return variations;
+    return out;
   }
 
   /* ── Only run on product pages ──

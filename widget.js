@@ -1,4 +1,12 @@
-/* TecDoc Widget v11.21 — MAHLE variation fix (no digit chunking)
+/* TecDoc Widget v11.22 — Systematic variation rules + manual override table
+   Changes in v11.22:
+     • Rewrote articleVariations() with brand-specific rules (MAHLE, MANN,
+       Hyundai/Kia, Toyota, VAG, Bosch, NGK). Removes bad digit-chunking.
+     • Added tecdoc-overrides.js — manual SKU→TecDoc mapping for edge cases.
+     • loadFromAPI() checks window.TECDOC_MAP[sku] FIRST before auto-variations.
+     • Dedupe + cap at 8 variations to reduce Apify 429s.
+
+   v11.21 — MAHLE variation fix (no digit chunking)
    Changes in v11.21:
      • v11.20 used digit-chunk regex that turned "OX1238D" into "OX 12 38D"
        (invalid). Now uses SIMPLE prefix-space: "OX 1238D".
@@ -2138,54 +2146,131 @@
   /* v11.20: mark pending on entry so hybrid poll waits for fallback chain */
   try { window.__tw_pending__ = true; } catch(e) {}
 
+  /* v11.22: Systematic variation generator by manufacturer prefix.
+     Approach: detect brand prefix -> apply brand-specific rules first.
+     Then fall back to generic transformations. Dedupe at the end. */
   function articleVariations(artNo) {
-    var variations = [artNo];
-    var noTrail = artNo.replace(/[A-Z]$/, '');
-    if (noTrail !== artNo && noTrail.length > 3) variations.push(noTrail);
-    var spaced = artNo.replace(/([A-Za-z]+)(\d+)/g, function(m, letters, digits) {
-      var d = digits;
-      if (d.length === 5) d = d.slice(0,2) + ' ' + d.slice(2);
-      else if (d.length === 6) d = d.slice(0,2) + ' ' + d.slice(2,4) + ' ' + d.slice(4);
-      else if (d.length === 4) d = d.slice(0,2) + ' ' + d.slice(2);
-      return letters + ' ' + d;
-    });
-    /* v11.20/v11.21: MAHLE OX/OC/LX/KL uses "OX 387D" (spaced) as canonical TecDoc lookup.
-       Try spaced form FIRST for these prefixes to avoid an unnecessary 429-prone hop.
-       v11.21 fix: use SIMPLE prefix-space ("OX1238D" -> "OX 1238D"), not digit-chunked
-       ("OX 12 38D") which is invalid. Also generate the "OX 177/3 D" variant for slash SKUs. */
-    var mahleMatch = artNo.match(/^(OX|OC|LX|LA|KL|OF)([\d\/]+[A-Z]?)$/i);
+    if (!artNo) return [];
+    var raw = artNo.trim();
+    var variations = [raw];
+
+    /* Normalize whitespace + collect base forms */
+    var upper = raw.toUpperCase();
+    var noSpace = raw.replace(/\s+/g, '');
+    var upperNoSpace = noSpace.toUpperCase();
+    if (noSpace !== raw) variations.push(noSpace);
+    if (upperNoSpace !== upper) variations.push(upperNoSpace);
+
+    /* ============== BRAND-SPECIFIC RULES (highest priority first) ============== */
+
+    /* --- MAHLE / Knecht: OX/OC/LX/LA/KL/OF prefix -> add space after prefix --- */
+    var mahleMatch = upperNoSpace.match(/^(OX|OC|LX|LA|KL|OF)([\d\/]+[A-Z]?)$/);
     if (mahleMatch) {
-      var mahleSpaced = mahleMatch[1].toUpperCase() + ' ' + mahleMatch[2];
-      var mahleForms = [mahleSpaced];
-      /* extra variant: 'OX 177/3 D' — space before trailing letter */
-      var trailLetter = mahleSpaced.match(/^(.+\d)([A-Z])$/);
-      if (trailLetter) mahleForms.push(trailLetter[1] + ' ' + trailLetter[2]);
-      variations = mahleForms.concat([artNo]);
-    } else if (spaced !== artNo) {
-      variations.push(spaced);
+      var mSpaced = mahleMatch[1] + ' ' + mahleMatch[2];
+      variations.unshift(mSpaced); // try FIRST
+      var mTrail = mSpaced.match(/^(.+\d)([A-Z])$/);
+      if (mTrail) variations.push(mTrail[1] + ' ' + mTrail[2]); // "OX 177/3 D"
     }
-    if (noTrail !== artNo && noTrail.length > 3) {
-      var spacedNoTrail = noTrail.replace(/([A-Za-z]+)(\d+)/g, function(m, letters, digits) {
-        var d = digits;
-        if (d.length === 5) d = d.slice(0,2) + ' ' + d.slice(2);
-        else if (d.length === 6) d = d.slice(0,2) + ' ' + d.slice(2,4) + ' ' + d.slice(4);
-        else if (d.length === 4) d = d.slice(0,2) + ' ' + d.slice(2);
-        return letters + ' ' + d;
-      });
-      if (spacedNoTrail !== noTrail) variations.push(spacedNoTrail);
+
+    /* --- MANN-FILTER: HU/WK/W/C/CU/PU prefix + digits + optional /N + trailing letter --- */
+    var mannMatch = upperNoSpace.match(/^(HU|WK|W|C|CU|PU|CS|CF|SP)(\d+(?:\/\d+)?)([A-Z]?)$/);
+    if (mannMatch) {
+      var mannBase = mannMatch[1] + ' ' + mannMatch[2];
+      var mannTail = mannMatch[3];
+      if (mannTail) {
+        variations.unshift(mannBase + ' ' + mannTail.toLowerCase()); // "HU 815/2 x"
+        variations.push(mannBase + mannTail.toLowerCase());          // "HU 815/2x"
+        variations.push(mannBase + ' ' + mannTail);                    // "HU 815/2 X"
+      } else {
+        variations.unshift(mannBase);
+      }
     }
-    if (artNo.indexOf('.') > -1) variations.push(artNo.replace(/\./g, ' '));
-    if (/^\d{10,}$/.test(artNo)) {
-      variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
+
+    /* --- Hyundai/Kia OEM: 10 digits/letters like 263203V000 -> "26320-3V000" --- */
+    /* Pattern: 5 digits + 1 digit-or-letter + 4-mixed = 5-5 split */
+    var hkMatch = upperNoSpace.match(/^(\d{5})([\dA-Z]{5})$/);
+    if (hkMatch) {
+      variations.unshift(hkMatch[1] + '-' + hkMatch[2]); // "26320-3V000"
     }
-    if (/^\d{5}[A-Z]/.test(artNo)) {
-      variations.push(artNo.slice(0,5) + '-' + artNo.slice(5));
+
+    /* --- Toyota/Lexus OEM: 10-char with letters middle like 04152YZZA6 -> "04152-YZZA-6" --- */
+    var toyMatch = upperNoSpace.match(/^(\d{5})([A-Z]{4})(\d)$/);
+    if (toyMatch) {
+      variations.unshift(toyMatch[1] + '-' + toyMatch[2] + '-' + toyMatch[3]);
+      variations.push(toyMatch[1] + '-' + toyMatch[2] + toyMatch[3]);
     }
-    var pfxMatch = artNo.match(/^(FEB|MAN|NGK|BOS|VAL|LUK|SKF|INA|FAG|SNR)(\d{4,})$/i);
+
+    /* --- NGK spark plug: letters+digit+letters+digit like ILZKR6F11 -> DO NOT chunk digits.
+       TecDoc stores NGK plugs verbatim (no spaces). Skip generic-spaced form for these. */
+    var isNgk = /^[A-Z]{2,}\d[A-Z]/.test(upperNoSpace);
+
+    /* --- Bosch: 0-prefix 10-digit -> add dash after first digit, e.g. 0242229715 --- */
+    var bosMatch = upperNoSpace.match(/^0(\d{9})$/);
+    if (bosMatch) {
+      variations.push('0 ' + bosMatch[1]);
+      variations.push('0-' + bosMatch[1]);
+    }
+
+    /* --- Peugeot/Citroen/Renault: 10-digit OEM like 1109AY, 1680682480 --- */
+    /* Already covered by generic below */
+
+    /* --- VAG (VW/Audi/Skoda/Seat): 11-char like 04E115561AC -> "04E 115 561 AC" --- */
+    var vagMatch = upperNoSpace.match(/^(\d{2}[A-Z])(\d{3})(\d{3})([A-Z]{1,2})$/);
+    if (vagMatch) {
+      variations.unshift(vagMatch[1] + ' ' + vagMatch[2] + ' ' + vagMatch[3] + ' ' + vagMatch[4]);
+    }
+
+    /* ============== GENERIC TRANSFORMATIONS ============== */
+
+    /* Drop trailing single letter (D, F, x): often shorter form works */
+    var noTrail = raw.replace(/[A-Za-z]$/, '');
+    if (noTrail !== raw && noTrail.length > 3) variations.push(noTrail);
+
+    /* Simple prefix-digit split: "ABC123D" -> "ABC 123D" (NO digit chunking) */
+    if (!isNgk) {
+      var simpleSplit = upperNoSpace.match(/^([A-Z]{1,4})(\d+.*)$/);
+      if (simpleSplit && simpleSplit[2].length > 2) {
+        var spacedSimple = simpleSplit[1] + ' ' + simpleSplit[2];
+        if (variations.indexOf(spacedSimple) === -1) variations.push(spacedSimple);
+      }
+    }
+
+    /* Dot -> space: "AB.123" -> "AB 123" */
+    if (raw.indexOf('.') > -1) variations.push(raw.replace(/\./g, ' '));
+
+    /* Dash variants: try WITH dash and WITHOUT dash */
+    if (raw.indexOf('-') > -1) {
+      var noDash = raw.replace(/-/g, '');
+      if (variations.indexOf(noDash) === -1) variations.push(noDash);
+    }
+
+    /* 10+ pure-digit OEM: try 5-N split */
+    if (/^\d{10,}$/.test(upperNoSpace)) {
+      variations.push(upperNoSpace.slice(0,5) + '-' + upperNoSpace.slice(5));
+    }
+
+    /* Prefix-drop: FEB123 -> 123 */
+    var pfxMatch = upperNoSpace.match(/^(FEB|MAN|BOS|VAL|LUK|SKF|INA|FAG|SNR)(\d{4,})$/);
     if (pfxMatch) variations.push(pfxMatch[2]);
-    var nospace = artNo.replace(/[\s.-]/g, '');
-    if (nospace !== artNo) variations.push(nospace);
-    return variations;
+
+    /* Trailing single-letter to lowercase (Mann sometimes uses lowercase 'x') */
+    if (/[A-Z]$/.test(raw) && raw.length > 4) {
+      variations.push(raw.slice(0, -1) + raw.slice(-1).toLowerCase());
+    }
+
+    /* ============== DEDUPE + LIMIT ============== */
+    var seen = {};
+    var deduped = [];
+    for (var i = 0; i < variations.length; i++) {
+      var v = variations[i];
+      if (!v) continue;
+      var key = v.toUpperCase();
+      if (seen[key]) continue;
+      seen[key] = 1;
+      deduped.push(v);
+      if (deduped.length >= 8) break; // cap fanout to avoid 429s
+    }
+    return deduped;
   }
 
   /* ── Preferred brands for OEM fallback ranking ── */
@@ -2196,7 +2281,27 @@
     if (!API_URL) return Promise.reject('no_token');
     /* v11.20: mark widget as pending so hybrid doesn't hide us mid-fallback */
     try { window.__tw_pending__ = true; } catch(e) {}
-    var variations = articleVariations(articleNo);
+    /* v11.22: Check manual override table FIRST — window.TECDOC_MAP[sku] can be:
+         a string (single canonical form) or an array (multiple variants to try). */
+    var variations;
+    if (window.TECDOC_MAP && window.TECDOC_MAP[articleNo]) {
+      var manual = window.TECDOC_MAP[articleNo];
+      var manualList = Array.isArray(manual) ? manual.slice() : [manual];
+      /* Append auto-generated variations as fallback */
+      variations = manualList.concat(articleVariations(articleNo));
+      /* Dedupe */
+      var seen = {};
+      variations = variations.filter(function(v) {
+        if (!v) return false;
+        var k = v.toUpperCase();
+        if (seen[k]) return false;
+        seen[k] = 1;
+        return true;
+      }).slice(0, 10);
+      console.log('[TecDoc] Using manual override for', articleNo, '→', variations);
+    } else {
+      variations = articleVariations(articleNo);
+    }
 
     function tryVariation(idx) {
       if (idx >= variations.length) return Promise.reject('no_results');
