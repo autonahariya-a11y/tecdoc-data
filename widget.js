@@ -1,3 +1,12 @@
+/* TecDoc Widget v11.18 — Fixes stuck LOADING + HIDDEN + year-range SKU bugs
+   Changes in v11.18:
+     • applyData() now guards against empty [{articles: null}] responses that
+       used to leave the widget stuck at loading skeleton (60% of products!).
+     • medium-path checks preloader's new empty flag — skips bad cache and hits API.
+     • 15s/20s watchdogs prevent forever-loading — always ends in data or error card.
+     • showError differentiates 'no_sku' vs 'no_results' with tailored Hebrew message.
+     • init() shows friendly card when no SKU (was: silent hide → HIDDEN status).
+     • Companion preloader v6 rejects year-range SKUs and null-articles cache. */
 /* TecDoc Widget v11.17 — showError מציג הודעה יפה במקום להעלים את ה-widget */
 /* TecDoc Widget v11.16 — Added RENAULT TRUCKS + LDV to blacklist */
 /* TecDoc Widget v11.15 — Extended Israel-market blacklist (~75 manufacturers)
@@ -1656,18 +1665,32 @@
 
   function showError(msg) {
     var w = getWidget(); if (!w) return;
-    /* v11.17: instead of hiding the widget entirely (which leaves an ugly gap),
-       show a friendly "no TecDoc data" message so the user knows the page loaded
-       but this specific part isn't in the TecDoc catalog. */
+    /* v11.18: friendly no-data message with variants by reason (no_results / no_sku / generic).
+       Instead of hiding the widget (leaves ugly gap), always render a small card that
+       tells the user the product loaded but TecDoc data isn't available, with a WhatsApp
+       CTA to the parts team. */
     w.style.display = 'block';
     var section = document.getElementById('an-tecdoc-section');
     if (section) section.style.display = 'block';
     var wrap = document.getElementById('an-tecdoc-wrap');
     if (wrap) wrap.style.display = 'block';
+
+    var title, subtitle;
+    if (msg === 'no_sku') {
+      /* Hebrew: 'Compatibility data unavailable for this product' */
+      title = '\u05DE\u05D9\u05D3\u05E2 \u05EA\u05D0\u05D9\u05DE\u05D5\u05EA \u05DC\u05D0 \u05D6\u05DE\u05D9\u05DF \u05DC\u05DE\u05D5\u05E6\u05E8 \u05D6\u05D4';
+      /* Hebrew: 'For quick vehicle-fit check, contact us via WhatsApp' */
+      subtitle = '\u05DC\u05D1\u05D3\u05D9\u05E7\u05EA \u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1 \u05E9\u05DC\u05DA \u2014 <a href="https://wa.me/972539393949" style="color:#0066cc;">\u05E6\u05D5\u05E8 \u05E7\u05E9\u05E8 \u05D1-WhatsApp</a>';
+    } else {
+      /* no_results / generic */
+      title = '\u05DE\u05D9\u05D3\u05E2 \u05EA\u05D0\u05D9\u05DE\u05D5\u05EA \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD \u05DC\u05D0 \u05D6\u05DE\u05D9\u05DF';
+      subtitle = '\u05DE\u05D5\u05E6\u05E8 \u05D6\u05D4 \u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0 \u05D1\u05E7\u05D8\u05DC\u05D5\u05D2 TecDoc \u05D4\u05D1\u05D9\u05E0\u05DC\u05D0\u05D5\u05DE\u05D9. ' +
+                 '\u05DC\u05D1\u05D9\u05E8\u05D5\u05E8 \u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1 \u05E9\u05DC\u05DA \u2014 <a href="https://wa.me/972539393949" style="color:#0066cc;">\u05E6\u05D5\u05E8 \u05E7\u05E9\u05E8 \u05D1-WhatsApp</a>';
+    }
+
     w.innerHTML = '<div class="tw-no-data" style="padding:24px;text-align:center;color:#666;border:1px solid #eee;border-radius:8px;background:#fafafa;margin:16px 0;">' +
-      '<div style="font-size:14px;font-weight:600;color:#444;margin-bottom:6px;">\u05DE\u05D9\u05D3\u05E2 \u05EA\u05D0\u05D9\u05DE\u05D5\u05EA \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD \u05DC\u05D0 \u05D6\u05DE\u05D9\u05DF</div>' +
-      '<div style="font-size:13px;color:#888;">\u05DE\u05D5\u05E6\u05E8 \u05D6\u05D4 \u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0 \u05D1\u05E7\u05D8\u05DC\u05D5\u05D2 TecDoc \u05D4\u05D1\u05D9\u05E0\u05DC\u05D0\u05D5\u05DE\u05D9. ' +
-      '\u05DC\u05D1\u05D9\u05E8\u05D5\u05E8 \u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1 \u05E9\u05DC\u05DA \u2014 <a href="https://wa.me/972539393949" style="color:#0066cc;">\u05E6\u05D5\u05E8 \u05E7\u05E9\u05E8 \u05D1-WhatsApp</a></div>' +
+      '<div style="font-size:14px;font-weight:600;color:#444;margin-bottom:6px;">' + title + '</div>' +
+      '<div style="font-size:13px;color:#888;">' + subtitle + '</div>' +
       '</div>';
   }
 
@@ -2243,6 +2266,24 @@
 
   /* ── Apply data to state and render ── */
   function applyData(data) {
+    /* v11.18: Guard against empty API responses [{articles: null}] that used to
+       cause widget to render empty and stay stuck. If data looks like the raw
+       preloader shape with no articles, or has no articleNo AND no vehicles, treat
+       as no-results and show the friendly error message. */
+    if (Array.isArray(data)) {
+      if (!data.length || !data[0] || !data[0].articles || !data[0].articles.length) {
+        showError('no_results');
+        return;
+      }
+      /* Raw API shape — unwrap to the article for downstream code */
+      data = { articleNo: data[0].articles[0].articleNo, articleId: data[0].articles[0].articleId,
+               supplier: data[0].articles[0].supplierName || '', product: data[0].articles[0].articleProductName || '',
+               vehicles: data[0].articles[0].compatibleCars || [], specs: [], oe: [], ean: '' };
+    }
+    if (!data || (!data.articleNo && (!data.vehicles || !data.vehicles.length))) {
+      showError('no_results');
+      return;
+    }
     D.articleNo = data.articleNo || '';
     D.articleId = data.articleId || null;
     D.supplier = data.supplier || '';
@@ -2264,7 +2305,16 @@
     cleanPage();
 
     var articleNo = detectArticleNo();
-    if (!articleNo) return;
+    if (!articleNo) {
+      /* v11.18: Products without SKU used to leave HIDDEN gap.
+         Only show the friendly message on real spare-parts pages where the widget
+         would have been created anyway (has TecDoc slot or auto-parts detected). */
+      if (isAutoPartsPage()) {
+        var w0 = getOrCreateWidget();
+        if (w0) showError('no_sku');
+      }
+      return;
+    }
 
     var w = getOrCreateWidget();
     if (!w) return;
@@ -2281,43 +2331,67 @@
       var settled = false;
       pre.promise.then(function(data) {
         settled = true;
+        /* v11.18: preloader v6 sets empty=true when cache had null-articles.
+           In that case skip applyData (which would guard again anyway) and go
+           straight to live API which may find data via variations/OEM fallback. */
+        if (pre.empty) {
+          showLoading('\u05DE\u05D7\u05E4\u05E9 \u05D1\u05E7\u05D8\u05DC\u05D5\u05D2 TecDoc...', 20);
+          return loadFromAPI(articleNo)
+            .then(function(d) { applyData(d); })
+            .catch(function() { showError('no_results'); });
+        }
         applyData(data);
       }).catch(function() {
         settled = true;
         showLoading('\u05DE\u05D7\u05E4\u05E9 \u05D1\u05E7\u05D8\u05DC\u05D5\u05D2 TecDoc...', 20);
         return loadFromAPI(articleNo)
           .then(function(data) { applyData(data); })
-          .catch(function(err) {
-            if (err === 'no_results') showError('\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05EA\u05D5\u05E6\u05D0\u05D5\u05EA \u05E2\u05D1\u05D5\u05E8 \u05DE\u05E1\u05E4\u05E8 \u05E7\u05D8\u05DC\u05D5\u05D2\u05D9: ' + articleNo);
-            else showError('\u05E9\u05D2\u05D9\u05D0\u05D4 \u05D1\u05D8\u05E2\u05D9\u05E0\u05EA \u05D4\u05E0\u05EA\u05D5\u05E0\u05D9\u05DD.');
-          });
+          .catch(function(err) { showError('no_results'); });
       });
       /* Only show skeleton if preloader takes >100ms */
       setTimeout(function() {
         if (!settled) showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
       }, 100);
+      /* v11.18: Watchdog — if nothing settled within 15 seconds, show error message
+         instead of leaving the spinner forever. */
+      setTimeout(function() {
+        if (!settled) {
+          settled = true;
+          console.warn('[TecDoc] Watchdog: preloader promise never settled after 15s');
+          showError('no_results');
+        }
+      }, 15000);
       return;
     }
 
     /* Slow path: no preloader — original behavior with skeleton */
     showLoading('\u05D8\u05D5\u05E2\u05DF \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD...', 30);
 
+    /* v11.18: 20-second watchdog for slow path too */
+    var slowSettled = false;
+    setTimeout(function() {
+      if (!slowSettled) {
+        slowSettled = true;
+        console.warn('[TecDoc] Watchdog: slow path never settled after 20s');
+        showError('no_results');
+      }
+    }, 20000);
+
     loadFromCache(articleNo)
       .then(function(data) {
+        slowSettled = true;
         applyData(data);
       })
       .catch(function() {
         showLoading('\u05DE\u05D7\u05E4\u05E9 \u05D1\u05E7\u05D8\u05DC\u05D5\u05D2 TecDoc...', 20);
         return loadFromAPI(articleNo)
           .then(function(data) {
+            slowSettled = true;
             applyData(data);
           })
           .catch(function(err) {
-            if (err === 'no_results') {
-              showError('\u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0\u05D5 \u05EA\u05D5\u05E6\u05D0\u05D5\u05EA \u05E2\u05D1\u05D5\u05E8 \u05DE\u05E1\u05E4\u05E8 \u05E7\u05D8\u05DC\u05D5\u05D2\u05D9: ' + articleNo);
-            } else {
-              showError('\u05E9\u05D2\u05D9\u05D0\u05D4 \u05D1\u05D8\u05E2\u05D9\u05E0\u05EA \u05D4\u05E0\u05EA\u05D5\u05E0\u05D9\u05DD.');
-            }
+            slowSettled = true;
+            showError('no_results');
           });
       });
   }

@@ -1,5 +1,12 @@
 /**
- * TecDoc Preloader v5 — Longest-SKU picker across title/H1/URL
+ * TecDoc Preloader v6 — Longest-SKU picker + null-articles guard
+ *
+ * v6 changes:
+ *   • Filter out cached responses that have articles=null (SKU not in TecDoc).
+ *     Storing null-articles as pre.data caused widget's fast-path to apply
+ *     empty data and get stuck at loading skeleton.
+ *   • Reject SKU candidates that look like year ranges (2011-2017, 2004-2009).
+ *     Konimbo's .code_item sometimes shows year range instead of article number.
  *
  * This script runs BEFORE widget.js and pre-fetches the TecDoc JSON
  * for the current product using async fetch(), so the request starts
@@ -35,6 +42,11 @@
     if (!/^[A-Za-z0-9][A-Za-z0-9._\/-]*[A-Za-z0-9]$/.test(candidate)) return false;
     var alnum = candidate.replace(/[^A-Za-z0-9]/g, '');
     if (alnum.length < candidate.length * 0.7) return false;
+    /* v6: Reject year ranges (2011-2017, 2004-2009, 2007-2012) that Konimbo
+       sometimes shows in .code_item instead of the real article number. */
+    if (/^(19|20)\d{2}[-\u2013\u2014](19|20)\d{2}$/.test(candidate)) return false;
+    /* v6: Reject single years like 2015+ */
+    if (/^(19|20)\d{2}\+?$/.test(candidate)) return false;
     return true;
   }
   function pickLongestSku(candidates) {
@@ -74,7 +86,12 @@
     if (codeEl) {
       var text = (codeEl.textContent || '').trim();
       text = text.replace(/^[\u05DE\u05E7"\u05D8:.\s]+/g, '').trim();
-      if (text) sku = text;
+      /* v6: Reject year ranges that Konimbo mistakenly puts in .code_item */
+      if (text && !/^(19|20)\d{2}[-\u2013\u2014](19|20)\d{2}$/.test(text) && !/^(19|20)\d{2}\+?$/.test(text)) {
+        sku = text;
+      } else if (text) {
+        console.log('[TecDoc Preloader v6] Ignoring year-range in .code_item:', text);
+      }
     }
     /* Try #item_specifications */
     if (!sku) {
@@ -218,10 +235,23 @@
   };
 
   fetchPromise.then(function(d) {
+    /* v6: Only mark data as ready if it's actually useful.
+       Cached files can contain [{articles: null}] for SKUs not in TecDoc catalog
+       (e.g., dealer-only OEM SKUs like GV80 263203V000).
+       Storing that as pre.data causes widget's fast-path to call applyData(nullData)
+       which leaves the widget stuck at the loading skeleton. */
+    var hasArticles = d && d.length && d[0] && d[0].articles && d[0].articles.length;
+    if (!hasArticles) {
+      console.log('[TecDoc Preloader v6] Cached but empty for', articleNo, '— will let widget fall through to API/error');
+      /* Reject so widget's medium-path catch triggers showError */
+      window.TECDOC_PRELOAD.data = null;
+      window.TECDOC_PRELOAD.empty = true;
+      return;
+    }
     window.TECDOC_PRELOAD.data = d;
-    console.log('[TecDoc Preloader v5] Data ready for', articleNo);
+    console.log('[TecDoc Preloader v6] Data ready for', articleNo);
   }).catch(function(err) {
-    console.log('[TecDoc Preloader v5] No cached data for', articleNo, '— tried', variations);
+    console.log('[TecDoc Preloader v6] No cached data for', articleNo, '— tried', variations);
   });
 
 })();
