@@ -1,4 +1,11 @@
-/* TecDoc Widget v11.12 — Double-load guard
+/* TecDoc Widget v11.13 — Handle API error-shape responses
+   Changes in v11.13:
+     • tryVariation() and tryOemSearch(): API sometimes returns
+       [{endpoint, error}] instead of empty array when there's no data
+       (observed for 'HU 815/2 x'). Previously the widget didn't recognize
+       this as no_results and stayed stuck at the loading spinner.
+     • Added .catch() on tryVariation() so network errors don't break the chain.
+   Previous v11.12 — Double-load guard
    Changes in v11.12:
      • Guards against double-execution when theme includes widget.js twice.
        Fixes 'empty shell' bug (page-5 style) where widget renders header bar
@@ -2025,10 +2032,14 @@
         parts_articleNo_20: variations[idx],
         parts_langId_20: 4, parts_countryFilterId_20: 81, parts_typeId_20: 1
       }).then(function(data) {
-        if (!data || !data.length || !data[0].articles || !data[0].articles.length) {
+        /* v11.13: Handle API error-shape response [{endpoint, error}] as no-results */
+        if (!data || !data.length || data[0].error || !data[0].articles || !data[0].articles.length) {
           return tryVariation(idx + 1);
         }
         return data;
+      }).catch(function() {
+        /* Network/parse errors on this variation — try next */
+        return tryVariation(idx + 1);
       });
     }
 
@@ -2038,12 +2049,13 @@
         parts_articleOemNo_29: originalSku,
         parts_langId_29: 4
       }).then(function(oemData) {
-        if (!oemData || !oemData.length) return Promise.reject('no_results');
+        /* v11.13: Handle API error-shape response [{endpoint, error}] as no-results */
+        if (!oemData || !oemData.length || oemData[0].error) return Promise.reject('no_results');
         var seen = {};
         var unique = [];
         for (var i = 0; i < oemData.length; i++) {
           var a = oemData[i];
-          if (!a.articleId || seen[a.articleId]) continue;
+          if (!a || !a.articleId || seen[a.articleId]) continue;
           seen[a.articleId] = true;
           unique.push(a);
         }
