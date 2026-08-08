@@ -1,3 +1,4 @@
+/* TecDoc Widget v11.16 — Added RENAULT TRUCKS + LDV to blacklist */
 /* TecDoc Widget v11.15 — Extended Israel-market blacklist (~75 manufacturers)
    Changes in v11.15:
      - Expanded blacklist to ~75 non-Israel manufacturers based on full market mapping
@@ -1910,7 +1911,9 @@
     'VOLVO ASIA': 1, 'BUICK': 1, 'PONTIAC': 1, 'SATURN': 1, 'OLDSMOBILE': 1,
     'HUMMER': 1, 'GEO': 1, 'DAEWOO': 1, 'ROVER': 1, 'TALBOT': 1,
     'ZAZ': 1, 'LADA': 1, 'ARO': 1, 'MORGAN': 1, 'WESTFIELD': 1, 'SPYKER': 1,
-    'KTM': 1, 'PIAGGIO': 1, 'DAIMLER': 1
+    'KTM': 1, 'PIAGGIO': 1, 'DAIMLER': 1,
+    /* --- משאיות + יצרנים בריטיים/סיניים נוספים --- */
+    'RENAULT TRUCKS': 1, 'LDV': 1
   };
   /* דגמים ספציפיים לסינון (יצרן:דגם) */
   var TW_EXCLUDED_MODELS = [
