@@ -1,3 +1,4 @@
+/* TecDoc Widget v11.17 — showError מציג הודעה יפה במקום להעלים את ה-widget */
 /* TecDoc Widget v11.16 — Added RENAULT TRUCKS + LDV to blacklist */
 /* TecDoc Widget v11.15 — Extended Israel-market blacklist (~75 manufacturers)
    Changes in v11.15:
@@ -1655,9 +1656,19 @@
 
   function showError(msg) {
     var w = getWidget(); if (!w) return;
-    var parent = w.closest('#item_content, #item_specifications');
-    if (parent) { parent.style.display = 'none'; }
-    else { w.style.display = 'none'; }
+    /* v11.17: instead of hiding the widget entirely (which leaves an ugly gap),
+       show a friendly "no TecDoc data" message so the user knows the page loaded
+       but this specific part isn't in the TecDoc catalog. */
+    w.style.display = 'block';
+    var section = document.getElementById('an-tecdoc-section');
+    if (section) section.style.display = 'block';
+    var wrap = document.getElementById('an-tecdoc-wrap');
+    if (wrap) wrap.style.display = 'block';
+    w.innerHTML = '<div class="tw-no-data" style="padding:24px;text-align:center;color:#666;border:1px solid #eee;border-radius:8px;background:#fafafa;margin:16px 0;">' +
+      '<div style="font-size:14px;font-weight:600;color:#444;margin-bottom:6px;">\u05DE\u05D9\u05D3\u05E2 \u05EA\u05D0\u05D9\u05DE\u05D5\u05EA \u05DC\u05E8\u05DB\u05D1\u05D9\u05DD \u05DC\u05D0 \u05D6\u05DE\u05D9\u05DF</div>' +
+      '<div style="font-size:13px;color:#888;">\u05DE\u05D5\u05E6\u05E8 \u05D6\u05D4 \u05DC\u05D0 \u05E0\u05DE\u05E6\u05D0 \u05D1\u05E7\u05D8\u05DC\u05D5\u05D2 TecDoc \u05D4\u05D1\u05D9\u05E0\u05DC\u05D0\u05D5\u05DE\u05D9. ' +
+      '\u05DC\u05D1\u05D9\u05E8\u05D5\u05E8 \u05D4\u05EA\u05D0\u05DE\u05D4 \u05DC\u05E8\u05DB\u05D1 \u05E9\u05DC\u05DA \u2014 <a href="https://wa.me/972539393949" style="color:#0066cc;">\u05E6\u05D5\u05E8 \u05E7\u05E9\u05E8 \u05D1-WhatsApp</a></div>' +
+      '</div>';
   }
 
   /* ═══ STRENGTHS / USP BADGES ═══ */
