@@ -2,7 +2,8 @@
   'use strict';
 
   /* ===================================================
-     CSS INJECTION — v11.10: TecDoc section moved above highlights card
+     CSS INJECTION — v11.24: exclude בולמי תא מטען + בולם מכסה מנוע from redesign
+     v11.10: TecDoc section moved above highlights card
      (Previous v11.9: no sticky add-to-cart bar on spare-parts pages)
      v11.5: support SKUs with slash/dot (e.g. OX361/4D) + strip brand from title
      =================================================== */
@@ -314,7 +315,8 @@
     var found = false;
     for (var sp = 0; sp < S.length; sp++) { if (bcText.indexOf(S[sp]) !== -1) { found = true; break; } }
     if (!found) return false;
-    var B = ['\u05d8\u05d9\u05e4\u05d5\u05d7','\u05e4\u05d3\u05d9\u05dd \u05dc\u05de\u05db\u05d5\u05e0\u05d4','\u05e9\u05e2\u05d5\u05d5\u05d4','\u05e4\u05d5\u05dc\u05d9\u05e9','\u05de\u05d9\u05e7\u05e8\u05d5\u05e4\u05d9\u05d9\u05d1\u05e8','microfiber','polish','meguiar','\u05de\u05d5\u05e6\u05e8\u05d9 \u05d8\u05d9\u05e4\u05d5\u05d7','\u05db\u05dc\u05d9 \u05e2\u05d1\u05d5\u05d3\u05d4','\u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd','\u05e9\u05de\u05e0\u05d9\u05dd','\u05de\u05d2\u05d1\u05d5\u05ea'];
+    /* v11.24: added בולמי תא מטען + בולם מכסה מנוע — revert to Konimbo default design */
+    var B = ['\u05d8\u05d9\u05e4\u05d5\u05d7','\u05e4\u05d3\u05d9\u05dd \u05dc\u05de\u05db\u05d5\u05e0\u05d4','\u05e9\u05e2\u05d5\u05d5\u05d4','\u05e4\u05d5\u05dc\u05d9\u05e9','\u05de\u05d9\u05e7\u05e8\u05d5\u05e4\u05d9\u05d9\u05d1\u05e8','microfiber','polish','meguiar','\u05de\u05d5\u05e6\u05e8\u05d9 \u05d8\u05d9\u05e4\u05d5\u05d7','\u05db\u05dc\u05d9 \u05e2\u05d1\u05d5\u05d3\u05d4','\u05d0\u05d1\u05d9\u05d6\u05e8\u05d9\u05dd','\u05e9\u05de\u05e0\u05d9\u05dd','\u05de\u05d2\u05d1\u05d5\u05ea','\u05d1\u05d5\u05dc\u05de\u05d9 \u05ea\u05d0 \u05de\u05d8\u05e2\u05df','\u05d1\u05d5\u05dc\u05dd \u05de\u05db\u05e1\u05d4 \u05de\u05e0\u05d5\u05e2'];
     for (var bl = 0; bl < B.length; bl++) { if (bcText.indexOf(B[bl]) !== -1) return false; }
     return true;
   }
