@@ -28,7 +28,7 @@
   /* ── Config — single place to change ─────────────────────────── */
   var BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder';
   var TECDOC_DATA = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
-  var VERSION = 'v23';
+  var VERSION = 'v24';
 
   /* ── Category images — mirror /categories/*.webp from demo ──────────── */
   var CAT_IMG_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder/categories/';
