@@ -28,7 +28,7 @@
   /* ── Config — single place to change ─────────────────────────── */
   var BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder';
   var TECDOC_DATA = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
-  var VERSION = 'v22';
+  var VERSION = 'v23';
 
   /* ── Category images — mirror /categories/*.webp from demo ──────────── */
   var CAT_IMG_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder/categories/';
@@ -772,6 +772,10 @@
 
       /* Image and title are NOT clickable — only the two buttons below are interactive */
       var sThumbDiv = sThumb.replace('text-decoration:none !important;', '') + 'cursor:default !important;';
+      /* Engine chip — shows matched engine variants from TecDoc when available */
+      var sEng = 'display:inline-block !important;background:#EEF6FA !important;color:#0B3E5C !important;font-size:11px !important;font-weight:600 !important;padding:3px 8px !important;border-radius:10px !important;margin:0 14px 8px !important;line-height:1.4 !important;';
+      var engHtml = (p.engine && p.engine.trim()) ? ('<div class="anh-ir__eng" style="' + sEng + '">⛽ מנוע: ' + escapeHtml(p.engine) + '</div>') : '';
+
       card.innerHTML =
         '<div class="anh-ir__thumb" style="' + sThumbDiv + '">' +
           (img ? '<img style="' + sImg + '" src="' + img + '" alt="' + escapeHtml(p.c || '') + '" loading="lazy" data-anh-img-fallback="' + kid + '">'
@@ -781,6 +785,7 @@
         '<div class="anh-ir__cat" style="' + sCat + '">' + escapeHtml(p.c || '') + '</div>' +
         '<h3 class="anh-ir__name" style="' + sName + '"><span style="' + sNameA.replace('text-decoration:none !important;', '') + 'cursor:default !important;">' +
           escapeHtml((p.n || '').substring(0, 80)) + '</span></h3>' +
+        engHtml +
         '<div class="anh-ir__price" style="' + sPrice + '">' + priceDisp + '</div>' +
         '<div class="anh-ir__sku" style="' + sSku + '">מק"ט: ' + escapeHtml(skuDisp) + '</div>' +
         '<div class="anh-ir__actions" style="' + sActs + '">' +
@@ -1443,6 +1448,8 @@
          *   3. yr is within [yearFrom..yearTo] (inclusive; 0 = open-ended)
          */
         var matched = false;
+        var matchedEngines = [];
+        var matchedRow = null;
         for (var ri = 0; ri < rows.length; ri++) {
           var row = rows[ri];
           var rmk = row[0]; var rmd = row[1]; var ryF = row[2] || 0; var ryT = row[3] || 9999;
@@ -1462,8 +1469,15 @@
           /* Year check */
           if (yr && ryF && yr < ryF) continue;
           if (yr && ryT && ryT < 9999 && yr > ryT) continue;
-          matched = true; break;
+          /* Collect engine string from row[4] if present */
+          if (row.length >= 5 && row[4]) {
+            if (matchedEngines.indexOf(row[4]) === -1) matchedEngines.push(row[4]);
+          }
+          matched = true;
+          matchedRow = row;
+          /* Don't break — keep scanning to collect all engine variants for this vehicle */
         }
+        var matchedEngine = matchedEngines.join(' | ');
         if (!matched) continue;
 
         /* Pull metadata: prefer Konimbo XML feed (data.meta) > product_lookup */
@@ -1487,6 +1501,7 @@
           sku: sku,
           oem: p.oem || '',
           img: img || '',
+          engine: matchedEngine || '',
           _rank: 1000 + (price ? 2 : 0) + (img ? 1 : 0),
           _tecdoc: true
         });
