@@ -28,7 +28,7 @@
   /* ── Config — single place to change ─────────────────────────── */
   var BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder';
   var TECDOC_DATA = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
-  var VERSION = 'v24';
+  var VERSION = 'v25';
 
   /* ── Category images — mirror /categories/*.webp from demo ──────────── */
   var CAT_IMG_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder/categories/';
@@ -677,6 +677,31 @@
       var _strip = document.getElementById('anh-ir-cat-strip');
       var _tiles = document.getElementById('anh-ir-cat-tiles');
 
+      /* ─ Engine filter: if multiple engine variants across matches, allow user to filter ─ */
+      var engineSet = {};
+      matches.forEach(function (m) {
+        if (m.engine) {
+          /* engine can be multi-value joined by " | " — split and register each */
+          m.engine.split(' | ').forEach(function (e) {
+            e = e.trim();
+            if (e) engineSet[e] = (engineSet[e] || 0) + 1;
+          });
+        }
+      });
+      var engineOptions = Object.keys(engineSet).sort(function (a, b) {
+        return engineSet[b] - engineSet[a] || a.localeCompare(b);
+      });
+      renderEngineFilter(engineOptions, function (selectedEngine) {
+        /* Re-render grid with filtered matches */
+        var filtered = selectedEngine
+          ? matches.filter(function (m) {
+              if (!m.engine) return true; /* Universal products (no engine tag) always show */
+              return m.engine.split(' | ').some(function (e) { return e.trim() === selectedEngine; });
+            })
+          : matches;
+        redrawGrid(filtered, data);
+      });
+
       if (matches.length === 0) {
         /* No matches: show empty-state message, hide grid + category chips + tiles */
         empty.hidden = false;
@@ -732,6 +757,68 @@
       resultsWrap.hidden = true;
       homepageGroups.forEach(function (g) { g.style.display = ''; });
       widget.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    /* ─ Engine filter UI ──────────────────────── */
+    function renderEngineFilter(engineOptions, onSelect) {
+      /* Remove any prior filter element */
+      var oldFilter = document.getElementById('anh-engine-filter');
+      if (oldFilter) oldFilter.parentNode.removeChild(oldFilter);
+
+      /* Only show if there are 2+ distinct engines */
+      if (!engineOptions || engineOptions.length < 2) return;
+
+      var grid = document.getElementById('anh-ir-grid');
+      if (!grid || !grid.parentNode) return;
+
+      var wrap = document.createElement('div');
+      wrap.id = 'anh-engine-filter';
+      wrap.style.cssText = 'display:flex !important;flex-wrap:wrap !important;align-items:center !important;gap:8px !important;padding:12px 16px !important;margin:0 0 12px 0 !important;background:#F8FAFB !important;border:1px solid #e5ebf0 !important;border-radius:12px !important;direction:rtl !important;';
+
+      var label = document.createElement('span');
+      label.textContent = '⛽ סנן לפי מנוע:';
+      label.style.cssText = 'font-size:14px !important;font-weight:600 !important;color:#0B3E5C !important;margin-left:8px !important;';
+      wrap.appendChild(label);
+
+      /* "All" chip — default selected */
+      var chips = [];
+      function makeChip(text, value, isDefault) {
+        var chip = document.createElement('button');
+        chip.type = 'button';
+        chip.textContent = text;
+        chip.dataset.engine = value || '';
+        var baseStyle = 'padding:6px 14px !important;border-radius:20px !important;border:1px solid #1A9FD5 !important;font-size:13px !important;font-weight:600 !important;cursor:pointer !important;font-family:inherit !important;transition:all 0.15s !important;';
+        var activeStyle = baseStyle + 'background:#1A9FD5 !important;color:#fff !important;';
+        var inactiveStyle = baseStyle + 'background:#fff !important;color:#1A9FD5 !important;';
+        chip.style.cssText = isDefault ? activeStyle : inactiveStyle;
+        chip.addEventListener('click', function () {
+          chips.forEach(function (c) {
+            c.style.cssText = inactiveStyle;
+          });
+          chip.style.cssText = activeStyle;
+          onSelect(value);
+        });
+        chips.push(chip);
+        return chip;
+      }
+
+      wrap.appendChild(makeChip('כל המנועים', '', true));
+      engineOptions.forEach(function (eng) {
+        wrap.appendChild(makeChip(eng, eng, false));
+      });
+
+      grid.parentNode.insertBefore(wrap, grid);
+    }
+
+    /* Re-draw grid with filtered products */
+    function redrawGrid(filtered, data) {
+      var grid = document.getElementById('anh-ir-grid');
+      if (!grid) return;
+      grid.innerHTML = '';
+      filtered.forEach(function (p) { grid.appendChild(buildCard(p, data)); });
+      /* Update category strip and tiles based on filtered set */
+      try { renderCategoryStrip(filtered); } catch (e) {}
+      try { renderCategoryTiles(filtered, true); } catch (e) {}
     }
 
     function buildCard(p, data) {
