@@ -28,7 +28,7 @@
   /* ── Config — single place to change ─────────────────────────── */
   var BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder';
   var TECDOC_DATA = 'https://autonahariya-a11y.github.io/tecdoc-data/data/';
-  var VERSION = 'v21';
+  var VERSION = 'v22';
 
   /* ── Category images — mirror /categories/*.webp from demo ──────────── */
   var CAT_IMG_BASE = 'https://autonahariya-a11y.github.io/tecdoc-data/parts-finder/categories/';
@@ -765,9 +765,10 @@
        * Konimbo's product page submits when its cart button is clicked.
        * This adds the item to cart and lands on the cart page — the same
        * UX as clicking 'Add to cart' on a product page directly. */
+      /* Always render 'Add to cart' button. If no price, clicking it navigates to product page. */
       var cartBtnHtml = hasPrice
         ? '<button type="button" class="anh-ir__btn anh-ir__btn--cart" data-anh-cart-add="' + kid + '" style="' + sBtnC + '">הוסף לעגלה</button>'
-        : '';
+        : '<a class="anh-ir__btn anh-ir__btn--cart" href="' + prodUrl + '" target="_blank" rel="noopener" style="' + sBtnC + '">הוסף לעגלה</a>';
 
       /* Image and title are NOT clickable — only the two buttons below are interactive */
       var sThumbDiv = sThumb.replace('text-decoration:none !important;', '') + 'cursor:default !important;';
@@ -782,9 +783,9 @@
           escapeHtml((p.n || '').substring(0, 80)) + '</span></h3>' +
         '<div class="anh-ir__price" style="' + sPrice + '">' + priceDisp + '</div>' +
         '<div class="anh-ir__sku" style="' + sSku + '">מק"ט: ' + escapeHtml(skuDisp) + '</div>' +
-        '<div class="anh-ir__actions" style="' + (hasPrice ? sActs : sActs.replace('grid-template-columns:1fr 1fr','grid-template-columns:1fr')) + '">' +
+        '<div class="anh-ir__actions" style="' + sActs + '">' +
           cartBtnHtml +
-          '<a class="anh-ir__btn anh-ir__btn--prod" style="' + (hasPrice ? sBtnP : sBtnC) + '" href="' + prodUrl + '" target="_blank" rel="noopener">' + (hasPrice ? 'לדף המוצר' : 'למוצר ומחיר') + '</a>' +
+          '<a class="anh-ir__btn anh-ir__btn--prod" style="' + sBtnP + '" href="' + prodUrl + '" target="_blank" rel="noopener">לדף המוצר</a>' +
         '</div>';
 
       /* Wire up cart click — fetch live token from product page, then submit form */
