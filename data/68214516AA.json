@@ -1,0 +1,50 @@
+{
+  "articleNo": "68214516AA",
+  "articleId": 5484613,
+  "supplier": "DENCKERMANN",
+  "product": "Air Filter",
+  "originalManufacturer": "CHRYSLER",
+  "matchedArticleNo": "A146967",
+  "vehicles": [
+    {
+      "vehicleId": 128487,
+      "modelId": 36342,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "PACIFICA (RU)",
+      "typeEngineName": "3.6",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "248"
+    },
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "238"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "42"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Air Recirculation Filter"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "68214516AA"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "K68214516AA"
+    }
+  ],
+  "ean": "5902841646964",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-01T17:11:50.676Z"
+}

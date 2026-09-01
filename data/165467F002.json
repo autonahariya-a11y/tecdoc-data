@@ -1,0 +1,149 @@
+{
+  "articleNo": "165467F002",
+  "articleId": 730118,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "originalManufacturer": "NISSAN",
+  "matchedArticleNo": "1 457 433 154",
+  "vehicles": [
+    {
+      "vehicleId": 5793,
+      "modelId": 1310,
+      "manufacturerName": "FORD",
+      "modelName": "MAVERICK (UDS, UNS)",
+      "typeEngineName": "2.7 TD",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "1998-04-01"
+    },
+    {
+      "vehicleId": 5990,
+      "modelId": 1226,
+      "manufacturerName": "NISSAN",
+      "modelName": "TERRANO II (R20)",
+      "typeEngineName": "2.7 TDi 4WD",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 10015,
+      "modelId": 3892,
+      "manufacturerName": "NISSAN",
+      "modelName": "PICK UP (D22)",
+      "typeEngineName": "2.5 TD 4WD",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 12571,
+      "modelId": 9852,
+      "manufacturerName": "FORD",
+      "modelName": "MAVERICK VAN",
+      "typeEngineName": "2.7 TD",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "1998-04-01"
+    },
+    {
+      "vehicleId": 58087,
+      "modelId": 7813,
+      "manufacturerName": "NISSAN",
+      "modelName": "NAVARA (D22)",
+      "typeEngineName": "2.5 TDiC 4x4",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 12495,
+      "modelId": 9837,
+      "manufacturerName": "NISSAN",
+      "modelName": "TERRANO II Van (R20)",
+      "typeEngineName": "2.7 TDi 4WD",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 12496,
+      "modelId": 9837,
+      "manufacturerName": "NISSAN",
+      "modelName": "TERRANO II Van (R20)",
+      "typeEngineName": "3.0 Di 4WD",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 16773,
+      "modelId": 1226,
+      "manufacturerName": "NISSAN",
+      "modelName": "TERRANO II (R20)",
+      "typeEngineName": "3.0 Di 4WD",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2007-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Width [mm]",
+      "criteriaValue": "136"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "234"
+    },
+    {
+      "criteriaName": "Diameter 1 [mm]",
+      "criteriaValue": "72"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "136"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1112657"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16546 3S903"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16546 7F000"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16546 7F000 B1"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "16546 7F002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "16546-OW800"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1960332"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1960333"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "YL4J 9601 CA"
+    }
+  ],
+  "ean": "3165143526194",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-01T17:07:58.144Z"
+}

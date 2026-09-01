@@ -1,0 +1,41 @@
+{
+  "articleNo": "1KD129620A",
+  "articleId": 13566333,
+  "supplier": "ZPY",
+  "product": "Air Filter",
+  "vehicles": [
+    {
+      "vehicleId": 9305,
+      "modelId": 8604,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 (8X1, 8XK)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2015-04-01"
+    },
+    {
+      "vehicleId": 33304,
+      "modelId": 8604,
+      "manufacturerName": "AUDI",
+      "modelName": "A1 (8X1, 8XK)",
+      "typeEngineName": "1.6 TDI",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2015-04-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1KD129620A"
+    }
+  ],
+  "ean": "",
+  "source": "article-search",
+  "fetchedAt": "2026-09-01T17:06:27.230Z"
+}

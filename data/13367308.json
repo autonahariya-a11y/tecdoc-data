@@ -1,0 +1,46 @@
+{
+  "articleNo": "13367308",
+  "articleId": 81205,
+  "supplier": "BOSCH",
+  "product": "Air Filter",
+  "originalManufacturer": "CHEVROLET",
+  "matchedArticleNo": "0 986 B02 025",
+  "vehicles": [
+    {
+      "vehicleId": 121688,
+      "modelId": 153,
+      "manufacturerName": "CITROËN",
+      "modelName": "ZX (N2)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1999-07-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "123"
+    },
+    {
+      "criteriaName": "Diameter 2 [mm]",
+      "criteriaValue": "120"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "166"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "13 367 308"
+    }
+  ],
+  "ean": "4047024689350",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-01T17:08:17.735Z"
+}

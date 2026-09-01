@@ -1,0 +1,85 @@
+{
+  "articleNo": "4593914AB",
+  "articleId": 1147880,
+  "supplier": "IAP QUALITY PARTS",
+  "product": "Air Filter",
+  "originalManufacturer": "JEEP",
+  "matchedArticleNo": "121-10073",
+  "vehicles": [
+    {
+      "vehicleId": 11437,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19762,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19945,
+      "modelId": 5628,
+      "manufacturerName": "DODGE",
+      "modelName": "CALIBER",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 21591,
+      "modelId": 5605,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MK49)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "170"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "81"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "137"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "04593914AB"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "4593914AB"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "K04593914AB"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "K04593914AC"
+    }
+  ],
+  "ean": "",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-01T17:05:00.077Z"
+}
