@@ -1,0 +1,4319 @@
+{
+  "articleNo": "15400-RTA-003",
+  "articleId": 72192,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "HONDA",
+  "matchedArticleNo": "0 986 4B7 035",
+  "vehicles": [
+    {
+      "vehicleId": 1009,
+      "modelId": 490,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA A (J89)",
+      "typeEngineName": "1.7 TD (F19, M19)",
+      "constructionIntervalStart": "1990-03-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 1011,
+      "modelId": 3866,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA A Hatchback (J89)",
+      "typeEngineName": "1.7 TD (F68, M68)",
+      "constructionIntervalStart": "1990-03-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 1791,
+      "modelId": 388,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA F Hatchback (T92)",
+      "typeEngineName": "1.7 TDS (F08, M08, F68, M68)",
+      "constructionIntervalStart": "1991-12-01",
+      "constructionIntervalEnd": "1998-01-01"
+    },
+    {
+      "vehicleId": 1792,
+      "modelId": 376,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA F Saloon (T92)",
+      "typeEngineName": "1.7 TDS (F19, M19)",
+      "constructionIntervalStart": "1992-03-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 1820,
+      "modelId": 3440,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA F Estate (T92)",
+      "typeEngineName": "1.7 TDS (F35, M35)",
+      "constructionIntervalStart": "1991-12-01",
+      "constructionIntervalEnd": "1998-01-01"
+    },
+    {
+      "vehicleId": 1837,
+      "modelId": 189,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA B (S93)",
+      "typeEngineName": "1.5 D (F08, F68, M68)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 1838,
+      "modelId": 189,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA B (S93)",
+      "typeEngineName": "1.5 TD (F08, F68, M68)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 3392,
+      "modelId": 9055,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "TENGYI C30",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 4128,
+      "modelId": 1256,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Hatchback (EC, ED, EE, EF)",
+      "typeEngineName": "1.6 i 16V (ED7)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 4131,
+      "modelId": 1256,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Hatchback (EC, ED, EE, EF)",
+      "typeEngineName": "1.5 i 16V (ED6)",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 4135,
+      "modelId": 1256,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Hatchback (EC, ED, EE, EF)",
+      "typeEngineName": "1.6 i 16V Vtec (EE9)",
+      "constructionIntervalStart": "1989-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 4148,
+      "modelId": 1253,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD II (AC, AD)",
+      "typeEngineName": "1.6 EX (AC)",
+      "constructionIntervalStart": "1983-09-01",
+      "constructionIntervalEnd": "1985-10-01"
+    },
+    {
+      "vehicleId": 4149,
+      "modelId": 1252,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD II Hatchback (AC, AD)",
+      "typeEngineName": "1.8 EX (AD)",
+      "constructionIntervalStart": "1983-09-01",
+      "constructionIntervalEnd": "1985-10-01"
+    },
+    {
+      "vehicleId": 4153,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "1.6 L (CA4)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4157,
+      "modelId": 3471,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III Aerodeck (CA)",
+      "typeEngineName": "2.0 EX (CA5)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4160,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 EX (CA5)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1989-05-01"
+    },
+    {
+      "vehicleId": 4162,
+      "modelId": 3471,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III Aerodeck (CA)",
+      "typeEngineName": "2.0 EX (CA5)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1989-05-01"
+    },
+    {
+      "vehicleId": 4165,
+      "modelId": 3471,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III Aerodeck (CA)",
+      "typeEngineName": "2.0 EXi (CA5)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4167,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 EXi (CA5)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1987-12-01"
+    },
+    {
+      "vehicleId": 4168,
+      "modelId": 3471,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III Aerodeck (CA)",
+      "typeEngineName": "2.0 EXi (CA5)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1987-12-01"
+    },
+    {
+      "vehicleId": 4169,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 i 16V (CA5)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4170,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 i 16V (CA5)",
+      "constructionIntervalStart": "1987-01-01",
+      "constructionIntervalEnd": "1987-12-01"
+    },
+    {
+      "vehicleId": 4230,
+      "modelId": 1260,
+      "manufacturerName": "HONDA",
+      "modelName": "CRX II (ED, EE)",
+      "typeEngineName": "1.6 i 16V Vtec (EE8)",
+      "constructionIntervalStart": "1989-10-01",
+      "constructionIntervalEnd": "1992-02-01"
+    },
+    {
+      "vehicleId": 4232,
+      "modelId": 1279,
+      "manufacturerName": "HONDA",
+      "modelName": "CRX III (EH, EG)",
+      "typeEngineName": "1.6 ESi (EH6)",
+      "constructionIntervalStart": "1992-03-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 4234,
+      "modelId": 1261,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE III (BA)",
+      "typeEngineName": "2.0 EX (BA4)",
+      "constructionIntervalStart": "1987-04-01",
+      "constructionIntervalEnd": "1992-01-01"
+    },
+    {
+      "vehicleId": 4236,
+      "modelId": 1261,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE III (BA)",
+      "typeEngineName": "2.0 i EX 16V (BA2)",
+      "constructionIntervalStart": "1986-04-01",
+      "constructionIntervalEnd": "1987-12-01"
+    },
+    {
+      "vehicleId": 4237,
+      "modelId": 1261,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE III (BA)",
+      "typeEngineName": "2.0 i EX 16V Cat (BA4)",
+      "constructionIntervalStart": "1987-04-01",
+      "constructionIntervalEnd": "1992-01-01"
+    },
+    {
+      "vehicleId": 4239,
+      "modelId": 1261,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE III (BA)",
+      "typeEngineName": "2.0 i EX 16V (BA4)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1992-01-01"
+    },
+    {
+      "vehicleId": 4241,
+      "modelId": 1277,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE IV (BB_)",
+      "typeEngineName": "2.0 i 16V (BB3)",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 4250,
+      "modelId": 1278,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Shuttle (EE, EF)",
+      "typeEngineName": "1.6 i 16V 4WD (EE4)",
+      "constructionIntervalStart": "1988-01-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4252,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.0 16V (CB3)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
+    },
+    {
+      "vehicleId": 4254,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.0 16V (CB3)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
+    },
+    {
+      "vehicleId": 4257,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.2 i 16V Automatik (CB7)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
+    },
+    {
+      "vehicleId": 4258,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.2 i 16V (CB7)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
+    },
+    {
+      "vehicleId": 4260,
+      "modelId": 1276,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV Aerodeck (CB)",
+      "typeEngineName": "2.2 i 16V (CB8)",
+      "constructionIntervalStart": "1991-01-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 4261,
+      "modelId": 1276,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV Aerodeck (CB)",
+      "typeEngineName": "2.2 i 16V (CB8)",
+      "constructionIntervalStart": "1991-01-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 4278,
+      "modelId": 1271,
+      "manufacturerName": "HONDA",
+      "modelName": "CONCERTO (HW, MA)",
+      "typeEngineName": "1.5 i 16V (MA1)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-03-01"
+    },
+    {
+      "vehicleId": 4279,
+      "modelId": 1271,
+      "manufacturerName": "HONDA",
+      "modelName": "CONCERTO (HW, MA)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-03-01"
+    },
+    {
+      "vehicleId": 4284,
+      "modelId": 1276,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV Aerodeck (CB)",
+      "typeEngineName": "2.0 i 16V (CC9)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1993-12-01"
+    },
+    {
+      "vehicleId": 4286,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.6 i (MB1)",
+      "constructionIntervalStart": "1994-09-01",
+      "constructionIntervalEnd": "1997-01-01"
+    },
+    {
+      "vehicleId": 4288,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.6 i Vtec (MB1)",
+      "constructionIntervalStart": "1994-09-01",
+      "constructionIntervalEnd": "1997-01-01"
+    },
+    {
+      "vehicleId": 4289,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.5 i Vtec-E (MA9)",
+      "constructionIntervalStart": "1994-09-01",
+      "constructionIntervalEnd": "1997-01-01"
+    },
+    {
+      "vehicleId": 4295,
+      "modelId": 1273,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V Coupe (CD)",
+      "typeEngineName": "2.2 i ES (CD7)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 4296,
+      "modelId": 1272,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V Aerodeck (CE)",
+      "typeEngineName": "2.0 i LS 16V (CE2)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 5056,
+      "modelId": 3471,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III Aerodeck (CA)",
+      "typeEngineName": "2.0 EX (CA5)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 5196,
+      "modelId": 1468,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Hatchback (EJ, EK)",
+      "typeEngineName": "1.4 i (EJ9)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 5199,
+      "modelId": 1468,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Hatchback (EJ, EK)",
+      "typeEngineName": "1.5 i (EK3)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 5200,
+      "modelId": 1468,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Hatchback (EJ, EK)",
+      "typeEngineName": "1.6 VTi (EK4)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 5203,
+      "modelId": 1469,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Saloon (EJ, EK, SO)",
+      "typeEngineName": "1.6 VTi (EK4, SO4)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 5355,
+      "modelId": 1490,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CE, CF_, CD)",
+      "typeEngineName": "1.8 i (CE7)",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 5356,
+      "modelId": 1490,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CE, CF_, CD)",
+      "typeEngineName": "2.0 i LS (CE8)",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 5357,
+      "modelId": 1490,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CE, CF_, CD)",
+      "typeEngineName": "2.2 i VTEC (CE9)",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 6108,
+      "modelId": 1278,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Shuttle (EE, EF)",
+      "typeEngineName": "1.5 i 16V (EE2)",
+      "constructionIntervalStart": "1988-01-01",
+      "constructionIntervalEnd": "1991-11-01"
+    },
+    {
+      "vehicleId": 6975,
+      "modelId": 10179,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "C50",
+      "typeEngineName": "1.5 Turbo",
+      "constructionIntervalStart": "2011-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7488,
+      "modelId": 1256,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Hatchback (EC, ED, EE, EF)",
+      "typeEngineName": "1.3 (EC8)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 7490,
+      "modelId": 1261,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE III (BA)",
+      "typeEngineName": "2.0 (BA4)",
+      "constructionIntervalStart": "1987-08-01",
+      "constructionIntervalEnd": "1992-01-01"
+    },
+    {
+      "vehicleId": 7821,
+      "modelId": 3500,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE V (BB_)",
+      "typeEngineName": "2.2 16V (BB6, BB8)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 9543,
+      "modelId": 3562,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Aerodeck (MB, MC)",
+      "typeEngineName": "1.4 16V (MB8)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 9544,
+      "modelId": 3562,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Aerodeck (MB, MC)",
+      "typeEngineName": "1.4 16V (MB8)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 9545,
+      "modelId": 3562,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Aerodeck (MB, MC)",
+      "typeEngineName": "1.5 16V (MB9)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 9547,
+      "modelId": 3562,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Aerodeck (MB, MC)",
+      "typeEngineName": "1.8 16V (MC2)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 10026,
+      "modelId": 3896,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI (CK, CG, CH, CF, CL)",
+      "typeEngineName": "1.8 i (CG8)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 10027,
+      "modelId": 3896,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI (CK, CG, CH, CF, CL)",
+      "typeEngineName": "2.0 i (CG9)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2001-01-01"
+    },
+    {
+      "vehicleId": 10028,
+      "modelId": 3896,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI (CK, CG, CH, CF, CL)",
+      "typeEngineName": "2.2 Type-R (CH1)",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 11415,
+      "modelId": 4091,
+      "manufacturerName": "HONDA",
+      "modelName": "LOGO (GA)",
+      "typeEngineName": "1.3 (GA3)",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2002-03-01"
+    },
+    {
+      "vehicleId": 11510,
+      "modelId": 3500,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE V (BB_)",
+      "typeEngineName": "2.2 16V (BB6, BB8)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 12369,
+      "modelId": 9810,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO",
+      "typeEngineName": "2.0 All-wheel Drive",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 13918,
+      "modelId": 9999,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX (FK)",
+      "typeEngineName": "1.4 i-VTEC (FK1)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 13926,
+      "modelId": 9999,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX (FK)",
+      "typeEngineName": "1.8 i-VTEC (FK2)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 14146,
+      "modelId": 4501,
+      "manufacturerName": "HONDA",
+      "modelName": "CONCERTO Saloon (HWW)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-03-01"
+    },
+    {
+      "vehicleId": 14410,
+      "modelId": 4577,
+      "manufacturerName": "HONDA",
+      "modelName": "INSIGHT (ZE)",
+      "typeEngineName": "1.0 IMA (ZE1, ZE18, ZE13)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 14594,
+      "modelId": 4060,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (GH_)",
+      "typeEngineName": "1.6 16V 4WD (GH2, GH4)",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 14669,
+      "modelId": 3471,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III Aerodeck (CA)",
+      "typeEngineName": "1.6 L (CA4)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 14899,
+      "modelId": 3896,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI (CK, CG, CH, CF, CL)",
+      "typeEngineName": "1.6 i (CG7)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 15934,
+      "modelId": 4733,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Hatchback (EU, EP, EV)",
+      "typeEngineName": "1.4 i (EP1, EU7)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16262,
+      "modelId": 4734,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Coupe (EM2)",
+      "typeEngineName": "1.7 i (EM2)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 16263,
+      "modelId": 4734,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Coupe (EM2)",
+      "typeEngineName": "1.7 i VTEC (EM2)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 16287,
+      "modelId": 4733,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Hatchback (EU, EP, EV)",
+      "typeEngineName": "2.0 Type-R (EP3)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16317,
+      "modelId": 4838,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ II (GD_, GE3, GE2)",
+      "typeEngineName": "1.3 iDSi (GD1)",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 17264,
+      "modelId": 4985,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VII Tourer (CM, CN)",
+      "typeEngineName": "2.4 (CM2)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 17525,
+      "modelId": 5039,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Coupe (EJ, EM1)",
+      "typeEngineName": "1.6 i (EJ6)",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2000-03-01"
+    },
+    {
+      "vehicleId": 17634,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.3 (ED1)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 17641,
+      "modelId": 1273,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V Coupe (CD)",
+      "typeEngineName": "2.0 (CD9)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 17802,
+      "modelId": 4803,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Saloon (ES, ET)",
+      "typeEngineName": "1.3 IMA (ED9, ES9)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 17832,
+      "modelId": 5095,
+      "manufacturerName": "HONDA",
+      "modelName": "INTEGRA Hatchback (DA)",
+      "typeEngineName": "1.5 (DA4)",
+      "constructionIntervalStart": "1985-10-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 18018,
+      "modelId": 1256,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Hatchback (EC, ED, EE, EF)",
+      "typeEngineName": "1.5 i 16V (ED6)",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 19240,
+      "modelId": 5498,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Hatchback (FN, FK)",
+      "typeEngineName": "1.4 (FK1)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-09-01"
+    },
+    {
+      "vehicleId": 19241,
+      "modelId": 5498,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Hatchback (FN, FK)",
+      "typeEngineName": "1.8 (FN1, FK2)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 20348,
+      "modelId": 5517,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Saloon (FD, FA)",
+      "typeEngineName": "1.8 (FD1, FD7, FA1)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 20413,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "1988-01-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 20416,
+      "modelId": 1264,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Saloon (EG, EH)",
+      "typeEngineName": "1.5 (EG8)",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 20539,
+      "modelId": 1978,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V I (RD)",
+      "typeEngineName": "2.0 (RD1)",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 20663,
+      "modelId": 3896,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI (CK, CG, CH, CF, CL)",
+      "typeEngineName": "1.6 LS (CG7)",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 20868,
+      "modelId": 4963,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VII (CL, CN)",
+      "typeEngineName": "2.4 (CL9)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 21387,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1988-01-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 21541,
+      "modelId": 4577,
+      "manufacturerName": "HONDA",
+      "modelName": "INSIGHT (ZE)",
+      "typeEngineName": "1.0 Vtec (ZE1)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2004-10-01"
+    },
+    {
+      "vehicleId": 21876,
+      "modelId": 5949,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY IV Saloon (GE4)",
+      "typeEngineName": "1.5 FF",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 23112,
+      "modelId": 6384,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RL1, RA6, RA_)",
+      "typeEngineName": "2.3 (RA6)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2003-09-01"
+    },
+    {
+      "vehicleId": 23113,
+      "modelId": 6384,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RL1, RA6, RA_)",
+      "typeEngineName": "2.3 4x4 (RA3)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2003-09-01"
+    },
+    {
+      "vehicleId": 23115,
+      "modelId": 6384,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RL1, RA6, RA_)",
+      "typeEngineName": "2.4 (RA6)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26791,
+      "modelId": 4803,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Saloon (ES, ET)",
+      "typeEngineName": "2.0 (ET1)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 27871,
+      "modelId": 3471,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III Aerodeck (CA)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1986-01-01",
+      "constructionIntervalEnd": "1986-12-01"
+    },
+    {
+      "vehicleId": 29480,
+      "modelId": 7803,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII (CU)",
+      "typeEngineName": "2.0 i (CU1)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 29481,
+      "modelId": 7803,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII (CU)",
+      "typeEngineName": "2.4 i (CU2)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 29483,
+      "modelId": 7804,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII Estate (CW)",
+      "typeEngineName": "2.0 i (CW1)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 29527,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 12V (CA5)",
+      "constructionIntervalStart": "1987-01-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 30357,
+      "modelId": 5498,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Hatchback (FN, FK)",
+      "typeEngineName": "1.4 (FK1, FN4)",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 30775,
+      "modelId": 6176,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 30967,
+      "modelId": 4576,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI Hatchback (CH, CL)",
+      "typeEngineName": "1.6 (CH5)",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 31479,
+      "modelId": 8131,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY V Saloon (GM2, GM3)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33211,
+      "modelId": 7889,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ III (GE_, GG_, GP_, ZA_)",
+      "typeEngineName": "1.5 i-VTEC (GE8)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 33873,
+      "modelId": 1261,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE III (BA)",
+      "typeEngineName": "2.0 i EX 16V (BA4)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1991-12-01"
+    },
+    {
+      "vehicleId": 34834,
+      "modelId": 5949,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY IV Saloon (GE4)",
+      "typeEngineName": "1.5 FF",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 44316,
+      "modelId": 5997,
+      "manufacturerName": "HONDA",
+      "modelName": "ELEMENT (YH)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 44317,
+      "modelId": 5997,
+      "manufacturerName": "HONDA",
+      "modelName": "ELEMENT (YH)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 44328,
+      "modelId": 35239,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RL3, RL4, RB)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 51045,
+      "modelId": 5997,
+      "manufacturerName": "HONDA",
+      "modelName": "ELEMENT (YH)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 56081,
+      "modelId": 6176,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 57289,
+      "modelId": 4052,
+      "manufacturerName": "HONDA",
+      "modelName": "INTEGRA Coupe (DC)",
+      "typeEngineName": "1.8 VTiR (DC2)",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1999-11-01"
+    },
+    {
+      "vehicleId": 57723,
+      "modelId": 9809,
+      "manufacturerName": "CHERY",
+      "modelName": "TIGGO 3",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57863,
+      "modelId": 7933,
+      "manufacturerName": "HONDA",
+      "modelName": "PILOT",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 59888,
+      "modelId": 4052,
+      "manufacturerName": "HONDA",
+      "modelName": "INTEGRA Coupe (DC)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 100489,
+      "modelId": 11755,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX Tourer (FK)",
+      "typeEngineName": "1.8 i-VTEC (FK2)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 108043,
+      "modelId": 13193,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "C30",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111099,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 DI-D 4WD (KL1T)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114904,
+      "modelId": 14356,
+      "manufacturerName": "HONDA",
+      "modelName": "PILOT",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 114906,
+      "modelId": 14356,
+      "manufacturerName": "HONDA",
+      "modelName": "PILOT",
+      "typeEngineName": "3.5 AWD",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116064,
+      "modelId": 9999,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX (FK)",
+      "typeEngineName": "2.0 i-VTEC Type R (FK2)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 116075,
+      "modelId": 14558,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 Platform/Chassis (MQ)",
+      "typeEngineName": "2.4 D 4WD (KL1T)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116338,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "2.4 DI-D",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118669,
+      "modelId": 13101,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ IV (GK_)",
+      "typeEngineName": "1.3 (GK3)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121350,
+      "modelId": 14943,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Saloon (FC_)",
+      "typeEngineName": "1.8 (FC6)",
+      "constructionIntervalStart": "2016-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121842,
+      "modelId": 4060,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (GH_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2003-11-01"
+    },
+    {
+      "vehicleId": 122415,
+      "modelId": 1813,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L 300 III Van (P0_V, P1_V, P2_V)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2007-07-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 124743,
+      "modelId": 11762,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY VI Saloon (GM4, GM5, GM6, GM9, GM7)",
+      "typeEngineName": "1.5 (GM6)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124744,
+      "modelId": 11762,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY VI Saloon (GM4, GM5, GM6, GM9, GM7)",
+      "typeEngineName": "1.5 4WD (GM9)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125266,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125267,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "2.4 AWD",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127862,
+      "modelId": 7469,
+      "manufacturerName": "HONDA",
+      "modelName": "STREAM (RN)",
+      "typeEngineName": "1.8 Vtec AWD (RN7)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2014-05-01"
+    },
+    {
+      "vehicleId": 128257,
+      "modelId": 10021,
+      "manufacturerName": "HONDA",
+      "modelName": "PILOT",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 128297,
+      "modelId": 38151,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "XPANDER MPV (NC_)",
+      "typeEngineName": "1.5 MIVEC (NC1W, NC2W)",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128413,
+      "modelId": 38175,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RL6)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129114,
+      "modelId": 11333,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD Hatchback (TF)",
+      "typeEngineName": "3.5 i All-wheel Drive (TF2)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 130084,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "2.0 Type-R (FK8)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 130614,
+      "modelId": 38541,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD X Saloon (CV)",
+      "typeEngineName": "2.0 iVTEC (CV2)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130758,
+      "modelId": 10590,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC Coupe",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 130926,
+      "modelId": 38273,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "ECLIPSE CROSS (GK_, GL_)",
+      "typeEngineName": "1.5 (GK1W)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130948,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "1.5 (RW1)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131689,
+      "modelId": 38541,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD X Saloon (CV)",
+      "typeEngineName": "1.5 VTEC (CV1)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132926,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "1.5 VTEC (RW1)",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132928,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "1.5 VTEC AWD (RW2)",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134227,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "2.0 e-CVT Hybrid (RT5)",
+      "constructionIntervalStart": "2018-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136698,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.2 DI-D 4WD",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138199,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.2 DI-D",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138494,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.5 i-VTEC AWD (RU2)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140424,
+      "modelId": 38541,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD X Saloon (CV)",
+      "typeEngineName": "2.0 iVtec Hybrid Flex (CV3)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141997,
+      "modelId": 1490,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CE, CF_, CD)",
+      "typeEngineName": "1.8 i (CE7)",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "1998-10-01"
+    },
+    {
+      "vehicleId": 143514,
+      "modelId": 41813,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "XPANDER CROSS MPV (NC_)",
+      "typeEngineName": "1.5 MIVEC (NC1W, NC2W)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146819,
+      "modelId": 42684,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RV)",
+      "typeEngineName": "1.5 eHEV (RV5)",
+      "constructionIntervalStart": "2021-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 149700,
+      "modelId": 42646,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC XI Hatchback (FL)",
+      "typeEngineName": "2.0 e:HEV",
+      "constructionIntervalStart": "2022-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154977,
+      "modelId": 40435,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ V (GR_, GS_)",
+      "typeEngineName": "1.5 eHEV (GR3, GR6)",
+      "constructionIntervalStart": "2023-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 4077,
+      "modelId": 54,
+      "manufacturerName": "OPEL",
+      "modelName": "COMBO Box Body/MPV (71_)",
+      "typeEngineName": "1.7 D",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 4114,
+      "modelId": 1256,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Hatchback (EC, ED, EE, EF)",
+      "typeEngineName": "1.4 L (EC9)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1991-12-01"
+    },
+    {
+      "vehicleId": 122270,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.6 i 16V 4x4",
+      "constructionIntervalStart": "1989-01-01",
+      "constructionIntervalEnd": "1991-12-01"
+    },
+    {
+      "vehicleId": 4115,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.4 L (ED2)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4125,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.6 i 16V (ED4)",
+      "constructionIntervalStart": "1987-11-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 18019,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.5 i 16V (ED3)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 4133,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.6 i 16V (ED4)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 4134,
+      "modelId": 1256,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Hatchback (EC, ED, EE, EF)",
+      "typeEngineName": "1.6 i 16V (ED7)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 4147,
+      "modelId": 1252,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD II Hatchback (AC, AD)",
+      "typeEngineName": "1.6 EX (AC)",
+      "constructionIntervalStart": "1983-09-01",
+      "constructionIntervalEnd": "1985-10-01"
+    },
+    {
+      "vehicleId": 4151,
+      "modelId": 1253,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD II (AC, AD)",
+      "typeEngineName": "1.8 EX (AD)",
+      "constructionIntervalStart": "1983-09-01",
+      "constructionIntervalEnd": "1985-10-01"
+    },
+    {
+      "vehicleId": 4154,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 EX (CA5)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4158,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 EX (CA5)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 6107,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.6 i 16V (ED4)",
+      "constructionIntervalStart": "1987-09-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 29526,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 12V (CA5)",
+      "constructionIntervalStart": "1986-01-01",
+      "constructionIntervalEnd": "1988-03-01"
+    },
+    {
+      "vehicleId": 4163,
+      "modelId": 1247,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD III (CA)",
+      "typeEngineName": "2.0 EXi (CA5)",
+      "constructionIntervalStart": "1986-01-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4220,
+      "modelId": 1258,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE II (AB)",
+      "typeEngineName": "1.8 EX (AAB)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1987-04-01"
+    },
+    {
+      "vehicleId": 4226,
+      "modelId": 1260,
+      "manufacturerName": "HONDA",
+      "modelName": "CRX II (ED, EE)",
+      "typeEngineName": "1.6 i 16V (ED9)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1989-12-01"
+    },
+    {
+      "vehicleId": 4227,
+      "modelId": 1260,
+      "manufacturerName": "HONDA",
+      "modelName": "CRX II (ED, EE)",
+      "typeEngineName": "1.6 i 16V (ED9)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1992-02-01"
+    },
+    {
+      "vehicleId": 4233,
+      "modelId": 1279,
+      "manufacturerName": "HONDA",
+      "modelName": "CRX III (EH, EG)",
+      "typeEngineName": "1.6 i VTi (EG2)",
+      "constructionIntervalStart": "1992-03-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 4242,
+      "modelId": 1277,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE IV (BB_)",
+      "typeEngineName": "2.3 i 16V (BB2)",
+      "constructionIntervalStart": "1992-02-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 4251,
+      "modelId": 1278,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Shuttle (EE, EF)",
+      "typeEngineName": "1.6 i 16V 4WD (EE4)",
+      "constructionIntervalStart": "1988-01-01",
+      "constructionIntervalEnd": "1995-02-01"
+    },
+    {
+      "vehicleId": 4256,
+      "modelId": 1246,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV (CB)",
+      "typeEngineName": "2.0 i 16V (CB3)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1993-03-01"
+    },
+    {
+      "vehicleId": 4259,
+      "modelId": 1248,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IV Coupe (CB, CC)",
+      "typeEngineName": "2.0 i 16V (CC1)",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1993-09-01"
+    },
+    {
+      "vehicleId": 4262,
+      "modelId": 3920,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Hatchback (EG, EH)",
+      "typeEngineName": "1.3 16V (EG3)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 4263,
+      "modelId": 3920,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Hatchback (EG, EH)",
+      "typeEngineName": "1.5 i 16V (EG4)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 4265,
+      "modelId": 3920,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Hatchback (EG, EH)",
+      "typeEngineName": "1.6 16V Vtec (EG5, EH3)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 4267,
+      "modelId": 3920,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Hatchback (EG, EH)",
+      "typeEngineName": "1.6 VTi 16V (EG6)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 4276,
+      "modelId": 1264,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Saloon (EG, EH)",
+      "typeEngineName": "1.6 16V Vtec (EH9, EH5)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 4277,
+      "modelId": 1264,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Saloon (EG, EH)",
+      "typeEngineName": "1.6 VTi (EG9)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 4281,
+      "modelId": 1263,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CC, CD)",
+      "typeEngineName": "2.0 i (CD4)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 4283,
+      "modelId": 1263,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CC, CD)",
+      "typeEngineName": "2.3 i SR (CD6)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 21390,
+      "modelId": 1264,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Saloon (EG, EH)",
+      "typeEngineName": "1.6 4x4",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 55932,
+      "modelId": 1264,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Saloon (EG, EH)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 4275,
+      "modelId": 1264,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Saloon (EG, EH)",
+      "typeEngineName": "1.5 i 16V (EG8)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 4280,
+      "modelId": 1271,
+      "manufacturerName": "HONDA",
+      "modelName": "CONCERTO (HW, MA)",
+      "typeEngineName": "1.6 i 16V (HW)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-03-01"
+    },
+    {
+      "vehicleId": 14149,
+      "modelId": 4501,
+      "manufacturerName": "HONDA",
+      "modelName": "CONCERTO Saloon (HWW)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-03-01"
+    },
+    {
+      "vehicleId": 4282,
+      "modelId": 1263,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CC, CD)",
+      "typeEngineName": "2.0 i S (CD4)",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 4291,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.4 i (MA8, MB2)",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 4292,
+      "modelId": 1274,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Coupe (EJ)",
+      "typeEngineName": "1.6 i Vtec (EJ1)",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1996-03-01"
+    },
+    {
+      "vehicleId": 4293,
+      "modelId": 1274,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Coupe (EJ)",
+      "typeEngineName": "1.5 i LSi (EJ2)",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 4297,
+      "modelId": 1272,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V Aerodeck (CE)",
+      "typeEngineName": "2.2 i ES (CE1)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 5122,
+      "modelId": 1453,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA B Hatchback (J96)",
+      "typeEngineName": "1.7 TD (F68)",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 5170,
+      "modelId": 1454,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA B (J96)",
+      "typeEngineName": "1.7 TD (F19)",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "1998-12-01"
+    },
+    {
+      "vehicleId": 5197,
+      "modelId": 1468,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Hatchback (EJ, EK)",
+      "typeEngineName": "1.4 i S (EJ9)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 5201,
+      "modelId": 1469,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Saloon (EJ, EK, SO)",
+      "typeEngineName": "1.4 i (EJ9)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 5202,
+      "modelId": 1469,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Saloon (EJ, EK, SO)",
+      "typeEngineName": "1.5 i (EK3)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 5359,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.4 i (MA8, MB2)",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 5376,
+      "modelId": 6247,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V III (RE_)",
+      "typeEngineName": "2.4 i-VTEC 4WD (RE7)",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55239,
+      "modelId": 10303,
+      "manufacturerName": "HONDA",
+      "modelName": "CROSSTOUR I",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5535,
+      "modelId": 189,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA B (S93)",
+      "typeEngineName": "1.7 D (F08, F68, M68)",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 14752,
+      "modelId": 4628,
+      "manufacturerName": "OPEL",
+      "modelName": "CORSA B Hatchback Van (S93)",
+      "typeEngineName": "1.7 D (F08, W5L)",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 18832,
+      "modelId": 5039,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Coupe (EJ, EM1)",
+      "typeEngineName": "1.6 i Vtec (EM1)",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 151007,
+      "modelId": 1469,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Saloon (EJ, EK, SO)",
+      "typeEngineName": "1.5 i (SO4)",
+      "constructionIntervalStart": "1996-01-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 6978,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "2.0 (RM1)",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7816,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.5 16V (MB3)",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 7817,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.6 16V (MB4)",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 7818,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.8 16V (MB6)",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 9095,
+      "modelId": 1323,
+      "manufacturerName": "HONDA",
+      "modelName": "SHUTTLE (RA)",
+      "typeEngineName": "2.3 16V (RA3, RA5)",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 9114,
+      "modelId": 7889,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ III (GE_, GG_, GP_, ZA_)",
+      "typeEngineName": "1.3 HYBRID (GP1)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29484,
+      "modelId": 7804,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII Estate (CW)",
+      "typeEngineName": "2.4 i (CW2)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30358,
+      "modelId": 7889,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ III (GE_, GG_, GP_, ZA_)",
+      "typeEngineName": "1.3 i (GE6, GG3, GG6)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57475,
+      "modelId": 10873,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX Saloon (FB)",
+      "typeEngineName": "1.8 (FB2)",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 107634,
+      "modelId": 10873,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX Saloon (FB)",
+      "typeEngineName": "1.8 (FB2)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 127164,
+      "modelId": 10873,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX Saloon (FB)",
+      "typeEngineName": "1.8 (FB2)",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 9546,
+      "modelId": 3562,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Aerodeck (MB, MC)",
+      "typeEngineName": "1.6 16V (MC1)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 10239,
+      "modelId": 3950,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI Coupe (CG)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2003-06-01"
+    },
+    {
+      "vehicleId": 10307,
+      "modelId": 4838,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ II (GD_, GE3, GE2)",
+      "typeEngineName": "1.3 iDSi (GD1)",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 10469,
+      "modelId": 3997,
+      "manufacturerName": "HONDA",
+      "modelName": "S2000 (AP)",
+      "typeEngineName": "2.0 (AP1)",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24548,
+      "modelId": 5158,
+      "manufacturerName": "HONDA",
+      "modelName": "FR-V (BE)",
+      "typeEngineName": "1.8 (BE1)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11121,
+      "modelId": 4060,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (GH_)",
+      "typeEngineName": "1.6 16V 4WD (GH2, GH4)",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14595,
+      "modelId": 4060,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (GH_)",
+      "typeEngineName": "1.6 16V (GH1, GH3)",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20540,
+      "modelId": 4880,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V II (RD_)",
+      "typeEngineName": "2.4 Vtec 4WD (RD7)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 11506,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.6 VTi (MB4)",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 12959,
+      "modelId": 7889,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ III (GE_, GG_, GP_, ZA_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12967,
+      "modelId": 8131,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY V Saloon (GM2, GM3)",
+      "typeEngineName": "1.5 i-VTEC",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14057,
+      "modelId": 8131,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY V Saloon (GM2, GM3)",
+      "typeEngineName": "1.5 i-VTEC",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 51556,
+      "modelId": 8809,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII (CP)",
+      "typeEngineName": "2.4 (CP2)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 55234,
+      "modelId": 44791,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII Coupe (CS_)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 57808,
+      "modelId": 7468,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD Coupe (CM)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14020,
+      "modelId": 10005,
+      "manufacturerName": "HONDA",
+      "modelName": "BRIO (DD_)",
+      "typeEngineName": "1.2 i-VTEC (DD1)",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14145,
+      "modelId": 4501,
+      "manufacturerName": "HONDA",
+      "modelName": "CONCERTO Saloon (HWW)",
+      "typeEngineName": "1.5 i 16V",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-05-01"
+    },
+    {
+      "vehicleId": 14411,
+      "modelId": 4576,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI Hatchback (CH, CL)",
+      "typeEngineName": "1.8 i (CH6)",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 14686,
+      "modelId": 10021,
+      "manufacturerName": "HONDA",
+      "modelName": "PILOT",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106543,
+      "modelId": 10021,
+      "manufacturerName": "HONDA",
+      "modelName": "PILOT",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15525,
+      "modelId": 4733,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Hatchback (EU, EP, EV)",
+      "typeEngineName": "1.4 iS (EP1, EU5, EU7)",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 15526,
+      "modelId": 4733,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Hatchback (EU, EP, EV)",
+      "typeEngineName": "1.6 i (EP2, EU8, EU6)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 15817,
+      "modelId": 3896,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI (CK, CG, CH, CF, CL)",
+      "typeEngineName": "2.3 (CL3, S86)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2003-06-01"
+    },
+    {
+      "vehicleId": 15955,
+      "modelId": 4783,
+      "manufacturerName": "HONDA",
+      "modelName": "STREAM (RN)",
+      "typeEngineName": "1.7 16V (RN1)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 18564,
+      "modelId": 4881,
+      "manufacturerName": "HONDA",
+      "modelName": "INTEGRA Coupe (DC5)",
+      "typeEngineName": "2.0 (DC5)",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15956,
+      "modelId": 4783,
+      "manufacturerName": "HONDA",
+      "modelName": "STREAM (RN)",
+      "typeEngineName": "2.0 16V (RN3)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 16103,
+      "modelId": 4803,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Saloon (ES, ET)",
+      "typeEngineName": "1.7",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16816,
+      "modelId": 4838,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ II (GD_, GE3, GE2)",
+      "typeEngineName": "1.2 i-DSI (GD5, GE2)",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 17067,
+      "modelId": 1260,
+      "manufacturerName": "HONDA",
+      "modelName": "CRX II (ED, EE)",
+      "typeEngineName": "1.6 i 16V",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1991-12-01"
+    },
+    {
+      "vehicleId": 17126,
+      "modelId": 4963,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VII (CL, CN)",
+      "typeEngineName": "2.0 (CL7)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 17263,
+      "modelId": 4985,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VII Tourer (CM, CN)",
+      "typeEngineName": "2.0 (CM1)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 17127,
+      "modelId": 4963,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VII (CL, CN)",
+      "typeEngineName": "2.4 (CL9)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 17513,
+      "modelId": 5517,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Saloon (FD, FA)",
+      "typeEngineName": "1.3 IMA (FD3)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2012-02-01"
+    },
+    {
+      "vehicleId": 19302,
+      "modelId": 5517,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Saloon (FD, FA)",
+      "typeEngineName": "1.3 IMA (FA3, FD3)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 17714,
+      "modelId": 4576,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI Hatchback (CH, CL)",
+      "typeEngineName": "2.3 (CL4)",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 17715,
+      "modelId": 4576,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI Hatchback (CH, CL)",
+      "typeEngineName": "2.0 (CH7)",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 17716,
+      "modelId": 4963,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VII (CL, CN)",
+      "typeEngineName": "2.0 All-wheel Drive (CL8)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 18020,
+      "modelId": 3920,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Hatchback (EG, EH)",
+      "typeEngineName": "1.5 i 16V (EG4)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 18063,
+      "modelId": 4733,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Hatchback (EU, EP, EV)",
+      "typeEngineName": "2.0 i Sport (EV1)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 18468,
+      "modelId": 4803,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Saloon (ES, ET)",
+      "typeEngineName": "1.4 (ES4)",
+      "constructionIntervalStart": "2000-12-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 18469,
+      "modelId": 4803,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Saloon (ES, ET)",
+      "typeEngineName": "1.6 (ES5)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 18471,
+      "modelId": 5158,
+      "manufacturerName": "HONDA",
+      "modelName": "FR-V (BE)",
+      "typeEngineName": "2.0 (BE3)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18472,
+      "modelId": 5158,
+      "manufacturerName": "HONDA",
+      "modelName": "FR-V (BE)",
+      "typeEngineName": "1.7 (BE1)",
+      "constructionIntervalStart": "2004-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18864,
+      "modelId": 1278,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Shuttle (EE, EF)",
+      "typeEngineName": "1.4 i 16V (EE1)",
+      "constructionIntervalStart": "1988-01-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 20069,
+      "modelId": 8564,
+      "manufacturerName": "HONDA",
+      "modelName": "LEGEND IV (KB_)",
+      "typeEngineName": "3.5 V6 4WD (KB1)",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 20440,
+      "modelId": 1468,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Hatchback (EJ, EK)",
+      "typeEngineName": "1.6 (MB4)",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2001-03-01"
+    },
+    {
+      "vehicleId": 20511,
+      "modelId": 1275,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Fastback (MA, MB)",
+      "typeEngineName": "1.6 (MB4)",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 20463,
+      "modelId": 8564,
+      "manufacturerName": "HONDA",
+      "modelName": "LEGEND IV (KB_)",
+      "typeEngineName": "3.5 VTEC V6 (KB1)",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 20665,
+      "modelId": 3896,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI (CK, CG, CH, CF, CL)",
+      "typeEngineName": "3.0 Vtec (CK1, CG1)",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 21393,
+      "modelId": 1278,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Shuttle (EE, EF)",
+      "typeEngineName": "1.6 4x4 (EE4)",
+      "constructionIntervalStart": "1988-01-01",
+      "constructionIntervalEnd": "1992-12-01"
+    },
+    {
+      "vehicleId": 21511,
+      "modelId": 3950,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI Coupe (CG)",
+      "typeEngineName": "2.3 VTi (CG3)",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 122282,
+      "modelId": 3950,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VI Coupe (CG)",
+      "typeEngineName": "2.3",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 21561,
+      "modelId": 4838,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ II (GD_, GE3, GE2)",
+      "typeEngineName": "1.5 VTEC (GD3)",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 21874,
+      "modelId": 5949,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY IV Saloon (GE4)",
+      "typeEngineName": "1.3 SES",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 22751,
+      "modelId": 5949,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY IV Saloon (GE4)",
+      "typeEngineName": "1.3 i-DSI 4WD",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 22005,
+      "modelId": 5997,
+      "manufacturerName": "HONDA",
+      "modelName": "ELEMENT (YH)",
+      "typeEngineName": "2.4 Vtec 4x4 (YH2)",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 22118,
+      "modelId": 6069,
+      "manufacturerName": "HONDA",
+      "modelName": "LAGREAT",
+      "typeEngineName": "3.5 EXi Vtec",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 22650,
+      "modelId": 6247,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V III (RE_)",
+      "typeEngineName": "2.0 i-VTEC 4WD (RE5, RE2)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 22972,
+      "modelId": 6310,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY IV Saloon (GD_)",
+      "typeEngineName": "1.3 (GD6)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 23114,
+      "modelId": 6384,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RL1, RA6, RA_)",
+      "typeEngineName": "2.4 (RB1)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 25123,
+      "modelId": 6384,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RL1, RA6, RA_)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 44329,
+      "modelId": 35239,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RL3, RL4, RB)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 26588,
+      "modelId": 5498,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Hatchback (FN, FK)",
+      "typeEngineName": "Type R (FN2)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 26884,
+      "modelId": 7469,
+      "manufacturerName": "HONDA",
+      "modelName": "STREAM (RN)",
+      "typeEngineName": "1.8 Vtec (RN6)",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26890,
+      "modelId": 478,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "GALANT VII Saloon (E5_A, E7_A, E8_A)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1992-11-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 30120,
+      "modelId": 4963,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VII (CL, CN)",
+      "typeEngineName": "2.4 Vtec",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 30351,
+      "modelId": 1578,
+      "manufacturerName": "OPEL",
+      "modelName": "VECTRA B Estate (J96)",
+      "typeEngineName": "1.7 TD (F35)",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 30359,
+      "modelId": 7889,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ III (GE_, GG_, GP_, ZA_)",
+      "typeEngineName": "1.2 (GG1)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30360,
+      "modelId": 8564,
+      "manufacturerName": "HONDA",
+      "modelName": "LEGEND IV (KB_)",
+      "typeEngineName": "3.7 VTEC V6 4WD (KB2)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 30839,
+      "modelId": 8000,
+      "manufacturerName": "FORD",
+      "modelName": "KA (RU8)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2016-05-01"
+    },
+    {
+      "vehicleId": 31104,
+      "modelId": 8040,
+      "manufacturerName": "HONDA",
+      "modelName": "INSIGHT (ZE_)",
+      "typeEngineName": "1.3 IMA (ZE28, ZE2)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56184,
+      "modelId": 8040,
+      "manufacturerName": "HONDA",
+      "modelName": "INSIGHT (ZE_)",
+      "typeEngineName": "1.3 IMA (ZE2)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58815,
+      "modelId": 8766,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-Z (ZF)",
+      "typeEngineName": "1.5 IMA (ZF2)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32600,
+      "modelId": 8449,
+      "manufacturerName": "GREAT WALL",
+      "modelName": "COOLBEAR",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 33186,
+      "modelId": 3920,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC V Hatchback (EG, EH)",
+      "typeEngineName": "1.6 si 16V (EG2, EG6)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1993-10-01"
+    },
+    {
+      "vehicleId": 33215,
+      "modelId": 8584,
+      "manufacturerName": "HONDA",
+      "modelName": "MDX (YD)",
+      "typeEngineName": "3.5 (YD1)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-04-01"
+    },
+    {
+      "vehicleId": 33874,
+      "modelId": 1277,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE IV (BB_)",
+      "typeEngineName": "2.2 S (BA8)",
+      "constructionIntervalStart": "1991-12-01",
+      "constructionIntervalEnd": "1996-11-01"
+    },
+    {
+      "vehicleId": 34515,
+      "modelId": 8131,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY V Saloon (GM2, GM3)",
+      "typeEngineName": "1.5 i-VTEC (GM2)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34832,
+      "modelId": 5947,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY III Saloon (3A_, SX8)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "1999-11-01"
+    },
+    {
+      "vehicleId": 47266,
+      "modelId": 6910,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RA_)",
+      "typeEngineName": "2.2 16V (RA1)",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 53070,
+      "modelId": 11444,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VII (CM)",
+      "typeEngineName": "3.0 (CM6)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 8366,
+      "modelId": 1978,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V I (RD)",
+      "typeEngineName": "2.0 16V 4WD (RD1, RD3)",
+      "constructionIntervalStart": "1995-10-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 54963,
+      "modelId": 3562,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VI Aerodeck (MB, MC)",
+      "typeEngineName": "1.6 16V (MC1)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 55637,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.6 16V 4x4",
+      "constructionIntervalStart": "1987-11-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 55936,
+      "modelId": 5517,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VIII Saloon (FD, FA)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 55976,
+      "modelId": 4880,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V II (RD_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 56243,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "2.0 iVtec (RE5, RM1)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56765,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "2.0 AWD (RE5, RM2)",
+      "constructionIntervalStart": "2012-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 56836,
+      "modelId": 4052,
+      "manufacturerName": "HONDA",
+      "modelName": "INTEGRA Coupe (DC)",
+      "typeEngineName": "1.6 i (DC1)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 57175,
+      "modelId": 8131,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY V Saloon (GM2, GM3)",
+      "typeEngineName": "1.5 Flex",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 57345,
+      "modelId": 4052,
+      "manufacturerName": "HONDA",
+      "modelName": "INTEGRA Coupe (DC)",
+      "typeEngineName": "1.8 Type-R (DC2)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 57543,
+      "modelId": 4052,
+      "manufacturerName": "HONDA",
+      "modelName": "INTEGRA Coupe (DC)",
+      "typeEngineName": "1.8 SiR (DC2)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 57880,
+      "modelId": 6910,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RA_)",
+      "typeEngineName": "2.3 (RA3, RA6)",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 58316,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58317,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117564,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "2.4 (CR2)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58318,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58319,
+      "modelId": 10998,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Coupe",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138468,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138471,
+      "modelId": 10998,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Coupe",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138479,
+      "modelId": 10998,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Coupe",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58320,
+      "modelId": 10998,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Coupe",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 25894,
+      "modelId": 11411,
+      "manufacturerName": "HONDA",
+      "modelName": "AMAZE MK I (DF1, DF2)",
+      "typeEngineName": "1.2 i-VTEC",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 58323,
+      "modelId": 10303,
+      "manufacturerName": "HONDA",
+      "modelName": "CROSSTOUR I",
+      "typeEngineName": "3.5 4WD",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108589,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "2.0 (CR1)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122301,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "2.4 i-VTEC",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122740,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "2.4 AWD",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126738,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "2.4 AWD",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59269,
+      "modelId": 4017,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA F Estate Van (T92)",
+      "typeEngineName": "1.7 TD (F70)",
+      "constructionIntervalStart": "1995-03-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 59694,
+      "modelId": 4803,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Saloon (ES, ET)",
+      "typeEngineName": "1.7 (ES1)",
+      "constructionIntervalStart": "2000-12-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 59695,
+      "modelId": 4803,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC VII Saloon (ES, ET)",
+      "typeEngineName": "1.5 (ES8)",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 100532,
+      "modelId": 11762,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY VI Saloon (GM4, GM5, GM6, GM9, GM7)",
+      "typeEngineName": "1.5 i-VTEC (GM6)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107258,
+      "modelId": 8766,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-Z (ZF)",
+      "typeEngineName": "1.5 IMA (ZF1)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 107610,
+      "modelId": 13101,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ IV (GK_)",
+      "typeEngineName": "1.5 (GK5)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126827,
+      "modelId": 13101,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ IV (GK_)",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107636,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126782,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108059,
+      "modelId": 11762,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY VI Saloon (GM4, GM5, GM6, GM9, GM7)",
+      "typeEngineName": "1.5 Flex",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2021-10-01"
+    },
+    {
+      "vehicleId": 108583,
+      "modelId": 13326,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RC1, RC2, RC4)",
+      "typeEngineName": "2.4 i-VTEC (RC1)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109780,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.5 (RU1)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109781,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.8 (RU5)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 111405,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.8 (RU58)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115094,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.8 (RU5)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116068,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.5 (RU1)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128400,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "2.0 Type-R",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131713,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "1.5 VTEC (FK7)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131976,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "1.0 VTEC",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 134214,
+      "modelId": 14943,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Saloon (FC_)",
+      "typeEngineName": "1.0 iVTEC (FC9)",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 135959,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.5 i-VTEC (RU1)",
+      "constructionIntervalStart": "2019-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143069,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.5 i-VTEC",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116161,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 DI-D 4WD (KJ0T)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126037,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 DI-D 4WD",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116340,
+      "modelId": 14579,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "PAJERO SPORT III (KS_)",
+      "typeEngineName": "2.4 DI-D 4x4 (KS1W)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116390,
+      "modelId": 13101,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ IV (GK_)",
+      "typeEngineName": "1.3",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117934,
+      "modelId": 14943,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Saloon (FC_)",
+      "typeEngineName": "2.0 (FC2)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118734,
+      "modelId": 36238,
+      "manufacturerName": "HONDA",
+      "modelName": "BR-V (DG_)",
+      "typeEngineName": "1.5 (DG1)",
+      "constructionIntervalStart": "2016-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118973,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 D (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118975,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 D 4x4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118974,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 D 4x4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122566,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 D 4x4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120218,
+      "modelId": 4838,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ II (GD_, GE3, GE2)",
+      "typeEngineName": "1.4 iDSI (GE3, GD1)",
+      "constructionIntervalStart": "2006-12-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 120626,
+      "modelId": 13101,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ IV (GK_)",
+      "typeEngineName": "1.2 i-VTEC",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121838,
+      "modelId": 1263,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD V (CC, CD)",
+      "typeEngineName": "2.2 i (CD5)",
+      "constructionIntervalStart": "1993-04-01",
+      "constructionIntervalEnd": "1997-06-01"
+    },
+    {
+      "vehicleId": 122023,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122189,
+      "modelId": 36352,
+      "manufacturerName": "FIAT",
+      "modelName": "FULLBACK Pickup (502_, 503_)",
+      "typeEngineName": "2.4 4x4 (KT0T)",
+      "constructionIntervalStart": "2016-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122288,
+      "modelId": 5997,
+      "manufacturerName": "HONDA",
+      "modelName": "ELEMENT (YH)",
+      "typeEngineName": "2.4 4x4",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 122300,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "2.4 4WD",
+      "constructionIntervalStart": "2012-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125355,
+      "modelId": 11762,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY VI Saloon (GM4, GM5, GM6, GM9, GM7)",
+      "typeEngineName": "1.5 i-VTEC (GM6)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125372,
+      "modelId": 4838,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ II (GD_, GE3, GE2)",
+      "typeEngineName": "1.5 iDSi (GD3)",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 126522,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "1.5 VTEC (FK7)",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 126524,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "1.0 VTEC (FK6)",
+      "constructionIntervalStart": "2017-02-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 130763,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "1.5 VTEC (FK7)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126777,
+      "modelId": 10999,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Saloon (CR)",
+      "typeEngineName": "2.4",
+      "constructionIntervalStart": "2017-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126886,
+      "modelId": 14943,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Saloon (FC_)",
+      "typeEngineName": "1.5 VTEC (FC1)",
+      "constructionIntervalStart": "2016-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 127817,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "2.0 Type-R (FK8)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 128220,
+      "modelId": 4880,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V II (RD_)",
+      "typeEngineName": "2.4 4WD (RD7)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 129947,
+      "modelId": 14943,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Saloon (FC_)",
+      "typeEngineName": "1.6 i-VTEC (FC5)",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 132421,
+      "modelId": 35239,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RL3, RL4, RB)",
+      "typeEngineName": "3.5 EXi Vtec (RL3)",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 138472,
+      "modelId": 10998,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD IX Coupe",
+      "typeEngineName": "3.5",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138601,
+      "modelId": 14943,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Saloon (FC_)",
+      "typeEngineName": "1.6 i-VTEC LPG",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 149372,
+      "modelId": 13834,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "L200 / TRITON (KJ_, KK_, KL_)",
+      "typeEngineName": "2.4 DI-D 4WD",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152267,
+      "modelId": 42646,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC XI Hatchback (FL)",
+      "typeEngineName": "Type-R (FL5, FL574PE)",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10636,
+      "modelId": 6247,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V III (RE_)",
+      "typeEngineName": "2.4 4WD (RE4)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30149,
+      "modelId": 6247,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V III (RE_)",
+      "typeEngineName": "2.4 i-VTEC 4WD (RE4)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28439,
+      "modelId": 6247,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V III (RE_)",
+      "typeEngineName": "2.4 (RE3)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57347,
+      "modelId": 1544,
+      "manufacturerName": "HONDA",
+      "modelName": "LEGEND III (KA)",
+      "typeEngineName": "3.5 i 24V (KA9)",
+      "constructionIntervalStart": "1997-11-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 108587,
+      "modelId": 13326,
+      "manufacturerName": "HONDA",
+      "modelName": "ODYSSEY (RC1, RC2, RC4)",
+      "typeEngineName": "2.4 i-VTEC 4WD (RC2)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132391,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "2.0 i-VTEC (RW3)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108169,
+      "modelId": 13221,
+      "manufacturerName": "HONDA",
+      "modelName": "MOBILIO (DD_)",
+      "typeEngineName": "1.5 i-VTEC (DD4)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 13180,
+      "modelId": 1978,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V I (RD)",
+      "typeEngineName": "2.0 16V 4WD (RD1, RD3)",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 11059,
+      "modelId": 4052,
+      "manufacturerName": "HONDA",
+      "modelName": "INTEGRA Coupe (DC)",
+      "typeEngineName": "1.8 Type-R (DC2)",
+      "constructionIntervalStart": "1997-11-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 33934,
+      "modelId": 8809,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VIII (CP)",
+      "typeEngineName": "3.5 V 6 (CP3)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 107612,
+      "modelId": 13101,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ IV (GK_)",
+      "typeEngineName": "1.5 (GK5)",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121249,
+      "modelId": 10873,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX Saloon (FB)",
+      "typeEngineName": "1.6 (FB7, FB1)",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 20664,
+      "modelId": 11444,
+      "manufacturerName": "HONDA",
+      "modelName": "ACCORD VII (CM)",
+      "typeEngineName": "2.4 Vtec E (CM5)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 4766,
+      "modelId": 1323,
+      "manufacturerName": "HONDA",
+      "modelName": "SHUTTLE (RA)",
+      "typeEngineName": "2.2 16V (RA1)",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 32833,
+      "modelId": 8131,
+      "manufacturerName": "HONDA",
+      "modelName": "CITY V Saloon (GM2, GM3)",
+      "typeEngineName": "1.3 i-V TEC (GM1)",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 4221,
+      "modelId": 1258,
+      "manufacturerName": "HONDA",
+      "modelName": "PRELUDE II (AB)",
+      "typeEngineName": "1.8 EX (AAB)",
+      "constructionIntervalStart": "1983-11-01",
+      "constructionIntervalEnd": "1987-04-01"
+    },
+    {
+      "vehicleId": 57197,
+      "modelId": 6247,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V III (RE_)",
+      "typeEngineName": "2.4 i-Vtec 4WD (RE4)",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16573,
+      "modelId": 4880,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V II (RD_)",
+      "typeEngineName": "2.0 (RD5)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 107374,
+      "modelId": 10624,
+      "manufacturerName": "MITSUBISHI",
+      "modelName": "OUTLANDER III (GG_W, GF_W, ZJ, ZL, ZK)",
+      "typeEngineName": "2.4 (GF8W)",
+      "constructionIntervalStart": "2012-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 4132,
+      "modelId": 1250,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IV Saloon (ED, EF)",
+      "typeEngineName": "1.5 i 16V (ED3, SH4)",
+      "constructionIntervalStart": "1987-10-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 130949,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "1.5 AWD (RW2)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125265,
+      "modelId": 37513,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V V (RW_, RT_)",
+      "typeEngineName": "1.5 AWD (RW2)",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140441,
+      "modelId": 40435,
+      "manufacturerName": "HONDA",
+      "modelName": "JAZZ V (GR_, GS_)",
+      "typeEngineName": "1.5 eHEV (GR3, GR6)",
+      "constructionIntervalStart": "2020-02-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "86"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "M 20 x 1,5"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "66"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "with one anti-return valve"
+    },
+    {
+      "criteriaName": "Bypass Valve Opening Pressure [bar]",
+      "criteriaValue": "1,5"
+    },
+    {
+      "criteriaName": "Gasket inside diameter [mm]",
+      "criteriaValue": "55"
+    },
+    {
+      "criteriaName": "Gasket outside diameter [mm]",
+      "criteriaValue": "63"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "SAME",
+      "oemDisplayNo": "0.009.4794.1"
+    },
+    {
+      "oemBrand": "DEUTZ-FAHR",
+      "oemDisplayNo": "0.009.4794.1"
+    },
+    {
+      "oemBrand": "DEUTZ",
+      "oemDisplayNo": "0.009.4794.1"
+    },
+    {
+      "oemBrand": "LAMBORGHINI",
+      "oemDisplayNo": "0.0094.794.1"
+    },
+    {
+      "oemBrand": "DEUTZ-FAHR",
+      "oemDisplayNo": "0.010.2687.0"
+    },
+    {
+      "oemBrand": "DEUTZ",
+      "oemDisplayNo": "0.010.2687.0"
+    },
+    {
+      "oemBrand": "SAME",
+      "oemDisplayNo": "0.010.3989.1"
+    },
+    {
+      "oemBrand": "DEUTZ-FAHR",
+      "oemDisplayNo": "0.010.3989.1"
+    },
+    {
+      "oemBrand": "DEUTZ",
+      "oemDisplayNo": "0.010.3989.1"
+    },
+    {
+      "oemBrand": "LAMBORGHINI",
+      "oemDisplayNo": "0.0103.989.1"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "000 180 28 10"
+    },
+    {
+      "oemBrand": "SMART",
+      "oemDisplayNo": "000 180 28 10"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "04154-PR3-E00"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "06 49 013"
+    },
+    {
+      "oemBrand": "GEHL",
+      "oemDisplayNo": "082350"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "0JE15 14302"
+    },
+    {
+      "oemBrand": "MASSEY FERGUSON",
+      "oemDisplayNo": "1 039 891"
+    },
+    {
+      "oemBrand": "GREAT WALL",
+      "oemDisplayNo": "1017100-EG01"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1109 AC"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1109 AE"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1109 CG"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1109 CG"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "11715849"
+    },
+    {
+      "oemBrand": "GEHL",
+      "oemDisplayNo": "122497"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "1230A105"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "1230A182"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "12582255"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15200-PH1-004"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15220-PH1-014"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1535505"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-611-003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-679-003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-679-004"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-679-013"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-679-023"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-MJ0-003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PC6-003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PC6-004"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PH1-003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PH1-004"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PH1-014"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PH1-F01"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PH1-F02"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PH1-F03"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PH9-004"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PK1-003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PLC-004"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PLM-A01"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PLM-A02"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PME-T01"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PR3-003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PR3-004"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-RAF-T01"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-RBA-F01"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-RBD-E01"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-RTA-003"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-RTA-004"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1699522"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26300 02750"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "30866266"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "30A40-00100"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "30A4000103"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "3396825"
+    },
+    {
+      "oemBrand": "JCB",
+      "oemDisplayNo": "35302060"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "3803268"
+    },
+    {
+      "oemBrand": "HITACHI",
+      "oemDisplayNo": "4294841"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "43 18 092"
+    },
+    {
+      "oemBrand": "SCHAEFF",
+      "oemDisplayNo": "5.527.655.812"
+    },
+    {
+      "oemBrand": "GEHL",
+      "oemDisplayNo": "548943687270"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "56 50 301"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "6 49 007"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "6 49 012"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "6 49 013"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "6 49 014"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "6 49 014"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "6 49 020"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "6 50 134"
+    },
+    {
+      "oemBrand": "ALFA ROMEO",
+      "oemDisplayNo": "6000605218"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "6000605218"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "6000605218"
+    },
+    {
+      "oemBrand": "ALFA ROMEO",
+      "oemDisplayNo": "6000611028"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "6000611028"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "6000611028"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-94368-727-0"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-94412-815-0"
+    },
+    {
+      "oemBrand": "EATON",
+      "oemDisplayNo": "901301815"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "90485456"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "90485457"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "90511146"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "90541162"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "90541163"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "91151707"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "91151708"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "93156956"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "93182630"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "93182630"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "94314263"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "94314263"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "94316263"
+    },
+    {
+      "oemBrand": "MASSEY FERGUSON",
+      "oemDisplayNo": "947 941"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "9S51-6731-AA"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A 000 180 28 10"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "AS51-6731-AA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "G6Y0-14-302A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "J EY0-14302-9A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "JE15-14-302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "JEY0-14-302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "JEY0-14-302A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "JEYO-14-302"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K6000605218"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "K6000605218"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K6000611028"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "K6000611028"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "KL07-14-302B"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MD 05281090"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MD135737"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MD321589"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MD325714"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MD352627"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MD360935"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MR984204"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MZ690070"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MZ690072"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MZ690115"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MZ690116"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "OJE15 14302"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "OJE15-14302"
+    },
+    {
+      "oemBrand": "PROTON",
+      "oemDisplayNo": "PW 510577 E"
+    },
+    {
+      "oemBrand": "PROTON",
+      "oemDisplayNo": "PW510577"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "RF Y0-14-3029A"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "S2630-002500"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "S2630-002503"
+    },
+    {
+      "oemBrand": "BRILLIANCE",
+      "oemDisplayNo": "SMD 360935"
+    },
+    {
+      "oemBrand": "CASE IH",
+      "oemDisplayNo": "VA30A4000103"
+    },
+    {
+      "oemBrand": "KOBELCO",
+      "oemDisplayNo": "VA30A4000103"
+    },
+    {
+      "oemBrand": "CASE IH",
+      "oemDisplayNo": "VA30A4000105"
+    },
+    {
+      "oemBrand": "NEW HOLLAND",
+      "oemDisplayNo": "VA30A4000105"
+    },
+    {
+      "oemBrand": "KOBELCO",
+      "oemDisplayNo": "VA30A4000105"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "VOF225"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "VOF225"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "VOF500"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "VOF500"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "VOF88"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "VOF88"
+    }
+  ],
+  "ean": "4047026361377",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:18:11.771Z"
+}

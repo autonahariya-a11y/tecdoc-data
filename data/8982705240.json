@@ -1,0 +1,81 @@
+{
+  "articleNo": "8982705240",
+  "articleId": 78338,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "ISUZU",
+  "matchedArticleNo": "0 986 AF0 361",
+  "vehicles": [
+    {
+      "vehicleId": 125783,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "1.9 Ddi (TFR87J)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128440,
+      "modelId": 11895,
+      "manufacturerName": "ISUZU",
+      "modelName": "MU-X SUV (UCS/UCR)",
+      "typeEngineName": "1.9 Ddi (UCR87)",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141767,
+      "modelId": 40683,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX III (TFR, TFS)",
+      "typeEngineName": "1.9 DDI (TFR87J, TFR87)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142391,
+      "modelId": 41374,
+      "manufacturerName": "ISUZU",
+      "modelName": "MU-X SUV (TFS/TFR)",
+      "typeEngineName": "1.9 Ddi (UCR/UCS)",
+      "constructionIntervalStart": "2020-10-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "83"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "94,5"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "62,5"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "27"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "20"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-98270-524-0"
+    }
+  ],
+  "ean": "4047026346619",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:32:50.691Z"
+}

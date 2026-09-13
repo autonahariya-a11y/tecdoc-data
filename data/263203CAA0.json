@@ -1,0 +1,84 @@
+{
+  "articleNo": "263203CAA0",
+  "articleId": 78270,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "KIA",
+  "matchedArticleNo": "0 986 AF0 050",
+  "vehicles": [
+    {
+      "vehicleId": 55032,
+      "modelId": 9626,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "GRANDEUR (HG)",
+      "typeEngineName": "3.3",
+      "constructionIntervalStart": "2011-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127764,
+      "modelId": 9626,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "GRANDEUR (HG)",
+      "typeEngineName": "3.3",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 57225,
+      "modelId": 9626,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "GRANDEUR (HG)",
+      "typeEngineName": "3.0 MPI",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "103,5"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "106"
+    },
+    {
+      "criteriaName": "Height 2 [mm]",
+      "criteriaValue": "123"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "61"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Outer Diameter 1 [mm]",
+      "criteriaValue": "65"
+    },
+    {
+      "criteriaName": "Outer Diameter 2 [mm]",
+      "criteriaValue": "71"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "19"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "26320 3CAA0"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26320-3CAA0"
+    }
+  ],
+  "ean": "4047023075154\n4047024791954",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:24:42.296Z"
+}

@@ -1,0 +1,42 @@
+{
+  "articleNo": "263502S000",
+  "articleId": 78344,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "HYUNDAI",
+  "matchedArticleNo": "0 986 AF0 367",
+  "vehicles": [
+    {
+      "vehicleId": 139268,
+      "modelId": 39857,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "SONATA VIII (DN8)",
+      "typeEngineName": "2.5 MPI",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "85"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "64,8"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26350 2S000"
+    }
+  ],
+  "ean": "4047026495874",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:28:21.087Z"
+}

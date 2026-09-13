@@ -1,0 +1,85 @@
+{
+  "articleNo": "L32114302",
+  "articleId": 78448,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "MAZDA",
+  "matchedArticleNo": "0 986 AF1 156",
+  "vehicles": [
+    {
+      "vehicleId": 20714,
+      "modelId": 4233,
+      "manufacturerName": "MAZDA",
+      "modelName": "PREMACY (CP)",
+      "typeEngineName": "2.3 SVT (CP3W)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": "2005-03-01"
+    },
+    {
+      "vehicleId": 55116,
+      "modelId": 10263,
+      "manufacturerName": "MAZDA",
+      "modelName": "MPV III (LY)",
+      "typeEngineName": "2.3 (LY3P)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55117,
+      "modelId": 10263,
+      "manufacturerName": "MAZDA",
+      "modelName": "MPV III (LY)",
+      "typeEngineName": "2.3 4WD (LY3P)",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108296,
+      "modelId": 13241,
+      "manufacturerName": "MAZDA",
+      "modelName": "BIANTE (CC_)",
+      "typeEngineName": "2.0 (CCEFW)",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "70"
+    },
+    {
+      "criteriaName": "Height 1 [mm]",
+      "criteriaValue": "75"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "67"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "45"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "28"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "L321-14-302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "LF01-14-302"
+    }
+  ],
+  "ean": "4047026161861",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:39:10.491Z"
+}

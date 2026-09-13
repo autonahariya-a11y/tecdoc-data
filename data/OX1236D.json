@@ -1,0 +1,385 @@
+{
+  "articleNo": "OX 1236D",
+  "articleId": 8357231,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 26787,
+      "modelId": 11050,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Coupe (C117)",
+      "typeEngineName": "CLA 45 AMG 4-matic (117.352)",
+      "constructionIntervalStart": "2013-07-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 59167,
+      "modelId": 10342,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS (W176)",
+      "typeEngineName": "A 45 AMG 4-matic (176.052)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 100830,
+      "modelId": 11743,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLA-CLASS (X156)",
+      "typeEngineName": "GLA 45 AMG 4-matic (156.952)",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 109393,
+      "modelId": 13518,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Shooting Brake (X117)",
+      "typeEngineName": "CLA 45 AMG 4-matic (117.952)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 114588,
+      "modelId": 65,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS (W463)",
+      "typeEngineName": "G 500 (463.234, 463.239)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 114960,
+      "modelId": 10342,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS (W176)",
+      "typeEngineName": "AMG A 45 4-matic (176.052)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-05-01"
+    },
+    {
+      "vehicleId": 115000,
+      "modelId": 11050,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Coupe (C117)",
+      "typeEngineName": "AMG CLA 45 4-matic (117.352)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 115042,
+      "modelId": 13518,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Shooting Brake (X117)",
+      "typeEngineName": "AMG CLA 45 4-matic (117.952)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 115054,
+      "modelId": 11743,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLA-CLASS (X156)",
+      "typeEngineName": "AMG GLA 45 4-matic (156.952)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 127330,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 560 4-matic (222.086, 222.186)",
+      "constructionIntervalStart": "2017-05-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 127332,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 560 Maybach 4-matic (222.986)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128015,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 560 Maybach (222.983)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 128089,
+      "modelId": 11234,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W222, V222, X222)",
+      "typeEngineName": "S 560 (222.083, 222.183)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129010,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 560 4-matic (217.386)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129011,
+      "modelId": 11949,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Coupe (C217)",
+      "typeEngineName": "S 560 (217.383)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129012,
+      "modelId": 14923,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS Convertible (A217)",
+      "typeEngineName": "S 560 (217.483)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 129341,
+      "modelId": 36380,
+      "manufacturerName": "ASTON MARTIN",
+      "modelName": "DB11 Vantage",
+      "typeEngineName": "4.0 V8",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129343,
+      "modelId": 38323,
+      "manufacturerName": "ASTON MARTIN",
+      "modelName": "DB11 Volante",
+      "typeEngineName": "4.0 V8",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129344,
+      "modelId": 38324,
+      "manufacturerName": "ASTON MARTIN",
+      "modelName": "VANTAGE Coupe",
+      "typeEngineName": "V8",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136670,
+      "modelId": 38539,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS (W177)",
+      "typeEngineName": "AMG A 45 4-matic+ (177.053)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136671,
+      "modelId": 38539,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "A-CLASS (W177)",
+      "typeEngineName": "AMG A 45 S 4-matic+ (177.054)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136675,
+      "modelId": 39446,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA (C118)",
+      "typeEngineName": "AMG CLA 45 4-matic+ (118.353)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136676,
+      "modelId": 39446,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA (C118)",
+      "typeEngineName": "AMG CLA 45 S 4-matic+ (118.354)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136839,
+      "modelId": 39629,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Shooting Brake (X118)",
+      "typeEngineName": "AMG CLA 45 4-matic+ (118.653)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136840,
+      "modelId": 39629,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "CLA Shooting Brake (X118)",
+      "typeEngineName": "AMG CLA 45 S 4-matic+ (118.654)",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137976,
+      "modelId": 39123,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLE (V167)",
+      "typeEngineName": "GLE 580 EQ Boost 4-matic (167.186)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 138495,
+      "modelId": 39512,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLS (X167)",
+      "typeEngineName": "580 EQ Boost 4-matic (167.986, 167.980)",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139672,
+      "modelId": 40521,
+      "manufacturerName": "ASTON MARTIN",
+      "modelName": "DBX",
+      "typeEngineName": "4.0",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140777,
+      "modelId": 40514,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLA (H247)",
+      "typeEngineName": "AMG GLA 45 4-matic+ (247.753)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140778,
+      "modelId": 40514,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "GLA (H247)",
+      "typeEngineName": "AMG GLA 45 S 4-matic+ (247.754)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141412,
+      "modelId": 13198,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "AMG GT (C190)",
+      "typeEngineName": "GT (190.382)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 144367,
+      "modelId": 41795,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (V223)",
+      "typeEngineName": "S 580 4-matic (223.176)",
+      "constructionIntervalStart": "2021-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144368,
+      "modelId": 41092,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "S-CLASS (W223)",
+      "typeEngineName": "S 580 4-matic (223.076)",
+      "constructionIntervalStart": "2021-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129868,
+      "modelId": 38417,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "G-CLASS (W463)",
+      "typeEngineName": "G 500 (463.260, 463.261)",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "for OE number",
+      "criteriaValue": "A1761800800"
+    },
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "3,5"
+    },
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "57,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "146,0"
+    },
+    {
+      "criteriaName": "Sealing Ring Diameter [mm]",
+      "criteriaValue": "62,5"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with gasket/seal"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "27"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "6,1"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "6,10"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "14,90"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "60"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "1331840025"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "1761800800"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A1331840025"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A1761800800"
+    }
+  ],
+  "ean": "4057635169264",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:48:51.462Z"
+}

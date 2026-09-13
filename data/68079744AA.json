@@ -1,0 +1,103 @@
+{
+  "articleNo": "68079744AA",
+  "articleId": 791616,
+  "supplier": "ASHIKA",
+  "product": "Oil Filter",
+  "originalManufacturer": "CHRYSLER",
+  "matchedArticleNo": "10-ECO131",
+  "vehicles": [
+    {
+      "vehicleId": 4664,
+      "modelId": 9072,
+      "manufacturerName": "JEEP",
+      "modelName": "GRAND CHEROKEE IV (WK, WK2)",
+      "typeEngineName": "3.6 V6 4x4",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59397,
+      "modelId": 6443,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "GRAND VOYAGER V (RT)",
+      "typeEngineName": "3.6",
+      "constructionIntervalStart": "2011-02-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "127"
+    },
+    {
+      "criteriaName": "Overall Length [mm]",
+      "criteriaValue": "138"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "52"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "9,5"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "22"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "05184526AA"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "68079744AA"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "68079744AB"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "68079744AC"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "68079744AD"
+    },
+    {
+      "oemBrand": "VAG",
+      "oemDisplayNo": "7B0 115 562"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K05184526AA"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K68079744AA"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K68079744AB"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K68079744AC"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K68079744AD"
+    }
+  ],
+  "ean": "8052553051420",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:29:07.087Z"
+}

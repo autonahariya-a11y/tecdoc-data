@@ -1,0 +1,4426 @@
+{
+  "articleNo": "90915YZZD2",
+  "articleId": 64052,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "TOYOTA",
+  "matchedArticleNo": "0 986 452 044",
+  "vehicles": [
+    {
+      "vehicleId": 843,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "3.0 D-4D (KDJ155_, KDJ150_, KDJ150R, KDJ155R)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55972,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "3.0 TDi (KDJ150_)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115779,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "2.8 D-4D (GDJ150_, GDJ155_, GDJ150, GDJ151)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132409,
+      "modelId": 38869,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER VAN (_J15_)",
+      "typeEngineName": "3.0 D4d 4WD (KDJ155, KDJ150)",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3544,
+      "modelId": 453,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "2.5 (VZV21_, VZV21R)",
+      "constructionIntervalStart": "1986-10-01",
+      "constructionIntervalEnd": "1991-06-01"
+    },
+    {
+      "vehicleId": 3548,
+      "modelId": 446,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V1_)",
+      "typeEngineName": "3.0 (VCV10_, VCV10R)",
+      "constructionIntervalStart": "1991-06-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3555,
+      "modelId": 460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Estate (_V1_)",
+      "typeEngineName": "3.0 (VCV10_, VCV10R)",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1996-07-01"
+    },
+    {
+      "vehicleId": 3581,
+      "modelId": 563,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELICA Coupe (_T16_)",
+      "typeEngineName": "2.0 Turbo 4WD (ST165_, ST165)",
+      "constructionIntervalStart": "1988-03-01",
+      "constructionIntervalEnd": "1989-08-01"
+    },
+    {
+      "vehicleId": 3620,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.0 (RZH102, RZH112)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1998-04-01"
+    },
+    {
+      "vehicleId": 5336,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "4.0 (GRJ120)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 5388,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.4 (RCH12, RCH22)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1998-04-01"
+    },
+    {
+      "vehicleId": 5682,
+      "modelId": 1565,
+      "manufacturerName": "SUZUKI",
+      "modelName": "BALENO Estate (EG)",
+      "typeEngineName": "1.6 i 16V (SY416)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2002-05-01"
+    },
+    {
+      "vehicleId": 6761,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.0 (RZH102, RZH112)",
+      "constructionIntervalStart": "1990-02-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 7917,
+      "modelId": 3419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "3.0 24V (MCV20_, MCV20, MCV10)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 8712,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 EFI 4WD (RN106_, RN110_, RN106R, RN110R)",
+      "constructionIntervalStart": "1989-01-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 9259,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.4 (RZH10)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 9279,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.4 4WD (RZH103_, RZH109_, RZH113_, RZH115_)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-07-01"
+    },
+    {
+      "vehicleId": 9559,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.7 (UZJ100_, UZJ100R)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 9563,
+      "modelId": 4690,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S16_)",
+      "typeEngineName": "300 (JZS160_, JZS160R)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 10281,
+      "modelId": 4247,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS I (_E1_)",
+      "typeEngineName": "200 (GXE10)",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 10664,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY221, KDY231, KDY251, KDY261)",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10766,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.4 (RCH12, RCH22)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2003-11-01"
+    },
+    {
+      "vehicleId": 11805,
+      "modelId": 8700,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE / COMMUTER V Bus (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D (KDH202)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12217,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.5 D-4D 4WD (RZN215, KUN50)",
+      "constructionIntervalStart": "2011-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 12256,
+      "modelId": 6945,
+      "manufacturerName": "TOYOTA",
+      "modelName": "INNOVA / KIJANG INNOVA I (_N4_)",
+      "typeEngineName": "2.7 (TGN41_)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12388,
+      "modelId": 9815,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VEROSSA (_X11_)",
+      "typeEngineName": "2.5 VVTi (JZX110)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-11-01"
+    },
+    {
+      "vehicleId": 12390,
+      "modelId": 9815,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VEROSSA (_X11_)",
+      "typeEngineName": "2.0 VVTi (GX110)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-11-01"
+    },
+    {
+      "vehicleId": 12391,
+      "modelId": 9815,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VEROSSA (_X11_)",
+      "typeEngineName": "2.0 VVTi 4WD (GX115)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-11-01"
+    },
+    {
+      "vehicleId": 12392,
+      "modelId": 9815,
+      "manufacturerName": "TOYOTA",
+      "modelName": "VEROSSA (_X11_)",
+      "typeEngineName": "2.5 VVTi (JZX110)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-11-01"
+    },
+    {
+      "vehicleId": 14326,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.7 (RCH13, RCH23)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 14327,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.7 (RCH13, RCH23)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 14330,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.7 4WD (RCH19)",
+      "constructionIntervalStart": "1998-04-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 14331,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.7 4WD (RCH19, RCH29)",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15577,
+      "modelId": 4690,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S16_)",
+      "typeEngineName": "430 (UZS161_, UZS161R)",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15578,
+      "modelId": 4738,
+      "manufacturerName": "LEXUS",
+      "modelName": "LS (_F3_)",
+      "typeEngineName": "430 (UCF30)",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 15588,
+      "modelId": 4690,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S16_)",
+      "typeEngineName": "300 (JZS160_, JZS160R)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15860,
+      "modelId": 4765,
+      "manufacturerName": "LEXUS",
+      "modelName": "SC Convertible (UZZ40_)",
+      "typeEngineName": "430 (UZZ40_, UZZ40R)",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 16320,
+      "modelId": 4247,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS I (_E1_)",
+      "typeEngineName": "300 (JCE10)",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 16364,
+      "modelId": 3996,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P1_)",
+      "typeEngineName": "1.4 D-4D (NLP10_, NLP10R)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16556,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.7 (RCH13, RCH23)",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2006-12-01"
+    },
+    {
+      "vehicleId": 18734,
+      "modelId": 4851,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E12_)",
+      "typeEngineName": "1.4 D (NDE120_, NDE120R)",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 18735,
+      "modelId": 4852,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E12_)",
+      "typeEngineName": "1.4 D-4D (NDE120_, NDE120R)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 19304,
+      "modelId": 4768,
+      "manufacturerName": "MINI",
+      "modelName": "MINI (R50, R53)",
+      "typeEngineName": "One D",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 20217,
+      "modelId": 5811,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (CRS_, JZS_, GRS18_, UZS_)",
+      "typeEngineName": "4.3 (UZS181_, UZS186, UZS187)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 20218,
+      "modelId": 5811,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (CRS_, JZS_, GRS18_, UZS_)",
+      "typeEngineName": "4.3 Royal Saloon 4WD (UZS185)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 20323,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.7 EFI (RZN154, RZN149)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 20618,
+      "modelId": 9703,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "VOYAGER II (ES)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "1990-10-01",
+      "constructionIntervalEnd": "1995-09-01"
+    },
+    {
+      "vehicleId": 20725,
+      "modelId": 5812,
+      "manufacturerName": "LEXUS",
+      "modelName": "ES (MCV_, VZV_)",
+      "typeEngineName": "3.0 (MCV30_, MCV20_, MCV20R)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 20781,
+      "modelId": 4646,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA II (_R3_)",
+      "typeEngineName": "3.0 (MCR30W)",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 21406,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.0 (RZH124)",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 22698,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 22699,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 22713,
+      "modelId": 6257,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ARISTO (_S14_)",
+      "typeEngineName": "3.0 (JZS147)",
+      "constructionIntervalStart": "1990-10-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 22729,
+      "modelId": 6276,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELSIOR (UCF1_)",
+      "typeEngineName": "4.0 (UCF10, UCF11)",
+      "constructionIntervalStart": "1988-12-01",
+      "constructionIntervalEnd": "1993-04-01"
+    },
+    {
+      "vehicleId": 22730,
+      "modelId": 6277,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELSIOR (UCF2_)",
+      "typeEngineName": "4.0 (UCF10, UCF11)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 22807,
+      "modelId": 6278,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CHASER (_X8_)",
+      "typeEngineName": "2.0 (GX81)",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1992-10-01"
+    },
+    {
+      "vehicleId": 22860,
+      "modelId": 6261,
+      "manufacturerName": "TOYOTA",
+      "modelName": "BREVIS (JCG1_)",
+      "typeEngineName": "2.5 4WD (JCG15)",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2002-09-01"
+    },
+    {
+      "vehicleId": 22918,
+      "modelId": 6280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CHASER (_X10_)",
+      "typeEngineName": "2.5 (JZX100_, JZX100)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 22920,
+      "modelId": 6280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CHASER (_X10_)",
+      "typeEngineName": "2.5 (JZX100_, JZX100)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 22987,
+      "modelId": 6253,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALPHARD I (_H1_)",
+      "typeEngineName": "3.0 (MNH10)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-04-01"
+    },
+    {
+      "vehicleId": 22988,
+      "modelId": 6253,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALPHARD I (_H1_)",
+      "typeEngineName": "3.0 4WD (MNH15W)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-04-01"
+    },
+    {
+      "vehicleId": 23664,
+      "modelId": 3419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "2.5 (MCV21)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 24392,
+      "modelId": 6690,
+      "manufacturerName": "TOYOTA",
+      "modelName": "WINDOM (_V2_)",
+      "typeEngineName": "2.5 (MCV21)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 24393,
+      "modelId": 6690,
+      "manufacturerName": "TOYOTA",
+      "modelName": "WINDOM (_V2_)",
+      "typeEngineName": "3.0 (MCV20)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 24395,
+      "modelId": 6691,
+      "manufacturerName": "TOYOTA",
+      "modelName": "WINDOM (_V3_)",
+      "typeEngineName": "3.0 VVTi G (MCV30)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 25198,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D 4WD (KUN25)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25307,
+      "modelId": 6938,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ARISTO (_S16_)",
+      "typeEngineName": "3.0 (JZS160)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 25308,
+      "modelId": 6938,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ARISTO (_S16_)",
+      "typeEngineName": "3.0 (JZS161)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 25313,
+      "modelId": 6945,
+      "manufacturerName": "TOYOTA",
+      "modelName": "INNOVA / KIJANG INNOVA I (_N4_)",
+      "typeEngineName": "2.5 D (KUN40_)",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 25314,
+      "modelId": 6945,
+      "manufacturerName": "TOYOTA",
+      "modelName": "INNOVA / KIJANG INNOVA I (_N4_)",
+      "typeEngineName": "2.0 (TGN40_)",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 25326,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.7 (TGN61_, TGN61R)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25355,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.7 4WD (TGN51_, TGN51R)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25451,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25_, KUN25R)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25571,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.4 (VZJ121, VZJ125, VZJ120)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 25592,
+      "modelId": 6254,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALTEZZA (_E1_)",
+      "typeEngineName": "2.0 VVTi (GXE10)",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 25593,
+      "modelId": 6261,
+      "manufacturerName": "TOYOTA",
+      "modelName": "BREVIS (JCG1_)",
+      "typeEngineName": "3.0 (JCG11)",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 25597,
+      "modelId": 6266,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Estate (_V2_)",
+      "typeEngineName": "3.0 (MCV20_, MCV20)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 25826,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "3.0 (MCU20_)",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2007-04-01"
+    },
+    {
+      "vehicleId": 25932,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.7",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 26160,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "3.0 4WD (MCU25_, MCU25R)",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 26191,
+      "modelId": 7236,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II VI Saloon",
+      "typeEngineName": "2.5 4WD (JZX90)",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 26193,
+      "modelId": 7236,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II VI Saloon",
+      "typeEngineName": "2.5 (JZX90)",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1996-09-01"
+    },
+    {
+      "vehicleId": 26202,
+      "modelId": 7238,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II Estate (_X1_, _V2_)",
+      "typeEngineName": "2.5 (MCV21)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 26212,
+      "modelId": 7243,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S14_, _S13_)",
+      "typeEngineName": "3.0 (JZS133, JZS147, JZS149)",
+      "constructionIntervalStart": "1991-10-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 26213,
+      "modelId": 7243,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S14_, _S13_)",
+      "typeEngineName": "4.0 (UZS141)",
+      "constructionIntervalStart": "1991-08-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 26291,
+      "modelId": 7276,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SOARER Coupe (_Z3_)",
+      "typeEngineName": "3.0 (JZZ31)",
+      "constructionIntervalStart": "1990-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 26416,
+      "modelId": 7323,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SOARER Coupe (_Z2_)",
+      "typeEngineName": "2.0 Turbo (GZ20)",
+      "constructionIntervalStart": "1986-09-01",
+      "constructionIntervalEnd": "1991-03-01"
+    },
+    {
+      "vehicleId": 26417,
+      "modelId": 7323,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SOARER Coupe (_Z2_)",
+      "typeEngineName": "3.0 Turbo (MZ20, MZ21)",
+      "constructionIntervalStart": "1986-09-01",
+      "constructionIntervalEnd": "1991-03-01"
+    },
+    {
+      "vehicleId": 27277,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27278,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27393,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.4 i (RZH125)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 27404,
+      "modelId": 6257,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ARISTO (_S14_)",
+      "typeEngineName": "4.0 4WD (UZS143)",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 28334,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.0 (RZH102, RZH112)",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 28482,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.0 VVTi (KGN15_, TGN15_, TGN15R)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 28503,
+      "modelId": 6940,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN Estate (_S17_)",
+      "typeEngineName": "3.0 (JZS175)",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 28514,
+      "modelId": 5820,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Platform/Chassis (KD_, LY_, _Y2_, _U3_, _U4_, _U6_, _U8",
+      "typeEngineName": "3.0 D4d (KDY261_, KDY251_, KDY231_, KDY221_, KDY221R,...",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28693,
+      "modelId": 446,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V1_)",
+      "typeEngineName": "3.0 (MCV10_, MCV10R)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1996-07-01"
+    },
+    {
+      "vehicleId": 29194,
+      "modelId": 7713,
+      "manufacturerName": "HOLDEN",
+      "modelName": "SUNBIRD Saloon (LX)",
+      "typeEngineName": "1.9",
+      "constructionIntervalStart": "1977-08-01",
+      "constructionIntervalEnd": "1978-03-01"
+    },
+    {
+      "vehicleId": 29504,
+      "modelId": 446,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V1_)",
+      "typeEngineName": "3.0 (VCV10_, VCV10R)",
+      "constructionIntervalStart": "1991-06-01",
+      "constructionIntervalEnd": "1995-09-01"
+    },
+    {
+      "vehicleId": 29513,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 4WD (RN110, RN105, RN106)",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 29514,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.0 EFI (RZN147, RZN152)",
+      "constructionIntervalStart": "1997-11-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 30468,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "2.7 (RZJ120, RZJ125)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 30493,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.7 VVTi (TRH201, TRH221, TRH223B)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 30543,
+      "modelId": 6257,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ARISTO (_S14_)",
+      "typeEngineName": "3.0 (JZS147)",
+      "constructionIntervalStart": "1990-10-01",
+      "constructionIntervalEnd": "1997-07-01"
+    },
+    {
+      "vehicleId": 30684,
+      "modelId": 7950,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURION (_V4_)",
+      "typeEngineName": "2.4 (ACV40)",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 30735,
+      "modelId": 166,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E7_)",
+      "typeEngineName": "1.6 GT",
+      "constructionIntervalStart": "1980-05-01",
+      "constructionIntervalEnd": "1983-09-01"
+    },
+    {
+      "vehicleId": 31002,
+      "modelId": 1565,
+      "manufacturerName": "SUZUKI",
+      "modelName": "BALENO Estate (EG)",
+      "typeEngineName": "1.6 i 16V (SY416)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2002-05-01"
+    },
+    {
+      "vehicleId": 32696,
+      "modelId": 8987,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "LAND CRUISER 200 (_J20_)",
+      "typeEngineName": "4.0 All-wheel Drive (GRJ200)",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33180,
+      "modelId": 170,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E10_)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1992-05-01",
+      "constructionIntervalEnd": "1997-04-01"
+    },
+    {
+      "vehicleId": 33571,
+      "modelId": 328,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (_A8_)",
+      "typeEngineName": "3.0 i (JZA80_, JZA80R)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 33572,
+      "modelId": 328,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (_A8_)",
+      "typeEngineName": "3.0 i Bi-Turbo (JZA80_, JZA80R)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 33640,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 34581,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D 4WD (KUN26)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34585,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D (KUN16)",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34586,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D (KUN16_, KUN36, KUN16)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 34704,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D (KDH200, KDH220)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34712,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.4 (RZH10)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 34837,
+      "modelId": 5813,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V4_)",
+      "typeEngineName": "2.4 (ACV40_, ACV40R)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 34943,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25)",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 41638,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.7 (TGN61_)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 45232,
+      "modelId": 5001,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (_U3_)",
+      "typeEngineName": "400h AWD (MHU38_, MHU38R)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 49175,
+      "modelId": 11331,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER IV (_N21_)",
+      "typeEngineName": "4.7 4WD (UZN215_)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 49179,
+      "modelId": 7334,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVALON Saloon (_X2_)",
+      "typeEngineName": "3.0 (MCX20)",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 49344,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.7 4WD (UZJ100_, UZJ100R)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 49448,
+      "modelId": 328,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (_A8_)",
+      "typeEngineName": "3.0 (JZA80_, JZA80R)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "1999-10-01"
+    },
+    {
+      "vehicleId": 56014,
+      "modelId": 4347,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (MCU15)",
+      "typeEngineName": "300 AWD (MCU15_)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2003-02-01"
+    },
+    {
+      "vehicleId": 56288,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.7 (TRH203, TRH213, TRH214, TRH224)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2019-05-01"
+    },
+    {
+      "vehicleId": 56838,
+      "modelId": 323,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (_A7_)",
+      "typeEngineName": "2.5 i Bi-Turbo (JZA70)",
+      "constructionIntervalStart": "1990-08-01",
+      "constructionIntervalEnd": "1993-05-01"
+    },
+    {
+      "vehicleId": 57215,
+      "modelId": 7334,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVALON Saloon (_X2_)",
+      "typeEngineName": "3.0 (MCX10R)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 57439,
+      "modelId": 8912,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER Pick-up (_J7_, _JL7_)",
+      "typeEngineName": "4.0 4x4 (GRJ79)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57752,
+      "modelId": 5813,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V4_)",
+      "typeEngineName": "2.4 (ACV40_)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2011-09-01"
+    },
+    {
+      "vehicleId": 58312,
+      "modelId": 10997,
+      "manufacturerName": "TOYOTA",
+      "modelName": "DYNA Bus (XZU3_, XZU4_, WU4_, WU3_, LY2_, KDY2_)",
+      "typeEngineName": "3.0 D4d (KDY241)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58716,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.7 4WD (RCH19)",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 59034,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "3.3 Hybrid (MHU23_, MHU23R)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 100894,
+      "modelId": 4646,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA II (_R3_)",
+      "typeEngineName": "3.0 4WD (MCR40W)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 105772,
+      "modelId": 4738,
+      "manufacturerName": "LEXUS",
+      "modelName": "LS (_F3_)",
+      "typeEngineName": "430 (UCF30)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 108326,
+      "modelId": 6279,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CHASER (_X9_)",
+      "typeEngineName": "2.5 (JZX90)",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 111422,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "4.0 (GRJ120)",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 115123,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.8 D-4D (GUN123_, GUN136_, GUN136)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115124,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.8 D-4D 4WD (GUN126_, GUN126R)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117636,
+      "modelId": 14798,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Platform/Chassis (_N1_)",
+      "typeEngineName": "2.4 D 4WD (GUN125_, GUN125R)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117640,
+      "modelId": 14798,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Platform/Chassis (_N1_)",
+      "typeEngineName": "2.4 D (GUN112_, GUN122_, GUN135_, GUN125_)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117698,
+      "modelId": 6280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CHASER (_X10_)",
+      "typeEngineName": "2.0 (GX100_)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 117699,
+      "modelId": 6279,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CHASER (_X9_)",
+      "typeEngineName": "2.0 VVTi (GX90)",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 119320,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.4",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2000-03-01"
+    },
+    {
+      "vehicleId": 119973,
+      "modelId": 36544,
+      "manufacturerName": "TOYOTA",
+      "modelName": "INNOVA II (_N14_)",
+      "typeEngineName": "2.4 (GUN142)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119982,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "2.7 (TGN166_, TGN168_)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119986,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.0 (TGN110_, TGN120_)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 121944,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 Tdi 4x4 (KUN26)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 121946,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 Tdi (KUN16)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 122365,
+      "modelId": 7217,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U1_)",
+      "typeEngineName": "3.0 (MCU10)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2003-01-01"
+    },
+    {
+      "vehicleId": 122406,
+      "modelId": 11331,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER IV (_N21_)",
+      "typeEngineName": "4.7 4WD (UZN215_)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 122431,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.7 4WD (TGN51_)",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2015-03-01"
+    },
+    {
+      "vehicleId": 122436,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 123308,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D-4D (KDJ120_)",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 123748,
+      "modelId": 7237,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II VIII Saloon (_X10_)",
+      "typeEngineName": "2.0 VVTi 4WD (GX105)",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 124340,
+      "modelId": 7218,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U3_)",
+      "typeEngineName": "3.0 (MCU30)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 124341,
+      "modelId": 7218,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U3_)",
+      "typeEngineName": "3.0 4WD (MCU36W, MCU35)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 124344,
+      "modelId": 40564,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S15_)",
+      "typeEngineName": "2.0 (GS151)",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 124345,
+      "modelId": 40564,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S15_)",
+      "typeEngineName": "2.5 (JZS151)",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2001-08-01"
+    },
+    {
+      "vehicleId": 124356,
+      "modelId": 37369,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II IX Saloon (_X11_)",
+      "typeEngineName": "2.5 4WD (JZX115)",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 124384,
+      "modelId": 37373,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ESTIMA EMINA / LUCIDA (_R1_, _R2_)",
+      "typeEngineName": "2.4 (TCR10G, TCR11G, TCR10W)",
+      "constructionIntervalStart": "1990-05-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 124385,
+      "modelId": 37373,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ESTIMA EMINA / LUCIDA (_R1_, _R2_)",
+      "typeEngineName": "2.4 4x4 (TCR20G, TCR21G)",
+      "constructionIntervalStart": "1990-05-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 124664,
+      "modelId": 6279,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CHASER (_X9_)",
+      "typeEngineName": "2.5 FOUR (JZX93)",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 124700,
+      "modelId": 37415,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II Estate",
+      "typeEngineName": "2.5 (JZX110)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 124701,
+      "modelId": 37415,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II Estate",
+      "typeEngineName": "2.0 VVTi (GX110)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 124702,
+      "modelId": 37415,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II Estate",
+      "typeEngineName": "2.0 VVTi 4WD (GX115)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2007-06-01"
+    },
+    {
+      "vehicleId": 124706,
+      "modelId": 7357,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S17_)",
+      "typeEngineName": "3.0 ( JZS175)",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 124709,
+      "modelId": 7254,
+      "manufacturerName": "TOYOTA",
+      "modelName": "GRANVIA (_H2_, _H1_)",
+      "typeEngineName": "3.4 4WD (VCH16, VCH28)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2002-05-01"
+    },
+    {
+      "vehicleId": 124788,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "4.0 (GGN165_)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 125532,
+      "modelId": 7237,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II VIII Saloon (_X10_)",
+      "typeEngineName": "2.5 (JZX100_, JZX100)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 125611,
+      "modelId": 7237,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II VIII Saloon (_X10_)",
+      "typeEngineName": "2.5 4WD (JZX105_, JZX105)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 126657,
+      "modelId": 36544,
+      "manufacturerName": "TOYOTA",
+      "modelName": "INNOVA II (_N14_)",
+      "typeEngineName": "2.7 (TGN141)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126676,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.8 D 4WD (GUN126_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126677,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.5 D (KUN112_, KUN122_, KUN135_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 126859,
+      "modelId": 37373,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ESTIMA EMINA / LUCIDA (_R1_, _R2_)",
+      "typeEngineName": "2.4 (TCR11_, TCR10_, TCR10R, TCR11R)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 127122,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "4.0 V6 VVT-i (GRJ125)",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 128247,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.7 (TRH2__, TRH223B, TRH201, TRH221)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132293,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "2.5 D-4D (KUN60)",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 132786,
+      "modelId": 38922,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO VAN (_P2_)",
+      "typeEngineName": "1.4 D4d (NLP22_)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 133318,
+      "modelId": 37369,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II IX Saloon (_X11_)",
+      "typeEngineName": "2.5 (JZX110)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 133319,
+      "modelId": 37369,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II IX Saloon (_X11_)",
+      "typeEngineName": "2.5 (JZX110)",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 133320,
+      "modelId": 37369,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II IX Saloon (_X11_)",
+      "typeEngineName": "2.0 (GX110)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 133322,
+      "modelId": 37369,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II IX Saloon (_X11_)",
+      "typeEngineName": "2.5 4WD (JZX115)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 133323,
+      "modelId": 37369,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II IX Saloon (_X11_)",
+      "typeEngineName": "2.0 4WD (GX115)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2004-11-01"
+    },
+    {
+      "vehicleId": 133345,
+      "modelId": 6255,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALTEZZA GITA Estate (_XE1_)",
+      "typeEngineName": "2.0 (GXE10)",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 133418,
+      "modelId": 10924,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TACOMA Pickup (_N2_)",
+      "typeEngineName": "4.0 4WD (GRN245)",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 133452,
+      "modelId": 9567,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FJ CRUISER (GSJ1_)",
+      "typeEngineName": "4.0 (GSJ15)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 134314,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "2.8 D-4D (GDJ150, GDJ155)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134325,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.4 D 4WD (GUN125)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136388,
+      "modelId": 39590,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE VI Bus (__H3__)",
+      "typeEngineName": "2.8 (GDH322)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136389,
+      "modelId": 39589,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE VI Van (__H3__)",
+      "typeEngineName": "2.8 (GDH300, GDH320)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136677,
+      "modelId": 39590,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE VI Bus (__H3__)",
+      "typeEngineName": "2.8 (GDH322, GDH321)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136678,
+      "modelId": 39590,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE VI Bus (__H3__)",
+      "typeEngineName": "2.8 (GDH321, GDH328, GDH301, GDH322, GDH304)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139825,
+      "modelId": 40564,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S15_)",
+      "typeEngineName": "3.0 (JZS155)",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 140512,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.4 i (RZH103, RZH113)",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2004-08-01"
+    },
+    {
+      "vehicleId": 140830,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "2.8 D 4x4 (GUN156)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140855,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.8 TD 4WD (GUN126)",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142075,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.8 D-4D (GUN136)",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142789,
+      "modelId": 90089,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Platform/Chassis (_N1_)",
+      "typeEngineName": "3.4 EFI 4WD (VZN167)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 146423,
+      "modelId": 39590,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE VI Bus (__H3__)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155221,
+      "modelId": 7204,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CROWN (_S13_)",
+      "typeEngineName": "2.0 (GS130, GS131)",
+      "constructionIntervalStart": "1991-07-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 156975,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "2.8 D-4D 3.5t 4x4 (GDJL76R, GDJL78R)",
+      "constructionIntervalStart": "2023-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 801232,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.8 4WD",
+      "constructionIntervalStart": "2024-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 801233,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.8 MHEV 4WD",
+      "constructionIntervalStart": "2024-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 3554,
+      "modelId": 465,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Estate (_V2_)",
+      "typeEngineName": "2.5 (VZV21_, VZV21R)",
+      "constructionIntervalStart": "1986-11-01",
+      "constructionIntervalEnd": "1991-05-01"
+    },
+    {
+      "vehicleId": 3585,
+      "modelId": 323,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (_A7_)",
+      "typeEngineName": "3.0 24V (MA70_, MA70)",
+      "constructionIntervalStart": "1986-01-01",
+      "constructionIntervalEnd": "1988-08-01"
+    },
+    {
+      "vehicleId": 3586,
+      "modelId": 323,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (_A7_)",
+      "typeEngineName": "3.0 Turbo (MA70_, MA70)",
+      "constructionIntervalStart": "1987-09-01",
+      "constructionIntervalEnd": "1993-04-01"
+    },
+    {
+      "vehicleId": 3587,
+      "modelId": 323,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (_A7_)",
+      "typeEngineName": "3.0 Turbo (MA70_, MA70)",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1993-05-01"
+    },
+    {
+      "vehicleId": 3598,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "2.4 (RJ70_, RJ73_)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1993-05-01"
+    },
+    {
+      "vehicleId": 3599,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "2.4 (RJ70_, RJ73_, RJ70RV)",
+      "constructionIntervalStart": "1984-11-01",
+      "constructionIntervalEnd": "1993-05-01"
+    },
+    {
+      "vehicleId": 3622,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.4 (RZH183, RZH113, RZH115)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 3624,
+      "modelId": 3437,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA I (_R1_, _R2_)",
+      "typeEngineName": "2.4 (TCR11_, TCR10_, TCR10R, TCR11R)",
+      "constructionIntervalStart": "1990-05-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 3855,
+      "modelId": 4245,
+      "manufacturerName": "LEXUS",
+      "modelName": "ES (VCV10_, VZV21_)",
+      "typeEngineName": "300 (VCV10_, VCV10R)",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 3856,
+      "modelId": 328,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (_A8_)",
+      "typeEngineName": "3.0 i Bi-Turbo (JZA80_, JZA80R)",
+      "constructionIntervalStart": "1993-05-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 119324,
+      "modelId": 328,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (_A8_)",
+      "typeEngineName": "3.0 i Bi-Turbo (JZA80_)",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 4606,
+      "modelId": 9703,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "VOYAGER II (ES)",
+      "typeEngineName": "3.0 i",
+      "constructionIntervalStart": "1991-01-01",
+      "constructionIntervalEnd": "1995-09-01"
+    },
+    {
+      "vehicleId": 4763,
+      "modelId": 4691,
+      "manufacturerName": "LEXUS",
+      "modelName": "LS (_F2_)",
+      "typeEngineName": "400 (UCF20_, UCF20R)",
+      "constructionIntervalStart": "1994-12-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 4773,
+      "modelId": 1325,
+      "manufacturerName": "SUZUKI",
+      "modelName": "BALENO (EG)",
+      "typeEngineName": "1.6 i 16V (SY416)",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "2002-05-01"
+    },
+    {
+      "vehicleId": 4813,
+      "modelId": 383,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER II (_N13_)",
+      "typeEngineName": "3.0 EFI (VZN130_, VZN130G, VZN130R)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "1995-10-01"
+    },
+    {
+      "vehicleId": 49162,
+      "modelId": 383,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER II (_N13_)",
+      "typeEngineName": "2.4 RWD",
+      "constructionIntervalStart": "1989-09-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 5364,
+      "modelId": 1491,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "STRATUS (JA)",
+      "typeEngineName": "2.5 LX V6",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 5391,
+      "modelId": 9078,
+      "manufacturerName": "LEXUS",
+      "modelName": "LX (UZJ100)",
+      "typeEngineName": "470 (UZJ100)",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 10115,
+      "modelId": 7192,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SEQUOIA (_K3_, _K4_)",
+      "typeEngineName": "4.7 4WD (UCK45_, UCK45L)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 26078,
+      "modelId": 7192,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SEQUOIA (_K3_, _K4_)",
+      "typeEngineName": "4.7 (UCK35_, UCK35L)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 26079,
+      "modelId": 7192,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SEQUOIA (_K3_, _K4_)",
+      "typeEngineName": "4.7 4WD (UCK45_, UCK45L)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 50845,
+      "modelId": 9078,
+      "manufacturerName": "LEXUS",
+      "modelName": "LX (UZJ100)",
+      "typeEngineName": "470 (UZJ100)",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 50847,
+      "modelId": 9078,
+      "manufacturerName": "LEXUS",
+      "modelName": "LX (UZJ100)",
+      "typeEngineName": "470 (UZJ100)",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 50849,
+      "modelId": 9078,
+      "manufacturerName": "LEXUS",
+      "modelName": "LX (UZJ100)",
+      "typeEngineName": "470 (UZJ100)",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 133405,
+      "modelId": 7192,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SEQUOIA (_K3_, _K4_)",
+      "typeEngineName": "4.7 (UCK35)",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 133406,
+      "modelId": 7192,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SEQUOIA (_K3_, _K4_)",
+      "typeEngineName": "4.7 4WD (UCK35)",
+      "constructionIntervalStart": "2004-05-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 5593,
+      "modelId": 1552,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "STRATUS Convertible (JX)",
+      "typeEngineName": "2.5 LX",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 16399,
+      "modelId": 1491,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "STRATUS (JA)",
+      "typeEngineName": "2.5 V6",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 5695,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "3.4 i 24V (VZJ90_, VZJ95_, VZJ90R, VZJ95R, VZJ90W,...",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 25534,
+      "modelId": 1566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 90 (_J9_)",
+      "typeEngineName": "2.7 (RZJ95, RZJ90)",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "2002-08-01"
+    },
+    {
+      "vehicleId": 6768,
+      "modelId": 3437,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA I (_R1_, _R2_)",
+      "typeEngineName": "2.4 4WD (TCR21_, TCR20_, TCR21R, TCR20R)",
+      "constructionIntervalStart": "1990-01-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 9280,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.4 4WD (RCH103_, RCH113_, RCH103R, RCH113R)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-08-01"
+    },
+    {
+      "vehicleId": 9283,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "2.4 (RJ70_V, RJ73_V)",
+      "constructionIntervalStart": "1985-01-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 9562,
+      "modelId": 4246,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (JZS147_)",
+      "typeEngineName": "300 (JZS147_, JZS147R)",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 9564,
+      "modelId": 4691,
+      "manufacturerName": "LEXUS",
+      "modelName": "LS (_F2_)",
+      "typeEngineName": "400 (UCF20_, UCF20R)",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 14482,
+      "modelId": 4691,
+      "manufacturerName": "LEXUS",
+      "modelName": "LS (_F2_)",
+      "typeEngineName": "400 (UCF20_, UCF20R)",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 23719,
+      "modelId": 4691,
+      "manufacturerName": "LEXUS",
+      "modelName": "LS (_F2_)",
+      "typeEngineName": "400 (UCF20_)",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 30126,
+      "modelId": 4981,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER III (_N18_)",
+      "typeEngineName": "2.7 (RZN180)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 10122,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "2.7 (TRJ150_, TRJ155_, TRJ150R, TRJ150W)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10185,
+      "modelId": 7218,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U3_)",
+      "typeEngineName": "3.3 Hybrid 4WD (MHU38_, MHU38W)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2013-09-01"
+    },
+    {
+      "vehicleId": 11798,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D 4WD (KUN51)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 11806,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D (KDH20_, KDH21_, KDH22_, KDH200, KDH220)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 12170,
+      "modelId": 4765,
+      "manufacturerName": "LEXUS",
+      "modelName": "SC Convertible (UZZ40_)",
+      "typeEngineName": "430 (UZZ40_)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 12251,
+      "modelId": 7806,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 200 (_J2_)",
+      "typeEngineName": "4.0 (GRJ200_, GRJ200R)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28515,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15, KUN10)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 12252,
+      "modelId": 9567,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FJ CRUISER (GSJ1_)",
+      "typeEngineName": "4.0 4WD (GSJ15_)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 53540,
+      "modelId": 9567,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FJ CRUISER (GSJ1_)",
+      "typeEngineName": "4.0 4WD (GSJ15_)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2014-06-01"
+    },
+    {
+      "vehicleId": 106186,
+      "modelId": 9567,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FJ CRUISER (GSJ1_)",
+      "typeEngineName": "4.0 (GSJ15)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 133421,
+      "modelId": 9567,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FJ CRUISER (GSJ1_)",
+      "typeEngineName": "4.0 4WD (GSJ15)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 14324,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.4 4WD (RCH18, RCH28)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1998-04-01"
+    },
+    {
+      "vehicleId": 14325,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.4 4WD (RCH18)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1998-04-01"
+    },
+    {
+      "vehicleId": 14615,
+      "modelId": 10018,
+      "manufacturerName": "LEXUS",
+      "modelName": "GX (_J12_)",
+      "typeEngineName": "470 (UZJ120)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 14627,
+      "modelId": 10018,
+      "manufacturerName": "LEXUS",
+      "modelName": "GX (_J12_)",
+      "typeEngineName": "470 (UZJ120)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 14670,
+      "modelId": 1456,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "VOYAGER / GRAND VOYAGER III (GS_, NS_)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2001-03-01"
+    },
+    {
+      "vehicleId": 15576,
+      "modelId": 4347,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (MCU15)",
+      "typeEngineName": "300 AWD (MCU15)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 16164,
+      "modelId": 3419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "3.0 V6 (MCV20_, MCV20R)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2001-11-01"
+    },
+    {
+      "vehicleId": 16321,
+      "modelId": 4839,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS SportCross (_E1_)",
+      "typeEngineName": "300 (JCE10_, JCE10R)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 17115,
+      "modelId": 4839,
+      "manufacturerName": "LEXUS",
+      "modelName": "IS SportCross (_E1_)",
+      "typeEngineName": "200 (GXE10_, GXE10R)",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 23024,
+      "modelId": 6255,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALTEZZA GITA Estate (_XE1_)",
+      "typeEngineName": "3.0 (JCE10)",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 137256,
+      "modelId": 39818,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SOARER Coupe (_Z4_)",
+      "typeEngineName": "4.3 VVTi (UZZ40)",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 16363,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "3.0 (MCV30_, MCV30R)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 16365,
+      "modelId": 4419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS VERSO (_P2_)",
+      "typeEngineName": "1.4 D-4D (NLP20_, NLP22_)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-09-01"
+    },
+    {
+      "vehicleId": 16546,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 16547,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 16548,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.5 D-4D (KDN145, KDN150)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 16549,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.5 D-4D 4WD (KDN165, KDN170, KDN190)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 16557,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 16558,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D (KLH12, KLH22)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 19625,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH18, KLH28)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 59373,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH18)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 17171,
+      "modelId": 4768,
+      "manufacturerName": "MINI",
+      "modelName": "MINI (R50, R53)",
+      "typeEngineName": "One D",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2006-09-01"
+    },
+    {
+      "vehicleId": 17229,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "4.0 (GRJ120, GRJ125, GRJ121)",
+      "constructionIntervalStart": "2002-12-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 54201,
+      "modelId": 11331,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER IV (_N21_)",
+      "typeEngineName": "4.7 4WD (UZN215)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 17230,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D-4D (KDJ120, KDJ125)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 17342,
+      "modelId": 5001,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (_U3_)",
+      "typeEngineName": "300 (MCU35_, MCU35R)",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 18685,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D-4D (KDJ120, KDJ125)",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2009-08-01"
+    },
+    {
+      "vehicleId": 18733,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "1.4 D4-D (NDE120_, NDE120R)",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 18774,
+      "modelId": 5433,
+      "manufacturerName": "LEXUS",
+      "modelName": "GS (_S19_)",
+      "typeEngineName": "430 (UZS190_, UZS190R)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2011-11-01"
+    },
+    {
+      "vehicleId": 19255,
+      "modelId": 5499,
+      "manufacturerName": "TOYOTA",
+      "modelName": "YARIS (_P9_)",
+      "typeEngineName": "1.4 D-4D (NLP90_, NLP90R)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 20322,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.0 EFI (RZN147, RZN152)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 20709,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15, KUN35)",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 33692,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D 4WD (KUN51_)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 56011,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D (KUN61)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 56012,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "4.0 (GGN50_, GGN60_)",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 120498,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D (KUN61_)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 132422,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "3.0 D 4WD (KUN51)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 20742,
+      "modelId": 7219,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX II SUV (_N13_)",
+      "typeEngineName": "3.0 EFI 4WD (VZN130)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 26140,
+      "modelId": 7219,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX II SUV (_N13_)",
+      "typeEngineName": "3.0 EFI 4WD (VZN130)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1995-11-01"
+    },
+    {
+      "vehicleId": 20744,
+      "modelId": 5001,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (_U3_)",
+      "typeEngineName": "330 AWD (MCU38)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 21657,
+      "modelId": 5868,
+      "manufacturerName": "HOLDEN",
+      "modelName": "APOLLO Saloon (JM)",
+      "typeEngineName": "3.0 i",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1995-05-01"
+    },
+    {
+      "vehicleId": 21658,
+      "modelId": 5869,
+      "manufacturerName": "HOLDEN",
+      "modelName": "APOLLO Estate (JM)",
+      "typeEngineName": "3.0 i",
+      "constructionIntervalStart": "1993-03-01",
+      "constructionIntervalEnd": "1995-05-01"
+    },
+    {
+      "vehicleId": 21864,
+      "modelId": 5945,
+      "manufacturerName": "CHRYSLER",
+      "modelName": "CIRRUS",
+      "typeEngineName": "2.5 LX",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 22467,
+      "modelId": 6226,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS (_E15_)",
+      "typeEngineName": "1.4 D-4D (NDE150_, NDE150R)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 22697,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "3.0 D-4D (KDJ120, KDJ125, KDJ121)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 22710,
+      "modelId": 6255,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALTEZZA GITA Estate (_XE1_)",
+      "typeEngineName": "2.0 (GXE10)",
+      "constructionIntervalStart": "1999-01-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 22820,
+      "modelId": 6292,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CRESSIDA Saloon (_X8_)",
+      "typeEngineName": "3.0",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1992-09-01"
+    },
+    {
+      "vehicleId": 32394,
+      "modelId": 6292,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CRESSIDA Saloon (_X8_)",
+      "typeEngineName": "3.0 i (MX83)",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1993-01-01"
+    },
+    {
+      "vehicleId": 22916,
+      "modelId": 6297,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CRESTA V Saloon (_X10_)",
+      "typeEngineName": "2.5 VVTi (JZX100)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 25616,
+      "modelId": 6297,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CRESTA V Saloon (_X10_)",
+      "typeEngineName": "2.0 VVTi 24V (GX100)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 25617,
+      "modelId": 6297,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CRESTA V Saloon (_X10_)",
+      "typeEngineName": "3.0 VVTi (JZX101)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 23569,
+      "modelId": 37296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Pickup (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "3.0 4WD (RN37_, RN42_, VZN130)",
+      "constructionIntervalStart": "1988-09-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 23570,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.4 EFI (VZN167R, VZN172R)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 23571,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.4 EFI 4WD (VZN167, VZN172)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 23663,
+      "modelId": 3419,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY (_V2_)",
+      "typeEngineName": "3.0 (VDV10)",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 23806,
+      "modelId": 5127,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Verso (ZER_, ZZE12_, R1_)",
+      "typeEngineName": "1.4 D-4D (NDE120)",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 24598,
+      "modelId": 4347,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (MCU15)",
+      "typeEngineName": "300 (MCU10_, MCU10R)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2003-02-01"
+    },
+    {
+      "vehicleId": 25437,
+      "modelId": 8129,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "PRADO (_J12_)",
+      "typeEngineName": "4.0 All-wheel Drive (GRJ120, GRJ121, GRJ125)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 25452,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D (KUN15_, KUN15R)",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 25453,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D 4WD (KUN26)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2015-09-01"
+    },
+    {
+      "vehicleId": 25520,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.7 EFI (RZN149, RZN154)",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-07-01"
+    },
+    {
+      "vehicleId": 25521,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.7 EFI 4WD (RZN140, RZN169)",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 25572,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "4.0 (GRJ120, GRJ125)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 25573,
+      "modelId": 4978,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J12_)",
+      "typeEngineName": "2.7 (TRJ120, TRJ125)",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2010-02-01"
+    },
+    {
+      "vehicleId": 26032,
+      "modelId": 7168,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CENTURY (_G4_)",
+      "typeEngineName": "4.0 (VG40, VG45)",
+      "constructionIntervalStart": "1982-10-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 26074,
+      "modelId": 7189,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PROGRES (JCG1_)",
+      "typeEngineName": "2.5 (JCG10)",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 26075,
+      "modelId": 7189,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PROGRES (JCG1_)",
+      "typeEngineName": "3.0 (JCG11)",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 133297,
+      "modelId": 7189,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PROGRES (JCG1_)",
+      "typeEngineName": "2.5 4WD (JCG15)",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 26101,
+      "modelId": 7202,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CELSIOR (UCF3_)",
+      "typeEngineName": "4.3 VVTi (UCF30, UCF31)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 29586,
+      "modelId": 4846,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Saloon (_V3_)",
+      "typeEngineName": "3.0 (MCV30_, MCV36R, MCV30R)",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 26133,
+      "modelId": 7217,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HARRIER (_U1_)",
+      "typeEngineName": "3.0 4WD (MCU15)",
+      "constructionIntervalStart": "1998-03-01",
+      "constructionIntervalEnd": "2003-01-01"
+    },
+    {
+      "vehicleId": 26163,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "3.3 (MCU23_, MCU23R)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 26164,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "3.3 4WD (MCU28_, MCU28R)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 26194,
+      "modelId": 7237,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II VIII Saloon (_X10_)",
+      "typeEngineName": "2.0 VVTi (GX100)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 26196,
+      "modelId": 7237,
+      "manufacturerName": "TOYOTA",
+      "modelName": "MARK II VIII Saloon (_X10_)",
+      "typeEngineName": "2.5 VVTi (JZX100)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 26241,
+      "modelId": 7254,
+      "manufacturerName": "TOYOTA",
+      "modelName": "GRANVIA (_H2_, _H1_)",
+      "typeEngineName": "2.7 (RCH11W_, RCH11W)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 108333,
+      "modelId": 7254,
+      "manufacturerName": "TOYOTA",
+      "modelName": "GRANVIA (_H2_, _H1_)",
+      "typeEngineName": "3.4 4x4 (VCH16)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 145203,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.7 (RCH41)",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 154632,
+      "modelId": 541,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (_H1_)",
+      "typeEngineName": "2.7 4WD (RCH47)",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 26292,
+      "modelId": 7276,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SOARER Coupe (_Z3_)",
+      "typeEngineName": "2.5 Turbo (JZZ30)",
+      "constructionIntervalStart": "1990-09-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 26293,
+      "modelId": 7276,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SOARER Coupe (_Z3_)",
+      "typeEngineName": "4.0 (UZZ31, UZZ32, UZZ30)",
+      "constructionIntervalStart": "1991-05-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 26423,
+      "modelId": 7324,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SOARER Coupe (_Z1_)",
+      "typeEngineName": "3.0 (MZ20, MZ21)",
+      "constructionIntervalStart": "1985-09-01",
+      "constructionIntervalEnd": "1986-08-01"
+    },
+    {
+      "vehicleId": 26439,
+      "modelId": 7334,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVALON Saloon (_X2_)",
+      "typeEngineName": "3.0 (MCX10R)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 27279,
+      "modelId": 4022,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH28, KLH18)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 33641,
+      "modelId": 1512,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Bus (__H1_, __H2_)",
+      "typeEngineName": "2.5 D-4D 4WD (KLH18)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27495,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.7 (TGN16)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 28486,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "4.0 V6 VVTi 4WD (GGN25)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 28845,
+      "modelId": 5812,
+      "manufacturerName": "LEXUS",
+      "modelName": "ES (MCV_, VZV_)",
+      "typeEngineName": "3.3 (MCV31_)",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 28846,
+      "modelId": 5812,
+      "manufacturerName": "LEXUS",
+      "modelName": "ES (MCV_, VZV_)",
+      "typeEngineName": "3.0 (MCV30_, MCV30R)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 29606,
+      "modelId": 5812,
+      "manufacturerName": "LEXUS",
+      "modelName": "ES (MCV_, VZV_)",
+      "typeEngineName": "3.0 (MCV20_, MCV30_, MCV30R)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 29492,
+      "modelId": 7806,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 200 (_J2_)",
+      "typeEngineName": "4.7 V8 (UZJ200)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133446,
+      "modelId": 7806,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 200 (_J2_)",
+      "typeEngineName": "4.7 V8 (UZJ200)",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29507,
+      "modelId": 460,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CAMRY Estate (_V1_)",
+      "typeEngineName": "3.0 (VCV10_, VCV10R)",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1996-07-01"
+    },
+    {
+      "vehicleId": 29515,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.7 EFI 4WD (RZN174, RZN169)",
+      "constructionIntervalStart": "1997-11-01",
+      "constructionIntervalEnd": "2005-04-01"
+    },
+    {
+      "vehicleId": 55792,
+      "modelId": 7296,
+      "manufacturerName": "TOYOTA",
+      "modelName": "TUV MPV (_F7_, _F8_)",
+      "typeEngineName": "2400 i",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 154485,
+      "modelId": 44344,
+      "manufacturerName": "TOYOTA",
+      "modelName": "STALLION Van (_F6_)",
+      "typeEngineName": "2000i",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 30035,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.4 (RZN150, RZN140)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 30125,
+      "modelId": 4981,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER III (_N18_)",
+      "typeEngineName": "3.4 (VZN180)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2002-11-01"
+    },
+    {
+      "vehicleId": 49167,
+      "modelId": 4981,
+      "manufacturerName": "TOYOTA",
+      "modelName": "4 RUNNER III (_N18_)",
+      "typeEngineName": "3.4 4WD (VZN185)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2002-11-01"
+    },
+    {
+      "vehicleId": 30483,
+      "modelId": 8700,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE / COMMUTER V Bus (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.7 (TRH223)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55939,
+      "modelId": 8701,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Van (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.5 D-4D (KDH200, KDH202, KDH212, KDH222)",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127894,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.5 D 4WD (KUN125_)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128169,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.5 D 4WD (KUN125_)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148170,
+      "modelId": 43069,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Bus",
+      "typeEngineName": "2.5 D-4D (KDH200)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31150,
+      "modelId": 7967,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Saloon (_E15_)",
+      "typeEngineName": "1.4 D-4D (NDE150)",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 31333,
+      "modelId": 6944,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX III SUV (_N1_, _N2_)",
+      "typeEngineName": "3.4 4WD (VZN185)",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 32392,
+      "modelId": 6290,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CRESSIDA Saloon (_X7_)",
+      "typeEngineName": "2.8 i (MX73)",
+      "constructionIntervalStart": "1985-11-01",
+      "constructionIntervalEnd": "1988-12-01"
+    },
+    {
+      "vehicleId": 141747,
+      "modelId": 6290,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CRESSIDA Saloon (_X7_)",
+      "typeEngineName": "2.0 (GX71)",
+      "constructionIntervalStart": "1984-08-01",
+      "constructionIntervalEnd": "1988-09-01"
+    },
+    {
+      "vehicleId": 32941,
+      "modelId": 8298,
+      "manufacturerName": "HOLDEN",
+      "modelName": "APOLLO Saloon (JP)",
+      "typeEngineName": "3.0 i",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "1997-05-01"
+    },
+    {
+      "vehicleId": 33574,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "3.0 D-4D (KDJ150_, KDJ150, KDJ155)",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34689,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.5 MPFi 4x4 (FZJ78, FZJ70, FZJ78R, FZJ79)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 34692,
+      "modelId": 7806,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 200 (_J2_)",
+      "typeEngineName": "4.7 V8 (UZJ200)",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34942,
+      "modelId": 8987,
+      "manufacturerName": "TOYOTA (FAW)",
+      "modelName": "LAND CRUISER 200 (_J20_)",
+      "typeEngineName": "4.7 (UZJ200)",
+      "constructionIntervalStart": "2007-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 38907,
+      "modelId": 31062,
+      "manufacturerName": "DODGE",
+      "modelName": "AVENGER Coupe",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "1994-09-01",
+      "constructionIntervalEnd": "2000-12-01"
+    },
+    {
+      "vehicleId": 45231,
+      "modelId": 5001,
+      "manufacturerName": "LEXUS",
+      "modelName": "RX (_U3_)",
+      "typeEngineName": "400h (MHU38_, MHU38R)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2008-12-01"
+    },
+    {
+      "vehicleId": 49343,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.5 4WD (FZJ80)",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 55938,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.4 (RZH103_, RZH103R)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1996-10-01"
+    },
+    {
+      "vehicleId": 140511,
+      "modelId": 3386,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE IV Van (_H1_)",
+      "typeEngineName": "2.4 (RZH103, RZH113)",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1998-07-01"
+    },
+    {
+      "vehicleId": 56027,
+      "modelId": 7335,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVALON Saloon (_X1_)",
+      "typeEngineName": "3.0 (MCX10_)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 57853,
+      "modelId": 9567,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FJ CRUISER (GSJ1_)",
+      "typeEngineName": "4.0 (GSJ15)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 28484,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.7 VVTi 4WD (TGN26)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 58460,
+      "modelId": 11048,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Platform/Chassis (_N1_, _N2_)",
+      "typeEngineName": "2.7 VVTi (TGN16R)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58461,
+      "modelId": 11048,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Platform/Chassis (_N1_, _N2_)",
+      "typeEngineName": "3.0 D-4D (KUN16R)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58462,
+      "modelId": 11048,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Platform/Chassis (_N1_, _N2_)",
+      "typeEngineName": "3.0 D 4WD (KUN26)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58464,
+      "modelId": 11048,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Platform/Chassis (_N1_, _N2_)",
+      "typeEngineName": "4.0 V6 VVTi 4WD (GGN25R)",
+      "constructionIntervalStart": "2005-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58468,
+      "modelId": 90088,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX V Platform/Chassis (_N8_, _N9_, _N10_, _N11_)",
+      "typeEngineName": "2.4 4WD (RN105)",
+      "constructionIntervalStart": "1988-10-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 58470,
+      "modelId": 90089,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Platform/Chassis (_N1_)",
+      "typeEngineName": "2.7 EFI (RZN154, RZN149)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-08-01"
+    },
+    {
+      "vehicleId": 58911,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "2.0 (RZN142)",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 59006,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "2.7",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59035,
+      "modelId": 7224,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIGHLANDER / KLUGER (_U2_)",
+      "typeEngineName": "3.3 Hybrid 4WD (MHU28_, MHU28R)",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 59667,
+      "modelId": 11048,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Platform/Chassis (_N1_, _N2_)",
+      "typeEngineName": "2.0 (TGN15)",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100895,
+      "modelId": 6255,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALTEZZA GITA Estate (_XE1_)",
+      "typeEngineName": "2.0 4WD (GXE15)",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 105770,
+      "modelId": 5812,
+      "manufacturerName": "LEXUS",
+      "modelName": "ES (MCV_, VZV_)",
+      "typeEngineName": "3.0 (MCV20_, MCV30_, MCV20R)",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 108273,
+      "modelId": 203,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER (_J7_, _JL7_)",
+      "typeEngineName": "4.0 4x4 (GRJ79, GRJ76, GRJ71)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108714,
+      "modelId": 13342,
+      "manufacturerName": "CHERY",
+      "modelName": "ARRIZO 3",
+      "typeEngineName": "1.5",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 109669,
+      "modelId": 3437,
+      "manufacturerName": "TOYOTA",
+      "modelName": "PREVIA I (_R1_, _R2_)",
+      "typeEngineName": "2.4 4WD (TCR20_)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 126858,
+      "modelId": 37373,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ESTIMA EMINA / LUCIDA (_R1_, _R2_)",
+      "typeEngineName": "2.4 4x4 (TCR10G, TCR11G)",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "1999-12-01"
+    },
+    {
+      "vehicleId": 110594,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.5 D-4D 4WD (KUN25_)",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 126403,
+      "modelId": 6942,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N5_, _N6_)",
+      "typeEngineName": "4.0 4WD (GGN60)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 115119,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.7 VVTi (TGN111_, TGN121_, TGN136_, TGN111R, TGN121R,...",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115120,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.7 4WD (TGN126_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117657,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "4.0 V6 VVTi 4WD (GGN125, GGN135)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122109,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.7 4WD (TGN126_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127893,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.7 (TGN111_, TGN121_, TGN136_, TGN138_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116366,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "2.8 D 4x4 (GUN156)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116367,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "2.7 (TGN166_, TGN168_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116368,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "2.7 4x4 (TGN156_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120364,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "4.0 4x4 (GGN155_)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 126669,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "2.7 4x4 (TGN156_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126670,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "4.0 4x4 (GGN155_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126947,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "2.7 4x4 (TGN156_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116369,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "2.4 D (GUN165_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116370,
+      "modelId": 14582,
+      "manufacturerName": "TOYOTA",
+      "modelName": "FORTUNER (_N15_, _N16_)",
+      "typeEngineName": "2.4 D 4x4 (GUN155_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117393,
+      "modelId": 14798,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Platform/Chassis (_N1_)",
+      "typeEngineName": "2.7 VVTi (TGN111_, TGN121_, TGN111R, TGN121R)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134324,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.4 D (GUN135)",
+      "constructionIntervalStart": "2018-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117635,
+      "modelId": 14798,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Platform/Chassis (_N1_)",
+      "typeEngineName": "2.8 D-4D 4WD (GUN126_, GUN126R)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119987,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.5 D (KUN112_, KUN122_, KUN135_)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119988,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.5 D 4WD (KUN125_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": "2017-08-01"
+    },
+    {
+      "vehicleId": 120502,
+      "modelId": 36544,
+      "manufacturerName": "TOYOTA",
+      "modelName": "INNOVA II (_N14_)",
+      "typeEngineName": "2.8 D (GUN143)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 124375,
+      "modelId": 6297,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CRESTA V Saloon (_X10_)",
+      "typeEngineName": "2.0 (GX100)",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 125037,
+      "modelId": 6280,
+      "manufacturerName": "TOYOTA",
+      "modelName": "CHASER (_X10_)",
+      "typeEngineName": "2.0 (GX100_, GX100)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2001-05-01"
+    },
+    {
+      "vehicleId": 125287,
+      "modelId": 7175,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COASTER Bus (_B4_, _B5_)",
+      "typeEngineName": "2.7 (TRB4_, TRB5_, TRB40, TRB50)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115114,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.4 D (GUN112_, GUN122_, GUN135_, GUN120_, GUN135R,...",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115118,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.4 D 4WD (GUN125_, GUN125R)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126675,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.4 D (GUN112_, GUN122_, GUN135_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127892,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.4 D 4WD (GUN125_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127115,
+      "modelId": 7335,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVALON Saloon (_X1_)",
+      "typeEngineName": "3.0 (MCX10R)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 129043,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.4 EFI (VZN167, VZN172)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 129044,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.0 (TGN110_, TGN120_)",
+      "constructionIntervalStart": "2015-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 131707,
+      "modelId": 198,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 80 (_J8_)",
+      "typeEngineName": "4.5 4WD (FZJ80_)",
+      "constructionIntervalStart": "1992-11-01",
+      "constructionIntervalEnd": "1999-11-01"
+    },
+    {
+      "vehicleId": 133346,
+      "modelId": 6255,
+      "manufacturerName": "TOYOTA",
+      "modelName": "ALTEZZA GITA Estate (_XE1_)",
+      "typeEngineName": "2.0 (GXE15)",
+      "constructionIntervalStart": "2001-07-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 133444,
+      "modelId": 39051,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AURIS Hatchback Van (_E15_)",
+      "typeEngineName": "1.4 D-4D (NDE150)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2012-09-01"
+    },
+    {
+      "vehicleId": 134360,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "3.0 D-4D 4WD (KUN26)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 141303,
+      "modelId": 8657,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER PRADO (_J15_)",
+      "typeEngineName": "2.8 D-4D (GDJ155, GDJ150)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 28483,
+      "modelId": 6889,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VII Pickup (_N1_, _N2_, _N3_)",
+      "typeEngineName": "2.7 VVTi (TGN16)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 124824,
+      "modelId": 8700,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE / COMMUTER V Bus (TRH2__, KDH2__, LH2__, GDH2__)",
+      "typeEngineName": "2.7 (TRH223_, TRH223R)",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148171,
+      "modelId": 43069,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HIACE V Bus",
+      "typeEngineName": "2.7 VVTi (TRH221)",
+      "constructionIntervalStart": "2019-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26242,
+      "modelId": 7254,
+      "manufacturerName": "TOYOTA",
+      "modelName": "GRANVIA (_H2_, _H1_)",
+      "typeEngineName": "3.4 (VCH10W, VCH16W, VCH26W)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 158032,
+      "modelId": 14379,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VIII Pickup (_N1_)",
+      "typeEngineName": "2.8 GD-6 48V MHEV 4WD",
+      "constructionIntervalStart": "2024-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26440,
+      "modelId": 7335,
+      "manufacturerName": "TOYOTA",
+      "modelName": "AVALON Saloon (_X1_)",
+      "typeEngineName": "3.0 (MCX10_, MCX10R)",
+      "constructionIntervalStart": "1995-03-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 125916,
+      "modelId": 37298,
+      "manufacturerName": "TOYOTA",
+      "modelName": "HILUX VI Pickup (_N1_)",
+      "typeEngineName": "3.0 D 4WD",
+      "constructionIntervalStart": "1997-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16380,
+      "modelId": 4853,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Estate (_E12_)",
+      "typeEngineName": "2.0 D-4D (CDE120_, CDE120R)",
+      "constructionIntervalStart": "2002-01-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 17320,
+      "modelId": 3566,
+      "manufacturerName": "TOYOTA",
+      "modelName": "LAND CRUISER 100 (_J1_)",
+      "typeEngineName": "4.7 (UZJ100)",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2007-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "89"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "3/4\"\" 16 UNF-2B"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "78"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "with one anti-return valve"
+    },
+    {
+      "criteriaName": "Bypass Valve Opening Pressure [bar]",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Gasket inside diameter [mm]",
+      "criteriaValue": "62"
+    },
+    {
+      "criteriaName": "Gasket outside diameter [mm]",
+      "criteriaValue": "72"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "00120-00009"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "00120-00014"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "00120-00015"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "04105 409"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "04105 409"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "04105 409AB"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "04105 409AC"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "04105409"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "04105409AB"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "04105409AC"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152 03002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152 64010"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "05057 957"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "05057957"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "08922-02001"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "08922-02002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "08922-02004"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "08922-02010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "08922-02011"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "09091 53002"
+    },
+    {
+      "oemBrand": "BMW",
+      "oemDisplayNo": "11 42 0 306 483"
+    },
+    {
+      "oemBrand": "MINI",
+      "oemDisplayNo": "11 42 0 306 483"
+    },
+    {
+      "oemBrand": "BMW",
+      "oemDisplayNo": "11 42 7 791 059"
+    },
+    {
+      "oemBrand": "MINI",
+      "oemDisplayNo": "11 42 7 791 059"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "11501 01301"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "12339993"
+    },
+    {
+      "oemBrand": "AUSTIN",
+      "oemDisplayNo": "12H3274"
+    },
+    {
+      "oemBrand": "PERKINS",
+      "oemDisplayNo": "140517050"
+    },
+    {
+      "oemBrand": "MAGIRUS-DEUTZ",
+      "oemDisplayNo": "141151110"
+    },
+    {
+      "oemBrand": "MAGIRUS-DEUTZ",
+      "oemDisplayNo": "141151201"
+    },
+    {
+      "oemBrand": "CUMMINS",
+      "oemDisplayNo": "148459"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15600-01020"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15600-16010"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601 76009"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601 76009 71"
+    },
+    {
+      "oemBrand": "DAIHATSU",
+      "oemDisplayNo": "15601 87705 000"
+    },
+    {
+      "oemBrand": "OLIVER",
+      "oemDisplayNo": "156513A"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-82001"
+    },
+    {
+      "oemBrand": "CATERPILLAR",
+      "oemDisplayNo": "220-1523"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "25011520"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "4105 409"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "4105 409"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "4105 409"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "4105 409AC"
+    },
+    {
+      "oemBrand": "PLYMOUTH",
+      "oemDisplayNo": "4105409"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "4105409AB"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "4105409AB"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "4105409AC"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "4160703"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "418432"
+    },
+    {
+      "oemBrand": "CHERY",
+      "oemDisplayNo": "480-1012010"
+    },
+    {
+      "oemBrand": "RIICH",
+      "oemDisplayNo": "4801012010"
+    },
+    {
+      "oemBrand": "KARRY",
+      "oemDisplayNo": "4801012010"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "5057957"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "5057957"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "59030255"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "74434793"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "74434794"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "74446335"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "834337"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "8548979"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "8558238"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "855823800"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "8559611"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "89FF6714A1C"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "89FF6714A2A"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "89FF6714A2B"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "89FF6714A2C"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "89FF6714A2E"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90080 91210"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 03002"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "90915 03002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 03005"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 20001"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "90915 20001"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 20002"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "90915 20002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 20003"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "90915 20003"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 20004"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "90915 20004"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 20005"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 3002"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 33021"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 TB001"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "90915 TB001"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915 YZZD2"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915Y22D2"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZB2"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZB3"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZB7"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZD1"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "90915YZZD1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZD4"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZG1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZJ3"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZJ4"
+    },
+    {
+      "oemBrand": "LEXUS",
+      "oemDisplayNo": "90915YZZJ4"
+    },
+    {
+      "oemBrand": "SAAB",
+      "oemDisplayNo": "9144445"
+    },
+    {
+      "oemBrand": "JOHN DEERE",
+      "oemDisplayNo": "AM 10 120 7"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "EFL344"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "J90 915 200 01"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "MD308 302"
+    },
+    {
+      "oemBrand": "DODGE",
+      "oemDisplayNo": "MD308 302"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MD308302"
+    },
+    {
+      "oemBrand": "ACKERMANN",
+      "oemDisplayNo": "PF13"
+    },
+    {
+      "oemBrand": "ACKERMANN",
+      "oemDisplayNo": "PF19"
+    },
+    {
+      "oemBrand": "ACKERMANN",
+      "oemDisplayNo": "SF"
+    },
+    {
+      "oemBrand": "ACKERMANN",
+      "oemDisplayNo": "SR"
+    },
+    {
+      "oemBrand": "ACKERMANN",
+      "oemDisplayNo": "X19"
+    }
+  ],
+  "ean": "3165142302270",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:33:35.706Z"
+}

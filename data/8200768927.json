@@ -1,0 +1,3405 @@
+{
+  "articleNo": "8200768927",
+  "articleId": 72177,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "RENAULT",
+  "matchedArticleNo": "0 986 4B7 011",
+  "vehicles": [
+    {
+      "vehicleId": 3,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 TCe (DZ1N)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 371,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 1495,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 5856,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ0A)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 5858,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 5859,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ02, JZ0R)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 5861,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ02, JZ0R)",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 6696,
+      "modelId": 5380,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN (LS_)",
+      "typeEngineName": "1.5 dCi (LS04)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 9286,
+      "modelId": 6734,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN I (LS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 9287,
+      "modelId": 7364,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN I Estate (KS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 11136,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-01-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 15707,
+      "modelId": 3995,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Bus (X70)",
+      "typeEngineName": "1.9 DTI (JD)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 15708,
+      "modelId": 3903,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Van (X70)",
+      "typeEngineName": "1.9 DTI (FD)",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2001-10-01"
+    },
+    {
+      "vehicleId": 15734,
+      "modelId": 4758,
+      "manufacturerName": "OPEL",
+      "modelName": "VIVARO A Bus (X83)",
+      "typeEngineName": "1.9 DI (F7, J7, A07)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 15736,
+      "modelId": 4757,
+      "manufacturerName": "OPEL",
+      "modelName": "VIVARO A Van (X83)",
+      "typeEngineName": "1.9 DI (F7)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 15767,
+      "modelId": 1561,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE I Classic (LA0/1_)",
+      "typeEngineName": "1.9 dTi (LA1U)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 15771,
+      "modelId": 4723,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II (BG0/1_)",
+      "typeEngineName": "1.9 dCI (BG0E)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16582,
+      "modelId": 4723,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II (BG0/1_)",
+      "typeEngineName": "1.9 dCi (BG0R, BG0E)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16920,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi (BM0G, CM0G)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 17441,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.9 dCi (JM0G, JM12, JM1G, JM2C)",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17723,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 18050,
+      "modelId": 5133,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.9 dCi (JM0G, JM12, JM1G, JM2C)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 18214,
+      "modelId": 4723,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II (BG0/1_)",
+      "typeEngineName": "1.9 dCi (BG05)",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 18215,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 18217,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 18643,
+      "modelId": 4723,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II (BG0/1_)",
+      "typeEngineName": "1.9 dCi (BG1A, BG1V)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 19036,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.9 dCi (JM15)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 19038,
+      "modelId": 5133,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.9 dCi (JM15)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 19039,
+      "modelId": 5133,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.9 dCi (JM14)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 19397,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19514,
+      "modelId": 5559,
+      "manufacturerName": "RENAULT",
+      "modelName": "TRAFIC II Platform/Chassis (EL)",
+      "typeEngineName": "1.9 dCi 100 (EL0C)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 21576,
+      "modelId": 4932,
+      "manufacturerName": "RENAULT",
+      "modelName": "ESPACE IV (JK0/1_)",
+      "typeEngineName": "1.9 dCi (JK0U)",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2005-02-01"
+    },
+    {
+      "vehicleId": 23371,
+      "modelId": 6430,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III (BT0/1)",
+      "typeEngineName": "1.5 dCi (BT00, BT0A, BT0T, BT1J)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23376,
+      "modelId": 6431,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA III Grandtour (KT0/1)",
+      "typeEngineName": "1.5 dCi (KT0A, KT0R, KT02)",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 23456,
+      "modelId": 6446,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III Grandtour (KR0/1_)",
+      "typeEngineName": "1.5 dCi (KR0F)",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23457,
+      "modelId": 6446,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III Grandtour (KR0/1_)",
+      "typeEngineName": "1.5 dCi (KR1C, KR1N)",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23458,
+      "modelId": 6446,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III Grandtour (KR0/1_)",
+      "typeEngineName": "1.5 dCi (KR0H, KR1S)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 24490,
+      "modelId": 5380,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN (LS_)",
+      "typeEngineName": "1.5 dCi (LS0W)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 24491,
+      "modelId": 5620,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV (KS_)",
+      "typeEngineName": "1.5 dCi (KS0W)",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 27220,
+      "modelId": 3404,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO (KC0/1_)",
+      "typeEngineName": "1.9 RXED",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 29949,
+      "modelId": 7865,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO BE BOP (KW0/1_)",
+      "typeEngineName": "1.5 dCi (KW0F)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 29951,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 TCe (BZ0K)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29953,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.4 TCe (BZ0F, BZ1V)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29954,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi (BZ0C)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29958,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.4 TCe (DZ0F, DZ1V)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29960,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 TCe (DZ0K)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 29961,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi (DZ0C, DZ1A)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 30936,
+      "modelId": 3508,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO II (BB_, CB_)",
+      "typeEngineName": "1.5 dCi (BB3N, CB3N)",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 31174,
+      "modelId": 5482,
+      "manufacturerName": "NISSAN",
+      "modelName": "NOTE (E11, NE11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 31195,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 31197,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 31208,
+      "modelId": 5611,
+      "manufacturerName": "RENAULT",
+      "modelName": "TWINGO II (CN0_)",
+      "typeEngineName": "1.5 dCi (CN0U)",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 31534,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.4 TCe (KZ0F, KZ1V)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31546,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31550,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.4 16V (JZ0F)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31553,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ0B, JZ07)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31725,
+      "modelId": 8179,
+      "manufacturerName": "RENAULT",
+      "modelName": "FLUENCE (L3_)",
+      "typeEngineName": "1.5 dCi (L30D, L30L, L306, L33F, L33L, L33M, L33V, L33W)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32682,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 33125,
+      "modelId": 8578,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE CC (EZ0/1_)",
+      "typeEngineName": "1.4 TCe (EZ0F, EZ1V)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 33576,
+      "modelId": 4685,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC I MPV (JA0/1_, FA0_)",
+      "typeEngineName": "1.9 D (JA0J, FA0J)",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2001-03-01"
+    },
+    {
+      "vehicleId": 34745,
+      "modelId": 6446,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III Grandtour (KR0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 34764,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi (DZ0A)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 34765,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi (DZ0B)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 57297,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 R.S.",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 58572,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCi (KG12)",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 58791,
+      "modelId": 9999,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX (FK)",
+      "typeEngineName": "1.6 i-DTEC (FK3)",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 59344,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 59346,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 59349,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 59353,
+      "modelId": 7528,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA Coupe (DT0/1)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 59639,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 100411,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 TCe 220",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 100412,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "2.0 TCe 220",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 100413,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi (BZ1G, BZ1W, BZ0R)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 100414,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi (KZ1G, KZ1W, KZ0R)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 100487,
+      "modelId": 11755,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC IX Tourer (FK)",
+      "typeEngineName": "1.6 i-DTEC (FK3)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 108031,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "2.0 R.S.",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 111452,
+      "modelId": 9133,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA IV (K13K, K13KK)",
+      "typeEngineName": "1.5 D",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2020-05-01"
+    },
+    {
+      "vehicleId": 113303,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 124887,
+      "modelId": 13775,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN/STEPWAY II (L8_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135334,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.5 dCi (BHMW)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 135335,
+      "modelId": 10852,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO IV (BH_)",
+      "typeEngineName": "1.5 dCi (BHM6)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-08-01"
+    },
+    {
+      "vehicleId": 135837,
+      "modelId": 39469,
+      "manufacturerName": "NISSAN",
+      "modelName": "KICKS (D15K)",
+      "typeEngineName": "1.5 D",
+      "constructionIntervalStart": "2019-01-01",
+      "constructionIntervalEnd": "2020-05-01"
+    },
+    {
+      "vehicleId": 136203,
+      "modelId": 13195,
+      "manufacturerName": "RENAULT",
+      "modelName": "TWINGO III (BCM_, BCA_)",
+      "typeEngineName": "1.0 SCe 65 (BCMJ)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144494,
+      "modelId": 12874,
+      "manufacturerName": "RENAULT",
+      "modelName": "THALIA III (L8_)",
+      "typeEngineName": "1.0 SCe (L8JC)",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": "2019-11-01"
+    },
+    {
+      "vehicleId": 146181,
+      "modelId": 42586,
+      "manufacturerName": "RENAULT",
+      "modelName": "TALIANT",
+      "typeEngineName": "1.0 SCe 65",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 801385,
+      "modelId": 90173,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI +2 (JJ10E)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 801387,
+      "modelId": 90173,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI +2 (JJ10E)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 801388,
+      "modelId": 90173,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI +2 (JJ10E)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 801397,
+      "modelId": 90174,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI +2 VAN (JJ10E)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 370,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi (KZ1M, KZ1W, KZ0R)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 3266,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19034,
+      "modelId": 3404,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO (KC0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19035,
+      "modelId": 3404,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO (KC0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19218,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "1.5 dCi (FC1G)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20068,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "1.5 dCi (FC1E)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 4373,
+      "modelId": 8531,
+      "manufacturerName": "NISSAN",
+      "modelName": "KUBISTAR Van (X76)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 32986,
+      "modelId": 8531,
+      "manufacturerName": "NISSAN",
+      "modelName": "KUBISTAR Van (X76)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130228,
+      "modelId": 8531,
+      "manufacturerName": "NISSAN",
+      "modelName": "KUBISTAR Van (X76)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 5072,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 19042,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 5265,
+      "modelId": 5213,
+      "manufacturerName": "RENAULT",
+      "modelName": "MODUS / GRAND MODUS (F/JP0_)",
+      "typeEngineName": "1.5 dCi 75",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5283,
+      "modelId": 5611,
+      "manufacturerName": "RENAULT",
+      "modelName": "TWINGO II (CN0_)",
+      "typeEngineName": "1.5 dCi 75",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5284,
+      "modelId": 5611,
+      "manufacturerName": "RENAULT",
+      "modelName": "TWINGO II (CN0_)",
+      "typeEngineName": "1.5 dCi 90",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 6666,
+      "modelId": 7539,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 6675,
+      "modelId": 7539,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 6695,
+      "modelId": 5380,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN (LS_)",
+      "typeEngineName": "1.5 dCi (LS04)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17125,
+      "modelId": 4932,
+      "manufacturerName": "RENAULT",
+      "modelName": "ESPACE IV (JK0/1_)",
+      "typeEngineName": "1.9 dCi (JK0U, JK0G)",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18642,
+      "modelId": 5213,
+      "manufacturerName": "RENAULT",
+      "modelName": "MODUS / GRAND MODUS (F/JP0_)",
+      "typeEngineName": "1.5 dCi (JP0G, JP0H)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23047,
+      "modelId": 5213,
+      "manufacturerName": "RENAULT",
+      "modelName": "MODUS / GRAND MODUS (F/JP0_)",
+      "typeEngineName": "1.5 dCi (JP02)",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31083,
+      "modelId": 7539,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31084,
+      "modelId": 7539,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31127,
+      "modelId": 8041,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN EXPRESS (FS_)",
+      "typeEngineName": "1.5 dCi (FS0K)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31128,
+      "modelId": 8041,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN EXPRESS (FS_)",
+      "typeEngineName": "1.5 dCi (FS0W)",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59343,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 TCe",
+      "constructionIntervalStart": "2012-09-01",
+      "constructionIntervalEnd": "2016-01-01"
+    },
+    {
+      "vehicleId": 5267,
+      "modelId": 5213,
+      "manufacturerName": "RENAULT",
+      "modelName": "MODUS / GRAND MODUS (F/JP0_)",
+      "typeEngineName": "1.5 dCi 90",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5290,
+      "modelId": 8578,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE CC (EZ0/1_)",
+      "typeEngineName": "2.0 TCe (EZ1T)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 5377,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi (HSAJ)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 5378,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi 4x4",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 5389,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi 4x4 (HSMC, HSMD)",
+      "constructionIntervalStart": "2010-10-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 5840,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32804,
+      "modelId": 8499,
+      "manufacturerName": "NISSAN",
+      "modelName": "CUBE (Z12)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5853,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 6711,
+      "modelId": 5620,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV (KS_)",
+      "typeEngineName": "1.5 dCi (KS04)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 34744,
+      "modelId": 5462,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III (BR0/1, CR0/1)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 6722,
+      "modelId": 5620,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV (KS_)",
+      "typeEngineName": "1.5 dCi (KS04)",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7190,
+      "modelId": 8041,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN EXPRESS (FS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7191,
+      "modelId": 8041,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN EXPRESS (FS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 6914,
+      "modelId": 11387,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III Hatchback Van (SB_, SR_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 19053,
+      "modelId": 5462,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III (BR0/1, CR0/1)",
+      "typeEngineName": "1.5 dCi (BR0H, CR0H, CR1S, BR1S)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 7195,
+      "modelId": 8042,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN Pickup (US_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7196,
+      "modelId": 8042,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN Pickup (US_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31130,
+      "modelId": 8042,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN Pickup (US_)",
+      "typeEngineName": "1.5 dCi (US0K)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31131,
+      "modelId": 8042,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN Pickup (US_)",
+      "typeEngineName": "1.5 dCi (US0W)",
+      "constructionIntervalStart": "2008-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 7713,
+      "modelId": 6712,
+      "manufacturerName": "OPEL",
+      "modelName": "VIVARO A Platform/Chassis (X83)",
+      "typeEngineName": "1.9 Di",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 15735,
+      "modelId": 4758,
+      "manufacturerName": "OPEL",
+      "modelName": "VIVARO A Bus (X83)",
+      "typeEngineName": "1.9 DTI (F7, J7, A07)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 15737,
+      "modelId": 4757,
+      "manufacturerName": "OPEL",
+      "modelName": "VIVARO A Van (X83)",
+      "typeEngineName": "1.9 DTI (F7)",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2014-07-01"
+    },
+    {
+      "vehicleId": 8008,
+      "modelId": 1562,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE Scénic (JA0/1_)",
+      "typeEngineName": "1.9 D (JA0J)",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "1999-09-01"
+    },
+    {
+      "vehicleId": 8415,
+      "modelId": 1562,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE Scénic (JA0/1_)",
+      "typeEngineName": "1.9 dTi (JA0N)",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "1999-09-01"
+    },
+    {
+      "vehicleId": 8842,
+      "modelId": 7865,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO BE BOP (KW0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 8989,
+      "modelId": 3404,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO (KC0/1_)",
+      "typeEngineName": "D 55 1.9 (KC0D)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9203,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "D 55 1.9 (FC0D)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 8990,
+      "modelId": 3404,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO (KC0/1_)",
+      "typeEngineName": "D 65 1.9 (KC0E, KC02, KC0J, KC0N)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 9061,
+      "modelId": 11387,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III Hatchback Van (SB_, SR_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 18784,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.5 dCi (LM1F)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18785,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.5 dCi (LM1E)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18788,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.5 dCi (KM16, KM1E)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18790,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.5 dCi (BM1F, CM1F)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 19678,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.5 dCi (EM1E)",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2009-01-01"
+    },
+    {
+      "vehicleId": 19936,
+      "modelId": 5380,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN (LS_)",
+      "typeEngineName": "1.5 dCi (LS0K)",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23063,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.5 dCi (LM16)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 129847,
+      "modelId": 38410,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Hatchback Van (KM0/2_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2005-04-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 129968,
+      "modelId": 38244,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate Van (KM_)",
+      "typeEngineName": "1.5 dCi (KM02)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 134728,
+      "modelId": 38410,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Hatchback Van (KM0/2_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 9204,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "D 65 1.9 (FC0E, FC02, FC0J, FC0N)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143138,
+      "modelId": 41701,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I VAN (J10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2014-04-01"
+    },
+    {
+      "vehicleId": 9290,
+      "modelId": 9202,
+      "manufacturerName": "RENAULT",
+      "modelName": "THALIA II (LU_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 9291,
+      "modelId": 9202,
+      "manufacturerName": "RENAULT",
+      "modelName": "THALIA II (LU_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10930,
+      "modelId": 8660,
+      "manufacturerName": "NISSAN",
+      "modelName": "NV200 / EVALIA Bus",
+      "typeEngineName": "1.5 dCi 90 (M20, M20M)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10933,
+      "modelId": 8659,
+      "manufacturerName": "NISSAN",
+      "modelName": "NV200 Van",
+      "typeEngineName": "1.5 dCi 90 (M20, M20N, M20M)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10937,
+      "modelId": 8659,
+      "manufacturerName": "NISSAN",
+      "modelName": "NV200 Van",
+      "typeEngineName": "1.5 dCi 110 (M20, M20N, M20M)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 10934,
+      "modelId": 8660,
+      "manufacturerName": "NISSAN",
+      "modelName": "NV200 / EVALIA Bus",
+      "typeEngineName": "1.5 dCi 110 (M20, M20M)",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11068,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 75 (FW07, FW10, FW04)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32805,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 90 (FW0G, FW05, FW08, FW11)",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58648,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi 90 (KW05, KW08, KW0G, KW11)",
+      "constructionIntervalStart": "2008-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11069,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 110 (FW0C, FW0H)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11070,
+      "modelId": 7865,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO BE BOP (KW0/1_)",
+      "typeEngineName": "1.5 dCi 75",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23464,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi 70 (KW0V, KW0A)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23465,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi 85 (KW0K, KW0L, KW0B)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23494,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 85 (FW0K, FW0L, FW0B)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23495,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 105 (FW0F)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58574,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi (KW0C, KW2C, KW4C)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 59640,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108765,
+      "modelId": 13049,
+      "manufacturerName": "SMART",
+      "modelName": "FORTWO Coupe (453)",
+      "typeEngineName": "1.0 (453.341)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110763,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 112038,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "1.6 i-DTEC 4WD (RE6)",
+      "constructionIntervalStart": "2015-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116067,
+      "modelId": 13606,
+      "manufacturerName": "HONDA",
+      "modelName": "HR-V (RU)",
+      "typeEngineName": "1.6 i-DTEC (RU8)",
+      "constructionIntervalStart": "2015-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 11178,
+      "modelId": 5482,
+      "manufacturerName": "NISSAN",
+      "modelName": "NOTE (E11, NE11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 11692,
+      "modelId": 9202,
+      "manufacturerName": "RENAULT",
+      "modelName": "THALIA II (LU_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14575,
+      "modelId": 3404,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO (KC0/1_)",
+      "typeEngineName": "1.9 dTi (KC0U)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14610,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "1.9 dTi (FC0U)",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 14777,
+      "modelId": 4685,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC I MPV (JA0/1_, FA0_)",
+      "typeEngineName": "1.9 dCi RX4",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 15111,
+      "modelId": 4685,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC I MPV (JA0/1_, FA0_)",
+      "typeEngineName": "1.9 dTi (JA0N)",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 15476,
+      "modelId": 4723,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II (BG0/1_)",
+      "typeEngineName": "1.9 dCi (BG08, BG0G)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 15480,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCi (KG0G)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 15573,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi 110 (KW0C, KW0H)",
+      "constructionIntervalStart": "2010-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 15711,
+      "modelId": 4752,
+      "manufacturerName": "RENAULT",
+      "modelName": "TRAFIC II Bus (JL)",
+      "typeEngineName": "1.9 dCI 80 (JL0B)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 15712,
+      "modelId": 4752,
+      "manufacturerName": "RENAULT",
+      "modelName": "TRAFIC II Bus (JL)",
+      "typeEngineName": "1.9 dCI 100 (JL0C, JL0K)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 15716,
+      "modelId": 4753,
+      "manufacturerName": "RENAULT",
+      "modelName": "TRAFIC II Van (FL)",
+      "typeEngineName": "1.9 dCi 100 (FL0C, FL0K, FL0B)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 15715,
+      "modelId": 4753,
+      "manufacturerName": "RENAULT",
+      "modelName": "TRAFIC II Van (FL)",
+      "typeEngineName": "1.9 dCi 80 (FL0B)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 15761,
+      "modelId": 1479,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE I (BA0/1_)",
+      "typeEngineName": "1.9 dCi (BA05, BA1F)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 15765,
+      "modelId": 1488,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE I Coach (DA0/1_)",
+      "typeEngineName": "1.9 dCi (DA05, DA1F)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 15762,
+      "modelId": 4685,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC I MPV (JA0/1_, FA0_)",
+      "typeEngineName": "1.9 dCi (JA05, JA1F)",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 15763,
+      "modelId": 1561,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE I Classic (LA0/1_)",
+      "typeEngineName": "1.9 dCi (LA05, LA1F)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 15764,
+      "modelId": 4084,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE I Grandtour (KA0/1_)",
+      "typeEngineName": "1.9 dCi (KA05, KA1F)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 30049,
+      "modelId": 1488,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE I Coach (DA0/1_)",
+      "typeEngineName": "1.9 DCi",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 15769,
+      "modelId": 4685,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC I MPV (JA0/1_, FA0_)",
+      "typeEngineName": "1.9 dTi (JA1U)",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 15774,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCI (KG0E)",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16466,
+      "modelId": 3995,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Bus (X70)",
+      "typeEngineName": "1.9 DTI (JD)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16467,
+      "modelId": 3903,
+      "manufacturerName": "OPEL",
+      "modelName": "MOVANO A Van (X70)",
+      "typeEngineName": "1.9 DTI (FD)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16500,
+      "modelId": 3404,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO (KC0/1_)",
+      "typeEngineName": "1.9 dCi 4x4 (KC0V)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17140,
+      "modelId": 4965,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMASTAR Van (X83)",
+      "typeEngineName": "1.9 dCi 80",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17141,
+      "modelId": 4965,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMASTAR Van (X83)",
+      "typeEngineName": "1.9 dCi 100",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17326,
+      "modelId": 3404,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO (KC0/1_)",
+      "typeEngineName": "1.9 dCi 4x4",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18856,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "1.9 dCi 4x4 (FC0V)",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16502,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "1.9 dCi 4x4 (FC0V)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16583,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCi (KG0E, KG0R)",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16947,
+      "modelId": 4944,
+      "manufacturerName": "NISSAN",
+      "modelName": "INTERSTAR Bus (X70)",
+      "typeEngineName": "dCi 80",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 16950,
+      "modelId": 4945,
+      "manufacturerName": "NISSAN",
+      "modelName": "INTERSTAR Van (X70)",
+      "typeEngineName": "dCi 80",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2006-08-01"
+    },
+    {
+      "vehicleId": 16980,
+      "modelId": 4949,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMASTAR Bus (X83)",
+      "typeEngineName": "dCi 80",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 16981,
+      "modelId": 4949,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMASTAR Bus (X83)",
+      "typeEngineName": "dCi 100",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17327,
+      "modelId": 4971,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA III (K12)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 17536,
+      "modelId": 4833,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMERA (P12)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 17538,
+      "modelId": 4941,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMERA Hatchback (P12)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 23200,
+      "modelId": 4941,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMERA Hatchback (P12)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 23201,
+      "modelId": 4833,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMERA (P12)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 23202,
+      "modelId": 4834,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMERA Estate (WP12)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2007-10-01"
+    },
+    {
+      "vehicleId": 17539,
+      "modelId": 4834,
+      "manufacturerName": "NISSAN",
+      "modelName": "PRIMERA Estate (WP12)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17718,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.5 dCi (BM02, BM13, BM2A, CM02, CM13)",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 17729,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi (LM0G, LM1G, LM2C)",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18216,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19041,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi (LM14, LM1D)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 17734,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi (KMRG, KM1G, KM0G, KM2C)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 18049,
+      "modelId": 5133,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi (JM02, JM13)",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18141,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.5 DDiS 4WD (SN415D)",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24202,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 18213,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCi (KG05)",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 18314,
+      "modelId": 5213,
+      "manufacturerName": "RENAULT",
+      "modelName": "MODUS / GRAND MODUS (F/JP0_)",
+      "typeEngineName": "1.5 dCi (FP0G, JP0G)",
+      "constructionIntervalStart": "2004-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18315,
+      "modelId": 5213,
+      "manufacturerName": "RENAULT",
+      "modelName": "MODUS / GRAND MODUS (F/JP0_)",
+      "typeEngineName": "1.5 dCi (FP0F, JP0F)",
+      "constructionIntervalStart": "2004-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18579,
+      "modelId": 4723,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II (BG0/1_)",
+      "typeEngineName": "1.9 dCi (BG1A, BG1W, BG0G)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2007-08-01"
+    },
+    {
+      "vehicleId": 18583,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCi (KG1A, KG1W, KG0G)",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 18646,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCi (KG1V)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 44781,
+      "modelId": 4723,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II (BG0/1_)",
+      "typeEngineName": "1.9 dCi (BG13)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 18780,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi (JM1E, JM16)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 20078,
+      "modelId": 5462,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III (BR0/1, CR0/1)",
+      "typeEngineName": "1.5 dCi (BR1C, CR1C)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23071,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi (JM16)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 23487,
+      "modelId": 5611,
+      "manufacturerName": "RENAULT",
+      "modelName": "TWINGO II (CN0_)",
+      "typeEngineName": "1.5 dCi (CN0E)",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2014-09-01"
+    },
+    {
+      "vehicleId": 29917,
+      "modelId": 5133,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi (JM1E)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-01-01"
+    },
+    {
+      "vehicleId": 29998,
+      "modelId": 3508,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO II (BB_, CB_)",
+      "typeEngineName": "1.5 dCi (B/CB3M)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 106520,
+      "modelId": 5133,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18781,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.9 dCi (JM14)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18783,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2007-02-01"
+    },
+    {
+      "vehicleId": 18786,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 18787,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 18789,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.5 dCi (KM1F)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 128854,
+      "modelId": 38244,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate Van (KM_)",
+      "typeEngineName": "1.5 dCi (KM1F)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 129970,
+      "modelId": 38244,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate Van (KM_)",
+      "typeEngineName": "1.5 dCi (KM1E)",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 18791,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.5 dCi (BM1E, CM1E)",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19177,
+      "modelId": 5482,
+      "manufacturerName": "NISSAN",
+      "modelName": "NOTE (E11, NE11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 19393,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.9 DDiS All-wheel Drive (JT419, TD44, JB419WD, JB419XD,...",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2015-02-01"
+    },
+    {
+      "vehicleId": 19513,
+      "modelId": 5559,
+      "manufacturerName": "RENAULT",
+      "modelName": "TRAFIC II Platform/Chassis (EL)",
+      "typeEngineName": "1.9 dCi 80 (EL0B)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 19887,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2013-11-01"
+    },
+    {
+      "vehicleId": 19899,
+      "modelId": 5620,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV (KS_)",
+      "typeEngineName": "1.5 dCi (KS0K)",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19992,
+      "modelId": 3972,
+      "manufacturerName": "SUZUKI",
+      "modelName": "JIMNY Closed Off-Road Vehicle (SN)",
+      "typeEngineName": "1.5 DDiS 4x4",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 20082,
+      "modelId": 4971,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA III (K12)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2010-06-01"
+    },
+    {
+      "vehicleId": 23061,
+      "modelId": 5073,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Estate (KM0/1_)",
+      "typeEngineName": "1.5 dCi (KM16)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 23064,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.5 dCi (BM16, CM16)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 23070,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.5 dCi (EM16)",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2009-06-01"
+    },
+    {
+      "vehicleId": 23455,
+      "modelId": 6446,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III Grandtour (KR0/1_)",
+      "typeEngineName": "1.5 dCi (KR0G)",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23466,
+      "modelId": 6447,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO / GRAND KANGOO II (KW0/1_)",
+      "typeEngineName": "1.5 dCi 105 (KW0F)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 23469,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 23490,
+      "modelId": 6452,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Saloon (SC11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 133829,
+      "modelId": 6937,
+      "manufacturerName": "NISSAN",
+      "modelName": "TIIDA Hatchback (C11)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-03-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 24201,
+      "modelId": 4723,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II (BG0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 25659,
+      "modelId": 6734,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN I (LS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 26543,
+      "modelId": 7364,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN I Estate (KS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 27518,
+      "modelId": 6712,
+      "manufacturerName": "OPEL",
+      "modelName": "VIVARO A Platform/Chassis (X83)",
+      "typeEngineName": "1.9 DTI",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 28773,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "1.9 D (FC0J)",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2003-06-01"
+    },
+    {
+      "vehicleId": 28834,
+      "modelId": 5020,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 58575,
+      "modelId": 5133,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC II (JM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-01-01"
+    },
+    {
+      "vehicleId": 29962,
+      "modelId": 7867,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Coupe (DZ0/1_)",
+      "typeEngineName": "1.5 dCi (DZ09, DZ0D, DZ1F, DZ1G, DZ14, DZ29)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31058,
+      "modelId": 5616,
+      "manufacturerName": "NISSAN",
+      "modelName": "QASHQAI I (J10, NJ10)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-08-01",
+      "constructionIntervalEnd": "2010-01-01"
+    },
+    {
+      "vehicleId": 31196,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 31535,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi (KZ0C, KZ1A)",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 54521,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31536,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "1.5 dCi (KZ09, KZ0D, KZ1G, KZ29, KZ14, KZ1W, KZ10, KZ1F,...",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31542,
+      "modelId": 8145,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Grandtour (KZ0/1)",
+      "typeEngineName": "2.0 TCe (KZ0K, KZ1T)",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 31544,
+      "modelId": 8147,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.4 16V (JZ0F, JZ1V)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 31589,
+      "modelId": 4753,
+      "manufacturerName": "RENAULT",
+      "modelName": "TRAFIC II Van (FL)",
+      "typeEngineName": "1.9 dCi (FL0C)",
+      "constructionIntervalStart": "2001-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 31724,
+      "modelId": 8179,
+      "manufacturerName": "RENAULT",
+      "modelName": "FLUENCE (L3_)",
+      "typeEngineName": "1.5 dCi (L30S)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32954,
+      "modelId": 8179,
+      "manufacturerName": "RENAULT",
+      "modelName": "FLUENCE (L3_)",
+      "typeEngineName": "1.5 dCi (L30B)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32686,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2002-11-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 32687,
+      "modelId": 5071,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-09-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 32953,
+      "modelId": 8179,
+      "manufacturerName": "RENAULT",
+      "modelName": "FLUENCE (L3_)",
+      "typeEngineName": "1.5 dCi (L30A)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 32987,
+      "modelId": 8531,
+      "manufacturerName": "NISSAN",
+      "modelName": "KUBISTAR Van (X76)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 33041,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 33042,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi (HSMC)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 33126,
+      "modelId": 8578,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE CC (EZ0/1_)",
+      "typeEngineName": "1.5 dCi (EZ09, EZ1G, EZ0D, EZ14)",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 33195,
+      "modelId": 5213,
+      "manufacturerName": "RENAULT",
+      "modelName": "MODUS / GRAND MODUS (F/JP0_)",
+      "typeEngineName": "1.5 dCi (FP0D, JP0D)",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33585,
+      "modelId": 8659,
+      "manufacturerName": "NISSAN",
+      "modelName": "NV200 Van",
+      "typeEngineName": "1.5 dCi 85 (M20, M20N, M20M)",
+      "constructionIntervalStart": "2010-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33588,
+      "modelId": 8660,
+      "manufacturerName": "NISSAN",
+      "modelName": "NV200 / EVALIA Bus",
+      "typeEngineName": "1.5 dCi 85 (M20, M20M, M20K, M20KK)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 34725,
+      "modelId": 8922,
+      "manufacturerName": "NISSAN",
+      "modelName": "JUKE (F15)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 34738,
+      "modelId": 7865,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO BE BOP (KW0/1_)",
+      "typeEngineName": "1.5 dCi (KW0G)",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 34746,
+      "modelId": 5462,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III (BR0/1, CR0/1)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 34747,
+      "modelId": 6446,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III Grandtour (KR0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 34749,
+      "modelId": 6446,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III Grandtour (KR0/1_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 35422,
+      "modelId": 10180,
+      "manufacturerName": "HONDA",
+      "modelName": "CR-V IV (RM_)",
+      "typeEngineName": "1.6 i-DTEC (RE6)",
+      "constructionIntervalStart": "2013-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 53300,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 126627,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi (HSMD, HSM3)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 54571,
+      "modelId": 4723,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II (BG0/1_)",
+      "typeEngineName": "1.9 dCi (BG12)",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 54572,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 54945,
+      "modelId": 4685,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC I MPV (JA0/1_, FA0_)",
+      "typeEngineName": "1.9 dCi RX4",
+      "constructionIntervalStart": "2002-12-01",
+      "constructionIntervalEnd": "2003-08-01"
+    },
+    {
+      "vehicleId": 56118,
+      "modelId": 10577,
+      "manufacturerName": "NISSAN",
+      "modelName": "NP200",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57817,
+      "modelId": 9202,
+      "manufacturerName": "RENAULT",
+      "modelName": "THALIA II (LU_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2009-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 58610,
+      "modelId": 4724,
+      "manufacturerName": "RENAULT",
+      "modelName": "LAGUNA II Grandtour (KG0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 59354,
+      "modelId": 8925,
+      "manufacturerName": "RENAULT",
+      "modelName": "LATITUDE (L70_)",
+      "typeEngineName": "1.5 dCi (L70R, L731)",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100515,
+      "modelId": 8547,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi 4x4",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 107340,
+      "modelId": 13049,
+      "manufacturerName": "SMART",
+      "modelName": "FORTWO Coupe (453)",
+      "typeEngineName": "1.0 (453.342, 453.343)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108062,
+      "modelId": 13195,
+      "manufacturerName": "RENAULT",
+      "modelName": "TWINGO III (BCM_, BCA_)",
+      "typeEngineName": "1.0 SCe 70",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 108763,
+      "modelId": 13050,
+      "manufacturerName": "SMART",
+      "modelName": "FORFOUR Hatchback (453)",
+      "typeEngineName": "1.0 (453.041)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 116792,
+      "modelId": 14632,
+      "manufacturerName": "SMART",
+      "modelName": "FORTWO Convertible (453)",
+      "typeEngineName": "1.0 (453.442, 453.443)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120596,
+      "modelId": 13195,
+      "manufacturerName": "RENAULT",
+      "modelName": "TWINGO III (BCM_, BCA_)",
+      "typeEngineName": "1.0 SCe 70 (BCMB)",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107341,
+      "modelId": 13050,
+      "manufacturerName": "SMART",
+      "modelName": "FORFOUR Hatchback (453)",
+      "typeEngineName": "1.0 (453.042, 453.043)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107938,
+      "modelId": 6734,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN I (LS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2013-10-01"
+    },
+    {
+      "vehicleId": 110761,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128869,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135333,
+      "modelId": 11232,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR I (J5_, H5_)",
+      "typeEngineName": "1.5 dCi (J5MW)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 110764,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117996,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.5 dCi 4x4",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117997,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117999,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.5 dCi 4x4",
+      "constructionIntervalStart": "2013-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 57441,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 dCi (JSMC, JSAF)",
+      "constructionIntervalStart": "2013-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122487,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 122714,
+      "modelId": 5489,
+      "manufacturerName": "SUZUKI",
+      "modelName": "GRAND VITARA II (JT, TE, TD)",
+      "typeEngineName": "1.9 DDiS (JB419WD, JB419XD)",
+      "constructionIntervalStart": "2006-03-01",
+      "constructionIntervalEnd": "2008-08-01"
+    },
+    {
+      "vehicleId": 123835,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126960,
+      "modelId": 37261,
+      "manufacturerName": "NISSAN",
+      "modelName": "MICRA V (K14)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126214,
+      "modelId": 10963,
+      "manufacturerName": "DACIA",
+      "modelName": "SANDERO II",
+      "typeEngineName": "1.0 SCe 75 (B8JC, B8JD)",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126215,
+      "modelId": 11291,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN MCV II",
+      "typeEngineName": "1.0 SCe 75",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126381,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi (HSAE, HSAD, HSAF, HSJ7, HSMC, HSMD)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 126382,
+      "modelId": 10319,
+      "manufacturerName": "RENAULT",
+      "modelName": "DUSTER (HS_)",
+      "typeEngineName": "1.5 dCi 4x4 (HSMD)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2018-01-01"
+    },
+    {
+      "vehicleId": 127027,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.5 dCi (FEMW)",
+      "constructionIntervalStart": "2012-12-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 127028,
+      "modelId": 10868,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER MPV (KE_)",
+      "typeEngineName": "1.5 dCi (KEMW)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 127029,
+      "modelId": 10162,
+      "manufacturerName": "DACIA",
+      "modelName": "LODGY (JS_)",
+      "typeEngineName": "1.5 dCi (JSMW)",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127127,
+      "modelId": 11138,
+      "manufacturerName": "DACIA",
+      "modelName": "LOGAN II",
+      "typeEngineName": "1.0 SCe 75",
+      "constructionIntervalStart": "2017-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127918,
+      "modelId": 12874,
+      "manufacturerName": "RENAULT",
+      "modelName": "THALIA III (L8_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2013-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130099,
+      "modelId": 38462,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER (HM_)",
+      "typeEngineName": "1.5 dCi 90 (HMAA)",
+      "constructionIntervalStart": "2017-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130224,
+      "modelId": 37515,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Hatchback (FC_, FK_)",
+      "typeEngineName": "1.6 i-DTEC (FK9)",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 130846,
+      "modelId": 14943,
+      "manufacturerName": "HONDA",
+      "modelName": "CIVIC X Saloon (FC_)",
+      "typeEngineName": "1.6 i-DTEC (FC8)",
+      "constructionIntervalStart": "2018-05-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 130227,
+      "modelId": 8531,
+      "manufacturerName": "NISSAN",
+      "modelName": "KUBISTAR Van (X76)",
+      "typeEngineName": "dCi 85",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2009-10-01"
+    },
+    {
+      "vehicleId": 131339,
+      "modelId": 11137,
+      "manufacturerName": "DACIA",
+      "modelName": "DOKKER Box Body/MPV",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2021-12-01"
+    },
+    {
+      "vehicleId": 134732,
+      "modelId": 38410,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Hatchback Van (KM0/2_)",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 143168,
+      "modelId": 41719,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC I VAN (FA0_, JA0/1_)",
+      "typeEngineName": "1.9 (FA0J)",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2001-02-01"
+    },
+    {
+      "vehicleId": 143169,
+      "modelId": 41719,
+      "manufacturerName": "RENAULT",
+      "modelName": "SCÉNIC I VAN (FA0_, JA0/1_)",
+      "typeEngineName": "1.9 DTi (JA0N)",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 143180,
+      "modelId": 41723,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE Scénic VAN (JA0/1_)",
+      "typeEngineName": "1.9 DTi (JA0N)",
+      "constructionIntervalStart": "1997-04-01",
+      "constructionIntervalEnd": "1999-09-01"
+    },
+    {
+      "vehicleId": 16491,
+      "modelId": 3952,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER II Bus (JD)",
+      "typeEngineName": "1.9 dCi 80 (JD0P, JD1P)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 16492,
+      "modelId": 3901,
+      "manufacturerName": "RENAULT",
+      "modelName": "MASTER II Van (FD)",
+      "typeEngineName": "1.9 dCi 80 (FD0P)",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2006-10-01"
+    },
+    {
+      "vehicleId": 59003,
+      "modelId": 11232,
+      "manufacturerName": "RENAULT",
+      "modelName": "CAPTUR I (J5_, H5_)",
+      "typeEngineName": "1.5 dCi 90 (J5N4, J5M5, J5MW, J5M6, J5AL, J5AJ)",
+      "constructionIntervalStart": "2013-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107940,
+      "modelId": 7364,
+      "manufacturerName": "RENAULT",
+      "modelName": "LOGAN I Estate (KS_)",
+      "typeEngineName": "1.5 dCi (KS04, KS1L)",
+      "constructionIntervalStart": "2011-06-01",
+      "constructionIntervalEnd": "2015-06-01"
+    },
+    {
+      "vehicleId": 19040,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 136204,
+      "modelId": 13195,
+      "manufacturerName": "RENAULT",
+      "modelName": "TWINGO III (BCM_, BCA_)",
+      "typeEngineName": "1.0 SCe 75",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138242,
+      "modelId": 40028,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO V (B7_)",
+      "typeEngineName": "1.0 SCe 75 (B7M5)",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 19051,
+      "modelId": 5462,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III (BR0/1, CR0/1)",
+      "typeEngineName": "1.5 dCi (C/BR0G, C/BR1G)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 19052,
+      "modelId": 5462,
+      "manufacturerName": "RENAULT",
+      "modelName": "CLIO III (BR0/1, CR0/1)",
+      "typeEngineName": "1.5 dCi (BR17, CR17)",
+      "constructionIntervalStart": "2005-06-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 18219,
+      "modelId": 5072,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II Saloon (LM0/1_)",
+      "typeEngineName": "1.5 dCi (LM02, LM13, LM2A)",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 18792,
+      "modelId": 4940,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE II (BM0/1_, CM0/1_)",
+      "typeEngineName": "1.9 dCi",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 23493,
+      "modelId": 6453,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FW0/1_)",
+      "typeEngineName": "1.5 dCi 70 (FW0A, KW0V)",
+      "constructionIntervalStart": "2008-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 5855,
+      "modelId": 8148,
+      "manufacturerName": "RENAULT",
+      "modelName": "GRAND SCÉNIC III (JZ0/1_)",
+      "typeEngineName": "1.5 dCi (JZ09, JZ0D, JZ10, JZ14, JZ1G, JZ29, JZ2C)",
+      "constructionIntervalStart": "2009-04-01",
+      "constructionIntervalEnd": "2016-09-01"
+    },
+    {
+      "vehicleId": 18620,
+      "modelId": 3520,
+      "manufacturerName": "RENAULT",
+      "modelName": "KANGOO Express (FC0/1_)",
+      "typeEngineName": "1.9 dCi (FC0V)",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 29956,
+      "modelId": 7866,
+      "manufacturerName": "RENAULT",
+      "modelName": "MEGANE III Hatchback (BZ0/1_, B3_)",
+      "typeEngineName": "1.5 dCi (BZ09, BZ0D, BZ1W, BZ29, BZ14)",
+      "constructionIntervalStart": "2009-02-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 117995,
+      "modelId": 14955,
+      "manufacturerName": "DACIA",
+      "modelName": "DUSTER SUV Van",
+      "typeEngineName": "1.5 dCi",
+      "constructionIntervalStart": "2011-04-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "67"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "M 20 x 1,5"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "75"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "with one anti-return valve"
+    },
+    {
+      "criteriaName": "Bypass Valve Opening Pressure [bar]",
+      "criteriaValue": "2,5"
+    },
+    {
+      "criteriaName": "Gasket inside diameter [mm]",
+      "criteriaValue": "62"
+    },
+    {
+      "criteriaName": "Gasket outside diameter [mm]",
+      "criteriaValue": "71"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208 AW300"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-00Q0D"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-00Q0G"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-00QAF"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 84A10 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 84A11 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 84A12 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-67JG0"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-67JG0-000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-84A10"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-84A11"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-84A12"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "281 180 03 10"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "44 15 442"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "44 34 962"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "68439517AA"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "77 11 945 900"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "82 00 274 858"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "82 00 768 927"
+    },
+    {
+      "oemBrand": "DACIA",
+      "oemDisplayNo": "82 00 768 927"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "82 00 867 980"
+    },
+    {
+      "oemBrand": "DACIA",
+      "oemDisplayNo": "82 00 867 980"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "86 71 002 274"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "86 71 017 369"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "93181255"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "93198441"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "93198441"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A 281 180 03 10"
+    }
+  ],
+  "ean": "4047026361186",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:30:56.191Z"
+}

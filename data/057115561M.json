@@ -1,0 +1,77 @@
+{
+  "articleNo": "057115561M",
+  "articleId": 14697555,
+  "supplier": "ZPY",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 7930,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2012-05-01"
+    },
+    {
+      "vehicleId": 12075,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2011-03-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 30381,
+      "modelId": 5381,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C6 Avant (4F5)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 30384,
+      "modelId": 5546,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 Allroad C6 (4FH)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2011-08-01"
+    },
+    {
+      "vehicleId": 108443,
+      "modelId": 9154,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 (4G2, 4GC)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    },
+    {
+      "vehicleId": 108599,
+      "modelId": 9627,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C7 Avant (4G5, 4GD)",
+      "typeEngineName": "3.0 TFSI quattro",
+      "constructionIntervalStart": "2014-09-01",
+      "constructionIntervalEnd": "2018-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "057115561M"
+    }
+  ],
+  "ean": "",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:12:42.926Z"
+}

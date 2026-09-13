@@ -1,0 +1,111 @@
+{
+  "articleNo": "96985730",
+  "articleId": 791736,
+  "supplier": "ASHIKA",
+  "product": "Oil Filter",
+  "originalManufacturer": "CHEVROLET",
+  "matchedArticleNo": "10-W0-W02",
+  "vehicles": [
+    {
+      "vehicleId": 26605,
+      "modelId": 7372,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO / KALOS Hatchback (T250, T255)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33016,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 33017,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55439,
+      "modelId": 7372,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "AVEO / KALOS Hatchback (T250, T255)",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2008-04-01",
+      "constructionIntervalEnd": "2011-12-01"
+    },
+    {
+      "vehicleId": 55440,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.2 LPG",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55442,
+      "modelId": 8543,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "SPARK (M300)",
+      "typeEngineName": "1.0 LPG",
+      "constructionIntervalStart": "2010-03-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "72"
+    },
+    {
+      "criteriaName": "Internal Thread [mm]",
+      "criteriaValue": "M 18 X 1,5"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "68"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Fitted Diameter [mm]",
+      "criteriaValue": "63"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "25181616"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "96475855"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "96985730"
+    },
+    {
+      "oemBrand": "DAEWOO",
+      "oemDisplayNo": "96985730"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "96985730"
+    }
+  ],
+  "ean": "8033001455175",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:35:27.078Z"
+}

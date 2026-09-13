@@ -1,0 +1,75 @@
+{
+  "articleNo": "90915YZZM3",
+  "articleId": 777822,
+  "supplier": "ASHIKA",
+  "product": "Oil Filter",
+  "originalManufacturer": "TOYOTA",
+  "matchedArticleNo": "10-02-203",
+  "vehicles": [
+    {
+      "vehicleId": 3464,
+      "modelId": 140,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA Liftback (_E8_)",
+      "typeEngineName": "1.3 (AE80)",
+      "constructionIntervalStart": "1983-06-01",
+      "constructionIntervalEnd": "1984-09-01"
+    },
+    {
+      "vehicleId": 3472,
+      "modelId": 108,
+      "manufacturerName": "TOYOTA",
+      "modelName": "COROLLA (_E8_)",
+      "typeEngineName": "1.3 (AE80)",
+      "constructionIntervalStart": "1983-06-01",
+      "constructionIntervalEnd": "1984-10-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "80"
+    },
+    {
+      "criteriaName": "Internal Thread [mm]",
+      "criteriaValue": "3/4 x 16"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "80"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Fitted Diameter [mm]",
+      "criteriaValue": "64"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "1560013051"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15601-13051"
+    },
+    {
+      "oemBrand": "PIAGGIO",
+      "oemDisplayNo": "438038"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915-YZZE1"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "90915YZZM3"
+    }
+  ],
+  "ean": "8033001187106",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:34:26.224Z"
+}

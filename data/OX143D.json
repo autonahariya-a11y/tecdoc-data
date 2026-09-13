@@ -1,0 +1,1977 @@
+{
+  "articleNo": "OX 143D",
+  "articleId": 8357342,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 4682,
+      "modelId": 1312,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7M8, 7M9, 7M6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 4714,
+      "modelId": 1317,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY I (WGR)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1995-03-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 5303,
+      "modelId": 4003,
+      "manufacturerName": "VW",
+      "modelName": "CADDY II Box Body/MPV (9K9A)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2004-01-01"
+    },
+    {
+      "vehicleId": 8097,
+      "modelId": 1551,
+      "manufacturerName": "SEAT",
+      "modelName": "INCA (6K9)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2003-06-01"
+    },
+    {
+      "vehicleId": 18490,
+      "modelId": 5393,
+      "manufacturerName": "VW",
+      "modelName": "CADDY II MPV (9K9B)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2004-01-01"
+    },
+    {
+      "vehicleId": 5603,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 7378,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2001-07-01"
+    },
+    {
+      "vehicleId": 7909,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 8456,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 8461,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 8704,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 8798,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 8850,
+      "modelId": 3378,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-35 II Bus (2DB, 2DE, 2DK)",
+      "typeEngineName": "2.5 SDI",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 8851,
+      "modelId": 3378,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-35 II Bus (2DB, 2DE, 2DK)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 8853,
+      "modelId": 3380,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Platform/Chassis (2DC, 2DF, 2DG, 2DL, 2DM)",
+      "typeEngineName": "2.5 SDI",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 8854,
+      "modelId": 3379,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Van (2DA, 2DD, 2DH)",
+      "typeEngineName": "2.5 SDI",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 8855,
+      "modelId": 3379,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Van (2DA, 2DD, 2DH)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 8859,
+      "modelId": 3380,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Platform/Chassis (2DC, 2DF, 2DG, 2DL, 2DM)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1996-06-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 8980,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2004-06-01"
+    },
+    {
+      "vehicleId": 9063,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 9511,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 9517,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 9518,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 9519,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 10004,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 10049,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 10050,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 10055,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 10056,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 10176,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 11300,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 11301,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 11351,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 11352,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 11605,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 11607,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 11762,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 11763,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 12104,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 12243,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI 4x4",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-02-01"
+    },
+    {
+      "vehicleId": 12894,
+      "modelId": 93,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6K1, 6K2)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 12895,
+      "modelId": 1992,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA Vario (6K5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 13100,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 13103,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 13104,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2002-01-01"
+    },
+    {
+      "vehicleId": 13106,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 13107,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 13161,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 13162,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 13194,
+      "modelId": 569,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA II (6K1)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 14094,
+      "modelId": 3378,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-35 II Bus (2DB, 2DE, 2DK)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 14095,
+      "modelId": 3378,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-35 II Bus (2DB, 2DE, 2DK)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 14096,
+      "modelId": 3379,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Van (2DA, 2DD, 2DH)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 14097,
+      "modelId": 3379,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Van (2DA, 2DD, 2DH)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 14099,
+      "modelId": 3380,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Platform/Chassis (2DC, 2DF, 2DG, 2DL, 2DM)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 14100,
+      "modelId": 3380,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Platform/Chassis (2DC, 2DF, 2DG, 2DL, 2DM)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 14285,
+      "modelId": 1993,
+      "manufacturerName": "VW",
+      "modelName": "POLO Variant (6V5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 14286,
+      "modelId": 1482,
+      "manufacturerName": "VW",
+      "modelName": "POLO III CLASSIC (6V2)",
+      "typeEngineName": "68 1.9 SDI",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2002-01-01"
+    },
+    {
+      "vehicleId": 14414,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14559,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 14560,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 14725,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 14797,
+      "modelId": 1317,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY I (WGR)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 14855,
+      "modelId": 1312,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7M8, 7M9, 7M6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 14903,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-09-01",
+      "constructionIntervalEnd": "2001-06-01"
+    },
+    {
+      "vehicleId": 14940,
+      "modelId": 1564,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (7V8, 7V9)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 15011,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15119,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 15120,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "1999-08-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 15294,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI 4x4",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 15415,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15416,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15417,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15418,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15458,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15459,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15460,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15461,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15462,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15463,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15464,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15465,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15466,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15467,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15468,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15469,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15511,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15609,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15610,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15725,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15782,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15786,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15898,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15899,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15916,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 15964,
+      "modelId": 1564,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (7V8, 7V9)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 16010,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16049,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16062,
+      "modelId": 1312,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7M8, 7M9, 7M6)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-03-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 16063,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 16064,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 16065,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16066,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16067,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16068,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16069,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16070,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16130,
+      "modelId": 3378,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-35 II Bus (2DB, 2DE, 2DK)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 16131,
+      "modelId": 3378,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-35 II Bus (2DB, 2DE, 2DK)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 16135,
+      "modelId": 3379,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Van (2DA, 2DD, 2DH)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 16136,
+      "modelId": 3379,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Van (2DA, 2DD, 2DH)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 16137,
+      "modelId": 3380,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Platform/Chassis (2DC, 2DF, 2DG, 2DL, 2DM)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 16138,
+      "modelId": 3380,
+      "manufacturerName": "VW",
+      "modelName": "LT 28-46 II Platform/Chassis (2DC, 2DF, 2DG, 2DL, 2DM)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 16180,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 16184,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16261,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16294,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 16298,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16299,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16349,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16350,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16601,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16602,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16603,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.9 TDI quattro",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 17008,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2005-10-01"
+    },
+    {
+      "vehicleId": 17122,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2003-06-01",
+      "constructionIntervalEnd": "2005-07-01"
+    },
+    {
+      "vehicleId": 17300,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 TDI Syncro",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 17475,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 17476,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 17514,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 17515,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 18225,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18226,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 18400,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18411,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19171,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 19224,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 19237,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 19238,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 19406,
+      "modelId": 5528,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-35 Bus (2E_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 19407,
+      "modelId": 5528,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-35 Bus (2E_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 19408,
+      "modelId": 5528,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-35 Bus (2E_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 19409,
+      "modelId": 5528,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-35 Bus (2E_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 19410,
+      "modelId": 5529,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-50 Van (2E_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 19412,
+      "modelId": 5529,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-50 Van (2E_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 19413,
+      "modelId": 5529,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-50 Van (2E_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 19414,
+      "modelId": 5529,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-50 Van (2E_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 19415,
+      "modelId": 5530,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-50 Platform/Chassis (2F_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 19416,
+      "modelId": 5530,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-50 Platform/Chassis (2F_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 19417,
+      "modelId": 5530,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-50 Platform/Chassis (2F_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 19418,
+      "modelId": 5530,
+      "manufacturerName": "VW",
+      "modelName": "CRAFTER 30-50 Platform/Chassis (2F_)",
+      "typeEngineName": "2.5 TDI",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2011-07-01"
+    },
+    {
+      "vehicleId": 19798,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19799,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TDI quattro",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19970,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19971,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 20003,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 20556,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-06-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 23268,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 23291,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 23293,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 23294,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 27255,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 29978,
+      "modelId": 41689,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Convertible (8HE)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2009-03-01"
+    },
+    {
+      "vehicleId": 59345,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 123324,
+      "modelId": 37154,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Van (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2002-09-01"
+    },
+    {
+      "vehicleId": 123325,
+      "modelId": 37154,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Van (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 132290,
+      "modelId": 38851,
+      "manufacturerName": "VW",
+      "modelName": "POLO Van Estate Van (6V5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 133083,
+      "modelId": 39007,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA VARIO Estate Van (6K5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 133122,
+      "modelId": 39014,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Estate Van (1U5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 133123,
+      "modelId": 39014,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Estate Van (1U5)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2003-12-01"
+    },
+    {
+      "vehicleId": 133383,
+      "modelId": 39045,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN IV Variant (1J5)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 133392,
+      "modelId": 39045,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 133393,
+      "modelId": 39045,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 133398,
+      "modelId": 39045,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 133399,
+      "modelId": 39045,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 133401,
+      "modelId": 39045,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "2001-04-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 136915,
+      "modelId": 37154,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Van (1J1)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2000-01-01",
+      "constructionIntervalEnd": "2001-04-01"
+    },
+    {
+      "vehicleId": 136918,
+      "modelId": 37154,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Van (1J1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 136921,
+      "modelId": 37154,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Van (1J1)",
+      "typeEngineName": "1.9 SDI",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 141759,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 142762,
+      "modelId": 41616,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY MK I VAN (WGR)",
+      "typeEngineName": "1.9 TDi",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2006-03-01"
+    },
+    {
+      "vehicleId": 142763,
+      "modelId": 41616,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY MK I VAN (WGR)",
+      "typeEngineName": "1.9 TDi",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2006-03-01"
+    },
+    {
+      "vehicleId": 142948,
+      "modelId": 41662,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA VAN (7V8, 7V9)",
+      "typeEngineName": "TDI",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 142950,
+      "modelId": 41662,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA VAN (7V8, 7V9)",
+      "typeEngineName": "1.9 TDI 4motion",
+      "constructionIntervalStart": "2002-06-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 143016,
+      "modelId": 41677,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7M_)",
+      "typeEngineName": "1.9 TDI (7M8)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 143017,
+      "modelId": 41677,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7M_)",
+      "typeEngineName": "1.9 TDI (7M6, 7M9)",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 5675,
+      "modelId": 1564,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (7V8, 7V9)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 7890,
+      "modelId": 93,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6K1, 6K2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 7892,
+      "modelId": 569,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA II (6K1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 8435,
+      "modelId": 1992,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA Vario (6K5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 7897,
+      "modelId": 569,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA II (6K1)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 8433,
+      "modelId": 93,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6K1, 6K2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-03-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 8831,
+      "modelId": 1992,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA Vario (6K5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 11520,
+      "modelId": 1993,
+      "manufacturerName": "VW",
+      "modelName": "POLO Variant (6V5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 11521,
+      "modelId": 1482,
+      "manufacturerName": "VW",
+      "modelName": "POLO III CLASSIC (6V2)",
+      "typeEngineName": "110 1.9 TDI",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2002-01-01"
+    },
+    {
+      "vehicleId": 7940,
+      "modelId": 4003,
+      "manufacturerName": "VW",
+      "modelName": "CADDY II Box Body/MPV (9K9A)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2004-01-01"
+    },
+    {
+      "vehicleId": 7974,
+      "modelId": 1482,
+      "manufacturerName": "VW",
+      "modelName": "POLO III CLASSIC (6V2)",
+      "typeEngineName": "90 1.9 TDI",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 9058,
+      "modelId": 1993,
+      "manufacturerName": "VW",
+      "modelName": "POLO Variant (6V5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 10003,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 11606,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 18491,
+      "modelId": 5393,
+      "manufacturerName": "VW",
+      "modelName": "CADDY II MPV (9K9B)",
+      "typeEngineName": "1.9 TDI",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2004-01-01"
+    },
+    {
+      "vehicleId": 17873,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17874,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.0 TDI",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 18243,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.9 TDI Cupra R",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 142946,
+      "modelId": 41662,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA VAN (7V8, 7V9)",
+      "typeEngineName": "TDI",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 143015,
+      "modelId": 41677,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7M_)",
+      "typeEngineName": "1.9 TDI (7M8, 7M9)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2003-05-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "65,0"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "153,0"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "7,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "7,00"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "16,00"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "77"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "LINDE",
+      "oemDisplayNo": "0009830621"
+    },
+    {
+      "oemBrand": "STILL",
+      "oemDisplayNo": "0171568"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "038115466"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "038115466"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "038115466"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "038115466A"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "038115466A"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "038115466A"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "074115562"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "074115562"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "074115562"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "074115562"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "074115562"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1100696"
+    },
+    {
+      "oemBrand": "STILL",
+      "oemDisplayNo": "171568"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "74115562"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "74115562"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "74115562"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "74115562"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "XM216744AA"
+    }
+  ],
+  "ean": "4009026051009",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:52:09.550Z"
+}

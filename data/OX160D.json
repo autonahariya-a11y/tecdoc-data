@@ -1,0 +1,785 @@
+{
+  "articleNo": "OX 160D",
+  "articleId": 8357390,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 1721,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1991-06-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1877,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 1889,
+      "modelId": 3886,
+      "manufacturerName": "VW",
+      "modelName": "VENTO (1H2)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 1920,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1991-06-01",
+      "constructionIntervalEnd": "1997-05-01"
+    },
+    {
+      "vehicleId": 4684,
+      "modelId": 1312,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7M8, 7M9, 7M6)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2000-04-01"
+    },
+    {
+      "vehicleId": 4716,
+      "modelId": 1317,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY I (WGR)",
+      "typeEngineName": "2.8 i V6",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2000-04-01"
+    },
+    {
+      "vehicleId": 5419,
+      "modelId": 1317,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY I (WGR)",
+      "typeEngineName": "2.8 i V6 4x4",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2000-04-01"
+    },
+    {
+      "vehicleId": 5723,
+      "modelId": 1312,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7M8, 7M9, 7M6)",
+      "typeEngineName": "2.8 VR6 Syncro",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "2000-04-01"
+    },
+    {
+      "vehicleId": 3924,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "2.9 VR6 Syncro (1HX1)",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 5894,
+      "modelId": 510,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Variant (1H5)",
+      "typeEngineName": "2.9 VR6 Syncro",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 3925,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "2.9 VR6 Syncro",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1997-05-01"
+    },
+    {
+      "vehicleId": 5727,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.3 VR5",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7935,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.3 VR5",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8772,
+      "modelId": 463,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T4 Bus (70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ)",
+      "typeEngineName": "2.8 VR 6",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2000-04-01"
+    },
+    {
+      "vehicleId": 8896,
+      "modelId": 4078,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS (638/2)",
+      "typeEngineName": "V 280 (638.244, 638.294)",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 9035,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.3 VR5 Syncro/4motion",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 9036,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.3 VR5 Syncro/4motion",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 10012,
+      "modelId": 4244,
+      "manufacturerName": "JEEP",
+      "modelName": "GRAND CHEROKEE II (WJ, WG)",
+      "typeEngineName": "3.1 TD 4x4",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2001-12-01"
+    },
+    {
+      "vehicleId": 10467,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "4.2 quattro",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2002-09-01"
+    },
+    {
+      "vehicleId": 10468,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "3.7 quattro",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2002-09-01"
+    },
+    {
+      "vehicleId": 10940,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 11341,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "1998-11-01",
+      "constructionIntervalEnd": "2002-09-01"
+    },
+    {
+      "vehicleId": 11359,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "3.7 quattro",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 11360,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "3.7 quattro",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 11361,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "3.7",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 12259,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "S8 quattro",
+      "constructionIntervalStart": "1999-06-01",
+      "constructionIntervalEnd": "2002-09-01"
+    },
+    {
+      "vehicleId": 14557,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "4.2 quattro",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2000-04-01"
+    },
+    {
+      "vehicleId": 15419,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.3 V5",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15423,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.3 VR5",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15784,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.3 V5 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15788,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.3 VR5 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16035,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "4.0 W8 4motion",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 16036,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "4.0 W8 4motion",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 16561,
+      "modelId": 4876,
+      "manufacturerName": "VW",
+      "modelName": "PHAETON (3D1, 3D2, 3D3, 3D4, 3D6, 3D7, 3D8, 3D9)",
+      "typeEngineName": "6.0 W12 4motion",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 16693,
+      "modelId": 4876,
+      "manufacturerName": "VW",
+      "modelName": "PHAETON (3D1, 3D2, 3D3, 3D4, 3D6, 3D7, 3D8, 3D9)",
+      "typeEngineName": "3.2 V6",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16819,
+      "modelId": 4920,
+      "manufacturerName": "VW",
+      "modelName": "TOUAREG (7LA, 7L6, 7L7)",
+      "typeEngineName": "3.2 V6",
+      "constructionIntervalStart": "2002-10-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 17693,
+      "modelId": 4899,
+      "manufacturerName": "PORSCHE",
+      "modelName": "CAYENNE (9PA)",
+      "typeEngineName": "3.2",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 17771,
+      "modelId": 5005,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
+      "typeEngineName": "VR6 3.2",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 17772,
+      "modelId": 5004,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
+      "typeEngineName": "VR6 3.2",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 17773,
+      "modelId": 5003,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Platform/Chassis (7JD, 7JE, 7JL, 7JY, 7JZ, 7F",
+      "typeEngineName": "VR6 3.2",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 18189,
+      "modelId": 4988,
+      "manufacturerName": "VW",
+      "modelName": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN)",
+      "typeEngineName": "VR6 3.2",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 18190,
+      "modelId": 4988,
+      "manufacturerName": "VW",
+      "modelName": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN)",
+      "typeEngineName": "VR6 3.2 4motion",
+      "constructionIntervalStart": "2004-07-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 18394,
+      "modelId": 4876,
+      "manufacturerName": "VW",
+      "modelName": "PHAETON (3D1, 3D2, 3D3, 3D4, 3D6, 3D7, 3D8, 3D9)",
+      "typeEngineName": "3.2 V6 4motion",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18427,
+      "modelId": 4920,
+      "manufacturerName": "VW",
+      "modelName": "TOUAREG (7LA, 7L6, 7L7)",
+      "typeEngineName": "3.2 V6",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 19455,
+      "modelId": 4920,
+      "manufacturerName": "VW",
+      "modelName": "TOUAREG (7LA, 7L6, 7L7)",
+      "typeEngineName": "3.6 V6 FSI",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 19803,
+      "modelId": 5461,
+      "manufacturerName": "AUDI",
+      "modelName": "Q7 (4LB)",
+      "typeEngineName": "3.6 FSI quattro",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 20112,
+      "modelId": 4899,
+      "manufacturerName": "PORSCHE",
+      "modelName": "CAYENNE (9PA)",
+      "typeEngineName": "3.6",
+      "constructionIntervalStart": "2007-02-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 20485,
+      "modelId": 5004,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
+      "typeEngineName": "VR6 3.2 4motion",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 20486,
+      "modelId": 1632,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T4 Platform/Chassis (70E, 70L, 70M, 7DE, 7DL, 7D",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "2000-05-01"
+    },
+    {
+      "vehicleId": 20661,
+      "modelId": 5005,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
+      "typeEngineName": "3.2 V6 4motion",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 21569,
+      "modelId": 4899,
+      "manufacturerName": "PORSCHE",
+      "modelName": "CAYENNE (9PA)",
+      "typeEngineName": "3.2",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 27783,
+      "modelId": 1631,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T4 Van (70A, 70H, 7DA, 7DH)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "2000-05-01"
+    },
+    {
+      "vehicleId": 31101,
+      "modelId": 4876,
+      "manufacturerName": "VW",
+      "modelName": "PHAETON (3D1, 3D2, 3D3, 3D4, 3D6, 3D7, 3D8, 3D9)",
+      "typeEngineName": "3.6 V6 4motion",
+      "constructionIntervalStart": "2008-11-01",
+      "constructionIntervalEnd": "2016-03-01"
+    },
+    {
+      "vehicleId": 142575,
+      "modelId": 41521,
+      "manufacturerName": "AUDI",
+      "modelName": "Q7 Van (4LB)",
+      "typeEngineName": "3.6 FSI quattro",
+      "constructionIntervalStart": "2006-08-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 142760,
+      "modelId": 41616,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY MK I VAN (WGR)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "2000-07-01"
+    },
+    {
+      "vehicleId": 145828,
+      "modelId": 42534,
+      "manufacturerName": "VW",
+      "modelName": "CALIFORNIA T4 Camper (7DJ, 7DK, 70J)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2000-05-01"
+    },
+    {
+      "vehicleId": 148245,
+      "modelId": 43086,
+      "manufacturerName": "MERCEDES-BENZ",
+      "modelName": "V-CLASS Van (638/2)",
+      "typeEngineName": "V 280 (638.244)",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2003-07-01"
+    },
+    {
+      "vehicleId": 149757,
+      "modelId": 5003,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Platform/Chassis (7JD, 7JE, 7JL, 7JY, 7JZ, 7F",
+      "typeEngineName": "VR6 3.2 4motion",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 8359,
+      "modelId": 8607,
+      "manufacturerName": "VW",
+      "modelName": "TOUAREG (7P5, 7P6)",
+      "typeEngineName": "3.6 V6 FSI",
+      "constructionIntervalStart": "2010-08-01",
+      "constructionIntervalEnd": "2018-03-01"
+    },
+    {
+      "vehicleId": 33306,
+      "modelId": 8607,
+      "manufacturerName": "VW",
+      "modelName": "TOUAREG (7P5, 7P6)",
+      "typeEngineName": "3.6 V6 FSI",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2018-03-01"
+    },
+    {
+      "vehicleId": 20660,
+      "modelId": 3886,
+      "manufacturerName": "VW",
+      "modelName": "VENTO (1H2)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1996-04-01"
+    },
+    {
+      "vehicleId": 21378,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 143013,
+      "modelId": 41677,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7M_)",
+      "typeEngineName": "2.8 VR6 (7M8)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-04-01"
+    },
+    {
+      "vehicleId": 33662,
+      "modelId": 8741,
+      "manufacturerName": "PORSCHE",
+      "modelName": "CAYENNE (92A)",
+      "typeEngineName": "3.6",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 58920,
+      "modelId": 3886,
+      "manufacturerName": "VW",
+      "modelName": "VENTO (1H2)",
+      "typeEngineName": "2.8 VR6",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 142751,
+      "modelId": 41616,
+      "manufacturerName": "FORD",
+      "modelName": "GALAXY MK I VAN (WGR)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2006-03-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "83,0"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "111,2"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with gasket/seal"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "23"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "9,5"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "9,50"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "12,00"
+    },
+    {
+      "criteriaName": "Inner Diameter 3 [mm]",
+      "criteriaValue": "39,2"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "77"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "0001801509"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "021115403D"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "021115403D"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "021115403D"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "021115561B"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "021115561B"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "021115561B"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "021115561B O.D."
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "021115561BOD"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "021115561BOD"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "021115562A"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "021115562A"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "021115562A"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "021115562A"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "021115562A"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "05015171AA"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "07C115562"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "07C115562"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "07C115562"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "07C115562"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "07C115562"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "1025629"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "1041800609"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "1041841025"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "5015171AA"
+    },
+    {
+      "oemBrand": "JEEP",
+      "oemDisplayNo": "5015171AA"
+    },
+    {
+      "oemBrand": "PORSCHE",
+      "oemDisplayNo": "95510756100"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "95VVV6714AB"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "95VW6714AB"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A0001801509"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A1041800609"
+    },
+    {
+      "oemBrand": "MERCEDES-BENZ",
+      "oemDisplayNo": "A1041841025"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "EFL399"
+    },
+    {
+      "oemBrand": "CHRYSLER",
+      "oemDisplayNo": "K05015171AA"
+    }
+  ],
+  "ean": "4009026075937",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:54:29.888Z"
+}

@@ -1,0 +1,154 @@
+{
+  "articleNo": "263502J001",
+  "articleId": 5606650,
+  "supplier": "BLUE PRINT",
+  "product": "Oil Filter",
+  "originalManufacturer": "HYUNDAI",
+  "matchedArticleNo": "ADBP210118",
+  "vehicles": [
+    {
+      "vehicleId": 142619,
+      "modelId": 40567,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ELANTRA VII Saloon (CN7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143998,
+      "modelId": 40567,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "ELANTRA VII Saloon (CN7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2020-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145604,
+      "modelId": 40545,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "CRETA (SU2_)",
+      "typeEngineName": "2.0 MPi (SU2R)",
+      "constructionIntervalStart": "2021-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145605,
+      "modelId": 40545,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "CRETA (SU2_)",
+      "typeEngineName": "2.0 MPi 4WD (SU2R)",
+      "constructionIntervalStart": "2021-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145950,
+      "modelId": 42553,
+      "manufacturerName": "KIA",
+      "modelName": "SPORTAGE V (NQ5)",
+      "typeEngineName": "2.0 MPI",
+      "constructionIntervalStart": "2021-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146245,
+      "modelId": 38087,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (OS, OSE, OSI)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 146246,
+      "modelId": 38087,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (OS, OSE, OSI)",
+      "typeEngineName": "2.0 4WD",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 155316,
+      "modelId": 44235,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "KONA (SX2)",
+      "typeEngineName": "2.0 MPi",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144327,
+      "modelId": 41629,
+      "manufacturerName": "HYUNDAI",
+      "modelName": "TUCSON (NX4E, NX4A)",
+      "typeEngineName": "2.0 MPI",
+      "constructionIntervalStart": "2021-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "64"
+    },
+    {
+      "criteriaName": "Weight [kg]",
+      "criteriaValue": "0,055"
+    },
+    {
+      "criteriaName": "Inner Diameter [mm]",
+      "criteriaValue": "25"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "66"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with gasket/seal"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with fastening/mounting material"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Observe service information",
+      "criteriaValue": ""
+    },
+    {
+      "criteriaName": "Gasket inside diameter [mm]",
+      "criteriaValue": "73,5"
+    },
+    {
+      "criteriaName": "Gasket outside diameter [mm]",
+      "criteriaValue": "79,9"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26350-2J000"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "26350-2J000"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26350-2J001"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "26350-2J001"
+    }
+  ],
+  "ean": "5057746340292",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:27:27.382Z"
+}

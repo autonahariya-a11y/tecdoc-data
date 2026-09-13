@@ -1,0 +1,66 @@
+{
+  "articleNo": "1651084M00",
+  "articleId": 78308,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "SUZUKI",
+  "matchedArticleNo": "0 986 AF0 328",
+  "vehicles": [
+    {
+      "vehicleId": 139061,
+      "modelId": 40273,
+      "manufacturerName": "SUZUKI",
+      "modelName": "HUSTLER (MR52_, MR92_)",
+      "typeEngineName": "0.7 HYBRID",
+      "constructionIntervalStart": "2020-01-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "50"
+    },
+    {
+      "criteriaName": "Diameter 1 [mm]",
+      "criteriaValue": "62,7"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "65,2"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-4A00C"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-65L00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-84M00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-84MA0"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "1A03-14-300"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MQ508007"
+    }
+  ],
+  "ean": "",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:19:47.935Z"
+}

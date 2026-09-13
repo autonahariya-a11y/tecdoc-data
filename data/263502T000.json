@@ -1,0 +1,90 @@
+{
+  "articleNo": "263502T000",
+  "articleId": 60477521,
+  "supplier": "RYCO",
+  "product": "Oil Filter",
+  "originalManufacturer": "HYUNDAI",
+  "matchedArticleNo": "R2959P",
+  "vehicles": [
+    {
+      "vehicleId": 142078,
+      "modelId": 41242,
+      "manufacturerName": "GENESIS",
+      "modelName": "GV80 SUV (JX1)",
+      "typeEngineName": "2.5 T-GDi",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142079,
+      "modelId": 41242,
+      "manufacturerName": "GENESIS",
+      "modelName": "GV80 SUV (JX1)",
+      "typeEngineName": "2.5 T-GDi AWD",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144941,
+      "modelId": 42129,
+      "manufacturerName": "GENESIS",
+      "modelName": "GV70 (JK1)",
+      "typeEngineName": "2.5 AWD",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145513,
+      "modelId": 42129,
+      "manufacturerName": "GENESIS",
+      "modelName": "GV70 (JK1)",
+      "typeEngineName": "2.5",
+      "constructionIntervalStart": "2021-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145767,
+      "modelId": 42637,
+      "manufacturerName": "GENESIS",
+      "modelName": "G80 (RG)",
+      "typeEngineName": "2.5 T-GDI (RG3)",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "65,5"
+    },
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "66"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "118"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "for conversion kit, filter cartridge"
+    },
+    {
+      "criteriaName": "Inner Diameter 1 [mm]",
+      "criteriaValue": "19,5"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "25,5"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "263502T000"
+    }
+  ],
+  "ean": "9312835007903",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:28:48.557Z"
+}

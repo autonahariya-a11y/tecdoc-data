@@ -1,0 +1,940 @@
+{
+  "articleNo": "152081HC0A",
+  "articleId": 777000,
+  "supplier": "ASHIKA",
+  "product": "Oil Filter",
+  "originalManufacturer": "NISSAN",
+  "matchedArticleNo": "10-00-018",
+  "vehicles": [
+    {
+      "vehicleId": 24427,
+      "modelId": 6707,
+      "manufacturerName": "AIXAM",
+      "modelName": "500 Hatchback",
+      "typeEngineName": "0.5 D",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2004-03-01"
+    },
+    {
+      "vehicleId": 24428,
+      "modelId": 6708,
+      "manufacturerName": "AIXAM",
+      "modelName": "A.721",
+      "typeEngineName": "0.4 D",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24429,
+      "modelId": 6709,
+      "manufacturerName": "AIXAM",
+      "modelName": "A.741",
+      "typeEngineName": "0.4 D",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 24430,
+      "modelId": 6710,
+      "manufacturerName": "AIXAM",
+      "modelName": "A.751",
+      "typeEngineName": "0.5 D",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 100181,
+      "modelId": 11664,
+      "manufacturerName": "AIXAM",
+      "modelName": "SCOUTY Convertible",
+      "typeEngineName": "0.4",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 132441,
+      "modelId": 38881,
+      "manufacturerName": "AIXAM",
+      "modelName": "500 Convertible",
+      "typeEngineName": "0.5 D",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2007-07-01"
+    },
+    {
+      "vehicleId": 132442,
+      "modelId": 38882,
+      "manufacturerName": "AIXAM",
+      "modelName": "500 Estate Van",
+      "typeEngineName": "0.5",
+      "constructionIntervalStart": "1990-10-01",
+      "constructionIntervalEnd": "1996-09-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Manufacturer Restriction",
+      "criteriaValue": "KUBOTA engines"
+    },
+    {
+      "criteriaName": "Length [mm]",
+      "criteriaValue": "71"
+    },
+    {
+      "criteriaName": "Internal Thread [mm]",
+      "criteriaValue": "M 20X1,5"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "65"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Fitted Diameter [mm]",
+      "criteriaValue": "61"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "0 B631 14 302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0222-14300"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0222-23420-A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0259-14300"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0324-14300"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0370-23802"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0370-23803"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0778-23802"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0813-23802-A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0813-23802-B"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0866-23802"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "0FE3R-14302"
+    },
+    {
+      "oemBrand": "AMMANN",
+      "oemDisplayNo": "1-954075"
+    },
+    {
+      "oemBrand": "CATERPILLAR",
+      "oemDisplayNo": "1041426"
+    },
+    {
+      "oemBrand": "CATERPILLAR",
+      "oemDisplayNo": "1041427"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "11713228"
+    },
+    {
+      "oemBrand": "YANMAR",
+      "oemDisplayNo": "119305-35150"
+    },
+    {
+      "oemBrand": "KOMATSU",
+      "oemDisplayNo": "119305-35151"
+    },
+    {
+      "oemBrand": "YANMAR",
+      "oemDisplayNo": "119305-35151"
+    },
+    {
+      "oemBrand": "YANMAR",
+      "oemDisplayNo": "119305-35170"
+    },
+    {
+      "oemBrand": "YANMAR",
+      "oemDisplayNo": "11930535160"
+    },
+    {
+      "oemBrand": "YANMAR",
+      "oemDisplayNo": "11966035150E"
+    },
+    {
+      "oemBrand": "ONAN",
+      "oemDisplayNo": "122-0827"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "15 20 865 F0A"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "15 20 880 66R"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "15 20 89F 60A"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "15 20 8ED 50A"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15205-65F00"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-00Q1K"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-1HC0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-31000"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-31U00"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-31U01"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-3J400"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-3J400XX"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-65F00"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "15208-65F00"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-65F01"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "15208-65F01"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "15208-65F01"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-65F0A"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "15208-65F0A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-65F0B"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "15208-65F0B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-65F0C"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-65F0D"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-65F0E"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-65F10"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-65F1B"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-7B000"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-9E000"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-9E01A"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-9F600"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-9F60A"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA020"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA021"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA022"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA023"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA024"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA030"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA060"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "15208-AA080"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA080"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA100"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-AA12A"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "15208-ED50A"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-KA000"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-KA010"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-KA011"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "15208-KA012"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "1520865F0C"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "1520865F0D"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "1520865F0E"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "1520865F1B"
+    },
+    {
+      "oemBrand": "DONGFENG FENGDU",
+      "oemDisplayNo": "152089E000"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PFB-004"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PFB-007"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PFB-014"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PJ7-005"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-PJ7-015"
+    },
+    {
+      "oemBrand": "HONDA",
+      "oemDisplayNo": "15400-ZZ3-003"
+    },
+    {
+      "oemBrand": "HINO",
+      "oemDisplayNo": "15607-1920"
+    },
+    {
+      "oemBrand": "HINO",
+      "oemDisplayNo": "156072060"
+    },
+    {
+      "oemBrand": "KUBOTA",
+      "oemDisplayNo": "15853-32430"
+    },
+    {
+      "oemBrand": "KUBOTA",
+      "oemDisplayNo": "15853-99179"
+    },
+    {
+      "oemBrand": "KUBOTA",
+      "oemDisplayNo": "1585332439"
+    },
+    {
+      "oemBrand": "DITCH WITCH",
+      "oemDisplayNo": "159209"
+    },
+    {
+      "oemBrand": "GEHL",
+      "oemDisplayNo": "164079"
+    },
+    {
+      "oemBrand": "SUZUKI (CHANGAN)",
+      "oemDisplayNo": "16510-81420"
+    },
+    {
+      "oemBrand": "SUZUKI (CHANGAN)",
+      "oemDisplayNo": "16510-81420-000"
+    },
+    {
+      "oemBrand": "CATERPILLAR",
+      "oemDisplayNo": "1704472"
+    },
+    {
+      "oemBrand": "ONAN",
+      "oemDisplayNo": "185-2123"
+    },
+    {
+      "oemBrand": "ONAN",
+      "oemDisplayNo": "1857444"
+    },
+    {
+      "oemBrand": "ONAN",
+      "oemDisplayNo": "1871000"
+    },
+    {
+      "oemBrand": "GEHL",
+      "oemDisplayNo": "194315"
+    },
+    {
+      "oemBrand": "DITCH WITCH",
+      "oemDisplayNo": "194691"
+    },
+    {
+      "oemBrand": "DITCH WITCH",
+      "oemDisplayNo": "194692"
+    },
+    {
+      "oemBrand": "CATERPILLAR",
+      "oemDisplayNo": "199-2239"
+    },
+    {
+      "oemBrand": "INGERSOLL-RAND",
+      "oemDisplayNo": "22226351"
+    },
+    {
+      "oemBrand": "CATERPILLAR",
+      "oemDisplayNo": "2230294"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "26 3000 2500"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "26300 2Y500"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26300-02500"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26300-02501"
+    },
+    {
+      "oemBrand": "KIA",
+      "oemDisplayNo": "26300-02501"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26300-2Y500"
+    },
+    {
+      "oemBrand": "KIA (DYK)",
+      "oemDisplayNo": "26300-2Y500"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26300-35004"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "26300-35014"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "263202"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "30A40-00201"
+    },
+    {
+      "oemBrand": "AGCO",
+      "oemDisplayNo": "330148296"
+    },
+    {
+      "oemBrand": "CATERPILLAR",
+      "oemDisplayNo": "376-9707"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "42033-5400"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "42033-5410"
+    },
+    {
+      "oemBrand": "SUBARU",
+      "oemDisplayNo": "42033-5500"
+    },
+    {
+      "oemBrand": "DITCH WITCH",
+      "oemDisplayNo": "451251"
+    },
+    {
+      "oemBrand": "DITCH WITCH",
+      "oemDisplayNo": "452410"
+    },
+    {
+      "oemBrand": "DITCH WITCH",
+      "oemDisplayNo": "456993"
+    },
+    {
+      "oemBrand": "DITCH WITCH",
+      "oemDisplayNo": "460612"
+    },
+    {
+      "oemBrand": "HITACHI",
+      "oemDisplayNo": "4661289"
+    },
+    {
+      "oemBrand": "DOOSAN",
+      "oemDisplayNo": "47100077"
+    },
+    {
+      "oemBrand": "DYNAPAC",
+      "oemDisplayNo": "4812313371"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "4899-14300"
+    },
+    {
+      "oemBrand": "INGERSOLL-RAND",
+      "oemDisplayNo": "54477096"
+    },
+    {
+      "oemBrand": "INGERSOLL-RAND",
+      "oemDisplayNo": "54647680"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "5864015150"
+    },
+    {
+      "oemBrand": "INGERSOLL-RAND",
+      "oemDisplayNo": "58966706"
+    },
+    {
+      "oemBrand": "INGERSOLL-RAND",
+      "oemDisplayNo": "59406074"
+    },
+    {
+      "oemBrand": "MELROE",
+      "oemDisplayNo": "7018608"
+    },
+    {
+      "oemBrand": "MELROE",
+      "oemDisplayNo": "7025590"
+    },
+    {
+      "oemBrand": "SPERRY NEW HOLLAND",
+      "oemDisplayNo": "72276226"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "77 01 068 766"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "7701 053 054"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-93156-750-0"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-93156-998-0"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-94314263-2"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-94411-084-0"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-94430-411-2"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-97140-666-0"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "8173-23802"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "86 71 004 310"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "894135741"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8943142633"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "89441108401"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "894456741"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "8FG1-23802"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "8FG1-23802-9A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "8FG12-3803"
+    },
+    {
+      "oemBrand": "YALE",
+      "oemDisplayNo": "901281813"
+    },
+    {
+      "oemBrand": "HITACHI",
+      "oemDisplayNo": "948404"
+    },
+    {
+      "oemBrand": "DOOSAN",
+      "oemDisplayNo": "A403646"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "A5208-9F60A-RV"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "A5208-9F60A-VA"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 359-14302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 630-14-302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 631-14-302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 651-14302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 6Y0-14300"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 6Y1-14302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 6Y1-14302-9A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 6Y1-14302-A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 6Y1-14302-A9A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 6YI-14302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "B 6YL-14302"
+    },
+    {
+      "oemBrand": "HAIMA (ZHENGZHOU)",
+      "oemDisplayNo": "B63114302AL1"
+    },
+    {
+      "oemBrand": "HAIMA (ZHENGZHOU)",
+      "oemDisplayNo": "B6Y1-14-302A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "F 2Y0-14302-A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "F 802-23802"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "F 802-23802-9A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "F EY0-14302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "F EY0-143029 A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "F EYO-14302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "F EYO-14302-9A"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "H E19-23802"
+    },
+    {
+      "oemBrand": "KUBOTA",
+      "oemDisplayNo": "HH150-32430"
+    },
+    {
+      "oemBrand": "NISSAN",
+      "oemDisplayNo": "KEY1V00001"
+    },
+    {
+      "oemBrand": "HITACHI",
+      "oemDisplayNo": "LMD135737"
+    },
+    {
+      "oemBrand": "JOHN DEERE",
+      "oemDisplayNo": "M801209"
+    },
+    {
+      "oemBrand": "JOHN DEERE",
+      "oemDisplayNo": "M806418"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "MAM0117"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MD 348631"
+    },
+    {
+      "oemBrand": "JOHN DEERE",
+      "oemDisplayNo": "MIA11714"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MQ 004802"
+    },
+    {
+      "oemBrand": "MITSUBISHI",
+      "oemDisplayNo": "MQ007389"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "N 231-23802"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "N 350-14302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "N 3Y6-14302"
+    },
+    {
+      "oemBrand": "KIA (DYK)",
+      "oemDisplayNo": "OB63114302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "P EY0-14302"
+    },
+    {
+      "oemBrand": "MAZDA",
+      "oemDisplayNo": "P EYO-14302"
+    },
+    {
+      "oemBrand": "GEHL",
+      "oemDisplayNo": "P700113"
+    },
+    {
+      "oemBrand": "HINO",
+      "oemDisplayNo": "S156072060"
+    },
+    {
+      "oemBrand": "KOBELCO",
+      "oemDisplayNo": "S19100-66001-1"
+    },
+    {
+      "oemBrand": "KOBELCO",
+      "oemDisplayNo": "S19100650011"
+    },
+    {
+      "oemBrand": "JOHN DEERE",
+      "oemDisplayNo": "TY22045"
+    },
+    {
+      "oemBrand": "JOHN DEERE",
+      "oemDisplayNo": "TY26276"
+    },
+    {
+      "oemBrand": "JOHN DEERE",
+      "oemDisplayNo": "TY26277"
+    },
+    {
+      "oemBrand": "KUBOTA",
+      "oemDisplayNo": "W21ES-O1500"
+    },
+    {
+      "oemBrand": "KUBOTA",
+      "oemDisplayNo": "W9503-11001"
+    },
+    {
+      "oemBrand": "HYUNDAI",
+      "oemDisplayNo": "XJAU00153"
+    },
+    {
+      "oemBrand": "CASE IH",
+      "oemDisplayNo": "XJBR04344"
+    },
+    {
+      "oemBrand": "YANMAR",
+      "oemDisplayNo": "Y12915035151"
+    },
+    {
+      "oemBrand": "KOMATSU",
+      "oemDisplayNo": "YM119305-35150"
+    },
+    {
+      "oemBrand": "KOMATSU",
+      "oemDisplayNo": "YM11930535151"
+    },
+    {
+      "oemBrand": "YANMAR",
+      "oemDisplayNo": "YM11930535151"
+    },
+    {
+      "oemBrand": "KOMATSU",
+      "oemDisplayNo": "YM119660-35150"
+    },
+    {
+      "oemBrand": "FORD",
+      "oemDisplayNo": "Z6Y1-14-302A"
+    },
+    {
+      "oemBrand": "FORD (CHANGAN)",
+      "oemDisplayNo": "Z6Y1-14-302A"
+    }
+  ],
+  "ean": "8033001785036",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:14:33.493Z"
+}

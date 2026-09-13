@@ -1,0 +1,732 @@
+{
+  "articleNo": "OX 341D",
+  "articleId": 8357514,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 16732,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4 FSI",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 17174,
+      "modelId": 4954,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (1T1, 1T2)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2007-01-01"
+    },
+    {
+      "vehicleId": 17578,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2003-08-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 17645,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2008-07-01"
+    },
+    {
+      "vehicleId": 17743,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 FSI",
+      "constructionIntervalStart": "2003-10-01",
+      "constructionIntervalEnd": "2006-07-01"
+    },
+    {
+      "vehicleId": 17974,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18068,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2007-09-01"
+    },
+    {
+      "vehicleId": 18247,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2004-02-01",
+      "constructionIntervalEnd": "2008-10-01"
+    },
+    {
+      "vehicleId": 18391,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2004-12-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 18520,
+      "modelId": 5398,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 (3C2)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18666,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 18726,
+      "modelId": 5427,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 Variant (3C5)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18920,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2005-11-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 18971,
+      "modelId": 5457,
+      "manufacturerName": "VW",
+      "modelName": "EOS (1F7, 1F8)",
+      "typeEngineName": "1.6 FSI",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 19466,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19467,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 19469,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 19698,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 19706,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 19707,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-07-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 20056,
+      "modelId": 4961,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6L2)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 20057,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 22554,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 22557,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 FSI",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 23195,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 24252,
+      "modelId": 5074,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2010-08-01"
+    },
+    {
+      "vehicleId": 28252,
+      "modelId": 7588,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II (3T4)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 31043,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.4",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 31112,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2012-03-01"
+    },
+    {
+      "vehicleId": 31113,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-07-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 32783,
+      "modelId": 8495,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB II Estate (3T5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2009-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 56779,
+      "modelId": 10734,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (5F1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2012-11-01",
+      "constructionIntervalEnd": "2016-10-01"
+    },
+    {
+      "vehicleId": 59836,
+      "modelId": 11307,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV Saloon (9N2, 9N4)",
+      "typeEngineName": "1.6 16V",
+      "constructionIntervalStart": "2007-08-01",
+      "constructionIntervalEnd": "2010-04-01"
+    },
+    {
+      "vehicleId": 119216,
+      "modelId": 8609,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV ST (6J8, 6P8)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2012-02-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 122653,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 133133,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2006-06-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 133527,
+      "modelId": 39067,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VAN VI Variant (AJ5)",
+      "typeEngineName": "1.4 TSi",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2012-10-01"
+    },
+    {
+      "vehicleId": 143051,
+      "modelId": 41679,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN VAN (1T1, 1T2)",
+      "typeEngineName": "FSI",
+      "constructionIntervalStart": "2003-02-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 19275,
+      "modelId": 5507,
+      "manufacturerName": "SKODA",
+      "modelName": "ROOMSTER (5J7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-09-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 22947,
+      "modelId": 6363,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II (542)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 23167,
+      "modelId": 6395,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA II Combi (545)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 19651,
+      "modelId": 4954,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (1T1, 1T2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 23162,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 23163,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 23164,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 26581,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.4 TFSI",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 26582,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.4 TFSI",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 27540,
+      "modelId": 5427,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 Variant (3C5)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 27544,
+      "modelId": 5398,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 (3C2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 28173,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 23182,
+      "modelId": 6397,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (5N_)",
+      "typeEngineName": "1.4 TSI 4motion",
+      "constructionIntervalStart": "2007-09-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 29996,
+      "modelId": 6397,
+      "manufacturerName": "VW",
+      "modelName": "TIGUAN (5N_)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2008-05-01",
+      "constructionIntervalEnd": "2018-07-01"
+    },
+    {
+      "vehicleId": 23295,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-05-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 24240,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 24241,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2015-07-01"
+    },
+    {
+      "vehicleId": 27994,
+      "modelId": 4954,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (1T1, 1T2)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 31096,
+      "modelId": 5457,
+      "manufacturerName": "VW",
+      "modelName": "EOS (1F7, 1F8)",
+      "typeEngineName": "1.4 TSI",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "65,0"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "72,0"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with gasket/seal"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "33"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "7,0"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "7,00"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "8,00"
+    },
+    {
+      "criteriaName": "Inner Diameter 3 [mm]",
+      "criteriaValue": "9,5"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "36"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C109210G"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C109210G"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C109210G"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C109210N"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C109210N"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C109210N"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C115403A"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C115403A"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C115403A"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C115403B"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C115403B"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C115403B"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C115403C"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C115403C"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C115403C"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C115403D"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C115403D"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C115403D"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C115403E"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C115403E"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C115403E"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C115403F"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C115403F"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C115403F"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C115562"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "03C115562"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "03C115562"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C115562"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C115562"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "03C115577A"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "03C115577A"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "03C115577A"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "3C115403A"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "3C115403A"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "3C115403A"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "3C115403B"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "3C115403B"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "3C115403B"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "3C115403D"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "3C115403D"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "3C115403D"
+    }
+  ],
+  "ean": "4009026509142",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T05:04:27.916Z"
+}

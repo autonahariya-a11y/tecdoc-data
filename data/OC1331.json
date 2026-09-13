@@ -1,0 +1,123 @@
+{
+  "articleNo": "OC 1331",
+  "articleId": 8309352,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 26235,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.8 TBi (940FXR11)",
+      "constructionIntervalStart": "2013-09-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 33300,
+      "modelId": 8603,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "GIULIETTA (940_)",
+      "typeEngineName": "1.8 TBi (940FXC1A)",
+      "constructionIntervalStart": "2010-04-01",
+      "constructionIntervalEnd": "2016-02-01"
+    },
+    {
+      "vehicleId": 59048,
+      "modelId": 11241,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "4C (960_)",
+      "typeEngineName": "1.8 (960.CXB1A)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2020-12-01"
+    },
+    {
+      "vehicleId": 108275,
+      "modelId": 13239,
+      "manufacturerName": "ALFA ROMEO",
+      "modelName": "4C SPIDER (960_)",
+      "typeEngineName": "1.8 (960.DXB1A, 960CXB1A)",
+      "constructionIntervalStart": "2014-10-01",
+      "constructionIntervalEnd": "2020-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "65,0"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "100,5"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "M20x1,5"
+    },
+    {
+      "criteriaName": "Sealing Ring Diameter [mm]",
+      "criteriaValue": "55,3"
+    },
+    {
+      "criteriaName": "Diameter 2 [mm]",
+      "criteriaValue": "62,5"
+    },
+    {
+      "criteriaName": "Tightening Torque [Nm]",
+      "criteriaValue": "20"
+    },
+    {
+      "criteriaName": "Valve Type",
+      "criteriaValue": "Overflow Valve"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "with one anti-return valve"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "7,1"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "7,10"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "10,50"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "246"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "552484810"
+    },
+    {
+      "oemBrand": "ALFA ROMEO",
+      "oemDisplayNo": "55252436"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "55252436"
+    },
+    {
+      "oemBrand": "ALFA ROMEO",
+      "oemDisplayNo": "55256371"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "55256371"
+    }
+  ],
+  "ean": "4009026963609",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:40:38.066Z"
+}

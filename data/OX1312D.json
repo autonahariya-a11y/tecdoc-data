@@ -1,0 +1,155 @@
+{
+  "articleNo": "OX 1312D",
+  "articleId": 8357303,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 131104,
+      "modelId": 38232,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC40 (536)",
+      "typeEngineName": "T3",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": "2019-03-01"
+    },
+    {
+      "vehicleId": 132297,
+      "modelId": 38338,
+      "manufacturerName": "LYNK & CO",
+      "modelName": "01",
+      "typeEngineName": "PHEV",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134832,
+      "modelId": 39293,
+      "manufacturerName": "LEVC",
+      "modelName": "TX (HRE)",
+      "typeEngineName": "eCity",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136207,
+      "modelId": 38232,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC40 (536)",
+      "typeEngineName": "T3",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 136722,
+      "modelId": 38232,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC40 (536)",
+      "typeEngineName": "T5 Plug-in Hybrid",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136833,
+      "modelId": 38232,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC40 (536)",
+      "typeEngineName": "T2",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140943,
+      "modelId": 38232,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC40 (536)",
+      "typeEngineName": "T4 Plug-in Hybrid",
+      "constructionIntervalStart": "2020-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143452,
+      "modelId": 38232,
+      "manufacturerName": "VOLVO",
+      "modelName": "XC40 (536)",
+      "typeEngineName": "T3",
+      "constructionIntervalStart": "2020-12-01",
+      "constructionIntervalEnd": "2022-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "4,0"
+    },
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "82,0"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "93,0"
+    },
+    {
+      "criteriaName": "Sealing Ring Diameter [mm]",
+      "criteriaValue": "91,0"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with gaskets/seals"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "44"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "8,6"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "8,60"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "10,10"
+    },
+    {
+      "criteriaName": "Inner Diameter 3 [mm]",
+      "criteriaValue": "23,7"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "76"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "GEELY",
+      "oemDisplayNo": "1056022300"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "32257013"
+    },
+    {
+      "oemBrand": "VOLVO",
+      "oemDisplayNo": "32257123"
+    },
+    {
+      "oemBrand": "GEELY",
+      "oemDisplayNo": "55016601058"
+    },
+    {
+      "oemBrand": "GEELY",
+      "oemDisplayNo": "5501660108"
+    }
+  ],
+  "ean": "4057635183024",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:50:58.680Z"
+}

@@ -1,0 +1,317 @@
+{
+  "articleNo": "1109AL",
+  "articleId": 50161,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "CITROËN",
+  "matchedArticleNo": "0 451 103 355",
+  "vehicles": [
+    {
+      "vehicleId": 57985,
+      "modelId": 400,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "405 II (4B)",
+      "typeEngineName": "1.9 D",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "1999-11-01"
+    },
+    {
+      "vehicleId": 17548,
+      "modelId": 4172,
+      "manufacturerName": "CITROËN",
+      "modelName": "XSARA PICASSO (N68)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2012-06-01"
+    },
+    {
+      "vehicleId": 9466,
+      "modelId": 3555,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "206 Hatchback (2A/C)",
+      "typeEngineName": "1.4 i",
+      "constructionIntervalStart": "1998-09-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 100835,
+      "modelId": 11292,
+      "manufacturerName": "PEUGEOT",
+      "modelName": "308 II (LB_, LP_, LW_, LH_, L3_)",
+      "typeEngineName": "1.2 THP 130",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2021-06-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "89"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "M 20 x 1,5"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "76"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "with one anti-return valve"
+    },
+    {
+      "criteriaName": "Bypass Valve Opening Pressure [bar]",
+      "criteriaValue": "1,5"
+    },
+    {
+      "criteriaName": "Gasket inside diameter [mm]",
+      "criteriaValue": "62"
+    },
+    {
+      "criteriaName": "Gasket outside diameter [mm]",
+      "criteriaValue": "71"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "000110938"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1109 AL"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "1109 AL"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1109 AL"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1109 R0"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1109 R1"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1109 R1"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1109 T0"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1109 T0"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1109 T1"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1109 T1"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1109 X1"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1109 X1"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "1109 X2"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "1109 X2"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "1109AL"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 66G00 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 66G02 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510 86Z00 000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-66G00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-66G02"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "16510-86Z00"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1651086CA0"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1651086CA0000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1651086CB0"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1651086CB0000"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1651086CB1"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "1651086CB1000"
+    },
+    {
+      "oemBrand": "DAF",
+      "oemDisplayNo": "1667695"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "36 47 177"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "36 47 177"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "3647177"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "50 21 185 404"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "8456183480"
+    },
+    {
+      "oemBrand": "RENAULT",
+      "oemDisplayNo": "86 71 004 329"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "9456183480"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "9456183480"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "9456203480"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "9456203480"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "9456203580"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "9456203580"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "96 371 434"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "96 371 434 80"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "96 448 854 80"
+    },
+    {
+      "oemBrand": "SUZUKI",
+      "oemDisplayNo": "990009900C100"
+    },
+    {
+      "oemBrand": "CITROËN",
+      "oemDisplayNo": "E149102"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "E149102"
+    },
+    {
+      "oemBrand": "PEUGEOT",
+      "oemDisplayNo": "E149134"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K8456183480"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K9456183480"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "K9456183480"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K9456203480"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "K9456203480"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K9456203580"
+    },
+    {
+      "oemBrand": "LANCIA",
+      "oemDisplayNo": "K9456203580"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "SU00100453"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "SU00101084"
+    }
+  ],
+  "ean": "3165143333242",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:13:23.270Z"
+}

@@ -1,0 +1,460 @@
+{
+  "articleNo": "OX 1137D",
+  "articleId": 8357149,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 11330,
+      "modelId": 9717,
+      "manufacturerName": "OPEL",
+      "modelName": "ZAFIRA TOURER C (P12)",
+      "typeEngineName": "2.0 CDTi (75)",
+      "constructionIntervalStart": "2011-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 109270,
+      "modelId": 7581,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A (G09)",
+      "typeEngineName": "2.0 CDTI (68)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 109271,
+      "modelId": 7581,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A (G09)",
+      "typeEngineName": "2.0 CDTI 4x4 (68)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 109272,
+      "modelId": 7582,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Saloon (G09)",
+      "typeEngineName": "2.0 CDTI 4x4 (69)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 109273,
+      "modelId": 7582,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Saloon (G09)",
+      "typeEngineName": "2.0 CDTI (69)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 109274,
+      "modelId": 7861,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Sports Tourer (G09)",
+      "typeEngineName": "2.0 CDTI (35)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 109275,
+      "modelId": 7861,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Sports Tourer (G09)",
+      "typeEngineName": "2.0 CDTI 4x4 (35)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 109354,
+      "modelId": 7862,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Hatchback (G09)",
+      "typeEngineName": "2.0 CDTI (68)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 109355,
+      "modelId": 7862,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Hatchback (G09)",
+      "typeEngineName": "2.0 CDTI 4x4 (68)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 109357,
+      "modelId": 7599,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Saloon (G09)",
+      "typeEngineName": "2.0 CDTI (69)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 109358,
+      "modelId": 7599,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Saloon (G09)",
+      "typeEngineName": "2.0 CDTI 4x4 (69)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 109359,
+      "modelId": 7863,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Sports Tourer (G09)",
+      "typeEngineName": "2.0 CDTI (35)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 109360,
+      "modelId": 7863,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Sports Tourer (G09)",
+      "typeEngineName": "2.0 CDTI 4x4 (35)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 109996,
+      "modelId": 9738,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ZAFIRA Mk III (P12)",
+      "typeEngineName": "2.0 CDTi (75)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 110025,
+      "modelId": 9717,
+      "manufacturerName": "OPEL",
+      "modelName": "ZAFIRA TOURER C (P12)",
+      "typeEngineName": "2.0 CDTi (75)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115677,
+      "modelId": 11177,
+      "manufacturerName": "OPEL",
+      "modelName": "CASCADA (W13)",
+      "typeEngineName": "2.0 CDTI (67)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 115844,
+      "modelId": 10971,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "CASCADA Convertible (W13)",
+      "typeEngineName": "2.0 CDTI",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 118608,
+      "modelId": 5548,
+      "manufacturerName": "OPEL",
+      "modelName": "ANTARA A (L07)",
+      "typeEngineName": "2.0 CDTI",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2017-08-01"
+    },
+    {
+      "vehicleId": 118609,
+      "modelId": 5548,
+      "manufacturerName": "OPEL",
+      "modelName": "ANTARA A (L07)",
+      "typeEngineName": "2.0 CDTI 4x4",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2017-08-01"
+    },
+    {
+      "vehicleId": 126600,
+      "modelId": 37800,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Grand Sport (Z18)",
+      "typeEngineName": "2.0 CDTi (68)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126601,
+      "modelId": 37800,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Grand Sport (Z18)",
+      "typeEngineName": "2.0 GSi 4x4 (68)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126615,
+      "modelId": 37807,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Sports Tourer (Z18)",
+      "typeEngineName": "2.0 CDTi (35)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126616,
+      "modelId": 37807,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Sports Tourer (Z18)",
+      "typeEngineName": "2.0 GSi 4x4 (35)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126635,
+      "modelId": 37812,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Hatchback (Z18)",
+      "typeEngineName": "2.0 D (68)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126639,
+      "modelId": 37813,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Sports Tourer (Z18)",
+      "typeEngineName": "2.0 D (35)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127507,
+      "modelId": 37800,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Grand Sport (Z18)",
+      "typeEngineName": "2.0 CDTi 4x4 (68)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127508,
+      "modelId": 37807,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Sports Tourer (Z18)",
+      "typeEngineName": "2.0 CDTi 4x4 (35)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128676,
+      "modelId": 38225,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Country Tourer (G09)",
+      "typeEngineName": "2.0 CDTi (47)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 128677,
+      "modelId": 38225,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Country Tourer (G09)",
+      "typeEngineName": "2.0 CDTi 4x4 (47)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 128740,
+      "modelId": 38230,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Country Tourer (G09)",
+      "typeEngineName": "2.0 CDTI (47)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 128744,
+      "modelId": 38230,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Country Tourer (G09)",
+      "typeEngineName": "2.0 CDTI 4x4 (47)",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 128752,
+      "modelId": 38231,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Country Tourer (Z18)",
+      "typeEngineName": "2.0 D (47)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128753,
+      "modelId": 38231,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Country Tourer (Z18)",
+      "typeEngineName": "2.0 D 4x4 (47)",
+      "constructionIntervalStart": "2017-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128769,
+      "modelId": 37812,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Hatchback (Z18)",
+      "typeEngineName": "2.0 GSi 4x4 (68)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128770,
+      "modelId": 37813,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Sports Tourer (Z18)",
+      "typeEngineName": "2.0 GSi 4x4 (35)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128771,
+      "modelId": 38231,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Country Tourer (Z18)",
+      "typeEngineName": "2.0 GSi 4x4 (47)",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128796,
+      "modelId": 38237,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Country Tourer (Z18)",
+      "typeEngineName": "2.0 CDTi (47)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128797,
+      "modelId": 38237,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Country Tourer (Z18)",
+      "typeEngineName": "2.0 CDTi 4x4 (47)",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 130352,
+      "modelId": 38237,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Country Tourer (Z18)",
+      "typeEngineName": "2.0 GSi 4x4 (47)",
+      "constructionIntervalStart": "2018-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140366,
+      "modelId": 37800,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Grand Sport (Z18)",
+      "typeEngineName": "2.0 CDTi (68)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140367,
+      "modelId": 37800,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Grand Sport (Z18)",
+      "typeEngineName": "2.0 CDTi 4x4 (68)",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "61,0"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "123,0"
+    },
+    {
+      "criteriaName": "Sealing Ring Diameter [mm]",
+      "criteriaValue": "23,5"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with gasket/seal"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "22"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "6,6"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "6,60"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "13,10"
+    },
+    {
+      "criteriaName": "Inner Diameter 3 [mm]",
+      "criteriaValue": "39,8"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "89"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "55595505"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "55595505"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "55595505"
+    },
+    {
+      "oemBrand": "GENERAL MOTORS",
+      "oemDisplayNo": "55595505"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "650212"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "95528277"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "95528277"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "95528277"
+    }
+  ],
+  "ean": "4009026980880",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:46:49.861Z"
+}

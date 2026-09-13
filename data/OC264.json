@@ -1,0 +1,3966 @@
+{
+  "articleNo": "OC 264",
+  "articleId": 8309594,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 1131,
+      "modelId": 31,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B3 Saloon (893, 894, 8A2)",
+      "typeEngineName": "2.0 E 16V",
+      "constructionIntervalStart": "1990-03-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 1141,
+      "modelId": 31,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B3 Saloon (893, 894, 8A2)",
+      "typeEngineName": "2.0 E 16V quattro",
+      "constructionIntervalStart": "1990-03-01",
+      "constructionIntervalEnd": "1991-08-01"
+    },
+    {
+      "vehicleId": 1346,
+      "modelId": 176,
+      "manufacturerName": "AUDI",
+      "modelName": "200 C3 Saloon (447, 448)",
+      "typeEngineName": "2.2 20V Turbo quattro",
+      "constructionIntervalStart": "1989-03-01",
+      "constructionIntervalEnd": "1990-12-01"
+    },
+    {
+      "vehicleId": 1372,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.3 20V quattro",
+      "constructionIntervalStart": "1988-11-01",
+      "constructionIntervalEnd": "1991-07-01"
+    },
+    {
+      "vehicleId": 1492,
+      "modelId": 84,
+      "manufacturerName": "AUDI",
+      "modelName": "90 B3 (893, 894, 8A2)",
+      "typeEngineName": "2.3 E 20V",
+      "constructionIntervalStart": "1990-04-01",
+      "constructionIntervalEnd": "1991-07-01"
+    },
+    {
+      "vehicleId": 1501,
+      "modelId": 84,
+      "manufacturerName": "AUDI",
+      "modelName": "90 B3 (893, 894, 8A2)",
+      "typeEngineName": "2.3 E 20V quattro",
+      "constructionIntervalStart": "1988-06-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 1507,
+      "modelId": 84,
+      "manufacturerName": "AUDI",
+      "modelName": "90 B3 (893, 894, 8A2)",
+      "typeEngineName": "2.3 E 20V quattro",
+      "constructionIntervalStart": "1990-04-01",
+      "constructionIntervalEnd": "1991-09-01"
+    },
+    {
+      "vehicleId": 1523,
+      "modelId": 1940,
+      "manufacturerName": "AUDI",
+      "modelName": "200 C3 Avant (447, 448)",
+      "typeEngineName": "2.2 20V Turbo quattro",
+      "constructionIntervalStart": "1989-07-01",
+      "constructionIntervalEnd": "1990-12-01"
+    },
+    {
+      "vehicleId": 5065,
+      "modelId": 84,
+      "manufacturerName": "AUDI",
+      "modelName": "90 B3 (893, 894, 8A2)",
+      "typeEngineName": "2.3 E 20V",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1991-07-01"
+    },
+    {
+      "vehicleId": 5067,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.3 20V",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1991-07-01"
+    },
+    {
+      "vehicleId": 5081,
+      "modelId": 3910,
+      "manufacturerName": "AUDI",
+      "modelName": "QUATTRO (85)",
+      "typeEngineName": "2.2 20V Turbo",
+      "constructionIntervalStart": "1989-08-01",
+      "constructionIntervalEnd": "1991-07-01"
+    },
+    {
+      "vehicleId": 1362,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1989-05-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 1508,
+      "modelId": 438,
+      "manufacturerName": "AUDI",
+      "modelName": "CABRIOLET B3 (8G7)",
+      "typeEngineName": "2.0 E",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": "1998-07-01"
+    },
+    {
+      "vehicleId": 4613,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1994-11-01",
+      "constructionIntervalEnd": "2000-10-01"
+    },
+    {
+      "vehicleId": 4636,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4637,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4643,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4644,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 5305,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1994-11-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 1365,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.0 16 V",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 1368,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.3 20V",
+      "constructionIntervalStart": "1990-08-01",
+      "constructionIntervalEnd": "1991-07-01"
+    },
+    {
+      "vehicleId": 1373,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "S2 quattro",
+      "constructionIntervalStart": "1990-09-01",
+      "constructionIntervalEnd": "1992-09-01"
+    },
+    {
+      "vehicleId": 1374,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "S2 quattro",
+      "constructionIntervalStart": "1992-10-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 1376,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.3 20V quattro",
+      "constructionIntervalStart": "1990-05-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 1385,
+      "modelId": 19,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Saloon (4A2)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1992-03-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1386,
+      "modelId": 19,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Saloon (4A2)",
+      "typeEngineName": "2.8 E",
+      "constructionIntervalStart": "1990-12-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1387,
+      "modelId": 19,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Saloon (4A2)",
+      "typeEngineName": "S4 Turbo quattro",
+      "constructionIntervalStart": "1991-08-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1389,
+      "modelId": 19,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Saloon (4A2)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1992-04-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1390,
+      "modelId": 19,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Saloon (4A2)",
+      "typeEngineName": "2.8 E quattro",
+      "constructionIntervalStart": "1990-12-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1398,
+      "modelId": 1,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Saloon (8C2)",
+      "typeEngineName": "2.0 E 16V",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 1404,
+      "modelId": 1,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Saloon (8C2)",
+      "typeEngineName": "2.0 E 16V quattro",
+      "constructionIntervalStart": "1992-04-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 1410,
+      "modelId": 1,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Saloon (8C2)",
+      "typeEngineName": "S2 quattro",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 1442,
+      "modelId": 6,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Avant (8C5)",
+      "typeEngineName": "2.0 E 16V",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 1449,
+      "modelId": 36,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Avant (4A5)",
+      "typeEngineName": "S4 Turbo quattro",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1450,
+      "modelId": 36,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Avant (4A5)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1992-03-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1453,
+      "modelId": 36,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Avant (4A5)",
+      "typeEngineName": "2.8 E",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1465,
+      "modelId": 6,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Avant (8C5)",
+      "typeEngineName": "S2 quattro",
+      "constructionIntervalStart": "1993-02-01",
+      "constructionIntervalEnd": "1995-07-01"
+    },
+    {
+      "vehicleId": 1469,
+      "modelId": 36,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Avant (4A5)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1471,
+      "modelId": 36,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Avant (4A5)",
+      "typeEngineName": "2.8 E quattro",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 1653,
+      "modelId": 500,
+      "manufacturerName": "VW",
+      "modelName": "GOLF II (19E, 1G1)",
+      "typeEngineName": "1.8 GTI Cat",
+      "constructionIntervalStart": "1987-01-01",
+      "constructionIntervalEnd": "1991-10-01"
+    },
+    {
+      "vehicleId": 1669,
+      "modelId": 3439,
+      "manufacturerName": "VW",
+      "modelName": "JETTA II (19E, 1G2, 165)",
+      "typeEngineName": "1.8 Cat",
+      "constructionIntervalStart": "1987-01-01",
+      "constructionIntervalEnd": "1991-10-01"
+    },
+    {
+      "vehicleId": 1710,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1988-04-01",
+      "constructionIntervalEnd": "1993-07-01"
+    },
+    {
+      "vehicleId": 1754,
+      "modelId": 3887,
+      "manufacturerName": "VW",
+      "modelName": "CORRADO (53I)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1991-08-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 1908,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1988-04-01",
+      "constructionIntervalEnd": "1990-07-01"
+    },
+    {
+      "vehicleId": 1919,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1993-09-01"
+    },
+    {
+      "vehicleId": 3934,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3935,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 3936,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 3937,
+      "modelId": 3886,
+      "manufacturerName": "VW",
+      "modelName": "VENTO (1H2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 3938,
+      "modelId": 510,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Variant (1H5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1994-07-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 3939,
+      "modelId": 493,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Cabriolet (1E7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1998-02-01"
+    },
+    {
+      "vehicleId": 3965,
+      "modelId": 409,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO I (1L2)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1993-11-01",
+      "constructionIntervalEnd": "1999-03-01"
+    },
+    {
+      "vehicleId": 4502,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 4535,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 4614,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1994-11-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 4619,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 quattro",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 4638,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4645,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4655,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.0 16V quattro",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4658,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "S6 Turbo quattro",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4660,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.0 16V quattro",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4663,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "S6 Turbo quattro",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4665,
+      "modelId": 6,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Avant (8C5)",
+      "typeEngineName": "RS2 quattro",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "1995-05-01"
+    },
+    {
+      "vehicleId": 4683,
+      "modelId": 1312,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7M8, 7M9, 7M6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 4793,
+      "modelId": 3887,
+      "manufacturerName": "VW",
+      "modelName": "CORRADO (53I)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "1993-04-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 5017,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 5020,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-08-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 5123,
+      "modelId": 438,
+      "manufacturerName": "AUDI",
+      "modelName": "CABRIOLET B3 (8G7)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1995-06-01",
+      "constructionIntervalEnd": "1996-07-01"
+    },
+    {
+      "vehicleId": 5272,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "2.0 Syncro (1HX1)",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 5274,
+      "modelId": 510,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Variant (1H5)",
+      "typeEngineName": "2.0 Syncro",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 5301,
+      "modelId": 1482,
+      "manufacturerName": "VW",
+      "modelName": "POLO III CLASSIC (6V2)",
+      "typeEngineName": "100 1.6",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5306,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1996-02-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5313,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 quattro",
+      "constructionIntervalStart": "1996-01-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5318,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 5319,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 5320,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "1.8 quattro",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 5321,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "1.8 quattro",
+      "constructionIntervalStart": "1995-12-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 5590,
+      "modelId": 1551,
+      "manufacturerName": "SEAT",
+      "modelName": "INCA (6K9)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "1998-05-01"
+    },
+    {
+      "vehicleId": 5600,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 5601,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 5602,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1996-12-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 5674,
+      "modelId": 1564,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (7V8, 7V9)",
+      "typeEngineName": "2.0 i",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 5676,
+      "modelId": 93,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6K1, 6K2)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1996-07-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 5677,
+      "modelId": 569,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA II (6K1)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1996-04-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 5724,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5725,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1996-10-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5893,
+      "modelId": 510,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Variant (1H5)",
+      "typeEngineName": "1.8 Syncro",
+      "constructionIntervalStart": "1994-10-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 5949,
+      "modelId": 3887,
+      "manufacturerName": "VW",
+      "modelName": "CORRADO (53I)",
+      "typeEngineName": "1.8 16V",
+      "constructionIntervalStart": "1989-04-01",
+      "constructionIntervalEnd": "1992-07-01"
+    },
+    {
+      "vehicleId": 6030,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.6 E-Power",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 6040,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.6 E-Power",
+      "constructionIntervalStart": "2011-01-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 6055,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2010-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 6139,
+      "modelId": 6,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Avant (8C5)",
+      "typeEngineName": "2.0 E 16V quattro",
+      "constructionIntervalStart": "1992-12-01",
+      "constructionIntervalEnd": "1995-07-01"
+    },
+    {
+      "vehicleId": 7743,
+      "modelId": 438,
+      "manufacturerName": "AUDI",
+      "modelName": "CABRIOLET B3 (8G7)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 7889,
+      "modelId": 93,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6K1, 6K2)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "1999-06-01"
+    },
+    {
+      "vehicleId": 7891,
+      "modelId": 569,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA II (6K1)",
+      "typeEngineName": "2.0 i 16V",
+      "constructionIntervalStart": "1996-08-01",
+      "constructionIntervalEnd": "1999-08-01"
+    },
+    {
+      "vehicleId": 7903,
+      "modelId": 409,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO I (1L2)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1996-11-01",
+      "constructionIntervalEnd": "1999-03-01"
+    },
+    {
+      "vehicleId": 7908,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2000-07-01"
+    },
+    {
+      "vehicleId": 7932,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 7933,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8009,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 8432,
+      "modelId": 1482,
+      "manufacturerName": "VW",
+      "modelName": "POLO III CLASSIC (6V2)",
+      "typeEngineName": "90 1.8",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 8434,
+      "modelId": 1992,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA Vario (6K5)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2002-12-01"
+    },
+    {
+      "vehicleId": 8437,
+      "modelId": 1993,
+      "manufacturerName": "VW",
+      "modelName": "POLO Variant (6V5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 8440,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.8 Syncro/4motion",
+      "constructionIntervalStart": "1996-12-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 8442,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.8 Syncro/4motion",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 8460,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 8800,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 8801,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 8818,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8940,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8958,
+      "modelId": 1312,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7M8, 7M9, 7M6)",
+      "typeEngineName": "1.8 T 20V",
+      "constructionIntervalStart": "1997-09-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 8979,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1998-01-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 9048,
+      "modelId": 1564,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA (7V8, 7V9)",
+      "typeEngineName": "1.8 T 20V",
+      "constructionIntervalStart": "1997-10-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 9057,
+      "modelId": 1993,
+      "manufacturerName": "VW",
+      "modelName": "POLO Variant (6V5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 9399,
+      "modelId": 1996,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Cabriolet (1E7)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2002-06-01"
+    },
+    {
+      "vehicleId": 9400,
+      "modelId": 1996,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Cabriolet (1E7)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2002-06-01"
+    },
+    {
+      "vehicleId": 9515,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 9516,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.8 20V",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2000-07-01"
+    },
+    {
+      "vehicleId": 9602,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.8 4motion",
+      "constructionIntervalStart": "1998-05-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 9679,
+      "modelId": 19,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Saloon (4A2)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 9680,
+      "modelId": 36,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Avant (4A5)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 9681,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 9682,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-02-01"
+    },
+    {
+      "vehicleId": 9753,
+      "modelId": 9118,
+      "manufacturerName": "VW",
+      "modelName": "JETTA IV (162, 163, AV3, AV2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2010-06-01",
+      "constructionIntervalEnd": "2017-12-01"
+    },
+    {
+      "vehicleId": 9901,
+      "modelId": 3851,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8N3)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 9902,
+      "modelId": 3851,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8N3)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 9903,
+      "modelId": 3851,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8N3)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 10000,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 10001,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 10046,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 10047,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.8 20V",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 10052,
+      "modelId": 1996,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Cabriolet (1E7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2002-06-01"
+    },
+    {
+      "vehicleId": 10054,
+      "modelId": 1996,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Cabriolet (1E7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1998-06-01",
+      "constructionIntervalEnd": "2002-06-01"
+    },
+    {
+      "vehicleId": 10174,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 10224,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 10270,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 10465,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1998-10-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 10751,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 10752,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2011-05-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 11240,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1995-03-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 11241,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1995-03-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 11268,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "1999-03-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 11339,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1996-12-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 11340,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1998-12-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 11342,
+      "modelId": 4089,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8N9)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 11343,
+      "modelId": 4089,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8N9)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2000-02-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 11344,
+      "modelId": 4089,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8N9)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 11346,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-08-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 11347,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 11348,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 11349,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 11350,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 11353,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 11363,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 11603,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2002-04-01"
+    },
+    {
+      "vehicleId": 11604,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 11760,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 11779,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1998-07-01",
+      "constructionIntervalEnd": "2004-05-01"
+    },
+    {
+      "vehicleId": 11910,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.0 16 V",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1992-07-01"
+    },
+    {
+      "vehicleId": 12046,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 12103,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 12481,
+      "modelId": 19,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Saloon (4A2)",
+      "typeEngineName": "2.0 E 16V",
+      "constructionIntervalStart": "1992-01-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 12482,
+      "modelId": 19,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Saloon (4A2)",
+      "typeEngineName": "2.0 E 16V quattro",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 13019,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 13085,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 13086,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-04-01",
+      "constructionIntervalEnd": "2007-05-01"
+    },
+    {
+      "vehicleId": 13101,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.8 4motion",
+      "constructionIntervalStart": "1999-02-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 13159,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 13160,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.8 20V",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 13199,
+      "modelId": 569,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA II (6K1)",
+      "typeEngineName": "1.8 T 20V Cupra",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 13202,
+      "modelId": 93,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6K1, 6K2)",
+      "typeEngineName": "1.8 T 20V Cupra",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2002-10-01"
+    },
+    {
+      "vehicleId": 13361,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "RS4 quattro",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 14238,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1999-10-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 14413,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.8 20V T",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14416,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.8 20V T 4",
+      "constructionIntervalStart": "1999-11-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14561,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.8 4motion",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 14565,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.8 4motion",
+      "constructionIntervalStart": "1999-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 14853,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1995-04-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 14856,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 quattro",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 14861,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 14862,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 quattro",
+      "constructionIntervalStart": "1995-07-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 15012,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 15070,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 15071,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 15112,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-06-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 15293,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "RS 1.8 T",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 15414,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15420,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15421,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15422,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15507,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15539,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15542,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15544,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15545,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15585,
+      "modelId": 4727,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Combi (6Y5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 15586,
+      "modelId": 4383,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I (6Y2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 15631,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15632,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15656,
+      "modelId": 4089,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8N9)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2001-01-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15660,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15663,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1998-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 15666,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15667,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15754,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 15759,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 15760,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 15783,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15787,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 15910,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-11-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 15918,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 16003,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16011,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16043,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16044,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-09-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16086,
+      "modelId": 1904,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I (1U2)",
+      "typeEngineName": "1.8 T 4x4",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 16087,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "1.8 T 4x4",
+      "constructionIntervalStart": "2001-05-01",
+      "constructionIntervalEnd": "2006-05-01"
+    },
+    {
+      "vehicleId": 16088,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "2.0 4x4",
+      "constructionIntervalStart": "2000-08-01",
+      "constructionIntervalEnd": "2004-09-01"
+    },
+    {
+      "vehicleId": 16253,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.8 T GTI",
+      "constructionIntervalStart": "2001-08-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 16290,
+      "modelId": 4777,
+      "manufacturerName": "SKODA",
+      "modelName": "FABIA I Saloon (6Y3)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1999-12-01",
+      "constructionIntervalEnd": "2007-12-01"
+    },
+    {
+      "vehicleId": 16292,
+      "modelId": 4837,
+      "manufacturerName": "SKODA",
+      "modelName": "SUPERB I (3U4)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-12-01",
+      "constructionIntervalEnd": "2008-03-01"
+    },
+    {
+      "vehicleId": 16296,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16297,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16301,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16302,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "2.0 4motion",
+      "constructionIntervalStart": "2000-04-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16306,
+      "modelId": 1568,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 (3B2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16310,
+      "modelId": 1907,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5 Variant (3B5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 16314,
+      "modelId": 1557,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8L1)",
+      "typeEngineName": "S3 quattro",
+      "constructionIntervalStart": "2001-10-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 16346,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16347,
+      "modelId": 4737,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 Variant (3B6)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16348,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "2.0 Bi-Fuel",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16596,
+      "modelId": 4731,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 (8E2)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16627,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "RS6 quattro",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16628,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "RS6 quattro",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 16692,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.8 T Cupra R",
+      "constructionIntervalStart": "2002-02-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 16700,
+      "modelId": 3884,
+      "manufacturerName": "VW",
+      "modelName": "BORA I (1J2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-03-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 16703,
+      "modelId": 4736,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B5.5 (3B3)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2005-11-01"
+    },
+    {
+      "vehicleId": 16861,
+      "modelId": 4797,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Avant (8E5)",
+      "typeEngineName": "2.0 FSI",
+      "constructionIntervalStart": "2002-07-01",
+      "constructionIntervalEnd": "2004-12-01"
+    },
+    {
+      "vehicleId": 16945,
+      "modelId": 3560,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA I Combi (1U5)",
+      "typeEngineName": "RS 1.8 T",
+      "constructionIntervalStart": "2002-08-01",
+      "constructionIntervalEnd": "2006-01-01"
+    },
+    {
+      "vehicleId": 17046,
+      "modelId": 4125,
+      "manufacturerName": "VW",
+      "modelName": "BORA Variant (1J6)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2005-05-01"
+    },
+    {
+      "vehicleId": 17073,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 17074,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 17143,
+      "modelId": 3851,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8N3)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 17172,
+      "modelId": 4955,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 (8P1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-05-01",
+      "constructionIntervalEnd": "2012-08-01"
+    },
+    {
+      "vehicleId": 17268,
+      "modelId": 4988,
+      "manufacturerName": "VW",
+      "modelName": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 17285,
+      "modelId": 1995,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV Variant (1J5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2000-05-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 17297,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.8 T Cupra R",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 17298,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.8 T Cupra R",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-02-01"
+    },
+    {
+      "vehicleId": 17361,
+      "modelId": 5003,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Platform/Chassis (7JD, 7JE, 7JL, 7JY, 7JZ, 7F",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2013-05-01"
+    },
+    {
+      "vehicleId": 17367,
+      "modelId": 5004,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 17373,
+      "modelId": 5005,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 17572,
+      "modelId": 4954,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (1T1, 1T2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2003-07-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 17805,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 17806,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 17836,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "1.8 T FR",
+      "constructionIntervalStart": "2003-12-01",
+      "constructionIntervalEnd": "2008-05-01"
+    },
+    {
+      "vehicleId": 17872,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 17900,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-03-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 17926,
+      "modelId": 3899,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO II (1M2)",
+      "typeEngineName": "1.8 20VT",
+      "constructionIntervalStart": "2000-09-01",
+      "constructionIntervalEnd": "2004-07-01"
+    },
+    {
+      "vehicleId": 17973,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-06-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 18011,
+      "modelId": 4957,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE Convertible (1Y7)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2003-01-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 18033,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "RS6 plus quattro",
+      "constructionIntervalStart": "2004-04-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 18066,
+      "modelId": 5143,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Sportback (8PA)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-03-01"
+    },
+    {
+      "vehicleId": 18154,
+      "modelId": 93,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6K1, 6K2)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1994-05-01",
+      "constructionIntervalEnd": "1999-06-01"
+    },
+    {
+      "vehicleId": 18155,
+      "modelId": 1482,
+      "manufacturerName": "VW",
+      "modelName": "POLO III CLASSIC (6V2)",
+      "typeEngineName": "75 1.6",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 18156,
+      "modelId": 4003,
+      "manufacturerName": "VW",
+      "modelName": "CADDY II Box Body/MPV (9K9A)",
+      "typeEngineName": "75 1.6",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "1997-05-01"
+    },
+    {
+      "vehicleId": 18157,
+      "modelId": 1551,
+      "manufacturerName": "SEAT",
+      "modelName": "INCA (6K9)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1997-06-01",
+      "constructionIntervalEnd": "2000-09-01"
+    },
+    {
+      "vehicleId": 18246,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 18380,
+      "modelId": 5378,
+      "manufacturerName": "SEAT",
+      "modelName": "TOLEDO III (5P2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 18398,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18399,
+      "modelId": 5376,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 (8EC)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18403,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18404,
+      "modelId": 5377,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B7 Avant (8ED)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-11-01",
+      "constructionIntervalEnd": "2008-06-01"
+    },
+    {
+      "vehicleId": 18486,
+      "modelId": 5393,
+      "manufacturerName": "VW",
+      "modelName": "CADDY II MPV (9K9B)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1995-11-01",
+      "constructionIntervalEnd": "1997-05-01"
+    },
+    {
+      "vehicleId": 18526,
+      "modelId": 3851,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8N3)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2005-03-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 18574,
+      "modelId": 1992,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA Vario (6K5)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1997-05-01",
+      "constructionIntervalEnd": "1999-06-01"
+    },
+    {
+      "vehicleId": 18580,
+      "modelId": 569,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA II (6K1)",
+      "typeEngineName": "1.6 i",
+      "constructionIntervalStart": "1994-09-01",
+      "constructionIntervalEnd": "1999-06-01"
+    },
+    {
+      "vehicleId": 18665,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 18678,
+      "modelId": 4840,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B6 Convertible (8H7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-09-01",
+      "constructionIntervalEnd": "2005-12-01"
+    },
+    {
+      "vehicleId": 18730,
+      "modelId": 5427,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 Variant (3C5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-08-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 18766,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 18896,
+      "modelId": 4961,
+      "manufacturerName": "SEAT",
+      "modelName": "CORDOBA (6L2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2002-09-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 18924,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 18942,
+      "modelId": 3851,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8N3)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 18943,
+      "modelId": 3851,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8N3)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 18944,
+      "modelId": 3851,
+      "manufacturerName": "AUDI",
+      "modelName": "TT (8N3)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 18945,
+      "modelId": 4089,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8N9)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 18946,
+      "modelId": 4089,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8N9)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 19216,
+      "modelId": 5398,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B6 (3C2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-05-01",
+      "constructionIntervalEnd": "2010-07-01"
+    },
+    {
+      "vehicleId": 19239,
+      "modelId": 4089,
+      "manufacturerName": "AUDI",
+      "modelName": "TT Roadster (8N9)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 19253,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.8 GTI",
+      "constructionIntervalStart": "2005-09-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 19638,
+      "modelId": 4954,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (1T1, 1T2)",
+      "typeEngineName": "2.0 EcoFuel",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2009-05-01"
+    },
+    {
+      "vehicleId": 19666,
+      "modelId": 5084,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
+      "typeEngineName": "2.0 EcoFuel",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19692,
+      "modelId": 5083,
+      "manufacturerName": "VW",
+      "modelName": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
+      "typeEngineName": "2.0 EcoFuel",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 19791,
+      "modelId": 3402,
+      "manufacturerName": "VW",
+      "modelName": "NEW BEETLE (9C1, 1C1)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "2001-11-01",
+      "constructionIntervalEnd": "2005-06-01"
+    },
+    {
+      "vehicleId": 20106,
+      "modelId": 36,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Avant (4A5)",
+      "typeEngineName": "2.0 E 16V",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 20107,
+      "modelId": 36,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Avant (4A5)",
+      "typeEngineName": "2.0 E 16V quattro",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 20659,
+      "modelId": 3886,
+      "manufacturerName": "VW",
+      "modelName": "VENTO (1H2)",
+      "typeEngineName": "2.0 GL",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 20832,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "1.8 GTi Cup Edition",
+      "constructionIntervalStart": "2006-05-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 20846,
+      "modelId": 4870,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA III (6L1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2002-04-01",
+      "constructionIntervalEnd": "2009-11-01"
+    },
+    {
+      "vehicleId": 21377,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "2.0 GL",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 21379,
+      "modelId": 510,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Variant (1H5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1996-04-01"
+    },
+    {
+      "vehicleId": 22442,
+      "modelId": 36,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Avant (4A5)",
+      "typeEngineName": "2.6 E quattro",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 22500,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 22553,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 24248,
+      "modelId": 1312,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7M8, 7M9, 7M6)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1995-09-01",
+      "constructionIntervalEnd": "2000-02-01"
+    },
+    {
+      "vehicleId": 24250,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2001-02-01",
+      "constructionIntervalEnd": "2007-03-01"
+    },
+    {
+      "vehicleId": 24304,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2005-07-01",
+      "constructionIntervalEnd": "2013-08-01"
+    },
+    {
+      "vehicleId": 25119,
+      "modelId": 1482,
+      "manufacturerName": "VW",
+      "modelName": "POLO III CLASSIC (6V2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "1996-05-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 27998,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 29991,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 30352,
+      "modelId": 5379,
+      "manufacturerName": "VW",
+      "modelName": "GOLF PLUS V (5M1, 521)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2013-12-01"
+    },
+    {
+      "vehicleId": 30441,
+      "modelId": 5120,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II (1Z3)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 30442,
+      "modelId": 5162,
+      "manufacturerName": "SKODA",
+      "modelName": "OCTAVIA II Combi (1Z5)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 30446,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.6 Multifuel",
+      "constructionIntervalStart": "2006-10-01",
+      "constructionIntervalEnd": "2010-11-01"
+    },
+    {
+      "vehicleId": 30970,
+      "modelId": 7873,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI (5K1)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2012-11-01"
+    },
+    {
+      "vehicleId": 30997,
+      "modelId": 8032,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO (3R2)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-03-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 31052,
+      "modelId": 4804,
+      "manufacturerName": "VW",
+      "modelName": "POLO IV (9N_, 9A_)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2004-10-01",
+      "constructionIntervalEnd": "2012-01-01"
+    },
+    {
+      "vehicleId": 31073,
+      "modelId": 6724,
+      "manufacturerName": "AUDI",
+      "modelName": "A3 Convertible (8P7)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2008-09-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 31110,
+      "modelId": 1312,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN (7M8, 7M9, 7M6)",
+      "typeEngineName": "2.0 LPG",
+      "constructionIntervalStart": "2006-04-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 31114,
+      "modelId": 4350,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1M1)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2005-10-01",
+      "constructionIntervalEnd": "2006-06-01"
+    },
+    {
+      "vehicleId": 31118,
+      "modelId": 7540,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV (6J5, 6P1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 31119,
+      "modelId": 7567,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA IV SC (6J1, 6P5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2008-10-01",
+      "constructionIntervalEnd": "2015-05-01"
+    },
+    {
+      "vehicleId": 31347,
+      "modelId": 8095,
+      "manufacturerName": "SEAT",
+      "modelName": "EXEO ST (3R5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-06-01",
+      "constructionIntervalEnd": "2010-09-01"
+    },
+    {
+      "vehicleId": 31708,
+      "modelId": 5431,
+      "manufacturerName": "SEAT",
+      "modelName": "LEON (1P1)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-12-01",
+      "constructionIntervalEnd": "2012-12-01"
+    },
+    {
+      "vehicleId": 32586,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2013-07-01"
+    },
+    {
+      "vehicleId": 33047,
+      "modelId": 4991,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V (1K1)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2007-10-01",
+      "constructionIntervalEnd": "2008-11-01"
+    },
+    {
+      "vehicleId": 33048,
+      "modelId": 6245,
+      "manufacturerName": "VW",
+      "modelName": "GOLF V Variant (1K5)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2007-11-01",
+      "constructionIntervalEnd": "2009-07-01"
+    },
+    {
+      "vehicleId": 33049,
+      "modelId": 5423,
+      "manufacturerName": "VW",
+      "modelName": "JETTA III (1K2)",
+      "typeEngineName": "1.6 MultiFuel",
+      "constructionIntervalStart": "2008-01-01",
+      "constructionIntervalEnd": "2010-10-01"
+    },
+    {
+      "vehicleId": 33676,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 33677,
+      "modelId": 6236,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA XL (5P5, 5P8)",
+      "typeEngineName": "1.6 LPG",
+      "constructionIntervalStart": "2009-09-01",
+      "constructionIntervalEnd": "2013-06-01"
+    },
+    {
+      "vehicleId": 58269,
+      "modelId": 11598,
+      "manufacturerName": "VW",
+      "modelName": "BORA (9M2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "2005-01-01",
+      "constructionIntervalEnd": "2014-12-01"
+    },
+    {
+      "vehicleId": 59287,
+      "modelId": 1,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Saloon (8C2)",
+      "typeEngineName": "2.0 E 16V",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1992-07-01"
+    },
+    {
+      "vehicleId": 100616,
+      "modelId": 11787,
+      "manufacturerName": "BESTURN (FAW)",
+      "modelName": "B50",
+      "typeEngineName": "1.6",
+      "constructionIntervalStart": "2009-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123561,
+      "modelId": 5004,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH)",
+      "typeEngineName": "2.0 BiFuel",
+      "constructionIntervalStart": "2007-06-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 127869,
+      "modelId": 38069,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (9B3)",
+      "typeEngineName": "1.8 GTI",
+      "constructionIntervalStart": "2007-04-01",
+      "constructionIntervalEnd": "2009-12-01"
+    },
+    {
+      "vehicleId": 128864,
+      "modelId": 19,
+      "manufacturerName": "AUDI",
+      "modelName": "100 C4 Saloon (4A2)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1993-11-01",
+      "constructionIntervalEnd": "1994-07-01"
+    },
+    {
+      "vehicleId": 132258,
+      "modelId": 569,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA II (6K1)",
+      "typeEngineName": "1.8 T 20V Cupra R",
+      "constructionIntervalStart": "2000-07-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 133066,
+      "modelId": 5111,
+      "manufacturerName": "SEAT",
+      "modelName": "ALTEA (5P1)",
+      "typeEngineName": "1.6 Multifuel",
+      "constructionIntervalStart": "2010-11-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 133409,
+      "modelId": 1994,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (1J1)",
+      "typeEngineName": "2.0 BiFuel",
+      "constructionIntervalStart": "2002-05-01",
+      "constructionIntervalEnd": "2003-05-01"
+    },
+    {
+      "vehicleId": 133496,
+      "modelId": 4954,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN (1T1, 1T2)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2006-11-01",
+      "constructionIntervalEnd": "2010-05-01"
+    },
+    {
+      "vehicleId": 133536,
+      "modelId": 8442,
+      "manufacturerName": "VW",
+      "modelName": "GOLF VI Variant (AJ5)",
+      "typeEngineName": "1.6 BiFuel",
+      "constructionIntervalStart": "2009-07-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 136888,
+      "modelId": 38069,
+      "manufacturerName": "VW",
+      "modelName": "GOLF IV (9B3)",
+      "typeEngineName": "1.8 GTI",
+      "constructionIntervalStart": "2007-01-01",
+      "constructionIntervalEnd": "2010-12-01"
+    },
+    {
+      "vehicleId": 136925,
+      "modelId": 37153,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Van (1H1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1995-08-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 136933,
+      "modelId": 39690,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (315, 3A5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1991-08-01",
+      "constructionIntervalEnd": "1995-12-01"
+    },
+    {
+      "vehicleId": 136940,
+      "modelId": 39690,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (315, 3A5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 136949,
+      "modelId": 5003,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Platform/Chassis (7JD, 7JE, 7JL, 7JY, 7JZ, 7F",
+      "typeEngineName": "2.0 CNG",
+      "constructionIntervalStart": "2003-11-01",
+      "constructionIntervalEnd": "2011-05-01"
+    },
+    {
+      "vehicleId": 136950,
+      "modelId": 5005,
+      "manufacturerName": "VW",
+      "modelName": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ)",
+      "typeEngineName": "2.0 CNG",
+      "constructionIntervalStart": "2006-01-01",
+      "constructionIntervalEnd": "2015-08-01"
+    },
+    {
+      "vehicleId": 141297,
+      "modelId": 26,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B2 Saloon (811, 813, 814, 819, 853)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1983-10-01",
+      "constructionIntervalEnd": "1984-09-01"
+    },
+    {
+      "vehicleId": 142944,
+      "modelId": 41662,
+      "manufacturerName": "SEAT",
+      "modelName": "ALHAMBRA VAN (7V8, 7V9)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2010-03-01"
+    },
+    {
+      "vehicleId": 143012,
+      "modelId": 41677,
+      "manufacturerName": "VW",
+      "modelName": "SHARAN VAN (7M_)",
+      "typeEngineName": "2.0 (7M8, 7M9)",
+      "constructionIntervalStart": "1996-09-01",
+      "constructionIntervalEnd": "2002-07-01"
+    },
+    {
+      "vehicleId": 143052,
+      "modelId": 41679,
+      "manufacturerName": "VW",
+      "modelName": "TOURAN VAN (1T1, 1T2)",
+      "typeEngineName": "2.0 EcoFuel",
+      "constructionIntervalStart": "2006-02-01",
+      "constructionIntervalEnd": "2006-11-01"
+    },
+    {
+      "vehicleId": 1369,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 1370,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 1377,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 1378,
+      "modelId": 202,
+      "manufacturerName": "AUDI",
+      "modelName": "COUPE B3 (89, 8B3)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1991-08-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 1400,
+      "modelId": 1,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Saloon (8C2)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 1401,
+      "modelId": 1,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Saloon (8C2)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 1413,
+      "modelId": 1,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Saloon (8C2)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1992-06-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 1414,
+      "modelId": 1,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Saloon (8C2)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1994-12-01"
+    },
+    {
+      "vehicleId": 1446,
+      "modelId": 6,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Avant (8C5)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 1466,
+      "modelId": 6,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Avant (8C5)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1992-07-01",
+      "constructionIntervalEnd": "1995-07-01"
+    },
+    {
+      "vehicleId": 1467,
+      "modelId": 6,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Avant (8C5)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1995-07-01"
+    },
+    {
+      "vehicleId": 5057,
+      "modelId": 6,
+      "manufacturerName": "AUDI",
+      "modelName": "80 B4 Avant (8C5)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1991-09-01",
+      "constructionIntervalEnd": "1996-01-01"
+    },
+    {
+      "vehicleId": 1510,
+      "modelId": 438,
+      "manufacturerName": "AUDI",
+      "modelName": "CABRIOLET B3 (8G7)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1993-06-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 1511,
+      "modelId": 438,
+      "manufacturerName": "AUDI",
+      "modelName": "CABRIOLET B3 (8G7)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1992-11-01",
+      "constructionIntervalEnd": "2000-08-01"
+    },
+    {
+      "vehicleId": 1712,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1990-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1717,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1990-08-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1718,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1988-02-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 1871,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1991-11-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 1872,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1991-11-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 1873,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "1.8 Syncro (1HX1)",
+      "constructionIntervalStart": "1993-01-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 1874,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1991-11-01",
+      "constructionIntervalEnd": "1997-08-01"
+    },
+    {
+      "vehicleId": 1875,
+      "modelId": 505,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III (1H1)",
+      "typeEngineName": "2.0 GTI 16V",
+      "constructionIntervalStart": "1992-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 1885,
+      "modelId": 3886,
+      "manufacturerName": "VW",
+      "modelName": "VENTO (1H2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1991-11-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 1886,
+      "modelId": 3886,
+      "manufacturerName": "VW",
+      "modelName": "VENTO (1H2)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1991-11-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 1887,
+      "modelId": 3886,
+      "manufacturerName": "VW",
+      "modelName": "VENTO (1H2)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1991-11-01",
+      "constructionIntervalEnd": "1998-09-01"
+    },
+    {
+      "vehicleId": 1900,
+      "modelId": 510,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Variant (1H5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 1901,
+      "modelId": 510,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Variant (1H5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 1902,
+      "modelId": 510,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Variant (1H5)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1999-04-01"
+    },
+    {
+      "vehicleId": 1903,
+      "modelId": 493,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Cabriolet (1E7)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1998-05-01"
+    },
+    {
+      "vehicleId": 1904,
+      "modelId": 493,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Cabriolet (1E7)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1998-05-01"
+    },
+    {
+      "vehicleId": 1905,
+      "modelId": 493,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Cabriolet (1E7)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1998-05-01"
+    },
+    {
+      "vehicleId": 1910,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1990-02-01",
+      "constructionIntervalEnd": "1997-05-01"
+    },
+    {
+      "vehicleId": 1915,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1990-08-01",
+      "constructionIntervalEnd": "1997-05-01"
+    },
+    {
+      "vehicleId": 1916,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1988-02-01",
+      "constructionIntervalEnd": "1997-05-01"
+    },
+    {
+      "vehicleId": 3927,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 3928,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1994-01-01",
+      "constructionIntervalEnd": "1997-05-01"
+    },
+    {
+      "vehicleId": 5933,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "2.0 Syncro",
+      "constructionIntervalStart": "1990-10-01",
+      "constructionIntervalEnd": "1996-08-01"
+    },
+    {
+      "vehicleId": 5944,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "2.0 Syncro",
+      "constructionIntervalStart": "1990-03-01",
+      "constructionIntervalEnd": "1996-12-01"
+    },
+    {
+      "vehicleId": 25056,
+      "modelId": 423,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+      "typeEngineName": "2.0",
+      "constructionIntervalStart": "1993-10-01",
+      "constructionIntervalEnd": "1996-10-01"
+    },
+    {
+      "vehicleId": 1720,
+      "modelId": 412,
+      "manufacturerName": "VW",
+      "modelName": "PASSAT B3/B4 (3A2, 35I)",
+      "typeEngineName": "2.0 16V",
+      "constructionIntervalStart": "1988-08-01",
+      "constructionIntervalEnd": "1993-09-01"
+    },
+    {
+      "vehicleId": 3882,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "1996-03-01"
+    },
+    {
+      "vehicleId": 3891,
+      "modelId": 265,
+      "manufacturerName": "AUDI",
+      "modelName": "A8 D2 (4D2, 4D8)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1994-03-01",
+      "constructionIntervalEnd": "1996-03-01"
+    },
+    {
+      "vehicleId": 3961,
+      "modelId": 569,
+      "manufacturerName": "SEAT",
+      "modelName": "IBIZA II (6K1)",
+      "typeEngineName": "1.4 i",
+      "constructionIntervalStart": "1993-09-01",
+      "constructionIntervalEnd": "2002-02-01"
+    },
+    {
+      "vehicleId": 4615,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 4620,
+      "modelId": 253,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 (8D2)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1995-01-01",
+      "constructionIntervalEnd": "2000-11-01"
+    },
+    {
+      "vehicleId": 5307,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1996-03-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 5314,
+      "modelId": 3485,
+      "manufacturerName": "AUDI",
+      "modelName": "A4 B5 Avant (8D5)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1996-01-01",
+      "constructionIntervalEnd": "2001-09-01"
+    },
+    {
+      "vehicleId": 7741,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-01-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8315,
+      "modelId": 1891,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 (4B2, 4B4)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-02-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8942,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8 T",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 8945,
+      "modelId": 3395,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C5 Avant (4B5, 4B6)",
+      "typeEngineName": "1.8 T quattro",
+      "constructionIntervalStart": "1997-12-01",
+      "constructionIntervalEnd": "2005-01-01"
+    },
+    {
+      "vehicleId": 4639,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4640,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4646,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.6",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4647,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.8",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 4656,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4657,
+      "modelId": 258,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 (4A2)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-10-01"
+    },
+    {
+      "vehicleId": 4662,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.8 quattro",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 5999,
+      "modelId": 3468,
+      "manufacturerName": "AUDI",
+      "modelName": "A6 C4 Avant (4A5)",
+      "typeEngineName": "2.6 quattro",
+      "constructionIntervalStart": "1994-06-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 123322,
+      "modelId": 37153,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Van (1H1)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1991-08-01",
+      "constructionIntervalEnd": "1997-12-01"
+    },
+    {
+      "vehicleId": 136919,
+      "modelId": 37153,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Van (1H1)",
+      "typeEngineName": "2.0 GTI",
+      "constructionIntervalStart": "1991-08-01",
+      "constructionIntervalEnd": "1997-09-01"
+    },
+    {
+      "vehicleId": 136929,
+      "modelId": 39689,
+      "manufacturerName": "VW",
+      "modelName": "GOLF Van III Variant (1H5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1993-07-01",
+      "constructionIntervalEnd": "1999-02-01"
+    },
+    {
+      "vehicleId": 136931,
+      "modelId": 37153,
+      "manufacturerName": "VW",
+      "modelName": "GOLF III Van (1H1)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1991-08-01",
+      "constructionIntervalEnd": "1995-07-01"
+    },
+    {
+      "vehicleId": 136941,
+      "modelId": 39689,
+      "manufacturerName": "VW",
+      "modelName": "GOLF Van III Variant (1H5)",
+      "typeEngineName": "1.8",
+      "constructionIntervalStart": "1993-08-01",
+      "constructionIntervalEnd": "1999-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "76,0"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "120,5"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "3/4\"\"-16UNF-2B"
+    },
+    {
+      "criteriaName": "Sealing Ring Diameter [mm]",
+      "criteriaValue": "62,5"
+    },
+    {
+      "criteriaName": "Diameter 2 [mm]",
+      "criteriaValue": "71,5"
+    },
+    {
+      "criteriaName": "Tightening Torque [Nm]",
+      "criteriaValue": "20"
+    },
+    {
+      "criteriaName": "Valve Type",
+      "criteriaValue": "Overflow Valve"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "with one anti-return valve"
+    },
+    {
+      "criteriaName": "Article number of the recommended special tool",
+      "criteriaValue": "OCS 1"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "8,1"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "8,10"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "13,10"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "363"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "034115561A"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "034115561A"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "034115561A"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "034115561A"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "034115561A"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "06A115561"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "06A115561"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "06A115561"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "06A115561"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "06A115561"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "06A115561B"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "06A115561B"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "06A115561B"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "06A115561B"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "06A115561B"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "06A115561E"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "06A115561E"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "06A115561E"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "078115561K"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "078115561K"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "078115561K"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "1JM115561BZ"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "1JM115561BZ"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "1JM115561BZ"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "34115561A"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "34115561A"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "34115561A"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "34115561A"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "34115561A"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "6A115561"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "6A115561"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "6A115561"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "6A115561"
+    },
+    {
+      "oemBrand": "CUPRA",
+      "oemDisplayNo": "6A115561"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "6A115561B"
+    },
+    {
+      "oemBrand": "SEAT",
+      "oemDisplayNo": "6A115561B"
+    },
+    {
+      "oemBrand": "SKODA",
+      "oemDisplayNo": "6A115561B"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "6A115561B"
+    },
+    {
+      "oemBrand": "AUDI",
+      "oemDisplayNo": "78115561K"
+    },
+    {
+      "oemBrand": "VW",
+      "oemDisplayNo": "78115561K"
+    }
+  ],
+  "ean": "4009026095973",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:40:53.649Z"
+}

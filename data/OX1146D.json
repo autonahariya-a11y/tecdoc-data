@@ -1,0 +1,2307 @@
+{
+  "articleNo": "OX 1146D",
+  "articleId": 8357159,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 113409,
+      "modelId": 9831,
+      "manufacturerName": "BMW",
+      "modelName": "3 (F30, F80)",
+      "typeEngineName": "340 i",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 113410,
+      "modelId": 9831,
+      "manufacturerName": "BMW",
+      "modelName": "3 (F30, F80)",
+      "typeEngineName": "340 i xDrive",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 113446,
+      "modelId": 10266,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (F31)",
+      "typeEngineName": "340 i",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 113447,
+      "modelId": 10266,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (F31)",
+      "typeEngineName": "340 i xDrive",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 114061,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "740 i, Li",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-02-01"
+    },
+    {
+      "vehicleId": 114063,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "730 d, Ld",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 114065,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "730 d, Ld xDrive",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 116720,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "730 d",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 116721,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "730 d xDrive",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 116787,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "740 d, Ld xDrive",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 117293,
+      "modelId": 10266,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (F31)",
+      "typeEngineName": "340 i",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 117294,
+      "modelId": 10266,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (F31)",
+      "typeEngineName": "340 i xDrive",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 117344,
+      "modelId": 9831,
+      "manufacturerName": "BMW",
+      "modelName": "3 (F30, F80)",
+      "typeEngineName": "340 i xDrive",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 117345,
+      "modelId": 9831,
+      "manufacturerName": "BMW",
+      "modelName": "3 (F30, F80)",
+      "typeEngineName": "340 i",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 118082,
+      "modelId": 11300,
+      "manufacturerName": "BMW",
+      "modelName": "4 Coupe (F32, F82)",
+      "typeEngineName": "440 i",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 118084,
+      "modelId": 11300,
+      "manufacturerName": "BMW",
+      "modelName": "4 Coupe (F32, F82)",
+      "typeEngineName": "440 i xDrive",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 118181,
+      "modelId": 11600,
+      "manufacturerName": "BMW",
+      "modelName": "4 Convertible (F33, F83)",
+      "typeEngineName": "440 i",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 118182,
+      "modelId": 11600,
+      "manufacturerName": "BMW",
+      "modelName": "4 Convertible (F33, F83)",
+      "typeEngineName": "440 i xDrive",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 118186,
+      "modelId": 11900,
+      "manufacturerName": "BMW",
+      "modelName": "4 Gran Coupe (F36)",
+      "typeEngineName": "440 i",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 118188,
+      "modelId": 11900,
+      "manufacturerName": "BMW",
+      "modelName": "4 Gran Coupe (F36)",
+      "typeEngineName": "440 i xDrive",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 118190,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "740 Li xDrive",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2019-02-01"
+    },
+    {
+      "vehicleId": 119031,
+      "modelId": 11300,
+      "manufacturerName": "BMW",
+      "modelName": "4 Coupe (F32, F82)",
+      "typeEngineName": "440 i xDrive",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 119033,
+      "modelId": 11300,
+      "manufacturerName": "BMW",
+      "modelName": "4 Coupe (F32, F82)",
+      "typeEngineName": "440 i",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 119036,
+      "modelId": 11600,
+      "manufacturerName": "BMW",
+      "modelName": "4 Convertible (F33, F83)",
+      "typeEngineName": "440 i",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 119037,
+      "modelId": 11600,
+      "manufacturerName": "BMW",
+      "modelName": "4 Convertible (F33, F83)",
+      "typeEngineName": "440 i xDrive",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 119038,
+      "modelId": 11900,
+      "manufacturerName": "BMW",
+      "modelName": "4 Gran Coupe (F36)",
+      "typeEngineName": "440 i xDrive",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 119039,
+      "modelId": 11900,
+      "manufacturerName": "BMW",
+      "modelName": "4 Gran Coupe (F36)",
+      "typeEngineName": "440 i",
+      "constructionIntervalStart": "2016-03-01",
+      "constructionIntervalEnd": "2021-05-01"
+    },
+    {
+      "vehicleId": 120235,
+      "modelId": 11003,
+      "manufacturerName": "BMW",
+      "modelName": "1 (F21)",
+      "typeEngineName": "M 140 i",
+      "constructionIntervalStart": "2015-10-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 120236,
+      "modelId": 11003,
+      "manufacturerName": "BMW",
+      "modelName": "1 (F21)",
+      "typeEngineName": "M 140 i xDrive",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 120244,
+      "modelId": 9620,
+      "manufacturerName": "BMW",
+      "modelName": "1 (F20)",
+      "typeEngineName": "M 140 i",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 120245,
+      "modelId": 9620,
+      "manufacturerName": "BMW",
+      "modelName": "1 (F20)",
+      "typeEngineName": "M 140 i xDrive",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 120248,
+      "modelId": 11599,
+      "manufacturerName": "BMW",
+      "modelName": "2 Coupe (F22, F87)",
+      "typeEngineName": "M 240 i",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 120249,
+      "modelId": 11599,
+      "manufacturerName": "BMW",
+      "modelName": "2 Coupe (F22, F87)",
+      "typeEngineName": "M 240 i xDrive",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 120252,
+      "modelId": 13176,
+      "manufacturerName": "BMW",
+      "modelName": "2 Convertible (F23)",
+      "typeEngineName": "M 240 i",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 120253,
+      "modelId": 13176,
+      "manufacturerName": "BMW",
+      "modelName": "2 Convertible (F23)",
+      "typeEngineName": "M 240 i xDrive",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2021-06-01"
+    },
+    {
+      "vehicleId": 120267,
+      "modelId": 11207,
+      "manufacturerName": "BMW",
+      "modelName": "3 Gran Turismo (F34)",
+      "typeEngineName": "340 i",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120268,
+      "modelId": 11207,
+      "manufacturerName": "BMW",
+      "modelName": "3 Gran Turismo (F34)",
+      "typeEngineName": "340 i xDrive",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 120295,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "750 d, Ld xDrive",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 123340,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "540 i",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 123342,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "540 i xDrive",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 123348,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "530 d",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 123349,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "530 d xDrive",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 123824,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "540 i",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 123825,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "540 i xDrive",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 125337,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "540 i xDrive",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 125338,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "540 i xDrive",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 125340,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "530 d",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 125341,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "530 d xDrive",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 126168,
+      "modelId": 11207,
+      "manufacturerName": "BMW",
+      "modelName": "3 Gran Turismo (F34)",
+      "typeEngineName": "340 i",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126169,
+      "modelId": 11207,
+      "manufacturerName": "BMW",
+      "modelName": "3 Gran Turismo (F34)",
+      "typeEngineName": "340 i xDrive",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126257,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "530 d xDrive",
+      "constructionIntervalStart": "2016-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 127827,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "640 i",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 127828,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "640 i xDrive",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 127829,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "630 d",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 127830,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "630 d xDrive",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 127852,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive M40 i",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127855,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 127983,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "M 550 d xDrive",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 127984,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "540 d xDrive",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128029,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "540 d xDrive",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128090,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "M 550 d xDrive",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128500,
+      "modelId": 38191,
+      "manufacturerName": "ALPINA",
+      "modelName": "D5 (G30)",
+      "typeEngineName": "S All-wheel Drive",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128505,
+      "modelId": 38192,
+      "manufacturerName": "ALPINA",
+      "modelName": "D5 Touring (G31)",
+      "typeEngineName": "S All-wheel Drive",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128591,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "640 d xDrive",
+      "constructionIntervalStart": "2017-11-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128716,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "640 i",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128718,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "640 i xDrive",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128720,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "630 d",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 128722,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "630 d xDrive",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 130245,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive M40 i",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2019-08-01"
+    },
+    {
+      "vehicleId": 130248,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive M40 d",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 130334,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 130636,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "630 d xDrive",
+      "constructionIntervalStart": "2017-06-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 131358,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive M40 d",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 131416,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 40 i",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 131418,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 131420,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive M 50 d",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 131616,
+      "modelId": 38775,
+      "manufacturerName": "BMW",
+      "modelName": "8 Coupe (G15, F92)",
+      "typeEngineName": "840 d xDrive",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 132166,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2017-12-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 132498,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive M40 i",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2019-08-01"
+    },
+    {
+      "vehicleId": 132801,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2018-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 132802,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 133167,
+      "modelId": 38614,
+      "manufacturerName": "ALPINA",
+      "modelName": "XD3 (G01)",
+      "typeEngineName": "BITURBO All-wheel Drive",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133170,
+      "modelId": 38615,
+      "manufacturerName": "ALPINA",
+      "modelName": "XD4 (G02)",
+      "typeEngineName": "BITURBO All-wheel Drive",
+      "constructionIntervalStart": "2018-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133253,
+      "modelId": 39028,
+      "manufacturerName": "BMW",
+      "modelName": "Z4 Roadster (G29)",
+      "typeEngineName": "M40 i",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133260,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 45 e Plug-in Hybrid",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 133298,
+      "modelId": 39034,
+      "manufacturerName": "BMW",
+      "modelName": "8 Convertible (G14, F91)",
+      "typeEngineName": "840 d xDrive",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 133483,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive 40 i",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133485,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 133486,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive M 50 d",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134016,
+      "modelId": 39027,
+      "manufacturerName": "BMW",
+      "modelName": "3 (G20, G80, G28)",
+      "typeEngineName": "M 340 i xDrive",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134246,
+      "modelId": 38614,
+      "manufacturerName": "ALPINA",
+      "modelName": "XD3 (G01)",
+      "typeEngineName": "BITURBO All-wheel Drive",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 134249,
+      "modelId": 38191,
+      "manufacturerName": "ALPINA",
+      "modelName": "D5 (G30)",
+      "typeEngineName": "S All-wheel Drive",
+      "constructionIntervalStart": "2018-11-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 134361,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2020-08-01"
+    },
+    {
+      "vehicleId": 134362,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135021,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "740 i, Li",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 135026,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "745 e, Le Plug-in-Hybrid",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 135028,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "745 Le Plug-in-Hybrid xDrive",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 135029,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "740 Li xDrive",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 135107,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive M40 i",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135919,
+      "modelId": 39027,
+      "manufacturerName": "BMW",
+      "modelName": "3 (G20, G80, G28)",
+      "typeEngineName": "330 d",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135932,
+      "modelId": 39493,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (DB_)",
+      "typeEngineName": "3.0 GR (DB41, DB42, DB43, DB45, DB46)",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136304,
+      "modelId": 39027,
+      "manufacturerName": "BMW",
+      "modelName": "3 (G20, G80, G28)",
+      "typeEngineName": "330 d xDrive",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136306,
+      "modelId": 38775,
+      "manufacturerName": "BMW",
+      "modelName": "8 Coupe (G15, F92)",
+      "typeEngineName": "840 i",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136307,
+      "modelId": 38775,
+      "manufacturerName": "BMW",
+      "modelName": "8 Coupe (G15, F92)",
+      "typeEngineName": "840 i xDrive",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136308,
+      "modelId": 39034,
+      "manufacturerName": "BMW",
+      "modelName": "8 Convertible (G14, F91)",
+      "typeEngineName": "840 i",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136309,
+      "modelId": 39034,
+      "manufacturerName": "BMW",
+      "modelName": "8 Convertible (G14, F91)",
+      "typeEngineName": "840 i xDrive",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136491,
+      "modelId": 39625,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (G21, G81)",
+      "typeEngineName": "M 340 i xDrive",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136498,
+      "modelId": 39625,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (G21, G81)",
+      "typeEngineName": "330 d xDrive",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136517,
+      "modelId": 39628,
+      "manufacturerName": "BMW",
+      "modelName": "8 Gran Coupe (G16, F93)",
+      "typeEngineName": "840 i",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136518,
+      "modelId": 39628,
+      "manufacturerName": "BMW",
+      "modelName": "8 Gran Coupe (G16, F93)",
+      "typeEngineName": "840 i xDrive",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136520,
+      "modelId": 39628,
+      "manufacturerName": "BMW",
+      "modelName": "8 Gran Coupe (G16, F93)",
+      "typeEngineName": "840 d xDrive",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": "2020-10-01"
+    },
+    {
+      "vehicleId": 136561,
+      "modelId": 39640,
+      "manufacturerName": "BMW",
+      "modelName": "1 Van (F20)",
+      "typeEngineName": "M 140 i",
+      "constructionIntervalStart": "2016-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 136576,
+      "modelId": 39643,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring Van (F31)",
+      "typeEngineName": "340 i",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2019-06-01"
+    },
+    {
+      "vehicleId": 136582,
+      "modelId": 39644,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring Van (G31)",
+      "typeEngineName": "540 i xDrive",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136587,
+      "modelId": 39644,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring Van (G31)",
+      "typeEngineName": "530 d",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136588,
+      "modelId": 39644,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring Van (G31)",
+      "typeEngineName": "530 d xDrive",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136589,
+      "modelId": 39644,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring Van (G31)",
+      "typeEngineName": "540 d xDrive",
+      "constructionIntervalStart": "2017-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136613,
+      "modelId": 39646,
+      "manufacturerName": "BMW",
+      "modelName": "X3 Van (G01)",
+      "typeEngineName": "xDrive M40 i",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": "2019-08-01"
+    },
+    {
+      "vehicleId": 136617,
+      "modelId": 39646,
+      "manufacturerName": "BMW",
+      "modelName": "X3 Van (G01)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2017-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 136645,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 40 i",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 136648,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 136649,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive M 50 d",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 137595,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 137596,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2019-08-01",
+      "constructionIntervalEnd": "2020-07-01"
+    },
+    {
+      "vehicleId": 137646,
+      "modelId": 39027,
+      "manufacturerName": "BMW",
+      "modelName": "3 (G20, G80, G28)",
+      "typeEngineName": "M 340 i",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137647,
+      "modelId": 39027,
+      "manufacturerName": "BMW",
+      "modelName": "3 (G20, G80, G28)",
+      "typeEngineName": "M 340 i xDrive",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 137820,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "730 d, Ld xDrive",
+      "constructionIntervalStart": "2015-09-01",
+      "constructionIntervalEnd": "2020-06-01"
+    },
+    {
+      "vehicleId": 137895,
+      "modelId": 39625,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (G21, G81)",
+      "typeEngineName": "330 d",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138128,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "630 i xDrive",
+      "constructionIntervalStart": "2019-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139154,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 45 e Plug-in-Hybrid",
+      "constructionIntervalStart": "2019-06-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 139332,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 40 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139333,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 40 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 139470,
+      "modelId": 39027,
+      "manufacturerName": "BMW",
+      "modelName": "3 (G20, G80, G28)",
+      "typeEngineName": "M340 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139471,
+      "modelId": 39625,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (G21, G81)",
+      "typeEngineName": "M 340 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139483,
+      "modelId": 40436,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring Van (G21)",
+      "typeEngineName": "M 340 i xDrive",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139488,
+      "modelId": 40436,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring Van (G21)",
+      "typeEngineName": "330 d",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139489,
+      "modelId": 40436,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring Van (G21)",
+      "typeEngineName": "330 d xDrive",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139490,
+      "modelId": 40437,
+      "manufacturerName": "BMW",
+      "modelName": "X5 Van (G05)",
+      "typeEngineName": "xDrive 30 d",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 139491,
+      "modelId": 40437,
+      "manufacturerName": "BMW",
+      "modelName": "X5 Van (G05)",
+      "typeEngineName": "xDrive 40 i",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 139649,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive M40 i",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139650,
+      "modelId": 39646,
+      "manufacturerName": "BMW",
+      "modelName": "X3 Van (G01)",
+      "typeEngineName": "xDrive M40 i",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 139675,
+      "modelId": 39028,
+      "manufacturerName": "BMW",
+      "modelName": "Z4 Roadster (G29)",
+      "typeEngineName": "M40 i",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140440,
+      "modelId": 40742,
+      "manufacturerName": "BMW",
+      "modelName": "4 Coupe (G22, G82)",
+      "typeEngineName": "M 440 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140554,
+      "modelId": 40811,
+      "manufacturerName": "ALPINA",
+      "modelName": "D3 (G20)",
+      "typeEngineName": "S",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140555,
+      "modelId": 40812,
+      "manufacturerName": "ALPINA",
+      "modelName": "D3 Touring (G21)",
+      "typeEngineName": "S",
+      "constructionIntervalStart": "2020-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140850,
+      "modelId": 40742,
+      "manufacturerName": "BMW",
+      "modelName": "4 Coupe (G22, G82)",
+      "typeEngineName": "430 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140856,
+      "modelId": 40742,
+      "manufacturerName": "BMW",
+      "modelName": "4 Coupe (G22, G82)",
+      "typeEngineName": "M440 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2021-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140917,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "640 i Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140918,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "640 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140920,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "630 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140921,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "630 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140922,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "640 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140926,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "540 i Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-05-01"
+    },
+    {
+      "vehicleId": 140927,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "540 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 140928,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "530 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 140929,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "530 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 140930,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "540 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 140934,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "540 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140935,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "530 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140936,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "530 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 140937,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "540 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141061,
+      "modelId": 38046,
+      "manufacturerName": "BMW",
+      "modelName": "6 Gran Turismo (G32)",
+      "typeEngineName": "630 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141093,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "530 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 141094,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "530 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 141108,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "530 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141109,
+      "modelId": 37535,
+      "manufacturerName": "BMW",
+      "modelName": "5 Touring (G31)",
+      "typeEngineName": "530 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141133,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "730 d, Ld Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2022-05-01"
+    },
+    {
+      "vehicleId": 141134,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "730 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 141135,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "730 d, Ld Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 141138,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "740 d, Ld Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 141141,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "730 d, Ld Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 141142,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141143,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141144,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive M40 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141147,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141148,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141149,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive M40 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141150,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141151,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141152,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141153,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 141154,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141161,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive 40 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141162,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive 40 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141255,
+      "modelId": 39493,
+      "manufacturerName": "TOYOTA",
+      "modelName": "SUPRA (DB_)",
+      "typeEngineName": "3.0 GR (DB01, DB02, DB03, DB06, DB92)",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141737,
+      "modelId": 37157,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G30, F90)",
+      "typeEngineName": "545 e Plug-in-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": "2023-06-01"
+    },
+    {
+      "vehicleId": 141802,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive M40 i",
+      "constructionIntervalStart": "2019-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141980,
+      "modelId": 39034,
+      "manufacturerName": "BMW",
+      "modelName": "8 Convertible (G14, F91)",
+      "typeEngineName": "840 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141982,
+      "modelId": 38775,
+      "manufacturerName": "BMW",
+      "modelName": "8 Coupe (G15, F92)",
+      "typeEngineName": "840 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141983,
+      "modelId": 39628,
+      "manufacturerName": "BMW",
+      "modelName": "8 Gran Coupe (G16, F93)",
+      "typeEngineName": "840 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141986,
+      "modelId": 39027,
+      "manufacturerName": "BMW",
+      "modelName": "3 (G20, G80, G28)",
+      "typeEngineName": "330 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141987,
+      "modelId": 39027,
+      "manufacturerName": "BMW",
+      "modelName": "3 (G20, G80, G28)",
+      "typeEngineName": "330 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141988,
+      "modelId": 39625,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (G21, G81)",
+      "typeEngineName": "330 d Mild-Hybrid",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 141989,
+      "modelId": 39625,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (G21, G81)",
+      "typeEngineName": "330 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142076,
+      "modelId": 39625,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (G21, G81)",
+      "typeEngineName": "M 340 i xDrive",
+      "constructionIntervalStart": "2019-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142119,
+      "modelId": 41276,
+      "manufacturerName": "BMW",
+      "modelName": "4 Convertible (G23, G83)",
+      "typeEngineName": "M 440 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142125,
+      "modelId": 41276,
+      "manufacturerName": "BMW",
+      "modelName": "4 Convertible (G23, G83)",
+      "typeEngineName": "430 d Mild-Hybrid",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142126,
+      "modelId": 41276,
+      "manufacturerName": "BMW",
+      "modelName": "4 Convertible (G23, G83)",
+      "typeEngineName": "M440 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2021-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142485,
+      "modelId": 39625,
+      "manufacturerName": "BMW",
+      "modelName": "3 Touring (G21, G81)",
+      "typeEngineName": "M 340 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142486,
+      "modelId": 39027,
+      "manufacturerName": "BMW",
+      "modelName": "3 (G20, G80, G28)",
+      "typeEngineName": "M 340 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142489,
+      "modelId": 41276,
+      "manufacturerName": "BMW",
+      "modelName": "4 Convertible (G23, G83)",
+      "typeEngineName": "M 440 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142849,
+      "modelId": 40742,
+      "manufacturerName": "BMW",
+      "modelName": "4 Coupe (G22, G82)",
+      "typeEngineName": "M 440 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142900,
+      "modelId": 38191,
+      "manufacturerName": "ALPINA",
+      "modelName": "D5 (G30)",
+      "typeEngineName": "S All-wheel Drive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142901,
+      "modelId": 38192,
+      "manufacturerName": "ALPINA",
+      "modelName": "D5 Touring (G31)",
+      "typeEngineName": "S All-wheel Drive",
+      "constructionIntervalStart": "2020-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142904,
+      "modelId": 38191,
+      "manufacturerName": "ALPINA",
+      "modelName": "D5 (G30)",
+      "typeEngineName": "S Mild-Hybrid All-wheel Drive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 142929,
+      "modelId": 38614,
+      "manufacturerName": "ALPINA",
+      "modelName": "XD3 (G01)",
+      "typeEngineName": "BITURBO Mild-Hybrid All-wheel Drive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143023,
+      "modelId": 38775,
+      "manufacturerName": "BMW",
+      "modelName": "8 Coupe (G15, F92)",
+      "typeEngineName": "840 i",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143024,
+      "modelId": 38775,
+      "manufacturerName": "BMW",
+      "modelName": "8 Coupe (G15, F92)",
+      "typeEngineName": "840 i xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143025,
+      "modelId": 39034,
+      "manufacturerName": "BMW",
+      "modelName": "8 Convertible (G14, F91)",
+      "typeEngineName": "840 i",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143026,
+      "modelId": 39034,
+      "manufacturerName": "BMW",
+      "modelName": "8 Convertible (G14, F91)",
+      "typeEngineName": "840 i xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143027,
+      "modelId": 39628,
+      "manufacturerName": "BMW",
+      "modelName": "8 Gran Coupe (G16, F93)",
+      "typeEngineName": "840 i",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143028,
+      "modelId": 39628,
+      "manufacturerName": "BMW",
+      "modelName": "8 Gran Coupe (G16, F93)",
+      "typeEngineName": "840 i xDrive",
+      "constructionIntervalStart": "2020-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143029,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive 40 i Mild-Hybrid",
+      "constructionIntervalStart": "2020-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143030,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 40 i Mild-Hybrid",
+      "constructionIntervalStart": "2020-12-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 143031,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 40 i Mild-Hybrid",
+      "constructionIntervalStart": "2020-12-01",
+      "constructionIntervalEnd": "2023-03-01"
+    },
+    {
+      "vehicleId": 144694,
+      "modelId": 42096,
+      "manufacturerName": "BMW",
+      "modelName": "4 Gran Coupe (G26)",
+      "typeEngineName": "M440 i Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144698,
+      "modelId": 41933,
+      "manufacturerName": "BMW",
+      "modelName": "2 Coupe (G42, G87)",
+      "typeEngineName": "M240 i xDrive",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 144724,
+      "modelId": 40742,
+      "manufacturerName": "BMW",
+      "modelName": "4 Coupe (G22, G82)",
+      "typeEngineName": "M 440 i Mild-Hybrid",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145795,
+      "modelId": 41276,
+      "manufacturerName": "BMW",
+      "modelName": "4 Convertible (G23, G83)",
+      "typeEngineName": "M 440 i Mild-Hybrid",
+      "constructionIntervalStart": "2021-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146538,
+      "modelId": 38487,
+      "manufacturerName": "BMW",
+      "modelName": "X4 (G02, F98)",
+      "typeEngineName": "xDrive M40 i Mild Hybrid",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146539,
+      "modelId": 38057,
+      "manufacturerName": "BMW",
+      "modelName": "X3 (G01, F97, G08)",
+      "typeEngineName": "xDrive M40 i Mild Hybrid",
+      "constructionIntervalStart": "2021-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 146604,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "740 Li xDrive",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 146610,
+      "modelId": 14283,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G11, G12)",
+      "typeEngineName": "740 i,Li",
+      "constructionIntervalStart": "2019-03-01",
+      "constructionIntervalEnd": "2022-06-01"
+    },
+    {
+      "vehicleId": 147248,
+      "modelId": 38614,
+      "manufacturerName": "ALPINA",
+      "modelName": "XD3 (G01)",
+      "typeEngineName": "BITURBO All-wheel Drive",
+      "constructionIntervalStart": "2022-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147484,
+      "modelId": 42916,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G70)",
+      "typeEngineName": "740d xDrive",
+      "constructionIntervalStart": "2022-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147487,
+      "modelId": 42916,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G70)",
+      "typeEngineName": "750e Plug-in Hybrid xDrive",
+      "constructionIntervalStart": "2022-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147488,
+      "modelId": 42916,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G70)",
+      "typeEngineName": "M 760e Plug-in Hybrid xDrive",
+      "constructionIntervalStart": "2022-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 147747,
+      "modelId": 42096,
+      "manufacturerName": "BMW",
+      "modelName": "4 Gran Coupe (G26)",
+      "typeEngineName": "430 d Mild-Hybrid xDrive",
+      "constructionIntervalStart": "2022-05-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148040,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive 40 d Mild-Hybrid",
+      "constructionIntervalStart": "2022-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148086,
+      "modelId": 42916,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G70)",
+      "typeEngineName": "740 i, Li Mild Hybrid",
+      "constructionIntervalStart": "2022-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148346,
+      "modelId": 41933,
+      "manufacturerName": "BMW",
+      "modelName": "2 Coupe (G42, G87)",
+      "typeEngineName": "M240 i",
+      "constructionIntervalStart": "2022-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 148360,
+      "modelId": 39060,
+      "manufacturerName": "BMW",
+      "modelName": "X7 (G07)",
+      "typeEngineName": "xDrive 40 i Mild Hybrid",
+      "constructionIntervalStart": "2022-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150789,
+      "modelId": 42916,
+      "manufacturerName": "BMW",
+      "modelName": "7 (G70)",
+      "typeEngineName": "735i Mild-Hybrid",
+      "constructionIntervalStart": "2022-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 150814,
+      "modelId": 42096,
+      "manufacturerName": "BMW",
+      "modelName": "4 Gran Coupe (G26)",
+      "typeEngineName": "M440 i Mild-Hybrid",
+      "constructionIntervalStart": "2022-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151057,
+      "modelId": 43757,
+      "manufacturerName": "INEOS",
+      "modelName": "GRENADIER Closed Off-Road Vehicle",
+      "typeEngineName": "3.0 Ti 4x4 (GEB)",
+      "constructionIntervalStart": "2022-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 151058,
+      "modelId": 43757,
+      "manufacturerName": "INEOS",
+      "modelName": "GRENADIER Closed Off-Road Vehicle",
+      "typeEngineName": "3.0 TTD 4x4 (GEC)",
+      "constructionIntervalStart": "2022-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152806,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152807,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 40 i Mild-Hybrid",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152808,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 50 e Plug-in-Hybrid",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152814,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 30 d Mild-Hybrid",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 152816,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 40 i Mild Hybrid",
+      "constructionIntervalStart": "2023-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154728,
+      "modelId": 39650,
+      "manufacturerName": "BMW",
+      "modelName": "X6 (G06, F96)",
+      "typeEngineName": "xDrive 40 d Mild-Hybrid",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154729,
+      "modelId": 38751,
+      "manufacturerName": "BMW",
+      "modelName": "X5 (G05, F95)",
+      "typeEngineName": "xDrive 40 d Mild-Hybrid",
+      "constructionIntervalStart": "2023-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155202,
+      "modelId": 44530,
+      "manufacturerName": "INEOS",
+      "modelName": "GRENADIER Quartermaster",
+      "typeEngineName": "3.0 Ti 4x4 (GEB)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 155203,
+      "modelId": 44530,
+      "manufacturerName": "INEOS",
+      "modelName": "GRENADIER Quartermaster",
+      "typeEngineName": "3.0 TTD 4x4 (GEC)",
+      "constructionIntervalStart": "2023-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156033,
+      "modelId": 43810,
+      "manufacturerName": "BMW",
+      "modelName": "XM (G09)",
+      "typeEngineName": "50e All-wheel Drive",
+      "constructionIntervalStart": "2023-09-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 156119,
+      "modelId": 44382,
+      "manufacturerName": "BMW",
+      "modelName": "5 (G60, G90, G68)",
+      "typeEngineName": "550e xDrive Plug-in Hybrid",
+      "constructionIntervalStart": "2023-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 159301,
+      "modelId": 45659,
+      "manufacturerName": "BMW",
+      "modelName": "X3 G45 (G45)",
+      "typeEngineName": "xDrive M50",
+      "constructionIntervalStart": "2024-08-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "55,5"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "155,0"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with gaskets/seals"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "20"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "6,5"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "6,50"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "17,00"
+    },
+    {
+      "criteriaName": "Inner Diameter 3 [mm]",
+      "criteriaValue": "44,2"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "70"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152WAA02"
+    },
+    {
+      "oemBrand": "TOYOTA",
+      "oemDisplayNo": "04152WAA03"
+    },
+    {
+      "oemBrand": "BMW",
+      "oemDisplayNo": "11427826799"
+    },
+    {
+      "oemBrand": "BMW",
+      "oemDisplayNo": "11428583898"
+    },
+    {
+      "oemBrand": "BMW",
+      "oemDisplayNo": "8583898"
+    }
+  ],
+  "ean": "4009026966396",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:47:30.404Z"
+}

@@ -1,0 +1,820 @@
+{
+  "articleNo": "OX 1058D",
+  "articleId": 8357098,
+  "supplier": "KNECHT",
+  "product": "Oil Filter",
+  "vehicles": [
+    {
+      "vehicleId": 58793,
+      "modelId": 9738,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ZAFIRA Mk III (P12)",
+      "typeEngineName": "1.6 CDTi (75)",
+      "constructionIntervalStart": "2013-03-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 58825,
+      "modelId": 9717,
+      "manufacturerName": "OPEL",
+      "modelName": "ZAFIRA TOURER C (P12)",
+      "typeEngineName": "1.6 CDTI (75)",
+      "constructionIntervalStart": "2013-02-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100491,
+      "modelId": 8261,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J (P10)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 100492,
+      "modelId": 10351,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Saloon",
+      "typeEngineName": "1.6 CDTi (69)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 100493,
+      "modelId": 9017,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Sports Tourer (P10)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 100498,
+      "modelId": 8549,
+      "manufacturerName": "OPEL",
+      "modelName": "MERIVA B MPV (S10)",
+      "typeEngineName": "1.6 CDTI (75)",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 100543,
+      "modelId": 8754,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MERIVA Mk II (B) (S10)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 100548,
+      "modelId": 8301,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) (P10)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 100549,
+      "modelId": 8301,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) (P10)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2013-11-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 100738,
+      "modelId": 8549,
+      "manufacturerName": "OPEL",
+      "modelName": "MERIVA B MPV (S10)",
+      "typeEngineName": "1.6 CDTi (75)",
+      "constructionIntervalStart": "2013-08-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 100832,
+      "modelId": 9036,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) Estate (P10)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 100833,
+      "modelId": 9036,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) Estate (P10)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 100854,
+      "modelId": 8261,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J (P10)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 100855,
+      "modelId": 9017,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Sports Tourer (P10)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2014-02-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 100856,
+      "modelId": 8549,
+      "manufacturerName": "OPEL",
+      "modelName": "MERIVA B MPV (S10)",
+      "typeEngineName": "1.6 CDTI (75)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 105581,
+      "modelId": 10351,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Saloon",
+      "typeEngineName": "1.6 CDTi (69)",
+      "constructionIntervalStart": "2014-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 106593,
+      "modelId": 8754,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MERIVA Mk II (B) (S10)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 107479,
+      "modelId": 9628,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J GTC",
+      "typeEngineName": "1.6 CDTI (08)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 107480,
+      "modelId": 9628,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J GTC",
+      "typeEngineName": "1.6 CDTI (08)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-04-01"
+    },
+    {
+      "vehicleId": 107482,
+      "modelId": 9717,
+      "manufacturerName": "OPEL",
+      "modelName": "ZAFIRA TOURER C (P12)",
+      "typeEngineName": "1.6 CDTI (75)",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107526,
+      "modelId": 9709,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) GTC (P10)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 107527,
+      "modelId": 9709,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VI (J) GTC (P10)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": "2018-10-01"
+    },
+    {
+      "vehicleId": 109346,
+      "modelId": 8754,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MERIVA Mk II (B) (S10)",
+      "typeEngineName": "1.6 CDTI",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 109994,
+      "modelId": 10325,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 109998,
+      "modelId": 10325,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.6 CDTi 4x4",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 110023,
+      "modelId": 10264,
+      "manufacturerName": "OPEL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.6 CDTI (_76)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 110024,
+      "modelId": 10264,
+      "manufacturerName": "OPEL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.6 CDTI 4x4 (_76)",
+      "constructionIntervalStart": "2015-01-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 115417,
+      "modelId": 10264,
+      "manufacturerName": "OPEL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.6 CDTI (_76)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 115675,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115676,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115678,
+      "modelId": 7581,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A (G09)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 115679,
+      "modelId": 7581,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A (G09)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 115681,
+      "modelId": 7582,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Saloon (G09)",
+      "typeEngineName": "1.6 CDTi (69)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 115682,
+      "modelId": 7582,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Saloon (G09)",
+      "typeEngineName": "1.6 CDTi (69)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 115684,
+      "modelId": 7861,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Sports Tourer (G09)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 115685,
+      "modelId": 7861,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Sports Tourer (G09)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2016-12-01"
+    },
+    {
+      "vehicleId": 115686,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 115846,
+      "modelId": 7862,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Hatchback (G09)",
+      "typeEngineName": "1.6 CDTI (68)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 115849,
+      "modelId": 7863,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Sports Tourer (G09)",
+      "typeEngineName": "1.6 CDTI (35)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 115854,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115855,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 115856,
+      "modelId": 10325,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.6 CDTI",
+      "constructionIntervalStart": "2015-06-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 117722,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117723,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117725,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117726,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117727,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 117741,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117742,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117743,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 117744,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119064,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 119065,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2015-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123367,
+      "modelId": 9717,
+      "manufacturerName": "OPEL",
+      "modelName": "ZAFIRA TOURER C (P12)",
+      "typeEngineName": "1.6 CDTI (75)",
+      "constructionIntervalStart": "2016-11-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 123405,
+      "modelId": 9738,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ZAFIRA Mk III (P12)",
+      "typeEngineName": "1.6 CDTi (75)",
+      "constructionIntervalStart": "2016-10-01",
+      "constructionIntervalEnd": "2018-08-01"
+    },
+    {
+      "vehicleId": 126598,
+      "modelId": 37800,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Grand Sport (Z18)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126599,
+      "modelId": 37800,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Grand Sport (Z18)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126611,
+      "modelId": 37807,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Sports Tourer (Z18)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126612,
+      "modelId": 37807,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Sports Tourer (Z18)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126633,
+      "modelId": 37812,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Hatchback (Z18)",
+      "typeEngineName": "1.6 D (68)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126634,
+      "modelId": 37812,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Hatchback (Z18)",
+      "typeEngineName": "1.6 D (68)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128680,
+      "modelId": 38225,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Country Tourer (G09)",
+      "typeEngineName": "1.6 CDTi (47)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 128681,
+      "modelId": 38225,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA A Country Tourer (G09)",
+      "typeEngineName": "1.6 CDTi (47)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 128918,
+      "modelId": 37813,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Sports Tourer (Z18)",
+      "typeEngineName": "1.6 D (35)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 128919,
+      "modelId": 37813,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk II (B) Sports Tourer (Z18)",
+      "typeEngineName": "1.6 D (35)",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 129027,
+      "modelId": 7599,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "INSIGNIA Mk I (A) Saloon (G09)",
+      "typeEngineName": "1.6 CDTi (69)",
+      "constructionIntervalStart": "2015-07-01",
+      "constructionIntervalEnd": "2017-05-01"
+    },
+    {
+      "vehicleId": 130525,
+      "modelId": 10819,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "TRAX",
+      "typeEngineName": "1.6 D",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 130526,
+      "modelId": 10819,
+      "manufacturerName": "CHEVROLET",
+      "modelName": "TRAX",
+      "typeEngineName": "1.6 D AWD",
+      "constructionIntervalStart": "2014-11-01",
+      "constructionIntervalEnd": "2015-12-01"
+    },
+    {
+      "vehicleId": 132733,
+      "modelId": 38919,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Hatchback Van (P10)",
+      "typeEngineName": "1.6 CDTi (68)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 132735,
+      "modelId": 38920,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Estate Van (P10)",
+      "typeEngineName": "1.6 CDTi (35)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2015-10-01"
+    },
+    {
+      "vehicleId": 133203,
+      "modelId": 14508,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K (B16)",
+      "typeEngineName": "1.6 BiTurbo",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 133204,
+      "modelId": 14870,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Sports Tourer (B16)",
+      "typeEngineName": "1.6 BiTurbo",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": "2022-12-01"
+    },
+    {
+      "vehicleId": 134616,
+      "modelId": 14526,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) (B16)",
+      "typeEngineName": "1.6 BiTurbo",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 134617,
+      "modelId": 14895,
+      "manufacturerName": "VAUXHALL",
+      "modelName": "ASTRA Mk VII (K) Estate (B16)",
+      "typeEngineName": "1.6 BiTurbo",
+      "constructionIntervalStart": "2018-08-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 135731,
+      "modelId": 10264,
+      "manufacturerName": "OPEL",
+      "modelName": "MOKKA / MOKKA X (J13)",
+      "typeEngineName": "1.6 CDTI 4x4 (_76)",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": "2019-12-01"
+    },
+    {
+      "vehicleId": 136717,
+      "modelId": 39663,
+      "manufacturerName": "OPEL",
+      "modelName": "INSIGNIA B Sports Tourer Combi Van (Z18)",
+      "typeEngineName": "CDTi ECOTEC",
+      "constructionIntervalStart": "2017-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 138490,
+      "modelId": 40158,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA K Hatchback Van",
+      "typeEngineName": "1.6 CDTI",
+      "constructionIntervalStart": "2018-04-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 143158,
+      "modelId": 41716,
+      "manufacturerName": "OPEL",
+      "modelName": "MERIVA B VAN (S10)",
+      "typeEngineName": "1.6 CDTi (75)",
+      "constructionIntervalStart": "2014-01-01",
+      "constructionIntervalEnd": "2017-01-01"
+    },
+    {
+      "vehicleId": 143159,
+      "modelId": 41716,
+      "manufacturerName": "OPEL",
+      "modelName": "MERIVA B VAN (S10)",
+      "typeEngineName": "1.6 CDTi (75)",
+      "constructionIntervalStart": "2014-03-01",
+      "constructionIntervalEnd": "2017-03-01"
+    },
+    {
+      "vehicleId": 143164,
+      "modelId": 41717,
+      "manufacturerName": "OPEL",
+      "modelName": "MOKKA X VAN (J13)",
+      "typeEngineName": "1.6 CDTi (76)",
+      "constructionIntervalStart": "2018-03-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 154636,
+      "modelId": 38919,
+      "manufacturerName": "OPEL",
+      "modelName": "ASTRA J Hatchback Van (P10)",
+      "typeEngineName": "1.6 CDTi",
+      "constructionIntervalStart": "2013-05-01",
+      "constructionIntervalEnd": "2015-10-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Thickness [mm]",
+      "criteriaValue": "3,4"
+    },
+    {
+      "criteriaName": "Diameter [mm]",
+      "criteriaValue": "57,0"
+    },
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "105,5"
+    },
+    {
+      "criteriaName": "Sealing Ring Diameter [mm]",
+      "criteriaValue": "60,2"
+    },
+    {
+      "criteriaName": "Supplementary Article/Supplementary Info",
+      "criteriaValue": "with gaskets/seals"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Filter Insert"
+    },
+    {
+      "criteriaName": "Inner Diameter 2 [mm]",
+      "criteriaValue": "21"
+    },
+    {
+      "criteriaName": "Packaging length [cm]",
+      "criteriaValue": "5,8"
+    },
+    {
+      "criteriaName": "Packaging width [cm]",
+      "criteriaValue": "5,80"
+    },
+    {
+      "criteriaName": "Packaging height [cm]",
+      "criteriaValue": "10,80"
+    },
+    {
+      "criteriaName": "Net Weight [g]",
+      "criteriaValue": "44"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "55485671"
+    },
+    {
+      "oemBrand": "GMC",
+      "oemDisplayNo": "55588497"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "55588497"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "55588497"
+    },
+    {
+      "oemBrand": "CHEVROLET",
+      "oemDisplayNo": "55588497"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "650163"
+    },
+    {
+      "oemBrand": "OPEL",
+      "oemDisplayNo": "95526687"
+    },
+    {
+      "oemBrand": "VAUXHALL",
+      "oemDisplayNo": "95526687"
+    }
+  ],
+  "ean": "4009026936467",
+  "source": "article-search",
+  "fetchedAt": "2026-09-13T04:45:48.635Z"
+}

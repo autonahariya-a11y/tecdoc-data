@@ -1,0 +1,92 @@
+{
+  "articleNo": "8981650710",
+  "articleId": 72198,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "ISUZU",
+  "matchedArticleNo": "0 986 4B7 045",
+  "vehicles": [
+    {
+      "vehicleId": 113463,
+      "modelId": 11172,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II Platform/Chassis (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 113464,
+      "modelId": 11172,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II Platform/Chassis (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi 4WD",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 55091,
+      "modelId": 10252,
+      "manufacturerName": "ISUZU",
+      "modelName": "D-MAX II (TFR, TFS)",
+      "typeEngineName": "2.5 CRDi 4x4 (TFS86J)",
+      "constructionIntervalStart": "2012-06-01",
+      "constructionIntervalEnd": "2018-12-01"
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "101"
+    },
+    {
+      "criteriaName": "Thread Size",
+      "criteriaValue": "M 26 x 1,5"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "76"
+    },
+    {
+      "criteriaName": "Quantity",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    },
+    {
+      "criteriaName": "Supplementary Article/Info 2",
+      "criteriaValue": "with one anti-return valve"
+    },
+    {
+      "criteriaName": "Bypass Valve Opening Pressure [bar]",
+      "criteriaValue": "1"
+    },
+    {
+      "criteriaName": "Gasket inside diameter [mm]",
+      "criteriaValue": "64"
+    },
+    {
+      "criteriaName": "Gasket outside diameter [mm]",
+      "criteriaValue": "71"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "5-87615-000-0"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "8-98165-071-0"
+    },
+    {
+      "oemBrand": "ISUZU",
+      "oemDisplayNo": "98165071"
+    }
+  ],
+  "ean": "4047026361858",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:32:31.687Z"
+}

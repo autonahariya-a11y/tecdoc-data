@@ -1,0 +1,82 @@
+{
+  "articleNo": "71754237",
+  "articleId": 81064,
+  "supplier": "BOSCH",
+  "product": "Oil Filter",
+  "originalManufacturer": "FIAT",
+  "matchedArticleNo": "0 986 B00 952",
+  "vehicles": [
+    {
+      "vehicleId": 118802,
+      "modelId": 36262,
+      "manufacturerName": "FIAT",
+      "modelName": "TORO (226_)",
+      "typeEngineName": "2.0 D (226.115)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": "2018-12-01"
+    },
+    {
+      "vehicleId": 118803,
+      "modelId": 36262,
+      "manufacturerName": "FIAT",
+      "modelName": "TORO (226_)",
+      "typeEngineName": "2.0 D All-wheel Drive (226.125, 226.175)",
+      "constructionIntervalStart": "2016-01-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 126318,
+      "modelId": 37718,
+      "manufacturerName": "JEEP",
+      "modelName": "COMPASS (MP, M6, MV, M7)",
+      "typeEngineName": "2.0 CRD 4x4",
+      "constructionIntervalStart": "2016-12-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 145656,
+      "modelId": 42487,
+      "manufacturerName": "JEEP",
+      "modelName": "COMMANDER (671_)",
+      "typeEngineName": "2.0 TD380 4WD",
+      "constructionIntervalStart": "2021-10-01",
+      "constructionIntervalEnd": null
+    },
+    {
+      "vehicleId": 107052,
+      "modelId": 13019,
+      "manufacturerName": "JEEP",
+      "modelName": "RENEGADE SUV (BU, B1, BV)",
+      "typeEngineName": "2.0 CRD 4x4",
+      "constructionIntervalStart": "2014-07-01",
+      "constructionIntervalEnd": null
+    }
+  ],
+  "specs": [
+    {
+      "criteriaName": "Height [mm]",
+      "criteriaValue": "103"
+    },
+    {
+      "criteriaName": "Outer Diameter [mm]",
+      "criteriaValue": "72"
+    },
+    {
+      "criteriaName": "Filter type",
+      "criteriaValue": "Spin-on Filter"
+    }
+  ],
+  "oe": [
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "71754237"
+    },
+    {
+      "oemBrand": "FIAT",
+      "oemDisplayNo": "K68103969AA"
+    }
+  ],
+  "ean": "7798336525221",
+  "source": "oem-search",
+  "fetchedAt": "2026-09-13T04:29:40.522Z"
+}
