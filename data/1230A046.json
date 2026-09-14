@@ -1,8 +1,10 @@
 {
-  "articleNo": "0 986 452 063",
+  "articleNo": "1230A046",
   "articleId": 64057,
   "supplier": "BOSCH",
   "product": "Oil Filter",
+  "originalManufacturer": "MITSUBISHI",
+  "matchedArticleNo": "0 986 452 063",
   "vehicles": [
     {
       "vehicleId": 3398,
@@ -263,7 +265,7 @@
     },
     {
       "criteriaName": "Filter type",
-      "criteriaValue": "1"
+      "criteriaValue": "Spin-on Filter"
     },
     {
       "criteriaName": "Bypass Valve Opening Pressure [bar]",
@@ -321,7 +323,6 @@
     }
   ],
   "ean": "3165143140918",
-  "originalSKU": "1230A046",
-  "fetchedAt": "2026-03-17T15:19:15Z",
-  "enrichedVia": "OEM (1230A046)"
+  "source": "oem-search",
+  "fetchedAt": "2026-09-14T06:20:06.770Z"
 }
